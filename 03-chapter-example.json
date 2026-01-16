@@ -1,0 +1,534 @@
+{
+    "schema_version": "1.0.0",
+    "id": "en.grammar.present_perfect.experience",
+    "section_id": "en.grammar.perfect_aspect",
+    "title": "Present Perfect: experience (Have you ever…?)",
+    "title_short": "Present Perfect: experience",
+    "description": "Learn how to talk about life experience without saying an exact time.",
+    "ui_language": "en",
+    "target_language": "en",
+    "level": "B1",
+    "order": 120,
+    "prerequisites": [
+      "en.grammar.past_simple.basics",
+      "en.grammar.present_perfect.form"
+    ],
+    "concept_refs": [
+      "present_perfect_experience",
+      "ever_never_before",
+      "present_perfect_vs_past_simple"
+    ],
+    "learning_objectives": [
+      "Use Present Perfect to talk about experience without an exact time reference.",
+      "Form correct questions with Have you ever…? and give short answers.",
+      "Choose Present Perfect vs Past Simple using clear decision rules (time mentioned vs not).",
+      "Use ever/never/before naturally."
+    ],
+    "estimated_minutes": 22,
+    "blocks": [
+      {
+        "id": "b1_theory_experience_meaning",
+        "type": "theory",
+        "title": "Core idea: experience without an exact time",
+        "theory": {
+          "concept_id": "present_perfect_experience",
+          "content_md": "We often use **Present Perfect (have/has + V3)** to talk about **life experience** when we **do not say exactly when** something happened.\n\nA useful decision question is: **“Is the exact time important or stated?”**\n- If **yes** (yesterday, in 2020, last week) → we usually use **Past Simple**.\n- If **no** (life experience, “at some point”) → we often use **Present Perfect**.\n\nA very common pattern is:\n- **Have you ever…?** (experience question)\n- **I’ve never…** (negative experience)",
+          "key_points": [
+            "Experience = at some point in your life (no exact time)",
+            "Common markers: ever, never, before",
+            "If a specific time is mentioned → usually Past Simple"
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "Have you ever went to Rome?",
+              "right": "Have you ever been to Rome?",
+              "why": "After have/has you need the past participle (V3). For visiting a place as experience, we often use been to."
+            },
+            {
+              "wrong": "I have seen him yesterday.",
+              "right": "I saw him yesterday.",
+              "why": "With an exact time like yesterday, we typically use Past Simple."
+            },
+            {
+              "wrong": "I haven’t never tried sushi.",
+              "right": "I’ve never tried sushi. / I haven’t tried sushi.",
+              "why": "Never is already negative. Using haven’t + never creates a double negative."
+            }
+          ],
+          "examples": [
+            {
+              "id": "ex1",
+              "text": "Have you ever tried sushi?",
+              "translation": "Have you ever tried sushi?",
+              "notes": "Experience question; no time mentioned.",
+              "tags": ["question", "ever"]
+            },
+            {
+              "id": "ex2",
+              "text": "I’ve never ridden a horse.",
+              "translation": "I’ve never ridden a horse.",
+              "tags": ["never"]
+            },
+            {
+              "id": "ex3",
+              "text": "She has been to Spain three times.",
+              "translation": "She has been to Spain three times.",
+              "notes": "Number of times is OK; exact time is not needed.",
+              "tags": ["been_to", "frequency"]
+            },
+            {
+              "id": "ex4",
+              "text": "Did you go to Spain in 2023?",
+              "translation": "Did you go to Spain in 2023?",
+              "notes": "Specific year → Past Simple.",
+              "tags": ["contrast_past_simple"]
+            }
+          ]
+        }
+      },
+      {
+        "id": "b2_quiz_after_meaning",
+        "type": "quiz_inline",
+        "title": "Quick check: do you get the idea?",
+        "quiz_inline": {
+          "question_ids": ["q1", "q2", "q3", "q4", "q8", "q9"],
+          "show_answers_immediately": true
+        }
+      },
+      {
+        "id": "b3_theory_markers",
+        "type": "theory",
+        "title": "Markers: ever / never / before (experience language)",
+        "theory": {
+          "concept_id": "ever_never_before",
+          "content_md": "**ever** is most common in questions:\n- *Have you ever…?*\n\n**never** expresses negative experience:\n- *I’ve never…*\n\n**before** often highlights experience:\n- *I’ve seen this movie before.*",
+          "key_points": [
+            "ever is common in experience questions",
+            "never is negative by itself (avoid double negatives)",
+            "before can emphasize past experience (without exact time)"
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "I didn’t never do it.",
+              "right": "I never did it. / I didn’t do it.",
+              "why": "Avoid double negatives. Use never OR didn’t, not both."
+            }
+          ],
+          "examples": [
+            {
+              "id": "ex5",
+              "text": "Have you ever met a famous person?",
+              "translation": "Have you ever met a famous person?",
+              "tags": ["ever"]
+            },
+            {
+              "id": "ex6",
+              "text": "We’ve been here before.",
+              "translation": "We’ve been here before.",
+              "tags": ["before"]
+            },
+            {
+              "id": "ex7",
+              "text": "I’ve never seen snow in real life.",
+              "translation": "I’ve never seen snow in real life.",
+              "tags": ["never"]
+            }
+          ]
+        }
+      },
+      {
+        "id": "b4_quiz_after_markers",
+        "type": "quiz_inline",
+        "title": "Mini-quiz: markers",
+        "quiz_inline": {
+          "question_ids": ["q5", "q6", "q7", "q10", "q11"],
+          "show_answers_immediately": true
+        }
+      },
+      {
+        "id": "b5_theory_present_perfect_vs_past_simple",
+        "type": "theory",
+        "title": "Decision rule: Present Perfect vs Past Simple",
+        "theory": {
+          "concept_id": "present_perfect_vs_past_simple",
+          "content_md": "A practical rule:\n\nUse **Past Simple** when you talk about a finished event in the past and **the time is stated or understood as specific**:\n- *I visited Rome in 2020.*\n\nUse **Present Perfect** when the exact time is **not** stated and the focus is on experience or “up to now”:\n- *I’ve visited Rome.* (at some point)\n\nCommon trap:\n- *I’ve visited Rome yesterday* ❌ (yesterday = specific time → Past Simple)\n\nTip: if you can answer **“When exactly?”** with a specific time phrase, Past Simple is often the safe choice.",
+          "key_points": [
+            "Specific time → Past Simple",
+            "No exact time (experience) → Present Perfect",
+            "‘yesterday / last week / in 2019’ almost always push you to Past Simple"
+          ],
+          "common_mistakes": [
+            {
+              "wrong": "I’ve been there last summer.",
+              "right": "I was there last summer.",
+              "why": "Last summer is a specific time period → Past Simple."
+            }
+          ],
+          "examples": [
+            {
+              "id": "ex8",
+              "text": "I’ve tried bungee jumping once.",
+              "translation": "I’ve tried bungee jumping once.",
+              "notes": "Experience; no exact time.",
+              "tags": ["experience"]
+            },
+            {
+              "id": "ex9",
+              "text": "I tried bungee jumping last year.",
+              "translation": "I tried bungee jumping last year.",
+              "notes": "Specific time → Past Simple.",
+              "tags": ["past_simple_time_marker"]
+            }
+          ]
+        }
+      },
+      {
+        "id": "b6_quiz_after_decision_rule",
+        "type": "quiz_inline",
+        "title": "Mini-quiz: choose the tense",
+        "quiz_inline": {
+          "question_ids": ["q12", "q13", "q14", "q15", "q16"],
+          "show_answers_immediately": true
+        }
+      }
+    ],
+    "question_bank": {
+      "questions": [
+        {
+          "id": "q1",
+          "type": "mcq_single",
+          "prompt": "Choose the correct option: **___ you ever ___ sushi?**",
+          "theory_block_id": "b1_theory_experience_meaning",
+          "difficulty": 2,
+          "choices": [
+            { "id": "a", "text": "Did / try", "feedback": "Did + V1 usually describes a specific past event." },
+            { "id": "b", "text": "Have / tried", "feedback": "Yes: Have + V3 is a standard experience question." },
+            { "id": "c", "text": "Have / try", "feedback": "After have you need V3 (past participle)." },
+            { "id": "d", "text": "Were / trying", "feedback": "Different structure; not for experience questions." }
+          ],
+          "correct_answer": "b",
+          "explanation": "For experience questions we use Present Perfect: **Have you ever + V3** → Have you ever tried…?"
+        },
+        {
+          "id": "q2",
+          "type": "mcq_single",
+          "prompt": "Which sentence sounds natural with **yesterday**?\n\n1) I have seen her yesterday.\n2) I saw her yesterday.",
+          "theory_block_id": "b1_theory_experience_meaning",
+          "difficulty": 2,
+          "choices": [
+            { "id": "a", "text": "1", "feedback": "Present Perfect usually doesn’t go with specific time markers like yesterday." },
+            { "id": "b", "text": "2", "feedback": "Correct: Past Simple is standard with yesterday." }
+          ],
+          "correct_answer": "b",
+          "explanation": "With a specific time (yesterday, in 2020), we usually use **Past Simple**: **I saw her yesterday.**"
+        },
+        {
+          "id": "q3",
+          "type": "fill_blank",
+          "prompt": "Fill in the blank: **She has ___ to Italy.** (meaning: she has visited Italy as life experience)",
+          "theory_block_id": "b1_theory_experience_meaning",
+          "difficulty": 3,
+          "correct_answer": "been",
+          "explanation": "For visiting a place as experience, we commonly use **has been to**."
+        },
+        {
+          "id": "q4",
+          "type": "error_spotting",
+          "prompt": "Find the mistake and choose the best correction:\n\n**Have you ever went to Rome?**",
+          "theory_block_id": "b1_theory_experience_meaning",
+          "difficulty": 3,
+          "choices": [
+            { "id": "a", "text": "Have you ever gone to Rome?", "feedback": "Possible in some contexts, but ‘been to’ is the standard for visiting as experience." },
+            { "id": "b", "text": "Have you ever been to Rome?", "feedback": "Best standard option for experience of visiting a place." },
+            { "id": "c", "text": "Did you ever went to Rome?", "feedback": "With did, use base form: go. Also this shifts to Past Simple." }
+          ],
+          "correct_answer": "b",
+          "explanation": "After have/has we need V3. For visiting a place as experience: **Have you ever been to Rome?**"
+        },
+  
+        {
+          "id": "q5",
+          "type": "mcq_single",
+          "prompt": "Choose the sentence without a double negative:\n\nA) I haven’t never tried kimchi.\nB) I’ve never tried kimchi.",
+          "theory_block_id": "b3_theory_markers",
+          "difficulty": 2,
+          "choices": [
+            { "id": "a", "text": "A", "feedback": "Never is already negative, so haven’t + never is a double negative." },
+            { "id": "b", "text": "B", "feedback": "Correct: never already expresses negation." }
+          ],
+          "correct_answer": "b",
+          "explanation": "Never already carries negation, so **I’ve never tried…** is correct."
+        },
+        {
+          "id": "q6",
+          "type": "reorder",
+          "prompt": "Reorder the words to make a correct question:\n\n**ever / you / have / met / a celebrity**",
+          "theory_block_id": "b3_theory_markers",
+          "difficulty": 2,
+          "correct_answer": "Have you ever met a celebrity?",
+          "explanation": "Experience question word order: **Have + subject + ever + past participle/base** → Have you ever met…?"
+        },
+        {
+          "id": "q7",
+          "type": "true_false",
+          "prompt": "True or False: **Have you ever…?** always requires an exact date.",
+          "theory_block_id": "b3_theory_markers",
+          "difficulty": 1,
+          "correct_answer": "false",
+          "explanation": "Experience questions are typically used **without** exact time. The focus is on whether it happened at any time in your life."
+        },
+  
+        {
+          "id": "q8",
+          "type": "mcq_single",
+          "prompt": "Choose the best answer:\n\n**Have you ever ___ a horse?**",
+          "theory_block_id": "b1_theory_experience_meaning",
+          "difficulty": 2,
+          "choices": [
+            { "id": "a", "text": "ride", "feedback": "After have/has you need V3." },
+            { "id": "b", "text": "rode", "feedback": "This is Past Simple (V2), not V3." },
+            { "id": "c", "text": "ridden", "feedback": "Correct: ridden is V3 of ride." },
+            { "id": "d", "text": "riding", "feedback": "Not the standard form here." }
+          ],
+          "correct_answer": "c",
+          "explanation": "Present Perfect uses **have + V3**: ridden is the past participle of ride."
+        },
+        {
+          "id": "q9",
+          "type": "mcq_single",
+          "prompt": "Which question is an **experience** question?\n\nA) Did you go to Spain in 2023?\nB) Have you ever been to Spain?",
+          "theory_block_id": "b1_theory_experience_meaning",
+          "difficulty": 1,
+          "choices": [
+            { "id": "a", "text": "A", "feedback": "Specific time (in 2023) → Past Simple, not a general experience question." },
+            { "id": "b", "text": "B", "feedback": "Correct: ‘ever’ + Present Perfect asks about life experience." }
+          ],
+          "correct_answer": "b",
+          "explanation": "Experience questions typically use **Have you ever + V3** with no exact time reference."
+        },
+        {
+          "id": "q10",
+          "type": "fill_blank",
+          "prompt": "Fill in the blank:\n\n**I’ve ___ seen that movie before.**",
+          "theory_block_id": "b3_theory_markers",
+          "difficulty": 2,
+          "correct_answer": "never",
+          "explanation": "Never is commonly used in Present Perfect to express negative experience: **I’ve never…**"
+        },
+        {
+          "id": "q11",
+          "type": "mcq_single",
+          "prompt": "Choose the best sentence:\n\nA) I’ve been there before.\nB) I’ve been there yesterday.",
+          "theory_block_id": "b3_theory_markers",
+          "difficulty": 2,
+          "choices": [
+            { "id": "a", "text": "A", "feedback": "Correct: before does not specify an exact time." },
+            { "id": "b", "text": "B", "feedback": "Yesterday is a specific time marker → Past Simple is needed." }
+          ],
+          "correct_answer": "a",
+          "explanation": "Before fits experience (no exact time). Yesterday is specific, so Present Perfect is not the usual choice."
+        },
+  
+        {
+          "id": "q12",
+          "type": "mcq_single",
+          "prompt": "Choose the more natural option:\n\nA) I’ve visited Paris in 2019.\nB) I visited Paris in 2019.",
+          "theory_block_id": "b5_theory_present_perfect_vs_past_simple",
+          "difficulty": 2,
+          "choices": [
+            { "id": "a", "text": "A", "feedback": "2019 is a specific time → Past Simple is standard." },
+            { "id": "b", "text": "B", "feedback": "Correct: specific time (in 2019) → Past Simple." }
+          ],
+          "correct_answer": "b",
+          "explanation": "With a specific time expression like **in 2019**, use Past Simple: **I visited Paris in 2019.**"
+        },
+        {
+          "id": "q13",
+          "type": "mcq_single",
+          "prompt": "Choose the best sentence for **life experience** (no exact time):\n\nA) I went skydiving last summer.\nB) I’ve been skydiving.",
+          "theory_block_id": "b5_theory_present_perfect_vs_past_simple",
+          "difficulty": 2,
+          "choices": [
+            { "id": "a", "text": "A", "feedback": "Last summer is a specific time → Past Simple." },
+            { "id": "b", "text": "B", "feedback": "Correct for general experience without stating when." }
+          ],
+          "correct_answer": "b",
+          "explanation": "Without an exact time, Present Perfect is often used to talk about experience: **I’ve been skydiving.**"
+        },
+        {
+          "id": "q14",
+          "type": "error_spotting",
+          "prompt": "Choose the best correction:\n\n**I’ve met him two days ago.**",
+          "theory_block_id": "b5_theory_present_perfect_vs_past_simple",
+          "difficulty": 3,
+          "choices": [
+            { "id": "a", "text": "I met him two days ago.", "feedback": "Correct: ‘two days ago’ is a specific time marker." },
+            { "id": "b", "text": "I’ve met him before.", "feedback": "This changes meaning: experience, not a specific time." },
+            { "id": "c", "text": "I’ve been meeting him two days ago.", "feedback": "Incorrect structure and meaning." }
+          ],
+          "correct_answer": "a",
+          "explanation": "‘Two days ago’ is a specific time reference, so Past Simple is the natural choice: **I met him two days ago.**"
+        },
+        {
+          "id": "q15",
+          "type": "mcq_single",
+          "prompt": "Pick the best option:\n\nA) Have you ever been to London?\nB) Did you ever been to London?",
+          "theory_block_id": "b5_theory_present_perfect_vs_past_simple",
+          "difficulty": 2,
+          "choices": [
+            { "id": "a", "text": "A", "feedback": "Correct: standard experience question form." },
+            { "id": "b", "text": "B", "feedback": "With did you need base form (be), and this is not the standard pattern for experience." }
+          ],
+          "correct_answer": "a",
+          "explanation": "The standard experience question is **Have you ever + V3**: Have you ever been…?"
+        },
+        {
+          "id": "q16",
+          "type": "fill_blank",
+          "prompt": "Fill in the blank (choose the tense):\n\n**I ___ (see) that movie last night.**",
+          "theory_block_id": "b5_theory_present_perfect_vs_past_simple",
+          "difficulty": 2,
+          "correct_answer": "saw",
+          "explanation": "‘Last night’ is a specific time marker, so we use Past Simple: **I saw that movie last night.**"
+        },
+  
+        {
+          "id": "q17",
+          "type": "mcq_single",
+          "prompt": "Choose the best sentence (experience, no exact time):\n\nA) I’ve eaten Thai food.\nB) I ate Thai food yesterday.",
+          "theory_block_id": "b5_theory_present_perfect_vs_past_simple",
+          "difficulty": 2,
+          "choices": [
+            { "id": "a", "text": "A", "feedback": "Correct: experience without time." },
+            { "id": "b", "text": "B", "feedback": "This is correct English, but it’s not the “no time” experience meaning." }
+          ],
+          "correct_answer": "a",
+          "explanation": "If you mean “at some point in my life”, Present Perfect is common: **I’ve eaten Thai food.**"
+        },
+        {
+          "id": "q18",
+          "type": "true_false",
+          "prompt": "True or False: You can use Present Perfect with **last week** in standard usage.",
+          "theory_block_id": "b5_theory_present_perfect_vs_past_simple",
+          "difficulty": 2,
+          "correct_answer": "false",
+          "explanation": "‘Last week’ is a finished, specific time period, so Past Simple is typically used."
+        },
+        {
+          "id": "q19",
+          "type": "reorder",
+          "prompt": "Reorder to make a correct sentence:\n\n**never / I / have / seen / that / before**",
+          "theory_block_id": "b3_theory_markers",
+          "difficulty": 2,
+          "correct_answer": "I have never seen that before.",
+          "explanation": "Standard word order: subject + have + never + V3 + object + before."
+        },
+        {
+          "id": "q20",
+          "type": "mcq_single",
+          "prompt": "Choose the best option:\n\n**She has ___ three countries.**",
+          "theory_block_id": "b1_theory_experience_meaning",
+          "difficulty": 2,
+          "choices": [
+            { "id": "a", "text": "visit", "feedback": "After has you need V3." },
+            { "id": "b", "text": "visited", "feedback": "Correct: visited is V3/V-ed form." },
+            { "id": "c", "text": "visiting", "feedback": "Not the standard form here." }
+          ],
+          "correct_answer": "b",
+          "explanation": "Present Perfect uses **has + V3**: **has visited**."
+        },
+        {
+          "id": "q21",
+          "type": "error_spotting",
+          "prompt": "Choose the best correction:\n\n**I’ve never went there.**",
+          "theory_block_id": "b1_theory_experience_meaning",
+          "difficulty": 3,
+          "choices": [
+            { "id": "a", "text": "I’ve never gone there.", "feedback": "V3 is needed; gone is V3 of go." },
+            { "id": "b", "text": "I never went there.", "feedback": "Possible (Past Simple style), but it changes the feel and often implies a specific past period." },
+            { "id": "c", "text": "I’ve never been there.", "feedback": "Also correct, and very common for “I have not visited that place”." }
+          ],
+          "correct_answer": "c",
+          "explanation": "After have/has we need V3. For place experience, **I’ve never been there** is very natural."
+        },
+        {
+          "id": "q22",
+          "type": "mcq_multi",
+          "prompt": "Select ALL sentences that are natural for **experience (no exact time)**:",
+          "theory_block_id": "b5_theory_present_perfect_vs_past_simple",
+          "difficulty": 4,
+          "choices": [
+            { "id": "a", "text": "I’ve been to Berlin.", "feedback": "Experience, no time → Present Perfect fits." },
+            { "id": "b", "text": "I went to Berlin in 2022.", "feedback": "Specific year → Past Simple (not an experience-without-time example)." },
+            { "id": "c", "text": "Have you ever tried scuba diving?", "feedback": "Standard experience question." },
+            { "id": "d", "text": "I’ve met her yesterday.", "feedback": "Yesterday is specific time → Past Simple is needed." }
+          ],
+          "correct_answer": ["a", "c"],
+          "explanation": "Experience without exact time typically uses Present Perfect. Specific time markers (in 2022, yesterday) usually require Past Simple."
+        },
+        {
+          "id": "q23",
+          "type": "fill_blank",
+          "prompt": "Fill in the blank:\n\n**Have you ever ___ (be) to Japan?**",
+          "theory_block_id": "b1_theory_experience_meaning",
+          "difficulty": 2,
+          "correct_answer": "been",
+          "explanation": "Experience of visiting a place: **Have you ever been to…?**"
+        },
+        {
+          "id": "q24",
+          "type": "mcq_single",
+          "prompt": "Choose the best reply:\n\nQ: **Have you ever tried Indian food?**\nA) Yes, I did.\nB) Yes, I have.",
+          "theory_block_id": "b1_theory_experience_meaning",
+          "difficulty": 2,
+          "choices": [
+            { "id": "a", "text": "A", "feedback": "Possible in some contexts, but the standard short answer matches the auxiliary: have/has." },
+            { "id": "b", "text": "B", "feedback": "Correct standard short answer for Present Perfect questions." }
+          ],
+          "correct_answer": "b",
+          "explanation": "Short answers usually repeat the auxiliary: **Have you…? → Yes, I have. / No, I haven’t.**"
+        }
+      ]
+    },
+    "chapter_test": {
+      "num_questions": 10,
+      "pool_question_ids": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6",
+        "q7",
+        "q8",
+        "q9",
+        "q10",
+        "q11",
+        "q12",
+        "q13",
+        "q14",
+        "q15",
+        "q16",
+        "q17",
+        "q18",
+        "q19",
+        "q20",
+        "q21",
+        "q22",
+        "q23",
+        "q24"
+      ],
+      "selection_strategy": {
+        "type": "stratified_by_theory_block",
+        "min_per_theory_block": 1,
+        "avoid_recent_window": 30,
+        "difficulty_mix": { "easy": 3, "medium": 5, "hard": 2 }
+      }
+    },
+    "meta": {
+      "version": "2026.01.16",
+      "updated_at": "2026-01-16T00:00:00Z",
+      "source": "llm"
+    }
+  }
+  
