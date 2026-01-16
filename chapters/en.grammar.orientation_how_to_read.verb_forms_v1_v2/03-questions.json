@@ -44,11 +44,11 @@
     {
       "id": "q3",
       "type": "true_false",
-      "prompt": "Верно ли, что знание форм V1, V2, V3 необходимо для правильного использования английских времен?",
+      "prompt": "Верно ли, что можно использовать V1 вместо V2 для прошедшего времени?",
       "theory_block_id": "b1_theory_what_are_v1_v2_v3",
       "difficulty": 3,
-      "correct_answer": "true",
-      "explanation": "Верно. Знание трех форм глагола (V1, V2, V3) необходимо для правильного использования времен: V1 для настоящего, V2 для прошедшего, V3 для Present Perfect и пассивного залога.",
+      "correct_answer": "false",
+      "explanation": "Неверно. Для прошедшего времени нужно использовать V2, а не V1. Например: \"I went\" (не \"I go\") для прошедшего времени.",
       "tags": [
         "v3"
       ]
@@ -56,7 +56,7 @@
     {
       "id": "q4",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b1_theory_what_are_v1_v2_v3",
       "difficulty": 2,
       "correct_answer": "I go to school every day.",
@@ -121,7 +121,7 @@
     {
       "id": "q8",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b1_theory_what_are_v1_v2_v3",
       "difficulty": 3,
       "correct_answer": "I went to school yesterday.",
@@ -174,11 +174,11 @@
     {
       "id": "q11",
       "type": "true_false",
-      "prompt": "Верно ли, что V1 — это форма, которую можно найти в словаре?",
+      "prompt": "Верно ли, что V2 и V3 тоже можно найти в словаре рядом с V1?",
       "theory_block_id": "b1_theory_what_are_v1_v2_v3",
       "difficulty": 2,
-      "correct_answer": "true",
-      "explanation": "Верно. V1 — это базовая форма глагола, та самая форма, которую вы найдете в словаре (например: go, see, do).",
+      "correct_answer": "false",
+      "explanation": "Неверно. В словаре обычно указывается только V1 (базовая форма). V2 и V3 нужно запоминать отдельно, особенно для неправильных глаголов.",
       "tags": [
         "v3"
       ]
@@ -186,7 +186,7 @@
     {
       "id": "q12",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b1_theory_what_are_v1_v2_v3",
       "difficulty": 4,
       "correct_answer": "I have gone to London.",
@@ -239,11 +239,11 @@
     {
       "id": "q15",
       "type": "true_false",
-      "prompt": "Верно ли, что после do/does всегда используется V1 без -s?",
+      "prompt": "Верно ли, что после do/does нужно использовать V1 с -s для he/she/it?",
       "theory_block_id": "b2_theory_v1_base_form",
       "difficulty": 3,
-      "correct_answer": "true",
-      "explanation": "Верно. После do/does всегда используется V1 без -s. Например: \"Do you go?\" (не \"Do you goes?\"), \"Does he go?\" (не \"Does he goes?\").",
+      "correct_answer": "false",
+      "explanation": "Неверно. После do/does всегда используется V1 без -s, независимо от местоимения. Правильно: \"Does he go?\" (не \"Does he goes?\").",
       "tags": [
         "form"
       ]
@@ -251,7 +251,7 @@
     {
       "id": "q16",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b2_theory_v1_base_form",
       "difficulty": 2,
       "correct_answer": "I go to work every day.",
@@ -316,7 +316,7 @@
     {
       "id": "q20",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b2_theory_v1_base_form",
       "difficulty": 3,
       "correct_answer": "Do you see that?",
@@ -381,7 +381,7 @@
     {
       "id": "q24",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b2_theory_v1_base_form",
       "difficulty": 4,
       "correct_answer": "I don't see anything.",
@@ -434,11 +434,11 @@
     {
       "id": "q27",
       "type": "true_false",
-      "prompt": "Верно ли, что V2 одинаково для всех местоимений (I, you, he, she, it, we, they)?",
+      "prompt": "Верно ли, что для he/she/it в прошедшем времени нужно добавлять -s к V2?",
       "theory_block_id": "b3_theory_v2_past_form",
       "difficulty": 3,
-      "correct_answer": "true",
-      "explanation": "Верно. V2 одинаково для всех местоимений. Например: \"I went\", \"he went\", \"they went\" — форма не меняется.",
+      "correct_answer": "false",
+      "explanation": "Неверно. V2 одинаково для всех местоимений, без добавления -s. Например: \"I went\", \"he went\", \"she went\" — форма не меняется.",
       "tags": [
         "form"
       ]
@@ -446,7 +446,7 @@
     {
       "id": "q28",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b3_theory_v2_past_form",
       "difficulty": 2,
       "correct_answer": "I went to school yesterday.",
@@ -511,7 +511,7 @@
     {
       "id": "q32",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b3_theory_v2_past_form",
       "difficulty": 3,
       "correct_answer": "I didn't see him.",
@@ -564,11 +564,11 @@
     {
       "id": "q35",
       "type": "true_false",
-      "prompt": "Верно ли, что правильные глаголы образуют V2 добавлением -ed?",
+      "prompt": "Верно ли, что все глаголы образуют V2 добавлением -ed?",
       "theory_block_id": "b3_theory_v2_past_form",
       "difficulty": 2,
-      "correct_answer": "true",
-      "explanation": "Верно. Правильные глаголы образуют V2 добавлением -ed: work → worked, play → played. Неправильные глаголы меняют форму: go → went, see → saw.",
+      "correct_answer": "false",
+      "explanation": "Неверно. Только правильные глаголы образуют V2 добавлением -ed (work → worked). Неправильные глаголы меняют форму: go → went (не \"goed\"), see → saw (не \"seed\").",
       "tags": [
         "form"
       ]
@@ -576,7 +576,7 @@
     {
       "id": "q36",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b3_theory_v2_past_form",
       "difficulty": 4,
       "correct_answer": "We worked hard yesterday.",
@@ -629,11 +629,11 @@
     {
       "id": "q39",
       "type": "true_false",
-      "prompt": "Верно ли, что V3 используется в пассивном залоге?",
+      "prompt": "Верно ли, что в пассивном залоге используется V2?",
       "theory_block_id": "b4_theory_v3_past_participle",
       "difficulty": 3,
-      "correct_answer": "true",
-      "explanation": "Верно. V3 используется в пассивном залоге. Например: \"It is done\", \"The book was written\". В пассивном залоге используется be + V3.",
+      "correct_answer": "false",
+      "explanation": "Неверно. В пассивном залоге используется V3, а не V2. Например: \"It is done\" (не \"It is did\"), \"The book was written\" (не \"The book was wrote\").",
       "tags": [
         "participle"
       ]
@@ -641,7 +641,7 @@
     {
       "id": "q40",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b4_theory_v3_past_participle",
       "difficulty": 2,
       "correct_answer": "I have gone to London.",
@@ -706,7 +706,7 @@
     {
       "id": "q44",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b4_theory_v3_past_participle",
       "difficulty": 3,
       "correct_answer": "The work is done.",
@@ -759,11 +759,11 @@
     {
       "id": "q47",
       "type": "true_false",
-      "prompt": "Верно ли, что правильные глаголы имеют одинаковые V2 и V3 (оба с -ed)?",
+      "prompt": "Верно ли, что все глаголы имеют одинаковые V2 и V3?",
       "theory_block_id": "b4_theory_v3_past_participle",
       "difficulty": 2,
-      "correct_answer": "true",
-      "explanation": "Верно. Правильные глаголы имеют одинаковые V2 и V3 (оба с -ed): work → worked (V2) → worked (V3). Неправильные глаголы часто имеют разные V2 и V3: go → went (V2) → gone (V3).",
+      "correct_answer": "false",
+      "explanation": "Неверно. Только правильные глаголы имеют одинаковые V2 и V3 (work → worked → worked). Неправильные глаголы часто имеют разные формы: go → went (V2) → gone (V3), see → saw (V2) → seen (V3).",
       "tags": [
         "participle"
       ]
@@ -771,7 +771,7 @@
     {
       "id": "q48",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b4_theory_v3_past_participle",
       "difficulty": 4,
       "correct_answer": "I had gone home before he arrived.",
@@ -807,11 +807,11 @@
     {
       "id": "q51",
       "type": "true_false",
-      "prompt": "Верно ли, что знание V1, V2, V3 помогает в понимании грамматических конструкций?",
+      "prompt": "Верно ли, что для понимания грамматических конструкций не нужно знать V1, V2, V3?",
       "theory_block_id": "b5_theory_why_it_matters",
       "difficulty": 3,
-      "correct_answer": "true",
-      "explanation": "Верно. Знание трех форм глагола помогает понять различные грамматические конструкции: have + V3 (Present Perfect), be + V3 (пассивный залог), и другие.",
+      "correct_answer": "false",
+      "explanation": "Неверно. Знание трех форм глагола необходимо для понимания грамматических конструкций: have + V3 (Present Perfect), be + V3 (пассивный залог), и других.",
       "tags": [
         "matters"
       ]
@@ -819,7 +819,7 @@
     {
       "id": "q52",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b5_theory_why_it_matters",
       "difficulty": 2,
       "correct_answer": "Understanding V1/V2/V3 helps with all tenses.",
@@ -855,11 +855,11 @@
     {
       "id": "q55",
       "type": "true_false",
-      "prompt": "Верно ли, что понимание V1/V2/V3 помогает запомнить формы неправильных глаголов?",
+      "prompt": "Верно ли, что можно игнорировать неправильные глаголы и использовать только правильные?",
       "theory_block_id": "b5_theory_why_it_matters",
       "difficulty": 1,
-      "correct_answer": "true",
-      "explanation": "Верно. Понимание системы V1/V2/V3 помогает систематизировать и запомнить формы неправильных глаголов. Например: go → went → gone, see → saw → seen.",
+      "correct_answer": "false",
+      "explanation": "Неверно. Неправильные глаголы очень часто используются в английском языке (go, see, do, be, have и др.), и их нужно запоминать. Понимание системы V1/V2/V3 помогает их систематизировать.",
       "tags": [
         "matters"
       ]
@@ -867,7 +867,7 @@
     {
       "id": "q56",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b5_theory_why_it_matters",
       "difficulty": 3,
       "correct_answer": "Understanding forms helps with reading and comprehension.",
@@ -915,7 +915,7 @@
     {
       "id": "q60",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b5_theory_why_it_matters",
       "difficulty": 4,
       "correct_answer": "This is preparation for studying complex topics.",

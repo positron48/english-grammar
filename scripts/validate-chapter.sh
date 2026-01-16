@@ -199,6 +199,19 @@ for q in chapter['question_bank']['questions']:
                 'suggested_fix': 'Изменить correct_answer на строку'
             })
             errors += 1
+        else:
+            # Проверка fill_blank: correct_answer должен быть одним словом (допускается апостроф)
+            correct_normalized = correct_answer.strip()
+            # Проверяем, что это одно слово (могут быть буквы, цифры, апострофы, дефисы в пределах слова)
+            if re.search(r'\s', correct_normalized):
+                issues.append({
+                    'severity': 'error',
+                    'category': 'content',
+                    'message': f"Question {qid}: correct_answer для fill_blank должен быть одним словом, найдено: '{correct_answer}'",
+                    'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}].correct_answer",
+                    'suggested_fix': f"Изменить correct_answer на одно слово. Если нужны несколько пропусков, создайте несколько вопросов или используйте другой тип вопроса."
+                })
+                errors += 1
         
         # Проверка fill_blank: обязательные скобки в конце prompt со словами для подстановки
         prompt = q.get('prompt', '')
@@ -261,15 +274,16 @@ for q in chapter['question_bank']['questions']:
             })
             errors += 1
         
-        # Проверка reorder: запрет квадратных скобок со списком слов в prompt
-        prompt = q.get('prompt', '')
-        if re.search(r'\[.*\]', prompt):
+        # Проверка reorder: prompt должен быть точно "Расставьте слова в правильном порядке:"
+        prompt = q.get('prompt', '').strip()
+        expected_prompt = "Расставьте слова в правильном порядке:"
+        if prompt != expected_prompt:
             issues.append({
                 'severity': 'error',
                 'category': 'content',
-                'message': f"Question {qid}: reorder не должен содержать квадратные скобки со списком слов в prompt. Все слова должны браться из correct_answer.",
+                'message': f"Question {qid}: reorder должен иметь prompt точно '{expected_prompt}'. Найдено: '{prompt}'. Слова должны браться из correct_answer, а не перечисляться в prompt.",
                 'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}].prompt",
-                'suggested_fix': 'Убрать квадратные скобки со списком слов. Использовать только текст задания без списка слов.'
+                'suggested_fix': f"Изменить prompt на '{expected_prompt}'. Убрать перечисление слов из prompt."
             })
             errors += 1
 
@@ -347,6 +361,28 @@ for q in chapter['question_bank']['questions']:
     block_id = q.get('theory_block_id')
     if block_id:
         questions_per_block[block_id] = questions_per_block.get(block_id, 0) + 1
+
+# Проверка баланса true_false вопросов (50±10% должны быть true)
+true_false_questions = [q for q in chapter['question_bank']['questions'] if q['type'] == 'true_false']
+if len(true_false_questions) > 0:
+    true_count = sum(1 for q in true_false_questions if q.get('correct_answer') == 'true')
+    false_count = sum(1 for q in true_false_questions if q.get('correct_answer') == 'false')
+    total_tf = len(true_false_questions)
+    true_percentage = (true_count / total_tf) * 100 if total_tf > 0 else 0
+    
+    # Допустимый диапазон: 40-60% (50±10%)
+    min_percentage = 40
+    max_percentage = 60
+    
+    if true_percentage < min_percentage or true_percentage > max_percentage:
+        issues.append({
+            'severity': 'warning',
+            'category': 'methodological',
+            'message': f"Несбалансированные true_false вопросы: {true_count} true ({true_percentage:.1f}%) и {false_count} false ({100-true_percentage:.1f}%). Должно быть 50±10% (40-60%) вопросов с correct_answer 'true'.",
+            'location': 'question_bank.questions (true_false)',
+            'suggested_fix': f"Изменить correct_answer некоторых true_false вопросов. Сейчас true: {true_count}, false: {false_count}. Нужно примерно равное количество."
+        })
+        warnings += 1
 
 # Формируем результат
 result = {

@@ -290,20 +290,20 @@
       {
         "id": "q3",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск. Выберите правильный порядок слов:\n\n**___ reads ___ book.** (подлежащее / артикль)",
+        "prompt": "Заполните пропуск:\n\n**___ reads a book.** (кто)",
         "theory_block_id": "b1_theory_basic_structure",
         "difficulty": 2,
-        "correct_answer": "He / a",
-        "explanation": "Правильный порядок: подлежащее (He) → сказуемое (reads) → дополнение (a book). В английском строгий порядок слов.",
+        "correct_answer": "He",
+        "explanation": "Правильный ответ: He. Подлежащее стоит в начале предложения перед сказуемым (reads).",
         "tags": [
-          "word_order",
+          "subject",
           "svo"
         ]
       },
       {
         "id": "q4",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:\n\nbook / I / read / a",
+        "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b1_theory_basic_structure",
         "difficulty": 2,
         "correct_answer": "I read a book.",
@@ -402,7 +402,7 @@
       {
         "id": "q9",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:\n\nfriend / is / my / She",
+        "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b2_theory_subject",
         "difficulty": 2,
         "correct_answer": "She is my friend.",
@@ -501,7 +501,7 @@
       {
         "id": "q14",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:\n\nplays / football / He",
+        "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b3_theory_verb",
         "difficulty": 2,
         "correct_answer": "He plays football.",
@@ -600,7 +600,7 @@
       {
         "id": "q19",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:\n\nEnglish / speak / Do / you",
+        "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b4_theory_object",
         "difficulty": 2,
         "correct_answer": "Do you speak English?",
@@ -656,11 +656,11 @@
       {
         "id": "q22",
         "type": "fill_blank",
-        "prompt": "Заполните пропуски в правильном порядке:\n\n**___ doesn't like ___.** (местоимение / еда)",
+        "prompt": "Заполните пропуск:\n\n**___ doesn't like pizza.** (местоимение)",
         "theory_block_id": "b5_theory_practice",
         "difficulty": 2,
-        "correct_answer": "He / pizza",
-        "explanation": "Правильный порядок: подлежащее (He) → сказуемое (doesn't like) → дополнение (pizza).",
+        "correct_answer": "He",
+        "explanation": "Правильный ответ: He. Подлежащее стоит в начале предложения перед сказуемым (doesn't like).",
         "tags": [
           "practice",
           "word_order"
@@ -669,7 +669,7 @@
       {
         "id": "q23",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:\n\nTV / don't / watch / They",
+        "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b5_theory_practice",
         "difficulty": 2,
         "correct_answer": "They don't watch TV.",
@@ -870,7 +870,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-16T19:07:40Z",
+    "updated_at": "2026-01-16T19:18:42Z",
     "source": "llm"
   }
 }
