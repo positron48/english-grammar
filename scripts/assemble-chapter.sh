@@ -71,25 +71,26 @@ else
 fi
 
 # Собираем blocks: theory_blocks и inline_quizzes чередуются по order
-jq -s '
+jq -s --argjson inline_quizzes "$INLINE_QUIZZES_JSON" '
   .[0] as $outline |
   .[1] as $theory_blocks |
-  .[2] as $inline_quizzes |
+  (if $inline_quizzes then $inline_quizzes else [] end) as $inline_quizzes_array |
   
   # Создаем мапу inline_quizzes по theory_block_id
-  ($inline_quizzes | map({(.theory_block_id): .}) | add) as $quizzes_map |
+  (if ($inline_quizzes_array | length) > 0 then ($inline_quizzes_array | map({(.theory_block_id): .}) | add) else {} end) as $quizzes_map |
   
   # Формируем blocks
+  # $theory_blocks уже содержит массив theory_block объектов (после map(.theory_block))
   $theory_blocks | map(.id as $block_id | {
     id: $block_id,
     type: "theory",
-    title: .theory_block.content_md | split("\n")[0] | gsub("^#+ *"; "") | gsub("\\*\\*"; ""),
+    title: (if .content_md then (.content_md | split("\n")[0] | gsub("^#+ *"; "") | gsub("\\*\\*"; "")) else "" end),
     theory: {
       concept_id: .concept_id,
-      content_md: .theory_block.content_md,
-      key_points: .theory_block.key_points // [],
-      common_mistakes: .theory_block.common_mistakes // [],
-      examples: .theory_block.examples // []
+      content_md: .content_md,
+      key_points: (if .key_points then .key_points else [] end),
+      common_mistakes: (if .common_mistakes then .common_mistakes else [] end),
+      examples: (if .examples then .examples else [] end)
     }
   }) as $theory_blocks_formatted |
   
@@ -101,15 +102,15 @@ jq -s '
       [{
         id: $quizzes_map[$theory_blocks_formatted[$i].id].block_id,
         type: "quiz_inline",
-        title: $quizzes_map[$theory_blocks_formatted[$i].id].title // "Quick check",
+        title: (if $quizzes_map[$theory_blocks_formatted[$i].id].title then $quizzes_map[$theory_blocks_formatted[$i].id].title else "Quick check" end),
         quiz_inline: {
           question_ids: $quizzes_map[$theory_blocks_formatted[$i].id].question_ids,
-          show_answers_immediately: $quizzes_map[$theory_blocks_formatted[$i].id].show_answers_immediately // true
+          show_answers_immediately: (if $quizzes_map[$theory_blocks_formatted[$i].id].show_answers_immediately != null then $quizzes_map[$theory_blocks_formatted[$i].id].show_answers_immediately else true end)
         }
       }]
     else [] end)
   )
-' "$OUTLINE_FILE" "$TEMP_DIR/theory_blocks.json" "$INLINE_QUIZZES_FILE" > "$TEMP_DIR/blocks.json"
+' "$OUTLINE_FILE" "$TEMP_DIR/theory_blocks.json" > "$TEMP_DIR/blocks.json"
 
 # Собираем финальный JSON
 jq -s '
@@ -122,23 +123,23 @@ jq -s '
     id: $outline.chapter_id,
     section_id: $outline.section_id,
     title: $outline.title,
-    title_short: $outline.title_short // $outline.title,
+    title_short: (if $outline.title_short then $outline.title_short else $outline.title end),
     description: $outline.description,
     ui_language: $outline.ui_language,
     target_language: $outline.target_language,
     level: $outline.level,
-    order: $outline.order // 0,
-    prerequisites: $outline.prerequisites // [],
-    concept_refs: $outline.concept_refs // [],
-    learning_objectives: $outline.learning_objectives // [],
-    estimated_minutes: $outline.estimated_minutes // 30,
+    order: (if $outline.order then $outline.order else 0 end),
+    prerequisites: (if $outline.prerequisites then $outline.prerequisites else [] end),
+    concept_refs: (if $outline.concept_refs then $outline.concept_refs else [] end),
+    learning_objectives: (if $outline.learning_objectives then $outline.learning_objectives else [] end),
+    estimated_minutes: (if $outline.estimated_minutes then $outline.estimated_minutes else 30 end),
     blocks: $blocks,
     question_bank: {
-      questions: ($questions.questions // [])
+      questions: (if $questions.questions then $questions.questions else [] end)
     },
     chapter_test: {
       num_questions: 10,
-      pool_question_ids: ($questions.questions // [] | map(.id)),
+      pool_question_ids: ((if $questions.questions then $questions.questions else [] end) | map(.id)),
       selection_strategy: {
         type: "stratified_by_theory_block",
         min_per_theory_block: 1,
