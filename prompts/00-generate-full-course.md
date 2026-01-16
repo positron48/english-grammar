@@ -75,7 +75,7 @@
    
    - **ВАЖНО: Закоммить все изменения после завершения каждой главы:**
      ```bash
-     git add chapters/{chapter_id}/ config/generation-status.json
+     git add .
      git commit -m "feat: сгенерирована глава {chapter_id}
 
      - Глава: {title} ({level})
