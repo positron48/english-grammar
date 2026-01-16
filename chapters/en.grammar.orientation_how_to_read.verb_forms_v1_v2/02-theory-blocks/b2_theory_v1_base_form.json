@@ -2,13 +2,20 @@
   "theory_block": {
     "id": "b2_theory_v1_base_form",
     "concept_id": "v1_base_form",
-    "content_md": "**V1** — это базовая форма глагола, та самая форма, которую вы найдете в словаре. Это форма без изменений, которая используется в настоящем времени.\n\nV1 используется:\n- С местоимениями I, you, we, they в настоящем времени (I go, you see, we do)\n- С местоимениями he, she, it после добавления -s (he goes, she sees, it does)\n- В отрицаниях и вопросах с do/does (I don't go, Do you see?)\n- После модальных глаголов (can go, must see, should do)",
-    "key_points": [
-      "V1 — это базовая форма глагола",
-      "V1 используется в настоящем времени",
-      "С he/she/it добавляется -s к V1",
-      "После do/does всегда используется V1",
-      "После модальных глаголов используется V1"
+    "content_md": "**V1** — это базовая форма глагола, та самая форма, которую вы найдете в словаре. Это форма без изменений, которая используется в настоящем времени.\n\nV1 используется:\n- С местоимениями I, you, we, they в настоящем времени (I go, you see, we do)\n- С местоимениями he, she, it после добавления -s (he goes, she sees, it does)\n- В отрицаниях и вопросах с do/does (I don't go, Do you see?)\n- После модальных глаголов (can go, must see, should do)\n\n**Важно:** После do/does всегда используется V1 без -s (Does he go?, а не Does he goes?).",
+    "examples": [
+      {
+        "id": "ex1",
+        "text": "I go to work every day.",
+        "translation": "Я хожу на работу каждый день.",
+        "tags": ["affirmative"]
+      },
+      {
+        "id": "ex2",
+        "text": "She goes to work every day.",
+        "translation": "Она ходит на работу каждый день.",
+        "tags": ["affirmative"]
+      }
     ],
     "common_mistakes": [
       {
@@ -20,50 +27,6 @@
         "wrong": "Does he goes to school?",
         "right": "Does he go to school?",
         "why": "После do/does всегда используется V1 без -s"
-      }
-    ],
-    "examples": [
-      {
-        "id": "ex1",
-        "text": "I go to work every day.",
-        "translation": "Я хожу на работу каждый день.",
-        "notes": "V1 с I",
-        "tags": ["affirmative", "v1"]
-      },
-      {
-        "id": "ex2",
-        "text": "She goes to work every day.",
-        "translation": "Она ходит на работу каждый день.",
-        "notes": "V1 + -s с she",
-        "tags": ["affirmative", "v1"]
-      },
-      {
-        "id": "ex3",
-        "text": "Do you see that?",
-        "translation": "Ты видишь это?",
-        "notes": "V1 в вопросе с do",
-        "tags": ["question", "v1"]
-      },
-      {
-        "id": "ex4",
-        "text": "I don't see anything.",
-        "translation": "Я ничего не вижу.",
-        "notes": "V1 в отрицании с don't",
-        "tags": ["negative", "v1"]
-      },
-      {
-        "id": "ex5",
-        "text": "Can you do this?",
-        "translation": "Ты можешь это сделать?",
-        "notes": "V1 после can",
-        "tags": ["question", "v1"]
-      },
-      {
-        "id": "ex6",
-        "text": "We must go now.",
-        "translation": "Нам нужно идти сейчас.",
-        "notes": "V1 после must",
-        "tags": ["affirmative", "v1"]
       }
     ]
   }

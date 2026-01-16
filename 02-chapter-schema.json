@@ -129,7 +129,7 @@
   
       "theory_block": {
         "type": "object",
-        "required": ["concept_id", "content_md", "examples"],
+        "required": ["concept_id", "content_md"],
         "properties": {
           "concept_id": { "type": "string", "pattern": "^[a-z0-9_.-]+$" },
   
@@ -158,7 +158,6 @@
   
           "examples": {
             "type": "array",
-            "minItems": 2,
             "items": { "$ref": "#/$defs/example" }
           }
         },

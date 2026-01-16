@@ -1,0 +1,411 @@
+#!/bin/bash
+
+# Скрипт для валидации главы
+# Использование: ./scripts/validate-chapter.sh <chapter_id>
+
+set -e
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+CHAPTER_ID="${1:-}"
+
+if [ -z "$CHAPTER_ID" ]; then
+    echo "Ошибка: укажите chapter_id"
+    echo "Использование: $0 <chapter_id>"
+    exit 1
+fi
+
+CHAPTER_DIR="$PROJECT_ROOT/chapters/$CHAPTER_ID"
+SCHEMA_FILE="$PROJECT_ROOT/02-chapter-schema.json"
+FINAL_FILE="$CHAPTER_DIR/05-final.json"
+VALIDATION_OUTPUT="$CHAPTER_DIR/05-validation.json"
+
+if [ ! -f "$FINAL_FILE" ]; then
+    echo "Ошибка: не найден $FINAL_FILE"
+    echo "Сначала соберите финальный JSON: ./scripts/assemble-chapter.sh $CHAPTER_ID"
+    exit 1
+fi
+
+# Запускаем Python скрипт валидации
+python3 << PYTHON_SCRIPT
+import json
+import re
+import sys
+
+# Читаем схему и главу
+try:
+    with open('$SCHEMA_FILE', 'r', encoding='utf-8') as f:
+        schema = json.load(f)
+except Exception as e:
+    print(f"Ошибка чтения схемы: {e}", file=sys.stderr)
+    sys.exit(1)
+
+try:
+    with open('$FINAL_FILE', 'r', encoding='utf-8') as f:
+        chapter = json.load(f)
+except Exception as e:
+    print(f"Ошибка чтения главы: {e}", file=sys.stderr)
+    sys.exit(1)
+
+issues = []
+errors = 0
+warnings = 0
+suggestions = 0
+
+# 1. Структурная валидность
+# Проверка level
+if chapter.get('level') not in ['A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'mixed']:
+    issues.append({
+        'severity': 'error',
+        'category': 'structural',
+        'message': f"Level '{chapter.get('level')}' не соответствует схеме. Допустимые значения: A1, A2, B1, B2, C1, C2, mixed",
+        'location': 'level',
+        'suggested_fix': 'Изменить level на одно из допустимых значений'
+    })
+    errors += 1
+
+# Собираем все theory_block_id
+theory_blocks = {}
+for block in chapter['blocks']:
+    if block['type'] == 'theory':
+        theory_blocks[block['id']] = block
+
+# Собираем все question_ids
+question_ids = {q['id']: q for q in chapter['question_bank']['questions']}
+
+# 2. Содержательная валидность
+# Проверка theory_block_id в вопросах
+for q in chapter['question_bank']['questions']:
+    if q['theory_block_id'] not in theory_blocks:
+        issues.append({
+            'severity': 'error',
+            'category': 'structural',
+            'message': f"Question {q['id']} references non-existent theory_block_id '{q['theory_block_id']}'",
+            'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}]",
+            'suggested_fix': 'Изменить theory_block_id на существующий ID блока теории'
+        })
+        errors += 1
+
+# Проверка question_ids в quiz_inline
+for block in chapter['blocks']:
+    if block['type'] == 'quiz_inline':
+        for qid in block['quiz_inline']['question_ids']:
+            if qid not in question_ids:
+                issues.append({
+                    'severity': 'error',
+                    'category': 'structural',
+                    'message': f"Quiz inline block {block['id']} references non-existent question_id '{qid}'",
+                    'location': f"blocks[{chapter['blocks'].index(block)}].quiz_inline.question_ids",
+                    'suggested_fix': 'Изменить question_id на существующий ID вопроса'
+                })
+                errors += 1
+
+# Проверка question_ids в chapter_test
+for qid in chapter['chapter_test']['pool_question_ids']:
+    if qid not in question_ids:
+        issues.append({
+            'severity': 'error',
+            'category': 'structural',
+            'message': f"Chapter test references non-existent question_id '{qid}'",
+            'location': 'chapter_test.pool_question_ids',
+            'suggested_fix': 'Удалить несуществующий question_id из pool_question_ids'
+        })
+        errors += 1
+
+# Проверка соответствия correct_answer типу вопроса
+for q in chapter['question_bank']['questions']:
+    qid = q['id']
+    qtype = q['type']
+    correct_answer = q.get('correct_answer')
+    
+    if qtype == 'mcq_single':
+        if 'choices' not in q:
+            issues.append({
+                'severity': 'error',
+                'category': 'structural',
+                'message': f"Question {qid}: mcq_single requires 'choices' field",
+                'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}]",
+                'suggested_fix': 'Add choices array to question'
+            })
+            errors += 1
+        elif correct_answer not in [c['id'] for c in q['choices']]:
+            issues.append({
+                'severity': 'error',
+                'category': 'content',
+                'message': f"Question {qid}: correct_answer '{correct_answer}' не найден в choices. Для mcq_single correct_answer должен быть ID одного из choices.",
+                'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}].correct_answer",
+                'suggested_fix': 'Изменить correct_answer на ID одного из choices (a, b, c и т.д.)'
+            })
+            errors += 1
+    
+    elif qtype == 'mcq_multi':
+        if 'choices' not in q:
+            issues.append({
+                'severity': 'error',
+                'category': 'structural',
+                'message': f"Question {qid}: mcq_multi requires 'choices' field",
+                'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}]",
+                'suggested_fix': 'Add choices array to question'
+            })
+            errors += 1
+        elif not isinstance(correct_answer, list):
+            issues.append({
+                'severity': 'error',
+                'category': 'content',
+                'message': f"Question {qid}: correct_answer должен быть массивом для mcq_multi",
+                'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}].correct_answer",
+                'suggested_fix': 'Изменить correct_answer на массив ID из choices'
+            })
+            errors += 1
+        elif 'choices' in q:
+            choice_ids = [c['id'] for c in q['choices']]
+            if not all(ans in choice_ids for ans in correct_answer):
+                issues.append({
+                    'severity': 'error',
+                    'category': 'content',
+                    'message': f"Question {qid}: некоторые ID в correct_answer не найдены в choices",
+                    'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}].correct_answer",
+                    'suggested_fix': 'Исправить correct_answer на массив существующих ID из choices'
+                })
+                errors += 1
+    
+    elif qtype == 'true_false':
+        if correct_answer not in ['true', 'false']:
+            issues.append({
+                'severity': 'error',
+                'category': 'content',
+                'message': f"Question {qid}: correct_answer должен быть 'true' или 'false' для true_false",
+                'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}].correct_answer",
+                'suggested_fix': "Изменить correct_answer на 'true' или 'false'"
+            })
+            errors += 1
+        if 'choices' in q:
+            issues.append({
+                'severity': 'warning',
+                'category': 'content',
+                'message': f"Question {qid}: true_false не должен содержать choices",
+                'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}]",
+                'suggested_fix': 'Удалить поле choices для true_false вопроса'
+            })
+            warnings += 1
+    
+    elif qtype == 'fill_blank':
+        if not isinstance(correct_answer, str):
+            issues.append({
+                'severity': 'error',
+                'category': 'content',
+                'message': f"Question {qid}: correct_answer должен быть строкой для fill_blank",
+                'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}].correct_answer",
+                'suggested_fix': 'Изменить correct_answer на строку'
+            })
+            errors += 1
+        
+        # Проверка fill_blank: обязательные скобки в конце prompt со словами для подстановки
+        prompt = q.get('prompt', '')
+        bracket_match = re.search(r'\(([^)]+)\)\s*$', prompt)
+        
+        if not bracket_match:
+            issues.append({
+                'severity': 'error',
+                'category': 'content',
+                'message': f"Question {qid}: fill_blank должен содержать скобки в конце prompt с базовой формой слова/слов для подстановки",
+                'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}].prompt",
+                'suggested_fix': f"Добавить скобки в конце промпта. Например: \"...\" ({'базовая форма'})"
+            })
+            errors += 1
+        else:
+            bracket_content = bracket_match.group(1).strip()
+            # Разделяем на варианты (через / или запятую)
+            variants = re.split(r'\s*[/,]\s*', bracket_content)
+            variants = [v.strip() for v in variants]
+            
+            # Проверяем, что в скобках не та же форма, что в correct_answer
+            # Сравниваем с учетом регистра для правильных ответов с заглавной буквы
+            correct_lower = correct_answer.lower().strip()
+            correct_normalized = correct_answer.strip()
+            
+            # Проверяем каждую часть correct_answer (если разделено через /)
+            correct_parts = re.split(r'\s*/\s*', correct_normalized)
+            correct_parts_normalized = [p.strip() for p in correct_parts]
+            
+            # Проверяем совпадение
+            bracket_variants_lower = [v.lower().strip() for v in variants]
+            bracket_variants_normalized = [v.strip() for v in variants]
+            
+            has_match = False
+            for bracket_var in bracket_variants_normalized:
+                bracket_var_lower = bracket_var.lower()
+                # Проверяем точное совпадение или совпадение без учета регистра
+                if bracket_var_lower == correct_lower or bracket_var in correct_parts_normalized or bracket_var_lower in [cp.lower() for cp in correct_parts_normalized]:
+                    has_match = True
+                    break
+            
+            if has_match:
+                issues.append({
+                    'severity': 'error',
+                    'category': 'content',
+                    'message': f"Question {qid}: в скобках указана та же форма '{bracket_content}', что и в correct_answer '{correct_answer}'. В скобках должна быть базовая форма или другая форма, но не та же самая.",
+                    'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}].prompt",
+                    'suggested_fix': f"Изменить скобки на базовую форму. Например, если correct_answer '{correct_answer}', то в скобках указать базовую форму глагола или другую подсказку."
+                })
+                errors += 1
+    
+    elif qtype == 'reorder':
+        if not isinstance(correct_answer, str):
+            issues.append({
+                'severity': 'error',
+                'category': 'content',
+                'message': f"Question {qid}: correct_answer должен быть строкой (полное предложение) для reorder",
+                'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}].correct_answer",
+                'suggested_fix': 'Изменить correct_answer на полное предложение'
+            })
+            errors += 1
+        
+        # Проверка reorder: запрет квадратных скобок со списком слов в prompt
+        prompt = q.get('prompt', '')
+        if re.search(r'\[.*\]', prompt):
+            issues.append({
+                'severity': 'error',
+                'category': 'content',
+                'message': f"Question {qid}: reorder не должен содержать квадратные скобки со списком слов в prompt. Все слова должны браться из correct_answer.",
+                'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}].prompt",
+                'suggested_fix': 'Убрать квадратные скобки со списком слов. Использовать только текст задания без списка слов.'
+            })
+            errors += 1
+
+# 3. Методическая валидность
+# Проверка наличия content_md в theory_blocks (обязательное поле)
+for block in chapter['blocks']:
+    if block['type'] == 'theory':
+        block_id = block['id']
+        if not block['theory'].get('content_md') or len(block['theory'].get('content_md', '').strip()) == 0:
+            issues.append({
+                'severity': 'error',
+                'category': 'structural',
+                'message': f"Theory block {block_id}: отсутствует обязательное поле content_md",
+                'location': f'blocks[].theory.content_md (theory_block_id: {block_id})',
+                'suggested_fix': 'Добавить content_md с теоретическим объяснением'
+            })
+            errors += 1
+
+# Количество вопросов
+num_questions = len(chapter['question_bank']['questions'])
+if num_questions < 30:
+    issues.append({
+        'severity': 'warning',
+        'category': 'methodological',
+        'message': f"В банке вопросов только {num_questions} вопросов, минимум 30 требуется",
+        'location': 'question_bank.questions',
+        'suggested_fix': f'Добавить минимум {30 - num_questions} вопросов'
+    })
+    warnings += 1
+
+# Количество theory_blocks
+num_theory_blocks = len([b for b in chapter['blocks'] if b['type'] == 'theory'])
+if num_theory_blocks > 9:
+    issues.append({
+        'severity': 'warning',
+        'category': 'methodological',
+        'message': f"Найдено {num_theory_blocks} theory_blocks, максимум 9 разрешено",
+        'location': 'blocks[].type',
+        'suggested_fix': 'Объединить или удалить лишние theory_blocks'
+    })
+    warnings += 1
+
+# Проверка наличия explanation у всех вопросов
+for q in chapter['question_bank']['questions']:
+    if not q.get('explanation') or len(q.get('explanation', '').strip()) == 0:
+        issues.append({
+            'severity': 'error',
+            'category': 'methodological',
+            'message': f"Question {q['id']} не содержит explanation",
+            'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}]",
+            'suggested_fix': 'Добавить explanation к вопросу'
+        })
+        errors += 1
+
+# Проверка покрытия theory_blocks вопросами
+theory_blocks_covered = set()
+for q in chapter['question_bank']['questions']:
+    if q.get('theory_block_id') in theory_blocks:
+        theory_blocks_covered.add(q['theory_block_id'])
+
+for block_id in theory_blocks:
+    if block_id not in theory_blocks_covered:
+        issues.append({
+            'severity': 'warning',
+            'category': 'content',
+            'message': f"Theory block {block_id} не покрыт вопросами",
+            'location': 'question_bank.questions',
+            'suggested_fix': 'Добавить вопросы для этого theory_block'
+        })
+        warnings += 1
+
+# Подсчет вопросов по блокам
+questions_per_block = {}
+for q in chapter['question_bank']['questions']:
+    block_id = q.get('theory_block_id')
+    if block_id:
+        questions_per_block[block_id] = questions_per_block.get(block_id, 0) + 1
+
+# Формируем результат
+result = {
+    'validation_result': {
+        'is_valid': errors == 0,
+        'schema_valid': errors == 0,
+        'issues': issues,
+        'summary': {
+            'total_issues': len(issues),
+            'errors': errors,
+            'warnings': warnings,
+            'suggestions': suggestions
+        },
+        'coverage': {
+            'theory_blocks_covered': len(theory_blocks_covered),
+            'total_theory_blocks': len(theory_blocks),
+            'questions_per_block': questions_per_block
+        }
+    }
+}
+
+# Сохраняем результат
+with open('$VALIDATION_OUTPUT', 'w', encoding='utf-8') as f:
+    json.dump(result, f, ensure_ascii=False, indent=2)
+
+# Цвета для вывода
+class Colors:
+    GREEN = '\033[92m'
+    RED = '\033[91m'
+    YELLOW = '\033[93m'
+    BLUE = '\033[94m'
+    RESET = '\033[0m'
+    BOLD = '\033[1m'
+
+# Выводим краткую информацию с цветами
+chapter_id = '$CHAPTER_ID'
+if errors == 0 and warnings == 0:
+    print(f"{Colors.GREEN}✓{Colors.RESET} {chapter_id}: валидно")
+    sys.exit(0)
+else:
+    # Выводим ошибки и предупреждения кратко
+    print(f"{chapter_id}:", end=' ')
+    if errors > 0:
+        print(f"{Colors.RED}✗ {errors} ошибок{Colors.RESET}")
+        for issue in issues:
+            if issue['severity'] == 'error':
+                print(f"  {Colors.RED}✗{Colors.RESET} {issue['message']}")
+    
+    if warnings > 0:
+        if errors == 0:
+            print(f"{Colors.YELLOW}⚠ {warnings} предупреждений{Colors.RESET}")
+        else:
+            print(f"\n{Colors.YELLOW}⚠ {warnings} предупреждений{Colors.RESET}")
+        for issue in issues:
+            if issue['severity'] == 'warning':
+                print(f"  {Colors.YELLOW}⚠{Colors.RESET} {issue['message']}")
+    
+    sys.exit(1 if errors > 0 else 0)
+PYTHON_SCRIPT
+
+EXIT_CODE=$?
+exit $EXIT_CODE
