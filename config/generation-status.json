@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-16T21:17:36.169767Z",
+  "last_updated": "2026-01-16T18:25:29Z",
   "sections": [
     {
       "section_id": "en.grammar.orientation_how_to_read",
@@ -317,10 +317,23 @@
       "title": "Verb forms: V1 / V2 / V3 — what they are and why they matter",
       "level": "A0",
       "order": 2,
-      "status": "in_progress",
+      "status": "generated",
       "input_file": "config/chapter-templates/en.grammar.orientation_how_to_read.verb_forms_v1_v2-input.json",
       "output_dir": "chapters/en.grammar.orientation_how_to_read.verb_forms_v1_v2",
-      "started_at": "2026-01-16T21:17:36.169738Z"
+      "started_at": "2026-01-16T21:17:36.169738Z",
+      "completed_at": "2026-01-16T18:25:29Z",
+      "files": {
+        "outline": "chapters/en.grammar.orientation_how_to_read.verb_forms_v1_v2/01-outline.json",
+        "theory_blocks": "chapters/en.grammar.orientation_how_to_read.verb_forms_v1_v2/02-theory-blocks/",
+        "questions": "chapters/en.grammar.orientation_how_to_read.verb_forms_v1_v2/03-questions.json",
+        "inline_quizzes": "chapters/en.grammar.orientation_how_to_read.verb_forms_v1_v2/04-inline-quizzes.json",
+        "final": "chapters/en.grammar.orientation_how_to_read.verb_forms_v1_v2/05-final.json",
+        "validation": "chapters/en.grammar.orientation_how_to_read.verb_forms_v1_v2/05-validation.json"
+      },
+      "validation": {
+        "is_valid": true,
+        "last_validated": "2026-01-16T18:25:29Z"
+      }
     },
     {
       "chapter_id": "en.grammar.orientation_how_to_read.sentence_modes_statement_question",
@@ -1616,10 +1629,10 @@
   "summary": {
     "total_sections": 19,
     "total_chapters": 131,
-    "chapters_generated": 1,
-    "chapters_in_progress": 1,
+    "chapters_generated": 2,
+    "chapters_in_progress": 0,
     "chapters_pending": 129,
     "chapters_failed": 0,
-    "chapters_validated": 1
+    "chapters_validated": 2
   }
 }
