@@ -1,6 +1,4 @@
-Вся иерархия грамматики: 01-sections.md
-Спецификация JSON на главу: 02-chapter-schema.json
-Пример JSON на главу: 03-chapter-example.json
+**См. README.md для инструкций по генерации курса.**
 
 ------
 
