@@ -1,0 +1,44 @@
+{
+  "theory_block": {
+    "id": "b4_theory_common_exceptions",
+    "concept_id": "a_an_exceptions",
+    "content_md": "Есть несколько слов, где выбор между **a** и **an** может вызвать затруднения, потому что звук не совпадает с первой буквой.\n\n**Слова с буквой h, но гласным звуком:**\n- an hour (час) — звук [aʊ]\n- an honest person (честный человек) — звук [ɒ]\n\n**Слова с буквой u, но согласным звуком:**\n- a university (университет) — звук [j]\n- a European (европеец) — звук [j]\n- a useful thing (полезная вещь) — звук [j]\n\n**Слова с буквой o, но гласным звуком:**\n- an one (редко, обычно \"a one\") — но обычно \"a one\"\n\nПравило: всегда слушайте звук, а не смотрите на букву.",
+    "key_points": [
+      "hour → an hour (гласный звук)",
+      "university → a university (согласный звук [j])",
+      "Всегда слушайте звук, а не букву"
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "a hour",
+        "right": "an hour",
+        "why": "Слово начинается с гласного звука [aʊ], несмотря на букву h"
+      },
+      {
+        "wrong": "an university",
+        "right": "a university",
+        "why": "Слово начинается с согласного звука [j], несмотря на букву u"
+      }
+    ],
+    "examples": [
+      {
+        "id": "ex1",
+        "text": "an hour",
+        "translation": "час (гласный звук [aʊ])",
+        "tags": ["exception", "h_silent"]
+      },
+      {
+        "id": "ex2",
+        "text": "a university",
+        "translation": "университет (согласный звук [j])",
+        "tags": ["exception", "u_consonant"]
+      },
+      {
+        "id": "ex3",
+        "text": "an honest person",
+        "translation": "честный человек (гласный звук [ɒ])",
+        "tags": ["exception", "h_silent"]
+      }
+    ]
+  }
+}

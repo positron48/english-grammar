@@ -1,0 +1,1633 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.first_sentences_be_as.an_as_one_of",
+  "section_id": "en.grammar.first_sentences_be_as",
+  "title": "**a/an** as \"one of many\": This is a book",
+  "title_short": "**a/an** as \"one of many\": This is a book",
+  "description": "Изучение артиклей a/an как способа указать \"один из многих\": выбор между a и an, использование с исчисляемыми существительными в единственном числе.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "A1",
+  "order": 0,
+  "prerequisites": [
+    "en.grammar.first_sentences_be_as.negatives_with_be_not"
+  ],
+  "concept_refs": [
+    "a_an_one_of_many",
+    "choosing_a_vs_an",
+    "a_an_countable_singular",
+    "a_an_exceptions",
+    "a_an_practical_patterns"
+  ],
+  "learning_objectives": [
+    "Понимать значение артиклей a/an как \"один из многих\"",
+    "Правильно выбирать между a и an в зависимости от звука",
+    "Использовать a/an с исчисляемыми существительными в единственном числе",
+    "Избегать типичных ошибок при использовании артиклей"
+  ],
+  "estimated_minutes": 25,
+  "blocks": [
+    {
+      "id": "b1_theory_a_an_one_of_many",
+      "type": "theory",
+      "title": "Артикли a и an используются для указания на один предмет из группы, не конкретный, а любой из множества. Это помогает сказать \"один из многих\" или \"какой-то один\".",
+      "theory": {
+        "concept_id": "a_an_one_of_many",
+        "content_md": "Артикли **a** и **an** используются для указания на **один предмет из группы**, не конкретный, а любой из множества. Это помогает сказать \"один из многих\" или \"какой-то один\".\n\nКогда мы говорим \"This is a book\", мы имеем в виду, что это одна книга из множества книг, не конкретная книга, а просто \"книга вообще\".\n\nАртикли a/an используются только с **исчисляемыми существительными в единственном числе**. С множественным числом или неисчисляемыми существительными артикль не нужен.",
+        "key_points": [
+          "a/an = \"один из многих\", не конкретный предмет",
+          "Используется только с исчисляемыми в единственном числе",
+          "This is a book = это одна книга из многих"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "This is book",
+            "right": "This is a book",
+            "why": "С исчисляемым существительным в единственном числе нужен артикль a/an"
+          },
+          {
+            "wrong": "This is a books",
+            "right": "These are books",
+            "why": "С множественным числом артикль a/an не используется"
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "This is a book",
+            "translation": "Это книга (одна из многих)",
+            "tags": [
+              "statement",
+              "singular"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "I'm a student",
+            "translation": "Я студент (один из многих студентов)",
+            "tags": [
+              "identity",
+              "singular"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "It's a pen",
+            "translation": "Это ручка (одна из многих)",
+            "tags": [
+              "statement",
+              "singular"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_one_of_many",
+      "type": "quiz_inline",
+      "title": "Quick check: do you understand the idea?",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2",
+          "q4",
+          "q5",
+          "q7"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_choosing_a_vs_an",
+      "type": "theory",
+      "title": "Выбор между a и an зависит от звука, с которого начинается следующее слово, а не от буквы. Это важное правило, которое часто вызывает путаницу.",
+      "theory": {
+        "concept_id": "choosing_a_vs_an",
+        "content_md": "Выбор между **a** и **an** зависит от **звука**, с которого начинается следующее слово, а не от буквы. Это важное правило, которое часто вызывает путаницу.\n\n**a** используется перед словами, начинающимися с **согласного звука**: a book, a student, a pen, a university (звук [j])\n\n**an** используется перед словами, начинающимися с **гласного звука**: an apple, an hour, an engineer, an umbrella\n\nОбратите внимание: \"university\" начинается с буквы u (гласная), но звука [j] (согласный), поэтому используется **a university**. А \"hour\" начинается с буквы h (согласная), но звука [aʊ] (гласный), поэтому используется **an hour**.",
+        "key_points": [
+          "Выбор зависит от ЗВУКА, а не от буквы",
+          "a + согласный звук: a book, a student",
+          "an + гласный звук: an apple, an hour"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "a hour",
+            "right": "an hour",
+            "why": "Слово 'hour' начинается с гласного звука [aʊ], поэтому нужен 'an'"
+          },
+          {
+            "wrong": "an university",
+            "right": "a university",
+            "why": "Слово 'university' начинается с согласного звука [j], поэтому нужен 'a'"
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "a book",
+            "translation": "книга (согласный звук [b])",
+            "tags": [
+              "consonant"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "an apple",
+            "translation": "яблоко (гласный звук [æ])",
+            "tags": [
+              "vowel"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "an hour",
+            "translation": "час (гласный звук [aʊ], хотя буква h)",
+            "tags": [
+              "exception",
+              "vowel"
+            ]
+          },
+          {
+            "id": "ex4",
+            "text": "a university",
+            "translation": "университет (согласный звук [j], хотя буква u)",
+            "tags": [
+              "exception",
+              "consonant"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_choosing",
+      "type": "quiz_inline",
+      "title": "Quick check: a or an?",
+      "quiz_inline": {
+        "question_ids": [
+          "q11",
+          "q12",
+          "q14",
+          "q15",
+          "q16",
+          "q18"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_countable_singular",
+      "type": "theory",
+      "title": "Артикли a/an используются только с исчисляемыми существительными в единственном числе. Это означает, что мы можем посчитать предметы (one book, two books, three books).",
+      "theory": {
+        "concept_id": "a_an_countable_singular",
+        "content_md": "Артикли **a/an** используются **только** с **исчисляемыми существительными в единственном числе**. Это означает, что мы можем посчитать предметы (one book, two books, three books).\n\n**С множественным числом** артикль a/an не используется: \"These are books\" (не \"a books\").\n\n**С неисчисляемыми существительными** (вода, информация, советы) артикль a/an также не используется: \"This is water\" (не \"a water\").\n\nПомните: a/an = один предмет, который можно посчитать.",
+        "key_points": [
+          "a/an только с исчисляемыми в единственном числе",
+          "Множественное число: These are books (без артикля)",
+          "Неисчисляемые: This is water (без артикля)"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "These are a books",
+            "right": "These are books",
+            "why": "С множественным числом артикль a/an не используется"
+          },
+          {
+            "wrong": "This is a water",
+            "right": "This is water",
+            "why": "С неисчисляемыми существительными артикль a/an не используется"
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "This is a book",
+            "translation": "Это книга (единственное число, исчисляемое)",
+            "tags": [
+              "singular",
+              "countable"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "These are books",
+            "translation": "Это книги (множественное число, без артикля)",
+            "tags": [
+              "plural"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "This is water",
+            "translation": "Это вода (неисчисляемое, без артикля)",
+            "tags": [
+              "uncountable"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_countable",
+      "type": "quiz_inline",
+      "title": "Quick check: singular or plural?",
+      "quiz_inline": {
+        "question_ids": [
+          "q21",
+          "q22",
+          "q24",
+          "q26",
+          "q28"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_common_exceptions",
+      "type": "theory",
+      "title": "Есть несколько слов, где выбор между a и an может вызвать затруднения, потому что звук не совпадает с первой буквой.",
+      "theory": {
+        "concept_id": "a_an_exceptions",
+        "content_md": "Есть несколько слов, где выбор между **a** и **an** может вызвать затруднения, потому что звук не совпадает с первой буквой.\n\n**Слова с буквой h, но гласным звуком:**\n- an hour (час) — звук [aʊ]\n- an honest person (честный человек) — звук [ɒ]\n\n**Слова с буквой u, но согласным звуком:**\n- a university (университет) — звук [j]\n- a European (европеец) — звук [j]\n- a useful thing (полезная вещь) — звук [j]\n\n**Слова с буквой o, но гласным звуком:**\n- an one (редко, обычно \"a one\") — но обычно \"a one\"\n\nПравило: всегда слушайте звук, а не смотрите на букву.",
+        "key_points": [
+          "hour → an hour (гласный звук)",
+          "university → a university (согласный звук [j])",
+          "Всегда слушайте звук, а не букву"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "a hour",
+            "right": "an hour",
+            "why": "Слово начинается с гласного звука [aʊ], несмотря на букву h"
+          },
+          {
+            "wrong": "an university",
+            "right": "a university",
+            "why": "Слово начинается с согласного звука [j], несмотря на букву u"
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "an hour",
+            "translation": "час (гласный звук [aʊ])",
+            "tags": [
+              "exception",
+              "h_silent"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "a university",
+            "translation": "университет (согласный звук [j])",
+            "tags": [
+              "exception",
+              "u_consonant"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "an honest person",
+            "translation": "честный человек (гласный звук [ɒ])",
+            "tags": [
+              "exception",
+              "h_silent"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8_quiz_after_exceptions",
+      "type": "quiz_inline",
+      "title": "Quick check: tricky cases",
+      "quiz_inline": {
+        "question_ids": [
+          "q31",
+          "q32",
+          "q34",
+          "q35",
+          "q36"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_practical_patterns",
+      "type": "theory",
+      "title": "В предложениях с глаголом be артикли a/an часто используются в стандартных паттернах для описания предметов, профессий и идентификации.",
+      "theory": {
+        "concept_id": "a_an_practical_patterns",
+        "content_md": "В предложениях с глаголом **be** артикли **a/an** часто используются в стандартных паттернах для описания предметов, профессий и идентификации.\n\n**Основные паттерны:**\n- **This/That is a/an...** — указание на предмет\n- **I'm/You're/He's/She's a/an...** — профессия или роль\n- **It's a/an...** — описание предмета\n\nЭти конструкции помогают естественно говорить о предметах и людях, указывая на их принадлежность к группе.",
+        "key_points": [
+          "This is a book, That is an apple",
+          "I'm a student, She's a teacher",
+          "It's a pen, It's an umbrella"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "This is a book",
+            "translation": "Это книга",
+            "tags": [
+              "this_that",
+              "statement"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "I'm a student",
+            "translation": "Я студент",
+            "tags": [
+              "identity",
+              "profession"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "It's an umbrella",
+            "translation": "Это зонт",
+            "tags": [
+              "it",
+              "statement"
+            ]
+          },
+          {
+            "id": "ex4",
+            "text": "She's a teacher",
+            "translation": "Она учитель",
+            "tags": [
+              "identity",
+              "profession"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Что означает артикль **a/an** в предложении \"This is a book\"?",
+        "theory_block_id": "b1_theory_a_an_one_of_many",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Конкретная книга",
+            "feedback": "Нет, a/an указывает на любой предмет из группы, не конкретный"
+          },
+          {
+            "id": "b",
+            "text": "Один предмет из многих",
+            "feedback": "Правильно! a/an означает \"один из многих\""
+          },
+          {
+            "id": "c",
+            "text": "Много книг",
+            "feedback": "Нет, a/an используется только с единственным числом"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Артикль a/an указывает на один предмет из группы, не конкретный, а любой из множества. \"This is a book\" означает \"это одна книга из многих\".",
+        "tags": [
+          "meaning",
+          "one_of_many"
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **This is ___ book.** (артикль для одного предмета)",
+        "theory_block_id": "b1_theory_a_an_one_of_many",
+        "difficulty": 1,
+        "correct_answer": "a",
+        "explanation": "С исчисляемым существительным в единственном числе используется артикль a: This is a book.",
+        "tags": [
+          "singular",
+          "countable"
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Артикль a/an используется для указания на конкретный предмет.**",
+        "theory_block_id": "b1_theory_a_an_one_of_many",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. Артикль a/an указывает на один предмет из группы, не конкретный, а любой из множества.",
+        "tags": [
+          "meaning"
+        ]
+      },
+      {
+        "id": "q4",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"This is book.\"",
+        "theory_block_id": "b1_theory_a_an_one_of_many",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "This is a book.",
+            "feedback": "Правильно! Нужен артикль a перед исчисляемым существительным в единственном числе"
+          },
+          {
+            "id": "b",
+            "text": "This are a book.",
+            "feedback": "Нет, is правильная форма для this"
+          },
+          {
+            "id": "c",
+            "text": "This is books.",
+            "feedback": "Нет, book в единственном числе, нужен артикль"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С исчисляемым существительным в единственном числе нужен артикль a/an: This is a book.",
+        "tags": [
+          "missing_article"
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"I'm ___ student.\"",
+        "theory_block_id": "b1_theory_a_an_one_of_many",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm a student.",
+            "feedback": "Правильно! a используется перед согласным звуком"
+          },
+          {
+            "id": "b",
+            "text": "I'm an student.",
+            "feedback": "Нет, student начинается с согласного звука [s]"
+          },
+          {
+            "id": "c",
+            "text": "I'm student.",
+            "feedback": "Нет, нужен артикль a перед исчисляемым существительным"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С исчисляемым существительным в единственном числе нужен артикль a: I'm a student.",
+        "tags": [
+          "identity",
+          "singular"
+        ]
+      },
+      {
+        "id": "q6",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_a_an_one_of_many",
+        "difficulty": 2,
+        "correct_answer": "It is a pen.",
+        "explanation": "Правильный порядок: It is a pen. Артикль a ставится перед исчисляемым существительным в единственном числе.",
+        "tags": [
+          "word_order"
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **She is ___ teacher.** (артикль для профессии)",
+        "theory_block_id": "b1_theory_a_an_one_of_many",
+        "difficulty": 1,
+        "correct_answer": "a",
+        "explanation": "С исчисляемым существительным в единственном числе используется артикль a: She is a teacher.",
+        "tags": [
+          "profession",
+          "singular"
+        ]
+      },
+      {
+        "id": "q8",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Артикль a/an можно использовать с множественным числом.**",
+        "theory_block_id": "b1_theory_a_an_one_of_many",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. Артикль a/an используется только с исчисляемыми существительными в единственном числе. С множественным числом артикль не используется: \"These are books\" (не \"a books\").",
+        "tags": [
+          "plural"
+        ]
+      },
+      {
+        "id": "q9",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"These are ___ books.\"",
+        "theory_block_id": "b1_theory_a_an_one_of_many",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "These are a books.",
+            "feedback": "Нет, с множественным числом артикль a/an не используется"
+          },
+          {
+            "id": "b",
+            "text": "These are books.",
+            "feedback": "Правильно! С множественным числом артикль не нужен"
+          },
+          {
+            "id": "c",
+            "text": "These are an books.",
+            "feedback": "Нет, с множественным числом артикль не используется"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "С множественным числом артикль a/an не используется: These are books.",
+        "tags": [
+          "plural"
+        ]
+      },
+      {
+        "id": "q10",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"This is a water.\"",
+        "theory_block_id": "b1_theory_a_an_one_of_many",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "This is water.",
+            "feedback": "Правильно! С неисчисляемыми существительными артикль a/an не используется"
+          },
+          {
+            "id": "b",
+            "text": "This are water.",
+            "feedback": "Нет, is правильная форма для this"
+          },
+          {
+            "id": "c",
+            "text": "This is waters.",
+            "feedback": "Нет, water неисчисляемое, множественное число не используется"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С неисчисляемыми существительными артикль a/an не используется: This is water.",
+        "tags": [
+          "uncountable"
+        ]
+      },
+      {
+        "id": "q11",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **That is ___ umbrella.** (артикль перед гласным звуком)",
+        "theory_block_id": "b2_theory_choosing_a_vs_an",
+        "difficulty": 1,
+        "correct_answer": "an",
+        "explanation": "Слово 'umbrella' начинается с гласного звука [ʌ], поэтому используется артикль an: That is an umbrella.",
+        "tags": [
+          "vowel",
+          "an"
+        ]
+      },
+      {
+        "id": "q12",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"This is ___ apple.\"",
+        "theory_block_id": "b2_theory_choosing_a_vs_an",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "This is a apple.",
+            "feedback": "Нет, apple начинается с гласного звука [æ]"
+          },
+          {
+            "id": "b",
+            "text": "This is an apple.",
+            "feedback": "Правильно! an используется перед гласным звуком"
+          },
+          {
+            "id": "c",
+            "text": "This is apple.",
+            "feedback": "Нет, нужен артикль an перед исчисляемым существительным"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Слово 'apple' начинается с гласного звука [æ], поэтому используется артикль an: This is an apple.",
+        "tags": [
+          "vowel",
+          "an"
+        ]
+      },
+      {
+        "id": "q13",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Выбор между a и an зависит от первой буквы слова.**",
+        "theory_block_id": "b2_theory_choosing_a_vs_an",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. Выбор между a и an зависит от звука, с которого начинается слово, а не от буквы. Например: a university (звук [j]), an hour (звук [aʊ]).",
+        "tags": [
+          "sound_vs_letter"
+        ]
+      },
+      {
+        "id": "q14",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **I'm ___ engineer.** (артикль перед гласным звуком)",
+        "theory_block_id": "b2_theory_choosing_a_vs_an",
+        "difficulty": 1,
+        "correct_answer": "an",
+        "explanation": "Слово 'engineer' начинается с гласного звука [e], поэтому используется артикль an: I'm an engineer.",
+        "tags": [
+          "vowel",
+          "an",
+          "profession"
+        ]
+      },
+      {
+        "id": "q15",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"It's ___ pen.\"",
+        "theory_block_id": "b2_theory_choosing_a_vs_an",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It's a pen.",
+            "feedback": "Правильно! a используется перед согласным звуком [p]"
+          },
+          {
+            "id": "b",
+            "text": "It's an pen.",
+            "feedback": "Нет, pen начинается с согласного звука [p]"
+          },
+          {
+            "id": "c",
+            "text": "It's pen.",
+            "feedback": "Нет, нужен артикль a перед исчисляемым существительным"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Слово 'pen' начинается с согласного звука [p], поэтому используется артикль a: It's a pen.",
+        "tags": [
+          "consonant",
+          "a"
+        ]
+      },
+      {
+        "id": "q16",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"This is a orange.\"",
+        "theory_block_id": "b2_theory_choosing_a_vs_an",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "This is an orange.",
+            "feedback": "Правильно! orange начинается с гласного звука [ɒ]"
+          },
+          {
+            "id": "b",
+            "text": "This are an orange.",
+            "feedback": "Нет, is правильная форма для this"
+          },
+          {
+            "id": "c",
+            "text": "This is orange.",
+            "feedback": "Нет, нужен артикль an перед исчисляемым существительным"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Слово 'orange' начинается с гласного звука [ɒ], поэтому используется артикль an: This is an orange.",
+        "tags": [
+          "vowel",
+          "an"
+        ]
+      },
+      {
+        "id": "q17",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_choosing_a_vs_an",
+        "difficulty": 2,
+        "correct_answer": "That is an apple.",
+        "explanation": "Правильный порядок: That is an apple. Артикль an используется перед словом, начинающимся с гласного звука.",
+        "tags": [
+          "word_order",
+          "vowel"
+        ]
+      },
+      {
+        "id": "q18",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **She is ___ artist.** (артикль перед гласным звуком)",
+        "theory_block_id": "b2_theory_choosing_a_vs_an",
+        "difficulty": 1,
+        "correct_answer": "an",
+        "explanation": "Слово 'artist' начинается с гласного звука [ɑː], поэтому используется артикль an: She is an artist.",
+        "tags": [
+          "vowel",
+          "an",
+          "profession"
+        ]
+      },
+      {
+        "id": "q19",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"He's ___ doctor.\"",
+        "theory_block_id": "b2_theory_choosing_a_vs_an",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He's a doctor.",
+            "feedback": "Правильно! a используется перед согласным звуком [d]"
+          },
+          {
+            "id": "b",
+            "text": "He's an doctor.",
+            "feedback": "Нет, doctor начинается с согласного звука [d]"
+          },
+          {
+            "id": "c",
+            "text": "He's doctor.",
+            "feedback": "Нет, нужен артикль a перед исчисляемым существительным"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Слово 'doctor' начинается с согласного звука [d], поэтому используется артикль a: He's a doctor.",
+        "tags": [
+          "consonant",
+          "a",
+          "profession"
+        ]
+      },
+      {
+        "id": "q20",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Слово 'university' требует артикль 'an', потому что начинается с буквы u (гласная).**",
+        "theory_block_id": "b2_theory_choosing_a_vs_an",
+        "difficulty": 3,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. Хотя 'university' начинается с буквы u (гласная), оно начинается с согласного звука [j], поэтому используется артикль a: a university. Выбор зависит от звука, а не от буквы.",
+        "tags": [
+          "exception",
+          "sound_vs_letter"
+        ]
+      },
+      {
+        "id": "q21",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **These are ___ books.** (множественное число)",
+        "theory_block_id": "b3_theory_countable_singular",
+        "difficulty": 1,
+        "correct_answer": "",
+        "explanation": "С множественным числом артикль a/an не используется: These are books.",
+        "tags": [
+          "plural",
+          "no_article"
+        ]
+      },
+      {
+        "id": "q22",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"This is ___ water.\"",
+        "theory_block_id": "b3_theory_countable_singular",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "This is a water.",
+            "feedback": "Нет, water неисчисляемое существительное"
+          },
+          {
+            "id": "b",
+            "text": "This is water.",
+            "feedback": "Правильно! С неисчисляемыми существительными артикль не используется"
+          },
+          {
+            "id": "c",
+            "text": "This is an water.",
+            "feedback": "Нет, water неисчисляемое существительное"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "С неисчисляемыми существительными артикль a/an не используется: This is water.",
+        "tags": [
+          "uncountable",
+          "no_article"
+        ]
+      },
+      {
+        "id": "q23",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Артикль a/an можно использовать с множественным числом.**",
+        "theory_block_id": "b3_theory_countable_singular",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. Артикль a/an используется только с исчисляемыми существительными в единственном числе. С множественным числом артикль не используется.",
+        "tags": [
+          "plural"
+        ]
+      },
+      {
+        "id": "q24",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"These are a books.\"",
+        "theory_block_id": "b3_theory_countable_singular",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "These are books.",
+            "feedback": "Правильно! С множественным числом артикль a/an не используется"
+          },
+          {
+            "id": "b",
+            "text": "This are books.",
+            "feedback": "Нет, these правильное местоимение для множественного числа"
+          },
+          {
+            "id": "c",
+            "text": "These is books.",
+            "feedback": "Нет, are правильная форма для these"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С множественным числом артикль a/an не используется: These are books.",
+        "tags": [
+          "plural",
+          "no_article"
+        ]
+      },
+      {
+        "id": "q25",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **This is ___ information.** (неисчисляемое существительное)",
+        "theory_block_id": "b3_theory_countable_singular",
+        "difficulty": 2,
+        "correct_answer": "",
+        "explanation": "С неисчисляемыми существительными артикль a/an не используется: This is information.",
+        "tags": [
+          "uncountable",
+          "no_article"
+        ]
+      },
+      {
+        "id": "q26",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"We are ___ students.\"",
+        "theory_block_id": "b3_theory_countable_singular",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We are a students.",
+            "feedback": "Нет, с множественным числом артикль не используется"
+          },
+          {
+            "id": "b",
+            "text": "We are students.",
+            "feedback": "Правильно! С множественным числом артикль не нужен"
+          },
+          {
+            "id": "c",
+            "text": "We are an students.",
+            "feedback": "Нет, с множественным числом артикль не используется"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "С множественным числом артикль a/an не используется: We are students.",
+        "tags": [
+          "plural",
+          "no_article"
+        ]
+      },
+      {
+        "id": "q27",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_countable_singular",
+        "difficulty": 2,
+        "correct_answer": "They are teachers.",
+        "explanation": "Правильный порядок: They are teachers. С множественным числом артикль не используется.",
+        "tags": [
+          "word_order",
+          "plural"
+        ]
+      },
+      {
+        "id": "q28",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**С неисчисляемыми существительными можно использовать артикль a/an.**",
+        "theory_block_id": "b3_theory_countable_singular",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. С неисчисляемыми существительными (вода, информация, советы) артикль a/an не используется: \"This is water\" (не \"a water\").",
+        "tags": [
+          "uncountable"
+        ]
+      },
+      {
+        "id": "q29",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **This is ___ book.** (единственное число, исчисляемое)",
+        "theory_block_id": "b3_theory_countable_singular",
+        "difficulty": 1,
+        "correct_answer": "a",
+        "explanation": "С исчисляемым существительным в единственном числе используется артикль a: This is a book.",
+        "tags": [
+          "singular",
+          "countable"
+        ]
+      },
+      {
+        "id": "q30",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"This is a advice.\"",
+        "theory_block_id": "b3_theory_countable_singular",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "This is advice.",
+            "feedback": "Правильно! advice неисчисляемое существительное, артикль не используется"
+          },
+          {
+            "id": "b",
+            "text": "This are advice.",
+            "feedback": "Нет, is правильная форма для this"
+          },
+          {
+            "id": "c",
+            "text": "This is advices.",
+            "feedback": "Нет, advice неисчисляемое, множественное число не используется"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Слово 'advice' неисчисляемое существительное, поэтому артикль a/an не используется: This is advice.",
+        "tags": [
+          "uncountable",
+          "no_article"
+        ]
+      },
+      {
+        "id": "q31",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **It's ___ hour.** (исключение: гласный звук, хотя буква h)",
+        "theory_block_id": "b4_theory_common_exceptions",
+        "difficulty": 3,
+        "correct_answer": "an",
+        "explanation": "Слово 'hour' начинается с гласного звука [aʊ], несмотря на букву h, поэтому используется артикль an: It's an hour.",
+        "tags": [
+          "exception",
+          "h_silent"
+        ]
+      },
+      {
+        "id": "q32",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"She studies at ___ university.\"",
+        "theory_block_id": "b4_theory_common_exceptions",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She studies at a university.",
+            "feedback": "Правильно! university начинается с согласного звука [j]"
+          },
+          {
+            "id": "b",
+            "text": "She studies at an university.",
+            "feedback": "Нет, university начинается с согласного звука [j], несмотря на букву u"
+          },
+          {
+            "id": "c",
+            "text": "She studies at university.",
+            "feedback": "Нет, нужен артикль a перед исчисляемым существительным"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Слово 'university' начинается с согласного звука [j], несмотря на букву u (гласную), поэтому используется артикль a: a university.",
+        "tags": [
+          "exception",
+          "u_consonant"
+        ]
+      },
+      {
+        "id": "q33",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Слово 'hour' требует артикль 'a', потому что начинается с буквы h (согласная).**",
+        "theory_block_id": "b4_theory_common_exceptions",
+        "difficulty": 3,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. Хотя 'hour' начинается с буквы h (согласная), оно начинается с гласного звука [aʊ], поэтому используется артикль an: an hour. Выбор зависит от звука, а не от буквы.",
+        "tags": [
+          "exception",
+          "h_silent"
+        ]
+      },
+      {
+        "id": "q34",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"He is a honest person.\"",
+        "theory_block_id": "b4_theory_common_exceptions",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He is an honest person.",
+            "feedback": "Правильно! honest начинается с гласного звука [ɒ], несмотря на букву h"
+          },
+          {
+            "id": "b",
+            "text": "He are an honest person.",
+            "feedback": "Нет, is правильная форма для he"
+          },
+          {
+            "id": "c",
+            "text": "He is honest person.",
+            "feedback": "Нет, нужен артикль an перед исчисляемым существительным"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Слово 'honest' начинается с гласного звука [ɒ], несмотря на букву h, поэтому используется артикль an: He is an honest person.",
+        "tags": [
+          "exception",
+          "h_silent"
+        ]
+      },
+      {
+        "id": "q35",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **She is ___ European.** (исключение: согласный звук, хотя буква E)",
+        "theory_block_id": "b4_theory_common_exceptions",
+        "difficulty": 3,
+        "correct_answer": "a",
+        "explanation": "Слово 'European' начинается с согласного звука [j], несмотря на букву E (гласную), поэтому используется артикль a: She is a European.",
+        "tags": [
+          "exception",
+          "e_consonant"
+        ]
+      },
+      {
+        "id": "q36",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"It takes ___ hour to get there.\"",
+        "theory_block_id": "b4_theory_common_exceptions",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It takes a hour to get there.",
+            "feedback": "Нет, hour начинается с гласного звука [aʊ]"
+          },
+          {
+            "id": "b",
+            "text": "It takes an hour to get there.",
+            "feedback": "Правильно! hour начинается с гласного звука [aʊ], несмотря на букву h"
+          },
+          {
+            "id": "c",
+            "text": "It takes hour to get there.",
+            "feedback": "Нет, нужен артикль an перед исчисляемым существительным"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Слово 'hour' начинается с гласного звука [aʊ], несмотря на букву h, поэтому используется артикль an: It takes an hour.",
+        "tags": [
+          "exception",
+          "h_silent"
+        ]
+      },
+      {
+        "id": "q37",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_common_exceptions",
+        "difficulty": 3,
+        "correct_answer": "He is an honest man.",
+        "explanation": "Правильный порядок: He is an honest man. Артикль an используется перед словом, начинающимся с гласного звука [ɒ], несмотря на букву h.",
+        "tags": [
+          "word_order",
+          "exception"
+        ]
+      },
+      {
+        "id": "q38",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Все слова, начинающиеся с буквы u, требуют артикль 'an'.**",
+        "theory_block_id": "b4_theory_common_exceptions",
+        "difficulty": 3,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. Выбор зависит от звука, а не от буквы. Например: a university (звук [j]), an umbrella (звук [ʌ]).",
+        "tags": [
+          "exception",
+          "sound_vs_letter"
+        ]
+      },
+      {
+        "id": "q39",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **This is ___ useful thing.** (исключение: согласный звук, хотя буква u)",
+        "theory_block_id": "b4_theory_common_exceptions",
+        "difficulty": 3,
+        "correct_answer": "a",
+        "explanation": "Слово 'useful' начинается с согласного звука [j], несмотря на букву u, поэтому используется артикль a: This is a useful thing.",
+        "tags": [
+          "exception",
+          "u_consonant"
+        ]
+      },
+      {
+        "id": "q40",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"She goes to an university.\"",
+        "theory_block_id": "b4_theory_common_exceptions",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She goes to a university.",
+            "feedback": "Правильно! university начинается с согласного звука [j]"
+          },
+          {
+            "id": "b",
+            "text": "She go to a university.",
+            "feedback": "Нет, goes правильная форма для she"
+          },
+          {
+            "id": "c",
+            "text": "She goes to university.",
+            "feedback": "Нет, нужен артикль a перед исчисляемым существительным"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Слово 'university' начинается с согласного звука [j], несмотря на букву u, поэтому используется артикль a: She goes to a university.",
+        "tags": [
+          "exception",
+          "u_consonant"
+        ]
+      },
+      {
+        "id": "q41",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **This is ___ book.** (паттерн: указание на предмет)",
+        "theory_block_id": "b5_theory_practical_patterns",
+        "difficulty": 1,
+        "correct_answer": "a",
+        "explanation": "В паттерне \"This is a/an...\" используется артикль a/an для указания на предмет: This is a book.",
+        "tags": [
+          "this_that",
+          "pattern"
+        ]
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"I'm ___ student.\"",
+        "theory_block_id": "b5_theory_practical_patterns",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm a student.",
+            "feedback": "Правильно! Паттерн I'm a/an... для профессии или роли"
+          },
+          {
+            "id": "b",
+            "text": "I'm an student.",
+            "feedback": "Нет, student начинается с согласного звука [s]"
+          },
+          {
+            "id": "c",
+            "text": "I'm student.",
+            "feedback": "Нет, нужен артикль a перед исчисляемым существительным"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В паттерне \"I'm a/an...\" используется артикль для указания на профессию или роль: I'm a student.",
+        "tags": [
+          "identity",
+          "pattern"
+        ]
+      },
+      {
+        "id": "q43",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_practical_patterns",
+        "difficulty": 2,
+        "correct_answer": "It is an umbrella.",
+        "explanation": "Правильный порядок: It is an umbrella. Паттерн \"It's a/an...\" для описания предмета.",
+        "tags": [
+          "word_order",
+          "pattern"
+        ]
+      },
+      {
+        "id": "q44",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **She's ___ teacher.** (паттерн: профессия)",
+        "theory_block_id": "b5_theory_practical_patterns",
+        "difficulty": 1,
+        "correct_answer": "a",
+        "explanation": "В паттерне \"She's a/an...\" используется артикль для указания на профессию: She's a teacher.",
+        "tags": [
+          "profession",
+          "pattern"
+        ]
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"That is ___ apple.\"",
+        "theory_block_id": "b5_theory_practical_patterns",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "That is an apple.",
+            "feedback": "Правильно! Паттерн That is a/an... для указания на предмет"
+          },
+          {
+            "id": "b",
+            "text": "That is a apple.",
+            "feedback": "Нет, apple начинается с гласного звука [æ]"
+          },
+          {
+            "id": "c",
+            "text": "That is apple.",
+            "feedback": "Нет, нужен артикль an перед исчисляемым существительным"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В паттерне \"That is a/an...\" используется артикль для указания на предмет: That is an apple.",
+        "tags": [
+          "this_that",
+          "pattern"
+        ]
+      },
+      {
+        "id": "q46",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**В паттерне \"I'm a/an...\" артикль используется для указания на профессию или роль.**",
+        "theory_block_id": "b5_theory_practical_patterns",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, верно. Паттерн \"I'm a/an...\" используется для указания на профессию или роль: I'm a student, I'm a teacher.",
+        "tags": [
+          "pattern",
+          "profession"
+        ]
+      },
+      {
+        "id": "q47",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"It's umbrella.\"",
+        "theory_block_id": "b5_theory_practical_patterns",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It's an umbrella.",
+            "feedback": "Правильно! В паттерне It's a/an... нужен артикль"
+          },
+          {
+            "id": "b",
+            "text": "It are an umbrella.",
+            "feedback": "Нет, is правильная форма для it"
+          },
+          {
+            "id": "c",
+            "text": "It's a umbrella.",
+            "feedback": "Нет, umbrella начинается с гласного звука [ʌ]"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В паттерне \"It's a/an...\" используется артикль для описания предмета: It's an umbrella.",
+        "tags": [
+          "pattern",
+          "missing_article"
+        ]
+      },
+      {
+        "id": "q48",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **He's ___ doctor.** (паттерн: профессия)",
+        "theory_block_id": "b5_theory_practical_patterns",
+        "difficulty": 1,
+        "correct_answer": "a",
+        "explanation": "В паттерне \"He's a/an...\" используется артикль для указания на профессию: He's a doctor.",
+        "tags": [
+          "profession",
+          "pattern"
+        ]
+      },
+      {
+        "id": "q49",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_practical_patterns",
+        "difficulty": 2,
+        "correct_answer": "This is a pen.",
+        "explanation": "Правильный порядок: This is a pen. Паттерн \"This is a/an...\" для указания на предмет.",
+        "tags": [
+          "word_order",
+          "pattern"
+        ]
+      },
+      {
+        "id": "q50",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"You're ___ engineer.\"",
+        "theory_block_id": "b5_theory_practical_patterns",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "You're an engineer.",
+            "feedback": "Правильно! engineer начинается с гласного звука [e]"
+          },
+          {
+            "id": "b",
+            "text": "You're a engineer.",
+            "feedback": "Нет, engineer начинается с гласного звука [e]"
+          },
+          {
+            "id": "c",
+            "text": "You're engineer.",
+            "feedback": "Нет, нужен артикль an перед исчисляемым существительным"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В паттерне \"You're a/an...\" используется артикль для указания на профессию: You're an engineer.",
+        "tags": [
+          "profession",
+          "pattern"
+        ]
+      },
+      {
+        "id": "q51",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **That is ___ orange.** (паттерн: указание на предмет)",
+        "theory_block_id": "b5_theory_practical_patterns",
+        "difficulty": 1,
+        "correct_answer": "an",
+        "explanation": "В паттерне \"That is a/an...\" используется артикль для указания на предмет: That is an orange.",
+        "tags": [
+          "this_that",
+          "pattern"
+        ]
+      },
+      {
+        "id": "q52",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Паттерн \"It's a/an...\" используется для описания предмета.**",
+        "theory_block_id": "b5_theory_practical_patterns",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, верно. Паттерн \"It's a/an...\" используется для описания предмета: It's a pen, It's an umbrella.",
+        "tags": [
+          "pattern"
+        ]
+      },
+      {
+        "id": "q53",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"I'm teacher.\"",
+        "theory_block_id": "b5_theory_practical_patterns",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm a teacher.",
+            "feedback": "Правильно! В паттерне I'm a/an... нужен артикль"
+          },
+          {
+            "id": "b",
+            "text": "I are a teacher.",
+            "feedback": "Нет, am правильная форма для I"
+          },
+          {
+            "id": "c",
+            "text": "I'm an teacher.",
+            "feedback": "Нет, teacher начинается с согласного звука [t]"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В паттерне \"I'm a/an...\" используется артикль для указания на профессию: I'm a teacher.",
+        "tags": [
+          "pattern",
+          "missing_article"
+        ]
+      },
+      {
+        "id": "q54",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **It's ___ apple.** (паттерн: описание предмета)",
+        "theory_block_id": "b5_theory_practical_patterns",
+        "difficulty": 1,
+        "correct_answer": "an",
+        "explanation": "В паттерне \"It's a/an...\" используется артикль для описания предмета: It's an apple.",
+        "tags": [
+          "pattern"
+        ]
+      },
+      {
+        "id": "q55",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_practical_patterns",
+        "difficulty": 2,
+        "correct_answer": "She is a teacher.",
+        "explanation": "Правильный порядок: She is a teacher. Паттерн \"She's a/an...\" для указания на профессию.",
+        "tags": [
+          "word_order",
+          "pattern"
+        ]
+      },
+      {
+        "id": "q56",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"We are ___ students.\"",
+        "theory_block_id": "b5_theory_practical_patterns",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We are a students.",
+            "feedback": "Нет, с множественным числом артикль не используется"
+          },
+          {
+            "id": "b",
+            "text": "We are students.",
+            "feedback": "Правильно! С множественным числом артикль не нужен"
+          },
+          {
+            "id": "c",
+            "text": "We are an students.",
+            "feedback": "Нет, с множественным числом артикль не используется"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "С множественным числом артикль a/an не используется: We are students.",
+        "tags": [
+          "plural",
+          "pattern"
+        ]
+      },
+      {
+        "id": "q57",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **This is ___ umbrella.** (паттерн: указание на предмет)",
+        "theory_block_id": "b5_theory_practical_patterns",
+        "difficulty": 1,
+        "correct_answer": "an",
+        "explanation": "В паттерне \"This is a/an...\" используется артикль для указания на предмет: This is an umbrella.",
+        "tags": [
+          "this_that",
+          "pattern"
+        ]
+      },
+      {
+        "id": "q58",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Паттерн \"That is a/an...\" используется для указания на предмет.**",
+        "theory_block_id": "b5_theory_practical_patterns",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, верно. Паттерн \"That is a/an...\" используется для указания на предмет: That is a book, That is an apple.",
+        "tags": [
+          "pattern"
+        ]
+      },
+      {
+        "id": "q59",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"He's doctor.\"",
+        "theory_block_id": "b5_theory_practical_patterns",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He's a doctor.",
+            "feedback": "Правильно! В паттерне He's a/an... нужен артикль"
+          },
+          {
+            "id": "b",
+            "text": "He are a doctor.",
+            "feedback": "Нет, is правильная форма для he"
+          },
+          {
+            "id": "c",
+            "text": "He's an doctor.",
+            "feedback": "Нет, doctor начинается с согласного звука [d]"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В паттерне \"He's a/an...\" используется артикль для указания на профессию: He's a doctor.",
+        "tags": [
+          "pattern",
+          "missing_article"
+        ]
+      },
+      {
+        "id": "q60",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_practical_patterns",
+        "difficulty": 2,
+        "correct_answer": "That is an orange.",
+        "explanation": "Правильный порядок: That is an orange. Паттерн \"That is a/an...\" для указания на предмет.",
+        "tags": [
+          "word_order",
+          "pattern"
+        ]
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-17T16:20:10Z",
+    "source": "llm"
+  }
+}

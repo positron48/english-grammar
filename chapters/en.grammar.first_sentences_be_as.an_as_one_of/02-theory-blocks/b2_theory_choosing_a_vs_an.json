@@ -1,0 +1,50 @@
+{
+  "theory_block": {
+    "id": "b2_theory_choosing_a_vs_an",
+    "concept_id": "choosing_a_vs_an",
+    "content_md": "Выбор между **a** и **an** зависит от **звука**, с которого начинается следующее слово, а не от буквы. Это важное правило, которое часто вызывает путаницу.\n\n**a** используется перед словами, начинающимися с **согласного звука**: a book, a student, a pen, a university (звук [j])\n\n**an** используется перед словами, начинающимися с **гласного звука**: an apple, an hour, an engineer, an umbrella\n\nОбратите внимание: \"university\" начинается с буквы u (гласная), но звука [j] (согласный), поэтому используется **a university**. А \"hour\" начинается с буквы h (согласная), но звука [aʊ] (гласный), поэтому используется **an hour**.",
+    "key_points": [
+      "Выбор зависит от ЗВУКА, а не от буквы",
+      "a + согласный звук: a book, a student",
+      "an + гласный звук: an apple, an hour"
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "a hour",
+        "right": "an hour",
+        "why": "Слово 'hour' начинается с гласного звука [aʊ], поэтому нужен 'an'"
+      },
+      {
+        "wrong": "an university",
+        "right": "a university",
+        "why": "Слово 'university' начинается с согласного звука [j], поэтому нужен 'a'"
+      }
+    ],
+    "examples": [
+      {
+        "id": "ex1",
+        "text": "a book",
+        "translation": "книга (согласный звук [b])",
+        "tags": ["consonant"]
+      },
+      {
+        "id": "ex2",
+        "text": "an apple",
+        "translation": "яблоко (гласный звук [æ])",
+        "tags": ["vowel"]
+      },
+      {
+        "id": "ex3",
+        "text": "an hour",
+        "translation": "час (гласный звук [aʊ], хотя буква h)",
+        "tags": ["exception", "vowel"]
+      },
+      {
+        "id": "ex4",
+        "text": "a university",
+        "translation": "университет (согласный звук [j], хотя буква u)",
+        "tags": ["exception", "consonant"]
+      }
+    ]
+  }
+}
