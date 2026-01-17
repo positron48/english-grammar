@@ -1,6 +1,7 @@
 // Загрузка списка всех глав
 let allChapters = [];
 let filteredChapters = [];
+let generationStatus = null; // Кэш для generation-status.json
 
 // Определяем базовый путь относительно текущего URL
 function getBasePath() {
@@ -9,9 +10,52 @@ function getBasePath() {
     return '';
 }
 
+// Загружает generation-status.json для получения порядка разделов и глав
+async function loadGenerationStatus() {
+    if (generationStatus) {
+        return generationStatus;
+    }
+    
+    try {
+        const possiblePaths = [
+            '/config/generation-status.json',
+            '../config/generation-status.json',
+            'config/generation-status.json'
+        ];
+        
+        for (const path of possiblePaths) {
+            try {
+                const response = await fetch(path);
+                if (response.ok) {
+                    generationStatus = await response.json();
+                    console.log('✓ generation-status.json загружен:', path);
+                    return generationStatus;
+                }
+            } catch (e) {
+                continue;
+            }
+        }
+        
+        console.warn('⚠️ Не удалось загрузить generation-status.json');
+        return null;
+    } catch (error) {
+        console.warn('⚠️ Ошибка загрузки generation-status.json:', error);
+        return null;
+    }
+}
+
 async function loadChapters() {
     console.log('Текущий путь:', window.location.pathname);
     console.log('Текущий URL:', window.location.href);
+    
+    // Убеждаемся, что allChapters и filteredChapters инициализированы
+    if (!Array.isArray(allChapters)) {
+        allChapters = [];
+    }
+    if (!Array.isArray(filteredChapters)) {
+        filteredChapters = [];
+    }
+    
     try {
         // Сначала пытаемся загрузить индекс
         let chapterIds = [];
@@ -33,10 +77,12 @@ async function loadChapters() {
                 
                 if (indexResponse.ok) {
                     const index = await indexResponse.json();
-                    chapterIds = index.chapters.map(c => c.id);
-                    console.log(`✓ Загружен индекс: ${chapterIds.length} глав из ${indexPath}`);
-                    indexLoaded = true;
-                    break;
+                    if (index && Array.isArray(index.chapters)) {
+                        chapterIds = index.chapters.map(c => c.id);
+                        console.log(`✓ Загружен индекс: ${chapterIds.length} глав из ${indexPath}`);
+                        indexLoaded = true;
+                        break;
+                    }
                 }
             } catch (e) {
                 console.warn(`Ошибка загрузки ${indexPath}:`, e.message);
@@ -62,12 +108,15 @@ async function loadChapters() {
                         const html = await response.text();
                         const parser = new DOMParser();
                         const doc = parser.parseFromString(html, 'text/html');
-                        chapterIds = Array.from(doc.querySelectorAll('a'))
+                        const foundIds = Array.from(doc.querySelectorAll('a'))
                             .map(a => a.href)
                             .filter(href => href.endsWith('/'))
                             .map(href => href.split('/').filter(Boolean).pop())
                             .filter(id => id && !id.includes('.') && id !== 'admin');
-                        console.log(`✓ Найдено глав в директории ${chapterPath}: ${chapterIds.length}`);
+                        if (Array.isArray(foundIds)) {
+                            chapterIds = foundIds;
+                            console.log(`✓ Найдено глав в директории ${chapterPath}: ${chapterIds.length}`);
+                        }
                         break; // Успешно загрузили, выходим из цикла
                     }
                 } catch (err) {
@@ -76,7 +125,7 @@ async function loadChapters() {
             }
         }
 
-        if (chapterIds.length === 0) {
+        if (!Array.isArray(chapterIds) || chapterIds.length === 0) {
             const errorMsg = 'Не найдено ни одной главы. ' +
                 'Убедитесь, что:\n' +
                 '1. Запущен `make admin` из корня проекта\n' +
@@ -86,7 +135,13 @@ async function loadChapters() {
             throw new Error(errorMsg);
         }
 
-        allChapters = [];
+        // Загружаем generation-status для правильного порядка
+        await loadGenerationStatus();
+        
+        // Инициализируем allChapters как массив
+        if (!Array.isArray(allChapters)) {
+            allChapters = [];
+        }
         
         // Загружаем данные каждой главы
         for (const chapterId of chapterIds) {
@@ -111,13 +166,46 @@ async function loadChapters() {
             }
         }
 
-        // Сортируем главы по order
-        allChapters.sort((a, b) => (a.order || 0) - (b.order || 0));
-        filteredChapters = [...allChapters];
+        // Сортируем главы согласно порядку из generation-status.json
+        if (generationStatus && Array.isArray(allChapters)) {
+            // Создаем мапу chapter_id -> порядковый номер в рамках всего курса
+            const chapterOrderMap = {};
+            let globalOrder = 0;
+            
+            // Проходим по разделам в порядке из generation-status
+            if (Array.isArray(generationStatus.sections)) {
+                for (const section of generationStatus.sections) {
+                    // Проходим по главам раздела в порядке из chapter_ids
+                    if (Array.isArray(section.chapter_ids)) {
+                        for (const chapterId of section.chapter_ids) {
+                            chapterOrderMap[chapterId] = globalOrder++;
+                        }
+                    }
+                }
+            }
+            
+            // Сортируем главы по порядку из generation-status
+            allChapters.sort((a, b) => {
+                const orderA = chapterOrderMap[a.id] !== undefined ? chapterOrderMap[a.id] : 9999;
+                const orderB = chapterOrderMap[b.id] !== undefined ? chapterOrderMap[b.id] : 9999;
+                return orderA - orderB;
+            });
+        } else if (Array.isArray(allChapters)) {
+            // Fallback: сортируем по order из данных главы
+            allChapters.sort((a, b) => (a.order || 0) - (b.order || 0));
+        }
+        
+        filteredChapters = Array.isArray(allChapters) ? [...allChapters] : [];
         
         // Показываем отладочную информацию если есть проблемы
-        const chaptersWithErrors = allChapters.filter(c => c.errors && c.errors.length > 0);
-        if (chaptersWithErrors.length > 0 || allChapters.length === 0) {
+        if (!Array.isArray(allChapters)) {
+            allChapters = [];
+        }
+        const chaptersWithErrors = Array.isArray(allChapters) 
+            ? allChapters.filter(c => c && c.errors && Array.isArray(c.errors) && c.errors.length > 0)
+            : [];
+        if ((Array.isArray(chaptersWithErrors) && chaptersWithErrors.length > 0) || 
+            (Array.isArray(allChapters) && allChapters.length === 0)) {
             const debugDiv = document.getElementById('debugInfo');
             const debugContent = document.getElementById('debugContent');
             const currentUrlEl = document.getElementById('currentUrl');
@@ -137,13 +225,16 @@ async function loadChapters() {
                 
                 debugContent.innerHTML = `
                     <p><strong>Проблемы с загрузкой:</strong></p>
-                    ${allChapters.length === 0 ? '<p style="color: #c62828;">❌ Не загружено ни одной главы!</p>' : ''}
-                    ${chaptersWithErrors.length > 0 ? `
+                    ${(Array.isArray(allChapters) && allChapters.length === 0) ? '<p style="color: #c62828;">❌ Не загружено ни одной главы!</p>' : ''}
+                    ${(Array.isArray(chaptersWithErrors) && chaptersWithErrors.length > 0) ? `
                         <p><strong>Глав с ошибками загрузки:</strong> ${chaptersWithErrors.length}</p>
                         <ul>
-                            ${chaptersWithErrors.map(c => `
-                                <li><strong>${c.id}:</strong> ${c.errors.join(', ')}</li>
-                            `).join('')}
+                            ${chaptersWithErrors.map(c => {
+                                if (c && c.id && Array.isArray(c.errors)) {
+                                    return `<li><strong>${c.id}:</strong> ${c.errors.join(', ')}</li>`;
+                                }
+                                return '';
+                            }).filter(s => s).join('')}
                         </ul>
                     ` : ''}
                     <p><strong>Совет:</strong> Откройте консоль браузера (F12) для детальной информации об ошибках.</p>
@@ -161,17 +252,59 @@ async function loadChapters() {
         renderChapters();
     } catch (error) {
         console.error('Ошибка загрузки глав:', error);
+        console.error('Стек ошибки:', error.stack);
+        console.error('allChapters:', allChapters);
+        console.error('filteredChapters:', filteredChapters);
+        console.error('generationStatus:', generationStatus);
+        
+        const errorMessage = error.message || 'Неизвестная ошибка';
+        const errorStack = error.stack || '';
+        
         document.getElementById('chaptersList').innerHTML = 
             `<div class="error">
-                Ошибка загрузки глав: ${error.message}<br>
-                <small>Убедитесь, что вы запустили: <code>node admin/generate-index.js</code></small>
+                <strong>Ошибка загрузки глав:</strong> ${errorMessage}<br>
+                <details style="margin-top: 10px;">
+                    <summary>Детали ошибки (нажмите для просмотра)</summary>
+                    <pre style="background: #f5f5f5; padding: 10px; margin-top: 5px; overflow: auto; font-size: 12px;">${errorStack}</pre>
+                </details>
+                <small style="display: block; margin-top: 10px;">
+                    Убедитесь, что вы запустили: <code>node admin/generate-index.js</code><br>
+                    Проверьте консоль браузера (F12) для дополнительной информации.
+                </small>
             </div>`;
     }
 }
 
 async function loadChapterData(chapterId) {
-    // Используем абсолютные пути от корня сервера
-    const basePath = `/chapters/${chapterId}/`;
+    // Получаем реальное имя папки (может быть с префиксом)
+    // Сначала пытаемся найти папку с префиксом, затем без
+    let folderName = chapterId;
+    let basePath = `/chapters/${chapterId}/`;
+    
+    // Пытаемся найти папку с префиксом (формат: 001.chapter_id)
+    // Загружаем индекс, чтобы получить правильный путь
+    try {
+        const indexResponse = await fetch('/admin/data/chapters-index.json');
+        if (indexResponse.ok) {
+            const index = await indexResponse.json();
+            const chapterInfo = index.chapters.find(c => c.id === chapterId);
+            if (chapterInfo && chapterInfo.path) {
+                // Путь в индексе может быть относительным (chapters/...) или абсолютным (/chapters/...)
+                // Преобразуем в абсолютный путь и убеждаемся, что он заканчивается на /
+                basePath = chapterInfo.path.startsWith('/') ? chapterInfo.path : '/' + chapterInfo.path;
+                if (!basePath.endsWith('/')) {
+                    basePath += '/';
+                }
+                // Извлекаем имя папки из пути
+                const pathParts = basePath.split('/').filter(p => p);
+                if (Array.isArray(pathParts) && pathParts.length > 0) {
+                    folderName = pathParts[pathParts.length - 1] || chapterId;
+                }
+            }
+        }
+    } catch (e) {
+        console.warn('Не удалось загрузить индекс для определения пути:', e);
+    }
     
     let chapter = {
         id: chapterId,
@@ -213,12 +346,12 @@ async function loadChapterData(chapterId) {
             chapter.section_id = final.section_id || chapter.section_id;
             
             // Подсчитываем вопросы
-            if (final.question_bank && final.question_bank.questions) {
+            if (final.question_bank && Array.isArray(final.question_bank.questions)) {
                 chapter.totalQuestions = final.question_bank.questions.length;
             }
             
             // Подсчитываем блоки теории
-            if (final.blocks) {
+            if (Array.isArray(final.blocks)) {
                 chapter.theoryBlocks = final.blocks.filter(b => b.type === 'theory').length;
             }
         } else {
@@ -255,6 +388,9 @@ async function loadChapterData(chapterId) {
 }
 
 function updateStats() {
+    if (!Array.isArray(allChapters)) {
+        allChapters = [];
+    }
     const total = allChapters.length;
     const valid = allChapters.filter(c => c.isValid === true).length;
     const invalid = allChapters.filter(c => c.isValid === false && c.hasValidation).length;
@@ -269,33 +405,117 @@ function updateStats() {
 function renderChapters() {
     const container = document.getElementById('chaptersList');
     
-    if (filteredChapters.length === 0) {
+    // Проверяем, что filteredChapters - массив
+    if (!Array.isArray(filteredChapters)) {
+        filteredChapters = Array.isArray(allChapters) ? [...allChapters] : [];
+    }
+    
+    if (!filteredChapters || filteredChapters.length === 0) {
         container.innerHTML = '<div class="error">Главы не найдены</div>';
         return;
     }
 
     // Группируем главы по section_id
     const groupedChapters = {};
-    filteredChapters.forEach(chapter => {
-        const sectionId = chapter.section_id || 'other';
-        if (!groupedChapters[sectionId]) {
-            groupedChapters[sectionId] = [];
-        }
-        groupedChapters[sectionId].push(chapter);
-    });
+    if (Array.isArray(filteredChapters)) {
+        filteredChapters.forEach(chapter => {
+            if (chapter) {
+                const sectionId = chapter.section_id || 'other';
+                if (!groupedChapters[sectionId]) {
+                    groupedChapters[sectionId] = [];
+                }
+                groupedChapters[sectionId].push(chapter);
+            }
+        });
+    }
 
-    // Сортируем группы (можно улучшить, добавив порядок разделов)
-    const sectionIds = Object.keys(groupedChapters).sort();
-    
-    // Сортируем главы внутри каждой группы по order
-    sectionIds.forEach(sectionId => {
-        groupedChapters[sectionId].sort((a, b) => (a.order || 0) - (b.order || 0));
-    });
+        // Определяем порядок разделов и глав
+        let sectionIds = [];
+        let sectionOrderMap = {};
+        let sectionTitleMap = {};
+        let chapterOrderInSection = {};
+        
+        if (generationStatus && Array.isArray(generationStatus.sections)) {
+            // Используем порядок из generation-status.json
+            for (const section of generationStatus.sections) {
+                if (section && section.section_id) {
+                    sectionIds.push(section.section_id);
+                    sectionOrderMap[section.section_id] = section.order !== undefined ? section.order : 999;
+                    sectionTitleMap[section.section_id] = section.title || section.section_id;
+                    
+                    // Создаем мапу порядка глав внутри раздела
+                    if (Array.isArray(section.chapter_ids)) {
+                        section.chapter_ids.forEach((chapterId, index) => {
+                            if (!chapterOrderInSection[section.section_id]) {
+                                chapterOrderInSection[section.section_id] = {};
+                            }
+                            chapterOrderInSection[section.section_id][chapterId] = index;
+                        });
+                    }
+                }
+            }
+            
+            // Добавляем разделы, которых нет в generation-status (если есть)
+            for (const sectionId of Object.keys(groupedChapters)) {
+                if (!sectionIds.includes(sectionId)) {
+                    sectionIds.push(sectionId);
+                    sectionOrderMap[sectionId] = 9999;
+                    sectionTitleMap[sectionId] = sectionId.replace(/^en\.grammar\./, '').replace(/\./g, ' / ');
+                }
+            }
+            
+            // Сортируем разделы по order из generation-status
+            if (Array.isArray(sectionIds)) {
+                sectionIds.sort((a, b) => {
+                    const orderA = sectionOrderMap[a] !== undefined ? sectionOrderMap[a] : 9999;
+                    const orderB = sectionOrderMap[b] !== undefined ? sectionOrderMap[b] : 9999;
+                    return orderA - orderB;
+                });
+            }
+            
+            // Сортируем главы внутри каждого раздела по порядку из chapter_ids
+            sectionIds.forEach(sectionId => {
+                if (Array.isArray(groupedChapters[sectionId])) {
+                    if (chapterOrderInSection[sectionId]) {
+                        groupedChapters[sectionId].sort((a, b) => {
+                            const orderA = chapterOrderInSection[sectionId][a.id] !== undefined 
+                                ? chapterOrderInSection[sectionId][a.id] 
+                                : 9999;
+                            const orderB = chapterOrderInSection[sectionId][b.id] !== undefined 
+                                ? chapterOrderInSection[sectionId][b.id] 
+                                : 9999;
+                            return orderA - orderB;
+                        });
+                    } else {
+                        // Fallback: сортируем по order из данных главы
+                        groupedChapters[sectionId].sort((a, b) => (a.order || 0) - (b.order || 0));
+                    }
+                }
+            });
+        } else {
+            // Fallback: сортируем разделы по ID
+            sectionIds = Object.keys(groupedChapters);
+            if (Array.isArray(sectionIds)) {
+                sectionIds.sort();
+            }
+            sectionIds.forEach(sectionId => {
+                if (Array.isArray(groupedChapters[sectionId])) {
+                    groupedChapters[sectionId].sort((a, b) => (a.order || 0) - (b.order || 0));
+                }
+            });
+        }
 
     // Формируем HTML с группами
     container.innerHTML = sectionIds.map(sectionId => {
         const chapters = groupedChapters[sectionId];
-        const sectionName = sectionId.replace(/^en\.grammar\./, '').replace(/\./g, ' / ') || sectionId;
+        
+        // Проверяем, что chapters существует и является массивом
+        if (!chapters || !Array.isArray(chapters) || chapters.length === 0) {
+            return ''; // Пропускаем разделы без глав
+        }
+        
+        const sectionName = sectionTitleMap[sectionId] || sectionId.replace(/^en\.grammar\./, '').replace(/\./g, ' / ') || sectionId;
+        const chaptersCount = chapters.length;
         
         return `
             <div class="section-group">
@@ -303,7 +523,7 @@ function renderChapters() {
                     <h2 class="section-title">${sectionName}</h2>
                     <div class="section-meta">
                         <span class="section-id">${sectionId}</span>
-                        <span class="section-count">${chapters.length} ${chapters.length === 1 ? 'глава' : chapters.length < 5 ? 'главы' : 'глав'}</span>
+                        <span class="section-count">${chaptersCount} ${chaptersCount === 1 ? 'глава' : chaptersCount < 5 ? 'главы' : 'глав'}</span>
                     </div>
                 </div>
                 <div class="section-chapters">
@@ -311,7 +531,7 @@ function renderChapters() {
                 </div>
             </div>
         `;
-    }).join('');
+    }).filter(html => html).join(''); // Убираем пустые строки
 }
 
 function renderChapterCard(chapter) {
@@ -386,6 +606,11 @@ function filterChapters() {
     const searchTerm = document.getElementById('searchInput').value.toLowerCase();
     const levelFilter = document.getElementById('levelFilter').value;
     const statusFilter = document.getElementById('statusFilter').value;
+
+    // Убеждаемся, что allChapters - массив
+    if (!Array.isArray(allChapters)) {
+        allChapters = [];
+    }
 
     filteredChapters = allChapters.filter(chapter => {
         // Поиск

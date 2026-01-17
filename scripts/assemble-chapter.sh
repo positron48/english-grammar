@@ -9,13 +9,21 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 CHAPTER_ID="${1:-}"
 
+# Подключаем утилиты для работы с именами папок
+source "$SCRIPT_DIR/chapter-utils.sh"
+
 if [ -z "$CHAPTER_ID" ]; then
     echo "Ошибка: укажите chapter_id"
     echo "Использование: $0 <chapter_id>"
     exit 1
 fi
 
-CHAPTER_DIR="$PROJECT_ROOT/chapters/$CHAPTER_ID"
+# Получаем путь к папке главы (может быть с префиксом или без)
+CHAPTER_DIR=$(get_chapter_dir "$CHAPTER_ID" "$PROJECT_ROOT/chapters")
+if [ $? -ne 0 ]; then
+    echo "Ошибка: папка главы не найдена: $CHAPTER_ID"
+    exit 1
+fi
 SCHEMA_FILE="$PROJECT_ROOT/02-chapter-schema.json"
 
 # Проверяем наличие необходимых файлов

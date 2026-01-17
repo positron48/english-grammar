@@ -86,7 +86,9 @@ export async function loadAllChapters() {
         // Загружаем каждую главу из индекса
         for (const chapterInfo of index.chapters || []) {
             try {
-                const chapterPath = `${CHAPTERS_BASE_PATH}${chapterInfo.id}/05-final.json`;
+                // Используем folder_name если есть (для папок с префиксом), иначе id
+                const folderName = chapterInfo.folder_name || chapterInfo.id;
+                const chapterPath = `${CHAPTERS_BASE_PATH}${folderName}/05-final.json`;
                 const chapterResponse = await fetch(chapterPath);
                 if (chapterResponse.ok) {
                     const chapterData = await chapterResponse.json();
@@ -135,12 +137,34 @@ export async function loadAllChapters() {
  */
 export async function loadChapter(chapterId) {
     try {
-        // Находим папку главы (chapter_id соответствует имени папки)
-        const chapterPath = `${CHAPTERS_BASE_PATH}${chapterId}/05-final.json`;
-        const response = await fetch(chapterPath);
+        // Сначала пытаемся загрузить индекс, чтобы найти правильное имя папки
+        let folderName = chapterId;
+        
+        try {
+            const indexResponse = await fetch('data/chapters-index.json');
+            if (indexResponse.ok) {
+                const index = await indexResponse.json();
+                const chapterInfo = index.chapters.find(c => c.id === chapterId);
+                if (chapterInfo && chapterInfo.folder_name) {
+                    folderName = chapterInfo.folder_name;
+                }
+            }
+        } catch (e) {
+            // Если индекс не загружен, используем chapterId
+        }
+        
+        // Пробуем загрузить с найденным именем папки
+        let chapterPath = `${CHAPTERS_BASE_PATH}${folderName}/05-final.json`;
+        let response = await fetch(chapterPath);
+        
+        // Если не найдено, пробуем без префикса
+        if (!response.ok && folderName !== chapterId) {
+            chapterPath = `${CHAPTERS_BASE_PATH}${chapterId}/05-final.json`;
+            response = await fetch(chapterPath);
+        }
         
         if (!response.ok) {
-            throw new Error(`Глава не найдена: ${chapterId}`);
+            throw new Error(`Глава не найдена: ${chapterId} (пробовал: ${folderName}, ${chapterId})`);
         }
         
         const chapterData = await response.json();

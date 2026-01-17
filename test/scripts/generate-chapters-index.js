@@ -24,22 +24,26 @@ function findChapters() {
     
     for (const entry of entries) {
         if (entry.isDirectory() && !entry.name.startsWith('.')) {
-            const chapterDir = path.join(CHAPTERS_DIR, entry.name);
+            const folderName = entry.name;
+            const chapterDir = path.join(CHAPTERS_DIR, folderName);
             const finalFile = path.join(chapterDir, '05-final.json');
             
             if (fs.existsSync(finalFile)) {
                 try {
                     const chapterData = JSON.parse(fs.readFileSync(finalFile, 'utf8'));
+                    // Используем id из данных главы (не из имени папки)
+                    // Имя папки может быть с префиксом (001.chapter_id), но id всегда правильный
                     chapters.push({
                         id: chapterData.id,
                         section_id: chapterData.section_id,
                         title: chapterData.title || chapterData.title_short || chapterData.id,
                         title_short: chapterData.title_short,
                         level: chapterData.level,
-                        order: chapterData.order || 0
+                        order: chapterData.order || 0,
+                        folder_name: folderName  // Сохраняем реальное имя папки для загрузки
                     });
                 } catch (error) {
-                    console.warn(`Ошибка чтения главы ${entry.name}:`, error.message);
+                    console.warn(`Ошибка чтения главы ${folderName}:`, error.message);
                 }
             }
         }

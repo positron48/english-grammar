@@ -19,7 +19,16 @@ case "$MODE" in
             exit 1
         fi
         
-        CHAPTER_DIR="$PROJECT_ROOT/chapters/$CHAPTER_ID"
+        # Подключаем утилиты для работы с именами папок
+        source "$SCRIPT_DIR/chapter-utils.sh"
+        
+        # Получаем путь к папке главы (может быть с префиксом или без)
+        CHAPTER_DIR=$(get_chapter_dir "$CHAPTER_ID" "$PROJECT_ROOT/chapters")
+        if [ $? -ne 0 ]; then
+            # Если папка не найдена, создаем новую (без префикса, префикс добавится позже)
+            CHAPTER_DIR="$PROJECT_ROOT/chapters/$CHAPTER_ID"
+        fi
+        
         INPUT_FILE="$PROJECT_ROOT/config/chapter-templates/$CHAPTER_ID-input.json"
         
         # Создаем структуру

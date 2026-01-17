@@ -10,6 +10,9 @@ PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 CHAPTER_ID="${1:-}"
 STEP="${2:-all}"
 
+# Подключаем утилиты для работы с именами папок
+source "$SCRIPT_DIR/chapter-utils.sh"
+
 if [ -z "$CHAPTER_ID" ]; then
     echo "Ошибка: укажите chapter_id"
     echo "Использование: $0 <chapter_id> [--step N]"
@@ -17,7 +20,12 @@ if [ -z "$CHAPTER_ID" ]; then
     exit 1
 fi
 
-CHAPTER_DIR="$PROJECT_ROOT/chapters/$CHAPTER_ID"
+# Получаем путь к папке главы (может быть с префиксом или без)
+CHAPTER_DIR=$(get_chapter_dir "$CHAPTER_ID" "$PROJECT_ROOT/chapters")
+if [ $? -ne 0 ]; then
+    # Если папка не найдена, создаем новую (без префикса, префикс добавится позже)
+    CHAPTER_DIR="$PROJECT_ROOT/chapters/$CHAPTER_ID"
+fi
 CONFIG_FILE="$PROJECT_ROOT/config/generation-config.json"
 SCHEMA_FILE="$PROJECT_ROOT/02-chapter-schema.json"
 

@@ -20,8 +20,15 @@ if (fs.existsSync(chaptersDir)) {
     
     for (const entry of entries) {
         if (entry.isDirectory()) {
-            const chapterId = entry.name;
-            const chapterPath = path.join(chaptersDir, chapterId);
+            const folderName = entry.name;
+            const chapterPath = path.join(chaptersDir, folderName);
+            
+            // Извлекаем chapter_id из имени папки (убираем префикс вида "001.")
+            let chapterId = folderName;
+            const prefixMatch = folderName.match(/^(\d{3})\.(.+)$/);
+            if (prefixMatch) {
+                chapterId = prefixMatch[2]; // Берем часть после префикса
+            }
             
             // Проверяем наличие основных файлов
             const hasOutline = fs.existsSync(path.join(chapterPath, '01-outline.json'));
@@ -30,7 +37,7 @@ if (fs.existsSync(chaptersDir)) {
             if (hasOutline || hasFinal) {
                 chapters.push({
                     id: chapterId,
-                    path: `chapters/${chapterId}/`
+                    path: `/chapters/${folderName}/`  // Абсолютный путь от корня сервера
                 });
             }
         }
