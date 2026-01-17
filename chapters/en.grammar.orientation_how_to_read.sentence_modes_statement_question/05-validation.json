@@ -1,12 +1,27 @@
 {
   "validation_result": {
-    "is_valid": true,
-    "schema_valid": true,
-    "issues": [],
+    "is_valid": false,
+    "schema_valid": false,
+    "issues": [
+      {
+        "severity": "error",
+        "category": "structural",
+        "message": "Level 'A0' не соответствует схеме. Допустимые значения: A1, A2, B1, B2, C1, C2, mixed",
+        "location": "level",
+        "suggested_fix": "Изменить level на одно из допустимых значений"
+      },
+      {
+        "severity": "warning",
+        "category": "methodological",
+        "message": "Несбалансированные true_false вопросы: 9 true (100.0%) и 0 false (0.0%). Должно быть 50±10% (40-60%) вопросов с correct_answer 'true'.",
+        "location": "question_bank.questions (true_false)",
+        "suggested_fix": "Изменить correct_answer некоторых true_false вопросов. Сейчас true: 9, false: 0. Нужно примерно равное количество."
+      }
+    ],
     "summary": {
-      "total_issues": 0,
-      "errors": 0,
-      "warnings": 0,
+      "total_issues": 2,
+      "errors": 1,
+      "warnings": 1,
       "suggestions": 0
     },
     "coverage": {
