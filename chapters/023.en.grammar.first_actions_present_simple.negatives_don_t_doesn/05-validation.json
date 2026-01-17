@@ -1,11 +1,26 @@
 {
   "validation_result": {
-    "is_valid": true,
-    "schema_valid": true,
-    "issues": [],
+    "is_valid": false,
+    "schema_valid": false,
+    "issues": [
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Question q29: correct_answer для fill_blank должен быть одним словом, найдено: 'does not'",
+        "location": "question_bank.questions[28].correct_answer",
+        "suggested_fix": "Изменить correct_answer на одно слово. Если нужны несколько пропусков, создайте несколько вопросов или используйте другой тип вопроса."
+      },
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Question q29: в скобках указана та же форма 'does not', что и в correct_answer 'does not'. В скобках должна быть базовая форма или другая форма, но не та же самая.",
+        "location": "question_bank.questions[28].prompt",
+        "suggested_fix": "Изменить скобки на базовую форму. Например, если correct_answer 'does not', то в скобках указать базовую форму глагола или другую подсказку."
+      }
+    ],
     "summary": {
-      "total_issues": 0,
-      "errors": 0,
+      "total_issues": 2,
+      "errors": 2,
       "warnings": 0,
       "suggestions": 0
     },
@@ -13,11 +28,11 @@
       "theory_blocks_covered": 5,
       "total_theory_blocks": 5,
       "questions_per_block": {
-        "b1_theory_negatives_basics": 12,
-        "b2_theory_dont_vs_doesnt": 12,
-        "b3_theory_contractions": 6,
-        "b4_theory_never_usage": 9,
-        "b5_theory_common_mistakes": 6
+        "b1_theory_negatives_basics": 17,
+        "b2_theory_dont_vs_doesnt": 16,
+        "b3_theory_contractions": 7,
+        "b4_theory_never_usage": 13,
+        "b5_theory_common_mistakes": 7
       }
     }
   }

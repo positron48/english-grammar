@@ -1068,11 +1068,28 @@
       },
       {
         "id": "q29",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск полной формой: \"She ___ understand.\" (does not)",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную полную форму для предложения: \"She ___ understand.\"",
         "theory_block_id": "b3_theory_contractions",
         "difficulty": 2,
-        "correct_answer": "does not",
+        "choices": [
+          {
+            "id": "a",
+            "text": "does not",
+            "feedback": "Правильно! Does not — полная форма от doesn't"
+          },
+          {
+            "id": "b",
+            "text": "do not",
+            "feedback": "Нет, с 'she' используется 'does not', а не 'do not'"
+          },
+          {
+            "id": "c",
+            "text": "doesn't",
+            "feedback": "Это сокращенная форма, а нужна полная форма"
+          }
+        ],
+        "correct_answer": "a",
         "explanation": "Правильный ответ: 'does not'. Это полная форма от 'doesn't'. Оба варианта правильны, но полная форма используется в формальном стиле или для усиления.",
         "tags": [
           "contractions",
@@ -1861,7 +1878,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-17T22:20:20Z",
+    "updated_at": "2026-01-17T22:22:31Z",
     "source": "llm"
   }
 }
