@@ -69,22 +69,6 @@
       }
     },
     {
-      "id": "b2_quiz_after_personal_pronouns",
-      "type": "quiz_inline",
-      "title": "Quick check: личные местоимения",
-      "quiz_inline": {
-        "question_ids": [
-          "q1",
-          "q2",
-          "q3",
-          "q4",
-          "q5",
-          "q6"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b2_theory_am_is_are_forms",
       "type": "theory",
       "title": "Глагол be (быть) имеет три основные формы в настоящем времени:",
@@ -126,22 +110,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b4_quiz_after_am_is_are_forms",
-      "type": "quiz_inline",
-      "title": "Quick check: формы be (am, is, are)",
-      "quiz_inline": {
-        "question_ids": [
-          "q13",
-          "q14",
-          "q15",
-          "q16",
-          "q17",
-          "q18"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -201,22 +169,6 @@
       }
     },
     {
-      "id": "b6_quiz_after_pronouns_with_be",
-      "type": "quiz_inline",
-      "title": "Quick check: сочетания местоимений с be",
-      "quiz_inline": {
-        "question_ids": [
-          "q25",
-          "q26",
-          "q27",
-          "q28",
-          "q29",
-          "q30"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b4_theory_singular_plural",
       "type": "theory",
       "title": "Местоимения делятся на единственное и множественное число:",
@@ -260,22 +212,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b8_quiz_after_singular_plural",
-      "type": "quiz_inline",
-      "title": "Quick check: единственное и множественное число",
-      "quiz_inline": {
-        "question_ids": [
-          "q37",
-          "q38",
-          "q39",
-          "q40",
-          "q41",
-          "q42"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -918,42 +854,6 @@
         ]
       },
       {
-        "id": "q39",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск местоимением единственного числа: **___ is happy.** (он)",
-        "theory_block_id": "b4_theory_singular_plural",
-        "difficulty": 1,
-        "correct_answer": "He",
-        "explanation": "Местоимение 'He' (он) — это единственное число.",
-        "tags": [
-          "singular_plural"
-        ]
-      },
-      {
-        "id": "q40",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск местоимением множественного числа: **___ are students.** (они)",
-        "theory_block_id": "b4_theory_singular_plural",
-        "difficulty": 1,
-        "correct_answer": "They",
-        "explanation": "Местоимение 'They' (они) — это множественное число.",
-        "tags": [
-          "singular_plural"
-        ]
-      },
-      {
-        "id": "q41",
-        "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\n**Местоимение 'you' используется только для множественного числа.**",
-        "theory_block_id": "b4_theory_singular_plural",
-        "difficulty": 2,
-        "correct_answer": "false",
-        "explanation": "Нет, неверно. Местоимение 'you' используется и для единственного, и для множественного числа. Форма одинаковая.",
-        "tags": [
-          "singular_plural"
-        ]
-      },
-      {
         "id": "q42",
         "type": "true_false",
         "prompt": "Верно ли утверждение?\n\n**Местоимение 'they' используется только для людей.**",
@@ -963,113 +863,6 @@
         "explanation": "Нет, неверно. Местоимение 'they' используется для людей и предметов во множественном числе.",
         "tags": [
           "singular_plural"
-        ]
-      },
-      {
-        "id": "q45",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант:\n\n**I ___ a student.**",
-        "theory_block_id": "b5_theory_common_patterns",
-        "difficulty": 1,
-        "choices": [
-          {
-            "id": "a",
-            "text": "am",
-            "feedback": "Правильно! С 'I' используется 'am'"
-          },
-          {
-            "id": "b",
-            "text": "is",
-            "feedback": "Нет, 'is' используется с he, she, it"
-          },
-          {
-            "id": "c",
-            "text": "are",
-            "feedback": "Нет, 'are' используется с you, we, they"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Паттерн: местоимение (I) + be (am) + существительное (a student).",
-        "tags": [
-          "patterns"
-        ]
-      },
-      {
-        "id": "q46",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант:\n\n**She ___ happy.**",
-        "theory_block_id": "b5_theory_common_patterns",
-        "difficulty": 1,
-        "choices": [
-          {
-            "id": "a",
-            "text": "am",
-            "feedback": "Нет, 'am' используется только с 'I'"
-          },
-          {
-            "id": "b",
-            "text": "is",
-            "feedback": "Правильно! С 'she' используется 'is'"
-          },
-          {
-            "id": "c",
-            "text": "are",
-            "feedback": "Нет, 'are' используется с you, we, they"
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "Паттерн: местоимение (She) + be (is) + прилагательное (happy).",
-        "tags": [
-          "patterns"
-        ]
-      },
-      {
-        "id": "q47",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: **We ___ at home.** (be, правильная форма)",
-        "theory_block_id": "b5_theory_common_patterns",
-        "difficulty": 1,
-        "correct_answer": "are",
-        "explanation": "Паттерн: местоимение (We) + be (are) + место (at home).",
-        "tags": [
-          "patterns"
-        ]
-      },
-      {
-        "id": "q48",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: **He ___ a doctor.** (be, правильная форма)",
-        "theory_block_id": "b5_theory_common_patterns",
-        "difficulty": 1,
-        "correct_answer": "is",
-        "explanation": "Паттерн: местоимение (He) + be (is) + существительное (a doctor).",
-        "tags": [
-          "patterns"
-        ]
-      },
-      {
-        "id": "q49",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: **They ___ tired.** (be, правильная форма)",
-        "theory_block_id": "b5_theory_common_patterns",
-        "difficulty": 1,
-        "correct_answer": "are",
-        "explanation": "Паттерн: местоимение (They) + be (are) + прилагательное (tired).",
-        "tags": [
-          "patterns"
-        ]
-      },
-      {
-        "id": "q50",
-        "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\n**Порядок слов в английском предложении: местоимение → be → остальное.**",
-        "theory_block_id": "b5_theory_common_patterns",
-        "difficulty": 2,
-        "correct_answer": "true",
-        "explanation": "Да, верно. В английском языке порядок слов строгий: подлежащее (местоимение) → сказуемое (be) → дополнение/обстоятельство.",
-        "tags": [
-          "patterns",
-          "word_order"
         ]
       },
       {
@@ -1109,88 +902,6 @@
         "tags": [
           "patterns",
           "word_order"
-        ]
-      },
-      {
-        "id": "q54",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант для завершения предложения:\n\n**They ___ books.**",
-        "theory_block_id": "b5_theory_common_patterns",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "are",
-            "feedback": "Правильно! 'are' используется с 'they', а 'books' — множественное число"
-          },
-          {
-            "id": "b",
-            "text": "is",
-            "feedback": "Нет, 'is' используется с he, she, it"
-          },
-          {
-            "id": "c",
-            "text": "am",
-            "feedback": "Нет, 'am' используется только с 'I'"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Паттерн: местоимение (They) + be (are) + существительное (books, множественное число).",
-        "tags": [
-          "patterns"
-        ]
-      },
-      {
-        "id": "q55",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант для завершения предложения:\n\n**It ___ a book.**",
-        "theory_block_id": "b5_theory_common_patterns",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "are",
-            "feedback": "Нет, 'are' используется с you, we, they"
-          },
-          {
-            "id": "b",
-            "text": "is",
-            "feedback": "Правильно! 'is' используется с 'it'"
-          },
-          {
-            "id": "c",
-            "text": "am",
-            "feedback": "Нет, 'am' используется только с 'I'"
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "Паттерн: местоимение (It) + be (is) + существительное (a book).",
-        "tags": [
-          "patterns"
-        ]
-      },
-      {
-        "id": "q56",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: **You ___ my friend.** (be, правильная форма)",
-        "theory_block_id": "b5_theory_common_patterns",
-        "difficulty": 1,
-        "correct_answer": "are",
-        "explanation": "Паттерн: местоимение (You) + be (are) + существительное (my friend).",
-        "tags": [
-          "patterns"
-        ]
-      },
-      {
-        "id": "q57",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: **I ___ at school.** (be, правильная форма)",
-        "theory_block_id": "b5_theory_common_patterns",
-        "difficulty": 1,
-        "correct_answer": "am",
-        "explanation": "Паттерн: местоимение (I) + be (am) + место (at school).",
-        "tags": [
-          "patterns"
         ]
       },
       {
@@ -1268,23 +979,10 @@
       "q34",
       "q37",
       "q38",
-      "q39",
-      "q40",
-      "q41",
       "q42",
-      "q45",
-      "q46",
-      "q47",
-      "q48",
-      "q49",
-      "q50",
       "q51",
       "q52",
       "q53",
-      "q54",
-      "q55",
-      "q56",
-      "q57",
       "q58",
       "q59",
       "q60"
@@ -1302,7 +1000,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-17T21:25:36Z",
+    "updated_at": "2026-01-17T21:49:35Z",
     "source": "llm"
   }
 }
