@@ -120,7 +120,13 @@ jq -s --argjson inline_quizzes "$INLINE_QUIZZES_JSON" '
   )
 ' "$OUTLINE_FILE" "$TEMP_DIR/theory_blocks.json" > "$TEMP_DIR/blocks.json"
 
-# Собираем финальный JSON
+# Сохраняем старый updated_at, если файл существует
+OLD_UPDATED_AT=""
+if [ -f "$FINAL_FILE" ]; then
+    OLD_UPDATED_AT=$(jq -r '.meta.updated_at // empty' "$FINAL_FILE" 2>/dev/null || echo "")
+fi
+
+# Собираем новый финальный JSON во временный файл
 jq -s '
   .[0].chapter_outline as $outline |
   .[1] as $blocks |
@@ -165,9 +171,29 @@ jq -s '
       source: "llm"
     }
   }
-' "$OUTLINE_FILE" "$TEMP_DIR/blocks.json" "$QUESTIONS_FILE" > "$FINAL_FILE"
+' "$OUTLINE_FILE" "$TEMP_DIR/blocks.json" "$QUESTIONS_FILE" > "$TEMP_DIR/new_final.json"
 
-echo "✓ Финальный JSON собран: $FINAL_FILE"
+# Проверяем, были ли изменения (сравниваем JSON, исключая meta.updated_at)
+if [ -f "$FINAL_FILE" ] && [ -n "$OLD_UPDATED_AT" ]; then
+    # Удаляем meta.updated_at из обоих файлов для сравнения
+    jq 'del(.meta.updated_at)' "$FINAL_FILE" > "$TEMP_DIR/old_without_updated.json"
+    jq 'del(.meta.updated_at)' "$TEMP_DIR/new_final.json" > "$TEMP_DIR/new_without_updated.json"
+    
+    # Сравниваем JSON (игнорируя различия в пробелах)
+    if diff -q <(jq -cS '.' "$TEMP_DIR/old_without_updated.json") <(jq -cS '.' "$TEMP_DIR/new_without_updated.json") >/dev/null 2>&1; then
+        # Нет изменений - используем старый updated_at
+        jq --arg old_updated_at "$OLD_UPDATED_AT" '.meta.updated_at = $old_updated_at' "$TEMP_DIR/new_final.json" > "$FINAL_FILE"
+        echo "✓ Финальный JSON собран (без изменений, updated_at сохранен): $FINAL_FILE"
+    else
+        # Есть изменения - используем новый updated_at
+        cp "$TEMP_DIR/new_final.json" "$FINAL_FILE"
+        echo "✓ Финальный JSON собран (обновлен): $FINAL_FILE"
+    fi
+else
+    # Файл не существовал - просто копируем новый
+    cp "$TEMP_DIR/new_final.json" "$FINAL_FILE"
+    echo "✓ Финальный JSON собран: $FINAL_FILE"
+fi
 
 # Проверяем соответствие схеме (если установлен ajv-cli)
 if command -v ajv &> /dev/null; then
