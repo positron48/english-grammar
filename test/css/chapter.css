@@ -1,0 +1,357 @@
+/* Стили для страницы главы */
+
+.chapter-content {
+    background-color: var(--surface-color);
+    padding: 30px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+.chapter-title-section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.chapter-title-section h1 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.chapter-meta {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.chapter-description {
+    background-color: var(--bg-color);
+    padding: 15px;
+    border-radius: var(--border-radius);
+    margin-bottom: 20px;
+    color: var(--text-muted);
+    border-left: 4px solid var(--primary-color);
+}
+
+.learning-objectives {
+    background-color: #fef3c7;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    margin-bottom: 30px;
+}
+
+.learning-objectives h3 {
+    color: #92400e;
+    margin-bottom: 10px;
+}
+
+.learning-objectives ul {
+    margin-left: 20px;
+    color: #78350f;
+}
+
+/* Блоки теории */
+
+.theory-block {
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.theory-block:last-child {
+    border-bottom: none;
+}
+
+.block-title {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.theory-content {
+    margin-bottom: 20px;
+}
+
+.theory-content h1,
+.theory-content h2,
+.theory-content h3 {
+    color: var(--text-color);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.theory-content h1 {
+    font-size: 1.8em;
+}
+
+.theory-content h2 {
+    font-size: 1.5em;
+}
+
+.theory-content h3 {
+    font-size: 1.2em;
+}
+
+.theory-content p {
+    margin-bottom: 15px;
+}
+
+.theory-content ul,
+.theory-content ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.theory-content li {
+    margin-bottom: 8px;
+}
+
+.theory-content strong {
+    color: var(--primary-color);
+}
+
+/* Примеры */
+
+.theory-examples {
+    background-color: #f0f9ff;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    margin-top: 20px;
+}
+
+.theory-examples h3 {
+    color: #0369a1;
+    margin-bottom: 15px;
+}
+
+.theory-examples ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+.theory-examples li {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: var(--border-radius);
+}
+
+.example-text {
+    font-weight: bold;
+    color: var(--text-color);
+    margin-bottom: 5px;
+}
+
+.example-translation {
+    color: var(--text-muted);
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.example-notes {
+    font-size: 0.9em;
+    color: var(--text-muted);
+    margin-top: 5px;
+}
+
+/* Ключевые моменты */
+
+.theory-key-points {
+    background-color: #dcfce7;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    margin-top: 20px;
+}
+
+.theory-key-points h3 {
+    color: #166534;
+    margin-bottom: 15px;
+}
+
+.theory-key-points ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+.theory-key-points li {
+    padding-left: 25px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.theory-key-points li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #166534;
+    font-weight: bold;
+}
+
+/* Типичные ошибки */
+
+.theory-mistakes {
+    background-color: #fee2e2;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    margin-top: 20px;
+}
+
+.theory-mistakes h3 {
+    color: #991b1b;
+    margin-bottom: 15px;
+}
+
+.theory-mistakes ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+.theory-mistakes li {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: var(--border-radius);
+}
+
+.mistake-wrong {
+    color: var(--error-color);
+    margin-bottom: 8px;
+}
+
+.mistake-right {
+    color: var(--success-color);
+    margin-bottom: 8px;
+}
+
+.mistake-why {
+    color: var(--text-muted);
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+/* Inline квизы */
+
+.inline-quiz {
+    background-color: #f8fafc;
+    padding: 25px;
+    border-radius: var(--border-radius);
+    margin: 30px 0;
+    border: 2px solid var(--primary-color);
+}
+
+.quiz-title {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    font-size: 1.3em;
+}
+
+.quiz-questions {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.question {
+    background-color: white;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+}
+
+.question-prompt {
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.question-prompt strong {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 1.05em;
+    display: inline-block;
+    padding: 2px 4px;
+    background-color: #eff6ff;
+    border-radius: 4px;
+}
+
+.question-choices {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.choice {
+    display: flex;
+    align-items: flex-start;
+    padding: 12px;
+    border: 2px solid var(--border-color);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.choice:hover {
+    background-color: var(--bg-color);
+    border-color: var(--primary-color);
+}
+
+.choice input[type="radio"],
+.choice input[type="checkbox"] {
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.choice.correct {
+    background-color: #dcfce7;
+    border-color: var(--success-color);
+}
+
+.choice-feedback {
+    margin-top: 8px;
+    font-size: 0.9em;
+    color: var(--text-muted);
+}
+
+.question-fill-blank,
+.question-reorder {
+    margin-top: 15px;
+}
+
+.fill-blank-input,
+.reorder-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--border-color);
+    border-radius: var(--border-radius);
+    font-size: 1em;
+    font-family: inherit;
+}
+
+.fill-blank-input:focus,
+.reorder-textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.fill-blank-input.correct,
+.reorder-textarea.correct {
+    background-color: #dcfce7;
+    border-color: var(--success-color);
+}
+
+.question-explanation {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #f0f9ff;
+    border-radius: var(--border-radius);
+    border-left: 4px solid var(--primary-color);
+    color: var(--text-muted);
+}
+
+.chapter-footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 2px solid var(--border-color);
+    text-align: center;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Финальный тест</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/test.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="breadcrumb">
+                <a href="index.html">Главная</a> 
+                <span class="separator">›</span>
+                <a id="breadcrumb-chapter-link" href="#">Глава</a>
+                <span class="separator">›</span>
+                <span>Финальный тест</span>
+            </nav>
+            <h1 id="test-title">Финальный тест</h1>
+        </header>
+
+        <main>
+            <div id="loading" class="loading">Загрузка теста...</div>
+            <div id="test-info" class="test-info" style="display: none;">
+                <p>В тесте <span id="test-num-questions"></span> вопросов</p>
+                <button id="start-test-btn" class="btn btn-primary">Начать тест</button>
+            </div>
+            <div id="test-content" class="test-content" style="display: none;">
+                <div class="test-progress">
+                    <div class="progress-bar">
+                        <div id="progress-fill" class="progress-fill"></div>
+                    </div>
+                    <span id="progress-text">Вопрос 1 из 10</span>
+                </div>
+                <div id="test-questions"></div>
+                <div class="test-actions">
+                    <button id="prev-question-btn" class="btn btn-secondary" disabled>Назад</button>
+                    <button id="next-question-btn" class="btn btn-primary">Далее</button>
+                    <button id="finish-test-btn" class="btn btn-success" style="display: none;">Завершить тест</button>
+                </div>
+            </div>
+            <div id="test-results" class="test-results" style="display: none;">
+                <h2>Результаты теста</h2>
+                <div id="test-score"></div>
+                <div id="test-details"></div>
+                <div class="test-actions">
+                    <a id="back-to-chapter-btn" href="#" class="btn btn-primary">Вернуться к главе</a>
+                    <button id="restart-test-btn" class="btn btn-secondary">Пройти тест заново</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script type="module" src="js/test.js"></script>
+</body>
+</html>
