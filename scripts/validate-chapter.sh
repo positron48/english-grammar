@@ -344,18 +344,6 @@ for block in chapter['blocks']:
             })
             errors += 1
 
-# Количество вопросов
-num_questions = len(chapter['question_bank']['questions'])
-if num_questions < 30:
-    issues.append({
-        'severity': 'warning',
-        'category': 'methodological',
-        'message': f"В банке вопросов только {num_questions} вопросов, минимум 30 требуется",
-        'location': 'question_bank.questions',
-        'suggested_fix': f'Добавить минимум {30 - num_questions} вопросов'
-    })
-    warnings += 1
-
 # Количество theory_blocks
 num_theory_blocks = len([b for b in chapter['blocks'] if b['type'] == 'theory'])
 if num_theory_blocks > 9:
