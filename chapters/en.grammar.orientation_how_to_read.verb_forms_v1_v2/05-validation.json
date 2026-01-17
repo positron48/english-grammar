@@ -1,11 +1,96 @@
 {
   "validation_result": {
-    "is_valid": true,
-    "schema_valid": true,
-    "issues": [],
+    "is_valid": false,
+    "schema_valid": false,
+    "issues": [
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Question q1: найдены одинаковые feedback в choices. Дубликаты: 'Проверьте еще раз' (используется в choices: a, b, c)",
+        "location": "question_bank.questions[0].choices",
+        "suggested_fix": "Изменить feedback для каждого choice, чтобы они были уникальными"
+      },
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Question q5: найдены одинаковые feedback в choices. Дубликаты: 'Проверьте еще раз' (используется в choices: a, b, c)",
+        "location": "question_bank.questions[4].choices",
+        "suggested_fix": "Изменить feedback для каждого choice, чтобы они были уникальными"
+      },
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Question q9: найдены одинаковые feedback в choices. Дубликаты: 'Проверьте еще раз' (используется в choices: a, b, c)",
+        "location": "question_bank.questions[8].choices",
+        "suggested_fix": "Изменить feedback для каждого choice, чтобы они были уникальными"
+      },
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Question q13: найдены одинаковые feedback в choices. Дубликаты: 'Проверьте еще раз' (используется в choices: a, b, c)",
+        "location": "question_bank.questions[12].choices",
+        "suggested_fix": "Изменить feedback для каждого choice, чтобы они были уникальными"
+      },
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Question q17: найдены одинаковые feedback в choices. Дубликаты: 'Проверьте еще раз' (используется в choices: a, b, c)",
+        "location": "question_bank.questions[16].choices",
+        "suggested_fix": "Изменить feedback для каждого choice, чтобы они были уникальными"
+      },
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Question q21: найдены одинаковые feedback в choices. Дубликаты: 'Проверьте еще раз' (используется в choices: a, b, c)",
+        "location": "question_bank.questions[20].choices",
+        "suggested_fix": "Изменить feedback для каждого choice, чтобы они были уникальными"
+      },
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Question q25: найдены одинаковые feedback в choices. Дубликаты: 'Проверьте еще раз' (используется в choices: a, b, c)",
+        "location": "question_bank.questions[24].choices",
+        "suggested_fix": "Изменить feedback для каждого choice, чтобы они были уникальными"
+      },
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Question q29: найдены одинаковые feedback в choices. Дубликаты: 'Проверьте еще раз' (используется в choices: a, b, c)",
+        "location": "question_bank.questions[28].choices",
+        "suggested_fix": "Изменить feedback для каждого choice, чтобы они были уникальными"
+      },
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Question q33: найдены одинаковые feedback в choices. Дубликаты: 'Проверьте еще раз' (используется в choices: a, b, c)",
+        "location": "question_bank.questions[32].choices",
+        "suggested_fix": "Изменить feedback для каждого choice, чтобы они были уникальными"
+      },
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Question q37: найдены одинаковые feedback в choices. Дубликаты: 'Проверьте еще раз' (используется в choices: a, b, c)",
+        "location": "question_bank.questions[36].choices",
+        "suggested_fix": "Изменить feedback для каждого choice, чтобы они были уникальными"
+      },
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Question q41: найдены одинаковые feedback в choices. Дубликаты: 'Проверьте еще раз' (используется в choices: a, b, c)",
+        "location": "question_bank.questions[40].choices",
+        "suggested_fix": "Изменить feedback для каждого choice, чтобы они были уникальными"
+      },
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Question q45: найдены одинаковые feedback в choices. Дубликаты: 'Проверьте еще раз' (используется в choices: a, b, c)",
+        "location": "question_bank.questions[44].choices",
+        "suggested_fix": "Изменить feedback для каждого choice, чтобы они были уникальными"
+      }
+    ],
     "summary": {
-      "total_issues": 0,
-      "errors": 0,
+      "total_issues": 12,
+      "errors": 12,
       "warnings": 0,
       "suggestions": 0
     },

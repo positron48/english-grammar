@@ -1,0 +1,1303 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.first_sentences_be_as.build_speak_mini_dialogues",
+  "section_id": "en.grammar.first_sentences_be_as",
+  "title": "Build & speak: mini-dialogues (introducing yourself + describing + clarifying)",
+  "title_short": "Build & speak: mini-dialogues",
+  "description": "Практика создания и ведения мини-диалогов: представление себя, описание состояния и чувств, уточнение информации. Объединение всех изученных элементов: am/is/are, прилагательные, вопросы и отрицания.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "A1",
+  "order": 108,
+  "prerequisites": [
+    "en.grammar.first_sentences_be_as.adjectives_after_be_she"
+  ],
+  "concept_refs": [
+    "dialogue_introducing_yourself",
+    "dialogue_describing_state",
+    "dialogue_asking_questions",
+    "dialogue_clarifying_this_that",
+    "mini_dialogue_structure"
+  ],
+  "learning_objectives": [
+    "Создавать простые диалоги для представления себя и знакомства",
+    "Использовать am/is/are с прилагательными для описания состояния",
+    "Задавать вопросы и отвечать в простых диалогах",
+    "Использовать this/that для уточнения в разговоре",
+    "Комбинировать изученные структуры в естественных диалогах"
+  ],
+  "estimated_minutes": 25,
+  "blocks": [
+    {
+      "id": "b1_theory_introducing_yourself",
+      "type": "theory",
+      "title": "Представление себя в английском языке. Когда вы знакомитесь с кем-то, используйте I am... или My name is... для представления. Обычно диалог начинается с приветствия \"Hello\" или \"Hi\", затем вы представляетесь: \"I am Anna\" или \"My name is Anna\". Обратите внимание: после представления вы можете задать вопрос \"And you?\" (А вы?), чтобы узнать имя собеседника.",
+      "theory": {
+        "concept_id": "dialogue_introducing_yourself",
+        "content_md": "**Представление себя в английском языке.** Когда вы знакомитесь с кем-то, используйте **I am...** или **My name is...** для представления. Обычно диалог начинается с приветствия \"Hello\" или \"Hi\", затем вы представляетесь: \"I am Anna\" или \"My name is Anna\". Обратите внимание: после представления вы можете задать вопрос \"And you?\" (А вы?), чтобы узнать имя собеседника.\n\n**Структура диалога:** Приветствие → Представление → Вопрос собеседнику. Это базовая структура, которую мы используем во всех мини-диалогах.",
+        "key_points": [
+          "I am... / My name is... — для представления себя",
+          "And you? — для вежливого вопроса собеседнику",
+          "Hello / Hi — начало диалога"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "A: Hello! I am Anna.\nB: Hi, Anna! I am Tom.",
+            "translation": "А: Привет! Я Анна.\nБ: Привет, Анна! Я Том.",
+            "tags": [
+              "introduction",
+              "greeting"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "A: My name is Maria.\nB: Nice to meet you, Maria. I am Peter.",
+            "translation": "А: Меня зовут Мария.\nБ: Приятно познакомиться, Мария. Я Петр.",
+            "tags": [
+              "introduction",
+              "greeting"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_introducing",
+      "type": "quiz_inline",
+      "title": "Quick check: do you get the idea?",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5",
+          "q6"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_describing_state",
+      "type": "theory",
+      "title": "Описание состояния в диалоге. После представления вы можете описать свое состояние или чувства, используя I am + прилагательное: \"I am tired\", \"I am happy\", \"I am fine\". Когда вы говорите о другом человеке, используйте правильную форму be: \"She is happy\", \"He is tired\", \"They are fine\".",
+      "theory": {
+        "concept_id": "dialogue_describing_state",
+        "content_md": "**Описание состояния в диалоге.** После представления вы можете описать свое состояние или чувства, используя **I am + прилагательное**: \"I am tired\", \"I am happy\", \"I am fine\". Когда вы говорите о другом человеке, используйте правильную форму **be**: \"She is happy\", \"He is tired\", \"They are fine\".\n\n**В диалоге** это помогает продолжить разговор после приветствия. Например: \"Hello! I am Anna. I am fine, thank you.\" Это естественный способ обмена информацией о своем состоянии.",
+        "key_points": [
+          "I am + прилагательное — описание своего состояния",
+          "She/He is + прилагательное — описание состояния другого",
+          "They are + прилагательное — описание группы"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "A: Hello! I am Anna. I am fine.\nB: Hi, Anna! I am Tom. I am tired today.",
+            "translation": "А: Привет! Я Анна. У меня все хорошо.\nБ: Привет, Анна! Я Том. Я сегодня устал.",
+            "tags": [
+              "state",
+              "describing"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_describing",
+      "type": "quiz_inline",
+      "title": "Quick check: do you get the idea?",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14",
+          "q15",
+          "q16",
+          "q17",
+          "q18"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_asking_questions",
+      "type": "theory",
+      "title": "Задавание вопросов в диалоге. Чтобы продолжить разговор, задавайте вопросы: \"Are you tired?\", \"How are you?\", \"Is she happy?\" Помните: в вопросах форма be стоит перед подлежащим. Отвечайте кратко: \"Yes, I am\" или \"No, I am not\".",
+      "theory": {
+        "concept_id": "dialogue_asking_questions",
+        "content_md": "**Задавание вопросов в диалоге.** Чтобы продолжить разговор, задавайте вопросы: \"Are you tired?\", \"How are you?\", \"Is she happy?\" Помните: в вопросах форма **be** стоит перед подлежащим. Отвечайте кратко: \"Yes, I am\" или \"No, I am not\".\n\n**Вопросы помогают:** узнать больше о собеседнике, показать интерес к разговору, сделать диалог более естественным. После вопроса \"How are you?\" обычно следует ответ \"I am fine, thank you. And you?\"",
+        "key_points": [
+          "Are you...? / How are you? — вопросы для продолжения разговора",
+          "Yes, I am / No, I am not — краткие ответы",
+          "And you? — вежливый возврат вопроса"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "A: How are you?\nB: I am fine, thank you. And you?\nA: I am good, thanks!",
+            "translation": "А: Как дела?\nБ: У меня все хорошо, спасибо. А у вас?\nА: У меня хорошо, спасибо!",
+            "tags": [
+              "question",
+              "answer"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "A: Are you tired?\nB: Yes, I am. And you?\nA: No, I am not.",
+            "translation": "А: Вы устали?\nБ: Да, я устал. А вы?\nА: Нет, я не устал.",
+            "tags": [
+              "question",
+              "yes_no"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_asking",
+      "type": "quiz_inline",
+      "title": "Quick check: do you get the idea?",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26",
+          "q27",
+          "q28",
+          "q29",
+          "q30"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_clarifying_this_that",
+      "type": "theory",
+      "title": "Уточнение с помощью this/that. В диалоге вы можете уточнять информацию, используя this is... (это) и that is... (то). This используется для близких объектов или людей: \"This is my friend Anna\". That — для далеких: \"That is my book over there\".",
+      "theory": {
+        "concept_id": "dialogue_clarifying_this_that",
+        "content_md": "**Уточнение с помощью this/that.** В диалоге вы можете уточнять информацию, используя **this is...** (это) и **that is...** (то). **This** используется для близких объектов или людей: \"This is my friend Anna\". **That** — для далеких: \"That is my book over there\".\n\n**В диалоге** это помогает представлять людей или указывать на предметы. Например: \"This is Tom. He is my friend.\" Это естественный способ уточнить информацию в разговоре.",
+        "key_points": [
+          "This is... — для близких объектов или людей",
+          "That is... — для далеких объектов",
+          "This/That помогает уточнять информацию в диалоге"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "A: This is my friend Maria.\nB: Hi, Maria! Nice to meet you.\nMaria: Hi! I am Maria.",
+            "translation": "А: Это моя подруга Мария.\nБ: Привет, Мария! Приятно познакомиться.\nМария: Привет! Я Мария.",
+            "tags": [
+              "clarifying",
+              "this"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8_quiz_after_clarifying",
+      "type": "quiz_inline",
+      "title": "Quick check: do you get the idea?",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38",
+          "q39",
+          "q40",
+          "q41",
+          "q42"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_mini_dialogue_structure",
+      "type": "theory",
+      "title": "Структура мини-диалога. Хороший мини-диалог имеет логичную структуру: 1) Приветствие (Hello/Hi), 2) Представление (I am... / My name is...), 3) Обмен информацией (описание состояния, вопросы, уточнения), 4) Завершение (Goodbye / Bye / See you).",
+      "theory": {
+        "concept_id": "mini_dialogue_structure",
+        "content_md": "**Структура мини-диалога.** Хороший мини-диалог имеет логичную структуру: **1) Приветствие** (Hello/Hi), **2) Представление** (I am... / My name is...), **3) Обмен информацией** (описание состояния, вопросы, уточнения), **4) Завершение** (Goodbye / Bye / See you).\n\n**Объединение элементов:** Теперь вы можете комбинировать все изученные элементы в один естественный диалог. Используйте am/is/are с прилагательными, задавайте вопросы, уточняйте с помощью this/that. Помните: диалог должен звучать естественно и быть понятным для собеседника.",
+        "key_points": [
+          "Приветствие → Представление → Обмен информацией → Завершение",
+          "Комбинируйте все изученные элементы",
+          "Диалог должен звучать естественно"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "A: Hello! I am Anna. I am fine.\nB: Hi, Anna! I am Tom. How are you?\nA: I am good, thanks! This is my friend Maria.\nB: Hi, Maria! Nice to meet you.\nMaria: Hi, Tom! Nice to meet you too.\nA: Goodbye!\nB: Bye!",
+            "translation": "А: Привет! Я Анна. У меня все хорошо.\nБ: Привет, Анна! Я Том. Как дела?\nА: У меня хорошо, спасибо! Это моя подруга Мария.\nБ: Привет, Мария! Приятно познакомиться.\nМария: Привет, Том! И мне приятно познакомиться.\nА: До свидания!\nБ: Пока!",
+            "tags": [
+              "full_dialogue",
+              "structure"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный способ представления: **___ Anna.**",
+        "theory_block_id": "b1_theory_introducing_yourself",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I am",
+            "feedback": "Правильно! I am Anna — правильный способ представления"
+          },
+          {
+            "id": "b",
+            "text": "Am I",
+            "feedback": "Нет, Am I используется в вопросах, а не для представления"
+          },
+          {
+            "id": "c",
+            "text": "I is",
+            "feedback": "Нет, I всегда требует am, а не is"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для представления себя используется I am... или My name is... Структура: I + am + имя.",
+        "tags": [
+          "introduction"
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ name is Tom.\" (меня)",
+        "theory_block_id": "b1_theory_introducing_yourself",
+        "difficulty": 1,
+        "correct_answer": "My",
+        "explanation": "My name is... — альтернативный способ представления. My — притяжательное местоимение.",
+        "tags": [
+          "introduction"
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "true_false",
+        "prompt": "Верно или неверно: В диалоге можно использовать \"I am Anna\" или \"My name is Anna\" для представления.",
+        "theory_block_id": "b1_theory_introducing_yourself",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Неневерно. Оба способа правильные: I am Anna и My name is Anna используются для представления себя.",
+        "tags": [
+          "introduction"
+        ]
+      },
+      {
+        "id": "q4",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_introducing_yourself",
+        "difficulty": 2,
+        "correct_answer": "Hello! I am Anna.",
+        "explanation": "Правильный порядок: приветствие (Hello!) + представление (I am Anna). Hello! I am Anna.",
+        "tags": [
+          "introduction"
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "mcq_single",
+        "prompt": "Что означает \"And you?\" в диалоге?",
+        "theory_block_id": "b1_theory_introducing_yourself",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Вопрос собеседнику",
+            "feedback": "Правильно! And you? — вежливый вопрос собеседнику"
+          },
+          {
+            "id": "b",
+            "text": "Прощание",
+            "feedback": "Нет, And you? — это вопрос, а не прощание"
+          },
+          {
+            "id": "c",
+            "text": "Приветствие",
+            "feedback": "Нет, And you? — это вопрос после представления"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "And you? — вежливый способ задать вопрос собеседнику после представления себя. Это значит \"А вы?\" или \"А тебя как зовут?\"",
+        "tags": [
+          "introduction"
+        ]
+      },
+      {
+        "id": "q6",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_introducing_yourself",
+        "difficulty": 2,
+        "correct_answer": "My name is Maria. And you?",
+        "explanation": "And you? — вежливый вопрос собеседнику после представления. My name is Maria. And you?",
+        "tags": [
+          "introduction"
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "true_false",
+        "prompt": "Верно или неверно: Диалог начинается с представления, а затем приветствия.",
+        "theory_block_id": "b1_theory_introducing_yourself",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Неверно. Диалог обычно начинается с приветствия (Hello/Hi), а затем следует представление (I am...).",
+        "tags": [
+          "introduction"
+        ]
+      },
+      {
+        "id": "q8",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_introducing_yourself",
+        "difficulty": 2,
+        "correct_answer": "Hi! My name is Tom.",
+        "explanation": "Правильный порядок: приветствие (Hi!) + представление (My name is Tom). Hi! My name is Tom.",
+        "tags": [
+          "introduction"
+        ]
+      },
+      {
+        "id": "q9",
+        "type": "mcq_single",
+        "prompt": "Выберите правильное продолжение диалога:\n**A: Hello! I am Anna.**\n**B: ___**",
+        "theory_block_id": "b1_theory_introducing_yourself",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hi, Anna! I am Tom.",
+            "feedback": "Правильно! Это естественный ответ: приветствие и представление"
+          },
+          {
+            "id": "b",
+            "text": "Hi, Anna! Am I Tom.",
+            "feedback": "Нет, Am I используется в вопросах, а не для представления"
+          },
+          {
+            "id": "c",
+            "text": "Hi, Anna! I is Tom.",
+            "feedback": "Нет, I требует am, а не is"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный ответ: Hi, Anna! I am Tom. Это естественный способ ответить: приветствие и представление себя.",
+        "tags": [
+          "introduction"
+        ]
+      },
+      {
+        "id": "q10",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_introducing_yourself",
+        "difficulty": 2,
+        "correct_answer": "Hello! I am Anna. And you?",
+        "explanation": "I am... используется для представления. Hello! I am Anna. And you?",
+        "tags": [
+          "introduction"
+        ]
+      },
+      {
+        "id": "q11",
+        "type": "true_false",
+        "prompt": "Верно или неверно: После представления себя можно задать вопрос \"And you?\" собеседнику.",
+        "theory_block_id": "b1_theory_introducing_yourself",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Неневерно. After представления можно вежливо спросить собеседника \"And you?\" чтобы узнать его имя.",
+        "tags": [
+          "introduction"
+        ]
+      },
+      {
+        "id": "q12",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_introducing_yourself",
+        "difficulty": 2,
+        "correct_answer": "I am Peter. And you?",
+        "explanation": "Правильный порядок: представление (I am Peter) + вопрос (And you?). I am Peter. And you?",
+        "tags": [
+          "introduction"
+        ]
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Выберите правильное описание состояния: **I ___ tired.**",
+        "theory_block_id": "b2_theory_describing_state",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "am",
+            "feedback": "Правильно! I am tired — правильное описание состояния"
+          },
+          {
+            "id": "b",
+            "text": "is",
+            "feedback": "Нет, I требует am, а не is"
+          },
+          {
+            "id": "c",
+            "text": "are",
+            "feedback": "Нет, I требует am, а не are"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для описания своего состояния используется I am + прилагательное: I am tired.",
+        "tags": [
+          "state"
+        ]
+      },
+      {
+        "id": "q14",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She ___ happy.\" (есть)",
+        "theory_block_id": "b2_theory_describing_state",
+        "difficulty": 1,
+        "correct_answer": "is",
+        "explanation": "She требует is: She is happy. Это описание состояния другого человека.",
+        "tags": [
+          "state"
+        ]
+      },
+      {
+        "id": "q15",
+        "type": "true_false",
+        "prompt": "Верно или неверно: В диалоге можно описать свое состояние: \"I am fine.\"",
+        "theory_block_id": "b2_theory_describing_state",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Неневерно. I am fine — правильный способ описать свое состояние в диалоге.",
+        "tags": [
+          "state"
+        ]
+      },
+      {
+        "id": "q16",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_describing_state",
+        "difficulty": 2,
+        "correct_answer": "I am fine, thank you.",
+        "explanation": "Правильный порядок: I + am + прилагательное + вежливость. I am fine, thank you.",
+        "tags": [
+          "state"
+        ]
+      },
+      {
+        "id": "q17",
+        "type": "mcq_single",
+        "prompt": "Выберите правильное описание состояния: **He ___ tired today.**",
+        "theory_block_id": "b2_theory_describing_state",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "is",
+            "feedback": "Правильно! He is tired — правильное описание состояния"
+          },
+          {
+            "id": "b",
+            "text": "am",
+            "feedback": "Нет, He требует is, а не am"
+          },
+          {
+            "id": "c",
+            "text": "are",
+            "feedback": "Нет, He требует is, а не are"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "He требует is: He is tired. Это описание состояния мужчины.",
+        "tags": [
+          "state"
+        ]
+      },
+      {
+        "id": "q18",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"They ___ fine.\" (есть)",
+        "theory_block_id": "b2_theory_describing_state",
+        "difficulty": 2,
+        "correct_answer": "are",
+        "explanation": "They требует are: They are fine. Это описание состояния группы людей.",
+        "tags": [
+          "state"
+        ]
+      },
+      {
+        "id": "q19",
+        "type": "true_false",
+        "prompt": "Верно или неверно: После представления можно описать свое состояние: \"I am Anna. I am fine.\"",
+        "theory_block_id": "b2_theory_describing_state",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Неневерно. После представления можно продолжить диалог описанием состояния: I am Anna. I am fine.",
+        "tags": [
+          "state"
+        ]
+      },
+      {
+        "id": "q20",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_describing_state",
+        "difficulty": 2,
+        "correct_answer": "She is happy today.",
+        "explanation": "Правильный порядок: She + is + прилагательное + обстоятельство. She is happy today.",
+        "tags": [
+          "state"
+        ]
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "prompt": "Выберите правильное продолжение диалога:\n**A: Hello! I am Anna. I am fine.**\n**B: ___**",
+        "theory_block_id": "b2_theory_describing_state",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hi, Anna! I am Tom. I am good.",
+            "feedback": "Правильно! Естественный ответ с описанием состояния"
+          },
+          {
+            "id": "b",
+            "text": "Hi, Anna! I am Tom. Am I good.",
+            "feedback": "Нет, Am I используется в вопросах"
+          },
+          {
+            "id": "c",
+            "text": "Hi, Anna! I am Tom. I is good.",
+            "feedback": "Нет, I требует am"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный ответ: Hi, Anna! I am Tom. I am good. Это естественный способ продолжить диалог описанием состояния.",
+        "tags": [
+          "state"
+        ]
+      },
+      {
+        "id": "q22",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_describing_state",
+        "difficulty": 2,
+        "correct_answer": "Hello! I am Maria. I am fine.",
+        "explanation": "I am... используется для описания состояния. Hello! I am Maria. I am fine.",
+        "tags": [
+          "state"
+        ]
+      },
+      {
+        "id": "q23",
+        "type": "true_false",
+        "prompt": "Верно или неверно: В диалоге можно описать состояние другого человека: \"She is happy.\"",
+        "theory_block_id": "b2_theory_describing_state",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Неневерно. She is happy — правильный способ описать состояние другой женщины в диалоге.",
+        "tags": [
+          "state"
+        ]
+      },
+      {
+        "id": "q24",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_describing_state",
+        "difficulty": 2,
+        "correct_answer": "He is tired today.",
+        "explanation": "Правильный порядок: He + is + прилагательное + обстоятельство. He is tired today.",
+        "tags": [
+          "state"
+        ]
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вопрос: **___ you tired?**",
+        "theory_block_id": "b3_theory_asking_questions",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Are",
+            "feedback": "Правильно! Are you tired? — правильный вопрос"
+          },
+          {
+            "id": "b",
+            "text": "You are",
+            "feedback": "Нет, You are используется в утверждениях"
+          },
+          {
+            "id": "c",
+            "text": "Is you",
+            "feedback": "Нет, you требует are, а не is"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для вопроса используется Are you...?: Are you tired? Структура вопроса: be + подлежащее + прилагательное?",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ you fine?\" (есть)",
+        "theory_block_id": "b3_theory_asking_questions",
+        "difficulty": 1,
+        "correct_answer": "Are",
+        "explanation": "Are you...? используется для вопроса. Are you fine?",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "id": "q27",
+        "type": "true_false",
+        "prompt": "Верно или неверно: В диалоге можно задать вопрос: \"How are you?\"",
+        "theory_block_id": "b3_theory_asking_questions",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Неневерно. How are you? — стандартный вопрос для продолжения диалога после приветствия.",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "id": "q28",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_asking_questions",
+        "difficulty": 2,
+        "correct_answer": "How are you?",
+        "explanation": "Правильный порядок: How + are + you + ?. How are you?",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "id": "q29",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный краткий ответ:\n**A: Are you tired?**\n**B: ___**",
+        "theory_block_id": "b3_theory_asking_questions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yes, I am.",
+            "feedback": "Правильно! Yes, I am — правильный краткий ответ"
+          },
+          {
+            "id": "b",
+            "text": "Yes, I is.",
+            "feedback": "Нет, I требует am, а не is"
+          },
+          {
+            "id": "c",
+            "text": "Yes, am I.",
+            "feedback": "Нет, Am I используется в вопросах"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный краткий ответ: Yes, I am. Структура: Yes, + подлежащее + be.",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "id": "q30",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_asking_questions",
+        "difficulty": 2,
+        "correct_answer": "No, I am not.",
+        "explanation": "I am not используется для отрицательного ответа. No, I am not.",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "id": "q31",
+        "type": "true_false",
+        "prompt": "Верно или неверно: После вопроса \"How are you?\" обычно следует ответ \"I am fine, thank you. And you?\"",
+        "theory_block_id": "b3_theory_asking_questions",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. После How are you? обычно следует ответ I am fine, thank you. And you? — это стандартный обмен вежливостями.",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "id": "q32",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_asking_questions",
+        "difficulty": 2,
+        "correct_answer": "I am fine, thank you. And you?",
+        "explanation": "Правильный порядок: I + am + прилагательное + вежливость + вопрос. I am fine, thank you. And you?",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "id": "q33",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вопрос: **___ she happy?**",
+        "theory_block_id": "b3_theory_asking_questions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Is",
+            "feedback": "Правильно! Is she happy? — правильный вопрос"
+          },
+          {
+            "id": "b",
+            "text": "She is",
+            "feedback": "Нет, She is используется в утверждениях"
+          },
+          {
+            "id": "c",
+            "text": "Are she",
+            "feedback": "Нет, she требует is, а не are"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Is she...? используется для вопроса о женщине. Is she happy? Структура: Is + she + прилагательное?",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "id": "q34",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ he tired?\" (есть)",
+        "theory_block_id": "b3_theory_asking_questions",
+        "difficulty": 2,
+        "correct_answer": "Is",
+        "explanation": "Is he...? используется для вопроса о мужчине. Is he tired?",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "id": "q35",
+        "type": "true_false",
+        "prompt": "Верно или неверно: После вопроса можно задать возвратный вопрос \"And you?\"",
+        "theory_block_id": "b3_theory_asking_questions",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. After ответа можно вежливо вернуть вопрос \"And you?\" чтобы узнать о собеседнике.",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "id": "q36",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_asking_questions",
+        "difficulty": 2,
+        "correct_answer": "Are you fine?",
+        "explanation": "Правильный порядок: Are + you + прилагательное + ?. Are you fine?",
+        "tags": [
+          "question"
+        ]
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Выберите правильное уточнение: **___ is my friend Anna.**",
+        "theory_block_id": "b4_theory_clarifying_this_that",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "This",
+            "feedback": "Правильно! This is... используется для близких объектов или людей"
+          },
+          {
+            "id": "b",
+            "text": "That",
+            "feedback": "Нет, That используется для далеких объектов"
+          },
+          {
+            "id": "c",
+            "text": "These",
+            "feedback": "Нет, These используется для множественного числа"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "This is... используется для указания на близких людей или объекты. This is my friend Anna.",
+        "tags": [
+          "clarifying"
+        ]
+      },
+      {
+        "id": "q38",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ is my book over there.\" (то)",
+        "theory_block_id": "b4_theory_clarifying_this_that",
+        "difficulty": 1,
+        "correct_answer": "That",
+        "explanation": "That is... используется для указания на далекие объекты. That is my book over there.",
+        "tags": [
+          "clarifying"
+        ]
+      },
+      {
+        "id": "q39",
+        "type": "true_false",
+        "prompt": "Верно или неверно: В диалоге можно использовать \"This is...\" для представления людей.",
+        "theory_block_id": "b4_theory_clarifying_this_that",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. This is... используется для представления людей: This is my friend Maria.",
+        "tags": [
+          "clarifying"
+        ]
+      },
+      {
+        "id": "q40",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_clarifying_this_that",
+        "difficulty": 2,
+        "correct_answer": "This is my friend Tom.",
+        "explanation": "Правильный порядок: This + is + притяжательное + существительное. This is my friend Tom.",
+        "tags": [
+          "clarifying"
+        ]
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "prompt": "Выберите правильное уточнение в диалоге:\n**A: ___ is my friend Maria.**\n**B: Hi, Maria!**",
+        "theory_block_id": "b4_theory_clarifying_this_that",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "This",
+            "feedback": "Правильно! This is... используется для представления близких людей"
+          },
+          {
+            "id": "b",
+            "text": "That",
+            "feedback": "Нет, That используется для далеких объектов"
+          },
+          {
+            "id": "c",
+            "text": "These",
+            "feedback": "Нет, These для множественного числа"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный ответ: This. This is my friend Maria — правильный способ представить близкого человека в диалоге.",
+        "tags": [
+          "clarifying"
+        ]
+      },
+      {
+        "id": "q42",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ is Tom. He is my friend.\" (это)",
+        "theory_block_id": "b4_theory_clarifying_this_that",
+        "difficulty": 2,
+        "correct_answer": "This",
+        "explanation": "This is... используется для представления. This is Tom. He is my friend.",
+        "tags": [
+          "clarifying"
+        ]
+      },
+      {
+        "id": "q43",
+        "type": "true_false",
+        "prompt": "Верно или неверно: \"That is...\" используется для указания на далекие объекты.",
+        "theory_block_id": "b4_theory_clarifying_this_that",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. That is... используется для указания на объекты или людей, которые находятся далеко от говорящего.",
+        "tags": [
+          "clarifying"
+        ]
+      },
+      {
+        "id": "q44",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_clarifying_this_that",
+        "difficulty": 2,
+        "correct_answer": "That is my book over there.",
+        "explanation": "Правильный порядок: That + is + притяжательное + существительное + место. That is my book over there.",
+        "tags": [
+          "clarifying"
+        ]
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "prompt": "Выберите правильное продолжение диалога:\n**A: This is my friend Anna.**\n**B: ___**",
+        "theory_block_id": "b4_theory_clarifying_this_that",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hi, Anna! Nice to meet you.",
+            "feedback": "Правильно! Это естественный ответ при представлении"
+          },
+          {
+            "id": "b",
+            "text": "Hi, Anna! Am I nice.",
+            "feedback": "Нет, Am I используется в вопросах"
+          },
+          {
+            "id": "c",
+            "text": "Hi, Anna! I is nice.",
+            "feedback": "Нет, I требует am"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный ответ: Hi, Anna! Nice to meet you. Это естественный способ ответить при представлении нового человека.",
+        "tags": [
+          "clarifying"
+        ]
+      },
+      {
+        "id": "q46",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"A: ___ is Maria. B: Hi, Maria!\" (это)",
+        "theory_block_id": "b4_theory_clarifying_this_that",
+        "difficulty": 2,
+        "correct_answer": "This",
+        "explanation": "This is... используется для представления. This is Maria. Hi, Maria!",
+        "tags": [
+          "clarifying"
+        ]
+      },
+      {
+        "id": "q47",
+        "type": "true_false",
+        "prompt": "Верно или неверно: В диалоге можно использовать \"This is...\" для уточнения информации о близких людях.",
+        "theory_block_id": "b4_theory_clarifying_this_that",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. This is... используется для уточнения информации о близких людях или объектах в диалоге.",
+        "tags": [
+          "clarifying"
+        ]
+      },
+      {
+        "id": "q48",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_clarifying_this_that",
+        "difficulty": 2,
+        "correct_answer": "This is my friend. She is happy.",
+        "explanation": "Правильный порядок: This + is + существительное. + She + is + прилагательное. This is my friend. She is happy.",
+        "tags": [
+          "clarifying"
+        ]
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный порядок элементов диалога:",
+        "theory_block_id": "b5_theory_mini_dialogue_structure",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Приветствие → Представление → Обмен информацией → Завершение",
+            "feedback": "Правильно! Это логичная структура диалога"
+          },
+          {
+            "id": "b",
+            "text": "Представление → Приветствие → Обмен информацией → Завершение",
+            "feedback": "Нет, приветствие обычно идет первым"
+          },
+          {
+            "id": "c",
+            "text": "Обмен информацией → Приветствие → Представление → Завершение",
+            "feedback": "Нет, приветствие и представление обычно идут первыми"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильная структура диалога: Приветствие → Представление → Обмен информацией → Завершение. Это логичная последовательность.",
+        "tags": [
+          "structure"
+        ]
+      },
+      {
+        "id": "q50",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_mini_dialogue_structure",
+        "difficulty": 2,
+        "correct_answer": "Hello! I am Anna.",
+        "explanation": "I am... используется для представления после приветствия. Hello! I am Anna. Hi, Anna!",
+        "tags": [
+          "structure"
+        ]
+      },
+      {
+        "id": "q51",
+        "type": "true_false",
+        "prompt": "Верно или неверно: Хороший мини-диалог имеет логичную структуру: приветствие, представление, обмен информацией, завершение.",
+        "theory_block_id": "b5_theory_mini_dialogue_structure",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. Логичная структура диалога помогает сделать его естественным и понятным.",
+        "tags": [
+          "structure"
+        ]
+      },
+      {
+        "id": "q52",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_mini_dialogue_structure",
+        "difficulty": 2,
+        "correct_answer": "Hello! I am Anna. How are you?",
+        "explanation": "Правильный порядок: приветствие (Hello!) + представление (I am Anna) + вопрос (How are you?). Hello! I am Anna. How are you?",
+        "tags": [
+          "structure"
+        ]
+      },
+      {
+        "id": "q53",
+        "type": "mcq_single",
+        "prompt": "Выберите правильное завершение диалога:",
+        "theory_block_id": "b5_theory_mini_dialogue_structure",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Goodbye! / Bye!",
+            "feedback": "Правильно! Goodbye и Bye используются для завершения диалога"
+          },
+          {
+            "id": "b",
+            "text": "Hello!",
+            "feedback": "Нет, Hello используется для начала диалога"
+          },
+          {
+            "id": "c",
+            "text": "I am...",
+            "feedback": "Нет, I am используется для представления"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Goodbye! и Bye! используются для завершения диалога. Это естественный способ попрощаться.",
+        "tags": [
+          "structure"
+        ]
+      },
+      {
+        "id": "q54",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"A: I am fine, thanks! ___! B: Bye!\" (до свидания)",
+        "theory_block_id": "b5_theory_mini_dialogue_structure",
+        "difficulty": 2,
+        "correct_answer": "Goodbye",
+        "explanation": "Goodbye используется для завершения диалога. I am fine, thanks! Goodbye! Bye!",
+        "tags": [
+          "structure"
+        ]
+      },
+      {
+        "id": "q55",
+        "type": "true_false",
+        "prompt": "Верно или неверно: В диалоге можно комбинировать все изученные элементы: am/is/are, прилагательные, вопросы, this/that.",
+        "theory_block_id": "b5_theory_mini_dialogue_structure",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. Все изученные элементы можно комбинировать в один естественный диалог для практики.",
+        "tags": [
+          "structure"
+        ]
+      },
+      {
+        "id": "q56",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_mini_dialogue_structure",
+        "difficulty": 2,
+        "correct_answer": "Hi! I am Tom. I am fine. And you?",
+        "explanation": "Правильный порядок: приветствие (Hi!) + представление (I am Tom) + состояние (I am fine) + вопрос (And you?). Hi! I am Tom. I am fine. And you?",
+        "tags": [
+          "structure"
+        ]
+      },
+      {
+        "id": "q57",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный диалог:",
+        "theory_block_id": "b5_theory_mini_dialogue_structure",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "A: Hello! I am Anna. B: Hi, Anna! I am Tom. A: How are you? B: I am fine, thanks!",
+            "feedback": "Правильно! Это логичный и естественный диалог"
+          },
+          {
+            "id": "b",
+            "text": "A: I am Anna. Hello! B: Hi! I am Tom. A: How are you?",
+            "feedback": "Нет, приветствие обычно идет первым"
+          },
+          {
+            "id": "c",
+            "text": "A: Hello! B: Hi! A: I am Anna. B: I am Tom.",
+            "feedback": "Нет, диалог должен быть более структурированным"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный диалог: Hello! I am Anna. → Hi, Anna! I am Tom. → How are you? → I am fine, thanks! Это логичная структура.",
+        "tags": [
+          "structure"
+        ]
+      },
+      {
+        "id": "q58",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"A: ___! This is my friend Maria. B: Hi, Maria!\" (привет)",
+        "theory_block_id": "b5_theory_mini_dialogue_structure",
+        "difficulty": 2,
+        "correct_answer": "Hello",
+        "explanation": "Hello используется для приветствия. Hello! This is my friend Maria. Hi, Maria!",
+        "tags": [
+          "structure"
+        ]
+      },
+      {
+        "id": "q59",
+        "type": "true_false",
+        "prompt": "Верно или неверно: Диалог должен звучать естественно и быть понятным для собеседника.",
+        "theory_block_id": "b5_theory_mini_dialogue_structure",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. Естественность и понятность — важные качества хорошего диалога.",
+        "tags": [
+          "structure"
+        ]
+      },
+      {
+        "id": "q60",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_mini_dialogue_structure",
+        "difficulty": 3,
+        "correct_answer": "Hello! I am Anna. This is my friend Tom. Goodbye!",
+        "explanation": "Правильный порядок: приветствие (Hello!) + представление (I am Anna) + уточнение (This is my friend Tom) + завершение (Goodbye!). Hello! I am Anna. This is my friend Tom. Goodbye!",
+        "tags": [
+          "structure"
+        ]
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-17T17:20:11Z",
+    "source": "llm"
+  }
+}
