@@ -338,17 +338,34 @@
         "id": "q1"
       },
       {
-        "type": "fill_blank",
+        "type": "mcq_single",
         "prompt": "Заполните пропуск: \"___ apples do you have?\" (сколько - со счетными)",
         "theory_block_id": "b1_theory_introduction_how_many_much",
         "difficulty": 1,
-        "correct_answer": "How many",
+        "correct_answer": "a",
         "explanation": "Для вопроса о количестве счетных предметов (apples) используется How many: How many apples do you have?",
         "tags": [
           "basics",
           "how_many"
         ],
-        "id": "q2"
+        "id": "q2",
+        "choices": [
+          {
+            "id": "a",
+            "text": "How many",
+            "feedback": "Правильно! Для счетных предметов используется How many"
+          },
+          {
+            "id": "b",
+            "text": "How much",
+            "feedback": "Нет, How much используется с несчетными"
+          },
+          {
+            "id": "c",
+            "text": "How",
+            "feedback": "Нет, нужно How many или How much"
+          }
+        ]
       },
       {
         "type": "mcq_single",
@@ -381,17 +398,34 @@
         "id": "q3"
       },
       {
-        "type": "fill_blank",
+        "type": "mcq_single",
         "prompt": "Заполните пропуск: \"___ water do you need?\" (сколько - с несчетными)",
         "theory_block_id": "b1_theory_introduction_how_many_much",
         "difficulty": 1,
-        "correct_answer": "How much",
+        "correct_answer": "a",
         "explanation": "Для вопроса о количестве несчетных веществ (water) используется How much: How much water do you need?",
         "tags": [
           "basics",
           "how_much"
         ],
-        "id": "q4"
+        "id": "q4",
+        "choices": [
+          {
+            "id": "a",
+            "text": "How much",
+            "feedback": "Правильно! Для несчетных используется How much"
+          },
+          {
+            "id": "b",
+            "text": "How many",
+            "feedback": "Нет, How many используется со счетными"
+          },
+          {
+            "id": "c",
+            "text": "How",
+            "feedback": "Нет, нужно How many или How much"
+          }
+        ]
       },
       {
         "type": "error_spotting",
@@ -467,17 +501,34 @@
         "id": "q7"
       },
       {
-        "type": "fill_blank",
+        "type": "mcq_single",
         "prompt": "Заполните пропуск: \"___ money do you have?\" (сколько - с несчетными)",
         "theory_block_id": "b1_theory_introduction_how_many_much",
         "difficulty": 1,
-        "correct_answer": "How much",
+        "correct_answer": "a",
         "explanation": "Money — несчетное существительное, используется How much: How much money do you have?",
         "tags": [
           "basics",
           "how_much"
         ],
-        "id": "q8"
+        "id": "q8",
+        "choices": [
+          {
+            "id": "a",
+            "text": "How much",
+            "feedback": "Правильно! Money — несчетное, используется How much"
+          },
+          {
+            "id": "b",
+            "text": "How many",
+            "feedback": "Нет, How many используется со счетными"
+          },
+          {
+            "id": "c",
+            "text": "How",
+            "feedback": "Нет, нужно How many или How much"
+          }
+        ]
       },
       {
         "type": "mcq_single",
@@ -764,7 +815,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (books)",
+        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (книги)",
         "theory_block_id": "b3_theory_how_many_with_countable",
         "difficulty": 1,
         "correct_answer": "books",
@@ -777,7 +828,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (apples)",
+        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (яблоки)",
         "theory_block_id": "b3_theory_how_many_with_countable",
         "difficulty": 1,
         "correct_answer": "apples",
@@ -790,7 +841,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (students)",
+        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (студенты)",
         "theory_block_id": "b3_theory_how_many_with_countable",
         "difficulty": 1,
         "correct_answer": "students",
@@ -803,7 +854,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (chairs)",
+        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (стулья)",
         "theory_block_id": "b3_theory_how_many_with_countable",
         "difficulty": 1,
         "correct_answer": "chairs",
@@ -816,7 +867,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (pens)",
+        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (ручки)",
         "theory_block_id": "b3_theory_how_many_with_countable",
         "difficulty": 1,
         "correct_answer": "pens",
@@ -829,7 +880,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (cars)",
+        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (машины)",
         "theory_block_id": "b3_theory_how_many_with_countable",
         "difficulty": 1,
         "correct_answer": "cars",
@@ -842,7 +893,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (children)",
+        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (дети)",
         "theory_block_id": "b3_theory_how_many_with_countable",
         "difficulty": 1,
         "correct_answer": "children",
@@ -855,7 +906,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (eggs)",
+        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (яйца)",
         "theory_block_id": "b3_theory_how_many_with_countable",
         "difficulty": 1,
         "correct_answer": "eggs",
@@ -868,7 +919,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (flowers)",
+        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (цветы)",
         "theory_block_id": "b3_theory_how_many_with_countable",
         "difficulty": 1,
         "correct_answer": "flowers",
@@ -881,7 +932,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (cities)",
+        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (города)",
         "theory_block_id": "b3_theory_how_many_with_countable",
         "difficulty": 1,
         "correct_answer": "cities",
@@ -894,7 +945,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (water)",
+        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (вода)",
         "theory_block_id": "b4_theory_how_much_with_uncountable",
         "difficulty": 1,
         "correct_answer": "water",
@@ -907,7 +958,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (money)",
+        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (деньги)",
         "theory_block_id": "b4_theory_how_much_with_uncountable",
         "difficulty": 1,
         "correct_answer": "money",
@@ -920,7 +971,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (time)",
+        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (время)",
         "theory_block_id": "b4_theory_how_much_with_uncountable",
         "difficulty": 1,
         "correct_answer": "time",
@@ -933,7 +984,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (coffee)",
+        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (кофе)",
         "theory_block_id": "b4_theory_how_much_with_uncountable",
         "difficulty": 1,
         "correct_answer": "coffee",
@@ -946,7 +997,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (bread)",
+        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (хлеб)",
         "theory_block_id": "b4_theory_how_much_with_uncountable",
         "difficulty": 1,
         "correct_answer": "bread",
@@ -959,7 +1010,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (milk)",
+        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (молоко)",
         "theory_block_id": "b4_theory_how_much_with_uncountable",
         "difficulty": 1,
         "correct_answer": "milk",
@@ -972,7 +1023,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (sugar)",
+        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (сахар)",
         "theory_block_id": "b4_theory_how_much_with_uncountable",
         "difficulty": 1,
         "correct_answer": "sugar",
@@ -985,7 +1036,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (information)",
+        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (информация)",
         "theory_block_id": "b4_theory_how_much_with_uncountable",
         "difficulty": 1,
         "correct_answer": "information",
@@ -998,7 +1049,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (advice)",
+        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (совет)",
         "theory_block_id": "b4_theory_how_much_with_uncountable",
         "difficulty": 1,
         "correct_answer": "advice",
@@ -1011,7 +1062,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (news)",
+        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (новости)",
         "theory_block_id": "b4_theory_how_much_with_uncountable",
         "difficulty": 1,
         "correct_answer": "news",
@@ -1053,7 +1104,7 @@
           {
             "id": "c",
             "text": "A lot book.",
-            "feedback": "Нет"
+            "feedback": "Нет, students — множественное число, нужен are"
           }
         ],
         "correct_answer": "a",
@@ -1094,7 +1145,7 @@
           {
             "id": "c",
             "text": "A lot book.",
-            "feedback": "Нет"
+            "feedback": "Нет, apples — множественное число, нужен aren't"
           }
         ],
         "correct_answer": "a",
@@ -1135,7 +1186,7 @@
           {
             "id": "c",
             "text": "A lot book.",
-            "feedback": "Нет"
+            "feedback": "Нет, bread — неисчисляемое, нужен isn't"
           }
         ],
         "correct_answer": "a",
@@ -1176,7 +1227,7 @@
           {
             "id": "c",
             "text": "A lot book.",
-            "feedback": "Нет"
+            "feedback": "Нет, sugar — неисчисляемое, нужен isn't"
           }
         ],
         "correct_answer": "a",
@@ -1217,7 +1268,7 @@
           {
             "id": "c",
             "text": "A lot book.",
-            "feedback": "Нет"
+            "feedback": "Нет, students — множественное число, нужен aren't"
           }
         ],
         "correct_answer": "a",
@@ -1597,7 +1648,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-17T21:12:04Z",
+    "updated_at": "2026-01-17T21:14:34Z",
     "source": "llm"
   }
 }
