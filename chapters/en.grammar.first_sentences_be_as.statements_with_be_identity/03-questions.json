@@ -57,7 +57,7 @@
     {
       "id": "q3",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **I'm ___ artist.** (a/an)",
+      "prompt": "Заполните пропуск: **I'm ___ artist.** (артикль перед гласным звуком)",
       "theory_block_id": "b1_theory_identity_statements",
       "difficulty": 2,
       "correct_answer": "an",
@@ -67,7 +67,7 @@
     {
       "id": "q4",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **She's ___ teacher.** (a/an)",
+      "prompt": "Заполните пропуск: **She's ___ teacher.** (артикль перед согласным звуком)",
       "theory_block_id": "b1_theory_identity_statements",
       "difficulty": 1,
       "correct_answer": "a",
@@ -77,7 +77,7 @@
     {
       "id": "q5",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **They are ___.** (students, студенты)",
+      "prompt": "Заполните пропуск: **They are ___.** (студенты)",
       "theory_block_id": "b1_theory_identity_statements",
       "difficulty": 2,
       "correct_answer": "students",
@@ -181,7 +181,7 @@
     {
       "id": "q12",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **He's ___ engineer.** (a/an)",
+      "prompt": "Заполните пропуск: **He's ___ engineer.** (артикль перед гласным звуком)",
       "theory_block_id": "b1_theory_identity_statements",
       "difficulty": 2,
       "correct_answer": "an",
@@ -245,7 +245,7 @@
     {
       "id": "q15",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **I'm ___.** (happy, счастливый)",
+      "prompt": "Заполните пропуск: **I'm ___.** (счастливый)",
       "theory_block_id": "b2_theory_description_statements",
       "difficulty": 1,
       "correct_answer": "happy",
@@ -255,7 +255,7 @@
     {
       "id": "q16",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **She's ___.** (tired, усталая)",
+      "prompt": "Заполните пропуск: **She's ___.** (усталая)",
       "theory_block_id": "b2_theory_description_statements",
       "difficulty": 1,
       "correct_answer": "tired",
@@ -265,7 +265,7 @@
     {
       "id": "q17",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **They are ___.** (busy, занятые)",
+      "prompt": "Заполните пропуск: **They are ___.** (занятые)",
       "theory_block_id": "b2_theory_description_statements",
       "difficulty": 1,
       "correct_answer": "busy",
@@ -295,11 +295,11 @@
     {
       "id": "q20",
       "type": "true_false",
-      "prompt": "Верно ли утверждение?\n\n**Прилагательные в английском изменяются по числам.**",
+      "prompt": "Верно ли утверждение?\n\n**В описательных предложениях после be ставится прилагательное без артикля.**",
       "theory_block_id": "b2_theory_description_statements",
       "difficulty": 2,
-      "correct_answer": "false",
-      "explanation": "Нет, неверно. Прилагательные в английском не изменяются по числам: 'tired' (не 'tireds'), 'happy' (не 'happies').",
+      "correct_answer": "true",
+      "explanation": "Да, верно. В описательных предложениях после be ставится прилагательное без артикля: 'I'm happy' (не 'I'm a happy').",
       "tags": ["description"]
     },
     {
@@ -342,7 +342,7 @@
     {
       "id": "q23",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **The students are ___.** (excited, взволнованные)",
+      "prompt": "Заполните пропуск: **The students are ___.** (взволнованные)",
       "theory_block_id": "b2_theory_description_statements",
       "difficulty": 2,
       "correct_answer": "excited",
@@ -406,7 +406,7 @@
     {
       "id": "q26",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **I'm ___ home.** (at/in)",
+      "prompt": "Заполните пропуск: **I'm ___ home.** (предлог для конкретной точки)",
       "theory_block_id": "b3_theory_location_statements",
       "difficulty": 2,
       "correct_answer": "at",
@@ -416,7 +416,7 @@
     {
       "id": "q27",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **She's ___ the classroom.** (at/in)",
+      "prompt": "Заполните пропуск: **She's ___ the classroom.** (предлог для пространства внутри)",
       "theory_block_id": "b3_theory_location_statements",
       "difficulty": 2,
       "correct_answer": "in",
@@ -426,7 +426,7 @@
     {
       "id": "q28",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **The book is ___ the table.** (at/in/on)",
+      "prompt": "Заполните пропуск: **The book is ___ the table.** (предлог для поверхности)",
       "theory_block_id": "b3_theory_location_statements",
       "difficulty": 2,
       "correct_answer": "on",
@@ -456,11 +456,11 @@
     {
       "id": "q31",
       "type": "true_false",
-      "prompt": "Верно ли утверждение?\n\n**Предлог 'at' используется только для пространства внутри.**",
+      "prompt": "Верно ли утверждение?\n\n**Предлог 'at' используется для указания конкретной точки (at home, at school).**",
       "theory_block_id": "b3_theory_location_statements",
       "difficulty": 2,
-      "correct_answer": "false",
-      "explanation": "Нет, неверно. 'at' используется для конкретных точек (at home), а 'in' для пространства внутри (in the room).",
+      "correct_answer": "true",
+      "explanation": "Да, верно. Предлог 'at' используется для указания конкретной точки: at home, at school, at work.",
       "tags": ["location", "prepositions"]
     },
     {
@@ -493,7 +493,7 @@
     {
       "id": "q33",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **We're ___ work.** (at/in)",
+      "prompt": "Заполните пропуск: **We're ___ work.** (предлог для конкретной точки)",
       "theory_block_id": "b3_theory_location_statements",
       "difficulty": 2,
       "correct_answer": "at",
@@ -557,7 +557,7 @@
     {
       "id": "q36",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **___ a student.** (I'm/I are)",
+      "prompt": "Заполните пропуск: **___ a student.** (I am в сокращенной форме)",
       "theory_block_id": "b4_theory_contractions",
       "difficulty": 1,
       "correct_answer": "I'm",
@@ -567,7 +567,7 @@
     {
       "id": "q37",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **___ at home.** (You're/You is)",
+      "prompt": "Заполните пропуск: **___ at home.** (You are в сокращенной форме)",
       "theory_block_id": "b4_theory_contractions",
       "difficulty": 2,
       "correct_answer": "You're",
@@ -587,11 +587,11 @@
     {
       "id": "q39",
       "type": "true_false",
-      "prompt": "Верно ли утверждение?\n\n**Сокращения используются только в устной речи.**",
+      "prompt": "Верно ли утверждение?\n\n**Сокращения делают речь более естественной в разговорном английском.**",
       "theory_block_id": "b4_theory_contractions",
       "difficulty": 2,
-      "correct_answer": "false",
-      "explanation": "Нет, неверно. Сокращения используются и в устной речи, и в неформальном письме. В официальных документах предпочтительны полные формы.",
+      "correct_answer": "true",
+      "explanation": "Да, верно. Сокращения делают речь более естественной в разговорном английском: 'I'm', 'you're', 'he's' вместо 'I am', 'you are', 'he is'.",
       "tags": ["contractions"]
     },
     {
@@ -624,7 +624,7 @@
     {
       "id": "q41",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **___ tired.** (He's/He are)",
+      "prompt": "Заполните пропуск: **___ tired.** (He is в сокращенной форме)",
       "theory_block_id": "b4_theory_contractions",
       "difficulty": 2,
       "correct_answer": "He's",
@@ -661,7 +661,7 @@
     {
       "id": "q43",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **I'm a student ___ I'm happy.** (and/but)",
+      "prompt": "Заполните пропуск: **I'm a student ___ I'm happy.** (союз для объединения частей)",
       "theory_block_id": "b5_theory_combining_types",
       "difficulty": 2,
       "correct_answer": "and",
@@ -718,7 +718,7 @@
     {
       "id": "q47",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **They're students ___ they're at school.** (and/but)",
+      "prompt": "Заполните пропуск: **They're students ___ they're at school.** (союз для объединения частей)",
       "theory_block_id": "b5_theory_combining_types",
       "difficulty": 2,
       "correct_answer": "and",
@@ -755,7 +755,7 @@
     {
       "id": "q49",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **She's a teacher ___ she's happy ___ she's at school.** (and/but)",
+      "prompt": "Заполните пропуск: **She's a teacher ___ she's happy ___ she's at school.** (союз для объединения частей)",
       "theory_block_id": "b5_theory_combining_types",
       "difficulty": 3,
       "correct_answer": "and",
@@ -856,7 +856,7 @@
     {
       "id": "q54",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **We're ___ home.** (at/in)",
+      "prompt": "Заполните пропуск: **We're ___ home.** (предлог для конкретной точки)",
       "theory_block_id": "b3_theory_location_statements",
       "difficulty": 2,
       "correct_answer": "at",
@@ -866,7 +866,7 @@
     {
       "id": "q55",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **I'm ___ artist.** (a/an)",
+      "prompt": "Заполните пропуск: **I'm ___ artist.** (артикль перед гласным звуком)",
       "theory_block_id": "b1_theory_identity_statements",
       "difficulty": 2,
       "correct_answer": "an",
@@ -916,7 +916,7 @@
     {
       "id": "q60",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: **___ tired and ___ at home.** (I'm/I am)",
+      "prompt": "Заполните пропуск: **___ tired and ___ at home.** (I am в сокращенной форме)",
       "theory_block_id": "b5_theory_combining_types",
       "difficulty": 3,
       "correct_answer": "I'm",
