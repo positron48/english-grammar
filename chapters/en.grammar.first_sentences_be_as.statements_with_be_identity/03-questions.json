@@ -25,7 +25,9 @@
       ],
       "correct_answer": "b",
       "explanation": "Предложение 'I'm a student' выражает тождество, так как указывает, кем является человек. После be стоит существительное с артиклем a.",
-      "tags": ["identity"]
+      "tags": [
+        "identity"
+      ]
     },
     {
       "id": "q2",
@@ -52,7 +54,10 @@
       ],
       "correct_answer": "a",
       "explanation": "Артикль 'an' используется перед словами, начинающимися с гласного звука, например: an artist, an engineer, an hour.",
-      "tags": ["identity", "articles"]
+      "tags": [
+        "identity",
+        "articles"
+      ]
     },
     {
       "id": "q3",
@@ -62,7 +67,10 @@
       "difficulty": 2,
       "correct_answer": "an",
       "explanation": "Артикль 'an' используется перед словом 'artist', так как оно начинается с гласного звука.",
-      "tags": ["identity", "articles"]
+      "tags": [
+        "identity",
+        "articles"
+      ]
     },
     {
       "id": "q4",
@@ -72,7 +80,10 @@
       "difficulty": 1,
       "correct_answer": "a",
       "explanation": "Артикль 'a' используется перед словом 'teacher', так как оно начинается с согласного звука.",
-      "tags": ["identity", "articles"]
+      "tags": [
+        "identity",
+        "articles"
+      ]
     },
     {
       "id": "q5",
@@ -82,27 +93,10 @@
       "difficulty": 2,
       "correct_answer": "students",
       "explanation": "С множественным числом артикль не используется. 'They are students' - правильная форма.",
-      "tags": ["identity", "plural"]
-    },
-    {
-      "id": "q6",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b1_theory_identity_statements",
-      "difficulty": 2,
-      "correct_answer": "I'm a student.",
-      "explanation": "Правильный порядок: местоимение (I) + сокращенная форма be (am) → a + существительное (student).",
-      "tags": ["identity", "word_order"]
-    },
-    {
-      "id": "q7",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b1_theory_identity_statements",
-      "difficulty": 2,
-      "correct_answer": "She's an artist.",
-      "explanation": "Правильный порядок: местоимение (She) + сокращенная форма be (is) → an + существительное (artist).",
-      "tags": ["identity", "word_order"]
+      "tags": [
+        "identity",
+        "plural"
+      ]
     },
     {
       "id": "q8",
@@ -112,7 +106,10 @@
       "difficulty": 2,
       "correct_answer": "false",
       "explanation": "Нет, неверно. Перед гласными используется 'an', а 'a' используется перед согласными.",
-      "tags": ["identity", "articles"]
+      "tags": [
+        "identity",
+        "articles"
+      ]
     },
     {
       "id": "q9",
@@ -122,7 +119,10 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Да, верно. С множественным числом артикль не используется: 'We are students' (не 'a students').",
-      "tags": ["identity", "plural"]
+      "tags": [
+        "identity",
+        "plural"
+      ]
     },
     {
       "id": "q10",
@@ -149,7 +149,10 @@
       ],
       "correct_answer": "b",
       "explanation": "В утверждениях о тождестве после be обязательно используется артикль 'a' или 'an' перед существительным в единственном числе.",
-      "tags": ["identity", "articles"]
+      "tags": [
+        "identity",
+        "articles"
+      ]
     },
     {
       "id": "q11",
@@ -176,7 +179,10 @@
       ],
       "correct_answer": "b",
       "explanation": "С множественным числом артикль не используется: 'We are students' (не 'a students' или 'an students').",
-      "tags": ["identity", "plural"]
+      "tags": [
+        "identity",
+        "plural"
+      ]
     },
     {
       "id": "q12",
@@ -186,7 +192,10 @@
       "difficulty": 2,
       "correct_answer": "an",
       "explanation": "Артикль 'an' используется перед словом 'engineer', так как оно начинается с гласного звука.",
-      "tags": ["identity", "articles"]
+      "tags": [
+        "identity",
+        "articles"
+      ]
     },
     {
       "id": "q13",
@@ -213,7 +222,9 @@
       ],
       "correct_answer": "b",
       "explanation": "Предложение 'She's tired' выражает описание, так как характеризует состояние человека. После be стоит прилагательное без артикля.",
-      "tags": ["description"]
+      "tags": [
+        "description"
+      ]
     },
     {
       "id": "q14",
@@ -240,7 +251,9 @@
       ],
       "correct_answer": "a",
       "explanation": "В описательных предложениях после be ставится прилагательное без артикля: 'I'm happy', 'She's tired'.",
-      "tags": ["description"]
+      "tags": [
+        "description"
+      ]
     },
     {
       "id": "q15",
@@ -250,7 +263,9 @@
       "difficulty": 1,
       "correct_answer": "happy",
       "explanation": "В описательных предложениях после be ставится прилагательное без артикля.",
-      "tags": ["description"]
+      "tags": [
+        "description"
+      ]
     },
     {
       "id": "q16",
@@ -260,7 +275,9 @@
       "difficulty": 1,
       "correct_answer": "tired",
       "explanation": "Прилагательное 'tired' используется после be для описания состояния.",
-      "tags": ["description"]
+      "tags": [
+        "description"
+      ]
     },
     {
       "id": "q17",
@@ -270,27 +287,10 @@
       "difficulty": 1,
       "correct_answer": "busy",
       "explanation": "Прилагательные в английском не изменяются по числам: 'They are busy' (не 'busies').",
-      "tags": ["description", "plural"]
-    },
-    {
-      "id": "q18",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b2_theory_description_statements",
-      "difficulty": 2,
-      "correct_answer": "She's tired.",
-      "explanation": "Правильный порядок: местоимение (She) + сокращенная форма be (is) → прилагательное (tired).",
-      "tags": ["description", "word_order"]
-    },
-    {
-      "id": "q19",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b2_theory_description_statements",
-      "difficulty": 2,
-      "correct_answer": "I'm happy.",
-      "explanation": "Правильный порядок: местоимение (I) + сокращенная форма be (am) → прилагательное (happy).",
-      "tags": ["description", "word_order"]
+      "tags": [
+        "description",
+        "plural"
+      ]
     },
     {
       "id": "q20",
@@ -300,7 +300,9 @@
       "difficulty": 2,
       "correct_answer": "true",
       "explanation": "Да, верно. В описательных предложениях после be ставится прилагательное без артикля: 'I'm happy' (не 'I'm a happy').",
-      "tags": ["description"]
+      "tags": [
+        "description"
+      ]
     },
     {
       "id": "q21",
@@ -310,7 +312,9 @@
       "difficulty": 2,
       "correct_answer": "false",
       "explanation": "Нет, неверно. После be в описательных предложениях артикль не используется: 'I'm happy' (не 'I'm a happy').",
-      "tags": ["description"]
+      "tags": [
+        "description"
+      ]
     },
     {
       "id": "q22",
@@ -337,7 +341,9 @@
       ],
       "correct_answer": "b",
       "explanation": "В описательных предложениях после be ставится прилагательное без артикля. Прилагательные не изменяются по числам.",
-      "tags": ["description"]
+      "tags": [
+        "description"
+      ]
     },
     {
       "id": "q23",
@@ -347,7 +353,10 @@
       "difficulty": 2,
       "correct_answer": "excited",
       "explanation": "Прилагательное 'excited' не изменяется по числам. 'The students are excited' - правильная форма.",
-      "tags": ["description", "plural"]
+      "tags": [
+        "description",
+        "plural"
+      ]
     },
     {
       "id": "q24",
@@ -374,7 +383,9 @@
       ],
       "correct_answer": "c",
       "explanation": "Предложение 'She's at home' выражает местоположение, так как указывает, где находится человек. После be стоит предлог места 'at'.",
-      "tags": ["location"]
+      "tags": [
+        "location"
+      ]
     },
     {
       "id": "q25",
@@ -401,7 +412,10 @@
       ],
       "correct_answer": "a",
       "explanation": "Предлог 'at' используется для указания конкретной точки: at home, at school, at work.",
-      "tags": ["location", "prepositions"]
+      "tags": [
+        "location",
+        "prepositions"
+      ]
     },
     {
       "id": "q26",
@@ -411,7 +425,10 @@
       "difficulty": 2,
       "correct_answer": "at",
       "explanation": "Предлог 'at' используется с конкретными точками: 'at home', 'at school', 'at work'.",
-      "tags": ["location", "prepositions"]
+      "tags": [
+        "location",
+        "prepositions"
+      ]
     },
     {
       "id": "q27",
@@ -421,7 +438,10 @@
       "difficulty": 2,
       "correct_answer": "in",
       "explanation": "Предлог 'in' используется для пространства внутри: 'in the classroom', 'in the room', 'in the city'.",
-      "tags": ["location", "prepositions"]
+      "tags": [
+        "location",
+        "prepositions"
+      ]
     },
     {
       "id": "q28",
@@ -431,27 +451,10 @@
       "difficulty": 2,
       "correct_answer": "on",
       "explanation": "Предлог 'on' используется для поверхности: 'on the table', 'on the floor', 'on the wall'.",
-      "tags": ["location", "prepositions"]
-    },
-    {
-      "id": "q29",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b3_theory_location_statements",
-      "difficulty": 2,
-      "correct_answer": "I'm at home.",
-      "explanation": "Правильный порядок: местоимение (I) + сокращенная форма be (am) → предлог (at) + место (home).",
-      "tags": ["location", "word_order"]
-    },
-    {
-      "id": "q30",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b3_theory_location_statements",
-      "difficulty": 2,
-      "correct_answer": "They are in the room.",
-      "explanation": "Правильный порядок: местоимение (They) + форма be (are) → предлог (in) + артикль (the) + место (room).",
-      "tags": ["location", "word_order"]
+      "tags": [
+        "location",
+        "prepositions"
+      ]
     },
     {
       "id": "q31",
@@ -461,7 +464,10 @@
       "difficulty": 2,
       "correct_answer": "true",
       "explanation": "Да, верно. Предлог 'at' используется для указания конкретной точки: at home, at school, at work.",
-      "tags": ["location", "prepositions"]
+      "tags": [
+        "location",
+        "prepositions"
+      ]
     },
     {
       "id": "q32",
@@ -488,7 +494,10 @@
       ],
       "correct_answer": "b",
       "explanation": "Предлог 'on' используется для поверхностей: 'on the table', 'on the floor', 'on the wall'.",
-      "tags": ["location", "prepositions"]
+      "tags": [
+        "location",
+        "prepositions"
+      ]
     },
     {
       "id": "q33",
@@ -498,7 +507,10 @@
       "difficulty": 2,
       "correct_answer": "at",
       "explanation": "Предлог 'at' используется с конкретными точками: 'at work', 'at school', 'at home'.",
-      "tags": ["location", "prepositions"]
+      "tags": [
+        "location",
+        "prepositions"
+      ]
     },
     {
       "id": "q34",
@@ -525,7 +537,9 @@
       ],
       "correct_answer": "a",
       "explanation": "Сокращение 'I am' → 'I'm'. Сокращения делают речь более естественной в разговорном английском.",
-      "tags": ["contractions"]
+      "tags": [
+        "contractions"
+      ]
     },
     {
       "id": "q35",
@@ -552,7 +566,9 @@
       ],
       "correct_answer": "b",
       "explanation": "Сокращение 'she is' → 'she's'. Также 'he is' → 'he's', 'it is' → 'it's'.",
-      "tags": ["contractions"]
+      "tags": [
+        "contractions"
+      ]
     },
     {
       "id": "q36",
@@ -562,7 +578,9 @@
       "difficulty": 1,
       "correct_answer": "I'm",
       "explanation": "Сокращение 'I am' → 'I'm'. 'I are' неверно, так как с 'I' используется 'am', а не 'are'.",
-      "tags": ["contractions"]
+      "tags": [
+        "contractions"
+      ]
     },
     {
       "id": "q37",
@@ -572,7 +590,9 @@
       "difficulty": 2,
       "correct_answer": "You're",
       "explanation": "Сокращение 'you are' → 'you're'. 'You is' неверно, так как с 'you' используется 'are', а не 'is'.",
-      "tags": ["contractions"]
+      "tags": [
+        "contractions"
+      ]
     },
     {
       "id": "q38",
@@ -582,7 +602,10 @@
       "difficulty": 2,
       "correct_answer": "They're happy.",
       "explanation": "Правильный порядок: местоимение (They) + сокращенная форма be (are) → описание (happy).",
-      "tags": ["contractions", "word_order"]
+      "tags": [
+        "contractions",
+        "word_order"
+      ]
     },
     {
       "id": "q39",
@@ -592,7 +615,9 @@
       "difficulty": 2,
       "correct_answer": "true",
       "explanation": "Да, верно. Сокращения делают речь более естественной в разговорном английском: 'I'm', 'you're', 'he's' вместо 'I am', 'you are', 'he is'.",
-      "tags": ["contractions"]
+      "tags": [
+        "contractions"
+      ]
     },
     {
       "id": "q40",
@@ -619,7 +644,9 @@
       ],
       "correct_answer": "b",
       "explanation": "Сокращение 'we are' → 'we're'. С 'we' используется форма 'are', которая сокращается до ''re'.",
-      "tags": ["contractions"]
+      "tags": [
+        "contractions"
+      ]
     },
     {
       "id": "q41",
@@ -629,7 +656,9 @@
       "difficulty": 2,
       "correct_answer": "He's",
       "explanation": "Сокращение 'he is' → 'he's'. 'He are' неверно, так как с 'he' используется 'is', а не 'are'.",
-      "tags": ["contractions"]
+      "tags": [
+        "contractions"
+      ]
     },
     {
       "id": "q42",
@@ -656,7 +685,9 @@
       ],
       "correct_answer": "a",
       "explanation": "Для объединения информации используется союз 'and': 'I'm a student and I'm happy'.",
-      "tags": ["combining"]
+      "tags": [
+        "combining"
+      ]
     },
     {
       "id": "q43",
@@ -666,17 +697,9 @@
       "difficulty": 2,
       "correct_answer": "and",
       "explanation": "Союз 'and' объединяет части предложения: 'I'm a student and I'm happy'.",
-      "tags": ["combining"]
-    },
-    {
-      "id": "q44",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b5_theory_combining_types",
-      "difficulty": 3,
-      "correct_answer": "She's a teacher and she's at school.",
-      "explanation": "Правильный порядок: тождество (She's a teacher) + союз (and) + местоположение (she's at school).",
-      "tags": ["combining", "word_order"]
+      "tags": [
+        "combining"
+      ]
     },
     {
       "id": "q45",
@@ -686,7 +709,9 @@
       "difficulty": 2,
       "correct_answer": "true",
       "explanation": "Да, верно. В объединенных предложениях каждая часть имеет свой глагол be: 'I'm a student and I'm happy'.",
-      "tags": ["combining"]
+      "tags": [
+        "combining"
+      ]
     },
     {
       "id": "q46",
@@ -713,7 +738,9 @@
       ],
       "correct_answer": "b",
       "explanation": "Для объединения информации используется союз 'and': 'I'm a student and I'm happy'.",
-      "tags": ["combining"]
+      "tags": [
+        "combining"
+      ]
     },
     {
       "id": "q47",
@@ -723,7 +750,9 @@
       "difficulty": 2,
       "correct_answer": "and",
       "explanation": "Союз 'and' объединяет тождество и местоположение: 'They're students and they're at school'.",
-      "tags": ["combining"]
+      "tags": [
+        "combining"
+      ]
     },
     {
       "id": "q48",
@@ -750,7 +779,9 @@
       ],
       "correct_answer": "b",
       "explanation": "Для объединения нескольких частей используются союзы 'and': 'I'm a student and I'm happy and I'm at home'.",
-      "tags": ["combining"]
+      "tags": [
+        "combining"
+      ]
     },
     {
       "id": "q49",
@@ -760,7 +791,9 @@
       "difficulty": 3,
       "correct_answer": "and",
       "explanation": "Союз 'and' используется для объединения всех частей: 'She's a teacher and she's happy and she's at school'.",
-      "tags": ["combining"]
+      "tags": [
+        "combining"
+      ]
     },
     {
       "id": "q50",
@@ -770,7 +803,9 @@
       "difficulty": 3,
       "correct_answer": "false",
       "explanation": "Нет, неверно. Для объединения частей предложения нужен союз 'and'. Запятая без союза неверна.",
-      "tags": ["combining"]
+      "tags": [
+        "combining"
+      ]
     },
     {
       "id": "q51",
@@ -797,7 +832,9 @@
       ],
       "correct_answer": "a",
       "explanation": "Предложение 'I'm a student' выражает тождество, так как указывает, кем является человек.",
-      "tags": ["identity"]
+      "tags": [
+        "identity"
+      ]
     },
     {
       "id": "q52",
@@ -824,7 +861,9 @@
       ],
       "correct_answer": "b",
       "explanation": "Предложение 'She's tired' выражает описание, так как характеризует состояние человека.",
-      "tags": ["description"]
+      "tags": [
+        "description"
+      ]
     },
     {
       "id": "q53",
@@ -851,7 +890,9 @@
       ],
       "correct_answer": "c",
       "explanation": "Предложение 'I'm at home' выражает местоположение, так как указывает, где находится человек.",
-      "tags": ["location"]
+      "tags": [
+        "location"
+      ]
     },
     {
       "id": "q54",
@@ -861,7 +902,9 @@
       "difficulty": 2,
       "correct_answer": "at",
       "explanation": "Предлог 'at' используется с конкретными точками: 'at home', 'at school', 'at work'.",
-      "tags": ["location"]
+      "tags": [
+        "location"
+      ]
     },
     {
       "id": "q55",
@@ -871,27 +914,9 @@
       "difficulty": 2,
       "correct_answer": "an",
       "explanation": "Артикль 'an' используется перед словом 'artist', так как оно начинается с гласного звука.",
-      "tags": ["identity"]
-    },
-    {
-      "id": "q56",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b2_theory_description_statements",
-      "difficulty": 2,
-      "correct_answer": "They are busy.",
-      "explanation": "Правильный порядок: местоимение (They) + форма be (are) → прилагательное (busy).",
-      "tags": ["description"]
-    },
-    {
-      "id": "q57",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b3_theory_location_statements",
-      "difficulty": 2,
-      "correct_answer": "She's at school.",
-      "explanation": "Правильный порядок: местоимение (She) + сокращенная форма be (is) → предлог (at) + место (school).",
-      "tags": ["location"]
+      "tags": [
+        "identity"
+      ]
     },
     {
       "id": "q58",
@@ -901,7 +926,9 @@
       "difficulty": 2,
       "correct_answer": "false",
       "explanation": "Нет, неверно. Перед гласными звуками используется 'an', а 'a' используется перед согласными.",
-      "tags": ["identity"]
+      "tags": [
+        "identity"
+      ]
     },
     {
       "id": "q59",
@@ -911,7 +938,9 @@
       "difficulty": 2,
       "correct_answer": "false",
       "explanation": "Нет, неверно. С множественным числом артикль не используется: 'We are students' (не 'a students').",
-      "tags": ["identity"]
+      "tags": [
+        "identity"
+      ]
     },
     {
       "id": "q60",
@@ -921,7 +950,9 @@
       "difficulty": 3,
       "correct_answer": "I'm",
       "explanation": "В объединенных предложениях можно использовать сокращения: 'I'm tired and I'm at home'.",
-      "tags": ["combining"]
+      "tags": [
+        "combining"
+      ]
     }
   ]
 }
