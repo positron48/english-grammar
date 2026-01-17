@@ -101,7 +101,6 @@ function renderTheoryBlock(block, container, chapter) {
     blockDiv.className = 'theory-block';
     blockDiv.id = block.id;
     
-    const title = block.title ? `<h2 class="block-title">${block.title}</h2>` : '';
     const content = block.theory.content_md 
         ? `<div class="theory-content">${renderMarkdown(block.theory.content_md)}</div>` 
         : '';
@@ -144,7 +143,7 @@ function renderTheoryBlock(block, container, chapter) {
         mistakesHtml += '</ul></div>';
     }
     
-    blockDiv.innerHTML = title + content + examplesHtml + keyPointsHtml + mistakesHtml;
+    blockDiv.innerHTML = content + examplesHtml + keyPointsHtml + mistakesHtml;
     container.appendChild(blockDiv);
 }
 
@@ -155,8 +154,6 @@ function renderInlineQuiz(block, container, chapter) {
     const quizDiv = document.createElement('div');
     quizDiv.className = 'inline-quiz';
     quizDiv.id = block.id;
-    
-    const title = block.title ? `<h2 class="quiz-title">${block.title}</h2>` : '';
     
     const questions = getQuestionsByIds(chapter, block.quiz_inline.question_ids || []);
     
@@ -187,7 +184,6 @@ function renderInlineQuiz(block, container, chapter) {
         questionsContainer.appendChild(questionEl);
     }
     
-    quizDiv.innerHTML = title;
     quizDiv.appendChild(questionsContainer);
     container.appendChild(quizDiv);
 }
