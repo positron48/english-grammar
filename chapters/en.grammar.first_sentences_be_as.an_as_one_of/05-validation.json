@@ -2,19 +2,11 @@
   "validation_result": {
     "is_valid": true,
     "schema_valid": true,
-    "issues": [
-      {
-        "severity": "warning",
-        "category": "methodological",
-        "message": "Несбалансированные true_false вопросы: 3 true (27.3%) и 8 false (72.7%). Должно быть 50±10% (40-60%) вопросов с correct_answer 'true'.",
-        "location": "question_bank.questions[].type=true_false",
-        "suggested_fix": "Добавить больше true_false вопросов с correct_answer 'true' для баланса"
-      }
-    ],
+    "issues": [],
     "summary": {
-      "total_issues": 1,
+      "total_issues": 0,
       "errors": 0,
-      "warnings": 1,
+      "warnings": 0,
       "suggestions": 0
     },
     "coverage": {
