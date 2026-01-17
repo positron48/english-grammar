@@ -78,12 +78,27 @@ if (!$chapterDir || !is_dir($chapterDir)) {
 $errors = [];
 $updated = [];
 
+// Функция для форматирования JSON с 2 пробелами (вместо стандартных 4)
+function json_encode_pretty_2spaces($data) {
+    $json = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+    // Заменяем отступы из 4 пробелов на 2 пробела
+    $lines = explode("\n", $json);
+    $result = [];
+    foreach ($lines as $line) {
+        // Заменяем каждые 4 пробела в начале строки на половину (2 пробела за уровень)
+        $result[] = preg_replace_callback('/^(\s{4})+/m', function($matches) {
+            return str_repeat('  ', strlen($matches[0]) / 4);
+        }, $line);
+    }
+    return implode("\n", $result);
+}
+
 // Обновляем 03-questions.json
 if (isset($data['questions'])) {
     $questionsFile = $chapterDir . '/03-questions.json';
     $questionsData = ['questions' => $data['questions']];
     
-    if (file_put_contents($questionsFile, json_encode($questionsData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES)) !== false) {
+    if (file_put_contents($questionsFile, json_encode_pretty_2spaces($questionsData)) !== false) {
         $updated[] = '03-questions.json';
     } else {
         $errors[] = 'Failed to update 03-questions.json';
@@ -94,7 +109,7 @@ if (isset($data['questions'])) {
 if (isset($data['quizzes'])) {
     $quizzesFile = $chapterDir . '/04-inline-quizzes.json';
     
-    if (file_put_contents($quizzesFile, json_encode($data['quizzes'], JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES)) !== false) {
+    if (file_put_contents($quizzesFile, json_encode_pretty_2spaces($data['quizzes'])) !== false) {
         $updated[] = '04-inline-quizzes.json';
     } else {
         $errors[] = 'Failed to update 04-inline-quizzes.json';
@@ -110,7 +125,7 @@ if (isset($data['final'])) {
         $data['final']['meta']['updated_at'] = date('Y-m-d\TH:i:s\Z');
     }
     
-    if (file_put_contents($finalFile, json_encode($data['final'], JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES)) !== false) {
+    if (file_put_contents($finalFile, json_encode_pretty_2spaces($data['final'])) !== false) {
         $updated[] = '05-final.json';
     } else {
         $errors[] = 'Failed to update 05-final.json';

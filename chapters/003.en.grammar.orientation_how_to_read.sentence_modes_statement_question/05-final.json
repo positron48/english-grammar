@@ -50,21 +50,6 @@
       }
     },
     {
-      "id": "b2_quiz_after_one_idea",
-      "type": "quiz_inline",
-      "title": "Быстрая проверка: понимаете ли вы концепцию режимов?",
-      "quiz_inline": {
-        "question_ids": [
-          "q1",
-          "q2",
-          "q3",
-          "q4",
-          "q5"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b2_theory_statements",
       "type": "theory",
       "title": "Утверждение (Statement) — это обычное предложение, которое констатирует факт. Это самый простой режим предложения.",
@@ -93,21 +78,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b3_quiz_after_statements",
-      "type": "quiz_inline",
-      "title": "Быстрая проверка: можете ли вы распознать утверждения?",
-      "quiz_inline": {
-        "question_ids": [
-          "q13",
-          "q14",
-          "q15",
-          "q16",
-          "q17"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -148,21 +118,6 @@
       }
     },
     {
-      "id": "b4_quiz_after_questions",
-      "type": "quiz_inline",
-      "title": "Быстрая проверка: можете ли вы создать вопросы?",
-      "quiz_inline": {
-        "question_ids": [
-          "q25",
-          "q26",
-          "q27",
-          "q28",
-          "q29"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b4_theory_negatives",
       "type": "theory",
       "title": "Отрицание (Negative) — это предложение, которое отрицает факт. Отрицание создается с помощью слова not (не).",
@@ -197,21 +152,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b5_quiz_after_negatives",
-      "type": "quiz_inline",
-      "title": "Быстрая проверка: можете ли вы создать отрицания?",
-      "quiz_inline": {
-        "question_ids": [
-          "q37",
-          "q38",
-          "q39",
-          "q40",
-          "q41"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -345,30 +285,6 @@
         ]
       },
       {
-        "id": "q5",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ I speak English?\" (делать)",
-        "theory_block_id": "b1_theory_one_idea_three_modes",
-        "difficulty": 2,
-        "correct_answer": "Do",
-        "explanation": "Правильный ответ: Do. Для вопроса нужен вспомогательный глагол do.",
-        "tags": [
-          "question"
-        ]
-      },
-      {
-        "id": "q6",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I ___ speak English.\" (не)",
-        "theory_block_id": "b1_theory_one_idea_three_modes",
-        "difficulty": 2,
-        "correct_answer": "don't",
-        "explanation": "Правильный ответ: don't. Для отрицания нужен do not (don't) перед основным глаголом.",
-        "tags": [
-          "negative"
-        ]
-      },
-      {
         "id": "q7",
         "type": "reorder",
         "prompt": "Расставьте слова в правильном порядке:",
@@ -414,30 +330,6 @@
         "explanation": "Неверно. Утверждение, вопрос и отрицание — это три разных способа выразить одну и ту же идею. Это три «переключателя» одной идеи, которые можно преобразовывать друг в друга.",
         "tags": [
           "concept"
-        ]
-      },
-      {
-        "id": "q11",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ you like coffee?\" (делать)",
-        "theory_block_id": "b1_theory_one_idea_three_modes",
-        "difficulty": 2,
-        "correct_answer": "Do",
-        "explanation": "Правильный ответ: Do. Для вопроса нужен вспомогательный глагол do.",
-        "tags": [
-          "question"
-        ]
-      },
-      {
-        "id": "q12",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"You ___ like coffee.\" (не)",
-        "theory_block_id": "b1_theory_one_idea_three_modes",
-        "difficulty": 2,
-        "correct_answer": "don't",
-        "explanation": "Правильный ответ: don't. Для отрицания нужен do not (don't).",
-        "tags": [
-          "negative"
         ]
       },
       {
@@ -499,30 +391,6 @@
         ]
       },
       {
-        "id": "q15",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"She ___ a teacher.\" (быть)",
-        "theory_block_id": "b2_theory_statements",
-        "difficulty": 1,
-        "correct_answer": "is",
-        "explanation": "Правильный ответ: is. В утверждении порядок слов: подлежащее → сказуемое (is).",
-        "tags": [
-          "statement"
-        ]
-      },
-      {
-        "id": "q16",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"They ___ coffee.\" (нравиться)",
-        "theory_block_id": "b2_theory_statements",
-        "difficulty": 1,
-        "correct_answer": "like",
-        "explanation": "Правильный ответ: like. В утверждении порядок слов: подлежащее → сказуемое (like).",
-        "tags": [
-          "statement"
-        ]
-      },
-      {
         "id": "q17",
         "type": "reorder",
         "prompt": "Расставьте слова в правильном порядке:",
@@ -566,30 +434,6 @@
         "difficulty": 1,
         "correct_answer": "false",
         "explanation": "Неверно. В утверждениях порядок слов: подлежащее → сказуемое → остальное. Сказуемое не может стоять перед подлежащим в утверждении.",
-        "tags": [
-          "statement"
-        ]
-      },
-      {
-        "id": "q21",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"We ___ students.\" (быть)",
-        "theory_block_id": "b2_theory_statements",
-        "difficulty": 1,
-        "correct_answer": "are",
-        "explanation": "Правильный ответ: are. В утверждении с we используется are.",
-        "tags": [
-          "statement"
-        ]
-      },
-      {
-        "id": "q22",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"He ___ to school.\" (ходить)",
-        "theory_block_id": "b2_theory_statements",
-        "difficulty": 1,
-        "correct_answer": "goes",
-        "explanation": "Правильный ответ: goes. В утверждении с he/she/it глагол принимает форму с -s.",
         "tags": [
           "statement"
         ]
@@ -1239,24 +1083,16 @@
       "q2",
       "q3",
       "q4",
-      "q5",
-      "q6",
       "q7",
       "q8",
       "q9",
       "q10",
-      "q11",
-      "q12",
       "q13",
       "q14",
-      "q15",
-      "q16",
       "q17",
       "q18",
       "q19",
       "q20",
-      "q21",
-      "q22",
       "q23",
       "q24",
       "q25",
@@ -1309,7 +1145,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-17T21:15:51Z",
+    "updated_at": "2026-01-17T21:25:36Z",
     "source": "llm"
   }
 }
