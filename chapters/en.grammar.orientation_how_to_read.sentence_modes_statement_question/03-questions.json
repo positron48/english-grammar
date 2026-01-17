@@ -1,0 +1,989 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq_single",
+      "prompt": "Одна идея может быть выражена тремя способами. Какое из предложений является утверждением?",
+      "theory_block_id": "b1_theory_one_idea_three_modes",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I speak English.",
+          "feedback": "Правильно! Это утверждение."
+        },
+        {
+          "id": "b",
+          "text": "Do I speak English?",
+          "feedback": "Это вопрос."
+        },
+        {
+          "id": "c",
+          "text": "I don't speak English.",
+          "feedback": "Это отрицание."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Утверждение — это предложение, которое констатирует факт. \"I speak English\" — это утверждение.",
+      "tags": [
+        "statement"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "mcq_single",
+      "prompt": "Какое из предложений является вопросом?",
+      "theory_block_id": "b1_theory_one_idea_three_modes",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I speak English.",
+          "feedback": "Это утверждение."
+        },
+        {
+          "id": "b",
+          "text": "Do I speak English?",
+          "feedback": "Правильно! Это вопрос."
+        },
+        {
+          "id": "c",
+          "text": "I don't speak English.",
+          "feedback": "Это отрицание."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Вопрос заканчивается вопросительным знаком и запрашивает информацию. \"Do I speak English?\" — это вопрос.",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "mcq_single",
+      "prompt": "Какое из предложений является отрицанием?",
+      "theory_block_id": "b1_theory_one_idea_three_modes",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I speak English.",
+          "feedback": "Это утверждение."
+        },
+        {
+          "id": "b",
+          "text": "Do I speak English?",
+          "feedback": "Это вопрос."
+        },
+        {
+          "id": "c",
+          "text": "I don't speak English.",
+          "feedback": "Правильно! Это отрицание."
+        }
+      ],
+      "correct_answer": "c",
+      "explanation": "Отрицание содержит \"not\" и отрицает факт. \"I don't speak English\" — это отрицание.",
+      "tags": [
+        "negative"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "prompt": "Верно ли, что одно предложение можно выразить тремя способами: утверждением, вопросом и отрицанием?",
+      "theory_block_id": "b1_theory_one_idea_three_modes",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Верно. Одна идея может быть выражена как утверждение, вопрос или отрицание — это три «переключателя» одной идеи.",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"___ I speak English?\" (делать)",
+      "theory_block_id": "b1_theory_one_idea_three_modes",
+      "difficulty": 2,
+      "correct_answer": "Do",
+      "explanation": "Правильный ответ: Do. Для вопроса нужен вспомогательный глагол do.",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"I ___ speak English.\" (не)",
+      "theory_block_id": "b1_theory_one_idea_three_modes",
+      "difficulty": 2,
+      "correct_answer": "don't",
+      "explanation": "Правильный ответ: don't. Для отрицания нужен do not (don't) перед основным глаголом.",
+      "tags": [
+        "negative"
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b1_theory_one_idea_three_modes",
+      "difficulty": 2,
+      "correct_answer": "I speak English.",
+      "explanation": "Правильный порядок: I speak English. Это утверждение с порядком: подлежащее → сказуемое → остальное.",
+      "tags": [
+        "statement"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b1_theory_one_idea_three_modes",
+      "difficulty": 2,
+      "correct_answer": "Do I speak English?",
+      "explanation": "Правильный порядок: Do I speak English? В вопросах вспомогательный глагол стоит перед подлежащим.",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b1_theory_one_idea_three_modes",
+      "difficulty": 2,
+      "correct_answer": "I don't speak English.",
+      "explanation": "Правильный порядок: I don't speak English. В отрицании not стоит после вспомогательного глагола.",
+      "tags": [
+        "negative"
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "true_false",
+      "prompt": "Утверждение, вопрос и отрицание — это три разных способа выразить одну и ту же идею.",
+      "theory_block_id": "b1_theory_one_idea_three_modes",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Верно. Это три «переключателя» одной идеи.",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"___ you like coffee?\" (делать)",
+      "theory_block_id": "b1_theory_one_idea_three_modes",
+      "difficulty": 2,
+      "correct_answer": "Do",
+      "explanation": "Правильный ответ: Do. Для вопроса нужен вспомогательный глагол do.",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"You ___ like coffee.\" (не)",
+      "theory_block_id": "b1_theory_one_idea_three_modes",
+      "difficulty": 2,
+      "correct_answer": "don't",
+      "explanation": "Правильный ответ: don't. Для отрицания нужен do not (don't).",
+      "tags": [
+        "negative"
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "mcq_single",
+      "prompt": "Какое из предложений является утверждением?",
+      "theory_block_id": "b2_theory_statements",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "She is a teacher.",
+          "feedback": "Правильно! Это утверждение."
+        },
+        {
+          "id": "b",
+          "text": "Is she a teacher?",
+          "feedback": "Это вопрос."
+        },
+        {
+          "id": "c",
+          "text": "She isn't a teacher.",
+          "feedback": "Это отрицание."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Утверждение констатирует факт и заканчивается точкой. \"She is a teacher\" — это утверждение.",
+      "tags": [
+        "statement"
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "mcq_single",
+      "prompt": "Какое из предложений является утверждением?",
+      "theory_block_id": "b2_theory_statements",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "They like coffee.",
+          "feedback": "Правильно! Это утверждение."
+        },
+        {
+          "id": "b",
+          "text": "Do they like coffee?",
+          "feedback": "Это вопрос."
+        },
+        {
+          "id": "c",
+          "text": "They don't like coffee.",
+          "feedback": "Это отрицание."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Утверждение имеет стандартный порядок слов: подлежащее → сказуемое. \"They like coffee\" — это утверждение.",
+      "tags": [
+        "statement"
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"She ___ a teacher.\" (быть)",
+      "theory_block_id": "b2_theory_statements",
+      "difficulty": 1,
+      "correct_answer": "is",
+      "explanation": "Правильный ответ: is. В утверждении порядок слов: подлежащее → сказуемое (is).",
+      "tags": [
+        "statement"
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"They ___ coffee.\" (нравиться)",
+      "theory_block_id": "b2_theory_statements",
+      "difficulty": 1,
+      "correct_answer": "like",
+      "explanation": "Правильный ответ: like. В утверждении порядок слов: подлежащее → сказуемое (like).",
+      "tags": [
+        "statement"
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b2_theory_statements",
+      "difficulty": 2,
+      "correct_answer": "I work here.",
+      "explanation": "Правильный порядок: I work here. В утверждении порядок: подлежащее → сказуемое → остальное.",
+      "tags": [
+        "statement"
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b2_theory_statements",
+      "difficulty": 2,
+      "correct_answer": "She is a teacher.",
+      "explanation": "Правильный порядок: She is a teacher. В утверждении порядок: подлежащее → сказуемое → остальное.",
+      "tags": [
+        "statement"
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "true_false",
+      "prompt": "Утверждения всегда заканчиваются точкой.",
+      "theory_block_id": "b2_theory_statements",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Верно. Утверждения заканчиваются точкой, а не вопросительным знаком.",
+      "tags": [
+        "statement"
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "true_false",
+      "prompt": "В утверждениях порядок слов: подлежащее → сказуемое → остальное.",
+      "theory_block_id": "b2_theory_statements",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Верно. Это стандартный порядок слов для утверждений в английском языке.",
+      "tags": [
+        "statement"
+      ]
+    },
+    {
+      "id": "q21",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"We ___ students.\" (быть)",
+      "theory_block_id": "b2_theory_statements",
+      "difficulty": 1,
+      "correct_answer": "are",
+      "explanation": "Правильный ответ: are. В утверждении с we используется are.",
+      "tags": [
+        "statement"
+      ]
+    },
+    {
+      "id": "q22",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"He ___ to school.\" (ходить)",
+      "theory_block_id": "b2_theory_statements",
+      "difficulty": 1,
+      "correct_answer": "goes",
+      "explanation": "Правильный ответ: goes. В утверждении с he/she/it глагол принимает форму с -s.",
+      "tags": [
+        "statement"
+      ]
+    },
+    {
+      "id": "q23",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b2_theory_statements",
+      "difficulty": 2,
+      "correct_answer": "They like coffee.",
+      "explanation": "Правильный порядок: They like coffee. В утверждении порядок: подлежащее → сказуемое → дополнение.",
+      "tags": [
+        "statement"
+      ]
+    },
+    {
+      "id": "q24",
+      "type": "mcq_single",
+      "prompt": "Что делает утверждение утверждением?",
+      "theory_block_id": "b2_theory_statements",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Заканчивается точкой",
+          "feedback": "Частично верно, но не только это."
+        },
+        {
+          "id": "b",
+          "text": "Имеет порядок: подлежащее → сказуемое",
+          "feedback": "Частично верно, но не только это."
+        },
+        {
+          "id": "c",
+          "text": "Констатирует факт и имеет правильный порядок слов",
+          "feedback": "Правильно! Утверждение констатирует факт и имеет порядок: подлежащее → сказуемое."
+        }
+      ],
+      "correct_answer": "c",
+      "explanation": "Утверждение констатирует факт, имеет порядок слов подлежащее → сказуемое и заканчивается точкой.",
+      "tags": [
+        "statement"
+      ]
+    },
+    {
+      "id": "q25",
+      "type": "mcq_single",
+      "prompt": "Какое из предложений является вопросом?",
+      "theory_block_id": "b3_theory_questions",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "She is a teacher.",
+          "feedback": "Это утверждение."
+        },
+        {
+          "id": "b",
+          "text": "Is she a teacher?",
+          "feedback": "Правильно! Это вопрос."
+        },
+        {
+          "id": "c",
+          "text": "She isn't a teacher.",
+          "feedback": "Это отрицание."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Вопрос заканчивается вопросительным знаком. \"Is she a teacher?\" — это вопрос.",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "id": "q26",
+      "type": "mcq_single",
+      "prompt": "Как превратить утверждение \"They like coffee\" в вопрос?",
+      "theory_block_id": "b3_theory_questions",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "They like coffee?",
+          "feedback": "Нет, нужен вспомогательный глагол."
+        },
+        {
+          "id": "b",
+          "text": "Do they like coffee?",
+          "feedback": "Правильно! Добавляется do в начало."
+        },
+        {
+          "id": "c",
+          "text": "Like they coffee?",
+          "feedback": "Неправильный порядок слов."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Для вопроса нужен вспомогательный глагол do перед подлежащим: \"Do they like coffee?\"",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "id": "q27",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"___ she a teacher?\" (быть)",
+      "theory_block_id": "b3_theory_questions",
+      "difficulty": 2,
+      "correct_answer": "Is",
+      "explanation": "Правильный ответ: Is. В вопросах вспомогательный глагол стоит перед подлежащим.",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "id": "q28",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"___ they like coffee?\" (делать)",
+      "theory_block_id": "b3_theory_questions",
+      "difficulty": 2,
+      "correct_answer": "Do",
+      "explanation": "Правильный ответ: Do. Для вопроса нужен вспомогательный глагол do перед подлежащим.",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "id": "q29",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"___ I work here?\" (делать)",
+      "theory_block_id": "b3_theory_questions",
+      "difficulty": 2,
+      "correct_answer": "Do",
+      "explanation": "Правильный ответ: Do. Для вопроса нужен вспомогательный глагол do.",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "id": "q30",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b3_theory_questions",
+      "difficulty": 2,
+      "correct_answer": "Is she a teacher?",
+      "explanation": "Правильный порядок: Is she a teacher? В вопросах вспомогательный глагол стоит перед подлежащим.",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "id": "q31",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b3_theory_questions",
+      "difficulty": 2,
+      "correct_answer": "Do they like coffee?",
+      "explanation": "Правильный порядок: Do they like coffee? В вопросах вспомогательный глагол стоит перед подлежащим.",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "id": "q32",
+      "type": "true_false",
+      "prompt": "В вопросах вспомогательный глагол стоит перед подлежащим.",
+      "theory_block_id": "b3_theory_questions",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Верно. В вопросах порядок слов: вспомогательный глагол → подлежащее → основной глагол.",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "id": "q33",
+      "type": "true_false",
+      "prompt": "Вопросы всегда заканчиваются вопросительным знаком.",
+      "theory_block_id": "b3_theory_questions",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Верно. Вопросы заканчиваются вопросительным знаком (?).",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "id": "q34",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"___ you work here?\" (делать)",
+      "theory_block_id": "b3_theory_questions",
+      "difficulty": 2,
+      "correct_answer": "Do",
+      "explanation": "Правильный ответ: Do. Для вопроса нужен вспомогательный глагол do.",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "id": "q35",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b3_theory_questions",
+      "difficulty": 2,
+      "correct_answer": "Do I work here?",
+      "explanation": "Правильный порядок: Do I work here? В вопросах вспомогательный глагол стоит перед подлежащим.",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "id": "q36",
+      "type": "mcq_single",
+      "prompt": "Какой порядок слов в вопросах?",
+      "theory_block_id": "b3_theory_questions",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Подлежащее → сказуемое",
+          "feedback": "Это порядок слов для утверждений."
+        },
+        {
+          "id": "b",
+          "text": "Вспомогательный глагол → подлежащее → основной глагол",
+          "feedback": "Правильно! Это порядок слов для вопросов."
+        },
+        {
+          "id": "c",
+          "text": "Основной глагол → подлежащее",
+          "feedback": "Неправильный порядок."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "В вопросах порядок слов: вспомогательный глагол → подлежащее → основной глагол.",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "id": "q37",
+      "type": "mcq_single",
+      "prompt": "Какое из предложений является отрицанием?",
+      "theory_block_id": "b4_theory_negatives",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "She is a teacher.",
+          "feedback": "Это утверждение."
+        },
+        {
+          "id": "b",
+          "text": "Is she a teacher?",
+          "feedback": "Это вопрос."
+        },
+        {
+          "id": "c",
+          "text": "She isn't a teacher.",
+          "feedback": "Правильно! Это отрицание."
+        }
+      ],
+      "correct_answer": "c",
+      "explanation": "Отрицание содержит not (isn't = is not) и отрицает факт. \"She isn't a teacher\" — это отрицание.",
+      "tags": [
+        "negative"
+      ]
+    },
+    {
+      "id": "q38",
+      "type": "mcq_single",
+      "prompt": "Как превратить утверждение \"They like coffee\" в отрицание?",
+      "theory_block_id": "b4_theory_negatives",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "They not like coffee.",
+          "feedback": "Нет, нужен вспомогательный глагол."
+        },
+        {
+          "id": "b",
+          "text": "They don't like coffee.",
+          "feedback": "Правильно! Добавляется don't."
+        },
+        {
+          "id": "c",
+          "text": "They like not coffee.",
+          "feedback": "Неправильный порядок слов."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Для отрицания нужен do not (don't) перед основным глаголом: \"They don't like coffee\"",
+      "tags": [
+        "negative"
+      ]
+    },
+    {
+      "id": "q39",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"She ___ a teacher.\" (не быть)",
+      "theory_block_id": "b4_theory_negatives",
+      "difficulty": 2,
+      "correct_answer": "isn't",
+      "explanation": "Правильный ответ: isn't. В отрицании not стоит после вспомогательного глагола is.",
+      "tags": [
+        "negative"
+      ]
+    },
+    {
+      "id": "q40",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"They ___ like coffee.\" (не)",
+      "theory_block_id": "b4_theory_negatives",
+      "difficulty": 2,
+      "correct_answer": "don't",
+      "explanation": "Правильный ответ: don't. Для отрицания нужен do not (don't) перед основным глаголом.",
+      "tags": [
+        "negative"
+      ]
+    },
+    {
+      "id": "q41",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"I ___ work here.\" (не)",
+      "theory_block_id": "b4_theory_negatives",
+      "difficulty": 2,
+      "correct_answer": "don't",
+      "explanation": "Правильный ответ: don't. Для отрицания нужен do not (don't).",
+      "tags": [
+        "negative"
+      ]
+    },
+    {
+      "id": "q42",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b4_theory_negatives",
+      "difficulty": 2,
+      "correct_answer": "She isn't a teacher.",
+      "explanation": "Правильный порядок: She isn't a teacher. В отрицании not стоит после вспомогательного глагола.",
+      "tags": [
+        "negative"
+      ]
+    },
+    {
+      "id": "q43",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b4_theory_negatives",
+      "difficulty": 2,
+      "correct_answer": "They don't like coffee.",
+      "explanation": "Правильный порядок: They don't like coffee. В отрицании don't стоит перед основным глаголом.",
+      "tags": [
+        "negative"
+      ]
+    },
+    {
+      "id": "q44",
+      "type": "true_false",
+      "prompt": "В отрицаниях not стоит после вспомогательного глагола.",
+      "theory_block_id": "b4_theory_negatives",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Верно. В отрицаниях порядок: подлежащее → вспомогательный глагол + not → основной глагол.",
+      "tags": [
+        "negative"
+      ]
+    },
+    {
+      "id": "q45",
+      "type": "true_false",
+      "prompt": "Можно использовать сокращенную форму don't вместо do not.",
+      "theory_block_id": "b4_theory_negatives",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Верно. Сокращенные формы (don't, isn't, aren't) широко используются в разговорной речи.",
+      "tags": [
+        "negative"
+      ]
+    },
+    {
+      "id": "q46",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"We ___ students.\" (не быть)",
+      "theory_block_id": "b4_theory_negatives",
+      "difficulty": 2,
+      "correct_answer": "aren't",
+      "explanation": "Правильный ответ: aren't. В отрицании с we используется are not (aren't).",
+      "tags": [
+        "negative"
+      ]
+    },
+    {
+      "id": "q47",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b4_theory_negatives",
+      "difficulty": 2,
+      "correct_answer": "I don't work here.",
+      "explanation": "Правильный порядок: I don't work here. В отрицании don't стоит перед основным глаголом.",
+      "tags": [
+        "negative"
+      ]
+    },
+    {
+      "id": "q48",
+      "type": "mcq_single",
+      "prompt": "Где стоит not в отрицаниях?",
+      "theory_block_id": "b4_theory_negatives",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Перед подлежащим",
+          "feedback": "Нет."
+        },
+        {
+          "id": "b",
+          "text": "После вспомогательного глагола",
+          "feedback": "Правильно! Not стоит после вспомогательного глагола."
+        },
+        {
+          "id": "c",
+          "text": "После основного глагола",
+          "feedback": "Нет."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "В отрицаниях not стоит после вспомогательного глагола (is not, do not).",
+      "tags": [
+        "negative"
+      ]
+    },
+    {
+      "id": "q49",
+      "type": "mcq_single",
+      "prompt": "Как превратить утверждение \"He speaks English\" в вопрос?",
+      "theory_block_id": "b5_theory_switching_practice",
+      "difficulty": 3,
+      "choices": [
+        {
+          "id": "a",
+          "text": "He speaks English?",
+          "feedback": "Нет, нужен вспомогательный глагол."
+        },
+        {
+          "id": "b",
+          "text": "Does he speak English?",
+          "feedback": "Правильно! Добавляется does и меняется порядок слов."
+        },
+        {
+          "id": "c",
+          "text": "Speaks he English?",
+          "feedback": "Неправильный порядок слов."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Для вопроса нужен вспомогательный глагол does перед подлежащим: \"Does he speak English?\"",
+      "tags": [
+        "question",
+        "switching"
+      ]
+    },
+    {
+      "id": "q50",
+      "type": "mcq_single",
+      "prompt": "Как превратить утверждение \"He speaks English\" в отрицание?",
+      "theory_block_id": "b5_theory_switching_practice",
+      "difficulty": 3,
+      "choices": [
+        {
+          "id": "a",
+          "text": "He not speaks English.",
+          "feedback": "Нет, нужен вспомогательный глагол."
+        },
+        {
+          "id": "b",
+          "text": "He doesn't speak English.",
+          "feedback": "Правильно! Добавляется doesn't."
+        },
+        {
+          "id": "c",
+          "text": "He speaks not English.",
+          "feedback": "Неправильный порядок слов."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Для отрицания нужен does not (doesn't) перед основным глаголом: \"He doesn't speak English\"",
+      "tags": [
+        "negative",
+        "switching"
+      ]
+    },
+    {
+      "id": "q51",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"___ he speak English?\" (делать)",
+      "theory_block_id": "b5_theory_switching_practice",
+      "difficulty": 3,
+      "correct_answer": "Does",
+      "explanation": "Правильный ответ: Does. Для вопроса с he/she/it нужен does.",
+      "tags": [
+        "question",
+        "switching"
+      ]
+    },
+    {
+      "id": "q52",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"He ___ speak English.\" (не)",
+      "theory_block_id": "b5_theory_switching_practice",
+      "difficulty": 3,
+      "correct_answer": "doesn't",
+      "explanation": "Правильный ответ: doesn't. Для отрицания с he/she/it нужен does not (doesn't).",
+      "tags": [
+        "negative",
+        "switching"
+      ]
+    },
+    {
+      "id": "q53",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b5_theory_switching_practice",
+      "difficulty": 3,
+      "correct_answer": "Does he speak English?",
+      "explanation": "Правильный порядок: Does he speak English? В вопросах вспомогательный глагол стоит перед подлежащим.",
+      "tags": [
+        "question",
+        "switching"
+      ]
+    },
+    {
+      "id": "q54",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b5_theory_switching_practice",
+      "difficulty": 3,
+      "correct_answer": "He doesn't speak English.",
+      "explanation": "Правильный порядок: He doesn't speak English. В отрицании doesn't стоит перед основным глаголом.",
+      "tags": [
+        "negative",
+        "switching"
+      ]
+    },
+    {
+      "id": "q55",
+      "type": "true_false",
+      "prompt": "Одно предложение можно преобразовать в три режима: утверждение, вопрос и отрицание.",
+      "theory_block_id": "b5_theory_switching_practice",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Верно. Это три «переключателя» одной идеи.",
+      "tags": [
+        "switching"
+      ]
+    },
+    {
+      "id": "q56",
+      "type": "mcq_single",
+      "prompt": "Какая связь между утверждением, вопросом и отрицанием?",
+      "theory_block_id": "b5_theory_switching_practice",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Это разные предложения",
+          "feedback": "Нет, это одно предложение в разных режимах."
+        },
+        {
+          "id": "b",
+          "text": "Это три способа выразить одну идею",
+          "feedback": "Правильно! Это три «переключателя» одной идеи."
+        },
+        {
+          "id": "c",
+          "text": "Это синонимы",
+          "feedback": "Нет, это разные режимы одного предложения."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Это три способа выразить одну и ту же идею — как утверждение, вопрос или отрицание.",
+      "tags": [
+        "switching"
+      ]
+    },
+    {
+      "id": "q57",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"___ you work here?\" (делать)",
+      "theory_block_id": "b5_theory_switching_practice",
+      "difficulty": 2,
+      "correct_answer": "Do",
+      "explanation": "Правильный ответ: Do. Для вопроса нужен вспомогательный глагол do.",
+      "tags": [
+        "question",
+        "switching"
+      ]
+    },
+    {
+      "id": "q58",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"You ___ work here.\" (не)",
+      "theory_block_id": "b5_theory_switching_practice",
+      "difficulty": 2,
+      "correct_answer": "don't",
+      "explanation": "Правильный ответ: don't. Для отрицания нужен do not (don't).",
+      "tags": [
+        "negative",
+        "switching"
+      ]
+    },
+    {
+      "id": "q59",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b5_theory_switching_practice",
+      "difficulty": 3,
+      "correct_answer": "Do you work here?",
+      "explanation": "Правильный порядок: Do you work here? В вопросах вспомогательный глагол стоит перед подлежащим.",
+      "tags": [
+        "question",
+        "switching"
+      ]
+    },
+    {
+      "id": "q60",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b5_theory_switching_practice",
+      "difficulty": 3,
+      "correct_answer": "You don't work here.",
+      "explanation": "Правильный порядок: You don't work here. В отрицании don't стоит перед основным глаголом.",
+      "tags": [
+        "negative",
+        "switching"
+      ]
+    }
+  ]
+}
