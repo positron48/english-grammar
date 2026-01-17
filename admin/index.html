@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Админ-панель: Курсы грамматики</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Админ-панель: Курсы грамматики английского языка</h1>
+            <p class="subtitle">Визуальный просмотр и валидация всех глав и курсов</p>
+        </header>
+
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="🔍 Поиск по названию, ID или описанию...">
+            </div>
+            <div class="filters">
+                <select id="levelFilter">
+                    <option value="">Все уровни</option>
+                    <option value="A1">A1</option>
+                    <option value="A2">A2</option>
+                    <option value="B1">B1</option>
+                    <option value="B2">B2</option>
+                    <option value="C1">C1</option>
+                    <option value="C2">C2</option>
+                    <option value="mixed">Mixed</option>
+                </select>
+                <select id="statusFilter">
+                    <option value="">Все статусы</option>
+                    <option value="valid">Валидные</option>
+                    <option value="invalid">С ошибками</option>
+                    <option value="no-validation">Без валидации</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-value" id="totalChapters">0</div>
+                <div class="stat-label">Всего глав</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="validChapters" style="color: #2e7d32;">0</div>
+                <div class="stat-label">Валидных</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="invalidChapters" style="color: #c62828;">0</div>
+                <div class="stat-label">С ошибками</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="totalQuestions">0</div>
+                <div class="stat-label">Всего вопросов</div>
+            </div>
+        </div>
+
+        <div id="chaptersList" class="chapters-list">
+            <div class="loading">Загрузка глав...</div>
+        </div>
+
+        <div id="debugInfo" style="display: none; margin-top: 20px; padding: 15px; background: #f8f9fa; border-radius: 8px; font-size: 12px; font-family: monospace;">
+            <strong>Отладочная информация:</strong>
+            <div id="debugContent"></div>
+            <div style="margin-top: 10px; padding: 10px; background: #fff3e0; border-radius: 6px;">
+                <strong>Текущий URL:</strong> <span id="currentUrl"></span><br>
+                <strong>Попробуйте открыть:</strong> <a href="#" id="correctUrl" target="_blank"></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

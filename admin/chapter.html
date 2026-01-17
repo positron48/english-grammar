@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Просмотр главы</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/chapter.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html" class="back-link">← Назад к списку</a>
+            <h1 id="chapterTitle">Загрузка...</h1>
+            <div class="chapter-meta" id="chapterMeta"></div>
+        </header>
+
+        <nav class="chapter-nav">
+            <button class="nav-btn active" data-section="overview">Обзор</button>
+            <button class="nav-btn" data-section="outline">План (Outline)</button>
+            <button class="nav-btn" data-section="theory">Теория</button>
+            <button class="nav-btn" data-section="questions">Вопросы</button>
+            <button class="nav-btn" data-section="quizzes">Квизы</button>
+            <button class="nav-btn" data-section="final">Финальная версия</button>
+            <button class="nav-btn" data-section="validation">Валидация</button>
+        </nav>
+
+        <div class="chapter-content">
+            <section id="overview" class="content-section active">
+                <h2>Обзор главы</h2>
+                <div id="overviewContent"></div>
+            </section>
+
+            <section id="outline" class="content-section">
+                <h2>План главы (Outline)</h2>
+                <div id="outlineContent"></div>
+            </section>
+
+            <section id="theory" class="content-section">
+                <h2>Блоки теории</h2>
+                <div id="theoryContent"></div>
+            </section>
+
+            <section id="questions" class="content-section">
+                <h2>Банк вопросов</h2>
+                <div id="questionsContent"></div>
+            </section>
+
+            <section id="quizzes" class="content-section">
+                <h2>Инлайн-квизы</h2>
+                <div id="quizzesContent"></div>
+            </section>
+
+            <section id="final" class="content-section">
+                <h2>Финальная версия главы</h2>
+                <div id="finalContent"></div>
+            </section>
+
+            <section id="validation" class="content-section">
+                <h2>Результаты валидации</h2>
+                <div id="validationContent"></div>
+            </section>
+        </div>
+    </div>
+
+    <script src="js/chapter.js"></script>
+</body>
+</html>
