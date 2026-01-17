@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const chapters = await loadAllChapters();
         
         // Группируем по разделам
-        const sections = groupChaptersBySection(chapters);
+        const sections = await groupChaptersBySection(chapters);
         
         // Рендерим навигацию
         renderSections(sections, sectionsContainer);
@@ -37,11 +37,21 @@ function renderSections(sections, container) {
     // Получаем результаты тестов
     const testResults = getTestResults();
     
-    // Сортируем разделы по ID (можно улучшить, добавив order)
-    const sectionIds = Object.keys(sections).sort();
+    // Сортируем разделы по order (по возрастанию: 0, 1, 2, ...)
+    const sectionArray = Object.values(sections);
+    sectionArray.sort((a, b) => {
+        const orderA = typeof a.order === 'number' ? a.order : 999;
+        const orderB = typeof b.order === 'number' ? b.order : 999;
+        // Сортировка по возрастанию: меньший order идет первым
+        return orderA - orderB;
+    });
     
-    for (const sectionId of sectionIds) {
-        const section = sections[sectionId];
+    // Отладочная информация
+    if (sectionArray.length > 0) {
+        console.log('Порядок разделов:', sectionArray.map(s => `${s.id} (order=${s.order})`).join(', '));
+    }
+    
+    for (const section of sectionArray) {
         
         const sectionDiv = document.createElement('div');
         sectionDiv.className = 'section';

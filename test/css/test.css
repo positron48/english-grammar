@@ -161,3 +161,222 @@
     font-size: 0.95em;
     color: var(--text-muted);
 }
+
+/* Стили для вопросов в тесте - используем те же, что и в квизах */
+.test-content .question {
+    background-color: white;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+    margin-bottom: 20px;
+}
+
+.test-content .question-prompt {
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.test-content .question-prompt strong {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 1.05em;
+    display: inline-block;
+    padding: 2px 4px;
+    background-color: #eff6ff;
+    border-radius: 4px;
+}
+
+.test-content .question-choices {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.test-content .choice {
+    display: flex;
+    align-items: flex-start;
+    padding: 12px;
+    border: 2px solid var(--border-color);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: all 0.2s;
+    flex-wrap: wrap;
+}
+
+.test-content .choice:hover:not(:has(input:disabled)) {
+    background-color: var(--bg-color);
+    border-color: var(--primary-color);
+}
+
+.test-content .choice input[type="radio"],
+.test-content .choice input[type="checkbox"] {
+    margin-right: 10px;
+    margin-top: 2px;
+    flex-shrink: 0;
+    width: auto;
+}
+
+.test-content .choice > span {
+    flex: 1;
+    min-width: 0;
+}
+
+.test-content .choice:has(input:disabled) {
+    cursor: not-allowed;
+}
+
+.test-content .choice.answer-correct,
+.test-content .answer-correct {
+    background-color: #dcfce7;
+    border-color: var(--success-color);
+}
+
+.test-content .choice.answer-incorrect,
+.test-content .answer-incorrect {
+    background-color: #fee2e2;
+    border-color: var(--error-color);
+}
+
+.test-content .choice.answer-user-correct {
+    background-color: #d1fae5;
+    border-color: var(--success-color);
+    font-weight: 600;
+}
+
+.test-content .choice-feedback {
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 0.9em;
+    color: var(--text-muted);
+    font-style: italic;
+    line-height: 1.4;
+}
+
+.test-content .question-true-false {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+.test-content .question-true-false .choice {
+    flex: 0 0 auto;
+    min-width: 120px;
+}
+
+.test-content .fill-blank-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.test-content .fill-blank-input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid var(--border-color);
+    border-radius: var(--border-radius);
+    font-size: 1em;
+    font-family: inherit;
+}
+
+.test-content .fill-blank-input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.test-content .fill-blank-input.answer-correct {
+    background-color: #dcfce7;
+    border-color: var(--success-color);
+}
+
+.test-content .fill-blank-input.answer-incorrect {
+    background-color: #fee2e2;
+    border-color: var(--error-color);
+}
+
+.test-content .question-reorder {
+    margin-top: 15px;
+}
+
+.test-content .reorder-sentence {
+    min-height: 60px;
+    padding: 15px;
+    border: 2px dashed var(--border-color);
+    border-radius: var(--border-radius);
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    background-color: var(--bg-color);
+}
+
+.test-content .reorder-sentence:empty::before {
+    content: 'Кликните на слова ниже, чтобы составить предложение';
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+.test-content .reorder-words {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.test-content .reorder-word-btn {
+    padding: 8px 12px;
+    border: 2px solid var(--border-color);
+    border-radius: var(--border-radius);
+    background: var(--surface-color);
+    cursor: pointer;
+    font-size: 1em;
+    transition: all 0.2s;
+    font-family: inherit;
+}
+
+.test-content .reorder-word-btn:hover:not(:disabled) {
+    border-color: var(--primary-color);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+}
+
+.test-content .reorder-word-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.test-content .reorder-sentence .reorder-word-btn {
+    background: var(--bg-color);
+    border-color: var(--primary-color);
+}
+
+.test-content .correct-answer-display {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #eff6ff;
+    border-left: 4px solid var(--primary-color);
+    border-radius: var(--border-radius);
+    color: var(--text-muted);
+}
+
+.test-content .question-explanation {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #f0f9ff;
+    border-radius: var(--border-radius);
+    border-left: 4px solid var(--primary-color);
+    color: var(--text-muted);
+}
+
+.test-content .question-correct {
+    border-left: 4px solid var(--success-color);
+}
+
+.test-content .question-incorrect {
+    border-left: 4px solid var(--error-color);
+}

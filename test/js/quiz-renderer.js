@@ -52,8 +52,8 @@ export function renderQuestion(question, showAnswers = false, onAnswer = null, c
     
     container.appendChild(answerContainer);
     
-    // Объяснение показываем только если уже показаны ответы
-    if (question.explanation && showAnswers) {
+    // Объяснение вопроса (показываем после ответа, не сразу)
+    if (question.explanation) {
         const explanationDiv = document.createElement('div');
         explanationDiv.className = 'question-explanation';
         explanationDiv.style.display = 'none'; // Скрываем по умолчанию
@@ -147,21 +147,29 @@ function highlightAnswers(container, question, isCorrect, userAnswer) {
             
         case 'fill_blank':
         case 'reorder':
-            const input = container.querySelector('input, textarea');
-            if (input) {
-                if (isCorrect) {
-                    input.classList.add('answer-correct');
-                } else {
-                    input.classList.add('answer-incorrect');
-                }
-                input.disabled = true;
-                
-                // Показываем правильный ответ рядом
-                if (!isCorrect) {
-                    const correctAnswerDiv = document.createElement('div');
-                    correctAnswerDiv.className = 'correct-answer-display';
-                    correctAnswerDiv.innerHTML = `<strong>Правильный ответ:</strong> ${question.correct_answer}`;
-                    input.parentNode.appendChild(correctAnswerDiv);
+            // Для reorder используем специальную обработку ниже
+            if (question.type === 'fill_blank') {
+                const input = container.querySelector('.fill-blank-input');
+                const answerContainer = container.querySelector('.question-fill-blank');
+                if (input && answerContainer) {
+                    if (isCorrect) {
+                        input.classList.add('answer-correct');
+                    } else {
+                        input.classList.add('answer-incorrect');
+                    }
+                    input.disabled = true;
+                    
+                    // Показываем правильный ответ ниже инпута
+                    if (!isCorrect) {
+                        // Проверяем, нет ли уже блока с правильным ответом
+                        if (!answerContainer.querySelector('.correct-answer-display')) {
+                            const correctAnswerDiv = document.createElement('div');
+                            correctAnswerDiv.className = 'correct-answer-display';
+                            correctAnswerDiv.innerHTML = `<strong>Правильный ответ:</strong> ${question.correct_answer}`;
+                            // Добавляем после inputWrapper (ниже инпута)
+                            answerContainer.appendChild(correctAnswerDiv);
+                        }
+                    }
                 }
             }
             break;
@@ -195,16 +203,18 @@ function renderMcqSingle(question, showAnswers, onAnswer, checkImmediately, cont
         label.appendChild(text);
         
         // Feedback показываем только после ответа
-        if (showAnswers && choice.feedback) {
+        // Размещаем feedback внутри label, но после всего содержимого
+        if (choice.feedback) {
             const feedback = document.createElement('div');
             feedback.className = 'choice-feedback';
             feedback.style.display = 'none'; // Скрываем по умолчанию
             feedback.dataset.choiceId = choice.id;
             feedback.textContent = choice.feedback;
+            // Добавляем в конец label, чтобы не ломать layout
             label.appendChild(feedback);
         }
         
-        // Обработка выбора ответа (всегда, так как showAnswers = false)
+        // Обработка выбора ответа (всегда)
         input.addEventListener('change', () => {
             const userAnswer = choice.id;
             
@@ -220,24 +230,31 @@ function renderMcqSingle(question, showAnswers, onAnswer, checkImmediately, cont
                 if (questionContainer) {
                     const result = checkAndShowResult(questionContainer, question, userAnswer);
                     
-                    // Показываем feedback для выбранного варианта
+                    // Показываем feedback для выбранного варианта (выбранный пользователем)
                     const feedback = label.querySelector('.choice-feedback');
                     if (feedback) {
                         feedback.style.display = 'block';
                     }
                     
-                    // Показываем feedback для правильного ответа
+                    // Показываем feedback для правильного ответа (если пользователь выбрал неправильно)
                     if (!result.correct) {
                         const correctLabel = answerContainer.querySelector(`input[value="${correctAnswer}"]`)?.closest('.choice');
-                        const correctFeedback = correctLabel?.querySelector('.choice-feedback');
-                        if (correctFeedback) {
-                            correctFeedback.style.display = 'block';
+                        if (correctLabel) {
+                            const correctFeedback = correctLabel.querySelector('.choice-feedback');
+                            if (correctFeedback) {
+                                correctFeedback.style.display = 'block';
+                            }
                         }
+                    }
+                    
+                    // Показываем общее объяснение вопроса после проверки
+                    const explanationDiv = questionContainer.querySelector('[data-explanation="true"]');
+                    if (explanationDiv) {
+                        explanationDiv.style.display = 'block';
                     }
                 }
             }
         });
-        // НЕ показываем правильные ответы сразу, даже если showAnswers = true
         
         answerContainer.appendChild(label);
     });
@@ -273,7 +290,7 @@ function renderMcqMulti(question, showAnswers, onAnswer, checkImmediately, conta
         label.appendChild(input);
         label.appendChild(text);
         
-        if (showAnswers && choice.feedback) {
+        if (choice.feedback) {
             const feedback = document.createElement('div');
             feedback.className = 'choice-feedback';
             feedback.style.display = 'none';
@@ -311,12 +328,17 @@ function renderMcqMulti(question, showAnswers, onAnswer, checkImmediately, conta
                                     feedback.style.display = 'block';
                                 }
                             });
+                            
+                            // Показываем общее объяснение вопроса
+                            const explanationDiv = questionContainer.querySelector('[data-explanation="true"]');
+                            if (explanationDiv) {
+                                explanationDiv.style.display = 'block';
+                            }
                         }
                     }
                 }, 300);
             }
         });
-        // НЕ показываем правильные ответы сразу
         
         answerContainer.appendChild(label);
     });
@@ -337,13 +359,21 @@ function renderFillBlank(question, showAnswers, onAnswer, checkImmediately, cont
     // НЕ отключаем input изначально - только после ответа пользователя
     input.placeholder = 'Введите ответ';
     
+    // Обертка для input и кнопки (inline)
+    const inputWrapper = document.createElement('div');
+    inputWrapper.className = 'fill-blank-wrapper';
+    inputWrapper.style.display = 'flex';
+    inputWrapper.style.alignItems = 'center';
+    inputWrapper.style.gap = '10px';
+    
+    inputWrapper.appendChild(input);
+    
     // Кнопка проверки для fill_blank (показываем если checkImmediately = true)
     if (checkImmediately) {
         const checkBtn = document.createElement('button');
         checkBtn.type = 'button';
         checkBtn.className = 'btn-check-answer';
         checkBtn.textContent = 'Проверить';
-        checkBtn.style.marginLeft = '10px';
         
         checkBtn.addEventListener('click', () => {
             const userAnswer = input.value.trim();
@@ -354,6 +384,12 @@ function renderFillBlank(question, showAnswers, onAnswer, checkImmediately, cont
                 const questionContainer = container.closest('.question');
                 if (questionContainer) {
                     checkAndShowResult(questionContainer, question, userAnswer);
+                    
+                    // Показываем общее объяснение вопроса
+                    const explanationDiv = questionContainer.querySelector('[data-explanation="true"]');
+                    if (explanationDiv) {
+                        explanationDiv.style.display = 'block';
+                    }
                 }
                 checkBtn.style.display = 'none';
                 input.disabled = true;
@@ -368,83 +404,211 @@ function renderFillBlank(question, showAnswers, onAnswer, checkImmediately, cont
             }
         });
         
-        answerContainer.appendChild(input);
-        answerContainer.appendChild(checkBtn);
-    } else {
-        answerContainer.appendChild(input);
-        
-        if (onAnswer) {
-            input.addEventListener('input', () => {
-                onAnswer(question.id, input.value.trim());
-            });
-        }
+        inputWrapper.appendChild(checkBtn);
     }
     
-    // НЕ показываем правильный ответ сразу
+    answerContainer.appendChild(inputWrapper);
+    
+    if (!checkImmediately && onAnswer) {
+        input.addEventListener('input', () => {
+            onAnswer(question.id, input.value.trim());
+        });
+    }
     
     return answerContainer;
 }
 
 /**
- * Рендерит вопрос на перестановку слов (reorder)
+ * Рендерит вопрос на перестановку слов (reorder) - интерактивный выбор слов
  */
 function renderReorder(question, showAnswers, onAnswer, checkImmediately, container) {
     const answerContainer = document.createElement('div');
     answerContainer.className = 'question-reorder';
     
-    const textarea = document.createElement('textarea');
-    textarea.className = 'reorder-textarea';
-    textarea.rows = 3;
-    textarea.placeholder = 'Введите предложение в правильном порядке';
-    // НЕ отключаем textarea изначально - только после ответа пользователя
+    // Получаем правильный ответ и разбиваем на слова
+    const correctAnswer = question.correct_answer || '';
+    // Разбиваем на слова, убирая знаки препинания из списка слов для выбора
+    const words = correctAnswer
+        .replace(/[.,!?;:]/g, '') // Убираем знаки препинания
+        .split(/\s+/)
+        .filter(w => w.trim().length > 0);
     
-    // Кнопка проверки для reorder (показываем если checkImmediately = true)
-    if (checkImmediately) {
-        const checkBtn = document.createElement('button');
-        checkBtn.type = 'button';
-        checkBtn.className = 'btn-check-answer';
-        checkBtn.textContent = 'Проверить';
-        checkBtn.style.marginTop = '10px';
-        checkBtn.style.display = 'block';
+    // Перемешиваем слова
+    const shuffledWords = shuffleArray([...words]);
+    
+    // Контейнер для выбранных слов (предложение)
+    const sentenceContainer = document.createElement('div');
+    sentenceContainer.className = 'reorder-sentence';
+    sentenceContainer.style.minHeight = '50px';
+    sentenceContainer.style.padding = '15px';
+    sentenceContainer.style.border = '2px dashed var(--border-color)';
+    sentenceContainer.style.borderRadius = 'var(--border-radius)';
+    sentenceContainer.style.marginBottom = '15px';
+    sentenceContainer.style.display = 'flex';
+    sentenceContainer.style.flexWrap = 'wrap';
+    sentenceContainer.style.gap = '5px';
+    sentenceContainer.style.alignItems = 'center';
+    sentenceContainer.dataset.sentence = '';
+    
+    // Контейнер для доступных слов
+    const wordsContainer = document.createElement('div');
+    wordsContainer.className = 'reorder-words';
+    wordsContainer.style.display = 'flex';
+    wordsContainer.style.flexWrap = 'wrap';
+    wordsContainer.style.gap = '8px';
+    wordsContainer.style.marginBottom = '15px';
+    
+    // Храним выбранные слова
+    const selectedWords = [];
+    
+    // Функция для создания слова-кнопки
+    function createWordButton(word, isInSentence = false) {
+        const wordBtn = document.createElement('button');
+        wordBtn.type = 'button';
+        wordBtn.className = 'reorder-word-btn';
+        wordBtn.textContent = word;
+        wordBtn.style.padding = '8px 12px';
+        wordBtn.style.border = '2px solid var(--border-color)';
+        wordBtn.style.borderRadius = 'var(--border-radius)';
+        wordBtn.style.background = isInSentence ? 'var(--bg-color)' : 'var(--surface-color)';
+        wordBtn.style.cursor = 'pointer';
+        wordBtn.style.fontSize = '1em';
+        wordBtn.style.transition = 'all 0.2s';
         
-        checkBtn.addEventListener('click', () => {
-            const userAnswer = textarea.value.trim();
-            if (userAnswer) {
-                if (onAnswer) {
-                    onAnswer(question.id, userAnswer);
-                }
-                const questionContainer = container.closest('.question');
-                if (questionContainer) {
-                    checkAndShowResult(questionContainer, question, userAnswer);
-                }
-                checkBtn.style.display = 'none';
-                textarea.disabled = true;
+        wordBtn.addEventListener('mouseenter', () => {
+            if (!wordBtn.disabled) {
+                wordBtn.style.borderColor = 'var(--primary-color)';
+                wordBtn.style.transform = 'translateY(-2px)';
             }
         });
         
-        // Можно проверять по Ctrl+Enter
-        textarea.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter' && e.ctrlKey) {
-                e.preventDefault();
-                checkBtn.click();
+        wordBtn.addEventListener('mouseleave', () => {
+            if (!wordBtn.disabled) {
+                wordBtn.style.borderColor = 'var(--border-color)';
+                wordBtn.style.transform = 'translateY(0)';
             }
         });
         
-        answerContainer.appendChild(textarea);
-        answerContainer.appendChild(checkBtn);
-    } else {
-        answerContainer.appendChild(textarea);
+        return wordBtn;
+    }
+    
+    // Функция для проверки ответа
+    function checkReorderAnswer() {
+        // Собираем предложение: объединяем слова, убираем лишние пробелы
+        let userSentence = selectedWords.join(' ').replace(/\s+/g, ' ').trim();
+        
+        // Добавляем точку в конец, если она была в оригинальном ответе
+        // (точка не была в списке слов для выбора)
+        if (correctAnswer.trim().match(/[.!?]$/)) {
+            const lastPunctuation = correctAnswer.trim().match(/[.!?]$/)[0];
+            userSentence += lastPunctuation;
+        }
         
         if (onAnswer) {
-            textarea.addEventListener('input', () => {
-                onAnswer(question.id, textarea.value.trim());
-            });
+            onAnswer(question.id, userSentence);
+        }
+        
+        if (checkImmediately) {
+            const questionContainer = container.closest('.question');
+            if (questionContainer) {
+                const result = checkAndShowResult(questionContainer, question, userSentence);
+                
+                // Отключаем все кнопки
+                answerContainer.querySelectorAll('.reorder-word-btn').forEach(btn => {
+                    btn.disabled = true;
+                    if (result.correct) {
+                        // Все слова правильные - зеленый цвет
+                        btn.style.borderColor = 'var(--success-color)';
+                        btn.style.background = '#dcfce7';
+                        btn.style.color = '#166534';
+                    } else {
+                        // Неправильный ответ - красный для слов в предложении
+                        if (btn.parentNode === sentenceContainer) {
+                            btn.style.borderColor = 'var(--error-color)';
+                            btn.style.background = '#fee2e2';
+                            btn.style.color = '#991b1b';
+                        }
+                        // Слова в списке доступных оставляем как есть
+                    }
+                });
+                
+                // Показываем правильный ответ
+                if (!result.correct) {
+                    const correctAnswerDiv = document.createElement('div');
+                    correctAnswerDiv.className = 'correct-answer-display';
+                    correctAnswerDiv.innerHTML = `<strong>Правильный ответ:</strong> ${correctAnswer}`;
+                    answerContainer.appendChild(correctAnswerDiv);
+                }
+                
+                // Показываем общее объяснение вопроса
+                const explanationDiv = questionContainer.querySelector('[data-explanation="true"]');
+                if (explanationDiv) {
+                    explanationDiv.style.display = 'block';
+                }
+            }
         }
     }
     
-    // НЕ показываем правильный ответ сразу
+    // Обработка клика на слово в списке доступных
+    shuffledWords.forEach(word => {
+        const wordBtn = createWordButton(word, false);
+        
+        wordBtn.addEventListener('click', () => {
+            if (wordBtn.disabled) return;
+            
+            // Перемещаем слово в предложение
+            selectedWords.push(word);
+            wordBtn.remove();
+            
+            // Создаем слово в предложении
+            const sentenceWordBtn = createWordButton(word, true);
+            sentenceWordBtn.addEventListener('click', () => {
+                if (sentenceWordBtn.disabled) return;
+                
+                // Возвращаем слово в список доступных
+                const wordIndex = selectedWords.indexOf(word);
+                if (wordIndex > -1) {
+                    selectedWords.splice(wordIndex, 1);
+                }
+                sentenceWordBtn.remove();
+                
+                // Возвращаем кнопку в список
+                wordsContainer.appendChild(wordBtn);
+                
+                // Проверяем, все ли слова выбраны
+                if (selectedWords.length === words.length) {
+                    checkReorderAnswer();
+                }
+            });
+            
+            sentenceContainer.appendChild(sentenceWordBtn);
+            sentenceContainer.dataset.sentence = selectedWords.join(' ');
+            
+            // Проверяем, все ли слова выбраны
+            if (selectedWords.length === words.length) {
+                checkReorderAnswer();
+            }
+        });
+        
+        wordsContainer.appendChild(wordBtn);
+    });
+    
+    answerContainer.appendChild(sentenceContainer);
+    answerContainer.appendChild(wordsContainer);
     
     return answerContainer;
+}
+
+/**
+ * Перемешивает массив (Fisher-Yates)
+ */
+function shuffleArray(array) {
+    const result = [...array];
+    for (let i = result.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [result[i], result[j]] = [result[j], result[i]];
+    }
+    return result;
 }
 
 /**
@@ -467,7 +631,7 @@ function renderTrueFalse(question, showAnswers, onAnswer, checkImmediately, cont
         // НЕ отключаем input изначально - только после ответа пользователя
         
         const text = document.createElement('span');
-        text.textContent = value === 'true' ? 'Верно' : 'Неверно';
+        text.textContent = value === 'true' ? 'Да' : 'Нет';
         
         label.appendChild(input);
         label.appendChild(text);
@@ -482,10 +646,15 @@ function renderTrueFalse(question, showAnswers, onAnswer, checkImmediately, cont
                 const questionContainer = container.closest('.question');
                 if (questionContainer) {
                     checkAndShowResult(questionContainer, question, value);
+                    
+                    // Показываем общее объяснение вопроса
+                    const explanationDiv = questionContainer.querySelector('[data-explanation="true"]');
+                    if (explanationDiv) {
+                        explanationDiv.style.display = 'block';
+                    }
                 }
             }
         });
-        // НЕ показываем правильные ответы сразу
         
         answerContainer.appendChild(label);
     });

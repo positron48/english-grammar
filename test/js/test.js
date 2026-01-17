@@ -60,6 +60,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
         
         document.getElementById('next-question-btn').addEventListener('click', () => {
+            // Проверяем, что текущий вопрос отвечен
+            if (!isQuestionAnswered(testQuestions[currentQuestionIndex])) {
+                alert('Пожалуйста, ответьте на вопрос перед переходом к следующему.');
+                return;
+            }
+            
             if (currentQuestionIndex < testQuestions.length - 1) {
                 currentQuestionIndex++;
                 showQuestion(currentQuestionIndex);
@@ -69,6 +75,21 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
         
         document.getElementById('finish-test-btn').addEventListener('click', () => {
+            // Проверяем, что текущий вопрос отвечен
+            if (!isQuestionAnswered(testQuestions[currentQuestionIndex])) {
+                alert('Пожалуйста, ответьте на вопрос перед завершением теста.');
+                return;
+            }
+            
+            // Проверяем, что все вопросы отвечены
+            const unansweredQuestions = testQuestions.filter(q => !isQuestionAnswered(q));
+            if (unansweredQuestions.length > 0) {
+                const confirmMessage = `У вас есть ${unansweredQuestions.length} ${unansweredQuestions.length === 1 ? 'неотвеченный вопрос' : 'неотвеченных вопроса'}. Вы уверены, что хотите завершить тест?`;
+                if (!confirm(confirmMessage)) {
+                    return;
+                }
+            }
+            
             finishTest();
         });
         
@@ -100,7 +121,30 @@ function showQuestion(index) {
     
     // В финальном тесте не проверяем сразу, только сохраняем ответ
     const questionEl = renderQuestion(question, false, (questionId, answer) => {
-        userAnswers[questionId] = answer;
+        // Сохраняем ответ только если он не пустой
+        if (answer !== undefined && answer !== null && answer !== '') {
+            // Для multi-choice проверяем, что есть хотя бы один выбор
+            if (question.type === 'mcq_multi') {
+                const answers = Array.isArray(answer) ? answer : [answer];
+                if (answers.length > 0) {
+                    userAnswers[questionId] = answer;
+                } else {
+                    delete userAnswers[questionId];
+                }
+            } else if (question.type === 'fill_blank' || question.type === 'reorder') {
+                // Для текстовых полей проверяем, что не пустая строка
+                if (answer.trim().length > 0) {
+                    userAnswers[questionId] = answer;
+                } else {
+                    delete userAnswers[questionId];
+                }
+            } else {
+                userAnswers[questionId] = answer;
+            }
+        } else {
+            delete userAnswers[questionId];
+        }
+        
         updateNavigation();
     }, false); // checkImmediately = false для финального теста
     
@@ -155,6 +199,32 @@ function updateProgress() {
 }
 
 /**
+ * Проверяет, отвечен ли вопрос
+ */
+function isQuestionAnswered(question) {
+    if (!question) return false;
+    
+    const userAnswer = userAnswers[question.id];
+    
+    if (userAnswer === undefined || userAnswer === null || userAnswer === '') {
+        return false;
+    }
+    
+    // Для multi-choice проверяем, что выбран хотя бы один вариант
+    if (question.type === 'mcq_multi') {
+        const answers = Array.isArray(userAnswer) ? userAnswer : [userAnswer];
+        return answers.length > 0;
+    }
+    
+    // Для текстовых полей проверяем, что не пустая строка
+    if (question.type === 'fill_blank' || question.type === 'reorder') {
+        return userAnswer.trim().length > 0;
+    }
+    
+    return true;
+}
+
+/**
  * Обновляет кнопки навигации
  */
 function updateNavigation() {
@@ -163,6 +233,24 @@ function updateNavigation() {
     const finishBtn = document.getElementById('finish-test-btn');
     
     prevBtn.disabled = currentQuestionIndex === 0;
+    
+    const currentQuestion = testQuestions[currentQuestionIndex];
+    const isAnswered = isQuestionAnswered(currentQuestion);
+    
+    // Подсвечиваем кнопки, если вопрос не отвечен
+    if (!isAnswered) {
+        nextBtn.style.borderColor = 'var(--error-color)';
+        nextBtn.style.boxShadow = '0 0 0 2px rgba(239, 68, 68, 0.2)';
+        if (finishBtn.style.display !== 'none') {
+            finishBtn.style.borderColor = 'var(--error-color)';
+            finishBtn.style.boxShadow = '0 0 0 2px rgba(239, 68, 68, 0.2)';
+        }
+    } else {
+        nextBtn.style.borderColor = '';
+        nextBtn.style.boxShadow = '';
+        finishBtn.style.borderColor = '';
+        finishBtn.style.boxShadow = '';
+    }
     
     if (currentQuestionIndex === testQuestions.length - 1) {
         nextBtn.style.display = 'none';
