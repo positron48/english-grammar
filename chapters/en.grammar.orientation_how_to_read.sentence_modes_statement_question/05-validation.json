@@ -1,26 +1,11 @@
 {
   "validation_result": {
-    "is_valid": false,
-    "schema_valid": false,
-    "issues": [
-      {
-        "severity": "error",
-        "category": "content",
-        "message": "Question q24: найдены одинаковые feedback в choices. Дубликаты: 'Частично верно, но не только это.' (используется в choices: a, b)",
-        "location": "question_bank.questions[23].choices",
-        "suggested_fix": "Изменить feedback для каждого choice, чтобы они были уникальными"
-      },
-      {
-        "severity": "error",
-        "category": "content",
-        "message": "Question q48: найдены одинаковые feedback в choices. Дубликаты: 'Нет.' (используется в choices: a, c)",
-        "location": "question_bank.questions[47].choices",
-        "suggested_fix": "Изменить feedback для каждого choice, чтобы они были уникальными"
-      }
-    ],
+    "is_valid": true,
+    "schema_valid": true,
+    "issues": [],
     "summary": {
-      "total_issues": 2,
-      "errors": 2,
+      "total_issues": 0,
+      "errors": 0,
       "warnings": 0,
       "suggestions": 0
     },

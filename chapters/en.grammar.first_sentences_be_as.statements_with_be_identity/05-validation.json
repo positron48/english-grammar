@@ -1,33 +1,11 @@
 {
   "validation_result": {
-    "is_valid": false,
-    "schema_valid": false,
-    "issues": [
-      {
-        "severity": "error",
-        "category": "content",
-        "message": "Question q11: найдены одинаковые feedback в choices. Дубликаты: 'Нет, с множественным числом артикль не используется' (используется в choices: a, c)",
-        "location": "question_bank.questions[10].choices",
-        "suggested_fix": "Изменить feedback для каждого choice, чтобы они были уникальными"
-      },
-      {
-        "severity": "error",
-        "category": "content",
-        "message": "Question q34: найдены одинаковые feedback в choices. Дубликаты: 'Нет, такого сокращения нет' (используется в choices: b, c)",
-        "location": "question_bank.questions[33].choices",
-        "suggested_fix": "Изменить feedback для каждого choice, чтобы они были уникальными"
-      },
-      {
-        "severity": "error",
-        "category": "content",
-        "message": "Question q35: найдены одинаковые feedback в choices. Дубликаты: 'Нет, такого сокращения нет' (используется в choices: a, c)",
-        "location": "question_bank.questions[34].choices",
-        "suggested_fix": "Изменить feedback для каждого choice, чтобы они были уникальными"
-      }
-    ],
+    "is_valid": true,
+    "schema_valid": true,
+    "issues": [],
     "summary": {
-      "total_issues": 3,
-      "errors": 3,
+      "total_issues": 0,
+      "errors": 0,
       "warnings": 0,
       "suggestions": 0
     },

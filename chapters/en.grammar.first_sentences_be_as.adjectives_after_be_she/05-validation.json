@@ -1,33 +1,11 @@
 {
   "validation_result": {
-    "is_valid": false,
-    "schema_valid": false,
-    "issues": [
-      {
-        "severity": "error",
-        "category": "content",
-        "message": "Question q1: найдены одинаковые feedback в choices. Дубликаты: 'Нет, прилагательные стоят после be' (используется в choices: a, c)",
-        "location": "question_bank.questions[0].choices",
-        "suggested_fix": "Изменить feedback для каждого choice, чтобы они были уникальными"
-      },
-      {
-        "severity": "error",
-        "category": "content",
-        "message": "Question q9: найдены одинаковые feedback в choices. Дубликаты: 'Нет, неправильный порядок слов' (используется в choices: a, c)",
-        "location": "question_bank.questions[8].choices",
-        "suggested_fix": "Изменить feedback для каждого choice, чтобы они были уникальными"
-      },
-      {
-        "severity": "error",
-        "category": "content",
-        "message": "Question q25: найдены одинаковые feedback в choices. Дубликаты: 'Нет, неправильный порядок слов' (используется в choices: a, c)",
-        "location": "question_bank.questions[24].choices",
-        "suggested_fix": "Изменить feedback для каждого choice, чтобы они были уникальными"
-      }
-    ],
+    "is_valid": true,
+    "schema_valid": true,
+    "issues": [],
     "summary": {
-      "total_issues": 3,
-      "errors": 3,
+      "total_issues": 0,
+      "errors": 0,
       "warnings": 0,
       "suggestions": 0
     },
