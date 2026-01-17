@@ -287,11 +287,11 @@
     {
       "id": "q15",
       "type": "true_false",
-      "prompt": "Верно или неверно: Множественное число от слова \"dog\" — это \"dogs\".",
+      "prompt": "Верно или неверно: Множественное число от слова \"dog\" — это \"dog\".",
       "theory_block_id": "b2_theory_regular_plural_s",
       "difficulty": 1,
-      "correct_answer": "true",
-      "explanation": "Верно. Множественное число от dog образуется добавлением -s: dog → dogs.",
+      "correct_answer": "false",
+      "explanation": "Неверно. Множественное число от dog образуется добавлением -s: dog → dogs (не просто dog).",
       "tags": [
         "regular",
         "true_false"
@@ -386,11 +386,11 @@
     {
       "id": "q20",
       "type": "true_false",
-      "prompt": "Верно или неверно: Множественное число от слова \"chair\" — это \"chairs\".",
+      "prompt": "Верно или неверно: Множественное число от слова \"chair\" — это \"chair\".",
       "theory_block_id": "b2_theory_regular_plural_s",
       "difficulty": 1,
-      "correct_answer": "true",
-      "explanation": "Верно. Множественное число от chair образуется добавлением -s: chair → chairs.",
+      "correct_answer": "false",
+      "explanation": "Неверно. Множественное число от chair образуется добавлением -s: chair → chairs (не просто chair).",
       "tags": [
         "regular",
         "true_false"
@@ -627,11 +627,11 @@
     {
       "id": "q32",
       "type": "true_false",
-      "prompt": "Верно или неверно: Множественное число от слова \"bus\" — это \"buses\".",
+      "prompt": "Верно или неверно: Множественное число от слова \"bus\" — это \"buss\".",
       "theory_block_id": "b3_theory_plural_es_after_sibilants",
       "difficulty": 2,
-      "correct_answer": "true",
-      "explanation": "Верно. Множественное число от bus образуется добавлением -es (не просто -s), так как слово заканчивается на s: bus → buses.",
+      "correct_answer": "false",
+      "explanation": "Неверно. Множественное число от bus образуется добавлением -es (не просто -s): bus → buses (не buss).",
       "tags": [
         "es",
         "true_false"
@@ -867,11 +867,11 @@
     {
       "id": "q44",
       "type": "true_false",
-      "prompt": "Верно или неверно: Множественное число от слова \"boy\" — это \"boys\".",
+      "prompt": "Верно или неверно: Множественное число от слова \"city\" — это \"citys\".",
       "theory_block_id": "b4_theory_plural_y_to_ies",
       "difficulty": 2,
-      "correct_answer": "true",
-      "explanation": "Верно. Множественное число от boy образуется простым добавлением -s (не заменой на -ies), так как перед y стоит гласная: boy → boys.",
+      "correct_answer": "false",
+      "explanation": "Неверно. Множественное число от city образуется заменой -y на -ies (не просто добавлением -s), так как перед y стоит согласная: city → cities (не citys).",
       "tags": [
         "y_after_vowel",
         "true_false"
@@ -1009,11 +1009,11 @@
     {
       "id": "q51",
       "type": "true_false",
-      "prompt": "Верно или неверно: Множественное число от слова \"man\" — это \"men\".",
+      "prompt": "Верно или неверно: Множественное число от слова \"man\" — это \"mans\".",
       "theory_block_id": "b5_theory_irregular_plural_common",
       "difficulty": 3,
-      "correct_answer": "true",
-      "explanation": "Верно. Множественное число от man — это неправильная форма men (не mans). Это нужно запомнить наизусть.",
+      "correct_answer": "false",
+      "explanation": "Неверно. Множественное число от man — это неправильная форма men (не mans). Это нужно запомнить наизусть.",
       "tags": [
         "irregular",
         "true_false"
@@ -1108,11 +1108,11 @@
     {
       "id": "q56",
       "type": "true_false",
-      "prompt": "Верно или неверно: Множественное число от слова \"foot\" — это \"feet\".",
+      "prompt": "Верно или неверно: Множественное число от слова \"foot\" — это \"foots\".",
       "theory_block_id": "b5_theory_irregular_plural_common",
       "difficulty": 3,
-      "correct_answer": "true",
-      "explanation": "Верно. Множественное число от foot — это неправильная форма feet (не foots). Это нужно запомнить наизусть.",
+      "correct_answer": "false",
+      "explanation": "Неверно. Множественное число от foot — это неправильная форма feet (не foots). Это нужно запомнить наизусть.",
       "tags": [
         "irregular",
         "true_false"
@@ -1224,7 +1224,7 @@
         {
           "id": "c",
           "text": "sheepes",
-          "feedback": "Нет, sheep не меняется во множественном числе"
+          "feedback": "Нет, sheep не образует множественное число добавлением -es"
         }
       ],
       "correct_answer": "a",
@@ -1322,7 +1322,7 @@
         {
           "id": "c",
           "text": "deeres",
-          "feedback": "Нет, deer не меняется во множественном числе"
+          "feedback": "Нет, deer не образует множественное число добавлением -es"
         }
       ],
       "correct_answer": "a",
@@ -1421,7 +1421,7 @@
         {
           "id": "c",
           "text": "sheepes",
-          "feedback": "Нет, sheep не меняется во множественном числе"
+          "feedback": "Нет, sheep не образует множественное число добавлением -es"
         }
       ],
       "correct_answer": "a",
