@@ -8,7 +8,7 @@
   "ui_language": "ru",
   "target_language": "en",
   "level": "A1",
-  "order": 204,
+  "order": 0,
   "prerequisites": [
     "en.grammar.talking_about_things_nouns.some_any_there_is"
   ],
@@ -448,7 +448,7 @@
           {
             "id": "a",
             "text": "Да, всегда",
-            "feedback": "Нет, притяжательные прилагательные всегда используются с существительным"
+            "feedback": "Нет, притяжательные прилагательные всегда используются с существительным, нельзя сказать просто \"This is my\""
           },
           {
             "id": "b",
@@ -458,7 +458,7 @@
           {
             "id": "c",
             "text": "Иногда",
-            "feedback": "Нет, притяжательные прилагательные всегда используются с существительным"
+            "feedback": "Нет, это правило всегда действует. Притяжательные прилагательные всегда требуют существительного"
           }
         ],
         "correct_answer": "b",
@@ -471,7 +471,7 @@
       {
         "id": "q6",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке: book, is, my, this",
+        "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b1_theory_what_are_possessive_adjectives",
         "difficulty": 2,
         "correct_answer": "This is my book.",
@@ -613,11 +613,11 @@
       {
         "id": "q13",
         "type": "true_false",
-        "prompt": "Верно или неверно: Притяжательные прилагательные изменяются по роду и числу в английском языке.",
+        "prompt": "Верно или неверно: В английском языке притяжательные прилагательные не изменяются по роду и числу.",
         "theory_block_id": "b2_theory_forms_table",
         "difficulty": 2,
-        "correct_answer": "false",
-        "explanation": "Неверно. В английском языке притяжательные прилагательные не изменяются по роду и числу. My используется и для \"мой\", и для \"моя\", и для \"моё\", и для \"мои\".",
+        "correct_answer": "true",
+        "explanation": "Верно. В английском языке притяжательные прилагательные не изменяются по роду и числу. My используется и для \"мой\", и для \"моя\", и для \"моё\", и для \"мои\".",
         "tags": [
           "forms",
           "invariant"
@@ -626,7 +626,7 @@
       {
         "id": "q14",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке: our, house, is, this",
+        "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b2_theory_forms_table",
         "difficulty": 2,
         "correct_answer": "This is our house.",
@@ -640,11 +640,11 @@
       {
         "id": "q15",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I have ___ book and ___ books.\" (мой, мои)",
+        "prompt": "Заполните пропуск: \"I have ___ book.\" (мой)",
         "theory_block_id": "b3_theory_usage_with_nouns",
         "difficulty": 2,
-        "correct_answer": "my, my",
-        "explanation": "Притяжательное прилагательное my не изменяется: I have my book and my books. Форма зависит от владельца (I), а не от предмета.",
+        "correct_answer": "my",
+        "explanation": "Притяжательное прилагательное my не изменяется: I have my book. Форма зависит от владельца (I), а не от предмета.",
         "tags": [
           "usage",
           "my",
@@ -666,12 +666,12 @@
           {
             "id": "b",
             "text": "После существительного",
-            "feedback": "Нет, притяжательное прилагательное всегда стоит перед существительным"
+            "feedback": "Нет, притяжательное прилагательное всегда стоит перед существительным, например: my book, не book my"
           },
           {
             "id": "c",
             "text": "В любом месте",
-            "feedback": "Нет, притяжательное прилагательное всегда стоит перед существительным"
+            "feedback": "Нет, порядок слов важен. Притяжательное прилагательное всегда стоит перед существительным"
           }
         ],
         "correct_answer": "a",
@@ -728,7 +728,7 @@
       {
         "id": "q19",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке: car, his, is, this",
+        "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b3_theory_usage_with_nouns",
         "difficulty": 2,
         "correct_answer": "This is his car.",
@@ -742,11 +742,11 @@
       {
         "id": "q20",
         "type": "true_false",
-        "prompt": "Верно или неверно: Притяжательное прилагательное my можно использовать только с единственным числом.",
+        "prompt": "Верно или неверно: Притяжательное прилагательное my можно использовать с любыми существительными.",
         "theory_block_id": "b3_theory_usage_with_nouns",
         "difficulty": 2,
-        "correct_answer": "false",
-        "explanation": "Неверно. Притяжательное прилагательное my можно использовать с любыми существительными: my book (единственное число) и my books (множественное число).",
+        "correct_answer": "true",
+        "explanation": "Верно. Притяжательное прилагательное my можно использовать с любыми существительными: my book (единственное число) и my books (множественное число).",
         "tags": [
           "usage",
           "my",
@@ -978,7 +978,7 @@
       {
         "id": "q31",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке: is, phone, this, whose",
+        "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b5_theory_questions_with_whose",
         "difficulty": 2,
         "correct_answer": "Whose phone is this?",
@@ -1196,7 +1196,7 @@
       {
         "id": "q41",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке: bag, her, is, this",
+        "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b3_theory_usage_with_nouns",
         "difficulty": 2,
         "correct_answer": "This is her bag.",
@@ -1267,11 +1267,11 @@
       {
         "id": "q45",
         "type": "true_false",
-        "prompt": "Верно или неверно: Притяжательное прилагательное my можно использовать только с единственным числом.",
+        "prompt": "Верно или неверно: Форма притяжательного прилагательного зависит от владельца, а не от предмета.",
         "theory_block_id": "b3_theory_usage_with_nouns",
         "difficulty": 2,
-        "correct_answer": "false",
-        "explanation": "Неверно. Притяжательное прилагательное my можно использовать с любыми существительными: my book (единственное число) и my books (множественное число).",
+        "correct_answer": "true",
+        "explanation": "Верно. Форма притяжательного прилагательного зависит от владельца (I, you, he, she, it, we, they), а не от предмета. My используется и для \"мой\", и для \"моя\", и для \"моё\", и для \"мои\".",
         "tags": [
           "usage",
           "my",
@@ -1326,7 +1326,7 @@
       {
         "id": "q48",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке: friends, their, are, these",
+        "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b3_theory_usage_with_nouns",
         "difficulty": 2,
         "correct_answer": "These are their friends.",
@@ -1472,7 +1472,7 @@
       {
         "id": "q55",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке: book, whose, is, this",
+        "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b5_theory_questions_with_whose",
         "difficulty": 2,
         "correct_answer": "Whose book is this?",
@@ -1574,7 +1574,7 @@
       {
         "id": "q60",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке: house, our, is, this",
+        "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b3_theory_usage_with_nouns",
         "difficulty": 2,
         "correct_answer": "This is our house.",
@@ -1664,7 +1664,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-17T18:02:08Z",
+    "updated_at": "2026-01-17T19:08:46Z",
     "source": "llm"
   }
 }
