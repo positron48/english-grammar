@@ -1,695 +1,637 @@
 {
-    "schema_version": "1.0.0",
-    "id": "en.grammar.orientation_how_to_read.subject_verb_object_in",
-    "section_id": "en.grammar.orientation_how_to_read",
-    "title": "Subject / verb / object in practice (no heavy terminology)",
-    "title_short": "Subject / verb / object in practice",
-    "description": "Практическое введение в базовую структуру английского предложения: подлежащее, сказуемое и дополнение. Обучение без сложной терминологии, с фокусом на практическое применение.",
-    "ui_language": "ru",
-    "target_language": "en",
-    "level": "A1",
-    "order": 0,
-    "prerequisites": [],
-    "concept_refs": [
-        "sentence_structure_svo",
-        "subject_identification",
-        "verb_identification",
-        "object_identification",
-        "svo_practice"
-    ],
-    "learning_objectives": [
-        "Научиться определять подлежащее, сказуемое и дополнение в простых английских предложениях",
-        "Понять базовую структуру английского предложения на практике",
-        "Применять знания для построения собственных простых предложений"
-    ],
-    "estimated_minutes": 15,
-    "blocks": [
-        {
-            "id": "b1_theory_basic_structure",
-            "type": "theory",
-            "title": "Каждое английское предложение имеет базовую структуру: кто делает что. Это три главные части:",
-            "theory": {
-                "concept_id": "sentence_structure_svo",
-                "content_md": "Каждое английское предложение имеет базовую структуру: **кто делает что**. Это три главные части:\n\n1. **Подлежащее** (Subject) — кто или что выполняет действие\n2. **Сказуемое** (Verb) — само действие\n3. **Дополнение** (Object) — на что направлено действие\n\nНе все предложения имеют дополнение, но подлежащее и сказуемое есть почти всегда. В английском языке строгий порядок слов: **Подлежащее → Сказуемое → Дополнение**.",
-                "key_points": [],
-                "common_mistakes": [
-                    {
-                        "wrong": "Пропуск подлежащего: 'Is a student'",
-                        "right": "В английском всегда нужно подлежащее: 'He is a student'",
-                        "why": "В английском языке подлежащее обязательно, в отличие от русского"
-                    },
-                    {
-                        "wrong": "Неправильный порядок: 'Book reads she'",
-                        "right": "Правильный порядок: 'She reads a book'",
-                        "why": "В английском строгий порядок слов: подлежащее → сказуемое → дополнение"
-                    }
-                ],
-                "examples": []
-            }
-        },
-        {
-            "id": "b2_quiz_after_basic_structure",
-            "type": "quiz_inline",
-            "title": "Быстрая проверка: понимаете ли вы базовую структуру?",
-            "quiz_inline": {
-                "question_ids": [
-                    "q1",
-                    "q2",
-                    "q4",
-                    "q5"
-                ],
-                "show_answers_immediately": true
-            }
-        },
-        {
-            "id": "b2_theory_subject",
-            "type": "theory",
-            "title": "Подлежащее — это главная часть предложения, которая отвечает на вопросы «кто?» или «что?». Оно показывает, кто или что выполняет действие.",
-            "theory": {
-                "concept_id": "subject_identification",
-                "content_md": "**Подлежащее** — это главная часть предложения, которая отвечает на вопросы «кто?» или «что?». Оно показывает, кто или что выполняет действие.\n\nПодлежащее обычно стоит в начале предложения (перед сказуемым). Это может быть:\n- Местоимение: I, you, he, she, it, we, they\n- Существительное: Tom, book, students\n- Имя собственное: Mary, London\n\n**Важно:** В английском языке подлежащее обязательно, даже если в русском его можно опустить (например, «Иду домой» → «I am going home»).",
-                "key_points": [],
-                "common_mistakes": [
-                    {
-                        "wrong": "Пропуск подлежащего: 'Is my friend'",
-                        "right": "Всегда нужен субъект: 'He is my friend'",
-                        "why": "В английском языке подлежащее обязательно, даже если в русском его можно опустить"
-                    }
-                ],
-                "examples": [
-                    {
-                        "id": "ex1",
-                        "text": "I am a teacher.",
-                        "translation": "Я учитель.",
-                        "tags": [
-                            "affirmative"
-                        ]
-                    },
-                    {
-                        "id": "ex2",
-                        "text": "Tom works here.",
-                        "translation": "Том работает здесь.",
-                        "tags": [
-                            "affirmative"
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "id": "b3_quiz_after_subject",
-            "type": "quiz_inline",
-            "title": "Быстрая проверка: можете ли вы найти подлежащее?",
-            "quiz_inline": {
-                "question_ids": [
-                    "q6",
-                    "q8",
-                    "q9",
-                    "q10"
-                ],
-                "show_answers_immediately": true
-            }
-        },
-        {
-            "id": "b3_theory_verb",
-            "type": "theory",
-            "title": "Сказуемое — это часть предложения, которая показывает действие или состояние. Оно отвечает на вопрос «что делает?» или «что происходит?».",
-            "theory": {
-                "concept_id": "verb_identification",
-                "content_md": "**Сказуемое** — это часть предложения, которая показывает действие или состояние. Оно отвечает на вопрос «что делает?» или «что происходит?».\n\nСказуемое стоит после подлежащего. Это может быть:\n- Обычный глагол: read, like, play, work\n- Глагол-связка: am, is, are (быть)\n- Глагол с вспомогательным словом: don't, doesn't, do, does\n\n**Важно:** В английском нужен глагол даже для описания состояния (например, «I am happy», а не «I happy»).",
-                "key_points": [],
-                "common_mistakes": [
-                    {
-                        "wrong": "Пропуск глагола: 'I happy'",
-                        "right": "Нужен глагол-связка: 'I am happy'",
-                        "why": "В английском нужен глагол даже для описания состояния"
-                    }
-                ],
-                "examples": [
-                    {
-                        "id": "ex1",
-                        "text": "I read books.",
-                        "translation": "Я читаю книги.",
-                        "tags": [
-                            "affirmative"
-                        ]
-                    },
-                    {
-                        "id": "ex2",
-                        "text": "She is a doctor.",
-                        "translation": "Она врач.",
-                        "tags": [
-                            "affirmative"
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "id": "b4_quiz_after_verb",
-            "type": "quiz_inline",
-            "title": "Быстрая проверка: можете ли вы найти сказуемое?",
-            "quiz_inline": {
-                "question_ids": [
-                    "q11",
-                    "q13",
-                    "q14",
-                    "q15",
-                    "q27"
-                ],
-                "show_answers_immediately": true
-            }
-        },
-        {
-            "id": "b4_theory_object",
-            "type": "theory",
-            "title": "Дополнение — это часть предложения, которая показывает, на что направлено действие. Оно отвечает на вопросы «кого?», «что?», «кому?», «для кого?».",
-            "theory": {
-                "concept_id": "object_identification",
-                "content_md": "**Дополнение** — это часть предложения, которая показывает, на что направлено действие. Оно отвечает на вопросы «кого?», «что?», «кому?», «для кого?».\n\nДополнение стоит после сказуемого. Не все предложения имеют дополнение — некоторые глаголы не требуют его (например, «sleep», «work»).\n\nДополнение может быть:\n- Существительным: book, coffee, English\n- Местоимением: it, them, me",
-                "key_points": [],
-                "common_mistakes": [],
-                "examples": [
-                    {
-                        "id": "ex1",
-                        "text": "I read a book.",
-                        "translation": "Я читаю книгу.",
-                        "tags": [
-                            "affirmative"
-                        ]
-                    },
-                    {
-                        "id": "ex2",
-                        "text": "I sleep.",
-                        "translation": "Я сплю.",
-                        "notes": "Нет дополнения — глагол 'sleep' не требует его",
-                        "tags": [
-                            "affirmative"
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "id": "b5_quiz_after_object",
-            "type": "quiz_inline",
-            "title": "Быстрая проверка: можете ли вы найти дополнение?",
-            "quiz_inline": {
-                "question_ids": [
-                    "q16",
-                    "q18",
-                    "q19",
-                    "q20",
-                    "q29"
-                ],
-                "show_answers_immediately": true
-            }
-        },
-        {
-            "id": "b5_theory_practice",
-            "type": "theory",
-            "title": "Теперь давайте потренируемся определять структуру предложений. Помните:",
-            "theory": {
-                "concept_id": "svo_practice",
-                "content_md": "Теперь давайте потренируемся определять структуру предложений. Помните:\n\n1. **Подлежащее** — кто или что (в начале)\n2. **Сказуемое** — что делает (после подлежащего)\n3. **Дополнение** — на что направлено действие (после сказуемого, если есть)\n\nПорядок в английском строгий: **Подлежащее → Сказуемое → Дополнение**. В отличие от русского языка, порядок слов нельзя менять свободно.",
-                "key_points": [],
-                "common_mistakes": [],
-                "examples": []
-            }
-        }
-    ],
-    "question_bank": {
-        "questions": [
-            {
-                "id": "q1",
-                "type": "mcq_single",
-                "prompt": "Выберите правильный вариант. Какая часть предложения является подлежащим?\n\n**I read books.**",
-                "theory_block_id": "b1_theory_basic_structure",
-                "difficulty": 1,
-                "choices": [
-                    {
-                        "id": "a",
-                        "text": "I",
-                        "feedback": "Правильно! 'I' — это подлежащее, оно отвечает на вопрос 'кто?'"
-                    },
-                    {
-                        "id": "b",
-                        "text": "read",
-                        "feedback": "Нет, 'read' — это сказуемое (действие)"
-                    },
-                    {
-                        "id": "c",
-                        "text": "books",
-                        "feedback": "Нет, 'books' — это дополнение (на что направлено действие)"
-                    }
-                ],
-                "correct_answer": "a",
-                "explanation": "В предложении 'I read books' подлежащее — это 'I' (кто?). Оно стоит в начале предложения и показывает, кто выполняет действие.",
-                "tags": [
-                    "subject",
-                    "basic"
-                ]
-            },
-            {
-                "id": "q2",
-                "type": "mcq_single",
-                "prompt": "Выберите правильный вариант. Какая часть предложения является сказуемым?\n\n**She likes coffee.**",
-                "theory_block_id": "b1_theory_basic_structure",
-                "difficulty": 1,
-                "choices": [
-                    {
-                        "id": "a",
-                        "text": "She",
-                        "feedback": "Нет, 'She' — это подлежащее (кто?)"
-                    },
-                    {
-                        "id": "b",
-                        "text": "likes",
-                        "feedback": "Правильно! 'likes' — это сказуемое, оно показывает действие"
-                    },
-                    {
-                        "id": "c",
-                        "text": "coffee",
-                        "feedback": "Нет, 'coffee' — это дополнение (что?)"
-                    }
-                ],
-                "correct_answer": "b",
-                "explanation": "В предложении 'She likes coffee' сказуемое — это 'likes' (что делает?). Оно стоит после подлежащего и показывает действие.",
-                "tags": [
-                    "verb",
-                    "basic"
-                ]
-            },
-            {
-                "id": "q4",
-                "type": "reorder",
-                "prompt": "Расставьте слова в правильном порядке:",
-                "theory_block_id": "b1_theory_basic_structure",
-                "difficulty": 2,
-                "correct_answer": "I read a book.",
-                "explanation": "Правильный порядок: подлежащее (I) → сказуемое (read) → дополнение (a book). Это базовая структура английского предложения.",
-                "tags": [
-                    "word_order",
-                    "reorder"
-                ]
-            },
-            {
-                "id": "q5",
-                "type": "true_false",
-                "prompt": "Верно ли утверждение?\n\n**В английском предложении подлежащее всегда обязательно.**",
-                "theory_block_id": "b1_theory_basic_structure",
-                "difficulty": 1,
-                "correct_answer": "true",
-                "explanation": "Да, верно. В английском языке подлежащее обязательно, в отличие от русского, где его можно опустить.",
-                "tags": [
-                    "subject",
-                    "rule"
-                ]
-            },
-            {
-                "id": "q6",
-                "type": "mcq_single",
-                "prompt": "Найдите подлежащее в предложении:\n\n**Tom works here.**",
-                "theory_block_id": "b2_theory_subject",
-                "difficulty": 1,
-                "choices": [
-                    {
-                        "id": "a",
-                        "text": "Tom",
-                        "feedback": "Правильно! 'Tom' — это подлежащее (кто работает?)"
-                    },
-                    {
-                        "id": "b",
-                        "text": "works",
-                        "feedback": "Нет, 'works' — это сказуемое"
-                    },
-                    {
-                        "id": "c",
-                        "text": "here",
-                        "feedback": "Нет, 'here' — это обстоятельство места"
-                    }
-                ],
-                "correct_answer": "a",
-                "explanation": "В предложении 'Tom works here' подлежащее — это 'Tom'. Оно стоит в начале предложения и отвечает на вопрос 'кто?'.",
-                "tags": [
-                    "subject",
-                    "identification"
-                ]
-            },
-            {
-                "id": "q8",
-                "type": "mcq_single",
-                "prompt": "Какое слово является подлежащим?\n\n**The book is interesting.**",
-                "theory_block_id": "b2_theory_subject",
-                "difficulty": 2,
-                "choices": [
-                    {
-                        "id": "a",
-                        "text": "The book",
-                        "feedback": "Правильно! 'The book' — это подлежащее (что интересное?)"
-                    },
-                    {
-                        "id": "b",
-                        "text": "is",
-                        "feedback": "Нет, 'is' — это сказуемое (глагол-связка)"
-                    },
-                    {
-                        "id": "c",
-                        "text": "interesting",
-                        "feedback": "Нет, 'interesting' — это прилагательное"
-                    }
-                ],
-                "correct_answer": "a",
-                "explanation": "В предложении 'The book is interesting' подлежащее — это 'The book'. Оно отвечает на вопрос 'что?' и стоит в начале предложения.",
-                "tags": [
-                    "subject",
-                    "noun"
-                ]
-            },
-            {
-                "id": "q9",
-                "type": "reorder",
-                "prompt": "Расставьте слова в правильном порядке:",
-                "theory_block_id": "b2_theory_subject",
-                "difficulty": 2,
-                "correct_answer": "She is my friend.",
-                "explanation": "Правильный порядок: подлежащее (She) → сказуемое (is) → остальные слова. Подлежащее всегда в начале.",
-                "tags": [
-                    "subject",
-                    "word_order"
-                ]
-            },
-            {
-                "id": "q10",
-                "type": "true_false",
-                "prompt": "Верно ли утверждение?\n\n**Подлежащее может быть только местоимением.**",
-                "theory_block_id": "b2_theory_subject",
-                "difficulty": 2,
-                "correct_answer": "false",
-                "explanation": "Нет, неверно. Подлежащее может быть местоимением (I, you, he), существительным (book, student) или именем собственным (Tom, Mary).",
-                "tags": [
-                    "subject",
-                    "types"
-                ]
-            },
-            {
-                "id": "q11",
-                "type": "mcq_single",
-                "prompt": "Найдите сказуемое в предложении:\n\n**I read books.**",
-                "theory_block_id": "b3_theory_verb",
-                "difficulty": 1,
-                "choices": [
-                    {
-                        "id": "a",
-                        "text": "I",
-                        "feedback": "Нет, 'I' — это подлежащее"
-                    },
-                    {
-                        "id": "b",
-                        "text": "read",
-                        "feedback": "Правильно! 'read' — это сказуемое (что делаю?)"
-                    },
-                    {
-                        "id": "c",
-                        "text": "books",
-                        "feedback": "Нет, 'books' — это дополнение"
-                    }
-                ],
-                "correct_answer": "b",
-                "explanation": "В предложении 'I read books' сказуемое — это 'read'. Оно стоит после подлежащего и показывает действие.",
-                "tags": [
-                    "verb",
-                    "identification"
-                ]
-            },
-            {
-                "id": "q13",
-                "type": "mcq_single",
-                "prompt": "Какое слово является сказуемым?\n\n**She is a doctor.**",
-                "theory_block_id": "b3_theory_verb",
-                "difficulty": 2,
-                "choices": [
-                    {
-                        "id": "a",
-                        "text": "She",
-                        "feedback": "Нет, 'She' — это подлежащее"
-                    },
-                    {
-                        "id": "b",
-                        "text": "is",
-                        "feedback": "Правильно! 'is' — это сказуемое (глагол-связка)"
-                    },
-                    {
-                        "id": "c",
-                        "text": "doctor",
-                        "feedback": "Нет, 'doctor' — это существительное"
-                    }
-                ],
-                "correct_answer": "b",
-                "explanation": "В предложении 'She is a doctor' сказуемое — это 'is'. Это глагол-связка, который показывает состояние.",
-                "tags": [
-                    "verb",
-                    "linking_verb"
-                ]
-            },
-            {
-                "id": "q14",
-                "type": "reorder",
-                "prompt": "Расставьте слова в правильном порядке:",
-                "theory_block_id": "b3_theory_verb",
-                "difficulty": 2,
-                "correct_answer": "He plays football.",
-                "explanation": "Правильный порядок: подлежащее (He) → сказуемое (plays) → дополнение (football). Сказуемое следует за подлежащим.",
-                "tags": [
-                    "verb",
-                    "word_order"
-                ]
-            },
-            {
-                "id": "q15",
-                "type": "true_false",
-                "prompt": "Верно ли утверждение?\n\n**Сказуемое может быть только одним словом.**",
-                "theory_block_id": "b3_theory_verb",
-                "difficulty": 2,
-                "correct_answer": "false",
-                "explanation": "Нет, неверно. Сказуемое может быть одним словом (read, likes) или группой слов (doesn't like, is reading).",
-                "tags": [
-                    "verb",
-                    "structure"
-                ]
-            },
-            {
-                "id": "q16",
-                "type": "mcq_single",
-                "prompt": "Найдите дополнение в предложении:\n\n**I read a book.**",
-                "theory_block_id": "b4_theory_object",
-                "difficulty": 1,
-                "choices": [
-                    {
-                        "id": "a",
-                        "text": "I",
-                        "feedback": "Нет, 'I' — это подлежащее"
-                    },
-                    {
-                        "id": "b",
-                        "text": "read",
-                        "feedback": "Нет, 'read' — это сказуемое"
-                    },
-                    {
-                        "id": "c",
-                        "text": "a book",
-                        "feedback": "Правильно! 'a book' — это дополнение (что читаю?)"
-                    }
-                ],
-                "correct_answer": "c",
-                "explanation": "В предложении 'I read a book' дополнение — это 'a book'. Оно стоит после сказуемого и отвечает на вопрос 'что?'.",
-                "tags": [
-                    "object",
-                    "identification"
-                ]
-            },
-            {
-                "id": "q18",
-                "type": "mcq_single",
-                "prompt": "Какое предложение НЕ имеет дополнения?\n",
-                "theory_block_id": "b4_theory_object",
-                "difficulty": 2,
-                "choices": [
-                    {
-                        "id": "a",
-                        "text": "I read a book.",
-                        "feedback": "Нет, здесь есть дополнение 'a book'"
-                    },
-                    {
-                        "id": "b",
-                        "text": "She works.",
-                        "feedback": "Правильно! Глагол 'works' не требует дополнения"
-                    },
-                    {
-                        "id": "c",
-                        "text": "They play football.",
-                        "feedback": "Нет, здесь есть дополнение 'football'"
-                    }
-                ],
-                "correct_answer": "b",
-                "explanation": "В предложении 'She works' нет дополнения, так как глагол 'work' не требует его. Не все глаголы требуют дополнения.",
-                "tags": [
-                    "object",
-                    "no_object"
-                ]
-            },
-            {
-                "id": "q19",
-                "type": "reorder",
-                "prompt": "Расставьте слова в правильном порядке:",
-                "theory_block_id": "b4_theory_object",
-                "difficulty": 2,
-                "correct_answer": "Do you speak English?",
-                "explanation": "Правильный порядок: вспомогательный глагол (Do) → подлежащее (you) → сказуемое (speak) → дополнение (English).",
-                "tags": [
-                    "object",
-                    "question"
-                ]
-            },
-            {
-                "id": "q20",
-                "type": "true_false",
-                "prompt": "Верно ли утверждение?\n\n**Все предложения имеют дополнение.**",
-                "theory_block_id": "b4_theory_object",
-                "difficulty": 2,
-                "correct_answer": "false",
-                "explanation": "Нет, неверно. Не все предложения имеют дополнение. Некоторые глаголы (sleep, work, live) не требуют дополнения.",
-                "tags": [
-                    "object",
-                    "rule"
-                ]
-            },
-            {
-                "id": "q23",
-                "type": "reorder",
-                "prompt": "Расставьте слова в правильном порядке:",
-                "theory_block_id": "b5_theory_practice",
-                "difficulty": 2,
-                "correct_answer": "They don't watch TV.",
-                "explanation": "Правильный порядок: подлежащее (They) → сказуемое (don't watch) → дополнение (TV).",
-                "tags": [
-                    "practice",
-                    "reorder"
-                ]
-            },
-            {
-                "id": "q24",
-                "type": "true_false",
-                "prompt": "Верно ли утверждение?\n\n**В английском языке порядок слов строгий и его нельзя менять.**",
-                "theory_block_id": "b5_theory_practice",
-                "difficulty": 1,
-                "correct_answer": "true",
-                "explanation": "Да, верно. В английском языке порядок слов строгий: подлежащее → сказуемое → дополнение. Его нельзя менять, как в русском.",
-                "tags": [
-                    "practice",
-                    "word_order"
-                ]
-            },
-            {
-                "id": "q27",
-                "type": "mcq_single",
-                "prompt": "Найдите сказуемое:\n\n**They play football.**",
-                "theory_block_id": "b3_theory_verb",
-                "difficulty": 1,
-                "choices": [
-                    {
-                        "id": "a",
-                        "text": "They",
-                        "feedback": "Нет, 'They' — это подлежащее"
-                    },
-                    {
-                        "id": "b",
-                        "text": "play",
-                        "feedback": "Правильно! 'play' — это сказуемое"
-                    },
-                    {
-                        "id": "c",
-                        "text": "football",
-                        "feedback": "Нет, 'football' — это дополнение"
-                    }
-                ],
-                "correct_answer": "b",
-                "explanation": "В предложении 'They play football' сказуемое — это 'play'. Оно показывает действие.",
-                "tags": [
-                    "verb",
-                    "action"
-                ]
-            },
-            {
-                "id": "q29",
-                "type": "mcq_single",
-                "prompt": "Найдите дополнение:\n\n**I like coffee.**",
-                "theory_block_id": "b4_theory_object",
-                "difficulty": 1,
-                "choices": [
-                    {
-                        "id": "a",
-                        "text": "I",
-                        "feedback": "Нет, 'I' — это подлежащее"
-                    },
-                    {
-                        "id": "b",
-                        "text": "like",
-                        "feedback": "Нет, 'like' — это сказуемое"
-                    },
-                    {
-                        "id": "c",
-                        "text": "coffee",
-                        "feedback": "Правильно! 'coffee' — это дополнение"
-                    }
-                ],
-                "correct_answer": "c",
-                "explanation": "В предложении 'I like coffee' дополнение — это 'coffee'. Оно отвечает на вопрос 'что?'.",
-                "tags": [
-                    "object",
-                    "identification"
-                ]
-            }
-        ]
-    },
-    "chapter_test": {
-        "num_questions": 10,
-        "pool_question_ids": [
-            "q1",
-            "q2",
-            "q4",
-            "q5",
-            "q6",
-            "q8",
-            "q9",
-            "q10",
-            "q11",
-            "q13",
-            "q14",
-            "q15",
-            "q16",
-            "q18",
-            "q19",
-            "q20",
-            "q23",
-            "q24",
-            "q27",
-            "q29"
+  "schema_version": "1.0.0",
+  "id": "en.grammar.orientation_how_to_read.subject_verb_object_in",
+  "section_id": "en.grammar.orientation_how_to_read",
+  "title": "Subject / verb / object in practice (no heavy terminology)",
+  "title_short": "Subject / verb / object in practice",
+  "description": "Практическое введение в базовую структуру английского предложения: подлежащее, сказуемое и дополнение. Обучение без сложной терминологии, с фокусом на практическое применение.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "A1",
+  "order": 0,
+  "prerequisites": [],
+  "concept_refs": [
+    "sentence_structure_svo",
+    "subject_identification",
+    "verb_identification",
+    "object_identification",
+    "svo_practice"
+  ],
+  "learning_objectives": [
+    "Научиться определять подлежащее, сказуемое и дополнение в простых английских предложениях",
+    "Понять базовую структуру английского предложения на практике",
+    "Применять знания для построения собственных простых предложений"
+  ],
+  "estimated_minutes": 15,
+  "blocks": [
+    {
+      "id": "b1_theory_basic_structure",
+      "type": "theory",
+      "title": "Каждое английское предложение имеет базовую структуру: кто делает что. Это три главные части:",
+      "theory": {
+        "concept_id": "sentence_structure_svo",
+        "content_md": "Каждое английское предложение имеет базовую структуру: **кто делает что**. Это три главные части:\n\n1. **Подлежащее** (Subject) — кто или что выполняет действие\n2. **Сказуемое** (Verb) — само действие\n3. **Дополнение** (Object) — на что направлено действие\n\nНе все предложения имеют дополнение, но подлежащее и сказуемое есть почти всегда. В английском языке строгий порядок слов: **Подлежащее → Сказуемое → Дополнение**.",
+        "key_points": [],
+        "common_mistakes": [
+          {
+            "wrong": "Пропуск подлежащего: 'Is a student'",
+            "right": "В английском всегда нужно подлежащее: 'He is a student'",
+            "why": "В английском языке подлежащее обязательно, в отличие от русского"
+          },
+          {
+            "wrong": "Неправильный порядок: 'Book reads she'",
+            "right": "Правильный порядок: 'She reads a book'",
+            "why": "В английском строгий порядок слов: подлежащее → сказуемое → дополнение"
+          }
         ],
-        "selection_strategy": {
-            "type": "stratified_by_theory_block",
-            "min_per_theory_block": 1,
-            "avoid_recent_window": 30,
-            "difficulty_mix": {
-                "easy": 3,
-                "medium": 5,
-                "hard": 2
-            }
-        }
+        "examples": []
+      }
     },
-    "meta": {
-        "version": "2026.01.16",
-        "updated_at": "2026-01-17T20:59:42Z",
-        "source": "llm"
+    {
+      "id": "b2_theory_subject",
+      "type": "theory",
+      "title": "Подлежащее — это главная часть предложения, которая отвечает на вопросы «кто?» или «что?». Оно показывает, кто или что выполняет действие.",
+      "theory": {
+        "concept_id": "subject_identification",
+        "content_md": "**Подлежащее** — это главная часть предложения, которая отвечает на вопросы «кто?» или «что?». Оно показывает, кто или что выполняет действие.\n\nПодлежащее обычно стоит в начале предложения (перед сказуемым). Это может быть:\n- Местоимение: I, you, he, she, it, we, they\n- Существительное: Tom, book, students\n- Имя собственное: Mary, London\n\n**Важно:** В английском языке подлежащее обязательно, даже если в русском его можно опустить (например, «Иду домой» → «I am going home»).",
+        "key_points": [],
+        "common_mistakes": [
+          {
+            "wrong": "Пропуск подлежащего: 'Is my friend'",
+            "right": "Всегда нужен субъект: 'He is my friend'",
+            "why": "В английском языке подлежащее обязательно, даже если в русском его можно опустить"
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I am a teacher.",
+            "translation": "Я учитель.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Tom works here.",
+            "translation": "Том работает здесь.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_theory_verb",
+      "type": "theory",
+      "title": "Сказуемое — это часть предложения, которая показывает действие или состояние. Оно отвечает на вопрос «что делает?» или «что происходит?».",
+      "theory": {
+        "concept_id": "verb_identification",
+        "content_md": "**Сказуемое** — это часть предложения, которая показывает действие или состояние. Оно отвечает на вопрос «что делает?» или «что происходит?».\n\nСказуемое стоит после подлежащего. Это может быть:\n- Обычный глагол: read, like, play, work\n- Глагол-связка: am, is, are (быть)\n- Глагол с вспомогательным словом: don't, doesn't, do, does\n\n**Важно:** В английском нужен глагол даже для описания состояния (например, «I am happy», а не «I happy»).",
+        "key_points": [],
+        "common_mistakes": [
+          {
+            "wrong": "Пропуск глагола: 'I happy'",
+            "right": "Нужен глагол-связка: 'I am happy'",
+            "why": "В английском нужен глагол даже для описания состояния"
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I read books.",
+            "translation": "Я читаю книги.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "She is a doctor.",
+            "translation": "Она врач.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_theory_object",
+      "type": "theory",
+      "title": "Дополнение — это часть предложения, которая показывает, на что направлено действие. Оно отвечает на вопросы «кого?», «что?», «кому?», «для кого?».",
+      "theory": {
+        "concept_id": "object_identification",
+        "content_md": "**Дополнение** — это часть предложения, которая показывает, на что направлено действие. Оно отвечает на вопросы «кого?», «что?», «кому?», «для кого?».\n\nДополнение стоит после сказуемого. Не все предложения имеют дополнение — некоторые глаголы не требуют его (например, «sleep», «work»).\n\nДополнение может быть:\n- Существительным: book, coffee, English\n- Местоимением: it, them, me",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I read a book.",
+            "translation": "Я читаю книгу.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "I sleep.",
+            "translation": "Я сплю.",
+            "notes": "Нет дополнения — глагол 'sleep' не требует его",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_theory_practice",
+      "type": "theory",
+      "title": "Теперь давайте потренируемся определять структуру предложений. Помните:",
+      "theory": {
+        "concept_id": "svo_practice",
+        "content_md": "Теперь давайте потренируемся определять структуру предложений. Помните:\n\n1. **Подлежащее** — кто или что (в начале)\n2. **Сказуемое** — что делает (после подлежащего)\n3. **Дополнение** — на что направлено действие (после сказуемого, если есть)\n\nПорядок в английском строгий: **Подлежащее → Сказуемое → Дополнение**. В отличие от русского языка, порядок слов нельзя менять свободно.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": []
+      }
     }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Какая часть предложения является подлежащим?\n\n**I read books.**",
+        "theory_block_id": "b1_theory_basic_structure",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I",
+            "feedback": "Правильно! 'I' — это подлежащее, оно отвечает на вопрос 'кто?'"
+          },
+          {
+            "id": "b",
+            "text": "read",
+            "feedback": "Нет, 'read' — это сказуемое (действие)"
+          },
+          {
+            "id": "c",
+            "text": "books",
+            "feedback": "Нет, 'books' — это дополнение (на что направлено действие)"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В предложении 'I read books' подлежащее — это 'I' (кто?). Оно стоит в начале предложения и показывает, кто выполняет действие.",
+        "tags": [
+          "subject",
+          "basic"
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Какая часть предложения является сказуемым?\n\n**She likes coffee.**",
+        "theory_block_id": "b1_theory_basic_structure",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She",
+            "feedback": "Нет, 'She' — это подлежащее (кто?)"
+          },
+          {
+            "id": "b",
+            "text": "likes",
+            "feedback": "Правильно! 'likes' — это сказуемое, оно показывает действие"
+          },
+          {
+            "id": "c",
+            "text": "coffee",
+            "feedback": "Нет, 'coffee' — это дополнение (что?)"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В предложении 'She likes coffee' сказуемое — это 'likes' (что делает?). Оно стоит после подлежащего и показывает действие.",
+        "tags": [
+          "verb",
+          "basic"
+        ]
+      },
+      {
+        "id": "q4",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_basic_structure",
+        "difficulty": 2,
+        "correct_answer": "I read a book.",
+        "explanation": "Правильный порядок: подлежащее (I) → сказуемое (read) → дополнение (a book). Это базовая структура английского предложения.",
+        "tags": [
+          "word_order",
+          "reorder"
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**В английском предложении подлежащее всегда обязательно.**",
+        "theory_block_id": "b1_theory_basic_structure",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, верно. В английском языке подлежащее обязательно, в отличие от русского, где его можно опустить.",
+        "tags": [
+          "subject",
+          "rule"
+        ]
+      },
+      {
+        "id": "q6",
+        "type": "mcq_single",
+        "prompt": "Найдите подлежащее в предложении:\n\n**Tom works here.**",
+        "theory_block_id": "b2_theory_subject",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Tom",
+            "feedback": "Правильно! 'Tom' — это подлежащее (кто работает?)"
+          },
+          {
+            "id": "b",
+            "text": "works",
+            "feedback": "Нет, 'works' — это сказуемое"
+          },
+          {
+            "id": "c",
+            "text": "here",
+            "feedback": "Нет, 'here' — это обстоятельство места"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В предложении 'Tom works here' подлежащее — это 'Tom'. Оно стоит в начале предложения и отвечает на вопрос 'кто?'.",
+        "tags": [
+          "subject",
+          "identification"
+        ]
+      },
+      {
+        "id": "q8",
+        "type": "mcq_single",
+        "prompt": "Какое слово является подлежащим?\n\n**The book is interesting.**",
+        "theory_block_id": "b2_theory_subject",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The book",
+            "feedback": "Правильно! 'The book' — это подлежащее (что интересное?)"
+          },
+          {
+            "id": "b",
+            "text": "is",
+            "feedback": "Нет, 'is' — это сказуемое (глагол-связка)"
+          },
+          {
+            "id": "c",
+            "text": "interesting",
+            "feedback": "Нет, 'interesting' — это прилагательное"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В предложении 'The book is interesting' подлежащее — это 'The book'. Оно отвечает на вопрос 'что?' и стоит в начале предложения.",
+        "tags": [
+          "subject",
+          "noun"
+        ]
+      },
+      {
+        "id": "q9",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_subject",
+        "difficulty": 2,
+        "correct_answer": "She is my friend.",
+        "explanation": "Правильный порядок: подлежащее (She) → сказуемое (is) → остальные слова. Подлежащее всегда в начале.",
+        "tags": [
+          "subject",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q10",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Подлежащее может быть только местоимением.**",
+        "theory_block_id": "b2_theory_subject",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. Подлежащее может быть местоимением (I, you, he), существительным (book, student) или именем собственным (Tom, Mary).",
+        "tags": [
+          "subject",
+          "types"
+        ]
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "prompt": "Найдите сказуемое в предложении:\n\n**I read books.**",
+        "theory_block_id": "b3_theory_verb",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I",
+            "feedback": "Нет, 'I' — это подлежащее"
+          },
+          {
+            "id": "b",
+            "text": "read",
+            "feedback": "Правильно! 'read' — это сказуемое (что делаю?)"
+          },
+          {
+            "id": "c",
+            "text": "books",
+            "feedback": "Нет, 'books' — это дополнение"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В предложении 'I read books' сказуемое — это 'read'. Оно стоит после подлежащего и показывает действие.",
+        "tags": [
+          "verb",
+          "identification"
+        ]
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Какое слово является сказуемым?\n\n**She is a doctor.**",
+        "theory_block_id": "b3_theory_verb",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She",
+            "feedback": "Нет, 'She' — это подлежащее"
+          },
+          {
+            "id": "b",
+            "text": "is",
+            "feedback": "Правильно! 'is' — это сказуемое (глагол-связка)"
+          },
+          {
+            "id": "c",
+            "text": "doctor",
+            "feedback": "Нет, 'doctor' — это существительное"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В предложении 'She is a doctor' сказуемое — это 'is'. Это глагол-связка, который показывает состояние.",
+        "tags": [
+          "verb",
+          "linking_verb"
+        ]
+      },
+      {
+        "id": "q14",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_verb",
+        "difficulty": 2,
+        "correct_answer": "He plays football.",
+        "explanation": "Правильный порядок: подлежащее (He) → сказуемое (plays) → дополнение (football). Сказуемое следует за подлежащим.",
+        "tags": [
+          "verb",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q15",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Сказуемое может быть только одним словом.**",
+        "theory_block_id": "b3_theory_verb",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. Сказуемое может быть одним словом (read, likes) или группой слов (doesn't like, is reading).",
+        "tags": [
+          "verb",
+          "structure"
+        ]
+      },
+      {
+        "id": "q16",
+        "type": "mcq_single",
+        "prompt": "Найдите дополнение в предложении:\n\n**I read a book.**",
+        "theory_block_id": "b4_theory_object",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I",
+            "feedback": "Нет, 'I' — это подлежащее"
+          },
+          {
+            "id": "b",
+            "text": "read",
+            "feedback": "Нет, 'read' — это сказуемое"
+          },
+          {
+            "id": "c",
+            "text": "a book",
+            "feedback": "Правильно! 'a book' — это дополнение (что читаю?)"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "В предложении 'I read a book' дополнение — это 'a book'. Оно стоит после сказуемого и отвечает на вопрос 'что?'.",
+        "tags": [
+          "object",
+          "identification"
+        ]
+      },
+      {
+        "id": "q18",
+        "type": "mcq_single",
+        "prompt": "Какое предложение НЕ имеет дополнения?\n",
+        "theory_block_id": "b4_theory_object",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I read a book.",
+            "feedback": "Нет, здесь есть дополнение 'a book'"
+          },
+          {
+            "id": "b",
+            "text": "She works.",
+            "feedback": "Правильно! Глагол 'works' не требует дополнения"
+          },
+          {
+            "id": "c",
+            "text": "They play football.",
+            "feedback": "Нет, здесь есть дополнение 'football'"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В предложении 'She works' нет дополнения, так как глагол 'work' не требует его. Не все глаголы требуют дополнения.",
+        "tags": [
+          "object",
+          "no_object"
+        ]
+      },
+      {
+        "id": "q19",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_object",
+        "difficulty": 2,
+        "correct_answer": "Do you speak English?",
+        "explanation": "Правильный порядок: вспомогательный глагол (Do) → подлежащее (you) → сказуемое (speak) → дополнение (English).",
+        "tags": [
+          "object",
+          "question"
+        ]
+      },
+      {
+        "id": "q20",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Все предложения имеют дополнение.**",
+        "theory_block_id": "b4_theory_object",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. Не все предложения имеют дополнение. Некоторые глаголы (sleep, work, live) не требуют дополнения.",
+        "tags": [
+          "object",
+          "rule"
+        ]
+      },
+      {
+        "id": "q23",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_practice",
+        "difficulty": 2,
+        "correct_answer": "They don't watch TV.",
+        "explanation": "Правильный порядок: подлежащее (They) → сказуемое (don't watch) → дополнение (TV).",
+        "tags": [
+          "practice",
+          "reorder"
+        ]
+      },
+      {
+        "id": "q24",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**В английском языке порядок слов строгий и его нельзя менять.**",
+        "theory_block_id": "b5_theory_practice",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, верно. В английском языке порядок слов строгий: подлежащее → сказуемое → дополнение. Его нельзя менять, как в русском.",
+        "tags": [
+          "practice",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q27",
+        "type": "mcq_single",
+        "prompt": "Найдите сказуемое:\n\n**They play football.**",
+        "theory_block_id": "b3_theory_verb",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "They",
+            "feedback": "Нет, 'They' — это подлежащее"
+          },
+          {
+            "id": "b",
+            "text": "play",
+            "feedback": "Правильно! 'play' — это сказуемое"
+          },
+          {
+            "id": "c",
+            "text": "football",
+            "feedback": "Нет, 'football' — это дополнение"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В предложении 'They play football' сказуемое — это 'play'. Оно показывает действие.",
+        "tags": [
+          "verb",
+          "action"
+        ]
+      },
+      {
+        "id": "q29",
+        "type": "mcq_single",
+        "prompt": "Найдите дополнение:\n\n**I like coffee.**",
+        "theory_block_id": "b4_theory_object",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I",
+            "feedback": "Нет, 'I' — это подлежащее"
+          },
+          {
+            "id": "b",
+            "text": "like",
+            "feedback": "Нет, 'like' — это сказуемое"
+          },
+          {
+            "id": "c",
+            "text": "coffee",
+            "feedback": "Правильно! 'coffee' — это дополнение"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "В предложении 'I like coffee' дополнение — это 'coffee'. Оно отвечает на вопрос 'что?'.",
+        "tags": [
+          "object",
+          "identification"
+        ]
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q1",
+      "q2",
+      "q4",
+      "q5",
+      "q6",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q18",
+      "q19",
+      "q20",
+      "q23",
+      "q24",
+      "q27",
+      "q29"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-17T21:15:51Z",
+    "source": "llm"
+  }
 }

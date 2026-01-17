@@ -84,8 +84,8 @@ jq -s --argjson inline_quizzes "$INLINE_QUIZZES_JSON" '
   .[1] as $theory_blocks |
   (if $inline_quizzes then $inline_quizzes else [] end) as $inline_quizzes_array |
   
-  # Создаем мапу inline_quizzes по theory_block_id
-  (if ($inline_quizzes_array | length) > 0 then ($inline_quizzes_array | map({(.theory_block_id): .}) | add) else {} end) as $quizzes_map |
+  # Создаем мапу inline_quizzes по theory_block_id (фильтруем null значения)
+  (if ($inline_quizzes_array | length) > 0 then ($inline_quizzes_array | map(select(.theory_block_id != null)) | map({(.theory_block_id): .}) | add) else {} end) as $quizzes_map |
   
   # Формируем blocks
   # $theory_blocks уже содержит массив theory_block объектов (после map(.theory_block))
