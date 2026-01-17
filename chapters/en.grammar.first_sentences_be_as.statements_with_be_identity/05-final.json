@@ -1,0 +1,1474 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.first_sentences_be_as.statements_with_be_identity",
+  "section_id": "en.grammar.first_sentences_be_as",
+  "title": "Statements with be: identity / description / location (I'm a student. She's at home.)",
+  "title_short": "Statements with be: identity / description / location",
+  "description": "Изучаем построение утвердительных предложений с глаголом be для выражения тождества (I'm a student), описания (She's tired) и местоположения (She's at home). Базовый уровень для формирования первых полных предложений.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "A1",
+  "order": 0,
+  "prerequisites": [
+    "en.grammar.first_sentences_be_as.personal_pronouns_am_is"
+  ],
+  "concept_refs": [
+    "be_identity_statements",
+    "be_description_statements",
+    "be_location_statements",
+    "be_contractions",
+    "be_statements_combining"
+  ],
+  "learning_objectives": [
+    "Строить утвердительные предложения с be для выражения тождества (I'm a student)",
+    "Использовать be для описания состояния и характеристик (She's tired)",
+    "Выражать местоположение с помощью be + предлоги (She's at home)",
+    "Различать три типа утверждений: identity, description, location"
+  ],
+  "estimated_minutes": 30,
+  "blocks": [
+    {
+      "id": "b1_theory_identity_statements",
+      "type": "theory",
+      "title": "Утверждения о тождестве (identity) описывают, кем является человек или что представляет собой предмет. В таких предложениях после глагола be ставится существительное с артиклем a/an или без артикля (для множественного числа).",
+      "theory": {
+        "concept_id": "be_identity_statements",
+        "content_md": "Утверждения о **тождестве** (identity) описывают, кем является человек или что представляет собой предмет. В таких предложениях после глагола be ставится существительное с артиклем **a/an** или без артикля (для множественного числа).\n\nСтруктура: **Местоимение + be + a/an + существительное**\n\nАртикль **a** используется перед словами, начинающимися с согласного звука, **an** — перед словами, начинающимися с гласного звука. Это помогает сказать \"один из многих\" или указать принадлежность к группе.",
+        "key_points": [
+          "Тождество: I'm a student, She's a teacher",
+          "Используем a перед согласными (a student), an перед гласными (an artist)",
+          "Множественное число без артикля: We are students, They are teachers"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I'm a student.",
+            "translation": "Я студент.",
+            "notes": "a используется перед согласным звуком",
+            "tags": [
+              "identity",
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "She's an artist.",
+            "translation": "Она художник.",
+            "notes": "an используется перед гласным звуком",
+            "tags": [
+              "identity",
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "They are doctors.",
+            "translation": "Они врачи.",
+            "notes": "Множественное число без артикля",
+            "tags": [
+              "identity",
+              "affirmative",
+              "plural"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_identity_statements",
+      "type": "quiz_inline",
+      "title": "Quick check: утверждения о тождестве",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5",
+          "q6"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_description_statements",
+      "type": "theory",
+      "title": "Утверждения описания (description) характеризуют состояние, качество или свойство. После глагола be ставится прилагательное без артикля.",
+      "theory": {
+        "concept_id": "be_description_statements",
+        "content_md": "Утверждения **описания** (description) характеризуют состояние, качество или свойство. После глагола be ставится прилагательное без артикля.\n\nСтруктура: **Местоимение + be + прилагательное**\n\nПрилагательные в английском языке не изменяются по родам и числам. Они всегда имеют одну форму независимо от того, стоит ли перед ними I, he, she, we или they.",
+        "key_points": [
+          "Описание состояния: She's tired, I'm happy",
+          "Прилагательные не изменяются: tired (не tireds), happy (не happies)",
+          "После be не нужен артикль перед прилагательными"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "She's tired.",
+            "translation": "Она устала.",
+            "tags": [
+              "description",
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "I'm happy.",
+            "translation": "Я счастлив.",
+            "tags": [
+              "description",
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "They are busy.",
+            "translation": "Они заняты.",
+            "tags": [
+              "description",
+              "affirmative",
+              "plural"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_description_statements",
+      "type": "quiz_inline",
+      "title": "Quick check: утверждения описания",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14",
+          "q15",
+          "q16",
+          "q17",
+          "q18"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_location_statements",
+      "type": "theory",
+      "title": "Утверждения о местоположении (location) указывают, где находится человек или предмет. Для выражения местоположения используется глагол be с предлогами места.",
+      "theory": {
+        "concept_id": "be_location_statements",
+        "content_md": "Утверждения о **местоположении** (location) указывают, где находится человек или предмет. Для выражения местоположения используется глагол be с предлогами места.\n\nСтруктура: **Местоимение + be + предлог места + место**\n\nОсновные предлоги места:\n- **at** — в конкретной точке (at home, at school, at work)\n- **in** — внутри пространства (in the room, in the city)\n- **on** — на поверхности (on the table, on the floor)",
+        "key_points": [
+          "Местоположение: She's at home, They are in the room",
+          "Предлоги: at (в точке), in (внутри), on (на поверхности)",
+          "После предлога может быть артикль (in the room) или нет (at home)"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "She's at home.",
+            "translation": "Она дома.",
+            "notes": "at используется с конкретными точками",
+            "tags": [
+              "location",
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "I'm in the classroom.",
+            "translation": "Я в классе.",
+            "notes": "in используется для пространства внутри",
+            "tags": [
+              "location",
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "The book is on the table.",
+            "translation": "Книга на столе.",
+            "notes": "on используется для поверхности",
+            "tags": [
+              "location",
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_location_statements",
+      "type": "quiz_inline",
+      "title": "Quick check: утверждения о местоположении",
+      "quiz_inline": {
+        "question_ids": [
+          "q24",
+          "q25",
+          "q26",
+          "q27",
+          "q28",
+          "q29"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_contractions",
+      "type": "theory",
+      "title": "В разговорной речи глагол be часто сокращается с местоимениями. Это делает речь более естественной и быстрой.",
+      "theory": {
+        "concept_id": "be_contractions",
+        "content_md": "В разговорной речи глагол be часто сокращается с местоимениями. Это делает речь более естественной и быстрой.\n\n**Основные сокращения:**\n- **I am** → **I'm**\n- **you are** → **you're**\n- **he is** → **he's**\n- **she is** → **she's**\n- **it is** → **it's**\n- **we are** → **we're**\n- **they are** → **they're**\n\nСокращения используются в устной речи и неформальном письме. В официальных документах чаще используются полные формы.",
+        "key_points": [
+          "I'm, you're, he's, she's, it's, we're, they're",
+          "Сокращения делают речь более естественной",
+          "В официальных текстах предпочтительны полные формы"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I'm a student.",
+            "translation": "Я студент.",
+            "notes": "I am сокращается до I'm",
+            "tags": [
+              "contraction",
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "She's at home.",
+            "translation": "Она дома.",
+            "notes": "She is сокращается до She's",
+            "tags": [
+              "contraction",
+              "location",
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "They're happy.",
+            "translation": "Они счастливы.",
+            "notes": "They are сокращается до They're",
+            "tags": [
+              "contraction",
+              "description",
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8_quiz_after_contractions",
+      "type": "quiz_inline",
+      "title": "Quick check: сокращения",
+      "quiz_inline": {
+        "question_ids": [
+          "q34",
+          "q35",
+          "q36",
+          "q37",
+          "q38",
+          "q39"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_combining_types",
+      "type": "theory",
+      "title": "В одном предложении можно объединять разные типы информации: тождество, описание и местоположение. Для этого используется союз and (и).",
+      "theory": {
+        "concept_id": "be_statements_combining",
+        "content_md": "В одном предложении можно объединять разные типы информации: тождество, описание и местоположение. Для этого используется союз **and** (и).\n\nСтруктура: **Местоимение + be + [тождество/описание] + and + [местоположение/описание]**\n\nВажно помнить, что глагол be используется только один раз, так как он относится к одному и тому же подлежащему.",
+        "key_points": [
+          "Можно объединять информацию через and: I'm a student and I'm happy",
+          "Глагол be используется один раз на предложение",
+          "Союз and соединяет части предложения"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I'm a student and I'm happy.",
+            "translation": "Я студент и я счастлив.",
+            "notes": "Объединение тождества и описания",
+            "tags": [
+              "combining",
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "She's a teacher and she's at school.",
+            "translation": "Она учитель и она в школе.",
+            "notes": "Объединение тождества и местоположения",
+            "tags": [
+              "combining",
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Какое предложение выражает тождество?",
+        "theory_block_id": "b1_theory_identity_statements",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She's tired.",
+            "feedback": "Нет, это описание состояния"
+          },
+          {
+            "id": "b",
+            "text": "I'm a student.",
+            "feedback": "Правильно! Это выражение тождества (кем является человек)"
+          },
+          {
+            "id": "c",
+            "text": "She's at home.",
+            "feedback": "Нет, это местоположение"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Предложение 'I'm a student' выражает тождество, так как указывает, кем является человек. После be стоит существительное с артиклем a.",
+        "tags": [
+          "identity"
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Когда используется артикль 'an'?",
+        "theory_block_id": "b1_theory_identity_statements",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Перед словами, начинающимися с гласного звука",
+            "feedback": "Правильно! 'an' используется перед гласными звуками"
+          },
+          {
+            "id": "b",
+            "text": "Перед словами, начинающимися с согласного звука",
+            "feedback": "Нет, перед согласными используется 'a'"
+          },
+          {
+            "id": "c",
+            "text": "Всегда с множественным числом",
+            "feedback": "Нет, с множественным числом артикль не используется"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Артикль 'an' используется перед словами, начинающимися с гласного звука, например: an artist, an engineer, an hour.",
+        "tags": [
+          "identity",
+          "articles"
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **I'm ___ artist.** (a/an)",
+        "theory_block_id": "b1_theory_identity_statements",
+        "difficulty": 2,
+        "correct_answer": "an",
+        "explanation": "Артикль 'an' используется перед словом 'artist', так как оно начинается с гласного звука.",
+        "tags": [
+          "identity",
+          "articles"
+        ]
+      },
+      {
+        "id": "q4",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **She's ___ teacher.** (a/an)",
+        "theory_block_id": "b1_theory_identity_statements",
+        "difficulty": 1,
+        "correct_answer": "a",
+        "explanation": "Артикль 'a' используется перед словом 'teacher', так как оно начинается с согласного звука.",
+        "tags": [
+          "identity",
+          "articles"
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **They are ___.** (students, студенты)",
+        "theory_block_id": "b1_theory_identity_statements",
+        "difficulty": 2,
+        "correct_answer": "students",
+        "explanation": "С множественным числом артикль не используется. 'They are students' - правильная форма.",
+        "tags": [
+          "identity",
+          "plural"
+        ]
+      },
+      {
+        "id": "q6",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_identity_statements",
+        "difficulty": 2,
+        "correct_answer": "I'm a student.",
+        "explanation": "Правильный порядок: местоимение (I) + сокращенная форма be (am) → a + существительное (student).",
+        "tags": [
+          "identity",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_identity_statements",
+        "difficulty": 2,
+        "correct_answer": "She's an artist.",
+        "explanation": "Правильный порядок: местоимение (She) + сокращенная форма be (is) → an + существительное (artist).",
+        "tags": [
+          "identity",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q8",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Артикль 'a' всегда используется перед гласными.**",
+        "theory_block_id": "b1_theory_identity_statements",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. Перед гласными используется 'an', а 'a' используется перед согласными.",
+        "tags": [
+          "identity",
+          "articles"
+        ]
+      },
+      {
+        "id": "q9",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**С множественным числом артикль a/an не используется.**",
+        "theory_block_id": "b1_theory_identity_statements",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, верно. С множественным числом артикль не используется: 'We are students' (не 'a students').",
+        "tags": [
+          "identity",
+          "plural"
+        ]
+      },
+      {
+        "id": "q10",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Какое предложение правильно?",
+        "theory_block_id": "b1_theory_identity_statements",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm student.",
+            "feedback": "Нет, нужен артикль: 'I'm a student'"
+          },
+          {
+            "id": "b",
+            "text": "I'm a student.",
+            "feedback": "Правильно! Артикль 'a' обязателен"
+          },
+          {
+            "id": "c",
+            "text": "I'm an student.",
+            "feedback": "Нет, 'student' начинается с согласного, нужен 'a'"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В утверждениях о тождестве после be обязательно используется артикль 'a' или 'an' перед существительным в единственном числе.",
+        "tags": [
+          "identity",
+          "articles"
+        ]
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант для множественного числа:",
+        "theory_block_id": "b1_theory_identity_statements",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We are a students.",
+            "feedback": "Нет, с множественным числом артикль не используется"
+          },
+          {
+            "id": "b",
+            "text": "We are students.",
+            "feedback": "Правильно! Множественное число без артикля"
+          },
+          {
+            "id": "c",
+            "text": "We are an students.",
+            "feedback": "Нет, с множественным числом артикль не используется"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "С множественным числом артикль не используется: 'We are students' (не 'a students' или 'an students').",
+        "tags": [
+          "identity",
+          "plural"
+        ]
+      },
+      {
+        "id": "q12",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **He's ___ engineer.** (a/an)",
+        "theory_block_id": "b1_theory_identity_statements",
+        "difficulty": 2,
+        "correct_answer": "an",
+        "explanation": "Артикль 'an' используется перед словом 'engineer', так как оно начинается с гласного звука.",
+        "tags": [
+          "identity",
+          "articles"
+        ]
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Какое предложение выражает описание?",
+        "theory_block_id": "b2_theory_description_statements",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm a teacher.",
+            "feedback": "Нет, это тождество"
+          },
+          {
+            "id": "b",
+            "text": "She's tired.",
+            "feedback": "Правильно! Это описание состояния"
+          },
+          {
+            "id": "c",
+            "text": "I'm at home.",
+            "feedback": "Нет, это местоположение"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Предложение 'She's tired' выражает описание, так как характеризует состояние человека. После be стоит прилагательное без артикля.",
+        "tags": [
+          "description"
+        ]
+      },
+      {
+        "id": "q14",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Что ставится после be в описательных предложениях?",
+        "theory_block_id": "b2_theory_description_statements",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Прилагательное",
+            "feedback": "Правильно! В описаниях используется прилагательное"
+          },
+          {
+            "id": "b",
+            "text": "Существительное с артиклем",
+            "feedback": "Нет, это для тождества"
+          },
+          {
+            "id": "c",
+            "text": "Предлог места",
+            "feedback": "Нет, это для местоположения"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В описательных предложениях после be ставится прилагательное без артикля: 'I'm happy', 'She's tired'.",
+        "tags": [
+          "description"
+        ]
+      },
+      {
+        "id": "q15",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **I'm ___.** (happy, счастливый)",
+        "theory_block_id": "b2_theory_description_statements",
+        "difficulty": 1,
+        "correct_answer": "happy",
+        "explanation": "В описательных предложениях после be ставится прилагательное без артикля.",
+        "tags": [
+          "description"
+        ]
+      },
+      {
+        "id": "q16",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **She's ___.** (tired, усталая)",
+        "theory_block_id": "b2_theory_description_statements",
+        "difficulty": 1,
+        "correct_answer": "tired",
+        "explanation": "Прилагательное 'tired' используется после be для описания состояния.",
+        "tags": [
+          "description"
+        ]
+      },
+      {
+        "id": "q17",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **They are ___.** (busy, занятые)",
+        "theory_block_id": "b2_theory_description_statements",
+        "difficulty": 1,
+        "correct_answer": "busy",
+        "explanation": "Прилагательные в английском не изменяются по числам: 'They are busy' (не 'busies').",
+        "tags": [
+          "description",
+          "plural"
+        ]
+      },
+      {
+        "id": "q18",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_description_statements",
+        "difficulty": 2,
+        "correct_answer": "She's tired.",
+        "explanation": "Правильный порядок: местоимение (She) + сокращенная форма be (is) → прилагательное (tired).",
+        "tags": [
+          "description",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q19",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_description_statements",
+        "difficulty": 2,
+        "correct_answer": "I'm happy.",
+        "explanation": "Правильный порядок: местоимение (I) + сокращенная форма be (am) → прилагательное (happy).",
+        "tags": [
+          "description",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q20",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Прилагательные в английском изменяются по числам.**",
+        "theory_block_id": "b2_theory_description_statements",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. Прилагательные в английском не изменяются по числам: 'tired' (не 'tireds'), 'happy' (не 'happies').",
+        "tags": [
+          "description"
+        ]
+      },
+      {
+        "id": "q21",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**В описательных предложениях после be ставится артикль перед прилагательным.**",
+        "theory_block_id": "b2_theory_description_statements",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. После be в описательных предложениях артикль не используется: 'I'm happy' (не 'I'm a happy').",
+        "tags": [
+          "description"
+        ]
+      },
+      {
+        "id": "q22",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:",
+        "theory_block_id": "b2_theory_description_statements",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm a happy.",
+            "feedback": "Нет, перед прилагательными артикль не используется"
+          },
+          {
+            "id": "b",
+            "text": "I'm happy.",
+            "feedback": "Правильно! Артикль не нужен с прилагательными"
+          },
+          {
+            "id": "c",
+            "text": "I'm happies.",
+            "feedback": "Нет, прилагательные не изменяются по числам"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В описательных предложениях после be ставится прилагательное без артикля. Прилагательные не изменяются по числам.",
+        "tags": [
+          "description"
+        ]
+      },
+      {
+        "id": "q23",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **The students are ___.** (excited, взволнованные)",
+        "theory_block_id": "b2_theory_description_statements",
+        "difficulty": 2,
+        "correct_answer": "excited",
+        "explanation": "Прилагательное 'excited' не изменяется по числам. 'The students are excited' - правильная форма.",
+        "tags": [
+          "description",
+          "plural"
+        ]
+      },
+      {
+        "id": "q24",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Какое предложение выражает местоположение?",
+        "theory_block_id": "b3_theory_location_statements",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm a teacher.",
+            "feedback": "Нет, это тождество"
+          },
+          {
+            "id": "b",
+            "text": "She's happy.",
+            "feedback": "Нет, это описание"
+          },
+          {
+            "id": "c",
+            "text": "She's at home.",
+            "feedback": "Правильно! Это местоположение"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Предложение 'She's at home' выражает местоположение, так как указывает, где находится человек. После be стоит предлог места 'at'.",
+        "tags": [
+          "location"
+        ]
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный предлог. Где используется 'at'?",
+        "theory_block_id": "b3_theory_location_statements",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "В конкретной точке (at home, at school)",
+            "feedback": "Правильно! 'at' используется с конкретными точками"
+          },
+          {
+            "id": "b",
+            "text": "Внутри пространства (in the room)",
+            "feedback": "Нет, для пространства используется 'in'"
+          },
+          {
+            "id": "c",
+            "text": "На поверхности (on the table)",
+            "feedback": "Нет, для поверхности используется 'on'"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Предлог 'at' используется для указания конкретной точки: at home, at school, at work.",
+        "tags": [
+          "location",
+          "prepositions"
+        ]
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **I'm ___ home.** (at/in)",
+        "theory_block_id": "b3_theory_location_statements",
+        "difficulty": 2,
+        "correct_answer": "at",
+        "explanation": "Предлог 'at' используется с конкретными точками: 'at home', 'at school', 'at work'.",
+        "tags": [
+          "location",
+          "prepositions"
+        ]
+      },
+      {
+        "id": "q27",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **She's ___ the classroom.** (at/in)",
+        "theory_block_id": "b3_theory_location_statements",
+        "difficulty": 2,
+        "correct_answer": "in",
+        "explanation": "Предлог 'in' используется для пространства внутри: 'in the classroom', 'in the room', 'in the city'.",
+        "tags": [
+          "location",
+          "prepositions"
+        ]
+      },
+      {
+        "id": "q28",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **The book is ___ the table.** (at/in/on)",
+        "theory_block_id": "b3_theory_location_statements",
+        "difficulty": 2,
+        "correct_answer": "on",
+        "explanation": "Предлог 'on' используется для поверхности: 'on the table', 'on the floor', 'on the wall'.",
+        "tags": [
+          "location",
+          "prepositions"
+        ]
+      },
+      {
+        "id": "q29",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_location_statements",
+        "difficulty": 2,
+        "correct_answer": "I'm at home.",
+        "explanation": "Правильный порядок: местоимение (I) + сокращенная форма be (am) → предлог (at) + место (home).",
+        "tags": [
+          "location",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q30",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_location_statements",
+        "difficulty": 2,
+        "correct_answer": "They are in the room.",
+        "explanation": "Правильный порядок: местоимение (They) + форма be (are) → предлог (in) + артикль (the) + место (room).",
+        "tags": [
+          "location",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q31",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Предлог 'at' используется только для пространства внутри.**",
+        "theory_block_id": "b3_theory_location_statements",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. 'at' используется для конкретных точек (at home), а 'in' для пространства внутри (in the room).",
+        "tags": [
+          "location",
+          "prepositions"
+        ]
+      },
+      {
+        "id": "q32",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный предлог для 'the table':",
+        "theory_block_id": "b3_theory_location_statements",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "at",
+            "feedback": "Нет, 'at' используется для точек, не для поверхностей"
+          },
+          {
+            "id": "b",
+            "text": "on",
+            "feedback": "Правильно! 'on' используется для поверхностей"
+          },
+          {
+            "id": "c",
+            "text": "in",
+            "feedback": "Нет, 'in' используется для пространства внутри"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Предлог 'on' используется для поверхностей: 'on the table', 'on the floor', 'on the wall'.",
+        "tags": [
+          "location",
+          "prepositions"
+        ]
+      },
+      {
+        "id": "q33",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **We're ___ work.** (at/in)",
+        "theory_block_id": "b3_theory_location_statements",
+        "difficulty": 2,
+        "correct_answer": "at",
+        "explanation": "Предлог 'at' используется с конкретными точками: 'at work', 'at school', 'at home'.",
+        "tags": [
+          "location",
+          "prepositions"
+        ]
+      },
+      {
+        "id": "q34",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Какое сокращение соответствует 'I am'?",
+        "theory_block_id": "b4_theory_contractions",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm",
+            "feedback": "Правильно! 'I am' сокращается до 'I'm'"
+          },
+          {
+            "id": "b",
+            "text": "I're",
+            "feedback": "Нет, такого сокращения нет"
+          },
+          {
+            "id": "c",
+            "text": "I's",
+            "feedback": "Нет, такого сокращения нет"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Сокращение 'I am' → 'I'm'. Сокращения делают речь более естественной в разговорном английском.",
+        "tags": [
+          "contractions"
+        ]
+      },
+      {
+        "id": "q35",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Какое сокращение соответствует 'she is'?",
+        "theory_block_id": "b4_theory_contractions",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "she're",
+            "feedback": "Нет, такого сокращения нет"
+          },
+          {
+            "id": "b",
+            "text": "she's",
+            "feedback": "Правильно! 'she is' сокращается до 'she's'"
+          },
+          {
+            "id": "c",
+            "text": "she'am",
+            "feedback": "Нет, такого сокращения нет"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Сокращение 'she is' → 'she's'. Также 'he is' → 'he's', 'it is' → 'it's'.",
+        "tags": [
+          "contractions"
+        ]
+      },
+      {
+        "id": "q36",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **___ a student.** (I'm/I are)",
+        "theory_block_id": "b4_theory_contractions",
+        "difficulty": 1,
+        "correct_answer": "I'm",
+        "explanation": "Сокращение 'I am' → 'I'm'. 'I are' неверно, так как с 'I' используется 'am', а не 'are'.",
+        "tags": [
+          "contractions"
+        ]
+      },
+      {
+        "id": "q37",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **___ at home.** (You're/You is)",
+        "theory_block_id": "b4_theory_contractions",
+        "difficulty": 2,
+        "correct_answer": "You're",
+        "explanation": "Сокращение 'you are' → 'you're'. 'You is' неверно, так как с 'you' используется 'are', а не 'is'.",
+        "tags": [
+          "contractions"
+        ]
+      },
+      {
+        "id": "q38",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_contractions",
+        "difficulty": 2,
+        "correct_answer": "They're happy.",
+        "explanation": "Правильный порядок: местоимение (They) + сокращенная форма be (are) → описание (happy).",
+        "tags": [
+          "contractions",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q39",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Сокращения используются только в устной речи.**",
+        "theory_block_id": "b4_theory_contractions",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. Сокращения используются и в устной речи, и в неформальном письме. В официальных документах предпочтительны полные формы.",
+        "tags": [
+          "contractions"
+        ]
+      },
+      {
+        "id": "q40",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:",
+        "theory_block_id": "b4_theory_contractions",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We am students.",
+            "feedback": "Нет, с 'we' используется 'are', не 'am'"
+          },
+          {
+            "id": "b",
+            "text": "We're students.",
+            "feedback": "Правильно! 'We are' сокращается до 'We're'"
+          },
+          {
+            "id": "c",
+            "text": "We's students.",
+            "feedback": "Нет, такого сокращения нет"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Сокращение 'we are' → 'we're'. С 'we' используется форма 'are', которая сокращается до ''re'.",
+        "tags": [
+          "contractions"
+        ]
+      },
+      {
+        "id": "q41",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **___ tired.** (He's/He are)",
+        "theory_block_id": "b4_theory_contractions",
+        "difficulty": 2,
+        "correct_answer": "He's",
+        "explanation": "Сокращение 'he is' → 'he's'. 'He are' неверно, так как с 'he' используется 'is', а не 'are'.",
+        "tags": [
+          "contractions"
+        ]
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Как объединить информацию в одном предложении?",
+        "theory_block_id": "b5_theory_combining_types",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Использовать союз 'and'",
+            "feedback": "Правильно! 'and' объединяет части предложения"
+          },
+          {
+            "id": "b",
+            "text": "Использовать два глагола be",
+            "feedback": "Нет, глагол be используется один раз"
+          },
+          {
+            "id": "c",
+            "text": "Использовать запятую без союза",
+            "feedback": "Нет, нужен союз 'and'"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для объединения информации используется союз 'and': 'I'm a student and I'm happy'.",
+        "tags": [
+          "combining"
+        ]
+      },
+      {
+        "id": "q43",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **I'm a student ___ I'm happy.** (and/but)",
+        "theory_block_id": "b5_theory_combining_types",
+        "difficulty": 2,
+        "correct_answer": "and",
+        "explanation": "Союз 'and' объединяет части предложения: 'I'm a student and I'm happy'.",
+        "tags": [
+          "combining"
+        ]
+      },
+      {
+        "id": "q44",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_combining_types",
+        "difficulty": 3,
+        "correct_answer": "She's a teacher and she's at school.",
+        "explanation": "Правильный порядок: тождество (She's a teacher) + союз (and) + местоположение (she's at school).",
+        "tags": [
+          "combining",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q45",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**В объединенных предложениях глагол be используется дважды.**",
+        "theory_block_id": "b5_theory_combining_types",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да, верно. В объединенных предложениях каждая часть имеет свой глагол be: 'I'm a student and I'm happy'.",
+        "tags": [
+          "combining"
+        ]
+      },
+      {
+        "id": "q46",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:",
+        "theory_block_id": "b5_theory_combining_types",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm a student happy.",
+            "feedback": "Нет, нужно использовать союз 'and' для объединения"
+          },
+          {
+            "id": "b",
+            "text": "I'm a student and I'm happy.",
+            "feedback": "Правильно! Союз 'and' объединяет части предложения"
+          },
+          {
+            "id": "c",
+            "text": "I'm a student, happy.",
+            "feedback": "Нет, нужен союз 'and', а не запятая"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Для объединения информации используется союз 'and': 'I'm a student and I'm happy'.",
+        "tags": [
+          "combining"
+        ]
+      },
+      {
+        "id": "q47",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **They're students ___ they're at school.** (and/but)",
+        "theory_block_id": "b5_theory_combining_types",
+        "difficulty": 2,
+        "correct_answer": "and",
+        "explanation": "Союз 'and' объединяет тождество и местоположение: 'They're students and they're at school'.",
+        "tags": [
+          "combining"
+        ]
+      },
+      {
+        "id": "q48",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Какое предложение правильно выражает тождество, описание и местоположение?",
+        "theory_block_id": "b5_theory_combining_types",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm a student, I'm happy, I'm at home.",
+            "feedback": "Нет, нужны союзы 'and', а не запятые"
+          },
+          {
+            "id": "b",
+            "text": "I'm a student and I'm happy and I'm at home.",
+            "feedback": "Правильно! Союзы 'and' объединяют все части"
+          },
+          {
+            "id": "c",
+            "text": "I'm a student, happy, at home.",
+            "feedback": "Нет, каждая часть требует свой глагол be"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Для объединения нескольких частей используются союзы 'and': 'I'm a student and I'm happy and I'm at home'.",
+        "tags": [
+          "combining"
+        ]
+      },
+      {
+        "id": "q49",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **She's a teacher ___ she's happy ___ she's at school.** (and/but)",
+        "theory_block_id": "b5_theory_combining_types",
+        "difficulty": 3,
+        "correct_answer": "and",
+        "explanation": "Союз 'and' используется для объединения всех частей: 'She's a teacher and she's happy and she's at school'.",
+        "tags": [
+          "combining"
+        ]
+      },
+      {
+        "id": "q50",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**В объединенных предложениях можно использовать запятую вместо союза 'and'.**",
+        "theory_block_id": "b5_theory_combining_types",
+        "difficulty": 3,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. Для объединения частей предложения нужен союз 'and'. Запятая без союза неверна.",
+        "tags": [
+          "combining"
+        ]
+      },
+      {
+        "id": "q51",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Что выражает предложение 'I'm a student'?",
+        "theory_block_id": "b1_theory_identity_statements",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Тождество",
+            "feedback": "Правильно! Указывает, кем является человек"
+          },
+          {
+            "id": "b",
+            "text": "Описание",
+            "feedback": "Нет, описание использует прилагательные"
+          },
+          {
+            "id": "c",
+            "text": "Местоположение",
+            "feedback": "Нет, местоположение использует предлоги"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Предложение 'I'm a student' выражает тождество, так как указывает, кем является человек.",
+        "tags": [
+          "identity"
+        ]
+      },
+      {
+        "id": "q52",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Что выражает предложение 'She's tired'?",
+        "theory_block_id": "b2_theory_description_statements",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Тождество",
+            "feedback": "Нет, тождество использует существительные с артиклем"
+          },
+          {
+            "id": "b",
+            "text": "Описание",
+            "feedback": "Правильно! Характеризует состояние"
+          },
+          {
+            "id": "c",
+            "text": "Местоположение",
+            "feedback": "Нет, местоположение использует предлоги"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Предложение 'She's tired' выражает описание, так как характеризует состояние человека.",
+        "tags": [
+          "description"
+        ]
+      },
+      {
+        "id": "q53",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Что выражает предложение 'I'm at home'?",
+        "theory_block_id": "b3_theory_location_statements",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Тождество",
+            "feedback": "Нет, тождество использует существительные"
+          },
+          {
+            "id": "b",
+            "text": "Описание",
+            "feedback": "Нет, описание использует прилагательные"
+          },
+          {
+            "id": "c",
+            "text": "Местоположение",
+            "feedback": "Правильно! Указывает, где находится человек"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Предложение 'I'm at home' выражает местоположение, так как указывает, где находится человек.",
+        "tags": [
+          "location"
+        ]
+      },
+      {
+        "id": "q54",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **We're ___ home.** (at/in)",
+        "theory_block_id": "b3_theory_location_statements",
+        "difficulty": 2,
+        "correct_answer": "at",
+        "explanation": "Предлог 'at' используется с конкретными точками: 'at home', 'at school', 'at work'.",
+        "tags": [
+          "location"
+        ]
+      },
+      {
+        "id": "q55",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **I'm ___ artist.** (a/an)",
+        "theory_block_id": "b1_theory_identity_statements",
+        "difficulty": 2,
+        "correct_answer": "an",
+        "explanation": "Артикль 'an' используется перед словом 'artist', так как оно начинается с гласного звука.",
+        "tags": [
+          "identity"
+        ]
+      },
+      {
+        "id": "q56",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_description_statements",
+        "difficulty": 2,
+        "correct_answer": "They are busy.",
+        "explanation": "Правильный порядок: местоимение (They) + форма be (are) → прилагательное (busy).",
+        "tags": [
+          "description"
+        ]
+      },
+      {
+        "id": "q57",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_location_statements",
+        "difficulty": 2,
+        "correct_answer": "She's at school.",
+        "explanation": "Правильный порядок: местоимение (She) + сокращенная форма be (is) → предлог (at) + место (school).",
+        "tags": [
+          "location"
+        ]
+      },
+      {
+        "id": "q58",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Артикль 'a' используется перед гласными звуками.**",
+        "theory_block_id": "b1_theory_identity_statements",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. Перед гласными звуками используется 'an', а 'a' используется перед согласными.",
+        "tags": [
+          "identity"
+        ]
+      },
+      {
+        "id": "q59",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**С множественным числом артикль всегда используется.**",
+        "theory_block_id": "b1_theory_identity_statements",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. С множественным числом артикль не используется: 'We are students' (не 'a students').",
+        "tags": [
+          "identity"
+        ]
+      },
+      {
+        "id": "q60",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **___ tired and ___ at home.** (I'm/I am)",
+        "theory_block_id": "b5_theory_combining_types",
+        "difficulty": 3,
+        "correct_answer": "I'm",
+        "explanation": "В объединенных предложениях можно использовать сокращения: 'I'm tired and I'm at home'.",
+        "tags": [
+          "combining"
+        ]
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-17T15:34:24Z",
+    "source": "llm"
+  }
+}

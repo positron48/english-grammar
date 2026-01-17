@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-17T10:59:57Z",
+  "last_updated": "2026-01-17T15:34:39Z",
   "sections": [
     {
       "section_id": "en.grammar.orientation_how_to_read",
@@ -338,7 +338,7 @@
     {
       "chapter_id": "en.grammar.orientation_how_to_read.sentence_modes_statement_question",
       "section_id": "en.grammar.orientation_how_to_read",
-      "title": "Sentence modes: statement → question → negative (as "switches" of one idea)",
+      "title": "Sentence modes: statement → question → negative (as \"switches\" of one idea)",
       "level": "A0",
       "order": 3,
       "status": "generated",
@@ -389,19 +389,47 @@
       "title": "Personal pronouns + am/is/are (I am, you are…)",
       "level": "A1",
       "order": 101,
-      "status": "pending",
+      "status": "generated",
       "input_file": "config/chapter-templates/en.grammar.first_sentences_be_as.personal_pronouns_am_is-input.json",
-      "output_dir": "chapters/en.grammar.first_sentences_be_as.personal_pronouns_am_is"
+      "output_dir": "chapters/en.grammar.first_sentences_be_as.personal_pronouns_am_is",
+      "started_at": "2026-01-17T15:07:17.655326Z",
+      "completed_at": "2026-01-17T15:12:00.249575Z",
+      "files": {
+        "outline": "chapters/en.grammar.first_sentences_be_as.personal_pronouns_am_is/01-outline.json",
+        "theory_blocks": "chapters/en.grammar.first_sentences_be_as.personal_pronouns_am_is/02-theory-blocks/",
+        "questions": "chapters/en.grammar.first_sentences_be_as.personal_pronouns_am_is/03-questions.json",
+        "inline_quizzes": "chapters/en.grammar.first_sentences_be_as.personal_pronouns_am_is/04-inline-quizzes.json",
+        "final": "chapters/en.grammar.first_sentences_be_as.personal_pronouns_am_is/05-final.json",
+        "validation": "chapters/en.grammar.first_sentences_be_as.personal_pronouns_am_is/05-validation.json"
+      },
+      "validation": {
+        "is_valid": true,
+        "last_validated": "2026-01-17T15:12:00.249613Z"
+      }
     },
     {
       "chapter_id": "en.grammar.first_sentences_be_as.statements_with_be_identity",
       "section_id": "en.grammar.first_sentences_be_as",
-      "title": "Statements with be: identity / description / location (I’m a student. She’s at home.)",
+      "title": "Statements with be: identity / description / location (I'm a student. She's at home.)",
       "level": "A1",
       "order": 102,
-      "status": "pending",
+      "status": "generated",
+      "started_at": "2026-01-17T15:24:06Z",
+      "completed_at": "2026-01-17T15:34:39Z",
       "input_file": "config/chapter-templates/en.grammar.first_sentences_be_as.statements_with_be_identity-input.json",
-      "output_dir": "chapters/en.grammar.first_sentences_be_as.statements_with_be_identity"
+      "output_dir": "chapters/en.grammar.first_sentences_be_as.statements_with_be_identity",
+      "files": {
+        "outline": "chapters/en.grammar.first_sentences_be_as.statements_with_be_identity/01-outline.json",
+        "theory_blocks": "chapters/en.grammar.first_sentences_be_as.statements_with_be_identity/02-theory-blocks/",
+        "questions": "chapters/en.grammar.first_sentences_be_as.statements_with_be_identity/03-questions.json",
+        "inline_quizzes": "chapters/en.grammar.first_sentences_be_as.statements_with_be_identity/04-inline-quizzes.json",
+        "final": "chapters/en.grammar.first_sentences_be_as.statements_with_be_identity/05-final.json",
+        "validation": "chapters/en.grammar.first_sentences_be_as.statements_with_be_identity/05-validation.json"
+      },
+      "validation": {
+        "is_valid": true,
+        "last_validated": "2026-01-17T15:34:39Z"
+      }
     },
     {
       "chapter_id": "en.grammar.first_sentences_be_as.questions_with_be_are",
@@ -1657,10 +1685,10 @@
   "summary": {
     "total_sections": 19,
     "total_chapters": 131,
-    "chapters_generated": 4,
+    "chapters_generated": 6,
     "chapters_in_progress": 0,
-    "chapters_pending": 127,
+    "chapters_pending": 125,
     "chapters_failed": 0,
-    "chapters_validated": 4
+    "chapters_validated": 6
   }
 }

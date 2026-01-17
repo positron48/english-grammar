@@ -1,0 +1,1420 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.first_sentences_be_as.personal_pronouns_am_is",
+  "section_id": "en.grammar.first_sentences_be_as",
+  "title": "Personal pronouns + am/is/are (I am, you are…)",
+  "title_short": "Personal pronouns + am/is/are",
+  "description": "Изучаем личные местоимения и их сочетания с глаголом be в форме am, is, are. Базовый уровень для построения первых предложений на английском языке.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "A1",
+  "order": 0,
+  "prerequisites": [],
+  "concept_refs": [
+    "personal_pronouns_basics",
+    "be_verb_forms",
+    "pronouns_be_combinations",
+    "singular_plural_pronouns",
+    "basic_be_patterns"
+  ],
+  "learning_objectives": [
+    "Знать личные местоимения: I, you, he, she, it, we, they",
+    "Понимать и использовать правильные формы be: am, is, are",
+    "Составлять простые предложения с местоимениями и be",
+    "Различать единственное и множественное число местоимений"
+  ],
+  "estimated_minutes": 25,
+  "blocks": [
+    {
+      "id": "b1_theory_personal_pronouns",
+      "type": "theory",
+      "title": "Личные местоимения (Personal Pronouns) заменяют существительные и указывают на лицо или предмет. В английском языке есть семь основных личных местоимений:",
+      "theory": {
+        "concept_id": "personal_pronouns_basics",
+        "content_md": "**Личные местоимения** (Personal Pronouns) заменяют существительные и указывают на лицо или предмет. В английском языке есть семь основных личных местоимений:\n\n- **I** (я) — первое лицо единственного числа\n- **you** (ты/вы) — второе лицо (единственное и множественное)\n- **he** (он) — третье лицо единственного числа, мужской род\n- **she** (она) — третье лицо единственного числа, женский род\n- **it** (оно) — третье лицо единственного числа, неодушевленные предметы\n- **we** (мы) — первое лицо множественного числа\n- **they** (они) — третье лицо множественного числа\n\nМестоимения используются вместо имен существительных, чтобы избежать повторений и делать речь более естественной.",
+        "key_points": [
+          "I = я, you = ты/вы, he = он, she = она, it = оно, we = мы, they = они",
+          "You используется и для одного человека, и для нескольких (вежливая форма)",
+          "It используется для предметов, животных (когда не важен пол) и явлений природы"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I am a student.",
+            "translation": "Я студент.",
+            "notes": "I всегда пишется с большой буквы",
+            "tags": [
+              "pronoun_i"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "You are my friend.",
+            "translation": "Ты мой друг. / Вы мой друг.",
+            "notes": "You может означать и одного человека, и нескольких",
+            "tags": [
+              "pronoun_you"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "She is a teacher.",
+            "translation": "Она учитель.",
+            "tags": [
+              "pronoun_she"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_personal_pronouns",
+      "type": "quiz_inline",
+      "title": "Quick check: личные местоимения",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5",
+          "q6"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_am_is_are_forms",
+      "type": "theory",
+      "title": "Глагол be (быть) имеет три основные формы в настоящем времени:",
+      "theory": {
+        "concept_id": "be_verb_forms",
+        "content_md": "Глагол **be** (быть) имеет три основные формы в настоящем времени:\n\n- **am** — используется только с местоимением **I**\n- **is** — используется с местоимениями **he, she, it** (единственное число, третье лицо)\n- **are** — используется с местоимениями **you, we, they**\n\nЭти формы называются формами настоящего времени глагола be. Они связывают подлежащее с информацией о нем (кто мы, где мы, кем мы являемся).",
+        "key_points": [
+          "am — только с I",
+          "is — с he, she, it (единственное число, третье лицо)",
+          "are — с you, we, they"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I am happy.",
+            "translation": "Я счастлив.",
+            "tags": [
+              "pronoun_i",
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "He is at home.",
+            "translation": "Он дома.",
+            "tags": [
+              "pronoun_he",
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "They are friends.",
+            "translation": "Они друзья.",
+            "tags": [
+              "pronoun_they",
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_am_is_are_forms",
+      "type": "quiz_inline",
+      "title": "Quick check: формы be (am, is, are)",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14",
+          "q15",
+          "q16",
+          "q17",
+          "q18"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_pronouns_with_be",
+      "type": "theory",
+      "title": "Каждое местоимение имеет свою обязательную форму глагола be. Запомните правильные сочетания:",
+      "theory": {
+        "concept_id": "pronouns_be_combinations",
+        "content_md": "Каждое местоимение имеет свою обязательную форму глагола be. Запомните правильные сочетания:\n\n- **I am** (не I is, не I are)\n- **you are** (не you am, не you is)\n- **he is** (не he am, не he are)\n- **she is** (не she am, не she are)\n- **it is** (не it am, не it are)\n- **we are** (не we am, не we is)\n- **they are** (не they am, не they is)\n\nЭто правило не имеет исключений. Каждая пара местоимение + be является фиксированной комбинацией.",
+        "key_points": [
+          "I am — фиксированное сочетание",
+          "he/she/it is — фиксированное сочетание",
+          "you/we/they are — фиксированное сочетание",
+          "Нет исключений: каждая комбинация обязательна"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "I is happy.",
+            "right": "I am happy.",
+            "why": "С I всегда используется am, никогда is"
+          },
+          {
+            "wrong": "They is students.",
+            "right": "They are students.",
+            "why": "С they всегда используется are, никогда is"
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I am a student.",
+            "translation": "Я студент.",
+            "tags": [
+              "pronoun_i",
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "She is from London.",
+            "translation": "Она из Лондона.",
+            "tags": [
+              "pronoun_she",
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "We are at school.",
+            "translation": "Мы в школе.",
+            "tags": [
+              "pronoun_we",
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_pronouns_with_be",
+      "type": "quiz_inline",
+      "title": "Quick check: сочетания местоимений с be",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26",
+          "q27",
+          "q28",
+          "q29",
+          "q30"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_singular_plural",
+      "type": "theory",
+      "title": "Местоимения делятся на единственное и множественное число:",
+      "theory": {
+        "concept_id": "singular_plural_pronouns",
+        "content_md": "Местоимения делятся на **единственное** и **множественное** число:\n\n**Единственное число:**\n- I (я)\n- you (ты/вы — форма одинаковая)\n- he (он)\n- she (она)\n- it (оно)\n\n**Множественное число:**\n- we (мы)\n- they (они)\n- you (вы — форма одинаковая для единственного и множественного)\n\nМестоимение **you** особенное: оно одинаково для единственного и множественного числа. Также важно помнить: **they** используется не только для людей, но и для предметов во множественном числе.",
+        "key_points": [
+          "Единственное число: I, you, he, she, it",
+          "Множественное число: we, they, you",
+          "You одинаково для одного и нескольких людей",
+          "They используется для людей и предметов во множественном числе"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I am a teacher.",
+            "translation": "Я учитель.",
+            "notes": "Единственное число",
+            "tags": [
+              "singular"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "We are students.",
+            "translation": "Мы студенты.",
+            "notes": "Множественное число",
+            "tags": [
+              "plural"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "They are books.",
+            "translation": "Это книги.",
+            "notes": "They может относиться к предметам",
+            "tags": [
+              "plural",
+              "objects"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8_quiz_after_singular_plural",
+      "type": "quiz_inline",
+      "title": "Quick check: единственное и множественное число",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38",
+          "q39",
+          "q40",
+          "q41",
+          "q42"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_common_patterns",
+      "type": "theory",
+      "title": "С местоимениями и глаголом be можно строить простые предложения по основным паттернам:",
+      "theory": {
+        "concept_id": "basic_be_patterns",
+        "content_md": "С местоимениями и глаголом be можно строить простые предложения по основным паттернам:\n\n1. **Местоимение + be + существительное** (описание/идентификация)\n   - I am a student. / He is a doctor.\n\n2. **Местоимение + be + прилагательное** (характеристика)\n   - She is happy. / They are tired.\n\n3. **Местоимение + be + место** (местоположение)\n   - We are at home. / It is here.\n\nПорядок слов в утвердительном предложении: **Подлежащее (местоимение) + Сказуемое (be) + Дополнение/Обстоятельство**.\n\nЭто основа для всех простых предложений с глаголом be. Позже вы научитесь строить вопросы и отрицания.",
+        "key_points": [
+          "Порядок: местоимение + be + остальное",
+          "be + существительное (I am a student)",
+          "be + прилагательное (She is happy)",
+          "be + место (We are here)"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I am a student.",
+            "translation": "Я студент.",
+            "notes": "Местоимение + be + существительное",
+            "tags": [
+              "pattern_noun"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "She is happy.",
+            "translation": "Она счастлива.",
+            "notes": "Местоимение + be + прилагательное",
+            "tags": [
+              "pattern_adjective"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "We are at home.",
+            "translation": "Мы дома.",
+            "notes": "Местоимение + be + место",
+            "tags": [
+              "pattern_location"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Что означает местоимение \"I\"?",
+        "theory_block_id": "b1_theory_personal_pronouns",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "ты",
+            "feedback": "Нет, 'you' означает 'ты'"
+          },
+          {
+            "id": "b",
+            "text": "я",
+            "feedback": "Правильно! 'I' означает 'я'"
+          },
+          {
+            "id": "c",
+            "text": "он",
+            "feedback": "Нет, 'he' означает 'он'"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Местоимение 'I' означает 'я' (первое лицо единственного числа).",
+        "tags": [
+          "pronoun_i"
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Что означает местоимение \"she\"?",
+        "theory_block_id": "b1_theory_personal_pronouns",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "он",
+            "feedback": "Нет, 'he' означает 'он'"
+          },
+          {
+            "id": "b",
+            "text": "она",
+            "feedback": "Правильно! 'she' означает 'она'"
+          },
+          {
+            "id": "c",
+            "text": "оно",
+            "feedback": "Нет, 'it' означает 'оно'"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Местоимение 'she' означает 'она' (третье лицо единственного числа, женский род).",
+        "tags": [
+          "pronoun_she"
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Что означает местоимение \"they\"?",
+        "theory_block_id": "b1_theory_personal_pronouns",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "мы",
+            "feedback": "Нет, 'we' означает 'мы'"
+          },
+          {
+            "id": "b",
+            "text": "они",
+            "feedback": "Правильно! 'they' означает 'они'"
+          },
+          {
+            "id": "c",
+            "text": "вы",
+            "feedback": "Нет, 'you' означает 'вы'"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Местоимение 'they' означает 'они' (третье лицо множественного числа).",
+        "tags": [
+          "pronoun_they"
+        ]
+      },
+      {
+        "id": "q4",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **___ am a student.** (я)",
+        "theory_block_id": "b1_theory_personal_pronouns",
+        "difficulty": 1,
+        "correct_answer": "I",
+        "explanation": "Местоимение 'I' означает 'я' и используется с формой 'am'.",
+        "tags": [
+          "pronoun_i"
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **___ is a teacher.** (она)",
+        "theory_block_id": "b1_theory_personal_pronouns",
+        "difficulty": 1,
+        "correct_answer": "She",
+        "explanation": "Местоимение 'She' означает 'она' и используется с формой 'is'.",
+        "tags": [
+          "pronoun_she"
+        ]
+      },
+      {
+        "id": "q6",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **___ are friends.** (мы)",
+        "theory_block_id": "b1_theory_personal_pronouns",
+        "difficulty": 1,
+        "correct_answer": "We",
+        "explanation": "Местоимение 'We' означает 'мы' и используется с формой 'are'.",
+        "tags": [
+          "pronoun_we"
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **___ is here.** (он)",
+        "theory_block_id": "b1_theory_personal_pronouns",
+        "difficulty": 1,
+        "correct_answer": "He",
+        "explanation": "Местоимение 'He' означает 'он' и используется с формой 'is'.",
+        "tags": [
+          "pronoun_he"
+        ]
+      },
+      {
+        "id": "q8",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **___ are at home.** (они)",
+        "theory_block_id": "b1_theory_personal_pronouns",
+        "difficulty": 1,
+        "correct_answer": "They",
+        "explanation": "Местоимение 'They' означает 'они' и используется с формой 'are'.",
+        "tags": [
+          "pronoun_they"
+        ]
+      },
+      {
+        "id": "q9",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Местоимение 'you' используется только для одного человека.**",
+        "theory_block_id": "b1_theory_personal_pronouns",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. Местоимение 'you' используется и для одного человека, и для нескольких людей.",
+        "tags": [
+          "pronoun_you"
+        ]
+      },
+      {
+        "id": "q10",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Местоимение 'it' используется только для неодушевленных предметов.**",
+        "theory_block_id": "b1_theory_personal_pronouns",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. Местоимение 'it' также используется для животных, когда пол не важен.",
+        "tags": [
+          "pronoun_it"
+        ]
+      },
+      {
+        "id": "q11",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_personal_pronouns",
+        "difficulty": 2,
+        "correct_answer": "I am a student.",
+        "explanation": "Правильный порядок: местоимение (I) → форма be (am) → остальное (a student).",
+        "tags": [
+          "pronoun_i",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q12",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_personal_pronouns",
+        "difficulty": 2,
+        "correct_answer": "She is happy.",
+        "explanation": "Правильный порядок: местоимение (She) → форма be (is) → остальное (happy).",
+        "tags": [
+          "pronoun_she",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму глагола be для местоимения \"I\":",
+        "theory_block_id": "b2_theory_am_is_are_forms",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "am",
+            "feedback": "Правильно! С 'I' всегда используется 'am'"
+          },
+          {
+            "id": "b",
+            "text": "is",
+            "feedback": "Нет, 'is' используется с he, she, it"
+          },
+          {
+            "id": "c",
+            "text": "are",
+            "feedback": "Нет, 'are' используется с you, we, they"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С местоимением 'I' всегда используется форма 'am'. Это фиксированное правило.",
+        "tags": [
+          "be_forms",
+          "am"
+        ]
+      },
+      {
+        "id": "q14",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму глагола be для местоимения \"he\":",
+        "theory_block_id": "b2_theory_am_is_are_forms",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "am",
+            "feedback": "Нет, 'am' используется только с 'I'"
+          },
+          {
+            "id": "b",
+            "text": "is",
+            "feedback": "Правильно! С 'he' используется 'is'"
+          },
+          {
+            "id": "c",
+            "text": "are",
+            "feedback": "Нет, 'are' используется с you, we, they"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "С местоимением 'he' используется форма 'is'. Также 'is' используется с 'she' и 'it'.",
+        "tags": [
+          "be_forms",
+          "is"
+        ]
+      },
+      {
+        "id": "q15",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму глагола be для местоимения \"they\":",
+        "theory_block_id": "b2_theory_am_is_are_forms",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "am",
+            "feedback": "Нет, 'am' используется только с 'I'"
+          },
+          {
+            "id": "b",
+            "text": "is",
+            "feedback": "Нет, 'is' используется с he, she, it"
+          },
+          {
+            "id": "c",
+            "text": "are",
+            "feedback": "Правильно! С 'they' используется 'are'"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "С местоимением 'they' используется форма 'are'. Также 'are' используется с 'you' и 'we'.",
+        "tags": [
+          "be_forms",
+          "are"
+        ]
+      },
+      {
+        "id": "q16",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **I ___ happy.** (be, форма для I)",
+        "theory_block_id": "b2_theory_am_is_are_forms",
+        "difficulty": 1,
+        "correct_answer": "am",
+        "explanation": "С местоимением 'I' всегда используется форма 'am'.",
+        "tags": [
+          "be_forms",
+          "am"
+        ]
+      },
+      {
+        "id": "q17",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **He ___ a doctor.** (be, форма для he/she/it)",
+        "theory_block_id": "b2_theory_am_is_are_forms",
+        "difficulty": 1,
+        "correct_answer": "is",
+        "explanation": "С местоимением 'he' используется форма 'is'. Также 'is' используется с 'she' и 'it'.",
+        "tags": [
+          "be_forms",
+          "is"
+        ]
+      },
+      {
+        "id": "q18",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **We ___ students.** (be, форма для you/we/they)",
+        "theory_block_id": "b2_theory_am_is_are_forms",
+        "difficulty": 1,
+        "correct_answer": "are",
+        "explanation": "С местоимением 'we' используется форма 'are'. Также 'are' используется с 'you' и 'they'.",
+        "tags": [
+          "be_forms",
+          "are"
+        ]
+      },
+      {
+        "id": "q19",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **She ___ a teacher.** (be)",
+        "theory_block_id": "b2_theory_am_is_are_forms",
+        "difficulty": 1,
+        "correct_answer": "is",
+        "explanation": "С местоимением 'she' используется форма 'is'.",
+        "tags": [
+          "be_forms",
+          "is"
+        ]
+      },
+      {
+        "id": "q20",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **They ___ at school.** (be)",
+        "theory_block_id": "b2_theory_am_is_are_forms",
+        "difficulty": 1,
+        "correct_answer": "are",
+        "explanation": "С местоимением 'they' используется форма 'are'.",
+        "tags": [
+          "be_forms",
+          "are"
+        ]
+      },
+      {
+        "id": "q21",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Форма 'am' используется только с местоимением 'I'.**",
+        "theory_block_id": "b2_theory_am_is_are_forms",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да, верно. Форма 'am' используется только с местоимением 'I'. Это фиксированное правило без исключений.",
+        "tags": [
+          "be_forms",
+          "am"
+        ]
+      },
+      {
+        "id": "q22",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Форма 'is' используется с местоимениями he, she, it и we.**",
+        "theory_block_id": "b2_theory_am_is_are_forms",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. Форма 'is' используется только с he, she, it. С 'we' используется форма 'are'.",
+        "tags": [
+          "be_forms",
+          "is"
+        ]
+      },
+      {
+        "id": "q23",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_am_is_are_forms",
+        "difficulty": 2,
+        "correct_answer": "I am here.",
+        "explanation": "Правильный порядок: местоимение (I) → форма be (am) → остальное (here).",
+        "tags": [
+          "be_forms",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q24",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_am_is_are_forms",
+        "difficulty": 2,
+        "correct_answer": "She is at home.",
+        "explanation": "Правильный порядок: местоимение (She) → форма be (is) → остальное (at home).",
+        "tags": [
+          "be_forms",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:\n\n**I ___ a student.**",
+        "theory_block_id": "b3_theory_pronouns_with_be",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "am",
+            "feedback": "Правильно! С 'I' используется 'am'"
+          },
+          {
+            "id": "b",
+            "text": "is",
+            "feedback": "Нет, 'is' используется с he, she, it"
+          },
+          {
+            "id": "c",
+            "text": "are",
+            "feedback": "Нет, 'are' используется с you, we, they"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С местоимением 'I' всегда используется форма 'am'.",
+        "tags": [
+          "pronouns_be",
+          "combinations"
+        ]
+      },
+      {
+        "id": "q26",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:\n\n**They ___ friends.**",
+        "theory_block_id": "b3_theory_pronouns_with_be",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "am",
+            "feedback": "Нет, 'am' используется только с 'I'"
+          },
+          {
+            "id": "b",
+            "text": "is",
+            "feedback": "Нет, 'is' используется с he, she, it"
+          },
+          {
+            "id": "c",
+            "text": "are",
+            "feedback": "Правильно! С 'they' используется 'are'"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "С местоимением 'they' всегда используется форма 'are'.",
+        "tags": [
+          "pronouns_be",
+          "combinations"
+        ]
+      },
+      {
+        "id": "q27",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:\n\n**He ___ a doctor.**",
+        "theory_block_id": "b3_theory_pronouns_with_be",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "am",
+            "feedback": "Нет, 'am' используется только с 'I'"
+          },
+          {
+            "id": "b",
+            "text": "is",
+            "feedback": "Правильно! С 'he' используется 'is'"
+          },
+          {
+            "id": "c",
+            "text": "are",
+            "feedback": "Нет, 'are' используется с you, we, they"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "С местоимением 'he' всегда используется форма 'is'.",
+        "tags": [
+          "pronouns_be",
+          "combinations"
+        ]
+      },
+      {
+        "id": "q28",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **I ___ happy.** (be, правильная форма)",
+        "theory_block_id": "b3_theory_pronouns_with_be",
+        "difficulty": 1,
+        "correct_answer": "am",
+        "explanation": "С местоимением 'I' всегда используется форма 'am'. Это фиксированное сочетание.",
+        "tags": [
+          "pronouns_be",
+          "combinations"
+        ]
+      },
+      {
+        "id": "q29",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **She ___ a teacher.** (be, правильная форма)",
+        "theory_block_id": "b3_theory_pronouns_with_be",
+        "difficulty": 1,
+        "correct_answer": "is",
+        "explanation": "С местоимением 'she' всегда используется форма 'is'. Это фиксированное сочетание.",
+        "tags": [
+          "pronouns_be",
+          "combinations"
+        ]
+      },
+      {
+        "id": "q30",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **We ___ at home.** (be, правильная форма)",
+        "theory_block_id": "b3_theory_pronouns_with_be",
+        "difficulty": 1,
+        "correct_answer": "are",
+        "explanation": "С местоимением 'we' всегда используется форма 'are'. Это фиксированное сочетание.",
+        "tags": [
+          "pronouns_be",
+          "combinations"
+        ]
+      },
+      {
+        "id": "q31",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **You ___ my friend.** (be, правильная форма)",
+        "theory_block_id": "b3_theory_pronouns_with_be",
+        "difficulty": 1,
+        "correct_answer": "are",
+        "explanation": "С местоимением 'you' всегда используется форма 'are'. Это фиксированное сочетание.",
+        "tags": [
+          "pronouns_be",
+          "combinations"
+        ]
+      },
+      {
+        "id": "q32",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **It ___ a book.** (be, правильная форма)",
+        "theory_block_id": "b3_theory_pronouns_with_be",
+        "difficulty": 1,
+        "correct_answer": "is",
+        "explanation": "С местоимением 'it' всегда используется форма 'is'. Это фиксированное сочетание.",
+        "tags": [
+          "pronouns_be",
+          "combinations"
+        ]
+      },
+      {
+        "id": "q33",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**С местоимением 'I' можно использовать форму 'is'.**",
+        "theory_block_id": "b3_theory_pronouns_with_be",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. С местоимением 'I' всегда используется только форма 'am'. Никогда 'is' или 'are'.",
+        "tags": [
+          "pronouns_be",
+          "combinations"
+        ]
+      },
+      {
+        "id": "q34",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**С местоимением 'they' всегда используется форма 'are'.**",
+        "theory_block_id": "b3_theory_pronouns_with_be",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да, верно. С местоимением 'they' всегда используется только форма 'are'. Это фиксированное правило.",
+        "tags": [
+          "pronouns_be",
+          "combinations"
+        ]
+      },
+      {
+        "id": "q35",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_pronouns_with_be",
+        "difficulty": 2,
+        "correct_answer": "I am a student.",
+        "explanation": "Правильный порядок: местоимение (I) → форма be (am) → остальное (a student).",
+        "tags": [
+          "pronouns_be",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q36",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_pronouns_with_be",
+        "difficulty": 2,
+        "correct_answer": "They are friends.",
+        "explanation": "Правильный порядок: местоимение (They) → форма be (are) → остальное (friends).",
+        "tags": [
+          "pronouns_be",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Выберите местоимение множественного числа:",
+        "theory_block_id": "b4_theory_singular_plural",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I",
+            "feedback": "Нет, 'I' — единственное число"
+          },
+          {
+            "id": "b",
+            "text": "we",
+            "feedback": "Правильно! 'we' — множественное число"
+          },
+          {
+            "id": "c",
+            "text": "he",
+            "feedback": "Нет, 'he' — единственное число"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Местоимение 'we' (мы) — это множественное число (первое лицо множественного числа).",
+        "tags": [
+          "singular_plural"
+        ]
+      },
+      {
+        "id": "q38",
+        "type": "mcq_single",
+        "prompt": "Выберите местоимение единственного числа:",
+        "theory_block_id": "b4_theory_singular_plural",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "we",
+            "feedback": "Нет, 'we' — множественное число"
+          },
+          {
+            "id": "b",
+            "text": "they",
+            "feedback": "Нет, 'they' — множественное число"
+          },
+          {
+            "id": "c",
+            "text": "she",
+            "feedback": "Правильно! 'she' — единственное число"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Местоимение 'she' (она) — это единственное число (третье лицо единственного числа).",
+        "tags": [
+          "singular_plural"
+        ]
+      },
+      {
+        "id": "q39",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск местоимением единственного числа: **___ is happy.** (он)",
+        "theory_block_id": "b4_theory_singular_plural",
+        "difficulty": 1,
+        "correct_answer": "He",
+        "explanation": "Местоимение 'He' (он) — это единственное число.",
+        "tags": [
+          "singular_plural"
+        ]
+      },
+      {
+        "id": "q40",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск местоимением множественного числа: **___ are students.** (они)",
+        "theory_block_id": "b4_theory_singular_plural",
+        "difficulty": 1,
+        "correct_answer": "They",
+        "explanation": "Местоимение 'They' (они) — это множественное число.",
+        "tags": [
+          "singular_plural"
+        ]
+      },
+      {
+        "id": "q41",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Местоимение 'you' используется только для множественного числа.**",
+        "theory_block_id": "b4_theory_singular_plural",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. Местоимение 'you' используется и для единственного, и для множественного числа. Форма одинаковая.",
+        "tags": [
+          "singular_plural"
+        ]
+      },
+      {
+        "id": "q42",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Местоимение 'they' используется только для людей.**",
+        "theory_block_id": "b4_theory_singular_plural",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нет, неверно. Местоимение 'they' используется для людей и предметов во множественном числе.",
+        "tags": [
+          "singular_plural"
+        ]
+      },
+      {
+        "id": "q43",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_singular_plural",
+        "difficulty": 2,
+        "correct_answer": "We are students.",
+        "explanation": "Правильный порядок: местоимение (We, множественное число) → форма be (are) → остальное (students).",
+        "tags": [
+          "singular_plural",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q44",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_singular_plural",
+        "difficulty": 2,
+        "correct_answer": "She is a teacher.",
+        "explanation": "Правильный порядок: местоимение (She, единственное число) → форма be (is) → остальное (a teacher).",
+        "tags": [
+          "singular_plural",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:\n\n**I ___ a student.**",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "am",
+            "feedback": "Правильно! С 'I' используется 'am'"
+          },
+          {
+            "id": "b",
+            "text": "is",
+            "feedback": "Нет, 'is' используется с he, she, it"
+          },
+          {
+            "id": "c",
+            "text": "are",
+            "feedback": "Нет, 'are' используется с you, we, they"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Паттерн: местоимение (I) + be (am) + существительное (a student).",
+        "tags": [
+          "patterns"
+        ]
+      },
+      {
+        "id": "q46",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:\n\n**She ___ happy.**",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "am",
+            "feedback": "Нет, 'am' используется только с 'I'"
+          },
+          {
+            "id": "b",
+            "text": "is",
+            "feedback": "Правильно! С 'she' используется 'is'"
+          },
+          {
+            "id": "c",
+            "text": "are",
+            "feedback": "Нет, 'are' используется с you, we, they"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Паттерн: местоимение (She) + be (is) + прилагательное (happy).",
+        "tags": [
+          "patterns"
+        ]
+      },
+      {
+        "id": "q47",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **We ___ at home.** (be, правильная форма)",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 1,
+        "correct_answer": "are",
+        "explanation": "Паттерн: местоимение (We) + be (are) + место (at home).",
+        "tags": [
+          "patterns"
+        ]
+      },
+      {
+        "id": "q48",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **He ___ a doctor.** (be, правильная форма)",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 1,
+        "correct_answer": "is",
+        "explanation": "Паттерн: местоимение (He) + be (is) + существительное (a doctor).",
+        "tags": [
+          "patterns"
+        ]
+      },
+      {
+        "id": "q49",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **They ___ tired.** (be, правильная форма)",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 1,
+        "correct_answer": "are",
+        "explanation": "Паттерн: местоимение (They) + be (are) + прилагательное (tired).",
+        "tags": [
+          "patterns"
+        ]
+      },
+      {
+        "id": "q50",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Порядок слов в английском предложении: местоимение → be → остальное.**",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да, верно. В английском языке порядок слов строгий: подлежащее (местоимение) → сказуемое (be) → дополнение/обстоятельство.",
+        "tags": [
+          "patterns",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q51",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 2,
+        "correct_answer": "I am a student.",
+        "explanation": "Правильный порядок: местоимение (I) → форма be (am) → существительное (a student).",
+        "tags": [
+          "patterns",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q52",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 2,
+        "correct_answer": "She is happy.",
+        "explanation": "Правильный порядок: местоимение (She) → форма be (is) → прилагательное (happy).",
+        "tags": [
+          "patterns",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q53",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 2,
+        "correct_answer": "We are here.",
+        "explanation": "Правильный порядок: местоимение (We) → форма be (are) → место (here).",
+        "tags": [
+          "patterns",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q54",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант для завершения предложения:\n\n**They ___ books.**",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "are",
+            "feedback": "Правильно! 'are' используется с 'they', а 'books' — множественное число"
+          },
+          {
+            "id": "b",
+            "text": "is",
+            "feedback": "Нет, 'is' используется с he, she, it"
+          },
+          {
+            "id": "c",
+            "text": "am",
+            "feedback": "Нет, 'am' используется только с 'I'"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Паттерн: местоимение (They) + be (are) + существительное (books, множественное число).",
+        "tags": [
+          "patterns"
+        ]
+      },
+      {
+        "id": "q55",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант для завершения предложения:\n\n**It ___ a book.**",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "are",
+            "feedback": "Нет, 'are' используется с you, we, they"
+          },
+          {
+            "id": "b",
+            "text": "is",
+            "feedback": "Правильно! 'is' используется с 'it'"
+          },
+          {
+            "id": "c",
+            "text": "am",
+            "feedback": "Нет, 'am' используется только с 'I'"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Паттерн: местоимение (It) + be (is) + существительное (a book).",
+        "tags": [
+          "patterns"
+        ]
+      },
+      {
+        "id": "q56",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **You ___ my friend.** (be, правильная форма)",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 1,
+        "correct_answer": "are",
+        "explanation": "Паттерн: местоимение (You) + be (are) + существительное (my friend).",
+        "tags": [
+          "patterns"
+        ]
+      },
+      {
+        "id": "q57",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: **I ___ at school.** (be, правильная форма)",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 1,
+        "correct_answer": "am",
+        "explanation": "Паттерн: местоимение (I) + be (am) + место (at school).",
+        "tags": [
+          "patterns"
+        ]
+      },
+      {
+        "id": "q58",
+        "type": "true_false",
+        "prompt": "Верно ли утверждение?\n\n**Можно использовать паттерн: местоимение + be + прилагательное.**",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да, верно. Один из основных паттернов: местоимение + be + прилагательное (например, 'She is happy').",
+        "tags": [
+          "patterns"
+        ]
+      },
+      {
+        "id": "q59",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 2,
+        "correct_answer": "They are at home.",
+        "explanation": "Правильный порядок: местоимение (They) → форма be (are) → место (at home).",
+        "tags": [
+          "patterns",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q60",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 2,
+        "correct_answer": "He is a doctor.",
+        "explanation": "Правильный порядок: местоимение (He) → форма be (is) → существительное (a doctor).",
+        "tags": [
+          "patterns",
+          "word_order"
+        ]
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-17T15:28:30Z",
+    "source": "llm"
+  }
+}
