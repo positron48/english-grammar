@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-17T17:30:36Z",
+  "last_updated": "2026-01-17T18:30:00Z",
   "sections": [
     {
       "section_id": "en.grammar.orientation_how_to_read",
@@ -605,9 +605,23 @@
       "title": "**There is/are**: existence + questions + negatives",
       "level": "A1",
       "order": 202,
-      "status": "pending",
+      "status": "generated",
+      "started_at": "2026-01-17T18:00:00Z",
+      "completed_at": "2026-01-17T18:30:00Z",
       "input_file": "config/chapter-templates/en.grammar.talking_about_things_nouns.there_is_are_existence-input.json",
-      "output_dir": "chapters/en.grammar.talking_about_things_nouns.there_is_are_existence"
+      "output_dir": "chapters/en.grammar.talking_about_things_nouns.there_is_are_existence",
+      "files": {
+        "outline": "chapters/en.grammar.talking_about_things_nouns.there_is_are_existence/01-outline.json",
+        "theory_blocks": "chapters/en.grammar.talking_about_things_nouns.there_is_are_existence/02-theory-blocks/",
+        "questions": "chapters/en.grammar.talking_about_things_nouns.there_is_are_existence/03-questions.json",
+        "inline_quizzes": "chapters/en.grammar.talking_about_things_nouns.there_is_are_existence/04-inline-quizzes.json",
+        "final": "chapters/en.grammar.talking_about_things_nouns.there_is_are_existence/05-final.json",
+        "validation": "chapters/en.grammar.talking_about_things_nouns.there_is_are_existence/05-validation.json"
+      },
+      "validation": {
+        "is_valid": true,
+        "last_validated": "2026-01-17T18:30:00Z"
+      }
     },
     {
       "chapter_id": "en.grammar.talking_about_things_nouns.some_any_there_is",
@@ -1783,10 +1797,10 @@
   "summary": {
     "total_sections": 19,
     "total_chapters": 131,
-    "chapters_generated": 13,
+    "chapters_generated": 14,
     "chapters_in_progress": 0,
-    "chapters_pending": 118,
+    "chapters_pending": 117,
     "chapters_failed": 0,
-    "chapters_validated": 12
+    "chapters_validated": 13
   }
 }

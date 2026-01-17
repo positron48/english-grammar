@@ -1,0 +1,32 @@
+{
+  "validation_result": {
+    "is_valid": true,
+    "schema_valid": true,
+    "issues": [
+      {
+        "severity": "warning",
+        "category": "methodological",
+        "message": "Несбалансированные true_false вопросы: 15 true (75.0%) и 5 false (25.0%). Должно быть 50±10% (40-60%) вопросов с correct_answer 'true'.",
+        "location": "question_bank.questions (true_false)",
+        "suggested_fix": "Изменить correct_answer некоторых true_false вопросов. Сейчас true: 15, false: 5. Нужно примерно равное количество."
+      }
+    ],
+    "summary": {
+      "total_issues": 1,
+      "errors": 0,
+      "warnings": 1,
+      "suggestions": 0
+    },
+    "coverage": {
+      "theory_blocks_covered": 5,
+      "total_theory_blocks": 5,
+      "questions_per_block": {
+        "b1_theory_there_is_are_basic": 15,
+        "b2_theory_there_is_singular": 15,
+        "b3_theory_there_are_plural": 15,
+        "b4_theory_there_questions": 15,
+        "b5_theory_there_negatives": 15
+      }
+    }
+  }
+}
