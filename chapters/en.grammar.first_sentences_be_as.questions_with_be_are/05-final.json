@@ -1,0 +1,1684 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.first_sentences_be_as.questions_with_be_are",
+  "section_id": "en.grammar.first_sentences_be_as",
+  "title": "Questions with be: Are you…? What is…? (+ short answers)",
+  "title_short": "Questions with be: Are you…? What is…?",
+  "description": "Изучение вопросов с глаголом be: общие вопросы (Are you…?), специальные вопросы (What is…?), краткие ответы (Yes, I am / No, I'm not).",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "A1",
+  "order": 0,
+  "prerequisites": [
+    "en.grammar.first_sentences_be_as.statements_with_be_identity"
+  ],
+  "concept_refs": [
+    "yes_no_questions_with_be",
+    "wh_questions_with_be",
+    "short_answers_with_be",
+    "word_order_in_questions_be",
+    "common_question_patterns_be"
+  ],
+  "learning_objectives": [
+    "Научиться задавать общие вопросы с be (Are you…?, Is he…?)",
+    "Научиться задавать специальные вопросы с be (What is…?, Where are…?)",
+    "Использовать краткие ответы на вопросы с be (Yes, I am / No, I'm not)",
+    "Правильно использовать порядок слов в вопросах с be"
+  ],
+  "estimated_minutes": 25,
+  "blocks": [
+    {
+      "id": "b1_theory_yes_no_questions",
+      "type": "theory",
+      "title": "Общие вопросы с be — это вопросы, на которые можно ответить «да» или «нет».",
+      "theory": {
+        "concept_id": "yes_no_questions_with_be",
+        "content_md": "**Общие вопросы с be** — это вопросы, на которые можно ответить «да» или «нет».\n\nЧтобы задать общий вопрос, нужно поставить глагол **be** (am, is, are) **перед подлежащим**:\n\n- Утверждение: **You are** a student. → Вопрос: **Are you** a student?\n- Утверждение: **He is** at home. → Вопрос: **Is he** at home?\n- Утверждение: **They are** happy. → Вопрос: **Are they** happy?\n\n**Важно:** В вопросах порядок слов меняется — глагол be стоит перед подлежащим. Это называется **инверсией**.",
+        "key_points": [
+          "В общих вопросах глагол be стоит перед подлежащим",
+          "Используем am для I, is для he/she/it, are для you/we/they",
+          "Инверсия (перестановка) — главное отличие вопроса от утверждения"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "You are a student?",
+            "right": "Are you a student?",
+            "why": "В вопросах глагол be должен стоять перед подлежащим"
+          },
+          {
+            "wrong": "Is you a student?",
+            "right": "Are you a student?",
+            "why": "Для you используется are, а не is"
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Are you a teacher?",
+            "translation": "Ты учитель?",
+            "notes": "Общий вопрос с you",
+            "tags": [
+              "question",
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Is she at home?",
+            "translation": "Она дома?",
+            "notes": "Общий вопрос с she",
+            "tags": [
+              "question",
+              "location"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Are they students?",
+            "translation": "Они студенты?",
+            "notes": "Общий вопрос с they",
+            "tags": [
+              "question",
+              "plural"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_yes_no_questions",
+      "type": "quiz_inline",
+      "title": "Quick check: общие вопросы с be",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5",
+          "q6"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_wh_questions",
+      "type": "theory",
+      "title": "Специальные вопросы с be начинаются с вопросительных слов (Wh-слов): What (что), Where (где), Who (кто), How (как), Why (почему).",
+      "theory": {
+        "concept_id": "wh_questions_with_be",
+        "content_md": "**Специальные вопросы с be** начинаются с вопросительных слов (Wh-слов): **What** (что), **Where** (где), **Who** (кто), **How** (как), **Why** (почему).\n\nСтруктура специального вопроса:\n**Wh-слово + be + подлежащее + остальное?**\n\nПримеры:\n- **What is** your name? (Как тебя зовут?)\n- **Where are** you? (Где ты?)\n- **Who is** he? (Кто он?)\n- **How are** you? (Как дела?)\n\n**Важно:** После Wh-слова порядок слов такой же, как в общем вопросе: be стоит перед подлежащим.",
+        "key_points": [
+          "Специальные вопросы начинаются с Wh-слов (What, Where, Who, How, Why)",
+          "После Wh-слова порядок слов: be + подлежащее",
+          "Wh-слово заменяет информацию, которую мы хотим узнать"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "What your name is?",
+            "right": "What is your name?",
+            "why": "После Wh-слова порядок слов должен быть как в общем вопросе: be перед подлежащим"
+          },
+          {
+            "wrong": "Where you are?",
+            "right": "Where are you?",
+            "why": "Глагол be должен стоять перед подлежащим"
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "What is your name?",
+            "translation": "Как тебя зовут?",
+            "notes": "Специальный вопрос с What",
+            "tags": [
+              "question",
+              "wh_question"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Where are you from?",
+            "translation": "Откуда ты?",
+            "notes": "Специальный вопрос с Where",
+            "tags": [
+              "question",
+              "wh_question",
+              "location"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Who is that?",
+            "translation": "Кто это?",
+            "notes": "Специальный вопрос с Who",
+            "tags": [
+              "question",
+              "wh_question"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_wh_questions",
+      "type": "quiz_inline",
+      "title": "Quick check: специальные вопросы с be",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14",
+          "q15",
+          "q16",
+          "q17",
+          "q18"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_short_answers",
+      "type": "theory",
+      "title": "Краткие ответы — это короткие ответы на общие вопросы (Yes/No).",
+      "theory": {
+        "concept_id": "short_answers_with_be",
+        "content_md": "**Краткие ответы** — это короткие ответы на общие вопросы (Yes/No).\n\nСтруктура краткого ответа:\n**Yes/No + подлежащее + be** (в той же форме, что и в вопросе)\n\nПримеры:\n- Are you a student? → **Yes, I am** / **No, I'm not**\n- Is he at home? → **Yes, he is** / **No, he isn't**\n- Are they happy? → **Yes, they are** / **No, they aren't**\n\n**Важно:**\n- В кратком ответе используем ту же форму be (am, is, are), что и в вопросе\n- Можно использовать сокращения: I'm not, he isn't, they aren't\n- После Yes/No ставим запятую",
+        "key_points": [
+          "Краткий ответ: Yes/No + подлежащее + be (в той же форме)",
+          "Используем ту же форму be, что и в вопросе (am, is, are)",
+          "Можно использовать сокращения: I'm not, isn't, aren't"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Are you a student? — Yes, I'm.",
+            "right": "Are you a student? — Yes, I am.",
+            "why": "В кратком ответе нельзя использовать сокращение I'm — нужно полная форма I am"
+          },
+          {
+            "wrong": "Is he at home? — Yes, he are.",
+            "right": "Is he at home? — Yes, he is.",
+            "why": "Для he используется is, а не are"
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Are you a teacher? — Yes, I am.",
+            "translation": "Ты учитель? — Да.",
+            "notes": "Краткий ответ с I am",
+            "tags": [
+              "question",
+              "answer",
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Is she at home? — No, she isn't.",
+            "translation": "Она дома? — Нет.",
+            "notes": "Краткий ответ с отрицанием",
+            "tags": [
+              "question",
+              "answer",
+              "negative"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Are they students? — Yes, they are.",
+            "translation": "Они студенты? — Да.",
+            "notes": "Краткий ответ с they",
+            "tags": [
+              "question",
+              "answer",
+              "plural"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_short_answers",
+      "type": "quiz_inline",
+      "title": "Quick check: краткие ответы",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26",
+          "q27",
+          "q28",
+          "q29",
+          "q30"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_word_order",
+      "type": "theory",
+      "title": "Порядок слов в вопросах с be отличается от порядка слов в утверждениях.",
+      "theory": {
+        "concept_id": "word_order_in_questions_be",
+        "content_md": "**Порядок слов в вопросах с be** отличается от порядка слов в утверждениях.\n\n**Утверждение:**\nПодлежащее + be + остальное\n- **You are** a student.\n- **He is** at home.\n\n**Вопрос:**\nBe + подлежащее + остальное\n- **Are you** a student?\n- **Is he** at home?\n\n**Специальный вопрос:**\nWh-слово + be + подлежащее + остальное\n- **What is** your name?\n- **Where are** you?\n\n**Важно:** Главное отличие — глагол be стоит **перед** подлежащим в вопросах, а в утверждениях — **после** подлежащего.",
+        "key_points": [
+          "В утверждениях: подлежащее + be + остальное",
+          "В вопросах: be + подлежащее + остальное",
+          "В специальных вопросах: Wh-слово + be + подлежащее + остальное"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "You are a student?",
+            "right": "Are you a student?",
+            "why": "В вопросах be должен стоять перед подлежащим"
+          },
+          {
+            "wrong": "What your name is?",
+            "right": "What is your name?",
+            "why": "После Wh-слова порядок: be + подлежащее"
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "You are a student. → Are you a student?",
+            "translation": "Ты студент. → Ты студент?",
+            "notes": "Сравнение утверждения и вопроса",
+            "tags": [
+              "statement",
+              "question",
+              "comparison"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "He is at home. → Is he at home?",
+            "translation": "Он дома. → Он дома?",
+            "notes": "Сравнение утверждения и вопроса",
+            "tags": [
+              "statement",
+              "question",
+              "comparison"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "What is your name?",
+            "translation": "Как тебя зовут?",
+            "notes": "Специальный вопрос",
+            "tags": [
+              "question",
+              "wh_question"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8_quiz_after_word_order",
+      "type": "quiz_inline",
+      "title": "Quick check: порядок слов в вопросах",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38",
+          "q39",
+          "q40",
+          "q41",
+          "q42"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_common_patterns",
+      "type": "theory",
+      "title": "Типичные паттерны вопросов с be используются в повседневном общении.",
+      "theory": {
+        "concept_id": "common_question_patterns_be",
+        "content_md": "**Типичные паттерны вопросов с be** используются в повседневном общении.\n\n**Знакомство:**\n- What is your name? (Как тебя зовут?)\n- Where are you from? (Откуда ты?)\n- How are you? (Как дела?)\n\n**Описание:**\n- What is it? (Что это?)\n- Who is he? (Кто он?)\n- How old are you? (Сколько тебе лет?)\n\n**Местоположение:**\n- Where are you? (Где ты?)\n- Where is the book? (Где книга?)\n- Where are they? (Где они?)\n\n**Важно:** Эти вопросы очень часто используются в разговоре, поэтому их стоит запомнить.",
+        "key_points": [
+          "Вопросы знакомства: What is your name?, Where are you from?, How are you?",
+          "Вопросы описания: What is it?, Who is he?, How old are you?",
+          "Вопросы местоположения: Where are you?, Where is the book?"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "What your name is?",
+            "right": "What is your name?",
+            "why": "После What порядок слов: is + подлежащее"
+          },
+          {
+            "wrong": "Where you are from?",
+            "right": "Where are you from?",
+            "why": "После Where порядок слов: are + подлежащее"
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "What is your name?",
+            "translation": "Как тебя зовут?",
+            "notes": "Вопрос знакомства",
+            "tags": [
+              "question",
+              "introduction"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Where are you from?",
+            "translation": "Откуда ты?",
+            "notes": "Вопрос знакомства",
+            "tags": [
+              "question",
+              "introduction",
+              "location"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "How are you?",
+            "translation": "Как дела?",
+            "notes": "Вопрос знакомства",
+            "tags": [
+              "question",
+              "introduction"
+            ]
+          },
+          {
+            "id": "ex4",
+            "text": "Where is the book?",
+            "translation": "Где книга?",
+            "notes": "Вопрос местоположения",
+            "tags": [
+              "question",
+              "location"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант вопроса:",
+        "theory_block_id": "b1_theory_yes_no_questions",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "You are a student?",
+            "feedback": "Нет, в вопросах be стоит перед подлежащим"
+          },
+          {
+            "id": "b",
+            "text": "Are you a student?",
+            "feedback": "Правильно! В вопросах be стоит перед подлежащим"
+          },
+          {
+            "id": "c",
+            "text": "You is a student?",
+            "feedback": "Нет, для you используется are, а не is"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В общих вопросах с be глагол be стоит перед подлежащим: Are you a student?",
+        "tags": [
+          "yes_no_question"
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ you a teacher?\" (be)",
+        "theory_block_id": "b1_theory_yes_no_questions",
+        "difficulty": 1,
+        "correct_answer": "Are",
+        "explanation": "Для you используется форма are: Are you a teacher?",
+        "tags": [
+          "yes_no_question",
+          "fill_blank"
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант вопроса:",
+        "theory_block_id": "b1_theory_yes_no_questions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Is she at home?",
+            "feedback": "Правильно! Для she используется is"
+          },
+          {
+            "id": "b",
+            "text": "Are she at home?",
+            "feedback": "Нет, для she используется is, а не are"
+          },
+          {
+            "id": "c",
+            "text": "She is at home?",
+            "feedback": "Нет, в вопросах be стоит перед подлежащим"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для she используется форма is: Is she at home?",
+        "tags": [
+          "yes_no_question"
+        ]
+      },
+      {
+        "id": "q4",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"Is you a student?\"",
+        "theory_block_id": "b1_theory_yes_no_questions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Is → Are",
+            "feedback": "Правильно! Для you используется are"
+          },
+          {
+            "id": "b",
+            "text": "you → he",
+            "feedback": "Нет, ошибка в форме глагола be"
+          },
+          {
+            "id": "c",
+            "text": "a → the",
+            "feedback": "Нет, ошибка в форме глагола be"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для you используется форма are, а не is: Are you a student?",
+        "tags": [
+          "yes_no_question",
+          "error_spotting"
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_yes_no_questions",
+        "difficulty": 2,
+        "correct_answer": "Are they students?",
+        "explanation": "В вопросах порядок слов: be + подлежащее + остальное. Are they students?",
+        "tags": [
+          "yes_no_question",
+          "reorder"
+        ]
+      },
+      {
+        "id": "q6",
+        "type": "true_false",
+        "prompt": "Верно или неверно: В вопросе \"Are you a student?\" порядок слов правильный.",
+        "theory_block_id": "b1_theory_yes_no_questions",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Неверно! В вопросах be стоит перед подлежащим: Are you a student?",
+        "tags": [
+          "yes_no_question",
+          "true_false"
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ he at home?\" (be)",
+        "theory_block_id": "b1_theory_yes_no_questions",
+        "difficulty": 1,
+        "correct_answer": "Is",
+        "explanation": "Для he используется форма is: Is he at home?",
+        "tags": [
+          "yes_no_question",
+          "fill_blank"
+        ]
+      },
+      {
+        "id": "q8",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант вопроса:",
+        "theory_block_id": "b1_theory_yes_no_questions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Are we happy?",
+            "feedback": "Правильно! Для we используется are"
+          },
+          {
+            "id": "b",
+            "text": "Is we happy?",
+            "feedback": "Нет, для we используется are, а не is"
+          },
+          {
+            "id": "c",
+            "text": "We are happy?",
+            "feedback": "Нет, в вопросах be стоит перед подлежащим"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для we используется форма are: Are we happy?",
+        "tags": [
+          "yes_no_question"
+        ]
+      },
+      {
+        "id": "q9",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"Are I a student?\"",
+        "theory_block_id": "b1_theory_yes_no_questions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Are → Am",
+            "feedback": "Правильно! Для I используется am"
+          },
+          {
+            "id": "b",
+            "text": "I → you",
+            "feedback": "Нет, ошибка в форме глагола be"
+          },
+          {
+            "id": "c",
+            "text": "a → the",
+            "feedback": "Нет, ошибка в форме глагола be"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для I используется форма am, а не are: Am I a student?",
+        "tags": [
+          "yes_no_question",
+          "error_spotting"
+        ]
+      },
+      {
+        "id": "q10",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_yes_no_questions",
+        "difficulty": 2,
+        "correct_answer": "Is it a book?",
+        "explanation": "В вопросах порядок слов: be + подлежащее + остальное. Is it a book?",
+        "tags": [
+          "yes_no_question",
+          "reorder"
+        ]
+      },
+      {
+        "id": "q11",
+        "type": "true_false",
+        "prompt": "Верно или неверно: В вопросе \"Is she a teacher?\" порядок слов правильный.",
+        "theory_block_id": "b1_theory_yes_no_questions",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Неверно! В вопросах be стоит перед подлежащим: Is she a teacher?",
+        "tags": [
+          "yes_no_question",
+          "true_false"
+        ]
+      },
+      {
+        "id": "q12",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ I a student?\" (be)",
+        "theory_block_id": "b1_theory_yes_no_questions",
+        "difficulty": 1,
+        "correct_answer": "Am",
+        "explanation": "Для I используется форма am: Am I a student?",
+        "tags": [
+          "yes_no_question",
+          "fill_blank"
+        ]
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант вопроса:",
+        "theory_block_id": "b2_theory_wh_questions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "What your name is?",
+            "feedback": "Нет, после Wh-слова порядок: be + подлежащее"
+          },
+          {
+            "id": "b",
+            "text": "What is your name?",
+            "feedback": "Правильно! После Wh-слова порядок: be + подлежащее"
+          },
+          {
+            "id": "c",
+            "text": "What name is your?",
+            "feedback": "Нет, порядок слов неправильный"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В специальных вопросах после Wh-слова порядок слов: be + подлежащее. What is your name?",
+        "tags": [
+          "wh_question"
+        ]
+      },
+      {
+        "id": "q14",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ is your name?\" (вопросительное слово)",
+        "theory_block_id": "b2_theory_wh_questions",
+        "difficulty": 1,
+        "correct_answer": "What",
+        "explanation": "What используется для вопроса о предмете или имени: What is your name?",
+        "tags": [
+          "wh_question",
+          "fill_blank"
+        ]
+      },
+      {
+        "id": "q15",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант вопроса:",
+        "theory_block_id": "b2_theory_wh_questions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Where are you?",
+            "feedback": "Правильно! После Where порядок: be + подлежащее"
+          },
+          {
+            "id": "b",
+            "text": "Where you are?",
+            "feedback": "Нет, после Where порядок: be + подлежащее"
+          },
+          {
+            "id": "c",
+            "text": "Where is you?",
+            "feedback": "Нет, для you используется are, а не is"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После Where порядок слов: be + подлежащее. Where are you?",
+        "tags": [
+          "wh_question"
+        ]
+      },
+      {
+        "id": "q16",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"Where you are from?\"",
+        "theory_block_id": "b2_theory_wh_questions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "you are → are you",
+            "feedback": "Правильно! После Where порядок: be + подлежащее"
+          },
+          {
+            "id": "b",
+            "text": "Where → What",
+            "feedback": "Нет, ошибка в порядке слов"
+          },
+          {
+            "id": "c",
+            "text": "from → to",
+            "feedback": "Нет, ошибка в порядке слов"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После Where порядок слов: be + подлежащее. Where are you from?",
+        "tags": [
+          "wh_question",
+          "error_spotting"
+        ]
+      },
+      {
+        "id": "q17",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_wh_questions",
+        "difficulty": 2,
+        "correct_answer": "Who is he?",
+        "explanation": "В специальных вопросах порядок: Wh-слово + be + подлежащее. Who is he?",
+        "tags": [
+          "wh_question",
+          "reorder"
+        ]
+      },
+      {
+        "id": "q18",
+        "type": "true_false",
+        "prompt": "Верно или неверно: В вопросе \"What is your name?\" порядок слов правильный.",
+        "theory_block_id": "b2_theory_wh_questions",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Неверно! После Wh-слова порядок: be + подлежащее. What is your name?",
+        "tags": [
+          "wh_question",
+          "true_false"
+        ]
+      },
+      {
+        "id": "q19",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ are you from?\" (вопросительное слово)",
+        "theory_block_id": "b2_theory_wh_questions",
+        "difficulty": 1,
+        "correct_answer": "Where",
+        "explanation": "Where используется для вопроса о месте: Where are you from?",
+        "tags": [
+          "wh_question",
+          "fill_blank"
+        ]
+      },
+      {
+        "id": "q20",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант вопроса:",
+        "theory_block_id": "b2_theory_wh_questions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "How are you?",
+            "feedback": "Правильно! После How порядок: be + подлежащее"
+          },
+          {
+            "id": "b",
+            "text": "How you are?",
+            "feedback": "Нет, после How порядок: be + подлежащее"
+          },
+          {
+            "id": "c",
+            "text": "How is you?",
+            "feedback": "Нет, для you используется are, а не is"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После How порядок слов: be + подлежащее. How are you?",
+        "tags": [
+          "wh_question"
+        ]
+      },
+      {
+        "id": "q21",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"What your name is?\"",
+        "theory_block_id": "b2_theory_wh_questions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "your name is → is your name",
+            "feedback": "Правильно! После What порядок: be + подлежащее"
+          },
+          {
+            "id": "b",
+            "text": "What → Where",
+            "feedback": "Нет, ошибка в порядке слов"
+          },
+          {
+            "id": "c",
+            "text": "name → names",
+            "feedback": "Нет, ошибка в порядке слов"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После What порядок слов: be + подлежащее. What is your name?",
+        "tags": [
+          "wh_question",
+          "error_spotting"
+        ]
+      },
+      {
+        "id": "q22",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_wh_questions",
+        "difficulty": 2,
+        "correct_answer": "Where is the book?",
+        "explanation": "В специальных вопросах порядок: Wh-слово + be + подлежащее. Where is the book?",
+        "tags": [
+          "wh_question",
+          "reorder"
+        ]
+      },
+      {
+        "id": "q23",
+        "type": "true_false",
+        "prompt": "Верно или неверно: В вопросе \"Where are you?\" порядок слов правильный.",
+        "theory_block_id": "b2_theory_wh_questions",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Неверно! После Where порядок: be + подлежащее. Where are you?",
+        "tags": [
+          "wh_question",
+          "true_false"
+        ]
+      },
+      {
+        "id": "q24",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ is that?\" (вопросительное слово)",
+        "theory_block_id": "b2_theory_wh_questions",
+        "difficulty": 1,
+        "correct_answer": "Who",
+        "explanation": "Who используется для вопроса о человеке: Who is that?",
+        "tags": [
+          "wh_question",
+          "fill_blank"
+        ]
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный краткий ответ на вопрос \"Are you a student?\":",
+        "theory_block_id": "b3_theory_short_answers",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yes, I am.",
+            "feedback": "Правильно! В кратком ответе используется та же форма be"
+          },
+          {
+            "id": "b",
+            "text": "Yes, I'm.",
+            "feedback": "Нет, в кратком ответе нельзя использовать сокращение I'm"
+          },
+          {
+            "id": "c",
+            "text": "Yes, I are.",
+            "feedback": "Нет, для I используется am, а не are"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В кратком ответе используется та же форма be, что и в вопросе: Yes, I am.",
+        "tags": [
+          "short_answer"
+        ]
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск в кратком ответе: \"Are you a student?\" — \"Yes, I ___.\" (be)",
+        "theory_block_id": "b3_theory_short_answers",
+        "difficulty": 1,
+        "correct_answer": "am",
+        "explanation": "В кратком ответе используется та же форма be, что и в вопросе: Yes, I am.",
+        "tags": [
+          "short_answer",
+          "fill_blank"
+        ]
+      },
+      {
+        "id": "q27",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный краткий ответ на вопрос \"Is he at home?\":",
+        "theory_block_id": "b3_theory_short_answers",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yes, he is.",
+            "feedback": "Правильно! В кратком ответе используется та же форма be"
+          },
+          {
+            "id": "b",
+            "text": "Yes, he are.",
+            "feedback": "Нет, для he используется is, а не are"
+          },
+          {
+            "id": "c",
+            "text": "Yes, he am.",
+            "feedback": "Нет, для he используется is, а не am"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В кратком ответе используется та же форма be, что и в вопросе: Yes, he is.",
+        "tags": [
+          "short_answer"
+        ]
+      },
+      {
+        "id": "q28",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в кратком ответе: \"Are you a student?\" — \"Yes, I'm.\"",
+        "theory_block_id": "b3_theory_short_answers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm → I am",
+            "feedback": "Правильно! В кратком ответе нельзя использовать сокращение I'm"
+          },
+          {
+            "id": "b",
+            "text": "Yes → No",
+            "feedback": "Нет, ошибка в форме глагола be"
+          },
+          {
+            "id": "c",
+            "text": "student → students",
+            "feedback": "Нет, ошибка в форме глагола be"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В кратком ответе нельзя использовать сокращение I'm — нужно полная форма I am.",
+        "tags": [
+          "short_answer",
+          "error_spotting"
+        ]
+      },
+      {
+        "id": "q29",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_short_answers",
+        "difficulty": 2,
+        "correct_answer": "No, I'm not.",
+        "explanation": "В кратком ответе порядок: No + подлежащее + be (отрицательная форма). No, I'm not.",
+        "tags": [
+          "short_answer",
+          "reorder"
+        ]
+      },
+      {
+        "id": "q30",
+        "type": "true_false",
+        "prompt": "Верно или неверно: В кратком ответе \"Yes, I am\" порядок слов правильный.",
+        "theory_block_id": "b3_theory_short_answers",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Неверно! В кратком ответе порядок: Yes/No + подлежащее + be. Yes, I am.",
+        "tags": [
+          "short_answer",
+          "true_false"
+        ]
+      },
+      {
+        "id": "q31",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск в кратком ответе: \"Is she at home?\" — \"No, she ___.\" (be, отрицательная форма)",
+        "theory_block_id": "b3_theory_short_answers",
+        "difficulty": 2,
+        "correct_answer": "isn't",
+        "explanation": "В кратком ответе можно использовать сокращение: No, she isn't.",
+        "tags": [
+          "short_answer",
+          "fill_blank"
+        ]
+      },
+      {
+        "id": "q32",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный краткий ответ на вопрос \"Are they students?\":",
+        "theory_block_id": "b3_theory_short_answers",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yes, they are.",
+            "feedback": "Правильно! В кратком ответе используется та же форма be"
+          },
+          {
+            "id": "b",
+            "text": "Yes, they is.",
+            "feedback": "Нет, для they используется are, а не is"
+          },
+          {
+            "id": "c",
+            "text": "Yes, they am.",
+            "feedback": "Нет, для they используется are, а не am"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В кратком ответе используется та же форма be, что и в вопросе: Yes, they are.",
+        "tags": [
+          "short_answer"
+        ]
+      },
+      {
+        "id": "q33",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в кратком ответе: \"Is he at home?\" — \"Yes, he are.\"",
+        "theory_block_id": "b3_theory_short_answers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "he are → he is",
+            "feedback": "Правильно! Для he используется is, а не are"
+          },
+          {
+            "id": "b",
+            "text": "Yes → No",
+            "feedback": "Нет, ошибка в форме глагола be"
+          },
+          {
+            "id": "c",
+            "text": "at home → at school",
+            "feedback": "Нет, ошибка в форме глагола be"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для he используется is, а не are: Yes, he is.",
+        "tags": [
+          "short_answer",
+          "error_spotting"
+        ]
+      },
+      {
+        "id": "q34",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_short_answers",
+        "difficulty": 2,
+        "correct_answer": "Yes, she is.",
+        "explanation": "В кратком ответе порядок: Yes/No + подлежащее + be. Yes, she is.",
+        "tags": [
+          "short_answer",
+          "reorder"
+        ]
+      },
+      {
+        "id": "q35",
+        "type": "true_false",
+        "prompt": "Верно или неверно: В кратком ответе \"No, they aren't\" порядок слов правильный.",
+        "theory_block_id": "b3_theory_short_answers",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Правильно! В кратком ответе порядок: No + подлежащее + be (отрицательная форма). No, they aren't.",
+        "tags": [
+          "short_answer",
+          "true_false"
+        ]
+      },
+      {
+        "id": "q36",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск в кратком ответе: \"Are we happy?\" — \"Yes, we ___.\" (be)",
+        "theory_block_id": "b3_theory_short_answers",
+        "difficulty": 1,
+        "correct_answer": "are",
+        "explanation": "В кратком ответе используется та же форма be, что и в вопросе: Yes, we are.",
+        "tags": [
+          "short_answer",
+          "fill_blank"
+        ]
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный порядок слов в вопросе:",
+        "theory_block_id": "b4_theory_word_order",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "You are a student?",
+            "feedback": "Нет, в вопросах be стоит перед подлежащим"
+          },
+          {
+            "id": "b",
+            "text": "Are you a student?",
+            "feedback": "Правильно! В вопросах be стоит перед подлежащим"
+          },
+          {
+            "id": "c",
+            "text": "A student are you?",
+            "feedback": "Нет, порядок слов неправильный"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В вопросах порядок слов: be + подлежащее + остальное. Are you a student?",
+        "tags": [
+          "word_order"
+        ]
+      },
+      {
+        "id": "q38",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск, соблюдая правильный порядок слов: \"___ you a student?\" (be)",
+        "theory_block_id": "b4_theory_word_order",
+        "difficulty": 1,
+        "correct_answer": "Are",
+        "explanation": "В вопросах be стоит перед подлежащим: Are you a student?",
+        "tags": [
+          "word_order",
+          "fill_blank"
+        ]
+      },
+      {
+        "id": "q39",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный порядок слов в специальном вопросе:",
+        "theory_block_id": "b4_theory_word_order",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "What is your name?",
+            "feedback": "Правильно! После Wh-слова порядок: be + подлежащее"
+          },
+          {
+            "id": "b",
+            "text": "What your name is?",
+            "feedback": "Нет, после Wh-слова порядок: be + подлежащее"
+          },
+          {
+            "id": "c",
+            "text": "What name is your?",
+            "feedback": "Нет, порядок слов неправильный"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В специальных вопросах порядок: Wh-слово + be + подлежащее. What is your name?",
+        "tags": [
+          "word_order"
+        ]
+      },
+      {
+        "id": "q40",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в порядке слов: \"Where you are?\"",
+        "theory_block_id": "b4_theory_word_order",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "you are → are you",
+            "feedback": "Правильно! После Where порядок: be + подлежащее"
+          },
+          {
+            "id": "b",
+            "text": "Where → What",
+            "feedback": "Нет, ошибка в порядке слов"
+          },
+          {
+            "id": "c",
+            "text": "are → is",
+            "feedback": "Нет, ошибка в порядке слов"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После Where порядок слов: be + подлежащее. Where are you?",
+        "tags": [
+          "word_order",
+          "error_spotting"
+        ]
+      },
+      {
+        "id": "q41",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_word_order",
+        "difficulty": 2,
+        "correct_answer": "Is he at home?",
+        "explanation": "В вопросах порядок слов: be + подлежащее + остальное. Is he at home?",
+        "tags": [
+          "word_order",
+          "reorder"
+        ]
+      },
+      {
+        "id": "q42",
+        "type": "true_false",
+        "prompt": "Верно или неверно: В утверждении \"You are a student\" порядок слов правильный.",
+        "theory_block_id": "b4_theory_word_order",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Правильно! В утверждениях порядок: подлежащее + be + остальное. You are a student.",
+        "tags": [
+          "word_order",
+          "true_false"
+        ]
+      },
+      {
+        "id": "q43",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск, соблюдая правильный порядок слов: \"___ is your name?\" (вопросительное слово)",
+        "theory_block_id": "b4_theory_word_order",
+        "difficulty": 1,
+        "correct_answer": "What",
+        "explanation": "В специальных вопросах порядок: Wh-слово + be + подлежащее. What is your name?",
+        "tags": [
+          "word_order",
+          "fill_blank"
+        ]
+      },
+      {
+        "id": "q44",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный порядок слов в утверждении:",
+        "theory_block_id": "b4_theory_word_order",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He is at home.",
+            "feedback": "Правильно! В утверждениях порядок: подлежащее + be + остальное"
+          },
+          {
+            "id": "b",
+            "text": "Is he at home?",
+            "feedback": "Нет, это вопрос, а не утверждение"
+          },
+          {
+            "id": "c",
+            "text": "At home he is.",
+            "feedback": "Нет, порядок слов неправильный"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В утверждениях порядок: подлежащее + be + остальное. He is at home.",
+        "tags": [
+          "word_order"
+        ]
+      },
+      {
+        "id": "q45",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в порядке слов: \"What your name is?\"",
+        "theory_block_id": "b4_theory_word_order",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "your name is → is your name",
+            "feedback": "Правильно! После What порядок: be + подлежащее"
+          },
+          {
+            "id": "b",
+            "text": "What → Where",
+            "feedback": "Нет, ошибка в порядке слов"
+          },
+          {
+            "id": "c",
+            "text": "name → names",
+            "feedback": "Нет, ошибка в порядке слов"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После What порядок слов: be + подлежащее. What is your name?",
+        "tags": [
+          "word_order",
+          "error_spotting"
+        ]
+      },
+      {
+        "id": "q46",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_word_order",
+        "difficulty": 2,
+        "correct_answer": "Where are you from?",
+        "explanation": "В специальных вопросах порядок: Wh-слово + be + подлежащее + остальное. Where are you from?",
+        "tags": [
+          "word_order",
+          "reorder"
+        ]
+      },
+      {
+        "id": "q47",
+        "type": "true_false",
+        "prompt": "Верно или неверно: В вопросе \"Are they students?\" порядок слов правильный.",
+        "theory_block_id": "b4_theory_word_order",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Правильно! В вопросах порядок: be + подлежащее + остальное. Are they students?",
+        "tags": [
+          "word_order",
+          "true_false"
+        ]
+      },
+      {
+        "id": "q48",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск, соблюдая правильный порядок слов: \"___ are you?\" (вопросительное слово)",
+        "theory_block_id": "b4_theory_word_order",
+        "difficulty": 1,
+        "correct_answer": "Where",
+        "explanation": "В специальных вопросах порядок: Wh-слово + be + подлежащее. Where are you?",
+        "tags": [
+          "word_order",
+          "fill_blank"
+        ]
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вопрос для знакомства:",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "What is your name?",
+            "feedback": "Правильно! Это типичный вопрос для знакомства"
+          },
+          {
+            "id": "b",
+            "text": "What your name is?",
+            "feedback": "Нет, порядок слов неправильный"
+          },
+          {
+            "id": "c",
+            "text": "What name is your?",
+            "feedback": "Нет, порядок слов неправильный"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "What is your name? — это типичный вопрос для знакомства.",
+        "tags": [
+          "common_pattern",
+          "introduction"
+        ]
+      },
+      {
+        "id": "q50",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск в типичном вопросе: \"___ are you from?\" (вопросительное слово)",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 1,
+        "correct_answer": "Where",
+        "explanation": "Where are you from? — это типичный вопрос для знакомства.",
+        "tags": [
+          "common_pattern",
+          "introduction",
+          "fill_blank"
+        ]
+      },
+      {
+        "id": "q51",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вопрос о местоположении:",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Where is the book?",
+            "feedback": "Правильно! Это типичный вопрос о местоположении"
+          },
+          {
+            "id": "b",
+            "text": "Where the book is?",
+            "feedback": "Нет, порядок слов неправильный"
+          },
+          {
+            "id": "c",
+            "text": "Where book is the?",
+            "feedback": "Нет, порядок слов неправильный"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Where is the book? — это типичный вопрос о местоположении.",
+        "tags": [
+          "common_pattern",
+          "location"
+        ]
+      },
+      {
+        "id": "q52",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в типичном вопросе: \"How you are?\"",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "you are → are you",
+            "feedback": "Правильно! После How порядок: be + подлежащее"
+          },
+          {
+            "id": "b",
+            "text": "How → What",
+            "feedback": "Нет, ошибка в порядке слов"
+          },
+          {
+            "id": "c",
+            "text": "are → is",
+            "feedback": "Нет, ошибка в порядке слов"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После How порядок слов: be + подлежащее. How are you?",
+        "tags": [
+          "common_pattern",
+          "error_spotting"
+        ]
+      },
+      {
+        "id": "q53",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 2,
+        "correct_answer": "How are you?",
+        "explanation": "How are you? — это типичный вопрос для знакомства.",
+        "tags": [
+          "common_pattern",
+          "introduction",
+          "reorder"
+        ]
+      },
+      {
+        "id": "q54",
+        "type": "true_false",
+        "prompt": "Верно или неверно: \"What is your name?\" — это типичный вопрос для знакомства.",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Правильно! What is your name? — это типичный вопрос для знакомства.",
+        "tags": [
+          "common_pattern",
+          "introduction",
+          "true_false"
+        ]
+      },
+      {
+        "id": "q55",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск в типичном вопросе: \"___ is that?\" (вопросительное слово)",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 1,
+        "correct_answer": "Who",
+        "explanation": "Who is that? — это типичный вопрос о человеке.",
+        "tags": [
+          "common_pattern",
+          "fill_blank"
+        ]
+      },
+      {
+        "id": "q56",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вопрос о человеке:",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Who is he?",
+            "feedback": "Правильно! Это типичный вопрос о человеке"
+          },
+          {
+            "id": "b",
+            "text": "Who he is?",
+            "feedback": "Нет, порядок слов неправильный"
+          },
+          {
+            "id": "c",
+            "text": "Who is he is?",
+            "feedback": "Нет, порядок слов неправильный"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Who is he? — это типичный вопрос о человеке.",
+        "tags": [
+          "common_pattern"
+        ]
+      },
+      {
+        "id": "q57",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в типичном вопросе: \"Where you are?\"",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "you are → are you",
+            "feedback": "Правильно! После Where порядок: be + подлежащее"
+          },
+          {
+            "id": "b",
+            "text": "Where → What",
+            "feedback": "Нет, ошибка в порядке слов"
+          },
+          {
+            "id": "c",
+            "text": "are → is",
+            "feedback": "Нет, ошибка в порядке слов"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После Where порядок слов: be + подлежащее. Where are you?",
+        "tags": [
+          "common_pattern",
+          "error_spotting"
+        ]
+      },
+      {
+        "id": "q58",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 2,
+        "correct_answer": "Where are they?",
+        "explanation": "Where are they? — это типичный вопрос о местоположении.",
+        "tags": [
+          "common_pattern",
+          "location",
+          "reorder"
+        ]
+      },
+      {
+        "id": "q59",
+        "type": "true_false",
+        "prompt": "Верно или неверно: \"Where are you from?\" — это типичный вопрос для знакомства.",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Правильно! Where are you from? — это типичный вопрос для знакомства.",
+        "tags": [
+          "common_pattern",
+          "introduction",
+          "true_false"
+        ]
+      },
+      {
+        "id": "q60",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск в типичном вопросе: \"___ is the book?\" (вопросительное слово)",
+        "theory_block_id": "b5_theory_common_patterns",
+        "difficulty": 1,
+        "correct_answer": "Where",
+        "explanation": "Where is the book? — это типичный вопрос о местоположении.",
+        "tags": [
+          "common_pattern",
+          "location",
+          "fill_blank"
+        ]
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-17T15:58:38Z",
+    "source": "llm"
+  }
+}

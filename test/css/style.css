@@ -213,6 +213,45 @@ header h1 {
 
 .chapter-card-footer {
     margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.test-result-badge {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: var(--border-radius);
+    text-align: center;
+}
+
+.test-result-passed {
+    background-color: #dcfce7;
+    border: 2px solid var(--success-color);
+    color: #166534;
+}
+
+.test-result-failed {
+    background-color: #fee2e2;
+    border: 2px solid var(--error-color);
+    color: #991b1b;
+}
+
+.test-result-score {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.test-result-percentage {
+    font-size: 0.9em;
+    opacity: 0.9;
+}
+
+.test-result-date {
+    font-size: 0.75em;
+    margin-top: 4px;
+    opacity: 0.7;
 }
 
 footer {

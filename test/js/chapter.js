@@ -163,8 +163,27 @@ function renderInlineQuiz(block, container, chapter) {
     const questionsContainer = document.createElement('div');
     questionsContainer.className = 'quiz-questions';
     
+    // Хранилище ответов пользователя для этого квиза
+    const userAnswers = {};
+    
+    // Callback для сохранения ответов
+    const onAnswer = (questionId, answer) => {
+        userAnswers[questionId] = answer;
+    };
+    
     for (const question of questions) {
-        const questionEl = renderQuestion(question, block.quiz_inline.show_answers_immediately);
+        // Если show_answers_immediately = true, проверяем сразу после ответа
+        // Если false, не показываем ответы до явной проверки
+        const checkImmediately = block.quiz_inline.show_answers_immediately || false;
+        // ВСЕГДА показываем ответы только после выбора пользователя
+        const showAnswersInitially = false;
+        
+        const questionEl = renderQuestion(
+            question, 
+            showAnswersInitially, 
+            onAnswer, 
+            checkImmediately
+        );
         questionsContainer.appendChild(questionEl);
     }
     

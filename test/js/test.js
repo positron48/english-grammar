@@ -5,6 +5,7 @@
 import { loadChapter } from './data-loader.js';
 import { renderQuestion } from './quiz-renderer.js';
 import { generateChapterTest, checkAnswer } from './test-generator.js';
+import { saveTestResult, getTestResult } from './test-results.js';
 
 let chapter = null;
 let testQuestions = [];
@@ -97,10 +98,11 @@ function showQuestion(index) {
     const questionsContainer = document.getElementById('test-questions');
     questionsContainer.innerHTML = '';
     
+    // В финальном тесте не проверяем сразу, только сохраняем ответ
     const questionEl = renderQuestion(question, false, (questionId, answer) => {
         userAnswers[questionId] = answer;
         updateNavigation();
-    });
+    }, false); // checkImmediately = false для финального теста
     
     // Если уже есть ответ, восстанавливаем его
     if (userAnswers[question.id] !== undefined) {
@@ -197,6 +199,23 @@ function finishTest() {
             correctCount++;
         }
         totalScore += result.score;
+    }
+    
+    const percentage = Math.round((correctCount / testQuestions.length) * 100);
+    
+    // Сохраняем результат в localStorage
+    const testResult = {
+        score: correctCount,
+        total: testQuestions.length,
+        percentage: percentage,
+        correctCount: correctCount,
+        details: results
+    };
+    
+    const params = new URLSearchParams(window.location.search);
+    const chapterId = params.get('chapter');
+    if (chapterId) {
+        saveTestResult(chapterId, testResult);
     }
     
     // Показываем результаты

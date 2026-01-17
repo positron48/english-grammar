@@ -3,6 +3,7 @@
  */
 
 import { loadAllChapters, groupChaptersBySection } from './data-loader.js';
+import { getTestResults } from './test-results.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
     const loadingEl = document.getElementById('loading');
@@ -33,6 +34,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 function renderSections(sections, container) {
     container.innerHTML = '';
     
+    // Получаем результаты тестов
+    const testResults = getTestResults();
+    
     // Сортируем разделы по ID (можно улучшить, добавив order)
     const sectionIds = Object.keys(sections).sort();
     
@@ -54,8 +58,24 @@ function renderSections(sections, container) {
             const chapterCard = document.createElement('div');
             chapterCard.className = 'chapter-card';
             
+            // Получаем результат теста для этой главы
+            const testResult = testResults[chapter.id];
+            
             const level = chapter.level ? `<span class="level-badge level-${chapter.level.toLowerCase()}">${chapter.level}</span>` : '';
             const minutes = chapter.estimated_minutes ? `<span class="minutes">~${chapter.estimated_minutes} мин</span>` : '';
+            
+            // Формируем блок с результатом теста
+            let testResultHtml = '';
+            if (testResult) {
+                const resultClass = testResult.percentage >= 70 ? 'test-result-passed' : 'test-result-failed';
+                testResultHtml = `
+                    <div class="test-result-badge ${resultClass}">
+                        <div class="test-result-score">${testResult.score}/${testResult.total}</div>
+                        <div class="test-result-percentage">${testResult.percentage}%</div>
+                        <div class="test-result-date">${new Date(testResult.completedAt).toLocaleDateString('ru-RU')}</div>
+                    </div>
+                `;
+            }
             
             chapterCard.innerHTML = `
                 <div class="chapter-card-header">
@@ -63,10 +83,16 @@ function renderSections(sections, container) {
                     ${level} ${minutes}
                 </div>
                 ${chapter.description ? `<p class="chapter-description">${chapter.description}</p>` : ''}
+                ${testResultHtml}
                 <div class="chapter-card-footer">
                     <a href="chapter.html?chapter=${encodeURIComponent(chapter.id)}" class="btn btn-primary">
                         Изучить главу
                     </a>
+                    ${chapter.chapter_test && chapter.chapter_test.num_questions > 0 ? `
+                        <a href="test.html?chapter=${encodeURIComponent(chapter.id)}" class="btn btn-secondary">
+                            ${testResult ? 'Пересдать тест' : 'Начать тест'}
+                        </a>
+                    ` : ''}
                 </div>
             `;
             
