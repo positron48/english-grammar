@@ -32,15 +32,32 @@
     },
     {
       "id": "q2",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"She ___ tired.\" (be + not)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"She ___ tired.\"",
       "theory_block_id": "b1_theory_negatives_with_not",
       "difficulty": 1,
-      "correct_answer": "is not",
+      "correct_answer": "a",
       "explanation": "Для she используется is not: She is not tired.",
       "tags": [
         "negative",
         "third_person_singular"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "is not",
+          "feedback": "Правильно! is not"
+        },
+        {
+          "id": "b",
+          "text": "not is",
+          "feedback": "Нет, not должно стоять после is"
+        },
+        {
+          "id": "c",
+          "text": "is",
+          "feedback": "Нет, нужно отрицание"
+        }
       ]
     },
     {
@@ -106,7 +123,7 @@
     {
       "id": "q5",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке для отрицания.",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b1_theory_negatives_with_not",
       "difficulty": 2,
       "correct_answer": "We are not students.",
@@ -131,15 +148,32 @@
     },
     {
       "id": "q7",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"I ___ tired.\" (am + not)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"I ___ tired.\"",
       "theory_block_id": "b1_theory_negatives_with_not",
       "difficulty": 1,
-      "correct_answer": "am not",
+      "correct_answer": "a",
       "explanation": "Для I используется am not: I am not tired.",
       "tags": [
         "negative",
         "first_person"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "am not",
+          "feedback": "Правильно! am not"
+        },
+        {
+          "id": "b",
+          "text": "not am",
+          "feedback": "Нет, not должно стоять после am"
+        },
+        {
+          "id": "c",
+          "text": "am",
+          "feedback": "Нет, нужно отрицание"
+        }
       ]
     },
     {
@@ -216,22 +250,39 @@
     },
     {
       "id": "q11",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"They ___ at school.\" (are + not)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"They ___ at school.\"",
       "theory_block_id": "b1_theory_negatives_with_not",
       "difficulty": 1,
-      "correct_answer": "are not",
+      "correct_answer": "a",
       "explanation": "Для they используется are not: They are not at school.",
       "tags": [
         "negative",
         "plural",
         "location"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "are not",
+          "feedback": "Правильно! are not"
+        },
+        {
+          "id": "b",
+          "text": "not are",
+          "feedback": "Нет, not должно стоять после are"
+        },
+        {
+          "id": "c",
+          "text": "are",
+          "feedback": "Нет, нужно отрицание"
+        }
       ]
     },
     {
       "id": "q12",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке для отрицания.",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b1_theory_negatives_with_not",
       "difficulty": 2,
       "correct_answer": "He is not at home.",
@@ -276,7 +327,7 @@
     {
       "id": "q14",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"She ___ a teacher.\" (isn't)",
+      "prompt": "Заполните пропуск: \"She ___ a teacher.\" (be + not)",
       "theory_block_id": "b2_theory_contractions_isnt_arent",
       "difficulty": 1,
       "correct_answer": "isn't",
@@ -352,7 +403,7 @@
     {
       "id": "q17",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке для отрицания со сокращением.",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b2_theory_contractions_isnt_arent",
       "difficulty": 2,
       "correct_answer": "You aren't tired.",
@@ -379,7 +430,7 @@
     {
       "id": "q19",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"We ___ happy.\" (aren't)",
+      "prompt": "Заполните пропуск: \"We ___ happy.\" (be + not)",
       "theory_block_id": "b2_theory_contractions_isnt_arent",
       "difficulty": 1,
       "correct_answer": "aren't",
@@ -469,7 +520,7 @@
     {
       "id": "q23",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"He ___ at the cinema.\" (isn't)",
+      "prompt": "Заполните пропуск: \"He ___ at the cinema.\" (be + not)",
       "theory_block_id": "b2_theory_contractions_isnt_arent",
       "difficulty": 1,
       "correct_answer": "isn't",
@@ -483,7 +534,7 @@
     {
       "id": "q24",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке для отрицания со сокращением.",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b2_theory_contractions_isnt_arent",
       "difficulty": 2,
       "correct_answer": "She isn't a doctor.",
@@ -527,16 +578,33 @@
     },
     {
       "id": "q26",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"I ___ a student.\" (I'm not)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"I ___ a student.\"",
       "theory_block_id": "b3_theory_am_not_contraction",
       "difficulty": 1,
-      "correct_answer": "I'm not",
+      "correct_answer": "a",
       "explanation": "Для I используется сокращение I'm not: I'm not a student.",
       "tags": [
         "negative",
         "contraction",
         "first_person"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "I'm not",
+          "feedback": "Правильно! I'm not"
+        },
+        {
+          "id": "b",
+          "text": "I amn't",
+          "feedback": "Нет, форма amn't не существует"
+        },
+        {
+          "id": "c",
+          "text": "I am",
+          "feedback": "Нет, нужно отрицание"
+        }
       ]
     },
     {
@@ -616,22 +684,39 @@
     },
     {
       "id": "q30",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"I ___ happy.\" (I'm not)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"I ___ happy.\"",
       "theory_block_id": "b3_theory_am_not_contraction",
       "difficulty": 1,
-      "correct_answer": "I'm not",
+      "correct_answer": "a",
       "explanation": "Для I используется I'm not: I'm not happy.",
       "tags": [
         "negative",
         "contraction",
         "description"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "I'm not",
+          "feedback": "Правильно! I'm not"
+        },
+        {
+          "id": "b",
+          "text": "I amn't",
+          "feedback": "Нет, форма amn't не существует"
+        },
+        {
+          "id": "c",
+          "text": "I am",
+          "feedback": "Нет, нужно отрицание"
+        }
       ]
     },
     {
       "id": "q31",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке для отрицания с I.",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b3_theory_am_not_contraction",
       "difficulty": 2,
       "correct_answer": "I'm not a teacher.",
@@ -718,22 +803,39 @@
     },
     {
       "id": "q35",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"I ___ at school.\" (I'm not)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"I ___ at school.\"",
       "theory_block_id": "b3_theory_am_not_contraction",
       "difficulty": 1,
-      "correct_answer": "I'm not",
+      "correct_answer": "a",
       "explanation": "Для I используется I'm not: I'm not at school.",
       "tags": [
         "negative",
         "contraction",
         "location"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "I'm not",
+          "feedback": "Правильно! I'm not"
+        },
+        {
+          "id": "b",
+          "text": "I amn't",
+          "feedback": "Нет, форма amn't не существует"
+        },
+        {
+          "id": "c",
+          "text": "I am",
+          "feedback": "Нет, нужно отрицание"
+        }
       ]
     },
     {
       "id": "q36",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке для отрицания с I.",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b3_theory_am_not_contraction",
       "difficulty": 2,
       "correct_answer": "I'm not tired.",
@@ -776,16 +878,33 @@
     },
     {
       "id": "q38",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"He ___ at home.\" (is + not)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"He ___ at home.\"",
       "theory_block_id": "b4_theory_word_order_negatives",
       "difficulty": 1,
-      "correct_answer": "is not",
+      "correct_answer": "a",
       "explanation": "Порядок слов: He + is + not + at home.",
       "tags": [
         "negative",
         "word_order",
         "location"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "is not",
+          "feedback": "Правильно! is not"
+        },
+        {
+          "id": "b",
+          "text": "not is",
+          "feedback": "Нет, not должно стоять после is"
+        },
+        {
+          "id": "c",
+          "text": "is",
+          "feedback": "Нет, нужно отрицание"
+        }
       ]
     },
     {
@@ -821,7 +940,7 @@
     {
       "id": "q40",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке для отрицания.",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b4_theory_word_order_negatives",
       "difficulty": 2,
       "correct_answer": "They are not students.",
@@ -846,15 +965,32 @@
     },
     {
       "id": "q42",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"We ___ happy.\" (are + not)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"We ___ happy.\"",
       "theory_block_id": "b4_theory_word_order_negatives",
       "difficulty": 1,
-      "correct_answer": "are not",
+      "correct_answer": "a",
       "explanation": "Порядок слов: We + are + not + happy.",
       "tags": [
         "negative",
         "word_order"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "are not",
+          "feedback": "Правильно! are not"
+        },
+        {
+          "id": "b",
+          "text": "not are",
+          "feedback": "Нет, not должно стоять после are"
+        },
+        {
+          "id": "c",
+          "text": "are",
+          "feedback": "Нет, нужно отрицание"
+        }
       ]
     },
     {
@@ -920,7 +1056,7 @@
     {
       "id": "q45",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке для отрицания.",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b4_theory_word_order_negatives",
       "difficulty": 2,
       "correct_answer": "I am not a doctor.",
@@ -945,21 +1081,38 @@
     },
     {
       "id": "q47",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"It ___ easy.\" (is + not)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"It ___ easy.\"",
       "theory_block_id": "b4_theory_word_order_negatives",
       "difficulty": 1,
-      "correct_answer": "is not",
+      "correct_answer": "a",
       "explanation": "Порядок слов: It + is + not + easy.",
       "tags": [
         "negative",
         "word_order"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "is not",
+          "feedback": "Правильно! is not"
+        },
+        {
+          "id": "b",
+          "text": "not is",
+          "feedback": "Нет, not должно стоять после is"
+        },
+        {
+          "id": "c",
+          "text": "is",
+          "feedback": "Нет, нужно отрицание"
+        }
       ]
     },
     {
       "id": "q48",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке для отрицания.",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b4_theory_word_order_negatives",
       "difficulty": 2,
       "correct_answer": "She is not at school.",
@@ -1003,7 +1156,7 @@
     {
       "id": "q50",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"She ___ a teacher.\" (isn't)",
+      "prompt": "Заполните пропуск: \"She ___ a teacher.\" (be + not)",
       "theory_block_id": "b5_theory_common_patterns_negatives",
       "difficulty": 1,
       "correct_answer": "isn't",
@@ -1046,7 +1199,7 @@
     {
       "id": "q52",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"They ___ happy.\" (aren't)",
+      "prompt": "Заполните пропуск: \"They ___ happy.\" (be + not)",
       "theory_block_id": "b5_theory_common_patterns_negatives",
       "difficulty": 1,
       "correct_answer": "aren't",
@@ -1120,7 +1273,7 @@
     {
       "id": "q55",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"We ___ at the cinema.\" (aren't)",
+      "prompt": "Заполните пропуск: \"We ___ at the cinema.\" (be + not)",
       "theory_block_id": "b5_theory_common_patterns_negatives",
       "difficulty": 1,
       "correct_answer": "aren't",
@@ -1133,7 +1286,7 @@
     {
       "id": "q56",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке для отрицания идентичности.",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b5_theory_common_patterns_negatives",
       "difficulty": 2,
       "correct_answer": "I'm not a doctor.",
@@ -1160,7 +1313,7 @@
     {
       "id": "q58",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"They ___ students.\" (aren't)",
+      "prompt": "Заполните пропуск: \"They ___ students.\" (be + not)",
       "theory_block_id": "b5_theory_common_patterns_negatives",
       "difficulty": 1,
       "correct_answer": "aren't",
@@ -1173,7 +1326,7 @@
     {
       "id": "q59",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке для отрицания местоположения.",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b5_theory_common_patterns_negatives",
       "difficulty": 2,
       "correct_answer": "He isn't at school.",
