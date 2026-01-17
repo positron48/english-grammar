@@ -8,7 +8,7 @@
   "ui_language": "ru",
   "target_language": "en",
   "level": "A1",
-  "order": 106,
+  "order": 0,
   "prerequisites": [
     "en.grammar.first_sentences_be_as.an_as_one_of"
   ],
@@ -394,7 +394,7 @@
       {
         "id": "q3",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ is my book.\" (this/that)",
+        "prompt": "Заполните пропуск: \"___ is my book.\" (этот/тот)",
         "theory_block_id": "b1_theory_this_that_singular",
         "difficulty": 1,
         "correct_answer": "This",
@@ -407,7 +407,7 @@
       {
         "id": "q4",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ is your pen.\" (this/that)",
+        "prompt": "Заполните пропуск: \"___ is your pen.\" (этот/тот)",
         "theory_block_id": "b1_theory_this_that_singular",
         "difficulty": 1,
         "correct_answer": "That",
@@ -420,7 +420,7 @@
       {
         "id": "q5",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке: is, this, my, phone",
+        "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b1_theory_this_that_singular",
         "difficulty": 2,
         "correct_answer": "This is my phone.",
@@ -476,11 +476,11 @@
       {
         "id": "q8",
         "type": "true_false",
-        "prompt": "Верно или неверно: \"That\" используется для предметов, которые находятся далеко.",
+        "prompt": "Верно или неверно: \"That\" используется для предметов, которые находятся близко.",
         "theory_block_id": "b1_theory_this_that_singular",
         "difficulty": 1,
-        "correct_answer": "true",
-        "explanation": "Верно. 'That' используется для предметов, которые находятся далеко от говорящего.",
+        "correct_answer": "false",
+        "explanation": "Неверно. 'That' используется для предметов, которые находятся далеко от говорящего, а не близко.",
         "tags": [
           "that",
           "true_false"
@@ -519,7 +519,7 @@
       {
         "id": "q10",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ is a car.\" (this/that)",
+        "prompt": "Заполните пропуск: \"___ is a car.\" (этот/тот)",
         "theory_block_id": "b1_theory_this_that_singular",
         "difficulty": 2,
         "correct_answer": "That",
@@ -532,7 +532,7 @@
       {
         "id": "q11",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке: is, that, your, bag",
+        "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b1_theory_this_that_singular",
         "difficulty": 2,
         "correct_answer": "That is your bag.",
@@ -635,7 +635,7 @@
       {
         "id": "q15",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ are my books.\" (these/those)",
+        "prompt": "Заполните пропуск: \"___ are my books.\" (эти/те)",
         "theory_block_id": "b2_theory_these_those_plural",
         "difficulty": 1,
         "correct_answer": "These",
@@ -648,7 +648,7 @@
       {
         "id": "q16",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ are your bags.\" (these/those)",
+        "prompt": "Заполните пропуск: \"___ are your bags.\" (эти/те)",
         "theory_block_id": "b2_theory_these_those_plural",
         "difficulty": 1,
         "correct_answer": "Those",
@@ -661,7 +661,7 @@
       {
         "id": "q17",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке: are, these, my, keys",
+        "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b2_theory_these_those_plural",
         "difficulty": 2,
         "correct_answer": "These are my keys.",
@@ -717,11 +717,11 @@
       {
         "id": "q20",
         "type": "true_false",
-        "prompt": "Верно или неверно: \"Those\" используется для предметов, которые находятся далеко (множественное число).",
+        "prompt": "Верно или неверно: \"Those\" используется для предметов, которые находятся близко (множественное число).",
         "theory_block_id": "b2_theory_these_those_plural",
         "difficulty": 1,
-        "correct_answer": "true",
-        "explanation": "Верно. 'Those' используется для предметов, которые находятся далеко от говорящего (множественное число).",
+        "correct_answer": "false",
+        "explanation": "Неверно. 'Those' используется для предметов, которые находятся далеко от говорящего (множественное число), а не близко.",
         "tags": [
           "those",
           "true_false"
@@ -760,7 +760,7 @@
       {
         "id": "q22",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ are your friends.\" (these/those)",
+        "prompt": "Заполните пропуск: \"___ are your friends.\" (эти/те)",
         "theory_block_id": "b2_theory_these_those_plural",
         "difficulty": 2,
         "correct_answer": "Those",
@@ -773,7 +773,7 @@
       {
         "id": "q23",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке: are, those, your, friends",
+        "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b2_theory_these_those_plural",
         "difficulty": 2,
         "correct_answer": "Those are your friends.",
@@ -876,7 +876,7 @@
       {
         "id": "q27",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"My book is ___.\" (here/there)",
+        "prompt": "Заполните пропуск: \"My book is ___.\" (здесь/там)",
         "theory_block_id": "b3_theory_here_there_location",
         "difficulty": 1,
         "correct_answer": "here",
@@ -889,7 +889,7 @@
       {
         "id": "q28",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"Your bag is ___.\" (here/there)",
+        "prompt": "Заполните пропуск: \"Your bag is ___.\" (здесь/там)",
         "theory_block_id": "b3_theory_here_there_location",
         "difficulty": 1,
         "correct_answer": "there",
@@ -902,7 +902,7 @@
       {
         "id": "q29",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке: are, here, the, keys",
+        "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b3_theory_here_there_location",
         "difficulty": 2,
         "correct_answer": "The keys are here.",
@@ -958,11 +958,11 @@
       {
         "id": "q32",
         "type": "true_false",
-        "prompt": "Верно или неверно: \"There\" означает, что предмет находится далеко от говорящего.",
+        "prompt": "Верно или неверно: \"There\" означает, что предмет находится близко к говорящему.",
         "theory_block_id": "b3_theory_here_there_location",
         "difficulty": 1,
-        "correct_answer": "true",
-        "explanation": "Верно. 'There' означает, что предмет находится далеко от говорящего или в другом месте.",
+        "correct_answer": "false",
+        "explanation": "Неверно. 'There' означает, что предмет находится далеко от говорящего или в другом месте, а не близко.",
         "tags": [
           "there",
           "true_false"
@@ -1001,7 +1001,7 @@
       {
         "id": "q34",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"The car is ___.\" (here/there)",
+        "prompt": "Заполните пропуск: \"The car is ___.\" (здесь/там)",
         "theory_block_id": "b3_theory_here_there_location",
         "difficulty": 2,
         "correct_answer": "there",
@@ -1134,7 +1134,7 @@
       {
         "id": "q39",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"This ___ my phone here.\" (is/are)",
+        "prompt": "Заполните пропуск: \"This ___ my phone here.\" (быть)",
         "theory_block_id": "b4_theory_combining_with_be",
         "difficulty": 1,
         "correct_answer": "is",
@@ -1147,7 +1147,7 @@
       {
         "id": "q40",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"These ___ my keys here.\" (is/are)",
+        "prompt": "Заполните пропуск: \"These ___ my keys here.\" (быть)",
         "theory_block_id": "b4_theory_combining_with_be",
         "difficulty": 1,
         "correct_answer": "are",
@@ -1160,7 +1160,7 @@
       {
         "id": "q41",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке: is, here, this, my, phone",
+        "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b4_theory_combining_with_be",
         "difficulty": 2,
         "correct_answer": "This is my phone here.",
@@ -1247,11 +1247,11 @@
       {
         "id": "q45",
         "type": "true_false",
-        "prompt": "Верно или неверно: \"These\" используется с \"are\" (множественное число).",
+        "prompt": "Верно или неверно: \"These\" используется с \"is\" (единственное число).",
         "theory_block_id": "b4_theory_combining_with_be",
         "difficulty": 1,
-        "correct_answer": "true",
-        "explanation": "Верно. 'These' всегда используется с 'are' (множественное число).",
+        "correct_answer": "false",
+        "explanation": "Неверно. 'These' всегда используется с 'are' (множественное число), а не с 'is'.",
         "tags": [
           "these",
           "true_false"
@@ -1320,7 +1320,7 @@
       {
         "id": "q48",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ is this?\" (What/That)",
+        "prompt": "Заполните пропуск: \"___ is this?\" (Что/То)",
         "theory_block_id": "b5_theory_questions_with_demonstratives",
         "difficulty": 1,
         "correct_answer": "What",
@@ -1333,7 +1333,7 @@
       {
         "id": "q49",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"What ___ these?\" (is/are)",
+        "prompt": "Заполните пропуск: \"What ___ these?\" (быть)",
         "theory_block_id": "b5_theory_questions_with_demonstratives",
         "difficulty": 1,
         "correct_answer": "are",
@@ -1346,7 +1346,7 @@
       {
         "id": "q50",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке: is, what, this",
+        "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b5_theory_questions_with_demonstratives",
         "difficulty": 2,
         "correct_answer": "What is this?",
@@ -1492,7 +1492,7 @@
       {
         "id": "q56",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"What ___ that there?\" (is/are)",
+        "prompt": "Заполните пропуск: \"What ___ that there?\" (быть)",
         "theory_block_id": "b5_theory_questions_with_demonstratives",
         "difficulty": 2,
         "correct_answer": "is",
@@ -1505,7 +1505,7 @@
       {
         "id": "q57",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"What ___ those there?\" (is/are)",
+        "prompt": "Заполните пропуск: \"What ___ those there?\" (быть)",
         "theory_block_id": "b5_theory_questions_with_demonstratives",
         "difficulty": 2,
         "correct_answer": "are",
@@ -1518,7 +1518,7 @@
       {
         "id": "q58",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке: are, what, those, there",
+        "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b5_theory_questions_with_demonstratives",
         "difficulty": 3,
         "correct_answer": "What are those there?",
@@ -1667,7 +1667,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-17T16:36:54Z",
+    "updated_at": "2026-01-17T17:02:08Z",
     "source": "llm"
   }
 }
