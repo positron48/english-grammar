@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-17T16:20:22Z",
+  "last_updated": "2026-01-17T16:45:00Z",
   "sections": [
     {
       "section_id": "en.grammar.orientation_how_to_read",
@@ -509,9 +509,23 @@
       "title": "This/that/these/those + here/there (pointing)",
       "level": "A1",
       "order": 106,
-      "status": "pending",
+      "status": "generated",
+      "started_at": "2026-01-17T16:25:00Z",
+      "completed_at": "2026-01-17T16:45:00Z",
       "input_file": "config/chapter-templates/en.grammar.first_sentences_be_as.this_that_these_those-input.json",
-      "output_dir": "chapters/en.grammar.first_sentences_be_as.this_that_these_those"
+      "output_dir": "chapters/en.grammar.first_sentences_be_as.this_that_these_those",
+      "files": {
+        "outline": "chapters/en.grammar.first_sentences_be_as.this_that_these_those/01-outline.json",
+        "theory_blocks": "chapters/en.grammar.first_sentences_be_as.this_that_these_those/02-theory-blocks/",
+        "questions": "chapters/en.grammar.first_sentences_be_as.this_that_these_those/03-questions.json",
+        "inline_quizzes": "chapters/en.grammar.first_sentences_be_as.this_that_these_those/04-inline-quizzes.json",
+        "final": "chapters/en.grammar.first_sentences_be_as.this_that_these_those/05-final.json",
+        "validation": "chapters/en.grammar.first_sentences_be_as.this_that_these_those/05-validation.json"
+      },
+      "validation": {
+        "is_valid": true,
+        "last_validated": "2026-01-17T16:45:00Z"
+      }
     },
     {
       "chapter_id": "en.grammar.first_sentences_be_as.adjectives_after_be_she",
@@ -1727,10 +1741,10 @@
   "summary": {
     "total_sections": 19,
     "total_chapters": 131,
-    "chapters_generated": 8,
+    "chapters_generated": 9,
     "chapters_in_progress": 0,
-    "chapters_pending": 123,
+    "chapters_pending": 122,
     "chapters_failed": 0,
-    "chapters_validated": 8
+    "chapters_validated": 9
   }
 }

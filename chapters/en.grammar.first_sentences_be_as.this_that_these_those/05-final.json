@@ -1,0 +1,1673 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.first_sentences_be_as.this_that_these_those",
+  "section_id": "en.grammar.first_sentences_be_as",
+  "title": "This/that/these/those + here/there (pointing)",
+  "title_short": "This/that/these/those + here/there",
+  "description": "Изучаем указательные местоимения this, that, these, those для указания на предметы рядом и далеко, в единственном и множественном числе. Также изучаем использование here и there для указания на местоположение.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "A1",
+  "order": 106,
+  "prerequisites": [
+    "en.grammar.first_sentences_be_as.an_as_one_of"
+  ],
+  "concept_refs": [
+    "this_that_singular",
+    "these_those_plural",
+    "here_there_location",
+    "demonstratives_with_be",
+    "questions_demonstratives"
+  ],
+  "learning_objectives": [
+    "Использовать this/that для указания на предметы в единственном числе (близко/далеко)",
+    "Использовать these/those для указания на предметы во множественном числе (близко/далеко)",
+    "Сочетать this/that/these/those с here/there для указания на местоположение",
+    "Различать единственное и множественное число указательных местоимений",
+    "Строить предложения с указательными местоимениями и be"
+  ],
+  "estimated_minutes": 22,
+  "blocks": [
+    {
+      "id": "b1_theory_this_that_singular",
+      "type": "theory",
+      "title": "This и that — это указательные местоимения для единственного числа. Они помогают указать на предмет и показать, близко он или далеко.",
+      "theory": {
+        "concept_id": "this_that_singular",
+        "content_md": "**This** и **that** — это указательные местоимения для единственного числа. Они помогают указать на предмет и показать, близко он или далеко.\n\n**This** (этот, эта, это) используется для предметов, которые находятся **близко** к говорящему:\n- This is my book. (Это моя книга.)\n- This is a pen. (Это ручка.)\n\n**That** (тот, та, то) используется для предметов, которые находятся **далеко** от говорящего:\n- That is your bag. (Та сумка — твоя.)\n- That is a car. (То — машина.)\n\nВажно помнить: **this** и **that** всегда используются с единственным числом (один предмет).",
+        "key_points": [
+          "This = этот/эта/это (близко)",
+          "That = тот/та/то (далеко)",
+          "Оба используются только с единственным числом"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "This are a book.",
+            "right": "This is a book.",
+            "why": "This всегда используется с is (единственное число), а не с are"
+          },
+          {
+            "wrong": "That are my pen.",
+            "right": "That is my pen.",
+            "why": "That всегда используется с is, так как это единственное число"
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "This is my phone.",
+            "translation": "Это мой телефон.",
+            "notes": "Предмет близко, единственное число",
+            "tags": [
+              "affirmative",
+              "singular"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "That is your car.",
+            "translation": "Та машина — твоя.",
+            "notes": "Предмет далеко, единственное число",
+            "tags": [
+              "affirmative",
+              "singular"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_this_that",
+      "type": "quiz_inline",
+      "title": "Проверка: this и that",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q3",
+          "q5",
+          "q7",
+          "q9"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_these_those_plural",
+      "type": "theory",
+      "title": "These и those — это указательные местоимения для множественного числа. Они работают так же, как this и that, но для нескольких предметов.",
+      "theory": {
+        "concept_id": "these_those_plural",
+        "content_md": "**These** и **those** — это указательные местоимения для **множественного числа**. Они работают так же, как this и that, но для нескольких предметов.\n\n**These** (эти) используется для предметов, которые находятся **близко** к говорящему (множественное число):\n- These are my books. (Это мои книги.)\n- These are pens. (Это ручки.)\n\n**Those** (те) используется для предметов, которые находятся **далеко** от говорящего (множественное число):\n- Those are your bags. (Те сумки — твои.)\n- Those are cars. (Те — машины.)\n\nВажно: **these** и **those** всегда используются с **are**, потому что это множественное число.",
+        "key_points": [
+          "These = эти (близко, множественное число)",
+          "Those = те (далеко, множественное число)",
+          "Оба всегда используются с are (множественное число)"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "These is my books.",
+            "right": "These are my books.",
+            "why": "These — это множественное число, поэтому используется are, а не is"
+          },
+          {
+            "wrong": "Those is cars.",
+            "right": "Those are cars.",
+            "why": "Those — это множественное число, поэтому используется are"
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "These are my keys.",
+            "translation": "Это мои ключи.",
+            "notes": "Предметы близко, множественное число",
+            "tags": [
+              "affirmative",
+              "plural"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Those are your friends.",
+            "translation": "Те — твои друзья.",
+            "notes": "Предметы далеко, множественное число",
+            "tags": [
+              "affirmative",
+              "plural"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_these_those",
+      "type": "quiz_inline",
+      "title": "Проверка: these и those",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q15",
+          "q17",
+          "q19",
+          "q21"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_here_there_location",
+      "type": "theory",
+      "title": "Here (здесь) и there (там) — это слова, которые указывают на место, где находится предмет.",
+      "theory": {
+        "concept_id": "here_there_location",
+        "content_md": "**Here** (здесь) и **there** (там) — это слова, которые указывают на **место**, где находится предмет.\n\n**Here** (здесь) означает, что предмет находится **близко** к говорящему или в том же месте:\n- My book is here. (Моя книга здесь.)\n- The pen is here. (Ручка здесь.)\n\n**There** (там) означает, что предмет находится **далеко** от говорящего или в другом месте:\n- Your bag is there. (Твоя сумка там.)\n- The car is there. (Машина там.)\n\nЭти слова часто используются вместе с this/that/these/those для более точного указания на местоположение.",
+        "key_points": [
+          "Here = здесь (близко)",
+          "There = там (далеко)",
+          "Используются для указания на местоположение предметов"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "My book is there. (когда книга рядом)",
+            "right": "My book is here.",
+            "why": "Если предмет близко, нужно использовать here, а не there"
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "The keys are here.",
+            "translation": "Ключи здесь.",
+            "notes": "Предметы близко",
+            "tags": [
+              "affirmative",
+              "location"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Your phone is there.",
+            "translation": "Твой телефон там.",
+            "notes": "Предмет далеко",
+            "tags": [
+              "affirmative",
+              "location"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_here_there",
+      "type": "quiz_inline",
+      "title": "Проверка: here и there",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q27",
+          "q29",
+          "q31",
+          "q33"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_combining_with_be",
+      "type": "theory",
+      "title": "Указательные местоимения this, that, these, those всегда используются с глаголом be (am, is, are). Важно правильно выбрать форму be.",
+      "theory": {
+        "concept_id": "demonstratives_with_be",
+        "content_md": "Указательные местоимения **this**, **that**, **these**, **those** всегда используются с глаголом **be** (am, is, are). Важно правильно выбрать форму be.\n\n**Правила сочетания:**\n- **This** + **is** (единственное число, близко)\n  - This is my book.\n- **That** + **is** (единственное число, далеко)\n  - That is your pen.\n- **These** + **are** (множественное число, близко)\n  - These are my keys.\n- **Those** + **are** (множественное число, далеко)\n  - Those are your bags.\n\n**С here и there:**\n- This is here. (Это здесь.)\n- That is there. (То там.)\n- These are here. (Эти здесь.)\n- Those are there. (Те там.)",
+        "key_points": [
+          "This/that + is (единственное число)",
+          "These/those + are (множественное число)",
+          "Here/there можно добавлять для уточнения местоположения"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "This are a book.",
+            "right": "This is a book.",
+            "why": "This — единственное число, поэтому используется is, а не are"
+          },
+          {
+            "wrong": "These is books.",
+            "right": "These are books.",
+            "why": "These — множественное число, поэтому используется are, а не is"
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "This is my phone here.",
+            "translation": "Это мой телефон здесь.",
+            "notes": "This + is + here",
+            "tags": [
+              "affirmative",
+              "singular",
+              "location"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Those are your friends there.",
+            "translation": "Те — твои друзья там.",
+            "notes": "Those + are + there",
+            "tags": [
+              "affirmative",
+              "plural",
+              "location"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8_quiz_after_combining",
+      "type": "quiz_inline",
+      "title": "Проверка: сочетание с be",
+      "quiz_inline": {
+        "question_ids": [
+          "q35",
+          "q37",
+          "q39",
+          "q41",
+          "q43",
+          "q44"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_questions_with_demonstratives",
+      "type": "theory",
+      "title": "С указательными местоимениями можно задавать вопросы, используя вопросительные слова What (что) или Who (кто).",
+      "theory": {
+        "concept_id": "questions_demonstratives",
+        "content_md": "С указательными местоимениями можно задавать вопросы, используя вопросительные слова **What** (что) или **Who** (кто).\n\n**Вопросы с единственным числом:**\n- What is this? (Что это?)\n- What is that? (Что то?)\n- Who is this? (Кто это?)\n- Who is that? (Кто то?)\n\n**Вопросы с множественным числом:**\n- What are these? (Что это?)\n- What are those? (Что те?)\n- Who are these? (Кто эти?)\n- Who are those? (Кто те?)\n\n**С here и there:**\n- What is this here? (Что это здесь?)\n- What are those there? (Что те там?)\n\nВажно: в вопросах порядок слов меняется — вопросительное слово ставится в начало, затем be, затем указательное местоимение.",
+        "key_points": [
+          "What is this/that? (Что это/то?)",
+          "What are these/those? (Что эти/те?)",
+          "Who is this/that? (Кто это/то?)",
+          "Who are these/those? (Кто эти/те?)"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "What this is?",
+            "right": "What is this?",
+            "why": "В вопросах порядок слов: What + is + this (не this is)"
+          },
+          {
+            "wrong": "What these are?",
+            "right": "What are these?",
+            "why": "В вопросах порядок слов: What + are + these"
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "What is this?",
+            "translation": "Что это?",
+            "notes": "Вопрос с единственным числом",
+            "tags": [
+              "question",
+              "singular"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "What are those there?",
+            "translation": "Что те там?",
+            "notes": "Вопрос с множественным числом и there",
+            "tags": [
+              "question",
+              "plural",
+              "location"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Что означает \"this\"?",
+        "theory_block_id": "b1_theory_this_that_singular",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "тот (далеко)",
+            "feedback": "Нет, 'that' означает 'тот' (далеко)"
+          },
+          {
+            "id": "b",
+            "text": "этот (близко)",
+            "feedback": "Правильно! 'this' означает 'этот' (близко)"
+          },
+          {
+            "id": "c",
+            "text": "эти (близко)",
+            "feedback": "Нет, 'these' означает 'эти' (близко, множественное число)"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "'This' означает 'этот, эта, это' и используется для предметов, которые находятся близко к говорящему.",
+        "tags": [
+          "this",
+          "singular"
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Что означает \"that\"?",
+        "theory_block_id": "b1_theory_this_that_singular",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "этот (близко)",
+            "feedback": "Нет, 'this' означает 'этот' (близко)"
+          },
+          {
+            "id": "b",
+            "text": "тот (далеко)",
+            "feedback": "Правильно! 'that' означает 'тот' (далеко)"
+          },
+          {
+            "id": "c",
+            "text": "те (далеко)",
+            "feedback": "Нет, 'those' означает 'те' (далеко, множественное число)"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "'That' означает 'тот, та, то' и используется для предметов, которые находятся далеко от говорящего.",
+        "tags": [
+          "that",
+          "singular"
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ is my book.\" (this/that)",
+        "theory_block_id": "b1_theory_this_that_singular",
+        "difficulty": 1,
+        "correct_answer": "This",
+        "explanation": "Если книга близко, используется 'this': This is my book.",
+        "tags": [
+          "this",
+          "singular"
+        ]
+      },
+      {
+        "id": "q4",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ is your pen.\" (this/that)",
+        "theory_block_id": "b1_theory_this_that_singular",
+        "difficulty": 1,
+        "correct_answer": "That",
+        "explanation": "Если ручка далеко, используется 'that': That is your pen.",
+        "tags": [
+          "that",
+          "singular"
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке: is, this, my, phone",
+        "theory_block_id": "b1_theory_this_that_singular",
+        "difficulty": 2,
+        "correct_answer": "This is my phone.",
+        "explanation": "Правильный порядок: This is my phone. (Это мой телефон.)",
+        "tags": [
+          "this",
+          "reorder"
+        ]
+      },
+      {
+        "id": "q6",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"This are a book.\"",
+        "theory_block_id": "b1_theory_this_that_singular",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "This is a book.",
+            "feedback": "Правильно! This используется с is (единственное число)"
+          },
+          {
+            "id": "b",
+            "text": "These are a book.",
+            "feedback": "Нет, 'these' используется с множественным числом"
+          },
+          {
+            "id": "c",
+            "text": "This are books.",
+            "feedback": "Нет, 'this' всегда используется с is"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "'This' всегда используется с 'is' (единственное число), а не с 'are'. Правильно: This is a book.",
+        "tags": [
+          "this",
+          "error"
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "true_false",
+        "prompt": "Верно или неверно: \"This\" используется для предметов, которые находятся близко.",
+        "theory_block_id": "b1_theory_this_that_singular",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. 'This' используется для предметов, которые находятся близко к говорящему.",
+        "tags": [
+          "this",
+          "true_false"
+        ]
+      },
+      {
+        "id": "q8",
+        "type": "true_false",
+        "prompt": "Верно или неверно: \"That\" используется для предметов, которые находятся далеко.",
+        "theory_block_id": "b1_theory_this_that_singular",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. 'That' используется для предметов, которые находятся далеко от говорящего.",
+        "tags": [
+          "that",
+          "true_false"
+        ]
+      },
+      {
+        "id": "q9",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:",
+        "theory_block_id": "b1_theory_this_that_singular",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "This is my keys.",
+            "feedback": "Нет, 'this' используется с единственным числом, а 'keys' — множественное"
+          },
+          {
+            "id": "b",
+            "text": "That is my key.",
+            "feedback": "Правильно! 'that' используется с единственным числом"
+          },
+          {
+            "id": "c",
+            "text": "This are my key.",
+            "feedback": "Нет, 'this' используется с 'is', а не с 'are'"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "'That' используется с единственным числом и формой 'is': That is my key.",
+        "tags": [
+          "that",
+          "singular"
+        ]
+      },
+      {
+        "id": "q10",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ is a car.\" (this/that)",
+        "theory_block_id": "b1_theory_this_that_singular",
+        "difficulty": 2,
+        "correct_answer": "That",
+        "explanation": "Если машина далеко, используется 'that': That is a car.",
+        "tags": [
+          "that",
+          "singular"
+        ]
+      },
+      {
+        "id": "q11",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке: is, that, your, bag",
+        "theory_block_id": "b1_theory_this_that_singular",
+        "difficulty": 2,
+        "correct_answer": "That is your bag.",
+        "explanation": "Правильный порядок: That is your bag. (Та сумка — твоя.)",
+        "tags": [
+          "that",
+          "reorder"
+        ]
+      },
+      {
+        "id": "q12",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:",
+        "theory_block_id": "b1_theory_this_that_singular",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "This is here.",
+            "feedback": "Правильно! 'this' используется с 'is' и может сочетаться с 'here'"
+          },
+          {
+            "id": "b",
+            "text": "This are here.",
+            "feedback": "Нет, 'this' используется с 'is', а не с 'are'"
+          },
+          {
+            "id": "c",
+            "text": "These is here.",
+            "feedback": "Нет, 'these' используется с 'are', а не с 'is'"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "'This' используется с 'is' и может сочетаться с 'here' для указания на местоположение: This is here.",
+        "tags": [
+          "this",
+          "here"
+        ]
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Что означает \"these\"?",
+        "theory_block_id": "b2_theory_these_those_plural",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "эти (близко)",
+            "feedback": "Правильно! 'these' означает 'эти' (близко, множественное число)"
+          },
+          {
+            "id": "b",
+            "text": "этот (близко)",
+            "feedback": "Нет, 'this' означает 'этот' (близко, единственное число)"
+          },
+          {
+            "id": "c",
+            "text": "те (далеко)",
+            "feedback": "Нет, 'those' означает 'те' (далеко, множественное число)"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "'These' означает 'эти' и используется для предметов, которые находятся близко к говорящему (множественное число).",
+        "tags": [
+          "these",
+          "plural"
+        ]
+      },
+      {
+        "id": "q14",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Что означает \"those\"?",
+        "theory_block_id": "b2_theory_these_those_plural",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "эти (близко)",
+            "feedback": "Нет, 'these' означает 'эти' (близко)"
+          },
+          {
+            "id": "b",
+            "text": "те (далеко)",
+            "feedback": "Правильно! 'those' означает 'те' (далеко, множественное число)"
+          },
+          {
+            "id": "c",
+            "text": "тот (далеко)",
+            "feedback": "Нет, 'that' означает 'тот' (далеко, единственное число)"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "'Those' означает 'те' и используется для предметов, которые находятся далеко от говорящего (множественное число).",
+        "tags": [
+          "those",
+          "plural"
+        ]
+      },
+      {
+        "id": "q15",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ are my books.\" (these/those)",
+        "theory_block_id": "b2_theory_these_those_plural",
+        "difficulty": 1,
+        "correct_answer": "These",
+        "explanation": "Если книги близко, используется 'these': These are my books.",
+        "tags": [
+          "these",
+          "plural"
+        ]
+      },
+      {
+        "id": "q16",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ are your bags.\" (these/those)",
+        "theory_block_id": "b2_theory_these_those_plural",
+        "difficulty": 1,
+        "correct_answer": "Those",
+        "explanation": "Если сумки далеко, используется 'those': Those are your bags.",
+        "tags": [
+          "those",
+          "plural"
+        ]
+      },
+      {
+        "id": "q17",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке: are, these, my, keys",
+        "theory_block_id": "b2_theory_these_those_plural",
+        "difficulty": 2,
+        "correct_answer": "These are my keys.",
+        "explanation": "Правильный порядок: These are my keys. (Это мои ключи.)",
+        "tags": [
+          "these",
+          "reorder"
+        ]
+      },
+      {
+        "id": "q18",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"These is my books.\"",
+        "theory_block_id": "b2_theory_these_those_plural",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "These are my books.",
+            "feedback": "Правильно! 'These' используется с 'are' (множественное число)"
+          },
+          {
+            "id": "b",
+            "text": "This is my books.",
+            "feedback": "Нет, 'this' используется с единственным числом"
+          },
+          {
+            "id": "c",
+            "text": "These is my book.",
+            "feedback": "Нет, 'these' всегда используется с 'are'"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "'These' всегда используется с 'are' (множественное число), а не с 'is'. Правильно: These are my books.",
+        "tags": [
+          "these",
+          "error"
+        ]
+      },
+      {
+        "id": "q19",
+        "type": "true_false",
+        "prompt": "Верно или неверно: \"These\" используется для предметов, которые находятся близко (множественное число).",
+        "theory_block_id": "b2_theory_these_those_plural",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. 'These' используется для предметов, которые находятся близко к говорящему (множественное число).",
+        "tags": [
+          "these",
+          "true_false"
+        ]
+      },
+      {
+        "id": "q20",
+        "type": "true_false",
+        "prompt": "Верно или неверно: \"Those\" используется для предметов, которые находятся далеко (множественное число).",
+        "theory_block_id": "b2_theory_these_those_plural",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. 'Those' используется для предметов, которые находятся далеко от говорящего (множественное число).",
+        "tags": [
+          "those",
+          "true_false"
+        ]
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:",
+        "theory_block_id": "b2_theory_these_those_plural",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Those is cars.",
+            "feedback": "Нет, 'those' используется с 'are', а не с 'is'"
+          },
+          {
+            "id": "b",
+            "text": "Those are cars.",
+            "feedback": "Правильно! 'those' используется с 'are' (множественное число)"
+          },
+          {
+            "id": "c",
+            "text": "That are cars.",
+            "feedback": "Нет, 'that' используется с 'is' (единственное число)"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "'Those' используется с множественным числом и формой 'are': Those are cars.",
+        "tags": [
+          "those",
+          "plural"
+        ]
+      },
+      {
+        "id": "q22",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ are your friends.\" (these/those)",
+        "theory_block_id": "b2_theory_these_those_plural",
+        "difficulty": 2,
+        "correct_answer": "Those",
+        "explanation": "Если друзья далеко, используется 'those': Those are your friends.",
+        "tags": [
+          "those",
+          "plural"
+        ]
+      },
+      {
+        "id": "q23",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке: are, those, your, friends",
+        "theory_block_id": "b2_theory_these_those_plural",
+        "difficulty": 2,
+        "correct_answer": "Those are your friends.",
+        "explanation": "Правильный порядок: Those are your friends. (Те — твои друзья.)",
+        "tags": [
+          "those",
+          "reorder"
+        ]
+      },
+      {
+        "id": "q24",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:",
+        "theory_block_id": "b2_theory_these_those_plural",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "These are here.",
+            "feedback": "Правильно! 'these' используется с 'are' и может сочетаться с 'here'"
+          },
+          {
+            "id": "b",
+            "text": "These is here.",
+            "feedback": "Нет, 'these' используется с 'are', а не с 'is'"
+          },
+          {
+            "id": "c",
+            "text": "This are here.",
+            "feedback": "Нет, 'this' используется с 'is', а не с 'are'"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "'These' используется с 'are' и может сочетаться с 'here' для указания на местоположение: These are here.",
+        "tags": [
+          "these",
+          "here"
+        ]
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Что означает \"here\"?",
+        "theory_block_id": "b3_theory_here_there_location",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "здесь (близко)",
+            "feedback": "Правильно! 'here' означает 'здесь' (близко)"
+          },
+          {
+            "id": "b",
+            "text": "там (далеко)",
+            "feedback": "Нет, 'there' означает 'там' (далеко)"
+          },
+          {
+            "id": "c",
+            "text": "этот (близко)",
+            "feedback": "Нет, 'this' означает 'этот' (близко)"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "'Here' означает 'здесь' и указывает на то, что предмет находится близко к говорящему или в том же месте.",
+        "tags": [
+          "here",
+          "location"
+        ]
+      },
+      {
+        "id": "q26",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Что означает \"there\"?",
+        "theory_block_id": "b3_theory_here_there_location",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "здесь (близко)",
+            "feedback": "Нет, 'here' означает 'здесь' (близко)"
+          },
+          {
+            "id": "b",
+            "text": "там (далеко)",
+            "feedback": "Правильно! 'there' означает 'там' (далеко)"
+          },
+          {
+            "id": "c",
+            "text": "тот (далеко)",
+            "feedback": "Нет, 'that' означает 'тот' (далеко)"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "'There' означает 'там' и указывает на то, что предмет находится далеко от говорящего или в другом месте.",
+        "tags": [
+          "there",
+          "location"
+        ]
+      },
+      {
+        "id": "q27",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"My book is ___.\" (here/there)",
+        "theory_block_id": "b3_theory_here_there_location",
+        "difficulty": 1,
+        "correct_answer": "here",
+        "explanation": "Если книга близко, используется 'here': My book is here.",
+        "tags": [
+          "here",
+          "location"
+        ]
+      },
+      {
+        "id": "q28",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Your bag is ___.\" (here/there)",
+        "theory_block_id": "b3_theory_here_there_location",
+        "difficulty": 1,
+        "correct_answer": "there",
+        "explanation": "Если сумка далеко, используется 'there': Your bag is there.",
+        "tags": [
+          "there",
+          "location"
+        ]
+      },
+      {
+        "id": "q29",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке: are, here, the, keys",
+        "theory_block_id": "b3_theory_here_there_location",
+        "difficulty": 2,
+        "correct_answer": "The keys are here.",
+        "explanation": "Правильный порядок: The keys are here. (Ключи здесь.)",
+        "tags": [
+          "here",
+          "reorder"
+        ]
+      },
+      {
+        "id": "q30",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"My phone is there.\" (когда телефон рядом)",
+        "theory_block_id": "b3_theory_here_there_location",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "My phone is here.",
+            "feedback": "Правильно! Если телефон рядом, используется 'here'"
+          },
+          {
+            "id": "b",
+            "text": "My phone are there.",
+            "feedback": "Нет, 'phone' — единственное число, используется 'is'"
+          },
+          {
+            "id": "c",
+            "text": "My phone is this.",
+            "feedback": "Нет, 'this' не используется после 'is' для указания местоположения"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Если предмет близко, нужно использовать 'here', а не 'there'. Правильно: My phone is here.",
+        "tags": [
+          "here",
+          "error"
+        ]
+      },
+      {
+        "id": "q31",
+        "type": "true_false",
+        "prompt": "Верно или неверно: \"Here\" означает, что предмет находится близко к говорящему.",
+        "theory_block_id": "b3_theory_here_there_location",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. 'Here' означает, что предмет находится близко к говорящему или в том же месте.",
+        "tags": [
+          "here",
+          "true_false"
+        ]
+      },
+      {
+        "id": "q32",
+        "type": "true_false",
+        "prompt": "Верно или неверно: \"There\" означает, что предмет находится далеко от говорящего.",
+        "theory_block_id": "b3_theory_here_there_location",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. 'There' означает, что предмет находится далеко от говорящего или в другом месте.",
+        "tags": [
+          "there",
+          "true_false"
+        ]
+      },
+      {
+        "id": "q33",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:",
+        "theory_block_id": "b3_theory_here_there_location",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The pen is here.",
+            "feedback": "Правильно! Если ручка близко, используется 'here'"
+          },
+          {
+            "id": "b",
+            "text": "The pen is there.",
+            "feedback": "Нет, если ручка близко, используется 'here', а не 'there'"
+          },
+          {
+            "id": "c",
+            "text": "The pen are here.",
+            "feedback": "Нет, 'pen' — единственное число, используется 'is'"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Если ручка близко, используется 'here': The pen is here.",
+        "tags": [
+          "here",
+          "location"
+        ]
+      },
+      {
+        "id": "q34",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"The car is ___.\" (here/there)",
+        "theory_block_id": "b3_theory_here_there_location",
+        "difficulty": 2,
+        "correct_answer": "there",
+        "explanation": "Если машина далеко, используется 'there': The car is there.",
+        "tags": [
+          "there",
+          "location"
+        ]
+      },
+      {
+        "id": "q35",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:",
+        "theory_block_id": "b4_theory_combining_with_be",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "This is my book.",
+            "feedback": "Правильно! 'This' используется с 'is'"
+          },
+          {
+            "id": "b",
+            "text": "This are my book.",
+            "feedback": "Нет, 'this' используется с 'is', а не с 'are'"
+          },
+          {
+            "id": "c",
+            "text": "These is my book.",
+            "feedback": "Нет, 'these' используется с 'are', а не с 'is'"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "'This' всегда используется с 'is' (единственное число): This is my book.",
+        "tags": [
+          "this",
+          "is"
+        ]
+      },
+      {
+        "id": "q36",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:",
+        "theory_block_id": "b4_theory_combining_with_be",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "That is your pen.",
+            "feedback": "Правильно! 'That' используется с 'is'"
+          },
+          {
+            "id": "b",
+            "text": "That are your pen.",
+            "feedback": "Нет, 'that' используется с 'is', а не с 'are'"
+          },
+          {
+            "id": "c",
+            "text": "Those is your pen.",
+            "feedback": "Нет, 'those' используется с 'are', а не с 'is'"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "'That' всегда используется с 'is' (единственное число): That is your pen.",
+        "tags": [
+          "that",
+          "is"
+        ]
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:",
+        "theory_block_id": "b4_theory_combining_with_be",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "These are my keys.",
+            "feedback": "Правильно! 'These' используется с 'are'"
+          },
+          {
+            "id": "b",
+            "text": "These is my keys.",
+            "feedback": "Нет, 'these' используется с 'are', а не с 'is'"
+          },
+          {
+            "id": "c",
+            "text": "This are my keys.",
+            "feedback": "Нет, 'this' используется с 'is', а не с 'are'"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "'These' всегда используется с 'are' (множественное число): These are my keys.",
+        "tags": [
+          "these",
+          "are"
+        ]
+      },
+      {
+        "id": "q38",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:",
+        "theory_block_id": "b4_theory_combining_with_be",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Those are your bags.",
+            "feedback": "Правильно! 'Those' используется с 'are'"
+          },
+          {
+            "id": "b",
+            "text": "Those is your bags.",
+            "feedback": "Нет, 'those' используется с 'are', а не с 'is'"
+          },
+          {
+            "id": "c",
+            "text": "That are your bags.",
+            "feedback": "Нет, 'that' используется с 'is', а не с 'are'"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "'Those' всегда используется с 'are' (множественное число): Those are your bags.",
+        "tags": [
+          "those",
+          "are"
+        ]
+      },
+      {
+        "id": "q39",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"This ___ my phone here.\" (is/are)",
+        "theory_block_id": "b4_theory_combining_with_be",
+        "difficulty": 1,
+        "correct_answer": "is",
+        "explanation": "'This' используется с 'is': This is my phone here.",
+        "tags": [
+          "this",
+          "is"
+        ]
+      },
+      {
+        "id": "q40",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"These ___ my keys here.\" (is/are)",
+        "theory_block_id": "b4_theory_combining_with_be",
+        "difficulty": 1,
+        "correct_answer": "are",
+        "explanation": "'These' используется с 'are': These are my keys here.",
+        "tags": [
+          "these",
+          "are"
+        ]
+      },
+      {
+        "id": "q41",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке: is, here, this, my, phone",
+        "theory_block_id": "b4_theory_combining_with_be",
+        "difficulty": 2,
+        "correct_answer": "This is my phone here.",
+        "explanation": "Правильный порядок: This is my phone here. (Это мой телефон здесь.)",
+        "tags": [
+          "this",
+          "here",
+          "reorder"
+        ]
+      },
+      {
+        "id": "q42",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"This are a book.\"",
+        "theory_block_id": "b4_theory_combining_with_be",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "This is a book.",
+            "feedback": "Правильно! 'This' используется с 'is', а не с 'are'"
+          },
+          {
+            "id": "b",
+            "text": "These are a book.",
+            "feedback": "Нет, 'these' используется с множественным числом"
+          },
+          {
+            "id": "c",
+            "text": "This is books.",
+            "feedback": "Нет, 'this' используется с единственным числом"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "'This' всегда используется с 'is' (единственное число), а не с 'are'. Правильно: This is a book.",
+        "tags": [
+          "this",
+          "error"
+        ]
+      },
+      {
+        "id": "q43",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"These is books.\"",
+        "theory_block_id": "b4_theory_combining_with_be",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "These are books.",
+            "feedback": "Правильно! 'These' используется с 'are', а не с 'is'"
+          },
+          {
+            "id": "b",
+            "text": "This is books.",
+            "feedback": "Нет, 'this' используется с единственным числом"
+          },
+          {
+            "id": "c",
+            "text": "These is book.",
+            "feedback": "Нет, 'these' всегда используется с 'are'"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "'These' всегда используется с 'are' (множественное число), а не с 'is'. Правильно: These are books.",
+        "tags": [
+          "these",
+          "error"
+        ]
+      },
+      {
+        "id": "q44",
+        "type": "true_false",
+        "prompt": "Верно или неверно: \"This\" используется с \"is\" (единственное число).",
+        "theory_block_id": "b4_theory_combining_with_be",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. 'This' всегда используется с 'is' (единственное число).",
+        "tags": [
+          "this",
+          "true_false"
+        ]
+      },
+      {
+        "id": "q45",
+        "type": "true_false",
+        "prompt": "Верно или неверно: \"These\" используется с \"are\" (множественное число).",
+        "theory_block_id": "b4_theory_combining_with_be",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. 'These' всегда используется с 'are' (множественное число).",
+        "tags": [
+          "these",
+          "true_false"
+        ]
+      },
+      {
+        "id": "q46",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант вопроса:",
+        "theory_block_id": "b5_theory_questions_with_demonstratives",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "What is this?",
+            "feedback": "Правильно! В вопросах порядок слов: What + is + this"
+          },
+          {
+            "id": "b",
+            "text": "What this is?",
+            "feedback": "Нет, в вопросах порядок слов: What + is + this"
+          },
+          {
+            "id": "c",
+            "text": "This is what?",
+            "feedback": "Нет, в вопросах вопросительное слово стоит в начале"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В вопросах порядок слов: вопросительное слово + be + указательное местоимение. Правильно: What is this?",
+        "tags": [
+          "question",
+          "what"
+        ]
+      },
+      {
+        "id": "q47",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант вопроса:",
+        "theory_block_id": "b5_theory_questions_with_demonstratives",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "What are these?",
+            "feedback": "Правильно! В вопросах порядок слов: What + are + these"
+          },
+          {
+            "id": "b",
+            "text": "What these are?",
+            "feedback": "Нет, в вопросах порядок слов: What + are + these"
+          },
+          {
+            "id": "c",
+            "text": "These are what?",
+            "feedback": "Нет, в вопросах вопросительное слово стоит в начале"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В вопросах порядок слов: вопросительное слово + be + указательное местоимение. Правильно: What are these?",
+        "tags": [
+          "question",
+          "what"
+        ]
+      },
+      {
+        "id": "q48",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ is this?\" (What/That)",
+        "theory_block_id": "b5_theory_questions_with_demonstratives",
+        "difficulty": 1,
+        "correct_answer": "What",
+        "explanation": "В вопросах используется 'What': What is this?",
+        "tags": [
+          "question",
+          "what"
+        ]
+      },
+      {
+        "id": "q49",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"What ___ these?\" (is/are)",
+        "theory_block_id": "b5_theory_questions_with_demonstratives",
+        "difficulty": 1,
+        "correct_answer": "are",
+        "explanation": "С 'these' используется 'are': What are these?",
+        "tags": [
+          "question",
+          "are"
+        ]
+      },
+      {
+        "id": "q50",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке: is, what, this",
+        "theory_block_id": "b5_theory_questions_with_demonstratives",
+        "difficulty": 2,
+        "correct_answer": "What is this?",
+        "explanation": "Правильный порядок: What is this? (Что это?)",
+        "tags": [
+          "question",
+          "reorder"
+        ]
+      },
+      {
+        "id": "q51",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"What this is?\"",
+        "theory_block_id": "b5_theory_questions_with_demonstratives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "What is this?",
+            "feedback": "Правильно! В вопросах порядок слов: What + is + this"
+          },
+          {
+            "id": "b",
+            "text": "What are this?",
+            "feedback": "Нет, 'this' используется с 'is', а не с 'are'"
+          },
+          {
+            "id": "c",
+            "text": "This is what?",
+            "feedback": "Нет, в вопросах вопросительное слово стоит в начале"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В вопросах порядок слов: вопросительное слово + be + указательное местоимение. Правильно: What is this?",
+        "tags": [
+          "question",
+          "error"
+        ]
+      },
+      {
+        "id": "q52",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"What these are?\"",
+        "theory_block_id": "b5_theory_questions_with_demonstratives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "What are these?",
+            "feedback": "Правильно! В вопросах порядок слов: What + are + these"
+          },
+          {
+            "id": "b",
+            "text": "What is these?",
+            "feedback": "Нет, 'these' используется с 'are', а не с 'is'"
+          },
+          {
+            "id": "c",
+            "text": "These are what?",
+            "feedback": "Нет, в вопросах вопросительное слово стоит в начале"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В вопросах порядок слов: вопросительное слово + be + указательное местоимение. Правильно: What are these?",
+        "tags": [
+          "question",
+          "error"
+        ]
+      },
+      {
+        "id": "q53",
+        "type": "true_false",
+        "prompt": "Верно или неверно: В вопросах порядок слов: What + is/are + указательное местоимение.",
+        "theory_block_id": "b5_theory_questions_with_demonstratives",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. В вопросах порядок слов: вопросительное слово + be + указательное местоимение.",
+        "tags": [
+          "question",
+          "true_false"
+        ]
+      },
+      {
+        "id": "q54",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант вопроса:",
+        "theory_block_id": "b5_theory_questions_with_demonstratives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "What is that?",
+            "feedback": "Правильно! 'What is that?' — правильный вопрос"
+          },
+          {
+            "id": "b",
+            "text": "What that is?",
+            "feedback": "Нет, в вопросах порядок слов: What + is + that"
+          },
+          {
+            "id": "c",
+            "text": "That is what?",
+            "feedback": "Нет, в вопросах вопросительное слово стоит в начале"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В вопросах порядок слов: вопросительное слово + be + указательное местоимение. Правильно: What is that?",
+        "tags": [
+          "question",
+          "what"
+        ]
+      },
+      {
+        "id": "q55",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант вопроса:",
+        "theory_block_id": "b5_theory_questions_with_demonstratives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "What are those?",
+            "feedback": "Правильно! 'What are those?' — правильный вопрос"
+          },
+          {
+            "id": "b",
+            "text": "What those are?",
+            "feedback": "Нет, в вопросах порядок слов: What + are + those"
+          },
+          {
+            "id": "c",
+            "text": "Those are what?",
+            "feedback": "Нет, в вопросах вопросительное слово стоит в начале"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В вопросах порядок слов: вопросительное слово + be + указательное местоимение. Правильно: What are those?",
+        "tags": [
+          "question",
+          "what"
+        ]
+      },
+      {
+        "id": "q56",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"What ___ that there?\" (is/are)",
+        "theory_block_id": "b5_theory_questions_with_demonstratives",
+        "difficulty": 2,
+        "correct_answer": "is",
+        "explanation": "С 'that' используется 'is': What is that there?",
+        "tags": [
+          "question",
+          "is"
+        ]
+      },
+      {
+        "id": "q57",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"What ___ those there?\" (is/are)",
+        "theory_block_id": "b5_theory_questions_with_demonstratives",
+        "difficulty": 2,
+        "correct_answer": "are",
+        "explanation": "С 'those' используется 'are': What are those there?",
+        "tags": [
+          "question",
+          "are"
+        ]
+      },
+      {
+        "id": "q58",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке: are, what, those, there",
+        "theory_block_id": "b5_theory_questions_with_demonstratives",
+        "difficulty": 3,
+        "correct_answer": "What are those there?",
+        "explanation": "Правильный порядок: What are those there? (Что те там?)",
+        "tags": [
+          "question",
+          "reorder"
+        ]
+      },
+      {
+        "id": "q59",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант вопроса:",
+        "theory_block_id": "b5_theory_questions_with_demonstratives",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Who is this?",
+            "feedback": "Правильно! 'Who is this?' — правильный вопрос о людях"
+          },
+          {
+            "id": "b",
+            "text": "Who this is?",
+            "feedback": "Нет, в вопросах порядок слов: Who + is + this"
+          },
+          {
+            "id": "c",
+            "text": "This is who?",
+            "feedback": "Нет, в вопросах вопросительное слово стоит в начале"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В вопросах о людях используется 'Who': Who is this?",
+        "tags": [
+          "question",
+          "who"
+        ]
+      },
+      {
+        "id": "q60",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант вопроса:",
+        "theory_block_id": "b5_theory_questions_with_demonstratives",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Who are these?",
+            "feedback": "Правильно! 'Who are these?' — правильный вопрос о людях"
+          },
+          {
+            "id": "b",
+            "text": "Who these are?",
+            "feedback": "Нет, в вопросах порядок слов: Who + are + these"
+          },
+          {
+            "id": "c",
+            "text": "These are who?",
+            "feedback": "Нет, в вопросах вопросительное слово стоит в начале"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В вопросах о людях используется 'Who': Who are these?",
+        "tags": [
+          "question",
+          "who"
+        ]
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-17T16:36:54Z",
+    "source": "llm"
+  }
+}
