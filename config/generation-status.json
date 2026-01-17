@@ -676,9 +676,23 @@
       "title": "Object pronouns: me/him/them (I like **him**)",
       "level": "A1",
       "order": 206,
-      "status": "pending",
+      "status": "generated",
+      "started_at": "2026-01-17T20:00:00Z",
+      "completed_at": "2026-01-17T20:30:00Z",
       "input_file": "config/chapter-templates/en.grammar.talking_about_things_nouns.object_pronouns_me_him-input.json",
-      "output_dir": "chapters/en.grammar.talking_about_things_nouns.object_pronouns_me_him"
+      "output_dir": "chapters/en.grammar.talking_about_things_nouns.object_pronouns_me_him",
+      "files": {
+        "outline": "chapters/en.grammar.talking_about_things_nouns.object_pronouns_me_him/01-outline.json",
+        "theory_blocks": "chapters/en.grammar.talking_about_things_nouns.object_pronouns_me_him/02-theory-blocks/",
+        "questions": "chapters/en.grammar.talking_about_things_nouns.object_pronouns_me_him/03-questions.json",
+        "inline_quizzes": "chapters/en.grammar.talking_about_things_nouns.object_pronouns_me_him/04-inline-quizzes.json",
+        "final": "chapters/en.grammar.talking_about_things_nouns.object_pronouns_me_him/05-final.json",
+        "validation": "chapters/en.grammar.talking_about_things_nouns.object_pronouns_me_him/05-validation.json"
+      },
+      "validation": {
+        "is_valid": true,
+        "last_validated": "2026-01-17T20:30:00Z"
+      }
     },
     {
       "chapter_id": "en.grammar.talking_about_things_nouns.how_many_how_much",
@@ -1814,10 +1828,10 @@
   "summary": {
     "total_sections": 19,
     "total_chapters": 130,
-    "chapters_generated": 16,
+    "chapters_generated": 17,
     "chapters_in_progress": 0,
-    "chapters_pending": 114,
+    "chapters_pending": 113,
     "chapters_failed": 0,
-    "chapters_validated": 15
+    "chapters_validated": 16
   }
 }
