@@ -1,0 +1,1862 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.first_actions_present_simple.present_simple_statements_i",
+  "section_id": "en.grammar.first_actions_present_simple",
+  "title": "Present Simple statements: I work / She works",
+  "title_short": "Present Simple statements: I work / She works",
+  "description": "Изучение утверждений в Present Simple. Построение утвердительных предложений с глаголами-действиями для разных лиц (I/you/we/they vs he/she/it). Практическое применение правила -s для третьего лица единственного числа в контексте полных предложений.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "A1",
+  "order": 0,
+  "prerequisites": [
+    "en.grammar.first_actions_present_simple.verbs_as_actions_base"
+  ],
+  "concept_refs": [
+    "present_simple_statements_intro",
+    "statements_i_you_we_they",
+    "statements_he_she_it_s",
+    "complete_statements_structure",
+    "common_verbs_statements"
+  ],
+  "learning_objectives": [
+    "Научиться строить утвердительные предложения в Present Simple",
+    "Закрепить правило использования базовой формы для I/you/we/they",
+    "Закрепить правило добавления -s для he/she/it",
+    "Освоить построение полных утвердительных предложений с глаголами-действиями"
+  ],
+  "estimated_minutes": 22,
+  "blocks": [
+    {
+      "id": "b1_theory_statements_intro",
+      "type": "theory",
+      "title": "Утверждения (statements) — это предложения, в которых мы сообщаем информацию, утверждаем факт или описываем ситуацию. В английском языке утверждения в Present Simple имеют четкую структуру:",
+      "theory": {
+        "concept_id": "present_simple_statements_intro",
+        "content_md": "**Утверждения** (statements) — это предложения, в которых мы сообщаем информацию, утверждаем факт или описываем ситуацию. В английском языке утверждения в Present Simple имеют четкую структуру:\n\n**Subject + Verb + (Object/Complement)**\n\n- **Subject** (подлежащее) — кто или что выполняет действие: I, you, we, they, he, she, it, имена, предметы\n- **Verb** (глагол) — действие, которое выполняется: work, play, study, like, want\n- **Object/Complement** (объект/дополнение) — то, на что направлено действие или дополнительная информация\n\nУтверждения в Present Simple используются для описания:\n- Регулярных действий и привычек (I work every day)\n- Постоянных состояний и фактов (She lives in London)\n- Общих истин (Water boils at 100°C)",
+        "key_points": [
+          "Утверждения сообщают информацию или описывают ситуацию",
+          "Структура: Subject + Verb + Object/Complement",
+          "Present Simple используется для регулярных действий и постоянных состояний"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I work every day.",
+            "translation": "Я работаю каждый день.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "She studies English.",
+            "translation": "Она изучает английский.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "We live in Moscow.",
+            "translation": "Мы живем в Москве.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_statements_intro",
+      "type": "quiz_inline",
+      "title": "Quick check: do you understand statements?",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5",
+          "q6"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_first_second_person",
+      "type": "theory",
+      "title": "Для первого и второго лица (единственного и множественного числа) в утверждениях Present Simple используется базовая форма глагола (V1) без изменений.",
+      "theory": {
+        "concept_id": "statements_i_you_we_they",
+        "content_md": "Для **первого и второго лица** (единственного и множественного числа) в утверждениях Present Simple используется **базовая форма глагола** (V1) **без изменений**.\n\n**Лица и местоимения:**\n- **I** (я) — первое лицо единственного числа\n- **you** (ты/вы) — второе лицо (единственного и множественного числа)\n- **we** (мы) — первое лицо множественного числа\n- **they** (они) — третье лицо множественного числа\n\nДля всех этих местоимений глагол остается в базовой форме: **work, play, study, like, want** — без добавления окончаний.\n\n**Важно:** Глагол не изменяется независимо от того, идет ли речь об одном человеке (I) или о группе (we, they).",
+        "key_points": [
+          "Для I/you/we/they используется базовая форма глагола (V1)",
+          "Глагол не изменяется, остается в исходной форме",
+          "Это правило применяется независимо от единственного или множественного числа"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "I works every day.",
+            "right": "I work every day.",
+            "why": "Для первого лица единственного числа (I) не добавляем -s к глаголу"
+          },
+          {
+            "wrong": "We plays football.",
+            "right": "We play football.",
+            "why": "Для первого лица множественного числа (we) используем базовую форму глагола"
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I work in a bank.",
+            "translation": "Я работаю в банке.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "You study English.",
+            "translation": "Ты изучаешь английский.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "We live in Moscow.",
+            "translation": "Мы живем в Москве.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex4",
+            "text": "They play football every weekend.",
+            "translation": "Они играют в футбол каждые выходные.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_first_second_person",
+      "type": "quiz_inline",
+      "title": "Quick check: do you understand I/you/we/they?",
+      "quiz_inline": {
+        "question_ids": [
+          "q15",
+          "q16",
+          "q17",
+          "q18",
+          "q19",
+          "q20"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_third_person_s",
+      "type": "theory",
+      "title": "Для третьего лица единственного числа (he, she, it) в утверждениях Present Simple к глаголу обязательно добавляется окончание -s (или -es, -ies в зависимости от правил написания).",
+      "theory": {
+        "concept_id": "statements_he_she_it_s",
+        "content_md": "Для **третьего лица единственного числа** (he, she, it) в утверждениях Present Simple к глаголу **обязательно добавляется окончание -s** (или -es, -ies в зависимости от правил написания).\n\n**Местоимения третьего лица единственного числа:**\n- **he** (он) — мужской род\n- **she** (она) — женский род\n- **it** (оно) — средний род, предметы, животные\n\n**Правило:** К базовой форме глагола добавляется **-s**: work → works, play → plays, study → studies\n\n**Важно помнить:** Это правило применяется **только** к третьему лицу единственного числа. Для всех остальных лиц (I, you, we, they) глагол остается в базовой форме.\n\nЭто правило связано с тем, что в английском языке глагол согласуется с подлежащим в числе и лице только в третьем лице единственного числа.",
+        "key_points": [
+          "Для he/she/it обязательно добавляется -s к глаголу",
+          "Это правило применяется только к третьему лицу единственного числа",
+          "Глагол согласуется с подлежащим только для he/she/it"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "He work every day.",
+            "right": "He works every day.",
+            "why": "Для третьего лица единственного числа (he) обязательно добавляем -s к глаголу"
+          },
+          {
+            "wrong": "She play football.",
+            "right": "She plays football.",
+            "why": "Для третьего лица единственного числа (she) глагол должен иметь окончание -s"
+          },
+          {
+            "wrong": "It work well.",
+            "right": "It works well.",
+            "why": "Для третьего лица единственного числа (it) также добавляем -s"
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "He works in a hospital.",
+            "translation": "Он работает в больнице.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "She studies at university.",
+            "translation": "Она учится в университете.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "It works perfectly.",
+            "translation": "Это работает идеально.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex4",
+            "text": "My sister lives in Paris.",
+            "translation": "Моя сестра живет в Париже.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_third_person_s",
+      "type": "quiz_inline",
+      "title": "Quick check: do you understand he/she/it?",
+      "quiz_inline": {
+        "question_ids": [
+          "q29",
+          "q30",
+          "q31",
+          "q32",
+          "q33",
+          "q34"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_full_sentences",
+      "type": "theory",
+      "title": "Полные утверждения в Present Simple могут содержать не только подлежащее и глагол, но и объекты, дополнения и обстоятельства.",
+      "theory": {
+        "concept_id": "complete_statements_structure",
+        "content_md": "Полные утверждения в Present Simple могут содержать не только подлежащее и глагол, но и **объекты, дополнения и обстоятельства**.\n\n**Структура полного утверждения:**\n\n**Subject + Verb + Object + (Adverbial)**\n\n- **Object** (объект) — то, на что направлено действие:\n  - Прямой объект: \"I read **books**\", \"She plays **tennis**\"\n  - Косвенный объект: \"I give **him** a book\", \"She tells **me** stories\"\n\n- **Adverbial** (обстоятельство) — время, место, способ:\n  - Времени: every day, always, usually, on Mondays\n  - Места: in London, at home, at work\n  - Способа: well, slowly, carefully\n\n**Важно:** Независимо от того, сколько элементов содержит предложение, правила использования формы глагола остаются прежними: базовая форма для I/you/we/they и форма с -s для he/she/it.",
+        "key_points": [
+          "Полные утверждения содержат Subject + Verb + Object + (обстоятельства)",
+          "Объект указывает на то, на что направлено действие",
+          "Обстоятельства описывают время, место или способ действия"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I read books every evening.",
+            "translation": "Я читаю книги каждый вечер.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "She teaches English at school.",
+            "translation": "Она преподает английский в школе.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "We play football in the park on weekends.",
+            "translation": "Мы играем в футбол в парке по выходным.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex4",
+            "text": "He works hard every day.",
+            "translation": "Он усердно работает каждый день.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8_quiz_after_full_sentences",
+      "type": "quiz_inline",
+      "title": "Quick check: do you understand full statements?",
+      "quiz_inline": {
+        "question_ids": [
+          "q43",
+          "q44",
+          "q45",
+          "q46",
+          "q47",
+          "q48"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_common_verbs",
+      "type": "theory",
+      "title": "В утверждениях Present Simple часто используются определенные глаголы. Вот некоторые из наиболее употребительных:",
+      "theory": {
+        "concept_id": "common_verbs_statements",
+        "content_md": "В утверждениях Present Simple часто используются определенные глаголы. Вот некоторые из наиболее употребительных:\n\n**Глаголы деятельности:**\n- **work** (работать) — I work, He works\n- **study** (учиться, изучать) — You study, She studies\n- **play** (играть) — We play, He plays\n- **live** (жить) — They live, She lives\n\n**Глаголы состояния и чувств:**\n- **like** (нравиться) — I like, She likes\n- **want** (хотеть) — You want, He wants\n- **need** (нуждаться) — We need, It needs\n- **have** (иметь) — They have, She has\n\n**Особенности:**\n- Большинство глаголов просто добавляют -s для he/she/it: work → works, play → plays\n- Глагол **have** имеет особую форму для he/she/it: **has** (не \"haves\")\n- Все эти глаголы остаются в базовой форме для I/you/we/they",
+        "key_points": [
+          "work, study, play, live — часто используемые глаголы деятельности",
+          "like, want, need — часто используемые глаголы состояния",
+          "Глагол have имеет особую форму has для he/she/it"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "She have a cat.",
+            "right": "She has a cat.",
+            "why": "Глагол have в третьем лице единственного числа имеет форму has, а не 'haves'"
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I work in an office.",
+            "translation": "Я работаю в офисе.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "She studies medicine.",
+            "translation": "Она изучает медицину.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "We play tennis every Sunday.",
+            "translation": "Мы играем в теннис каждое воскресенье.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex4",
+            "text": "He lives in New York.",
+            "translation": "Он живет в Нью-Йорке.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex5",
+            "text": "They like coffee.",
+            "translation": "Им нравится кофе.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex6",
+            "text": "She wants a new phone.",
+            "translation": "Она хочет новый телефон.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex7",
+            "text": "He has two brothers.",
+            "translation": "У него есть два брата.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Что такое утверждения (statements) в английском языке?",
+        "theory_block_id": "b1_theory_statements_intro",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Предложения, в которых сообщается информация или утверждается факт",
+            "feedback": "Правильно! Утверждения сообщают информацию или описывают ситуацию"
+          },
+          {
+            "id": "b",
+            "text": "Предложения-вопросы",
+            "feedback": "Нет, вопросы — это отдельный тип предложений"
+          },
+          {
+            "id": "c",
+            "text": "Предложения с отрицанием",
+            "feedback": "Нет, отрицания — это отдельный тип предложений"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Утверждения (statements) — это предложения, в которых сообщается информация, утверждается факт или описывается ситуация. Они имеют структуру Subject + Verb + (Object/Complement).",
+        "tags": [
+          "basics"
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "mcq_single",
+        "prompt": "Какая структура у утверждений в Present Simple?",
+        "theory_block_id": "b1_theory_statements_intro",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Subject + Verb + (Object/Complement)",
+            "feedback": "Правильно! Это базовая структура утверждений"
+          },
+          {
+            "id": "b",
+            "text": "Verb + Subject + Object",
+            "feedback": "Нет, это структура вопросов"
+          },
+          {
+            "id": "c",
+            "text": "Subject + not + Verb",
+            "feedback": "Нет, это структура отрицаний"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Структура утверждений в Present Simple: Subject (подлежащее) + Verb (глагол) + (Object/Complement) (объект/дополнение).",
+        "tags": [
+          "structure"
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "true_false",
+        "prompt": "Утверждения в Present Simple используются только для описания настоящего момента.",
+        "theory_block_id": "b1_theory_statements_intro",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Неверно. Утверждения в Present Simple используются для описания регулярных действий, постоянных состояний и общих истин, а не только текущего момента.",
+        "tags": [
+          "usage"
+        ]
+      },
+      {
+        "id": "q4",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I ___ every morning.\" (работать)",
+        "theory_block_id": "b1_theory_statements_intro",
+        "difficulty": 1,
+        "correct_answer": "work",
+        "explanation": "Правильный ответ: 'work'. Для I используется базовая форма глагола 'work' (работать).",
+        "tags": [
+          "base_form"
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "mcq_single",
+        "prompt": "Какое из предложений является утверждением в Present Simple?",
+        "theory_block_id": "b1_theory_statements_intro",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I work every day.",
+            "feedback": "Правильно! Это утверждение в Present Simple"
+          },
+          {
+            "id": "b",
+            "text": "Do I work every day?",
+            "feedback": "Нет, это вопрос"
+          },
+          {
+            "id": "c",
+            "text": "I don't work every day.",
+            "feedback": "Нет, это отрицание"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Предложение 'I work every day' является утверждением в Present Simple. Оно сообщает информацию о регулярном действии.",
+        "tags": [
+          "identification"
+        ]
+      },
+      {
+        "id": "q6",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"He work every day.\"",
+        "theory_block_id": "b1_theory_statements_intro",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "work",
+            "feedback": "Правильно! Для he нужно 'works' с окончанием -s"
+          },
+          {
+            "id": "b",
+            "text": "every day",
+            "feedback": "Нет, 'every day' здесь правильно"
+          },
+          {
+            "id": "c",
+            "text": "He",
+            "feedback": "Нет, 'He' здесь правильно"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка в слове 'work'. Для he нужно использовать форму 'works' с окончанием -s.",
+        "tags": [
+          "error"
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "mcq_single",
+        "prompt": "В утверждениях Present Simple глагол изменяется в зависимости от...",
+        "theory_block_id": "b1_theory_statements_intro",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "лица подлежащего",
+            "feedback": "Правильно! Глагол изменяется в зависимости от лица подлежащего"
+          },
+          {
+            "id": "b",
+            "text": "времени действия",
+            "feedback": "Нет, время действия определяется контекстом, а не формой глагола"
+          },
+          {
+            "id": "c",
+            "text": "количества объектов",
+            "feedback": "Нет, количество объектов не влияет на форму глагола"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В утверждениях Present Simple глагол изменяется в зависимости от лица подлежащего: для I/you/we/they — базовая форма, для he/she/it — форма с -s.",
+        "tags": [
+          "concept"
+        ]
+      },
+      {
+        "id": "q8",
+        "type": "true_false",
+        "prompt": "Утверждения в Present Simple могут содержать объекты и дополнения.",
+        "theory_block_id": "b1_theory_statements_intro",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. Утверждения в Present Simple могут содержать объекты (то, на что направлено действие) и дополнения (дополнительную информацию).",
+        "tags": [
+          "structure"
+        ]
+      },
+      {
+        "id": "q9",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She ___ English.\" (изучать)",
+        "theory_block_id": "b1_theory_statements_intro",
+        "difficulty": 1,
+        "correct_answer": "studies",
+        "explanation": "Правильный ответ: 'studies'. Для she нужно добавить окончание -s к глаголу 'study', получается 'studies'.",
+        "tags": [
+          "third_person"
+        ]
+      },
+      {
+        "id": "q10",
+        "type": "mcq_single",
+        "prompt": "Предложение \"We live in Moscow\" описывает...",
+        "theory_block_id": "b1_theory_statements_intro",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Постоянное состояние",
+            "feedback": "Правильно! Это описывает постоянное место проживания"
+          },
+          {
+            "id": "b",
+            "text": "Одноразовое действие",
+            "feedback": "Нет, это не одноразовое действие"
+          },
+          {
+            "id": "c",
+            "text": "Прошедшее время",
+            "feedback": "Нет, это настоящее время"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Предложение 'We live in Moscow' описывает постоянное состояние — место проживания. Present Simple используется для описания постоянных состояний.",
+        "tags": [
+          "usage"
+        ]
+      },
+      {
+        "id": "q11",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"I works in a bank.\"",
+        "theory_block_id": "b1_theory_statements_intro",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "works",
+            "feedback": "Правильно! Для I используется базовая форма 'work', а не 'works'"
+          },
+          {
+            "id": "b",
+            "text": "in a bank",
+            "feedback": "Нет, 'in a bank' здесь правильно"
+          },
+          {
+            "id": "c",
+            "text": "I",
+            "feedback": "Нет, 'I' здесь правильно"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка в слове 'works'. Для I нужно использовать базовую форму 'work', а не 'works'. Окончание -s добавляется только для he/she/it.",
+        "tags": [
+          "error"
+        ]
+      },
+      {
+        "id": "q12",
+        "type": "true_false",
+        "prompt": "В предложении \"They play football every weekend\" глагол 'play' находится в базовой форме.",
+        "theory_block_id": "b1_theory_statements_intro",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. Для they используется базовая форма глагола 'play' без изменений.",
+        "tags": [
+          "base_form"
+        ]
+      },
+      {
+        "id": "q13",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Water ___ at 100°C.\" (кипеть)",
+        "theory_block_id": "b1_theory_statements_intro",
+        "difficulty": 2,
+        "correct_answer": "boils",
+        "explanation": "Правильный ответ: 'boils'. Здесь 'water' — это третье лицо единственного числа, поэтому к глаголу 'boil' добавляется окончание -s.",
+        "tags": [
+          "general_truth"
+        ]
+      },
+      {
+        "id": "q14",
+        "type": "mcq_single",
+        "prompt": "Какое из предложений правильно выражает регулярное действие?",
+        "theory_block_id": "b1_theory_statements_intro",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I work every day.",
+            "feedback": "Правильно! Это описывает регулярное действие"
+          },
+          {
+            "id": "b",
+            "text": "I am working now.",
+            "feedback": "Нет, это описывает текущий момент"
+          },
+          {
+            "id": "c",
+            "text": "I worked yesterday.",
+            "feedback": "Нет, это прошедшее время"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Предложение 'I work every day' правильно выражает регулярное действие. Present Simple используется для описания регулярных действий и привычек.",
+        "tags": [
+          "regular_action"
+        ]
+      },
+      {
+        "id": "q15",
+        "type": "mcq_single",
+        "prompt": "Какая форма глагола используется для I/you/we/they в утверждениях Present Simple?",
+        "theory_block_id": "b2_theory_first_second_person",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Базовая форма глагола (V1)",
+            "feedback": "Правильно! Для I/you/we/they используется базовая форма глагола"
+          },
+          {
+            "id": "b",
+            "text": "Форма с окончанием -s",
+            "feedback": "Нет, форма с -s используется только для he/she/it"
+          },
+          {
+            "id": "c",
+            "text": "Форма с окончанием -ed",
+            "feedback": "Нет, это форма прошедшего времени"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для первого и второго лица (единственного и множественного числа) в утверждениях Present Simple используется базовая форма глагола (V1) без изменений: work, play, study, like.",
+        "tags": [
+          "base_form"
+        ]
+      },
+      {
+        "id": "q16",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I ___ in a bank.\" (работать)",
+        "theory_block_id": "b2_theory_first_second_person",
+        "difficulty": 1,
+        "correct_answer": "work",
+        "explanation": "Правильный ответ: 'work'. Для I используется базовая форма глагола 'work' (работать) без изменений.",
+        "tags": [
+          "first_person"
+        ]
+      },
+      {
+        "id": "q17",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"You ___ English.\" (изучать)",
+        "theory_block_id": "b2_theory_first_second_person",
+        "difficulty": 1,
+        "correct_answer": "study",
+        "explanation": "Правильный ответ: 'study'. Для you используется базовая форма глагола 'study' (изучать) без изменений.",
+        "tags": [
+          "second_person"
+        ]
+      },
+      {
+        "id": "q18",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"We ___ in Moscow.\" (жить)",
+        "theory_block_id": "b2_theory_first_second_person",
+        "difficulty": 1,
+        "correct_answer": "live",
+        "explanation": "Правильный ответ: 'live'. Для we используется базовая форма глагола 'live' (жить) без изменений.",
+        "tags": [
+          "first_person_plural"
+        ]
+      },
+      {
+        "id": "q19",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"They ___ football every weekend.\" (играть)",
+        "theory_block_id": "b2_theory_first_second_person",
+        "difficulty": 1,
+        "correct_answer": "play",
+        "explanation": "Правильный ответ: 'play'. Для they используется базовая форма глагола 'play' (играть) без изменений.",
+        "tags": [
+          "third_person_plural"
+        ]
+      },
+      {
+        "id": "q20",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"I works every day.\"",
+        "theory_block_id": "b2_theory_first_second_person",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "works",
+            "feedback": "Правильно! Для I используется базовая форма 'work', а не 'works'"
+          },
+          {
+            "id": "b",
+            "text": "every day",
+            "feedback": "Нет, 'every day' здесь правильно"
+          },
+          {
+            "id": "c",
+            "text": "I",
+            "feedback": "Нет, 'I' здесь правильно"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка в слове 'works'. Для первого лица единственного числа (I) используется базовая форма глагола 'work', а не 'works'. Окончание -s добавляется только для he/she/it.",
+        "tags": [
+          "error"
+        ]
+      },
+      {
+        "id": "q21",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"We plays football.\"",
+        "theory_block_id": "b2_theory_first_second_person",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "plays",
+            "feedback": "Правильно! Для we используется базовая форма 'play', а не 'plays'"
+          },
+          {
+            "id": "b",
+            "text": "football",
+            "feedback": "Нет, 'football' здесь правильно"
+          },
+          {
+            "id": "c",
+            "text": "We",
+            "feedback": "Нет, 'We' здесь правильно"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка в слове 'plays'. Для первого лица множественного числа (we) используется базовая форма глагола 'play', а не 'plays'.",
+        "tags": [
+          "error"
+        ]
+      },
+      {
+        "id": "q22",
+        "type": "mcq_single",
+        "prompt": "Какое предложение правильно использует базовую форму глагола?",
+        "theory_block_id": "b2_theory_first_second_person",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I work in an office.",
+            "feedback": "Правильно! Для I используется базовая форма 'work'"
+          },
+          {
+            "id": "b",
+            "text": "I works in an office.",
+            "feedback": "Нет, для I не используется форма с -s"
+          },
+          {
+            "id": "c",
+            "text": "He work in an office.",
+            "feedback": "Нет, для he нужна форма с -s"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Предложение 'I work in an office' правильно использует базовую форму 'work' для первого лица единственного числа (I).",
+        "tags": [
+          "identification"
+        ]
+      },
+      {
+        "id": "q23",
+        "type": "true_false",
+        "prompt": "Для местоимения 'you' в утверждениях Present Simple используется базовая форма глагола.",
+        "theory_block_id": "b2_theory_first_second_person",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. Для местоимения 'you' (ты/вы) используется базовая форма глагола без изменений, независимо от того, единственное это или множественное число.",
+        "tags": [
+          "second_person"
+        ]
+      },
+      {
+        "id": "q24",
+        "type": "true_false",
+        "prompt": "Глагол изменяется в зависимости от того, единственное или множественное число имеет местоимение I/you/we/they.",
+        "theory_block_id": "b2_theory_first_second_person",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Неверно. Для I/you/we/they глагол остается в базовой форме независимо от того, единственное это или множественное число. Глагол не изменяется.",
+        "tags": [
+          "concept"
+        ]
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "В предложении \"You study English\" какой тип формы глагола используется?",
+        "theory_block_id": "b2_theory_first_second_person",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Базовая форма",
+            "feedback": "Правильно! Для you используется базовая форма 'study'"
+          },
+          {
+            "id": "b",
+            "text": "Форма с -s",
+            "feedback": "Нет, форма с -s используется только для he/she/it"
+          },
+          {
+            "id": "c",
+            "text": "Форма с -ed",
+            "feedback": "Нет, это форма прошедшего времени"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В предложении 'You study English' используется базовая форма глагола 'study'. Для второго лица (you) глагол остается в базовой форме.",
+        "tags": [
+          "identification"
+        ]
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"They ___ books every evening.\" (читать)",
+        "theory_block_id": "b2_theory_first_second_person",
+        "difficulty": 1,
+        "correct_answer": "read",
+        "explanation": "Правильный ответ: 'read'. Для they используется базовая форма глагола 'read' (читать) без изменений.",
+        "tags": [
+          "third_person_plural"
+        ]
+      },
+      {
+        "id": "q27",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"You works very hard.\"",
+        "theory_block_id": "b2_theory_first_second_person",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "works",
+            "feedback": "Правильно! Для you используется базовая форма 'work', а не 'works'"
+          },
+          {
+            "id": "b",
+            "text": "very hard",
+            "feedback": "Нет, 'very hard' здесь правильно"
+          },
+          {
+            "id": "c",
+            "text": "You",
+            "feedback": "Нет, 'You' здесь правильно"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка в слове 'works'. Для второго лица (you) используется базовая форма глагола 'work', а не 'works'.",
+        "tags": [
+          "error"
+        ]
+      },
+      {
+        "id": "q28",
+        "type": "mcq_single",
+        "prompt": "Какое из предложений правильно для местоимения 'we'?",
+        "theory_block_id": "b2_theory_first_second_person",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We play tennis.",
+            "feedback": "Правильно! Для we используется базовая форма 'play'"
+          },
+          {
+            "id": "b",
+            "text": "We plays tennis.",
+            "feedback": "Нет, для we не используется форма с -s"
+          },
+          {
+            "id": "c",
+            "text": "We playing tennis.",
+            "feedback": "Нет, это форма Continuous, а не Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Предложение 'We play tennis' правильно использует базовую форму 'play' для первого лица множественного числа (we).",
+        "tags": [
+          "identification"
+        ]
+      },
+      {
+        "id": "q29",
+        "type": "mcq_single",
+        "prompt": "Какая форма глагола используется для he/she/it в утверждениях Present Simple?",
+        "theory_block_id": "b3_theory_third_person_s",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Базовая форма с окончанием -s",
+            "feedback": "Правильно! Для he/she/it добавляется окончание -s к глаголу"
+          },
+          {
+            "id": "b",
+            "text": "Базовая форма без изменений",
+            "feedback": "Нет, базовая форма без изменений используется для I/you/we/they"
+          },
+          {
+            "id": "c",
+            "text": "Форма с окончанием -ed",
+            "feedback": "Нет, это форма прошедшего времени"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для третьего лица единственного числа (he, she, it) в утверждениях Present Simple к глаголу обязательно добавляется окончание -s (или -es, -ies): work → works, play → plays.",
+        "tags": [
+          "third_person"
+        ]
+      },
+      {
+        "id": "q30",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"He ___ in a hospital.\" (работать)",
+        "theory_block_id": "b3_theory_third_person_s",
+        "difficulty": 1,
+        "correct_answer": "works",
+        "explanation": "Правильный ответ: 'works'. Для he нужно добавить окончание -s к базовой форме 'work', получается 'works'.",
+        "tags": [
+          "third_person"
+        ]
+      },
+      {
+        "id": "q31",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She ___ at university.\" (учиться)",
+        "theory_block_id": "b3_theory_third_person_s",
+        "difficulty": 1,
+        "correct_answer": "studies",
+        "explanation": "Правильный ответ: 'studies'. Для she нужно добавить окончание -s к глаголу 'study', но так как глагол заканчивается на 'y' после согласной, 'y' меняется на 'ies': study → studies.",
+        "tags": [
+          "third_person",
+          "spelling"
+        ]
+      },
+      {
+        "id": "q32",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"It ___ perfectly.\" (работать)",
+        "theory_block_id": "b3_theory_third_person_s",
+        "difficulty": 1,
+        "correct_answer": "works",
+        "explanation": "Правильный ответ: 'works'. Для it нужно добавить окончание -s к базовой форме 'work', получается 'works'.",
+        "tags": [
+          "third_person"
+        ]
+      },
+      {
+        "id": "q33",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"He work every day.\"",
+        "theory_block_id": "b3_theory_third_person_s",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "work",
+            "feedback": "Правильно! Для he нужно 'works' с окончанием -s"
+          },
+          {
+            "id": "b",
+            "text": "every day",
+            "feedback": "Нет, 'every day' здесь правильно"
+          },
+          {
+            "id": "c",
+            "text": "He",
+            "feedback": "Нет, 'He' здесь правильно"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка в слове 'work'. Для третьего лица единственного числа (he) обязательно нужно добавить окончание -s к глаголу: work → works.",
+        "tags": [
+          "error"
+        ]
+      },
+      {
+        "id": "q34",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"She play football.\"",
+        "theory_block_id": "b3_theory_third_person_s",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "play",
+            "feedback": "Правильно! Для she нужно 'plays' с окончанием -s"
+          },
+          {
+            "id": "b",
+            "text": "football",
+            "feedback": "Нет, 'football' здесь правильно"
+          },
+          {
+            "id": "c",
+            "text": "She",
+            "feedback": "Нет, 'She' здесь правильно"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка в слове 'play'. Для третьего лица единственного числа (she) глагол должен иметь окончание -s: play → plays.",
+        "tags": [
+          "error"
+        ]
+      },
+      {
+        "id": "q35",
+        "type": "mcq_single",
+        "prompt": "Какое предложение правильно использует форму с -s?",
+        "theory_block_id": "b3_theory_third_person_s",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She works in an office.",
+            "feedback": "Правильно! Для she используется форма 'works' с -s"
+          },
+          {
+            "id": "b",
+            "text": "She work in an office.",
+            "feedback": "Нет, для she нужна форма с -s"
+          },
+          {
+            "id": "c",
+            "text": "I works in an office.",
+            "feedback": "Нет, для I используется базовая форма без -s"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Предложение 'She works in an office' правильно использует форму 'works' с окончанием -s для местоимения 'she' (третье лицо единственного числа).",
+        "tags": [
+          "identification"
+        ]
+      },
+      {
+        "id": "q36",
+        "type": "true_false",
+        "prompt": "В предложении \"He reads books\" глагол 'reads' имеет окончание -s.",
+        "theory_block_id": "b3_theory_third_person_s",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. Глагол 'reads' имеет окончание -s, так как используется с местоимением 'he' (третье лицо единственного числа).",
+        "tags": [
+          "identification"
+        ]
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "В предложении \"My sister lives in Paris\" почему используется форма 'lives'?",
+        "theory_block_id": "b3_theory_third_person_s",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Потому что 'my sister' — это третье лицо единственного числа",
+            "feedback": "Правильно! Существительные в единственном числе требуют форму с -s"
+          },
+          {
+            "id": "b",
+            "text": "Потому что это прошедшее время",
+            "feedback": "Нет, это настоящее время"
+          },
+          {
+            "id": "c",
+            "text": "Потому что это множественное число",
+            "feedback": "Нет, 'sister' — это единственное число"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Форма 'lives' используется потому, что 'my sister' — это третье лицо единственного числа. Существительные в единственном числе требуют форму глагола с окончанием -s.",
+        "tags": [
+          "concept"
+        ]
+      },
+      {
+        "id": "q38",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"My cat ___ all day.\" (спать)",
+        "theory_block_id": "b3_theory_third_person_s",
+        "difficulty": 2,
+        "correct_answer": "sleeps",
+        "explanation": "Правильный ответ: 'sleeps'. Существительное 'cat' (кот) является третьим лицом единственного числа, поэтому к глаголу 'sleep' добавляется окончание -s.",
+        "tags": [
+          "third_person",
+          "nouns"
+        ]
+      },
+      {
+        "id": "q39",
+        "type": "true_false",
+        "prompt": "Правило добавления -s применяется только к местоимениям he, she, it, но не к существительным.",
+        "theory_block_id": "b3_theory_third_person_s",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Неверно. Правило добавления -s применяется ко всем существительным и местоимениям третьего лица единственного числа: he, she, it, а также к существительным в единственном числе (my sister, the cat, Tom).",
+        "tags": [
+          "concept"
+        ]
+      },
+      {
+        "id": "q40",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"It work well.\"",
+        "theory_block_id": "b3_theory_third_person_s",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "work",
+            "feedback": "Правильно! Для it нужно 'works' с окончанием -s"
+          },
+          {
+            "id": "b",
+            "text": "well",
+            "feedback": "Нет, 'well' здесь правильно"
+          },
+          {
+            "id": "c",
+            "text": "It",
+            "feedback": "Нет, 'It' здесь правильно"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка в слове 'work'. Для третьего лица единственного числа (it) также нужно добавить окончание -s: work → works.",
+        "tags": [
+          "error"
+        ]
+      },
+      {
+        "id": "q41",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Tom ___ football every weekend.\" (играть)",
+        "theory_block_id": "b3_theory_third_person_s",
+        "difficulty": 2,
+        "correct_answer": "plays",
+        "explanation": "Правильный ответ: 'plays'. Существительное 'Tom' (имя) является третьим лицом единственного числа, поэтому к глаголу 'play' добавляется окончание -s.",
+        "tags": [
+          "third_person",
+          "nouns"
+        ]
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "prompt": "Какое правило применяется для he/she/it в утверждениях Present Simple?",
+        "theory_block_id": "b3_theory_third_person_s",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "К глаголу обязательно добавляется окончание -s",
+            "feedback": "Правильно! Это обязательное правило для третьего лица единственного числа"
+          },
+          {
+            "id": "b",
+            "text": "Глагол остается в базовой форме",
+            "feedback": "Нет, базовая форма используется для I/you/we/they"
+          },
+          {
+            "id": "c",
+            "text": "Глагол изменяется только в прошедшем времени",
+            "feedback": "Нет, глагол изменяется в настоящем времени для he/she/it"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для he/she/it в утверждениях Present Simple к глаголу обязательно добавляется окончание -s (или -es, -ies). Это обязательное правило для третьего лица единственного числа.",
+        "tags": [
+          "rule"
+        ]
+      },
+      {
+        "id": "q43",
+        "type": "mcq_single",
+        "prompt": "Какая структура у полного утверждения в Present Simple?",
+        "theory_block_id": "b4_theory_full_sentences",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Subject + Verb + Object + (Adverbial)",
+            "feedback": "Правильно! Это полная структура утверждения"
+          },
+          {
+            "id": "b",
+            "text": "Verb + Subject + Object",
+            "feedback": "Нет, это структура вопросов"
+          },
+          {
+            "id": "c",
+            "text": "Subject + not + Verb",
+            "feedback": "Нет, это структура отрицаний"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Структура полного утверждения в Present Simple: Subject (подлежащее) + Verb (глагол) + Object (объект) + (Adverbial) (обстоятельство).",
+        "tags": [
+          "structure"
+        ]
+      },
+      {
+        "id": "q44",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I read ___ every evening.\" (книги)",
+        "theory_block_id": "b4_theory_full_sentences",
+        "difficulty": 1,
+        "correct_answer": "books",
+        "explanation": "Правильный ответ: 'books'. В полном утверждении объект 'books' указывает на то, на что направлено действие (читать что? — книги).",
+        "tags": [
+          "object"
+        ]
+      },
+      {
+        "id": "q45",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She teaches ___ at school.\" (английский)",
+        "theory_block_id": "b4_theory_full_sentences",
+        "difficulty": 1,
+        "correct_answer": "English",
+        "explanation": "Правильный ответ: 'English'. В полном утверждении объект 'English' указывает на то, что преподается (преподавать что? — английский).",
+        "tags": [
+          "object"
+        ]
+      },
+      {
+        "id": "q46",
+        "type": "mcq_single",
+        "prompt": "В предложении \"We play football in the park on weekends\" какие элементы присутствуют?",
+        "theory_block_id": "b4_theory_full_sentences",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Subject + Verb + Object + обстоятельства места и времени",
+            "feedback": "Правильно! Это полное утверждение со всеми элементами"
+          },
+          {
+            "id": "b",
+            "text": "Только Subject + Verb",
+            "feedback": "Нет, в предложении есть объект и обстоятельства"
+          },
+          {
+            "id": "c",
+            "text": "Verb + Subject + Object",
+            "feedback": "Нет, это структура вопросов"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В предложении 'We play football in the park on weekends' присутствуют все элементы: Subject (We) + Verb (play) + Object (football) + обстоятельство места (in the park) + обстоятельство времени (on weekends).",
+        "tags": [
+          "structure"
+        ]
+      },
+      {
+        "id": "q47",
+        "type": "true_false",
+        "prompt": "Полные утверждения могут содержать объекты и обстоятельства.",
+        "theory_block_id": "b4_theory_full_sentences",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. Полные утверждения в Present Simple могут содержать объекты (то, на что направлено действие) и обстоятельства (время, место, способ).",
+        "tags": [
+          "structure"
+        ]
+      },
+      {
+        "id": "q48",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"He works very every day.\"",
+        "theory_block_id": "b4_theory_full_sentences",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "very every day",
+            "feedback": "Правильно! 'very' и 'every day' нельзя использовать вместе таким образом. Правильно: 'very hard every day' или 'every day'"
+          },
+          {
+            "id": "b",
+            "text": "works",
+            "feedback": "Нет, 'works' здесь правильно"
+          },
+          {
+            "id": "c",
+            "text": "He",
+            "feedback": "Нет, 'He' здесь правильно"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка в сочетании 'very every day'. 'Very' должно модифицировать прилагательное или наречие (very hard, very well), а не стоять перед 'every day'.",
+        "tags": [
+          "error"
+        ]
+      },
+      {
+        "id": "q49",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"He works ___ every day.\" (усердно)",
+        "theory_block_id": "b4_theory_full_sentences",
+        "difficulty": 2,
+        "correct_answer": "hard",
+        "explanation": "Правильный ответ: 'hard'. Обстоятельство способа 'hard' (усердно) описывает, как выполняется действие (работает как? — усердно).",
+        "tags": [
+          "adverbial"
+        ]
+      },
+      {
+        "id": "q50",
+        "type": "mcq_single",
+        "prompt": "Какое предложение правильно построено с обстоятельством времени?",
+        "theory_block_id": "b4_theory_full_sentences",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I read books every evening.",
+            "feedback": "Правильно! Обстоятельство времени 'every evening' указывает, когда происходит действие"
+          },
+          {
+            "id": "b",
+            "text": "I every evening read books.",
+            "feedback": "Нет, обстоятельство времени обычно стоит в конце предложения"
+          },
+          {
+            "id": "c",
+            "text": "Every evening I read books.",
+            "feedback": "Это тоже правильно, но вариант 'a' более типичен для утверждений"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Предложение 'I read books every evening' правильно построено. Обстоятельство времени 'every evening' стоит в конце предложения, что является типичным для утверждений.",
+        "tags": [
+          "adverbial"
+        ]
+      },
+      {
+        "id": "q51",
+        "type": "true_false",
+        "prompt": "В полных утверждениях правила использования формы глагола остаются прежними: базовая форма для I/you/we/they и форма с -s для he/she/it.",
+        "theory_block_id": "b4_theory_full_sentences",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Верно. Независимо от того, сколько элементов содержит предложение (объекты, обстоятельства), правила использования формы глагола остаются прежними.",
+        "tags": [
+          "concept"
+        ]
+      },
+      {
+        "id": "q52",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She lives ___ Paris.\" (в)",
+        "theory_block_id": "b4_theory_full_sentences",
+        "difficulty": 2,
+        "correct_answer": "in",
+        "explanation": "Правильный ответ: 'in'. Обстоятельство места 'in Paris' (в Париже) описывает, где происходит действие (живет где? — в Париже).",
+        "tags": [
+          "adverbial"
+        ]
+      },
+      {
+        "id": "q53",
+        "type": "mcq_single",
+        "prompt": "В предложении \"We play tennis every Sunday\" 'every Sunday' является...",
+        "theory_block_id": "b4_theory_full_sentences",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Обстоятельством времени",
+            "feedback": "Правильно! 'every Sunday' указывает, когда происходит действие"
+          },
+          {
+            "id": "b",
+            "text": "Объектом",
+            "feedback": "Нет, объектом является 'tennis'"
+          },
+          {
+            "id": "c",
+            "text": "Подлежащим",
+            "feedback": "Нет, подлежащим является 'We'"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В предложении 'We play tennis every Sunday' 'every Sunday' является обстоятельством времени, которое указывает, когда происходит действие (играем когда? — каждое воскресенье).",
+        "tags": [
+          "adverbial"
+        ]
+      },
+      {
+        "id": "q54",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"They play in the park football.\"",
+        "theory_block_id": "b4_theory_full_sentences",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "in the park football",
+            "feedback": "Правильно! Объект 'football' должен стоять сразу после глагола, а не после обстоятельства. Правильно: 'They play football in the park'"
+          },
+          {
+            "id": "b",
+            "text": "play",
+            "feedback": "Нет, 'play' здесь правильно"
+          },
+          {
+            "id": "c",
+            "text": "They",
+            "feedback": "Нет, 'They' здесь правильно"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка в порядке слов. Объект 'football' должен стоять сразу после глагола 'play', а обстоятельство 'in the park' — после объекта. Правильно: 'They play football in the park'.",
+        "tags": [
+          "word_order"
+        ]
+      },
+      {
+        "id": "q55",
+        "type": "true_false",
+        "prompt": "Объект в утверждении указывает на то, на что направлено действие.",
+        "theory_block_id": "b4_theory_full_sentences",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. Объект (object) в утверждении указывает на то, на что направлено действие: I read books (читаю что? — книги), She teaches English (преподает что? — английский).",
+        "tags": [
+          "object"
+        ]
+      },
+      {
+        "id": "q56",
+        "type": "mcq_single",
+        "prompt": "Какие из перечисленных глаголов часто используются в утверждениях Present Simple?",
+        "theory_block_id": "b5_theory_common_verbs",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "work, study, play, live",
+            "feedback": "Правильно! Эти глаголы часто используются в утверждениях"
+          },
+          {
+            "id": "b",
+            "text": "worked, studied, played, lived",
+            "feedback": "Нет, это формы прошедшего времени"
+          },
+          {
+            "id": "c",
+            "text": "working, studying, playing, living",
+            "feedback": "Нет, это формы Continuous"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Глаголы work, study, play, live часто используются в утверждениях Present Simple для описания регулярных действий и постоянных состояний.",
+        "tags": [
+          "common_verbs"
+        ]
+      },
+      {
+        "id": "q57",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I ___ in an office.\" (работать)",
+        "theory_block_id": "b5_theory_common_verbs",
+        "difficulty": 1,
+        "correct_answer": "work",
+        "explanation": "Правильный ответ: 'work'. Глагол 'work' (работать) — это часто используемый глагол деятельности. Для I используется базовая форма 'work'.",
+        "tags": [
+          "work"
+        ]
+      },
+      {
+        "id": "q58",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She ___ medicine.\" (изучать)",
+        "theory_block_id": "b5_theory_common_verbs",
+        "difficulty": 1,
+        "correct_answer": "studies",
+        "explanation": "Правильный ответ: 'studies'. Глагол 'study' (изучать) часто используется в утверждениях. Для she нужно добавить окончание -ies: study → studies.",
+        "tags": [
+          "study"
+        ]
+      },
+      {
+        "id": "q59",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"We ___ tennis every Sunday.\" (играть)",
+        "theory_block_id": "b5_theory_common_verbs",
+        "difficulty": 1,
+        "correct_answer": "play",
+        "explanation": "Правильный ответ: 'play'. Глагол 'play' (играть) часто используется в утверждениях. Для we используется базовая форма 'play'.",
+        "tags": [
+          "play"
+        ]
+      },
+      {
+        "id": "q60",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"He ___ in New York.\" (жить)",
+        "theory_block_id": "b5_theory_common_verbs",
+        "difficulty": 1,
+        "correct_answer": "lives",
+        "explanation": "Правильный ответ: 'lives'. Глагол 'live' (жить) часто используется в утверждениях. Для he нужно добавить окончание -s: live → lives.",
+        "tags": [
+          "live"
+        ]
+      },
+      {
+        "id": "q61",
+        "type": "mcq_single",
+        "prompt": "Какая форма глагола 'have' используется для he/she/it?",
+        "theory_block_id": "b5_theory_common_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "has",
+            "feedback": "Правильно! Глагол 'have' имеет особую форму 'has' для he/she/it"
+          },
+          {
+            "id": "b",
+            "text": "haves",
+            "feedback": "Нет, правильная форма — 'has', а не 'haves'"
+          },
+          {
+            "id": "c",
+            "text": "have",
+            "feedback": "Нет, 'have' используется для I/you/we/they"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Глагол 'have' имеет особую форму 'has' для третьего лица единственного числа (he/she/it). Это исключение: have → has (не 'haves').",
+        "tags": [
+          "have"
+        ]
+      },
+      {
+        "id": "q62",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении: \"She have a cat.\"",
+        "theory_block_id": "b5_theory_common_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "have",
+            "feedback": "Правильно! Для she нужно использовать форму 'has', а не 'have'"
+          },
+          {
+            "id": "b",
+            "text": "a cat",
+            "feedback": "Нет, 'a cat' здесь правильно"
+          },
+          {
+            "id": "c",
+            "text": "She",
+            "feedback": "Нет, 'She' здесь правильно"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка в слове 'have'. Для третьего лица единственного числа (she) глагол 'have' имеет особую форму 'has', а не 'have'.",
+        "tags": [
+          "error",
+          "have"
+        ]
+      },
+      {
+        "id": "q63",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"They ___ coffee.\" (любить)",
+        "theory_block_id": "b5_theory_common_verbs",
+        "difficulty": 1,
+        "correct_answer": "like",
+        "explanation": "Правильный ответ: 'like'. Глагол 'like' (нравиться, любить) часто используется в утверждениях. Для they используется базовая форма 'like'.",
+        "tags": [
+          "like"
+        ]
+      },
+      {
+        "id": "q64",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She ___ a new phone.\" (хотеть)",
+        "theory_block_id": "b5_theory_common_verbs",
+        "difficulty": 1,
+        "correct_answer": "wants",
+        "explanation": "Правильный ответ: 'wants'. Глагол 'want' (хотеть) часто используется в утверждениях. Для she нужно добавить окончание -s: want → wants.",
+        "tags": [
+          "want"
+        ]
+      },
+      {
+        "id": "q65",
+        "type": "mcq_single",
+        "prompt": "В предложении \"He has two brothers\" почему используется форма 'has'?",
+        "theory_block_id": "b5_theory_common_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Потому что глагол 'have' имеет особую форму 'has' для he/she/it",
+            "feedback": "Правильно! 'has' — это особая форма глагола 'have' для третьего лица единственного числа"
+          },
+          {
+            "id": "b",
+            "text": "Потому что это прошедшее время",
+            "feedback": "Нет, это настоящее время"
+          },
+          {
+            "id": "c",
+            "text": "Потому что это множественное число",
+            "feedback": "Нет, 'brothers' — это множественное число, но 'He' — единственное"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Форма 'has' используется потому, что глагол 'have' имеет особую форму 'has' для третьего лица единственного числа (he/she/it). Это исключение из общего правила.",
+        "tags": [
+          "have"
+        ]
+      },
+      {
+        "id": "q66",
+        "type": "true_false",
+        "prompt": "Глагол 'like' изменяется так же, как и большинство других глаголов: добавляется -s для he/she/it.",
+        "theory_block_id": "b5_theory_common_verbs",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. Глагол 'like' следует общему правилу: для I/you/we/they — базовая форма 'like', для he/she/it — форма 'likes' с окончанием -s.",
+        "tags": [
+          "like"
+        ]
+      },
+      {
+        "id": "q67",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"They ___ two brothers.\" (иметь)",
+        "theory_block_id": "b5_theory_common_verbs",
+        "difficulty": 1,
+        "correct_answer": "have",
+        "explanation": "Правильный ответ: 'have'. Глагол 'have' (иметь) используется в базовой форме для they. Для he/she/it используется форма 'has'.",
+        "tags": [
+          "have"
+        ]
+      },
+      {
+        "id": "q68",
+        "type": "mcq_single",
+        "prompt": "Какое из предложений правильно использует глагол 'want'?",
+        "theory_block_id": "b5_theory_common_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She wants a new phone.",
+            "feedback": "Правильно! Для she используется форма 'wants' с окончанием -s"
+          },
+          {
+            "id": "b",
+            "text": "She want a new phone.",
+            "feedback": "Нет, для she нужна форма с -s"
+          },
+          {
+            "id": "c",
+            "text": "I wants a new phone.",
+            "feedback": "Нет, для I используется базовая форма 'want'"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Предложение 'She wants a new phone' правильно использует форму 'wants' с окончанием -s для местоимения 'she' (третье лицо единственного числа).",
+        "tags": [
+          "want"
+        ]
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60",
+      "q61",
+      "q62",
+      "q63",
+      "q64",
+      "q65",
+      "q66",
+      "q67",
+      "q68"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-17T22:01:13Z",
+    "source": "llm"
+  }
+}
