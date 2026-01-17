@@ -4,8 +4,7 @@
 
 0.1. Subject / verb / object in practice (no heavy terminology)
 0.2. Verb forms: V1 / V2 / V3 — what they are and why they matter
-0.3. Sentence modes: statement → question → negative (as “switches” of one idea)
-0.4. Micro-skill: find the main verb in any sentence
+0.3. Sentence modes: statement → question → negative (as "switches" of one idea)
 
 ------
 
