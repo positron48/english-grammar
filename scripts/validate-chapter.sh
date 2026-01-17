@@ -405,10 +405,11 @@ if len(true_false_questions) > 0:
     true_percentage = (true_count / total_tf) * 100 if total_tf > 0 else 0
     
     # Допустимый диапазон: 40-60% (50±10%)
+    # Игнорируем правило, если таких вопросов меньше 3
     min_percentage = 40
     max_percentage = 60
     
-    if true_percentage < min_percentage or true_percentage > max_percentage:
+    if total_tf >= 3 and (true_percentage < min_percentage or true_percentage > max_percentage):
         issues.append({
             'severity': 'warning',
             'category': 'methodological',

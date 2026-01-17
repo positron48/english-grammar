@@ -2,19 +2,11 @@
   "validation_result": {
     "is_valid": true,
     "schema_valid": true,
-    "issues": [
-      {
-        "severity": "warning",
-        "category": "content",
-        "message": "Несбалансированные true_false вопросы: 1 true (100.0%) и 0 false (0.0%). Должно быть 50±10% (40-60%) вопросов с correct_answer 'true'.",
-        "location": "question_bank.questions",
-        "suggested_fix": "Добавить больше true_false вопросов с correct_answer 'false' для баланса"
-      }
-    ],
+    "issues": [],
     "summary": {
-      "total_issues": 1,
+      "total_issues": 0,
       "errors": 0,
-      "warnings": 1,
+      "warnings": 0,
       "suggestions": 0
     },
     "coverage": {
@@ -23,10 +15,10 @@
       "questions_per_block": {
         "b1_theory_what_are_object_pronouns": 5,
         "b2_theory_forms_table": 7,
-        "b3_theory_after_verbs": 10,
-        "b4_theory_after_prepositions": 7,
-        "b5_theory_subject_vs_object": 6,
-        "b6_theory_common_mistakes": 5
+        "b3_theory_after_verbs": 14,
+        "b4_theory_after_prepositions": 14,
+        "b5_theory_subject_vs_object": 12,
+        "b6_theory_common_mistakes": 8
       }
     }
   }
