@@ -1,0 +1,49 @@
+{
+  "theory_block": {
+    "id": "b2_theory_dont_vs_doesnt",
+    "concept_id": "dont_vs_doesnt_choice",
+    "content_md": "Выбор между **don't** и **doesn't** зависит от подлежащего (subject) в предложении:\n\n- **don't** (do not) используется с подлежащими: `I`, `you`, `we`, `they` и существительными во множественном числе (cats, students, etc.)\n- **doesn't** (does not) используется с подлежащими в третьем лице единственного числа: `he`, `she`, `it` и существительными в единственном числе (a cat, the student, etc.)\n\nЭто то же самое правило, что и для выбора do/does в вопросах: если в утверждении мы говорим \"She works\", то в отрицании используем \"She doesn't work\" (обратите внимание: после doesn't глагол идет без `-s`!).",
+    "key_points": [
+      "Don't — для I, you, we, they и множественного числа",
+      "Doesn't — для he, she, it и единственного числа",
+      "После don't/doesn't глагол всегда в базовой форме (без -s)"
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "You doesn't work here.",
+        "right": "You don't work here.",
+        "why": "С местоимением 'you' всегда используется 'don't', а не 'doesn't'"
+      },
+      {
+        "wrong": "She don't work here.",
+        "right": "She doesn't work here.",
+        "why": "С 'she' используется 'doesn't', а не 'don't'"
+      },
+      {
+        "wrong": "The students doesn't study.",
+        "right": "The students don't study.",
+        "why": "С существительным во множественном числе (students) используется 'don't'"
+      }
+    ],
+    "examples": [
+      {
+        "id": "ex1",
+        "text": "I don't like pizza.",
+        "translation": "Я не люблю пиццу.",
+        "tags": ["negative", "first_person", "dont"]
+      },
+      {
+        "id": "ex2",
+        "text": "She doesn't speak French.",
+        "translation": "Она не говорит по-французски.",
+        "tags": ["negative", "third_person_singular", "doesnt"]
+      },
+      {
+        "id": "ex3",
+        "text": "They don't watch TV.",
+        "translation": "Они не смотрят телевизор.",
+        "tags": ["negative", "plural", "dont"]
+      }
+    ]
+  }
+}
