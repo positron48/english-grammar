@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-17T16:45:00Z",
+  "last_updated": "2026-01-17T17:30:00Z",
   "sections": [
     {
       "section_id": "en.grammar.orientation_how_to_read",
@@ -533,9 +533,23 @@
       "title": "Adjectives after be: She is tired / It is important",
       "level": "A1",
       "order": 107,
-      "status": "pending",
+      "status": "generated",
+      "started_at": "2026-01-17T17:00:00Z",
+      "completed_at": "2026-01-17T17:30:00Z",
       "input_file": "config/chapter-templates/en.grammar.first_sentences_be_as.adjectives_after_be_she-input.json",
-      "output_dir": "chapters/en.grammar.first_sentences_be_as.adjectives_after_be_she"
+      "output_dir": "chapters/en.grammar.first_sentences_be_as.adjectives_after_be_she",
+      "files": {
+        "outline": "chapters/en.grammar.first_sentences_be_as.adjectives_after_be_she/01-outline.json",
+        "theory_blocks": "chapters/en.grammar.first_sentences_be_as.adjectives_after_be_she/02-theory-blocks/",
+        "questions": "chapters/en.grammar.first_sentences_be_as.adjectives_after_be_she/03-questions.json",
+        "inline_quizzes": "chapters/en.grammar.first_sentences_be_as.adjectives_after_be_she/04-inline-quizzes.json",
+        "final": "chapters/en.grammar.first_sentences_be_as.adjectives_after_be_she/05-final.json",
+        "validation": "chapters/en.grammar.first_sentences_be_as.adjectives_after_be_she/05-validation.json"
+      },
+      "validation": {
+        "is_valid": true,
+        "last_validated": "2026-01-17T17:30:00Z"
+      }
     },
     {
       "chapter_id": "en.grammar.first_sentences_be_as.build_speak_mini_dialogues",
@@ -1741,10 +1755,10 @@
   "summary": {
     "total_sections": 19,
     "total_chapters": 131,
-    "chapters_generated": 9,
+    "chapters_generated": 10,
     "chapters_in_progress": 0,
-    "chapters_pending": 122,
+    "chapters_pending": 121,
     "chapters_failed": 0,
-    "chapters_validated": 9
+    "chapters_validated": 10
   }
 }
