@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-18T10:35:00Z",
+  "last_updated": "2026-01-18T10:55:00Z",
   "sections": [
     {
       "section_id": "en.grammar.orientation_how_to_read",
@@ -884,12 +884,26 @@
     {
       "chapter_id": "en.grammar.first_actions_present_simple.imperatives_open_don_t",
       "section_id": "en.grammar.first_actions_present_simple",
-      "title": "Imperatives: Open… / Don’t open… + Let’s…",
+      "title": "Imperatives: Open… / Don't open… + Let's…",
       "level": "A1",
       "order": 307,
-      "status": "pending",
+      "status": "validated",
+      "started_at": "2026-01-18T10:40:00Z",
+      "completed_at": "2026-01-18T10:55:00Z",
       "input_file": "config/chapter-templates/en.grammar.first_actions_present_simple.imperatives_open_don_t-input.json",
-      "output_dir": "chapters/026.en.grammar.first_actions_present_simple.imperatives_open_don_t"
+      "output_dir": "chapters/026.en.grammar.first_actions_present_simple.imperatives_open_don_t",
+      "files": {
+        "outline": "chapters/026.en.grammar.first_actions_present_simple.imperatives_open_don_t/01-outline.json",
+        "theory_blocks": "chapters/026.en.grammar.first_actions_present_simple.imperatives_open_don_t/02-theory-blocks/",
+        "questions": "chapters/026.en.grammar.first_actions_present_simple.imperatives_open_don_t/03-questions.json",
+        "inline_quizzes": "chapters/026.en.grammar.first_actions_present_simple.imperatives_open_don_t/04-inline-quizzes.json",
+        "final": "chapters/026.en.grammar.first_actions_present_simple.imperatives_open_don_t/05-final.json",
+        "validation": "chapters/026.en.grammar.first_actions_present_simple.imperatives_open_don_t/05-validation.json"
+      },
+      "validation": {
+        "is_valid": true,
+        "last_validated": "2026-01-18T10:55:00Z"
+      }
     },
     {
       "chapter_id": "en.grammar.first_actions_present_simple.build_speak_my_day",
@@ -1935,10 +1949,10 @@
   "summary": {
     "total_sections": 19,
     "total_chapters": 130,
-    "chapters_generated": 25,
+    "chapters_generated": 26,
     "chapters_in_progress": 0,
-    "chapters_pending": 105,
+    "chapters_pending": 104,
     "chapters_failed": 0,
-    "chapters_validated": 19
+    "chapters_validated": 20
   }
 }
