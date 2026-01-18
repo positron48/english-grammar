@@ -86,19 +86,6 @@
       ]
     },
     {
-      "id": "q5",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b1_theory_some_affirmative",
-      "difficulty": 2,
-      "correct_answer": "There are some apples in the basket.",
-      "explanation": "Правильный порядок: There are some apples in the basket. В утверждениях с исчисляемыми существительными используется there are some.",
-      "tags": [
-        "affirmative",
-        "countable"
-      ]
-    },
-    {
       "id": "q6",
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: \"___ some coffee in the cup.\"",
@@ -193,19 +180,6 @@
       "tags": [
         "affirmative",
         "countable"
-      ]
-    },
-    {
-      "id": "q11",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b1_theory_some_affirmative",
-      "difficulty": 2,
-      "correct_answer": "There is some sugar in the bowl.",
-      "explanation": "Правильный порядок: There is some sugar in the bowl. Sugar — неисчисляемое существительное, используется there is some.",
-      "tags": [
-        "affirmative",
-        "uncountable"
       ]
     },
     {
@@ -394,19 +368,6 @@
       "tags": [
         "question",
         "error"
-      ]
-    },
-    {
-      "id": "q20",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b2_theory_any_questions",
-      "difficulty": 2,
-      "correct_answer": "Are there any students in the classroom?",
-      "explanation": "Правильный порядок: Are there any students in the classroom? В вопросах с исчисляемыми используется Are there any.",
-      "tags": [
-        "question",
-        "countable"
       ]
     },
     {
@@ -674,61 +635,6 @@
       ]
     },
     {
-      "id": "q34",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b3_theory_countable_uncountable",
-      "difficulty": 2,
-      "correct_answer": "There is some bread on the table.",
-      "explanation": "Правильный порядок: There is some bread on the table. Bread — неисчисляемое, используется there is.",
-      "tags": [
-        "uncountable"
-      ]
-    },
-    {
-      "id": "q35",
-      "type": "mcq_single",
-      "prompt": "Выберите правильный вариант: \"Are there any ___ in the box?\"",
-      "theory_block_id": "b3_theory_countable_uncountable",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "pens",
-          "feedback": "Правильно! Pens — исчисляемое во множественном числе, используется Are there any."
-        },
-        {
-          "id": "b",
-          "text": "water",
-          "feedback": "Нет, water — неисчисляемое, нужен Is there any."
-        },
-        {
-          "id": "c",
-          "text": "information",
-          "feedback": "Нет, information — неисчисляемое, нужен Is there any."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Are there any используется с исчисляемыми во множественном числе: Are there any pens in the box?",
-      "tags": [
-        "countable",
-        "question"
-      ]
-    },
-    {
-      "id": "q36",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"Is there any ___ in the cup?\" (кофе)",
-      "theory_block_id": "b3_theory_countable_uncountable",
-      "difficulty": 1,
-      "correct_answer": "coffee",
-      "explanation": "Coffee — неисчисляемое существительное, используется Is there any: Is there any coffee in the cup?",
-      "tags": [
-        "uncountable",
-        "question"
-      ]
-    },
-    {
       "id": "q37",
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: \"There ___ some money in the wallet.\"",
@@ -798,16 +704,15 @@
       ]
     },
     {
-      "id": "q40",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
+      "id": "q41",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"There ___ some information in the report.\" (глагол be)",
       "theory_block_id": "b3_theory_countable_uncountable",
-      "difficulty": 2,
-      "correct_answer": "Are there any students in the classroom?",
-      "explanation": "Правильный порядок: Are there any students in the classroom? Students — исчисляемое во множественном числе, используется Are there any.",
+      "difficulty": 1,
+      "correct_answer": "is",
+      "explanation": "Information — неисчисляемое существительное, используется there is: There is some information in the report.",
       "tags": [
-        "countable",
-        "question"
+        "uncountable"
       ]
     },
     {
@@ -925,62 +830,6 @@
       ]
     },
     {
-      "id": "q47",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b4_theory_any_negative",
-      "difficulty": 2,
-      "correct_answer": "There aren't any chairs in the room.",
-      "explanation": "Правильный порядок: There aren't any chairs in the room. В отрицаниях с исчисляемыми используется there aren't any.",
-      "tags": [
-        "negative",
-        "countable"
-      ]
-    },
-    {
-      "id": "q48",
-      "type": "mcq_single",
-      "prompt": "Выберите правильный вариант: \"There ___ any bread on the table.\"",
-      "theory_block_id": "b4_theory_any_negative",
-      "difficulty": 1,
-      "choices": [
-        {
-          "id": "a",
-          "text": "isn't",
-          "feedback": "Правильно! Bread — неисчисляемое, используется there isn't any."
-        },
-        {
-          "id": "b",
-          "text": "aren't",
-          "feedback": "Нет, bread — неисчисляемое существительное."
-        },
-        {
-          "id": "c",
-          "text": "is",
-          "feedback": "Нет, это отрицание, нужен isn't."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "В отрицаниях с неисчисляемыми существительными используется there isn't any: There isn't any bread on the table.",
-      "tags": [
-        "negative",
-        "uncountable"
-      ]
-    },
-    {
-      "id": "q49",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"There ___ any books on the shelf.\" (глагол be, отрицание)",
-      "theory_block_id": "b4_theory_any_negative",
-      "difficulty": 1,
-      "correct_answer": "aren't",
-      "explanation": "В отрицаниях с исчисляемыми во множественном числе используется there aren't any: There aren't any books on the shelf.",
-      "tags": [
-        "negative",
-        "countable"
-      ]
-    },
-    {
       "id": "q50",
       "type": "true_false",
       "prompt": "Верно или неверно: Any в отрицаниях означает \"некоторое количество\".",
@@ -1023,19 +872,6 @@
       ]
     },
     {
-      "id": "q52",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b4_theory_any_negative",
-      "difficulty": 2,
-      "correct_answer": "There isn't any coffee in the cup.",
-      "explanation": "Правильный порядок: There isn't any coffee in the cup. В отрицаниях с неисчисляемыми используется there isn't any.",
-      "tags": [
-        "negative",
-        "uncountable"
-      ]
-    },
-    {
       "id": "q53",
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: \"There ___ any students in the classroom.\"",
@@ -1063,19 +899,6 @@
       "tags": [
         "negative",
         "countable"
-      ]
-    },
-    {
-      "id": "q54",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"There ___ any sugar in the bowl.\" (глагол be, отрицание)",
-      "theory_block_id": "b4_theory_any_negative",
-      "difficulty": 1,
-      "correct_answer": "isn't",
-      "explanation": "В отрицаниях с неисчисляемыми существительными используется there isn't any: There isn't any sugar in the bowl.",
-      "tags": [
-        "negative",
-        "uncountable"
       ]
     },
     {
@@ -1263,19 +1086,6 @@
         "question",
         "request",
         "error"
-      ]
-    },
-    {
-      "id": "q64",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b5_theory_some_questions_offers",
-      "difficulty": 2,
-      "correct_answer": "Can I have some juice, please?",
-      "explanation": "Правильный порядок: Can I have some juice, please? В вопросах-просьбах используется some.",
-      "tags": [
-        "question",
-        "request"
       ]
     },
     {

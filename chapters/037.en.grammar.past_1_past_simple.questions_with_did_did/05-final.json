@@ -1,0 +1,2136 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.past_1_past_simple.questions_with_did_did",
+  "section_id": "en.grammar.past_1_past_simple",
+  "title": "Questions with **did**: Did you…? Where did you…?",
+  "title_short": "Questions with **did**",
+  "description": "Изучение построения вопросов в Past Simple с помощью вспомогательного глагола did. Формирование общих и специальных вопросов в прошедшем времени, правильный порядок слов и использование базовой формы глагола после did.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "A2",
+  "order": 0,
+  "prerequisites": [
+    "en.grammar.past_1_past_simple.irregular_verbs_how_to"
+  ],
+  "concept_refs": [
+    "did_auxiliary_verb_past",
+    "did_universal_form",
+    "yes_no_questions_did",
+    "wh_questions_did",
+    "verb_form_after_did",
+    "short_answers_did"
+  ],
+  "learning_objectives": [
+    "Научиться строить общие вопросы с did в Past Simple",
+    "Понять, что did используется со всеми подлежащими в Past Simple",
+    "Освоить построение специальных вопросов (What did..., Where did..., When did... и др.)",
+    "Правильно использовать порядок слов в вопросах: Did + подлежащее + V1",
+    "Помнить, что после did глагол всегда идет в базовой форме (V1), а не в форме V2",
+    "Формировать краткие ответы на вопросы с did"
+  ],
+  "estimated_minutes": 26,
+  "blocks": [
+    {
+      "id": "b1_theory_did_basics",
+      "type": "theory",
+      "title": "В английском языке для построения вопросов в Past Simple мы используем вспомогательный глагол `did`. Он не имеет собственного значения, а помогает нам изменить утвердительное предложение на вопрос в прошедшем времени.",
+      "theory": {
+        "concept_id": "did_auxiliary_verb_past",
+        "content_md": "В английском языке для построения вопросов в Past Simple мы используем **вспомогательный глагол** `did`. Он не имеет собственного значения, а помогает нам изменить утвердительное предложение на вопрос в прошедшем времени.\n\nВ утверждении мы ставим глагол в форме V2 (прошедшее время): \"I worked\" (я работал), \"She went\" (она пошла). Но чтобы задать вопрос в прошедшем времени, нам нужен вспомогательный глагол did: \"Did you work?\" (ты работал?), \"Did she go?\" (она пошла?).\n\nБез вспомогательного глагола did мы не можем правильно построить вопрос в Past Simple — это обязательное правило английской грамматики, аналогичное использованию do/does в Present Simple.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I worked yesterday.",
+            "translation": "Я работал вчера.",
+            "notes": "Утверждение",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Did you work yesterday?",
+            "translation": "Ты работал вчера?",
+            "notes": "Вопрос с did",
+            "tags": [
+              "question"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "She went home.",
+            "translation": "Она пошла домой.",
+            "notes": "Утверждение",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex4",
+            "text": "Did she go home?",
+            "translation": "Она пошла домой?",
+            "notes": "Вопрос с did",
+            "tags": [
+              "question"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_did_basics",
+      "type": "quiz_inline",
+      "title": "Проверка: понимаешь ли ты основы did?",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5",
+          "q6"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_did_universal",
+      "type": "theory",
+      "title": "В Past Simple вспомогательный глагол `did` используется со всеми подлежащими без исключений: `I`, `you`, `he`, `she`, `it`, `we`, `they`.",
+      "theory": {
+        "concept_id": "did_universal_form",
+        "content_md": "В Past Simple вспомогательный глагол `did` используется **со всеми подлежащими** без исключений: `I`, `you`, `he`, `she`, `it`, `we`, `they`.\n\nЭто важное отличие от Present Simple, где мы используем `do` для одних подлежащих (I, you, we, they) и `does` для других (he, she, it). В Past Simple не нужно выбирать между разными формами — `did` универсален для всех.\n\nПримеры:\n- \"Did I go?\" (Я пошел?)\n- \"Did you work?\" (Ты работал?)\n- \"Did he study?\" (Он учился?)\n- \"Did she play?\" (Она играла?)\n- \"Did we leave?\" (Мы ушли?)\n- \"Did they come?\" (Они пришли?)\n\nВсе эти вопросы начинаются одинаково — с `did`, независимо от подлежащего.",
+        "key_points": [
+          "Did используется со всеми подлежащими (I, you, he, she, it, we, they)",
+          "В Past Simple нет выбора между разными формами — только did",
+          "Это проще, чем в Present Simple, где нужно выбирать между do и does"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Did I see you?",
+            "translation": "Я тебя видел?",
+            "tags": [
+              "question",
+              "first_person"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Did you understand?",
+            "translation": "Ты понял?",
+            "tags": [
+              "question",
+              "second_person"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Did he help?",
+            "translation": "Он помог?",
+            "tags": [
+              "question",
+              "third_person_singular"
+            ]
+          },
+          {
+            "id": "ex4",
+            "text": "Did they finish?",
+            "translation": "Они закончили?",
+            "tags": [
+              "question",
+              "plural"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_did_universal",
+      "type": "quiz_inline",
+      "title": "Проверка: помнишь ли ты, что did универсален?",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14",
+          "q15",
+          "q16",
+          "q17",
+          "q18"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_yes_no_questions_did",
+      "type": "theory",
+      "title": "Общие вопросы (Yes/No questions) в Past Simple — это вопросы, на которые можно ответить \"да\" или \"нет\". Они начинаются с `did`.",
+      "theory": {
+        "concept_id": "yes_no_questions_did",
+        "content_md": "**Общие вопросы** (Yes/No questions) в Past Simple — это вопросы, на которые можно ответить \"да\" или \"нет\". Они начинаются с `did`.\n\n**Порядок слов в общих вопросах:**\n1. Did\n2. Подлежащее (subject)\n3. Основной глагол в базовой форме (V1)\n4. Остальная часть предложения\n\nПример: \"You worked yesterday\" → \"Did you work yesterday?\"\n\nОбратите внимание: в утверждении \"She went\" глагол имеет форму V2 (went), но в вопросе \"Did she go?\" глагол идет в базовой форме (go), потому что форма прошедшего времени уже выражена словом `did`.",
+        "key_points": [
+          "Общие вопросы начинаются с Did",
+          "Порядок: Did + подлежащее + глагол (V1) + остальное",
+          "После did глагол всегда в базовой форме (V1), а не в форме V2"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "You did work yesterday?",
+            "right": "Did you work yesterday?",
+            "why": "В вопросах did всегда стоит в начале, перед подлежащим"
+          },
+          {
+            "wrong": "Did she went home?",
+            "right": "Did she go home?",
+            "why": "После did глагол идет в базовой форме (go), а не в форме прошедшего времени (went)"
+          },
+          {
+            "wrong": "Did you worked?",
+            "right": "Did you work?",
+            "why": "После did глагол всегда в базовой форме, без окончания -ed"
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Did you see that?",
+            "translation": "Ты это видел?",
+            "tags": [
+              "question"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Did he finish the book?",
+            "translation": "Он закончил книгу?",
+            "tags": [
+              "question"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Did they like the movie?",
+            "translation": "Им понравился фильм?",
+            "tags": [
+              "question"
+            ]
+          },
+          {
+            "id": "ex4",
+            "text": "Did it rain yesterday?",
+            "translation": "Вчера шел дождь?",
+            "tags": [
+              "question"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_yes_no_questions_did",
+      "type": "quiz_inline",
+      "title": "Проверка: умеешь ли ты строить общие вопросы?",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26",
+          "q27",
+          "q29",
+          "q30"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_wh_questions_did",
+      "type": "theory",
+      "title": "Специальные вопросы (Wh-questions) в Past Simple начинаются с вопросительных слов: `What` (что), `Where` (где), `When` (когда), `Why` (почему), `How` (как), `Who` (кто), `Which` (который).",
+      "theory": {
+        "concept_id": "wh_questions_did",
+        "content_md": "**Специальные вопросы** (Wh-questions) в Past Simple начинаются с вопросительных слов: `What` (что), `Where` (где), `When` (когда), `Why` (почему), `How` (как), `Who` (кто), `Which` (который).\n\n**Порядок слов в специальных вопросах:**\n1. Вопросительное слово (What, Where, When и т.д.)\n2. Did\n3. Подлежащее (subject)\n4. Основной глагол в базовой форме (V1)\n5. Остальная часть предложения\n\nПример: \"You went to London\" → \"Where did you go?\" (Куда ты поехал?)\n\nВажно: даже в специальных вопросах мы используем did, если вопрос относится к действию в Past Simple. После did глагол всегда идет в базовой форме (V1), а не в форме прошедшего времени (V2).",
+        "key_points": [
+          "Специальные вопросы начинаются с вопросительного слова",
+          "После вопросительного слова идет did",
+          "Порядок: Wh-слово + Did + подлежащее + глагол (V1) + остальное",
+          "После did глагол в базовой форме, а не в форме прошедшего времени"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Where you went?",
+            "right": "Where did you go?",
+            "why": "В специальных вопросах тоже нужен did после вопросительного слова"
+          },
+          {
+            "wrong": "What did she saw?",
+            "right": "What did she see?",
+            "why": "После did глагол идет в базовой форме (see), а не в форме прошедшего времени (saw)"
+          },
+          {
+            "wrong": "When did he came?",
+            "right": "When did he come?",
+            "why": "После did глагол в базовой форме (come), без окончания и без изменения формы"
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "What did you do yesterday?",
+            "translation": "Что ты делал вчера?",
+            "tags": [
+              "question"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Where did she go?",
+            "translation": "Куда она пошла?",
+            "tags": [
+              "question"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "When did they leave?",
+            "translation": "Когда они ушли?",
+            "tags": [
+              "question"
+            ]
+          },
+          {
+            "id": "ex4",
+            "text": "Why did he stop?",
+            "translation": "Почему он остановился?",
+            "tags": [
+              "question"
+            ]
+          },
+          {
+            "id": "ex5",
+            "text": "How did you get there?",
+            "translation": "Как ты туда добрался?",
+            "tags": [
+              "question"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8_quiz_after_wh_questions_did",
+      "type": "quiz_inline",
+      "title": "Проверка: умеешь ли ты строить специальные вопросы?",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38",
+          "q39",
+          "q40",
+          "q41",
+          "q42"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_verb_form_after_did",
+      "type": "theory",
+      "title": "Критически важное правило: после `did` глагол всегда используется в базовой форме (V1), а не в форме прошедшего времени (V2).",
+      "theory": {
+        "concept_id": "verb_form_after_did",
+        "content_md": "**Критически важное правило:** после `did` глагол **всегда** используется в **базовой форме (V1)**, а не в форме прошедшего времени (V2).\n\nЭто одна из самых частых ошибок русскоязычных студентов. Когда мы видим `did`, мы уже понимаем, что речь идет о прошедшем времени, поэтому глагол после него идет в базовой форме.\n\nПравильно:\n- \"Did you **work**?\" (не \"worked\")\n- \"Did she **go**?\" (не \"went\")\n- \"What did they **see**?\" (не \"saw\")\n- \"Where did he **come**?\" (не \"came\")\n\nПочему это так? Потому что форма прошедшего времени уже выражена словом `did`. Не нужно ставить глагол в прошедшее время дважды — это избыточно и неправильно.",
+        "key_points": [
+          "После did глагол ВСЕГДА в базовой форме (V1)",
+          "Не используй форму прошедшего времени (V2) после did",
+          "Форма прошедшего времени уже выражена словом did"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Did you worked yesterday?",
+            "right": "Did you work yesterday?",
+            "why": "После did глагол в базовой форме (work), без окончания -ed. Форма прошедшего времени уже в слове did."
+          },
+          {
+            "wrong": "Did she went home?",
+            "right": "Did she go home?",
+            "why": "После did глагол в базовой форме (go), а не в форме прошедшего времени (went). Did уже показывает прошедшее время."
+          },
+          {
+            "wrong": "What did you saw?",
+            "right": "What did you see?",
+            "why": "После did глагол в базовой форме (see), а не в форме прошедшего времени (saw)."
+          },
+          {
+            "wrong": "Where did he came from?",
+            "right": "Where did he come from?",
+            "why": "После did глагол в базовой форме (come), без изменения формы. Did уже указывает на прошедшее время."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Did you work yesterday? (not 'worked')",
+            "translation": "Ты работал вчера? (work, а не worked)",
+            "notes": "Правильная форма глагола после did",
+            "tags": [
+              "question",
+              "correct_form"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Did she go home? (not 'went')",
+            "translation": "Она пошла домой? (go, а не went)",
+            "notes": "Правильная форма глагола после did",
+            "tags": [
+              "question",
+              "correct_form"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "What did they see? (not 'saw')",
+            "translation": "Что они увидели? (see, а не saw)",
+            "notes": "Правильная форма глагола после did",
+            "tags": [
+              "question",
+              "correct_form"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b10_quiz_after_verb_form_after_did",
+      "type": "quiz_inline",
+      "title": "Проверка: помнишь ли ты форму глагола после did?",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q50",
+          "q52",
+          "q53",
+          "q54"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_short_answers_did",
+      "type": "theory",
+      "title": "В английском языке мы часто даем краткие ответы на вопросы с did, не повторяя все предложение целиком.",
+      "theory": {
+        "concept_id": "short_answers_did",
+        "content_md": "В английском языке мы часто даем **краткие ответы** на вопросы с did, не повторяя все предложение целиком.\n\n**Структура кратких ответов:**\n- Положительный ответ: `Yes, + подлежащее + did`\n- Отрицательный ответ: `No, + подлежащее + didn't`\n\nПримеры:\n- \"Did you work?\" → \"Yes, I did\" или \"No, I didn't\"\n- \"Did she go?\" → \"Yes, she did\" или \"No, she didn't\"\n- \"Did they come?\" → \"Yes, they did\" или \"No, they didn't\"\n\nВажно: в кратком ответе мы используем то же вспомогательное слово (did/didn't), что было в вопросе, но уже в утвердительной или отрицательной форме. Не нужно повторять основной глагол в форме прошедшего времени.",
+        "key_points": [
+          "Краткие ответы: Yes/No + подлежащее + did (или didn't)",
+          "Используем то же вспомогательное слово, что в вопросе",
+          "Не повторяем весь глагол, только did/didn't"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "Did you work? — Yes, I worked.",
+            "right": "Did you work? — Yes, I did.",
+            "why": "В кратком ответе используем did, а не повторяем глагол в форме прошедшего времени"
+          },
+          {
+            "wrong": "Did she go? — Yes, she went.",
+            "right": "Did she go? — Yes, she did.",
+            "why": "В кратком ответе используем did, а не повторяем глагол в форме прошедшего времени"
+          },
+          {
+            "wrong": "Did they come? — No, they came not.",
+            "right": "Did they come? — No, they didn't.",
+            "why": "Отрицательный краткий ответ использует didn't, а не форму прошедшего времени с отрицанием"
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Did you see that? — Yes, I did.",
+            "translation": "Ты это видел? — Да.",
+            "tags": [
+              "question",
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Did you see that? — No, I didn't.",
+            "translation": "Ты это видел? — Нет.",
+            "tags": [
+              "question",
+              "negative"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Did he finish? — Yes, he did.",
+            "translation": "Он закончил? — Да.",
+            "tags": [
+              "question",
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex4",
+            "text": "Did she like it? — No, she didn't.",
+            "translation": "Ей понравилось? — Нет.",
+            "tags": [
+              "question",
+              "negative"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Какое предложение является вопросом в прошедшем времени?",
+        "theory_block_id": "b1_theory_did_basics",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I worked yesterday.",
+            "feedback": "Нет, это утверждение, а не вопрос"
+          },
+          {
+            "id": "b",
+            "text": "Did you work yesterday?",
+            "feedback": "Правильно! Это вопрос в прошедшем времени с did"
+          },
+          {
+            "id": "c",
+            "text": "Work yesterday.",
+            "feedback": "Нет, это неполное предложение"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Вопрос в Past Simple начинается с вспомогательного глагола did. 'Did you work yesterday?' — правильный вопрос.",
+        "tags": [
+          "basics",
+          "question_form"
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ you see that movie?\" (вспомогательный глагол для вопроса в прошедшем времени)",
+        "theory_block_id": "b1_theory_did_basics",
+        "difficulty": 2,
+        "correct_answer": "Did",
+        "explanation": "Правильный ответ: 'Did'. Для построения вопроса в Past Simple нужен вспомогательный глагол did перед подлежащим.",
+        "tags": [
+          "basics",
+          "did"
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Что нужно добавить, чтобы превратить утверждение \"She went home\" в вопрос?",
+        "theory_block_id": "b1_theory_did_basics",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Добавить did в начало и изменить went на go",
+            "feedback": "Правильно! Did she go home? — правильный порядок"
+          },
+          {
+            "id": "b",
+            "text": "Просто поставить знак вопроса",
+            "feedback": "Нет, в английском нужен вспомогательный глагол для вопроса"
+          },
+          {
+            "id": "c",
+            "text": "Добавить do в начало",
+            "feedback": "Нет, в прошедшем времени используется did, а не do"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Чтобы превратить 'She went home' в вопрос, нужно добавить did в начало и изменить went на go (базовую форму): 'Did she go home?'",
+        "tags": [
+          "basics",
+          "did"
+        ]
+      },
+      {
+        "id": "q4",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении:\n\n**You did work yesterday?**",
+        "theory_block_id": "b1_theory_did_basics",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Did you work yesterday?",
+            "feedback": "Правильно! В вопросах did всегда стоит перед подлежащим"
+          },
+          {
+            "id": "b",
+            "text": "You worked yesterday?",
+            "feedback": "Нет, в английском нужен вспомогательный глагол did для вопроса"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка в порядке слов. В вопросах вспомогательный глагол did всегда стоит перед подлежащим. Правильно: 'Did you work yesterday?'",
+        "tags": [
+          "basics",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. В каком предложении правильно использован вспомогательный глагол в прошедшем времени?",
+        "theory_block_id": "b1_theory_did_basics",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I did work?",
+            "feedback": "Нет, неправильный порядок слов"
+          },
+          {
+            "id": "b",
+            "text": "Did I work?",
+            "feedback": "Правильно! Did стоит перед подлежащим I"
+          },
+          {
+            "id": "c",
+            "text": "Work I did?",
+            "feedback": "Нет, это неправильный порядок слов"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Правильный вариант: 'Did I work?'. В вопросах вспомогательный глагол did всегда стоит перед подлежащим.",
+        "tags": [
+          "basics",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q6",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ she go home?\" (вспомогательный глагол для вопроса в прошедшем времени)",
+        "theory_block_id": "b1_theory_did_basics",
+        "difficulty": 2,
+        "correct_answer": "Did",
+        "explanation": "Правильный ответ: 'Did'. Для построения вопроса в Past Simple используется did со всеми подлежащими.",
+        "tags": [
+          "basics",
+          "did"
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Как превратить утверждение \"They played football\" в вопрос?",
+        "theory_block_id": "b1_theory_did_basics",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Did they play football?",
+            "feedback": "Правильно! Did + they + play (базовая форма)"
+          },
+          {
+            "id": "b",
+            "text": "Did they played football?",
+            "feedback": "Нет, после did глагол идет в базовой форме, а не в прошедшем времени"
+          },
+          {
+            "id": "c",
+            "text": "Do they play football?",
+            "feedback": "Нет, это Present Simple, нужно Past Simple с did"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный вариант: 'Did they play football?'. В Past Simple добавляем did в начало и меняем played на play (базовую форму).",
+        "tags": [
+          "basics",
+          "did"
+        ]
+      },
+      {
+        "id": "q8",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении:\n\n**I did see him?**",
+        "theory_block_id": "b1_theory_did_basics",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Did I see him?",
+            "feedback": "Правильно! В вопросах did стоит перед подлежащим"
+          },
+          {
+            "id": "b",
+            "text": "I saw him?",
+            "feedback": "Нет, в английском нужен вспомогательный глагол did для вопроса"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка в порядке слов. В вопросах did всегда стоит перед подлежащим. Правильно: 'Did I see him?'",
+        "tags": [
+          "basics",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q9",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ he finish the book?\" (вспомогательный глагол для he в прошедшем времени)",
+        "theory_block_id": "b1_theory_did_basics",
+        "difficulty": 2,
+        "correct_answer": "Did",
+        "explanation": "Правильный ответ: 'Did'. С местоимением he в Past Simple используется did.",
+        "tags": [
+          "basics",
+          "did"
+        ]
+      },
+      {
+        "id": "q10",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Какое предложение является вопросом в прошедшем времени с did?",
+        "theory_block_id": "b1_theory_did_basics",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We went to the park.",
+            "feedback": "Нет, это утверждение"
+          },
+          {
+            "id": "b",
+            "text": "Did we go to the park?",
+            "feedback": "Правильно! Это вопрос с did в прошедшем времени"
+          },
+          {
+            "id": "c",
+            "text": "Go to the park.",
+            "feedback": "Нет, это неполное предложение"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Правильный вариант: 'Did we go to the park?'. Вопрос в Past Simple начинается с did.",
+        "tags": [
+          "basics",
+          "question_form"
+        ]
+      },
+      {
+        "id": "q11",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_did_basics",
+        "difficulty": 3,
+        "correct_answer": "Did you understand?",
+        "explanation": "Правильный порядок: Did (вспомогательный глагол) + you (подлежащее) + understand (глагол в базовой форме).",
+        "tags": [
+          "basics",
+          "reorder"
+        ]
+      },
+      {
+        "id": "q12",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении:\n\n**Did it worked?**",
+        "theory_block_id": "b1_theory_did_basics",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Did it work?",
+            "feedback": "Правильно! После did глагол идет в базовой форме, а не в прошедшем времени"
+          },
+          {
+            "id": "b",
+            "text": "It did work?",
+            "feedback": "Нет, неправильный порядок слов"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: после did глагол идет в базовой форме (work), а не в форме прошедшего времени (worked). Правильно: 'Did it work?'",
+        "tags": [
+          "basics",
+          "verb_form"
+        ]
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. С каким местоимением используется did в Past Simple?",
+        "theory_block_id": "b2_theory_did_universal",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Со всеми местоимениями (I, you, he, she, it, we, they)",
+            "feedback": "Правильно! Did используется со всеми подлежащими"
+          },
+          {
+            "id": "b",
+            "text": "Только с I, you, we, they",
+            "feedback": "Нет, did используется со всеми подлежащими"
+          },
+          {
+            "id": "c",
+            "text": "Только с he, she, it",
+            "feedback": "Нет, did используется со всеми подлежащими без исключений"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Did используется со всеми подлежащими (I, you, he, she, it, we, they) в Past Simple. Это универсальная форма, в отличие от do/does в Present Simple.",
+        "tags": [
+          "universal",
+          "did"
+        ]
+      },
+      {
+        "id": "q14",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ they understand?\" (вспомогательный глагол для they в прошедшем времени)",
+        "theory_block_id": "b2_theory_did_universal",
+        "difficulty": 2,
+        "correct_answer": "Did",
+        "explanation": "Правильный ответ: 'Did'. С местоимением they в Past Simple используется did.",
+        "tags": [
+          "universal",
+          "did"
+        ]
+      },
+      {
+        "id": "q15",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. В каком предложении правильно используется did?",
+        "theory_block_id": "b2_theory_did_universal",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Did he finish?",
+            "feedback": "Правильно! Did используется с he"
+          },
+          {
+            "id": "b",
+            "text": "Do he finish?",
+            "feedback": "Нет, в прошедшем времени используется did, а не do"
+          },
+          {
+            "id": "c",
+            "text": "Does he finish?",
+            "feedback": "Нет, does используется в Present Simple, а не в Past Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный вариант: 'Did he finish?'. Did используется со всеми подлежащими в Past Simple, включая he.",
+        "tags": [
+          "universal",
+          "did"
+        ]
+      },
+      {
+        "id": "q16",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. С каким местоимением используется did?",
+        "theory_block_id": "b2_theory_did_universal",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I, you, he, she, it, we, they",
+            "feedback": "Правильно! Did используется со всеми местоимениями"
+          },
+          {
+            "id": "b",
+            "text": "Только с I, you, we, they",
+            "feedback": "Нет, did используется со всеми"
+          },
+          {
+            "id": "c",
+            "text": "Только с he, she, it",
+            "feedback": "Нет, did используется со всеми местоимениями в Past Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Did используется со всеми местоимениями в Past Simple. Это отличие от Present Simple, где используется do для одних и does для других.",
+        "tags": [
+          "universal",
+          "did"
+        ]
+      },
+      {
+        "id": "q17",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ I see you yesterday?\" (вспомогательный глагол для I в прошедшем времени)",
+        "theory_block_id": "b2_theory_did_universal",
+        "difficulty": 2,
+        "correct_answer": "Did",
+        "explanation": "Правильный ответ: 'Did'. С местоимением I в Past Simple используется did.",
+        "tags": [
+          "universal",
+          "did"
+        ]
+      },
+      {
+        "id": "q18",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. В чем отличие did от do/does?",
+        "theory_block_id": "b2_theory_did_universal",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Did используется со всеми подлежащими, а do/does — нет",
+            "feedback": "Правильно! Did универсален для всех"
+          },
+          {
+            "id": "b",
+            "text": "Did используется только с he/she/it",
+            "feedback": "Нет, did используется со всеми"
+          },
+          {
+            "id": "c",
+            "text": "Нет отличий",
+            "feedback": "Нет, есть отличие"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный ответ: did используется со всеми подлежащими в Past Simple, в то время как в Present Simple нужно выбирать между do и does в зависимости от подлежащего.",
+        "tags": [
+          "universal",
+          "comparison"
+        ]
+      },
+      {
+        "id": "q19",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ she come?\" (вспомогательный глагол для she в прошедшем времени)",
+        "theory_block_id": "b2_theory_did_universal",
+        "difficulty": 2,
+        "correct_answer": "Did",
+        "explanation": "Правильный ответ: 'Did'. С местоимением she в Past Simple используется did (а не does, как в Present Simple).",
+        "tags": [
+          "universal",
+          "did"
+        ]
+      },
+      {
+        "id": "q20",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Какое предложение правильно в прошедшем времени?",
+        "theory_block_id": "b2_theory_did_universal",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Did it work?",
+            "feedback": "Правильно! Did используется с it в прошедшем времени"
+          },
+          {
+            "id": "b",
+            "text": "Does it work?",
+            "feedback": "Нет, это Present Simple, нужно Past Simple"
+          },
+          {
+            "id": "c",
+            "text": "Do it work?",
+            "feedback": "Нет, неправильная форма"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный вариант: 'Did it work?'. Did используется со всеми подлежащими в Past Simple, включая it.",
+        "tags": [
+          "universal",
+          "did"
+        ]
+      },
+      {
+        "id": "q21",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении:\n\n**Does you work yesterday?**",
+        "theory_block_id": "b2_theory_did_universal",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Did you work yesterday?",
+            "feedback": "Правильно! В прошедшем времени используется did, а не does"
+          },
+          {
+            "id": "b",
+            "text": "Do you work yesterday?",
+            "feedback": "Нет, в прошедшем времени используется did"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: в прошедшем времени используется did, а не does. Does используется только в Present Simple. Правильно: 'Did you work yesterday?'",
+        "tags": [
+          "universal",
+          "error"
+        ]
+      },
+      {
+        "id": "q22",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ we leave?\" (вспомогательный глагол для we в прошедшем времени)",
+        "theory_block_id": "b2_theory_did_universal",
+        "difficulty": 2,
+        "correct_answer": "Did",
+        "explanation": "Правильный ответ: 'Did'. С местоимением we в Past Simple используется did.",
+        "tags": [
+          "universal",
+          "did"
+        ]
+      },
+      {
+        "id": "q23",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Почему did проще, чем do/does?",
+        "theory_block_id": "b2_theory_did_universal",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Did используется со всеми подлежащими, не нужно выбирать форму",
+            "feedback": "Правильно! Did универсален"
+          },
+          {
+            "id": "b",
+            "text": "Did короче, чем do/does",
+            "feedback": "Нет, дело не в длине"
+          },
+          {
+            "id": "c",
+            "text": "Did легче произносить",
+            "feedback": "Нет, дело не в произношении"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный ответ: did проще, потому что он используется со всеми подлежащими без исключений, в отличие от do/does, где нужно выбирать форму в зависимости от подлежащего.",
+        "tags": [
+          "universal",
+          "comparison"
+        ]
+      },
+      {
+        "id": "q24",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_did_universal",
+        "difficulty": 3,
+        "correct_answer": "Did they finish?",
+        "explanation": "Правильный порядок: Did (вспомогательный глагол) + they (подлежащее) + finish (глагол в базовой форме).",
+        "tags": [
+          "universal",
+          "reorder"
+        ]
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Как правильно задать общий вопрос к предложению \"You worked yesterday\"?",
+        "theory_block_id": "b3_theory_yes_no_questions_did",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "You did work yesterday?",
+            "feedback": "Нет, неправильный порядок слов"
+          },
+          {
+            "id": "b",
+            "text": "Did you work yesterday?",
+            "feedback": "Правильно! Did стоит перед подлежащим you"
+          },
+          {
+            "id": "c",
+            "text": "Work you yesterday?",
+            "feedback": "Нет, это неправильный порядок слов"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Правильный вариант: 'Did you work yesterday?'. Порядок слов в общих вопросах: Did + подлежащее + глагол (V1) + остальное.",
+        "tags": [
+          "yes_no",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ you see that?\" (вспомогательный глагол для общего вопроса в прошедшем времени)",
+        "theory_block_id": "b3_theory_yes_no_questions_did",
+        "difficulty": 2,
+        "correct_answer": "Did",
+        "explanation": "Правильный ответ: 'Did'. Общие вопросы в Past Simple начинаются с did.",
+        "tags": [
+          "yes_no",
+          "did"
+        ]
+      },
+      {
+        "id": "q27",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Как превратить \"She went home\" в общий вопрос?",
+        "theory_block_id": "b3_theory_yes_no_questions_did",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Did she go home?",
+            "feedback": "Правильно! Did + she + go (базовая форма)"
+          },
+          {
+            "id": "b",
+            "text": "Did she went home?",
+            "feedback": "Нет, после did глагол идет в базовой форме, а не в прошедшем времени"
+          },
+          {
+            "id": "c",
+            "text": "Do she go home?",
+            "feedback": "Нет, в прошедшем времени используется did, а не do"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный вариант: 'Did she go home?'. В общих вопросах порядок: Did + подлежащее + глагол в базовой форме.",
+        "tags": [
+          "yes_no",
+          "did"
+        ]
+      },
+      {
+        "id": "q29",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Как правильно задать общий вопрос к предложению \"They finished the work\"?",
+        "theory_block_id": "b3_theory_yes_no_questions_did",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Did they finish the work?",
+            "feedback": "Правильно! Did стоит перед подлежащим they"
+          },
+          {
+            "id": "b",
+            "text": "They did finish the work?",
+            "feedback": "Нет, did должен стоять перед подлежащим"
+          },
+          {
+            "id": "c",
+            "text": "Finish they the work?",
+            "feedback": "Нет, это неправильный порядок слов"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный вариант: 'Did they finish the work?'. В вопросах вспомогательный глагол did всегда стоит перед подлежащим.",
+        "tags": [
+          "yes_no",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q30",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ he understand?\" (вспомогательный глагол для общего вопроса в прошедшем времени)",
+        "theory_block_id": "b3_theory_yes_no_questions_did",
+        "difficulty": 2,
+        "correct_answer": "Did",
+        "explanation": "Правильный ответ: 'Did'. С местоимением he для построения общего вопроса в Past Simple используется did.",
+        "tags": [
+          "yes_no",
+          "did"
+        ]
+      },
+      {
+        "id": "q31",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении:\n\n**Did she went home?**",
+        "theory_block_id": "b3_theory_yes_no_questions_did",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Did she go home?",
+            "feedback": "Правильно! После did глагол идет в базовой форме (go), а не в форме прошедшего времени (went)"
+          },
+          {
+            "id": "b",
+            "text": "She did go home?",
+            "feedback": "Нет, неправильный порядок слов"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: после did глагол идет в базовой форме (go), а не в форме прошедшего времени (went). Правильно: 'Did she go home?'",
+        "tags": [
+          "yes_no",
+          "verb_form"
+        ]
+      },
+      {
+        "id": "q32",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_yes_no_questions_did",
+        "difficulty": 3,
+        "correct_answer": "Did we need this?",
+        "explanation": "Правильный порядок: Did (вспомогательный глагол) + we (подлежащее) + need (глагол в базовой форме) + this (дополнение).",
+        "tags": [
+          "yes_no",
+          "reorder"
+        ]
+      },
+      {
+        "id": "q33",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Как правильно задать общий вопрос к предложению \"I saw him\"?",
+        "theory_block_id": "b3_theory_yes_no_questions_did",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Did I see him?",
+            "feedback": "Правильно! Did + I + see (базовая форма)"
+          },
+          {
+            "id": "b",
+            "text": "Did I saw him?",
+            "feedback": "Нет, после did глагол идет в базовой форме, а не в прошедшем времени"
+          },
+          {
+            "id": "c",
+            "text": "Do I see him?",
+            "feedback": "Нет, это Present Simple, нужно Past Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный вариант: 'Did I see him?'. В общих вопросах порядок: Did + подлежащее + глагол в базовой форме (see, а не saw).",
+        "tags": [
+          "yes_no",
+          "did"
+        ]
+      },
+      {
+        "id": "q34",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ it rain yesterday?\" (вспомогательный глагол для общего вопроса)",
+        "theory_block_id": "b3_theory_yes_no_questions_did",
+        "difficulty": 2,
+        "correct_answer": "Did",
+        "explanation": "Правильный ответ: 'Did'. Для построения общего вопроса в Past Simple используется did.",
+        "tags": [
+          "yes_no",
+          "did"
+        ]
+      },
+      {
+        "id": "q35",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении:\n\n**Did you worked?**",
+        "theory_block_id": "b3_theory_yes_no_questions_did",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Did you work?",
+            "feedback": "Правильно! После did глагол всегда в базовой форме, без окончания -ed"
+          },
+          {
+            "id": "b",
+            "text": "You did work?",
+            "feedback": "Нет, неправильный порядок слов"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: после did глагол всегда в базовой форме (work), без окончания -ed. Правильно: 'Did you work?'",
+        "tags": [
+          "yes_no",
+          "verb_form"
+        ]
+      },
+      {
+        "id": "q36",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Как правильно задать общий вопрос к предложению \"We played tennis\"?",
+        "theory_block_id": "b3_theory_yes_no_questions_did",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Did we play tennis?",
+            "feedback": "Правильно! Did стоит перед подлежащим we"
+          },
+          {
+            "id": "b",
+            "text": "We did play tennis?",
+            "feedback": "Нет, did должен стоять перед подлежащим"
+          },
+          {
+            "id": "c",
+            "text": "Play we tennis?",
+            "feedback": "Нет, это неправильный порядок слов"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный вариант: 'Did we play tennis?'. В вопросах вспомогательный глагол did всегда стоит перед подлежащим.",
+        "tags": [
+          "yes_no",
+          "word_order"
+        ]
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Как правильно задать специальный вопрос к предложению \"You went to London\"?",
+        "theory_block_id": "b4_theory_wh_questions_did",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Where did you go?",
+            "feedback": "Правильно! Where + did + you + go"
+          },
+          {
+            "id": "b",
+            "text": "Where you went?",
+            "feedback": "Нет, нужен did после Where"
+          },
+          {
+            "id": "c",
+            "text": "Where go you?",
+            "feedback": "Нет, это неправильный порядок слов"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный вариант: 'Where did you go?'. В специальных вопросах порядок: вопросительное слово + did + подлежащее + глагол.",
+        "tags": [
+          "wh_questions",
+          "where"
+        ]
+      },
+      {
+        "id": "q38",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ did you do yesterday?\" (что)",
+        "theory_block_id": "b4_theory_wh_questions_did",
+        "difficulty": 2,
+        "correct_answer": "What",
+        "explanation": "Правильный ответ: 'What'. Вопросительное слово What стоит в начале специального вопроса.",
+        "tags": [
+          "wh_questions",
+          "what"
+        ]
+      },
+      {
+        "id": "q39",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Как правильно задать специальный вопрос к предложению \"She saw him yesterday\"?",
+        "theory_block_id": "b4_theory_wh_questions_did",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "When did she see him?",
+            "feedback": "Правильно! When + did + she + see"
+          },
+          {
+            "id": "b",
+            "text": "When she saw him?",
+            "feedback": "Нет, нужен did после When"
+          },
+          {
+            "id": "c",
+            "text": "When did she saw him?",
+            "feedback": "Нет, после did глагол идет в базовой форме"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный вариант: 'When did she see him?'. В специальных вопросах порядок: вопросительное слово + did + подлежащее + глагол в базовой форме.",
+        "tags": [
+          "wh_questions",
+          "when"
+        ]
+      },
+      {
+        "id": "q40",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении:\n\n**Where you went?**",
+        "theory_block_id": "b4_theory_wh_questions_did",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Where did you go?",
+            "feedback": "Правильно! В специальных вопросах тоже нужен did после вопросительного слова"
+          },
+          {
+            "id": "b",
+            "text": "Where went you?",
+            "feedback": "Нет, это неправильный порядок слов"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: в специальных вопросах тоже нужен did после вопросительного слова. Правильно: 'Where did you go?'",
+        "tags": [
+          "wh_questions",
+          "error"
+        ]
+      },
+      {
+        "id": "q41",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ did she go?\" (где)",
+        "theory_block_id": "b4_theory_wh_questions_did",
+        "difficulty": 2,
+        "correct_answer": "Where",
+        "explanation": "Правильный ответ: 'Where'. Вопросительное слово Where стоит в начале специального вопроса.",
+        "tags": [
+          "wh_questions",
+          "where"
+        ]
+      },
+      {
+        "id": "q42",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении:\n\n**What did she saw?**",
+        "theory_block_id": "b4_theory_wh_questions_did",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "What did she see?",
+            "feedback": "Правильно! После did глагол идет в базовой форме (see), а не в форме прошедшего времени (saw)"
+          },
+          {
+            "id": "b",
+            "text": "What she saw?",
+            "feedback": "Нет, нужен did после What"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: после did глагол идет в базовой форме (see), а не в форме прошедшего времени (saw). Правильно: 'What did she see?'",
+        "tags": [
+          "wh_questions",
+          "verb_form"
+        ]
+      },
+      {
+        "id": "q43",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_wh_questions_did",
+        "difficulty": 3,
+        "correct_answer": "How did you get there?",
+        "explanation": "Правильный порядок: How (вопросительное слово) + did (вспомогательный глагол) + you (подлежащее) + get (глагол в базовой форме) + there (дополнение).",
+        "tags": [
+          "wh_questions",
+          "reorder"
+        ]
+      },
+      {
+        "id": "q44",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ did he stop?\" (почему)",
+        "theory_block_id": "b4_theory_wh_questions_did",
+        "difficulty": 2,
+        "correct_answer": "Why",
+        "explanation": "Правильный ответ: 'Why'. Вопросительное слово Why стоит в начале специального вопроса.",
+        "tags": [
+          "wh_questions",
+          "why"
+        ]
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Как правильно задать специальный вопрос к предложению \"They left at 5 o'clock\"?",
+        "theory_block_id": "b4_theory_wh_questions_did",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "When did they leave?",
+            "feedback": "Правильно! When + did + they + leave"
+          },
+          {
+            "id": "b",
+            "text": "When they left?",
+            "feedback": "Нет, нужен did после When"
+          },
+          {
+            "id": "c",
+            "text": "When did they left?",
+            "feedback": "Нет, после did глагол идет в базовой форме"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный вариант: 'When did they leave?'. В специальных вопросах порядок: вопросительное слово + did + подлежащее + глагол в базовой форме.",
+        "tags": [
+          "wh_questions",
+          "when"
+        ]
+      },
+      {
+        "id": "q46",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении:\n\n**When did he came?**",
+        "theory_block_id": "b4_theory_wh_questions_did",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "When did he come?",
+            "feedback": "Правильно! После did глагол в базовой форме (come), без изменения формы"
+          },
+          {
+            "id": "b",
+            "text": "When he came?",
+            "feedback": "Нет, нужен did после When"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: после did глагол в базовой форме (come), без изменения формы. Правильно: 'When did he come?'",
+        "tags": [
+          "wh_questions",
+          "verb_form"
+        ]
+      },
+      {
+        "id": "q47",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ did we meet?\" (когда)",
+        "theory_block_id": "b4_theory_wh_questions_did",
+        "difficulty": 2,
+        "correct_answer": "When",
+        "explanation": "Правильный ответ: 'When'. Вопросительное слово When стоит в начале специального вопроса.",
+        "tags": [
+          "wh_questions",
+          "when"
+        ]
+      },
+      {
+        "id": "q48",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_wh_questions_did",
+        "difficulty": 3,
+        "correct_answer": "What did you do?",
+        "explanation": "Правильный порядок: What (вопросительное слово) + did (вспомогательный глагол) + you (подлежащее) + do (глагол в базовой форме).",
+        "tags": [
+          "wh_questions",
+          "reorder"
+        ]
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Какая форма глагола идет после did?",
+        "theory_block_id": "b5_theory_verb_form_after_did",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Базовая форма (V1)",
+            "feedback": "Правильно! После did глагол всегда в базовой форме"
+          },
+          {
+            "id": "b",
+            "text": "Форма прошедшего времени (V2)",
+            "feedback": "Нет, после did глагол идет в базовой форме, а не в прошедшем времени"
+          },
+          {
+            "id": "c",
+            "text": "Любая форма",
+            "feedback": "Нет, только базовая форма"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После did глагол всегда идет в базовой форме (V1), а не в форме прошедшего времени (V2). Форма прошедшего времени уже выражена словом did.",
+        "tags": [
+          "verb_form",
+          "basics"
+        ]
+      },
+      {
+        "id": "q50",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении:\n\n**Did you worked yesterday?**",
+        "theory_block_id": "b5_theory_verb_form_after_did",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Did you work yesterday?",
+            "feedback": "Правильно! После did глагол в базовой форме (work), без окончания -ed"
+          },
+          {
+            "id": "b",
+            "text": "You did work yesterday?",
+            "feedback": "Нет, неправильный порядок слов"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: после did глагол в базовой форме (work), без окончания -ed. Форма прошедшего времени уже в слове did. Правильно: 'Did you work yesterday?'",
+        "tags": [
+          "verb_form",
+          "error"
+        ]
+      },
+      {
+        "id": "q52",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Did you ___ that?\" (видеть)",
+        "theory_block_id": "b5_theory_verb_form_after_did",
+        "difficulty": 2,
+        "correct_answer": "see",
+        "explanation": "Правильный ответ: 'see'. После did глагол идет в базовой форме (see), а не в форме прошедшего времени (saw).",
+        "tags": [
+          "verb_form",
+          "fill_blank"
+        ]
+      },
+      {
+        "id": "q53",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Какая форма глагола правильная в предложении \"Did they ___ football?\"",
+        "theory_block_id": "b5_theory_verb_form_after_did",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "play",
+            "feedback": "Правильно! После did глагол в базовой форме"
+          },
+          {
+            "id": "b",
+            "text": "played",
+            "feedback": "Нет, после did глагол идет в базовой форме, без -ed"
+          },
+          {
+            "id": "c",
+            "text": "plays",
+            "feedback": "Нет, это форма третьего лица единственного числа"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный ответ: 'play'. После did глагол всегда в базовой форме (play), без окончания -ed и без других изменений.",
+        "tags": [
+          "verb_form",
+          "basics"
+        ]
+      },
+      {
+        "id": "q54",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении:\n\n**What did you saw?**",
+        "theory_block_id": "b5_theory_verb_form_after_did",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "What did you see?",
+            "feedback": "Правильно! После did глагол в базовой форме (see), а не в форме прошедшего времени (saw)"
+          },
+          {
+            "id": "b",
+            "text": "What you saw?",
+            "feedback": "Нет, нужен did после What"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: после did глагол в базовой форме (see), а не в форме прошедшего времени (saw). Правильно: 'What did you see?'",
+        "tags": [
+          "verb_form",
+          "error"
+        ]
+      },
+      {
+        "id": "q55",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Where did he ___ from?\" (приходить)",
+        "theory_block_id": "b5_theory_verb_form_after_did",
+        "difficulty": 2,
+        "correct_answer": "come",
+        "explanation": "Правильный ответ: 'come'. После did глагол в базовой форме (come), без изменения формы. Did уже указывает на прошедшее время.",
+        "tags": [
+          "verb_form",
+          "fill_blank"
+        ]
+      },
+      {
+        "id": "q56",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Почему после did глагол идет в базовой форме?",
+        "theory_block_id": "b5_theory_verb_form_after_did",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Потому что форма прошедшего времени уже выражена словом did",
+            "feedback": "Правильно! Did уже показывает прошедшее время"
+          },
+          {
+            "id": "b",
+            "text": "Потому что это правило для всех времен",
+            "feedback": "Нет, это правило только для Past Simple"
+          },
+          {
+            "id": "c",
+            "text": "Потому что так проще",
+            "feedback": "Нет, это грамматическое правило"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный ответ: форма прошедшего времени уже выражена словом did, поэтому глагол после него идет в базовой форме. Не нужно ставить глагол в прошедшее время дважды.",
+        "tags": [
+          "verb_form",
+          "explanation"
+        ]
+      },
+      {
+        "id": "q58",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Did it ___ yesterday?\" (идти о дожде)",
+        "theory_block_id": "b5_theory_verb_form_after_did",
+        "difficulty": 2,
+        "correct_answer": "rain",
+        "explanation": "Правильный ответ: 'rain'. После did глагол в базовой форме (rain), без изменений.",
+        "tags": [
+          "verb_form",
+          "fill_blank"
+        ]
+      },
+      {
+        "id": "q59",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант. Какая форма глагола правильная в предложении \"Did they ___ the book?\"",
+        "theory_block_id": "b5_theory_verb_form_after_did",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "finish",
+            "feedback": "Правильно! После did глагол в базовой форме"
+          },
+          {
+            "id": "b",
+            "text": "finished",
+            "feedback": "Нет, после did глагол идет в базовой форме, без -ed"
+          },
+          {
+            "id": "c",
+            "text": "finishes",
+            "feedback": "Нет, это форма третьего лица единственного числа"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный ответ: 'finish'. После did глагол всегда в базовой форме (finish), без окончания -ed и без других изменений.",
+        "tags": [
+          "verb_form",
+          "basics"
+        ]
+      },
+      {
+        "id": "q60",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении:\n\n**Did I understood?**",
+        "theory_block_id": "b5_theory_verb_form_after_did",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Did I understand?",
+            "feedback": "Правильно! После did глагол в базовой форме (understand), а не в форме прошедшего времени"
+          },
+          {
+            "id": "b",
+            "text": "I did understand?",
+            "feedback": "Нет, неправильный порядок слов"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: после did глагол в базовой форме (understand), а не в форме прошедшего времени. Правильно: 'Did I understand?'",
+        "tags": [
+          "verb_form",
+          "error"
+        ]
+      },
+      {
+        "id": "q61",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный краткий ответ на вопрос \"Did you work?\"",
+        "theory_block_id": "b6_theory_short_answers_did",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yes, I did.",
+            "feedback": "Правильно! В кратком ответе используем did"
+          },
+          {
+            "id": "b",
+            "text": "Yes, I worked.",
+            "feedback": "Нет, в кратком ответе используем did, а не повторяем глагол в форме прошедшего времени"
+          },
+          {
+            "id": "c",
+            "text": "Yes, I do.",
+            "feedback": "Нет, в прошедшем времени используется did, а не do"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный ответ: 'Yes, I did.'. В кратких ответах на вопросы с did мы используем did, а не повторяем весь глагол в форме прошедшего времени.",
+        "tags": [
+          "short_answers",
+          "affirmative"
+        ]
+      },
+      {
+        "id": "q62",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Did you see that? — No, I ___.\" (did not)",
+        "theory_block_id": "b6_theory_short_answers_did",
+        "difficulty": 2,
+        "correct_answer": "didn't",
+        "explanation": "Правильный ответ: 'didn't'. В отрицательном кратком ответе на вопрос с did используем didn't (did not).",
+        "tags": [
+          "short_answers",
+          "negative"
+        ]
+      },
+      {
+        "id": "q63",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный краткий ответ на вопрос \"Did she go?\"",
+        "theory_block_id": "b6_theory_short_answers_did",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yes, she did.",
+            "feedback": "Правильно! В кратком ответе используем did"
+          },
+          {
+            "id": "b",
+            "text": "Yes, she went.",
+            "feedback": "Нет, в кратком ответе используем did, а не повторяем глагол в форме прошедшего времени"
+          },
+          {
+            "id": "c",
+            "text": "Yes, she goes.",
+            "feedback": "Нет, это настоящее время"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный ответ: 'Yes, she did.'. В кратких ответах на вопросы с did мы используем did, а не повторяем глагол в форме прошедшего времени.",
+        "tags": [
+          "short_answers",
+          "affirmative"
+        ]
+      },
+      {
+        "id": "q64",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Did he finish? — Yes, he ___. (вспомогательный глагол в прошедшем времени: did)",
+        "theory_block_id": "b6_theory_short_answers_did",
+        "difficulty": 2,
+        "correct_answer": "did",
+        "explanation": "Правильный ответ: 'did'. В положительном кратком ответе на вопрос с did используем did.",
+        "tags": [
+          "short_answers",
+          "affirmative"
+        ]
+      },
+      {
+        "id": "q65",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в кратком ответе:\n\n**Did you work? — Yes, I worked.**",
+        "theory_block_id": "b6_theory_short_answers_did",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yes, I did.",
+            "feedback": "Правильно! В кратком ответе используем did, а не повторяем глагол в форме прошедшего времени"
+          },
+          {
+            "id": "b",
+            "text": "Yes, I work.",
+            "feedback": "Нет, это настоящее время"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: в кратком ответе мы используем did, а не повторяем глагол в форме прошедшего времени. Правильно: 'Yes, I did.'",
+        "tags": [
+          "short_answers",
+          "error"
+        ]
+      },
+      {
+        "id": "q66",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный краткий ответ на вопрос \"Did they come?\"",
+        "theory_block_id": "b6_theory_short_answers_did",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yes, they did.",
+            "feedback": "Правильно! В кратком ответе используем did"
+          },
+          {
+            "id": "b",
+            "text": "Yes, they came.",
+            "feedback": "Нет, в кратком ответе используем did, а не повторяем глагол"
+          },
+          {
+            "id": "c",
+            "text": "Yes, they do.",
+            "feedback": "Нет, в прошедшем времени используется did, а не do"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный ответ: 'Yes, they did.'. В кратких ответах на вопросы с did мы используем did, а не повторяем весь глагол.",
+        "tags": [
+          "short_answers",
+          "affirmative"
+        ]
+      },
+      {
+        "id": "q67",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Did she like it? — No, she ___.\" (did not)",
+        "theory_block_id": "b6_theory_short_answers_did",
+        "difficulty": 2,
+        "correct_answer": "didn't",
+        "explanation": "Правильный ответ: 'didn't'. В отрицательном кратком ответе на вопрос с did используем didn't.",
+        "tags": [
+          "short_answers",
+          "negative"
+        ]
+      },
+      {
+        "id": "q68",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в кратком ответе:\n\n**Did she go? — Yes, she went.**",
+        "theory_block_id": "b6_theory_short_answers_did",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yes, she did.",
+            "feedback": "Правильно! В кратком ответе используем did, а не повторяем глагол в форме прошедшего времени"
+          },
+          {
+            "id": "b",
+            "text": "Yes, she goes.",
+            "feedback": "Нет, это настоящее время"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: в кратком ответе мы используем did, а не повторяем глагол в форме прошедшего времени. Правильно: 'Yes, she did.'",
+        "tags": [
+          "short_answers",
+          "error"
+        ]
+      },
+      {
+        "id": "q69",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный краткий ответ на вопрос \"Did it work?\"",
+        "theory_block_id": "b6_theory_short_answers_did",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yes, it did.",
+            "feedback": "Правильно! В кратком ответе используем did"
+          },
+          {
+            "id": "b",
+            "text": "Yes, it worked.",
+            "feedback": "Нет, в кратком ответе используем did, а не повторяем глагол"
+          },
+          {
+            "id": "c",
+            "text": "Yes, it works.",
+            "feedback": "Нет, это настоящее время"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный ответ: 'Yes, it did.'. В кратких ответах на вопросы с did мы используем did, а не повторяем глагол.",
+        "tags": [
+          "short_answers",
+          "affirmative"
+        ]
+      },
+      {
+        "id": "q70",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Did we need this? — No, we ___.\" (did not)",
+        "theory_block_id": "b6_theory_short_answers_did",
+        "difficulty": 2,
+        "correct_answer": "didn't",
+        "explanation": "Правильный ответ: 'didn't'. В отрицательном кратком ответе на вопрос с did используем didn't.",
+        "tags": [
+          "short_answers",
+          "negative"
+        ]
+      },
+      {
+        "id": "q71",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный краткий ответ на вопрос \"Did you understand?\"",
+        "theory_block_id": "b6_theory_short_answers_did",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yes, I did.",
+            "feedback": "Правильно! В кратком ответе используем did"
+          },
+          {
+            "id": "b",
+            "text": "Yes, I understood.",
+            "feedback": "Нет, в кратком ответе используем did, а не повторяем глагол"
+          },
+          {
+            "id": "c",
+            "text": "Yes, I do.",
+            "feedback": "Нет, в прошедшем времени используется did"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный ответ: 'Yes, I did.'. В кратких ответах на вопросы с did мы используем did, а не повторяем весь глагол.",
+        "tags": [
+          "short_answers",
+          "affirmative"
+        ]
+      },
+      {
+        "id": "q72",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в кратком ответе:\n\n**Did they come? — No, they came not.**",
+        "theory_block_id": "b6_theory_short_answers_did",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "No, they didn't.",
+            "feedback": "Правильно! Отрицательный краткий ответ использует didn't, а не форму прошедшего времени с отрицанием"
+          },
+          {
+            "id": "b",
+            "text": "No, they don't.",
+            "feedback": "Нет, в прошедшем времени используется didn't"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: отрицательный краткий ответ использует didn't, а не форму прошедшего времени с отрицанием. Правильно: 'No, they didn't.'",
+        "tags": [
+          "short_answers",
+          "error"
+        ]
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q58",
+      "q59",
+      "q60",
+      "q61",
+      "q62",
+      "q63",
+      "q64",
+      "q65",
+      "q66",
+      "q67",
+      "q68",
+      "q69",
+      "q70",
+      "q71",
+      "q72"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-18T14:27:15Z",
+    "source": "llm"
+  }
+}
