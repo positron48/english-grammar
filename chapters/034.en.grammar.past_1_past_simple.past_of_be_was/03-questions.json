@@ -1,0 +1,1114 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант. Какая форма глагола be используется в прошедшем времени для \"I\"?",
+      "theory_block_id": "b1_theory_was_were_basics",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "was",
+          "feedback": "Правильно! С I используется was"
+        },
+        {
+          "id": "b",
+          "text": "were",
+          "feedback": "Нет, were используется с you/we/they"
+        },
+        {
+          "id": "c",
+          "text": "am",
+          "feedback": "Нет, am используется в настоящем времени"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "В прошедшем времени с местоимением I используется was: I was happy.",
+      "tags": ["was", "first_person"]
+    },
+    {
+      "id": "q2",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант. Какая форма глагола be используется в прошедшем времени для \"they\"?",
+      "theory_block_id": "b1_theory_was_were_basics",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "was",
+          "feedback": "Нет, was используется с I/he/she/it"
+        },
+        {
+          "id": "b",
+          "text": "were",
+          "feedback": "Правильно! С they используется were"
+        },
+        {
+          "id": "c",
+          "text": "are",
+          "feedback": "Нет, are используется в настоящем времени"
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "В прошедшем времени с местоимением they используется were: They were friends.",
+      "tags": ["were", "plural"]
+    },
+    {
+      "id": "q3",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"I ___ at home yesterday.\" (be)",
+      "theory_block_id": "b1_theory_was_were_basics",
+      "difficulty": 1,
+      "correct_answer": "was",
+      "explanation": "С I в прошедшем времени используется was: I was at home yesterday.",
+      "tags": ["was", "fill_blank"]
+    },
+    {
+      "id": "q4",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"They ___ students last year.\" (be)",
+      "theory_block_id": "b1_theory_was_were_basics",
+      "difficulty": 1,
+      "correct_answer": "were",
+      "explanation": "С they в прошедшем времени используется were: They were students last year.",
+      "tags": ["were", "fill_blank"]
+    },
+    {
+      "id": "q5",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"___ am happy.\" в прошедшем времени.",
+      "theory_block_id": "b1_theory_was_were_basics",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I was happy.",
+          "feedback": "Правильно! am → was"
+        },
+        {
+          "id": "b",
+          "text": "I were happy.",
+          "feedback": "Нет, с I используется was, а не were"
+        },
+        {
+          "id": "c",
+          "text": "I am happy.",
+          "feedback": "Нет, это настоящее время"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "В прошедшем времени am меняется на was: I was happy.",
+      "tags": ["was", "transformation"]
+    },
+    {
+      "id": "q6",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"___ are friends.\" в прошедшем времени.",
+      "theory_block_id": "b1_theory_was_were_basics",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "They were friends.",
+          "feedback": "Правильно! are → were"
+        },
+        {
+          "id": "b",
+          "text": "They was friends.",
+          "feedback": "Нет, с they используется were, а не was"
+        },
+        {
+          "id": "c",
+          "text": "They are friends.",
+          "feedback": "Нет, это настоящее время"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "В прошедшем времени are меняется на were: They were friends.",
+      "tags": ["were", "transformation"]
+    },
+    {
+      "id": "q7",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку в предложении: \"I were at school yesterday.\"",
+      "theory_block_id": "b1_theory_was_were_basics",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "were → was",
+          "feedback": "Правильно! С I используется was"
+        },
+        {
+          "id": "b",
+          "text": "at → in",
+          "feedback": "Нет, ошибка в форме глагола"
+        },
+        {
+          "id": "c",
+          "text": "yesterday → today",
+          "feedback": "Нет, ошибка в форме глагола"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "С I в прошедшем времени используется was, а не were: I was at school yesterday.",
+      "tags": ["was", "error_spotting"]
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "prompt": "Верно или неверно: В предложении \"You were here\" форма were правильная.",
+      "theory_block_id": "b1_theory_was_were_basics",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Верно. С you всегда используется were в прошедшем времени, независимо от того, обращаетесь ли вы к одному человеку или нескольким.",
+      "tags": ["were", "true_false"]
+    },
+    {
+      "id": "q9",
+      "type": "true_false",
+      "prompt": "Верно или неверно: С местоимением he в прошедшем времени используется were.",
+      "theory_block_id": "b1_theory_was_were_basics",
+      "difficulty": 1,
+      "correct_answer": "false",
+      "explanation": "Неверно. С he в прошедшем времени используется was, а не were: He was happy.",
+      "tags": ["was", "true_false"]
+    },
+    {
+      "id": "q10",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"He ___ a teacher five years ago.\"",
+      "theory_block_id": "b1_theory_was_were_basics",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "was",
+          "feedback": "Правильно! С he используется was"
+        },
+        {
+          "id": "b",
+          "text": "were",
+          "feedback": "Нет, were используется с you/we/they"
+        },
+        {
+          "id": "c",
+          "text": "is",
+          "feedback": "Нет, is используется в настоящем времени"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "С he в прошедшем времени используется was: He was a teacher five years ago.",
+      "tags": ["was", "third_person"]
+    },
+    {
+      "id": "q11",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"We ___ at the park yesterday.\" (be)",
+      "theory_block_id": "b1_theory_was_were_basics",
+      "difficulty": 1,
+      "correct_answer": "were",
+      "explanation": "С we в прошедшем времени используется were: We were at the park yesterday.",
+      "tags": ["were", "fill_blank"]
+    },
+    {
+      "id": "q12",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b1_theory_was_were_basics",
+      "difficulty": 2,
+      "correct_answer": "She was happy yesterday.",
+      "explanation": "Порядок слов в утверждении: She + was + happy + yesterday.",
+      "tags": ["was", "reorder"]
+    },
+    {
+      "id": "q13",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"I ___ at home yesterday.\"",
+      "theory_block_id": "b2_theory_was_were_pronouns",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "was",
+          "feedback": "Правильно! I was"
+        },
+        {
+          "id": "b",
+          "text": "were",
+          "feedback": "Нет, с I используется was"
+        },
+        {
+          "id": "c",
+          "text": "am",
+          "feedback": "Нет, am используется в настоящем времени"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "С местоимением I в прошедшем времени используется was: I was at home yesterday.",
+      "tags": ["was", "pronouns"]
+    },
+    {
+      "id": "q14",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"You ___ late yesterday.\"",
+      "theory_block_id": "b2_theory_was_were_pronouns",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "was",
+          "feedback": "Нет, с you используется were"
+        },
+        {
+          "id": "b",
+          "text": "were",
+          "feedback": "Правильно! You were"
+        },
+        {
+          "id": "c",
+          "text": "are",
+          "feedback": "Нет, are используется в настоящем времени"
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "С местоимением you всегда используется were в прошедшем времени: You were late yesterday.",
+      "tags": ["were", "pronouns"]
+    },
+    {
+      "id": "q15",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"She ___ tired after work.\"",
+      "theory_block_id": "b2_theory_was_were_pronouns",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "was",
+          "feedback": "Правильно! She was"
+        },
+        {
+          "id": "b",
+          "text": "were",
+          "feedback": "Нет, с she используется was"
+        },
+        {
+          "id": "c",
+          "text": "is",
+          "feedback": "Нет, is используется в настоящем времени"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "С местоимением she в прошедшем времени используется was: She was tired after work.",
+      "tags": ["was", "pronouns"]
+    },
+    {
+      "id": "q16",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"He ___ at the office last week.\" (be)",
+      "theory_block_id": "b2_theory_was_were_pronouns",
+      "difficulty": 1,
+      "correct_answer": "was",
+      "explanation": "С he в прошедшем времени используется was: He was at the office last week.",
+      "tags": ["was", "fill_blank"]
+    },
+    {
+      "id": "q17",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"It ___ cold yesterday.\" (be)",
+      "theory_block_id": "b2_theory_was_were_pronouns",
+      "difficulty": 1,
+      "correct_answer": "was",
+      "explanation": "С it в прошедшем времени используется was: It was cold yesterday.",
+      "tags": ["was", "fill_blank"]
+    },
+    {
+      "id": "q18",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"We ___ friends in school.\" (be)",
+      "theory_block_id": "b2_theory_was_were_pronouns",
+      "difficulty": 1,
+      "correct_answer": "were",
+      "explanation": "С we в прошедшем времени используется were: We were friends in school.",
+      "tags": ["were", "fill_blank"]
+    },
+    {
+      "id": "q19",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку в предложении: \"You was late yesterday.\"",
+      "theory_block_id": "b2_theory_was_were_pronouns",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "was → were",
+          "feedback": "Правильно! С you используется were"
+        },
+        {
+          "id": "b",
+          "text": "late → early",
+          "feedback": "Нет, ошибка в форме глагола"
+        },
+        {
+          "id": "c",
+          "text": "yesterday → today",
+          "feedback": "Нет, ошибка в форме глагола"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "С местоимением you всегда используется were в прошедшем времени, а не was: You were late yesterday.",
+      "tags": ["were", "error_spotting"]
+    },
+    {
+      "id": "q20",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку в предложении: \"I were happy yesterday.\"",
+      "theory_block_id": "b2_theory_was_were_pronouns",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "were → was",
+          "feedback": "Правильно! С I используется was"
+        },
+        {
+          "id": "b",
+          "text": "happy → sad",
+          "feedback": "Нет, ошибка в форме глагола"
+        },
+        {
+          "id": "c",
+          "text": "yesterday → today",
+          "feedback": "Нет, ошибка в форме глагола"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "С местоимением I в прошедшем времени используется was, а не were: I was happy yesterday.",
+      "tags": ["was", "error_spotting"]
+    },
+    {
+      "id": "q21",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"They ___ at the party last night.\"",
+      "theory_block_id": "b2_theory_was_were_pronouns",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "was",
+          "feedback": "Нет, с they используется were"
+        },
+        {
+          "id": "b",
+          "text": "were",
+          "feedback": "Правильно! They were"
+        },
+        {
+          "id": "c",
+          "text": "are",
+          "feedback": "Нет, are используется в настоящем времени"
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "С местоимением they в прошедшем времени используется were: They were at the party last night.",
+      "tags": ["were", "pronouns"]
+    },
+    {
+      "id": "q22",
+      "type": "true_false",
+      "prompt": "Верно или неверно: С местоимением you в прошедшем времени всегда используется were.",
+      "theory_block_id": "b2_theory_was_were_pronouns",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Верно. С местоимением you всегда используется were в прошедшем времени, независимо от того, обращаетесь ли вы к одному человеку или нескольким.",
+      "tags": ["were", "true_false"]
+    },
+    {
+      "id": "q23",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b2_theory_was_were_pronouns",
+      "difficulty": 2,
+      "correct_answer": "We were students last year.",
+      "explanation": "Порядок слов: We + were + students + last year.",
+      "tags": ["were", "reorder"]
+    },
+    {
+      "id": "q24",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"___ were at the cinema yesterday.\" (местоимение множественного числа)",
+      "theory_block_id": "b2_theory_was_were_pronouns",
+      "difficulty": 1,
+      "correct_answer": "They",
+      "explanation": "С they используется were: They were at the cinema yesterday.",
+      "tags": ["were", "fill_blank"]
+    },
+    {
+      "id": "q25",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант вопроса:",
+      "theory_block_id": "b3_theory_was_were_questions",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Was he at home?",
+          "feedback": "Правильно! Порядок слов в вопросе: was + подлежащее"
+        },
+        {
+          "id": "b",
+          "text": "He was at home?",
+          "feedback": "Нет, в вопросах was стоит перед подлежащим"
+        },
+        {
+          "id": "c",
+          "text": "Were he at home?",
+          "feedback": "Нет, с he используется was, а не were"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "В вопросах с was порядок слов: Was + подлежащее + остальное: Was he at home?",
+      "tags": ["question", "was"]
+    },
+    {
+      "id": "q26",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант вопроса:",
+      "theory_block_id": "b3_theory_was_were_questions",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "They were at home?",
+          "feedback": "Нет, в вопросах were стоит перед подлежащим"
+        },
+        {
+          "id": "b",
+          "text": "Were they at home?",
+          "feedback": "Правильно! Порядок слов в вопросе: were + подлежащее"
+        },
+        {
+          "id": "c",
+          "text": "Was they at home?",
+          "feedback": "Нет, с they используется were, а не was"
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "В вопросах с were порядок слов: Were + подлежащее + остальное: Were they at home?",
+      "tags": ["question", "were"]
+    },
+    {
+      "id": "q27",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"___ you at school yesterday?\" (be)",
+      "theory_block_id": "b3_theory_was_were_questions",
+      "difficulty": 1,
+      "correct_answer": "Were",
+      "explanation": "С you в вопросах используется were: Were you at school yesterday?",
+      "tags": ["question", "fill_blank"]
+    },
+    {
+      "id": "q28",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"___ she happy yesterday?\" (be)",
+      "theory_block_id": "b3_theory_was_were_questions",
+      "difficulty": 1,
+      "correct_answer": "Was",
+      "explanation": "С she в вопросах используется was: Was she happy yesterday?",
+      "tags": ["question", "fill_blank"]
+    },
+    {
+      "id": "q29",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант вопроса:",
+      "theory_block_id": "b3_theory_was_were_questions",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Were I right?",
+          "feedback": "Нет, с I в вопросах используется was"
+        },
+        {
+          "id": "b",
+          "text": "Was I right?",
+          "feedback": "Правильно! С I используется was"
+        },
+        {
+          "id": "c",
+          "text": "I was right?",
+          "feedback": "Нет, в вопросах was стоит перед подлежащим"
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "С I в вопросах используется was: Was I right?",
+      "tags": ["question", "was"]
+    },
+    {
+      "id": "q30",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку в вопросе: \"Were he happy yesterday?\"",
+      "theory_block_id": "b3_theory_was_were_questions",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Were → Was",
+          "feedback": "Правильно! С he используется was"
+        },
+        {
+          "id": "b",
+          "text": "he → she",
+          "feedback": "Нет, ошибка в форме глагола"
+        },
+        {
+          "id": "c",
+          "text": "yesterday → today",
+          "feedback": "Нет, ошибка в форме глагола"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "С he в вопросах используется was, а не were: Was he happy yesterday?",
+      "tags": ["question", "error_spotting"]
+    },
+    {
+      "id": "q31",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку в вопросе: \"Was they at home?\"",
+      "theory_block_id": "b3_theory_was_were_questions",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Was → Were",
+          "feedback": "Правильно! С they используется were"
+        },
+        {
+          "id": "b",
+          "text": "they → he",
+          "feedback": "Нет, ошибка в форме глагола"
+        },
+        {
+          "id": "c",
+          "text": "at → in",
+          "feedback": "Нет, ошибка в форме глагола"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "С they в вопросах используется were, а не was: Were they at home?",
+      "tags": ["question", "error_spotting"]
+    },
+    {
+      "id": "q32",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b3_theory_was_were_questions",
+      "difficulty": 2,
+      "correct_answer": "Was she at home?",
+      "explanation": "Порядок слов в вопросе: Was + she + at home?",
+      "tags": ["question", "reorder"]
+    },
+    {
+      "id": "q33",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b3_theory_was_were_questions",
+      "difficulty": 2,
+      "correct_answer": "Were we late?",
+      "explanation": "Порядок слов в вопросе: Were + we + late?",
+      "tags": ["question", "reorder"]
+    },
+    {
+      "id": "q34",
+      "type": "true_false",
+      "prompt": "Верно или неверно: В вопросе \"Was you happy?\" порядок слов правильный.",
+      "theory_block_id": "b3_theory_was_were_questions",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Неверно. Порядок слов правильный, но с you используется were, а не was: Were you happy?",
+      "tags": ["question", "true_false"]
+    },
+    {
+      "id": "q35",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант вопроса:",
+      "theory_block_id": "b3_theory_was_were_questions",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Was it cold yesterday?",
+          "feedback": "Правильно! С it используется was"
+        },
+        {
+          "id": "b",
+          "text": "Were it cold yesterday?",
+          "feedback": "Нет, с it используется was"
+        },
+        {
+          "id": "c",
+          "text": "It was cold yesterday?",
+          "feedback": "Нет, в вопросах was стоит перед подлежащим"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "С it в вопросах используется was: Was it cold yesterday?",
+      "tags": ["question", "was"]
+    },
+    {
+      "id": "q36",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"___ they at the party?\" (be)",
+      "theory_block_id": "b3_theory_was_were_questions",
+      "difficulty": 1,
+      "correct_answer": "Were",
+      "explanation": "С they в вопросах используется were: Were they at the party?",
+      "tags": ["question", "fill_blank"]
+    },
+    {
+      "id": "q37",
+      "type": "mcq_single",
+      "prompt": "Выберите правильное отрицание: \"I ___ at home yesterday.\"",
+      "theory_block_id": "b4_theory_was_were_negatives",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I wasn't at home yesterday.",
+          "feedback": "Правильно! wasn't = was not"
+        },
+        {
+          "id": "b",
+          "text": "I weren't at home yesterday.",
+          "feedback": "Нет, с I используется wasn't"
+        },
+        {
+          "id": "c",
+          "text": "I was not at home yesterday.",
+          "feedback": "Грамматически правильно, но wasn't более естественно"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "С I в отрицаниях используется wasn't: I wasn't at home yesterday.",
+      "tags": ["negative", "wasn't"]
+    },
+    {
+      "id": "q38",
+      "type": "mcq_single",
+      "prompt": "Выберите правильное отрицание: \"They ___ late yesterday.\"",
+      "theory_block_id": "b4_theory_was_were_negatives",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "They wasn't late yesterday.",
+          "feedback": "Нет, с they используется weren't"
+        },
+        {
+          "id": "b",
+          "text": "They weren't late yesterday.",
+          "feedback": "Правильно! weren't = were not"
+        },
+        {
+          "id": "c",
+          "text": "They were not late yesterday.",
+          "feedback": "Грамматически правильно, но weren't более естественно"
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "С they в отрицаниях используется weren't: They weren't late yesterday.",
+      "tags": ["negative", "weren't"]
+    },
+    {
+      "id": "q39",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"She ___ at the office yesterday.\" (not be)",
+      "theory_block_id": "b4_theory_was_were_negatives",
+      "difficulty": 1,
+      "correct_answer": "wasn't",
+      "explanation": "С she в отрицаниях используется wasn't: She wasn't at the office yesterday.",
+      "tags": ["negative", "fill_blank"]
+    },
+    {
+      "id": "q40",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"We ___ ready for the exam.\" (not be)",
+      "theory_block_id": "b4_theory_was_were_negatives",
+      "difficulty": 1,
+      "correct_answer": "weren't",
+      "explanation": "С we в отрицаниях используется weren't: We weren't ready for the exam.",
+      "tags": ["negative", "fill_blank"]
+    },
+    {
+      "id": "q41",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку в предложении: \"You wasn't late yesterday.\"",
+      "theory_block_id": "b4_theory_was_were_negatives",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "wasn't → weren't",
+          "feedback": "Правильно! С you используется weren't"
+        },
+        {
+          "id": "b",
+          "text": "late → early",
+          "feedback": "Нет, ошибка в форме глагола"
+        },
+        {
+          "id": "c",
+          "text": "yesterday → today",
+          "feedback": "Нет, ошибка в форме глагола"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "С you в отрицаниях всегда используется weren't, а не wasn't: You weren't late yesterday.",
+      "tags": ["negative", "error_spotting"]
+    },
+    {
+      "id": "q42",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку в предложении: \"I weren't happy yesterday.\"",
+      "theory_block_id": "b4_theory_was_were_negatives",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "weren't → wasn't",
+          "feedback": "Правильно! С I используется wasn't"
+        },
+        {
+          "id": "b",
+          "text": "happy → sad",
+          "feedback": "Нет, ошибка в форме глагола"
+        },
+        {
+          "id": "c",
+          "text": "yesterday → today",
+          "feedback": "Нет, ошибка в форме глагола"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "С I в отрицаниях используется wasn't, а не weren't: I wasn't happy yesterday.",
+      "tags": ["negative", "error_spotting"]
+    },
+    {
+      "id": "q43",
+      "type": "mcq_single",
+      "prompt": "Выберите правильное отрицание: \"He ___ at school yesterday.\"",
+      "theory_block_id": "b4_theory_was_were_negatives",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "wasn't",
+          "feedback": "Правильно! С he используется wasn't"
+        },
+        {
+          "id": "b",
+          "text": "weren't",
+          "feedback": "Нет, с he используется wasn't"
+        },
+        {
+          "id": "c",
+          "text": "was not",
+          "feedback": "Грамматически правильно, но wasn't более естественно"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "С he в отрицаниях используется wasn't: He wasn't at school yesterday.",
+      "tags": ["negative", "wasn't"]
+    },
+    {
+      "id": "q44",
+      "type": "true_false",
+      "prompt": "Верно или неверно: wasn't означает \"was not\".",
+      "theory_block_id": "b4_theory_was_were_negatives",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Верно. wasn't — это сокращенная форма от was not: I wasn't = I was not.",
+      "tags": ["negative", "true_false"]
+    },
+    {
+      "id": "q45",
+      "type": "true_false",
+      "prompt": "Верно или неверно: С местоимением you в отрицаниях используется wasn't.",
+      "theory_block_id": "b4_theory_was_were_negatives",
+      "difficulty": 1,
+      "correct_answer": "false",
+      "explanation": "Неверно. С местоимением you в отрицаниях всегда используется weren't, а не wasn't: You weren't late.",
+      "tags": ["negative", "true_false"]
+    },
+    {
+      "id": "q46",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b4_theory_was_were_negatives",
+      "difficulty": 2,
+      "correct_answer": "They weren't at home yesterday.",
+      "explanation": "Порядок слов в отрицании: They + weren't + at home + yesterday.",
+      "tags": ["negative", "reorder"]
+    },
+    {
+      "id": "q47",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"It ___ sunny yesterday.\" (not be)",
+      "theory_block_id": "b4_theory_was_were_negatives",
+      "difficulty": 1,
+      "correct_answer": "wasn't",
+      "explanation": "С it в отрицаниях используется wasn't: It wasn't sunny yesterday.",
+      "tags": ["negative", "fill_blank"]
+    },
+    {
+      "id": "q48",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный краткий ответ на вопрос \"Was he happy?\"",
+      "theory_block_id": "b5_theory_was_were_short_answers",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, he was.",
+          "feedback": "Правильно! Краткий ответ: Yes + подлежащее + was"
+        },
+        {
+          "id": "b",
+          "text": "Yes, he is.",
+          "feedback": "Нет, в кратком ответе используется то же время, что в вопросе (was)"
+        },
+        {
+          "id": "c",
+          "text": "Yes, he were.",
+          "feedback": "Нет, с he используется was, а не were"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Краткий ответ на вопрос с was: Yes, he was. Используется то же время, что в вопросе.",
+      "tags": ["short_answer", "affirmative"]
+    },
+    {
+      "id": "q49",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный краткий ответ на вопрос \"Were they late?\"",
+      "theory_block_id": "b5_theory_was_were_short_answers",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "No, they weren't.",
+          "feedback": "Правильно! Краткий отрицательный ответ: No + подлежащее + weren't"
+        },
+        {
+          "id": "b",
+          "text": "No, they wasn't.",
+          "feedback": "Нет, с they используется weren't"
+        },
+        {
+          "id": "c",
+          "text": "No, they are not.",
+          "feedback": "Нет, в кратком ответе используется то же время, что в вопросе (were)"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Краткий отрицательный ответ на вопрос с were: No, they weren't.",
+      "tags": ["short_answer", "negative"]
+    },
+    {
+      "id": "q50",
+      "type": "fill_blank",
+      "prompt": "Заполните краткий ответ: \"Was she at home?\" — \"Yes, she ___.\" (be)",
+      "theory_block_id": "b5_theory_was_were_short_answers",
+      "difficulty": 1,
+      "correct_answer": "was",
+      "explanation": "Краткий утвердительный ответ: Yes, she was.",
+      "tags": ["short_answer", "fill_blank"]
+    },
+    {
+      "id": "q51",
+      "type": "fill_blank",
+      "prompt": "Заполните краткий ответ: \"Were you late?\" — \"No, I ___.\" (not be)",
+      "theory_block_id": "b5_theory_was_were_short_answers",
+      "difficulty": 1,
+      "correct_answer": "wasn't",
+      "explanation": "Краткий отрицательный ответ на вопрос о себе: No, I wasn't.",
+      "tags": ["short_answer", "fill_blank"]
+    },
+    {
+      "id": "q52",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный краткий ответ на вопрос \"Was I right?\"",
+      "theory_block_id": "b5_theory_was_were_short_answers",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, you were.",
+          "feedback": "Правильно! При ответе на вопрос о себе используется you"
+        },
+        {
+          "id": "b",
+          "text": "Yes, I was.",
+          "feedback": "Нет, при ответе на вопрос о себе используется you, а не I"
+        },
+        {
+          "id": "c",
+          "text": "Yes, you was.",
+          "feedback": "Нет, с you используется were"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "При ответе на вопрос \"Was I right?\" используется you, так как вопрос задан о собеседнике: Yes, you were.",
+      "tags": ["short_answer", "special_case"]
+    },
+    {
+      "id": "q53",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку в кратком ответе на вопрос \"Was he happy?\" — \"Yes, he is.\"",
+      "theory_block_id": "b5_theory_was_were_short_answers",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "is → was",
+          "feedback": "Правильно! В кратком ответе используется то же время, что в вопросе (was)"
+        },
+        {
+          "id": "b",
+          "text": "he → she",
+          "feedback": "Нет, ошибка во времени"
+        },
+        {
+          "id": "c",
+          "text": "Yes → No",
+          "feedback": "Нет, ошибка во времени"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "В кратком ответе должно использоваться то же время, что в вопросе: Yes, he was. (а не is)",
+      "tags": ["short_answer", "error_spotting"]
+    },
+    {
+      "id": "q54",
+      "type": "true_false",
+      "prompt": "Верно или неверно: В кратком ответе на вопрос \"Were they friends?\" можно сказать \"Yes, they were.\"",
+      "theory_block_id": "b5_theory_was_were_short_answers",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Верно. Краткий ответ на вопрос с were: Yes, they were.",
+      "tags": ["short_answer", "true_false"]
+    },
+    {
+      "id": "q55",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b5_theory_was_were_short_answers",
+      "difficulty": 2,
+      "correct_answer": "Yes, she was.",
+      "explanation": "Порядок слов в кратком ответе: Yes + подлежащее + was/were.",
+      "tags": ["short_answer", "reorder"]
+    },
+    {
+      "id": "q56",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный краткий ответ на вопрос \"Were we late?\"",
+      "theory_block_id": "b5_theory_was_were_short_answers",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "No, we weren't.",
+          "feedback": "Правильно! Краткий отрицательный ответ: No + we + weren't"
+        },
+        {
+          "id": "b",
+          "text": "No, we wasn't.",
+          "feedback": "Нет, с we используется weren't"
+        },
+        {
+          "id": "c",
+          "text": "No, we are not.",
+          "feedback": "Нет, в кратком ответе используется то же время, что в вопросе (were)"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Краткий отрицательный ответ на вопрос с were: No, we weren't.",
+      "tags": ["short_answer", "negative"]
+    },
+    {
+      "id": "q57",
+      "type": "fill_blank",
+      "prompt": "Заполните краткий ответ: \"Were they at home?\" — \"No, they ___.\" (not be)",
+      "theory_block_id": "b5_theory_was_were_short_answers",
+      "difficulty": 1,
+      "correct_answer": "weren't",
+      "explanation": "Краткий отрицательный ответ: No, they weren't.",
+      "tags": ["short_answer", "fill_blank"]
+    },
+    {
+      "id": "q58",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный краткий ответ на вопрос \"Was it cold?\"",
+      "theory_block_id": "b5_theory_was_were_short_answers",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, it was.",
+          "feedback": "Правильно! Краткий ответ: Yes + it + was"
+        },
+        {
+          "id": "b",
+          "text": "Yes, it were.",
+          "feedback": "Нет, с it используется was"
+        },
+        {
+          "id": "c",
+          "text": "Yes, it is.",
+          "feedback": "Нет, в кратком ответе используется то же время, что в вопросе (was)"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Краткий ответ на вопрос с was: Yes, it was.",
+      "tags": ["short_answer", "affirmative"]
+    },
+    {
+      "id": "q59",
+      "type": "true_false",
+      "prompt": "Верно или неверно: На вопрос \"Was I late?\" правильный краткий ответ \"Yes, I was.\"",
+      "theory_block_id": "b5_theory_was_were_short_answers",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Неверно. При ответе на вопрос \"Was I right?\" (о себе) используется you, а не I: Yes, you were. (или No, you weren't)",
+      "tags": ["short_answer", "true_false"]
+    },
+    {
+      "id": "q60",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный краткий ответ на вопрос \"Were you happy?\"",
+      "theory_block_id": "b5_theory_was_were_short_answers",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, I was.",
+          "feedback": "Правильно! Краткий ответ от первого лица: Yes, I was"
+        },
+        {
+          "id": "b",
+          "text": "Yes, you were.",
+          "feedback": "Нет, при ответе на вопрос используется I, а не you"
+        },
+        {
+          "id": "c",
+          "text": "Yes, I were.",
+          "feedback": "Нет, с I используется was"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "При ответе на вопрос \"Were you happy?\" от первого лица: Yes, I was. (или No, I wasn't)",
+      "tags": ["short_answer", "affirmative"]
+    }
+  ]
+}

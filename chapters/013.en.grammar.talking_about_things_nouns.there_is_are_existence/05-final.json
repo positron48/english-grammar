@@ -64,21 +64,6 @@
       }
     },
     {
-      "id": "b2_quiz_after_basic",
-      "type": "quiz_inline",
-      "title": "Проверка: понимаете ли вы основную идею?",
-      "quiz_inline": {
-        "question_ids": [
-          "q1",
-          "q2",
-          "q3",
-          "q4",
-          "q5"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b2_theory_there_is_singular",
       "type": "theory",
       "title": "There is используется с существительными в единственном числе (одна вещь) или с неисчисляемыми существительными.",
@@ -111,20 +96,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b4_quiz_after_singular",
-      "type": "quiz_inline",
-      "title": "Проверка: There is с единственным числом",
-      "quiz_inline": {
-        "question_ids": [
-          "q16",
-          "q17",
-          "q18",
-          "q19"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -166,20 +137,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b6_quiz_after_plural",
-      "type": "quiz_inline",
-      "title": "Проверка: There are с множественным числом",
-      "quiz_inline": {
-        "question_ids": [
-          "q31",
-          "q32",
-          "q33",
-          "q34"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -234,21 +191,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b8_quiz_after_questions",
-      "type": "quiz_inline",
-      "title": "Проверка: вопросы с Is there / Are there",
-      "quiz_inline": {
-        "question_ids": [
-          "q46",
-          "q47",
-          "q48",
-          "q49",
-          "q50"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -326,32 +268,6 @@
         ]
       },
       {
-        "id": "q2",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ a book on the table.\" (глагол be)",
-        "theory_block_id": "b1_theory_there_is_are_basic",
-        "difficulty": 1,
-        "correct_answer": "is",
-        "explanation": "Для выражения существования используется конструкция There is с единственным числом: There is a book on the table.",
-        "tags": [
-          "fill_blank",
-          "singular"
-        ]
-      },
-      {
-        "id": "q3",
-        "type": "true_false",
-        "prompt": "Верно или неверно: There в конструкции There is/are означает \"там\".",
-        "theory_block_id": "b1_theory_there_is_are_basic",
-        "difficulty": 1,
-        "correct_answer": "false",
-        "explanation": "Неверно. There в конструкции There is/are не означает место \"там\", а является частью грамматической конструкции для выражения существования.",
-        "tags": [
-          "true_false",
-          "concept"
-        ]
-      },
-      {
         "id": "q4",
         "type": "reorder",
         "prompt": "Расставьте слова в правильном порядке:",
@@ -392,18 +308,6 @@
         "tags": [
           "error_spotting",
           "structure"
-        ]
-      },
-      {
-        "id": "q6",
-        "type": "true_false",
-        "prompt": "Верно или неверно: Конструкция There is/are используется для выражения существования предметов.",
-        "theory_block_id": "b1_theory_there_is_are_basic",
-        "difficulty": 1,
-        "correct_answer": "false",
-        "explanation": "Неневерно. Конструкция There is/are используется для выражения существования предметов в каком-либо месте.",
-        "tags": [
-          "true_false"
         ]
       },
       {
@@ -448,30 +352,6 @@
         ]
       },
       {
-        "id": "q9",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ a window in the room.\" (глагол be)",
-        "theory_block_id": "b1_theory_there_is_are_basic",
-        "difficulty": 1,
-        "correct_answer": "is",
-        "explanation": "Для выражения существования используется конструкция There is: There is a window in the room.",
-        "tags": [
-          "fill_blank"
-        ]
-      },
-      {
-        "id": "q10",
-        "type": "true_false",
-        "prompt": "Верно или неверно: Конструкция There is/are используется для выражения существования предметов.",
-        "theory_block_id": "b1_theory_there_is_are_basic",
-        "difficulty": 2,
-        "correct_answer": "false",
-        "explanation": "Неневерно. Конструкция There is/are используется для выражения существования предметов в каком-либо месте.",
-        "tags": [
-          "true_false"
-        ]
-      },
-      {
         "id": "q11",
         "type": "reorder",
         "prompt": "Расставьте слова в правильном порядке:",
@@ -510,30 +390,6 @@
         "explanation": "Для выражения существования используется конструкция There is с единственным числом: There is a book on the table.",
         "tags": [
           "existence"
-        ]
-      },
-      {
-        "id": "q13",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ a window in the room.\" (глагол be)",
-        "theory_block_id": "b1_theory_there_is_are_basic",
-        "difficulty": 2,
-        "correct_answer": "is",
-        "explanation": "Для выражения существования используется конструкция There is: There is a window in the room.",
-        "tags": [
-          "fill_blank"
-        ]
-      },
-      {
-        "id": "q14",
-        "type": "true_false",
-        "prompt": "Верно или неверно: Конструкция There is/are используется для выражения существования предметов.",
-        "theory_block_id": "b1_theory_there_is_are_basic",
-        "difficulty": 3,
-        "correct_answer": "false",
-        "explanation": "Неневерно. Конструкция There is/are используется для выражения существования предметов в каком-либо месте.",
-        "tags": [
-          "true_false"
         ]
       },
       {
@@ -622,19 +478,6 @@
         ]
       },
       {
-        "id": "q19",
-        "type": "true_false",
-        "prompt": "Верно или неверно: There is используется с существительными в единственном числе.",
-        "theory_block_id": "b2_theory_there_is_singular",
-        "difficulty": 1,
-        "correct_answer": "false",
-        "explanation": "Неневерно. There is используется с существительными в единственном числе: There is a book.",
-        "tags": [
-          "true_false",
-          "singular"
-        ]
-      },
-      {
         "id": "q21",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"There ___ some milk in the fridge.\" (глагол be)",
@@ -676,18 +519,6 @@
         ]
       },
       {
-        "id": "q23",
-        "type": "true_false",
-        "prompt": "Верно или неверно: There is используется с неисчисляемыми существительными.",
-        "theory_block_id": "b2_theory_there_is_singular",
-        "difficulty": 3,
-        "correct_answer": "false",
-        "explanation": "Неневерно. There is используется с неисчисляемыми существительными: There is water, There is some milk.",
-        "tags": [
-          "uncountable"
-        ]
-      },
-      {
         "id": "q24",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"There ___ some milk in the fridge.\" (глагол be)",
@@ -726,18 +557,6 @@
         "explanation": "Для единственного числа (a pen) используется is: There is a pen.",
         "tags": [
           "singular"
-        ]
-      },
-      {
-        "id": "q26",
-        "type": "true_false",
-        "prompt": "Верно или неверно: There is используется с неисчисляемыми существительными.",
-        "theory_block_id": "b2_theory_there_is_singular",
-        "difficulty": 3,
-        "correct_answer": "false",
-        "explanation": "Неневерно. There is используется с неисчисляемыми существительными: There is water, There is some milk.",
-        "tags": [
-          "uncountable"
         ]
       },
       {
@@ -789,18 +608,6 @@
         "difficulty": 3,
         "correct_answer": "true",
         "explanation": "Верно. There is используется с неисчисляемыми существительными: There is water, There is some milk.",
-        "tags": [
-          "uncountable"
-        ]
-      },
-      {
-        "id": "q30",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"There ___ some milk in the fridge.\" (глагол be)",
-        "theory_block_id": "b2_theory_there_is_singular",
-        "difficulty": 1,
-        "correct_answer": "is",
-        "explanation": "С неисчисляемыми существительными (milk) используется is: There is some milk in the fridge.",
         "tags": [
           "uncountable"
         ]
@@ -932,19 +739,6 @@
         ]
       },
       {
-        "id": "q38",
-        "type": "true_false",
-        "prompt": "Верно или неверно: После There are артикль a/an не используется.",
-        "theory_block_id": "b3_theory_there_are_plural",
-        "difficulty": 3,
-        "correct_answer": "false",
-        "explanation": "Неневерно. После There are артикль a/an не используется, так как речь идёт о множественном числе: There are books (не \"a books\").",
-        "tags": [
-          "plural",
-          "article"
-        ]
-      },
-      {
         "id": "q39",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"There ___ many students in the class.\" (глагол be)",
@@ -983,19 +777,6 @@
         "explanation": "Для множественного числа (chairs) используется are: There are chairs.",
         "tags": [
           "plural"
-        ]
-      },
-      {
-        "id": "q41",
-        "type": "true_false",
-        "prompt": "Верно или неверно: После There are артикль a/an не используется.",
-        "theory_block_id": "b3_theory_there_are_plural",
-        "difficulty": 3,
-        "correct_answer": "true",
-        "explanation": "Верно. После There are артикль a/an не используется, так как речь идёт о множественном числе: There are books (не \"a books\").",
-        "tags": [
-          "plural",
-          "article"
         ]
       },
       {
@@ -1210,19 +991,6 @@
         ]
       },
       {
-        "id": "q53",
-        "type": "true_false",
-        "prompt": "Верно или неверно: Are there используется для множественного числа.",
-        "theory_block_id": "b4_theory_there_questions",
-        "difficulty": 3,
-        "correct_answer": "false",
-        "explanation": "Неневерно. Are there используется для множественного числа: Are there books?",
-        "tags": [
-          "question",
-          "plural"
-        ]
-      },
-      {
         "id": "q54",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"___ there any windows in the room?\" (глагол be)",
@@ -1378,20 +1146,6 @@
         ]
       },
       {
-        "id": "q62",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"There ___ a computer in the room.\" (отрицание)",
-        "theory_block_id": "b5_theory_there_negatives",
-        "difficulty": 1,
-        "correct_answer": "isn't",
-        "explanation": "Для единственного числа используется isn't: There isn't a computer in the room.",
-        "tags": [
-          "fill_blank",
-          "negative",
-          "singular"
-        ]
-      },
-      {
         "id": "q63",
         "type": "error_spotting",
         "prompt": "Найдите ошибку: \"There is not books on the table.\"",
@@ -1451,19 +1205,6 @@
         ]
       },
       {
-        "id": "q66",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"There ___ any milk in the fridge.\" (отрицание)",
-        "theory_block_id": "b5_theory_there_negatives",
-        "difficulty": 1,
-        "correct_answer": "isn't",
-        "explanation": "С неисчисляемыми существительными (milk) используется isn't: There isn't any milk in the fridge.",
-        "tags": [
-          "negative",
-          "uncountable"
-        ]
-      },
-      {
         "id": "q67",
         "type": "mcq_single",
         "prompt": "Выберите правильный вариант отрицания:",
@@ -1491,32 +1232,6 @@
         "tags": [
           "negative",
           "plural"
-        ]
-      },
-      {
-        "id": "q68",
-        "type": "true_false",
-        "prompt": "Верно или неверно: There aren't используется для множественного числа.",
-        "theory_block_id": "b5_theory_there_negatives",
-        "difficulty": 3,
-        "correct_answer": "false",
-        "explanation": "Неневерно. There aren't используется для множественного числа: There aren't books.",
-        "tags": [
-          "negative",
-          "plural"
-        ]
-      },
-      {
-        "id": "q69",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"There ___ any milk in the fridge.\" (отрицание)",
-        "theory_block_id": "b5_theory_there_negatives",
-        "difficulty": 1,
-        "correct_answer": "isn't",
-        "explanation": "С неисчисляемыми существительными (milk) используется isn't: There isn't any milk in the fridge.",
-        "tags": [
-          "negative",
-          "uncountable"
         ]
       },
       {
@@ -1563,19 +1278,6 @@
         ]
       },
       {
-        "id": "q72",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"There ___ any milk in the fridge.\" (отрицание)",
-        "theory_block_id": "b5_theory_there_negatives",
-        "difficulty": 1,
-        "correct_answer": "isn't",
-        "explanation": "С неисчисляемыми существительными (milk) используется isn't: There isn't any milk in the fridge.",
-        "tags": [
-          "negative",
-          "uncountable"
-        ]
-      },
-      {
         "id": "q73",
         "type": "mcq_single",
         "prompt": "Выберите правильный вариант отрицания:",
@@ -1617,19 +1319,6 @@
           "negative",
           "plural"
         ]
-      },
-      {
-        "id": "q75",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"There ___ any milk in the fridge.\" (отрицание)",
-        "theory_block_id": "b5_theory_there_negatives",
-        "difficulty": 1,
-        "correct_answer": "isn't",
-        "explanation": "С неисчисляемыми существительными (milk) используется isn't: There isn't any milk in the fridge.",
-        "tags": [
-          "negative",
-          "uncountable"
-        ]
       }
     ]
   },
@@ -1637,44 +1326,31 @@
     "num_questions": 10,
     "pool_question_ids": [
       "q1",
-      "q2",
-      "q3",
       "q4",
       "q5",
-      "q6",
       "q7",
       "q8",
-      "q9",
-      "q10",
       "q11",
       "q12",
-      "q13",
-      "q14",
       "q15",
       "q16",
       "q17",
       "q18",
-      "q19",
       "q21",
       "q22",
-      "q23",
       "q24",
       "q25",
-      "q26",
       "q27",
       "q28",
       "q29",
-      "q30",
       "q31",
       "q32",
       "q33",
       "q34",
       "q36",
       "q37",
-      "q38",
       "q39",
       "q40",
-      "q41",
       "q42",
       "q43",
       "q44",
@@ -1686,7 +1362,6 @@
       "q50",
       "q51",
       "q52",
-      "q53",
       "q54",
       "q55",
       "q56",
@@ -1695,20 +1370,14 @@
       "q59",
       "q60",
       "q61",
-      "q62",
       "q63",
       "q64",
       "q65",
-      "q66",
       "q67",
-      "q68",
-      "q69",
       "q70",
       "q71",
-      "q72",
       "q73",
-      "q74",
-      "q75"
+      "q74"
     ],
     "selection_strategy": {
       "type": "stratified_by_theory_block",
@@ -1723,7 +1392,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-17T21:25:36Z",
+    "updated_at": "2026-01-18T12:52:35Z",
     "source": "llm"
   }
 }

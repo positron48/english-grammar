@@ -1,0 +1,784 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq_single",
+      "prompt": "Как образуется прошедшее время правильных глаголов?",
+      "theory_block_id": "b1_theory_regular_verbs_intro",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "V1 + -ed = V2", "feedback": "Правильно! Правильные глаголы образуют V2 добавлением -ed"},
+        {"id": "b", "text": "V1 + -s = V2", "feedback": "Нет, -s используется для третьего лица единственного числа"},
+        {"id": "c", "text": "V1 меняется полностью", "feedback": "Нет, это характерно для неправильных глаголов"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильные глаголы образуют прошедшее время (V2) добавлением окончания -ed к V1: work → worked, play → played.",
+      "tags": ["regular_verbs", "formation"]
+    },
+    {
+      "id": "q2",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"I ___ yesterday.\" (work)",
+      "theory_block_id": "b1_theory_regular_verbs_intro",
+      "difficulty": 1,
+      "correct_answer": "worked",
+      "explanation": "Правильный ответ: worked. Правильный глагол work образует прошедшее время добавлением -ed: work → worked.",
+      "tags": ["regular_verbs", "fill_blank"]
+    },
+    {
+      "id": "q3",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"I ___ football last week.\"",
+      "theory_block_id": "b1_theory_regular_verbs_intro",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "played", "feedback": "Правильно! play → played"},
+        {"id": "b", "text": "play", "feedback": "Нет, это настоящее время, нужно прошедшее"},
+        {"id": "c", "text": "plays", "feedback": "Нет, plays используется для третьего лица единственного числа в настоящем"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный ответ: played. Глагол play — правильный, образует прошедшее время добавлением -ed: play → played.",
+      "tags": ["regular_verbs", "formation"]
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "prompt": "Верно или неверно: Правильные глаголы образуют прошедшее время добавлением -ed к V1.",
+      "theory_block_id": "b1_theory_regular_verbs_intro",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Верно. Правильные глаголы образуют прошедшее время (V2) добавлением окончания -ed к базовой форме (V1): work → worked, play → played.",
+      "tags": ["regular_verbs", "true_false"]
+    },
+    {
+      "id": "q5",
+      "type": "mcq_single",
+      "prompt": "Какое из предложений показывает прошедшее время правильного глагола?",
+      "theory_block_id": "b1_theory_regular_verbs_intro",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "I work every day.", "feedback": "Нет, это настоящее время"},
+        {"id": "b", "text": "I worked yesterday.", "feedback": "Правильно! worked — прошедшее время правильного глагола"},
+        {"id": "c", "text": "I will work tomorrow.", "feedback": "Нет, это будущее время"}
+      ],
+      "correct_answer": "b",
+      "explanation": "Предложение 'I worked yesterday' показывает прошедшее время правильного глагола. Work → worked (добавлено -ed).",
+      "tags": ["regular_verbs", "formation"]
+    },
+    {
+      "id": "q6",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"She ___ TV yesterday.\" (watch)",
+      "theory_block_id": "b1_theory_regular_verbs_intro",
+      "difficulty": 1,
+      "correct_answer": "watched",
+      "explanation": "Правильный ответ: watched. Правильный глагол watch образует прошедшее время добавлением -ed: watch → watched.",
+      "tags": ["regular_verbs", "fill_blank"]
+    },
+    {
+      "id": "q7",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку в предложении: \"I work yesterday.\"",
+      "theory_block_id": "b1_theory_regular_verbs_intro",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "work → worked", "feedback": "Правильно! Для прошедшего времени нужно worked"},
+        {"id": "b", "text": "yesterday → today", "feedback": "Нет, ошибка в форме глагола"},
+        {"id": "c", "text": "I → She", "feedback": "Нет, ошибка в форме глагола"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Ошибка: work → worked. Для прошедшего времени правильного глагола нужно добавлять -ed: I worked yesterday.",
+      "tags": ["regular_verbs", "error_spotting"]
+    },
+    {
+      "id": "q8",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"They ___ to school last week.\"",
+      "theory_block_id": "b1_theory_regular_verbs_intro",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "walked", "feedback": "Правильно! walk → walked"},
+        {"id": "b", "text": "walk", "feedback": "Нет, это настоящее время"},
+        {"id": "c", "text": "walks", "feedback": "Нет, walks используется для третьего лица единственного числа"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный ответ: walked. Глагол walk — правильный, образует прошедшее время добавлением -ed: walk → walked.",
+      "tags": ["regular_verbs", "formation"]
+    },
+    {
+      "id": "q9",
+      "type": "true_false",
+      "prompt": "Верно или неверно: Глагол 'go' — это правильный глагол, поэтому его прошедшее время — 'goed'.",
+      "theory_block_id": "b1_theory_regular_verbs_intro",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Неверно. Глагол 'go' — неправильный глагол, его прошедшее время — 'went', а не 'goed'. Только правильные глаголы образуют V2 добавлением -ed.",
+      "tags": ["regular_verbs", "true_false"]
+    },
+    {
+      "id": "q10",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"We ___ the door yesterday.\" (open)",
+      "theory_block_id": "b1_theory_regular_verbs_intro",
+      "difficulty": 1,
+      "correct_answer": "opened",
+      "explanation": "Правильный ответ: opened. Правильный глагол open образует прошедшее время добавлением -ed: open → opened.",
+      "tags": ["regular_verbs", "fill_blank"]
+    },
+    {
+      "id": "q11",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"He ___ me yesterday.\"",
+      "theory_block_id": "b1_theory_regular_verbs_intro",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "helped", "feedback": "Правильно! help → helped"},
+        {"id": "b", "text": "help", "feedback": "Нет, это настоящее время"},
+        {"id": "c", "text": "helps", "feedback": "Нет, helps используется для третьего лица единственного числа в настоящем"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный ответ: helped. Глагол help — правильный, образует прошедшее время добавлением -ed: help → helped.",
+      "tags": ["regular_verbs", "formation"]
+    },
+    {
+      "id": "q12",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку в предложении: \"She clean the room yesterday.\"",
+      "theory_block_id": "b1_theory_regular_verbs_intro",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "clean → cleaned", "feedback": "Правильно! Для прошедшего времени нужно cleaned"},
+        {"id": "b", "text": "the → a", "feedback": "Нет, ошибка в форме глагола"},
+        {"id": "c", "text": "yesterday → today", "feedback": "Нет, ошибка в форме глагола"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Ошибка: clean → cleaned. Для прошедшего времени правильного глагола нужно добавлять -ed: She cleaned the room yesterday.",
+      "tags": ["regular_verbs", "error_spotting"]
+    },
+    {
+      "id": "q13",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"I ___ the window yesterday.\"",
+      "theory_block_id": "b2_theory_basic_ed_formation",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "opened", "feedback": "Правильно! open → opened (просто добавляем -ed)"},
+        {"id": "b", "text": "open", "feedback": "Нет, это настоящее время"},
+        {"id": "c", "text": "openned", "feedback": "Нет, для open не нужно удваивать согласную, просто -ed"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный ответ: opened. Для большинства правильных глаголов просто добавляем -ed: open → opened.",
+      "tags": ["basic_formation", "ed"]
+    },
+    {
+      "id": "q14",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"I ___ to school yesterday.\" (walk)",
+      "theory_block_id": "b2_theory_basic_ed_formation",
+      "difficulty": 1,
+      "correct_answer": "walked",
+      "explanation": "Правильный ответ: walked. Для большинства правильных глаголов просто добавляем -ed: walk → walked.",
+      "tags": ["basic_formation", "fill_blank"]
+    },
+    {
+      "id": "q15",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"They ___ me yesterday.\"",
+      "theory_block_id": "b2_theory_basic_ed_formation",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "helped", "feedback": "Правильно! help → helped (просто добавляем -ed)"},
+        {"id": "b", "text": "help", "feedback": "Нет, это настоящее время"},
+        {"id": "c", "text": "helpped", "feedback": "Нет, для help не нужно удваивать согласную, просто -ed"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный ответ: helped. Для большинства правильных глаголов просто добавляем -ed: help → helped.",
+      "tags": ["basic_formation", "ed"]
+    },
+    {
+      "id": "q16",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"She ___ the room yesterday.\" (clean)",
+      "theory_block_id": "b2_theory_basic_ed_formation",
+      "difficulty": 1,
+      "correct_answer": "cleaned",
+      "explanation": "Правильный ответ: cleaned. Для большинства правильных глаголов просто добавляем -ed: clean → cleaned.",
+      "tags": ["basic_formation", "fill_blank"]
+    },
+    {
+      "id": "q17",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"We ___ football last week.\"",
+      "theory_block_id": "b2_theory_basic_ed_formation",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "played", "feedback": "Правильно! play → played (просто добавляем -ed)"},
+        {"id": "b", "text": "play", "feedback": "Нет, это настоящее время"},
+        {"id": "c", "text": "plaied", "feedback": "Нет, play заканчивается на гласную + y, просто добавляем -ed"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный ответ: played. Глагол play заканчивается на гласную + y, поэтому просто добавляем -ed: play → played.",
+      "tags": ["basic_formation", "ed"]
+    },
+    {
+      "id": "q18",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку в предложении: \"I open the door yesterday.\"",
+      "theory_block_id": "b2_theory_basic_ed_formation",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "open → opened", "feedback": "Правильно! Для прошедшего времени нужно добавлять -ed: opened"},
+        {"id": "b", "text": "the → a", "feedback": "Нет, ошибка в форме глагола"},
+        {"id": "c", "text": "yesterday → today", "feedback": "Нет, ошибка в форме глагола"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Ошибка: open → opened. Для прошедшего времени правильного глагола нужно добавлять -ed: I opened the door yesterday.",
+      "tags": ["basic_formation", "error_spotting"]
+    },
+    {
+      "id": "q19",
+      "type": "true_false",
+      "prompt": "Верно или неверно: Для большинства правильных глаголов прошедшее время образуется простым добавлением -ed к V1.",
+      "theory_block_id": "b2_theory_basic_ed_formation",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Верно. Для большинства правильных глаголов прошедшее время образуется простым добавлением -ed к базовой форме: open → opened, walk → walked.",
+      "tags": ["basic_formation", "true_false"]
+    },
+    {
+      "id": "q20",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"He ___ TV yesterday.\" (watch)",
+      "theory_block_id": "b2_theory_basic_ed_formation",
+      "difficulty": 1,
+      "correct_answer": "watched",
+      "explanation": "Правильный ответ: watched. Для большинства правильных глаголов просто добавляем -ed: watch → watched.",
+      "tags": ["basic_formation", "fill_blank"]
+    },
+    {
+      "id": "q21",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"They ___ the house yesterday.\"",
+      "theory_block_id": "b2_theory_basic_ed_formation",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "visited", "feedback": "Правильно! visit → visited (просто добавляем -ed)"},
+        {"id": "b", "text": "visit", "feedback": "Нет, это настоящее время"},
+        {"id": "c", "text": "visitted", "feedback": "Нет, для visit не нужно удваивать согласную, просто -ed"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный ответ: visited. Для большинства правильных глаголов просто добавляем -ed: visit → visited.",
+      "tags": ["basic_formation", "ed"]
+    },
+    {
+      "id": "q22",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"She ___ to music yesterday.\" (listen)",
+      "theory_block_id": "b2_theory_basic_ed_formation",
+      "difficulty": 1,
+      "correct_answer": "listened",
+      "explanation": "Правильный ответ: listened. Для большинства правильных глаголов просто добавляем -ed: listen → listened.",
+      "tags": ["basic_formation", "fill_blank"]
+    },
+    {
+      "id": "q23",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку в предложении: \"We help them yesterday.\"",
+      "theory_block_id": "b2_theory_basic_ed_formation",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "help → helped", "feedback": "Правильно! Для прошедшего времени нужно добавлять -ed: helped"},
+        {"id": "b", "text": "them → us", "feedback": "Нет, ошибка в форме глагола"},
+        {"id": "c", "text": "yesterday → today", "feedback": "Нет, ошибка в форме глагола"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Ошибка: help → helped. Для прошедшего времени правильного глагола нужно добавлять -ed: We helped them yesterday.",
+      "tags": ["basic_formation", "error_spotting"]
+    },
+    {
+      "id": "q24",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"I ___ a book last week.\"",
+      "theory_block_id": "b2_theory_basic_ed_formation",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "read", "feedback": "Нет, read — неправильный глагол, его прошедшее время совпадает с V1, но произносится по-другому"},
+        {"id": "b", "text": "readed", "feedback": "Нет, read — неправильный глагол, не образуется с -ed"},
+        {"id": "c", "text": "reads", "feedback": "Нет, reads используется для третьего лица единственного числа в настоящем"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный ответ: read. Глагол read — неправильный глагол, его V1 и V2 совпадают по написанию (но произносятся по-разному). Read [ri:d] (настоящее) → read [red] (прошедшее).",
+      "tags": ["basic_formation", "irregular"]
+    },
+    {
+      "id": "q25",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"I ___ English last year.\"",
+      "theory_block_id": "b3_theory_spelling_y_to_ied",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "studied", "feedback": "Правильно! study → studied (y меняется на i, добавляется -ed)"},
+        {"id": "b", "text": "studyed", "feedback": "Нет, y после согласной меняется на i: studied"},
+        {"id": "c", "text": "study", "feedback": "Нет, это настоящее время"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный ответ: studied. Глагол study заканчивается на согласную + y, поэтому y меняется на i: study → studied.",
+      "tags": ["spelling", "y_to_ied"]
+    },
+    {
+      "id": "q26",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"She ___ the bags yesterday.\" (carry)",
+      "theory_block_id": "b3_theory_spelling_y_to_ied",
+      "difficulty": 1,
+      "correct_answer": "carried",
+      "explanation": "Правильный ответ: carried. Глагол carry заканчивается на согласную + y, поэтому y меняется на i: carry → carried.",
+      "tags": ["spelling", "fill_blank"]
+    },
+    {
+      "id": "q27",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"They ___ to help yesterday.\"",
+      "theory_block_id": "b3_theory_spelling_y_to_ied",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "tried", "feedback": "Правильно! try → tried (y меняется на i, добавляется -ed)"},
+        {"id": "b", "text": "tryed", "feedback": "Нет, y после согласной меняется на i: tried"},
+        {"id": "c", "text": "try", "feedback": "Нет, это настоящее время"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный ответ: tried. Глагол try заканчивается на согласную + y, поэтому y меняется на i: try → tried.",
+      "tags": ["spelling", "y_to_ied"]
+    },
+    {
+      "id": "q28",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку в предложении: \"I studyed English yesterday.\"",
+      "theory_block_id": "b3_theory_spelling_y_to_ied",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "studyed → studied", "feedback": "Правильно! y после согласной меняется на i: studied"},
+        {"id": "b", "text": "English → Russian", "feedback": "Нет, ошибка в орфографии"},
+        {"id": "c", "text": "yesterday → today", "feedback": "Нет, ошибка в орфографии"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Ошибка: studyed → studied. Глагол study заканчивается на согласную + y, поэтому y меняется на i: I studied English yesterday.",
+      "tags": ["spelling", "error_spotting"]
+    },
+    {
+      "id": "q29",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"He ___ last night.\" (cry)",
+      "theory_block_id": "b3_theory_spelling_y_to_ied",
+      "difficulty": 1,
+      "correct_answer": "cried",
+      "explanation": "Правильный ответ: cried. Глагол cry заканчивается на согласную + y, поэтому y меняется на i: cry → cried.",
+      "tags": ["spelling", "fill_blank"]
+    },
+    {
+      "id": "q30",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"We ___ the meeting yesterday.\"",
+      "theory_block_id": "b3_theory_spelling_y_to_ied",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "worried", "feedback": "Правильно! worry → worried (y меняется на i, добавляется -ed)"},
+        {"id": "b", "text": "worryed", "feedback": "Нет, y после согласной меняется на i: worried"},
+        {"id": "c", "text": "worry", "feedback": "Нет, это настоящее время"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный ответ: worried. Глагол worry заканчивается на согласную + y, поэтому y меняется на i: worry → worried.",
+      "tags": ["spelling", "y_to_ied"]
+    },
+    {
+      "id": "q31",
+      "type": "true_false",
+      "prompt": "Верно или неверно: Глагол 'play' образует прошедшее время как 'plaied'.",
+      "theory_block_id": "b3_theory_spelling_y_to_ied",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Неверно. Глагол play заканчивается на гласную + y, поэтому просто добавляется -ed: play → played (не plaied). Правило y → ied работает только для глаголов на согласную + y.",
+      "tags": ["spelling", "true_false"]
+    },
+    {
+      "id": "q32",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"She ___ to school yesterday.\" (hurry)",
+      "theory_block_id": "b3_theory_spelling_y_to_ied",
+      "difficulty": 1,
+      "correct_answer": "hurried",
+      "explanation": "Правильный ответ: hurried. Глагол hurry заканчивается на согласную + y, поэтому y меняется на i: hurry → hurried.",
+      "tags": ["spelling", "fill_blank"]
+    },
+    {
+      "id": "q33",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку в предложении: \"They carryed the bags yesterday.\"",
+      "theory_block_id": "b3_theory_spelling_y_to_ied",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "carryed → carried", "feedback": "Правильно! y после согласной меняется на i: carried"},
+        {"id": "b", "text": "the → a", "feedback": "Нет, ошибка в орфографии"},
+        {"id": "c", "text": "yesterday → today", "feedback": "Нет, ошибка в орфографии"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Ошибка: carryed → carried. Глагол carry заканчивается на согласную + y, поэтому y меняется на i: They carried the bags yesterday.",
+      "tags": ["spelling", "error_spotting"]
+    },
+    {
+      "id": "q34",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"I ___ to help yesterday.\"",
+      "theory_block_id": "b3_theory_spelling_y_to_ied",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "tried", "feedback": "Правильно! try → tried (y меняется на i)"},
+        {"id": "b", "text": "tryed", "feedback": "Нет, y после согласной меняется на i: tried"},
+        {"id": "c", "text": "try", "feedback": "Нет, это настоящее время"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный ответ: tried. Глагол try заканчивается на согласную + y, поэтому y меняется на i: try → tried.",
+      "tags": ["spelling", "y_to_ied"]
+    },
+    {
+      "id": "q35",
+      "type": "true_false",
+      "prompt": "Верно или неверно: Все глаголы, заканчивающиеся на -y, образуют прошедшее время как -ied.",
+      "theory_block_id": "b3_theory_spelling_y_to_ied",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Неверно. Только глаголы на согласную + y образуют прошедшее время как -ied (study → studied). Глаголы на гласную + y просто добавляют -ed (play → played).",
+      "tags": ["spelling", "true_false"]
+    },
+    {
+      "id": "q36",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"We ___ for the exam yesterday.\" (study)",
+      "theory_block_id": "b3_theory_spelling_y_to_ied",
+      "difficulty": 1,
+      "correct_answer": "studied",
+      "explanation": "Правильный ответ: studied. Глагол study заканчивается на согласную + y, поэтому y меняется на i: study → studied.",
+      "tags": ["spelling", "fill_blank"]
+    },
+    {
+      "id": "q37",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"The car ___ suddenly.\"",
+      "theory_block_id": "b4_theory_spelling_doubling_consonant",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "stopped", "feedback": "Правильно! stop → stopped (удваиваем согласную p)"},
+        {"id": "b", "text": "stoped", "feedback": "Нет, для stop нужно удваивать согласную: stopped"},
+        {"id": "c", "text": "stop", "feedback": "Нет, это настоящее время"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный ответ: stopped. Глагол stop — односложный на CVC (согласная-гласная-согласная), поэтому согласная удваивается: stop → stopped.",
+      "tags": ["spelling", "doubling"]
+    },
+    {
+      "id": "q38",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"We ___ the party last week.\" (plan)",
+      "theory_block_id": "b4_theory_spelling_doubling_consonant",
+      "difficulty": 1,
+      "correct_answer": "planned",
+      "explanation": "Правильный ответ: planned. Глагол plan — односложный на CVC, поэтому согласная удваивается: plan → planned.",
+      "tags": ["spelling", "fill_blank"]
+    },
+    {
+      "id": "q39",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку в предложении: \"I stoped at the red light.\"",
+      "theory_block_id": "b4_theory_spelling_doubling_consonant",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "stoped → stopped", "feedback": "Правильно! Для stop нужно удваивать согласную: stopped"},
+        {"id": "b", "text": "at → in", "feedback": "Нет, ошибка в орфографии"},
+        {"id": "c", "text": "the → a", "feedback": "Нет, ошибка в орфографии"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Ошибка: stoped → stopped. Глагол stop — односложный на CVC, поэтому согласная удваивается: I stopped at the red light.",
+      "tags": ["spelling", "error_spotting"]
+    },
+    {
+      "id": "q40",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"He ___ his keys yesterday.\"",
+      "theory_block_id": "b4_theory_spelling_doubling_consonant",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "dropped", "feedback": "Правильно! drop → dropped (удваиваем согласную p)"},
+        {"id": "b", "text": "droped", "feedback": "Нет, для drop нужно удваивать согласную: dropped"},
+        {"id": "c", "text": "drop", "feedback": "Нет, это настоящее время"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный ответ: dropped. Глагол drop — односложный на CVC, поэтому согласная удваивается: drop → dropped.",
+      "tags": ["spelling", "doubling"]
+    },
+    {
+      "id": "q41",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"She ___ at the hotel last week.\" (prefer)",
+      "theory_block_id": "b4_theory_spelling_doubling_consonant",
+      "difficulty": 2,
+      "correct_answer": "preferred",
+      "explanation": "Правильный ответ: preferred. Глагол prefer — многосложный с ударением на последнем слоге, поэтому согласная удваивается: prefer → preferred.",
+      "tags": ["spelling", "fill_blank"]
+    },
+    {
+      "id": "q42",
+      "type": "true_false",
+      "prompt": "Верно или неверно: Для глагола 'visit' прошедшее время — 'visitted'.",
+      "theory_block_id": "b4_theory_spelling_doubling_consonant",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Неверно. Глагол visit — многосложный с ударением на первом слоге, поэтому согласная не удваивается: visit → visited (не visitted). Удвоение работает для односложных глаголов или глаголов с ударением на последнем слоге.",
+      "tags": ["spelling", "true_false"]
+    },
+    {
+      "id": "q43",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"They ___ the exam yesterday.\"",
+      "theory_block_id": "b4_theory_spelling_doubling_consonant",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "passed", "feedback": "Нет, pass не односложный, согласная не удваивается"},
+        {"id": "b", "text": "pass", "feedback": "Нет, это настоящее время"},
+        {"id": "c", "text": "passed", "feedback": "Нет, pass заканчивается на две согласные, не нужно удваивать: passed"}
+      ],
+      "correct_answer": "c",
+      "explanation": "Правильный ответ: passed. Глагол pass заканчивается на две согласные (ss), поэтому просто добавляется -ed: pass → passed (не passsed).",
+      "tags": ["spelling", "doubling"]
+    },
+    {
+      "id": "q44",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку в предложении: \"She planed a trip yesterday.\"",
+      "theory_block_id": "b4_theory_spelling_doubling_consonant",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "planed → planned", "feedback": "Правильно! Для plan нужно удваивать согласную: planned"},
+        {"id": "b", "text": "a → the", "feedback": "Нет, ошибка в орфографии"},
+        {"id": "c", "text": "yesterday → today", "feedback": "Нет, ошибка в орфографии"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Ошибка: planed → planned. Глагол plan — односложный на CVC, поэтому согласная удваивается: She planned a trip yesterday.",
+      "tags": ["spelling", "error_spotting"]
+    },
+    {
+      "id": "q45",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"We ___ at the store yesterday.\" (shop)",
+      "theory_block_id": "b4_theory_spelling_doubling_consonant",
+      "difficulty": 1,
+      "correct_answer": "shopped",
+      "explanation": "Правильный ответ: shopped. Глагол shop — односложный на CVC, поэтому согласная удваивается: shop → shopped.",
+      "tags": ["spelling", "fill_blank"]
+    },
+    {
+      "id": "q46",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"I ___ the door yesterday.\"",
+      "theory_block_id": "b4_theory_spelling_doubling_consonant",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "knocked", "feedback": "Правильно! knock заканчивается на две согласные, просто -ed: knocked"},
+        {"id": "b", "text": "knock", "feedback": "Нет, это настоящее время"},
+        {"id": "c", "text": "knockked", "feedback": "Нет, knock заканчивается на две согласные, не нужно удваивать: knocked"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный ответ: knocked. Глагол knock заканчивается на две согласные (ck), поэтому просто добавляется -ed: knock → knocked.",
+      "tags": ["spelling", "doubling"]
+    },
+    {
+      "id": "q47",
+      "type": "true_false",
+      "prompt": "Верно или неверно: Для односложных глаголов на CVC (согласная-гласная-согласная) последняя согласная удваивается перед -ed.",
+      "theory_block_id": "b4_theory_spelling_doubling_consonant",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "Верно. Для односложных глаголов на CVC (согласная-гласная-согласная) последняя согласная удваивается перед -ed: stop → stopped, plan → planned.",
+      "tags": ["spelling", "true_false"]
+    },
+    {
+      "id": "q48",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"They ___ the race yesterday.\" (win)",
+      "theory_block_id": "b4_theory_spelling_doubling_consonant",
+      "difficulty": 1,
+      "correct_answer": "won",
+      "explanation": "Правильный ответ: won. Глагол win — неправильный глагол, его прошедшее время — won (не winned).",
+      "tags": ["spelling", "irregular"]
+    },
+    {
+      "id": "q49",
+      "type": "mcq_single",
+      "prompt": "Как произносится окончание -ed в слове 'wanted'?",
+      "theory_block_id": "b5_theory_pronunciation_ed_endings",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "/ɪd/", "feedback": "Правильно! После звука /t/ или /d/ окончание -ed произносится как /ɪd/"},
+        {"id": "b", "text": "/t/", "feedback": "Нет, /t/ используется после глухих согласных"},
+        {"id": "c", "text": "/d/", "feedback": "Нет, /d/ используется после звонких согласных и гласных"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный ответ: /ɪd/. После звука /t/ или /d/ окончание -ed произносится как /ɪd/: wanted /ˈwɒntɪd/.",
+      "tags": ["pronunciation", "ed"]
+    },
+    {
+      "id": "q50",
+      "type": "mcq_single",
+      "prompt": "Как произносится окончание -ed в слове 'worked'?",
+      "theory_block_id": "b5_theory_pronunciation_ed_endings",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "/ɪd/", "feedback": "Нет, /ɪd/ используется после /t/ или /d/"},
+        {"id": "b", "text": "/t/", "feedback": "Правильно! После глухого звука /k/ окончание -ed произносится как /t/"},
+        {"id": "c", "text": "/d/", "feedback": "Нет, /d/ используется после звонких согласных и гласных"}
+      ],
+      "correct_answer": "b",
+      "explanation": "Правильный ответ: /t/. После глухого звука /k/ окончание -ed произносится как /t/: worked /wɜːkt/.",
+      "tags": ["pronunciation", "ed"]
+    },
+    {
+      "id": "q51",
+      "type": "mcq_single",
+      "prompt": "Как произносится окончание -ed в слове 'played'?",
+      "theory_block_id": "b5_theory_pronunciation_ed_endings",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "/ɪd/", "feedback": "Нет, /ɪd/ используется после /t/ или /d/"},
+        {"id": "b", "text": "/t/", "feedback": "Нет, /t/ используется после глухих согласных"},
+        {"id": "c", "text": "/d/", "feedback": "Правильно! После гласного /eɪ/ окончание -ed произносится как /d/"}
+      ],
+      "correct_answer": "c",
+      "explanation": "Правильный ответ: /d/. После гласного /eɪ/ окончание -ed произносится как /d/: played /pleɪd/.",
+      "tags": ["pronunciation", "ed"]
+    },
+    {
+      "id": "q52",
+      "type": "mcq_single",
+      "prompt": "Как произносится окончание -ed в слове 'needed'?",
+      "theory_block_id": "b5_theory_pronunciation_ed_endings",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "/ɪd/", "feedback": "Правильно! После звука /d/ окончание -ed произносится как /ɪd/"},
+        {"id": "b", "text": "/t/", "feedback": "Нет, /t/ используется после глухих согласных"},
+        {"id": "c", "text": "/d/", "feedback": "Нет, /d/ используется после звонких согласных и гласных (но не после /d/)"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный ответ: /ɪd/. После звука /d/ окончание -ed произносится как /ɪd/: needed /ˈniːdɪd/.",
+      "tags": ["pronunciation", "ed"]
+    },
+    {
+      "id": "q53",
+      "type": "mcq_single",
+      "prompt": "Как произносится окончание -ed в слове 'stopped'?",
+      "theory_block_id": "b5_theory_pronunciation_ed_endings",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "/ɪd/", "feedback": "Нет, /ɪd/ используется после /t/ или /d/"},
+        {"id": "b", "text": "/t/", "feedback": "Правильно! После глухого звука /p/ окончание -ed произносится как /t/"},
+        {"id": "c", "text": "/d/", "feedback": "Нет, /d/ используется после звонких согласных и гласных"}
+      ],
+      "correct_answer": "b",
+      "explanation": "Правильный ответ: /t/. После глухого звука /p/ окончание -ed произносится как /t/: stopped /stɒpt/.",
+      "tags": ["pronunciation", "ed"]
+    },
+    {
+      "id": "q54",
+      "type": "mcq_single",
+      "prompt": "Как произносится окончание -ed в слове 'cleaned'?",
+      "theory_block_id": "b5_theory_pronunciation_ed_endings",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "/ɪd/", "feedback": "Нет, /ɪd/ используется после /t/ или /d/"},
+        {"id": "b", "text": "/t/", "feedback": "Нет, /t/ используется после глухих согласных"},
+        {"id": "c", "text": "/d/", "feedback": "Правильно! После звонкого звука /n/ окончание -ed произносится как /d/"}
+      ],
+      "correct_answer": "c",
+      "explanation": "Правильный ответ: /d/. После звонкого звука /n/ окончание -ed произносится как /d/: cleaned /kliːnd/.",
+      "tags": ["pronunciation", "ed"]
+    },
+    {
+      "id": "q55",
+      "type": "true_false",
+      "prompt": "Верно или неверно: Окончание -ed всегда произносится одинаково во всех словах.",
+      "theory_block_id": "b5_theory_pronunciation_ed_endings",
+      "difficulty": 1,
+      "correct_answer": "false",
+      "explanation": "Неверно. Окончание -ed произносится по-разному в зависимости от последнего звука глагола: /ɪd/ после /t/ или /d/, /t/ после глухих согласных, /d/ после звонких и гласных.",
+      "tags": ["pronunciation", "true_false"]
+    },
+    {
+      "id": "q56",
+      "type": "mcq_single",
+      "prompt": "Как произносится окончание -ed в слове 'washed'?",
+      "theory_block_id": "b5_theory_pronunciation_ed_endings",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "/ɪd/", "feedback": "Нет, /ɪd/ используется после /t/ или /d/"},
+        {"id": "b", "text": "/t/", "feedback": "Правильно! После глухого звука /ʃ/ окончание -ed произносится как /t/"},
+        {"id": "c", "text": "/d/", "feedback": "Нет, /d/ используется после звонких согласных и гласных"}
+      ],
+      "correct_answer": "b",
+      "explanation": "Правильный ответ: /t/. После глухого звука /ʃ/ окончание -ed произносится как /t/: washed /wɒʃt/.",
+      "tags": ["pronunciation", "ed"]
+    },
+    {
+      "id": "q57",
+      "type": "mcq_single",
+      "prompt": "Как произносится окончание -ed в слове 'moved'?",
+      "theory_block_id": "b5_theory_pronunciation_ed_endings",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "/ɪd/", "feedback": "Нет, /ɪd/ используется после /t/ или /d/"},
+        {"id": "b", "text": "/t/", "feedback": "Нет, /t/ используется после глухих согласных"},
+        {"id": "c", "text": "/d/", "feedback": "Правильно! После звонкого звука /v/ окончание -ed произносится как /d/"}
+      ],
+      "correct_answer": "c",
+      "explanation": "Правильный ответ: /d/. После звонкого звука /v/ окончание -ed произносится как /d/: moved /muːvd/.",
+      "tags": ["pronunciation", "ed"]
+    },
+    {
+      "id": "q58",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку в произношении: слово 'wanted' произносится как /ˈwɒnted/ вместо /ˈwɒntɪd/.",
+      "theory_block_id": "b5_theory_pronunciation_ed_endings",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "/ˈwɒnted/ → /ˈwɒntɪd/", "feedback": "Правильно! После /t/ окончание -ed произносится как /ɪd/, а не /ed/"},
+        {"id": "b", "text": "wanted → want", "feedback": "Нет, ошибка в произношении окончания"},
+        {"id": "c", "text": "Нет ошибки", "feedback": "Нет, есть ошибка в произношении"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Ошибка: /ˈwɒnted/ → /ˈwɒntɪd/. После звука /t/ окончание -ed произносится как /ɪd/, а не /ed/: wanted /ˈwɒntɪd/.",
+      "tags": ["pronunciation", "error_spotting"]
+    },
+    {
+      "id": "q59",
+      "type": "mcq_single",
+      "prompt": "Как произносится окончание -ed в слове 'decided'?",
+      "theory_block_id": "b5_theory_pronunciation_ed_endings",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "/ɪd/", "feedback": "Правильно! После звука /d/ окончание -ed произносится как /ɪd/"},
+        {"id": "b", "text": "/t/", "feedback": "Нет, /t/ используется после глухих согласных"},
+        {"id": "c", "text": "/d/", "feedback": "Нет, /d/ не используется после звука /d/"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный ответ: /ɪd/. После звука /d/ окончание -ed произносится как /ɪd/: decided /dɪˈsaɪdɪd/.",
+      "tags": ["pronunciation", "ed"]
+    },
+    {
+      "id": "q60",
+      "type": "true_false",
+      "prompt": "Верно или неверно: После глухих согласных окончание -ed произносится как /t/.",
+      "theory_block_id": "b5_theory_pronunciation_ed_endings",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Верно. После глухих согласных (/p/, /k/, /f/, /s/, /ʃ/, /tʃ/) окончание -ed произносится как /t/: stopped /stɒpt/, worked /wɜːkt/.",
+      "tags": ["pronunciation", "true_false"]
+    }
+  ]
+}

@@ -61,22 +61,6 @@
       }
     },
     {
-      "id": "b2_quiz_after_concept",
-      "type": "quiz_inline",
-      "title": "Проверка: понимаете ли вы разницу?",
-      "quiz_inline": {
-        "question_ids": [
-          "q1",
-          "q2",
-          "q3",
-          "q4",
-          "q5",
-          "q6"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b2_theory_regular_plural_s",
       "type": "theory",
       "title": "Основное правило множественного числа в английском языке: добавляем -s к существительному в единственном числе.",
@@ -113,22 +97,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b4_quiz_after_regular_s",
-      "type": "quiz_inline",
-      "title": "Проверка: правило -s",
-      "quiz_inline": {
-        "question_ids": [
-          "q13",
-          "q14",
-          "q15",
-          "q16",
-          "q17",
-          "q18"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -176,22 +144,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b6_quiz_after_es",
-      "type": "quiz_inline",
-      "title": "Проверка: правило -es",
-      "quiz_inline": {
-        "question_ids": [
-          "q25",
-          "q26",
-          "q27",
-          "q28",
-          "q29",
-          "q30"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -247,22 +199,6 @@
       }
     },
     {
-      "id": "b8_quiz_after_y_to_ies",
-      "type": "quiz_inline",
-      "title": "Проверка: правило -y → -ies",
-      "quiz_inline": {
-        "question_ids": [
-          "q37",
-          "q38",
-          "q39",
-          "q40",
-          "q41",
-          "q42"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b5_theory_irregular_plural_common",
       "type": "theory",
       "title": "Некоторые существительные образуют множественное число неправильно — не по правилу -s. Эти формы нужно запомнить.",
@@ -313,22 +249,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b10_quiz_after_irregular",
-      "type": "quiz_inline",
-      "title": "Проверка: неправильные формы",
-      "quiz_inline": {
-        "question_ids": [
-          "q49",
-          "q50",
-          "q51",
-          "q52",
-          "q53",
-          "q54"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -473,19 +393,6 @@
         ]
       },
       {
-        "id": "q6",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b1_theory_singular_plural_concept",
-        "difficulty": 2,
-        "correct_answer": "I have two cats.",
-        "explanation": "Правильный порядок: подлежащее (I) + глагол (have) + числительное (two) + существительное во множественном числе (cats).",
-        "tags": [
-          "plural",
-          "reorder"
-        ]
-      },
-      {
         "id": "q7",
         "type": "error_spotting",
         "prompt": "Найдите ошибку в предложении: \"I have one books.\"",
@@ -572,19 +479,6 @@
         ]
       },
       {
-        "id": "q11",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b1_theory_singular_plural_concept",
-        "difficulty": 2,
-        "correct_answer": "We have five dogs.",
-        "explanation": "Правильный порядок: подлежащее (We) + глагол (have) + числительное (five) + существительное во множественном числе (dogs).",
-        "tags": [
-          "plural",
-          "reorder"
-        ]
-      },
-      {
         "id": "q12",
         "type": "error_spotting",
         "prompt": "Найдите ошибку в предложении: \"They have two book.\"",
@@ -658,32 +552,6 @@
         ]
       },
       {
-        "id": "q15",
-        "type": "true_false",
-        "prompt": "Верно или неверно: Множественное число от слова \"dog\" — это \"dog\".",
-        "theory_block_id": "b2_theory_regular_plural_s",
-        "difficulty": 1,
-        "correct_answer": "false",
-        "explanation": "Неверно. Множественное число от dog образуется добавлением -s: dog → dogs (не просто dog).",
-        "tags": [
-          "regular",
-          "true_false"
-        ]
-      },
-      {
-        "id": "q16",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b2_theory_regular_plural_s",
-        "difficulty": 2,
-        "correct_answer": "I see two chairs.",
-        "explanation": "Правильный порядок: подлежащее (I) + глагол (see) + числительное (two) + существительное во множественном числе (chairs).",
-        "tags": [
-          "regular",
-          "reorder"
-        ]
-      },
-      {
         "id": "q17",
         "type": "error_spotting",
         "prompt": "Найдите ошибку в предложении: \"I have two cat.\"",
@@ -754,32 +622,6 @@
         "tags": [
           "regular",
           "fill_blank"
-        ]
-      },
-      {
-        "id": "q20",
-        "type": "true_false",
-        "prompt": "Верно или неверно: Множественное число от слова \"chair\" — это \"chair\".",
-        "theory_block_id": "b2_theory_regular_plural_s",
-        "difficulty": 1,
-        "correct_answer": "false",
-        "explanation": "Неверно. Множественное число от chair образуется добавлением -s: chair → chairs (не просто chair).",
-        "tags": [
-          "regular",
-          "true_false"
-        ]
-      },
-      {
-        "id": "q21",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b2_theory_regular_plural_s",
-        "difficulty": 2,
-        "correct_answer": "They have three books.",
-        "explanation": "Правильный порядок: подлежащее (They) + глагол (have) + числительное (three) + существительное во множественном числе (books).",
-        "tags": [
-          "regular",
-          "reorder"
         ]
       },
       {
@@ -912,19 +754,6 @@
         ]
       },
       {
-        "id": "q28",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b3_theory_plural_es_after_sibilants",
-        "difficulty": 2,
-        "correct_answer": "She has three boxes.",
-        "explanation": "Правильный порядок: подлежащее (She) + глагол (has) + числительное (three) + существительное во множественном числе (boxes).",
-        "tags": [
-          "es",
-          "reorder"
-        ]
-      },
-      {
         "id": "q29",
         "type": "error_spotting",
         "prompt": "Найдите ошибку в предложении: \"I have two box.\"",
@@ -985,19 +814,6 @@
         ]
       },
       {
-        "id": "q31",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"They have four ___.\" (тарелка)",
-        "theory_block_id": "b3_theory_plural_es_after_sibilants",
-        "difficulty": 2,
-        "correct_answer": "dishes",
-        "explanation": "Множественное число от dish образуется добавлением -es (не просто -s), так как слово заканчивается на sh: They have four dishes.",
-        "tags": [
-          "es",
-          "fill_blank"
-        ]
-      },
-      {
         "id": "q32",
         "type": "true_false",
         "prompt": "Верно или неверно: Множественное число от слова \"bus\" — это \"buss\".",
@@ -1008,19 +824,6 @@
         "tags": [
           "es",
           "true_false"
-        ]
-      },
-      {
-        "id": "q33",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b3_theory_plural_es_after_sibilants",
-        "difficulty": 2,
-        "correct_answer": "We see two buses.",
-        "explanation": "Правильный порядок: подлежащее (We) + глагол (see) + числительное (two) + существительное во множественном числе (buses).",
-        "tags": [
-          "es",
-          "reorder"
         ]
       },
       {
@@ -1152,19 +955,6 @@
         ]
       },
       {
-        "id": "q40",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b4_theory_plural_y_to_ies",
-        "difficulty": 2,
-        "correct_answer": "She has three babies.",
-        "explanation": "Правильный порядок: подлежащее (She) + глагол (has) + числительное (three) + существительное во множественном числе (babies).",
-        "tags": [
-          "y_to_ies",
-          "reorder"
-        ]
-      },
-      {
         "id": "q41",
         "type": "error_spotting",
         "prompt": "Найдите ошибку в предложении: \"I see two city.\"",
@@ -1225,19 +1015,6 @@
         ]
       },
       {
-        "id": "q43",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"They visit four ___.\" (страна)",
-        "theory_block_id": "b4_theory_plural_y_to_ies",
-        "difficulty": 2,
-        "correct_answer": "countries",
-        "explanation": "Множественное число от country образуется заменой -y на -ies: They visit four countries.",
-        "tags": [
-          "y_to_ies",
-          "fill_blank"
-        ]
-      },
-      {
         "id": "q44",
         "type": "true_false",
         "prompt": "Верно или неверно: Множественное число от слова \"city\" — это \"citys\".",
@@ -1248,19 +1025,6 @@
         "tags": [
           "y_after_vowel",
           "true_false"
-        ]
-      },
-      {
-        "id": "q45",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b4_theory_plural_y_to_ies",
-        "difficulty": 2,
-        "correct_answer": "We have two countries.",
-        "explanation": "Правильный порядок: подлежащее (We) + глагол (have) + числительное (two) + существительное во множественном числе (countries).",
-        "tags": [
-          "y_to_ies",
-          "reorder"
         ]
       },
       {
@@ -1393,19 +1157,6 @@
         ]
       },
       {
-        "id": "q52",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b5_theory_irregular_plural_common",
-        "difficulty": 3,
-        "correct_answer": "She sees three men.",
-        "explanation": "Правильный порядок: подлежащее (She) + глагол (sees) + числительное (three) + существительное во множественном числе (men).",
-        "tags": [
-          "irregular",
-          "reorder"
-        ]
-      },
-      {
         "id": "q53",
         "type": "error_spotting",
         "prompt": "Найдите ошибку в предложении: \"I see two childs.\"",
@@ -1489,19 +1240,6 @@
         "tags": [
           "irregular",
           "true_false"
-        ]
-      },
-      {
-        "id": "q57",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b5_theory_irregular_plural_common",
-        "difficulty": 3,
-        "correct_answer": "We have two feet.",
-        "explanation": "Правильный порядок: подлежащее (We) + глагол (have) + числительное (two) + существительное во множественном числе (feet).",
-        "tags": [
-          "irregular",
-          "reorder"
         ]
       },
       {
@@ -1633,19 +1371,6 @@
         ]
       },
       {
-        "id": "q64",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b6_theory_unchanged_plural",
-        "difficulty": 3,
-        "correct_answer": "We see two fish.",
-        "explanation": "Правильный порядок: подлежащее (We) + глагол (see) + числительное (two) + существительное (fish, не меняется).",
-        "tags": [
-          "unchanged",
-          "reorder"
-        ]
-      },
-      {
         "id": "q65",
         "type": "error_spotting",
         "prompt": "Найдите ошибку в предложении: \"I see three sheeps.\"",
@@ -1716,32 +1441,6 @@
         "tags": [
           "unchanged",
           "fill_blank"
-        ]
-      },
-      {
-        "id": "q68",
-        "type": "true_false",
-        "prompt": "Верно или неверно: В предложении \"I see one sheep\" и \"I see three sheep\" слово sheep выглядит одинаково.",
-        "theory_block_id": "b6_theory_unchanged_plural",
-        "difficulty": 3,
-        "correct_answer": "true",
-        "explanation": "Верно. Слово sheep не меняется во множественном числе. Контекст (one vs three) показывает, одно или много.",
-        "tags": [
-          "unchanged",
-          "true_false"
-        ]
-      },
-      {
-        "id": "q69",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b6_theory_unchanged_plural",
-        "difficulty": 3,
-        "correct_answer": "She sees one sheep.",
-        "explanation": "Правильный порядок: подлежащее (She) + глагол (sees) + числительное (one) + существительное (sheep).",
-        "tags": [
-          "unchanged",
-          "reorder"
         ]
       },
       {
@@ -1827,70 +1526,53 @@
       "q3",
       "q4",
       "q5",
-      "q6",
       "q7",
       "q8",
       "q9",
       "q10",
-      "q11",
       "q12",
       "q13",
       "q14",
-      "q15",
-      "q16",
       "q17",
       "q18",
       "q19",
-      "q20",
-      "q21",
       "q22",
       "q23",
       "q24",
       "q25",
       "q26",
       "q27",
-      "q28",
       "q29",
       "q30",
-      "q31",
       "q32",
-      "q33",
       "q34",
       "q35",
       "q36",
       "q37",
       "q38",
       "q39",
-      "q40",
       "q41",
       "q42",
-      "q43",
       "q44",
-      "q45",
       "q46",
       "q47",
       "q48",
       "q49",
       "q50",
       "q51",
-      "q52",
       "q53",
       "q54",
       "q55",
       "q56",
-      "q57",
       "q58",
       "q59",
       "q60",
       "q61",
       "q62",
       "q63",
-      "q64",
       "q65",
       "q66",
       "q67",
-      "q68",
-      "q69",
       "q70",
       "q71",
       "q72"
@@ -1908,7 +1590,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-17T21:25:36Z",
+    "updated_at": "2026-01-18T12:25:49Z",
     "source": "llm"
   }
 }
