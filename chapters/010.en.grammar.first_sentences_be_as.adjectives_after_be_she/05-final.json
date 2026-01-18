@@ -72,21 +72,6 @@
       }
     },
     {
-      "id": "b2_quiz_after_adjectives_after_be",
-      "type": "quiz_inline",
-      "title": "Проверка: прилагательные после be",
-      "quiz_inline": {
-        "question_ids": [
-          "q1",
-          "q2",
-          "q3",
-          "q5",
-          "q6"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b2_theory_describing_people",
       "type": "theory",
       "title": "Прилагательные после be часто используются для описания состояния и чувств людей. Это помогает сказать, как человек себя чувствует или каково его состояние в данный момент.",
@@ -146,21 +131,6 @@
       }
     },
     {
-      "id": "b4_quiz_after_describing_people",
-      "type": "quiz_inline",
-      "title": "Проверка: описание людей",
-      "quiz_inline": {
-        "question_ids": [
-          "q11",
-          "q12",
-          "q13",
-          "q15",
-          "q16"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b3_theory_describing_things",
       "type": "theory",
       "title": "Прилагательные после be также используются для описания качества или характеристики предметов, ситуаций и абстрактных понятий. Это помогает оценить, насколько что-то важно, легко, сложно, хорошо или плохо.",
@@ -214,21 +184,6 @@
       }
     },
     {
-      "id": "b6_quiz_after_describing_things",
-      "type": "quiz_inline",
-      "title": "Проверка: описание предметов",
-      "quiz_inline": {
-        "question_ids": [
-          "q21",
-          "q22",
-          "q23",
-          "q25",
-          "q26"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b4_theory_common_adjectives",
       "type": "theory",
       "title": "Есть группа часто используемых прилагательных, которые особенно часто встречаются после глагола be. Знание этих прилагательных поможет быстро строить предложения и понимать английскую речь.",
@@ -279,21 +234,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b8_quiz_after_common_adjectives",
-      "type": "quiz_inline",
-      "title": "Проверка: часто используемые прилагательные",
-      "quiz_inline": {
-        "question_ids": [
-          "q31",
-          "q32",
-          "q33",
-          "q35",
-          "q36"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -365,49 +305,6 @@
   "question_bank": {
     "questions": [
       {
-        "id": "q1",
-        "type": "mcq_single",
-        "prompt": "Где стоят прилагательные в предложении \"She is tired\"?",
-        "theory_block_id": "b1_theory_adjectives_after_be",
-        "difficulty": 1,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Перед be",
-            "feedback": "Нет, прилагательные стоят после be, а не перед ним"
-          },
-          {
-            "id": "b",
-            "text": "После be",
-            "feedback": "Правильно! Прилагательные стоят после глагола be"
-          },
-          {
-            "id": "c",
-            "text": "В начале предложения",
-            "feedback": "Нет, прилагательные стоят после be в середине предложения"
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "Прилагательные в английском языке стоят после глагола be для описания состояния или качества. Структура: подлежащее + be + прилагательное.",
-        "tags": [
-          "position",
-          "basic"
-        ]
-      },
-      {
-        "id": "q2",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"She is ___.\" (устала)",
-        "theory_block_id": "b1_theory_adjectives_after_be",
-        "difficulty": 1,
-        "correct_answer": "tired",
-        "explanation": "Прилагательное tired (устала) стоит после be: She is tired.",
-        "tags": [
-          "fill_blank",
-          "tired"
-        ]
-      },
-      {
         "id": "q3",
         "type": "true_false",
         "prompt": "Верно или неверно: Прилагательные в английском языке стоят после глагола be.",
@@ -464,19 +361,6 @@
         ]
       },
       {
-        "id": "q7",
-        "type": "true_false",
-        "prompt": "Верно или неверно: В предложении \"She is tired\" прилагательное tired стоит перед be.",
-        "theory_block_id": "b1_theory_adjectives_after_be",
-        "difficulty": 1,
-        "correct_answer": "false",
-        "explanation": "Неверно. В предложении \"She is tired\" прилагательное tired стоит после be, а не перед ним.",
-        "tags": [
-          "position",
-          "false"
-        ]
-      },
-      {
         "id": "q9",
         "type": "mcq_single",
         "prompt": "Выберите правильное предложение:",
@@ -517,36 +401,6 @@
         "tags": [
           "fill_blank",
           "happy"
-        ]
-      },
-      {
-        "id": "q11",
-        "type": "mcq_single",
-        "prompt": "Какое прилагательное описывает состояние человека в предложении \"I am tired\"?",
-        "theory_block_id": "b2_theory_describing_people",
-        "difficulty": 1,
-        "choices": [
-          {
-            "id": "a",
-            "text": "tired",
-            "feedback": "Правильно! Tired описывает физическое состояние человека"
-          },
-          {
-            "id": "b",
-            "text": "important",
-            "feedback": "Нет, important описывает качество, а не состояние человека"
-          },
-          {
-            "id": "c",
-            "text": "easy",
-            "feedback": "Нет, easy описывает качество, а не состояние человека"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Прилагательное tired описывает физическое состояние человека (усталость).",
-        "tags": [
-          "state",
-          "tired"
         ]
       },
       {
@@ -972,189 +826,6 @@
         ]
       },
       {
-        "id": "q40",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"We are ___.\" (здоровы)",
-        "theory_block_id": "b4_theory_common_adjectives",
-        "difficulty": 1,
-        "correct_answer": "well",
-        "explanation": "Прилагательное well (здоровы) часто используется для описания состояния: We are well.",
-        "tags": [
-          "fill_blank",
-          "well"
-        ]
-      },
-      {
-        "id": "q41",
-        "type": "mcq_single",
-        "prompt": "Как правильно сформировать отрицание \"She is not tired\"?",
-        "theory_block_id": "b5_theory_negative_questions",
-        "difficulty": 1,
-        "choices": [
-          {
-            "id": "a",
-            "text": "She not is tired.",
-            "feedback": "Нет, not стоит после be, а не перед ним"
-          },
-          {
-            "id": "b",
-            "text": "She is not tired.",
-            "feedback": "Правильно! not стоит после be"
-          },
-          {
-            "id": "c",
-            "text": "She is tired not.",
-            "feedback": "Нет, not стоит после be, а не в конце"
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "В отрицаниях not всегда стоит после be: She is not tired. Можно использовать сокращение: She isn't tired.",
-        "tags": [
-          "negative",
-          "not"
-        ]
-      },
-      {
-        "id": "q42",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"They are ___ hungry.\" (не)",
-        "theory_block_id": "b5_theory_negative_questions",
-        "difficulty": 1,
-        "correct_answer": "not",
-        "explanation": "В отрицаниях not стоит после be: They are not hungry.",
-        "tags": [
-          "fill_blank",
-          "negative"
-        ]
-      },
-      {
-        "id": "q43",
-        "type": "true_false",
-        "prompt": "Верно или неверно: В вопросах be ставится в начало предложения.",
-        "theory_block_id": "b5_theory_negative_questions",
-        "difficulty": 1,
-        "correct_answer": "true",
-        "explanation": "Верно. В вопросах be ставится в начало предложения: Is she tired? (Она устала?)",
-        "tags": [
-          "question",
-          "word_order"
-        ]
-      },
-      {
-        "id": "q44",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b5_theory_negative_questions",
-        "difficulty": 2,
-        "correct_answer": "Is it important?",
-        "explanation": "Правильный порядок в вопросах: be (Is) + подлежащее (it) + прилагательное (important)? Is it important?",
-        "tags": [
-          "reorder",
-          "question",
-          "important"
-        ]
-      },
-      {
-        "id": "q45",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вопрос:",
-        "theory_block_id": "b5_theory_negative_questions",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "She is tired?",
-            "feedback": "Нет, в вопросах be ставится в начало"
-          },
-          {
-            "id": "b",
-            "text": "Is she tired?",
-            "feedback": "Правильно! be стоит в начале вопроса"
-          },
-          {
-            "id": "c",
-            "text": "She tired is?",
-            "feedback": "Нет, неправильный порядок слов"
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "В вопросах be ставится в начало предложения: Is she tired? (Она устала?)",
-        "tags": [
-          "question",
-          "word_order"
-        ]
-      },
-      {
-        "id": "q46",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ you happy?\" (вопрос)",
-        "theory_block_id": "b5_theory_negative_questions",
-        "difficulty": 1,
-        "correct_answer": "Are",
-        "explanation": "В вопросах be ставится в начало: Are you happy? (Ты счастлив?)",
-        "tags": [
-          "fill_blank",
-          "question"
-        ]
-      },
-      {
-        "id": "q47",
-        "type": "true_false",
-        "prompt": "Верно или неверно: В отрицаниях not стоит перед be.",
-        "theory_block_id": "b5_theory_negative_questions",
-        "difficulty": 1,
-        "correct_answer": "false",
-        "explanation": "Неверно. В отрицаниях not всегда стоит после be, а не перед ним: She is not tired.",
-        "tags": [
-          "negative",
-          "not"
-        ]
-      },
-      {
-        "id": "q48",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b5_theory_negative_questions",
-        "difficulty": 2,
-        "correct_answer": "Why are you happy?",
-        "explanation": "Правильный порядок в специальных вопросах: вопросительное слово (Why) + be (are) + подлежащее (you) + прилагательное (happy)? Why are you happy?",
-        "tags": [
-          "reorder",
-          "question",
-          "why"
-        ]
-      },
-      {
-        "id": "q49",
-        "type": "mcq_single",
-        "prompt": "Как правильно сформировать специальный вопрос \"Why is she tired?\"?",
-        "theory_block_id": "b5_theory_negative_questions",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Why she is tired?",
-            "feedback": "Нет, в специальных вопросах be стоит после вопросительного слова"
-          },
-          {
-            "id": "b",
-            "text": "Why is she tired?",
-            "feedback": "Правильно! В специальных вопросах: вопросительное слово + be + подлежащее + прилагательное"
-          },
-          {
-            "id": "c",
-            "text": "Why tired is she?",
-            "feedback": "Нет, неправильный порядок слов"
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "В специальных вопросах порядок: вопросительное слово (Why) + be (is) + подлежащее (she) + прилагательное (tired)? Why is she tired?",
-        "tags": [
-          "question",
-          "why"
-        ]
-      },
-      {
         "id": "q50",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"He is ___ well.\" (не)",
@@ -1356,15 +1027,11 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q2",
       "q3",
       "q5",
       "q6",
-      "q7",
       "q9",
       "q10",
-      "q11",
       "q12",
       "q13",
       "q15",
@@ -1387,16 +1054,6 @@
       "q36",
       "q37",
       "q39",
-      "q40",
-      "q41",
-      "q42",
-      "q43",
-      "q44",
-      "q45",
-      "q46",
-      "q47",
-      "q48",
-      "q49",
       "q50",
       "q51",
       "q52",
@@ -1422,7 +1079,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-17T21:25:35Z",
+    "updated_at": "2026-01-18T11:16:12Z",
     "source": "llm"
   }
 }

@@ -1,0 +1,61 @@
+{
+  "theory_block": {
+    "id": "b4_theory_spelling_doubling",
+    "concept_id": "present_continuous_spelling_doubling",
+    "content_md": "Для односложных глаголов с паттерном **CVC** (согласная-гласная-согласная) нужно **удвоить конечную согласную** перед добавлением **-ing**.\n\n**Правило CVC:** Если глагол состоит из одного слога, оканчивается на согласную, перед ней одна гласная, и ударение на последнем слоге → удвой конечную согласную.\n\nЭто правило также применяется к многосложным глаголам, если ударение на последнем слоге с паттерном CVC.",
+    "examples": [
+      {
+        "id": "ex1",
+        "text": "run → running",
+        "translation": "бежать → бегущий/бегая",
+        "notes": "n удваивается",
+        "tags": ["spelling_example"]
+      },
+      {
+        "id": "ex2",
+        "text": "sit → sitting",
+        "translation": "сидеть → сидящий/сидя",
+        "notes": "t удваивается",
+        "tags": ["spelling_example"]
+      },
+      {
+        "id": "ex3",
+        "text": "get → getting",
+        "translation": "получать → получающий/получая",
+        "notes": "t удваивается",
+        "tags": ["spelling_example"]
+      },
+      {
+        "id": "ex4",
+        "text": "begin → beginning",
+        "translation": "начинать → начинающий/начиная",
+        "notes": "n удваивается (ударение на последнем слоге)",
+        "tags": ["spelling_example", "two_syllables"]
+      },
+      {
+        "id": "ex5",
+        "text": "He is running.",
+        "translation": "Он бежит.",
+        "tags": ["affirmative"]
+      },
+      {
+        "id": "ex6",
+        "text": "We are getting ready.",
+        "translation": "Мы готовимся.",
+        "tags": ["affirmative"]
+      }
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "runing",
+        "right": "running",
+        "why": "Для односложного глагола run (CVC) нужно удвоить n перед -ing"
+      },
+      {
+        "wrong": "siting",
+        "right": "sitting",
+        "why": "Для sit (CVC) нужно удвоить t перед -ing"
+      }
+    ]
+  }
+}

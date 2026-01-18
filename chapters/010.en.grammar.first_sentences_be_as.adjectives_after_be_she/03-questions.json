@@ -1,31 +1,6 @@
 {
   "questions": [
     {
-      "id": "q1",
-      "type": "mcq_single",
-      "prompt": "Где стоят прилагательные в предложении \"She is tired\"?",
-      "theory_block_id": "b1_theory_adjectives_after_be",
-      "difficulty": 1,
-      "choices": [
-        {"id": "a", "text": "Перед be", "feedback": "Нет, прилагательные стоят после be, а не перед ним"},
-        {"id": "b", "text": "После be", "feedback": "Правильно! Прилагательные стоят после глагола be"},
-        {"id": "c", "text": "В начале предложения", "feedback": "Нет, прилагательные стоят после be в середине предложения"}
-      ],
-      "correct_answer": "b",
-      "explanation": "Прилагательные в английском языке стоят после глагола be для описания состояния или качества. Структура: подлежащее + be + прилагательное.",
-      "tags": ["position", "basic"]
-    },
-    {
-      "id": "q2",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"She is ___.\" (устала)",
-      "theory_block_id": "b1_theory_adjectives_after_be",
-      "difficulty": 1,
-      "correct_answer": "tired",
-      "explanation": "Прилагательное tired (устала) стоит после be: She is tired.",
-      "tags": ["fill_blank", "tired"]
-    },
-    {
       "id": "q3",
       "type": "true_false",
       "prompt": "Верно или неверно: Прилагательные в английском языке стоят после глагола be.",
@@ -33,7 +8,10 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Верно. Прилагательные стоят после глагола be для описания состояния или качества: I am happy, She is tired.",
-      "tags": ["position", "true_false"]
+      "tags": [
+        "position",
+        "true_false"
+      ]
     },
     {
       "id": "q5",
@@ -42,13 +20,28 @@
       "theory_block_id": "b1_theory_adjectives_after_be",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "Состояние", "feedback": "Нет, important описывает качество, а не состояние"},
-        {"id": "b", "text": "Качество или характеристику", "feedback": "Правильно! Important описывает качество или характеристику"},
-        {"id": "c", "text": "Действие", "feedback": "Нет, прилагательные описывают состояние или качество, а не действие"}
+        {
+          "id": "a",
+          "text": "Состояние",
+          "feedback": "Нет, important описывает качество, а не состояние"
+        },
+        {
+          "id": "b",
+          "text": "Качество или характеристику",
+          "feedback": "Правильно! Important описывает качество или характеристику"
+        },
+        {
+          "id": "c",
+          "text": "Действие",
+          "feedback": "Нет, прилагательные описывают состояние или качество, а не действие"
+        }
       ],
       "correct_answer": "b",
       "explanation": "Прилагательное important описывает качество или характеристику предмета или ситуации, а не состояние или действие.",
-      "tags": ["quality", "important"]
+      "tags": [
+        "quality",
+        "important"
+      ]
     },
     {
       "id": "q6",
@@ -58,17 +51,10 @@
       "difficulty": 1,
       "correct_answer": "important",
       "explanation": "Прилагательное important (важно) стоит после be: It is important.",
-      "tags": ["fill_blank", "important"]
-    },
-    {
-      "id": "q7",
-      "type": "true_false",
-      "prompt": "Верно или неверно: В предложении \"She is tired\" прилагательное tired стоит перед be.",
-      "theory_block_id": "b1_theory_adjectives_after_be",
-      "difficulty": 1,
-      "correct_answer": "false",
-      "explanation": "Неверно. В предложении \"She is tired\" прилагательное tired стоит после be, а не перед ним.",
-      "tags": ["position", "false"]
+      "tags": [
+        "fill_blank",
+        "important"
+      ]
     },
     {
       "id": "q9",
@@ -77,13 +63,28 @@
       "theory_block_id": "b1_theory_adjectives_after_be",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "I tired am.", "feedback": "Нет, неправильный порядок слов. Прилагательное не может стоять между подлежащим и be"},
-        {"id": "b", "text": "I am tired.", "feedback": "Правильно! Правильный порядок: подлежащее + be + прилагательное"},
-        {"id": "c", "text": "Tired I am.", "feedback": "Нет, неправильный порядок слов. Прилагательное не может стоять в начале предложения"}
+        {
+          "id": "a",
+          "text": "I tired am.",
+          "feedback": "Нет, неправильный порядок слов. Прилагательное не может стоять между подлежащим и be"
+        },
+        {
+          "id": "b",
+          "text": "I am tired.",
+          "feedback": "Правильно! Правильный порядок: подлежащее + be + прилагательное"
+        },
+        {
+          "id": "c",
+          "text": "Tired I am.",
+          "feedback": "Нет, неправильный порядок слов. Прилагательное не может стоять в начале предложения"
+        }
       ],
       "correct_answer": "b",
       "explanation": "Правильный порядок слов: подлежащее (I) + be (am) + прилагательное (tired). I am tired.",
-      "tags": ["word_order", "tired"]
+      "tags": [
+        "word_order",
+        "tired"
+      ]
     },
     {
       "id": "q10",
@@ -93,22 +94,10 @@
       "difficulty": 1,
       "correct_answer": "happy",
       "explanation": "Прилагательное happy (счастливы) стоит после be: You are happy.",
-      "tags": ["fill_blank", "happy"]
-    },
-    {
-      "id": "q11",
-      "type": "mcq_single",
-      "prompt": "Какое прилагательное описывает состояние человека в предложении \"I am tired\"?",
-      "theory_block_id": "b2_theory_describing_people",
-      "difficulty": 1,
-      "choices": [
-        {"id": "a", "text": "tired", "feedback": "Правильно! Tired описывает физическое состояние человека"},
-        {"id": "b", "text": "important", "feedback": "Нет, important описывает качество, а не состояние человека"},
-        {"id": "c", "text": "easy", "feedback": "Нет, easy описывает качество, а не состояние человека"}
-      ],
-      "correct_answer": "a",
-      "explanation": "Прилагательное tired описывает физическое состояние человека (усталость).",
-      "tags": ["state", "tired"]
+      "tags": [
+        "fill_blank",
+        "happy"
+      ]
     },
     {
       "id": "q12",
@@ -118,7 +107,10 @@
       "difficulty": 1,
       "correct_answer": "happy",
       "explanation": "Прилагательное happy (счастлива) описывает эмоциональное состояние: She is happy.",
-      "tags": ["fill_blank", "happy"]
+      "tags": [
+        "fill_blank",
+        "happy"
+      ]
     },
     {
       "id": "q13",
@@ -128,7 +120,10 @@
       "difficulty": 2,
       "correct_answer": "false",
       "explanation": "Неверно. Прилагательное tired описывает физическое состояние (усталость), а не эмоциональное состояние.",
-      "tags": ["state", "tired"]
+      "tags": [
+        "state",
+        "tired"
+      ]
     },
     {
       "id": "q15",
@@ -137,13 +132,28 @@
       "theory_block_id": "b2_theory_describing_people",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "I am tired person.", "feedback": "Нет, после be прилагательное стоит без существительного"},
-        {"id": "b", "text": "I am tired.", "feedback": "Правильно! Прилагательное стоит после be без существительного"},
-        {"id": "c", "text": "I tired am.", "feedback": "Нет, неправильный порядок слов"}
+        {
+          "id": "a",
+          "text": "I am tired person.",
+          "feedback": "Нет, после be прилагательное стоит без существительного"
+        },
+        {
+          "id": "b",
+          "text": "I am tired.",
+          "feedback": "Правильно! Прилагательное стоит после be без существительного"
+        },
+        {
+          "id": "c",
+          "text": "I tired am.",
+          "feedback": "Нет, неправильный порядок слов"
+        }
       ],
       "correct_answer": "b",
       "explanation": "Правильно: I am tired. После be прилагательное стоит без существительного для описания состояния.",
-      "tags": ["state", "tired"]
+      "tags": [
+        "state",
+        "tired"
+      ]
     },
     {
       "id": "q16",
@@ -153,7 +163,10 @@
       "difficulty": 1,
       "correct_answer": "hungry",
       "explanation": "Прилагательное hungry (голодны) описывает физическое состояние: They are hungry.",
-      "tags": ["fill_blank", "hungry"]
+      "tags": [
+        "fill_blank",
+        "hungry"
+      ]
     },
     {
       "id": "q17",
@@ -163,7 +176,10 @@
       "difficulty": 2,
       "correct_answer": "false",
       "explanation": "Неверно. Прилагательное happy описывает эмоциональное состояние (счастье), а не физическое состояние.",
-      "tags": ["state", "happy"]
+      "tags": [
+        "state",
+        "happy"
+      ]
     },
     {
       "id": "q19",
@@ -172,13 +188,28 @@
       "theory_block_id": "b2_theory_describing_people",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "tired", "feedback": "Нет, tired описывает физическое состояние"},
-        {"id": "b", "text": "hungry", "feedback": "Нет, hungry описывает физическое состояние"},
-        {"id": "c", "text": "happy", "feedback": "Правильно! Happy описывает эмоциональное состояние"}
+        {
+          "id": "a",
+          "text": "tired",
+          "feedback": "Нет, tired описывает физическое состояние"
+        },
+        {
+          "id": "b",
+          "text": "hungry",
+          "feedback": "Нет, hungry описывает физическое состояние"
+        },
+        {
+          "id": "c",
+          "text": "happy",
+          "feedback": "Правильно! Happy описывает эмоциональное состояние"
+        }
       ],
       "correct_answer": "c",
       "explanation": "Прилагательное happy описывает эмоциональное состояние (счастье), в отличие от tired и hungry, которые описывают физическое состояние.",
-      "tags": ["emotion", "happy"]
+      "tags": [
+        "emotion",
+        "happy"
+      ]
     },
     {
       "id": "q20",
@@ -188,7 +219,10 @@
       "difficulty": 1,
       "correct_answer": "sick",
       "explanation": "Прилагательное sick (больной) описывает физическое состояние: I am sick.",
-      "tags": ["fill_blank", "sick"]
+      "tags": [
+        "fill_blank",
+        "sick"
+      ]
     },
     {
       "id": "q21",
@@ -197,13 +231,28 @@
       "theory_block_id": "b3_theory_describing_things",
       "difficulty": 1,
       "choices": [
-        {"id": "a", "text": "Состояние человека", "feedback": "Нет, easy описывает качество предмета или ситуации"},
-        {"id": "b", "text": "Качество или характеристику предмета", "feedback": "Правильно! Easy описывает качество предмета или ситуации"},
-        {"id": "c", "text": "Действие", "feedback": "Нет, прилагательные описывают качество или состояние, а не действие"}
+        {
+          "id": "a",
+          "text": "Состояние человека",
+          "feedback": "Нет, easy описывает качество предмета или ситуации"
+        },
+        {
+          "id": "b",
+          "text": "Качество или характеристику предмета",
+          "feedback": "Правильно! Easy описывает качество предмета или ситуации"
+        },
+        {
+          "id": "c",
+          "text": "Действие",
+          "feedback": "Нет, прилагательные описывают качество или состояние, а не действие"
+        }
       ],
       "correct_answer": "b",
       "explanation": "Прилагательное easy описывает качество или характеристику предмета или ситуации (легкость выполнения), а не состояние человека или действие.",
-      "tags": ["quality", "easy"]
+      "tags": [
+        "quality",
+        "easy"
+      ]
     },
     {
       "id": "q22",
@@ -213,7 +262,10 @@
       "difficulty": 1,
       "correct_answer": "easy",
       "explanation": "Прилагательное easy (легко) описывает качество: This is easy.",
-      "tags": ["fill_blank", "easy"]
+      "tags": [
+        "fill_blank",
+        "easy"
+      ]
     },
     {
       "id": "q23",
@@ -223,7 +275,10 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Верно. Прилагательное important описывает качество или характеристику предмета или ситуации (важность).",
-      "tags": ["quality", "important"]
+      "tags": [
+        "quality",
+        "important"
+      ]
     },
     {
       "id": "q25",
@@ -232,13 +287,28 @@
       "theory_block_id": "b3_theory_describing_things",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "It important is.", "feedback": "Нет, неправильный порядок слов. Прилагательное не может стоять между подлежащим и be"},
-        {"id": "b", "text": "It is important.", "feedback": "Правильно! Правильный порядок: подлежащее + be + прилагательное"},
-        {"id": "c", "text": "Important it is.", "feedback": "Нет, неправильный порядок слов. Прилагательное не может стоять в начале предложения"}
+        {
+          "id": "a",
+          "text": "It important is.",
+          "feedback": "Нет, неправильный порядок слов. Прилагательное не может стоять между подлежащим и be"
+        },
+        {
+          "id": "b",
+          "text": "It is important.",
+          "feedback": "Правильно! Правильный порядок: подлежащее + be + прилагательное"
+        },
+        {
+          "id": "c",
+          "text": "Important it is.",
+          "feedback": "Нет, неправильный порядок слов. Прилагательное не может стоять в начале предложения"
+        }
       ],
       "correct_answer": "b",
       "explanation": "Правильный порядок слов: подлежащее (It) + be (is) + прилагательное (important). It is important.",
-      "tags": ["word_order", "important"]
+      "tags": [
+        "word_order",
+        "important"
+      ]
     },
     {
       "id": "q26",
@@ -248,7 +318,10 @@
       "difficulty": 1,
       "correct_answer": "interesting",
       "explanation": "Прилагательное interesting (интересная) описывает характеристику предмета: The book is interesting.",
-      "tags": ["fill_blank", "interesting"]
+      "tags": [
+        "fill_blank",
+        "interesting"
+      ]
     },
     {
       "id": "q27",
@@ -258,7 +331,10 @@
       "difficulty": 2,
       "correct_answer": "false",
       "explanation": "Неверно. Прилагательное difficult описывает качество или характеристику предмета или ситуации (сложность), а не состояние человека.",
-      "tags": ["quality", "difficult"]
+      "tags": [
+        "quality",
+        "difficult"
+      ]
     },
     {
       "id": "q29",
@@ -267,13 +343,28 @@
       "theory_block_id": "b3_theory_describing_things",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "tired", "feedback": "Нет, tired описывает состояние человека"},
-        {"id": "b", "text": "happy", "feedback": "Нет, happy описывает состояние человека"},
-        {"id": "c", "text": "important", "feedback": "Правильно! Important описывает качество предмета или ситуации"}
+        {
+          "id": "a",
+          "text": "tired",
+          "feedback": "Нет, tired описывает состояние человека"
+        },
+        {
+          "id": "b",
+          "text": "happy",
+          "feedback": "Нет, happy описывает состояние человека"
+        },
+        {
+          "id": "c",
+          "text": "important",
+          "feedback": "Правильно! Important описывает качество предмета или ситуации"
+        }
       ],
       "correct_answer": "c",
       "explanation": "Прилагательное important описывает качество или характеристику предмета или ситуации, в отличие от tired и happy, которые описывают состояние человека.",
-      "tags": ["quality", "important"]
+      "tags": [
+        "quality",
+        "important"
+      ]
     },
     {
       "id": "q30",
@@ -283,7 +374,10 @@
       "difficulty": 1,
       "correct_answer": "difficult",
       "explanation": "Прилагательное difficult (сложно) описывает качество: It is difficult.",
-      "tags": ["fill_blank", "difficult"]
+      "tags": [
+        "fill_blank",
+        "difficult"
+      ]
     },
     {
       "id": "q31",
@@ -292,13 +386,28 @@
       "theory_block_id": "b4_theory_common_adjectives",
       "difficulty": 1,
       "choices": [
-        {"id": "a", "text": "tired", "feedback": "Правильно! Tired часто используется для описания состояния человека"},
-        {"id": "b", "text": "important", "feedback": "Нет, important описывает качество, а не состояние"},
-        {"id": "c", "text": "easy", "feedback": "Нет, easy описывает качество, а не состояние"}
+        {
+          "id": "a",
+          "text": "tired",
+          "feedback": "Правильно! Tired часто используется для описания состояния человека"
+        },
+        {
+          "id": "b",
+          "text": "important",
+          "feedback": "Нет, important описывает качество, а не состояние"
+        },
+        {
+          "id": "c",
+          "text": "easy",
+          "feedback": "Нет, easy описывает качество, а не состояние"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Прилагательное tired часто используется для описания физического состояния человека (усталость).",
-      "tags": ["common", "tired"]
+      "tags": [
+        "common",
+        "tired"
+      ]
     },
     {
       "id": "q32",
@@ -308,7 +417,10 @@
       "difficulty": 1,
       "correct_answer": "fine",
       "explanation": "Прилагательное fine (в порядке) часто используется для описания состояния: I am fine.",
-      "tags": ["fill_blank", "fine"]
+      "tags": [
+        "fill_blank",
+        "fine"
+      ]
     },
     {
       "id": "q33",
@@ -318,7 +430,10 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Верно. Прилагательное good часто используется после be для описания качества: It is good.",
-      "tags": ["common", "good"]
+      "tags": [
+        "common",
+        "good"
+      ]
     },
     {
       "id": "q35",
@@ -327,13 +442,28 @@
       "theory_block_id": "b4_theory_common_adjectives",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "happy", "feedback": "Правильно! Happy часто используется для описания эмоционального состояния"},
-        {"id": "b", "text": "important", "feedback": "Нет, important описывает качество, а не состояние"},
-        {"id": "c", "text": "easy", "feedback": "Нет, easy описывает качество, а не состояние"}
+        {
+          "id": "a",
+          "text": "happy",
+          "feedback": "Правильно! Happy часто используется для описания эмоционального состояния"
+        },
+        {
+          "id": "b",
+          "text": "important",
+          "feedback": "Нет, important описывает качество, а не состояние"
+        },
+        {
+          "id": "c",
+          "text": "easy",
+          "feedback": "Нет, easy описывает качество, а не состояние"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Прилагательное happy часто используется для описания эмоционального состояния человека, в отличие от important и easy, которые описывают качество.",
-      "tags": ["common", "happy"]
+      "tags": [
+        "common",
+        "happy"
+      ]
     },
     {
       "id": "q36",
@@ -343,7 +473,10 @@
       "difficulty": 1,
       "correct_answer": "interesting",
       "explanation": "Прилагательное interesting (интересный) часто используется для описания характеристики: The lesson is interesting.",
-      "tags": ["fill_blank", "interesting"]
+      "tags": [
+        "fill_blank",
+        "interesting"
+      ]
     },
     {
       "id": "q37",
@@ -353,7 +486,10 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Верно. Прилагательное bad часто используется после be для описания качества: It is bad.",
-      "tags": ["common", "bad"]
+      "tags": [
+        "common",
+        "bad"
+      ]
     },
     {
       "id": "q39",
@@ -362,128 +498,28 @@
       "theory_block_id": "b4_theory_common_adjectives",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "tired", "feedback": "Нет, tired описывает состояние человека"},
-        {"id": "b", "text": "happy", "feedback": "Нет, happy описывает состояние человека"},
-        {"id": "c", "text": "easy", "feedback": "Правильно! Easy часто используется для описания качества"}
+        {
+          "id": "a",
+          "text": "tired",
+          "feedback": "Нет, tired описывает состояние человека"
+        },
+        {
+          "id": "b",
+          "text": "happy",
+          "feedback": "Нет, happy описывает состояние человека"
+        },
+        {
+          "id": "c",
+          "text": "easy",
+          "feedback": "Правильно! Easy часто используется для описания качества"
+        }
       ],
       "correct_answer": "c",
       "explanation": "Прилагательное easy часто используется для описания качества или характеристики предмета или ситуации, в отличие от tired и happy, которые описывают состояние человека.",
-      "tags": ["common", "easy"]
-    },
-    {
-      "id": "q40",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"We are ___.\" (здоровы)",
-      "theory_block_id": "b4_theory_common_adjectives",
-      "difficulty": 1,
-      "correct_answer": "well",
-      "explanation": "Прилагательное well (здоровы) часто используется для описания состояния: We are well.",
-      "tags": ["fill_blank", "well"]
-    },
-    {
-      "id": "q41",
-      "type": "mcq_single",
-      "prompt": "Как правильно сформировать отрицание \"She is not tired\"?",
-      "theory_block_id": "b5_theory_negative_questions",
-      "difficulty": 1,
-      "choices": [
-        {"id": "a", "text": "She not is tired.", "feedback": "Нет, not стоит после be, а не перед ним"},
-        {"id": "b", "text": "She is not tired.", "feedback": "Правильно! not стоит после be"},
-        {"id": "c", "text": "She is tired not.", "feedback": "Нет, not стоит после be, а не в конце"}
-      ],
-      "correct_answer": "b",
-      "explanation": "В отрицаниях not всегда стоит после be: She is not tired. Можно использовать сокращение: She isn't tired.",
-      "tags": ["negative", "not"]
-    },
-    {
-      "id": "q42",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"They are ___ hungry.\" (не)",
-      "theory_block_id": "b5_theory_negative_questions",
-      "difficulty": 1,
-      "correct_answer": "not",
-      "explanation": "В отрицаниях not стоит после be: They are not hungry.",
-      "tags": ["fill_blank", "negative"]
-    },
-    {
-      "id": "q43",
-      "type": "true_false",
-      "prompt": "Верно или неверно: В вопросах be ставится в начало предложения.",
-      "theory_block_id": "b5_theory_negative_questions",
-      "difficulty": 1,
-      "correct_answer": "true",
-      "explanation": "Верно. В вопросах be ставится в начало предложения: Is she tired? (Она устала?)",
-      "tags": ["question", "word_order"]
-    },
-    {
-      "id": "q44",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b5_theory_negative_questions",
-      "difficulty": 2,
-      "correct_answer": "Is it important?",
-      "explanation": "Правильный порядок в вопросах: be (Is) + подлежащее (it) + прилагательное (important)? Is it important?",
-      "tags": ["reorder", "question", "important"]
-    },
-    {
-      "id": "q45",
-      "type": "mcq_single",
-      "prompt": "Выберите правильный вопрос:",
-      "theory_block_id": "b5_theory_negative_questions",
-      "difficulty": 2,
-      "choices": [
-        {"id": "a", "text": "She is tired?", "feedback": "Нет, в вопросах be ставится в начало"},
-        {"id": "b", "text": "Is she tired?", "feedback": "Правильно! be стоит в начале вопроса"},
-        {"id": "c", "text": "She tired is?", "feedback": "Нет, неправильный порядок слов"}
-      ],
-      "correct_answer": "b",
-      "explanation": "В вопросах be ставится в начало предложения: Is she tired? (Она устала?)",
-      "tags": ["question", "word_order"]
-    },
-    {
-      "id": "q46",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"___ you happy?\" (вопрос)",
-      "theory_block_id": "b5_theory_negative_questions",
-      "difficulty": 1,
-      "correct_answer": "Are",
-      "explanation": "В вопросах be ставится в начало: Are you happy? (Ты счастлив?)",
-      "tags": ["fill_blank", "question"]
-    },
-    {
-      "id": "q47",
-      "type": "true_false",
-      "prompt": "Верно или неверно: В отрицаниях not стоит перед be.",
-      "theory_block_id": "b5_theory_negative_questions",
-      "difficulty": 1,
-      "correct_answer": "false",
-      "explanation": "Неверно. В отрицаниях not всегда стоит после be, а не перед ним: She is not tired.",
-      "tags": ["negative", "not"]
-    },
-    {
-      "id": "q48",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b5_theory_negative_questions",
-      "difficulty": 2,
-      "correct_answer": "Why are you happy?",
-      "explanation": "Правильный порядок в специальных вопросах: вопросительное слово (Why) + be (are) + подлежащее (you) + прилагательное (happy)? Why are you happy?",
-      "tags": ["reorder", "question", "why"]
-    },
-    {
-      "id": "q49",
-      "type": "mcq_single",
-      "prompt": "Как правильно сформировать специальный вопрос \"Why is she tired?\"?",
-      "theory_block_id": "b5_theory_negative_questions",
-      "difficulty": 2,
-      "choices": [
-        {"id": "a", "text": "Why she is tired?", "feedback": "Нет, в специальных вопросах be стоит после вопросительного слова"},
-        {"id": "b", "text": "Why is she tired?", "feedback": "Правильно! В специальных вопросах: вопросительное слово + be + подлежащее + прилагательное"},
-        {"id": "c", "text": "Why tired is she?", "feedback": "Нет, неправильный порядок слов"}
-      ],
-      "correct_answer": "b",
-      "explanation": "В специальных вопросах порядок: вопросительное слово (Why) + be (is) + подлежащее (she) + прилагательное (tired)? Why is she tired?",
-      "tags": ["question", "why"]
+      "tags": [
+        "common",
+        "easy"
+      ]
     },
     {
       "id": "q50",
@@ -493,7 +529,10 @@
       "difficulty": 1,
       "correct_answer": "not",
       "explanation": "В отрицаниях not стоит после be: He is not well.",
-      "tags": ["fill_blank", "negative"]
+      "tags": [
+        "fill_blank",
+        "negative"
+      ]
     },
     {
       "id": "q51",
@@ -502,13 +541,28 @@
       "theory_block_id": "b5_theory_negative_questions",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "They not are hungry.", "feedback": "Нет, not стоит после be"},
-        {"id": "b", "text": "They are not hungry.", "feedback": "Правильно! not стоит после be"},
-        {"id": "c", "text": "They are hungry not.", "feedback": "Нет, not стоит после be, а не в конце"}
+        {
+          "id": "a",
+          "text": "They not are hungry.",
+          "feedback": "Нет, not стоит после be"
+        },
+        {
+          "id": "b",
+          "text": "They are not hungry.",
+          "feedback": "Правильно! not стоит после be"
+        },
+        {
+          "id": "c",
+          "text": "They are hungry not.",
+          "feedback": "Нет, not стоит после be, а не в конце"
+        }
       ],
       "correct_answer": "b",
       "explanation": "Правильный порядок в отрицаниях: подлежащее (They) + be (are) + not + прилагательное (hungry). They are not hungry.",
-      "tags": ["negative", "hungry"]
+      "tags": [
+        "negative",
+        "hungry"
+      ]
     },
     {
       "id": "q52",
@@ -518,7 +572,10 @@
       "difficulty": 1,
       "correct_answer": "Is",
       "explanation": "В вопросах be ставится в начало: Is it easy? (Это легко?)",
-      "tags": ["fill_blank", "question"]
+      "tags": [
+        "fill_blank",
+        "question"
+      ]
     },
     {
       "id": "q53",
@@ -528,7 +585,10 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Верно. В вопросах порядок слов: be + подлежащее + прилагательное. Например: Is she tired?",
-      "tags": ["question", "word_order"]
+      "tags": [
+        "question",
+        "word_order"
+      ]
     },
     {
       "id": "q54",
@@ -538,7 +598,11 @@
       "difficulty": 2,
       "correct_answer": "I am not sick.",
       "explanation": "Правильный порядок в отрицаниях: подлежащее (I) + be (am) + not + прилагательное (sick). I am not sick.",
-      "tags": ["reorder", "negative", "sick"]
+      "tags": [
+        "reorder",
+        "negative",
+        "sick"
+      ]
     },
     {
       "id": "q55",
@@ -547,13 +611,28 @@
       "theory_block_id": "b5_theory_negative_questions",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "They are happy?", "feedback": "Нет, в вопросах be ставится в начало"},
-        {"id": "b", "text": "Are they happy?", "feedback": "Правильно! be стоит в начале вопроса"},
-        {"id": "c", "text": "They happy are?", "feedback": "Нет, неправильный порядок слов"}
+        {
+          "id": "a",
+          "text": "They are happy?",
+          "feedback": "Нет, в вопросах be ставится в начало"
+        },
+        {
+          "id": "b",
+          "text": "Are they happy?",
+          "feedback": "Правильно! be стоит в начале вопроса"
+        },
+        {
+          "id": "c",
+          "text": "They happy are?",
+          "feedback": "Нет, неправильный порядок слов"
+        }
       ],
       "correct_answer": "b",
       "explanation": "В вопросах be ставится в начало предложения: Are they happy? (Они счастливы?)",
-      "tags": ["question", "happy"]
+      "tags": [
+        "question",
+        "happy"
+      ]
     },
     {
       "id": "q56",
@@ -563,7 +642,10 @@
       "difficulty": 1,
       "correct_answer": "Is",
       "explanation": "В вопросах be ставится в начало: Is the book interesting? (Книга интересная?)",
-      "tags": ["fill_blank", "question"]
+      "tags": [
+        "fill_blank",
+        "question"
+      ]
     },
     {
       "id": "q57",
@@ -573,7 +655,10 @@
       "difficulty": 2,
       "correct_answer": "true",
       "explanation": "Верно. В специальных вопросах порядок: вопросительное слово (Why) + be (is) + подлежащее (she) + прилагательное (tired)? Why is she tired?",
-      "tags": ["question", "special"]
+      "tags": [
+        "question",
+        "special"
+      ]
     },
     {
       "id": "q58",
@@ -583,7 +668,11 @@
       "difficulty": 2,
       "correct_answer": "Why is it important?",
       "explanation": "Правильный порядок в специальных вопросах: вопросительное слово (Why) + be (is) + подлежащее (it) + прилагательное (important)? Why is it important?",
-      "tags": ["reorder", "question", "why"]
+      "tags": [
+        "reorder",
+        "question",
+        "why"
+      ]
     },
     {
       "id": "q59",
@@ -592,13 +681,28 @@
       "theory_block_id": "b5_theory_negative_questions",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "She is not tired.", "feedback": "Правильно! Правильный порядок в отрицаниях"},
-        {"id": "b", "text": "She not is tired.", "feedback": "Нет, not стоит после be"},
-        {"id": "c", "text": "She is tired not.", "feedback": "Нет, not стоит после be, а не в конце"}
+        {
+          "id": "a",
+          "text": "She is not tired.",
+          "feedback": "Правильно! Правильный порядок в отрицаниях"
+        },
+        {
+          "id": "b",
+          "text": "She not is tired.",
+          "feedback": "Нет, not стоит после be"
+        },
+        {
+          "id": "c",
+          "text": "She is tired not.",
+          "feedback": "Нет, not стоит после be, а не в конце"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Правильный порядок в отрицаниях: подлежащее (She) + be (is) + not + прилагательное (tired). She is not tired.",
-      "tags": ["negative", "tired"]
+      "tags": [
+        "negative",
+        "tired"
+      ]
     },
     {
       "id": "q60",
@@ -608,7 +712,11 @@
       "difficulty": 1,
       "correct_answer": "Why",
       "explanation": "В специальных вопросах начинаем с вопросительного слова: Why are we hungry? (Почему мы голодны?)",
-      "tags": ["fill_blank", "question", "why"]
+      "tags": [
+        "fill_blank",
+        "question",
+        "why"
+      ]
     }
   ]
 }
