@@ -1287,31 +1287,6 @@
         ]
       },
       {
-        "id": "q38",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении:\n\n**Does she works here?**",
-        "theory_block_id": "b6_theory_word_order",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Does she work here?",
-            "feedback": "Правильно! После does глагол идет без окончания -s"
-          },
-          {
-            "id": "b",
-            "text": "Do she work here?",
-            "feedback": "Нет, с she используется does"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: после does глагол идет в базовой форме, без окончания -s. Правильно: 'Does she work here?'",
-        "tags": [
-          "word_order",
-          "error"
-        ]
-      },
-      {
         "id": "q39",
         "type": "mcq_single",
         "prompt": "Выберите правильный вариант. В каком предложении правильный порядок слов в специальном вопросе?",
@@ -1430,35 +1405,6 @@
         "difficulty": 2,
         "correct_answer": "Does",
         "explanation": "Правильный ответ: 'Does'. С местоимением it (третье лицо единственного числа) используется does.",
-        "tags": [
-          "does_choice"
-        ]
-      },
-      {
-        "id": "q45",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант. С каким местоимением используется does?",
-        "theory_block_id": "b2_theory_do_vs_does",
-        "difficulty": 1,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I, you, we, they",
-            "feedback": "Нет, с этими местоимениями используется do"
-          },
-          {
-            "id": "b",
-            "text": "He, she, it",
-            "feedback": "Правильно! Does используется с he, she, it"
-          },
-          {
-            "id": "c",
-            "text": "Все местоимения",
-            "feedback": "Нет, выбор зависит от местоимения"
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "Does используется с местоимениями he, she, it и существительными в единственном числе (третье лицо единственного числа).",
         "tags": [
           "does_choice"
         ]
@@ -1780,36 +1726,6 @@
         ]
       },
       {
-        "id": "q61",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант. В каком предложении правильный порядок слов в специальном вопросе?",
-        "theory_block_id": "b4_theory_wh_questions",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Why does he leave?",
-            "feedback": "Правильно! Why + does + he + leave"
-          },
-          {
-            "id": "b",
-            "text": "Why he does leave?",
-            "feedback": "Нет, does должен стоять после Why, но перед подлежащим"
-          },
-          {
-            "id": "c",
-            "text": "Why leave he does?",
-            "feedback": "Нет, это неправильный порядок слов"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Правильный вариант: 'Why does he leave?'. В специальных вопросах порядок: вопросительное слово + does + подлежащее + глагол.",
-        "tags": [
-          "wh_questions",
-          "why"
-        ]
-      },
-      {
         "id": "q62",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"___ does it happen?\" (почему)",
@@ -1947,36 +1863,6 @@
         ]
       },
       {
-        "id": "q69",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант. В каком предложении правильный порядок слов в вопросе?",
-        "theory_block_id": "b6_theory_word_order",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "How does she get there?",
-            "feedback": "Правильно! How + does + she + get + there"
-          },
-          {
-            "id": "b",
-            "text": "How she does get there?",
-            "feedback": "Нет, does должен стоять после How, но перед подлежащим"
-          },
-          {
-            "id": "c",
-            "text": "How get she does there?",
-            "feedback": "Нет, это неправильный порядок слов"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Правильный вариант: 'How does she get there?'. В специальных вопросах порядок: вопросительное слово + does + подлежащее + глагол + остальное.",
-        "tags": [
-          "word_order",
-          "wh_questions"
-        ]
-      },
-      {
         "id": "q70",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"___ do you think?\" (что)",
@@ -2074,14 +1960,12 @@
       "q35",
       "q36",
       "q37",
-      "q38",
       "q39",
       "q40",
       "q41",
       "q42",
       "q43",
       "q44",
-      "q45",
       "q46",
       "q47",
       "q48",
@@ -2097,7 +1981,6 @@
       "q58",
       "q59",
       "q60",
-      "q61",
       "q62",
       "q63",
       "q64",
@@ -2105,7 +1988,6 @@
       "q66",
       "q67",
       "q68",
-      "q69",
       "q70",
       "q71",
       "q72"

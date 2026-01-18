@@ -1,11 +1,40 @@
 {
   "validation_result": {
-    "is_valid": true,
-    "schema_valid": true,
-    "issues": [],
+    "is_valid": false,
+    "schema_valid": false,
+    "issues": [
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Найдите ошибку в предложении:\n\n**She doesn't likes coffee.**'. Дубликаты в вопросах: q3, q41",
+        "location": "question_bank.questions",
+        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q3, q41), чтобы они были уникальными"
+      },
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Найдите ошибку в предложении:\n\n**You doesn't like it.**'. Дубликаты в вопросах: q15, q40",
+        "location": "question_bank.questions",
+        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q15, q40), чтобы они были уникальными"
+      },
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Найдите ошибку в предложении:\n\n**He don't play football.**'. Дубликаты в вопросах: q18, q45",
+        "location": "question_bank.questions",
+        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q18, q45), чтобы они были уникальными"
+      },
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Найдите ошибку в предложении:\n\n**I don't never go there.**'. Дубликаты в вопросах: q31, q42",
+        "location": "question_bank.questions",
+        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q31, q42), чтобы они были уникальными"
+      }
+    ],
     "summary": {
-      "total_issues": 0,
-      "errors": 0,
+      "total_issues": 4,
+      "errors": 4,
       "warnings": 0,
       "suggestions": 0
     },

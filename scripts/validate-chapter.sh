@@ -329,6 +329,72 @@ for q in chapter['question_bank']['questions']:
             })
             errors += 1
 
+# Проверка уникальности текста вопросов (prompt), кроме типа reorder
+# Список общих вопросов, которые могут повторяться с разными вариантами ответов
+# Паттерны, которые проверяются как начало строки (могут иметь продолжение)
+allowed_duplicate_prefixes = [
+    'Выберите правильный вариант:',
+    'Выберите правильный императив:',
+    'Выберите правильное отрицательное предложение:',
+    'Выберите правильное предложение:',
+    'Выберите правильный вариант вопроса:',
+    'Выберите правильный вариант отрицания:',
+    'Выберите правильный вопрос о текущем действии:',
+    'Выберите правильный вопрос о привычках:',
+    'Выберите правильный вариант для выражения существования книги на столе:',
+]
+
+# Паттерны, которые проверяются как точное совпадение (полные вопросы)
+allowed_duplicate_exact = [
+    'Какое из предложений является вопросом?',
+    'Какое из предложений является отрицанием?',
+    'Какое из предложений является утверждением?',
+    'Какой ответ правильный на вопрос "How many books?"',
+]
+
+prompt_questions = {}  # Для отслеживания, какие вопросы имеют одинаковый prompt
+for q in chapter['question_bank']['questions']:
+    qid = q['id']
+    qtype = q['type']
+    
+    # Пропускаем вопросы типа reorder
+    if qtype == 'reorder':
+        continue
+    
+    prompt_text = q.get('prompt', '').strip()
+    if prompt_text:
+        # Пропускаем общие вопросы, которые могут повторяться с разными ответами
+        is_allowed_duplicate = False
+        
+        # Проверяем точное совпадение для полных вопросов
+        if prompt_text in allowed_duplicate_exact:
+            is_allowed_duplicate = True
+        else:
+            # Проверяем начало строки для паттернов-префиксов
+            for pattern in allowed_duplicate_prefixes:
+                if prompt_text.startswith(pattern):
+                    is_allowed_duplicate = True
+                    break
+        
+        if not is_allowed_duplicate:
+            if prompt_text not in prompt_questions:
+                prompt_questions[prompt_text] = []
+            prompt_questions[prompt_text].append(qid)
+
+# Проверяем на дубликаты (если один prompt используется в нескольких вопросах)
+duplicates = {prompt: question_ids for prompt, question_ids in prompt_questions.items() if len(question_ids) > 1}
+
+if duplicates:
+    for dup_prompt, question_ids in duplicates.items():
+        issues.append({
+            'severity': 'error',
+            'category': 'content',
+            'message': f"Найдены вопросы с одинаковым текстом (prompt): '{dup_prompt}'. Дубликаты в вопросах: {', '.join(question_ids)}",
+            'location': 'question_bank.questions',
+            'suggested_fix': f"Изменить prompt для одного или нескольких вопросов ({', '.join(question_ids)}), чтобы они были уникальными"
+        })
+        errors += 1
+
 # 3. Методическая валидность
 # Проверка наличия content_md в theory_blocks (обязательное поле)
 for block in chapter['blocks']:

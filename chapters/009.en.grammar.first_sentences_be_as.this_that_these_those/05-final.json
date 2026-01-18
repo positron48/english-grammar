@@ -981,36 +981,6 @@
         ]
       },
       {
-        "id": "q42",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении: \"This are a book.\"",
-        "theory_block_id": "b4_theory_combining_with_be",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "This is a book.",
-            "feedback": "Правильно! 'This' используется с 'is', а не с 'are'"
-          },
-          {
-            "id": "b",
-            "text": "These are a book.",
-            "feedback": "Нет, 'these' используется с множественным числом"
-          },
-          {
-            "id": "c",
-            "text": "This is books.",
-            "feedback": "Нет, 'this' используется с единственным числом"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "'This' всегда используется с 'is' (единственное число), а не с 'are'. Правильно: This is a book.",
-        "tags": [
-          "this",
-          "error"
-        ]
-      },
-      {
         "id": "q43",
         "type": "error_spotting",
         "prompt": "Найдите ошибку в предложении: \"These is books.\"",
@@ -1420,7 +1390,6 @@
       "q39",
       "q40",
       "q41",
-      "q42",
       "q43",
       "q44",
       "q45",

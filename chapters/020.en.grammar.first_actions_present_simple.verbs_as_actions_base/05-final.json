@@ -705,35 +705,6 @@
         ]
       },
       {
-        "id": "q17",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении: \"I works every day.\"",
-        "theory_block_id": "b2_theory_base_form",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "works",
-            "feedback": "Правильно! Для I используется базовая форма 'work', а не 'works'"
-          },
-          {
-            "id": "b",
-            "text": "every day",
-            "feedback": "Нет, 'every day' здесь правильно"
-          },
-          {
-            "id": "c",
-            "text": "I",
-            "feedback": "Нет, 'I' здесь правильно"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка в слове 'works'. Для I нужно использовать базовую форму 'work' без окончания -s.",
-        "tags": [
-          "error"
-        ]
-      },
-      {
         "id": "q18",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"We ___ tennis every weekend.\" (играть)",
@@ -1863,7 +1834,6 @@
       "q14",
       "q15",
       "q16",
-      "q17",
       "q18",
       "q19",
       "q20",
@@ -1929,7 +1899,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-17T21:43:45Z",
+    "updated_at": "2026-01-18T13:16:44Z",
     "source": "llm"
   }
 }

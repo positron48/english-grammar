@@ -1,11 +1,47 @@
 {
   "validation_result": {
-    "is_valid": true,
-    "schema_valid": true,
-    "issues": [],
+    "is_valid": false,
+    "schema_valid": false,
+    "issues": [
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Заполните пропуск: \"Do ___ work here?\" (подлежащее)'. Дубликаты в вопросах: q8, q19",
+        "location": "question_bank.questions",
+        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q8, q19), чтобы они были уникальными"
+      },
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Найдите ошибку в предложении:\\n\\n**You do work here?**'. Дубликаты в вопросах: q13, q26, q47",
+        "location": "question_bank.questions",
+        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q13, q26, q47), чтобы они были уникальными"
+      },
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Найдите ошибку в предложении:\\n\\n**She work does here?**'. Дубликаты в вопросах: q14, q49",
+        "location": "question_bank.questions",
+        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q14, q49), чтобы они были уникальными"
+      },
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Найдите ошибку в предложении:\\n\\n**What you want?**'. Дубликаты в вопросах: q40, q48",
+        "location": "question_bank.questions",
+        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q40, q48), чтобы они были уникальными"
+      },
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Найдите ошибку в предложении:\\n\\n**Where she lives?**'. Дубликаты в вопросах: q41, q50",
+        "location": "question_bank.questions",
+        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q41, q50), чтобы они были уникальными"
+      }
+    ],
     "summary": {
-      "total_issues": 0,
-      "errors": 0,
+      "total_issues": 5,
+      "errors": 5,
       "warnings": 0,
       "suggestions": 0
     },

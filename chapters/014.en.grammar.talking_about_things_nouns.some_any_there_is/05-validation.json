@@ -1,11 +1,19 @@
 {
   "validation_result": {
-    "is_valid": true,
-    "schema_valid": true,
-    "issues": [],
+    "is_valid": false,
+    "schema_valid": false,
+    "issues": [
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Заполните пропуск: \"There ___ some information about the event.\" (глагол be)'. Дубликаты в вопросах: q14, q41",
+        "location": "question_bank.questions",
+        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q14, q41), чтобы они были уникальными"
+      }
+    ],
     "summary": {
-      "total_issues": 0,
-      "errors": 0,
+      "total_issues": 1,
+      "errors": 1,
       "warnings": 0,
       "suggestions": 0
     },

@@ -714,19 +714,6 @@
         ]
       },
       {
-        "id": "q19",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"Do ___ work here?\" (подлежащее)",
-        "theory_block_id": "b2_theory_subject_position",
-        "difficulty": 2,
-        "correct_answer": "you",
-        "explanation": "Правильный ответ: 'you'. Подлежащее стоит между do/does и глаголом.",
-        "tags": [
-          "subject_position",
-          "fill_blank"
-        ]
-      },
-      {
         "id": "q20",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"Does ___ like pizza?\" (подлежащее)",
@@ -802,31 +789,6 @@
         "tags": [
           "subject_position",
           "reorder"
-        ]
-      },
-      {
-        "id": "q26",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении:\\n\\n**You do work here?**",
-        "theory_block_id": "b2_theory_subject_position",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Do you work here?",
-            "feedback": "Правильно! Подлежащее должно быть между do/does и глаголом"
-          },
-          {
-            "id": "b",
-            "text": "You do work here",
-            "feedback": "Нет, неправильная позиция подлежащего"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: подлежащее должно стоять между do/does и глаголом, а не в начале. Правильно: Do you work here?",
-        "tags": [
-          "subject_position",
-          "error"
         ]
       },
       {
@@ -1278,106 +1240,6 @@
         ]
       },
       {
-        "id": "q47",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении:\\n\\n**You do work here?**",
-        "theory_block_id": "b4_theory_common_mistakes",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Do you work here?",
-            "feedback": "Правильно! Подлежащее должно быть после do"
-          },
-          {
-            "id": "b",
-            "text": "You do work here",
-            "feedback": "Нет, это неправильный вариант"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Типичная ошибка: Подлежащее должно быть после do. Правильно: Do you work here?",
-        "tags": [
-          "common_mistakes",
-          "error"
-        ]
-      },
-      {
-        "id": "q48",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении:\\n\\n**What you want?**",
-        "theory_block_id": "b4_theory_common_mistakes",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "What do you want?",
-            "feedback": "Правильно! Нужен do после Wh-слова"
-          },
-          {
-            "id": "b",
-            "text": "What you want",
-            "feedback": "Нет, это неправильный вариант"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Типичная ошибка: Нужен do после Wh-слова. Правильно: What do you want?",
-        "tags": [
-          "common_mistakes",
-          "error"
-        ]
-      },
-      {
-        "id": "q49",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении:\\n\\n**She work does here?**",
-        "theory_block_id": "b4_theory_common_mistakes",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Does she work here?",
-            "feedback": "Правильно! Неправильный порядок слов"
-          },
-          {
-            "id": "b",
-            "text": "She work does here",
-            "feedback": "Нет, это неправильный вариант"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Типичная ошибка: Неправильный порядок слов. Правильно: Does she work here?",
-        "tags": [
-          "common_mistakes",
-          "error"
-        ]
-      },
-      {
-        "id": "q50",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении:\\n\\n**Where she lives?**",
-        "theory_block_id": "b4_theory_common_mistakes",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Where does she live?",
-            "feedback": "Правильно! Нужен does после Where"
-          },
-          {
-            "id": "b",
-            "text": "Where she lives",
-            "feedback": "Нет, это неправильный вариант"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Типичная ошибка: Нужен does после Where. Правильно: Where does she live?",
-        "tags": [
-          "common_mistakes",
-          "error"
-        ]
-      },
-      {
         "id": "q51",
         "type": "reorder",
         "prompt": "Расставьте слова в правильном порядке:",
@@ -1776,14 +1638,12 @@
       "q16",
       "q17",
       "q18",
-      "q19",
       "q20",
       "q21",
       "q22",
       "q23",
       "q24",
       "q25",
-      "q26",
       "q27",
       "q28",
       "q29",
@@ -1804,10 +1664,6 @@
       "q44",
       "q45",
       "q46",
-      "q47",
-      "q48",
-      "q49",
-      "q50",
       "q51",
       "q52",
       "q53",
@@ -1842,7 +1698,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-18T07:37:02Z",
+    "updated_at": "2026-01-18T13:16:44Z",
     "source": "llm"
   }
 }

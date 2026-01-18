@@ -865,36 +865,6 @@
         ]
       },
       {
-        "id": "q26",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"This is Anna phone.\"",
-        "theory_block_id": "b6_theory_common_mistakes",
-        "difficulty": 1,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Anna → Anna's",
-            "feedback": "Правильно! Забыт апостроф — он обязателен для possessive 's"
-          },
-          {
-            "id": "b",
-            "text": "phone → phones",
-            "feedback": "Нет, phone здесь правильное. Ошибка в отсутствии 's"
-          },
-          {
-            "id": "c",
-            "text": "This → That",
-            "feedback": "Нет, This здесь правильное. Ошибка в отсутствии 's после Anna"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: забыт апостроф. Правильно: This is Anna's phone. Апостроф обязателен для possessive 's.",
-        "tags": [
-          "mistakes",
-          "apostrophe"
-        ]
-      },
-      {
         "id": "q27",
         "type": "error_spotting",
         "prompt": "Найдите ошибку: \"The students's books are here.\"",
@@ -1108,7 +1078,6 @@
       "q23",
       "q24",
       "q25",
-      "q26",
       "q27",
       "q28",
       "q29",

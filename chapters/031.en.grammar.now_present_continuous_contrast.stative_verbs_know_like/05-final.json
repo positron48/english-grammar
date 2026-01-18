@@ -1065,31 +1065,6 @@
         ]
       },
       {
-        "id": "q30",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**I'm having a car.**",
-        "theory_block_id": "b6_theory_common_mistakes",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I have a car.",
-            "feedback": "Правильно! have в значении иметь — состояние, используется в Simple."
-          },
-          {
-            "id": "b",
-            "text": "Ошибок нет.",
-            "feedback": "Нет, have в значении иметь — состояние, не используется в Continuous."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Типичная ошибка — смешение значений have. have в значении иметь/владеть — это состояние, используется в Simple. Continuous только для have = есть/пить.",
-        "tags": [
-          "error_spotting",
-          "common_mistake"
-        ]
-      },
-      {
         "id": "q31",
         "type": "error_spotting",
         "prompt": "Найдите ошибку:\n\n**I'm seeing the problem.** (в значении видеть/понимать)",
@@ -1742,7 +1717,6 @@
       "q27",
       "q28",
       "q29",
-      "q30",
       "q31",
       "q32",
       "q33",

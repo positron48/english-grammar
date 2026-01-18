@@ -1,11 +1,33 @@
 {
   "validation_result": {
-    "is_valid": true,
-    "schema_valid": true,
-    "issues": [],
+    "is_valid": false,
+    "schema_valid": false,
+    "issues": [
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Найдите ошибку: \"How many water?\"'. Дубликаты в вопросах: q51, q54, q57",
+        "location": "question_bank.questions",
+        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q51, q54, q57), чтобы они были уникальными"
+      },
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Найдите ошибку: \"How much books?\"'. Дубликаты в вопросах: q52, q55, q58",
+        "location": "question_bank.questions",
+        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q52, q55, q58), чтобы они были уникальными"
+      },
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Найдите ошибку: \"How many book?\"'. Дубликаты в вопросах: q53, q56, q59",
+        "location": "question_bank.questions",
+        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q53, q56, q59), чтобы они были уникальными"
+      }
+    ],
     "summary": {
-      "total_issues": 0,
-      "errors": 0,
+      "total_issues": 3,
+      "errors": 3,
       "warnings": 0,
       "suggestions": 0
     },

@@ -1046,35 +1046,6 @@
         ]
       },
       {
-        "id": "q33",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении: \"He work every day.\"",
-        "theory_block_id": "b3_theory_third_person_s",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "work",
-            "feedback": "Правильно! Для he нужно 'works' с окончанием -s"
-          },
-          {
-            "id": "b",
-            "text": "every day",
-            "feedback": "Нет, 'every day' здесь правильно"
-          },
-          {
-            "id": "c",
-            "text": "He",
-            "feedback": "Нет, 'He' здесь правильно"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка в слове 'work'. Для третьего лица единственного числа (he) обязательно нужно добавить окончание -s к глаголу: work → works.",
-        "tags": [
-          "error"
-        ]
-      },
-      {
         "id": "q34",
         "type": "error_spotting",
         "prompt": "Найдите ошибку в предложении: \"She play football.\"",
@@ -1806,7 +1777,6 @@
       "q30",
       "q31",
       "q32",
-      "q33",
       "q34",
       "q35",
       "q36",
@@ -1856,7 +1826,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-17T22:03:01Z",
+    "updated_at": "2026-01-18T13:16:44Z",
     "source": "llm"
   }
 }

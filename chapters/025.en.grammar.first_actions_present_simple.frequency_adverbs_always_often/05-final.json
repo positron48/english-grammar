@@ -1067,32 +1067,6 @@
         ]
       },
       {
-        "id": "q33",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении:\\n\\n**I always am late.**",
-        "theory_block_id": "b5_theory_common_mistakes_placement",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I am always late.",
-            "feedback": "Правильно! С be наречие после am/is/are"
-          },
-          {
-            "id": "b",
-            "text": "I always am late",
-            "feedback": "Нет, неправильная позиция с be"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: путаница между правилом для be и обычных глаголов. С be наречие после am/is/are.",
-        "tags": [
-          "common_mistakes",
-          "error",
-          "be_verb"
-        ]
-      },
-      {
         "id": "q34",
         "type": "mcq_single",
         "prompt": "Какое наречие частоты означает 'иногда'?",
@@ -1189,7 +1163,6 @@
       "q30",
       "q31",
       "q32",
-      "q33",
       "q34",
       "q35"
     ],

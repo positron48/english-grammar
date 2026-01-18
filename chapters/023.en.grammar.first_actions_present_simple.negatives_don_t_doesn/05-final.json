@@ -1327,81 +1327,6 @@
         ]
       },
       {
-        "id": "q40",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении:\n\n**You doesn't like it.**",
-        "theory_block_id": "b5_theory_common_mistakes",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "You don't like it.",
-            "feedback": "Правильно! С 'you' используется 'don't', а не 'doesn't'"
-          },
-          {
-            "id": "b",
-            "text": "You not like it.",
-            "feedback": "Нет, нужен вспомогательный глагол do"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: неправильный выбор don't/doesn't. С местоимением 'you' используется 'don't', а не 'doesn't'. Правильно: 'You don't like it.'",
-        "tags": [
-          "common_mistakes",
-          "choice"
-        ]
-      },
-      {
-        "id": "q41",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении:\n\n**She doesn't likes coffee.**",
-        "theory_block_id": "b5_theory_common_mistakes",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "She doesn't like coffee.",
-            "feedback": "Правильно! После doesn't глагол идет без окончания -s"
-          },
-          {
-            "id": "b",
-            "text": "She don't like coffee.",
-            "feedback": "Нет, с 'she' используется 'doesn't'"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: после doesn't глагол должен идти в базовой форме без окончания -s. Правильно: 'She doesn't like coffee.'",
-        "tags": [
-          "common_mistakes",
-          "verb_form"
-        ]
-      },
-      {
-        "id": "q42",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении:\n\n**I don't never go there.**",
-        "theory_block_id": "b5_theory_common_mistakes",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I never go there.",
-            "feedback": "Правильно! Never уже содержит отрицание, не нужно don't"
-          },
-          {
-            "id": "b",
-            "text": "I don't go there never.",
-            "feedback": "Нет, это тоже неправильно"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: двойное отрицание. Don't + never — это грамматическая ошибка. Never уже содержит отрицание, поэтому не нужно добавлять don't. Правильно: 'I never go there.'",
-        "tags": [
-          "common_mistakes",
-          "double_negative"
-        ]
-      },
-      {
         "id": "q43",
         "type": "error_spotting",
         "prompt": "Найдите ошибку в предложении:\n\n**She never eat meat.**",
@@ -1455,31 +1380,6 @@
         "tags": [
           "common_mistakes",
           "frequency"
-        ]
-      },
-      {
-        "id": "q45",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении:\n\n**He don't play football.**",
-        "theory_block_id": "b5_theory_common_mistakes",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "He doesn't play football.",
-            "feedback": "Правильно! С 'he' используется 'doesn't', а не 'don't'"
-          },
-          {
-            "id": "b",
-            "text": "He not play football.",
-            "feedback": "Нет, нужен вспомогательный глагол does"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: неправильный выбор don't/doesn't. С местоимением 'he' (третье лицо единственного числа) используется 'doesn't', а не 'don't'. Правильно: 'He doesn't play football.'",
-        "tags": [
-          "common_mistakes",
-          "choice"
         ]
       },
       {
@@ -1843,12 +1743,8 @@
       "q37",
       "q38",
       "q39",
-      "q40",
-      "q41",
-      "q42",
       "q43",
       "q44",
-      "q45",
       "q46",
       "q47",
       "q48",
