@@ -33,7 +33,7 @@
     {
       "id": "q2",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"I ___ to work every day.\" (go)",
+      "prompt": "Заполните пропуск: \"I ___ to work every day.\" (ходить на работу)",
       "theory_block_id": "b1_theory_identifying_context",
       "difficulty": 2,
       "correct_answer": "go",
@@ -49,8 +49,8 @@
       "prompt": "Верно или неверно: Маркер \"at the moment\" требует Present Continuous.",
       "theory_block_id": "b1_theory_identifying_context",
       "difficulty": 1,
-      "correct_answer": "true",
-      "explanation": "Верно. At the moment указывает на действие, происходящее в данный момент, поэтому используется Present Continuous.",
+      "correct_answer": "false",
+      "explanation": "Неневерно. At the moment указывает на действие, происходящее в данный момент, поэтому используется Present Continuous.",
       "tags": [
         "at_the_moment"
       ]
@@ -87,21 +87,33 @@
     },
     {
       "id": "q5",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"They ___ dinner right now.\" (have)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"They ___ dinner right now.\"",
       "theory_block_id": "b1_theory_identifying_context",
       "difficulty": 2,
-      "correct_answer": "are having",
+      "correct_answer": "b",
       "explanation": "Right now указывает на действие, происходящее в данный момент, поэтому используется Present Continuous: They are having dinner right now.",
       "tags": [
         "right_now",
         "current_action"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "have",
+          "feedback": "Нет, right now требует Continuous."
+        },
+        {
+          "id": "b",
+          "text": "are having",
+          "feedback": "Правильно! Right now требует Present Continuous."
+        }
       ]
     },
     {
       "id": "q6",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке: usually, I, work, on, weekends",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b1_theory_identifying_context",
       "difficulty": 3,
       "correct_answer": "I usually work on weekends.",
@@ -158,7 +170,7 @@
     {
       "id": "q9",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"I ___ to the gym three times a week.\" (go)",
+      "prompt": "Заполните пропуск: \"I ___ to the gym three times a week.\" (регулярно ходить)",
       "theory_block_id": "b1_theory_identifying_context",
       "difficulty": 2,
       "correct_answer": "go",
@@ -201,7 +213,7 @@
     {
       "id": "q11",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке: currently, studying, am, I, English",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b1_theory_identifying_context",
       "difficulty": 3,
       "correct_answer": "I am currently studying English.",
@@ -257,21 +269,33 @@
     },
     {
       "id": "q14",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"What ___ she ___ right now?\" (do)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"What ___ she ___ right now?\"",
       "theory_block_id": "b2_theory_describing_current_actions",
       "difficulty": 2,
-      "correct_answer": "is / doing",
+      "correct_answer": "b",
       "explanation": "Right now указывает на действие сейчас, поэтому используется Present Continuous: What is she doing right now?",
       "tags": [
         "question",
         "right_now"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "does / do",
+          "feedback": "Нет, right now требует Continuous."
+        },
+        {
+          "id": "b",
+          "text": "is / doing",
+          "feedback": "Правильно! Right now требует Present Continuous."
+        }
       ]
     },
     {
       "id": "q15",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке: you, are, what, doing",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b2_theory_describing_current_actions",
       "difficulty": 3,
       "correct_answer": "What are you doing?",
@@ -313,15 +337,27 @@
     },
     {
       "id": "q17",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"I ___ TV at the moment.\" (watch)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"I ___ TV at the moment.\"",
       "theory_block_id": "b2_theory_describing_current_actions",
       "difficulty": 2,
-      "correct_answer": "am watching",
+      "correct_answer": "b",
       "explanation": "At the moment указывает на действие сейчас, поэтому используется Present Continuous: I am watching TV at the moment.",
       "tags": [
         "at_the_moment",
         "current_action"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "watch",
+          "feedback": "Нет, at the moment требует Continuous."
+        },
+        {
+          "id": "b",
+          "text": "am watching",
+          "feedback": "Правильно! At the moment требует Present Continuous."
+        }
       ]
     },
     {
@@ -330,8 +366,8 @@
       "prompt": "Верно или неверно: \"Are you sleeping?\" — это вопрос о текущем действии.",
       "theory_block_id": "b2_theory_describing_current_actions",
       "difficulty": 1,
-      "correct_answer": "true",
-      "explanation": "Верно. Are you sleeping? — это вопрос в Present Continuous о действии, происходящем сейчас.",
+      "correct_answer": "false",
+      "explanation": "Неневерно. Are you sleeping? — это вопрос в Present Continuous о действии, происходящем сейчас.",
       "tags": [
         "question",
         "current_action"
@@ -369,21 +405,33 @@
     },
     {
       "id": "q20",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"They ___ dinner now.\" (have)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"They ___ dinner now.\"",
       "theory_block_id": "b2_theory_describing_current_actions",
       "difficulty": 2,
-      "correct_answer": "are having",
+      "correct_answer": "b",
       "explanation": "Now указывает на действие сейчас, поэтому используется Present Continuous: They are having dinner now.",
       "tags": [
         "now",
         "current_action"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "have",
+          "feedback": "Нет, now требует Continuous."
+        },
+        {
+          "id": "b",
+          "text": "are having",
+          "feedback": "Правильно! Now требует Present Continuous."
+        }
       ]
     },
     {
       "id": "q21",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке: studying, are, you, English, now",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b2_theory_describing_current_actions",
       "difficulty": 3,
       "correct_answer": "You are studying English now.",
@@ -426,15 +474,27 @@
     },
     {
       "id": "q23",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"What ___ they ___ at the moment?\" (do)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"What ___ they ___ at the moment?\"",
       "theory_block_id": "b2_theory_describing_current_actions",
       "difficulty": 2,
-      "correct_answer": "are / doing",
+      "correct_answer": "b",
       "explanation": "At the moment требует Present Continuous: What are they doing at the moment?",
       "tags": [
         "question",
         "at_the_moment"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "do / do",
+          "feedback": "Нет, at the moment требует Continuous."
+        },
+        {
+          "id": "b",
+          "text": "are / doing",
+          "feedback": "Правильно! At the moment требует Present Continuous."
+        }
       ]
     },
     {
@@ -443,8 +503,8 @@
       "prompt": "Верно или неверно: \"I am reading a book\" описывает действие, происходящее сейчас.",
       "theory_block_id": "b2_theory_describing_current_actions",
       "difficulty": 1,
-      "correct_answer": "true",
-      "explanation": "Верно. Present Continuous описывает действие, происходящее в момент разговора: I am reading a book.",
+      "correct_answer": "false",
+      "explanation": "Неневерно. Present Continuous описывает действие, происходящее в момент разговора: I am reading a book.",
       "tags": [
         "statement",
         "current_action"
@@ -512,21 +572,33 @@
     },
     {
       "id": "q27",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"What ___ she ___ on weekends?\" (do)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"What ___ she ___ on weekends?\"",
       "theory_block_id": "b3_theory_describing_habits",
       "difficulty": 2,
-      "correct_answer": "does / do",
+      "correct_answer": "b",
       "explanation": "Вопрос о привычках в Present Simple: What does she do on weekends?",
       "tags": [
         "question",
         "habit"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "is / doing",
+          "feedback": "Нет, on weekends требует Simple для привычек."
+        },
+        {
+          "id": "b",
+          "text": "does / do",
+          "feedback": "Правильно! On weekends требует Present Simple для привычек."
+        }
       ]
     },
     {
       "id": "q28",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке: do, you, what, usually, do",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b3_theory_describing_habits",
       "difficulty": 3,
       "correct_answer": "What do you usually do?",
@@ -570,7 +642,7 @@
     {
       "id": "q30",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"I ___ coffee every morning.\" (drink)",
+      "prompt": "Заполните пропуск: \"I ___ coffee every morning.\" (пить кофе)",
       "theory_block_id": "b3_theory_describing_habits",
       "difficulty": 2,
       "correct_answer": "drink",
@@ -586,8 +658,8 @@
       "prompt": "Верно или неверно: \"Do you go to the gym?\" — это вопрос о привычках.",
       "theory_block_id": "b3_theory_describing_habits",
       "difficulty": 1,
-      "correct_answer": "true",
-      "explanation": "Верно. Do you go to the gym? — это вопрос в Present Simple о привычках и обычных действиях.",
+      "correct_answer": "false",
+      "explanation": "Неневерно. Do you go to the gym? — это вопрос в Present Simple о привычках и обычных действиях.",
       "tags": [
         "question",
         "habit"
@@ -639,7 +711,7 @@
     {
       "id": "q34",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке: always, I, breakfast, have, morning, in, the",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b3_theory_describing_habits",
       "difficulty": 3,
       "correct_answer": "I always have breakfast in the morning.",
@@ -682,15 +754,27 @@
     },
     {
       "id": "q36",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"What ___ they ___ on Sundays?\" (do)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"What ___ they ___ on Sundays?\"",
       "theory_block_id": "b3_theory_describing_habits",
       "difficulty": 2,
-      "correct_answer": "do / do",
+      "correct_answer": "b",
       "explanation": "Вопрос о привычках в Present Simple: What do they do on Sundays?",
       "tags": [
         "question",
         "habit"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "are / doing",
+          "feedback": "Нет, on Sundays требует Simple для привычек."
+        },
+        {
+          "id": "b",
+          "text": "do / do",
+          "feedback": "Правильно! On Sundays требует Present Simple для привычек."
+        }
       ]
     },
     {
@@ -699,8 +783,8 @@
       "prompt": "Верно или неверно: \"I drink coffee every morning\" описывает привычку.",
       "theory_block_id": "b3_theory_describing_habits",
       "difficulty": 1,
-      "correct_answer": "true",
-      "explanation": "Верно. Present Simple с every morning описывает привычку: I drink coffee every morning.",
+      "correct_answer": "false",
+      "explanation": "Неневерно. Present Simple с every morning описывает привычку: I drink coffee every morning.",
       "tags": [
         "statement",
         "habit"
@@ -768,21 +852,33 @@
     },
     {
       "id": "q40",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуски: \"I ___ English now, but I usually ___ in the morning.\" (study)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"I ___ English now, but I usually ___ in the morning.\"",
       "theory_block_id": "b4_theory_contrasting_in_dialogue",
       "difficulty": 3,
-      "correct_answer": "am studying / study",
+      "correct_answer": "b",
       "explanation": "Now требует Continuous, usually требует Simple: I am studying English now, but I usually study in the morning.",
       "tags": [
         "contrast",
         "fill_blank"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "study / study",
+          "feedback": "Нет, now требует Continuous, usually требует Simple."
+        },
+        {
+          "id": "b",
+          "text": "am studying / study",
+          "feedback": "Правильно! Now требует Continuous, usually требует Simple."
+        }
       ]
     },
     {
       "id": "q41",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке: but, now, I, usually, am, working, work, I, in, the, evening",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b4_theory_contrasting_in_dialogue",
       "difficulty": 4,
       "correct_answer": "I am working now, but I usually work in the evening.",
@@ -836,15 +932,27 @@
     },
     {
       "id": "q44",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуски: \"They ___ dinner at the moment, but they usually ___ at home.\" (have)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"They ___ dinner at the moment, but they usually ___ at home.\"",
       "theory_block_id": "b4_theory_contrasting_in_dialogue",
       "difficulty": 3,
-      "correct_answer": "are having / have",
+      "correct_answer": "b",
       "explanation": "At the moment требует Continuous, usually требует Simple: They are having dinner at the moment, but they usually have at home.",
       "tags": [
         "contrast",
         "fill_blank"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "have / have",
+          "feedback": "Нет, at the moment требует Continuous, usually требует Simple."
+        },
+        {
+          "id": "b",
+          "text": "are having / have",
+          "feedback": "Правильно! At the moment требует Continuous, usually требует Simple."
+        }
       ]
     },
     {
@@ -879,7 +987,7 @@
     {
       "id": "q46",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке: but, studying, am, I, now, usually, I, study, library, in, the",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b4_theory_contrasting_in_dialogue",
       "difficulty": 4,
       "correct_answer": "I am studying now, but I usually study in the library.",
@@ -903,15 +1011,27 @@
     },
     {
       "id": "q48",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуски: \"He ___ on a project now, but he usually ___ at 5 PM.\" (work, finish)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"He ___ on a project now, but he usually ___ at 5 PM.\"",
       "theory_block_id": "b4_theory_contrasting_in_dialogue",
       "difficulty": 3,
-      "correct_answer": "is working / finishes",
+      "correct_answer": "b",
       "explanation": "Now требует Continuous, usually требует Simple: He is working on a project now, but he usually finishes at 5 PM.",
       "tags": [
         "contrast",
         "fill_blank"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "works / finishes",
+          "feedback": "Нет, now требует Continuous."
+        },
+        {
+          "id": "b",
+          "text": "is working / finishes",
+          "feedback": "Правильно! Now требует Continuous, usually требует Simple."
+        }
       ]
     },
     {
@@ -987,22 +1107,34 @@
     },
     {
       "id": "q52",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуски в диалоге: \"A: What ___ you ___? B: I ___ lunch. A: What ___ you usually ___ at this time?\" (do, have)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант для диалога: \"A: What ___ you ___? B: I ___ lunch. A: What ___ you usually ___ at this time?\"",
       "theory_block_id": "b5_theory_common_situations",
       "difficulty": 4,
-      "correct_answer": "are / doing / am having / do / do",
+      "correct_answer": "b",
       "explanation": "Телефонный разговор требует переключения: What are you doing? (Continuous) → I am having lunch (Continuous) → What do you usually do? (Simple).",
       "tags": [
         "phone_call",
         "dialogue",
         "fill_blank"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "do / do / have / do / do",
+          "feedback": "Нет, текущее действие требует Continuous."
+        },
+        {
+          "id": "b",
+          "text": "are / doing / am having / do / do",
+          "feedback": "Правильно! Текущее действие требует Continuous, привычки требуют Simple."
+        }
       ]
     },
     {
       "id": "q53",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке для диалога: but, I, today, am, working, I, usually, work, from, home",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b5_theory_common_situations",
       "difficulty": 4,
       "correct_answer": "I am working today, but I usually work from home.",
@@ -1056,15 +1188,27 @@
     },
     {
       "id": "q56",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуски: \"Right now I ___ , but I usually ___ from 9 to 5.\" (work)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"Right now I ___ , but I usually ___ from 9 to 5.\"",
       "theory_block_id": "b5_theory_common_situations",
       "difficulty": 3,
-      "correct_answer": "am working / work",
+      "correct_answer": "b",
       "explanation": "Рассказ о дне: Right now I am working (Continuous), but I usually work from 9 to 5 (Simple).",
       "tags": [
         "telling_about_day",
         "fill_blank"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "work / work",
+          "feedback": "Нет, right now требует Continuous."
+        },
+        {
+          "id": "b",
+          "text": "am working / work",
+          "feedback": "Правильно! Right now требует Continuous, usually требует Simple."
+        }
       ]
     },
     {
@@ -1100,7 +1244,7 @@
     {
       "id": "q58",
       "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке для телефонного разговора: what, are, you, doing, I, am, having, lunch, what, do, you, usually, do, at, this, time",
+      "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b5_theory_common_situations",
       "difficulty": 5,
       "correct_answer": "What are you doing? I am having lunch. What do you usually do at this time?",
@@ -1125,16 +1269,28 @@
     },
     {
       "id": "q60",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуски: \"A: What ___ you ___? B: I ___ my friend. A: When ___ you usually ___?\" (do, meet)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант для диалога: \"A: What ___ you ___? B: I ___ my friend. A: When ___ you usually ___?\"",
       "theory_block_id": "b5_theory_common_situations",
       "difficulty": 4,
-      "correct_answer": "are / doing / am meeting / do / meet",
+      "correct_answer": "b",
       "explanation": "Диалог о встрече: What are you doing? (Continuous) → I am meeting my friend (Continuous) → When do you usually meet? (Simple).",
       "tags": [
         "meeting_friends",
         "dialogue",
         "fill_blank"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "text": "do / do / meet / do / meet",
+          "feedback": "Нет, текущее действие требует Continuous."
+        },
+        {
+          "id": "b",
+          "text": "are / doing / am meeting / do / meet",
+          "feedback": "Правильно! Текущее действие требует Continuous, привычки требуют Simple."
+        }
       ]
     },
     {
