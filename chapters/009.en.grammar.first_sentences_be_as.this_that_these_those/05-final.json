@@ -77,21 +77,6 @@
       }
     },
     {
-      "id": "b2_quiz_after_this_that",
-      "type": "quiz_inline",
-      "title": "Проверка: this и that",
-      "quiz_inline": {
-        "question_ids": [
-          "q1",
-          "q3",
-          "q5",
-          "q7",
-          "q9"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b2_theory_these_those_plural",
       "type": "theory",
       "title": "These и those — это указательные местоимения для множественного числа. Они работают так же, как this и that, но для нескольких предметов.",
@@ -140,21 +125,6 @@
       }
     },
     {
-      "id": "b4_quiz_after_these_those",
-      "type": "quiz_inline",
-      "title": "Проверка: these и those",
-      "quiz_inline": {
-        "question_ids": [
-          "q13",
-          "q15",
-          "q17",
-          "q19",
-          "q21"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b3_theory_here_there_location",
       "type": "theory",
       "title": "Here (здесь) и there (там) — это слова, которые указывают на место, где находится предмет.",
@@ -195,21 +165,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b6_quiz_after_here_there",
-      "type": "quiz_inline",
-      "title": "Проверка: here и there",
-      "quiz_inline": {
-        "question_ids": [
-          "q25",
-          "q27",
-          "q29",
-          "q31",
-          "q33"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -260,22 +215,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b8_quiz_after_combining",
-      "type": "quiz_inline",
-      "title": "Проверка: сочетание с be",
-      "quiz_inline": {
-        "question_ids": [
-          "q35",
-          "q37",
-          "q39",
-          "q41",
-          "q43",
-          "q44"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -392,45 +331,6 @@
         ]
       },
       {
-        "id": "q3",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ is my book.\" (этот/тот)",
-        "theory_block_id": "b1_theory_this_that_singular",
-        "difficulty": 1,
-        "correct_answer": "This",
-        "explanation": "Если книга близко, используется 'this': This is my book.",
-        "tags": [
-          "this",
-          "singular"
-        ]
-      },
-      {
-        "id": "q4",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ is your pen.\" (этот/тот)",
-        "theory_block_id": "b1_theory_this_that_singular",
-        "difficulty": 1,
-        "correct_answer": "That",
-        "explanation": "Если ручка далеко, используется 'that': That is your pen.",
-        "tags": [
-          "that",
-          "singular"
-        ]
-      },
-      {
-        "id": "q5",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b1_theory_this_that_singular",
-        "difficulty": 2,
-        "correct_answer": "This is my phone.",
-        "explanation": "Правильный порядок: This is my phone. (Это мой телефон.)",
-        "tags": [
-          "this",
-          "reorder"
-        ]
-      },
-      {
         "id": "q6",
         "type": "error_spotting",
         "prompt": "Найдите ошибку в предложении: \"This are a book.\"",
@@ -511,19 +411,6 @@
         ],
         "correct_answer": "b",
         "explanation": "'That' используется с единственным числом и формой 'is': That is my key.",
-        "tags": [
-          "that",
-          "singular"
-        ]
-      },
-      {
-        "id": "q10",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ is a car.\" (этот/тот)",
-        "theory_block_id": "b1_theory_this_that_singular",
-        "difficulty": 2,
-        "correct_answer": "That",
-        "explanation": "Если машина далеко, используется 'that': That is a car.",
         "tags": [
           "that",
           "singular"
@@ -633,32 +520,6 @@
         ]
       },
       {
-        "id": "q15",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ are my books.\" (эти/те)",
-        "theory_block_id": "b2_theory_these_those_plural",
-        "difficulty": 1,
-        "correct_answer": "These",
-        "explanation": "Если книги близко, используется 'these': These are my books.",
-        "tags": [
-          "these",
-          "plural"
-        ]
-      },
-      {
-        "id": "q16",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ are your bags.\" (эти/те)",
-        "theory_block_id": "b2_theory_these_those_plural",
-        "difficulty": 1,
-        "correct_answer": "Those",
-        "explanation": "Если сумки далеко, используется 'those': Those are your bags.",
-        "tags": [
-          "those",
-          "plural"
-        ]
-      },
-      {
         "id": "q17",
         "type": "reorder",
         "prompt": "Расставьте слова в правильном порядке:",
@@ -752,19 +613,6 @@
         ],
         "correct_answer": "b",
         "explanation": "'Those' используется с множественным числом и формой 'are': Those are cars.",
-        "tags": [
-          "those",
-          "plural"
-        ]
-      },
-      {
-        "id": "q22",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ are your friends.\" (эти/те)",
-        "theory_block_id": "b2_theory_these_those_plural",
-        "difficulty": 2,
-        "correct_answer": "Those",
-        "explanation": "Если друзья далеко, используется 'those': Those are your friends.",
         "tags": [
           "those",
           "plural"
@@ -874,32 +722,6 @@
         ]
       },
       {
-        "id": "q27",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"My book is ___.\" (здесь/там)",
-        "theory_block_id": "b3_theory_here_there_location",
-        "difficulty": 1,
-        "correct_answer": "here",
-        "explanation": "Если книга близко, используется 'here': My book is here.",
-        "tags": [
-          "here",
-          "location"
-        ]
-      },
-      {
-        "id": "q28",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"Your bag is ___.\" (здесь/там)",
-        "theory_block_id": "b3_theory_here_there_location",
-        "difficulty": 1,
-        "correct_answer": "there",
-        "explanation": "Если сумка далеко, используется 'there': Your bag is there.",
-        "tags": [
-          "there",
-          "location"
-        ]
-      },
-      {
         "id": "q29",
         "type": "reorder",
         "prompt": "Расставьте слова в правильном порядке:",
@@ -995,19 +817,6 @@
         "explanation": "Если ручка близко, используется 'here': The pen is here.",
         "tags": [
           "here",
-          "location"
-        ]
-      },
-      {
-        "id": "q34",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"The car is ___.\" (здесь/там)",
-        "theory_block_id": "b3_theory_here_there_location",
-        "difficulty": 2,
-        "correct_answer": "there",
-        "explanation": "Если машина далеко, используется 'there': The car is there.",
-        "tags": [
-          "there",
           "location"
         ]
       },
@@ -1318,19 +1127,6 @@
         ]
       },
       {
-        "id": "q48",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ is this?\" (Что/То)",
-        "theory_block_id": "b5_theory_questions_with_demonstratives",
-        "difficulty": 1,
-        "correct_answer": "What",
-        "explanation": "В вопросах используется 'What': What is this?",
-        "tags": [
-          "question",
-          "what"
-        ]
-      },
-      {
         "id": "q49",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"What ___ these?\" (быть)",
@@ -1595,38 +1391,28 @@
     "pool_question_ids": [
       "q1",
       "q2",
-      "q3",
-      "q4",
-      "q5",
       "q6",
       "q7",
       "q8",
       "q9",
-      "q10",
       "q11",
       "q12",
       "q13",
       "q14",
-      "q15",
-      "q16",
       "q17",
       "q18",
       "q19",
       "q20",
       "q21",
-      "q22",
       "q23",
       "q24",
       "q25",
       "q26",
-      "q27",
-      "q28",
       "q29",
       "q30",
       "q31",
       "q32",
       "q33",
-      "q34",
       "q35",
       "q36",
       "q37",
@@ -1640,7 +1426,6 @@
       "q45",
       "q46",
       "q47",
-      "q48",
       "q49",
       "q50",
       "q51",
@@ -1667,7 +1452,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-17T21:25:36Z",
+    "updated_at": "2026-01-18T10:40:29Z",
     "source": "llm"
   }
 }
