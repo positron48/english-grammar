@@ -86,22 +86,6 @@
       }
     },
     {
-      "id": "b2_quiz_after_negatives_with_not",
-      "type": "quiz_inline",
-      "title": "Quick check: отрицания с not",
-      "quiz_inline": {
-        "question_ids": [
-          "q1",
-          "q2",
-          "q3",
-          "q4",
-          "q5",
-          "q6"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b2_theory_contractions_isnt_arent",
       "type": "theory",
       "title": "В разговорной речи часто используются сокращенные формы отрицаний с be:",
@@ -163,22 +147,6 @@
       }
     },
     {
-      "id": "b4_quiz_after_contractions",
-      "type": "quiz_inline",
-      "title": "Quick check: сокращенные формы isn't/aren't",
-      "quiz_inline": {
-        "question_ids": [
-          "q13",
-          "q14",
-          "q15",
-          "q16",
-          "q17",
-          "q18"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b3_theory_am_not_contraction",
       "type": "theory",
       "title": "Особенность отрицания с I:",
@@ -225,22 +193,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b6_quiz_after_am_not",
-      "type": "quiz_inline",
-      "title": "Quick check: I'm not (особенность)",
-      "quiz_inline": {
-        "question_ids": [
-          "q25",
-          "q26",
-          "q27",
-          "q28",
-          "q29",
-          "q30"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -300,22 +252,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b8_quiz_after_word_order",
-      "type": "quiz_inline",
-      "title": "Quick check: порядок слов в отрицаниях",
-      "quiz_inline": {
-        "question_ids": [
-          "q37",
-          "q38",
-          "q39",
-          "q40",
-          "q41",
-          "q42"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -1256,37 +1192,6 @@
         ]
       },
       {
-        "id": "q38",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"He ___ at home.\"",
-        "theory_block_id": "b4_theory_word_order_negatives",
-        "difficulty": 1,
-        "correct_answer": "a",
-        "explanation": "Порядок слов: He + is + not + at home.",
-        "tags": [
-          "negative",
-          "word_order",
-          "location"
-        ],
-        "choices": [
-          {
-            "id": "a",
-            "text": "is not",
-            "feedback": "Правильно! is not"
-          },
-          {
-            "id": "b",
-            "text": "not is",
-            "feedback": "Нет, not должно стоять после is"
-          },
-          {
-            "id": "c",
-            "text": "is",
-            "feedback": "Нет, нужно отрицание"
-          }
-        ]
-      },
-      {
         "id": "q39",
         "type": "error_spotting",
         "prompt": "Найдите ошибку в порядке слов: \"Not she is at home.\"",
@@ -1340,36 +1245,6 @@
         "tags": [
           "negative",
           "word_order"
-        ]
-      },
-      {
-        "id": "q42",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"We ___ happy.\"",
-        "theory_block_id": "b4_theory_word_order_negatives",
-        "difficulty": 1,
-        "correct_answer": "a",
-        "explanation": "Порядок слов: We + are + not + happy.",
-        "tags": [
-          "negative",
-          "word_order"
-        ],
-        "choices": [
-          {
-            "id": "a",
-            "text": "are not",
-            "feedback": "Правильно! are not"
-          },
-          {
-            "id": "b",
-            "text": "not are",
-            "feedback": "Нет, not должно стоять после are"
-          },
-          {
-            "id": "c",
-            "text": "are",
-            "feedback": "Нет, нужно отрицание"
-          }
         ]
       },
       {
@@ -1533,19 +1408,6 @@
         ]
       },
       {
-        "id": "q50",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"She ___ a teacher.\" (be + not)",
-        "theory_block_id": "b5_theory_common_patterns_negatives",
-        "difficulty": 1,
-        "correct_answer": "isn't",
-        "explanation": "Отрицание идентичности: She isn't a teacher.",
-        "tags": [
-          "negative",
-          "identity"
-        ]
-      },
-      {
         "id": "q51",
         "type": "mcq_single",
         "prompt": "Выберите правильное отрицание описания:",
@@ -1570,19 +1432,6 @@
         ],
         "correct_answer": "a",
         "explanation": "Отрицание описания: I'm not tired (Я не устал).",
-        "tags": [
-          "negative",
-          "description"
-        ]
-      },
-      {
-        "id": "q52",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"They ___ happy.\" (be + not)",
-        "theory_block_id": "b5_theory_common_patterns_negatives",
-        "difficulty": 1,
-        "correct_answer": "aren't",
-        "explanation": "Отрицание описания: They aren't happy.",
         "tags": [
           "negative",
           "description"
@@ -1650,19 +1499,6 @@
         ]
       },
       {
-        "id": "q55",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"We ___ at the cinema.\" (be + not)",
-        "theory_block_id": "b5_theory_common_patterns_negatives",
-        "difficulty": 1,
-        "correct_answer": "aren't",
-        "explanation": "Отрицание местоположения: We aren't at the cinema.",
-        "tags": [
-          "negative",
-          "location"
-        ]
-      },
-      {
         "id": "q56",
         "type": "reorder",
         "prompt": "Расставьте слова в правильном порядке:",
@@ -1687,19 +1523,6 @@
         "tags": [
           "negative",
           "word_order"
-        ]
-      },
-      {
-        "id": "q58",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"They ___ students.\" (be + not)",
-        "theory_block_id": "b5_theory_common_patterns_negatives",
-        "difficulty": 1,
-        "correct_answer": "aren't",
-        "explanation": "Отрицание идентичности: They aren't students.",
-        "tags": [
-          "negative",
-          "identity"
         ]
       },
       {
@@ -1772,11 +1595,9 @@
       "q35",
       "q36",
       "q37",
-      "q38",
       "q39",
       "q40",
       "q41",
-      "q42",
       "q43",
       "q44",
       "q45",
@@ -1784,15 +1605,11 @@
       "q47",
       "q48",
       "q49",
-      "q50",
       "q51",
-      "q52",
       "q53",
       "q54",
-      "q55",
       "q56",
       "q57",
-      "q58",
       "q59",
       "q60"
     ],
@@ -1809,7 +1626,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-17T21:25:36Z",
+    "updated_at": "2026-01-18T08:11:03Z",
     "source": "llm"
   }
 }

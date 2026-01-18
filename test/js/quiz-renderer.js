@@ -427,9 +427,22 @@ function renderReorder(question, showAnswers, onAnswer, checkImmediately, contai
     
     // Получаем правильный ответ и разбиваем на слова
     const correctAnswer = question.correct_answer || '';
-    // Разбиваем на слова, убирая знаки препинания из списка слов для выбора
-    const words = correctAnswer
-        .replace(/[.,!?;:]/g, '') // Убираем знаки препинания
+    const trimmedAnswer = correctAnswer.trim();
+    
+    // Извлекаем конечный знак препинания (.!?)
+    const lastPunctuationMatch = trimmedAnswer.match(/[.!?]$/);
+    const lastPunctuation = lastPunctuationMatch ? lastPunctuationMatch[0] : '';
+    
+    // Убираем только конечный знак препинания для разбора слов
+    // Запятые оставляем, чтобы их тоже нужно было расставлять
+    let textForWords = lastPunctuation ? trimmedAnswer.slice(0, -1).trim() : trimmedAnswer;
+    
+    // Нормализуем пробелы вокруг запятых: "Yes, she" или "Yes , she" -> "Yes , she"
+    // Это гарантирует, что запятые станут отдельными элементами при разборе
+    textForWords = textForWords.replace(/\s*,\s*/g, ' , ');
+    
+    // Разбиваем на слова, сохраняя запятые как отдельные элементы
+    const words = textForWords
         .split(/\s+/)
         .filter(w => w.trim().length > 0);
     
@@ -449,6 +462,43 @@ function renderReorder(question, showAnswers, onAnswer, checkImmediately, contai
     sentenceContainer.style.gap = '5px';
     sentenceContainer.style.alignItems = 'center';
     sentenceContainer.dataset.sentence = '';
+    
+    // Элемент для конечного знака препинания (всегда видим в конце)
+    let punctuationSpan = null;
+    if (lastPunctuation) {
+        punctuationSpan = document.createElement('span');
+        punctuationSpan.textContent = lastPunctuation;
+        // Явные стили для гарантии видимости - используем конкретные значения вместо CSS переменных
+        Object.assign(punctuationSpan.style, {
+            fontSize: '1.2em',
+            fontWeight: 'bold',
+            color: '#333333',
+            marginLeft: '2px',
+            display: 'inline-block',
+            verticalAlign: 'middle',
+            minWidth: '0.5em',
+            lineHeight: '1.2',
+            height: 'auto',
+            width: 'auto',
+            opacity: '1',
+            visibility: 'visible'
+        });
+        punctuationSpan.className = 'reorder-punctuation';
+        punctuationSpan.setAttribute('data-punctuation', 'true');
+        // Добавляем знак препинания в конец контейнера сразу
+        sentenceContainer.appendChild(punctuationSpan);
+    }
+    
+    // Функция для добавления слова в предложение (перед знаком препинания)
+    function appendWordToSentence(wordBtn) {
+        if (punctuationSpan && punctuationSpan.parentNode === sentenceContainer) {
+            // Вставляем перед знаком препинания
+            sentenceContainer.insertBefore(wordBtn, punctuationSpan);
+        } else {
+            // Если знака препинания нет, просто добавляем в конец
+            sentenceContainer.appendChild(wordBtn);
+        }
+    }
     
     // Контейнер для доступных слов
     const wordsContainer = document.createElement('div');
@@ -494,13 +544,30 @@ function renderReorder(question, showAnswers, onAnswer, checkImmediately, contai
     
     // Функция для проверки ответа
     function checkReorderAnswer() {
-        // Собираем предложение: объединяем слова, убираем лишние пробелы
-        let userSentence = selectedWords.join(' ').replace(/\s+/g, ' ').trim();
+        // Собираем предложение: объединяем слова, правильно обрабатывая запятые
+        // Запятые не должны иметь пробела перед ними, но должны иметь пробел после
+        let userSentence = '';
+        for (let i = 0; i < selectedWords.length; i++) {
+            const word = selectedWords[i];
+            if (word === ',') {
+                // Запятая без пробела перед ней
+                userSentence += ',';
+                // Пробел после запятой (если не последний элемент)
+                if (i < selectedWords.length - 1) {
+                    userSentence += ' ';
+                }
+            } else {
+                // Обычное слово: пробел перед ним (если не первый элемент и предыдущий не запятая)
+                if (i > 0 && selectedWords[i - 1] !== ',') {
+                    userSentence += ' ';
+                }
+                userSentence += word;
+            }
+        }
+        userSentence = userSentence.trim();
         
-        // Добавляем точку в конец, если она была в оригинальном ответе
-        // (точка не была в списке слов для выбора)
-        if (correctAnswer.trim().match(/[.!?]$/)) {
-            const lastPunctuation = correctAnswer.trim().match(/[.!?]$/)[0];
+        // Добавляем конечный знак препинания (.!?), который был извлечен ранее
+        if (lastPunctuation) {
             userSentence += lastPunctuation;
         }
         
@@ -581,7 +648,7 @@ function renderReorder(question, showAnswers, onAnswer, checkImmediately, contai
                 }
             });
             
-            sentenceContainer.appendChild(sentenceWordBtn);
+            appendWordToSentence(sentenceWordBtn);
             sentenceContainer.dataset.sentence = selectedWords.join(' ');
             
             // Проверяем, все ли слова выбраны
