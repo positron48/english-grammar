@@ -1,0 +1,1671 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.now_present_continuous_contrast.meanings_right_now_temporary",
+  "section_id": "en.grammar.now_present_continuous_contrast",
+  "title": "Meanings: right now / temporary / around this period",
+  "title_short": "Meanings: right now / temporary / around this period",
+  "description": "Изучение трех основных значений Present Continuous: действия, происходящие прямо сейчас, временные ситуации и действия, происходящие в данный период времени",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "A2",
+  "order": 0,
+  "prerequisites": [
+    "en.grammar.now_present_continuous_contrast.form_am_is_are"
+  ],
+  "concept_refs": [
+    "present_continuous_right_now",
+    "present_continuous_temporary",
+    "present_continuous_around_period",
+    "present_continuous_time_markers",
+    "present_continuous_temporary_vs_permanent"
+  ],
+  "learning_objectives": [
+    "Понимать и использовать Present Continuous для действий, происходящих прямо сейчас",
+    "Различать временные и постоянные ситуации",
+    "Использовать Present Continuous для действий, происходящих в данный период",
+    "Правильно выбирать маркеры времени для каждого значения"
+  ],
+  "estimated_minutes": 25,
+  "blocks": [
+    {
+      "id": "b1_theory_right_now",
+      "type": "theory",
+      "title": "Present Continuous используется для описания действий, происходящих прямо сейчас, в момент речи.",
+      "theory": {
+        "concept_id": "present_continuous_right_now",
+        "content_md": "**Present Continuous используется для описания действий, происходящих прямо сейчас, в момент речи.**\n\nКогда вы говорите о чем-то, что происходит в данный конкретный момент, используйте форму am/is/are + V-ing. Это значение Present Continuous связано с текущим временем и сиюминутными действиями.\n\nЭто значение особенно важно для описания того, что происходит «вот прямо сейчас», когда говорящий видит или испытывает действие в момент разговора.",
+        "key_points": [
+          "Present Continuous описывает действия, происходящие в момент речи",
+          "Используется с маркерами времени: now, right now, at the moment",
+          "Подчеркивает, что действие происходит именно сейчас"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I'm reading a book now.",
+            "translation": "Я читаю книгу сейчас.",
+            "notes": "Действие происходит в момент речи",
+            "tags": [
+              "affirmative",
+              "right_now"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "What are you doing? I'm cooking dinner.",
+            "translation": "Что ты делаешь? Я готовлю ужин.",
+            "notes": "Вопрос и ответ о текущем действии",
+            "tags": [
+              "question",
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "She isn't sleeping right now. She's working.",
+            "translation": "Она не спит прямо сейчас. Она работает.",
+            "notes": "Отрицание и утверждение о текущем действии",
+            "tags": [
+              "negative",
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_right_now",
+      "type": "quiz_inline",
+      "title": "Quick check: right now meaning",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_temporary",
+      "type": "theory",
+      "title": "Present Continuous используется для описания временных ситуаций, которые продолжаются ограниченное время.",
+      "theory": {
+        "concept_id": "present_continuous_temporary",
+        "content_md": "**Present Continuous используется для описания временных ситуаций, которые продолжаются ограниченное время.**\n\nВ отличие от постоянных ситуаций, которые описываются Present Simple, временные ситуации используют Present Continuous. Это значение подчеркивает, что ситуация не постоянная, а временная, и может измениться в будущем.\n\nВременные ситуации могут включать изменения в образе жизни, временную работу, временные состояния или обстоятельства, которые действуют только в течение определенного периода.",
+        "key_points": [
+          "Present Continuous описывает временные, а не постоянные ситуации",
+          "Подчеркивает, что ситуация ограничена по времени",
+          "Противопоставляется постоянным фактам (Present Simple)"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I'm living in London this year.",
+            "translation": "Я живу в Лондоне в этом году.",
+            "notes": "Временное проживание, не постоянное",
+            "tags": [
+              "affirmative",
+              "temporary"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "He's working as a teacher this semester.",
+            "translation": "Он работает учителем в этом семестре.",
+            "notes": "Временная работа, не постоянная профессия",
+            "tags": [
+              "affirmative",
+              "temporary"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "They aren't staying here permanently. It's just for a month.",
+            "translation": "Они не остаются здесь постоянно. Это только на месяц.",
+            "notes": "Отрицание постоянности, подчеркивание временности",
+            "tags": [
+              "negative",
+              "temporary"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_temporary",
+      "type": "quiz_inline",
+      "title": "Quick check: temporary situations",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14",
+          "q15",
+          "q16",
+          "q17"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_around_period",
+      "type": "theory",
+      "title": "Present Continuous используется для описания действий и процессов, происходящих в данный период времени, но не обязательно в момент речи.",
+      "theory": {
+        "concept_id": "present_continuous_around_period",
+        "content_md": "**Present Continuous используется для описания действий и процессов, происходящих в данный период времени, но не обязательно в момент речи.**\n\nЭто значение описывает действия, которые происходят в текущий период (неделя, месяц, год), но не требуют, чтобы действие происходило именно в момент разговора. Это значение связывает действие с текущим периодом времени и подчеркивает его актуальность в настоящем.\n\nЭто значение особенно полезно для описания процессов, изменений, тенденций или деятельности, которая характерна для текущего периода, но не ограничивается конкретным моментом.",
+        "key_points": [
+          "Present Continuous описывает действия в текущий период времени",
+          "Действие не обязательно происходит в момент речи",
+          "Связано с текущим периодом: this week, this month, this year"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I'm studying English this semester.",
+            "translation": "Я изучаю английский в этом семестре.",
+            "notes": "Действие происходит в текущий период",
+            "tags": [
+              "affirmative",
+              "period"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "The company is expanding this year.",
+            "translation": "Компания расширяется в этом году.",
+            "notes": "Процесс, происходящий в текущий период",
+            "tags": [
+              "affirmative",
+              "period"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "What project are you working on this month?",
+            "translation": "Над каким проектом ты работаешь в этом месяце?",
+            "notes": "Вопрос о деятельности в текущий период",
+            "tags": [
+              "question",
+              "period"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_period",
+      "type": "quiz_inline",
+      "title": "Quick check: actions in current period",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26",
+          "q27",
+          "q28",
+          "q29"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_time_markers",
+      "type": "theory",
+      "title": "Каждое значение Present Continuous имеет свои типичные маркеры времени, которые помогают понять, какое именно значение имеется в виду.",
+      "theory": {
+        "concept_id": "present_continuous_time_markers",
+        "content_md": "**Каждое значение Present Continuous имеет свои типичные маркеры времени, которые помогают понять, какое именно значение имеется в виду.**\n\nМаркеры времени — это слова и выражения, которые указывают на временной контекст действия. Для значения \"right now\" используются маркеры now, right now, at the moment. Для временных ситуаций характерны this week, this month, for a week. Для периода времени подходят this semester, this year, nowadays.\n\nПонимание маркеров времени помогает правильно выбрать время и правильно понять значение высказывания.",
+        "key_points": [
+          "Маркеры времени помогают определить значение Present Continuous",
+          "Right now: now, right now, at the moment",
+          "Temporary: this week/month, for a few days",
+          "Period: this year/semester, nowadays"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I'm reading now. Can I call you later?",
+            "translation": "Я читаю сейчас. Могу я позвонить тебе позже?",
+            "notes": "Маркер now указывает на момент речи",
+            "tags": [
+              "affirmative",
+              "now"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "She's staying with us this week.",
+            "translation": "Она остается у нас на этой неделе.",
+            "notes": "Маркер this week указывает на временную ситуацию",
+            "tags": [
+              "affirmative",
+              "this_week"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "We're learning Spanish this year.",
+            "translation": "Мы изучаем испанский в этом году.",
+            "notes": "Маркер this year указывает на период",
+            "tags": [
+              "affirmative",
+              "this_year"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8_quiz_after_markers",
+      "type": "quiz_inline",
+      "title": "Quick check: time markers",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38",
+          "q39",
+          "q40",
+          "q41"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_temporary_vs_permanent",
+      "type": "theory",
+      "title": "Ключевое различие между Present Continuous и Present Simple — это временность vs постоянность ситуации.",
+      "theory": {
+        "concept_id": "present_continuous_temporary_vs_permanent",
+        "content_md": "**Ключевое различие между Present Continuous и Present Simple — это временность vs постоянность ситуации.**\n\nPresent Continuous описывает временные ситуации, действия или состояния, которые характерны для определенного периода времени, но не являются постоянными. Present Simple описывает постоянные факты, привычки или общие истины, которые не меняются со временем.\n\nЭто различие критически важно для правильного выбора времени. Одна и та же ситуация может описываться по-разному в зависимости от того, является ли она временной или постоянной.",
+        "key_points": [
+          "Present Continuous = временная ситуация",
+          "Present Simple = постоянный факт или привычка",
+          "Одна и та же ситуация может быть временной или постоянной"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "I'm living in Moscow. (постоянное место жительства)",
+            "right": "I live in Moscow.",
+            "why": "Постоянное место жительства описывается Present Simple, а не Continuous"
+          },
+          {
+            "wrong": "She works as a teacher this semester. (временная работа)",
+            "right": "She's working as a teacher this semester.",
+            "why": "Временная работа требует Present Continuous, так как это временная ситуация"
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I live in Paris. (permanent) vs I'm living in Paris this year. (temporary)",
+            "translation": "Я живу в Париже. (постоянно) vs Я живу в Париже в этом году. (временно)",
+            "notes": "Сравнение постоянной и временной ситуации",
+            "tags": [
+              "comparison",
+              "permanent",
+              "temporary"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "She works at a bank. (permanent job) vs She's working at a bank this month. (temporary job)",
+            "translation": "Она работает в банке. (постоянная работа) vs Она работает в банке в этом месяце. (временная работа)",
+            "notes": "Сравнение постоянной и временной работы",
+            "tags": [
+              "comparison",
+              "permanent",
+              "temporary"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Какое предложение правильно описывает действие, происходящее прямо сейчас?",
+        "theory_block_id": "b1_theory_right_now",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I read a book now.",
+            "feedback": "Нет, нужно I'm reading (Present Continuous)"
+          },
+          {
+            "id": "b",
+            "text": "I'm reading a book now.",
+            "feedback": "Правильно! Present Continuous для действий прямо сейчас"
+          },
+          {
+            "id": "c",
+            "text": "I reading a book now.",
+            "feedback": "Нет, нужна связка am/is/are"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Present Continuous используется для действий, происходящих прямо сейчас, в момент речи. I'm reading a book now — правильная форма.",
+        "tags": [
+          "right_now",
+          "basic"
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"What ___ you doing?\" (be)",
+        "theory_block_id": "b1_theory_right_now",
+        "difficulty": 1,
+        "correct_answer": "are",
+        "explanation": "В вопросах Present Continuous связка стоит перед подлежащим. С you используется are: What are you doing?",
+        "tags": [
+          "right_now",
+          "question"
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "true_false",
+        "prompt": "Present Continuous используется для описания действий, происходящих прямо сейчас, в момент речи.",
+        "theory_block_id": "b1_theory_right_now",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. Present Continuous с маркерами now, right now, at the moment описывает действия, происходящие в момент речи.",
+        "tags": [
+          "right_now",
+          "concept"
+        ]
+      },
+      {
+        "id": "q4",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант для действия, происходящего прямо сейчас:",
+        "theory_block_id": "b1_theory_right_now",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She cooks dinner right now.",
+            "feedback": "Нет, нужно She's cooking (Present Continuous)"
+          },
+          {
+            "id": "b",
+            "text": "She's cooking dinner right now.",
+            "feedback": "Правильно!"
+          },
+          {
+            "id": "c",
+            "text": "She cooking dinner right now.",
+            "feedback": "Нет, нужна связка is"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Для действий прямо сейчас используется Present Continuous: She's cooking dinner right now.",
+        "tags": [
+          "right_now",
+          "affirmative"
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**He work at the moment.**",
+        "theory_block_id": "b1_theory_right_now",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He's working at the moment.",
+            "feedback": "Правильно! Present Continuous для действий прямо сейчас"
+          },
+          {
+            "id": "b",
+            "text": "He works at the moment.",
+            "feedback": "Нет, Present Simple не используется с 'at the moment'"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: с маркером 'at the moment' нужен Present Continuous, а не Present Simple. Правильно: He's working at the moment.",
+        "tags": [
+          "right_now",
+          "error"
+        ]
+      },
+      {
+        "id": "q6",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"They ___ not watching TV now.\" (be)",
+        "theory_block_id": "b1_theory_right_now",
+        "difficulty": 2,
+        "correct_answer": "are",
+        "explanation": "С we/you/they используется are. В отрицаниях not ставится после связки: They are not watching TV now.",
+        "tags": [
+          "right_now",
+          "negative"
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "mcq_single",
+        "prompt": "Что происходит прямо сейчас? Выберите правильный вариант:",
+        "theory_block_id": "b1_theory_right_now",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm studying English now.",
+            "feedback": "Правильно!"
+          },
+          {
+            "id": "b",
+            "text": "I study English now.",
+            "feedback": "Нет, нужен Present Continuous"
+          },
+          {
+            "id": "c",
+            "text": "I studied English now.",
+            "feedback": "Нет, это Past Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для действий прямо сейчас используется Present Continuous: I'm studying English now.",
+        "tags": [
+          "right_now",
+          "affirmative"
+        ]
+      },
+      {
+        "id": "q8",
+        "type": "true_false",
+        "prompt": "Маркер времени 'now' может использоваться только с Present Simple.",
+        "theory_block_id": "b1_theory_right_now",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Неверно. Маркер 'now' используется с Present Continuous для действий, происходящих прямо сейчас.",
+        "tags": [
+          "right_now",
+          "markers"
+        ]
+      },
+      {
+        "id": "q9",
+        "type": "mcq_single",
+        "prompt": "Выберите правильное отрицание для действия, происходящего прямо сейчас:",
+        "theory_block_id": "b1_theory_right_now",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We aren't playing football now.",
+            "feedback": "Правильно!"
+          },
+          {
+            "id": "b",
+            "text": "We don't play football now.",
+            "feedback": "Нет, это Present Simple"
+          },
+          {
+            "id": "c",
+            "text": "We not playing football now.",
+            "feedback": "Нет, нужна связка are"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В отрицаниях Present Continuous not ставится после связки: We aren't playing football now.",
+        "tags": [
+          "right_now",
+          "negative"
+        ]
+      },
+      {
+        "id": "q10",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ she sleeping right now?\" (be)",
+        "theory_block_id": "b1_theory_right_now",
+        "difficulty": 2,
+        "correct_answer": "Is",
+        "explanation": "В вопросах Present Continuous связка стоит перед подлежащим. С he/she/it используется Is: Is she sleeping right now?",
+        "tags": [
+          "right_now",
+          "question"
+        ]
+      },
+      {
+        "id": "q11",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**You is reading a book now.**",
+        "theory_block_id": "b1_theory_right_now",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "You are reading a book now.",
+            "feedback": "Правильно! С you используется are"
+          },
+          {
+            "id": "b",
+            "text": "You reading a book now.",
+            "feedback": "Нет, нужна связка are"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: с you используется are, а не is. Правильно: You are reading a book now.",
+        "tags": [
+          "right_now",
+          "error"
+        ]
+      },
+      {
+        "id": "q12",
+        "type": "true_false",
+        "prompt": "Предложение 'I'm writing an email at the moment' описывает действие, происходящее прямо сейчас.",
+        "theory_block_id": "b1_theory_right_now",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. 'at the moment' — это маркер времени для Present Continuous, указывающий на действие, происходящее прямо сейчас.",
+        "tags": [
+          "right_now",
+          "markers"
+        ]
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Какое предложение правильно описывает временную ситуацию?",
+        "theory_block_id": "b2_theory_temporary",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm living in London this year.",
+            "feedback": "Правильно! Present Continuous для временной ситуации"
+          },
+          {
+            "id": "b",
+            "text": "I live in London this year.",
+            "feedback": "Нет, для временных ситуаций нужен Present Continuous"
+          },
+          {
+            "id": "c",
+            "text": "I lived in London this year.",
+            "feedback": "Нет, это Past Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Present Continuous используется для временных ситуаций, которые продолжаются ограниченное время. I'm living in London this year — правильная форма.",
+        "tags": [
+          "temporary",
+          "basic"
+        ]
+      },
+      {
+        "id": "q14",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"He ___ working as a teacher this semester.\" (be)",
+        "theory_block_id": "b2_theory_temporary",
+        "difficulty": 1,
+        "correct_answer": "is",
+        "explanation": "С he/she/it используется is. Для временных ситуаций нужен Present Continuous: He is working as a teacher this semester.",
+        "tags": [
+          "temporary",
+          "affirmative"
+        ]
+      },
+      {
+        "id": "q15",
+        "type": "true_false",
+        "prompt": "Present Continuous используется для описания временных ситуаций, которые продолжаются ограниченное время.",
+        "theory_block_id": "b2_theory_temporary",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. Present Continuous подчеркивает, что ситуация временная и может измениться в будущем.",
+        "tags": [
+          "temporary",
+          "concept"
+        ]
+      },
+      {
+        "id": "q16",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант для временной работы:",
+        "theory_block_id": "b2_theory_temporary",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She works at a bank this month.",
+            "feedback": "Нет, для временной ситуации нужен Present Continuous"
+          },
+          {
+            "id": "b",
+            "text": "She's working at a bank this month.",
+            "feedback": "Правильно!"
+          },
+          {
+            "id": "c",
+            "text": "She working at a bank this month.",
+            "feedback": "Нет, нужна связка is"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Для временной работы используется Present Continuous: She's working at a bank this month.",
+        "tags": [
+          "temporary",
+          "affirmative"
+        ]
+      },
+      {
+        "id": "q17",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**I live in Paris this year. (временное проживание)**",
+        "theory_block_id": "b2_theory_temporary",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm living in Paris this year.",
+            "feedback": "Правильно! Present Continuous для временной ситуации"
+          },
+          {
+            "id": "b",
+            "text": "I lived in Paris this year.",
+            "feedback": "Нет, это Past Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: для временного проживания нужен Present Continuous, а не Present Simple. Правильно: I'm living in Paris this year.",
+        "tags": [
+          "temporary",
+          "error"
+        ]
+      },
+      {
+        "id": "q18",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"We ___ staying here for a month.\" (be)",
+        "theory_block_id": "b2_theory_temporary",
+        "difficulty": 2,
+        "correct_answer": "are",
+        "explanation": "С we/you/they используется are. Для временных ситуаций нужен Present Continuous: We are staying here for a month.",
+        "tags": [
+          "temporary",
+          "affirmative"
+        ]
+      },
+      {
+        "id": "q19",
+        "type": "mcq_single",
+        "prompt": "Какое предложение правильно описывает временную ситуацию?",
+        "theory_block_id": "b2_theory_temporary",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "They're studying English this semester.",
+            "feedback": "Правильно!"
+          },
+          {
+            "id": "b",
+            "text": "They study English this semester.",
+            "feedback": "Нет, нужен Present Continuous"
+          },
+          {
+            "id": "c",
+            "text": "They studied English this semester.",
+            "feedback": "Нет, это Past Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для временных ситуаций используется Present Continuous: They're studying English this semester.",
+        "tags": [
+          "temporary",
+          "affirmative"
+        ]
+      },
+      {
+        "id": "q20",
+        "type": "true_false",
+        "prompt": "Предложение 'I'm staying with friends this week' описывает постоянную ситуацию.",
+        "theory_block_id": "b2_theory_temporary",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Неверно. 'I'm staying with friends this week' описывает временную ситуацию, которая ограничена этим периодом.",
+        "tags": [
+          "temporary",
+          "concept"
+        ]
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "prompt": "Выберите правильное отрицание для временной ситуации:",
+        "theory_block_id": "b2_theory_temporary",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He isn't working here permanently.",
+            "feedback": "Правильно!"
+          },
+          {
+            "id": "b",
+            "text": "He doesn't work here permanently.",
+            "feedback": "Нет, это Present Simple"
+          },
+          {
+            "id": "c",
+            "text": "He not working here permanently.",
+            "feedback": "Нет, нужна связка is"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В отрицаниях Present Continuous not ставится после связки: He isn't working here permanently.",
+        "tags": [
+          "temporary",
+          "negative"
+        ]
+      },
+      {
+        "id": "q22",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ you living here temporarily?\" (be)",
+        "theory_block_id": "b2_theory_temporary",
+        "difficulty": 2,
+        "correct_answer": "Are",
+        "explanation": "В вопросах Present Continuous связка стоит перед подлежащим. С you используется Are: Are you living here temporarily?",
+        "tags": [
+          "temporary",
+          "question"
+        ]
+      },
+      {
+        "id": "q23",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**They work in Berlin this month. (временная работа)**",
+        "theory_block_id": "b2_theory_temporary",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "They're working in Berlin this month.",
+            "feedback": "Правильно! Present Continuous для временной работы"
+          },
+          {
+            "id": "b",
+            "text": "They worked in Berlin this month.",
+            "feedback": "Нет, это Past Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: для временной работы нужен Present Continuous, а не Present Simple. Правильно: They're working in Berlin this month.",
+        "tags": [
+          "temporary",
+          "error"
+        ]
+      },
+      {
+        "id": "q24",
+        "type": "true_false",
+        "prompt": "Маркер 'for a week' всегда используется с Present Continuous для временных ситуаций.",
+        "theory_block_id": "b2_theory_temporary",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Верно. Маркер 'for a week' указывает на ограниченный период времени и обычно используется с Present Continuous для временных ситуаций.",
+        "tags": [
+          "temporary",
+          "markers"
+        ]
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Какое предложение правильно описывает действие в текущий период времени?",
+        "theory_block_id": "b3_theory_around_period",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm studying English this semester.",
+            "feedback": "Правильно! Present Continuous для периода"
+          },
+          {
+            "id": "b",
+            "text": "I study English this semester.",
+            "feedback": "Нет, для периода нужен Present Continuous"
+          },
+          {
+            "id": "c",
+            "text": "I studied English this semester.",
+            "feedback": "Нет, это Past Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Present Continuous используется для действий в текущий период времени. I'm studying English this semester — правильная форма.",
+        "tags": [
+          "period",
+          "basic"
+        ]
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"The company ___ expanding this year.\" (be)",
+        "theory_block_id": "b3_theory_around_period",
+        "difficulty": 1,
+        "correct_answer": "is",
+        "explanation": "С he/she/it используется is. Для процессов в текущий период нужен Present Continuous: The company is expanding this year.",
+        "tags": [
+          "period",
+          "affirmative"
+        ]
+      },
+      {
+        "id": "q27",
+        "type": "true_false",
+        "prompt": "Present Continuous используется для описания действий в текущий период времени, даже если действие не происходит в момент речи.",
+        "theory_block_id": "b3_theory_around_period",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. Present Continuous может описывать действия, происходящие в текущий период (this year, this semester), даже если действие не происходит прямо сейчас.",
+        "tags": [
+          "period",
+          "concept"
+        ]
+      },
+      {
+        "id": "q28",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант для действия в текущий период:",
+        "theory_block_id": "b3_theory_around_period",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We're learning Spanish this year.",
+            "feedback": "Правильно!"
+          },
+          {
+            "id": "b",
+            "text": "We learn Spanish this year.",
+            "feedback": "Нет, нужен Present Continuous"
+          },
+          {
+            "id": "c",
+            "text": "We learned Spanish this year.",
+            "feedback": "Нет, это Past Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для действий в текущий период используется Present Continuous: We're learning Spanish this year.",
+        "tags": [
+          "period",
+          "affirmative"
+        ]
+      },
+      {
+        "id": "q29",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**I study at university this semester.**",
+        "theory_block_id": "b3_theory_around_period",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm studying at university this semester.",
+            "feedback": "Правильно! Present Continuous для периода"
+          },
+          {
+            "id": "b",
+            "text": "I studied at university this semester.",
+            "feedback": "Нет, это Past Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: для действий в текущий период нужен Present Continuous, а не Present Simple. Правильно: I'm studying at university this semester.",
+        "tags": [
+          "period",
+          "error"
+        ]
+      },
+      {
+        "id": "q30",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"They ___ working on a new project this month.\" (be)",
+        "theory_block_id": "b3_theory_around_period",
+        "difficulty": 2,
+        "correct_answer": "are",
+        "explanation": "С we/you/they используется are. Для действий в период нужен Present Continuous: They are working on a new project this month.",
+        "tags": [
+          "period",
+          "affirmative"
+        ]
+      },
+      {
+        "id": "q31",
+        "type": "mcq_single",
+        "prompt": "Какое предложение правильно описывает процесс в текущий период?",
+        "theory_block_id": "b3_theory_around_period",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The economy is growing this year.",
+            "feedback": "Правильно!"
+          },
+          {
+            "id": "b",
+            "text": "The economy grows this year.",
+            "feedback": "Нет, нужен Present Continuous"
+          },
+          {
+            "id": "c",
+            "text": "The economy grew this year.",
+            "feedback": "Нет, это Past Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для процессов в текущий период используется Present Continuous: The economy is growing this year.",
+        "tags": [
+          "period",
+          "affirmative"
+        ]
+      },
+      {
+        "id": "q32",
+        "type": "true_false",
+        "prompt": "Предложение 'I'm reading a lot of books this semester' означает, что действие происходит прямо в момент речи.",
+        "theory_block_id": "b3_theory_around_period",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Неверно. 'I'm reading a lot of books this semester' описывает действие в текущий период, но не требует, чтобы действие происходило прямо сейчас.",
+        "tags": [
+          "period",
+          "concept"
+        ]
+      },
+      {
+        "id": "q33",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вопрос для действия в текущий период:",
+        "theory_block_id": "b3_theory_around_period",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "What project are you working on this month?",
+            "feedback": "Правильно!"
+          },
+          {
+            "id": "b",
+            "text": "What project do you work on this month?",
+            "feedback": "Нет, нужен Present Continuous"
+          },
+          {
+            "id": "c",
+            "text": "What project did you work on this month?",
+            "feedback": "Нет, это Past Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для вопросов о действиях в период используется Present Continuous: What project are you working on this month?",
+        "tags": [
+          "period",
+          "question"
+        ]
+      },
+      {
+        "id": "q34",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ the company expanding this year?\" (be)",
+        "theory_block_id": "b3_theory_around_period",
+        "difficulty": 2,
+        "correct_answer": "Is",
+        "explanation": "В вопросах Present Continuous связка стоит перед подлежащим. С he/she/it используется Is: Is the company expanding this year?",
+        "tags": [
+          "period",
+          "question"
+        ]
+      },
+      {
+        "id": "q35",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**She learn Chinese this year.**",
+        "theory_block_id": "b3_theory_around_period",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She's learning Chinese this year.",
+            "feedback": "Правильно! Present Continuous для периода"
+          },
+          {
+            "id": "b",
+            "text": "She learns Chinese this year.",
+            "feedback": "Нет, нужен Present Continuous"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: для действий в период нужен Present Continuous. Правильно: She's learning Chinese this year.",
+        "tags": [
+          "period",
+          "error"
+        ]
+      },
+      {
+        "id": "q36",
+        "type": "true_false",
+        "prompt": "Маркер 'this year' обычно используется с Present Continuous для описания действий в текущий период.",
+        "theory_block_id": "b3_theory_around_period",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Верно. Маркер 'this year' указывает на текущий период времени и часто используется с Present Continuous.",
+        "tags": [
+          "period",
+          "markers"
+        ]
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Какой маркер времени используется с Present Continuous для действий прямо сейчас?",
+        "theory_block_id": "b4_theory_time_markers",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "now, right now, at the moment",
+            "feedback": "Правильно!"
+          },
+          {
+            "id": "b",
+            "text": "always, usually, often",
+            "feedback": "Нет, это маркеры для Present Simple"
+          },
+          {
+            "id": "c",
+            "text": "yesterday, last week",
+            "feedback": "Нет, это маркеры для Past Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Маркеры времени now, right now, at the moment используются с Present Continuous для действий, происходящих прямо сейчас.",
+        "tags": [
+          "markers",
+          "right_now"
+        ]
+      },
+      {
+        "id": "q38",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I'm reading ___ the moment.\"",
+        "theory_block_id": "b4_theory_time_markers",
+        "difficulty": 1,
+        "correct_answer": "at",
+        "explanation": "Маркер времени 'at the moment' используется с Present Continuous для действий прямо сейчас: I'm reading at the moment.",
+        "tags": [
+          "markers",
+          "right_now"
+        ]
+      },
+      {
+        "id": "q39",
+        "type": "true_false",
+        "prompt": "Маркер 'this week' может использоваться с Present Continuous для временных ситуаций.",
+        "theory_block_id": "b4_theory_time_markers",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. Маркер 'this week' указывает на временную ситуацию и используется с Present Continuous.",
+        "tags": [
+          "markers",
+          "temporary"
+        ]
+      },
+      {
+        "id": "q40",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный маркер времени для временной ситуации:",
+        "theory_block_id": "b4_theory_time_markers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "this week, this month, for a few days",
+            "feedback": "Правильно!"
+          },
+          {
+            "id": "b",
+            "text": "always, usually",
+            "feedback": "Нет, это маркеры для Present Simple"
+          },
+          {
+            "id": "c",
+            "text": "yesterday, last year",
+            "feedback": "Нет, это маркеры для Past Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Маркеры this week, this month, for a few days используются с Present Continuous для временных ситуаций.",
+        "tags": [
+          "markers",
+          "temporary"
+        ]
+      },
+      {
+        "id": "q41",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**I'm staying here always.**",
+        "theory_block_id": "b4_theory_time_markers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm staying here this week.",
+            "feedback": "Правильно! Маркер для временной ситуации"
+          },
+          {
+            "id": "b",
+            "text": "I stay here always.",
+            "feedback": "Нет, 'always' используется с Present Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: маркер 'always' используется с Present Simple, а не с Present Continuous. Для временных ситуаций используйте 'this week', 'this month' и т.д.",
+        "tags": [
+          "markers",
+          "error"
+        ]
+      },
+      {
+        "id": "q42",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She's working here ___ a week.\"",
+        "theory_block_id": "b4_theory_time_markers",
+        "difficulty": 2,
+        "correct_answer": "for",
+        "explanation": "Маркер 'for a week' используется с Present Continuous для временных ситуаций: She's working here for a week.",
+        "tags": [
+          "markers",
+          "temporary"
+        ]
+      },
+      {
+        "id": "q43",
+        "type": "mcq_single",
+        "prompt": "Какой маркер времени используется с Present Continuous для действий в текущий период?",
+        "theory_block_id": "b4_theory_time_markers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "this year, this semester, nowadays",
+            "feedback": "Правильно!"
+          },
+          {
+            "id": "b",
+            "text": "now, right now",
+            "feedback": "Нет, это для действий прямо сейчас"
+          },
+          {
+            "id": "c",
+            "text": "yesterday, last month",
+            "feedback": "Нет, это для прошлого времени"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Маркеры this year, this semester, nowadays используются с Present Continuous для действий в текущий период времени.",
+        "tags": [
+          "markers",
+          "period"
+        ]
+      },
+      {
+        "id": "q44",
+        "type": "true_false",
+        "prompt": "Маркер 'nowadays' может использоваться с Present Continuous для описания текущих тенденций.",
+        "theory_block_id": "b4_theory_time_markers",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Верно. Маркер 'nowadays' указывает на текущий период и используется с Present Continuous для описания современных тенденций.",
+        "tags": [
+          "markers",
+          "period"
+        ]
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный маркер времени:",
+        "theory_block_id": "b4_theory_time_markers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm studying now.",
+            "feedback": "Правильно! 'now' для действий прямо сейчас"
+          },
+          {
+            "id": "b",
+            "text": "I'm studying always.",
+            "feedback": "Нет, 'always' используется с Present Simple"
+          },
+          {
+            "id": "c",
+            "text": "I'm studying yesterday.",
+            "feedback": "Нет, 'yesterday' используется с Past Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Маркер 'now' используется с Present Continuous для действий, происходящих прямо сейчас: I'm studying now.",
+        "tags": [
+          "markers",
+          "right_now"
+        ]
+      },
+      {
+        "id": "q46",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"They're learning French ___ semester.\"",
+        "theory_block_id": "b4_theory_time_markers",
+        "difficulty": 2,
+        "correct_answer": "this",
+        "explanation": "Маркер 'this semester' используется с Present Continuous для действий в текущий период: They're learning French this semester.",
+        "tags": [
+          "markers",
+          "period"
+        ]
+      },
+      {
+        "id": "q47",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**He's working here this week always.**",
+        "theory_block_id": "b4_theory_time_markers",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He's working here this week.",
+            "feedback": "Правильно! 'this week' для временной ситуации"
+          },
+          {
+            "id": "b",
+            "text": "He works here always.",
+            "feedback": "Нет, 'always' требует Present Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: маркеры 'this week' и 'always' не могут использоваться вместе. Для временной ситуации используйте 'this week': He's working here this week.",
+        "tags": [
+          "markers",
+          "error"
+        ]
+      },
+      {
+        "id": "q48",
+        "type": "true_false",
+        "prompt": "Маркер времени помогает определить значение Present Continuous.",
+        "theory_block_id": "b4_theory_time_markers",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. Маркеры времени (now, this week, this year) помогают понять, какое значение Present Continuous имеется в виду.",
+        "tags": [
+          "markers",
+          "concept"
+        ]
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант для постоянного места жительства:",
+        "theory_block_id": "b5_theory_temporary_vs_permanent",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I live in Paris.",
+            "feedback": "Правильно! Present Simple для постоянного"
+          },
+          {
+            "id": "b",
+            "text": "I'm living in Paris.",
+            "feedback": "Нет, это для временного проживания"
+          },
+          {
+            "id": "c",
+            "text": "I lived in Paris.",
+            "feedback": "Нет, это Past Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Постоянное место жительства описывается Present Simple: I live in Paris.",
+        "tags": [
+          "permanent",
+          "basic"
+        ]
+      },
+      {
+        "id": "q50",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант для временного проживания:",
+        "theory_block_id": "b5_theory_temporary_vs_permanent",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I live in London this year.",
+            "feedback": "Нет, нужен Present Continuous"
+          },
+          {
+            "id": "b",
+            "text": "I'm living in London this year.",
+            "feedback": "Правильно! Present Continuous для временного"
+          },
+          {
+            "id": "c",
+            "text": "I lived in London this year.",
+            "feedback": "Нет, это Past Simple"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Временное проживание описывается Present Continuous: I'm living in London this year.",
+        "tags": [
+          "temporary",
+          "basic"
+        ]
+      },
+      {
+        "id": "q51",
+        "type": "true_false",
+        "prompt": "Различие между Present Continuous и Present Simple — это временность vs постоянность ситуации.",
+        "theory_block_id": "b5_theory_temporary_vs_permanent",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. Present Continuous описывает временные ситуации, а Present Simple — постоянные факты или привычки.",
+        "tags": [
+          "concept",
+          "comparison"
+        ]
+      },
+      {
+        "id": "q52",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**I'm living in Moscow. (постоянное место жительства)**",
+        "theory_block_id": "b5_theory_temporary_vs_permanent",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I live in Moscow.",
+            "feedback": "Правильно! Present Simple для постоянного"
+          },
+          {
+            "id": "b",
+            "text": "I lived in Moscow.",
+            "feedback": "Нет, это Past Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: для постоянного места жительства нужен Present Simple, а не Present Continuous. Правильно: I live in Moscow.",
+        "tags": [
+          "permanent",
+          "error"
+        ]
+      },
+      {
+        "id": "q53",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**She works as a teacher this semester. (временная работа)**",
+        "theory_block_id": "b5_theory_temporary_vs_permanent",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She's working as a teacher this semester.",
+            "feedback": "Правильно! Present Continuous для временной работы"
+          },
+          {
+            "id": "b",
+            "text": "She worked as a teacher this semester.",
+            "feedback": "Нет, это Past Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: для временной работы нужен Present Continuous, а не Present Simple. Правильно: She's working as a teacher this semester.",
+        "tags": [
+          "temporary",
+          "error"
+        ]
+      },
+      {
+        "id": "q54",
+        "type": "mcq_single",
+        "prompt": "Какое предложение правильно описывает постоянную профессию?",
+        "theory_block_id": "b5_theory_temporary_vs_permanent",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He works at a bank.",
+            "feedback": "Правильно! Present Simple для постоянной работы"
+          },
+          {
+            "id": "b",
+            "text": "He's working at a bank.",
+            "feedback": "Нет, это для временной работы"
+          },
+          {
+            "id": "c",
+            "text": "He worked at a bank.",
+            "feedback": "Нет, это Past Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Постоянная профессия описывается Present Simple: He works at a bank.",
+        "tags": [
+          "permanent",
+          "affirmative"
+        ]
+      },
+      {
+        "id": "q55",
+        "type": "mcq_single",
+        "prompt": "Какое предложение правильно описывает временную работу?",
+        "theory_block_id": "b5_theory_temporary_vs_permanent",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "They work here this month.",
+            "feedback": "Нет, нужен Present Continuous"
+          },
+          {
+            "id": "b",
+            "text": "They're working here this month.",
+            "feedback": "Правильно! Present Continuous для временной работы"
+          },
+          {
+            "id": "c",
+            "text": "They worked here this month.",
+            "feedback": "Нет, это Past Simple"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Временная работа описывается Present Continuous: They're working here this month.",
+        "tags": [
+          "temporary",
+          "affirmative"
+        ]
+      },
+      {
+        "id": "q56",
+        "type": "true_false",
+        "prompt": "Одна и та же ситуация может быть описана по-разному в зависимости от того, является ли она временной или постоянной.",
+        "theory_block_id": "b5_theory_temporary_vs_permanent",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Верно. Например, 'I live in Paris' (постоянно) vs 'I'm living in Paris this year' (временно) — это разные времена для разных ситуаций.",
+        "tags": [
+          "concept",
+          "comparison"
+        ]
+      },
+      {
+        "id": "q57",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I ___ in Berlin. (постоянное место жительства)\" (live)",
+        "theory_block_id": "b5_theory_temporary_vs_permanent",
+        "difficulty": 2,
+        "correct_answer": "live",
+        "explanation": "Для постоянного места жительства используется Present Simple: I live in Berlin.",
+        "tags": [
+          "permanent",
+          "affirmative"
+        ]
+      },
+      {
+        "id": "q58",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I ___ in Berlin this year. (временное проживание)\" (live)",
+        "theory_block_id": "b5_theory_temporary_vs_permanent",
+        "difficulty": 2,
+        "correct_answer": "am living",
+        "explanation": "Для временного проживания используется Present Continuous: I'm living in Berlin this year.",
+        "tags": [
+          "temporary",
+          "affirmative"
+        ]
+      },
+      {
+        "id": "q59",
+        "type": "mcq_single",
+        "prompt": "Выберите правильное предложение для постоянной ситуации:",
+        "theory_block_id": "b5_theory_temporary_vs_permanent",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She studies at university.",
+            "feedback": "Правильно! Present Simple для постоянной ситуации"
+          },
+          {
+            "id": "b",
+            "text": "She's studying at university this semester.",
+            "feedback": "Нет, это для временной ситуации"
+          },
+          {
+            "id": "c",
+            "text": "She studied at university.",
+            "feedback": "Нет, это Past Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Постоянная ситуация описывается Present Simple: She studies at university.",
+        "tags": [
+          "permanent",
+          "affirmative"
+        ]
+      },
+      {
+        "id": "q60",
+        "type": "true_false",
+        "prompt": "Предложение 'I'm staying with friends this week' описывает временную ситуацию, а не постоянную.",
+        "theory_block_id": "b5_theory_temporary_vs_permanent",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Верно. 'I'm staying with friends this week' описывает временную ситуацию, которая ограничена этим периодом (this week).",
+        "tags": [
+          "temporary",
+          "concept"
+        ]
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-18T11:13:43Z",
+    "source": "llm"
+  }
+}
