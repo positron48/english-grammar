@@ -259,20 +259,6 @@
       ]
     },
     {
-      "id": "q14",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b2_theory_forms_table",
-      "difficulty": 2,
-      "correct_answer": "This is our house.",
-      "explanation": "Правильный порядок: This is our house. Притяжательное прилагательное our стоит перед существительным house.",
-      "tags": [
-        "forms",
-        "our",
-        "word_order"
-      ]
-    },
-    {
       "id": "q15",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"I have ___ book.\" (мой)",
@@ -328,50 +314,6 @@
         "usage",
         "her",
         "negative"
-      ]
-    },
-    {
-      "id": "q18",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: \"I lost phone.\"",
-      "theory_block_id": "b3_theory_usage_with_nouns",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "phone → my phone",
-          "feedback": "Правильно! Нужно указать, чей телефон: I lost my phone"
-        },
-        {
-          "id": "b",
-          "text": "lost → lose",
-          "feedback": "Нет, lost здесь правильное. Ошибка в отсутствии притяжательного прилагательного"
-        },
-        {
-          "id": "c",
-          "text": "I → me",
-          "feedback": "Нет, I здесь правильное. Ошибка в отсутствии притяжательного прилагательного"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: нужно указать, чей телефон. Правильно: I lost my phone.",
-      "tags": [
-        "usage",
-        "error"
-      ]
-    },
-    {
-      "id": "q19",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b3_theory_usage_with_nouns",
-      "difficulty": 2,
-      "correct_answer": "This is his car.",
-      "explanation": "Правильный порядок: This is his car. Притяжательное прилагательное his стоит перед существительным car.",
-      "tags": [
-        "usage",
-        "his",
-        "word_order"
       ]
     },
     {
@@ -475,68 +417,6 @@
       "tags": [
         "his_her",
         "his",
-        "male"
-      ]
-    },
-    {
-      "id": "q25",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: \"Anna has his book.\"",
-      "theory_block_id": "b4_theory_his_vs_her",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "his → her",
-          "feedback": "Правильно! Anna — женщина (she), поэтому используем her, а не his"
-        },
-        {
-          "id": "b",
-          "text": "has → have",
-          "feedback": "Нет, has здесь правильное. Ошибка в выборе притяжательного прилагательного"
-        },
-        {
-          "id": "c",
-          "text": "book → books",
-          "feedback": "Нет, book здесь правильное. Ошибка в выборе притяжательного прилагательного"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: his → her. Anna — женщина (she), поэтому используем her, а не his. Правильно: Anna has her book.",
-      "tags": [
-        "his_her",
-        "error",
-        "female"
-      ]
-    },
-    {
-      "id": "q26",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: \"Tom has her car.\"",
-      "theory_block_id": "b4_theory_his_vs_her",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "her → his",
-          "feedback": "Правильно! Tom — мужчина (he), поэтому используем his, а не her"
-        },
-        {
-          "id": "b",
-          "text": "has → have",
-          "feedback": "Нет, has здесь правильное. Ошибка в выборе притяжательного прилагательного"
-        },
-        {
-          "id": "c",
-          "text": "car → cars",
-          "feedback": "Нет, car здесь правильное. Ошибка в выборе притяжательного прилагательного"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: her → his. Tom — мужчина (he), поэтому используем his, а не her. Правильно: Tom has his car.",
-      "tags": [
-        "his_her",
-        "error",
         "male"
       ]
     },
@@ -655,50 +535,6 @@
       ]
     },
     {
-      "id": "q33",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"Whose ___ is that?\" (телефон)",
-      "theory_block_id": "b5_theory_questions_with_whose",
-      "difficulty": 2,
-      "correct_answer": "phone",
-      "explanation": "После whose всегда идет существительное: Whose phone is that? (Чей это телефон?)",
-      "tags": [
-        "whose",
-        "questions",
-        "noun"
-      ]
-    },
-    {
-      "id": "q34",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: \"Whose is this?\"",
-      "theory_block_id": "b5_theory_questions_with_whose",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Whose is this? → Whose book is this?",
-          "feedback": "Правильно! После whose должно идти существительное"
-        },
-        {
-          "id": "b",
-          "text": "this → that",
-          "feedback": "Нет, this здесь правильное. Ошибка в отсутствии существительного после whose"
-        },
-        {
-          "id": "c",
-          "text": "Whose → Who",
-          "feedback": "Нет, Whose здесь правильное. Ошибка в отсутствии существительного после whose"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: после whose должно идти существительное. Правильно: Whose book is this? или Whose is this book?",
-      "tags": [
-        "whose",
-        "error"
-      ]
-    },
-    {
       "id": "q35",
       "type": "true_false",
       "prompt": "Верно или неверно: После whose всегда идет существительное.",
@@ -799,20 +635,6 @@
       ]
     },
     {
-      "id": "q41",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b3_theory_usage_with_nouns",
-      "difficulty": 2,
-      "correct_answer": "This is her bag.",
-      "explanation": "Правильный порядок: This is her bag. Притяжательное прилагательное her стоит перед существительным bag.",
-      "tags": [
-        "usage",
-        "her",
-        "word_order"
-      ]
-    },
-    {
       "id": "q42",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"They don't have ___ car.\" (их)",
@@ -824,36 +646,6 @@
         "usage",
         "their",
         "negative"
-      ]
-    },
-    {
-      "id": "q43",
-      "type": "mcq_single",
-      "prompt": "Выберите правильный вариант: \"We need ___ books.\"",
-      "theory_block_id": "b2_theory_forms_table",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "our",
-          "feedback": "Правильно! we → our"
-        },
-        {
-          "id": "b",
-          "text": "my",
-          "feedback": "Нет, my соответствует I. Для we используется our"
-        },
-        {
-          "id": "c",
-          "text": "their",
-          "feedback": "Нет, their соответствует they. Для we используется our"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Для первого лица множественного числа (we) используется притяжательное прилагательное our: We need our books.",
-      "tags": [
-        "forms",
-        "our"
       ]
     },
     {
@@ -912,96 +704,6 @@
         "his_her",
         "its",
         "animals"
-      ]
-    },
-    {
-      "id": "q47",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"Whose ___ is this?\" (машина)",
-      "theory_block_id": "b5_theory_questions_with_whose",
-      "difficulty": 2,
-      "correct_answer": "car",
-      "explanation": "После whose всегда идет существительное: Whose car is this? (Чья это машина?)",
-      "tags": [
-        "whose",
-        "questions",
-        "noun"
-      ]
-    },
-    {
-      "id": "q48",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b3_theory_usage_with_nouns",
-      "difficulty": 2,
-      "correct_answer": "These are their friends.",
-      "explanation": "Правильный порядок: These are their friends. Притяжательное прилагательное their стоит перед существительным friends.",
-      "tags": [
-        "usage",
-        "their",
-        "word_order"
-      ]
-    },
-    {
-      "id": "q49",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: \"Peter has her book.\"",
-      "theory_block_id": "b4_theory_his_vs_her",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "her → his",
-          "feedback": "Правильно! Peter — мужчина (he), поэтому используем his, а не her"
-        },
-        {
-          "id": "b",
-          "text": "has → have",
-          "feedback": "Нет, has здесь правильное. Ошибка в выборе притяжательного прилагательного"
-        },
-        {
-          "id": "c",
-          "text": "book → books",
-          "feedback": "Нет, book здесь правильное. Ошибка в выборе притяжательного прилагательного"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: her → his. Peter — мужчина (he), поэтому используем his, а не her. Правильно: Peter has his book.",
-      "tags": [
-        "his_her",
-        "error",
-        "male"
-      ]
-    },
-    {
-      "id": "q50",
-      "type": "mcq_single",
-      "prompt": "Выберите правильный вариант: \"Sarah has ___ bag.\"",
-      "theory_block_id": "b4_theory_his_vs_her",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "his",
-          "feedback": "Нет, Sarah — женщина (she), поэтому используем her, а не his"
-        },
-        {
-          "id": "b",
-          "text": "her",
-          "feedback": "Правильно! Sarah — женщина (she), поэтому используем her"
-        },
-        {
-          "id": "c",
-          "text": "its",
-          "feedback": "Нет, its используется для предметов и животных (it), а не для людей"
-        }
-      ],
-      "correct_answer": "b",
-      "explanation": "Sarah — женщина (she), поэтому используем притяжательное прилагательное her: Sarah has her bag.",
-      "tags": [
-        "his_her",
-        "her",
-        "female"
       ]
     },
     {
@@ -1075,20 +777,6 @@
       ]
     },
     {
-      "id": "q55",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b5_theory_questions_with_whose",
-      "difficulty": 2,
-      "correct_answer": "Whose book is this?",
-      "explanation": "Правильный порядок: Whose book is this? Whose стоит перед существительным book.",
-      "tags": [
-        "whose",
-        "questions",
-        "word_order"
-      ]
-    },
-    {
       "id": "q57",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"She doesn't have ___ keys.\" (её)",
@@ -1144,20 +832,6 @@
       "tags": [
         "whose",
         "noun"
-      ]
-    },
-    {
-      "id": "q60",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b3_theory_usage_with_nouns",
-      "difficulty": 2,
-      "correct_answer": "This is our house.",
-      "explanation": "Правильный порядок: This is our house. Притяжательное прилагательное our стоит перед существительным house.",
-      "tags": [
-        "usage",
-        "our",
-        "word_order"
       ]
     }
   ]
