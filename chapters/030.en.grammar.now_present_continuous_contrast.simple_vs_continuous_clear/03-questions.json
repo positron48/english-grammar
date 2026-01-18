@@ -89,11 +89,11 @@
     {
       "id": "q5",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"What ___ you doing? I ___ working on a project.\" (be)",
+      "prompt": "Заполните пропуск: \"What ___ you doing?\" (be)",
       "theory_block_id": "b1_theory_facts_vs_actions",
       "difficulty": 2,
-      "correct_answer": "are, 'm",
-      "explanation": "В вопросах Present Continuous связка стоит перед подлежащим. С you используется are. В ответе используется сокращение 'm (am).",
+      "correct_answer": "are",
+      "explanation": "В вопросах Present Continuous связка стоит перед подлежащим. С you используется are. What are you doing?",
       "tags": [
         "action_now",
         "continuous"
@@ -170,14 +170,14 @@
     {
       "id": "q9",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"They ___ doctors. They ___ working at the hospital right now.\" (be)",
+      "prompt": "Заполните пропуск: \"They ___ doctors.\" (be)",
       "theory_block_id": "b1_theory_facts_vs_actions",
-      "difficulty": 3,
-      "correct_answer": "are, are",
-      "explanation": "Первое предложение — факт (Present Simple, но с be это am/is/are). Второе — действие сейчас (Present Continuous: are working).",
+      "difficulty": 2,
+      "correct_answer": "are",
+      "explanation": "Первое предложение — факт (Present Simple, но с be это am/is/are). They are doctors — правильная форма.",
       "tags": [
         "fact",
-        "action_now"
+        "simple"
       ]
     },
     {
@@ -279,10 +279,10 @@
     {
       "id": "q14",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"I ___ in a hotel this week while my apartment is being renovated.\" (live)",
+      "prompt": "Заполните пропуск: \"I'm ___ in a hotel this week.\" (жить)",
       "theory_block_id": "b2_theory_permanent_vs_temporary",
       "difficulty": 2,
-      "correct_answer": "'m living",
+      "correct_answer": "living",
       "explanation": "Временная ситуация с маркером 'this week' требует Present Continuous. I'm living in a hotel this week — правильная форма.",
       "tags": [
         "temporary",
@@ -335,14 +335,14 @@
     {
       "id": "q17",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"He usually ___ in London, but he ___ in Manchester this month.\" (work)",
+      "prompt": "Заполните пропуск: \"He usually ___ in London.\" (work)",
       "theory_block_id": "b2_theory_permanent_vs_temporary",
-      "difficulty": 3,
-      "correct_answer": "works, 's working",
-      "explanation": "Первая часть — постоянная ситуация (Simple: works). Вторая — временная ситуация (Continuous: 's working).",
+      "difficulty": 2,
+      "correct_answer": "works",
+      "explanation": "Постоянная ситуация с маркером 'usually' требует Present Simple. He usually works in London — правильная форма.",
       "tags": [
         "permanent",
-        "temporary"
+        "simple"
       ]
     },
     {
@@ -416,14 +416,14 @@
     {
       "id": "q21",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"They ___ in a small apartment, but they ___ in a big house this summer.\" (live)",
+      "prompt": "Заполните пропуск: \"They ___ in a small apartment.\" (жить, постоянная ситуация)",
       "theory_block_id": "b2_theory_permanent_vs_temporary",
-      "difficulty": 3,
-      "correct_answer": "live, 're living",
-      "explanation": "Первая часть — постоянная ситуация (Simple: live). Вторая — временная ситуация (Continuous: 're living).",
+      "difficulty": 2,
+      "correct_answer": "live",
+      "explanation": "Постоянная ситуация требует Present Simple. They live in a small apartment — правильная форма.",
       "tags": [
         "permanent",
-        "temporary"
+        "simple"
       ]
     },
     {
@@ -526,11 +526,11 @@
     {
       "id": "q26",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"I ___ this answer. I ___ the problem.\" (know, understand)",
+      "prompt": "Заполните пропуск: \"I ___ this answer.\" (знать)",
       "theory_block_id": "b3_theory_state_vs_action_verbs",
       "difficulty": 2,
-      "correct_answer": "know, understand",
-      "explanation": "Статичные глаголы know и understand используются только в Present Simple. I know this answer. I understand the problem.",
+      "correct_answer": "know",
+      "explanation": "Статичный глагол know используется только в Present Simple. I know this answer — правильная форма.",
       "tags": [
         "state_verb",
         "simple"
@@ -581,11 +581,11 @@
     {
       "id": "q29",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"I ___ running in the park. I ___ writing a letter.\" (be)",
+      "prompt": "Заполните пропуск: \"I ___ running in the park.\" (be)",
       "theory_block_id": "b3_theory_state_vs_action_verbs",
       "difficulty": 2,
-      "correct_answer": "'m, 'm",
-      "explanation": "Динамичные глаголы могут быть в Present Continuous. I'm running in the park. I'm writing a letter.",
+      "correct_answer": "'m",
+      "explanation": "Динамичные глаголы могут быть в Present Continuous. I'm running in the park — правильная форма.",
       "tags": [
         "action_verb",
         "continuous"
@@ -631,12 +631,12 @@
         {
           "id": "b",
           "text": "I like this song.",
-          "feedback": "Нет, это правильное предложение."
+          "feedback": "Нет, это правильное предложение — статичный глагол like используется в Simple."
         },
         {
           "id": "c",
           "text": "I'm listening to this song.",
-          "feedback": "Нет, это правильное предложение."
+          "feedback": "Нет, это правильное предложение — динамичный глагол listen может быть в Continuous."
         }
       ],
       "correct_answer": "a",
@@ -662,14 +662,14 @@
     {
       "id": "q33",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"She ___ coffee, but she ___ tea right now.\" (want, make)",
+      "prompt": "Заполните пропуск: \"She ___ coffee.\" (want)",
       "theory_block_id": "b3_theory_state_vs_action_verbs",
-      "difficulty": 3,
-      "correct_answer": "wants, 's making",
-      "explanation": "Статичный глагол want в Simple (wants), динамичный make в Continuous ('s making). She wants coffee, but she's making tea right now.",
+      "difficulty": 2,
+      "correct_answer": "wants",
+      "explanation": "Статичный глагол want используется только в Present Simple. She wants coffee — правильная форма.",
       "tags": [
         "state_verb",
-        "action_verb"
+        "simple"
       ]
     },
     {
@@ -772,7 +772,7 @@
     {
       "id": "q38",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"I always ___ breakfast at 8 o'clock.\" (have)",
+      "prompt": "Заполните пропуск: \"I always ___ breakfast at 8 o'clock.\" (есть, завтракать)",
       "theory_block_id": "b4_theory_time_markers_decision",
       "difficulty": 2,
       "correct_answer": "have",
@@ -937,7 +937,7 @@
     {
       "id": "q46",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"___ 1: Действие происходит прямо сейчас? Если ДА → Present Continuous.\"",
+      "prompt": "Заполните пропуск: \"___ 1: Действие происходит прямо сейчас? Если ДА → Present Continuous.\" (название этапа)",
       "theory_block_id": "b5_theory_decision_tree",
       "difficulty": 1,
       "correct_answer": "Шаг",
@@ -993,7 +993,7 @@
     {
       "id": "q49",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"___ 2: Это статичный глагол (know, like, want, believe)? Если ДА → Present Simple.\"",
+      "prompt": "Заполните пропуск: \"___ 2: Это статичный глагол (know, like, want, believe)? Если ДА → Present Simple.\" (название этапа)",
       "theory_block_id": "b5_theory_decision_tree",
       "difficulty": 1,
       "correct_answer": "Шаг",
@@ -1103,10 +1103,10 @@
     {
       "id": "q54",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"Типичная ошибка: 'I'm ___ in a bank.' (если это постоянная работа) Правильно: 'I ___ in a bank.'\" (work)",
+      "prompt": "Заполните пропуск: \"Правильно: 'I ___ in a bank.' (для постоянной работы)\" (работать)",
       "theory_block_id": "b6_theory_common_mistakes",
       "difficulty": 2,
-      "correct_answer": "working, work",
+      "correct_answer": "work",
       "explanation": "Для постоянной работы используется Present Simple, а не Continuous. I work in a bank — правильный вариант для постоянной работы.",
       "tags": [
         "common_mistake"
@@ -1182,10 +1182,10 @@
     {
       "id": "q58",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"Ошибка: 'I always ___ going to the gym.' (с always нужен Simple) Правильно: 'I always ___ to the gym.'\" (be, go)",
+      "prompt": "Заполните пропуск: \"Правильно: 'I always ___ to the gym.' (с always нужен Simple)\" (ходить, идти)",
       "theory_block_id": "b6_theory_common_mistakes",
-      "difficulty": 3,
-      "correct_answer": "am, go",
+      "difficulty": 2,
+      "correct_answer": "go",
       "explanation": "С маркером always нужен Present Simple, а не Continuous. I always go to the gym — правильный вариант.",
       "tags": [
         "common_mistake"
