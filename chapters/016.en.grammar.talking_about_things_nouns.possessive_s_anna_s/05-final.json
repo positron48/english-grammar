@@ -129,7 +129,6 @@
           "q6",
           "q7",
           "q8",
-          "q9",
           "q10",
           "q32"
         ],
@@ -186,7 +185,6 @@
           "q11",
           "q12",
           "q13",
-          "q14",
           "q15",
           "q34"
         ],
@@ -520,37 +518,6 @@
         ]
       },
       {
-        "id": "q9",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"James phone is ringing.\"",
-        "theory_block_id": "b2_theory_singular_nouns_names",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "James → James's",
-            "feedback": "Правильно! Даже если имя заканчивается на -s, нужно добавить 's"
-          },
-          {
-            "id": "b",
-            "text": "phone → phones",
-            "feedback": "Нет, phone здесь правильное. Ошибка в отсутствии 's после James"
-          },
-          {
-            "id": "c",
-            "text": "is → are",
-            "feedback": "Нет, is здесь правильное. Ошибка в отсутствии 's после James"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: James → James's. Даже если имя заканчивается на -s, нужно добавить 's. Правильно: James's phone is ringing.",
-        "tags": [
-          "singular",
-          "names",
-          "error"
-        ]
-      },
-      {
         "id": "q10",
         "type": "true_false",
         "prompt": "Верно или неверно: Если имя заканчивается на -s (например, James), мы добавляем только апостроф, без s.",
@@ -617,36 +584,6 @@
         "tags": [
           "plural",
           "irregular"
-        ]
-      },
-      {
-        "id": "q14",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"The students's books are in the classroom.\"",
-        "theory_block_id": "b3_theory_plural_nouns",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "students's → students'",
-            "feedback": "Правильно! После множественного числа на -s добавляем только апостроф, без s"
-          },
-          {
-            "id": "b",
-            "text": "books → book",
-            "feedback": "Нет, books здесь правильное. Ошибка в students's → students'"
-          },
-          {
-            "id": "c",
-            "text": "are → is",
-            "feedback": "Нет, are здесь правильное для множественного числа. Ошибка в students's"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: students's → students'. После множественного числа на -s добавляем только апостроф. Правильно: The students' books are in the classroom.",
-        "tags": [
-          "plural",
-          "error"
         ]
       },
       {
@@ -1047,12 +984,10 @@
       "q6",
       "q7",
       "q8",
-      "q9",
       "q10",
       "q11",
       "q12",
       "q13",
-      "q14",
       "q15",
       "q17",
       "q18",
@@ -1086,7 +1021,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-18T13:25:11Z",
+    "updated_at": "2026-01-18T18:22:22Z",
     "source": "llm"
   }
 }
