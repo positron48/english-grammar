@@ -157,11 +157,11 @@
     {
       "id": "q8",
       "type": "true_false",
-      "prompt": "Предложение 'I'm working in a bank now' описывает действие, происходящее прямо сейчас.",
+      "prompt": "Предложение 'I work in a bank now' правильно для описания действия, происходящего прямо сейчас.",
       "theory_block_id": "b1_theory_facts_vs_actions",
-      "difficulty": 1,
-      "correct_answer": "true",
-      "explanation": "Верно. Present Continuous с маркером now описывает действие, происходящее в момент речи.",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Неверно. Для действия, происходящего прямо сейчас, нужен Present Continuous: I'm working in a bank now. I work in a bank — это факт о постоянной работе.",
       "tags": [
         "action_now",
         "continuous"
@@ -403,11 +403,11 @@
     {
       "id": "q20",
       "type": "true_false",
-      "prompt": "Предложение 'I'm staying at a hotel this week' описывает временную ситуацию.",
+      "prompt": "Предложение 'I stay at a hotel this week' правильно для описания временной ситуации.",
       "theory_block_id": "b2_theory_permanent_vs_temporary",
-      "difficulty": 1,
-      "correct_answer": "true",
-      "explanation": "Верно. Present Continuous с маркером 'this week' описывает временную ситуацию, которая продолжается ограниченный период.",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Неверно. Для временной ситуации с маркером 'this week' нужен Present Continuous: I'm staying at a hotel this week. I stay — это для постоянной ситуации.",
       "tags": [
         "temporary",
         "continuous"
@@ -649,11 +649,11 @@
     {
       "id": "q32",
       "type": "true_false",
-      "prompt": "Предложение 'She wants coffee, but she's making tea right now' правильно — статичный глагол want в Simple, динамичный make в Continuous.",
+      "prompt": "Предложение 'She's wanting coffee, but she makes tea right now' правильно — статичный глагол want может быть в Continuous.",
       "theory_block_id": "b3_theory_state_vs_action_verbs",
-      "difficulty": 1,
-      "correct_answer": "true",
-      "explanation": "Верно. Статичный глагол want описывает состояние и используется в Simple. Динамичный глагол make описывает действие и может быть в Continuous.",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Неверно. Статичный глагол want не используется в Continuous. Правильно: She wants coffee, but she's making tea right now.",
       "tags": [
         "state_verb",
         "action_verb"
@@ -895,11 +895,11 @@
     {
       "id": "q44",
       "type": "true_false",
-      "prompt": "Предложение 'I usually work from home, but I'm working at the office this week' правильно использует маркеры времени.",
+      "prompt": "Маркер 'always' требует использования Present Continuous.",
       "theory_block_id": "b4_theory_time_markers_decision",
-      "difficulty": 1,
-      "correct_answer": "true",
-      "explanation": "Верно. usually указывает на Simple (work), this week указывает на Continuous ('m working) для временной ситуации.",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Неверно. Маркер 'always' указывает на регулярность и привычки, что требует Present Simple. I always go to the gym — правильный вариант.",
       "tags": [
         "time_marker"
       ]
