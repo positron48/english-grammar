@@ -1,6 +1,6 @@
 # Makefile для управления проектом english-grammar
 
-.PHONY: help final validate-all clean admin run
+.PHONY: help final validate-all validate-uniqueness clean admin run
 
 # Находим все главы (с префиксами или без)
 # Извлекаем chapter_id из имени папки (убираем префикс вида 001.)
@@ -8,11 +8,12 @@ CHAPTERS := $(shell find chapters -mindepth 1 -maxdepth 1 -type d -not -name '.*
 
 help:
 	@echo "Доступные команды:"
-	@echo "  make final          - Пересобрать все final.json для всех глав"
-	@echo "  make validate-all    - Валидировать все главы"
-	@echo "  make admin           - Запустить админ-панель для просмотра глав"
-	@echo "  make run             - Запустить тестовую систему для изучения курса"
-	@echo "  make clean           - Удалить временные файлы"
+	@echo "  make final              - Пересобрать все final.json для всех глав"
+	@echo "  make validate-all        - Валидировать все главы"
+	@echo "  make validate-uniqueness - Проверить уникальность вопросов по всему курсу"
+	@echo "  make admin               - Запустить админ-панель для просмотра глав"
+	@echo "  make run                 - Запустить тестовую систему для изучения курса"
+	@echo "  make clean               - Удалить временные файлы"
 	@echo ""
 	@echo "Найдено глав: $(words $(CHAPTERS))"
 	@echo "$(foreach ch,$(CHAPTERS),  - $(ch)$(newline))"
@@ -30,6 +31,13 @@ validate-all:
 	@for chapter in $(CHAPTERS); do \
 		bash scripts/validate-chapter.sh $$chapter; \
 	done
+	@echo ""
+	@echo "Проверка уникальности вопросов по всему курсу..."
+	@bash scripts/validate-course-uniqueness.sh || true
+
+# Проверить уникальность вопросов по всему курсу
+validate-uniqueness:
+	@bash scripts/validate-course-uniqueness.sh
 
 # Очистка временных файлов
 clean:

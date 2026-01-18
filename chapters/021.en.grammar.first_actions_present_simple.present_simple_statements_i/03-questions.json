@@ -112,35 +112,6 @@
       ]
     },
     {
-      "id": "q6",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении: \"He work every day.\"",
-      "theory_block_id": "b1_theory_statements_intro",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "work",
-          "feedback": "Правильно! Для he нужно 'works' с окончанием -s"
-        },
-        {
-          "id": "b",
-          "text": "every day",
-          "feedback": "Нет, 'every day' здесь правильно"
-        },
-        {
-          "id": "c",
-          "text": "He",
-          "feedback": "Нет, 'He' здесь правильно"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка в слове 'work'. Для he нужно использовать форму 'works' с окончанием -s.",
-      "tags": [
-        "error"
-      ]
-    },
-    {
       "id": "q7",
       "type": "mcq_single",
       "prompt": "В утверждениях Present Simple глагол изменяется в зависимости от...",
@@ -382,35 +353,6 @@
       ]
     },
     {
-      "id": "q20",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении: \"I works every day.\"",
-      "theory_block_id": "b2_theory_first_second_person",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "works",
-          "feedback": "Правильно! Для I используется базовая форма 'work', а не 'works'"
-        },
-        {
-          "id": "b",
-          "text": "every day",
-          "feedback": "Нет, 'every day' здесь правильно"
-        },
-        {
-          "id": "c",
-          "text": "I",
-          "feedback": "Нет, 'I' здесь правильно"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка в слове 'works'. Для первого лица единственного числа (I) используется базовая форма глагола 'work', а не 'works'. Окончание -s добавляется только для he/she/it.",
-      "tags": [
-        "error"
-      ]
-    },
-    {
       "id": "q21",
       "type": "error_spotting",
       "prompt": "Найдите ошибку в предложении: \"We plays football.\"",
@@ -437,35 +379,6 @@
       "explanation": "Ошибка в слове 'plays'. Для первого лица множественного числа (we) используется базовая форма глагола 'play', а не 'plays'.",
       "tags": [
         "error"
-      ]
-    },
-    {
-      "id": "q22",
-      "type": "mcq_single",
-      "prompt": "Какое предложение правильно использует базовую форму глагола?",
-      "theory_block_id": "b2_theory_first_second_person",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I work in an office.",
-          "feedback": "Правильно! Для I используется базовая форма 'work'"
-        },
-        {
-          "id": "b",
-          "text": "I works in an office.",
-          "feedback": "Нет, для I не используется форма с -s"
-        },
-        {
-          "id": "c",
-          "text": "He work in an office.",
-          "feedback": "Нет, для he нужна форма с -s"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Предложение 'I work in an office' правильно использует базовую форму 'work' для первого лица единственного числа (I).",
-      "tags": [
-        "identification"
       ]
     },
     {
@@ -684,35 +597,6 @@
       "explanation": "Ошибка в слове 'play'. Для третьего лица единственного числа (she) глагол должен иметь окончание -s: play → plays.",
       "tags": [
         "error"
-      ]
-    },
-    {
-      "id": "q35",
-      "type": "mcq_single",
-      "prompt": "Какое предложение правильно использует форму с -s?",
-      "theory_block_id": "b3_theory_third_person_s",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "She works in an office.",
-          "feedback": "Правильно! Для she используется форма 'works' с -s"
-        },
-        {
-          "id": "b",
-          "text": "She work in an office.",
-          "feedback": "Нет, для she нужна форма с -s"
-        },
-        {
-          "id": "c",
-          "text": "I works in an office.",
-          "feedback": "Нет, для I используется базовая форма без -s"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Предложение 'She works in an office' правильно использует форму 'works' с окончанием -s для местоимения 'she' (третье лицо единственного числа).",
-      "tags": [
-        "identification"
       ]
     },
     {
@@ -1137,18 +1021,6 @@
       "explanation": "Глаголы work, study, play, live часто используются в утверждениях Present Simple для описания регулярных действий и постоянных состояний.",
       "tags": [
         "common_verbs"
-      ]
-    },
-    {
-      "id": "q57",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"I ___ in an office.\" (работать)",
-      "theory_block_id": "b5_theory_common_verbs",
-      "difficulty": 1,
-      "correct_answer": "work",
-      "explanation": "Правильный ответ: 'work'. Глагол 'work' (работать) — это часто используемый глагол деятельности. Для I используется базовая форма 'work'.",
-      "tags": [
-        "work"
       ]
     },
     {
