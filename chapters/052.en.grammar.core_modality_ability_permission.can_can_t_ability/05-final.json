@@ -1,0 +1,1232 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.core_modality_ability_permission.can_can_t_ability",
+  "section_id": "en.grammar.core_modality_ability_permission",
+  "title": "can/can’t: ability/permission/possibility",
+  "title_short": "can/can’t: ability/permission/possibility",
+  "description": "Базовое употребление can/can’t: умение, разрешение и возможность, формы вопросов и отрицаний.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "A2",
+  "order": 0,
+  "prerequisites": [],
+  "concept_refs": [
+    "can_ability",
+    "can_permission",
+    "can_possibility",
+    "can_forms_questions",
+    "can_short_answers"
+  ],
+  "learning_objectives": [
+    "Использовать can для выражения умения и способности.",
+    "Использовать can для разрешения и просьб.",
+    "Различать can как возможность и запрет (can’t).",
+    "Строить вопросы и краткие ответы с can."
+  ],
+  "estimated_minutes": 24,
+  "blocks": [
+    {
+      "id": "b1_theory_ability",
+      "type": "theory",
+      "title": "Can выражает умение или способность делать что-то в общем.",
+      "theory": {
+        "concept_id": "can_ability",
+        "content_md": "**Can** выражает умение или способность делать что-то в общем.\n\nПосле can используется базовая форма глагола: can swim, can drive.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I can swim.",
+            "translation": "Я умею плавать.",
+            "tags": [
+              "ability"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "She can speak English.",
+            "translation": "Она умеет говорить по-английски.",
+            "tags": [
+              "ability"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_ability",
+      "type": "quiz_inline",
+      "title": "Quick check: ability",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_permission",
+      "type": "theory",
+      "title": "Can используется, чтобы попросить разрешение или дать его.",
+      "theory": {
+        "concept_id": "can_permission",
+        "content_md": "**Can** используется, чтобы попросить разрешение или дать его.\n\nВежливые просьбы: Can I...? / Can we...?",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Can I sit here?",
+            "translation": "Можно мне здесь сесть?",
+            "tags": [
+              "permission",
+              "question"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "You can use my phone.",
+            "translation": "Ты можешь воспользоваться моим телефоном.",
+            "tags": [
+              "permission",
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_permission",
+      "type": "quiz_inline",
+      "title": "Quick check: permission",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14",
+          "q15",
+          "q16",
+          "q17"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_possibility",
+      "type": "theory",
+      "title": "Can также означает возможность/невозможность ситуации.",
+      "theory": {
+        "concept_id": "can_possibility",
+        "content_md": "**Can** также означает возможность/невозможность ситуации.\n\nCan’t часто выражает запрет или невозможность.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "It can be very cold in winter.",
+            "translation": "Зимой может быть очень холодно.",
+            "tags": [
+              "possibility"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "You can't park here.",
+            "translation": "Здесь нельзя парковаться.",
+            "tags": [
+              "prohibition",
+              "negative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_possibility",
+      "type": "quiz_inline",
+      "title": "Quick check: possibility",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26",
+          "q27",
+          "q28",
+          "q29"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_forms_questions",
+      "type": "theory",
+      "title": "Форма: can + V1. Вопрос: Can + subject + V1? Отрицание: can't + V1.",
+      "theory": {
+        "concept_id": "can_forms_questions",
+        "content_md": "Форма: **can + V1**. Вопрос: **Can + subject + V1?** Отрицание: **can't + V1**.\n\nВ третьем лице окончания -s не добавляются: *He can*, не *he cans*.",
+        "key_points": [],
+        "common_mistakes": [
+          {
+            "wrong": "He cans drive.",
+            "right": "He can drive.",
+            "why": "После can глагол без -s."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Can you help me?",
+            "translation": "Ты можешь помочь мне?",
+            "tags": [
+              "question"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "She can't come today.",
+            "translation": "Она не может прийти сегодня.",
+            "tags": [
+              "negative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8_quiz_after_forms_questions",
+      "type": "quiz_inline",
+      "title": "Quick check: forms and questions",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38",
+          "q39",
+          "q40",
+          "q41"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_short_answers",
+      "type": "theory",
+      "title": "Краткие ответы с can: Yes, I can. / No, I can't.",
+      "theory": {
+        "concept_id": "can_short_answers",
+        "content_md": "Краткие ответы с can: **Yes, I can. / No, I can't.**\n\nВ ответах повторяется can, а не основной глагол.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "— Can you swim? — Yes, I can.",
+            "translation": "— Ты умеешь плавать? — Да, умею.",
+            "tags": [
+              "short_answer"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "— Can she come? — No, she can't.",
+            "translation": "— Она может прийти? — Нет, не может.",
+            "tags": [
+              "short_answer",
+              "negative"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант об умении: '___ ride a bike.'",
+        "theory_block_id": "b1_theory_ability",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I can"
+          },
+          {
+            "id": "b",
+            "text": "I will"
+          },
+          {
+            "id": "c",
+            "text": "I am"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Умение выражается can: I can ride a bike."
+      },
+      {
+        "id": "q2",
+        "type": "fill_blank",
+        "prompt": "She ___ swim very well. (умение)",
+        "theory_block_id": "b1_theory_ability",
+        "difficulty": 1,
+        "correct_answer": "can",
+        "explanation": "Can используется для умения: She can swim."
+      },
+      {
+        "id": "q3",
+        "type": "true_false",
+        "prompt": "Can используется для выражения умения.",
+        "theory_block_id": "b1_theory_ability",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это основное значение can: способность/умение."
+      },
+      {
+        "id": "q4",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите правильный вариант: 'He can swims.'",
+        "theory_block_id": "b1_theory_ability",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He can swim."
+          },
+          {
+            "id": "b",
+            "text": "He can swam."
+          },
+          {
+            "id": "c",
+            "text": "He can swimming."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После can используется базовая форма без -s: swim."
+      },
+      {
+        "id": "q5",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_ability",
+        "difficulty": 2,
+        "correct_answer": "I can play the guitar.",
+        "explanation": "Порядок: subject + can + V1."
+      },
+      {
+        "id": "q6",
+        "type": "mcq_single",
+        "prompt": "Which sentence shows ability?",
+        "theory_block_id": "b1_theory_ability",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She can read fast."
+          },
+          {
+            "id": "b",
+            "text": "She is reading fast."
+          },
+          {
+            "id": "c",
+            "text": "She will read fast."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Can + V1 выражает умение."
+      },
+      {
+        "id": "q7",
+        "type": "fill_blank",
+        "prompt": "We ___ speak French. (умение)",
+        "theory_block_id": "b1_theory_ability",
+        "difficulty": 1,
+        "correct_answer": "can",
+        "explanation": "Can используется для способности: We can speak French."
+      },
+      {
+        "id": "q8",
+        "type": "true_false",
+        "prompt": "После can в третьем лице добавляется -s.",
+        "theory_block_id": "b1_theory_ability",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "После can всегда базовая форма без -s."
+      },
+      {
+        "id": "q9",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите правильный вариант: 'She cans drive.'",
+        "theory_block_id": "b1_theory_ability",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She can drive."
+          },
+          {
+            "id": "b",
+            "text": "She can drives."
+          },
+          {
+            "id": "c",
+            "text": "She is can drive."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Can не меняется по лицам и не требует -s."
+      },
+      {
+        "id": "q10",
+        "type": "mcq_single",
+        "prompt": "Выберите предложение об умении:",
+        "theory_block_id": "b1_theory_ability",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "They can cook."
+          },
+          {
+            "id": "b",
+            "text": "They are cooking."
+          },
+          {
+            "id": "c",
+            "text": "They will cook."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Can + V1 описывает умение."
+      },
+      {
+        "id": "q11",
+        "type": "fill_blank",
+        "prompt": "My brother ___ run fast. (умение)",
+        "theory_block_id": "b1_theory_ability",
+        "difficulty": 1,
+        "correct_answer": "can",
+        "explanation": "Can выражает способность: can run fast."
+      },
+      {
+        "id": "q12",
+        "type": "mcq_single",
+        "prompt": "Choose the correct negative for ability:",
+        "theory_block_id": "b1_theory_ability",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He can't swim."
+          },
+          {
+            "id": "b",
+            "text": "He doesn't can swim."
+          },
+          {
+            "id": "c",
+            "text": "He isn't can swim."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Отрицание с can: can't + V1."
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Вы спрашиваете разрешение: '___ I open the window?'",
+        "theory_block_id": "b2_theory_permission",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Can"
+          },
+          {
+            "id": "b",
+            "text": "Do"
+          },
+          {
+            "id": "c",
+            "text": "Will"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Разрешение спрашивают через Can I...?."
+      },
+      {
+        "id": "q14",
+        "type": "fill_blank",
+        "prompt": "___ I use your laptop? (разрешение)",
+        "theory_block_id": "b2_theory_permission",
+        "difficulty": 1,
+        "correct_answer": "Can",
+        "explanation": "Can I...? — стандартный запрос разрешения."
+      },
+      {
+        "id": "q15",
+        "type": "true_false",
+        "prompt": "Can используется для просьб о разрешении.",
+        "theory_block_id": "b2_theory_permission",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Can I...? / Can we...? — типичные просьбы."
+      },
+      {
+        "id": "q16",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите правильный вариант: 'Can I to sit here?'",
+        "theory_block_id": "b2_theory_permission",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Can I sit here?"
+          },
+          {
+            "id": "b",
+            "text": "Can I sitting here?"
+          },
+          {
+            "id": "c",
+            "text": "Can I am sit here?"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После can используется базовая форма без to: sit."
+      },
+      {
+        "id": "q17",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_permission",
+        "difficulty": 2,
+        "correct_answer": "Can we use this room?",
+        "explanation": "Вопрос: Can + subject + V1."
+      },
+      {
+        "id": "q18",
+        "type": "mcq_single",
+        "prompt": "Give permission: 'You ___ leave early.'",
+        "theory_block_id": "b2_theory_permission",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "can"
+          },
+          {
+            "id": "b",
+            "text": "must"
+          },
+          {
+            "id": "c",
+            "text": "will"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Разрешение выражается can: You can leave early."
+      },
+      {
+        "id": "q19",
+        "type": "fill_blank",
+        "prompt": "You ___ use my charger. (разрешение)",
+        "theory_block_id": "b2_theory_permission",
+        "difficulty": 1,
+        "correct_answer": "can",
+        "explanation": "Can дает разрешение: You can use my charger."
+      },
+      {
+        "id": "q20",
+        "type": "true_false",
+        "prompt": "Can you...? — обычная вежливая просьба в разговорной речи.",
+        "theory_block_id": "b2_theory_permission",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Can часто используется в повседневных просьбах."
+      },
+      {
+        "id": "q21",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите правильный вариант: 'You can to enter.'",
+        "theory_block_id": "b2_theory_permission",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "You can enter."
+          },
+          {
+            "id": "b",
+            "text": "You can entering."
+          },
+          {
+            "id": "c",
+            "text": "You can enters."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После can нужен базовый глагол: enter."
+      },
+      {
+        "id": "q22",
+        "type": "mcq_single",
+        "prompt": "Which sentence is a request for permission?",
+        "theory_block_id": "b2_theory_permission",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Can I leave now?"
+          },
+          {
+            "id": "b",
+            "text": "I can leave now."
+          },
+          {
+            "id": "c",
+            "text": "I left now."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Форма Can I...? выражает просьбу о разрешении."
+      },
+      {
+        "id": "q23",
+        "type": "fill_blank",
+        "prompt": "___ we sit here? (разрешение)",
+        "theory_block_id": "b2_theory_permission",
+        "difficulty": 1,
+        "correct_answer": "Can",
+        "explanation": "Can we...? — просьба о разрешении."
+      },
+      {
+        "id": "q24",
+        "type": "true_false",
+        "prompt": "В предложениях о разрешении после can используется базовая форма глагола.",
+        "theory_block_id": "b2_theory_permission",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "После can всегда V1 без -s и to."
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "It ___ rain later, take an umbrella.",
+        "theory_block_id": "b3_theory_possibility",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "can"
+          },
+          {
+            "id": "b",
+            "text": "can to"
+          },
+          {
+            "id": "c",
+            "text": "cans"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Can выражает возможность: It can rain later."
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "The road ___ be closed. (возможность)",
+        "theory_block_id": "b3_theory_possibility",
+        "difficulty": 1,
+        "correct_answer": "can",
+        "explanation": "Can используется для возможности: can be closed."
+      },
+      {
+        "id": "q27",
+        "type": "true_false",
+        "prompt": "Can может выражать возможность.",
+        "theory_block_id": "b3_theory_possibility",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это одно из значений can."
+      },
+      {
+        "id": "q28",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите правильный вариант: 'It can to be dangerous.'",
+        "theory_block_id": "b3_theory_possibility",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It can be dangerous."
+          },
+          {
+            "id": "b",
+            "text": "It can dangerous."
+          },
+          {
+            "id": "c",
+            "text": "It can being dangerous."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После can используется базовая форма be: can be."
+      },
+      {
+        "id": "q29",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_possibility",
+        "difficulty": 2,
+        "correct_answer": "It can be noisy at night.",
+        "explanation": "Порядок: subject + can + V1."
+      },
+      {
+        "id": "q30",
+        "type": "mcq_single",
+        "prompt": "Какой вариант выражает запрет?",
+        "theory_block_id": "b3_theory_possibility",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "You can't park here."
+          },
+          {
+            "id": "b",
+            "text": "You can park here."
+          },
+          {
+            "id": "c",
+            "text": "You will park here."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Can't часто выражает запрет или невозможность."
+      },
+      {
+        "id": "q31",
+        "type": "fill_blank",
+        "prompt": "You ___ enter without a ticket. (запрет)",
+        "theory_block_id": "b3_theory_possibility",
+        "difficulty": 2,
+        "correct_answer": "can't",
+        "explanation": "Запрет выражается can't: you can't enter."
+      },
+      {
+        "id": "q32",
+        "type": "true_false",
+        "prompt": "Can't может означать невозможность или запрет.",
+        "theory_block_id": "b3_theory_possibility",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Обе интерпретации возможны в зависимости от контекста."
+      },
+      {
+        "id": "q33",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите правильный вариант: 'It cans be cold here.'",
+        "theory_block_id": "b3_theory_possibility",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It can be cold here."
+          },
+          {
+            "id": "b",
+            "text": "It can be colded here."
+          },
+          {
+            "id": "c",
+            "text": "It can be colding here."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Can не меняется: it can be cold."
+      },
+      {
+        "id": "q34",
+        "type": "mcq_single",
+        "prompt": "Which sentence shows possibility, not ability?",
+        "theory_block_id": "b3_theory_possibility",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It can be noisy in this area."
+          },
+          {
+            "id": "b",
+            "text": "She can swim."
+          },
+          {
+            "id": "c",
+            "text": "He can drive."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Это возможность, а не способность человека."
+      },
+      {
+        "id": "q35",
+        "type": "fill_blank",
+        "prompt": "We ___ see the mountains from here. (возможность)",
+        "theory_block_id": "b3_theory_possibility",
+        "difficulty": 1,
+        "correct_answer": "can",
+        "explanation": "Can выражает возможность: can see."
+      },
+      {
+        "id": "q36",
+        "type": "true_false",
+        "prompt": "Can для возможности требует окончания -s в третьем лице.",
+        "theory_block_id": "b3_theory_possibility",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Can не изменяется по лицам."
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вопрос: '___ you drive?'",
+        "theory_block_id": "b4_theory_forms_questions",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Can"
+          },
+          {
+            "id": "b",
+            "text": "Do"
+          },
+          {
+            "id": "c",
+            "text": "Are"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Вопрос строится с can перед подлежащим."
+      },
+      {
+        "id": "q38",
+        "type": "fill_blank",
+        "prompt": "___ she speak Spanish? (вопрос)",
+        "theory_block_id": "b4_theory_forms_questions",
+        "difficulty": 1,
+        "correct_answer": "Can",
+        "explanation": "Вопрос: Can she speak Spanish?"
+      },
+      {
+        "id": "q39",
+        "type": "true_false",
+        "prompt": "После can используется базовая форма глагола.",
+        "theory_block_id": "b4_theory_forms_questions",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Can + V1 — базовая структура."
+      },
+      {
+        "id": "q40",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите правильный вариант: 'Can you to help me?'",
+        "theory_block_id": "b4_theory_forms_questions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Can you help me?"
+          },
+          {
+            "id": "b",
+            "text": "Can you helping me?"
+          },
+          {
+            "id": "c",
+            "text": "Do you can help me?"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После can нужен базовый глагол без to: help."
+      },
+      {
+        "id": "q41",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_forms_questions",
+        "difficulty": 2,
+        "correct_answer": "Can he come today?",
+        "explanation": "Вопрос: Can + subject + V1."
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "prompt": "Choose the correct negative: 'She ___ come today.'",
+        "theory_block_id": "b4_theory_forms_questions",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "can't"
+          },
+          {
+            "id": "b",
+            "text": "doesn't can"
+          },
+          {
+            "id": "c",
+            "text": "can not to"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Отрицание с can: can't + V1."
+      },
+      {
+        "id": "q43",
+        "type": "fill_blank",
+        "prompt": "He ___ play today; he's ill. (отрицание)",
+        "theory_block_id": "b4_theory_forms_questions",
+        "difficulty": 1,
+        "correct_answer": "can't",
+        "explanation": "Can't выражает невозможность: can't play."
+      },
+      {
+        "id": "q44",
+        "type": "true_false",
+        "prompt": "Фраза 'He cans swim' корректна.",
+        "theory_block_id": "b4_theory_forms_questions",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "После can нет окончания -s: He can swim."
+      },
+      {
+        "id": "q45",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите правильный вариант: 'I can to go now.'",
+        "theory_block_id": "b4_theory_forms_questions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I can go now."
+          },
+          {
+            "id": "b",
+            "text": "I can going now."
+          },
+          {
+            "id": "c",
+            "text": "I am can go now."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После can используется базовая форма go без to."
+      },
+      {
+        "id": "q46",
+        "type": "mcq_single",
+        "prompt": "Which sentence uses can correctly?",
+        "theory_block_id": "b4_theory_forms_questions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We can meet later."
+          },
+          {
+            "id": "b",
+            "text": "We can meets later."
+          },
+          {
+            "id": "c",
+            "text": "We can to meet later."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Can + V1: can meet."
+      },
+      {
+        "id": "q47",
+        "type": "fill_blank",
+        "prompt": "___ they use the elevator? (вопрос)",
+        "theory_block_id": "b4_theory_forms_questions",
+        "difficulty": 1,
+        "correct_answer": "Can",
+        "explanation": "Вопрос: Can they use the elevator?"
+      },
+      {
+        "id": "q48",
+        "type": "true_false",
+        "prompt": "В вопросе can стоит перед подлежащим.",
+        "theory_block_id": "b4_theory_forms_questions",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Порядок: Can + subject + V1."
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "Short answer to 'Can you drive?':",
+        "theory_block_id": "b5_theory_short_answers",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yes, I can."
+          },
+          {
+            "id": "b",
+            "text": "Yes, I do."
+          },
+          {
+            "id": "c",
+            "text": "Yes, I am."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Краткий ответ повторяет can: Yes, I can."
+      },
+      {
+        "id": "q50",
+        "type": "fill_blank",
+        "prompt": "— Can she swim? — No, she ___. (отрицательный ответ)",
+        "theory_block_id": "b5_theory_short_answers",
+        "difficulty": 1,
+        "correct_answer": "can't",
+        "explanation": "Краткий отрицательный ответ: No, she can't."
+      },
+      {
+        "id": "q51",
+        "type": "true_false",
+        "prompt": "В кратких ответах повторяется can.",
+        "theory_block_id": "b5_theory_short_answers",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Ответ строится с can, а не с основным глаголом."
+      },
+      {
+        "id": "q52",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите правильный вариант: '— Can he cook? — Yes, he does.'",
+        "theory_block_id": "b5_theory_short_answers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "— Can he cook? — Yes, he can."
+          },
+          {
+            "id": "b",
+            "text": "— Can he cook? — Yes, he is."
+          },
+          {
+            "id": "c",
+            "text": "— Can he cook? — Yes, he cooks."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Краткий ответ повторяет can: Yes, he can."
+      },
+      {
+        "id": "q53",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_short_answers",
+        "difficulty": 1,
+        "correct_answer": "Yes, I can.",
+        "explanation": "Краткий ответ: Yes + subject + can."
+      },
+      {
+        "id": "q54",
+        "type": "mcq_single",
+        "prompt": "Choose the correct short answer to 'Can they come?':",
+        "theory_block_id": "b5_theory_short_answers",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yes, they can."
+          },
+          {
+            "id": "b",
+            "text": "Yes, they do."
+          },
+          {
+            "id": "c",
+            "text": "Yes, they are."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Краткий ответ с can: Yes, they can."
+      },
+      {
+        "id": "q55",
+        "type": "fill_blank",
+        "prompt": "— Can you help? — Yes, I ___. (утвердительный ответ)",
+        "theory_block_id": "b5_theory_short_answers",
+        "difficulty": 1,
+        "correct_answer": "can",
+        "explanation": "Краткий ответ: Yes, I can."
+      },
+      {
+        "id": "q56",
+        "type": "true_false",
+        "prompt": "В кратких ответах с can используются do/does.",
+        "theory_block_id": "b5_theory_short_answers",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Краткий ответ строится с can, а не с do/does."
+      },
+      {
+        "id": "q57",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите правильный вариант: '— Can she drive? — No, she don't.'",
+        "theory_block_id": "b5_theory_short_answers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "— Can she drive? — No, she can't."
+          },
+          {
+            "id": "b",
+            "text": "— Can she drive? — No, she isn't."
+          },
+          {
+            "id": "c",
+            "text": "— Can she drive? — No, she doesn't."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Отрицательный короткий ответ: No, she can't."
+      },
+      {
+        "id": "q58",
+        "type": "mcq_single",
+        "prompt": "Which answer is natural?",
+        "theory_block_id": "b5_theory_short_answers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "— Can you sing? — Yes, I can."
+          },
+          {
+            "id": "b",
+            "text": "— Can you sing? — Yes, I do."
+          },
+          {
+            "id": "c",
+            "text": "— Can you sing? — Yes, I am."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Краткий ответ с can: Yes, I can."
+      },
+      {
+        "id": "q59",
+        "type": "fill_blank",
+        "prompt": "— Can we stay? — No, we ___. (запрет)",
+        "theory_block_id": "b5_theory_short_answers",
+        "difficulty": 1,
+        "correct_answer": "can't",
+        "explanation": "Отрицательный ответ: No, we can't."
+      },
+      {
+        "id": "q60",
+        "type": "true_false",
+        "prompt": "В кратких ответах обычно опускается основной глагол.",
+        "theory_block_id": "b5_theory_short_answers",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "В ответе остается только can, основной глагол не повторяется."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-18T17:08:39Z",
+    "source": "llm"
+  }
+}
