@@ -75,21 +75,6 @@
       }
     },
     {
-      "id": "b2_quiz_after_what_are_object_pronouns",
-      "type": "quiz_inline",
-      "title": "Quick check: do you get the idea?",
-      "quiz_inline": {
-        "question_ids": [
-          "q1",
-          "q2",
-          "q3",
-          "q4",
-          "q5"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b2_theory_forms_table",
       "type": "theory",
       "title": "В английском языке есть семь объектных местоимений. Каждое соответствует своему субъектному местоимению:",
@@ -131,23 +116,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b4_quiz_after_forms_table",
-      "type": "quiz_inline",
-      "title": "Quick check: do you remember the forms?",
-      "quiz_inline": {
-        "question_ids": [
-          "q6",
-          "q7",
-          "q8",
-          "q9",
-          "q10",
-          "q11",
-          "q12"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -204,23 +172,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b6_quiz_after_after_verbs",
-      "type": "quiz_inline",
-      "title": "Quick check: after verbs",
-      "quiz_inline": {
-        "question_ids": [
-          "q13",
-          "q14",
-          "q15",
-          "q16",
-          "q17",
-          "q18",
-          "q19"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -288,20 +239,6 @@
       }
     },
     {
-      "id": "b8_quiz_after_after_prepositions",
-      "type": "quiz_inline",
-      "title": "Quick check: after prepositions",
-      "quiz_inline": {
-        "question_ids": [
-          "q21",
-          "q22",
-          "q23",
-          "q24"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b5_theory_subject_vs_object",
       "type": "theory",
       "title": "Важно различать subject pronouns (субъектные местоимения) и object pronouns (объектные местоимения).",
@@ -355,22 +292,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b10_quiz_after_subject_vs_object",
-      "type": "quiz_inline",
-      "title": "Quick check: subject vs object",
-      "quiz_inline": {
-        "question_ids": [
-          "q27",
-          "q28",
-          "q29",
-          "q30",
-          "q31",
-          "q32"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -858,18 +779,6 @@
         ]
       },
       {
-        "id": "q23",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I think ___ them every day.\" (о)",
-        "theory_block_id": "b4_theory_after_prepositions",
-        "difficulty": 1,
-        "correct_answer": "about",
-        "explanation": "После предлога about нужен object pronoun them. Правильно: I think about them every day.",
-        "tags": [
-          "after_prepositions"
-        ]
-      },
-      {
         "id": "q24",
         "type": "mcq_single",
         "prompt": "Выберите правильный вариант: \"This letter is ___ him.\"",
@@ -1162,18 +1071,6 @@
         ]
       },
       {
-        "id": "q42",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I talk ___ them every day.\" (с)",
-        "theory_block_id": "b4_theory_after_prepositions",
-        "difficulty": 1,
-        "correct_answer": "with",
-        "explanation": "После предлога with нужен object pronoun them. Правильно: I talk with them every day.",
-        "tags": [
-          "after_prepositions"
-        ]
-      },
-      {
         "id": "q43",
         "type": "error_spotting",
         "prompt": "Найдите ошибку: \"This is for she.\"",
@@ -1305,47 +1202,6 @@
         ]
       },
       {
-        "id": "q49",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"This gift is ___ us.\"",
-        "theory_block_id": "b4_theory_after_prepositions",
-        "difficulty": 1,
-        "choices": [
-          {
-            "id": "a",
-            "text": "for we",
-            "feedback": "Нет, после предлога for нужен object pronoun (us), а не subject pronoun (we)"
-          },
-          {
-            "id": "b",
-            "text": "for us",
-            "feedback": "Правильно! После предлога for нужен object pronoun us"
-          },
-          {
-            "id": "c",
-            "text": "for our",
-            "feedback": "Нет, our — это притяжательное местоимение. После предлога нужен object pronoun us"
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "После предлога for нужен object pronoun. \"Для нас\" = for us. Правильно: This gift is for us.",
-        "tags": [
-          "after_prepositions"
-        ]
-      },
-      {
-        "id": "q50",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I sit next ___ him.\" (к)",
-        "theory_block_id": "b4_theory_after_prepositions",
-        "difficulty": 1,
-        "correct_answer": "to",
-        "explanation": "После предлога to нужен object pronoun him. Правильно: I sit next to him.",
-        "tags": [
-          "after_prepositions"
-        ]
-      },
-      {
         "id": "q51",
         "type": "mcq_single",
         "prompt": "Выберите правильный вариант: \"___ see them every day.\"",
@@ -1414,35 +1270,6 @@
         "tags": [
           "mistakes",
           "error"
-        ]
-      },
-      {
-        "id": "q55",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"Give it ___ me.\"",
-        "theory_block_id": "b4_theory_after_prepositions",
-        "difficulty": 1,
-        "choices": [
-          {
-            "id": "a",
-            "text": "to I",
-            "feedback": "Нет, после предлога to нужен object pronoun (me), а не subject pronoun (I)"
-          },
-          {
-            "id": "b",
-            "text": "to me",
-            "feedback": "Правильно! После предлога to нужен object pronoun me"
-          },
-          {
-            "id": "c",
-            "text": "to my",
-            "feedback": "Нет, my — это притяжательное местоимение. После предлога нужен object pronoun me"
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "После предлога to нужен object pronoun. \"Мне\" = me. Правильно: Give it to me.",
-        "tags": [
-          "after_prepositions"
         ]
       },
       {
@@ -1527,7 +1354,6 @@
       "q19",
       "q21",
       "q22",
-      "q23",
       "q24",
       "q27",
       "q28",
@@ -1542,18 +1368,14 @@
       "q38",
       "q39",
       "q40",
-      "q42",
       "q43",
       "q44",
       "q46",
       "q47",
       "q48",
-      "q49",
-      "q50",
       "q51",
       "q52",
       "q53",
-      "q55",
       "q56",
       "q59",
       "q60"
@@ -1571,7 +1393,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-18T18:43:21Z",
+    "updated_at": "2026-01-18T18:48:28Z",
     "source": "llm"
   }
 }
