@@ -551,11 +551,11 @@
       {
         "id": "q39",
         "type": "true_false",
-        "prompt": "Верно или неверно: В диалоге можно использовать \"This is...\" для представления людей.",
+        "prompt": "Верно или неверно: В диалоге можно использовать \"That is...\" для представления людей, которые находятся рядом с говорящим.",
         "theory_block_id": "b4_theory_clarifying_this_that",
-        "difficulty": 1,
-        "correct_answer": "true",
-        "explanation": "Верно. This is... используется для представления людей: This is my friend Maria.",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Неверно. Для представления людей, которые находятся рядом, используется \"This is...\", а не \"That is...\". That is используется для людей или объектов, которые находятся далеко.",
         "tags": [
           "clarifying"
         ]
@@ -669,11 +669,11 @@
       {
         "id": "q47",
         "type": "true_false",
-        "prompt": "Верно или неверно: В диалоге можно использовать \"That is...\" для уточнения информации о близких людях, которые находятся рядом.",
+        "prompt": "Верно или неверно: В диалоге можно использовать \"This is...\" для уточнения информации о близких людях.",
         "theory_block_id": "b4_theory_clarifying_this_that",
-        "difficulty": 2,
-        "correct_answer": "false",
-        "explanation": "Неверно. Для близких людей или объектов, которые находятся рядом, используется \"This is...\", а не \"That is...\". That is используется для того, что находится далеко.",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. This is... используется для уточнения информации о близких людях или объектах в диалоге.",
         "tags": [
           "clarifying"
         ]
@@ -776,42 +776,6 @@
         "tags": [
           "structure"
         ]
-      },
-      {
-        "id": "q58",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"A: ___! This is my friend Maria. B: Hi, Maria!\" (привет)",
-        "theory_block_id": "b5_theory_mini_dialogue_structure",
-        "difficulty": 2,
-        "correct_answer": "Hello",
-        "explanation": "Hello используется для приветствия. Hello! This is my friend Maria. Hi, Maria!",
-        "tags": [
-          "structure"
-        ]
-      },
-      {
-        "id": "q59",
-        "type": "true_false",
-        "prompt": "Верно или неверно: Диалог должен звучать естественно и быть понятным для собеседника.",
-        "theory_block_id": "b5_theory_mini_dialogue_structure",
-        "difficulty": 1,
-        "correct_answer": "true",
-        "explanation": "Верно. Естественность и понятность — важные качества хорошего диалога.",
-        "tags": [
-          "structure"
-        ]
-      },
-      {
-        "id": "q60",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b5_theory_mini_dialogue_structure",
-        "difficulty": 3,
-        "correct_answer": "Hello! I am Anna. This is my friend Tom. Goodbye!",
-        "explanation": "Правильный порядок: приветствие (Hello!) + представление (I am Anna) + уточнение (This is my friend Tom) + завершение (Goodbye!). Hello! I am Anna. This is my friend Tom. Goodbye!",
-        "tags": [
-          "structure"
-        ]
       }
     ]
   },
@@ -847,10 +811,7 @@
       "q49",
       "q51",
       "q53",
-      "q57",
-      "q58",
-      "q59",
-      "q60"
+      "q57"
     ],
     "selection_strategy": {
       "type": "stratified_by_theory_block",
@@ -865,7 +826,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-18T11:51:40Z",
+    "updated_at": "2026-01-18T11:53:18Z",
     "source": "llm"
   }
 }
