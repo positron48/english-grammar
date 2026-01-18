@@ -1,0 +1,1338 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.past_1_past_simple.build_speak_a_short",
+  "section_id": "en.grammar.past_1_past_simple",
+  "title": "Build & speak: a short story (6–10 sentences)",
+  "title_short": "Build & speak: a short story",
+  "description": "Практика Past Simple: создать короткую историю с временем, действиями, последовательностью и концовкой.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "A2",
+  "order": 0,
+  "prerequisites": [
+    "en.grammar.past_1_past_simple.used_toas_an_upgrade"
+  ],
+  "concept_refs": [
+    "past_story_structure",
+    "time_sequence_markers",
+    "past_simple_accuracy",
+    "story_variety",
+    "story_closing"
+  ],
+  "learning_objectives": [
+    "Составлять короткий рассказ на Past Simple (6-10 предложений)",
+    "Использовать маркеры времени и последовательности",
+    "Чередовать утверждения, вопросы и отрицания в рассказе",
+    "Соблюдать порядок слов и формы глаголов",
+    "Завершать историю логичным итогом"
+  ],
+  "estimated_minutes": 18,
+  "blocks": [
+    {
+      "id": "b1_theory_story_structure",
+      "type": "theory",
+      "title": "Короткий рассказ на Past Simple обычно состоит из начала, середины и конца. В 6-10 предложениях важно:",
+      "theory": {
+        "concept_id": "past_story_structure",
+        "content_md": "Короткий рассказ на Past Simple обычно состоит из **начала, середины и конца**. В 6-10 предложениях важно:\n\n- начать с контекста (кто, где, когда),\n- описать 2-4 ключевых действия,\n- закончить итогом или выводом.\n\nТакая структура делает историю понятной и связной.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Last weekend, I went to the mountains. I stayed there for two days. It was a great trip.",
+            "translation": "В прошлые выходные я поехал в горы. Я пробыл там два дня. Это была отличная поездка.",
+            "notes": "Начало-середина-конец",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "One day, we missed the bus. We walked home and felt tired at the end.",
+            "translation": "Однажды мы пропустили автобус. Мы пошли домой пешком и в конце устали.",
+            "notes": "Короткая история",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_story_structure",
+      "type": "quiz_inline",
+      "title": "Проверка: структура рассказа",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2",
+          "q3",
+          "q5",
+          "q6"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_time_sequence",
+      "type": "theory",
+      "title": "Чтобы история звучала связно, используйте маркеры времени и последовательности: *yesterday, then, after that, later, finally, one day*.",
+      "theory": {
+        "concept_id": "time_sequence_markers",
+        "content_md": "Чтобы история звучала связно, используйте **маркеры времени и последовательности**: *yesterday, then, after that, later, finally, one day*.\n\nОни помогают читателю следить за порядком событий.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Yesterday, I met an old friend. Then we had coffee. Finally, we said goodbye.",
+            "translation": "Вчера я встретил старого друга. Потом мы выпили кофе. Наконец мы попрощались.",
+            "notes": "Последовательность",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "After that, we went home.",
+            "translation": "После этого мы пошли домой.",
+            "notes": "Связка событий",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_time_sequence",
+      "type": "quiz_inline",
+      "title": "Проверка: маркеры последовательности",
+      "quiz_inline": {
+        "question_ids": [
+          "q11",
+          "q12",
+          "q14",
+          "q16",
+          "q17"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_past_simple_accuracy",
+      "type": "theory",
+      "title": "В рассказе следите за точностью Past Simple: используйте V2 формы, отрицания с didn't + V1 и вопросы с did + V1.",
+      "theory": {
+        "concept_id": "past_simple_accuracy",
+        "content_md": "В рассказе следите за **точностью Past Simple**: используйте V2 формы, отрицания с **didn't + V1** и вопросы с **did + V1**.\n\nОшибки в форме глагола сразу делают историю неестественной, поэтому проверяйте каждый глагол.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "We didn't find the hotel at first.",
+            "translation": "Сначала мы не нашли отель.",
+            "notes": "Отрицание",
+            "tags": [
+              "negative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Did you call me yesterday?",
+            "translation": "Ты звонил мне вчера?",
+            "notes": "Вопрос",
+            "tags": [
+              "question"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_past_simple_accuracy",
+      "type": "quiz_inline",
+      "title": "Проверка: точность Past Simple",
+      "quiz_inline": {
+        "question_ids": [
+          "q21",
+          "q22",
+          "q24",
+          "q25",
+          "q30"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_story_variety",
+      "type": "theory",
+      "title": "Чтобы рассказ звучал естественно, чередуйте типы предложений: утверждения, отрицания и вопросы.",
+      "theory": {
+        "concept_id": "story_variety",
+        "content_md": "Чтобы рассказ звучал естественно, чередуйте типы предложений: **утверждения**, **отрицания** и **вопросы**.\n\nДаже один вопрос делает историю более живой: *Did you see that?* или *Why did we go there?*",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "We planned a picnic, but it didn't stop raining.",
+            "translation": "Мы планировали пикник, но дождь не прекращался.",
+            "notes": "Отрицание",
+            "tags": [
+              "negative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Did we choose the right day?",
+            "translation": "Мы выбрали правильный день?",
+            "notes": "Вопрос",
+            "tags": [
+              "question"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8_quiz_after_story_variety",
+      "type": "quiz_inline",
+      "title": "Проверка: разнообразие предложений",
+      "quiz_inline": {
+        "question_ids": [
+          "q31",
+          "q32",
+          "q33",
+          "q36",
+          "q38"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_closing",
+      "type": "theory",
+      "title": "Хорошая история заканчивается итогом или результатом. Это может быть короткая финальная фраза: *In the end, we felt happy*, *It was a day to remember*.",
+      "theory": {
+        "concept_id": "story_closing",
+        "content_md": "Хорошая история заканчивается **итогом** или **результатом**. Это может быть короткая финальная фраза: *In the end, we felt happy*, *It was a day to remember*.\n\nТакой финал помогает завершить сюжет и оставить ощущение цельности.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "In the end, we arrived safely.",
+            "translation": "В конце концов мы благополучно добрались.",
+            "notes": "Итог",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "It was a day to remember.",
+            "translation": "Это был день, который запомнится.",
+            "notes": "Финальная фраза",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Что лучше всего подходит для начала короткого рассказа?",
+        "theory_block_id": "b1_theory_story_structure",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Last weekend, I went to the sea.",
+            "feedback": "Да, это задает контекст"
+          },
+          {
+            "id": "b",
+            "text": "Finally, I was happy.",
+            "feedback": "Это скорее завершение"
+          },
+          {
+            "id": "c",
+            "text": "Because I like it.",
+            "feedback": "Это не начало истории"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Начало истории обычно дает контекст: когда и где. Вариант A делает это."
+      },
+      {
+        "id": "q2",
+        "type": "true_false",
+        "prompt": "Короткий рассказ должен иметь начало, середину и конец.",
+        "theory_block_id": "b1_theory_story_structure",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, базовая структура помогает сделать историю понятной."
+      },
+      {
+        "id": "q3",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Last summer, we ___ to the lake.\" (ехать)",
+        "theory_block_id": "b1_theory_story_structure",
+        "difficulty": 2,
+        "correct_answer": "went",
+        "explanation": "Для Past Simple нужен V2: go → went."
+      },
+      {
+        "id": "q4",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в структуре:\n\n**Finally, we woke up. Then we went to bed.**",
+        "theory_block_id": "b1_theory_story_structure",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We woke up. Then we had breakfast. Finally, we went to bed.",
+            "feedback": "Правильно: последовательность логична"
+          },
+          {
+            "id": "b",
+            "text": "Finally, we woke up. Then we went to bed.",
+            "feedback": "Неверно: финал не может быть началом"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Finally обычно завершает историю. В исходном варианте финал стоит в начале."
+      },
+      {
+        "id": "q5",
+        "type": "mcq_single",
+        "prompt": "Какой вариант лучше подходит для завершения истории?",
+        "theory_block_id": "b1_theory_story_structure",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "In the end, we felt proud.",
+            "feedback": "Да, это логичный итог"
+          },
+          {
+            "id": "b",
+            "text": "Yesterday morning, I woke up.",
+            "feedback": "Это начало, не конец"
+          },
+          {
+            "id": "c",
+            "text": "Then we left.",
+            "feedback": "Это середина"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Фразы типа In the end хорошо подходят для финала."
+      },
+      {
+        "id": "q6",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_story_structure",
+        "difficulty": 2,
+        "correct_answer": "Last year, we traveled to Spain.",
+        "explanation": "Начало истории часто содержит time marker: Last year, ..."
+      },
+      {
+        "id": "q7",
+        "type": "mcq_single",
+        "prompt": "Что лучше описывает середину истории?",
+        "theory_block_id": "b1_theory_story_structure",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We arrived, checked in, and explored the city.",
+            "feedback": "Да, это ключевые действия"
+          },
+          {
+            "id": "b",
+            "text": "One day, I decided to go.",
+            "feedback": "Это похоже на начало"
+          },
+          {
+            "id": "c",
+            "text": "It was a day to remember.",
+            "feedback": "Это завершение"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Середина истории описывает основные события и действия."
+      },
+      {
+        "id": "q8",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"At the end, we ___ tired but happy.\" (be)",
+        "theory_block_id": "b1_theory_story_structure",
+        "difficulty": 2,
+        "correct_answer": "were",
+        "explanation": "Past Simple от be для we — were."
+      },
+      {
+        "id": "q9",
+        "type": "true_false",
+        "prompt": "История из 6-10 предложений может быть связной, если есть структура.",
+        "theory_block_id": "b1_theory_story_structure",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, даже короткий текст выглядит цельным при четкой структуре."
+      },
+      {
+        "id": "q10",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в логике:\n\n**We came home. Finally, we woke up.**",
+        "theory_block_id": "b1_theory_story_structure",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We woke up. Then we came home.",
+            "feedback": "Правильно: порядок событий логичный"
+          },
+          {
+            "id": "b",
+            "text": "We came home. Finally, we woke up.",
+            "feedback": "Неверно: awake должен быть раньше"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В финале не ставят событие, которое логически происходит раньше."
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "prompt": "Какое слово лучше связывает события по порядку?",
+        "theory_block_id": "b2_theory_time_sequence",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "then",
+            "feedback": "Да, это маркер последовательности"
+          },
+          {
+            "id": "b",
+            "text": "because",
+            "feedback": "Это причина, не порядок"
+          },
+          {
+            "id": "c",
+            "text": "although",
+            "feedback": "Это противопоставление"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Then используется для последовательности событий."
+      },
+      {
+        "id": "q12",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"We had lunch, and ___ we went for a walk.\" (потом)",
+        "theory_block_id": "b2_theory_time_sequence",
+        "difficulty": 2,
+        "correct_answer": "then",
+        "explanation": "Then показывает следующий шаг в истории."
+      },
+      {
+        "id": "q13",
+        "type": "true_false",
+        "prompt": "Finally обычно используется для завершения истории.",
+        "theory_block_id": "b2_theory_time_sequence",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Finally обычно стоит перед последним событием."
+      },
+      {
+        "id": "q14",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в связках:\n\n**Then we arrived. Yesterday we left home.**",
+        "theory_block_id": "b2_theory_time_sequence",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yesterday we left home. Then we arrived.",
+            "feedback": "Правильно: порядок событий логичный"
+          },
+          {
+            "id": "b",
+            "text": "Then we arrived. Yesterday we left home.",
+            "feedback": "Неверно: then должно быть после первого события"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Сначала указываем первое событие, потом используем then."
+      },
+      {
+        "id": "q15",
+        "type": "mcq_single",
+        "prompt": "Какое слово лучше всего вводит событие в прошлом?",
+        "theory_block_id": "b2_theory_time_sequence",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "One day",
+            "feedback": "Да, это типичное начало истории"
+          },
+          {
+            "id": "b",
+            "text": "Tomorrow",
+            "feedback": "Это будущее"
+          },
+          {
+            "id": "c",
+            "text": "Now",
+            "feedback": "Это настоящее"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "One day часто используется для начала истории в прошлом."
+      },
+      {
+        "id": "q16",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ that, we took a taxi.\" (после)",
+        "theory_block_id": "b2_theory_time_sequence",
+        "difficulty": 2,
+        "correct_answer": "After",
+        "explanation": "After that — связка для следующего события."
+      },
+      {
+        "id": "q17",
+        "type": "mcq_single",
+        "prompt": "Что лучше завершает цепочку событий?",
+        "theory_block_id": "b2_theory_time_sequence",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Finally",
+            "feedback": "Да, это маркер финала"
+          },
+          {
+            "id": "b",
+            "text": "Because",
+            "feedback": "Это причина, не конец"
+          },
+          {
+            "id": "c",
+            "text": "While",
+            "feedback": "Это одновременность"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Finally показывает, что это последняя часть истории."
+      },
+      {
+        "id": "q18",
+        "type": "true_false",
+        "prompt": "Маркеры времени помогают слушателю понять порядок событий.",
+        "theory_block_id": "b2_theory_time_sequence",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, они делают историю последовательной и понятной."
+      },
+      {
+        "id": "q19",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_time_sequence",
+        "difficulty": 2,
+        "correct_answer": "After that, we went home.",
+        "explanation": "Связка After that часто стоит в начале предложения."
+      },
+      {
+        "id": "q20",
+        "type": "mcq_single",
+        "prompt": "Какой вариант лучше связывает две части истории?",
+        "theory_block_id": "b2_theory_time_sequence",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Later, we found the keys.",
+            "feedback": "Да, это временная связка"
+          },
+          {
+            "id": "b",
+            "text": "Because we found the keys.",
+            "feedback": "Это причина, не последовательность"
+          },
+          {
+            "id": "c",
+            "text": "If we found the keys.",
+            "feedback": "Это условие, не последовательность"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Later — маркер времени, связывающий события."
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "prompt": "Какое предложение правильно в Past Simple?",
+        "theory_block_id": "b3_theory_past_simple_accuracy",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She found the ticket.",
+            "feedback": "Верно: found — V2"
+          },
+          {
+            "id": "b",
+            "text": "She find the ticket.",
+            "feedback": "Неверно: это V1"
+          },
+          {
+            "id": "c",
+            "text": "She finding the ticket.",
+            "feedback": "Неверно: неправильная форма"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Simple требует V2: find → found."
+      },
+      {
+        "id": "q22",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"We ___ not see the sign.\" (do, past)",
+        "theory_block_id": "b3_theory_past_simple_accuracy",
+        "difficulty": 2,
+        "correct_answer": "did",
+        "explanation": "Отрицание в Past Simple строится с did + not: did not see."
+      },
+      {
+        "id": "q23",
+        "type": "true_false",
+        "prompt": "В отрицании Past Simple основной глагол стоит в V1.",
+        "theory_block_id": "b3_theory_past_simple_accuracy",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "После didn't используется базовая форма глагола."
+      },
+      {
+        "id": "q24",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в Past Simple:\n\n**He didn't went to the cafe.**",
+        "theory_block_id": "b3_theory_past_simple_accuracy",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He didn't go to the cafe.",
+            "feedback": "Правильно: V1 после didn't"
+          },
+          {
+            "id": "b",
+            "text": "He didn't went to the cafe.",
+            "feedback": "Неверно: went это V2"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После didn't используется V1, поэтому go, а не went."
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Какой вопрос в Past Simple построен правильно?",
+        "theory_block_id": "b3_theory_past_simple_accuracy",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Did you see the movie?",
+            "feedback": "Да, did + V1"
+          },
+          {
+            "id": "b",
+            "text": "Did you saw the movie?",
+            "feedback": "Неверно: после did нужен V1"
+          },
+          {
+            "id": "c",
+            "text": "Do you saw the movie?",
+            "feedback": "Неверно: это Present Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Вопрос в Past Simple строится с did + V1."
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She ___ the door and left.\" (close)",
+        "theory_block_id": "b3_theory_past_simple_accuracy",
+        "difficulty": 2,
+        "correct_answer": "closed",
+        "explanation": "Past Simple правильного глагола: close → closed."
+      },
+      {
+        "id": "q27",
+        "type": "true_false",
+        "prompt": "Вопросы в Past Simple строятся без did.",
+        "theory_block_id": "b3_theory_past_simple_accuracy",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Did обязателен для вопросов в Past Simple."
+      },
+      {
+        "id": "q28",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в форме:\n\n**They didn't found the keys.**",
+        "theory_block_id": "b3_theory_past_simple_accuracy",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "They didn't find the keys.",
+            "feedback": "Правильно: V1 после didn't"
+          },
+          {
+            "id": "b",
+            "text": "They didn't found the keys.",
+            "feedback": "Неверно: found это V2"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В отрицании используется V1: find."
+      },
+      {
+        "id": "q29",
+        "type": "mcq_single",
+        "prompt": "Какое предложение с Past Simple правильно?",
+        "theory_block_id": "b3_theory_past_simple_accuracy",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We arrived late.",
+            "feedback": "Верно: arrived — V2"
+          },
+          {
+            "id": "b",
+            "text": "We arrive late.",
+            "feedback": "Это Present Simple"
+          },
+          {
+            "id": "c",
+            "text": "We are arrive late.",
+            "feedback": "Неверная форма"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Simple требует V2: arrive → arrived."
+      },
+      {
+        "id": "q30",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_past_simple_accuracy",
+        "difficulty": 2,
+        "correct_answer": "Did you call her yesterday?",
+        "explanation": "Вопрос: Did + subject + V1 + time marker."
+      },
+      {
+        "id": "q31",
+        "type": "mcq_single",
+        "prompt": "Какое предложение показывает разнообразие типов?",
+        "theory_block_id": "b4_theory_story_variety",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We left early. We didn't take a taxi. Did we miss the bus?",
+            "feedback": "Да: есть утверждение, отрицание и вопрос"
+          },
+          {
+            "id": "b",
+            "text": "We left early. We left early. We left early.",
+            "feedback": "Нет разнообразия"
+          },
+          {
+            "id": "c",
+            "text": "We will leave early. We will leave early.",
+            "feedback": "Это будущее время"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Разнообразие типов делает рассказ живым. Вариант A содержит разные формы."
+      },
+      {
+        "id": "q32",
+        "type": "true_false",
+        "prompt": "Смешивание утверждений, отрицаний и вопросов делает историю менее естественной.",
+        "theory_block_id": "b4_theory_story_variety",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Наоборот, разные типы предложений делают рассказ живее и естественнее."
+      },
+      {
+        "id": "q33",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"We ___ not find a hotel, so we camped.\" (do, past)",
+        "theory_block_id": "b4_theory_story_variety",
+        "difficulty": 2,
+        "correct_answer": "did",
+        "explanation": "Отрицание Past Simple: did not + V1."
+      },
+      {
+        "id": "q34",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в разнообразии:\n\n**We walked to the park. We walked to the park. We walked to the park.**",
+        "theory_block_id": "b4_theory_story_variety",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We walked to the park. We didn't see anyone. Did we go too early?",
+            "feedback": "Правильно: есть разнообразие форм"
+          },
+          {
+            "id": "b",
+            "text": "We walked to the park. We walked to the park. We walked to the park.",
+            "feedback": "Неверно: повтор без разнообразия"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для естественного рассказа нужны разные типы предложений, а не повтор."
+      },
+      {
+        "id": "q35",
+        "type": "mcq_single",
+        "prompt": "Какой вопрос делает историю более живой?",
+        "theory_block_id": "b4_theory_story_variety",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Did we choose the right place?",
+            "feedback": "Да, вопрос оживляет рассказ"
+          },
+          {
+            "id": "b",
+            "text": "We chose the right place.",
+            "feedback": "Это утверждение"
+          },
+          {
+            "id": "c",
+            "text": "We choose the right place.",
+            "feedback": "Неверное время"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Вопросы создают интригу и делают рассказ живым."
+      },
+      {
+        "id": "q36",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_story_variety",
+        "difficulty": 2,
+        "correct_answer": "We didn't have enough time.",
+        "explanation": "Отрицание в Past Simple: didn't + V1."
+      },
+      {
+        "id": "q37",
+        "type": "true_false",
+        "prompt": "В рассказе можно использовать только утвердительные предложения.",
+        "theory_block_id": "b4_theory_story_variety",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "История звучит живее, если есть отрицания и вопросы."
+      },
+      {
+        "id": "q38",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в вопросе:\n\n**Did you went there?**",
+        "theory_block_id": "b4_theory_story_variety",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Did you go there?",
+            "feedback": "Правильно: V1 после did"
+          },
+          {
+            "id": "b",
+            "text": "Did you went there?",
+            "feedback": "Неверно: went это V2"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После did используется базовая форма go."
+      },
+      {
+        "id": "q39",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"We ___ not buy tickets.\" (do, past)",
+        "theory_block_id": "b4_theory_story_variety",
+        "difficulty": 2,
+        "correct_answer": "did",
+        "explanation": "Отрицание Past Simple строится с did not."
+      },
+      {
+        "id": "q40",
+        "type": "mcq_single",
+        "prompt": "Какой вариант завершает историю логично?",
+        "theory_block_id": "b5_theory_closing",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "In the end, we felt relieved.",
+            "feedback": "Да, это итог"
+          },
+          {
+            "id": "b",
+            "text": "Then we left the house.",
+            "feedback": "Это не финал"
+          },
+          {
+            "id": "c",
+            "text": "Yesterday, we woke up.",
+            "feedback": "Это начало истории"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Фраза In the end показывает итог, поэтому подходит для финала."
+      },
+      {
+        "id": "q41",
+        "type": "true_false",
+        "prompt": "Финальная фраза помогает завершить историю и подвести итог.",
+        "theory_block_id": "b5_theory_closing",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, финал делает рассказ цельным и завершенным."
+      },
+      {
+        "id": "q42",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"In the end, we ___ home safely.\" (arrive)",
+        "theory_block_id": "b5_theory_closing",
+        "difficulty": 2,
+        "correct_answer": "arrived",
+        "explanation": "Past Simple правильного глагола: arrive → arrived."
+      },
+      {
+        "id": "q43",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в финале:\n\n**In the end, we are happy.**",
+        "theory_block_id": "b5_theory_closing",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "In the end, we were happy.",
+            "feedback": "Правильно: Past Simple"
+          },
+          {
+            "id": "b",
+            "text": "In the end, we are happy.",
+            "feedback": "Неверно: время должно быть прошлым"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "История в прошлом требует Past Simple: we were happy."
+      },
+      {
+        "id": "q44",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_closing",
+        "difficulty": 2,
+        "correct_answer": "It was a day to remember.",
+        "explanation": "Финальная фраза в Past Simple: It was ..."
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "prompt": "Какой вариант звучит как финальный итог?",
+        "theory_block_id": "b5_theory_closing",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It was a day to remember.",
+            "feedback": "Да, это завершение"
+          },
+          {
+            "id": "b",
+            "text": "Then we left the house.",
+            "feedback": "Это продолжение событий"
+          },
+          {
+            "id": "c",
+            "text": "One day, we left the house.",
+            "feedback": "Это начало истории"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Фраза It was a day to remember подводит итог истории."
+      },
+      {
+        "id": "q46",
+        "type": "true_false",
+        "prompt": "Финал истории может быть одной короткой фразой.",
+        "theory_block_id": "b5_theory_closing",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, короткая фраза вполне подходит для завершения."
+      },
+      {
+        "id": "q47",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Finally, we ___ the bus and went home.\" (catch)",
+        "theory_block_id": "b5_theory_closing",
+        "difficulty": 2,
+        "correct_answer": "caught",
+        "explanation": "Past Simple глагола catch — caught."
+      },
+      {
+        "id": "q48",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в завершении:\n\n**In the end, we feel happy.**",
+        "theory_block_id": "b5_theory_closing",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "In the end, we felt happy.",
+            "feedback": "Правильно: Past Simple"
+          },
+          {
+            "id": "b",
+            "text": "In the end, we feel happy.",
+            "feedback": "Неверно: настоящее время"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В истории в прошлом финальная фраза тоже должна быть в Past Simple."
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "Какой вариант дает контекст в начале истории?",
+        "theory_block_id": "b1_theory_story_structure",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yesterday, I visited my grandma.",
+            "feedback": "Да, есть время и действие"
+          },
+          {
+            "id": "b",
+            "text": "Finally, I went to sleep.",
+            "feedback": "Это завершение, не начало"
+          },
+          {
+            "id": "c",
+            "text": "Because I was tired.",
+            "feedback": "Это причина, а не контекст"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Начало истории обычно содержит время и место/событие, как в варианте A."
+      },
+      {
+        "id": "q50",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"At the end, we ___ home.\" (come)",
+        "theory_block_id": "b1_theory_story_structure",
+        "difficulty": 2,
+        "correct_answer": "came",
+        "explanation": "Past Simple глагола come — came."
+      },
+      {
+        "id": "q51",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в последовательности:\n\n**Finally, we met our friends. Then we woke up.**",
+        "theory_block_id": "b2_theory_time_sequence",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We woke up. Then we met our friends. Finally, we went home.",
+            "feedback": "Правильно: порядок событий логичный"
+          },
+          {
+            "id": "b",
+            "text": "Finally, we met our friends. Then we woke up.",
+            "feedback": "Неверно: final не может быть первым"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Finally используется для финала, поэтому сначала должно быть первое событие."
+      },
+      {
+        "id": "q52",
+        "type": "mcq_single",
+        "prompt": "Какой маркер лучше всего подходит для последнего события?",
+        "theory_block_id": "b2_theory_time_sequence",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Finally",
+            "feedback": "Да, это маркер завершения"
+          },
+          {
+            "id": "b",
+            "text": "Then",
+            "feedback": "Это промежуточный шаг"
+          },
+          {
+            "id": "c",
+            "text": "Yesterday",
+            "feedback": "Это просто время, не порядок"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Finally вводит последнюю часть истории."
+      },
+      {
+        "id": "q53",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Did you ___ the message?\" (видеть)",
+        "theory_block_id": "b3_theory_past_simple_accuracy",
+        "difficulty": 2,
+        "correct_answer": "see",
+        "explanation": "После did используется базовая форма see."
+      },
+      {
+        "id": "q54",
+        "type": "mcq_single",
+        "prompt": "Какое отрицание в Past Simple построено правильно?",
+        "theory_block_id": "b3_theory_past_simple_accuracy",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We didn't know the answer.",
+            "feedback": "Верно: didn't + V1"
+          },
+          {
+            "id": "b",
+            "text": "We didn't knew the answer.",
+            "feedback": "Неверно: knew это V2"
+          },
+          {
+            "id": "c",
+            "text": "We don't knew the answer.",
+            "feedback": "Неверно: не то время"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В отрицании Past Simple используется didn't + V1."
+      },
+      {
+        "id": "q55",
+        "type": "mcq_single",
+        "prompt": "Какой вариант делает рассказ более разнообразным?",
+        "theory_block_id": "b4_theory_story_variety",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We left. We didn't find the station. Did we take the wrong road?",
+            "feedback": "Да, есть разные типы предложений"
+          },
+          {
+            "id": "b",
+            "text": "We left. We left. We left.",
+            "feedback": "Нет разнообразия"
+          },
+          {
+            "id": "c",
+            "text": "We will leave. We will leave.",
+            "feedback": "Это будущее время"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Смешивание утверждений, отрицаний и вопросов делает историю естественнее."
+      },
+      {
+        "id": "q56",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в вопросе:\n\n**Did you watched the show?**",
+        "theory_block_id": "b4_theory_story_variety",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Did you watch the show?",
+            "feedback": "Правильно: V1 после did"
+          },
+          {
+            "id": "b",
+            "text": "Did you watched the show?",
+            "feedback": "Неверно: watched это V2"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После did используется базовая форма глагола."
+      },
+      {
+        "id": "q57",
+        "type": "true_false",
+        "prompt": "Один короткий вопрос может сделать рассказ более живым.",
+        "theory_block_id": "b4_theory_story_variety",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, вопрос добавляет динамику и вовлекает слушателя."
+      },
+      {
+        "id": "q58",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"In the end, it ___ worth it.\" (be)",
+        "theory_block_id": "b5_theory_closing",
+        "difficulty": 2,
+        "correct_answer": "was",
+        "explanation": "В истории в прошлом используем was."
+      },
+      {
+        "id": "q59",
+        "type": "mcq_single",
+        "prompt": "Какое предложение звучит как итог истории?",
+        "theory_block_id": "b5_theory_closing",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "In the end, everything worked out.",
+            "feedback": "Да, это финальный итог"
+          },
+          {
+            "id": "b",
+            "text": "Then we opened the door.",
+            "feedback": "Это продолжение событий"
+          },
+          {
+            "id": "c",
+            "text": "One day, we left home.",
+            "feedback": "Это начало истории"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Фраза In the end подводит итог истории."
+      },
+      {
+        "id": "q60",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в финале:\n\n**Finally, we arrive home.**",
+        "theory_block_id": "b5_theory_closing",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Finally, we arrived home.",
+            "feedback": "Правильно: Past Simple"
+          },
+          {
+            "id": "b",
+            "text": "Finally, we arrive home.",
+            "feedback": "Неверно: настоящее время"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Финальная фраза истории должна быть в Past Simple."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-18T15:35:27Z",
+    "source": "llm"
+  }
+}
