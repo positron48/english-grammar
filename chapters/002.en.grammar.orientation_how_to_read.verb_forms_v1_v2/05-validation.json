@@ -1,33 +1,11 @@
 {
   "validation_result": {
-    "is_valid": false,
-    "schema_valid": false,
-    "issues": [
-      {
-        "severity": "error",
-        "category": "content",
-        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Заполните пропуск: \"I ___ to the store yesterday.\" (go)'. Дубликаты в вопросах: q2, q34",
-        "location": "question_bank.questions",
-        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q2, q34), чтобы они были уникальными"
-      },
-      {
-        "severity": "error",
-        "category": "content",
-        "message": "Найдены вопросы с одинаковым текстом (prompt): 'В предложении \"I **went** to London last year\" какая форма глагола используется?'. Дубликаты в вопросах: q5, q25",
-        "location": "question_bank.questions",
-        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q5, q25), чтобы они были уникальными"
-      },
-      {
-        "severity": "error",
-        "category": "content",
-        "message": "Найдены вопросы с одинаковым текстом (prompt): 'В предложении \"I have **gone** to London\" какая форма глагола используется?'. Дубликаты в вопросах: q9, q37",
-        "location": "question_bank.questions",
-        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q9, q37), чтобы они были уникальными"
-      }
-    ],
+    "is_valid": true,
+    "schema_valid": true,
+    "issues": [],
     "summary": {
-      "total_issues": 3,
-      "errors": 3,
+      "total_issues": 0,
+      "errors": 0,
       "warnings": 0,
       "suggestions": 0
     },
@@ -37,8 +15,8 @@
       "questions_per_block": {
         "b1_theory_what_are_v1_v2_v3": 9,
         "b2_theory_v1_base_form": 9,
-        "b3_theory_v2_past_form": 11,
-        "b4_theory_v3_past_participle": 9,
+        "b3_theory_v2_past_form": 9,
+        "b4_theory_v3_past_participle": 8,
         "b5_theory_why_it_matters": 6
       }
     }

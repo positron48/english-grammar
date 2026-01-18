@@ -1,19 +1,11 @@
 {
   "validation_result": {
-    "is_valid": false,
-    "schema_valid": false,
-    "issues": [
-      {
-        "severity": "error",
-        "category": "content",
-        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Найдите ошибку: \"This is Anna phone.\"'. Дубликаты в вопросах: q4, q26",
-        "location": "question_bank.questions",
-        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q4, q26), чтобы они были уникальными"
-      }
-    ],
+    "is_valid": true,
+    "schema_valid": true,
+    "issues": [],
     "summary": {
-      "total_issues": 1,
-      "errors": 1,
+      "total_issues": 0,
+      "errors": 0,
       "warnings": 0,
       "suggestions": 0
     },
@@ -26,7 +18,7 @@
         "b3_theory_plural_nouns": 6,
         "b4_theory_questions_with_whose": 6,
         "b5_theory_when_to_use_of": 6,
-        "b6_theory_common_mistakes": 5
+        "b6_theory_common_mistakes": 4
       }
     }
   }

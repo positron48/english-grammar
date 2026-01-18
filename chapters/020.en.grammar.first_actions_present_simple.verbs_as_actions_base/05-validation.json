@@ -1,19 +1,11 @@
 {
   "validation_result": {
-    "is_valid": false,
-    "schema_valid": false,
-    "issues": [
-      {
-        "severity": "error",
-        "category": "content",
-        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Найдите ошибку в предложении: \"I works every day.\"'. Дубликаты в вопросах: q6, q17",
-        "location": "question_bank.questions",
-        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q6, q17), чтобы они были уникальными"
-      }
-    ],
+    "is_valid": true,
+    "schema_valid": true,
+    "issues": [],
     "summary": {
-      "total_issues": 1,
-      "errors": 1,
+      "total_issues": 0,
+      "errors": 0,
       "warnings": 0,
       "suggestions": 0
     },
@@ -22,7 +14,7 @@
       "total_theory_blocks": 5,
       "questions_per_block": {
         "b1_theory_verbs_as_actions": 12,
-        "b2_theory_base_form": 12,
+        "b2_theory_base_form": 11,
         "b3_theory_third_person_s": 15,
         "b4_theory_spelling_rules": 15,
         "b5_theory_contrast_forms": 14

@@ -1,33 +1,11 @@
 {
   "validation_result": {
-    "is_valid": false,
-    "schema_valid": false,
-    "issues": [
-      {
-        "severity": "error",
-        "category": "content",
-        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Заполните пропуск: \"There ___ some milk in the fridge.\" (глагол be)'. Дубликаты в вопросах: q21, q24, q27",
-        "location": "question_bank.questions",
-        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q21, q24, q27), чтобы они были уникальными"
-      },
-      {
-        "severity": "error",
-        "category": "content",
-        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Заполните пропуск: \"There ___ many students in the class.\" (глагол be)'. Дубликаты в вопросах: q36, q39, q42, q45",
-        "location": "question_bank.questions",
-        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q36, q39, q42, q45), чтобы они были уникальными"
-      },
-      {
-        "severity": "error",
-        "category": "content",
-        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Заполните пропуск: \"___ there any windows in the room?\" (глагол be)'. Дубликаты в вопросах: q51, q54, q57, q60",
-        "location": "question_bank.questions",
-        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q51, q54, q57, q60), чтобы они были уникальными"
-      }
-    ],
+    "is_valid": true,
+    "schema_valid": true,
+    "issues": [],
     "summary": {
-      "total_issues": 3,
-      "errors": 3,
+      "total_issues": 0,
+      "errors": 0,
       "warnings": 0,
       "suggestions": 0
     },
@@ -36,9 +14,9 @@
       "total_theory_blocks": 5,
       "questions_per_block": {
         "b1_theory_there_is_are_basic": 8,
-        "b2_theory_there_is_singular": 10,
-        "b3_theory_there_are_plural": 12,
-        "b4_theory_there_questions": 14,
+        "b2_theory_there_is_singular": 8,
+        "b3_theory_there_are_plural": 9,
+        "b4_theory_there_questions": 11,
         "b5_theory_there_negatives": 9
       }
     }

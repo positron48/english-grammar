@@ -1,40 +1,11 @@
 {
   "validation_result": {
-    "is_valid": false,
-    "schema_valid": false,
-    "issues": [
-      {
-        "severity": "error",
-        "category": "content",
-        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Выберите правильный вариант. С каким местоимением используется does?'. Дубликаты в вопросах: q9, q45",
-        "location": "question_bank.questions",
-        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q9, q45), чтобы они были уникальными"
-      },
-      {
-        "severity": "error",
-        "category": "content",
-        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Найдите ошибку в предложении:\n\n**Does she works here?**'. Дубликаты в вопросах: q16, q38",
-        "location": "question_bank.questions",
-        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q16, q38), чтобы они были уникальными"
-      },
-      {
-        "severity": "error",
-        "category": "content",
-        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Выберите правильный вариант. В каком предложении правильный порядок слов в вопросе?'. Дубликаты в вопросах: q35, q69",
-        "location": "question_bank.questions",
-        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q35, q69), чтобы они были уникальными"
-      },
-      {
-        "severity": "error",
-        "category": "content",
-        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Выберите правильный вариант. В каком предложении правильный порядок слов в специальном вопросе?'. Дубликаты в вопросах: q39, q61",
-        "location": "question_bank.questions",
-        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q39, q61), чтобы они были уникальными"
-      }
-    ],
+    "is_valid": true,
+    "schema_valid": true,
+    "issues": [],
     "summary": {
-      "total_issues": 4,
-      "errors": 4,
+      "total_issues": 0,
+      "errors": 0,
       "warnings": 0,
       "suggestions": 0
     },
@@ -43,11 +14,11 @@
       "total_theory_blocks": 6,
       "questions_per_block": {
         "b1_theory_do_does_basics": 7,
-        "b2_theory_do_vs_does": 10,
+        "b2_theory_do_vs_does": 9,
         "b3_theory_yes_no_questions": 12,
-        "b4_theory_wh_questions": 15,
+        "b4_theory_wh_questions": 14,
         "b5_theory_short_answers": 14,
-        "b6_theory_word_order": 14
+        "b6_theory_word_order": 12
       }
     }
   }

@@ -1,19 +1,11 @@
 {
   "validation_result": {
-    "is_valid": false,
-    "schema_valid": false,
-    "issues": [
-      {
-        "severity": "error",
-        "category": "content",
-        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Найдите ошибку: \"This is I book.\"'. Дубликаты в вопросах: q4, q36, q56",
-        "location": "question_bank.questions",
-        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q4, q36, q56), чтобы они были уникальными"
-      }
-    ],
+    "is_valid": true,
+    "schema_valid": true,
+    "issues": [],
     "summary": {
-      "total_issues": 1,
-      "errors": 1,
+      "total_issues": 0,
+      "errors": 0,
       "warnings": 0,
       "suggestions": 0
     },
@@ -26,7 +18,7 @@
         "b3_theory_usage_with_nouns": 13,
         "b4_theory_his_vs_her": 12,
         "b5_theory_questions_with_whose": 11,
-        "b6_theory_common_mistakes": 6
+        "b6_theory_common_mistakes": 4
       }
     }
   }

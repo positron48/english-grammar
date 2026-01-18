@@ -1,19 +1,11 @@
 {
   "validation_result": {
-    "is_valid": false,
-    "schema_valid": false,
-    "issues": [
-      {
-        "severity": "error",
-        "category": "content",
-        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Найдите ошибку в предложении:\\n\\n**I always am late.**'. Дубликаты в вопросах: q25, q33",
-        "location": "question_bank.questions",
-        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q25, q33), чтобы они были уникальными"
-      }
-    ],
+    "is_valid": true,
+    "schema_valid": true,
+    "issues": [],
     "summary": {
-      "total_issues": 1,
-      "errors": 1,
+      "total_issues": 0,
+      "errors": 0,
       "warnings": 0,
       "suggestions": 0
     },
@@ -25,7 +17,7 @@
         "b2_theory_placement_with_ordinary_verbs": 9,
         "b3_theory_placement_with_be": 10,
         "b4_theory_adverbs_in_negatives_questions": 5,
-        "b5_theory_common_mistakes_placement": 2
+        "b5_theory_common_mistakes_placement": 1
       }
     }
   }

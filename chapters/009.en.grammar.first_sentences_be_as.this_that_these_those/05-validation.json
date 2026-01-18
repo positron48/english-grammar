@@ -1,19 +1,11 @@
 {
   "validation_result": {
-    "is_valid": false,
-    "schema_valid": false,
-    "issues": [
-      {
-        "severity": "error",
-        "category": "content",
-        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Найдите ошибку в предложении: \"This are a book.\"'. Дубликаты в вопросах: q6, q42",
-        "location": "question_bank.questions",
-        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q6, q42), чтобы они были уникальными"
-      }
-    ],
+    "is_valid": true,
+    "schema_valid": true,
+    "issues": [],
     "summary": {
-      "total_issues": 1,
-      "errors": 1,
+      "total_issues": 0,
+      "errors": 0,
       "warnings": 0,
       "suggestions": 0
     },
@@ -24,7 +16,7 @@
         "b1_theory_this_that_singular": 8,
         "b2_theory_these_those_plural": 9,
         "b3_theory_here_there_location": 7,
-        "b4_theory_combining_with_be": 11,
+        "b4_theory_combining_with_be": 10,
         "b5_theory_questions_with_demonstratives": 14
       }
     }

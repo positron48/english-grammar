@@ -1,19 +1,11 @@
 {
   "validation_result": {
-    "is_valid": false,
-    "schema_valid": false,
-    "issues": [
-      {
-        "severity": "error",
-        "category": "content",
-        "message": "Найдены вопросы с одинаковым текстом (prompt): 'Заполните пропуск: **I'm ___ artist.** (артикль перед гласным звуком)'. Дубликаты в вопросах: q3, q55",
-        "location": "question_bank.questions",
-        "suggested_fix": "Изменить prompt для одного или нескольких вопросов (q3, q55), чтобы они были уникальными"
-      }
-    ],
+    "is_valid": true,
+    "schema_valid": true,
+    "issues": [],
     "summary": {
-      "total_issues": 1,
-      "errors": 1,
+      "total_issues": 0,
+      "errors": 0,
       "warnings": 0,
       "suggestions": 0
     },
@@ -21,7 +13,7 @@
       "theory_blocks_covered": 5,
       "total_theory_blocks": 5,
       "questions_per_block": {
-        "b1_theory_identity_statements": 13,
+        "b1_theory_identity_statements": 12,
         "b2_theory_description_statements": 6,
         "b3_theory_location_statements": 10,
         "b4_theory_contractions": 5,
