@@ -1,0 +1,1331 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.past_2_background_process.build_speak_a_story",
+  "section_id": "en.grammar.past_2_background_process",
+  "title": "Build & speak: a story with background + interruption",
+  "title_short": "Build & speak: a story with background + interruption",
+  "description": "Практика: рассказ с фоном (Past Continuous) и событием-прерыванием (Past Simple).",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "A2",
+  "order": 0,
+  "prerequisites": [
+    "en.grammar.past_2_background_process.two_parallel_actions_while"
+  ],
+  "concept_refs": [
+    "story_goal",
+    "background_sentence",
+    "interruption_sentence",
+    "linking_when_while",
+    "wrap_up"
+  ],
+  "learning_objectives": [
+    "Составлять короткую историю с фоном и прерыванием",
+    "Использовать Past Continuous для фона",
+    "Использовать Past Simple для события",
+    "Связывать части через when/while",
+    "Избегать смешения времен"
+  ],
+  "estimated_minutes": 20,
+  "blocks": [
+    {
+      "id": "b1_theory_story_goal",
+      "type": "theory",
+      "title": "Цель этой практики — короткая история с фоном и событием-прерыванием. Обычно это 4–6 предложений.",
+      "theory": {
+        "concept_id": "story_goal",
+        "content_md": "Цель этой практики — короткая история с фоном и событием-прерыванием. Обычно это 4–6 предложений.\n\nСтруктура: фон (Past Continuous) → событие (Past Simple) → итог.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I was walking home. Suddenly, it started to rain. I ran inside and felt relieved.",
+            "translation": "Я шел домой. Вдруг начался дождь. Я забежал внутрь и почувствовал облегчение.",
+            "notes": "фон + событие + итог",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "We were watching a movie when the power went out. We lit candles and continued.",
+            "translation": "Мы смотрели фильм, когда выключилось электричество. Мы зажгли свечи и продолжили.",
+            "notes": "мини-история",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_story_goal",
+      "type": "quiz_inline",
+      "title": "Проверка: структура истории",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q3",
+          "q5",
+          "q6",
+          "q8"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_background_sentence",
+      "type": "theory",
+      "title": "Фон описывается Past Continuous: was/were + V-ing. Это показывает длительное действие в момент прошлого.",
+      "theory": {
+        "concept_id": "background_sentence",
+        "content_md": "Фон описывается Past Continuous: **was/were + V-ing**. Это показывает длительное действие в момент прошлого.\n\nФоновое предложение отвечает на вопрос: что происходило в тот момент?",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I was waiting at the bus stop.",
+            "translation": "Я ждал на автобусной остановке.",
+            "notes": "фон",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "They were having dinner.",
+            "translation": "Они ужинали.",
+            "notes": "фон",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_background_sentence",
+      "type": "quiz_inline",
+      "title": "Проверка: фоновое предложение",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q15",
+          "q17",
+          "q18",
+          "q23"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_interruption_sentence",
+      "type": "theory",
+      "title": "Событие-прерывание выражается Past Simple. Это короткое действие, которое произошло в фоне.",
+      "theory": {
+        "concept_id": "interruption_sentence",
+        "content_md": "Событие-прерывание выражается Past Simple. Это короткое действие, которое произошло в фоне.\n\nОбычно оно отвечает на вопрос: что случилось?",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "The bus arrived.",
+            "translation": "Автобус приехал.",
+            "notes": "событие",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "My phone rang.",
+            "translation": "Мой телефон зазвонил.",
+            "notes": "короткое событие",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_interruption_sentence",
+      "type": "quiz_inline",
+      "title": "Проверка: событие-прерывание",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q27",
+          "q29",
+          "q30",
+          "q35"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_linking",
+      "type": "theory",
+      "title": "Фон и событие соединяются связками when и while.",
+      "theory": {
+        "concept_id": "linking_when_while",
+        "content_md": "Фон и событие соединяются связками **when** и **while**.\n\n- *I was walking when it started to rain.*\n- *While I was walking, it started to rain.*",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "She was reading when the lights went out.",
+            "translation": "Она читала, когда выключился свет.",
+            "notes": "when + событие",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "While we were talking, the door opened.",
+            "translation": "Пока мы разговаривали, дверь открылась.",
+            "notes": "while + фон",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8_quiz_after_linking",
+      "type": "quiz_inline",
+      "title": "Проверка: when/while",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q39",
+          "q41",
+          "q42",
+          "q47"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_wrap_up",
+      "type": "theory",
+      "title": "История должна заканчиваться коротким итогом: что произошло в конце и как вы себя почувствовали.",
+      "theory": {
+        "concept_id": "wrap_up",
+        "content_md": "История должна заканчиваться коротким итогом: что произошло в конце и как вы себя почувствовали.\n\nФинальная фраза делает рассказ завершенным.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "In the end, we felt safe.",
+            "translation": "В конце концов мы почувствовали себя в безопасности.",
+            "notes": "итог",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "It was a night to remember.",
+            "translation": "Это была ночь, которую мы запомним.",
+            "notes": "финальная фраза",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Что должно быть в короткой истории с фоном и прерыванием?",
+        "theory_block_id": "b1_theory_story_goal",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Фон + событие + итог",
+            "feedback": "Да, это базовая структура"
+          },
+          {
+            "id": "b",
+            "text": "Только список фактов",
+            "feedback": "Нет, нужна структура"
+          },
+          {
+            "id": "c",
+            "text": "Только диалог",
+            "feedback": "Это не обязательный формат"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "История строится: фон в Past Continuous, событие в Past Simple и итог."
+      },
+      {
+        "id": "q2",
+        "type": "true_false",
+        "prompt": "История может состоять всего из 4-6 предложений.",
+        "theory_block_id": "b1_theory_story_goal",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Короткий рассказ допускает 4-6 предложений при ясной структуре."
+      },
+      {
+        "id": "q3",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I was walking home. ___, it started to rain.\" (вдруг)",
+        "theory_block_id": "b1_theory_story_goal",
+        "difficulty": 2,
+        "correct_answer": "Suddenly",
+        "explanation": "Для короткого события в истории подходит вводное Suddenly."
+      },
+      {
+        "id": "q4",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в структуре:\n\n**In the end, it started to rain. I was walking home.**",
+        "theory_block_id": "b1_theory_story_goal",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I was walking home. Then it started to rain. In the end, I got home safely.",
+            "feedback": "Правильно: фон → событие → итог"
+          },
+          {
+            "id": "b",
+            "text": "In the end, it started to rain. I was walking home.",
+            "feedback": "Неверно: итог не может быть в начале"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Сначала фон, затем событие и итог."
+      },
+      {
+        "id": "q5",
+        "type": "mcq_single",
+        "prompt": "Какое предложение лучше подходит для итога?",
+        "theory_block_id": "b1_theory_story_goal",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "In the end, we felt safe.",
+            "feedback": "Да, это итог"
+          },
+          {
+            "id": "b",
+            "text": "While we were walking, it rained.",
+            "feedback": "Это фон + событие"
+          },
+          {
+            "id": "c",
+            "text": "I was walking home.",
+            "feedback": "Это фон"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Итог завершает историю."
+      },
+      {
+        "id": "q6",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_story_goal",
+        "difficulty": 2,
+        "correct_answer": "We were watching a movie when the power went out.",
+        "explanation": "Фон в Past Continuous + событие в Past Simple."
+      },
+      {
+        "id": "q7",
+        "type": "mcq_single",
+        "prompt": "Что лучше всего описывает фон в истории?",
+        "theory_block_id": "b1_theory_story_goal",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We were having dinner.",
+            "feedback": "Да, это фон"
+          },
+          {
+            "id": "b",
+            "text": "The door opened.",
+            "feedback": "Это событие, не фон"
+          },
+          {
+            "id": "c",
+            "text": "We closed the door.",
+            "feedback": "Это другое событие, не фон"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Фон — длительное действие в Past Continuous."
+      },
+      {
+        "id": "q8",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"We were watching a movie. The lights ___.\" (go)",
+        "theory_block_id": "b1_theory_story_goal",
+        "difficulty": 2,
+        "correct_answer": "went",
+        "explanation": "Событие в Past Simple: go → went."
+      },
+      {
+        "id": "q9",
+        "type": "true_false",
+        "prompt": "История с фоном и прерыванием может закончиться короткой финальной фразой.",
+        "theory_block_id": "b1_theory_story_goal",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Короткий итог делает историю завершенной."
+      },
+      {
+        "id": "q10",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в порядке частей:\n\n**Suddenly, we felt relieved. We were walking home.**",
+        "theory_block_id": "b1_theory_story_goal",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We were walking home. Suddenly, we felt relieved.",
+            "feedback": "Правильно: сначала фон, потом итог"
+          },
+          {
+            "id": "b",
+            "text": "Suddenly, we felt relieved. We were walking home.",
+            "feedback": "Неверно: итог не может быть первым"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Сначала фон, затем событие и итог."
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "prompt": "Какое предложение лучше подходит как событие?",
+        "theory_block_id": "b1_theory_story_goal",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The phone rang.",
+            "feedback": "Да, короткое событие"
+          },
+          {
+            "id": "b",
+            "text": "We were waiting.",
+            "feedback": "Это фон в Continuous"
+          },
+          {
+            "id": "c",
+            "text": "We were talking.",
+            "feedback": "Это фон, а не короткое событие"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Событие — короткое Past Simple."
+      },
+      {
+        "id": "q12",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"In the end, we ___ happy.\" (be)",
+        "theory_block_id": "b1_theory_story_goal",
+        "difficulty": 2,
+        "correct_answer": "were",
+        "explanation": "Итог в прошлом: we were."
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Что такое фоновое предложение?",
+        "theory_block_id": "b2_theory_background_sentence",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Длительный процесс в Past Continuous",
+            "feedback": "Да, это фон"
+          },
+          {
+            "id": "b",
+            "text": "Короткое событие в Past Simple",
+            "feedback": "Это событие"
+          },
+          {
+            "id": "c",
+            "text": "Будущее действие",
+            "feedback": "Это не фон"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Фон описывает длительный процесс: was/were + V-ing."
+      },
+      {
+        "id": "q14",
+        "type": "true_false",
+        "prompt": "Фон обычно описывается Past Continuous.",
+        "theory_block_id": "b2_theory_background_sentence",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Past Continuous показывает длительный процесс в прошлом."
+      },
+      {
+        "id": "q15",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I ___ waiting at the bus stop.\" (be, I)",
+        "theory_block_id": "b2_theory_background_sentence",
+        "difficulty": 2,
+        "correct_answer": "was",
+        "explanation": "С I используется was."
+      },
+      {
+        "id": "q16",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**They was having dinner.**",
+        "theory_block_id": "b2_theory_background_sentence",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "They were having dinner.",
+            "feedback": "Правильно: they → were"
+          },
+          {
+            "id": "b",
+            "text": "They was having dinner.",
+            "feedback": "Неверно: was с they"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С they используется were."
+      },
+      {
+        "id": "q17",
+        "type": "mcq_single",
+        "prompt": "Какое предложение является фоном?",
+        "theory_block_id": "b2_theory_background_sentence",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We were waiting for the bus.",
+            "feedback": "Да, это фон"
+          },
+          {
+            "id": "b",
+            "text": "The bus arrived.",
+            "feedback": "Это событие-прерывание"
+          },
+          {
+            "id": "c",
+            "text": "It started to rain.",
+            "feedback": "Это другое событие, не фон"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Фон = длительный процесс."
+      },
+      {
+        "id": "q18",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_background_sentence",
+        "difficulty": 2,
+        "correct_answer": "She was listening to music.",
+        "explanation": "Past Continuous: was + V-ing."
+      },
+      {
+        "id": "q19",
+        "type": "mcq_single",
+        "prompt": "Что обычно отвечает на вопрос \"что происходило\"?",
+        "theory_block_id": "b2_theory_background_sentence",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Фон в Past Continuous",
+            "feedback": "Да, это процесс"
+          },
+          {
+            "id": "b",
+            "text": "Короткое событие",
+            "feedback": "Это ответ на \"что случилось\""
+          },
+          {
+            "id": "c",
+            "text": "План на будущее",
+            "feedback": "Это не про прошлое"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Фон описывает длительное действие."
+      },
+      {
+        "id": "q20",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"They ___ having dinner.\" (be, they)",
+        "theory_block_id": "b2_theory_background_sentence",
+        "difficulty": 2,
+        "correct_answer": "were",
+        "explanation": "С they используется were."
+      },
+      {
+        "id": "q21",
+        "type": "true_false",
+        "prompt": "Фон в истории обычно краткий и завершенный.",
+        "theory_block_id": "b2_theory_background_sentence",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Фон — длительный процесс, не короткое событие."
+      },
+      {
+        "id": "q22",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**She was listen to music.**",
+        "theory_block_id": "b2_theory_background_sentence",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She was listening to music.",
+            "feedback": "Правильно: нужна форма -ing"
+          },
+          {
+            "id": "b",
+            "text": "She was listen to music.",
+            "feedback": "Неверно: нет -ing"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В Past Continuous используется V-ing."
+      },
+      {
+        "id": "q23",
+        "type": "mcq_single",
+        "prompt": "Какое предложение с Past Continuous верное?",
+        "theory_block_id": "b2_theory_background_sentence",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We were sitting near the window.",
+            "feedback": "Верно"
+          },
+          {
+            "id": "b",
+            "text": "We was sitting near the window.",
+            "feedback": "Неверно: we → were"
+          },
+          {
+            "id": "c",
+            "text": "We sitting near the window.",
+            "feedback": "Неверно: нет was/were"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильная форма: were sitting."
+      },
+      {
+        "id": "q24",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She ___ listening to music.\" (be, she)",
+        "theory_block_id": "b2_theory_background_sentence",
+        "difficulty": 2,
+        "correct_answer": "was",
+        "explanation": "С she используется was."
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Какое предложение описывает событие-прерывание?",
+        "theory_block_id": "b3_theory_interruption_sentence",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The phone rang.",
+            "feedback": "Да, это событие"
+          },
+          {
+            "id": "b",
+            "text": "I was reading.",
+            "feedback": "Это фон, а не прерывание"
+          },
+          {
+            "id": "c",
+            "text": "We were walking.",
+            "feedback": "Это фоновое действие"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Событие-прерывание выражается Past Simple."
+      },
+      {
+        "id": "q26",
+        "type": "true_false",
+        "prompt": "Событие-прерывание обычно выражается Past Simple.",
+        "theory_block_id": "b3_theory_interruption_sentence",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, короткие события — Past Simple."
+      },
+      {
+        "id": "q27",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"The bus ___.\" (arrive)",
+        "theory_block_id": "b3_theory_interruption_sentence",
+        "difficulty": 1,
+        "correct_answer": "arrived",
+        "explanation": "Past Simple: arrive → arrived."
+      },
+      {
+        "id": "q28",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**My phone was rang.**",
+        "theory_block_id": "b3_theory_interruption_sentence",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "My phone rang.",
+            "feedback": "Правильно: Past Simple"
+          },
+          {
+            "id": "b",
+            "text": "My phone was rang.",
+            "feedback": "Неверно: не нужна форма was"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Событие выражается Past Simple без was."
+      },
+      {
+        "id": "q29",
+        "type": "mcq_single",
+        "prompt": "Какое событие лучше вставить как прерывание?",
+        "theory_block_id": "b3_theory_interruption_sentence",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The door opened.",
+            "feedback": "Да, короткое событие"
+          },
+          {
+            "id": "b",
+            "text": "We were talking.",
+            "feedback": "Это фон, не прерывание"
+          },
+          {
+            "id": "c",
+            "text": "She was sleeping.",
+            "feedback": "Это процесс в фоне"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Событие-прерывание — короткое действие."
+      },
+      {
+        "id": "q30",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_interruption_sentence",
+        "difficulty": 2,
+        "correct_answer": "The alarm went off.",
+        "explanation": "Past Simple: went off."
+      },
+      {
+        "id": "q31",
+        "type": "mcq_single",
+        "prompt": "Что отвечает на вопрос \"что случилось\"?",
+        "theory_block_id": "b3_theory_interruption_sentence",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Короткое событие в Past Simple",
+            "feedback": "Да"
+          },
+          {
+            "id": "b",
+            "text": "Фон в Past Continuous",
+            "feedback": "Это ответ на \"что происходило\""
+          },
+          {
+            "id": "c",
+            "text": "План на будущее",
+            "feedback": "Не относится"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Событие-прерывание — Past Simple."
+      },
+      {
+        "id": "q32",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"My friend ___.\" (call)",
+        "theory_block_id": "b3_theory_interruption_sentence",
+        "difficulty": 1,
+        "correct_answer": "called",
+        "explanation": "Past Simple: call → called."
+      },
+      {
+        "id": "q33",
+        "type": "true_false",
+        "prompt": "Событие-прерывание обычно длится долго.",
+        "theory_block_id": "b3_theory_interruption_sentence",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Событие короткое и завершенное."
+      },
+      {
+        "id": "q34",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**The lights were went out.**",
+        "theory_block_id": "b3_theory_interruption_sentence",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The lights went out.",
+            "feedback": "Правильно: Past Simple"
+          },
+          {
+            "id": "b",
+            "text": "The lights were went out.",
+            "feedback": "Неверно: не нужна форма were"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Событие выражается Past Simple без was/were."
+      },
+      {
+        "id": "q35",
+        "type": "mcq_single",
+        "prompt": "Какой глагол в Past Simple подходит для события?",
+        "theory_block_id": "b3_theory_interruption_sentence",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "rang",
+            "feedback": "Да, это Past Simple"
+          },
+          {
+            "id": "b",
+            "text": "was ringing",
+            "feedback": "Это фон"
+          },
+          {
+            "id": "c",
+            "text": "ring",
+            "feedback": "Это базовая форма"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Событие-прерывание — Past Simple."
+      },
+      {
+        "id": "q36",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"The door ___.\" (open)",
+        "theory_block_id": "b3_theory_interruption_sentence",
+        "difficulty": 1,
+        "correct_answer": "opened",
+        "explanation": "Past Simple: open → opened."
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Как правильно связать фон и событие?",
+        "theory_block_id": "b4_theory_linking",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I was reading when the phone rang.",
+            "feedback": "Верно"
+          },
+          {
+            "id": "b",
+            "text": "I read when the phone was ringing.",
+            "feedback": "Неверно: роли перепутаны"
+          },
+          {
+            "id": "c",
+            "text": "I was reading when the phone was ringing.",
+            "feedback": "Неверно: событие не в Past Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Фон в Past Continuous, событие в Past Simple."
+      },
+      {
+        "id": "q38",
+        "type": "true_false",
+        "prompt": "When обычно вводит событие-прерывание.",
+        "theory_block_id": "b4_theory_linking",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "When часто вводит Past Simple событие."
+      },
+      {
+        "id": "q39",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She was reading ___ the lights went out.\" (когда)",
+        "theory_block_id": "b4_theory_linking",
+        "difficulty": 2,
+        "correct_answer": "when",
+        "explanation": "When связывает фон и событие."
+      },
+      {
+        "id": "q40",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**While we were talking, the door was opened.**",
+        "theory_block_id": "b4_theory_linking",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "While we were talking, the door opened.",
+            "feedback": "Правильно: событие в Past Simple"
+          },
+          {
+            "id": "b",
+            "text": "While we were talking, the door was opened.",
+            "feedback": "Неверно: событие не в Continuous"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Событие в Past Simple: opened."
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "prompt": "Какую связку лучше использовать для фона?",
+        "theory_block_id": "b4_theory_linking",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "while",
+            "feedback": "Да, while для процесса"
+          },
+          {
+            "id": "b",
+            "text": "when",
+            "feedback": "Это чаще событие"
+          },
+          {
+            "id": "c",
+            "text": "because",
+            "feedback": "Это причина"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "While вводит длительный процесс."
+      },
+      {
+        "id": "q42",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_linking",
+        "difficulty": 2,
+        "correct_answer": "While I was walking, it started to rain.",
+        "explanation": "While + Past Continuous, затем событие."
+      },
+      {
+        "id": "q43",
+        "type": "mcq_single",
+        "prompt": "Что лучше подходит для события?",
+        "theory_block_id": "b4_theory_linking",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "when the phone rang",
+            "feedback": "Да, это событие"
+          },
+          {
+            "id": "b",
+            "text": "while I was walking",
+            "feedback": "Это фон с while"
+          },
+          {
+            "id": "c",
+            "text": "while we were talking",
+            "feedback": "Это фон, а не событие"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Событие выражается Past Simple."
+      },
+      {
+        "id": "q44",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"While I was walking, it ___.\" (start)",
+        "theory_block_id": "b4_theory_linking",
+        "difficulty": 2,
+        "correct_answer": "started",
+        "explanation": "Событие в Past Simple: started."
+      },
+      {
+        "id": "q45",
+        "type": "true_false",
+        "prompt": "While обычно требует Past Continuous в части после него.",
+        "theory_block_id": "b4_theory_linking",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "While вводит процесс."
+      },
+      {
+        "id": "q46",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**I was walking when it was started to rain.**",
+        "theory_block_id": "b4_theory_linking",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I was walking when it started to rain.",
+            "feedback": "Правильно: событие в Past Simple"
+          },
+          {
+            "id": "b",
+            "text": "I was walking when it was started to rain.",
+            "feedback": "Неверно: событие не в Continuous"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Событие в Past Simple."
+      },
+      {
+        "id": "q47",
+        "type": "mcq_single",
+        "prompt": "Какое предложение правильно сочетает when/while?",
+        "theory_block_id": "b4_theory_linking",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We were talking when he arrived.",
+            "feedback": "Верно"
+          },
+          {
+            "id": "b",
+            "text": "We talked while he arrived.",
+            "feedback": "Неверно: while + событие"
+          },
+          {
+            "id": "c",
+            "text": "We were talking when he was arriving.",
+            "feedback": "Неверно: событие не в Past Simple"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Фон + событие."
+      },
+      {
+        "id": "q48",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I was sleeping ___ the phone rang.\" (когда)",
+        "theory_block_id": "b4_theory_linking",
+        "difficulty": 2,
+        "correct_answer": "when",
+        "explanation": "When вводит событие."
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "Какой вариант лучше всего завершает историю?",
+        "theory_block_id": "b5_theory_wrap_up",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "In the end, we felt safe.",
+            "feedback": "Да, это итог"
+          },
+          {
+            "id": "b",
+            "text": "While we were walking, it rained.",
+            "feedback": "Это фон + событие"
+          },
+          {
+            "id": "c",
+            "text": "I was walking home.",
+            "feedback": "Это фон"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Итог завершает историю."
+      },
+      {
+        "id": "q50",
+        "type": "true_false",
+        "prompt": "Финальная фраза делает рассказ завершенным.",
+        "theory_block_id": "b5_theory_wrap_up",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, итог важен для завершения."
+      },
+      {
+        "id": "q51",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"In the end, we ___ relieved.\" (be)",
+        "theory_block_id": "b5_theory_wrap_up",
+        "difficulty": 2,
+        "correct_answer": "were",
+        "explanation": "Итог в прошлом: were."
+      },
+      {
+        "id": "q52",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в финальной фразе:\n\n**In the end, we are happy.**",
+        "theory_block_id": "b5_theory_wrap_up",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "In the end, we were happy.",
+            "feedback": "Правильно: Past Simple"
+          },
+          {
+            "id": "b",
+            "text": "In the end, we are happy.",
+            "feedback": "Неверно: не то время"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Итог в истории обычно в Past Simple."
+      },
+      {
+        "id": "q53",
+        "type": "mcq_single",
+        "prompt": "Какой вариант звучит как итог рассказа?",
+        "theory_block_id": "b5_theory_wrap_up",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It was a night to remember.",
+            "feedback": "Да, это финал"
+          },
+          {
+            "id": "b",
+            "text": "Then we entered the room.",
+            "feedback": "Это продолжение"
+          },
+          {
+            "id": "c",
+            "text": "While we were walking, it rained.",
+            "feedback": "Это фон"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Итог подводит к завершению истории."
+      },
+      {
+        "id": "q54",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_wrap_up",
+        "difficulty": 2,
+        "correct_answer": "In the end, we felt safe.",
+        "explanation": "Финальная фраза с Past Simple."
+      },
+      {
+        "id": "q55",
+        "type": "mcq_single",
+        "prompt": "Что лучше всего подходит как итог?",
+        "theory_block_id": "b5_theory_wrap_up",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We felt relieved.",
+            "feedback": "Да, это итог"
+          },
+          {
+            "id": "b",
+            "text": "We were waiting.",
+            "feedback": "Это фон"
+          },
+          {
+            "id": "c",
+            "text": "The door opened.",
+            "feedback": "Это событие"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Итог — короткая финальная фраза."
+      },
+      {
+        "id": "q56",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"It ___ a day to remember.\" (be)",
+        "theory_block_id": "b5_theory_wrap_up",
+        "difficulty": 2,
+        "correct_answer": "was",
+        "explanation": "Past Simple: was."
+      },
+      {
+        "id": "q57",
+        "type": "true_false",
+        "prompt": "Итог истории может быть одним предложением.",
+        "theory_block_id": "b5_theory_wrap_up",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Короткая финальная фраза подходит."
+      },
+      {
+        "id": "q58",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**In the end, we feel safe.**",
+        "theory_block_id": "b5_theory_wrap_up",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "In the end, we felt safe.",
+            "feedback": "Правильно: Past Simple"
+          },
+          {
+            "id": "b",
+            "text": "In the end, we feel safe.",
+            "feedback": "Неверно: не то время"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "История в прошлом требует Past Simple."
+      },
+      {
+        "id": "q59",
+        "type": "mcq_single",
+        "prompt": "Какое предложение лучше завершает рассказ?",
+        "theory_block_id": "b5_theory_wrap_up",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "In the end, everything worked out.",
+            "feedback": "Да, это итог"
+          },
+          {
+            "id": "b",
+            "text": "We were walking home.",
+            "feedback": "Это фон"
+          },
+          {
+            "id": "c",
+            "text": "The phone rang.",
+            "feedback": "Это событие"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Итог подводит к завершению истории."
+      },
+      {
+        "id": "q60",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"In the end, I ___ calm again.\" (feel)",
+        "theory_block_id": "b5_theory_wrap_up",
+        "difficulty": 2,
+        "correct_answer": "felt",
+        "explanation": "Past Simple: feel → felt."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-18T16:19:17Z",
+    "source": "llm"
+  }
+}
