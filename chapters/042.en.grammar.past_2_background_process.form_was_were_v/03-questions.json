@@ -1,0 +1,999 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq_single",
+      "prompt": "Выберите правильную форму Past Continuous:",
+      "theory_block_id": "b1_theory_pc_structure",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I was cooking dinner.",
+          "feedback": "Верно: was + V-ing"
+        },
+        {
+          "id": "b",
+          "text": "I cooked dinner.",
+          "feedback": "Это Past Simple, не Past Continuous"
+        },
+        {
+          "id": "c",
+          "text": "I was cook dinner.",
+          "feedback": "Неверно: нужна форма -ing"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Past Continuous строится с was/were + V-ing. Вариант A соответствует формуле."
+    },
+    {
+      "id": "q2",
+      "type": "true_false",
+      "prompt": "Past Continuous образуется по формуле was/were + V-ing.",
+      "theory_block_id": "b1_theory_pc_structure",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Это базовая формула Past Continuous."
+    },
+    {
+      "id": "q3",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"She ___ reading a book at 8 pm.\" (be, she)",
+      "theory_block_id": "b1_theory_pc_structure",
+      "difficulty": 2,
+      "correct_answer": "was",
+      "explanation": "Для she используется was: she was reading."
+    },
+    {
+      "id": "q4",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку:\n\n**They were watch TV.**",
+      "theory_block_id": "b1_theory_pc_structure",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "They were watching TV.",
+          "feedback": "Правильно: нужна форма -ing"
+        },
+        {
+          "id": "b",
+          "text": "They were watch TV.",
+          "feedback": "Неверно: watch без -ing"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "После was/were используется V-ing: watching."
+    },
+    {
+      "id": "q5",
+      "type": "mcq_single",
+      "prompt": "Какое предложение показывает процесс в прошлом?",
+      "theory_block_id": "b1_theory_pc_structure",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "We were driving when it started to snow.",
+          "feedback": "Да, это процесс"
+        },
+        {
+          "id": "b",
+          "text": "We drove to work yesterday.",
+          "feedback": "Это Past Simple, не процесс"
+        },
+        {
+          "id": "c",
+          "text": "We drive to work every day.",
+          "feedback": "Это Present Simple"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Past Continuous описывает процесс, который длился в момент прошлого."
+    },
+    {
+      "id": "q6",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b1_theory_pc_structure",
+      "difficulty": 2,
+      "correct_answer": "I was studying at night.",
+      "explanation": "Порядок: Subject + was/were + V-ing + time."
+    },
+    {
+      "id": "q7",
+      "type": "mcq_single",
+      "prompt": "Какой вариант соответствует формуле was/were + V-ing?",
+      "theory_block_id": "b1_theory_pc_structure",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "He was sleeping.",
+          "feedback": "Верно: was + V-ing"
+        },
+        {
+          "id": "b",
+          "text": "He slept.",
+          "feedback": "Past Simple"
+        },
+        {
+          "id": "c",
+          "text": "He was sleep.",
+          "feedback": "Неверно: нужна форма -ing"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Past Continuous требует was/were + V-ing."
+    },
+    {
+      "id": "q8",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"They ___ playing chess.\" (be, they)",
+      "theory_block_id": "b1_theory_pc_structure",
+      "difficulty": 2,
+      "correct_answer": "were",
+      "explanation": "Для they используется were: they were playing."
+    },
+    {
+      "id": "q9",
+      "type": "true_false",
+      "prompt": "Past Continuous всегда включает форму was или were.",
+      "theory_block_id": "b1_theory_pc_structure",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Без was/were Past Continuous не строится."
+    },
+    {
+      "id": "q10",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку:\n\n**She was cook dinner.**",
+      "theory_block_id": "b1_theory_pc_structure",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "She was cooking dinner.",
+          "feedback": "Правильно: cooking"
+        },
+        {
+          "id": "b",
+          "text": "She was cook dinner.",
+          "feedback": "Неверно: нет -ing"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "После was/were нужна форма V-ing."
+    },
+    {
+      "id": "q11",
+      "type": "mcq_single",
+      "prompt": "Выберите правильную форму was/were для it:",
+      "theory_block_id": "b2_theory_was_were_choice",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I was working.",
+          "feedback": "Верно: I → was"
+        },
+        {
+          "id": "b",
+          "text": "I were working.",
+          "feedback": "Неверно: I требует was"
+        },
+        {
+          "id": "c",
+          "text": "I working.",
+          "feedback": "Нет was/were"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "С I используется was."
+    },
+    {
+      "id": "q12",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"We ___ waiting outside.\" (be, we)",
+      "theory_block_id": "b2_theory_was_were_choice",
+      "difficulty": 2,
+      "correct_answer": "were",
+      "explanation": "Для we используется were."
+    },
+    {
+      "id": "q13",
+      "type": "true_false",
+      "prompt": "С he/she/it используется were.",
+      "theory_block_id": "b2_theory_was_were_choice",
+      "difficulty": 1,
+      "correct_answer": "false",
+      "explanation": "С he/she/it используется was, не were."
+    },
+    {
+      "id": "q14",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку:\n\n**They was running.**",
+      "theory_block_id": "b2_theory_was_were_choice",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "They were running.",
+          "feedback": "Правильно: they → were"
+        },
+        {
+          "id": "b",
+          "text": "They was running.",
+          "feedback": "Неверно: they не сочетается с was"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "С they используется were."
+    },
+    {
+      "id": "q15",
+      "type": "mcq_single",
+      "prompt": "Какой вариант правильный для he?",
+      "theory_block_id": "b2_theory_was_were_choice",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "He was writing.",
+          "feedback": "Верно: he → was"
+        },
+        {
+          "id": "b",
+          "text": "He were writing.",
+          "feedback": "Неверно: he требует was"
+        },
+        {
+          "id": "c",
+          "text": "He writing.",
+          "feedback": "Нет was/were"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "С he используется was."
+    },
+    {
+      "id": "q16",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"They ___ talking.\" (be, they)",
+      "theory_block_id": "b2_theory_was_were_choice",
+      "difficulty": 1,
+      "correct_answer": "were",
+      "explanation": "Для they используется were."
+    },
+    {
+      "id": "q17",
+      "type": "true_false",
+      "prompt": "С you используется were.",
+      "theory_block_id": "b2_theory_was_were_choice",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "You сочетается с were."
+    },
+    {
+      "id": "q18",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b2_theory_was_were_choice",
+      "difficulty": 2,
+      "correct_answer": "We were studying together.",
+      "explanation": "Правильный порядок: We were + V-ing."
+    },
+    {
+      "id": "q19",
+      "type": "mcq_single",
+      "prompt": "Выберите правильную форму was/were:",
+      "theory_block_id": "b2_theory_was_were_choice",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "It was raining.",
+          "feedback": "Верно: it → was"
+        },
+        {
+          "id": "b",
+          "text": "It were raining.",
+          "feedback": "Неверно: it требует was"
+        },
+        {
+          "id": "c",
+          "text": "It raining.",
+          "feedback": "Нет was/were"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "С it используется was."
+    },
+    {
+      "id": "q20",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку:\n\n**You was listening.**",
+      "theory_block_id": "b2_theory_was_were_choice",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "You were listening.",
+          "feedback": "Правильно: you → were"
+        },
+        {
+          "id": "b",
+          "text": "You was listening.",
+          "feedback": "Неверно: you не сочетается с was"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "С you используется were."
+    },
+    {
+      "id": "q21",
+      "type": "mcq_single",
+      "prompt": "Как правильно написать V-ing от make?",
+      "theory_block_id": "b3_theory_ing_spelling",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "making",
+          "feedback": "Верно: e-drop"
+        },
+        {
+          "id": "b",
+          "text": "makeing",
+          "feedback": "Неверно: e убирается"
+        },
+        {
+          "id": "c",
+          "text": "makking",
+          "feedback": "Неверно: лишняя буква"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Глаголы на -e теряют e перед -ing: make → making."
+    },
+    {
+      "id": "q22",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"He was ___ fast.\" (run)",
+      "theory_block_id": "b3_theory_ing_spelling",
+      "difficulty": 2,
+      "correct_answer": "running",
+      "explanation": "Run — односложный глагол, поэтому удваивается: running."
+    },
+    {
+      "id": "q23",
+      "type": "true_false",
+      "prompt": "Глагол play образует форму playing.",
+      "theory_block_id": "b3_theory_ing_spelling",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "После y добавляется -ing без изменений: play → playing."
+    },
+    {
+      "id": "q24",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку:\n\n**She was writeing a letter.**",
+      "theory_block_id": "b3_theory_ing_spelling",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "She was writing a letter.",
+          "feedback": "Правильно: write → writing"
+        },
+        {
+          "id": "b",
+          "text": "She was writeing a letter.",
+          "feedback": "Неверно: e убирается"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Write → writing, буква e исчезает."
+    },
+    {
+      "id": "q25",
+      "type": "mcq_single",
+      "prompt": "Как правильно написать V-ing от swim?",
+      "theory_block_id": "b3_theory_ing_spelling",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "swimming",
+          "feedback": "Верно: удвоение согласной"
+        },
+        {
+          "id": "b",
+          "text": "swiming",
+          "feedback": "Неверно: нужна двойная m"
+        },
+        {
+          "id": "c",
+          "text": "swiming",
+          "feedback": "Неверно: удвоение согласной"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Односложные глаголы с CVC удваивают согласную: swim → swimming."
+    },
+    {
+      "id": "q26",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"They were ___ music.\" (listen)",
+      "theory_block_id": "b3_theory_ing_spelling",
+      "difficulty": 2,
+      "correct_answer": "listening",
+      "explanation": "Listen → listening (обычное добавление -ing)."
+    },
+    {
+      "id": "q27",
+      "type": "true_false",
+      "prompt": "Глагол make образует форму makeing.",
+      "theory_block_id": "b3_theory_ing_spelling",
+      "difficulty": 1,
+      "correct_answer": "false",
+      "explanation": "Правильно: making, буква e убирается."
+    },
+    {
+      "id": "q28",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку:\n\n**He was runing fast.**",
+      "theory_block_id": "b3_theory_ing_spelling",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "He was running fast.",
+          "feedback": "Правильно: running с двойной n"
+        },
+        {
+          "id": "b",
+          "text": "He was runing fast.",
+          "feedback": "Неверно: нужна двойная n"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Run → running, удвоение n."
+    },
+    {
+      "id": "q29",
+      "type": "mcq_single",
+      "prompt": "Как правильно написать V-ing от dance?",
+      "theory_block_id": "b3_theory_ing_spelling",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "dancing",
+          "feedback": "Верно: e убирается"
+        },
+        {
+          "id": "b",
+          "text": "danceing",
+          "feedback": "Неверно: e лишняя"
+        },
+        {
+          "id": "c",
+          "text": "dancening",
+          "feedback": "Неверно: неверная форма"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Dance → dancing, e убирается."
+    },
+    {
+      "id": "q30",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b3_theory_ing_spelling",
+      "difficulty": 2,
+      "correct_answer": "She was making a cake.",
+      "explanation": "Форма V-ing: making."
+    },
+    {
+      "id": "q31",
+      "type": "mcq_single",
+      "prompt": "Как построить отрицание Past Continuous?",
+      "theory_block_id": "b4_theory_pc_negative_question",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "He wasn't working.",
+          "feedback": "Верно: wasn't + V-ing"
+        },
+        {
+          "id": "b",
+          "text": "He didn't working.",
+          "feedback": "Неверно: нужно wasn't/weren't"
+        },
+        {
+          "id": "c",
+          "text": "He not was working.",
+          "feedback": "Неверный порядок"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Отрицание в Past Continuous: wasn't/weren't + V-ing."
+    },
+    {
+      "id": "q32",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"They ___ not waiting.\" (be, they)",
+      "theory_block_id": "b4_theory_pc_negative_question",
+      "difficulty": 2,
+      "correct_answer": "were",
+      "explanation": "Отрицание: were not waiting (weren't)."
+    },
+    {
+      "id": "q33",
+      "type": "true_false",
+      "prompt": "Вопрос в Past Continuous строится как Was/Were + subject + V-ing.",
+      "theory_block_id": "b4_theory_pc_negative_question",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Да, это базовая схема вопросов в Past Continuous."
+    },
+    {
+      "id": "q34",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку:\n\n**Was she cook dinner?**",
+      "theory_block_id": "b4_theory_pc_negative_question",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Was she cooking dinner?",
+          "feedback": "Правильно: cooking"
+        },
+        {
+          "id": "b",
+          "text": "Was she cook dinner?",
+          "feedback": "Неверно: нужна форма -ing"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "В вопросах Past Continuous нужен V-ing."
+    },
+    {
+      "id": "q35",
+      "type": "mcq_single",
+      "prompt": "Какой вопрос построен правильно?",
+      "theory_block_id": "b4_theory_pc_negative_question",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Were they playing outside?",
+          "feedback": "Верно: were + V-ing"
+        },
+        {
+          "id": "b",
+          "text": "Did they playing outside?",
+          "feedback": "Неверно: используется were"
+        },
+        {
+          "id": "c",
+          "text": "Were they play outside?",
+          "feedback": "Неверно: нужен -ing"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Вопрос Past Continuous: Were + subject + V-ing."
+    },
+    {
+      "id": "q36",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"___ he sleeping?\" (be)",
+      "theory_block_id": "b4_theory_pc_negative_question",
+      "difficulty": 1,
+      "correct_answer": "Was",
+      "explanation": "В вопросе с he используется Was."
+    },
+    {
+      "id": "q37",
+      "type": "true_false",
+      "prompt": "В отрицании Past Continuous используется didn't.",
+      "theory_block_id": "b4_theory_pc_negative_question",
+      "difficulty": 1,
+      "correct_answer": "false",
+      "explanation": "Отрицание строится через wasn't/weren't, а не didn't."
+    },
+    {
+      "id": "q38",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку:\n\n**They weren't played outside.**",
+      "theory_block_id": "b4_theory_pc_negative_question",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "They weren't playing outside.",
+          "feedback": "Правильно: V-ing"
+        },
+        {
+          "id": "b",
+          "text": "They weren't played outside.",
+          "feedback": "Неверно: played это V2"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "После wasn't/weren't нужна форма V-ing."
+    },
+    {
+      "id": "q39",
+      "type": "mcq_single",
+      "prompt": "Какое отрицание в Past Continuous построено правильно?",
+      "theory_block_id": "b4_theory_pc_negative_question",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I wasn't sleeping.",
+          "feedback": "Верно: wasn't + V-ing"
+        },
+        {
+          "id": "b",
+          "text": "I didn't sleeping.",
+          "feedback": "Неверно: did не используется"
+        },
+        {
+          "id": "c",
+          "text": "I wasn't sleep.",
+          "feedback": "Неверно: нужна форма -ing"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Отрицание Past Continuous строится через wasn't/weren't + V-ing."
+    },
+    {
+      "id": "q40",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b4_theory_pc_negative_question",
+      "difficulty": 2,
+      "correct_answer": "Were you waiting for me?",
+      "explanation": "Вопрос Past Continuous: Were + subject + V-ing."
+    },
+    {
+      "id": "q41",
+      "type": "mcq_single",
+      "prompt": "Какая ошибка типична для Past Continuous?",
+      "theory_block_id": "b5_theory_common_mistakes",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "He was went home.",
+          "feedback": "Да, V2 после was — ошибка"
+        },
+        {
+          "id": "b",
+          "text": "He was going home.",
+          "feedback": "Это правильно"
+        },
+        {
+          "id": "c",
+          "text": "He went home.",
+          "feedback": "Это Past Simple"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "В Past Continuous нужен V-ing, а не V2."
+    },
+    {
+      "id": "q42",
+      "type": "true_false",
+      "prompt": "Форма *They was working* — корректная.",
+      "theory_block_id": "b5_theory_common_mistakes",
+      "difficulty": 1,
+      "correct_answer": "false",
+      "explanation": "С they используется were: They were working."
+    },
+    {
+      "id": "q43",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"She ___ sleeping.\" (be, she)",
+      "theory_block_id": "b5_theory_common_mistakes",
+      "difficulty": 1,
+      "correct_answer": "was",
+      "explanation": "С she используется was."
+    },
+    {
+      "id": "q44",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку в форме V-ing:\n\n**They were watch TV.**",
+      "theory_block_id": "b5_theory_common_mistakes",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "They were watching TV.",
+          "feedback": "Правильно: нужна форма -ing"
+        },
+        {
+          "id": "b",
+          "text": "They were watch TV.",
+          "feedback": "Неверно: нет -ing"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "После were нужна форма V-ing."
+    },
+    {
+      "id": "q45",
+      "type": "mcq_single",
+      "prompt": "Что обязательно в Past Continuous?",
+      "theory_block_id": "b5_theory_common_mistakes",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "was/were",
+          "feedback": "Да, без них форма невозможна"
+        },
+        {
+          "id": "b",
+          "text": "V2",
+          "feedback": "Нет, нужна форма -ing"
+        },
+        {
+          "id": "c",
+          "text": "do/does",
+          "feedback": "Это Present Simple"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Past Continuous всегда включает was/were."
+    },
+    {
+      "id": "q46",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку:\n\n**He sleeping at 7 pm.**",
+      "theory_block_id": "b5_theory_common_mistakes",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "He was sleeping at 7 pm.",
+          "feedback": "Правильно: нужен was"
+        },
+        {
+          "id": "b",
+          "text": "He sleeping at 7 pm.",
+          "feedback": "Неверно: нет was"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Past Continuous требует was/were перед V-ing."
+    },
+    {
+      "id": "q47",
+      "type": "true_false",
+      "prompt": "Форма *She was went* корректна для Past Continuous.",
+      "theory_block_id": "b5_theory_common_mistakes",
+      "difficulty": 1,
+      "correct_answer": "false",
+      "explanation": "Нужно V-ing: was going."
+    },
+    {
+      "id": "q48",
+      "type": "mcq_single",
+      "prompt": "Какой вариант корректен в Past Continuous?",
+      "theory_block_id": "b5_theory_common_mistakes",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "She was working.",
+          "feedback": "Верно: was + V-ing"
+        },
+        {
+          "id": "b",
+          "text": "She was worked.",
+          "feedback": "Неверно: V2 вместо V-ing"
+        },
+        {
+          "id": "c",
+          "text": "She were working.",
+          "feedback": "Неверно: she требует was"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Past Continuous: was + V-ing."
+    },
+    {
+      "id": "q49",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"They ___ not talking.\" (be, they)",
+      "theory_block_id": "b5_theory_common_mistakes",
+      "difficulty": 1,
+      "correct_answer": "were",
+      "explanation": "Для they используется were: they were not talking."
+    },
+    {
+      "id": "q50",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b5_theory_common_mistakes",
+      "difficulty": 2,
+      "correct_answer": "She was not listening.",
+      "explanation": "Отрицание Past Continuous: was not + V-ing."
+    },
+    {
+      "id": "q51",
+      "type": "mcq_single",
+      "prompt": "Какое предложение правильно в Past Continuous?",
+      "theory_block_id": "b1_theory_pc_structure",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "We were waiting outside.",
+          "feedback": "Верно: were + V-ing"
+        },
+        {
+          "id": "b",
+          "text": "We waited outside.",
+          "feedback": "Это Past Simple"
+        },
+        {
+          "id": "c",
+          "text": "We were wait outside.",
+          "feedback": "Неверно: нужна форма -ing"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Past Continuous: were + V-ing."
+    },
+    {
+      "id": "q52",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"It ___ raining heavily.\" (be, it)",
+      "theory_block_id": "b1_theory_pc_structure",
+      "difficulty": 1,
+      "correct_answer": "was",
+      "explanation": "С it используется was."
+    },
+    {
+      "id": "q53",
+      "type": "true_false",
+      "prompt": "Past Continuous можно строить без was/were, если есть -ing.",
+      "theory_block_id": "b1_theory_pc_structure",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Was/were обязательны для Past Continuous."
+    },
+    {
+      "id": "q54",
+      "type": "mcq_single",
+      "prompt": "Как правильно выбрать was/were?",
+      "theory_block_id": "b2_theory_was_were_choice",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "You were sleeping.",
+          "feedback": "Верно: you → were"
+        },
+        {
+          "id": "b",
+          "text": "You was sleeping.",
+          "feedback": "Неверно: you требует were"
+        },
+        {
+          "id": "c",
+          "text": "You sleeping.",
+          "feedback": "Нет was/were"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "С you используется were."
+    },
+    {
+      "id": "q55",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"He was ___ a sandwich.\" (make)",
+      "theory_block_id": "b3_theory_ing_spelling",
+      "difficulty": 2,
+      "correct_answer": "making",
+      "explanation": "Make → making, буква e исчезает."
+    },
+    {
+      "id": "q56",
+      "type": "mcq_single",
+      "prompt": "Как правильно задать вопрос?",
+      "theory_block_id": "b4_theory_pc_negative_question",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Were they studying?",
+          "feedback": "Верно: Were + subject + V-ing"
+        },
+        {
+          "id": "b",
+          "text": "Did they studying?",
+          "feedback": "Неверно: did не используется"
+        },
+        {
+          "id": "c",
+          "text": "Were they study?",
+          "feedback": "Неверно: нужна форма -ing"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Вопрос Past Continuous строится через was/were + V-ing."
+    },
+    {
+      "id": "q57",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку:\n\n**She were dancing.**",
+      "theory_block_id": "b5_theory_common_mistakes",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "She was dancing.",
+          "feedback": "Правильно: she → was"
+        },
+        {
+          "id": "b",
+          "text": "She were dancing.",
+          "feedback": "Неверно: were с she"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "С she используется was."
+    },
+    {
+      "id": "q58",
+      "type": "true_false",
+      "prompt": "Форма *He was running* корректна.",
+      "theory_block_id": "b3_theory_ing_spelling",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Run → running, удвоение согласной."
+    },
+    {
+      "id": "q59",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"We ___ watching a movie.\" (be, we)",
+      "theory_block_id": "b2_theory_was_were_choice",
+      "difficulty": 1,
+      "correct_answer": "were",
+      "explanation": "С we используется were."
+    },
+    {
+      "id": "q60",
+      "type": "mcq_single",
+      "prompt": "Какой вариант содержит типичную ошибку?",
+      "theory_block_id": "b5_theory_common_mistakes",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "They was working late.",
+          "feedback": "Да, they требует were"
+        },
+        {
+          "id": "b",
+          "text": "They were working late.",
+          "feedback": "Это правильно"
+        },
+        {
+          "id": "c",
+          "text": "They were working late at night.",
+          "feedback": "Это тоже правильно"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "С they используется were, поэтому was — ошибка."
+    }
+  ]
+}
