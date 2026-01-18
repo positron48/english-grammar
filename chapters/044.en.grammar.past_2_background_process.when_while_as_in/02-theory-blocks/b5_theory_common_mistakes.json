@@ -1,0 +1,30 @@
+{
+  "theory_block": {
+    "id": "b5_theory_common_mistakes",
+    "concept_id": "when_while_as_mistakes",
+    "content_md": "Типичные ошибки:\n\n- **when** + длительный процесс без события\n- **while** + короткое событие в Past Simple\n- обе части в одном времени без разделения роли\n\nВсегда решайте, где фон, а где событие.",
+    "common_mistakes": [
+      {
+        "wrong": "While I cooked, the phone was ringing.",
+        "right": "While I was cooking, the phone rang.",
+        "why": "While — процесс, событие в Past Simple."
+      }
+    ],
+    "examples": [
+      {
+        "id": "ex1",
+        "text": "I was studying when he called.",
+        "translation": "Я учился, когда он позвонил.",
+        "notes": "правильная связка",
+        "tags": ["affirmative"]
+      },
+      {
+        "id": "ex2",
+        "text": "As she was leaving, it started to rain.",
+        "translation": "Когда она выходила, начался дождь.",
+        "notes": "as + событие",
+        "tags": ["affirmative"]
+      }
+    ]
+  }
+}
