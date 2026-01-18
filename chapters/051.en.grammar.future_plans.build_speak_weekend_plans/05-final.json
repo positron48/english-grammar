@@ -1,0 +1,1224 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.future_plans.build_speak_weekend_plans",
+  "section_id": "en.grammar.future_plans",
+  "title": "Build & speak: weekend plans + predictions + arrangements",
+  "title_short": "Build & speak: weekend plans + predictions + arrangements",
+  "description": "Практика: рассказывать о планах на выходные, договоренностях, прогнозах и использовать time clauses.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "A2",
+  "order": 0,
+  "prerequisites": [
+    "en.grammar.future_plans.time_clauses_when_after"
+  ],
+  "concept_refs": [
+    "weekend_plans_context",
+    "weekend_plans_future_form_choices",
+    "weekend_plans_time_clauses",
+    "weekend_plans_dialogues",
+    "weekend_plans_common_mistakes"
+  ],
+  "learning_objectives": [
+    "Комбинировать will, be going to и Present Continuous в одном рассказе о планах.",
+    "Описывать договоренности и намерения на выходные.",
+    "Делать прогнозы и использовать time clauses без will в придаточной части.",
+    "Составлять короткие диалоги о планах и уточнениях."
+  ],
+  "estimated_minutes": 28,
+  "blocks": [
+    {
+      "id": "b1_theory_scenario_weekend",
+      "type": "theory",
+      "title": "Сценарий «выходные» включает планы, встречи, поездки и прогнозы. В речи часто смешиваются разные формы будущего.",
+      "theory": {
+        "concept_id": "weekend_plans_context",
+        "content_md": "Сценарий «выходные» включает планы, встречи, поездки и прогнозы. В речи часто смешиваются разные формы будущего.\n\nГлавная задача — выбрать форму, которая соответствует ситуации.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I'm meeting Kate on Saturday morning.",
+            "translation": "Я встречаюсь с Кейт в субботу утром.",
+            "tags": [
+              "arrangement"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "I think it will be sunny.",
+            "translation": "Думаю, будет солнечно.",
+            "tags": [
+              "prediction"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_scenario_weekend",
+      "type": "quiz_inline",
+      "title": "Quick check: weekend scenario",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_choices_future_forms",
+      "type": "theory",
+      "title": "Present Continuous — договоренность и фиксированное время. Be going to — намерение/план. Will — спонтанное решение или мнение.",
+      "theory": {
+        "concept_id": "weekend_plans_future_form_choices",
+        "content_md": "**Present Continuous** — договоренность и фиксированное время. **Be going to** — намерение/план. **Will** — спонтанное решение или мнение.\n\nВ рассказе о выходных эти формы легко комбинировать.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "We're having dinner at 7 (arrangement).",
+            "translation": "Мы ужинаем в 7 (договоренность).",
+            "tags": [
+              "arrangement"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "I'm going to visit my cousin (plan).",
+            "translation": "Я собираюсь навестить двоюродного брата (план).",
+            "tags": [
+              "plan"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "I'll text you now (decision).",
+            "translation": "Я напишу тебе сейчас (решение).",
+            "tags": [
+              "decision"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_future_forms",
+      "type": "quiz_inline",
+      "title": "Quick check: future forms",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14",
+          "q15",
+          "q16",
+          "q17"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_time_clauses_use",
+      "type": "theory",
+      "title": "В time clauses (when/after/as soon as) для будущего используем Present Simple. Will остается в главной части.",
+      "theory": {
+        "concept_id": "weekend_plans_time_clauses",
+        "content_md": "В time clauses (when/after/as soon as) для будущего используем Present Simple. Will остается в главной части.\n\nЭто часто нужно в планах: *I'll call you when I arrive.*",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I'll call you when I get there.",
+            "translation": "Я позвоню тебе, когда доберусь.",
+            "tags": [
+              "time_clause"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "We will start after everyone arrives.",
+            "translation": "Мы начнем, после того как все придут.",
+            "tags": [
+              "time_clause"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_time_clauses",
+      "type": "quiz_inline",
+      "title": "Quick check: time clauses",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26",
+          "q27",
+          "q28",
+          "q29"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_mini_dialogues",
+      "type": "theory",
+      "title": "Мини-диалоги помогают тренировать вопросы о планах и уточнения времени.",
+      "theory": {
+        "concept_id": "weekend_plans_dialogues",
+        "content_md": "Мини-диалоги помогают тренировать вопросы о планах и уточнения времени.\n\nЧаще всего используются Present Continuous и вопросы с be.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "— Are you coming on Saturday? — Yes, I'm meeting you at 11.",
+            "translation": "— Ты приходишь в субботу? — Да, я встречаюсь с тобой в 11.",
+            "tags": [
+              "dialogue"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "— What are you doing tonight? — I'm having dinner with my family.",
+            "translation": "— Что ты делаешь сегодня вечером? — Я ужинаю с семьей.",
+            "tags": [
+              "dialogue"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8_quiz_after_dialogues",
+      "type": "quiz_inline",
+      "title": "Quick check: dialogues",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38",
+          "q39",
+          "q40",
+          "q41"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_common_mistakes",
+      "type": "theory",
+      "title": "Типичные ошибки: использовать will в time clause, забывать am/is/are, путать plan и arrangement.",
+      "theory": {
+        "concept_id": "weekend_plans_common_mistakes",
+        "content_md": "Типичные ошибки: использовать will в time clause, забывать am/is/are, путать plan и arrangement.\n\nЛучше проверять, есть ли договоренность или решение принято сейчас.",
+        "key_points": [],
+        "common_mistakes": [
+          {
+            "wrong": "I'll call you when I will arrive.",
+            "right": "I'll call you when I arrive.",
+            "why": "В time clause нужен Present Simple, а не will."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I'm meeting John at 5. (not: I meet John at 5.)",
+            "translation": "Я встречаюсь с Джоном в 5 (не: I meet John at 5).",
+            "tags": [
+              "mistake"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "I'm going to visit my parents. (plan)",
+            "translation": "Я собираюсь навестить родителей (план).",
+            "tags": [
+              "mistake"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Вы описываете планы на выходные. Что подходит?",
+        "theory_block_id": "b1_theory_scenario_weekend",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm meeting Anna on Saturday."
+          },
+          {
+            "id": "b",
+            "text": "I'll meet Anna on Saturday."
+          },
+          {
+            "id": "c",
+            "text": "I meet Anna on Saturday."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Договоренность выражается Present Continuous: I'm meeting."
+      },
+      {
+        "id": "q2",
+        "type": "fill_blank",
+        "prompt": "I think it ___ be windy on Sunday. (прогноз)",
+        "theory_block_id": "b1_theory_scenario_weekend",
+        "difficulty": 1,
+        "correct_answer": "will",
+        "explanation": "Прогноз-оценка оформляется через will."
+      },
+      {
+        "id": "q3",
+        "type": "true_false",
+        "prompt": "В рассказе о выходных можно сочетать несколько форм будущего.",
+        "theory_block_id": "b1_theory_scenario_weekend",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Планы, договоренности и прогнозы часто требуют разных форм."
+      },
+      {
+        "id": "q4",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите правильный вариант: 'We going to visit friends this weekend.'",
+        "theory_block_id": "b1_theory_scenario_weekend",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We're going to visit friends this weekend."
+          },
+          {
+            "id": "b",
+            "text": "We will going to visit friends this weekend."
+          },
+          {
+            "id": "c",
+            "text": "We going visit friends this weekend."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для be going to нужна форма be: we're going to."
+      },
+      {
+        "id": "q5",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_scenario_weekend",
+        "difficulty": 2,
+        "correct_answer": "I'm meeting my cousin on Sunday.",
+        "explanation": "Present Continuous для договоренности: am + V-ing."
+      },
+      {
+        "id": "q6",
+        "type": "mcq_single",
+        "prompt": "Choose the most natural weekend plan:",
+        "theory_block_id": "b1_theory_scenario_weekend",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm going to hike on Saturday."
+          },
+          {
+            "id": "b",
+            "text": "I'll hike on Saturday."
+          },
+          {
+            "id": "c",
+            "text": "I hike on Saturday."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "План/намерение → be going to."
+      },
+      {
+        "id": "q7",
+        "type": "fill_blank",
+        "prompt": "We ___ having a barbecue tonight. (договоренность)",
+        "theory_block_id": "b1_theory_scenario_weekend",
+        "difficulty": 1,
+        "correct_answer": "are",
+        "explanation": "Present Continuous требует are: we are having."
+      },
+      {
+        "id": "q8",
+        "type": "true_false",
+        "prompt": "Фраза 'I'll answer the phone' описывает спонтанное решение.",
+        "theory_block_id": "b1_theory_scenario_weekend",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Will используется для мгновенных решений."
+      },
+      {
+        "id": "q9",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите правильный вариант: 'I'm meeting to go shopping on Saturday.'",
+        "theory_block_id": "b1_theory_scenario_weekend",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm going shopping on Saturday."
+          },
+          {
+            "id": "b",
+            "text": "I'm meeting on Saturday."
+          },
+          {
+            "id": "c",
+            "text": "I'm going to shopping on Saturday."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для плана действия лучше использовать going shopping или be going to."
+      },
+      {
+        "id": "q10",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_scenario_weekend",
+        "difficulty": 1,
+        "correct_answer": "We'll see a movie on Sunday.",
+        "explanation": "Will для решения/прогноза; порядок слов стандартный."
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "prompt": "Вы уже договорились о времени. Что выбрать?",
+        "theory_block_id": "b1_theory_scenario_weekend",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm meeting them at 4."
+          },
+          {
+            "id": "b",
+            "text": "I'll meet them at 4."
+          },
+          {
+            "id": "c",
+            "text": "I meet them at 4."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Фиксированная договоренность → Present Continuous."
+      },
+      {
+        "id": "q12",
+        "type": "fill_blank",
+        "prompt": "I ___ going to visit my grandparents. (план)",
+        "theory_block_id": "b1_theory_scenario_weekend",
+        "difficulty": 1,
+        "correct_answer": "am",
+        "explanation": "Be going to требует am/is/are; с I — am."
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Вы решили прямо сейчас: 'OK, I ___ call him.'",
+        "theory_block_id": "b2_theory_choices_future_forms",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "will"
+          },
+          {
+            "id": "b",
+            "text": "am going to"
+          },
+          {
+            "id": "c",
+            "text": "am calling"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Спонтанное решение → will."
+      },
+      {
+        "id": "q14",
+        "type": "fill_blank",
+        "prompt": "We already booked tickets. We ___ going to travel by train. (план)",
+        "theory_block_id": "b2_theory_choices_future_forms",
+        "difficulty": 2,
+        "correct_answer": "are",
+        "explanation": "Be going to с we: are going to."
+      },
+      {
+        "id": "q15",
+        "type": "true_false",
+        "prompt": "Present Continuous подходит для договоренностей, а be going to — для намерений.",
+        "theory_block_id": "b2_theory_choices_future_forms",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это основное различие между формами."
+      },
+      {
+        "id": "q16",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите правильный вариант: 'I'm going to meeting them at 6.'",
+        "theory_block_id": "b2_theory_choices_future_forms",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm meeting them at 6."
+          },
+          {
+            "id": "b",
+            "text": "I'm going to meet them at 6."
+          },
+          {
+            "id": "c",
+            "text": "I will meeting them at 6."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "После going to нужен базовый глагол meet."
+      },
+      {
+        "id": "q17",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_choices_future_forms",
+        "difficulty": 2,
+        "correct_answer": "I'm having dinner with them at 7.",
+        "explanation": "Договоренность → Present Continuous."
+      },
+      {
+        "id": "q18",
+        "type": "mcq_single",
+        "prompt": "Choose the best form for a plan:",
+        "theory_block_id": "b2_theory_choices_future_forms",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm going to visit my aunt."
+          },
+          {
+            "id": "b",
+            "text": "I'll visit my aunt."
+          },
+          {
+            "id": "c",
+            "text": "I visit my aunt."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Намерение/план → be going to."
+      },
+      {
+        "id": "q19",
+        "type": "fill_blank",
+        "prompt": "We ___ meeting at 5, it's already arranged. (договоренность)",
+        "theory_block_id": "b2_theory_choices_future_forms",
+        "difficulty": 2,
+        "correct_answer": "are",
+        "explanation": "Present Continuous: are meeting."
+      },
+      {
+        "id": "q20",
+        "type": "true_false",
+        "prompt": "Will обычно используется для заранее назначенных встреч.",
+        "theory_block_id": "b2_theory_choices_future_forms",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Для встреч чаще используется Present Continuous."
+      },
+      {
+        "id": "q21",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите правильный вариант: 'She will going to call you.'",
+        "theory_block_id": "b2_theory_choices_future_forms",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She is going to call you."
+          },
+          {
+            "id": "b",
+            "text": "She will call you."
+          },
+          {
+            "id": "c",
+            "text": "She going to call you."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нельзя совмещать will и going to. Для плана: is going to call."
+      },
+      {
+        "id": "q22",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_choices_future_forms",
+        "difficulty": 1,
+        "correct_answer": "I'll answer the door.",
+        "explanation": "Спонтанное решение → will + V1."
+      },
+      {
+        "id": "q23",
+        "type": "mcq_single",
+        "prompt": "Which sentence shows a fixed meeting?",
+        "theory_block_id": "b2_theory_choices_future_forms",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm meeting Paul at 3."
+          },
+          {
+            "id": "b",
+            "text": "I'm going to meet Paul."
+          },
+          {
+            "id": "c",
+            "text": "I'll meet Paul."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Фиксированная встреча → Present Continuous."
+      },
+      {
+        "id": "q24",
+        "type": "fill_blank",
+        "prompt": "I ___ call you later, I think. (мнение)",
+        "theory_block_id": "b2_theory_choices_future_forms",
+        "difficulty": 2,
+        "correct_answer": "will",
+        "explanation": "Мнение о будущем → will."
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Choose the correct sentence with a time clause:",
+        "theory_block_id": "b3_theory_time_clauses_use",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'll call you when I arrive."
+          },
+          {
+            "id": "b",
+            "text": "I'll call you when I will arrive."
+          },
+          {
+            "id": "c",
+            "text": "I'll call you when I'm arriving."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В time clause используется Present Simple: arrive."
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "We'll start after everyone ___. (time clause)",
+        "theory_block_id": "b3_theory_time_clauses_use",
+        "difficulty": 1,
+        "correct_answer": "arrives",
+        "explanation": "Present Simple в придаточном времени: arrives."
+      },
+      {
+        "id": "q27",
+        "type": "true_false",
+        "prompt": "Will можно использовать в придаточной части после when.",
+        "theory_block_id": "b3_theory_time_clauses_use",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "После when/after/as soon as will не используется."
+      },
+      {
+        "id": "q28",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите правильный вариант: 'I'll text you when I will get there.'",
+        "theory_block_id": "b3_theory_time_clauses_use",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'll text you when I get there."
+          },
+          {
+            "id": "b",
+            "text": "I'll text you when I getting there."
+          },
+          {
+            "id": "c",
+            "text": "I'll text you when I got there."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Time clause требует Present Simple: get."
+      },
+      {
+        "id": "q29",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_time_clauses_use",
+        "difficulty": 2,
+        "correct_answer": "I'll call you after I finish.",
+        "explanation": "After + Present Simple в придаточном."
+      },
+      {
+        "id": "q30",
+        "type": "mcq_single",
+        "prompt": "Which sentence is correct about a time clause?",
+        "theory_block_id": "b3_theory_time_clauses_use",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We'll leave as soon as the rain stops."
+          },
+          {
+            "id": "b",
+            "text": "We'll leave as soon as the rain will stop."
+          },
+          {
+            "id": "c",
+            "text": "We'll leave as soon as the rain stopping."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В time clause используется Present Simple: stops."
+      },
+      {
+        "id": "q31",
+        "type": "fill_blank",
+        "prompt": "I'll send the photo when I ___. (time clause)",
+        "theory_block_id": "b3_theory_time_clauses_use",
+        "difficulty": 1,
+        "correct_answer": "finish",
+        "explanation": "Present Simple: finish."
+      },
+      {
+        "id": "q32",
+        "type": "true_false",
+        "prompt": "Time clause может стоять первым или вторым без смены смысла.",
+        "theory_block_id": "b3_theory_time_clauses_use",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Обе позиции допустимы."
+      },
+      {
+        "id": "q33",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите правильный вариант: 'After he will arrive, we'll eat.'",
+        "theory_block_id": "b3_theory_time_clauses_use",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "After he arrives, we'll eat."
+          },
+          {
+            "id": "b",
+            "text": "After he arriving, we'll eat."
+          },
+          {
+            "id": "c",
+            "text": "After he arrive, we'll eat."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Present Simple: arrives."
+      },
+      {
+        "id": "q34",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_time_clauses_use",
+        "difficulty": 1,
+        "correct_answer": "We'll meet after class ends.",
+        "explanation": "Time clause: class ends (Present Simple)."
+      },
+      {
+        "id": "q35",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option for a time clause:",
+        "theory_block_id": "b3_theory_time_clauses_use",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'll go when you are ready."
+          },
+          {
+            "id": "b",
+            "text": "I'll go when you will be ready."
+          },
+          {
+            "id": "c",
+            "text": "I'll go when you be ready."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Present Simple after when: are."
+      },
+      {
+        "id": "q36",
+        "type": "fill_blank",
+        "prompt": "We'll leave as soon as he ___. (time clause)",
+        "theory_block_id": "b3_theory_time_clauses_use",
+        "difficulty": 1,
+        "correct_answer": "arrives",
+        "explanation": "Present Simple: arrives."
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Вы уточняете планы: '___ you doing on Saturday?'",
+        "theory_block_id": "b4_theory_mini_dialogues",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "What are"
+          },
+          {
+            "id": "b",
+            "text": "What do"
+          },
+          {
+            "id": "c",
+            "text": "What will"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Вопрос о договоренности: What are you doing...?"
+      },
+      {
+        "id": "q38",
+        "type": "fill_blank",
+        "prompt": "— Are you coming at 6? — Yes, I ___ . (краткий ответ)",
+        "theory_block_id": "b4_theory_mini_dialogues",
+        "difficulty": 1,
+        "correct_answer": "am",
+        "explanation": "Краткий ответ повторяет форму be: Yes, I am."
+      },
+      {
+        "id": "q39",
+        "type": "true_false",
+        "prompt": "В вопросах о договоренностях используется am/is/are.",
+        "theory_block_id": "b4_theory_mini_dialogues",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Present Continuous требует am/is/are."
+      },
+      {
+        "id": "q40",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите правильный вариант: 'Are you go to the party tonight?'",
+        "theory_block_id": "b4_theory_mini_dialogues",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Are you going to the party tonight?"
+          },
+          {
+            "id": "b",
+            "text": "Are you going the party tonight?"
+          },
+          {
+            "id": "c",
+            "text": "Do you going to the party tonight?"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужна форма going и правильная структура вопроса."
+      },
+      {
+        "id": "q41",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_mini_dialogues",
+        "difficulty": 2,
+        "correct_answer": "Are you meeting us at 5?",
+        "explanation": "Вопрос: Are + subject + V-ing."
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "prompt": "Choose the best reply: 'Are you free on Sunday?'",
+        "theory_block_id": "b4_theory_mini_dialogues",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm visiting my parents."
+          },
+          {
+            "id": "b",
+            "text": "I visit my parents."
+          },
+          {
+            "id": "c",
+            "text": "I'll visiting my parents."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ответ о договоренности/плане: Present Continuous."
+      },
+      {
+        "id": "q43",
+        "type": "fill_blank",
+        "prompt": "— What ___ you doing tonight? — I'm meeting Jack. (вопрос)",
+        "theory_block_id": "b4_theory_mini_dialogues",
+        "difficulty": 1,
+        "correct_answer": "are",
+        "explanation": "В вопросе Present Continuous: What are you doing...?"
+      },
+      {
+        "id": "q44",
+        "type": "true_false",
+        "prompt": "'Are you meeting her tomorrow?' — корректный вопрос о планах.",
+        "theory_block_id": "b4_theory_mini_dialogues",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это стандартная форма вопроса о договоренности."
+      },
+      {
+        "id": "q45",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите правильный вариант: 'What you are doing on Saturday?'",
+        "theory_block_id": "b4_theory_mini_dialogues",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "What are you doing on Saturday?"
+          },
+          {
+            "id": "b",
+            "text": "What do you doing on Saturday?"
+          },
+          {
+            "id": "c",
+            "text": "What are you do on Saturday?"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный порядок: What are you doing...?"
+      },
+      {
+        "id": "q46",
+        "type": "mcq_single",
+        "prompt": "Вы уточняете договоренность о встрече:",
+        "theory_block_id": "b4_theory_mini_dialogues",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Are we meeting at 10?"
+          },
+          {
+            "id": "b",
+            "text": "Will we meeting at 10?"
+          },
+          {
+            "id": "c",
+            "text": "Do we meeting at 10?"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Вопрос Present Continuous: Are we meeting...?"
+      },
+      {
+        "id": "q47",
+        "type": "fill_blank",
+        "prompt": "— Are you coming tomorrow? — No, I ___ not. (краткий ответ)",
+        "theory_block_id": "b4_theory_mini_dialogues",
+        "difficulty": 1,
+        "correct_answer": "am",
+        "explanation": "Краткий ответ: No, I am not."
+      },
+      {
+        "id": "q48",
+        "type": "true_false",
+        "prompt": "В диалогах о планах можно использовать be going to и Present Continuous.",
+        "theory_block_id": "b4_theory_mini_dialogues",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Обе формы уместны в разных ситуациях."
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "Choose the correct sentence about a time clause:",
+        "theory_block_id": "b5_theory_common_mistakes",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'll call you when I arrive."
+          },
+          {
+            "id": "b",
+            "text": "I'll call you when I will arrive."
+          },
+          {
+            "id": "c",
+            "text": "I'll call you when I will arrived."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В time clause нужен Present Simple, без will."
+      },
+      {
+        "id": "q50",
+        "type": "fill_blank",
+        "prompt": "I'm ___ meeting him at 6. (форма be)",
+        "theory_block_id": "b5_theory_common_mistakes",
+        "difficulty": 1,
+        "correct_answer": "not",
+        "explanation": "Отрицание Present Continuous: am not meeting."
+      },
+      {
+        "id": "q51",
+        "type": "true_false",
+        "prompt": "Фраза 'I meet John at 5' подходит для договоренности.",
+        "theory_block_id": "b5_theory_common_mistakes",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Для договоренности нужен Present Continuous: I'm meeting John at 5."
+      },
+      {
+        "id": "q52",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите правильный вариант: 'I'm going to met him on Saturday.'",
+        "theory_block_id": "b5_theory_common_mistakes",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm going to meet him on Saturday."
+          },
+          {
+            "id": "b",
+            "text": "I'm going to meeting him on Saturday."
+          },
+          {
+            "id": "c",
+            "text": "I'm going meet him on Saturday."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После going to нужен базовый глагол meet."
+      },
+      {
+        "id": "q53",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_common_mistakes",
+        "difficulty": 2,
+        "correct_answer": "I'm meeting her at 4.",
+        "explanation": "Present Continuous: am + V-ing + time marker."
+      },
+      {
+        "id": "q54",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:",
+        "theory_block_id": "b5_theory_common_mistakes",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We are going to leave at 9."
+          },
+          {
+            "id": "b",
+            "text": "We will going to leave at 9."
+          },
+          {
+            "id": "c",
+            "text": "We are going leave at 9."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильная конструкция: are going to + V1."
+      },
+      {
+        "id": "q55",
+        "type": "fill_blank",
+        "prompt": "I'll call you after I ___. (no will)",
+        "theory_block_id": "b5_theory_common_mistakes",
+        "difficulty": 1,
+        "correct_answer": "arrive",
+        "explanation": "Time clause требует Present Simple: arrive."
+      },
+      {
+        "id": "q56",
+        "type": "true_false",
+        "prompt": "In Present Continuous you can omit am/is/are.",
+        "theory_block_id": "b5_theory_common_mistakes",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Форма be обязательна."
+      },
+      {
+        "id": "q57",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите правильный вариант: 'Are you meeting to go tomorrow?'",
+        "theory_block_id": "b5_theory_common_mistakes",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Are you going to go tomorrow?"
+          },
+          {
+            "id": "b",
+            "text": "Are you meeting tomorrow?"
+          },
+          {
+            "id": "c",
+            "text": "Do you going tomorrow?"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для намерения лучше использовать be going to: going to go."
+      },
+      {
+        "id": "q58",
+        "type": "mcq_single",
+        "prompt": "Which sentence is correct about an arrangement?",
+        "theory_block_id": "b5_theory_common_mistakes",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'm meeting him on Saturday."
+          },
+          {
+            "id": "b",
+            "text": "I meeting him on Saturday."
+          },
+          {
+            "id": "c",
+            "text": "I'm meet him on Saturday."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Present Continuous требует am + V-ing."
+      },
+      {
+        "id": "q59",
+        "type": "fill_blank",
+        "prompt": "We ___ meeting at 3, it's arranged. (форма be)",
+        "theory_block_id": "b5_theory_common_mistakes",
+        "difficulty": 1,
+        "correct_answer": "are",
+        "explanation": "Present Continuous: are meeting."
+      },
+      {
+        "id": "q60",
+        "type": "true_false",
+        "prompt": "В time clause можно использовать will, если это очень точный план.",
+        "theory_block_id": "b5_theory_common_mistakes",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Will не используется в time clause независимо от точности плана."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-18T17:02:32Z",
+    "source": "llm"
+  }
+}
