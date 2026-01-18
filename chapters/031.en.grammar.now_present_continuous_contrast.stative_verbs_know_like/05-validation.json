@@ -2,19 +2,11 @@
   "validation_result": {
     "is_valid": true,
     "schema_valid": true,
-    "issues": [
-      {
-        "severity": "warning",
-        "category": "methodological",
-        "message": "Несбалансированные true_false вопросы: 10 true (83.3%) и 2 false (16.7%). Должно быть 50±30% (20-80%) вопросов с correct_answer 'true'.",
-        "location": "question_bank.questions (true_false)",
-        "suggested_fix": "Изменить correct_answer некоторых true_false вопросов. Сейчас true: 10, false: 2. Нужно примерно равное количество."
-      }
-    ],
+    "issues": [],
     "summary": {
-      "total_issues": 1,
+      "total_issues": 0,
       "errors": 0,
-      "warnings": 1,
+      "warnings": 0,
       "suggestions": 0
     },
     "coverage": {
@@ -23,10 +15,10 @@
       "questions_per_block": {
         "b1_theory_what_are_stative_verbs": 7,
         "b2_theory_groups_stative_verbs": 14,
-        "b3_theory_why_not_continuous": 8,
-        "b4_theory_exceptions_action_meaning": 15,
+        "b3_theory_why_not_continuous": 9,
+        "b4_theory_exceptions_action_meaning": 16,
         "b5_theory_exceptions_temporary_state": 8,
-        "b6_theory_common_mistakes": 10
+        "b6_theory_common_mistakes": 11
       }
     }
   }

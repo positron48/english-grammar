@@ -648,6 +648,18 @@
         ]
       },
       {
+        "id": "q11b",
+        "type": "true_false",
+        "prompt": "Статичные глаголы всегда используются только в Present Simple и никогда не могут быть в Continuous.",
+        "theory_block_id": "b3_theory_why_not_continuous",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Неверно. Хотя большинство статичных глаголов обычно не используются в Continuous, некоторые могут использоваться в Continuous с изменением значения (исключения: think, have, see, be, feel).",
+        "tags": [
+          "reason"
+        ]
+      },
+      {
         "id": "q12",
         "type": "error_spotting",
         "prompt": "Найдите ошибку:\n\n**She's liking coffee.**",
@@ -1146,6 +1158,19 @@
         ]
       },
       {
+        "id": "q33b",
+        "type": "true_false",
+        "prompt": "Глагол 'have' всегда используется только в Present Simple, потому что это статичный глагол.",
+        "theory_block_id": "b6_theory_common_mistakes",
+        "difficulty": 3,
+        "correct_answer": "false",
+        "explanation": "Неверно. have может использоваться и в Simple (иметь, владеть: I have a car), и в Continuous (есть, пить, принимать: I'm having lunch).",
+        "tags": [
+          "common_mistake",
+          "exception"
+        ]
+      },
+      {
         "id": "q34",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"We ___ a house in the city.\" (have - иметь)",
@@ -1243,6 +1268,18 @@
         "tags": [
           "exception",
           "concept"
+        ]
+      },
+      {
+        "id": "q39b",
+        "type": "true_false",
+        "prompt": "Глагол 'think' всегда используется только в Present Simple.",
+        "theory_block_id": "b4_theory_exceptions_action_meaning",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Неверно. think может использоваться и в Simple (считать, полагать: I think you're right), и в Continuous (размышлять: I'm thinking about the problem).",
+        "tags": [
+          "exception"
         ]
       },
       {
@@ -1686,6 +1723,7 @@
       "q9b",
       "q10",
       "q11",
+      "q11b",
       "q12",
       "q13",
       "q14",
@@ -1708,12 +1746,14 @@
       "q31",
       "q32",
       "q33",
+      "q33b",
       "q34",
       "q35",
       "q36",
       "q37",
       "q38",
       "q39",
+      "q39b",
       "q40",
       "q41",
       "q42",
@@ -1749,7 +1789,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-18T12:04:22Z",
+    "updated_at": "2026-01-18T12:10:01Z",
     "source": "llm"
   }
 }
