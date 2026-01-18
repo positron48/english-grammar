@@ -1,0 +1,36 @@
+{
+  "theory_block": {
+    "id": "b5_theory_decision_tree",
+    "concept_id": "simple_continuous_decision_algorithm",
+    "content_md": "**Алгоритм принятия решения между Present Simple и Present Continuous состоит из последовательности проверок.**\n\n**Шаг 1:** Действие происходит прямо сейчас, в момент речи? Если ДА → Present Continuous.\n\n**Шаг 2:** Это статичный глагол (know, like, want, believe)? Если ДА → Present Simple.\n\n**Шаг 3:** Это факт, истина или постоянная ситуация? Если ДА → Present Simple.\n\n**Шаг 4:** Это временная ситуация или процесс в текущем периоде? Если ДА → Present Continuous.\n\n**Шаг 5:** Есть маркеры времени? Проверь их — они дадут подсказку, но не заменят понимание значения.\n\nЭтот алгоритм помогает систематически принимать решения и избегать ошибок.",
+    "key_points": [
+      "Начни с проверки: действие происходит сейчас?",
+      "Проверь тип глагола: статичный или динамичный?",
+      "Оцени ситуацию: постоянная или временная?",
+      "Учти маркеры времени, но полагайся на значение"
+    ],
+    "examples": [
+      {
+        "id": "ex1",
+        "text": "She's reading a book now. (Шаг 1: действие сейчас → Continuous)",
+        "translation": "Она сейчас читает книгу.",
+        "notes": "Алгоритм: действие происходит сейчас → Continuous",
+        "tags": ["affirmative"]
+      },
+      {
+        "id": "ex2",
+        "text": "I know the answer. (Шаг 2: статичный глагол → Simple)",
+        "translation": "Я знаю ответ.",
+        "notes": "Алгоритм: статичный глагол → Simple",
+        "tags": ["affirmative"]
+      },
+      {
+        "id": "ex3",
+        "text": "I live in Paris, but I'm staying in London this month. (Шаг 3 и 4: постоянная vs временная)",
+        "translation": "Я живу в Париже, но на этот месяц остановился в Лондоне.",
+        "notes": "Алгоритм: постоянная ситуация (Simple) и временная (Continuous)",
+        "tags": ["affirmative"]
+      }
+    ]
+  }
+}
