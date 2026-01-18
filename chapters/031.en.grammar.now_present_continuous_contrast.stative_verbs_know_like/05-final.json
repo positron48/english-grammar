@@ -1,0 +1,1755 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.now_present_continuous_contrast.stative_verbs_know_like",
+  "section_id": "en.grammar.now_present_continuous_contrast",
+  "title": "Stative verbs: know/like/believe… (+ common exceptions)",
+  "title_short": "Stative verbs: know/like/believe…",
+  "description": "Изучение статичных глаголов (stative verbs), которые обычно не используются в Continuous, и их исключений, когда они могут принимать форму Continuous с изменением значения",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "A2",
+  "order": 404,
+  "prerequisites": [
+    "en.grammar.now_present_continuous_contrast.simple_vs_continuous_clear"
+  ],
+  "concept_refs": [
+    "stative_verbs_definition",
+    "stative_verbs_categories",
+    "stative_verbs_no_continuous_reason",
+    "stative_verbs_exceptions_action",
+    "stative_verbs_exceptions_temporary",
+    "stative_verbs_common_mistakes"
+  ],
+  "learning_objectives": [
+    "Распознавать статичные глаголы и понимать, почему они обычно не используются в Continuous",
+    "Знать основные группы статичных глаголов: чувства, мысли, владение, восприятие",
+    "Понимать исключения: когда статичные глаголы могут использоваться в Continuous с изменением значения",
+    "Избегать типичных ошибок при использовании статичных глаголов в Continuous"
+  ],
+  "estimated_minutes": 25,
+  "blocks": [
+    {
+      "id": "b1_theory_what_are_stative_verbs",
+      "type": "theory",
+      "title": "Статичные глаголы (stative verbs) — это глаголы, которые описывают состояния, а не действия. Они выражают то, что человек или предмет имеет или является, а не то, что он делает.",
+      "theory": {
+        "concept_id": "stative_verbs_definition",
+        "content_md": "**Статичные глаголы (stative verbs)** — это глаголы, которые описывают **состояния**, а не действия. Они выражают то, что человек или предмет **имеет** или **является**, а не то, что он **делает**.\n\nВ отличие от **динамичных глаголов** (run, write, talk), которые описывают действия и могут использоваться в Continuous, статичные глаголы обычно **не используются** в форме Present Continuous, потому что они описывают постоянные или длительные состояния, а не временные действия.",
+        "key_points": [
+          "Статичные глаголы = состояния (иметь, знать, любить), а не действия",
+          "Обычно НЕ используются в Continuous",
+          "Динамичные глаголы = действия (бегать, писать), могут быть в Continuous"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I know the answer.",
+            "translation": "Я знаю ответ.",
+            "notes": "know — статичный глагол, состояние знания",
+            "tags": [
+              "affirmative",
+              "state"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "She likes coffee.",
+            "translation": "Она любит кофе.",
+            "notes": "like — статичный глагол, состояние предпочтения",
+            "tags": [
+              "affirmative",
+              "state"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "I'm running in the park.",
+            "translation": "Я бегаю в парке.",
+            "notes": "run — динамичный глагол, действие, может быть в Continuous",
+            "tags": [
+              "affirmative",
+              "action"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_what_are_stative_verbs",
+      "type": "quiz_inline",
+      "title": "Quick check: что такое статичные глаголы",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_groups_stative_verbs",
+      "type": "theory",
+      "title": "Статичные глаголы можно разделить на несколько основных групп:",
+      "theory": {
+        "concept_id": "stative_verbs_categories",
+        "content_md": "Статичные глаголы можно разделить на несколько основных групп:\n\n**1. Чувства и эмоции:** like, love, hate, prefer, want, need\n**2. Мысли и мнения:** know, believe, think (в значении \"считать\"), understand, remember, forget\n**3. Владение и принадлежность:** have (в значении \"иметь\"), own, belong, possess\n**4. Восприятие:** see (в значении \"видеть\"), hear, smell, taste, feel (в значении \"чувствовать\")",
+        "key_points": [
+          "4 основные группы: чувства, мысли, владение, восприятие",
+          "Важно запомнить основные глаголы каждой группы",
+          "Некоторые глаголы могут быть и статичными, и динамичными (исключения)"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I like chocolate. (чувство)",
+            "translation": "Я люблю шоколад.",
+            "tags": [
+              "affirmative",
+              "emotion"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "She knows the answer. (мысль)",
+            "translation": "Она знает ответ.",
+            "tags": [
+              "affirmative",
+              "thought"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "We have a car. (владение)",
+            "translation": "У нас есть машина.",
+            "tags": [
+              "affirmative",
+              "possession"
+            ]
+          },
+          {
+            "id": "ex4",
+            "text": "I see the problem. (восприятие)",
+            "translation": "Я вижу проблему.",
+            "tags": [
+              "affirmative",
+              "perception"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_groups_stative_verbs",
+      "type": "quiz_inline",
+      "title": "Quick check: группы статичных глаголов",
+      "quiz_inline": {
+        "question_ids": [
+          "q6",
+          "q7",
+          "q8",
+          "q9",
+          "q10"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_why_not_continuous",
+      "type": "theory",
+      "title": "Статичные глаголы обычно не используются в Continuous, потому что:",
+      "theory": {
+        "concept_id": "stative_verbs_no_continuous_reason",
+        "content_md": "Статичные глаголы обычно **не используются в Continuous**, потому что:\n\n1. **Они описывают постоянные состояния**, а не временные действия. Continuous используется для действий, которые происходят в определенный момент времени, а состояния обычно не имеют такого временного ограничения.\n\n2. **Логическая несовместимость**: Continuous подчеркивает процесс или временность, а статичные глаголы описывают то, что является постоянным или длительным по своей природе.",
+        "key_points": [
+          "Continuous = временные действия в момент речи",
+          "Статичные глаголы = постоянные состояния",
+          "Логически несовместимы: состояние не может быть \"в процессе\""
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "I'm knowing the answer.",
+            "right": "I know the answer.",
+            "why": "know описывает состояние знания, а не действие. Знание — это постоянное состояние, а не процесс."
+          },
+          {
+            "wrong": "She's liking coffee.",
+            "right": "She likes coffee.",
+            "why": "like описывает постоянное предпочтение, а не временное действие. Предпочтения не происходят \"сейчас\"."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I know English. (правильно)",
+            "translation": "Я знаю английский.",
+            "notes": "Состояние знания — Present Simple",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "I'm knowing English. (неправильно)",
+            "translation": "Я знаю английский. (неправильно)",
+            "notes": "Неправильное использование Continuous со статичным глаголом",
+            "tags": [
+              "negative",
+              "mistake"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_why_not_continuous",
+      "type": "quiz_inline",
+      "title": "Quick check: почему не Continuous",
+      "quiz_inline": {
+        "question_ids": [
+          "q11",
+          "q12",
+          "q13",
+          "q14",
+          "q15"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_exceptions_action_meaning",
+      "type": "theory",
+      "title": "Некоторые статичные глаголы могут использоваться в Continuous, когда они описывают действие, а не состояние. В этом случае значение глагола меняется:",
+      "theory": {
+        "concept_id": "stative_verbs_exceptions_action",
+        "content_md": "Некоторые статичные глаголы **могут использоваться в Continuous**, когда они описывают **действие**, а не состояние. В этом случае значение глагола меняется:\n\n**think:**\n- **think** (состояние) = считать, полагать → Present Simple: \"I think you're right.\"\n- **think** (действие) = думать, размышлять → Present Continuous: \"I'm thinking about the problem.\"\n\n**have:**\n- **have** (состояние) = иметь, владеть → Present Simple: \"I have a car.\"\n- **have** (действие) = есть, пить, принимать → Present Continuous: \"I'm having lunch.\"\n\n**see:**\n- **see** (состояние) = видеть, понимать → Present Simple: \"I see the problem.\"\n- **see** (действие) = встречаться, навещать → Present Continuous: \"I'm seeing my doctor tomorrow.\"",
+        "key_points": [
+          "Когда статичный глагол описывает действие, он может быть в Continuous",
+          "Значение меняется: состояние vs действие",
+          "Важно различать контекст использования"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I think it's a good idea. (состояние: считаю)",
+            "translation": "Я считаю, это хорошая идея.",
+            "tags": [
+              "affirmative",
+              "state"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "I'm thinking about the problem. (действие: размышляю)",
+            "translation": "Я размышляю над проблемой.",
+            "tags": [
+              "affirmative",
+              "action"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "She has a dog. (состояние: владеет)",
+            "translation": "У неё есть собака.",
+            "tags": [
+              "affirmative",
+              "state"
+            ]
+          },
+          {
+            "id": "ex4",
+            "text": "She's having breakfast. (действие: ест)",
+            "translation": "Она завтракает.",
+            "tags": [
+              "affirmative",
+              "action"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8_quiz_after_exceptions_action",
+      "type": "quiz_inline",
+      "title": "Quick check: исключения - действие вместо состояния",
+      "quiz_inline": {
+        "question_ids": [
+          "q16",
+          "q17",
+          "q18",
+          "q19",
+          "q20",
+          "q21"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_exceptions_temporary_state",
+      "type": "theory",
+      "title": "Некоторые статичные глаголы могут использоваться в Continuous для подчеркивания временного характера состояния, особенно когда речь идет о поведении или самочувствии:",
+      "theory": {
+        "concept_id": "stative_verbs_exceptions_temporary",
+        "content_md": "Некоторые статичные глаголы могут использоваться в Continuous для подчеркивания **временного характера** состояния, особенно когда речь идет о поведении или самочувствии:\n\n**be:**\n- Обычно статичный, но в Continuous может описывать временное поведение: \"You're being rude.\" (Ты ведешь себя грубо — сейчас, временно)\n\n**feel:**\n- В значении \"чувствовать себя\" может быть в Continuous для временного самочувствия: \"I'm feeling tired.\" (Я чувствую усталость — сейчас, временно)\n\nВажно: это исключения, и они используются только в определенных контекстах для подчеркивания временности.",
+        "key_points": [
+          "be и feel могут быть в Continuous для временного поведения/самочувствия",
+          "Используется для подчеркивания временности состояния",
+          "Это исключения, не все статичные глаголы так используются"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "You're being very helpful today.",
+            "translation": "Ты сегодня очень помогаешь.",
+            "notes": "Временное поведение — Continuous",
+            "tags": [
+              "affirmative",
+              "temporary"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "I'm feeling better now.",
+            "translation": "Я чувствую себя лучше сейчас.",
+            "notes": "Временное самочувствие — Continuous",
+            "tags": [
+              "affirmative",
+              "temporary"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "She is kind. (постоянная черта)",
+            "translation": "Она добрая.",
+            "notes": "Постоянная характеристика — Simple",
+            "tags": [
+              "affirmative",
+              "permanent"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b10_quiz_after_exceptions_temporary",
+      "type": "quiz_inline",
+      "title": "Quick check: исключения - временное состояние",
+      "quiz_inline": {
+        "question_ids": [
+          "q23",
+          "q24",
+          "q25",
+          "q26",
+          "q27"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_common_mistakes",
+      "type": "theory",
+      "title": "Типичные ошибки русскоязычных студентов:",
+      "theory": {
+        "concept_id": "stative_verbs_common_mistakes",
+        "content_md": "**Типичные ошибки русскоязычных студентов:**\n\n1. **Использование статичных глаголов в Continuous по аналогии с русским языком.** В русском языке \"Я знаю\" и \"Я знаю сейчас\" звучат одинаково, но в английском \"I know\" (правильно) и \"I'm knowing\" (неправильно).\n\n2. **Смешение значений в исключениях.** Например, использование \"I'm having a car\" вместо \"I have a car\" — неправильно, потому что \"have\" в значении \"иметь\" — это состояние, а не действие.\n\n3. **Использование Continuous для всех глаголов \"сейчас\".** Не все глаголы, описывающие что-то \"сейчас\", должны быть в Continuous — статичные глаголы остаются в Simple.",
+        "key_points": [
+          "Не переносите правила русского языка на английский",
+          "Различайте значение: состояние vs действие",
+          "Не все \"сейчас\" = Continuous"
+        ],
+        "common_mistakes": [
+          {
+            "wrong": "I'm knowing English very well.",
+            "right": "I know English very well.",
+            "why": "know — статичный глагол, описывает состояние знания, а не действие"
+          },
+          {
+            "wrong": "She's liking chocolate.",
+            "right": "She likes chocolate.",
+            "why": "like — статичный глагол, описывает постоянное предпочтение"
+          },
+          {
+            "wrong": "I'm having a car.",
+            "right": "I have a car.",
+            "why": "have в значении \"иметь\" — это состояние, а не действие. Continuous только для \"have\" = есть/пить"
+          },
+          {
+            "wrong": "I'm seeing the problem.",
+            "right": "I see the problem.",
+            "why": "see в значении \"видеть/понимать\" — это состояние. Continuous только для \"see\" = встречаться"
+          }
+        ],
+        "examples": []
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Что такое статичные глаголы?",
+        "theory_block_id": "b1_theory_what_are_stative_verbs",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Глаголы, описывающие действия",
+            "feedback": "Нет, статичные глаголы описывают состояния, а не действия."
+          },
+          {
+            "id": "b",
+            "text": "Глаголы, описывающие состояния",
+            "feedback": "Правильно! Статичные глаголы описывают состояния (иметь, знать, любить)."
+          },
+          {
+            "id": "c",
+            "text": "Глаголы, которые всегда в Continuous",
+            "feedback": "Нет, статичные глаголы обычно НЕ используются в Continuous."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Статичные глаголы — это глаголы, которые описывают состояния (иметь, знать, любить), а не действия. Они обычно не используются в форме Continuous.",
+        "tags": [
+          "definition",
+          "concept"
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "true_false",
+        "prompt": "Статичные глаголы обычно не используются в Present Continuous.",
+        "theory_block_id": "b1_theory_what_are_stative_verbs",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. Статичные глаголы описывают постоянные состояния, а не временные действия, поэтому они обычно не используются в Continuous.",
+        "tags": [
+          "concept"
+        ]
+      },
+      {
+        "id": "q2b",
+        "type": "true_false",
+        "prompt": "Все статичные глаголы можно использовать в Present Continuous.",
+        "theory_block_id": "b1_theory_what_are_stative_verbs",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Неверно. Большинство статичных глаголов не используются в Continuous. Только некоторые могут использоваться в Continuous с изменением значения (исключения).",
+        "tags": [
+          "concept"
+        ]
+      },
+      {
+        "id": "q3",
+        "type": "mcq_single",
+        "prompt": "Выберите статичный глагол:",
+        "theory_block_id": "b1_theory_what_are_stative_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "run",
+            "feedback": "Нет, run — это динамичный глагол (действие)."
+          },
+          {
+            "id": "b",
+            "text": "know",
+            "feedback": "Правильно! know — статичный глагол (состояние знания)."
+          },
+          {
+            "id": "c",
+            "text": "write",
+            "feedback": "Нет, write — это динамичный глагол (действие)."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "know — это статичный глагол, который описывает состояние знания. run и write — динамичные глаголы, описывающие действия.",
+        "tags": [
+          "identification"
+        ]
+      },
+      {
+        "id": "q4",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I ___ English very well.\" (знать)",
+        "theory_block_id": "b1_theory_what_are_stative_verbs",
+        "difficulty": 2,
+        "correct_answer": "know",
+        "explanation": "know — статичный глагол, описывающий состояние знания. Используется в Present Simple: I know English very well.",
+        "tags": [
+          "fill_blank",
+          "stative"
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**I'm knowing the answer.**",
+        "theory_block_id": "b1_theory_what_are_stative_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I know the answer.",
+            "feedback": "Правильно! know — статичный глагол, используется в Simple."
+          },
+          {
+            "id": "b",
+            "text": "Ошибок нет.",
+            "feedback": "Нет, know — статичный глагол, не используется в Continuous."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "know — статичный глагол, описывающий состояние знания. Не используется в Continuous. Правильно: I know the answer.",
+        "tags": [
+          "error_spotting"
+        ]
+      },
+      {
+        "id": "q6",
+        "type": "mcq_single",
+        "prompt": "К какой группе статичных глаголов относится 'like'?",
+        "theory_block_id": "b2_theory_groups_stative_verbs",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Чувства и эмоции",
+            "feedback": "Правильно! like относится к группе чувств и эмоций."
+          },
+          {
+            "id": "b",
+            "text": "Мысли и мнения",
+            "feedback": "Нет, like — это чувство, а не мысль."
+          },
+          {
+            "id": "c",
+            "text": "Владение",
+            "feedback": "Нет, like — это чувство, а не владение."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "like относится к группе чувств и эмоций (love, hate, prefer, want, need).",
+        "tags": [
+          "categories"
+        ]
+      },
+      {
+        "id": "q7",
+        "type": "mcq_single",
+        "prompt": "К какой группе статичных глаголов относится 'believe'?",
+        "theory_block_id": "b2_theory_groups_stative_verbs",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Чувства и эмоции",
+            "feedback": "Нет, believe — это мысль, а не чувство."
+          },
+          {
+            "id": "b",
+            "text": "Мысли и мнения",
+            "feedback": "Правильно! believe относится к группе мыслей и мнений."
+          },
+          {
+            "id": "c",
+            "text": "Восприятие",
+            "feedback": "Нет, believe — это мысль, а не восприятие."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "believe относится к группе мыслей и мнений (know, think, understand, remember, forget).",
+        "tags": [
+          "categories"
+        ]
+      },
+      {
+        "id": "q8",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She ___ chocolate very much.\" (like)",
+        "theory_block_id": "b2_theory_groups_stative_verbs",
+        "difficulty": 2,
+        "correct_answer": "likes",
+        "explanation": "like — статичный глагол из группы чувств. С she используется форма likes в Present Simple.",
+        "tags": [
+          "fill_blank",
+          "emotion"
+        ]
+      },
+      {
+        "id": "q9",
+        "type": "true_false",
+        "prompt": "Статичные глаголы делятся на четыре основные группы: чувства, мысли, владение и восприятие.",
+        "theory_block_id": "b2_theory_groups_stative_verbs",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. Статичные глаголы делятся на четыре основные группы: чувства (like, love), мысли (know, believe), владение (have, own), восприятие (see, hear).",
+        "tags": [
+          "categories"
+        ]
+      },
+      {
+        "id": "q9b",
+        "type": "true_false",
+        "prompt": "Глагол 'run' относится к статичным глаголам.",
+        "theory_block_id": "b2_theory_groups_stative_verbs",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Неверно. run — это динамичный глагол (действие), а не статичный. Статичные глаголы описывают состояния, а не действия.",
+        "tags": [
+          "categories"
+        ]
+      },
+      {
+        "id": "q10",
+        "type": "mcq_single",
+        "prompt": "Выберите глагол из группы владения:",
+        "theory_block_id": "b2_theory_groups_stative_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "have",
+            "feedback": "Правильно! have (в значении иметь) относится к группе владения."
+          },
+          {
+            "id": "b",
+            "text": "see",
+            "feedback": "Нет, see относится к группе восприятия."
+          },
+          {
+            "id": "c",
+            "text": "think",
+            "feedback": "Нет, think относится к группе мыслей."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "have (в значении иметь, владеть) относится к группе владения и принадлежности (own, belong, possess).",
+        "tags": [
+          "categories"
+        ]
+      },
+      {
+        "id": "q11",
+        "type": "true_false",
+        "prompt": "Статичные глаголы не используются в Continuous, потому что они описывают постоянные состояния, а не временные действия.",
+        "theory_block_id": "b3_theory_why_not_continuous",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. Continuous используется для временных действий в момент речи, а статичные глаголы описывают постоянные состояния, поэтому они логически несовместимы.",
+        "tags": [
+          "reason"
+        ]
+      },
+      {
+        "id": "q12",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**She's liking coffee.**",
+        "theory_block_id": "b3_theory_why_not_continuous",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She likes coffee.",
+            "feedback": "Правильно! like — статичный глагол, используется в Simple."
+          },
+          {
+            "id": "b",
+            "text": "Ошибок нет.",
+            "feedback": "Нет, like — статичный глагол, не используется в Continuous."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "like — статичный глагол, описывающий постоянное предпочтение. Не используется в Continuous. Правильно: She likes coffee.",
+        "tags": [
+          "error_spotting"
+        ]
+      },
+      {
+        "id": "q13",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I ___ the problem.\" (видеть, понимать)",
+        "theory_block_id": "b3_theory_why_not_continuous",
+        "difficulty": 2,
+        "correct_answer": "see",
+        "explanation": "see в значении видеть/понимать — статичный глагол. Используется в Present Simple: I see the problem.",
+        "tags": [
+          "fill_blank",
+          "perception"
+        ]
+      },
+      {
+        "id": "q14",
+        "type": "mcq_single",
+        "prompt": "Почему статичные глаголы обычно не используются в Continuous?",
+        "theory_block_id": "b3_theory_why_not_continuous",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Они описывают постоянные состояния, а Continuous для временных действий",
+            "feedback": "Правильно! Continuous для временных действий, а статичные глаголы — для постоянных состояний."
+          },
+          {
+            "id": "b",
+            "text": "Они всегда используются только в Past Simple",
+            "feedback": "Нет, статичные глаголы используются в разных временах, но обычно не в Continuous."
+          },
+          {
+            "id": "c",
+            "text": "Они слишком сложные для Continuous",
+            "feedback": "Нет, дело не в сложности, а в логической несовместимости."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Статичные глаголы описывают постоянные состояния, а Continuous используется для временных действий в момент речи. Это логически несовместимо.",
+        "tags": [
+          "reason"
+        ]
+      },
+      {
+        "id": "q15",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**I'm understanding the lesson.**",
+        "theory_block_id": "b3_theory_why_not_continuous",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I understand the lesson.",
+            "feedback": "Правильно! understand — статичный глагол, используется в Simple."
+          },
+          {
+            "id": "b",
+            "text": "Ошибок нет.",
+            "feedback": "Нет, understand — статичный глагол, не используется в Continuous."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "understand — статичный глагол из группы мыслей. Не используется в Continuous. Правильно: I understand the lesson.",
+        "tags": [
+          "error_spotting"
+        ]
+      },
+      {
+        "id": "q16",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:\n\n**I ___ you're right. (считать, полагать)**",
+        "theory_block_id": "b4_theory_exceptions_action_meaning",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "think",
+            "feedback": "Правильно! think в значении считать/полагать — состояние, используется в Simple."
+          },
+          {
+            "id": "b",
+            "text": "am thinking",
+            "feedback": "Нет, am thinking означает думать/размышлять (действие), а не считать."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "think в значении считать/полагать — это состояние, используется в Present Simple: I think you're right.",
+        "tags": [
+          "exception",
+          "think"
+        ]
+      },
+      {
+        "id": "q17",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:\n\n**I ___ about the problem. (размышлять)**",
+        "theory_block_id": "b4_theory_exceptions_action_meaning",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "think",
+            "feedback": "Нет, для действия размышлять нужен Continuous."
+          },
+          {
+            "id": "b",
+            "text": "am thinking",
+            "feedback": "Правильно! think в значении размышлять — действие, используется в Continuous."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "think в значении размышлять — это действие, используется в Present Continuous: I'm thinking about the problem.",
+        "tags": [
+          "exception",
+          "think"
+        ]
+      },
+      {
+        "id": "q18",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I ___ a car.\" (have - иметь)",
+        "theory_block_id": "b4_theory_exceptions_action_meaning",
+        "difficulty": 3,
+        "correct_answer": "have",
+        "explanation": "have в значении иметь/владеть — это состояние, используется в Present Simple: I have a car.",
+        "tags": [
+          "fill_blank",
+          "exception",
+          "have"
+        ]
+      },
+      {
+        "id": "q19",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:\n\n**I ___ lunch now. (есть)**",
+        "theory_block_id": "b4_theory_exceptions_action_meaning",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "have",
+            "feedback": "Нет, для действия есть нужен Continuous."
+          },
+          {
+            "id": "b",
+            "text": "am having",
+            "feedback": "Правильно! have в значении есть — действие, используется в Continuous."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "have в значении есть/пить — это действие, используется в Present Continuous: I'm having lunch now.",
+        "tags": [
+          "exception",
+          "have"
+        ]
+      },
+      {
+        "id": "q20",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:\n\n**I ___ the problem. (видеть, понимать)**",
+        "theory_block_id": "b4_theory_exceptions_action_meaning",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "see",
+            "feedback": "Правильно! see в значении видеть/понимать — состояние, используется в Simple."
+          },
+          {
+            "id": "b",
+            "text": "am seeing",
+            "feedback": "Нет, am seeing означает встречаться, а не видеть."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "see в значении видеть/понимать — это состояние, используется в Present Simple: I see the problem.",
+        "tags": [
+          "exception",
+          "see"
+        ]
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:\n\n**I ___ my doctor tomorrow. (встречаться)**",
+        "theory_block_id": "b4_theory_exceptions_action_meaning",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "see",
+            "feedback": "Нет, для действия встречаться нужен Continuous."
+          },
+          {
+            "id": "b",
+            "text": "am seeing",
+            "feedback": "Правильно! see в значении встречаться — действие, используется в Continuous."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "see в значении встречаться/навещать — это действие, используется в Present Continuous: I'm seeing my doctor tomorrow.",
+        "tags": [
+          "exception",
+          "see"
+        ]
+      },
+      {
+        "id": "q22",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**I'm having a car.**",
+        "theory_block_id": "b4_theory_exceptions_action_meaning",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I have a car.",
+            "feedback": "Правильно! have в значении иметь — состояние, используется в Simple."
+          },
+          {
+            "id": "b",
+            "text": "Ошибок нет.",
+            "feedback": "Нет, have в значении иметь — состояние, не используется в Continuous."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "have в значении иметь/владеть — это состояние, используется в Present Simple. Continuous только для have = есть/пить: I'm having lunch.",
+        "tags": [
+          "error_spotting",
+          "exception"
+        ]
+      },
+      {
+        "id": "q23",
+        "type": "true_false",
+        "prompt": "Глагол 'be' может использоваться в Continuous для описания временного поведения.",
+        "theory_block_id": "b5_theory_exceptions_temporary_state",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Верно. be может использоваться в Continuous для подчеркивания временного поведения: You're being rude (ты ведешь себя грубо — сейчас, временно).",
+        "tags": [
+          "exception",
+          "be"
+        ]
+      },
+      {
+        "id": "q24",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:\n\n**You ___ very helpful today. (временное поведение)**",
+        "theory_block_id": "b5_theory_exceptions_temporary_state",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "are",
+            "feedback": "Нет, для временного поведения нужен Continuous."
+          },
+          {
+            "id": "b",
+            "text": "are being",
+            "feedback": "Правильно! be в Continuous используется для временного поведения."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "be в Continuous используется для временного поведения. You're being very helpful today — ты сегодня очень помогаешь (временно).",
+        "tags": [
+          "exception",
+          "be"
+        ]
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:\n\n**She ___ kind. (постоянная черта)**",
+        "theory_block_id": "b5_theory_exceptions_temporary_state",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "is",
+            "feedback": "Правильно! Для постоянной черты используется Simple."
+          },
+          {
+            "id": "b",
+            "text": "is being",
+            "feedback": "Нет, is being используется для временного поведения, а не постоянной черты."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для постоянной черты характера используется Present Simple: She is kind. Continuous только для временного поведения.",
+        "tags": [
+          "exception",
+          "be"
+        ]
+      },
+      {
+        "id": "q26",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:\n\n**I ___ better now. (временное самочувствие)**",
+        "theory_block_id": "b5_theory_exceptions_temporary_state",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "feel",
+            "feedback": "Нет, для временного самочувствия нужен Continuous."
+          },
+          {
+            "id": "b",
+            "text": "am feeling",
+            "feedback": "Правильно! feel в значении чувствовать себя может быть в Continuous для временного самочувствия."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "feel в значении чувствовать себя может быть в Continuous для временного самочувствия: I'm feeling better now.",
+        "tags": [
+          "exception",
+          "feel"
+        ]
+      },
+      {
+        "id": "q27",
+        "type": "true_false",
+        "prompt": "Глагол 'feel' может использоваться в Continuous для подчеркивания временного самочувствия.",
+        "theory_block_id": "b5_theory_exceptions_temporary_state",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Верно. feel в значении чувствовать себя может использоваться в Continuous для временного самочувствия: I'm feeling tired.",
+        "tags": [
+          "exception",
+          "feel"
+        ]
+      },
+      {
+        "id": "q28",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**I'm knowing English very well.**",
+        "theory_block_id": "b6_theory_common_mistakes",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I know English very well.",
+            "feedback": "Правильно! know — статичный глагол, используется в Simple."
+          },
+          {
+            "id": "b",
+            "text": "Ошибок нет.",
+            "feedback": "Нет, know — статичный глагол, не используется в Continuous."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Типичная ошибка — использование know в Continuous. know — статичный глагол, описывает состояние знания. Правильно: I know English very well.",
+        "tags": [
+          "error_spotting",
+          "common_mistake"
+        ]
+      },
+      {
+        "id": "q29",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**She's liking chocolate.**",
+        "theory_block_id": "b6_theory_common_mistakes",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She likes chocolate.",
+            "feedback": "Правильно! like — статичный глагол, используется в Simple."
+          },
+          {
+            "id": "b",
+            "text": "Ошибок нет.",
+            "feedback": "Нет, like — статичный глагол, не используется в Continuous."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Типичная ошибка — использование like в Continuous. like — статичный глагол, описывает постоянное предпочтение. Правильно: She likes chocolate.",
+        "tags": [
+          "error_spotting",
+          "common_mistake"
+        ]
+      },
+      {
+        "id": "q30",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**I'm having a car.**",
+        "theory_block_id": "b6_theory_common_mistakes",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I have a car.",
+            "feedback": "Правильно! have в значении иметь — состояние, используется в Simple."
+          },
+          {
+            "id": "b",
+            "text": "Ошибок нет.",
+            "feedback": "Нет, have в значении иметь — состояние, не используется в Continuous."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Типичная ошибка — смешение значений have. have в значении иметь/владеть — это состояние, используется в Simple. Continuous только для have = есть/пить.",
+        "tags": [
+          "error_spotting",
+          "common_mistake"
+        ]
+      },
+      {
+        "id": "q31",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**I'm seeing the problem.** (в значении видеть/понимать)",
+        "theory_block_id": "b6_theory_common_mistakes",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I see the problem.",
+            "feedback": "Правильно! see в значении видеть/понимать — состояние, используется в Simple."
+          },
+          {
+            "id": "b",
+            "text": "Ошибок нет.",
+            "feedback": "Нет, see в значении видеть/понимать — состояние, не используется в Continuous."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Типичная ошибка — смешение значений see. see в значении видеть/понимать — это состояние, используется в Simple. Continuous только для see = встречаться.",
+        "tags": [
+          "error_spotting",
+          "common_mistake"
+        ]
+      },
+      {
+        "id": "q32",
+        "type": "mcq_single",
+        "prompt": "Какая типичная ошибка русскоязычных студентов при использовании статичных глаголов?",
+        "theory_block_id": "b6_theory_common_mistakes",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Использование статичных глаголов в Continuous по аналогии с русским языком",
+            "feedback": "Правильно! Это основная типичная ошибка."
+          },
+          {
+            "id": "b",
+            "text": "Использование статичных глаголов только в Past Simple",
+            "feedback": "Нет, статичные глаголы используются в разных временах, но обычно не в Continuous."
+          },
+          {
+            "id": "c",
+            "text": "Использование статичных глаголов только в вопросах",
+            "feedback": "Нет, статичные глаголы используются в утверждениях, вопросах и отрицаниях."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Типичная ошибка — использование статичных глаголов в Continuous по аналогии с русским языком, где \"Я знаю\" и \"Я знаю сейчас\" звучат одинаково.",
+        "tags": [
+          "common_mistake",
+          "concept"
+        ]
+      },
+      {
+        "id": "q33",
+        "type": "true_false",
+        "prompt": "Не все глаголы, описывающие что-то \"сейчас\", должны быть в Continuous — статичные глаголы остаются в Simple.",
+        "theory_block_id": "b6_theory_common_mistakes",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Верно. Статичные глаголы описывают состояния, а не действия, поэтому они остаются в Simple даже когда речь идет о \"сейчас\".",
+        "tags": [
+          "common_mistake",
+          "concept"
+        ]
+      },
+      {
+        "id": "q34",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"We ___ a house in the city.\" (have - иметь)",
+        "theory_block_id": "b6_theory_common_mistakes",
+        "difficulty": 3,
+        "correct_answer": "have",
+        "explanation": "have в значении иметь/владеть — это состояние, используется в Present Simple: We have a house in the city.",
+        "tags": [
+          "fill_blank",
+          "common_mistake"
+        ]
+      },
+      {
+        "id": "q35",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"They ___ the music.\" (слышать)",
+        "theory_block_id": "b2_theory_groups_stative_verbs",
+        "difficulty": 2,
+        "correct_answer": "hear",
+        "explanation": "hear — статичный глагол из группы восприятия. Используется в Present Simple: They hear the music.",
+        "tags": [
+          "fill_blank",
+          "perception"
+        ]
+      },
+      {
+        "id": "q36",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:\n\n**I ___ what you mean.**",
+        "theory_block_id": "b3_theory_why_not_continuous",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "understand",
+            "feedback": "Правильно! understand — статичный глагол, используется в Simple."
+          },
+          {
+            "id": "b",
+            "text": "am understanding",
+            "feedback": "Нет, understand — статичный глагол, не используется в Continuous."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "understand — статичный глагол из группы мыслей. Используется в Present Simple: I understand what you mean.",
+        "tags": [
+          "identification"
+        ]
+      },
+      {
+        "id": "q37",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She ___ her keys.\" (remember)",
+        "theory_block_id": "b2_theory_groups_stative_verbs",
+        "difficulty": 2,
+        "correct_answer": "remembers",
+        "explanation": "remember — статичный глагол из группы мыслей. С she используется форма remembers в Present Simple.",
+        "tags": [
+          "fill_blank",
+          "thought"
+        ]
+      },
+      {
+        "id": "q38",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:\n\n**This book ___ to me.**",
+        "theory_block_id": "b2_theory_groups_stative_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "belongs",
+            "feedback": "Правильно! belong — статичный глагол из группы владения."
+          },
+          {
+            "id": "b",
+            "text": "is belonging",
+            "feedback": "Нет, belong — статичный глагол, не используется в Continuous."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "belong — статичный глагол из группы владения и принадлежности. Используется в Present Simple: This book belongs to me.",
+        "tags": [
+          "possession"
+        ]
+      },
+      {
+        "id": "q39",
+        "type": "true_false",
+        "prompt": "Некоторые статичные глаголы могут использоваться в Continuous, когда они описывают действие, а не состояние.",
+        "theory_block_id": "b4_theory_exceptions_action_meaning",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Верно. Например, think (считать vs думать), have (иметь vs есть), see (видеть vs встречаться) могут использоваться в Continuous, когда описывают действие.",
+        "tags": [
+          "exception",
+          "concept"
+        ]
+      },
+      {
+        "id": "q40",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I ___ you're right about this.\" (think - считать)",
+        "theory_block_id": "b4_theory_exceptions_action_meaning",
+        "difficulty": 3,
+        "correct_answer": "think",
+        "explanation": "think в значении считать/полагать — это состояние, используется в Present Simple: I think you're right.",
+        "tags": [
+          "fill_blank",
+          "exception"
+        ]
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:\n\n**I ___ about my future. (размышлять)**",
+        "theory_block_id": "b4_theory_exceptions_action_meaning",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "think",
+            "feedback": "Нет, для действия размышлять нужен Continuous."
+          },
+          {
+            "id": "b",
+            "text": "am thinking",
+            "feedback": "Правильно! think в значении размышлять — действие, используется в Continuous."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "think в значении размышлять — это действие, используется в Present Continuous: I'm thinking about my future.",
+        "tags": [
+          "exception"
+        ]
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:\n\n**I ___ dinner with my family.**",
+        "theory_block_id": "b4_theory_exceptions_action_meaning",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "have",
+            "feedback": "Нет, для действия есть нужен Continuous."
+          },
+          {
+            "id": "b",
+            "text": "am having",
+            "feedback": "Правильно! have в значении есть — действие, используется в Continuous."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "have в значении есть/пить — это действие, используется в Present Continuous: I'm having dinner with my family.",
+        "tags": [
+          "exception",
+          "have"
+        ]
+      },
+      {
+        "id": "q43",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**I'm seeing my friend tomorrow. (в значении видеть/понимать)**",
+        "theory_block_id": "b4_theory_exceptions_action_meaning",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I see my friend tomorrow.",
+            "feedback": "Нет, для действия встречаться нужен Continuous."
+          },
+          {
+            "id": "b",
+            "text": "Ошибок нет. I'm seeing означает встречаться.",
+            "feedback": "Правильно! see в значении встречаться — действие, используется в Continuous."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Нет ошибки. see в значении встречаться/навещать — это действие, используется в Present Continuous: I'm seeing my friend tomorrow.",
+        "tags": [
+          "error_spotting",
+          "exception"
+        ]
+      },
+      {
+        "id": "q44",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:\n\n**She ___ kind. (постоянная черта характера)**",
+        "theory_block_id": "b5_theory_exceptions_temporary_state",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "is",
+            "feedback": "Правильно! Для постоянной черты используется Simple."
+          },
+          {
+            "id": "b",
+            "text": "is being",
+            "feedback": "Нет, is being используется для временного поведения."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для постоянной черты характера используется Present Simple: She is kind. Continuous только для временного поведения.",
+        "tags": [
+          "exception",
+          "be"
+        ]
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:\n\n**I ___ tired today. (временное самочувствие)**",
+        "theory_block_id": "b5_theory_exceptions_temporary_state",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "feel",
+            "feedback": "Нет, для временного самочувствия нужен Continuous."
+          },
+          {
+            "id": "b",
+            "text": "am feeling",
+            "feedback": "Правильно! feel в значении чувствовать себя может быть в Continuous для временного самочувствия."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "feel в значении чувствовать себя может быть в Continuous для временного самочувствия: I'm feeling tired today.",
+        "tags": [
+          "exception",
+          "feel"
+        ]
+      },
+      {
+        "id": "q46",
+        "type": "true_false",
+        "prompt": "Глагол 'be' в Continuous используется только для временного поведения, а не для постоянных черт характера.",
+        "theory_block_id": "b5_theory_exceptions_temporary_state",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Верно. be в Continuous используется для временного поведения (You're being rude), а для постоянных черт используется Simple (She is kind).",
+        "tags": [
+          "exception",
+          "be"
+        ]
+      },
+      {
+        "id": "q47",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**I'm liking this song.**",
+        "theory_block_id": "b6_theory_common_mistakes",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I like this song.",
+            "feedback": "Правильно! like — статичный глагол, используется в Simple."
+          },
+          {
+            "id": "b",
+            "text": "Ошибок нет.",
+            "feedback": "Нет, like — статичный глагол, не используется в Continuous."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Типичная ошибка — использование like в Continuous. like — статичный глагол, описывает постоянное предпочтение. Правильно: I like this song.",
+        "tags": [
+          "error_spotting",
+          "common_mistake"
+        ]
+      },
+      {
+        "id": "q48",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I ___ the answer to this question.\" (знать)",
+        "theory_block_id": "b1_theory_what_are_stative_verbs",
+        "difficulty": 2,
+        "correct_answer": "know",
+        "explanation": "know — статичный глагол, описывающий состояние знания. Используется в Present Simple: I know the answer.",
+        "tags": [
+          "fill_blank",
+          "stative"
+        ]
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:\n\n**They ___ the news.**",
+        "theory_block_id": "b2_theory_groups_stative_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "believe",
+            "feedback": "Правильно! believe — статичный глагол из группы мыслей."
+          },
+          {
+            "id": "b",
+            "text": "are believing",
+            "feedback": "Нет, believe — статичный глагол, не используется в Continuous."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "believe — статичный глагол из группы мыслей и мнений. Используется в Present Simple: They believe the news.",
+        "tags": [
+          "thought"
+        ]
+      },
+      {
+        "id": "q50",
+        "type": "true_false",
+        "prompt": "Статичные глаголы можно разделить на группы: чувства, мысли, владение и восприятие.",
+        "theory_block_id": "b2_theory_groups_stative_verbs",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. Статичные глаголы делятся на четыре основные группы: чувства (like, love), мысли (know, believe), владение (have, own), восприятие (see, hear).",
+        "tags": [
+          "categories"
+        ]
+      },
+      {
+        "id": "q51",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"We ___ this movie.\" (любить)",
+        "theory_block_id": "b2_theory_groups_stative_verbs",
+        "difficulty": 2,
+        "correct_answer": "love",
+        "explanation": "love — статичный глагол из группы чувств. Используется в Present Simple: We love this movie.",
+        "tags": [
+          "fill_blank",
+          "emotion"
+        ]
+      },
+      {
+        "id": "q52",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:\n\n**I ___ what happened.**",
+        "theory_block_id": "b3_theory_why_not_continuous",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "remember",
+            "feedback": "Правильно! remember — статичный глагол, используется в Simple."
+          },
+          {
+            "id": "b",
+            "text": "am remembering",
+            "feedback": "Нет, remember — статичный глагол, не используется в Continuous."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "remember — статичный глагол из группы мыслей. Используется в Present Simple: I remember what happened.",
+        "tags": [
+          "identification"
+        ]
+      },
+      {
+        "id": "q53",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**I'm preferring tea to coffee.**",
+        "theory_block_id": "b6_theory_common_mistakes",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I prefer tea to coffee.",
+            "feedback": "Правильно! prefer — статичный глагол, используется в Simple."
+          },
+          {
+            "id": "b",
+            "text": "Ошибок нет.",
+            "feedback": "Нет, prefer — статичный глагол, не используется в Continuous."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Типичная ошибка — использование prefer в Continuous. prefer — статичный глагол из группы чувств. Правильно: I prefer tea to coffee.",
+        "tags": [
+          "error_spotting",
+          "common_mistake"
+        ]
+      },
+      {
+        "id": "q54",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She ___ her job.\" (own)",
+        "theory_block_id": "b2_theory_groups_stative_verbs",
+        "difficulty": 2,
+        "correct_answer": "owns",
+        "explanation": "own — статичный глагол из группы владения. С she используется форма owns в Present Simple.",
+        "tags": [
+          "fill_blank",
+          "possession"
+        ]
+      },
+      {
+        "id": "q55",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:\n\n**I ___ the smell of flowers.**",
+        "theory_block_id": "b2_theory_groups_stative_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "smell",
+            "feedback": "Правильно! smell — статичный глагол из группы восприятия."
+          },
+          {
+            "id": "b",
+            "text": "am smelling",
+            "feedback": "Нет, smell в значении чувствовать запах — статичный глагол, не используется в Continuous."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "smell в значении чувствовать запах — статичный глагол из группы восприятия. Используется в Present Simple: I smell the smell of flowers.",
+        "tags": [
+          "perception"
+        ]
+      },
+      {
+        "id": "q56",
+        "type": "true_false",
+        "prompt": "Continuous используется для временных действий в момент речи, а статичные глаголы описывают постоянные состояния.",
+        "theory_block_id": "b3_theory_why_not_continuous",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Верно. Это основная причина, почему статичные глаголы обычно не используются в Continuous — они логически несовместимы.",
+        "tags": [
+          "reason"
+        ]
+      },
+      {
+        "id": "q57",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I ___ you're wrong about this.\" (think - считать)",
+        "theory_block_id": "b4_theory_exceptions_action_meaning",
+        "difficulty": 3,
+        "correct_answer": "think",
+        "explanation": "think в значении считать/полагать — это состояние, используется в Present Simple: I think you're wrong.",
+        "tags": [
+          "fill_blank",
+          "exception"
+        ]
+      },
+      {
+        "id": "q58",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:\n\n**I ___ about changing my job.**",
+        "theory_block_id": "b4_theory_exceptions_action_meaning",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "think",
+            "feedback": "Нет, для действия размышлять нужен Continuous."
+          },
+          {
+            "id": "b",
+            "text": "am thinking",
+            "feedback": "Правильно! think в значении размышлять — действие, используется в Continuous."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "think в значении размышлять — это действие, используется в Present Continuous: I'm thinking about changing my job.",
+        "tags": [
+          "exception",
+          "think"
+        ]
+      },
+      {
+        "id": "q59",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку:\n\n**I'm having a house.**",
+        "theory_block_id": "b6_theory_common_mistakes",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I have a house.",
+            "feedback": "Правильно! have в значении иметь — состояние, используется в Simple."
+          },
+          {
+            "id": "b",
+            "text": "Ошибок нет.",
+            "feedback": "Нет, have в значении иметь — состояние, не используется в Continuous."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Типичная ошибка — смешение значений have. have в значении иметь/владеть — это состояние, используется в Simple. Continuous только для have = есть/пить.",
+        "tags": [
+          "error_spotting",
+          "common_mistake"
+        ]
+      },
+      {
+        "id": "q60",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант:\n\n**I ___ a shower now. (принимать)**",
+        "theory_block_id": "b4_theory_exceptions_action_meaning",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "have",
+            "feedback": "Нет, для действия принимать нужен Continuous."
+          },
+          {
+            "id": "b",
+            "text": "am having",
+            "feedback": "Правильно! have в значении принимать — действие, используется в Continuous."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "have в значении принимать (душ) — это действие, используется в Present Continuous: I'm having a shower now.",
+        "tags": [
+          "exception",
+          "have"
+        ]
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q1",
+      "q2",
+      "q2b",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q9b",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-18T12:04:22Z",
+    "source": "llm"
+  }
+}
