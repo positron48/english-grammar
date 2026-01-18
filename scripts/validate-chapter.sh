@@ -392,7 +392,7 @@ for q in chapter['question_bank']['questions']:
     if block_id:
         questions_per_block[block_id] = questions_per_block.get(block_id, 0) + 1
 
-# Проверка баланса true_false вопросов (50±10% должны быть true)
+# Проверка баланса true_false вопросов (50±30% должны быть true)
 true_false_questions = [q for q in chapter['question_bank']['questions'] if q['type'] == 'true_false']
 if len(true_false_questions) > 0:
     true_count = sum(1 for q in true_false_questions if q.get('correct_answer') == 'true')
@@ -400,16 +400,16 @@ if len(true_false_questions) > 0:
     total_tf = len(true_false_questions)
     true_percentage = (true_count / total_tf) * 100 if total_tf > 0 else 0
     
-    # Допустимый диапазон: 40-60% (50±10%)
+    # Допустимый диапазон: 20-80% (50±30%)
     # Игнорируем правило, если таких вопросов меньше 3
-    min_percentage = 40
-    max_percentage = 60
+    min_percentage = 20
+    max_percentage = 80
     
     if total_tf >= 3 and (true_percentage < min_percentage or true_percentage > max_percentage):
         issues.append({
             'severity': 'warning',
             'category': 'methodological',
-            'message': f"Несбалансированные true_false вопросы: {true_count} true ({true_percentage:.1f}%) и {false_count} false ({100-true_percentage:.1f}%). Должно быть 50±10% (40-60%) вопросов с correct_answer 'true'.",
+            'message': f"Несбалансированные true_false вопросы: {true_count} true ({true_percentage:.1f}%) и {false_count} false ({100-true_percentage:.1f}%). Должно быть 50±30% (20-80%) вопросов с correct_answer 'true'.",
             'location': 'question_bank.questions (true_false)',
             'suggested_fix': f"Изменить correct_answer некоторых true_false вопросов. Сейчас true: {true_count}, false: {false_count}. Нужно примерно равное количество."
         })

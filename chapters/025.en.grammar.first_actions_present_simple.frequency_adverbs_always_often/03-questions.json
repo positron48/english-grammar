@@ -1,0 +1,803 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq_single",
+      "prompt": "Что описывают наречия частоты (frequency adverbs)?",
+      "theory_block_id": "b1_theory_frequency_adverbs_basics",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Как часто происходит действие",
+          "feedback": "Правильно! Наречия частоты описывают регулярность действий"
+        },
+        {
+          "id": "b",
+          "text": "Где происходит действие",
+          "feedback": "Нет, для места используются другие слова (where)"
+        },
+        {
+          "id": "c",
+          "text": "Когда происходит действие",
+          "feedback": "Нет, для времени используются другие слова (when)"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Наречия частоты (always, often, sometimes, never) описывают, как часто происходит действие.",
+      "tags": [
+        "basics",
+        "frequency"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "mcq_single",
+      "prompt": "Что означает наречие 'always'?",
+      "theory_block_id": "b1_theory_frequency_adverbs_basics",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Всегда",
+          "feedback": "Правильно! Always означает 'всегда'"
+        },
+        {
+          "id": "b",
+          "text": "Часто",
+          "feedback": "Нет, 'часто' это 'often'"
+        },
+        {
+          "id": "c",
+          "text": "Иногда",
+          "feedback": "Нет, 'иногда' это 'sometimes'"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Always означает 'всегда' - действие происходит каждый раз без исключений.",
+      "tags": [
+        "basics",
+        "always"
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "mcq_single",
+      "prompt": "Что означает наречие 'never'?",
+      "theory_block_id": "b1_theory_frequency_adverbs_basics",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Никогда",
+          "feedback": "Правильно! Never означает 'никогда'"
+        },
+        {
+          "id": "b",
+          "text": "Редко",
+          "feedback": "Нет, 'редко' это 'rarely' или 'seldom'"
+        },
+        {
+          "id": "c",
+          "text": "Часто",
+          "feedback": "Нет, 'часто' это 'often'"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Never означает 'никогда' - действие не происходит вообще.",
+      "tags": [
+        "basics",
+        "never"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "mcq_single",
+      "prompt": "Выберите правильное предложение с наречием частоты:",
+      "theory_block_id": "b1_theory_frequency_adverbs_basics",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I always drink coffee in the morning.",
+          "feedback": "Правильно! Always описывает регулярность действия"
+        },
+        {
+          "id": "b",
+          "text": "I drink always coffee in the morning.",
+          "feedback": "Нет, неправильная позиция наречия"
+        },
+        {
+          "id": "c",
+          "text": "Always I drink coffee in the morning.",
+          "feedback": "Нет, наречие не ставится в начале"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Наречия частоты используются для описания регулярности действий. Правильная позиция - перед глаголом (с обычными глаголами).",
+      "tags": [
+        "basics",
+        "placement"
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"She ___ goes to the gym.\" (часто)",
+      "theory_block_id": "b1_theory_frequency_adverbs_basics",
+      "difficulty": 2,
+      "correct_answer": "often",
+      "explanation": "Правильный ответ: 'often'. Это наречие частоты означает 'часто'.",
+      "tags": [
+        "basics",
+        "fill_blank",
+        "often"
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"I ___ eat pizza for dinner.\" (иногда)",
+      "theory_block_id": "b1_theory_frequency_adverbs_basics",
+      "difficulty": 2,
+      "correct_answer": "sometimes",
+      "explanation": "Правильный ответ: 'sometimes'. Это наречие частоты означает 'иногда'.",
+      "tags": [
+        "basics",
+        "fill_blank",
+        "sometimes"
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку в предложении:\\n\\n**I go always to work.**",
+      "theory_block_id": "b1_theory_frequency_adverbs_basics",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I always go to work.",
+          "feedback": "Правильно! Наречие частоты должно быть перед глаголом"
+        },
+        {
+          "id": "b",
+          "text": "I go always to work",
+          "feedback": "Нет, это неправильная позиция наречия"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Ошибка: наречие частоты должно быть перед глаголом. Правильно: I always go to work.",
+      "tags": [
+        "basics",
+        "error",
+        "placement"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "mcq_single",
+      "prompt": "Где должно стоять наречие частоты с обычными глаголами?",
+      "theory_block_id": "b2_theory_placement_with_ordinary_verbs",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Перед основным глаголом",
+          "feedback": "Правильно! С обычными глаголами наречие частоты ставится перед глаголом"
+        },
+        {
+          "id": "b",
+          "text": "После основного глагола",
+          "feedback": "Нет, это неправильная позиция"
+        },
+        {
+          "id": "c",
+          "text": "В начале предложения",
+          "feedback": "Нет, наречие частоты не ставится в начале"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "С обычными глаголами наречия частоты ставятся ПЕРЕД основным глаголом.",
+      "tags": [
+        "placement",
+        "ordinary_verbs"
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант:",
+      "theory_block_id": "b2_theory_placement_with_ordinary_verbs",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I always wake up early.",
+          "feedback": "Правильно! Наречие всегда перед глаголом"
+        },
+        {
+          "id": "b",
+          "text": "I wake always up early.",
+          "feedback": "Нет, наречие не ставится между глаголом и частицей"
+        },
+        {
+          "id": "c",
+          "text": "Always I wake up early.",
+          "feedback": "Нет, наречие не ставится в начале предложения"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный порядок: Подлежащее + Наречие частоты + Глагол.",
+      "tags": [
+        "placement",
+        "ordinary_verbs"
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"She ___ reads books.\" (часто)",
+      "theory_block_id": "b2_theory_placement_with_ordinary_verbs",
+      "difficulty": 2,
+      "correct_answer": "often",
+      "explanation": "Правильный ответ: 'often'. С обычными глаголами наречие частоты ставится перед глаголом.",
+      "tags": [
+        "placement",
+        "fill_blank",
+        "ordinary_verbs"
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"We ___ watch movies.\" (иногда)",
+      "theory_block_id": "b2_theory_placement_with_ordinary_verbs",
+      "difficulty": 2,
+      "correct_answer": "sometimes",
+      "explanation": "Правильный ответ: 'sometimes'. С обычными глаголами наречие частоты ставится перед глаголом.",
+      "tags": [
+        "placement",
+        "fill_blank",
+        "ordinary_verbs"
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"He ___ smokes.\" (никогда)",
+      "theory_block_id": "b2_theory_placement_with_ordinary_verbs",
+      "difficulty": 2,
+      "correct_answer": "never",
+      "explanation": "Правильный ответ: 'never'. С обычными глаголами наречие частоты ставится перед глаголом.",
+      "tags": [
+        "placement",
+        "fill_blank",
+        "ordinary_verbs"
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b2_theory_placement_with_ordinary_verbs",
+      "difficulty": 3,
+      "correct_answer": "I always drink coffee.",
+      "explanation": "Правильный порядок: Подлежащее + Наречие частоты + Глагол + Остальное.",
+      "tags": [
+        "placement",
+        "reorder",
+        "ordinary_verbs"
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b2_theory_placement_with_ordinary_verbs",
+      "difficulty": 3,
+      "correct_answer": "She often visits her parents.",
+      "explanation": "Правильный порядок: Подлежащее + Наречие частоты + Глагол + Остальное.",
+      "tags": [
+        "placement",
+        "reorder",
+        "ordinary_verbs"
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку в предложении:\\n\\n**I go often to the gym.**",
+      "theory_block_id": "b2_theory_placement_with_ordinary_verbs",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I often go to the gym.",
+          "feedback": "Правильно! Наречие должно быть перед глаголом"
+        },
+        {
+          "id": "b",
+          "text": "I go often to the gym",
+          "feedback": "Нет, это неправильная позиция"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Ошибка: наречие частоты должно быть перед глаголом, а не после. Правильно: I often go to the gym.",
+      "tags": [
+        "placement",
+        "error",
+        "ordinary_verbs"
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант:",
+      "theory_block_id": "b2_theory_placement_with_ordinary_verbs",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "They sometimes play tennis.",
+          "feedback": "Правильно! Наречие перед глаголом"
+        },
+        {
+          "id": "b",
+          "text": "They play sometimes tennis.",
+          "feedback": "Нет, наречие должно быть перед глаголом"
+        },
+        {
+          "id": "c",
+          "text": "Sometimes they play tennis.",
+          "feedback": "Нет, в начале предложения обычно не ставится"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный порядок: Подлежащее + Наречие частоты + Глагол.",
+      "tags": [
+        "placement",
+        "ordinary_verbs"
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "mcq_single",
+      "prompt": "Где должно стоять наречие частоты с глаголом be (am/is/are)?",
+      "theory_block_id": "b3_theory_placement_with_be",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "После am/is/are",
+          "feedback": "Правильно! С глаголом be наречие ставится после am/is/are"
+        },
+        {
+          "id": "b",
+          "text": "Перед am/is/are",
+          "feedback": "Нет, с be порядок другой"
+        },
+        {
+          "id": "c",
+          "text": "В начале предложения",
+          "feedback": "Нет, наречие не ставится в начале"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "С глаголом be наречия частоты ставятся ПОСЛЕ am/is/are.",
+      "tags": [
+        "placement",
+        "be_verb"
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант:",
+      "theory_block_id": "b3_theory_placement_with_be",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I am always late.",
+          "feedback": "Правильно! С be наречие после am/is/are"
+        },
+        {
+          "id": "b",
+          "text": "I always am late.",
+          "feedback": "Нет, с be порядок другой"
+        },
+        {
+          "id": "c",
+          "text": "Always I am late.",
+          "feedback": "Нет, наречие не в начале"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный порядок с be: Подлежащее + am/is/are + Наречие частоты.",
+      "tags": [
+        "placement",
+        "be_verb"
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант:",
+      "theory_block_id": "b3_theory_placement_with_be",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "She is often tired.",
+          "feedback": "Правильно! С be наречие после is"
+        },
+        {
+          "id": "b",
+          "text": "She often is tired.",
+          "feedback": "Нет, с be наречие после is"
+        },
+        {
+          "id": "c",
+          "text": "She is tired often.",
+          "feedback": "Нет, наречие должно быть после is, перед прилагательным"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный порядок: Подлежащее + is + Наречие частоты + Остальное.",
+      "tags": [
+        "placement",
+        "be_verb"
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"I ___ always on time.\" (глагол be)",
+      "theory_block_id": "b3_theory_placement_with_be",
+      "difficulty": 2,
+      "correct_answer": "am",
+      "explanation": "Правильный ответ: 'am'. Порядок с be: I am always on time.",
+      "tags": [
+        "placement",
+        "fill_blank",
+        "be_verb"
+      ]
+    },
+    {
+      "id": "q21",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"She ___ often busy.\" (глагол be)",
+      "theory_block_id": "b3_theory_placement_with_be",
+      "difficulty": 2,
+      "correct_answer": "is",
+      "explanation": "Правильный ответ: 'is'. Порядок с be: She is often busy.",
+      "tags": [
+        "placement",
+        "fill_blank",
+        "be_verb"
+      ]
+    },
+    {
+      "id": "q22",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"They ___ sometimes late.\" (глагол be)",
+      "theory_block_id": "b3_theory_placement_with_be",
+      "difficulty": 2,
+      "correct_answer": "are",
+      "explanation": "Правильный ответ: 'are'. Порядок с be: They are sometimes late.",
+      "tags": [
+        "placement",
+        "fill_blank",
+        "be_verb"
+      ]
+    },
+    {
+      "id": "q23",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b3_theory_placement_with_be",
+      "difficulty": 3,
+      "correct_answer": "I am always on time.",
+      "explanation": "Правильный порядок с be: Подлежащее + am/is/are + Наречие частоты + Остальное.",
+      "tags": [
+        "placement",
+        "reorder",
+        "be_verb"
+      ]
+    },
+    {
+      "id": "q24",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b3_theory_placement_with_be",
+      "difficulty": 3,
+      "correct_answer": "She is often busy.",
+      "explanation": "Правильный порядок с be: Подлежащее + is + Наречие частоты + Остальное.",
+      "tags": [
+        "placement",
+        "reorder",
+        "be_verb"
+      ]
+    },
+    {
+      "id": "q25",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку в предложении:\\n\\n**I always am late.**",
+      "theory_block_id": "b3_theory_placement_with_be",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I am always late.",
+          "feedback": "Правильно! С be наречие после am/is/are"
+        },
+        {
+          "id": "b",
+          "text": "I always am late",
+          "feedback": "Нет, неправильная позиция наречия"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Ошибка: с глаголом be наречие частоты ставится ПОСЛЕ am/is/are. Правильно: I am always late.",
+      "tags": [
+        "placement",
+        "error",
+        "be_verb"
+      ]
+    },
+    {
+      "id": "q26",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку в предложении:\\n\\n**She often is tired.**",
+      "theory_block_id": "b3_theory_placement_with_be",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "She is often tired.",
+          "feedback": "Правильно! С be наречие после is"
+        },
+        {
+          "id": "b",
+          "text": "She often is tired",
+          "feedback": "Нет, неправильная позиция наречия"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Ошибка: с глаголом be наречие частоты ставится ПОСЛЕ is. Правильно: She is often tired.",
+      "tags": [
+        "placement",
+        "error",
+        "be_verb"
+      ]
+    },
+    {
+      "id": "q27",
+      "type": "mcq_single",
+      "prompt": "Где ставится наречие частоты в отрицаниях с don't/doesn't?",
+      "theory_block_id": "b4_theory_adverbs_in_negatives_questions",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Между don't/doesn't и глаголом",
+          "feedback": "Правильно! Наречие между don't/doesn't и глаголом"
+        },
+        {
+          "id": "b",
+          "text": "Перед don't/doesn't",
+          "feedback": "Нет, наречие после don't/doesn't"
+        },
+        {
+          "id": "c",
+          "text": "После глагола",
+          "feedback": "Нет, наречие перед глаголом"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "В отрицаниях наречие частоты ставится между don't/doesn't и основным глаголом.",
+      "tags": [
+        "negatives",
+        "placement"
+      ]
+    },
+    {
+      "id": "q28",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант отрицания:",
+      "theory_block_id": "b4_theory_adverbs_in_negatives_questions",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I don't always agree.",
+          "feedback": "Правильно! Наречие между don't и глаголом"
+        },
+        {
+          "id": "b",
+          "text": "I don't agree always.",
+          "feedback": "Нет, наречие должно быть перед глаголом"
+        },
+        {
+          "id": "c",
+          "text": "I always don't agree.",
+          "feedback": "Нет, наречие после don't"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный порядок в отрицаниях: Подлежащее + don't/doesn't + Наречие частоты + Глагол.",
+      "tags": [
+        "negatives",
+        "placement"
+      ]
+    },
+    {
+      "id": "q29",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"She doesn't ___ go there.\" (часто)",
+      "theory_block_id": "b4_theory_adverbs_in_negatives_questions",
+      "difficulty": 2,
+      "correct_answer": "often",
+      "explanation": "Правильный ответ: 'often'. В отрицаниях наречие между doesn't и глаголом.",
+      "tags": [
+        "negatives",
+        "fill_blank"
+      ]
+    },
+    {
+      "id": "q30",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"Do you ___ eat breakfast?\" (всегда)",
+      "theory_block_id": "b4_theory_adverbs_in_negatives_questions",
+      "difficulty": 2,
+      "correct_answer": "always",
+      "explanation": "Правильный ответ: 'always'. В вопросах наречие между подлежащим и глаголом.",
+      "tags": [
+        "questions",
+        "fill_blank"
+      ]
+    },
+    {
+      "id": "q31",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку в предложении:\\n\\n**I don't go often there.**",
+      "theory_block_id": "b4_theory_adverbs_in_negatives_questions",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I don't often go there.",
+          "feedback": "Правильно! Наречие между don't и глаголом"
+        },
+        {
+          "id": "b",
+          "text": "I don't go often there",
+          "feedback": "Нет, неправильная позиция наречия"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Ошибка: в отрицаниях наречие должно быть между don't/doesn't и глаголом. Правильно: I don't often go there.",
+      "tags": [
+        "negatives",
+        "error"
+      ]
+    },
+    {
+      "id": "q32",
+      "type": "mcq_single",
+      "prompt": "Какая типичная ошибка в предложении \"I go often to the gym\"?",
+      "theory_block_id": "b5_theory_common_mistakes_placement",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I often go to the gym.",
+          "feedback": "Правильно! Наречие должно быть перед глаголом"
+        },
+        {
+          "id": "b",
+          "text": "I go often to the gym.",
+          "feedback": "Нет, это типичная ошибка"
+        },
+        {
+          "id": "c",
+          "text": "Often I go to the gym.",
+          "feedback": "Нет, наречие не в начале"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Типичная ошибка: наречие частоты после глагола. Правильно: наречие перед глаголом.",
+      "tags": [
+        "common_mistakes",
+        "placement"
+      ]
+    },
+    {
+      "id": "q33",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку в предложении:\\n\\n**I always am late.**",
+      "theory_block_id": "b5_theory_common_mistakes_placement",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I am always late.",
+          "feedback": "Правильно! С be наречие после am/is/are"
+        },
+        {
+          "id": "b",
+          "text": "I always am late",
+          "feedback": "Нет, неправильная позиция с be"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Ошибка: путаница между правилом для be и обычных глаголов. С be наречие после am/is/are.",
+      "tags": [
+        "common_mistakes",
+        "error",
+        "be_verb"
+      ]
+    },
+    {
+      "id": "q34",
+      "type": "mcq_single",
+      "prompt": "Какое наречие частоты означает 'иногда'?",
+      "theory_block_id": "b1_theory_frequency_adverbs_basics",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "sometimes",
+          "feedback": "Правильно! Sometimes означает 'иногда'"
+        },
+        {
+          "id": "b",
+          "text": "often",
+          "feedback": "Нет, 'often' означает 'часто'"
+        },
+        {
+          "id": "c",
+          "text": "always",
+          "feedback": "Нет, 'always' означает 'всегда'"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Sometimes означает 'иногда' - действие происходит время от времени.",
+      "tags": [
+        "basics",
+        "sometimes"
+      ]
+    },
+    {
+      "id": "q35",
+      "type": "mcq_single",
+      "prompt": "Выберите наречие частоты для описания действия, которое происходит регулярно:",
+      "theory_block_id": "b1_theory_frequency_adverbs_basics",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "often",
+          "feedback": "Правильно! Often описывает регулярные действия"
+        },
+        {
+          "id": "b",
+          "text": "never",
+          "feedback": "Нет, 'never' означает 'никогда'"
+        },
+        {
+          "id": "c",
+          "text": "sometimes",
+          "feedback": "Иногда, но 'often' лучше для регулярности"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Often означает 'часто' и используется для описания регулярных действий.",
+      "tags": [
+        "basics",
+        "often"
+      ]
+    }
+  ]
+}
