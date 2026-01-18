@@ -1,0 +1,30 @@
+{
+  "theory_block": {
+    "id": "b5_theory_common_mistakes",
+    "concept_id": "past_simple_vs_continuous_mistakes",
+    "content_md": "Типичные ошибки при смешении времен:\n\n- оба действия в Past Simple без фона (*I walked when he called*)\n- оба действия в Past Continuous (*I was walking when he was calling*)\n- неверное использование while/when\n\nПроверяйте, какое действие было фоном, а какое событием.",
+    "common_mistakes": [
+      {
+        "wrong": "I was walking when he was called.",
+        "right": "I was walking when he called.",
+        "why": "Событие должно быть в Past Simple."
+      }
+    ],
+    "examples": [
+      {
+        "id": "ex1",
+        "text": "I was walking when he called.",
+        "translation": "Я шел, когда он позвонил.",
+        "notes": "правильная связка",
+        "tags": ["affirmative"]
+      },
+      {
+        "id": "ex2",
+        "text": "While I was cooking, the doorbell rang.",
+        "translation": "Пока я готовил, раздался звонок в дверь.",
+        "notes": "while + Past Simple",
+        "tags": ["affirmative"]
+      }
+    ]
+  }
+}
