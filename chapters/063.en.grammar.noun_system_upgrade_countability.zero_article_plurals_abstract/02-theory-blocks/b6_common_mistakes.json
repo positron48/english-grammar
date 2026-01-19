@@ -1,0 +1,34 @@
+{
+  "theory_block": {
+    "id": "b6_common_mistakes",
+    "concept_id": "zero_article_common_mistakes",
+    "content_md": "Типичные ошибки: добавлять **the** в общих утверждениях (*The dogs are loyal* без контекста) или ставить **the** перед абстрактными существительными в общем значении (*The life is short*).\n\nВсегда проверяйте: это общий класс или конкретный объект.",
+    "examples": [
+      {
+        "id": "ex1",
+        "text": "Life is short.",
+        "translation": "Жизнь коротка (в целом).",
+        "tags": ["affirmative", "general"]
+      },
+      {
+        "id": "ex2",
+        "text": "The life of this city is fast.",
+        "translation": "Жизнь этого города динамична (конкретная).",
+        "tags": ["affirmative", "specific"]
+      },
+      {
+        "id": "ex3",
+        "text": "Books aren't always cheap.",
+        "translation": "Книги не всегда дешевые.",
+        "tags": ["negative", "general"]
+      }
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "The life is short.",
+        "right": "Life is short.",
+        "why": "Общее утверждение про абстрактное существительное требует нулевого артикля."
+      }
+    ]
+  }
+}

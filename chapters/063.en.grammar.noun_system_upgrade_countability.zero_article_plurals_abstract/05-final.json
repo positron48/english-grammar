@@ -1,0 +1,1295 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.noun_system_upgrade_countability.zero_article_plurals_abstract",
+  "section_id": "en.grammar.noun_system_upgrade_countability",
+  "title": "Zero article: plurals/abstract nouns in general statements",
+  "title_short": "Zero article: plurals/abstract nouns in general statements",
+  "description": "Когда в общих утверждениях артикль не нужен: множественное число и абстрактные существительные.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "B1",
+  "order": 0,
+  "prerequisites": [
+    "en.grammar.noun_system_upgrade_countability.shared_knowledge_specific_reference"
+  ],
+  "concept_refs": [
+    "zero_article_plural_general",
+    "zero_article_abstract_general",
+    "general_vs_specific_article",
+    "zero_article_institutions",
+    "zero_article_subjects_languages",
+    "zero_article_common_mistakes"
+  ],
+  "learning_objectives": [
+    "Использовать нулевой артикль с множественными существительными в общих утверждениях",
+    "Использовать нулевой артикль с абстрактными существительными в общем значении",
+    "Отличать general statements от конкретных случаев (the)",
+    "Избегать типичных ошибок с артиклями"
+  ],
+  "estimated_minutes": 24,
+  "blocks": [
+    {
+      "id": "b1_plural_general",
+      "type": "theory",
+      "title": "В общих утверждениях с множественным числом артикль не нужен: Dogs are loyal. Это говорит о классе в целом.",
+      "theory": {
+        "concept_id": "zero_article_plural_general",
+        "content_md": "В общих утверждениях с множественным числом артикль не нужен: **Dogs are loyal.** Это говорит о классе в целом.\n\nЕсли речь о конкретных собаках, нужен **the**: *The dogs in our yard are noisy.*",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Cars are expensive.",
+            "translation": "Машины дорогие (в целом).",
+            "tags": [
+              "affirmative",
+              "general"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Are dogs loyal?",
+            "translation": "Собаки преданные?",
+            "tags": [
+              "question",
+              "general"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "The cars outside are new.",
+            "translation": "Машины снаружи новые (конкретные).",
+            "tags": [
+              "affirmative",
+              "specific"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_plural",
+      "type": "quiz_inline",
+      "title": "Quick check: plurals general",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_abstract_general",
+      "type": "theory",
+      "title": "С абстрактными существительными в общем значении артикль не нужен: Love is important. Education changes lives.",
+      "theory": {
+        "concept_id": "zero_article_abstract_general",
+        "content_md": "С абстрактными существительными в общем значении артикль не нужен: **Love is important. Education changes lives.**\n\nЕсли речь о конкретном проявлении, возможен the: *The love he showed was unexpected.*",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Honesty matters.",
+            "translation": "Честность важна.",
+            "tags": [
+              "affirmative",
+              "abstract"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "The honesty in his answer surprised me.",
+            "translation": "Честность в его ответе меня удивила.",
+            "tags": [
+              "affirmative",
+              "specific"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Love isn't easy.",
+            "translation": "Любовь — это нелегко.",
+            "tags": [
+              "negative",
+              "abstract"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_abstract",
+      "type": "quiz_inline",
+      "title": "Quick check: abstract nouns",
+      "quiz_inline": {
+        "question_ids": [
+          "q11",
+          "q12",
+          "q13",
+          "q14",
+          "q15"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_general_vs_specific",
+      "type": "theory",
+      "title": "Сравнение: general = нулевой артикль, specific = the.",
+      "theory": {
+        "concept_id": "general_vs_specific_article",
+        "content_md": "Сравнение: **general** = нулевой артикль, **specific** = the.\n\n*Students need practice* (в целом) vs *The students in this group need practice* (конкретные).",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Teachers work hard.",
+            "translation": "Учителя работают усердно (в целом).",
+            "tags": [
+              "affirmative",
+              "general"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "The teachers in this school work hard.",
+            "translation": "Учителя в этой школе работают усердно (конкретные).",
+            "tags": [
+              "affirmative",
+              "specific"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_general_specific",
+      "type": "quiz_inline",
+      "title": "Quick check: general vs specific",
+      "quiz_inline": {
+        "question_ids": [
+          "q21",
+          "q22",
+          "q23",
+          "q24",
+          "q25"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_institutions_general",
+      "type": "theory",
+      "title": "Слова school, hospital, prison, church без артикля часто означают цель/функцию: *go to school*, *be in hospital*.",
+      "theory": {
+        "concept_id": "zero_article_institutions",
+        "content_md": "Слова **school, hospital, prison, church** без артикля часто означают цель/функцию: *go to school*, *be in hospital*.\n\nЕсли речь о конкретном здании, нужен the: *The school on Main Street is old.*",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "She goes to school every day.",
+            "translation": "Она ходит в школу каждый день.",
+            "tags": [
+              "affirmative",
+              "general"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "The school near my house is new.",
+            "translation": "Школа рядом с моим домом новая.",
+            "tags": [
+              "affirmative",
+              "specific"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8_quiz_after_institutions",
+      "type": "quiz_inline",
+      "title": "Quick check: institutions",
+      "quiz_inline": {
+        "question_ids": [
+          "q31",
+          "q32",
+          "q33",
+          "q34",
+          "q35"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_subjects_languages",
+      "type": "theory",
+      "title": "Названия предметов и языков обычно без артикля: Math is hard. I speak English.",
+      "theory": {
+        "concept_id": "zero_article_subjects_languages",
+        "content_md": "Названия предметов и языков обычно без артикля: **Math is hard. I speak English.**\n\nАртикль появляется только при уточнении: *the English you spoke yesterday*.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "History is fascinating.",
+            "translation": "История увлекательна.",
+            "tags": [
+              "affirmative",
+              "general"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "She speaks Spanish.",
+            "translation": "Она говорит по-испански.",
+            "tags": [
+              "affirmative",
+              "general"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Do you speak English?",
+            "translation": "Ты говоришь по-английски?",
+            "tags": [
+              "question",
+              "general"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b10_quiz_after_subjects",
+      "type": "quiz_inline",
+      "title": "Quick check: subjects and languages",
+      "quiz_inline": {
+        "question_ids": [
+          "q41",
+          "q42",
+          "q43",
+          "q44",
+          "q45"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_common_mistakes",
+      "type": "theory",
+      "title": "Типичные ошибки: добавлять the в общих утверждениях (*The dogs are loyal* без контекста) или ставить the перед абстрактными существительными в общем значении (*The life is short*).",
+      "theory": {
+        "concept_id": "zero_article_common_mistakes",
+        "content_md": "Типичные ошибки: добавлять **the** в общих утверждениях (*The dogs are loyal* без контекста) или ставить **the** перед абстрактными существительными в общем значении (*The life is short*).\n\nВсегда проверяйте: это общий класс или конкретный объект.",
+        "key_points": [],
+        "common_mistakes": [
+          {
+            "wrong": "The life is short.",
+            "right": "Life is short.",
+            "why": "Общее утверждение про абстрактное существительное требует нулевого артикля."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Life is short.",
+            "translation": "Жизнь коротка (в целом).",
+            "tags": [
+              "affirmative",
+              "general"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "The life of this city is fast.",
+            "translation": "Жизнь этого города динамична (конкретная).",
+            "tags": [
+              "affirmative",
+              "specific"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Books aren't always cheap.",
+            "translation": "Книги не всегда дешевые.",
+            "tags": [
+              "negative",
+              "general"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ dogs are loyal.",
+        "theory_block_id": "b1_plural_general",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The"
+          },
+          {
+            "id": "b",
+            "text": "A"
+          },
+          {
+            "id": "c",
+            "text": "(no article)"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Общее утверждение с множественным числом требует нулевого артикля. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q2",
+        "type": "fill_blank",
+        "prompt": "___ cars are expensive. (без артикля)",
+        "theory_block_id": "b1_plural_general",
+        "difficulty": 1,
+        "correct_answer": "zero",
+        "explanation": "General statement о множественном числе: без артикля. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q3",
+        "type": "true_false",
+        "prompt": "The dogs are loyal — правильно как общее утверждение без контекста.",
+        "theory_block_id": "b1_plural_general",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "The требует конкретики. Для общего утверждения нужен нулевой артикль. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q4",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ books are useful.",
+        "theory_block_id": "b1_plural_general",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The"
+          },
+          {
+            "id": "b",
+            "text": "A"
+          },
+          {
+            "id": "c",
+            "text": "(no article)"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Общее утверждение о книгах — нулевой артикль. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q5",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'The students need practice.' (без контекста)",
+        "theory_block_id": "b1_plural_general",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Students need practice."
+          },
+          {
+            "id": "b",
+            "text": "The students need practice."
+          },
+          {
+            "id": "c",
+            "text": "These students need practice."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Без контекста — нулевой артикль. The требует конкретных студентов. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q6",
+        "type": "fill_blank",
+        "prompt": "___ teachers work hard. (без артикля)",
+        "theory_block_id": "b1_plural_general",
+        "difficulty": 1,
+        "correct_answer": "zero",
+        "explanation": "Plural general statement → no article. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q7",
+        "type": "true_false",
+        "prompt": "Нулевой артикль часто используется с множественным числом в общих утверждениях.",
+        "theory_block_id": "b1_plural_general",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это базовое правило для plural general statements. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q8",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ cars outside are new.",
+        "theory_block_id": "b1_plural_general",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The"
+          },
+          {
+            "id": "b",
+            "text": "(no article)"
+          },
+          {
+            "id": "c",
+            "text": "A"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Конкретные машины снаружи → the. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q9",
+        "type": "fill_blank",
+        "prompt": "___ animals need water. (без артикля)",
+        "theory_block_id": "b1_plural_general",
+        "difficulty": 1,
+        "correct_answer": "zero",
+        "explanation": "General statement с plural → no article. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q10",
+        "type": "true_false",
+        "prompt": "The можно использовать для общего класса без контекста.",
+        "theory_block_id": "b1_plural_general",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "The требует конкретики. Общий класс — zero article. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ love is powerful.",
+        "theory_block_id": "b2_abstract_general",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The"
+          },
+          {
+            "id": "b",
+            "text": "A"
+          },
+          {
+            "id": "c",
+            "text": "(no article)"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Абстрактное в общем смысле → нулевой артикль. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q12",
+        "type": "fill_blank",
+        "prompt": "___ education is important. (без артикля)",
+        "theory_block_id": "b2_abstract_general",
+        "difficulty": 1,
+        "correct_answer": "zero",
+        "explanation": "Education как абстрактное в общем значении без артикля. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q13",
+        "type": "true_false",
+        "prompt": "Абстрактные существительные в общем значении обычно без артикля.",
+        "theory_block_id": "b2_abstract_general",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это норма для general statements. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q14",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'The love is important.' (в общем смысле)",
+        "theory_block_id": "b2_abstract_general",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Love is important."
+          },
+          {
+            "id": "b",
+            "text": "The love is important."
+          },
+          {
+            "id": "c",
+            "text": "His love is important."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В общем значении без the. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q15",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ honesty matters.",
+        "theory_block_id": "b2_abstract_general",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The"
+          },
+          {
+            "id": "b",
+            "text": "A"
+          },
+          {
+            "id": "c",
+            "text": "(no article)"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Абстрактное понятие в общем смысле → zero article. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q16",
+        "type": "fill_blank",
+        "prompt": "___ information helps us decide. (без артикля)",
+        "theory_block_id": "b2_abstract_general",
+        "difficulty": 2,
+        "correct_answer": "zero",
+        "explanation": "Information как абстрактное — без артикля в общем значении. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q17",
+        "type": "true_false",
+        "prompt": "The honesty in his answer — конкретное значение.",
+        "theory_block_id": "b2_abstract_general",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Уточнение делает абстрактное конкретным. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q18",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ happiness is important.",
+        "theory_block_id": "b2_abstract_general",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "(no article)"
+          },
+          {
+            "id": "b",
+            "text": "The"
+          },
+          {
+            "id": "c",
+            "text": "A"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Абстрактное в общем смысле — нулевой артикль. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q19",
+        "type": "fill_blank",
+        "prompt": "___ love he showed was unexpected. (конкретный случай)",
+        "theory_block_id": "b2_abstract_general",
+        "difficulty": 2,
+        "correct_answer": "the",
+        "explanation": "Конкретное проявление love требует the. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q20",
+        "type": "true_false",
+        "prompt": "The life is short — корректно как общее утверждение.",
+        "theory_block_id": "b2_abstract_general",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "В общем смысле life → без the. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ students need practice. (в общем)",
+        "theory_block_id": "b3_general_vs_specific",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The"
+          },
+          {
+            "id": "b",
+            "text": "(no article)"
+          },
+          {
+            "id": "c",
+            "text": "A"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "General statement → no article. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q22",
+        "type": "fill_blank",
+        "prompt": "___ students in this class need practice. (конкретные)",
+        "theory_block_id": "b3_general_vs_specific",
+        "difficulty": 2,
+        "correct_answer": "the",
+        "explanation": "Уточнение делает студентов конкретными → the. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q23",
+        "type": "true_false",
+        "prompt": "General statements обычно используют нулевой артикль.",
+        "theory_block_id": "b3_general_vs_specific",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это базовое правило для general vs specific. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q24",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'The teachers work hard.' (без контекста)",
+        "theory_block_id": "b3_general_vs_specific",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Teachers work hard."
+          },
+          {
+            "id": "b",
+            "text": "The teachers work hard."
+          },
+          {
+            "id": "c",
+            "text": "The teachers in this school work hard."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Без контекста нужен zero article. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ teachers in this school work hard.",
+        "theory_block_id": "b3_general_vs_specific",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The"
+          },
+          {
+            "id": "b",
+            "text": "(no article)"
+          },
+          {
+            "id": "c",
+            "text": "A"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Уточнение in this school делает группу конкретной. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "___ animals in the zoo are sleeping. (конкретные)",
+        "theory_block_id": "b3_general_vs_specific",
+        "difficulty": 2,
+        "correct_answer": "the",
+        "explanation": "In the zoo задает конкретность. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q27",
+        "type": "true_false",
+        "prompt": "The students in our class — конкретная группа.",
+        "theory_block_id": "b3_general_vs_specific",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Есть уточнение, значит конкретика. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q28",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ birds can fly. (в общем)",
+        "theory_block_id": "b3_general_vs_specific",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The"
+          },
+          {
+            "id": "b",
+            "text": "(no article)"
+          },
+          {
+            "id": "c",
+            "text": "A"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "General statement → no article. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q29",
+        "type": "fill_blank",
+        "prompt": "___ birds in the garden are singing. (конкретные)",
+        "theory_block_id": "b3_general_vs_specific",
+        "difficulty": 2,
+        "correct_answer": "the",
+        "explanation": "In the garden делает птиц конкретными. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q30",
+        "type": "true_false",
+        "prompt": "Specific reference обычно требует the.",
+        "theory_block_id": "b3_general_vs_specific",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Конкретика = the. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q31",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: She goes to ___ school.",
+        "theory_block_id": "b4_institutions_general",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "(no article)"
+          },
+          {
+            "id": "b",
+            "text": "the"
+          },
+          {
+            "id": "c",
+            "text": "a"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Go to school = цель/функция. Нулевой артикль. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q32",
+        "type": "fill_blank",
+        "prompt": "The child is in ___ hospital. (без артикля)",
+        "theory_block_id": "b4_institutions_general",
+        "difficulty": 2,
+        "correct_answer": "zero",
+        "explanation": "In hospital в общем значении функции. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q33",
+        "type": "true_false",
+        "prompt": "The school near my house — конкретное здание.",
+        "theory_block_id": "b4_institutions_general",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Уточнение near my house делает объект конкретным. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q34",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'He goes to the school' (в общем смысле).",
+        "theory_block_id": "b4_institutions_general",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He goes to school."
+          },
+          {
+            "id": "b",
+            "text": "He goes to the school."
+          },
+          {
+            "id": "c",
+            "text": "He goes to the school near his house."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В общем значении school без the. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q35",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: She is in ___ prison. (как заключенная)",
+        "theory_block_id": "b4_institutions_general",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "(no article)"
+          },
+          {
+            "id": "b",
+            "text": "the"
+          },
+          {
+            "id": "c",
+            "text": "a"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "In prison в общем смысле функции → zero article. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q36",
+        "type": "fill_blank",
+        "prompt": "The school on Main Street is old. (конкретное здание)",
+        "theory_block_id": "b4_institutions_general",
+        "difficulty": 2,
+        "correct_answer": "the",
+        "explanation": "Уточнение делает объект конкретным, нужен the. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q37",
+        "type": "true_false",
+        "prompt": "Go to hospital всегда требует the.",
+        "theory_block_id": "b4_institutions_general",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "В значении функции часто без the. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q38",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: We visited ___ hospital to see a friend. (здание)",
+        "theory_block_id": "b4_institutions_general",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "the"
+          },
+          {
+            "id": "b",
+            "text": "(no article)"
+          },
+          {
+            "id": "c",
+            "text": "a"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Когда речь о здании, используем the. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q39",
+        "type": "fill_blank",
+        "prompt": "He is at ___ school. (без артикля)",
+        "theory_block_id": "b4_institutions_general",
+        "difficulty": 1,
+        "correct_answer": "zero",
+        "explanation": "At school — функция, без артикля. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q40",
+        "type": "true_false",
+        "prompt": "The hospital can be used when referring to a specific building.",
+        "theory_block_id": "b4_institutions_general",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Если речь о здании, the уместен. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ English is useful.",
+        "theory_block_id": "b5_subjects_languages",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "(no article)"
+          },
+          {
+            "id": "b",
+            "text": "the"
+          },
+          {
+            "id": "c",
+            "text": "a"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Языки обычно без артикля. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q42",
+        "type": "fill_blank",
+        "prompt": "___ history is fascinating. (без артикля)",
+        "theory_block_id": "b5_subjects_languages",
+        "difficulty": 1,
+        "correct_answer": "zero",
+        "explanation": "Предметы учебы без артикля. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q43",
+        "type": "true_false",
+        "prompt": "Названия языков обычно без артикля.",
+        "theory_block_id": "b5_subjects_languages",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "English, Spanish и т.д. без артикля. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q44",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'The English is difficult.' (в общем)",
+        "theory_block_id": "b5_subjects_languages",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "English is difficult."
+          },
+          {
+            "id": "b",
+            "text": "The English is difficult."
+          },
+          {
+            "id": "c",
+            "text": "The English you wrote is good."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Язык в общем значении без the. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ math is hard.",
+        "theory_block_id": "b5_subjects_languages",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "(no article)"
+          },
+          {
+            "id": "b",
+            "text": "the"
+          },
+          {
+            "id": "c",
+            "text": "a"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Предметы без артикля. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q46",
+        "type": "fill_blank",
+        "prompt": "She speaks ___ Spanish. (без артикля)",
+        "theory_block_id": "b5_subjects_languages",
+        "difficulty": 1,
+        "correct_answer": "zero",
+        "explanation": "Языки обычно без артикля. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q47",
+        "type": "true_false",
+        "prompt": "The English you spoke yesterday — пример конкретного использования.",
+        "theory_block_id": "b5_subjects_languages",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Уточнение делает язык конкретным, нужен the. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q48",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ physics is challenging.",
+        "theory_block_id": "b5_subjects_languages",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "(no article)"
+          },
+          {
+            "id": "b",
+            "text": "the"
+          },
+          {
+            "id": "c",
+            "text": "a"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Названия предметов без артикля. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q49",
+        "type": "fill_blank",
+        "prompt": "They study ___ economics. (без артикля)",
+        "theory_block_id": "b5_subjects_languages",
+        "difficulty": 2,
+        "correct_answer": "zero",
+        "explanation": "Academic subjects обычно без артикля. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q50",
+        "type": "true_false",
+        "prompt": "The Spanish I learned in Mexico — конкретное использование.",
+        "theory_block_id": "b5_subjects_languages",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Уточнение делает язык конкретным. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q51",
+        "type": "mcq_single",
+        "prompt": "Какой вариант корректен для общего утверждения?",
+        "theory_block_id": "b6_common_mistakes",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Life is short."
+          },
+          {
+            "id": "b",
+            "text": "The life is short."
+          },
+          {
+            "id": "c",
+            "text": "A life is short."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Общее утверждение об абстрактном существительном без артикля. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q52",
+        "type": "fill_blank",
+        "prompt": "___ dogs are loyal. (без артикля)",
+        "theory_block_id": "b6_common_mistakes",
+        "difficulty": 1,
+        "correct_answer": "zero",
+        "explanation": "Общее утверждение → zero article. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q53",
+        "type": "true_false",
+        "prompt": "The life is short — допустимо как общее утверждение.",
+        "theory_block_id": "b6_common_mistakes",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Для общего значения life нужен zero article. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q54",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'The dogs are loyal.' (без контекста)",
+        "theory_block_id": "b6_common_mistakes",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Dogs are loyal."
+          },
+          {
+            "id": "b",
+            "text": "The dogs are loyal."
+          },
+          {
+            "id": "c",
+            "text": "Those dogs are loyal."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Без контекста — zero article. The требует конкретики. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q55",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ happiness is important.",
+        "theory_block_id": "b6_common_mistakes",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "(no article)"
+          },
+          {
+            "id": "b",
+            "text": "the"
+          },
+          {
+            "id": "c",
+            "text": "a"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Абстрактное в общем значении — без артикля. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q56",
+        "type": "fill_blank",
+        "prompt": "___ dogs in our yard are noisy. (конкретные)",
+        "theory_block_id": "b6_common_mistakes",
+        "difficulty": 2,
+        "correct_answer": "the",
+        "explanation": "In our yard делает группу конкретной. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q57",
+        "type": "true_false",
+        "prompt": "Zero article часто используется с абстрактными существительными в общем смысле.",
+        "theory_block_id": "b6_common_mistakes",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это базовое правило для abstract nouns. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q58",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ teachers in my school are strict.",
+        "theory_block_id": "b6_common_mistakes",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The"
+          },
+          {
+            "id": "b",
+            "text": "(no article)"
+          },
+          {
+            "id": "c",
+            "text": "A"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Уточнение in my school делает конкретную группу. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q59",
+        "type": "fill_blank",
+        "prompt": "___ books are useful. (без артикля)",
+        "theory_block_id": "b6_common_mistakes",
+        "difficulty": 1,
+        "correct_answer": "zero",
+        "explanation": "General statement → zero article. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q60",
+        "type": "true_false",
+        "prompt": "The используется в общем утверждении про множественное число без контекста.",
+        "theory_block_id": "b6_common_mistakes",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Без контекста нужен нулевой артикль. Это соответствует правилу, разобранному в этом блоке."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-19T12:58:05Z",
+    "source": "llm"
+  }
+}
