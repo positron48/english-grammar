@@ -3,13 +3,22 @@
     {
       "id": "q1",
       "type": "mcq_single",
-      "prompt": "Choose the correct option: I need ___ bag for these apples.",
+      "prompt": "Выберите правильный вариант: I need ___ bag for these apples.",
       "theory_block_id": "b1_context_articles",
       "difficulty": 1,
       "choices": [
-        {"id": "a", "text": "a"},
-        {"id": "b", "text": "the"},
-        {"id": "c", "text": "(no article)"}
+        {
+          "id": "a",
+          "text": "a"
+        },
+        {
+          "id": "b",
+          "text": "the"
+        },
+        {
+          "id": "c",
+          "text": "(без артикля)"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Это первое упоминание, поэтому нужен a bag. The используется для конкретного, а zero article — для категории в целом."
@@ -17,7 +26,7 @@
     {
       "id": "q2",
       "type": "fill_blank",
-      "prompt": "Where is ___ bag you gave me? (article)",
+      "prompt": "Where is ___ bag you gave me? (артикль)",
       "theory_block_id": "b1_context_articles",
       "difficulty": 2,
       "correct_answer": "the",
@@ -39,9 +48,18 @@
       "theory_block_id": "b1_context_articles",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "Can you put apples into the bag? I need the bag."},
-        {"id": "b", "text": "Can you put apples into a bag? I need a bag."},
-        {"id": "c", "text": "Can you put apples into the bag? I need a bag."}
+        {
+          "id": "a",
+          "text": "Can you put apples into the bag? I need the bag."
+        },
+        {
+          "id": "b",
+          "text": "Can you put apples into a bag? I need a bag."
+        },
+        {
+          "id": "c",
+          "text": "Can you put apples into the bag? I need a bag."
+        }
       ],
       "correct_answer": "b",
       "explanation": "Во второй реплике пакет еще не известен, значит a bag. В первой — тоже речь о любом пакете."
@@ -58,13 +76,22 @@
     {
       "id": "q6",
       "type": "mcq_single",
-      "prompt": "Choose the correct option: ___ milk is expensive these days.",
+      "prompt": "Выберите правильный вариант: ___ milk is expensive these days.",
       "theory_block_id": "b1_context_articles",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "The"},
-        {"id": "b", "text": "A"},
-        {"id": "c", "text": "(no article)"}
+        {
+          "id": "a",
+          "text": "The"
+        },
+        {
+          "id": "b",
+          "text": "A"
+        },
+        {
+          "id": "c",
+          "text": "(без артикля)"
+        }
       ],
       "correct_answer": "c",
       "explanation": "В общем значении категории используем zero article: milk is expensive."
@@ -72,7 +99,7 @@
     {
       "id": "q7",
       "type": "fill_blank",
-      "prompt": "I put the tomatoes in ___ fridge. (possessive/article)",
+      "prompt": "I put the tomatoes in ___ fridge. (притяжательное/артикль)",
       "theory_block_id": "b1_context_articles",
       "difficulty": 2,
       "correct_answer": "the",
@@ -90,13 +117,22 @@
     {
       "id": "q9",
       "type": "mcq_single",
-      "prompt": "Choose the correct option: The cashier asked me to put the bread in ___ basket.",
+      "prompt": "Выберите правильный вариант: The cashier asked me to put the bread in ___ basket.",
       "theory_block_id": "b1_context_articles",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "a"},
-        {"id": "b", "text": "the"},
-        {"id": "c", "text": "(no article)"}
+        {
+          "id": "a",
+          "text": "a"
+        },
+        {
+          "id": "b",
+          "text": "the"
+        },
+        {
+          "id": "c",
+          "text": "(без артикля)"
+        }
       ],
       "correct_answer": "b",
       "explanation": "Ситуация предполагает конкретную корзину у кассы, поэтому the basket."
@@ -108,9 +144,18 @@
       "theory_block_id": "b1_context_articles",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "I like apples in general."},
-        {"id": "b", "text": "I like the apples in general."},
-        {"id": "c", "text": "I like these apples."}
+        {
+          "id": "a",
+          "text": "I like apples in general."
+        },
+        {
+          "id": "b",
+          "text": "I like the apples in general."
+        },
+        {
+          "id": "c",
+          "text": "I like these apples."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Для общего значения нужен zero article: apples. The apples — конкретные яблоки."
@@ -127,27 +172,41 @@
     {
       "id": "q12",
       "type": "mcq_single",
-      "prompt": "Choose the correct option: We bought ___ bread and ___ cheese for dinner.",
+      "prompt": "Выберите правильный вариант: We bought ___ bread and ___ cheese for dinner.",
       "theory_block_id": "b1_context_articles",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "the / the"},
-        {"id": "b", "text": "a / a"},
-        {"id": "c", "text": "(no article) / (no article)"}
+        {
+          "id": "a",
+          "text": "the / the"
+        },
+        {
+          "id": "b",
+          "text": "a / a"
+        },
+        {
+          "id": "c",
+          "text": "(без артикля) / (без артикля)"
+        }
       ],
       "correct_answer": "c",
       "explanation": "В общем значении для неисчисляемых bread и cheese используем zero article."
     },
-
     {
       "id": "q13",
       "type": "mcq_single",
-      "prompt": "Choose the correct option: Could I have ___ water, please?",
+      "prompt": "Выберите правильный вариант: Could I have ___ water, please?",
       "theory_block_id": "b2_some_any",
       "difficulty": 1,
       "choices": [
-        {"id": "a", "text": "some"},
-        {"id": "b", "text": "any"}
+        {
+          "id": "a",
+          "text": "some"
+        },
+        {
+          "id": "b",
+          "text": "any"
+        }
       ],
       "correct_answer": "a",
       "explanation": "В вежливых просьбах обычно используется some: Could I have some water?"
@@ -177,9 +236,18 @@
       "theory_block_id": "b2_some_any",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "Do you have any eggs?"},
-        {"id": "b", "text": "Do you have some eggs?"},
-        {"id": "c", "text": "Do you have eggs?"}
+        {
+          "id": "a",
+          "text": "Do you have any eggs?"
+        },
+        {
+          "id": "b",
+          "text": "Do you have some eggs?"
+        },
+        {
+          "id": "c",
+          "text": "Do you have eggs?"
+        }
       ],
       "correct_answer": "a",
       "explanation": "В нейтральном вопросе лучше использовать any: Do you have any eggs?"
@@ -187,12 +255,18 @@
     {
       "id": "q17",
       "type": "mcq_single",
-      "prompt": "Choose the correct option: We don't need ___ tomatoes.",
+      "prompt": "Выберите правильный вариант: We don't need ___ tomatoes.",
       "theory_block_id": "b2_some_any",
       "difficulty": 1,
       "choices": [
-        {"id": "a", "text": "some"},
-        {"id": "b", "text": "any"}
+        {
+          "id": "a",
+          "text": "some"
+        },
+        {
+          "id": "b",
+          "text": "any"
+        }
       ],
       "correct_answer": "b",
       "explanation": "В отрицательных предложениях употребляется any."
@@ -222,9 +296,18 @@
       "theory_block_id": "b2_some_any",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "I have some time tomorrow."},
-        {"id": "b", "text": "I have any time tomorrow."},
-        {"id": "c", "text": "I have time tomorrow."}
+        {
+          "id": "a",
+          "text": "I have some time tomorrow."
+        },
+        {
+          "id": "b",
+          "text": "I have any time tomorrow."
+        },
+        {
+          "id": "c",
+          "text": "I have time tomorrow."
+        }
       ],
       "correct_answer": "a",
       "explanation": "В утвердительном предложении логично использовать some или zero article. Any здесь неправильно."
@@ -232,12 +315,18 @@
     {
       "id": "q21",
       "type": "mcq_single",
-      "prompt": "Choose the correct option: There isn't ___ milk left.",
+      "prompt": "Выберите правильный вариант: There isn't ___ milk left.",
       "theory_block_id": "b2_some_any",
       "difficulty": 1,
       "choices": [
-        {"id": "a", "text": "some"},
-        {"id": "b", "text": "any"}
+        {
+          "id": "a",
+          "text": "some"
+        },
+        {
+          "id": "b",
+          "text": "any"
+        }
       ],
       "correct_answer": "b",
       "explanation": "В отрицании используется any: There isn't any milk left."
@@ -269,16 +358,21 @@
       "correct_answer": "Could I have some bread, please?",
       "explanation": "В просьбах используем some. Порядок вопроса: Could I have ...?"
     },
-
     {
       "id": "q25",
       "type": "mcq_single",
-      "prompt": "Choose the correct option: How ___ apples do we need?",
+      "prompt": "Выберите правильный вариант: How ___ apples do we need?",
       "theory_block_id": "b3_much_many_a_lot",
       "difficulty": 1,
       "choices": [
-        {"id": "a", "text": "much"},
-        {"id": "b", "text": "many"}
+        {
+          "id": "a",
+          "text": "much"
+        },
+        {
+          "id": "b",
+          "text": "many"
+        }
       ],
       "correct_answer": "b",
       "explanation": "Apples — исчисляемые, поэтому используется many."
@@ -286,7 +380,7 @@
     {
       "id": "q26",
       "type": "fill_blank",
-      "prompt": "We don't need ___ sugar. (uncountable)",
+      "prompt": "We don't need ___ sugar. (неисчисляемое)",
       "theory_block_id": "b3_much_many_a_lot",
       "difficulty": 1,
       "correct_answer": "much",
@@ -308,9 +402,18 @@
       "theory_block_id": "b3_much_many_a_lot",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "How many oranges do you want?"},
-        {"id": "b", "text": "How much oranges do you want?"},
-        {"id": "c", "text": "How many oranges would you like?"}
+        {
+          "id": "a",
+          "text": "How many oranges do you want?"
+        },
+        {
+          "id": "b",
+          "text": "How much oranges do you want?"
+        },
+        {
+          "id": "c",
+          "text": "How many oranges would you like?"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Oranges — исчисляемые, поэтому нужно many."
@@ -318,13 +421,22 @@
     {
       "id": "q29",
       "type": "mcq_single",
-      "prompt": "Choose the correct option: We bought ___ bread for the trip.",
+      "prompt": "Выберите правильный вариант: We bought ___ bread for the trip.",
       "theory_block_id": "b3_much_many_a_lot",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "many"},
-        {"id": "b", "text": "much"},
-        {"id": "c", "text": "a lot of"}
+        {
+          "id": "a",
+          "text": "many"
+        },
+        {
+          "id": "b",
+          "text": "much"
+        },
+        {
+          "id": "c",
+          "text": "a lot of"
+        }
       ],
       "correct_answer": "c",
       "explanation": "Bread — неисчисляемое. A lot of подходит и звучит естественно в разговоре."
@@ -332,7 +444,7 @@
     {
       "id": "q30",
       "type": "fill_blank",
-      "prompt": "Do we have ___ chairs for everyone? (countable)",
+      "prompt": "Do we have ___ chairs for everyone? (исчисляемое)",
       "theory_block_id": "b3_much_many_a_lot",
       "difficulty": 2,
       "correct_answer": "many",
@@ -359,12 +471,18 @@
     {
       "id": "q33",
       "type": "mcq_single",
-      "prompt": "Choose the correct option: I don't have ___ time this week.",
+      "prompt": "Выберите правильный вариант: I don't have ___ time this week.",
       "theory_block_id": "b3_much_many_a_lot",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "many"},
-        {"id": "b", "text": "much"}
+        {
+          "id": "a",
+          "text": "many"
+        },
+        {
+          "id": "b",
+          "text": "much"
+        }
       ],
       "correct_answer": "b",
       "explanation": "Time — неисчисляемое, поэтому much."
@@ -376,9 +494,18 @@
       "theory_block_id": "b3_much_many_a_lot",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "We have many apples for the pie."},
-        {"id": "b", "text": "We have much apples for the pie."},
-        {"id": "c", "text": "We have a lot of apples for the pie."}
+        {
+          "id": "a",
+          "text": "We have many apples for the pie."
+        },
+        {
+          "id": "b",
+          "text": "We have much apples for the pie."
+        },
+        {
+          "id": "c",
+          "text": "We have a lot of apples for the pie."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Apples — исчисляемые, поэтому many или a lot of. Much здесь неверно."
@@ -401,17 +528,25 @@
       "correct_answer": "false",
       "explanation": "With uncountable nouns we use much or a lot of, not many."
     },
-
     {
       "id": "q37",
       "type": "mcq_single",
-      "prompt": "Choose the correct option: We need ___ milk.",
+      "prompt": "Выберите правильный вариант: We need ___ milk.",
       "theory_block_id": "b4_countable_uncountable",
       "difficulty": 1,
       "choices": [
-        {"id": "a", "text": "a"},
-        {"id": "b", "text": "some"},
-        {"id": "c", "text": "many"}
+        {
+          "id": "a",
+          "text": "a"
+        },
+        {
+          "id": "b",
+          "text": "some"
+        },
+        {
+          "id": "c",
+          "text": "many"
+        }
       ],
       "correct_answer": "b",
       "explanation": "Milk — неисчисляемое, поэтому some звучит естественно."
@@ -419,7 +554,7 @@
     {
       "id": "q38",
       "type": "fill_blank",
-      "prompt": "We bought a ___ of bread. (measure word)",
+      "prompt": "We bought a ___ of bread. (мерное слово)",
       "theory_block_id": "b4_countable_uncountable",
       "difficulty": 2,
       "correct_answer": "loaf",
@@ -441,9 +576,18 @@
       "theory_block_id": "b4_countable_uncountable",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "Can I have two loaves of bread?"},
-        {"id": "b", "text": "Can I have two breads?"},
-        {"id": "c", "text": "Can I have some bread?"}
+        {
+          "id": "a",
+          "text": "Can I have two loaves of bread?"
+        },
+        {
+          "id": "b",
+          "text": "Can I have two breads?"
+        },
+        {
+          "id": "c",
+          "text": "Can I have some bread?"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Bread — неисчисляемое, поэтому нужны меры: two loaves of bread."
@@ -451,13 +595,22 @@
     {
       "id": "q41",
       "type": "mcq_single",
-      "prompt": "Choose the correct option: I bought ___ eggs and ___ cheese.",
+      "prompt": "Выберите правильный вариант: I bought ___ eggs and ___ cheese.",
       "theory_block_id": "b4_countable_uncountable",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "some / some"},
-        {"id": "b", "text": "a / a"},
-        {"id": "c", "text": "many / much"}
+        {
+          "id": "a",
+          "text": "some / some"
+        },
+        {
+          "id": "b",
+          "text": "a / a"
+        },
+        {
+          "id": "c",
+          "text": "many / much"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Eggs — исчисляемые, cheese — неисчисляемое, но some подходит к обоим в разговоре."
@@ -492,12 +645,18 @@
     {
       "id": "q45",
       "type": "mcq_single",
-      "prompt": "Choose the correct option: There isn't ___ juice left.",
+      "prompt": "Выберите правильный вариант: There isn't ___ juice left.",
       "theory_block_id": "b4_countable_uncountable",
       "difficulty": 1,
       "choices": [
-        {"id": "a", "text": "any"},
-        {"id": "b", "text": "many"}
+        {
+          "id": "a",
+          "text": "any"
+        },
+        {
+          "id": "b",
+          "text": "many"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Juice — неисчисляемое, в отрицании используем any."
@@ -509,9 +668,18 @@
       "theory_block_id": "b4_countable_uncountable",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "I need three bottles of milk."},
-        {"id": "b", "text": "I need three milks."},
-        {"id": "c", "text": "I need some milk."}
+        {
+          "id": "a",
+          "text": "I need three bottles of milk."
+        },
+        {
+          "id": "b",
+          "text": "I need three milks."
+        },
+        {
+          "id": "c",
+          "text": "I need some milk."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Milk — неисчисляемое. Для количества нужны меры: bottles of milk."
@@ -534,16 +702,21 @@
       "correct_answer": "true",
       "explanation": "Measure phrases делают вещество или целое исчисляемым: a slice of cake/bread."
     },
-
     {
       "id": "q49",
       "type": "mcq_single",
-      "prompt": "Choose the correct option: How ___ chairs do we need for the guests?",
+      "prompt": "Выберите правильный вариант: How ___ chairs do we need for the guests?",
       "theory_block_id": "b5_plan_quantities",
       "difficulty": 1,
       "choices": [
-        {"id": "a", "text": "much"},
-        {"id": "b", "text": "many"}
+        {
+          "id": "a",
+          "text": "much"
+        },
+        {
+          "id": "b",
+          "text": "many"
+        }
       ],
       "correct_answer": "b",
       "explanation": "Chairs — исчисляемые, поэтому используется many."
@@ -573,9 +746,18 @@
       "theory_block_id": "b5_plan_quantities",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "We bought too much water for the hike."},
-        {"id": "b", "text": "We bought too many water for the hike."},
-        {"id": "c", "text": "We bought too much water for the hike."}
+        {
+          "id": "a",
+          "text": "We bought too much water for the hike."
+        },
+        {
+          "id": "b",
+          "text": "We bought too many water for the hike."
+        },
+        {
+          "id": "c",
+          "text": "We bought too much water for the hike."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Water — неисчисляемое, поэтому нужно too much, а не too many."
@@ -583,12 +765,18 @@
     {
       "id": "q53",
       "type": "mcq_single",
-      "prompt": "Choose the correct option: Do we have ___ snacks for everyone?",
+      "prompt": "Выберите правильный вариант: Do we have ___ snacks for everyone?",
       "theory_block_id": "b5_plan_quantities",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "enough"},
-        {"id": "b", "text": "too much"}
+        {
+          "id": "a",
+          "text": "enough"
+        },
+        {
+          "id": "b",
+          "text": "too much"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Enough используется, когда спрашиваем о достаточном количестве."
@@ -596,7 +784,7 @@
     {
       "id": "q54",
       "type": "fill_blank",
-      "prompt": "How ___ juice do we need for the picnic? (uncountable)",
+      "prompt": "How ___ juice do we need for the picnic? (неисчисляемое)",
       "theory_block_id": "b5_plan_quantities",
       "difficulty": 1,
       "correct_answer": "much",
@@ -623,12 +811,18 @@
     {
       "id": "q57",
       "type": "mcq_single",
-      "prompt": "Choose the correct option: We bought ___ chairs for the party.",
+      "prompt": "Выберите правильный вариант: We bought ___ chairs for the party.",
       "theory_block_id": "b5_plan_quantities",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "too many"},
-        {"id": "b", "text": "too much"}
+        {
+          "id": "a",
+          "text": "too many"
+        },
+        {
+          "id": "b",
+          "text": "too much"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Chairs — исчисляемые, поэтому too many chairs."
@@ -640,9 +834,18 @@
       "theory_block_id": "b5_plan_quantities",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "How much milk do we need?"},
-        {"id": "b", "text": "How many milk do we need?"},
-        {"id": "c", "text": "How much milk do we need for the recipe?"}
+        {
+          "id": "a",
+          "text": "How much milk do we need?"
+        },
+        {
+          "id": "b",
+          "text": "How many milk do we need?"
+        },
+        {
+          "id": "c",
+          "text": "How much milk do we need for the recipe?"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Milk — неисчисляемое, поэтому используется how much."
@@ -665,17 +868,25 @@
       "correct_answer": "true",
       "explanation": "Guests — исчисляемые, поэтому how many."
     },
-
     {
       "id": "q61",
       "type": "mcq_single",
-      "prompt": "Choose the best line for a shopping dialogue: A: We need something for breakfast. B: Let's buy ___.",
+      "prompt": "Выберите лучшую реплику для диалога о покупках: A: We need something for breakfast. B: Let's buy ___.",
       "theory_block_id": "b6_build_speak",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "some eggs and a loaf of bread"},
-        {"id": "b", "text": "many bread and an egg"},
-        {"id": "c", "text": "a breads and much egg"}
+        {
+          "id": "a",
+          "text": "some eggs and a loaf of bread"
+        },
+        {
+          "id": "b",
+          "text": "many bread and an egg"
+        },
+        {
+          "id": "c",
+          "text": "a breads and much egg"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Eggs — countable, bread — uncountable с мерой. Поэтому some eggs and a loaf of bread."
@@ -683,7 +894,7 @@
     {
       "id": "q62",
       "type": "fill_blank",
-      "prompt": "Could we get ___ bottle of water? (article)",
+      "prompt": "Could we get ___ bottle of water? (артикль)",
       "theory_block_id": "b6_build_speak",
       "difficulty": 1,
       "correct_answer": "a",
@@ -705,9 +916,18 @@
       "theory_block_id": "b6_build_speak",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "Let's buy some milk and some bread."},
-        {"id": "b", "text": "Let's buy a milk and some breads."},
-        {"id": "c", "text": "Let's buy a bottle of milk and a loaf of bread."}
+        {
+          "id": "a",
+          "text": "Let's buy some milk and some bread."
+        },
+        {
+          "id": "b",
+          "text": "Let's buy a milk and some breads."
+        },
+        {
+          "id": "c",
+          "text": "Let's buy a bottle of milk and a loaf of bread."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Milk и bread — неисчисляемые. Нужны some или меры: a bottle of milk, a loaf of bread."
@@ -724,13 +944,22 @@
     {
       "id": "q66",
       "type": "mcq_single",
-      "prompt": "Choose the best line: A: What should we bring to the picnic? B: ___.",
+      "prompt": "Выберите лучшую реплику: A: What should we bring to the picnic? B: ___.",
       "theory_block_id": "b6_build_speak",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "Some juice and a few sandwiches"},
-        {"id": "b", "text": "Much sandwiches and a juice"},
-        {"id": "c", "text": "Any juice and many bread"}
+        {
+          "id": "a",
+          "text": "Some juice and a few sandwiches"
+        },
+        {
+          "id": "b",
+          "text": "Much sandwiches and a juice"
+        },
+        {
+          "id": "c",
+          "text": "Any juice and many bread"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Juice — uncountable, sandwiches — countable. Some + a few звучит естественно."
@@ -760,9 +989,18 @@
       "theory_block_id": "b6_build_speak",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "Do we have enough information for the plan?"},
-        {"id": "b", "text": "Do we have enough informations for the plan?"},
-        {"id": "c", "text": "Do we have the information for the plan?"}
+        {
+          "id": "a",
+          "text": "Do we have enough information for the plan?"
+        },
+        {
+          "id": "b",
+          "text": "Do we have enough informations for the plan?"
+        },
+        {
+          "id": "c",
+          "text": "Do we have the information for the plan?"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Information — неисчисляемое, не имеет формы множественного числа."
@@ -770,13 +1008,22 @@
     {
       "id": "q70",
       "type": "mcq_single",
-      "prompt": "Choose the best response: A: Are we buying food tonight? B: ___.",
+      "prompt": "Выберите лучший ответ: A: Are we buying food tonight? B: ___.",
       "theory_block_id": "b6_build_speak",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "Yes, we need some vegetables."},
-        {"id": "b", "text": "Yes, we need any vegetables."},
-        {"id": "c", "text": "Yes, we need many bread."}
+        {
+          "id": "a",
+          "text": "Yes, we need some vegetables."
+        },
+        {
+          "id": "b",
+          "text": "Yes, we need any vegetables."
+        },
+        {
+          "id": "c",
+          "text": "Yes, we need many bread."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Some используется в утверждениях, vegetables — countable plural."

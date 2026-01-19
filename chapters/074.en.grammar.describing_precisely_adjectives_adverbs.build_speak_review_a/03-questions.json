@@ -3,12 +3,18 @@
     {
       "id": "q1",
       "type": "mcq_single",
-      "prompt": "Choose the best first sentence for a review:",
+      "prompt": "Выберите лучшее первое предложение для отзыва:",
       "theory_block_id": "b1_review_structure",
       "difficulty": 1,
       "choices": [
-        {"id": "a", "text": "It's a small café near the station."},
-        {"id": "b", "text": "Very good and cheaper."}
+        {
+          "id": "a",
+          "text": "It's a small café near the station."
+        },
+        {
+          "id": "b",
+          "text": "Very good and cheaper."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Начинайте с краткого описания объекта: что это и где."
@@ -38,9 +44,18 @@
       "theory_block_id": "b1_review_structure",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "It's a great movie."},
-        {"id": "b", "text": "Great movie. It is a movie."},
-        {"id": "c", "text": "It's a movie with a great story."}
+        {
+          "id": "a",
+          "text": "It's a great movie."
+        },
+        {
+          "id": "b",
+          "text": "Great movie. It is a movie."
+        },
+        {
+          "id": "c",
+          "text": "It's a movie with a great story."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Нужно сразу дать полное описание: It's a great movie."
@@ -57,12 +72,18 @@
     {
       "id": "q6",
       "type": "mcq_single",
-      "prompt": "Choose the best review ending:",
+      "prompt": "Выберите лучшую концовку отзыва:",
       "theory_block_id": "b1_review_structure",
       "difficulty": 1,
       "choices": [
-        {"id": "a", "text": "I would recommend it."},
-        {"id": "b", "text": "It was a place."}
+        {
+          "id": "a",
+          "text": "I would recommend it."
+        },
+        {
+          "id": "b",
+          "text": "It was a place."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Хороший отзыв заканчивается рекомендацией."
@@ -92,9 +113,18 @@
       "theory_block_id": "b1_review_structure",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "I recommend it because it is cheap."},
-        {"id": "b", "text": "I recommend it because is cheap."},
-        {"id": "c", "text": "I recommend it because it's cheap."}
+        {
+          "id": "a",
+          "text": "I recommend it because it is cheap."
+        },
+        {
+          "id": "b",
+          "text": "I recommend it because is cheap."
+        },
+        {
+          "id": "c",
+          "text": "I recommend it because it's cheap."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Нужно подлежащее: because it is cheap."
@@ -102,12 +132,18 @@
     {
       "id": "q10",
       "type": "mcq_single",
-      "prompt": "Choose the best comparison sentence:",
+      "prompt": "Выберите лучшее предложение для сравнения:",
       "theory_block_id": "b1_review_structure",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "It's cheaper than similar places."},
-        {"id": "b", "text": "It's cheaper as similar places."}
+        {
+          "id": "a",
+          "text": "It's cheaper than similar places."
+        },
+        {
+          "id": "b",
+          "text": "It's cheaper as similar places."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Comparative + than: cheaper than."
@@ -130,16 +166,21 @@
       "correct_answer": "weak",
       "explanation": "Weak помогает добавить критическую деталь."
     },
-
     {
       "id": "q13",
       "type": "mcq_single",
-      "prompt": "Choose the best adjective for a hotel review:",
+      "prompt": "Выберите лучшее прилагательное для отзыва об отеле:",
       "theory_block_id": "b2_descriptive_language",
       "difficulty": 1,
       "choices": [
-        {"id": "a", "text": "cozy"},
-        {"id": "b", "text": "sleep"}
+        {
+          "id": "a",
+          "text": "cozy"
+        },
+        {
+          "id": "b",
+          "text": "sleep"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Cozy — типичное прилагательное для отеля."
@@ -169,9 +210,18 @@
       "theory_block_id": "b2_descriptive_language",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "The phone is reliable."},
-        {"id": "b", "text": "The phone is reliability."},
-        {"id": "c", "text": "The phone feels reliable."}
+        {
+          "id": "a",
+          "text": "The phone is reliable."
+        },
+        {
+          "id": "b",
+          "text": "The phone is reliability."
+        },
+        {
+          "id": "c",
+          "text": "The phone feels reliable."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Нужно прилагательное reliable, не существительное reliability."
@@ -188,12 +238,18 @@
     {
       "id": "q18",
       "type": "mcq_single",
-      "prompt": "Choose the best adjective for a movie:",
+      "prompt": "Выберите лучшее прилагательное для фильма:",
       "theory_block_id": "b2_descriptive_language",
       "difficulty": 1,
       "choices": [
-        {"id": "a", "text": "engaging"},
-        {"id": "b", "text": "repair"}
+        {
+          "id": "a",
+          "text": "engaging"
+        },
+        {
+          "id": "b",
+          "text": "repair"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Engaging подходит для фильмов."
@@ -223,9 +279,18 @@
       "theory_block_id": "b2_descriptive_language",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "The place was convenient."},
-        {"id": "b", "text": "The place was convenience."},
-        {"id": "c", "text": "The place felt convenient."}
+        {
+          "id": "a",
+          "text": "The place was convenient."
+        },
+        {
+          "id": "b",
+          "text": "The place was convenience."
+        },
+        {
+          "id": "c",
+          "text": "The place felt convenient."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Нужно прилагательное convenient, не существительное convenience."
@@ -251,26 +316,37 @@
     {
       "id": "q24",
       "type": "mcq_single",
-      "prompt": "Choose the best adjective for a product review:",
+      "prompt": "Выберите лучшее прилагательное для отзыва о товаре:",
       "theory_block_id": "b2_descriptive_language",
       "difficulty": 1,
       "choices": [
-        {"id": "a", "text": "reliable"},
-        {"id": "b", "text": "run"}
+        {
+          "id": "a",
+          "text": "reliable"
+        },
+        {
+          "id": "b",
+          "text": "run"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Reliable — подходящее прилагательное для продукта."
     },
-
     {
       "id": "q25",
       "type": "mcq_single",
-      "prompt": "Choose the correct option: The sound was ___ good.",
+      "prompt": "Выберите правильный вариант: The sound was ___ good.",
       "theory_block_id": "b3_intensifiers",
       "difficulty": 1,
       "choices": [
-        {"id": "a", "text": "really"},
-        {"id": "b", "text": "absolutely"}
+        {
+          "id": "a",
+          "text": "really"
+        },
+        {
+          "id": "b",
+          "text": "absolutely"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Good — gradable, поэтому really good."
@@ -300,9 +376,18 @@
       "theory_block_id": "b3_intensifiers",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "The film was really good."},
-        {"id": "b", "text": "The film was absolutely good."},
-        {"id": "c", "text": "The film was quite good."}
+        {
+          "id": "a",
+          "text": "The film was really good."
+        },
+        {
+          "id": "b",
+          "text": "The film was absolutely good."
+        },
+        {
+          "id": "c",
+          "text": "The film was quite good."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Good — gradable, лучше really/quite."
@@ -319,12 +404,18 @@
     {
       "id": "q30",
       "type": "mcq_single",
-      "prompt": "Choose the correct option: The location is ___ convenient.",
+      "prompt": "Выберите правильный вариант: The location is ___ convenient.",
       "theory_block_id": "b3_intensifiers",
       "difficulty": 1,
       "choices": [
-        {"id": "a", "text": "quite"},
-        {"id": "b", "text": "absolutely"}
+        {
+          "id": "a",
+          "text": "quite"
+        },
+        {
+          "id": "b",
+          "text": "absolutely"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Convenient — gradable, используем quite."
@@ -354,9 +445,18 @@
       "theory_block_id": "b3_intensifiers",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "The place was absolutely unique."},
-        {"id": "b", "text": "The place was very unique."},
-        {"id": "c", "text": "The place was unique."}
+        {
+          "id": "a",
+          "text": "The place was absolutely unique."
+        },
+        {
+          "id": "b",
+          "text": "The place was very unique."
+        },
+        {
+          "id": "c",
+          "text": "The place was unique."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Unique — non-gradable, лучше absolutely."
@@ -364,12 +464,18 @@
     {
       "id": "q34",
       "type": "mcq_single",
-      "prompt": "Choose the correct option: The staff were ___ friendly.",
+      "prompt": "Выберите правильный вариант: The staff were ___ friendly.",
       "theory_block_id": "b3_intensifiers",
       "difficulty": 1,
       "choices": [
-        {"id": "a", "text": "really"},
-        {"id": "b", "text": "totally"}
+        {
+          "id": "a",
+          "text": "really"
+        },
+        {
+          "id": "b",
+          "text": "totally"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Friendly — gradable, поэтому really friendly."
@@ -392,16 +498,21 @@
       "correct_answer": "very",
       "explanation": "Loud — gradable, поэтому very loud."
     },
-
     {
       "id": "q37",
       "type": "mcq_single",
-      "prompt": "Choose the correct option: It is ___ cheaper than similar options.",
+      "prompt": "Выберите правильный вариант: It is ___ cheaper than similar options.",
       "theory_block_id": "b4_comparisons",
       "difficulty": 1,
       "choices": [
-        {"id": "a", "text": "much"},
-        {"id": "b", "text": "as"}
+        {
+          "id": "a",
+          "text": "much"
+        },
+        {
+          "id": "b",
+          "text": "as"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Much усиливает comparative: much cheaper."
@@ -431,9 +542,18 @@
       "theory_block_id": "b4_comparisons",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "This phone is cheaper than the old one."},
-        {"id": "b", "text": "This phone is cheaper as the old one."},
-        {"id": "c", "text": "This phone is not as cheap as the old one."}
+        {
+          "id": "a",
+          "text": "This phone is cheaper than the old one."
+        },
+        {
+          "id": "b",
+          "text": "This phone is cheaper as the old one."
+        },
+        {
+          "id": "c",
+          "text": "This phone is not as cheap as the old one."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Comparative + than, не as."
@@ -450,12 +570,18 @@
     {
       "id": "q42",
       "type": "mcq_single",
-      "prompt": "Choose the correct option: It's not as ___ as my old phone.",
+      "prompt": "Выберите правильный вариант: It's not as ___ as my old phone.",
       "theory_block_id": "b4_comparisons",
       "difficulty": 1,
       "choices": [
-        {"id": "a", "text": "fast"},
-        {"id": "b", "text": "faster"}
+        {
+          "id": "a",
+          "text": "fast"
+        },
+        {
+          "id": "b",
+          "text": "faster"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Not as…as требует базовую форму."
@@ -485,9 +611,18 @@
       "theory_block_id": "b4_comparisons",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "The sound is better than before."},
-        {"id": "b", "text": "The sound is as better as before."},
-        {"id": "c", "text": "The sound is as good as before."}
+        {
+          "id": "a",
+          "text": "The sound is better than before."
+        },
+        {
+          "id": "b",
+          "text": "The sound is as better as before."
+        },
+        {
+          "id": "c",
+          "text": "The sound is as good as before."
+        }
       ],
       "correct_answer": "a",
       "explanation": "As…as не использует comparative."
@@ -495,12 +630,18 @@
     {
       "id": "q46",
       "type": "mcq_single",
-      "prompt": "Choose the correct option: It's ___ cheaper than similar models.",
+      "prompt": "Выберите правильный вариант: It's ___ cheaper than similar models.",
       "theory_block_id": "b4_comparisons",
       "difficulty": 1,
       "choices": [
-        {"id": "a", "text": "much"},
-        {"id": "b", "text": "more"}
+        {
+          "id": "a",
+          "text": "much"
+        },
+        {
+          "id": "b",
+          "text": "more"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Much cheaper — стандартное усиление comparative."
@@ -523,16 +664,21 @@
       "correct_answer": "than",
       "explanation": "Comparative + than."
     },
-
     {
       "id": "q49",
       "type": "mcq_single",
-      "prompt": "Choose the correct option: I ___ recommend it.",
+      "prompt": "Выберите правильный вариант: I ___ recommend it.",
       "theory_block_id": "b5_recommendation",
       "difficulty": 1,
       "choices": [
-        {"id": "a", "text": "would"},
-        {"id": "b", "text": "am"}
+        {
+          "id": "a",
+          "text": "would"
+        },
+        {
+          "id": "b",
+          "text": "am"
+        }
       ],
       "correct_answer": "a",
       "explanation": "Для рекомендации: I would recommend it."
@@ -562,9 +708,18 @@
       "theory_block_id": "b5_recommendation",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "It's worth buying."},
-        {"id": "b", "text": "It's worth to buy."},
-        {"id": "c", "text": "It's worth it."}
+        {
+          "id": "a",
+          "text": "It's worth buying."
+        },
+        {
+          "id": "b",
+          "text": "It's worth to buy."
+        },
+        {
+          "id": "c",
+          "text": "It's worth it."
+        }
       ],
       "correct_answer": "a",
       "explanation": "После worth используется герундий: worth buying."
@@ -581,12 +736,18 @@
     {
       "id": "q54",
       "type": "mcq_single",
-      "prompt": "Choose the correct option: It's worth ___.",
+      "prompt": "Выберите правильный вариант: It's worth ___.",
       "theory_block_id": "b5_recommendation",
       "difficulty": 1,
       "choices": [
-        {"id": "a", "text": "trying"},
-        {"id": "b", "text": "to try"}
+        {
+          "id": "a",
+          "text": "trying"
+        },
+        {
+          "id": "b",
+          "text": "to try"
+        }
       ],
       "correct_answer": "a",
       "explanation": "После worth — герундий: worth trying."
@@ -616,9 +777,18 @@
       "theory_block_id": "b5_recommendation",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "I recommend it because the service was great."},
-        {"id": "b", "text": "I recommend it for the service was great."},
-        {"id": "c", "text": "I recommend it for the service."}
+        {
+          "id": "a",
+          "text": "I recommend it because the service was great."
+        },
+        {
+          "id": "b",
+          "text": "I recommend it for the service was great."
+        },
+        {
+          "id": "c",
+          "text": "I recommend it for the service."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Нужен because для придаточного предложения."
@@ -635,12 +805,18 @@
     {
       "id": "q59",
       "type": "mcq_single",
-      "prompt": "Choose the correct option: I would ___ it.",
+      "prompt": "Выберите правильный вариант: I would ___ it.",
       "theory_block_id": "b5_recommendation",
       "difficulty": 1,
       "choices": [
-        {"id": "a", "text": "avoid"},
-        {"id": "b", "text": "avoiding"}
+        {
+          "id": "a",
+          "text": "avoid"
+        },
+        {
+          "id": "b",
+          "text": "avoiding"
+        }
       ],
       "correct_answer": "a",
       "explanation": "После would нужен базовый глагол: would avoid."
