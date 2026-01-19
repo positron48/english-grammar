@@ -1,0 +1,28 @@
+{
+  "theory_block": {
+    "id": "b6_common_mistakes",
+    "concept_id": "some_any_common_mistakes",
+    "content_md": "Типичные ошибки: использовать **any** в офферах (*Would you like any tea?*) или **some** в нейтральных вопросах.\n\nСначала определите, это оффер/просьба или нейтральный вопрос.",
+    "examples": [
+      {
+        "id": "ex1",
+        "text": "Would you like some tea?",
+        "translation": "Хотите чаю?",
+        "tags": ["question", "offer"]
+      },
+      {
+        "id": "ex2",
+        "text": "I don't have any updates yet.",
+        "translation": "У меня пока нет обновлений.",
+        "tags": ["negative"]
+      }
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "Would you like any coffee?",
+        "right": "Would you like some coffee?",
+        "why": "В офферах обычно используют some, ожидая согласие."
+      }
+    ]
+  }
+}
