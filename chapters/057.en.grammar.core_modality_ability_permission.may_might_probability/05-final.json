@@ -1,0 +1,1500 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.core_modality_ability_permission.may_might_probability",
+  "section_id": "en.grammar.core_modality_ability_permission",
+  "title": "may/might (light intro): probability",
+  "title_short": "may/might: probability",
+  "description": "Введение в may/might для выражения вероятности: форма, отрицания, вопросы и мягкая разница между may и might.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "A2",
+  "order": 0,
+  "prerequisites": [
+    "en.grammar.core_modality_ability_permission.should_advice_expectation"
+  ],
+  "concept_refs": [
+    "may_might_probability_meaning",
+    "may_might_form_base",
+    "may_might_negatives",
+    "may_might_questions",
+    "may_vs_might_strength",
+    "maybe_vs_may_might"
+  ],
+  "learning_objectives": [
+    "Выражать вероятность с may/might",
+    "Строить утверждения и отрицания с may/might",
+    "Задавать вопросы о возможности с may/might",
+    "Понимать легкую разницу между may и might"
+  ],
+  "estimated_minutes": 22,
+  "blocks": [
+    {
+      "id": "b1_probability_meaning",
+      "type": "theory",
+      "title": "May и might используются, когда мы говорим о возможности: факт не подтвержден, но это вероятно.",
+      "theory": {
+        "concept_id": "may_might_probability_meaning",
+        "content_md": "**May** и **might** используются, когда мы говорим о возможности: факт не подтвержден, но это вероятно.\n\nЭто эквивалент русскому «может быть», «возможно».",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "It may rain this afternoon.",
+            "translation": "Возможно, сегодня днем пойдет дождь.",
+            "tags": [
+              "affirmative",
+              "probability"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "She might be at the office now.",
+            "translation": "Она может быть сейчас в офисе.",
+            "tags": [
+              "affirmative",
+              "probability"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_probability",
+      "type": "quiz_inline",
+      "title": "Quick check: вероятность",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_form_may_might",
+      "type": "theory",
+      "title": "После may/might всегда идет базовая форма глагола (V1) без to. Модальный глагол не меняется по лицам: *I/you/he may*.",
+      "theory": {
+        "concept_id": "may_might_form_base",
+        "content_md": "После **may/might** всегда идет базовая форма глагола (V1) без **to**. Модальный глагол не меняется по лицам: *I/you/he may*.\n\nСтруктура: **may/might + V1**.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "They may arrive late.",
+            "translation": "Они могут приехать поздно.",
+            "tags": [
+              "affirmative",
+              "form"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_form",
+      "type": "quiz_inline",
+      "title": "Quick check: форма",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14",
+          "q15",
+          "q16",
+          "q17"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_negatives",
+      "type": "theory",
+      "title": "Отрицания строятся как may not или might not. Это означает «возможно, не».",
+      "theory": {
+        "concept_id": "may_might_negatives",
+        "content_md": "Отрицания строятся как **may not** или **might not**. Это означает «возможно, не».\n\nСокращение *mightn't* иногда встречается в разговорной речи, но *mayn't* почти не используется.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "He may not know the answer.",
+            "translation": "Он может не знать ответа.",
+            "tags": [
+              "negative",
+              "probability"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "We might not finish today.",
+            "translation": "Мы можем не закончить сегодня.",
+            "tags": [
+              "negative",
+              "probability"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_negatives",
+      "type": "quiz_inline",
+      "title": "Quick check: отрицания",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26",
+          "q27",
+          "q28",
+          "q29"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_questions_possibility",
+      "type": "theory",
+      "title": "Вопросы о возможности строятся с May/Might + подлежащее + V1? Они звучат вежливо и осторожно.",
+      "theory": {
+        "concept_id": "may_might_questions",
+        "content_md": "Вопросы о возможности строятся с **May/Might + подлежащее + V1?** Они звучат вежливо и осторожно.\n\nЧасто в реальной речи вместо may/might используют *Do you think...?*, но базовая структура полезна для формальных ситуаций.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "May I ask a question?",
+            "translation": "Можно я задам вопрос?",
+            "tags": [
+              "question",
+              "polite"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Might he be late?",
+            "translation": "Он может опоздать?",
+            "tags": [
+              "question",
+              "probability"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8_quiz_after_questions",
+      "type": "quiz_inline",
+      "title": "Quick check: вопросы",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38",
+          "q39",
+          "q40",
+          "q41"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_may_vs_might",
+      "type": "theory",
+      "title": "May обычно звучит чуть более уверенно, чем might. Разница небольшая, и в разговорной речи они часто взаимозаменяемы.",
+      "theory": {
+        "concept_id": "may_vs_might_strength",
+        "content_md": "**May** обычно звучит чуть более уверенно, чем **might**. Разница небольшая, и в разговорной речи они часто взаимозаменяемы.\n\nЕсли хотите подчеркнуть меньшую вероятность, выбирайте might.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I may join you later.",
+            "translation": "Я, возможно, присоединюсь позже.",
+            "tags": [
+              "affirmative",
+              "probability"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b10_quiz_after_may_vs_might",
+      "type": "quiz_inline",
+      "title": "Quick check: may vs might",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q50",
+          "q51",
+          "q52",
+          "q53"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_maybe_position",
+      "type": "theory",
+      "title": "Maybe — это наречие, оно означает «возможно» и обычно стоит в начале или в середине предложения.",
+      "theory": {
+        "concept_id": "maybe_vs_may_might",
+        "content_md": "**Maybe** — это наречие, оно означает «возможно» и обычно стоит в начале или в середине предложения.\n\n**May** и **might** — это модальные глаголы, они стоят перед глаголом в структуре *may/might + V1*.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Maybe we can meet tomorrow.",
+            "translation": "Возможно, мы сможем встретиться завтра.",
+            "tags": [
+              "affirmative",
+              "maybe"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Какое предложение выражает вероятность, а не факт?",
+        "theory_block_id": "b1_probability_meaning",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It is raining now."
+          },
+          {
+            "id": "b",
+            "text": "It may rain later."
+          },
+          {
+            "id": "c",
+            "text": "It rained yesterday."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "May показывает возможность, а не точный факт. Фраза с may означает, что дождь возможен."
+      },
+      {
+        "id": "q2",
+        "type": "fill_blank",
+        "prompt": "She ___ be at the gym now. (вероятность)",
+        "theory_block_id": "b1_probability_meaning",
+        "difficulty": 1,
+        "correct_answer": "might",
+        "explanation": "Might используется, чтобы выразить вероятность. В данном контексте мы не уверены, где она."
+      },
+      {
+        "id": "q3",
+        "type": "true_false",
+        "prompt": "May/might означают, что говорящий уверен на 100%.",
+        "theory_block_id": "b1_probability_meaning",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "May/might выражают возможность, а не факт. Полная уверенность обычно передается другими конструкциями."
+      },
+      {
+        "id": "q4",
+        "type": "mcq_single",
+        "prompt": "Выберите фразу со значением «может быть».",
+        "theory_block_id": "b1_probability_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He must be at home."
+          },
+          {
+            "id": "b",
+            "text": "He might be at home."
+          },
+          {
+            "id": "c",
+            "text": "He is at home."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Might показывает неопределенность. Must звучит более уверенно, а is — факт."
+      },
+      {
+        "id": "q5",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'We may are late.'",
+        "theory_block_id": "b1_probability_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We may be late."
+          },
+          {
+            "id": "b",
+            "text": "We may are late."
+          },
+          {
+            "id": "c",
+            "text": "We might be late."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После may используется базовая форма. С глаголом be правильно: may be."
+      },
+      {
+        "id": "q6",
+        "type": "fill_blank",
+        "prompt": "I ___ forget the meeting. (возможно)",
+        "theory_block_id": "b1_probability_meaning",
+        "difficulty": 2,
+        "correct_answer": "may",
+        "explanation": "May используется для выражения возможности. Здесь говорящий не уверен, что вспомнит."
+      },
+      {
+        "id": "q7",
+        "type": "true_false",
+        "prompt": "Фраза 'They might be busy' означает уверенность, что они заняты.",
+        "theory_block_id": "b1_probability_meaning",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Might передает предположение. Это не утверждение факта, а вероятное предположение."
+      },
+      {
+        "id": "q8",
+        "type": "mcq_single",
+        "prompt": "Выберите фразу, которая передает предположение.",
+        "theory_block_id": "b1_probability_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She is the manager."
+          },
+          {
+            "id": "b",
+            "text": "She might be the manager."
+          },
+          {
+            "id": "c",
+            "text": "She was the manager."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Might показывает, что это только предположение. Остальные варианты звучат как факт."
+      },
+      {
+        "id": "q9",
+        "type": "fill_blank",
+        "prompt": "The train ___ arrive late. (возможно)",
+        "theory_block_id": "b1_probability_meaning",
+        "difficulty": 2,
+        "correct_answer": "might",
+        "explanation": "Might выражает вероятность события. Мы не уверены, но допускаем задержку."
+      },
+      {
+        "id": "q10",
+        "type": "mcq_single",
+        "prompt": "Какая фраза звучит как осторожное предположение?",
+        "theory_block_id": "b1_probability_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It will snow tomorrow."
+          },
+          {
+            "id": "b",
+            "text": "It may snow tomorrow."
+          },
+          {
+            "id": "c",
+            "text": "It snowed tomorrow."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "May указывает на возможность, а не точный прогноз. Форма will делает утверждение более уверенным."
+      },
+      {
+        "id": "q11",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'He mights be in a meeting.'",
+        "theory_block_id": "b1_probability_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He might be in a meeting."
+          },
+          {
+            "id": "b",
+            "text": "He mights be in a meeting."
+          },
+          {
+            "id": "c",
+            "text": "He may be in a meeting."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Модальные глаголы не принимают -s. Правильно: might be."
+      },
+      {
+        "id": "q12",
+        "type": "true_false",
+        "prompt": "May/might часто используются как перевод «может быть».",
+        "theory_block_id": "b1_probability_meaning",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "May/might выражают вероятность. Это базовое значение для A2."
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: 'He ___ go with us.'",
+        "theory_block_id": "b2_form_may_might",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "may"
+          },
+          {
+            "id": "b",
+            "text": "mays"
+          },
+          {
+            "id": "c",
+            "text": "may to"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "May не меняется по лицам и не требует to. Правильно: he may go."
+      },
+      {
+        "id": "q14",
+        "type": "fill_blank",
+        "prompt": "They might ___ early. (прийти)",
+        "theory_block_id": "b2_form_may_might",
+        "difficulty": 1,
+        "correct_answer": "come",
+        "explanation": "После might стоит базовая форма глагола. Здесь правильный вариант: come."
+      },
+      {
+        "id": "q15",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'She may to leave now.'",
+        "theory_block_id": "b2_form_may_might",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She may leave now."
+          },
+          {
+            "id": "b",
+            "text": "She may to leave now."
+          },
+          {
+            "id": "c",
+            "text": "She might leave now."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После may не используется to. Нужна базовая форма leave."
+      },
+      {
+        "id": "q16",
+        "type": "true_false",
+        "prompt": "После may/might используется форма V1.",
+        "theory_block_id": "b2_form_may_might",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "May/might — модальные глаголы. После них всегда идет базовая форма."
+      },
+      {
+        "id": "q17",
+        "type": "fill_blank",
+        "prompt": "He may ___ late. (быть)",
+        "theory_block_id": "b2_form_may_might",
+        "difficulty": 1,
+        "correct_answer": "be",
+        "explanation": "С глаголом be структура та же: may + be. Это базовая форма."
+      },
+      {
+        "id": "q18",
+        "type": "mcq_single",
+        "prompt": "Какое предложение грамматически верно?",
+        "theory_block_id": "b2_form_may_might",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She mays arrive soon."
+          },
+          {
+            "id": "b",
+            "text": "She may arrive soon."
+          },
+          {
+            "id": "c",
+            "text": "She may to arrive soon."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "May не принимает окончание -s и не требует to. Поэтому верно: may arrive."
+      },
+      {
+        "id": "q19",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'We might going now.'",
+        "theory_block_id": "b2_form_may_might",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We might go now."
+          },
+          {
+            "id": "b",
+            "text": "We might going now."
+          },
+          {
+            "id": "c",
+            "text": "We may go now."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После might нужна базовая форма go. Форма -ing здесь неверна."
+      },
+      {
+        "id": "q20",
+        "type": "fill_blank",
+        "prompt": "I might ___ the answer. (знать)",
+        "theory_block_id": "b2_form_may_might",
+        "difficulty": 2,
+        "correct_answer": "know",
+        "explanation": "После might используется V1. Поэтому правильная форма know."
+      },
+      {
+        "id": "q21",
+        "type": "true_false",
+        "prompt": "May/might имеют разную форму для he/she/it.",
+        "theory_block_id": "b2_form_may_might",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Модальные глаголы не изменяются по лицам. He/She may, без -s."
+      },
+      {
+        "id": "q22",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную конструкцию.",
+        "theory_block_id": "b2_form_may_might",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "They might to stay."
+          },
+          {
+            "id": "b",
+            "text": "They might stay."
+          },
+          {
+            "id": "c",
+            "text": "They might staying."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Модальный глагол + V1. Никакого to или -ing после might."
+      },
+      {
+        "id": "q23",
+        "type": "fill_blank",
+        "prompt": "She may ___ a taxi. (вызвать)",
+        "theory_block_id": "b2_form_may_might",
+        "difficulty": 2,
+        "correct_answer": "call",
+        "explanation": "После may ставится базовая форма. В этом контексте: call a taxi."
+      },
+      {
+        "id": "q24",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'I may am late.'",
+        "theory_block_id": "b2_form_may_might",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I may be late."
+          },
+          {
+            "id": "b",
+            "text": "I may am late."
+          },
+          {
+            "id": "c",
+            "text": "I might be late."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С глаголом be нужна форма be, а не am. Конструкция: may be."
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Какое предложение означает «возможно, не»?",
+        "theory_block_id": "b3_negatives",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She may not come."
+          },
+          {
+            "id": "b",
+            "text": "She must not come."
+          },
+          {
+            "id": "c",
+            "text": "She does not come."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "May not выражает вероятность отрицания. Must not звучит как запрет."
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "He may ___ agree with us. (отрицание)",
+        "theory_block_id": "b3_negatives",
+        "difficulty": 1,
+        "correct_answer": "not",
+        "explanation": "Отрицание строится как may not. Это означает «возможно, не согласится»."
+      },
+      {
+        "id": "q27",
+        "type": "true_false",
+        "prompt": "May not означает запрет, как mustn't.",
+        "theory_block_id": "b3_negatives",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "May not говорит о вероятности отрицания. Mustn't — это запрет."
+      },
+      {
+        "id": "q28",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'They might not to arrive on time.'",
+        "theory_block_id": "b3_negatives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "They might not arrive on time."
+          },
+          {
+            "id": "b",
+            "text": "They might not to arrive on time."
+          },
+          {
+            "id": "c",
+            "text": "They may not arrive on time."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После might не используется to. Правильно: might not arrive."
+      },
+      {
+        "id": "q29",
+        "type": "fill_blank",
+        "prompt": "We might ___ have enough seats. (отрицание)",
+        "theory_block_id": "b3_negatives",
+        "difficulty": 2,
+        "correct_answer": "not",
+        "explanation": "Отрицание с might делается через not. Значение: возможно, мест не хватит."
+      },
+      {
+        "id": "q30",
+        "type": "mcq_single",
+        "prompt": "Выберите корректное отрицание.",
+        "theory_block_id": "b3_negatives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He mayn't be home."
+          },
+          {
+            "id": "b",
+            "text": "He may not be home."
+          },
+          {
+            "id": "c",
+            "text": "He doesn't may be home."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Стандартная форма отрицания — may not. Mayn't почти не используется."
+      },
+      {
+        "id": "q31",
+        "type": "true_false",
+        "prompt": "Mightn't встречается в разговорной речи чаще, чем mayn't.",
+        "theory_block_id": "b3_negatives",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Mightn't возможно в разговорной речи, а mayn't практически не употребляется. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q32",
+        "type": "fill_blank",
+        "prompt": "The shop may ___ open today. (отрицание)",
+        "theory_block_id": "b3_negatives",
+        "difficulty": 2,
+        "correct_answer": "not",
+        "explanation": "May not + V1 означает «возможно, не». Здесь: may not be open."
+      },
+      {
+        "id": "q33",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'She may not goes there.'",
+        "theory_block_id": "b3_negatives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She may not go there."
+          },
+          {
+            "id": "b",
+            "text": "She may not goes there."
+          },
+          {
+            "id": "c",
+            "text": "She might not go there."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После may not нужна базовая форма go. Окончание -s ошибочно."
+      },
+      {
+        "id": "q34",
+        "type": "mcq_single",
+        "prompt": "Какая фраза передает вероятность отрицания?",
+        "theory_block_id": "b3_negatives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We must not leave."
+          },
+          {
+            "id": "b",
+            "text": "We may not leave."
+          },
+          {
+            "id": "c",
+            "text": "We do not leave."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "May not = возможно, мы не уйдем. Must not — запрет, do not — факт."
+      },
+      {
+        "id": "q35",
+        "type": "fill_blank",
+        "prompt": "He might ___ remember your name. (отрицание)",
+        "theory_block_id": "b3_negatives",
+        "difficulty": 2,
+        "correct_answer": "not",
+        "explanation": "Отрицание ставится после might: might not remember. Это означает «возможно, не вспомнит»."
+      },
+      {
+        "id": "q36",
+        "type": "true_false",
+        "prompt": "May not = запрет, might not = отрицание в прошлом.",
+        "theory_block_id": "b3_negatives",
+        "difficulty": 3,
+        "correct_answer": "false",
+        "explanation": "May not и might not оба выражают вероятность отрицания. Это не запрет и не прошедшее время."
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Как правильно задать вопрос о возможности?",
+        "theory_block_id": "b4_questions_possibility",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Do I may leave early?"
+          },
+          {
+            "id": "b",
+            "text": "May I leave early?"
+          },
+          {
+            "id": "c",
+            "text": "May I to leave early?"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Вопрос строится как May + подлежащее + V1. Do и to не нужны."
+      },
+      {
+        "id": "q38",
+        "type": "fill_blank",
+        "prompt": "___ I sit here? (вежливый вопрос)",
+        "theory_block_id": "b4_questions_possibility",
+        "difficulty": 1,
+        "correct_answer": "May",
+        "explanation": "Вежливый вопрос начинается с May. Это формальная и корректная форма."
+      },
+      {
+        "id": "q39",
+        "type": "true_false",
+        "prompt": "Вопрос 'Might he be late?' означает предположение о возможности.",
+        "theory_block_id": "b4_questions_possibility",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Might в вопросе показывает вероятность. Это осторожный вопрос о возможности."
+      },
+      {
+        "id": "q40",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'May we to start now?'",
+        "theory_block_id": "b4_questions_possibility",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "May we start now?"
+          },
+          {
+            "id": "b",
+            "text": "May we to start now?"
+          },
+          {
+            "id": "c",
+            "text": "Might we start now?"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После may в вопросе используется V1 без to. Правильно: May we start now?"
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "prompt": "Выберите корректный вопрос о возможности.",
+        "theory_block_id": "b4_questions_possibility",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Might she arrives later?"
+          },
+          {
+            "id": "b",
+            "text": "Might she arrive later?"
+          },
+          {
+            "id": "c",
+            "text": "She might arrives later?"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В вопросе модальный глагол стоит перед подлежащим, и используется V1. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q42",
+        "type": "fill_blank",
+        "prompt": "___ he be sick? (вопрос о вероятности)",
+        "theory_block_id": "b4_questions_possibility",
+        "difficulty": 2,
+        "correct_answer": "Might",
+        "explanation": "Для вопроса о вероятности можно использовать Might. Структура: Might he be...?"
+      },
+      {
+        "id": "q43",
+        "type": "true_false",
+        "prompt": "В вопросах с may/might нужен вспомогательный do.",
+        "theory_block_id": "b4_questions_possibility",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "May/might — модальные глаголы, они сами стоят в начале вопроса. Do не используется."
+      },
+      {
+        "id": "q44",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'Might I to borrow your pen?'",
+        "theory_block_id": "b4_questions_possibility",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Might I borrow your pen?"
+          },
+          {
+            "id": "b",
+            "text": "Might I to borrow your pen?"
+          },
+          {
+            "id": "c",
+            "text": "May I borrow your pen?"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После might в вопросе используется V1 без to. Правильно: Might I borrow...?"
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "prompt": "Какой вариант является вежливым вопросом?",
+        "theory_block_id": "b4_questions_possibility",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "May I use your phone?"
+          },
+          {
+            "id": "b",
+            "text": "I use your phone?"
+          },
+          {
+            "id": "c",
+            "text": "Do I may use your phone?"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "May I...? — стандартный вежливый вопрос. Другие варианты грамматически неверны."
+      },
+      {
+        "id": "q46",
+        "type": "fill_blank",
+        "prompt": "___ we park here? (вежливый вопрос)",
+        "theory_block_id": "b4_questions_possibility",
+        "difficulty": 1,
+        "correct_answer": "May",
+        "explanation": "May ставится в начале вежливого вопроса. Это формальный вариант просьбы."
+      },
+      {
+        "id": "q47",
+        "type": "true_false",
+        "prompt": "Вопросы с might звучат более осторожно.",
+        "theory_block_id": "b4_questions_possibility",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Might обычно звучит мягче и менее уверенно, чем may. Это делает вопрос более осторожным."
+      },
+      {
+        "id": "q48",
+        "type": "mcq_single",
+        "prompt": "Какой вопрос о возможности построен правильно?",
+        "theory_block_id": "b4_questions_possibility",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "May we to take a break?"
+          },
+          {
+            "id": "b",
+            "text": "May we take a break?"
+          },
+          {
+            "id": "c",
+            "text": "May we taking a break?"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "После may используется V1. Поэтому правильная форма: May we take a break?"
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "Какое слово обычно звучит чуть менее уверенно?",
+        "theory_block_id": "b5_may_vs_might",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "may"
+          },
+          {
+            "id": "b",
+            "text": "might"
+          },
+          {
+            "id": "c",
+            "text": "must"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Might часто звучит менее уверенно, чем may. Must передает сильную уверенность или обязанность."
+      },
+      {
+        "id": "q50",
+        "type": "true_false",
+        "prompt": "May и might всегда полностью взаимозаменяемы.",
+        "theory_block_id": "b5_may_vs_might",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "В речи они часто близки, но might обычно звучит менее уверенно. Нюанс зависит от контекста."
+      },
+      {
+        "id": "q51",
+        "type": "fill_blank",
+        "prompt": "It ___ rain, but I'm not sure. (менее уверенно)",
+        "theory_block_id": "b5_may_vs_might",
+        "difficulty": 2,
+        "correct_answer": "might",
+        "explanation": "Might показывает меньшую уверенность. Поэтому оно подходит к фразе \"not sure\"."
+      },
+      {
+        "id": "q52",
+        "type": "mcq_single",
+        "prompt": "Выберите вариант с более уверенным оттенком.",
+        "theory_block_id": "b5_may_vs_might",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She might be at home."
+          },
+          {
+            "id": "b",
+            "text": "She may be at home."
+          },
+          {
+            "id": "c",
+            "text": "She can't be at home."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "May звучит чуть более уверенно, чем might. Can't выражает уверенное отрицание."
+      },
+      {
+        "id": "q53",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'He may might come later.'",
+        "theory_block_id": "b5_may_vs_might",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He may come later."
+          },
+          {
+            "id": "b",
+            "text": "He might come later."
+          },
+          {
+            "id": "c",
+            "text": "He may might come later."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нельзя использовать два модальных глагола подряд. Нужно выбрать either may или might."
+      },
+      {
+        "id": "q54",
+        "type": "fill_blank",
+        "prompt": "I ___ be late, but it's unlikely. (менее вероятно)",
+        "theory_block_id": "b5_may_vs_might",
+        "difficulty": 2,
+        "correct_answer": "might",
+        "explanation": "Для меньшей вероятности обычно выбирают might. Оно звучит менее уверенно."
+      },
+      {
+        "id": "q55",
+        "type": "true_false",
+        "prompt": "Might часто используется, когда вероятность кажется ниже.",
+        "theory_block_id": "b5_may_vs_might",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Might обычно передает более слабую уверенность. Это и есть легкая разница."
+      },
+      {
+        "id": "q56",
+        "type": "mcq_single",
+        "prompt": "Какое предложение звучит более осторожно?",
+        "theory_block_id": "b5_may_vs_might",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We may win the game."
+          },
+          {
+            "id": "b",
+            "text": "We might win the game."
+          },
+          {
+            "id": "c",
+            "text": "We will win the game."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Might делает высказывание менее уверенным. Will звучит как уверенный прогноз."
+      },
+      {
+        "id": "q57",
+        "type": "fill_blank",
+        "prompt": "She ___ join us, but I'm not sure. (мягче)",
+        "theory_block_id": "b5_may_vs_might",
+        "difficulty": 2,
+        "correct_answer": "might",
+        "explanation": "Might передает меньшую уверенность. Поэтому оно логично с \"not sure\"."
+      },
+      {
+        "id": "q58",
+        "type": "true_false",
+        "prompt": "May всегда означает более низкую вероятность, чем might.",
+        "theory_block_id": "b5_may_vs_might",
+        "difficulty": 3,
+        "correct_answer": "false",
+        "explanation": "Обычно may звучит чуть увереннее. Поэтому may не означает меньшую вероятность."
+      },
+      {
+        "id": "q59",
+        "type": "mcq_single",
+        "prompt": "Выберите фразу, которая обычно звучит более уверенно.",
+        "theory_block_id": "b5_may_vs_might",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He might come later."
+          },
+          {
+            "id": "b",
+            "text": "He may come later."
+          },
+          {
+            "id": "c",
+            "text": "He came later."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "May звучит немного увереннее, чем might. Вариант c — факт из прошлого."
+      },
+      {
+        "id": "q60",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'They mights be busy.'",
+        "theory_block_id": "b5_may_vs_might",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "They might be busy."
+          },
+          {
+            "id": "b",
+            "text": "They mights be busy."
+          },
+          {
+            "id": "c",
+            "text": "They may be busy."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Модальные глаголы не принимают -s. Правильно: might be."
+      },
+      {
+        "id": "q61",
+        "type": "mcq_single",
+        "prompt": "Какое слово является наречием «возможно»?",
+        "theory_block_id": "b6_maybe_position",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "maybe"
+          },
+          {
+            "id": "b",
+            "text": "may"
+          },
+          {
+            "id": "c",
+            "text": "might"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Maybe — это наречие. May и might — модальные глаголы."
+      },
+      {
+        "id": "q62",
+        "type": "fill_blank",
+        "prompt": "___ we can meet on Friday. (наречие)",
+        "theory_block_id": "b6_maybe_position",
+        "difficulty": 1,
+        "correct_answer": "Maybe",
+        "explanation": "Maybe стоит отдельно и означает «возможно». Оно не соединяется с V1 как модальный глагол."
+      },
+      {
+        "id": "q63",
+        "type": "true_false",
+        "prompt": "Maybe = may + be, это модальный глагол.",
+        "theory_block_id": "b6_maybe_position",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Maybe — это наречие, отдельное слово. May be — это модальный глагол + be."
+      },
+      {
+        "id": "q64",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'May be he is late.'",
+        "theory_block_id": "b6_maybe_position",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Maybe he is late."
+          },
+          {
+            "id": "b",
+            "text": "May be he is late."
+          },
+          {
+            "id": "c",
+            "text": "He may be late."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В начале предложения нужно наречие maybe, а не раздельная форма may be. Правильно: Maybe he is late."
+      },
+      {
+        "id": "q65",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: '___ he is right.'",
+        "theory_block_id": "b6_maybe_position",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Maybe"
+          },
+          {
+            "id": "b",
+            "text": "May"
+          },
+          {
+            "id": "c",
+            "text": "Might"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Здесь нужно наречие, которое стоит отдельно. Maybe подходит в начале предложения."
+      },
+      {
+        "id": "q66",
+        "type": "fill_blank",
+        "prompt": "She ___ be right, but I'm not sure. (модальный глагол)",
+        "theory_block_id": "b6_maybe_position",
+        "difficulty": 2,
+        "correct_answer": "may",
+        "explanation": "May — модальный глагол и стоит перед глаголом be. Здесь это корректная структура."
+      },
+      {
+        "id": "q67",
+        "type": "true_false",
+        "prompt": "Maybe обычно стоит в начале или в середине предложения.",
+        "theory_block_id": "b6_maybe_position",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Maybe — наречие и имеет гибкую позицию. Чаще всего оно стоит в начале."
+      },
+      {
+        "id": "q68",
+        "type": "mcq_single",
+        "prompt": "Какое предложение использует модальный глагол?",
+        "theory_block_id": "b6_maybe_position",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Maybe I am late."
+          },
+          {
+            "id": "b",
+            "text": "I may be late."
+          },
+          {
+            "id": "c",
+            "text": "Maybe I be late."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "May — модальный глагол, он стоит перед V1. Maybe — отдельное наречие."
+      },
+      {
+        "id": "q69",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'May be we can help.'",
+        "theory_block_id": "b6_maybe_position",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Maybe we can help."
+          },
+          {
+            "id": "b",
+            "text": "May be we can help."
+          },
+          {
+            "id": "c",
+            "text": "We may help."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В начале предложения нужно наречие maybe, а не раздельная форма may be. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q70",
+        "type": "fill_blank",
+        "prompt": "___ you can try again later. (наречие)",
+        "theory_block_id": "b6_maybe_position",
+        "difficulty": 1,
+        "correct_answer": "Maybe",
+        "explanation": "Maybe — наречие, и в начале предложения оно звучит естественно. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q71",
+        "type": "true_false",
+        "prompt": "May be и maybe — это одно и то же слово.",
+        "theory_block_id": "b6_maybe_position",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Maybe — наречие. May be — модальный глагол + be, другая структура."
+      },
+      {
+        "id": "q72",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: 'He ___ be late.'",
+        "theory_block_id": "b6_maybe_position",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Maybe"
+          },
+          {
+            "id": "b",
+            "text": "May"
+          },
+          {
+            "id": "c",
+            "text": "Maybe to"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В этой позиции нужен модальный глагол перед be. Поэтому правильный вариант — may."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60",
+      "q61",
+      "q62",
+      "q63",
+      "q64",
+      "q65",
+      "q66",
+      "q67",
+      "q68",
+      "q69",
+      "q70",
+      "q71",
+      "q72"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-19T10:37:06Z",
+    "source": "llm"
+  }
+}
