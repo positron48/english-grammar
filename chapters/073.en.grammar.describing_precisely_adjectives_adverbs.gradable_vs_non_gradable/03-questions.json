@@ -1,0 +1,658 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: The room is ___ cold.",
+      "theory_block_id": "b1_what_gradable",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "very"},
+        {"id": "b", "text": "absolutely"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Cold — gradable, поэтому very cold."
+    },
+    {
+      "id": "q2",
+      "type": "fill_blank",
+      "prompt": "This suitcase is ___ heavy. (довольно)",
+      "theory_block_id": "b1_what_gradable",
+      "difficulty": 1,
+      "correct_answer": "quite",
+      "explanation": "Quite используется с gradable прилагательными."
+    },
+    {
+      "id": "q3",
+      "type": "true_false",
+      "prompt": "Gradable adjectives can have comparative and superlative forms.",
+      "theory_block_id": "b1_what_gradable",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Cold → colder → coldest и т.д."
+    },
+    {
+      "id": "q4",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'The water is very boiling.'",
+      "theory_block_id": "b1_what_gradable",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "The water is boiling."},
+        {"id": "b", "text": "The water is very boiling."},
+        {"id": "c", "text": "The water is very hot."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Boiling — non-gradable, не используется с very."
+    },
+    {
+      "id": "q5",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b1_what_gradable",
+      "difficulty": 2,
+      "correct_answer": "This bag is quite heavy.",
+      "explanation": "Quite + gradable adjective."
+    },
+    {
+      "id": "q6",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: The road is ___ long.",
+      "theory_block_id": "b1_what_gradable",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "very"},
+        {"id": "b", "text": "completely"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Long — gradable, поэтому very long."
+    },
+    {
+      "id": "q7",
+      "type": "fill_blank",
+      "prompt": "The task is ___ easy. (довольно)",
+      "theory_block_id": "b1_what_gradable",
+      "difficulty": 1,
+      "correct_answer": "fairly",
+      "explanation": "Fairly подходит для gradable прилагательных."
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "prompt": "We can say 'very huge' because huge is gradable.",
+      "theory_block_id": "b1_what_gradable",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Huge обычно воспринимается как non-gradable; лучше absolutely huge."
+    },
+    {
+      "id": "q9",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'It was completely cold.'",
+      "theory_block_id": "b1_what_gradable",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "It was very cold."},
+        {"id": "b", "text": "It was completely cold."},
+        {"id": "c", "text": "It was cold."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Cold — gradable, нужен very, not completely."
+    },
+    {
+      "id": "q10",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: She is ___ tall.",
+      "theory_block_id": "b1_what_gradable",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "pretty"},
+        {"id": "b", "text": "absolutely"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Pretty используется с gradable: pretty tall."
+    },
+    {
+      "id": "q11",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b1_what_gradable",
+      "difficulty": 2,
+      "correct_answer": "The test was very difficult.",
+      "explanation": "Very + gradable adjective."
+    },
+    {
+      "id": "q12",
+      "type": "fill_blank",
+      "prompt": "He is ___ strong. (очень)",
+      "theory_block_id": "b1_what_gradable",
+      "difficulty": 1,
+      "correct_answer": "very",
+      "explanation": "Very используется с gradable прилагательными."
+    },
+
+    {
+      "id": "q13",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: The answer is ___ correct.",
+      "theory_block_id": "b2_non_gradable",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "absolutely"},
+        {"id": "b", "text": "very"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Correct часто non-gradable: absolutely correct."
+    },
+    {
+      "id": "q14",
+      "type": "fill_blank",
+      "prompt": "The plan is ___ perfect. (абсолютно)",
+      "theory_block_id": "b2_non_gradable",
+      "difficulty": 1,
+      "correct_answer": "absolutely",
+      "explanation": "Perfect — non-gradable, поэтому absolutely perfect."
+    },
+    {
+      "id": "q15",
+      "type": "true_false",
+      "prompt": "We can say 'very dead' in standard English.",
+      "theory_block_id": "b2_non_gradable",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Dead — абсолют, не используется с very."
+    },
+    {
+      "id": "q16",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'The result is very perfect.'",
+      "theory_block_id": "b2_non_gradable",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "The result is absolutely perfect."},
+        {"id": "b", "text": "The result is very perfect."},
+        {"id": "c", "text": "The result is perfect."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Perfect — non-gradable, нужно absolutely."
+    },
+    {
+      "id": "q17",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b2_non_gradable",
+      "difficulty": 2,
+      "correct_answer": "The solution is completely wrong.",
+      "explanation": "Completely подходит для non-gradable wrong."
+    },
+    {
+      "id": "q18",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: The machine is ___ broken.",
+      "theory_block_id": "b2_non_gradable",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "completely"},
+        {"id": "b", "text": "very"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Broken часто non-gradable: completely broken."
+    },
+    {
+      "id": "q19",
+      "type": "fill_blank",
+      "prompt": "It was ___ impossible. (совершенно)",
+      "theory_block_id": "b2_non_gradable",
+      "difficulty": 1,
+      "correct_answer": "totally",
+      "explanation": "Totally используется с non-gradable."
+    },
+    {
+      "id": "q20",
+      "type": "true_false",
+      "prompt": "Unique is non-gradable in most contexts.",
+      "theory_block_id": "b2_non_gradable",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "Unique обычно абсолют, поэтому non-gradable."
+    },
+    {
+      "id": "q21",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'The answer is very correct.'",
+      "theory_block_id": "b2_non_gradable",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "The answer is absolutely correct."},
+        {"id": "b", "text": "The answer is very correct."},
+        {"id": "c", "text": "The answer is correct."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Correct чаще non-gradable, нужны absolute intensifiers."
+    },
+    {
+      "id": "q22",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b2_non_gradable",
+      "difficulty": 2,
+      "correct_answer": "The statement was absolutely true.",
+      "explanation": "Absolutely используется с non-gradable true."
+    },
+    {
+      "id": "q23",
+      "type": "fill_blank",
+      "prompt": "The cup is ___ empty. (полностью)",
+      "theory_block_id": "b2_non_gradable",
+      "difficulty": 1,
+      "correct_answer": "completely",
+      "explanation": "Empty — non-gradable, поэтому completely empty."
+    },
+    {
+      "id": "q24",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: The idea is ___ ridiculous.",
+      "theory_block_id": "b2_non_gradable",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "utterly"},
+        {"id": "b", "text": "very"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Ridiculous часто non-gradable: utterly ridiculous."
+    },
+
+    {
+      "id": "q25",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: She felt ___ after the exam.",
+      "theory_block_id": "b3_intensifiers_gradable",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "very"},
+        {"id": "b", "text": "absolutely"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Tired — gradable, поэтому very tired."
+    },
+    {
+      "id": "q26",
+      "type": "fill_blank",
+      "prompt": "He is ___ late today. (довольно)",
+      "theory_block_id": "b3_intensifiers_gradable",
+      "difficulty": 1,
+      "correct_answer": "pretty",
+      "explanation": "Pretty используется с gradable."
+    },
+    {
+      "id": "q27",
+      "type": "true_false",
+      "prompt": "We can say 'fairly good' because good is gradable.",
+      "theory_block_id": "b3_intensifiers_gradable",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Fairly + gradable adjective."
+    },
+    {
+      "id": "q28",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'She is absolutely tall.'",
+      "theory_block_id": "b3_intensifiers_gradable",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "She is very tall."},
+        {"id": "b", "text": "She is absolutely tall."},
+        {"id": "c", "text": "She is quite tall."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Tall — gradable, нужен very/quite."
+    },
+    {
+      "id": "q29",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b3_intensifiers_gradable",
+      "difficulty": 2,
+      "correct_answer": "He is very good at chess.",
+      "explanation": "Very + gradable adjective."
+    },
+    {
+      "id": "q30",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: The tea is ___ hot to drink.",
+      "theory_block_id": "b3_intensifiers_gradable",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "too"},
+        {"id": "b", "text": "utterly"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Too используется с gradable: too hot."
+    },
+    {
+      "id": "q31",
+      "type": "fill_blank",
+      "prompt": "The test was ___ difficult. (довольно)",
+      "theory_block_id": "b3_intensifiers_gradable",
+      "difficulty": 1,
+      "correct_answer": "quite",
+      "explanation": "Quite подходит для gradable."
+    },
+    {
+      "id": "q32",
+      "type": "true_false",
+      "prompt": "'Pretty' can be used as an intensifier with gradable adjectives.",
+      "theory_block_id": "b3_intensifiers_gradable",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Pretty late, pretty good и т.д."
+    },
+    {
+      "id": "q33",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'The room is utterly cold.'",
+      "theory_block_id": "b3_intensifiers_gradable",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "The room is very cold."},
+        {"id": "b", "text": "The room is utterly cold."},
+        {"id": "c", "text": "The room is quite cold."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Cold — gradable, не сочетается с utterly."
+    },
+    {
+      "id": "q34",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: He was ___ angry.",
+      "theory_block_id": "b3_intensifiers_gradable",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "very"},
+        {"id": "b", "text": "completely"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Angry — gradable, поэтому very angry."
+    },
+    {
+      "id": "q35",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b3_intensifiers_gradable",
+      "difficulty": 2,
+      "correct_answer": "She is pretty sure about it.",
+      "explanation": "Pretty + gradable adjective sure."
+    },
+    {
+      "id": "q36",
+      "type": "fill_blank",
+      "prompt": "He is ___ hungry. (очень)",
+      "theory_block_id": "b3_intensifiers_gradable",
+      "difficulty": 1,
+      "correct_answer": "very",
+      "explanation": "Very + gradable adjective."
+    },
+
+    {
+      "id": "q37",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: The answer is ___ wrong.",
+      "theory_block_id": "b4_intensifiers_non_gradable",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "completely"},
+        {"id": "b", "text": "very"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Wrong часто non-gradable: completely wrong."
+    },
+    {
+      "id": "q38",
+      "type": "fill_blank",
+      "prompt": "The result is ___ perfect. (абсолютно)",
+      "theory_block_id": "b4_intensifiers_non_gradable",
+      "difficulty": 1,
+      "correct_answer": "absolutely",
+      "explanation": "Absolutely + non-gradable."
+    },
+    {
+      "id": "q39",
+      "type": "true_false",
+      "prompt": "We can say 'utterly impossible'.",
+      "theory_block_id": "b4_intensifiers_non_gradable",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Impossible — non-gradable, utterly подходит."
+    },
+    {
+      "id": "q40",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'The idea is very perfect.'",
+      "theory_block_id": "b4_intensifiers_non_gradable",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "The idea is absolutely perfect."},
+        {"id": "b", "text": "The idea is very perfect."},
+        {"id": "c", "text": "The idea is perfect."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Perfect — non-gradable, нужен absolutely."
+    },
+    {
+      "id": "q41",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b4_intensifiers_non_gradable",
+      "difficulty": 2,
+      "correct_answer": "The plan is totally impossible.",
+      "explanation": "Totally + non-gradable adjective."
+    },
+    {
+      "id": "q42",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: The room is ___ empty.",
+      "theory_block_id": "b4_intensifiers_non_gradable",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "completely"},
+        {"id": "b", "text": "very"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Empty — non-gradable: completely empty."
+    },
+    {
+      "id": "q43",
+      "type": "fill_blank",
+      "prompt": "He is ___ sure. (абсолютно)",
+      "theory_block_id": "b4_intensifiers_non_gradable",
+      "difficulty": 1,
+      "correct_answer": "absolutely",
+      "explanation": "Sure часто non-gradable в этом значении."
+    },
+    {
+      "id": "q44",
+      "type": "true_false",
+      "prompt": "We can say 'completely finished' because finished is non-gradable here.",
+      "theory_block_id": "b4_intensifiers_non_gradable",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "Finished в этом контексте абсолют."
+    },
+    {
+      "id": "q45",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'She is totally happy.'",
+      "theory_block_id": "b4_intensifiers_non_gradable",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "She is very happy."},
+        {"id": "b", "text": "She is totally happy."},
+        {"id": "c", "text": "She is happy."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Happy — gradable, лучше very happy."
+    },
+    {
+      "id": "q46",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: The instructions are ___ clear.",
+      "theory_block_id": "b4_intensifiers_non_gradable",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "absolutely"},
+        {"id": "b", "text": "very"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Clear может быть non-gradable в значении «совершенно ясный»."
+    },
+    {
+      "id": "q47",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b4_intensifiers_non_gradable",
+      "difficulty": 2,
+      "correct_answer": "The answer is absolutely correct.",
+      "explanation": "Absolutely + non-gradable."
+    },
+    {
+      "id": "q48",
+      "type": "fill_blank",
+      "prompt": "The match was ___ perfect. (совершенно)",
+      "theory_block_id": "b4_intensifiers_non_gradable",
+      "difficulty": 1,
+      "correct_answer": "completely",
+      "explanation": "Completely + non-gradable."
+    },
+
+    {
+      "id": "q49",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: I'm ___ exhausted.",
+      "theory_block_id": "b5_borderline_cases",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "absolutely"},
+        {"id": "b", "text": "very"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Exhausted обычно non-gradable, поэтому absolutely exhausted."
+    },
+    {
+      "id": "q50",
+      "type": "fill_blank",
+      "prompt": "It was ___ cold, almost freezing. (очень)",
+      "theory_block_id": "b5_borderline_cases",
+      "difficulty": 2,
+      "correct_answer": "very",
+      "explanation": "Cold — gradable, поэтому very cold."
+    },
+    {
+      "id": "q51",
+      "type": "true_false",
+      "prompt": "'Absolutely freezing' is natural English.",
+      "theory_block_id": "b5_borderline_cases",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "Freezing воспринимается как non-gradable."
+    },
+    {
+      "id": "q52",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'The room is very freezing.'",
+      "theory_block_id": "b5_borderline_cases",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "The room is absolutely freezing."},
+        {"id": "b", "text": "The room is very freezing."},
+        {"id": "c", "text": "The room is very cold."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Freezing лучше с absolutely, не very."
+    },
+    {
+      "id": "q53",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b5_borderline_cases",
+      "difficulty": 2,
+      "correct_answer": "I'm absolutely sure.",
+      "explanation": "Sure часто non-gradable: absolutely sure."
+    },
+    {
+      "id": "q54",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: The idea is ___ terrible.",
+      "theory_block_id": "b5_borderline_cases",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "absolutely"},
+        {"id": "b", "text": "very"}
+      ],
+      "correct_answer": "b",
+      "explanation": "Terrible может быть gradable в значении «очень плохой»."
+    },
+    {
+      "id": "q55",
+      "type": "fill_blank",
+      "prompt": "He is ___ sure about the answer. (абсолютно)",
+      "theory_block_id": "b5_borderline_cases",
+      "difficulty": 2,
+      "correct_answer": "absolutely",
+      "explanation": "Sure в этом значении non-gradable."
+    },
+    {
+      "id": "q56",
+      "type": "true_false",
+      "prompt": "'Very exhausted' is more natural than 'absolutely exhausted'.",
+      "theory_block_id": "b5_borderline_cases",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Exhausted чаще усиливается absolutely."
+    },
+    {
+      "id": "q57",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'She is completely happy.'",
+      "theory_block_id": "b5_borderline_cases",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "She is very happy."},
+        {"id": "b", "text": "She is completely happy."},
+        {"id": "c", "text": "She is quite happy."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Happy обычно gradable, используем very/quite."
+    },
+    {
+      "id": "q58",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b5_borderline_cases",
+      "difficulty": 2,
+      "correct_answer": "It was very cold, almost freezing.",
+      "explanation": "Gradable cold + almost freezing."
+    },
+    {
+      "id": "q59",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: The answer is ___ clear.",
+      "theory_block_id": "b5_borderline_cases",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "absolutely"},
+        {"id": "b", "text": "very"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Clear может быть non-gradable в значении «совершенно ясный»."
+    },
+    {
+      "id": "q60",
+      "type": "fill_blank",
+      "prompt": "The room is ___ hot today. (очень)",
+      "theory_block_id": "b5_borderline_cases",
+      "difficulty": 1,
+      "correct_answer": "very",
+      "explanation": "Hot — gradable, поэтому very hot."
+    }
+  ]
+}
