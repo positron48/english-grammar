@@ -1,0 +1,1267 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.prepositions_verb_patterns.time_prepositions_at_in",
+  "section_id": "en.grammar.prepositions_verb_patterns",
+  "title": "Time prepositions: at/in/on; by/until; during/for (without Perfect yet)",
+  "title_short": "Time prepositions: at/in/on; by/until; during/for",
+  "description": "Как выбирать предлоги времени для точек, дней и периодов, а также различать by/until и during/for без использования Perfect.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "B1",
+  "order": 0,
+  "prerequisites": [],
+  "concept_refs": [
+    "at_time_points",
+    "on_days_dates",
+    "in_periods_parts_of_day",
+    "by_vs_until_deadline",
+    "during_vs_for_duration"
+  ],
+  "learning_objectives": [
+    "Выбирать at для точного времени и коротких точек",
+    "Использовать on для дней, дат и конкретных дней с событиями",
+    "Использовать in для периодов и частей дня, включая устойчивые исключения",
+    "Различать by (к сроку) и until (до момента окончания)",
+    "Различать during (в течение события/периода) и for (длительность)"
+  ],
+  "estimated_minutes": 24,
+  "blocks": [
+    {
+      "id": "b1_at_time_points",
+      "type": "theory",
+      "title": "At используется для точной точки во времени: часы, конкретные моменты, время по расписанию. Мы отвечаем на вопрос *когда именно?* — *at 6:15, at noon, at the end of the lesson*.",
+      "theory": {
+        "concept_id": "at_time_points",
+        "content_md": "**At** используется для **точной точки во времени**: часы, конкретные моменты, время по расписанию. Мы отвечаем на вопрос *когда именно?* — *at 6:15, at noon, at the end of the lesson*.\n\nТакже **at** подходит для коротких событий, воспринимаемых как точка: *at the meeting, at the break*.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "The train leaves at 6:15.",
+            "translation": "Поезд отправляется в 6:15.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Is the meeting at noon?",
+            "translation": "Встреча в полдень?",
+            "tags": [
+              "question"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_time_points",
+      "type": "quiz_inline",
+      "title": "Quick check: at + точное время",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_on_days_dates",
+      "type": "theory",
+      "title": "On используется с днями недели, датами и конкретными днями с событиями: *on Monday, on 12 May, on New Year's Day*. Если есть слово day или конкретный день, чаще всего нужен on.",
+      "theory": {
+        "concept_id": "on_days_dates",
+        "content_md": "**On** используется с **днями недели, датами и конкретными днями с событиями**: *on Monday, on 12 May, on New Year's Day*. Если есть слово **day** или конкретный день, чаще всего нужен **on**.",
+        "key_points": [],
+        "common_mistakes": [
+          {
+            "wrong": "in Monday",
+            "right": "on Monday",
+            "why": "С днями недели используется on, а не in."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Our class is on Wednesday.",
+            "translation": "Наше занятие в среду.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "We don't work on Sundays.",
+            "translation": "Мы не работаем по воскресеньям.",
+            "tags": [
+              "negative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_days_dates",
+      "type": "quiz_inline",
+      "title": "Quick check: on + дни и даты",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14",
+          "q15",
+          "q16",
+          "q17"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_in_periods_parts_of_day",
+      "type": "theory",
+      "title": "In используется с длинными периодами: месяцы, годы, века, сезоны: *in March, in 2024, in winter*. Также in ставится с частями дня: *in the morning, in the afternoon, in the evening*.",
+      "theory": {
+        "concept_id": "in_periods_parts_of_day",
+        "content_md": "**In** используется с **длинными периодами**: месяцы, годы, века, сезоны: *in March, in 2024, in winter*. Также **in** ставится с частями дня: *in the morning, in the afternoon, in the evening*.\n\nВажное исключение: говорим **at night** (а не *in the night*, если это общее значение «ночью»).",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "She was born in 1998.",
+            "translation": "Она родилась в 1998 году.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Do you work at night?",
+            "translation": "Ты работаешь ночью?",
+            "tags": [
+              "question"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "I don't study in the evening.",
+            "translation": "Я не занимаюсь вечером.",
+            "tags": [
+              "negative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_periods_parts",
+      "type": "quiz_inline",
+      "title": "Quick check: in + периоды",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26",
+          "q27",
+          "q28",
+          "q29"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_by_vs_until",
+      "type": "theory",
+      "title": "By говорит о сроке/дедлайне: действие должно быть завершено *к* определенному моменту. Until означает продолжение до момента окончания: действие длится и прекращается в этот момент.",
+      "theory": {
+        "concept_id": "by_vs_until_deadline",
+        "content_md": "**By** говорит о **сроке/дедлайне**: действие должно быть завершено *к* определенному моменту. **Until** означает **продолжение до момента окончания**: действие длится и прекращается в этот момент.\n\nСравните: *Finish the report by Friday* (завершить к пятнице) vs *Stay here until Friday* (оставаться до пятницы).",
+        "key_points": [],
+        "common_mistakes": [
+          {
+            "wrong": "I will stay here by Friday.",
+            "right": "I will stay here until Friday.",
+            "why": "Stay — это длительность, поэтому нужен until."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Please send the file by 5 p.m.",
+            "translation": "Пожалуйста, отправьте файл к 17:00.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "We waited until midnight.",
+            "translation": "Мы ждали до полуночи.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8_quiz_after_by_until",
+      "type": "quiz_inline",
+      "title": "Quick check: by vs until",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38",
+          "q39",
+          "q40",
+          "q41"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_during_vs_for",
+      "type": "theory",
+      "title": "During используется, когда действие происходит внутри события или периода: *during the meeting, during the night*. For отвечает на вопрос сколько времени? и указывает длительность: *for two hours, for a week*.",
+      "theory": {
+        "concept_id": "during_vs_for_duration",
+        "content_md": "**During** используется, когда действие происходит **внутри события или периода**: *during the meeting, during the night*. **For** отвечает на вопрос **сколько времени?** и указывает длительность: *for two hours, for a week*.\n\nВажно: **during** + существительное события/периода, **for** + длительность.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "He fell asleep during the movie.",
+            "translation": "Он заснул во время фильма.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "How long did you wait? — For two hours.",
+            "translation": "Как долго вы ждали? — Два часа.",
+            "tags": [
+              "question"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: The class starts ___ 8:30.",
+        "theory_block_id": "b1_at_time_points",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "at"
+          },
+          {
+            "id": "b",
+            "text": "on"
+          },
+          {
+            "id": "c",
+            "text": "in"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для точного времени по часам используется **at**. Здесь речь о конкретном моменте: 8:30."
+      },
+      {
+        "id": "q2",
+        "type": "fill_blank",
+        "prompt": "Вставьте предлог: I wake up ___ 6 a.m. (предлог времени)",
+        "theory_block_id": "b1_at_time_points",
+        "difficulty": 1,
+        "correct_answer": "at",
+        "explanation": "С конкретными часами употребляется **at**. Это точка во времени."
+      },
+      {
+        "id": "q3",
+        "type": "true_false",
+        "prompt": "We say 'at midnight'.",
+        "theory_block_id": "b1_at_time_points",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Полночь — это конкретный момент, поэтому используется **at**. Формула: at + точная точка."
+      },
+      {
+        "id": "q4",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'The train arrives in 7:45.'",
+        "theory_block_id": "b1_at_time_points",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The train arrives at 7:45."
+          },
+          {
+            "id": "b",
+            "text": "The train arrives in 7:45."
+          },
+          {
+            "id": "c",
+            "text": "The train arrives at 7:45 a.m."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С точным временем нужен **at**, а не in. Вариант a исправляет ошибку."
+      },
+      {
+        "id": "q5",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: Our appointment is ___ noon.",
+        "theory_block_id": "b1_at_time_points",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "at"
+          },
+          {
+            "id": "b",
+            "text": "on"
+          },
+          {
+            "id": "c",
+            "text": "in"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Noon — это конкретная точка во времени. Поэтому правильно **at noon**."
+      },
+      {
+        "id": "q6",
+        "type": "fill_blank",
+        "prompt": "Вставьте предлог: Let's meet ___ the end of the lesson. (предлог времени)",
+        "theory_block_id": "b1_at_time_points",
+        "difficulty": 2,
+        "correct_answer": "at",
+        "explanation": "Выражение **at the end** описывает момент. Это точка во времени, поэтому at."
+      },
+      {
+        "id": "q7",
+        "type": "true_false",
+        "prompt": "We use 'at' with specific clock times.",
+        "theory_block_id": "b1_at_time_points",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Часы обозначают точный момент, и для него используется **at**. Например: at 7:00."
+      },
+      {
+        "id": "q8",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'She called me on 10 p.m.'",
+        "theory_block_id": "b1_at_time_points",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She called me at 10 p.m."
+          },
+          {
+            "id": "b",
+            "text": "She called me on 10 p.m."
+          },
+          {
+            "id": "c",
+            "text": "She called me at 10 p.m. yesterday."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Время по часам требует **at**. Предлог on с часами не используется."
+      },
+      {
+        "id": "q9",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: The show begins ___ 7 o'clock sharp.",
+        "theory_block_id": "b1_at_time_points",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "at"
+          },
+          {
+            "id": "b",
+            "text": "on"
+          },
+          {
+            "id": "c",
+            "text": "in"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "7 o'clock — точное время. Для таких случаев используется **at**."
+      },
+      {
+        "id": "q10",
+        "type": "fill_blank",
+        "prompt": "Вставьте предлог: He left ___ midnight. (предлог времени)",
+        "theory_block_id": "b1_at_time_points",
+        "difficulty": 1,
+        "correct_answer": "at",
+        "explanation": "Midnight — конкретная точка, поэтому **at midnight**. Это правило для точных моментов."
+      },
+      {
+        "id": "q11",
+        "type": "true_false",
+        "prompt": "'At' is used for long periods like years.",
+        "theory_block_id": "b1_at_time_points",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Годы и большие периоды требуют **in**. **At** используется для точных моментов."
+      },
+      {
+        "id": "q12",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: I'll see you ___ the break.",
+        "theory_block_id": "b1_at_time_points",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "at"
+          },
+          {
+            "id": "b",
+            "text": "on"
+          },
+          {
+            "id": "c",
+            "text": "in"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Короткое событие можно воспринимать как точку. Поэтому **at the break** допустимо и естественно."
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: We have a test ___ Monday.",
+        "theory_block_id": "b2_on_days_dates",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "on"
+          },
+          {
+            "id": "b",
+            "text": "in"
+          },
+          {
+            "id": "c",
+            "text": "at"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Дни недели требуют **on**. Monday — конкретный день."
+      },
+      {
+        "id": "q14",
+        "type": "fill_blank",
+        "prompt": "Вставьте предлог: Her birthday is ___ 12 May. (предлог времени)",
+        "theory_block_id": "b2_on_days_dates",
+        "difficulty": 1,
+        "correct_answer": "on",
+        "explanation": "С датами используется **on**. Конкретная дата — это уровень дня."
+      },
+      {
+        "id": "q15",
+        "type": "true_false",
+        "prompt": "We say 'on New Year's Day'.",
+        "theory_block_id": "b2_on_days_dates",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "New Year's Day — конкретный день, поэтому **on**. Это правило для названий дней."
+      },
+      {
+        "id": "q16",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'The shop is closed in Sunday.'",
+        "theory_block_id": "b2_on_days_dates",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The shop is closed on Sunday."
+          },
+          {
+            "id": "b",
+            "text": "The shop is closed in Sunday."
+          },
+          {
+            "id": "c",
+            "text": "The shop is closed on Sundays."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С днями недели нужен **on**. Вариант a исправляет предлог."
+      },
+      {
+        "id": "q17",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: They got married ___ June 20, 2015.",
+        "theory_block_id": "b2_on_days_dates",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "on"
+          },
+          {
+            "id": "b",
+            "text": "in"
+          },
+          {
+            "id": "c",
+            "text": "at"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Полная дата относится к уровню дня. Поэтому используем **on**."
+      },
+      {
+        "id": "q18",
+        "type": "fill_blank",
+        "prompt": "Вставьте предлог: I work ___ Fridays. (предлог времени)",
+        "theory_block_id": "b2_on_days_dates",
+        "difficulty": 1,
+        "correct_answer": "on",
+        "explanation": "С днями недели, включая множественное число, используется **on**. Это стандартное правило."
+      },
+      {
+        "id": "q19",
+        "type": "true_false",
+        "prompt": "We use 'on' with days and dates.",
+        "theory_block_id": "b2_on_days_dates",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "On ставится с днями и датами: on Monday, on 12 May. Это основной принцип."
+      },
+      {
+        "id": "q20",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'The meeting is at Tuesday.'",
+        "theory_block_id": "b2_on_days_dates",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The meeting is on Tuesday."
+          },
+          {
+            "id": "b",
+            "text": "The meeting is at Tuesday."
+          },
+          {
+            "id": "c",
+            "text": "The meeting is on Tuesday morning."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "День недели требует **on**. Предлог at здесь неверен."
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: The festival is ___ the first day of May.",
+        "theory_block_id": "b2_on_days_dates",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "on"
+          },
+          {
+            "id": "b",
+            "text": "in"
+          },
+          {
+            "id": "c",
+            "text": "at"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Когда есть слово day, обычно нужен **on**. Это конкретный день."
+      },
+      {
+        "id": "q22",
+        "type": "fill_blank",
+        "prompt": "Вставьте предлог: We met ___ Christmas Day. (предлог времени)",
+        "theory_block_id": "b2_on_days_dates",
+        "difficulty": 2,
+        "correct_answer": "on",
+        "explanation": "Названия дней праздников относятся к уровню дня. Поэтому **on Christmas Day**."
+      },
+      {
+        "id": "q23",
+        "type": "true_false",
+        "prompt": "'On' is used with months like March.",
+        "theory_block_id": "b2_on_days_dates",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Месяцы требуют **in**: in March. **On** используется для дней и дат."
+      },
+      {
+        "id": "q24",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: She left ___ her birthday.",
+        "theory_block_id": "b2_on_days_dates",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "on"
+          },
+          {
+            "id": "b",
+            "text": "in"
+          },
+          {
+            "id": "c",
+            "text": "at"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Her birthday — конкретный день, поэтому **on**. Это правило для дней и дат."
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: He was born ___ 1990.",
+        "theory_block_id": "b3_in_periods_parts_of_day",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "in"
+          },
+          {
+            "id": "b",
+            "text": "on"
+          },
+          {
+            "id": "c",
+            "text": "at"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Годы — это длительные периоды. С ними используется **in**."
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "Вставьте предлог: We usually travel ___ summer. (предлог времени)",
+        "theory_block_id": "b3_in_periods_parts_of_day",
+        "difficulty": 1,
+        "correct_answer": "in",
+        "explanation": "Сезоны требуют **in**: in summer, in winter. Это правило для больших периодов."
+      },
+      {
+        "id": "q27",
+        "type": "true_false",
+        "prompt": "We say 'in the morning'.",
+        "theory_block_id": "b3_in_periods_parts_of_day",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Части дня обычно сочетаются с **in**: in the morning/afternoon/evening. Это устойчивое правило."
+      },
+      {
+        "id": "q28",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'I go jogging on the morning.'",
+        "theory_block_id": "b3_in_periods_parts_of_day",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I go jogging in the morning."
+          },
+          {
+            "id": "b",
+            "text": "I go jogging on the morning."
+          },
+          {
+            "id": "c",
+            "text": "I go jogging in the early morning."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Части дня требуют **in**, а не on. Правильно: in the morning."
+      },
+      {
+        "id": "q29",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: The project started ___ April.",
+        "theory_block_id": "b3_in_periods_parts_of_day",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "in"
+          },
+          {
+            "id": "b",
+            "text": "on"
+          },
+          {
+            "id": "c",
+            "text": "at"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Месяцы относятся к периоду, поэтому **in April**. Это стандартное правило."
+      },
+      {
+        "id": "q30",
+        "type": "fill_blank",
+        "prompt": "Вставьте предлог: They moved here ___ 2012. (предлог времени)",
+        "theory_block_id": "b3_in_periods_parts_of_day",
+        "difficulty": 1,
+        "correct_answer": "in",
+        "explanation": "С годами используется **in**. Это длинный период, не конкретный день."
+      },
+      {
+        "id": "q31",
+        "type": "true_false",
+        "prompt": "We say 'at night' for the general meaning.",
+        "theory_block_id": "b3_in_periods_parts_of_day",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Общее значение «ночью» выражается через **at night**. Это исключение среди частей дня."
+      },
+      {
+        "id": "q32",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'The baby sleeps in night.'",
+        "theory_block_id": "b3_in_periods_parts_of_day",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The baby sleeps at night."
+          },
+          {
+            "id": "b",
+            "text": "The baby sleeps in night."
+          },
+          {
+            "id": "c",
+            "text": "The baby sleeps at night in winter."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для общего значения «ночью» нужен **at night**. Предлог in здесь неверен."
+      },
+      {
+        "id": "q33",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: Sales usually rise ___ December.",
+        "theory_block_id": "b3_in_periods_parts_of_day",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "in"
+          },
+          {
+            "id": "b",
+            "text": "on"
+          },
+          {
+            "id": "c",
+            "text": "at"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "December — месяц, поэтому **in December**. Это правило для периодов."
+      },
+      {
+        "id": "q34",
+        "type": "fill_blank",
+        "prompt": "Вставьте предлог: The conference is ___ the afternoon. (предлог времени)",
+        "theory_block_id": "b3_in_periods_parts_of_day",
+        "difficulty": 1,
+        "correct_answer": "in",
+        "explanation": "Части дня требуют **in**: in the afternoon. Это устойчивое сочетание."
+      },
+      {
+        "id": "q35",
+        "type": "true_false",
+        "prompt": "'In' is used with centuries, like in the 21st century.",
+        "theory_block_id": "b3_in_periods_parts_of_day",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Века — длительные периоды, поэтому используется **in**. Пример: in the 21st century."
+      },
+      {
+        "id": "q36",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: I'll call you ___ the evening.",
+        "theory_block_id": "b3_in_periods_parts_of_day",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "in"
+          },
+          {
+            "id": "b",
+            "text": "on"
+          },
+          {
+            "id": "c",
+            "text": "at"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Evening — часть дня, поэтому **in the evening**. Это стандартное правило."
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: Finish the report ___ Friday.",
+        "theory_block_id": "b4_by_vs_until",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "by"
+          },
+          {
+            "id": "b",
+            "text": "until"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "**By** указывает дедлайн: завершить не позже пятницы. Это не продолжительность, а срок."
+      },
+      {
+        "id": "q38",
+        "type": "fill_blank",
+        "prompt": "Вставьте предлог: We stayed there ___ midnight. (предлог времени)",
+        "theory_block_id": "b4_by_vs_until",
+        "difficulty": 2,
+        "correct_answer": "until",
+        "explanation": "Здесь действие продолжалось и закончилось в момент. Для этого используется **until**."
+      },
+      {
+        "id": "q39",
+        "type": "true_false",
+        "prompt": "'By 6 p.m.' means the action should be finished no later than 6.",
+        "theory_block_id": "b4_by_vs_until",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "By обозначает срок завершения. Это значит «не позже 6»."
+      },
+      {
+        "id": "q40",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'I will wait by 7 o'clock.'",
+        "theory_block_id": "b4_by_vs_until",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I will wait until 7 o'clock."
+          },
+          {
+            "id": "b",
+            "text": "I will wait by 7 o'clock."
+          },
+          {
+            "id": "c",
+            "text": "I will wait until seven."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Wait описывает длительность, поэтому нужен **until**. By здесь неверен."
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: Can you send it ___ tomorrow morning?",
+        "theory_block_id": "b4_by_vs_until",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "by"
+          },
+          {
+            "id": "b",
+            "text": "until"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Речь о сроке отправки. Поэтому **by** — «не позже завтрашнего утра»."
+      },
+      {
+        "id": "q42",
+        "type": "fill_blank",
+        "prompt": "Вставьте предлог: The shop is open ___ 9 p.m. (предлог времени)",
+        "theory_block_id": "b4_by_vs_until",
+        "difficulty": 1,
+        "correct_answer": "until",
+        "explanation": "Open описывает продолжение до момента окончания. Здесь нужен **until**."
+      },
+      {
+        "id": "q43",
+        "type": "true_false",
+        "prompt": "'Until' focuses on the end point of a continuing action.",
+        "theory_block_id": "b4_by_vs_until",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Until показывает границу, до которой длится действие. Это ключевое отличие от by."
+      },
+      {
+        "id": "q44",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'Please finish the form until 5 p.m.'",
+        "theory_block_id": "b4_by_vs_until",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Please finish the form by 5 p.m."
+          },
+          {
+            "id": "b",
+            "text": "Please finish the form until 5 p.m."
+          },
+          {
+            "id": "c",
+            "text": "Please finish the form by five."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Finish — это завершение, нужен дедлайн **by**. Until используется для длительности."
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: We don't leave ___ the rain stops.",
+        "theory_block_id": "b4_by_vs_until",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "until"
+          },
+          {
+            "id": "b",
+            "text": "by"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Мы остаемся и заканчиваем действие в момент остановки дождя. Это **until**."
+      },
+      {
+        "id": "q46",
+        "type": "fill_blank",
+        "prompt": "Вставьте предлог: Please reply ___ Monday. (предлог времени)",
+        "theory_block_id": "b4_by_vs_until",
+        "difficulty": 1,
+        "correct_answer": "by",
+        "explanation": "Reply — это действие с дедлайном. Правильно: **by Monday**."
+      },
+      {
+        "id": "q47",
+        "type": "true_false",
+        "prompt": "By describes a deadline, not duration.",
+        "theory_block_id": "b4_by_vs_until",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "By указывает срок завершения. Длительность описывается другими конструкциями."
+      },
+      {
+        "id": "q48",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: I will be here ___ noon, then I have to go.",
+        "theory_block_id": "b4_by_vs_until",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "until"
+          },
+          {
+            "id": "b",
+            "text": "by"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Фраза описывает продолжение до определенного момента. Поэтому нужно **until**."
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: He fell asleep ___ the lecture.",
+        "theory_block_id": "b5_during_vs_for",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "during"
+          },
+          {
+            "id": "b",
+            "text": "for"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Lecture — событие, внутри которого произошло действие. Для этого используется **during**."
+      },
+      {
+        "id": "q50",
+        "type": "fill_blank",
+        "prompt": "Вставьте предлог: We waited ___ two hours. (предлог времени)",
+        "theory_block_id": "b5_during_vs_for",
+        "difficulty": 1,
+        "correct_answer": "for",
+        "explanation": "Длительность выражается через **for**. Здесь ответ на вопрос «сколько времени?»."
+      },
+      {
+        "id": "q51",
+        "type": "true_false",
+        "prompt": "During is followed by a noun (event/period).",
+        "theory_block_id": "b5_during_vs_for",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "После during обычно идет существительное события или периода: during the meeting, during the night."
+      },
+      {
+        "id": "q52",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'She was silent for the meeting.'",
+        "theory_block_id": "b5_during_vs_for",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She was silent during the meeting."
+          },
+          {
+            "id": "b",
+            "text": "She was silent for the meeting."
+          },
+          {
+            "id": "c",
+            "text": "She was silent for two minutes."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Meeting — это событие, значит нужен **during**. For используется для длительности."
+      },
+      {
+        "id": "q53",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: We talked ___ lunch.",
+        "theory_block_id": "b5_during_vs_for",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "during"
+          },
+          {
+            "id": "b",
+            "text": "for"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Lunch — событие, внутри которого происходило действие. Поэтому **during**."
+      },
+      {
+        "id": "q54",
+        "type": "fill_blank",
+        "prompt": "Вставьте предлог: They stayed in Paris ___ a week. (предлог времени)",
+        "theory_block_id": "b5_during_vs_for",
+        "difficulty": 1,
+        "correct_answer": "for",
+        "explanation": "Мы говорим о длительности в неделю. Для этого используется **for**."
+      },
+      {
+        "id": "q55",
+        "type": "true_false",
+        "prompt": "'For' answers 'how long?'.",
+        "theory_block_id": "b5_during_vs_for",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "For выражает продолжительность. Это прямой ответ на вопрос «how long?»."
+      },
+      {
+        "id": "q56",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'I slept during three hours.'",
+        "theory_block_id": "b5_during_vs_for",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I slept for three hours."
+          },
+          {
+            "id": "b",
+            "text": "I slept during three hours."
+          },
+          {
+            "id": "c",
+            "text": "I slept for a short time."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Three hours — длительность, поэтому нужен **for**. During требует событие или период как существительное."
+      },
+      {
+        "id": "q57",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: The lights went out ___ the storm.",
+        "theory_block_id": "b5_during_vs_for",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "during"
+          },
+          {
+            "id": "b",
+            "text": "for"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Storm — событие, внутри которого произошло действие. Для этого используется **during**."
+      },
+      {
+        "id": "q58",
+        "type": "fill_blank",
+        "prompt": "Вставьте предлог: He worked there ___ five years. (предлог времени)",
+        "theory_block_id": "b5_during_vs_for",
+        "difficulty": 2,
+        "correct_answer": "for",
+        "explanation": "Five years — длительность, поэтому используем **for**. Это ответ на «сколько?»."
+      },
+      {
+        "id": "q59",
+        "type": "true_false",
+        "prompt": "'During' can be used with a number like 'during two days'.",
+        "theory_block_id": "b5_during_vs_for",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Числовая длительность требует **for**. During используется с существительным события/периода."
+      },
+      {
+        "id": "q60",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: She felt sick ___ the trip.",
+        "theory_block_id": "b5_during_vs_for",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "during"
+          },
+          {
+            "id": "b",
+            "text": "for"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Trip — событие, внутри которого происходило состояние. Поэтому **during**."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-19T18:30:31Z",
+    "source": "llm"
+  }
+}
