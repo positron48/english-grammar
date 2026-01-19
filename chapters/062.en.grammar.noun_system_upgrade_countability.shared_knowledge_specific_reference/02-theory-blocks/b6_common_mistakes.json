@@ -1,0 +1,28 @@
+{
+  "theory_block": {
+    "id": "b6_common_mistakes",
+    "concept_id": "the_common_mistakes",
+    "content_md": "Типичные ошибки: использовать **the** при первом упоминании без контекста или опускать **the**, когда объект уже конкретный.\n\nСначала вводим новый объект (a/an), затем используем the для ссылки на него.",
+    "examples": [
+      {
+        "id": "ex1",
+        "text": "I saw a cat. The cat was black.",
+        "translation": "Я увидел кота. Кот был черным.",
+        "tags": ["affirmative", "specific"]
+      },
+      {
+        "id": "ex2",
+        "text": "Please close the door.",
+        "translation": "Пожалуйста, закрой дверь.",
+        "tags": ["affirmative", "specific"]
+      }
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "I bought the book yesterday. (first mention)",
+        "right": "I bought a book yesterday.",
+        "why": "Если книга упоминается впервые и не конкретизирована, используем a/an."
+      }
+    ]
+  }
+}

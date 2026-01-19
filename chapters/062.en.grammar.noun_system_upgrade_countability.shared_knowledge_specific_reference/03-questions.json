@@ -1,0 +1,880 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: ___ meeting starts at 3.",
+      "theory_block_id": "b1_shared_knowledge",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The"
+        },
+        {
+          "id": "b",
+          "text": "A"
+        },
+        {
+          "id": "c",
+          "text": "An"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Meeting здесь общий контекст: мы знаем, о какой встрече речь. Поэтому the."
+    },
+    {
+      "id": "q2",
+      "type": "fill_blank",
+      "prompt": "Did you talk to ___ manager? (мы оба знаем, какой)",
+      "theory_block_id": "b1_shared_knowledge",
+      "difficulty": 1,
+      "correct_answer": "the",
+      "explanation": "Shared knowledge → the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q3",
+      "type": "true_false",
+      "prompt": "The используется, когда говорящий и слушатель знают, о каком объекте речь.",
+      "theory_block_id": "b1_shared_knowledge",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Это базовое значение the — shared knowledge. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q4",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: ___ party was great.",
+      "theory_block_id": "b1_shared_knowledge",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The"
+        },
+        {
+          "id": "b",
+          "text": "A"
+        },
+        {
+          "id": "c",
+          "text": "An"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "The party — речь о конкретной вечеринке, известной обеим сторонам. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q5",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'The meeting is at 3' (без контекста).",
+      "theory_block_id": "b1_shared_knowledge",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The meeting is at 3 (если встреча уже известна)."
+        },
+        {
+          "id": "b",
+          "text": "A meeting is at 3."
+        },
+        {
+          "id": "c",
+          "text": "The meeting is at 3."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "The требует общего контекста. Без него лучше a meeting. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q6",
+      "type": "fill_blank",
+      "prompt": "___ manager wants to see you. (мы оба знаем)",
+      "theory_block_id": "b1_shared_knowledge",
+      "difficulty": 1,
+      "correct_answer": "the",
+      "explanation": "Shared knowledge → the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q7",
+      "type": "true_false",
+      "prompt": "The можно использовать при первом упоминании без уточнения.",
+      "theory_block_id": "b1_shared_knowledge",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Без общего контекста первое упоминание требует a/an. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q8",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: ___ report is on your desk (мы оба знаем какой).",
+      "theory_block_id": "b1_shared_knowledge",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The"
+        },
+        {
+          "id": "b",
+          "text": "A"
+        },
+        {
+          "id": "c",
+          "text": "An"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Есть конкретный отчет, известный обоим. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q9",
+      "type": "fill_blank",
+      "prompt": "Can you close ___ window? (в этой комнате)",
+      "theory_block_id": "b1_shared_knowledge",
+      "difficulty": 2,
+      "correct_answer": "the",
+      "explanation": "Контекст делает окно конкретным. Используем the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q10",
+      "type": "true_false",
+      "prompt": "The можно использовать, когда объект уникален или конкретен для обоих.",
+      "theory_block_id": "b1_shared_knowledge",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Это ключевой принцип: shared knowledge/specific. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q11",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: I saw a movie. ___ movie was great.",
+      "theory_block_id": "b2_specific_reference",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The"
+        },
+        {
+          "id": "b",
+          "text": "A"
+        },
+        {
+          "id": "c",
+          "text": "An"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Второе упоминание делает объект конкретным, поэтому the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q12",
+      "type": "fill_blank",
+      "prompt": "I bought a book. ___ book is on the table (указание на ранее упомянутый объект)",
+      "theory_block_id": "b2_specific_reference",
+      "difficulty": 1,
+      "correct_answer": "the",
+      "explanation": "Второе упоминание требует the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q13",
+      "type": "true_false",
+      "prompt": "После первого упоминания a/an обычно заменяется на the.",
+      "theory_block_id": "b2_specific_reference",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Когда объект уже известен, используется the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q14",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'I saw a car. A car was red.'",
+      "theory_block_id": "b2_specific_reference",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I saw a car. The car was red."
+        },
+        {
+          "id": "b",
+          "text": "I saw a car. A car was red."
+        },
+        {
+          "id": "c",
+          "text": "I saw a car. The car was red."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Второе упоминание требует the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q15",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: She opened ___ window because it was hot.",
+      "theory_block_id": "b2_specific_reference",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "the"
+        },
+        {
+          "id": "b",
+          "text": "a"
+        },
+        {
+          "id": "c",
+          "text": "an"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Контекст делает окно конкретным. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q16",
+      "type": "fill_blank",
+      "prompt": "We met a client. ___ client asked for a discount (тот самый, ранее упомянутый)",
+      "theory_block_id": "b2_specific_reference",
+      "difficulty": 2,
+      "correct_answer": "the",
+      "explanation": "Второе упоминание → the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q17",
+      "type": "true_false",
+      "prompt": "The используется для конкретного объекта, даже если он упомянут впервые, но понятен по ситуации.",
+      "theory_block_id": "b2_specific_reference",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "Если ситуация делает объект конкретным, the допустим. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q18",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: I lost my keys. ___ keys were in my bag.",
+      "theory_block_id": "b2_specific_reference",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The"
+        },
+        {
+          "id": "b",
+          "text": "A"
+        },
+        {
+          "id": "c",
+          "text": "An"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Keys уже конкретны. Используется the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q19",
+      "type": "fill_blank",
+      "prompt": "I saw a dog. ___ dog was barking (ранее упомянутый объект)",
+      "theory_block_id": "b2_specific_reference",
+      "difficulty": 1,
+      "correct_answer": "the",
+      "explanation": "Второе упоминание → the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q20",
+      "type": "true_false",
+      "prompt": "The всегда используется при первом упоминании.",
+      "theory_block_id": "b2_specific_reference",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "При первом упоминании без контекста нужен a/an. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q21",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: the book ___ is on the table.",
+      "theory_block_id": "b3_defining_phrases",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "that"
+        },
+        {
+          "id": "b",
+          "text": "a"
+        },
+        {
+          "id": "c",
+          "text": "an"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Уточняющая фраза делает объект конкретным. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q22",
+      "type": "fill_blank",
+      "prompt": "I like ___ photo on your desk (уточнение on your desk)",
+      "theory_block_id": "b3_defining_phrases",
+      "difficulty": 1,
+      "correct_answer": "the",
+      "explanation": "Уточнение on your desk делает фото конкретным. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q23",
+      "type": "true_false",
+      "prompt": "The используется с существительными, уточненными фразой who/that/which.",
+      "theory_block_id": "b3_defining_phrases",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Уточнение делает объект конкретным. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q24",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'I liked a movie that we watched yesterday.'",
+      "theory_block_id": "b3_defining_phrases",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I liked the movie that we watched yesterday."
+        },
+        {
+          "id": "b",
+          "text": "I liked a movie that we watched yesterday."
+        },
+        {
+          "id": "c",
+          "text": "I liked the movie we watched yesterday."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Уточнение делает объект конкретным, поэтому the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q25",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: ___ man who called is here.",
+      "theory_block_id": "b3_defining_phrases",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The"
+        },
+        {
+          "id": "b",
+          "text": "A"
+        },
+        {
+          "id": "c",
+          "text": "An"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Who called — уточнение. Это делает объект конкретным. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q26",
+      "type": "fill_blank",
+      "prompt": "She bought ___ dress that you recommended (уточнение that you recommended)",
+      "theory_block_id": "b3_defining_phrases",
+      "difficulty": 2,
+      "correct_answer": "the",
+      "explanation": "Уточнение that you recommended делает платье конкретным. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q27",
+      "type": "true_false",
+      "prompt": "The ставится, когда есть уточняющее определение.",
+      "theory_block_id": "b3_defining_phrases",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Уточнение делает объект конкретным. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q28",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: ___ house we bought is old.",
+      "theory_block_id": "b3_defining_phrases",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The"
+        },
+        {
+          "id": "b",
+          "text": "A"
+        },
+        {
+          "id": "c",
+          "text": "An"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "We bought — уточнение, поэтому the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q29",
+      "type": "fill_blank",
+      "prompt": "He met ___ person who spoke French (уточнение who spoke French)",
+      "theory_block_id": "b3_defining_phrases",
+      "difficulty": 2,
+      "correct_answer": "the",
+      "explanation": "Who spoke French — уточнение. Это делает объект конкретным. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q30",
+      "type": "true_false",
+      "prompt": "The не нужен, если есть уточняющая фраза.",
+      "theory_block_id": "b3_defining_phrases",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Уточнение делает объект конкретным, поэтому the нужен. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q31",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: ___ sun is bright today.",
+      "theory_block_id": "b4_unique_objects",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The"
+        },
+        {
+          "id": "b",
+          "text": "A"
+        },
+        {
+          "id": "c",
+          "text": "An"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Sun — уникальный объект, поэтому the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q32",
+      "type": "fill_blank",
+      "prompt": "___ internet is slow today (уникальный объект)",
+      "theory_block_id": "b4_unique_objects",
+      "difficulty": 1,
+      "correct_answer": "the",
+      "explanation": "Internet — уникальный объект. Используем the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q33",
+      "type": "true_false",
+      "prompt": "The используется с уникальными объектами.",
+      "theory_block_id": "b4_unique_objects",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Sun, moon, internet — уникальные. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q34",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'A sun is setting.'",
+      "theory_block_id": "b4_unique_objects",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The sun is setting."
+        },
+        {
+          "id": "b",
+          "text": "A sun is setting."
+        },
+        {
+          "id": "c",
+          "text": "The sun sets early in winter."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Sun — уникальный объект, нужен the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q35",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: ___ Earth is our planet.",
+      "theory_block_id": "b4_unique_objects",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The"
+        },
+        {
+          "id": "b",
+          "text": "A"
+        },
+        {
+          "id": "c",
+          "text": "An"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Earth — уникальный объект. Нужен the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q36",
+      "type": "fill_blank",
+      "prompt": "___ moon is full tonight (уникальный объект)",
+      "theory_block_id": "b4_unique_objects",
+      "difficulty": 1,
+      "correct_answer": "the",
+      "explanation": "Moon — уникальный объект. Используем the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q37",
+      "type": "true_false",
+      "prompt": "The не используется с уникальными объектами.",
+      "theory_block_id": "b4_unique_objects",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Наоборот, с уникальными объектами нужен the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q38",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: ___ sky is clear.",
+      "theory_block_id": "b4_unique_objects",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The"
+        },
+        {
+          "id": "b",
+          "text": "A"
+        },
+        {
+          "id": "c",
+          "text": "An"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Sky как общий уникальный объект часто используется с the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q39",
+      "type": "fill_blank",
+      "prompt": "We checked ___ weather before the trip (конкретная ситуация)",
+      "theory_block_id": "b4_unique_objects",
+      "difficulty": 2,
+      "correct_answer": "the",
+      "explanation": "Weather в конкретной ситуации — the weather. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q40",
+      "type": "true_false",
+      "prompt": "The internet — пример уникального объекта.",
+      "theory_block_id": "b4_unique_objects",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Internet — уникальный объект, используем the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q41",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: I'll see you in ___ kitchen.",
+      "theory_block_id": "b5_place_context",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "the"
+        },
+        {
+          "id": "b",
+          "text": "a"
+        },
+        {
+          "id": "c",
+          "text": "an"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Контекст (этот дом) делает кухню конкретной. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q42",
+      "type": "fill_blank",
+      "prompt": "___ bus is late again. (тот, который ждем)",
+      "theory_block_id": "b5_place_context",
+      "difficulty": 2,
+      "correct_answer": "the",
+      "explanation": "Контекст делает автобус конкретным. Используем the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q43",
+      "type": "true_false",
+      "prompt": "The kitchen используется, когда понятно, о какой кухне речь.",
+      "theory_block_id": "b5_place_context",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Контекст делает место конкретным. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q44",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'I'm in kitchen.'",
+      "theory_block_id": "b5_place_context",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I'm in the kitchen."
+        },
+        {
+          "id": "b",
+          "text": "I'm in kitchen."
+        },
+        {
+          "id": "c",
+          "text": "I'm in the office."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Для конкретного места нужен the: the kitchen. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q45",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: ___ meeting was cancelled.",
+      "theory_block_id": "b5_place_context",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The"
+        },
+        {
+          "id": "b",
+          "text": "A"
+        },
+        {
+          "id": "c",
+          "text": "An"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Meeting конкретна по контексту. Используем the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q46",
+      "type": "fill_blank",
+      "prompt": "We waited for ___ train. (тот, который объявили)",
+      "theory_block_id": "b5_place_context",
+      "difficulty": 2,
+      "correct_answer": "the",
+      "explanation": "Контекст делает поезд конкретным. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q47",
+      "type": "true_false",
+      "prompt": "The bus используется, если понятно, о каком автобусе речь.",
+      "theory_block_id": "b5_place_context",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Контекст = конкретный объект. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q48",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: I'll meet you at ___ airport.",
+      "theory_block_id": "b5_place_context",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "the"
+        },
+        {
+          "id": "b",
+          "text": "a"
+        },
+        {
+          "id": "c",
+          "text": "an"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Если речь о конкретном аэропорте, нужен the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q49",
+      "type": "fill_blank",
+      "prompt": "The keys are in ___ car. (той, которую мы используем)",
+      "theory_block_id": "b5_place_context",
+      "difficulty": 2,
+      "correct_answer": "the",
+      "explanation": "Контекст делает машину конкретной. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q50",
+      "type": "true_false",
+      "prompt": "The можно использовать с местами, когда они конкретны в ситуации.",
+      "theory_block_id": "b5_place_context",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Контекст делает место конкретным. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q51",
+      "type": "mcq_single",
+      "prompt": "Какой вариант исправляет ошибку? 'I bought the book yesterday' (first mention).",
+      "theory_block_id": "b6_common_mistakes",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I bought a book yesterday."
+        },
+        {
+          "id": "b",
+          "text": "I bought the book yesterday."
+        },
+        {
+          "id": "c",
+          "text": "I bought book yesterday."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "При первом упоминании без контекста используется a/an. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q52",
+      "type": "fill_blank",
+      "prompt": "We saw a dog. ___ dog was friendly (второе упоминание)",
+      "theory_block_id": "b6_common_mistakes",
+      "difficulty": 1,
+      "correct_answer": "the",
+      "explanation": "Второе упоминание требует the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q53",
+      "type": "true_false",
+      "prompt": "Если объект упоминается впервые и не конкретен, используем the.",
+      "theory_block_id": "b6_common_mistakes",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "В первом упоминании без контекста нужен a/an. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q54",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'Please close door.'",
+      "theory_block_id": "b6_common_mistakes",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Please close the door."
+        },
+        {
+          "id": "b",
+          "text": "Please close door."
+        },
+        {
+          "id": "c",
+          "text": "Please close a door."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Дверь в комнате конкретна, нужен the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q55",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: I saw ___ cat. ___ cat was black.",
+      "theory_block_id": "b6_common_mistakes",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "a / the"
+        },
+        {
+          "id": "b",
+          "text": "the / the"
+        },
+        {
+          "id": "c",
+          "text": "a / a"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Первое упоминание — a, второе — the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q56",
+      "type": "fill_blank",
+      "prompt": "I saw ___ movie yesterday. ___ movie was great (первое упоминание)",
+      "theory_block_id": "b6_common_mistakes",
+      "difficulty": 2,
+      "correct_answer": "a",
+      "explanation": "Первое упоминание — a. Затем будет the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q57",
+      "type": "true_false",
+      "prompt": "The используется с уникальными объектами и конкретными референциями.",
+      "theory_block_id": "b6_common_mistakes",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Это два основных случая для the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q58",
+      "type": "mcq_single",
+      "prompt": "Выберите корректный вариант: Please close ___ window.",
+      "theory_block_id": "b6_common_mistakes",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "the"
+        },
+        {
+          "id": "b",
+          "text": "a"
+        },
+        {
+          "id": "c",
+          "text": "an"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Окно конкретно в текущей ситуации, поэтому the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q59",
+      "type": "fill_blank",
+      "prompt": "We met a client. ___ client asked for a discount (второе упоминание)",
+      "theory_block_id": "b6_common_mistakes",
+      "difficulty": 2,
+      "correct_answer": "the",
+      "explanation": "Второе упоминание — the. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q60",
+      "type": "true_false",
+      "prompt": "The всегда используется с первым упоминанием.",
+      "theory_block_id": "b6_common_mistakes",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Первое упоминание без контекста требует a/an. Это соответствует правилу, разобранному в этом блоке."
+    }
+  ]
+}
