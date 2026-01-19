@@ -1,0 +1,829 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: Each of the reports ___ ready.",
+      "theory_block_id": "b1_each_every",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "is"},
+        {"id": "b", "text": "are"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Each of + plural noun требует глагол в единственном числе. Здесь подлежащее грамматически единственное, поэтому используется is. Это типичная ловушка согласования."
+    },
+    {
+      "id": "q2",
+      "type": "fill_blank",
+      "prompt": "Every student ___ an ID badge. (have)",
+      "theory_block_id": "b1_each_every",
+      "difficulty": 1,
+      "correct_answer": "has",
+      "explanation": "Every рассматривает каждого по отдельности, поэтому глагол в единственном числе. С he/she/it и every используется has."
+    },
+    {
+      "id": "q3",
+      "type": "true_false",
+      "prompt": "Each of the players are late.",
+      "theory_block_id": "b1_each_every",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "После each of глагол обычно в единственном числе. Правильно: Each of the players is late."
+    },
+    {
+      "id": "q4",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'Each applicant have to sign the form.'",
+      "theory_block_id": "b1_each_every",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "Each applicant has to sign the form."},
+        {"id": "b", "text": "Each applicants have to sign the form."},
+        {"id": "c", "text": "Each applicant have to sign the form."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Each требует единственного числа: each applicant has. Исправляем форму глагола."
+    },
+    {
+      "id": "q5",
+      "type": "mcq_single",
+      "prompt": "Every one of the chairs ___ broken.",
+      "theory_block_id": "b1_each_every",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "is"},
+        {"id": "b", "text": "are"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Every one of + plural noun обычно согласуется в единственном числе. Здесь правильная форма is."
+    },
+    {
+      "id": "q6",
+      "type": "fill_blank",
+      "prompt": "Each time he ___, he checks the lock. (leave)",
+      "theory_block_id": "b1_each_every",
+      "difficulty": 2,
+      "correct_answer": "leaves",
+      "explanation": "Each time вводит привычное действие, глагол в единственном числе. Поэтому leaves, а не leave."
+    },
+    {
+      "id": "q7",
+      "type": "mcq_multi",
+      "prompt": "Выберите все грамматически верные варианты про each/every.",
+      "theory_block_id": "b1_each_every",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "Each of the files is important."},
+        {"id": "b", "text": "Each of the files are important."},
+        {"id": "c", "text": "Every student is on time."},
+        {"id": "d", "text": "Every student are on time."}
+      ],
+      "correct_answer": ["a", "c"],
+      "explanation": "Each of и every требуют единственного числа. Поэтому правильны варианты с is."
+    },
+    {
+      "id": "q8",
+      "type": "mcq_single",
+      "prompt": "Every bus and train ___ delayed today.",
+      "theory_block_id": "b1_each_every",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "is"},
+        {"id": "b", "text": "are"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Every относится к каждому элементу, поэтому глагол единственного числа. Несмотря на два существительных, согласование идет как с единственным."
+    },
+    {
+      "id": "q9",
+      "type": "true_false",
+      "prompt": "Each of my friends is invited.",
+      "theory_block_id": "b1_each_every",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Each of + plural noun обычно требует единственного числа. Поэтому is здесь корректно."
+    },
+    {
+      "id": "q10",
+      "type": "fill_blank",
+      "prompt": "Each of my friends ___ invited. (be)",
+      "theory_block_id": "b1_each_every",
+      "difficulty": 1,
+      "correct_answer": "is",
+      "explanation": "Each of задает единственное число, поэтому используем is. Это стандартное согласование."
+    },
+    {
+      "id": "q11",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'Every teacher have a key.'",
+      "theory_block_id": "b1_each_every",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "Every teacher has a key."},
+        {"id": "b", "text": "Every teacher have a key."},
+        {"id": "c", "text": "Every teachers have a key."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Every teacher — единственное число, поэтому нужен has. Исправляем форму глагола."
+    },
+    {
+      "id": "q12",
+      "type": "mcq_single",
+      "prompt": "Each and every member ___ signed the form.",
+      "theory_block_id": "b1_each_every",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "has"},
+        {"id": "b", "text": "have"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Each and every усиливает значение «каждый», поэтому используется единственное число: has signed."
+    },
+
+    {
+      "id": "q13",
+      "type": "mcq_single",
+      "prompt": "Choose the correct verb: None of the milk ___ fresh.",
+      "theory_block_id": "b2_none_agreement",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "is"},
+        {"id": "b", "text": "are"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Milk — неисчисляемое, поэтому глагол в единственном числе. None of the milk is fresh — корректная форма."
+    },
+    {
+      "id": "q14",
+      "type": "fill_blank",
+      "prompt": "None of the guests ___ arrived yet. (auxiliary)",
+      "theory_block_id": "b2_none_agreement",
+      "difficulty": 3,
+      "correct_answer": "have",
+      "explanation": "С исчисляемыми во множественном числе обычно используется plural verb. Здесь логично сказать: None of the guests have arrived."
+    },
+    {
+      "id": "q15",
+      "type": "true_false",
+      "prompt": "None of the information are reliable.",
+      "theory_block_id": "b2_none_agreement",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Information — неисчисляемое, поэтому глагол должен быть в единственном числе. Правильно: None of the information is reliable."
+    },
+    {
+      "id": "q16",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'None of the equipment are ready.'",
+      "theory_block_id": "b2_none_agreement",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "None of the equipment is ready."},
+        {"id": "b", "text": "None of the equipment are ready."},
+        {"id": "c", "text": "None of the equipments are ready."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Equipment — неисчисляемое, поэтому используется единственное число. Вариант a исправляет согласование."
+    },
+    {
+      "id": "q17",
+      "type": "mcq_single",
+      "prompt": "None of the students ___ the rule.",
+      "theory_block_id": "b2_none_agreement",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "know"},
+        {"id": "b", "text": "knows"}
+      ],
+      "correct_answer": "a",
+      "explanation": "С исчисляемыми во множественном числе обычно используется plural verb. Поэтому корректно: None of the students know."
+    },
+    {
+      "id": "q18",
+      "type": "fill_blank",
+      "prompt": "None of this money ___ mine. (be)",
+      "theory_block_id": "b2_none_agreement",
+      "difficulty": 2,
+      "correct_answer": "is",
+      "explanation": "Money — неисчисляемое, поэтому глагол в единственном числе: None of this money is mine."
+    },
+    {
+      "id": "q19",
+      "type": "true_false",
+      "prompt": "None of the players have arrived, so the match is delayed.",
+      "theory_block_id": "b2_none_agreement",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "Players — исчисляемое множественное, поэтому plural verb допустим и естественен. Это обычное согласование с none of."
+    },
+    {
+      "id": "q20",
+      "type": "mcq_multi",
+      "prompt": "Выберите все приемлемые варианты.",
+      "theory_block_id": "b2_none_agreement",
+      "difficulty": 4,
+      "choices": [
+        {"id": "a", "text": "None of the books are interesting."},
+        {"id": "b", "text": "None of the books is interesting."},
+        {"id": "c", "text": "None of the water are cold."},
+        {"id": "d", "text": "None of the water is cold."}
+      ],
+      "correct_answer": ["a", "b", "d"],
+      "explanation": "С книгами возможны оба варианта, хотя plural звучит естественнее. С water — только единственное число, поэтому вариант d. Вариант c неверен из-за согласования."
+    },
+    {
+      "id": "q21",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'None of my luggage are here.'",
+      "theory_block_id": "b2_none_agreement",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "None of my luggage is here."},
+        {"id": "b", "text": "None of my luggage are here."},
+        {"id": "c", "text": "My luggage is not here."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Luggage — неисчисляемое, поэтому согласуется в единственном числе. Правильная форма — is."
+    },
+    {
+      "id": "q22",
+      "type": "mcq_single",
+      "prompt": "None of the advice ___ useful.",
+      "theory_block_id": "b2_none_agreement",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "was"},
+        {"id": "b", "text": "were"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Advice — неисчисляемое, поэтому используется единственное число. None of the advice was useful."
+    },
+    {
+      "id": "q23",
+      "type": "fill_blank",
+      "prompt": "None of the tickets ___ left at the desk. (be)",
+      "theory_block_id": "b2_none_agreement",
+      "difficulty": 2,
+      "correct_answer": "are",
+      "explanation": "Tickets — исчисляемое множественное, поэтому естественно использовать plural verb. None of the tickets are left."
+    },
+    {
+      "id": "q24",
+      "type": "true_false",
+      "prompt": "In 'None of the students is ready', singular is impossible.",
+      "theory_block_id": "b2_none_agreement",
+      "difficulty": 4,
+      "correct_answer": "false",
+      "explanation": "Единственное число возможно, хотя чаще встречается plural. Здесь singular допустим, если мы мысленно говорим о «ни одном»."
+    },
+
+    {
+      "id": "q25",
+      "type": "mcq_single",
+      "prompt": "The police ___ investigating the case.",
+      "theory_block_id": "b3_plural_only_nouns",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "are"},
+        {"id": "b", "text": "is"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Police — plural-only noun. С ним используется plural verb: are investigating."
+    },
+    {
+      "id": "q26",
+      "type": "fill_blank",
+      "prompt": "These clothes ___ too expensive. (be)",
+      "theory_block_id": "b3_plural_only_nouns",
+      "difficulty": 1,
+      "correct_answer": "are",
+      "explanation": "Clothes — существительное только во множественном числе. Поэтому глагол are."
+    },
+    {
+      "id": "q27",
+      "type": "true_false",
+      "prompt": "People is a plural-only noun, so we say 'People are'.",
+      "theory_block_id": "b3_plural_only_nouns",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "People функционирует как множественное. Поэтому правильная форма — people are."
+    },
+    {
+      "id": "q28",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'The cattle is grazing in the field.'",
+      "theory_block_id": "b3_plural_only_nouns",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "The cattle are grazing in the field."},
+        {"id": "b", "text": "The cattle is grazing in the field."},
+        {"id": "c", "text": "The cattles are grazing in the field."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Cattle — plural-only noun. Нужно plural verb: are grazing."
+    },
+    {
+      "id": "q29",
+      "type": "mcq_single",
+      "prompt": "My earnings ___ irregular.",
+      "theory_block_id": "b3_plural_only_nouns",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "are"},
+        {"id": "b", "text": "is"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Earnings употребляется как множественное. Поэтому правильная форма — are."
+    },
+    {
+      "id": "q30",
+      "type": "fill_blank",
+      "prompt": "The stairs ___ slippery after the rain. (be)",
+      "theory_block_id": "b3_plural_only_nouns",
+      "difficulty": 2,
+      "correct_answer": "are",
+      "explanation": "Stairs — plural-only noun, поэтому используется are."
+    },
+    {
+      "id": "q31",
+      "type": "true_false",
+      "prompt": "The police officer is late.",
+      "theory_block_id": "b3_plural_only_nouns",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Police officer — обычное исчисляемое существительное. В единственном числе оно согласуется с is."
+    },
+    {
+      "id": "q32",
+      "type": "mcq_multi",
+      "prompt": "Какие варианты грамматически верны?",
+      "theory_block_id": "b3_plural_only_nouns",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "The police are here."},
+        {"id": "b", "text": "The police is here."},
+        {"id": "c", "text": "People are waiting outside."},
+        {"id": "d", "text": "People is waiting outside."}
+      ],
+      "correct_answer": ["a", "c"],
+      "explanation": "Police и people требуют множественного числа. Поэтому правильны варианты a и c."
+    },
+    {
+      "id": "q33",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'The people is angry about the decision.'",
+      "theory_block_id": "b3_plural_only_nouns",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "The people are angry about the decision."},
+        {"id": "b", "text": "The people is angry about the decision."},
+        {"id": "c", "text": "People are angry about the decision."}
+      ],
+      "correct_answer": "a",
+      "explanation": "People требует plural verb, поэтому нужно are. Вариант a исправляет согласование."
+    },
+    {
+      "id": "q34",
+      "type": "mcq_single",
+      "prompt": "Clothes ___ on sale this week.",
+      "theory_block_id": "b3_plural_only_nouns",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "are"},
+        {"id": "b", "text": "is"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Clothes всегда во множественном числе, поэтому are."
+    },
+    {
+      "id": "q35",
+      "type": "fill_blank",
+      "prompt": "The goods ___ damaged in transit. (be)",
+      "theory_block_id": "b3_plural_only_nouns",
+      "difficulty": 3,
+      "correct_answer": "were",
+      "explanation": "Goods — plural-only noun. В прошедшем времени используется were."
+    },
+    {
+      "id": "q36",
+      "type": "true_false",
+      "prompt": "Cattle is treated as singular in standard English.",
+      "theory_block_id": "b3_plural_only_nouns",
+      "difficulty": 3,
+      "correct_answer": "false",
+      "explanation": "Cattle — plural-only noun и требует plural verb. Поэтому утверждение неверно."
+    },
+
+    {
+      "id": "q37",
+      "type": "mcq_single",
+      "prompt": "The news ___ shocking.",
+      "theory_block_id": "b4_singular_ending_s",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "is"},
+        {"id": "b", "text": "are"}
+      ],
+      "correct_answer": "a",
+      "explanation": "News — существительное единственного числа, несмотря на -s. Поэтому is."
+    },
+    {
+      "id": "q38",
+      "type": "fill_blank",
+      "prompt": "Economics ___ my favorite subject. (be)",
+      "theory_block_id": "b4_singular_ending_s",
+      "difficulty": 2,
+      "correct_answer": "is",
+      "explanation": "Названия наук (economics, physics) обычно согласуются как единственное число."
+    },
+    {
+      "id": "q39",
+      "type": "true_false",
+      "prompt": "Measles are contagious.",
+      "theory_block_id": "b4_singular_ending_s",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Measles грамматически единственное число. Правильно: Measles is contagious."
+    },
+    {
+      "id": "q40",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'Physics are difficult for me.'",
+      "theory_block_id": "b4_singular_ending_s",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "Physics is difficult for me."},
+        {"id": "b", "text": "Physics are difficult for me."},
+        {"id": "c", "text": "Physics were difficult for me."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Physics — единственное число, поэтому требуется is. Вариант a исправляет согласование."
+    },
+    {
+      "id": "q41",
+      "type": "mcq_single",
+      "prompt": "Mathematics ___ hard for him.",
+      "theory_block_id": "b4_singular_ending_s",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "is"},
+        {"id": "b", "text": "are"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Mathematics — название науки, обычно согласуется как единственное число."
+    },
+    {
+      "id": "q42",
+      "type": "fill_blank",
+      "prompt": "Politics ___ complicated. (be)",
+      "theory_block_id": "b4_singular_ending_s",
+      "difficulty": 2,
+      "correct_answer": "is",
+      "explanation": "Politics в значении предмета/сферы деятельности — единственное число. Поэтому используется is."
+    },
+    {
+      "id": "q43",
+      "type": "true_false",
+      "prompt": "The word 'news' takes a plural verb.",
+      "theory_block_id": "b4_singular_ending_s",
+      "difficulty": 1,
+      "correct_answer": "false",
+      "explanation": "News — единственное число. Правильно: the news is."
+    },
+    {
+      "id": "q44",
+      "type": "mcq_multi",
+      "prompt": "Какие предложения верны про news и названия наук?",
+      "theory_block_id": "b4_singular_ending_s",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "Physics is interesting."},
+        {"id": "b", "text": "Physics are interesting."},
+        {"id": "c", "text": "The news is good."},
+        {"id": "d", "text": "The news are good."}
+      ],
+      "correct_answer": ["a", "c"],
+      "explanation": "Названия наук и news согласуются как единственное число. Поэтому верны варианты a и c."
+    },
+    {
+      "id": "q45",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'Economics are taught in this course.'",
+      "theory_block_id": "b4_singular_ending_s",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "Economics is taught in this course."},
+        {"id": "b", "text": "Economics are taught in this course."},
+        {"id": "c", "text": "The course teaches economics."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Economics как предмет — единственное число. Поэтому нужно is taught."
+    },
+    {
+      "id": "q46",
+      "type": "fill_blank",
+      "prompt": "Measles ___ still common in some places. (be)",
+      "theory_block_id": "b4_singular_ending_s",
+      "difficulty": 3,
+      "correct_answer": "is",
+      "explanation": "Measles грамматически единственное число. Поэтому используется is."
+    },
+    {
+      "id": "q47",
+      "type": "mcq_single",
+      "prompt": "Linguistics ___ a separate field.",
+      "theory_block_id": "b4_singular_ending_s",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "is"},
+        {"id": "b", "text": "are"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Linguistics — название науки, обычно согласуется как единственное число."
+    },
+    {
+      "id": "q48",
+      "type": "true_false",
+      "prompt": "Economics can be followed by 'is' in academic context.",
+      "theory_block_id": "b4_singular_ending_s",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "Когда economics — название дисциплины, используется единственное число: economics is."
+    },
+
+    {
+      "id": "q49",
+      "type": "mcq_single",
+      "prompt": "These scissors ___ dull.",
+      "theory_block_id": "b5_pair_nouns",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "are"},
+        {"id": "b", "text": "is"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Scissors — plural-only noun, поэтому используется are."
+    },
+    {
+      "id": "q50",
+      "type": "fill_blank",
+      "prompt": "My trousers ___ in the closet. (be)",
+      "theory_block_id": "b5_pair_nouns",
+      "difficulty": 1,
+      "correct_answer": "are",
+      "explanation": "Trousers — plural-only noun, требует are."
+    },
+    {
+      "id": "q51",
+      "type": "true_false",
+      "prompt": "A pair of jeans is on the chair.",
+      "theory_block_id": "b5_pair_nouns",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "С конструкцией a pair of глагол обычно в единственном числе. Поэтому is корректно."
+    },
+    {
+      "id": "q52",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'A pair of glasses are on the table.'",
+      "theory_block_id": "b5_pair_nouns",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "A pair of glasses is on the table."},
+        {"id": "b", "text": "A pair of glasses are on the table."},
+        {"id": "c", "text": "Glasses are on the table."}
+      ],
+      "correct_answer": "a",
+      "explanation": "A pair of + plural noun согласуется как единственное число. Поэтому используется is."
+    },
+    {
+      "id": "q53",
+      "type": "mcq_single",
+      "prompt": "Those binoculars ___ heavy.",
+      "theory_block_id": "b5_pair_nouns",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "are"},
+        {"id": "b", "text": "is"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Binoculars — plural-only noun. Поэтому требуется are."
+    },
+    {
+      "id": "q54",
+      "type": "fill_blank",
+      "prompt": "The shorts ___ too tight. (be)",
+      "theory_block_id": "b5_pair_nouns",
+      "difficulty": 2,
+      "correct_answer": "are",
+      "explanation": "Shorts — plural-only noun, значит используется are."
+    },
+    {
+      "id": "q55",
+      "type": "true_false",
+      "prompt": "Glasses can take a singular verb when we mean 'a pair of glasses'.",
+      "theory_block_id": "b5_pair_nouns",
+      "difficulty": 3,
+      "correct_answer": "true",
+      "explanation": "В конструкции a pair of glasses ядро — pair, поэтому глагол в единственном числе."
+    },
+    {
+      "id": "q56",
+      "type": "mcq_multi",
+      "prompt": "Выберите корректные варианты с trousers и pair of.",
+      "theory_block_id": "b5_pair_nouns",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "These trousers are new."},
+        {"id": "b", "text": "This trousers is new."},
+        {"id": "c", "text": "This pair of trousers is new."},
+        {"id": "d", "text": "This pair of trousers are new."}
+      ],
+      "correct_answer": ["a", "c"],
+      "explanation": "Trousers требуют множественного числа, а pair of — единственного. Поэтому правильны варианты a и c."
+    },
+    {
+      "id": "q57",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'The scissors is in the drawer.'",
+      "theory_block_id": "b5_pair_nouns",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "The scissors are in the drawer."},
+        {"id": "b", "text": "The scissors is in the drawer."},
+        {"id": "c", "text": "A pair of scissors is in the drawer."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Scissors — plural-only noun. Поэтому нужен глагол во множественном числе: are."
+    },
+    {
+      "id": "q58",
+      "type": "mcq_single",
+      "prompt": "A pair of scissors ___ missing.",
+      "theory_block_id": "b5_pair_nouns",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "is"},
+        {"id": "b", "text": "are"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Ядро конструкции — pair, поэтому глагол единственного числа."
+    },
+    {
+      "id": "q59",
+      "type": "fill_blank",
+      "prompt": "Her sunglasses ___ on the dashboard. (be)",
+      "theory_block_id": "b5_pair_nouns",
+      "difficulty": 2,
+      "correct_answer": "are",
+      "explanation": "Sunglasses — plural-only noun, поэтому are."
+    },
+    {
+      "id": "q60",
+      "type": "true_false",
+      "prompt": "We can say 'a scissors' for one item.",
+      "theory_block_id": "b5_pair_nouns",
+      "difficulty": 3,
+      "correct_answer": "false",
+      "explanation": "Scissors — plural-only noun. Чтобы сказать «одна штука», используют a pair of scissors."
+    },
+
+    {
+      "id": "q61",
+      "type": "mcq_single",
+      "prompt": "A number of employees ___ absent.",
+      "theory_block_id": "b6_quantity_of",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "are"},
+        {"id": "b", "text": "is"}
+      ],
+      "correct_answer": "a",
+      "explanation": "A number of означает «несколько», поэтому глагол во множественном числе."
+    },
+    {
+      "id": "q62",
+      "type": "fill_blank",
+      "prompt": "The number of employees ___ increasing. (be)",
+      "theory_block_id": "b6_quantity_of",
+      "difficulty": 2,
+      "correct_answer": "is",
+      "explanation": "The number of — это «количество» как единое целое. Поэтому используется is."
+    },
+    {
+      "id": "q63",
+      "type": "true_false",
+      "prompt": "A majority of voters are against the plan.",
+      "theory_block_id": "b6_quantity_of",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "Voters — исчисляемое множественное. Поэтому plural verb после a majority of вполне естественен."
+    },
+    {
+      "id": "q64",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'The number of applicants are high this year.'",
+      "theory_block_id": "b6_quantity_of",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "The number of applicants is high this year."},
+        {"id": "b", "text": "The number of applicants are high this year."},
+        {"id": "c", "text": "Applicants are high in number this year."}
+      ],
+      "correct_answer": "a",
+      "explanation": "The number of — единственное число, поэтому нужен is."
+    },
+    {
+      "id": "q65",
+      "type": "mcq_single",
+      "prompt": "Half of the water ___ gone.",
+      "theory_block_id": "b6_quantity_of",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "is"},
+        {"id": "b", "text": "are"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Water — неисчисляемое, поэтому глагол в единственном числе."
+    },
+    {
+      "id": "q66",
+      "type": "fill_blank",
+      "prompt": "A percentage of the students ___ working part-time. (be)",
+      "theory_block_id": "b6_quantity_of",
+      "difficulty": 3,
+      "correct_answer": "are",
+      "explanation": "Students — исчисляемое множественное, поэтому после a percentage of используется plural verb."
+    },
+    {
+      "id": "q67",
+      "type": "true_false",
+      "prompt": "A number of books is on the shelf.",
+      "theory_block_id": "b6_quantity_of",
+      "difficulty": 3,
+      "correct_answer": "false",
+      "explanation": "A number of означает «несколько», поэтому нужно plural verb: are."
+    },
+    {
+      "id": "q68",
+      "type": "mcq_multi",
+      "prompt": "Выберите корректные варианты с a/the number of.",
+      "theory_block_id": "b6_quantity_of",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "The number of cars is rising."},
+        {"id": "b", "text": "A number of cars are parked outside."},
+        {"id": "c", "text": "A number of cars is parked outside."},
+        {"id": "d", "text": "The number of cars are rising."}
+      ],
+      "correct_answer": ["a", "b"],
+      "explanation": "The number of → единственное число, a number of → множественное. Поэтому верны a и b."
+    },
+    {
+      "id": "q69",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'Thirty percent of the workers is satisfied.'",
+      "theory_block_id": "b6_quantity_of",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "Thirty percent of the workers are satisfied."},
+        {"id": "b", "text": "Thirty percent of the workers is satisfied."},
+        {"id": "c", "text": "Thirty percent of the workforce is satisfied."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Workers — исчисляемое множественное, поэтому нужен plural verb. Вариант a исправляет согласование."
+    },
+    {
+      "id": "q70",
+      "type": "mcq_single",
+      "prompt": "A majority of the students ___ supportive.",
+      "theory_block_id": "b6_quantity_of",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "are"},
+        {"id": "b", "text": "is"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Students — множественное, поэтому после a majority of используется plural verb."
+    },
+    {
+      "id": "q71",
+      "type": "fill_blank",
+      "prompt": "Two-thirds of the furniture ___ damaged. (be)",
+      "theory_block_id": "b6_quantity_of",
+      "difficulty": 3,
+      "correct_answer": "is",
+      "explanation": "Furniture — неисчисляемое, поэтому глагол единственного числа."
+    },
+    {
+      "id": "q72",
+      "type": "true_false",
+      "prompt": "In 'The number of students is rising', the verb is singular because 'number' is the head noun.",
+      "theory_block_id": "b6_quantity_of",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "Грамматическое ядро конструкции — number, поэтому согласование в единственном числе. Это типичный контраст с a number of."
+    }
+  ]
+}
