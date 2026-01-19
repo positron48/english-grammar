@@ -1,0 +1,855 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.noun_system_upgrade_countability.special_cases",
+  "section_id": "en.grammar.noun_system_upgrade_countability",
+  "title": "Special cases (geography, institutions, “school vs the school”)",
+  "title_short": "Special cases",
+  "description": "Особые случаи артиклей: география, институции, транспорт и устойчивые выражения (home/bed/work).",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "B1",
+  "order": 0,
+  "prerequisites": [
+    "en.grammar.noun_system_upgrade_countability.zero_article_plurals_abstract"
+  ],
+  "concept_refs": [
+    "geography_with_the",
+    "geography_zero_article",
+    "institutions_function",
+    "institutions_building",
+    "transport_articles",
+    "fixed_expressions_zero"
+  ],
+  "learning_objectives": [
+    "Использовать the/zero с географическими названиями",
+    "Различать school vs the school, hospital vs the hospital",
+    "Выбирать артикль с транспортом: by bus vs on the bus",
+    "Использовать нулевой артикль в устойчивых выражениях (home, bed, work)"
+  ],
+  "estimated_minutes": 26,
+  "blocks": [
+    {
+      "id": "b1_geography_the",
+      "type": "theory",
+      "title": "С the употребляются океаны, моря, реки, горные цепи и группы островов: the Pacific, the Nile, the Alps, the Philippines.",
+      "theory": {
+        "concept_id": "geography_with_the",
+        "content_md": "С **the** употребляются океаны, моря, реки, горные цепи и группы островов: **the Pacific**, **the Nile**, **the Alps**, **the Philippines**.\n\nИдея: это не единичные точки, а «набор/цепь/масса».",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "The Atlantic is stormy today.",
+            "translation": "Атлантика сегодня штормит.",
+            "tags": [
+              "affirmative",
+              "geography"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Did you sail across the Mediterranean?",
+            "translation": "Ты плавал через Средиземное море?",
+            "tags": [
+              "question",
+              "geography"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_geography_the",
+      "type": "quiz_inline",
+      "title": "Quick check: geography with the",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_geography_zero",
+      "type": "theory",
+      "title": "Без артикля обычно идут страны, города, улицы, озера и отдельные горы: France, Tokyo, Oxford Street, Lake Baikal, Mount Everest.",
+      "theory": {
+        "concept_id": "geography_zero_article",
+        "content_md": "Без артикля обычно идут страны, города, улицы, озера и отдельные горы: **France, Tokyo, Oxford Street, Lake Baikal, Mount Everest**.\n\nЭто отдельные «точки» на карте.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "We flew to Italy last week.",
+            "translation": "Мы летали в Италию на прошлой неделе.",
+            "tags": [
+              "affirmative",
+              "geography"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "I live near Lake Como.",
+            "translation": "Я живу рядом с озером Комо.",
+            "tags": [
+              "affirmative",
+              "geography"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_geography_zero",
+      "type": "quiz_inline",
+      "title": "Quick check: geography without article",
+      "quiz_inline": {
+        "question_ids": [
+          "q6",
+          "q7",
+          "q8",
+          "q9",
+          "q10"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_institutions_function",
+      "type": "theory",
+      "title": "Без артикля, когда речь о функции/роли институции: go to school, be in hospital, go to prison.",
+      "theory": {
+        "concept_id": "institutions_function",
+        "content_md": "Без артикля, когда речь о функции/роли институции: **go to school**, **be in hospital**, **go to prison**.\n\nЭто про действие/состояние, а не конкретное здание.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "She goes to school every day.",
+            "translation": "Она ходит в школу каждый день.",
+            "tags": [
+              "affirmative",
+              "institution"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "He isn't in hospital now.",
+            "translation": "Он сейчас не в больнице (как пациент).",
+            "tags": [
+              "negative",
+              "institution"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_institutions_function",
+      "type": "quiz_inline",
+      "title": "Quick check: institutions as function",
+      "quiz_inline": {
+        "question_ids": [
+          "q11",
+          "q12",
+          "q13",
+          "q14",
+          "q15"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_institutions_building",
+      "type": "theory",
+      "title": "С the говорим о конкретном здании: the school on Main Street, the hospital near my house.",
+      "theory": {
+        "concept_id": "institutions_building",
+        "content_md": "С **the** говорим о конкретном здании: **the school on Main Street**, **the hospital near my house**.\n\nЗдесь важно место, а не функция.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "We visited the hospital to see our friend.",
+            "translation": "Мы посетили больницу, чтобы увидеть друга.",
+            "tags": [
+              "affirmative",
+              "specific"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "The school is closed today.",
+            "translation": "Школа сегодня закрыта.",
+            "tags": [
+              "affirmative",
+              "specific"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8_quiz_after_institutions_building",
+      "type": "quiz_inline",
+      "title": "Quick check: institutions as buildings",
+      "quiz_inline": {
+        "question_ids": [
+          "q16",
+          "q17",
+          "q18",
+          "q19",
+          "q20"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_transport",
+      "type": "theory",
+      "title": "By + транспорт без артикля: by bus/train/car — способ передвижения.",
+      "theory": {
+        "concept_id": "transport_articles",
+        "content_md": "**By** + транспорт без артикля: **by bus/train/car** — способ передвижения.\n\nЕсли говорим о конкретном транспорте, используем **the**: *on the bus we took*.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I go to work by bus.",
+            "translation": "Я езжу на работу на автобусе.",
+            "tags": [
+              "affirmative",
+              "transport"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Where is the train we booked?",
+            "translation": "Где поезд, который мы забронировали?",
+            "tags": [
+              "question",
+              "transport"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b10_quiz_after_transport",
+      "type": "quiz_inline",
+      "title": "Quick check: transport",
+      "quiz_inline": {
+        "question_ids": [
+          "q21",
+          "q22",
+          "q23",
+          "q24",
+          "q25"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_fixed_expressions",
+      "type": "theory",
+      "title": "В устойчивых выражениях home/bed/work часто без артикля: go home, go to bed, be at work.",
+      "theory": {
+        "concept_id": "fixed_expressions_zero",
+        "content_md": "В устойчивых выражениях **home/bed/work** часто без артикля: **go home**, **go to bed**, **be at work**.\n\nЕсли говорим о конкретном месте/предмете, возможен **the**: *the bed in that room*, *the home on the hill*.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I go home after work.",
+            "translation": "Я иду домой после работы.",
+            "tags": [
+              "affirmative",
+              "fixed"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "He isn't at home yet.",
+            "translation": "Его еще нет дома.",
+            "tags": [
+              "negative",
+              "fixed"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: We sailed across ___ Pacific.",
+        "theory_block_id": "b1_geography_the",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "the"
+          },
+          {
+            "id": "b",
+            "text": "(no article)"
+          },
+          {
+            "id": "c",
+            "text": "a"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Океаны употребляются с the: the Pacific. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q2",
+        "type": "fill_blank",
+        "prompt": "The Danube flows into ___ Black Sea. (use the)",
+        "theory_block_id": "b1_geography_the",
+        "difficulty": 2,
+        "correct_answer": "the",
+        "explanation": "Моря употребляются с the: the Black Sea. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q3",
+        "type": "true_false",
+        "prompt": "The Alps are a mountain range, so we use 'the'.",
+        "theory_block_id": "b1_geography_the",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Горные цепи обычно с the: the Alps. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q4",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'We crossed Mediterranean by ferry.'",
+        "theory_block_id": "b1_geography_the",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We crossed the Mediterranean by ferry."
+          },
+          {
+            "id": "b",
+            "text": "We crossed Mediterranean by ferry."
+          },
+          {
+            "id": "c",
+            "text": "We crossed the Mediterranean Sea by ferry."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Моря и океаны употребляются с the: the Mediterranean. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q5",
+        "type": "fill_blank",
+        "prompt": "___ Philippines are popular with tourists. (use the)",
+        "theory_block_id": "b1_geography_the",
+        "difficulty": 2,
+        "correct_answer": "the",
+        "explanation": "Группы островов употребляются с the: the Philippines. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q6",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: She lives in ___ Japan.",
+        "theory_block_id": "b2_geography_zero",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "(no article)"
+          },
+          {
+            "id": "b",
+            "text": "the"
+          },
+          {
+            "id": "c",
+            "text": "a"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Страны обычно без артикля: Japan. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q7",
+        "type": "fill_blank",
+        "prompt": "She works on ___ Baker Street. (no article)",
+        "theory_block_id": "b2_geography_zero",
+        "difficulty": 1,
+        "correct_answer": "zero",
+        "explanation": "Улицы обычно без артикля: Baker Street. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q8",
+        "type": "true_false",
+        "prompt": "Lake Victoria usually takes \"the\".",
+        "theory_block_id": "b2_geography_zero",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Озера обычно без артикля: Lake Victoria. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q9",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'He climbed the Mount Fuji.'",
+        "theory_block_id": "b2_geography_zero",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He climbed Mount Fuji."
+          },
+          {
+            "id": "b",
+            "text": "He climbed the Mount Fuji."
+          },
+          {
+            "id": "c",
+            "text": "He climbed Mount Fuji last year."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Отдельные горы обычно без артикля: Mount Fuji. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q10",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: They met in ___ Paris.",
+        "theory_block_id": "b2_geography_zero",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "(no article)"
+          },
+          {
+            "id": "b",
+            "text": "the"
+          },
+          {
+            "id": "c",
+            "text": "a"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Города употребляются без артикля: Paris. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: He is in ___ prison. (as a prisoner)",
+        "theory_block_id": "b3_institutions_function",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "(no article)"
+          },
+          {
+            "id": "b",
+            "text": "the"
+          },
+          {
+            "id": "c",
+            "text": "a"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В значении функции институции используется нулевой артикль: in prison. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q12",
+        "type": "fill_blank",
+        "prompt": "She is at ___ school today. (no article)",
+        "theory_block_id": "b3_institutions_function",
+        "difficulty": 1,
+        "correct_answer": "zero",
+        "explanation": "At school в значении функции без артикля. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q13",
+        "type": "true_false",
+        "prompt": "Go to the hospital always refers to the medical function.",
+        "theory_block_id": "b3_institutions_function",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "The hospital может означать конкретное здание, а не функцию. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q14",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'I go to the school every day.' (general routine)",
+        "theory_block_id": "b3_institutions_function",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I go to school every day."
+          },
+          {
+            "id": "b",
+            "text": "I go to the school every day."
+          },
+          {
+            "id": "c",
+            "text": "I go to the school near my house every day."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "При общем значении функции school используется без артикля. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q15",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: After the accident, he went to ___ hospital. (as a patient)",
+        "theory_block_id": "b3_institutions_function",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "(no article)"
+          },
+          {
+            "id": "b",
+            "text": "the"
+          },
+          {
+            "id": "c",
+            "text": "a"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В значении функции (пациент) hospital обычно без артикля. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q16",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: We waited outside ___ hospital on King Street.",
+        "theory_block_id": "b4_institutions_building",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "the"
+          },
+          {
+            "id": "b",
+            "text": "(no article)"
+          },
+          {
+            "id": "c",
+            "text": "a"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Есть конкретизация места, значит речь о здании: the hospital. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q17",
+        "type": "fill_blank",
+        "prompt": "___ school next to the park is new. (use the)",
+        "theory_block_id": "b4_institutions_building",
+        "difficulty": 1,
+        "correct_answer": "the",
+        "explanation": "Уточнение делает школу конкретной: the school. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q18",
+        "type": "true_false",
+        "prompt": "The church at the corner refers to a specific building.",
+        "theory_block_id": "b4_institutions_building",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Конкретный объект = the. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q19",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'She visited school to see her brother.' (specific building)",
+        "theory_block_id": "b4_institutions_building",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She visited the school to see her brother."
+          },
+          {
+            "id": "b",
+            "text": "She visited school to see her brother."
+          },
+          {
+            "id": "c",
+            "text": "She visited the school near her house to see her brother."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Когда речь о здании, нужен the. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q20",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: We toured ___ prison built in 1890.",
+        "theory_block_id": "b4_institutions_building",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "the"
+          },
+          {
+            "id": "b",
+            "text": "(no article)"
+          },
+          {
+            "id": "c",
+            "text": "a"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Речь о конкретном здании, поэтому the. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: I usually travel ___ train.",
+        "theory_block_id": "b5_transport",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "by"
+          },
+          {
+            "id": "b",
+            "text": "on the"
+          },
+          {
+            "id": "c",
+            "text": "in a"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Способ передвижения: by train без артикля. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q22",
+        "type": "fill_blank",
+        "prompt": "She went to work by ___ bus. (no article)",
+        "theory_block_id": "b5_transport",
+        "difficulty": 1,
+        "correct_answer": "zero",
+        "explanation": "By bus используется без артикля. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q23",
+        "type": "true_false",
+        "prompt": "On the bus we took implies a specific bus.",
+        "theory_block_id": "b5_transport",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "The указывает на конкретный транспорт. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q24",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'He went by the bus every day.'",
+        "theory_block_id": "b5_transport",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He went by bus every day."
+          },
+          {
+            "id": "b",
+            "text": "He went by the bus every day."
+          },
+          {
+            "id": "c",
+            "text": "He went on the bus every day."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "By bus — устойчивое выражение без артикля. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Which is correct for a specific vehicle?",
+        "theory_block_id": "b5_transport",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I left my bag on the train we booked."
+          },
+          {
+            "id": "b",
+            "text": "I left my bag on train we booked."
+          },
+          {
+            "id": "c",
+            "text": "I left my bag by train we booked."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Конкретный поезд требует the: on the train we booked. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q26",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: She is at ___ work now.",
+        "theory_block_id": "b6_fixed_expressions",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "(no article)"
+          },
+          {
+            "id": "b",
+            "text": "the"
+          },
+          {
+            "id": "c",
+            "text": "a"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "At work — устойчивое выражение без артикля. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q27",
+        "type": "fill_blank",
+        "prompt": "He goes to ___ bed at 11. (no article)",
+        "theory_block_id": "b6_fixed_expressions",
+        "difficulty": 1,
+        "correct_answer": "zero",
+        "explanation": "Go to bed в значении режима — без артикля. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q28",
+        "type": "true_false",
+        "prompt": "Go home usually takes no article.",
+        "theory_block_id": "b6_fixed_expressions",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Go home — устойчивое выражение без артикля. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q29",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'I am going to the bed.' (usual routine)",
+        "theory_block_id": "b6_fixed_expressions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I am going to bed."
+          },
+          {
+            "id": "b",
+            "text": "I am going to the bed."
+          },
+          {
+            "id": "c",
+            "text": "I am going to the bed to fix it."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В устойчивом выражении go to bed артикль не нужен. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q30",
+        "type": "mcq_single",
+        "prompt": "Which is correct for a specific home (building)?",
+        "theory_block_id": "b6_fixed_expressions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We visited the home where he grew up."
+          },
+          {
+            "id": "b",
+            "text": "We visited home where he grew up."
+          },
+          {
+            "id": "c",
+            "text": "We visited a home where he grew up."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Конкретный дом требует the. Это соответствует правилу, разобранному в этом блоке."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-19T13:22:24Z",
+    "source": "llm"
+  }
+}
