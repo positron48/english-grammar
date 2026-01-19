@@ -1,0 +1,658 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: She bought a ___ old house.",
+      "theory_block_id": "b1_simple_order",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "beautiful"},
+        {"id": "b", "text": "wooden"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Opinion adjectives like beautiful обычно стоят перед фактическими характеристиками, например old."
+    },
+    {
+      "id": "q2",
+      "type": "fill_blank",
+      "prompt": "It was a ___ long journey. (приятный)",
+      "theory_block_id": "b1_simple_order",
+      "difficulty": 2,
+      "correct_answer": "pleasant",
+      "explanation": "Сначала opinion (pleasant), затем фактическая характеристика (long)."
+    },
+    {
+      "id": "q3",
+      "type": "true_false",
+      "prompt": "In 'a horrible cold day', opinion comes before fact.",
+      "theory_block_id": "b1_simple_order",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Horrible — мнение, cold — факт. Правильный порядок: opinion → fact."
+    },
+    {
+      "id": "q4",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'We rented a apartment cheap.'",
+      "theory_block_id": "b1_simple_order",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "We rented a cheap apartment."},
+        {"id": "b", "text": "We rented a apartment cheap."},
+        {"id": "c", "text": "We rented the cheap apartment."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Прилагательное должно стоять перед существительным: a cheap apartment."
+    },
+    {
+      "id": "q5",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b1_simple_order",
+      "difficulty": 2,
+      "correct_answer": "It was a lovely long weekend.",
+      "explanation": "Сначала мнение lovely, затем фактическая характеристика long."
+    },
+    {
+      "id": "q6",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: a ___ new laptop.",
+      "theory_block_id": "b1_simple_order",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "nice"},
+        {"id": "b", "text": "metal"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Opinion (nice) идет перед фактическими характеристиками, например new."
+    },
+    {
+      "id": "q7",
+      "type": "fill_blank",
+      "prompt": "They chose a ___ modern hotel. (уютный)",
+      "theory_block_id": "b1_simple_order",
+      "difficulty": 2,
+      "correct_answer": "cozy",
+      "explanation": "Cozy — мнение, modern — факт, поэтому cozy ставим первым."
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "prompt": "In 'a metal beautiful statue', the order is correct.",
+      "theory_block_id": "b1_simple_order",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Opinion должно быть первым: a beautiful metal statue."
+    },
+    {
+      "id": "q9",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'He has a jacket warm.'",
+      "theory_block_id": "b1_simple_order",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "He has a warm jacket."},
+        {"id": "b", "text": "He has a jacket warm."},
+        {"id": "c", "text": "He has the warm jacket."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Прилагательное warm должно стоять перед существительным."
+    },
+    {
+      "id": "q10",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: a ___ old painting.",
+      "theory_block_id": "b1_simple_order",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "beautiful"},
+        {"id": "b", "text": "stone"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Beautiful — мнение, old — факт. Opinion стоит первым."
+    },
+    {
+      "id": "q11",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b1_simple_order",
+      "difficulty": 2,
+      "correct_answer": "She bought a lovely new phone.",
+      "explanation": "Lovely (opinion) идет перед new (fact)."
+    },
+    {
+      "id": "q12",
+      "type": "fill_blank",
+      "prompt": "We stayed in a ___ clean room. (очень)",
+      "theory_block_id": "b1_simple_order",
+      "difficulty": 2,
+      "correct_answer": "very",
+      "explanation": "Very усиливает opinion/quality, а clean стоит ближе к существительному."
+    },
+
+    {
+      "id": "q13",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: a ___ old car.",
+      "theory_block_id": "b2_size_age_color",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "big"},
+        {"id": "b", "text": "red"}
+      ],
+      "correct_answer": "a",
+      "explanation": "В порядке size → age → color сначала идет размер."
+    },
+    {
+      "id": "q14",
+      "type": "fill_blank",
+      "prompt": "He bought a ___ red bike. (новый)",
+      "theory_block_id": "b2_size_age_color",
+      "difficulty": 2,
+      "correct_answer": "new",
+      "explanation": "Age (new) стоит перед color (red)."
+    },
+    {
+      "id": "q15",
+      "type": "true_false",
+      "prompt": "In 'a small old house', size comes before age.",
+      "theory_block_id": "b2_size_age_color",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Порядок size → age сохраняется."
+    },
+    {
+      "id": "q16",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'She bought a red small bag.'",
+      "theory_block_id": "b2_size_age_color",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "She bought a small red bag."},
+        {"id": "b", "text": "She bought a red small bag."},
+        {"id": "c", "text": "She bought a small bag."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Размер ставится перед цветом: small red bag."
+    },
+    {
+      "id": "q17",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b2_size_age_color",
+      "difficulty": 2,
+      "correct_answer": "They live in a big old house.",
+      "explanation": "Big (size) стоит перед old (age)."
+    },
+    {
+      "id": "q18",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: a ___ new jacket.",
+      "theory_block_id": "b2_size_age_color",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "black"},
+        {"id": "b", "text": "small"}
+      ],
+      "correct_answer": "b",
+      "explanation": "Размер идет перед возрастом и цветом: small new jacket."
+    },
+    {
+      "id": "q19",
+      "type": "fill_blank",
+      "prompt": "She wore a ___ blue dress. (длинный)",
+      "theory_block_id": "b2_size_age_color",
+      "difficulty": 2,
+      "correct_answer": "long",
+      "explanation": "Size (long) ставится перед color (blue)."
+    },
+    {
+      "id": "q20",
+      "type": "true_false",
+      "prompt": "In 'a new small car', the order is natural.",
+      "theory_block_id": "b2_size_age_color",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Size обычно перед age: a small new car."
+    },
+    {
+      "id": "q21",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'He bought an old big house.'",
+      "theory_block_id": "b2_size_age_color",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "He bought a big old house."},
+        {"id": "b", "text": "He bought an old big house."},
+        {"id": "c", "text": "He bought an old house."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Size обычно ставится перед age: big old house."
+    },
+    {
+      "id": "q22",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b2_size_age_color",
+      "difficulty": 2,
+      "correct_answer": "He bought a small new car.",
+      "explanation": "Размер → возраст: small new car."
+    },
+    {
+      "id": "q23",
+      "type": "fill_blank",
+      "prompt": "They have a ___ old dog. (маленький)",
+      "theory_block_id": "b2_size_age_color",
+      "difficulty": 1,
+      "correct_answer": "small",
+      "explanation": "Size ставится перед age: small old dog."
+    },
+    {
+      "id": "q24",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: a ___ black coat.",
+      "theory_block_id": "b2_size_age_color",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "long"},
+        {"id": "b", "text": "old"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Size (long) перед color (black)."
+    },
+
+    {
+      "id": "q25",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: a ___ Italian restaurant.",
+      "theory_block_id": "b3_material_origin",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "cozy"},
+        {"id": "b", "text": "wooden"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Opinion (cozy) идет перед origin (Italian)."
+    },
+    {
+      "id": "q26",
+      "type": "fill_blank",
+      "prompt": "She bought a beautiful ___ bag. (кожаный)",
+      "theory_block_id": "b3_material_origin",
+      "difficulty": 2,
+      "correct_answer": "leather",
+      "explanation": "Материал стоит ближе к существительному: leather bag."
+    },
+    {
+      "id": "q27",
+      "type": "true_false",
+      "prompt": "In 'a French wooden chair', origin comes before material.",
+      "theory_block_id": "b3_material_origin",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "Origin обычно стоит перед material: French wooden chair."
+    },
+    {
+      "id": "q28",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'a leather Italian bag'",
+      "theory_block_id": "b3_material_origin",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "a beautiful Italian leather bag"},
+        {"id": "b", "text": "a leather Italian bag"},
+        {"id": "c", "text": "an Italian leather bag"}
+      ],
+      "correct_answer": "c",
+      "explanation": "Origin обычно перед material: Italian leather bag."
+    },
+    {
+      "id": "q29",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b3_material_origin",
+      "difficulty": 2,
+      "correct_answer": "She wore a stylish French silk dress.",
+      "explanation": "Opinion → origin → material → noun."
+    },
+    {
+      "id": "q30",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: an ___ wooden table.",
+      "theory_block_id": "b3_material_origin",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "Italian"},
+        {"id": "b", "text": "large"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Origin (Italian) стоит перед material (wooden)."
+    },
+    {
+      "id": "q31",
+      "type": "fill_blank",
+      "prompt": "We bought an ___ chair. (испанский)",
+      "theory_block_id": "b3_material_origin",
+      "difficulty": 2,
+      "correct_answer": "Spanish",
+      "explanation": "Origin adjective ставится перед материалом и существительным."
+    },
+    {
+      "id": "q32",
+      "type": "true_false",
+      "prompt": "Material adjectives usually come right before the noun.",
+      "theory_block_id": "b3_material_origin",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Wooden, leather, silk обычно ближе всего к существительному."
+    },
+    {
+      "id": "q33",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'a silk beautiful scarf'",
+      "theory_block_id": "b3_material_origin",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "a beautiful silk scarf"},
+        {"id": "b", "text": "a silk beautiful scarf"},
+        {"id": "c", "text": "a lovely silk scarf"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Opinion идет перед material: beautiful silk scarf."
+    },
+    {
+      "id": "q34",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: a ___ Japanese knife.",
+      "theory_block_id": "b3_material_origin",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "sharp"},
+        {"id": "b", "text": "steel"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Opinion (sharp) идет перед origin (Japanese)."
+    },
+    {
+      "id": "q35",
+      "type": "fill_blank",
+      "prompt": "He owns a modern ___ watch. (швейцарский)",
+      "theory_block_id": "b3_material_origin",
+      "difficulty": 2,
+      "correct_answer": "Swiss",
+      "explanation": "Origin (Swiss) ставится перед существительным."
+    },
+    {
+      "id": "q36",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b3_material_origin",
+      "difficulty": 2,
+      "correct_answer": "They bought a big wooden table.",
+      "explanation": "Size идет перед material: big wooden table."
+    },
+
+    {
+      "id": "q37",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: a ___ small old round table.",
+      "theory_block_id": "b4_full_osascomp",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "beautiful"},
+        {"id": "b", "text": "wooden"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Opinion стоит первым в схеме OSASCOMP."
+    },
+    {
+      "id": "q38",
+      "type": "fill_blank",
+      "prompt": "She bought a beautiful ___ Italian leather bag. (маленький)",
+      "theory_block_id": "b4_full_osascomp",
+      "difficulty": 3,
+      "correct_answer": "small",
+      "explanation": "В OSASCOMP size идет после opinion и перед origin/material."
+    },
+    {
+      "id": "q39",
+      "type": "true_false",
+      "prompt": "In OSASCOMP, color comes before origin.",
+      "theory_block_id": "b4_full_osascomp",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "Порядок: ... shape → color → origin → material."
+    },
+    {
+      "id": "q40",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'a leather beautiful Italian bag'",
+      "theory_block_id": "b4_full_osascomp",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "a beautiful Italian leather bag"},
+        {"id": "b", "text": "a leather beautiful Italian bag"},
+        {"id": "c", "text": "a beautiful small Italian leather bag"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Opinion должно быть первым, затем origin и material ближе к существительному."
+    },
+    {
+      "id": "q41",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b4_full_osascomp",
+      "difficulty": 3,
+      "correct_answer": "She has a beautiful small Italian leather bag.",
+      "explanation": "Opinion → size → origin → material → noun."
+    },
+    {
+      "id": "q42",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: a ___ round black table.",
+      "theory_block_id": "b4_full_osascomp",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "small"},
+        {"id": "b", "text": "Italian"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Size стоит перед shape/color."
+    },
+    {
+      "id": "q43",
+      "type": "fill_blank",
+      "prompt": "They bought a big old ___ wooden table. (круглый)",
+      "theory_block_id": "b4_full_osascomp",
+      "difficulty": 3,
+      "correct_answer": "round",
+      "explanation": "Shape (round) идет после age и перед material."
+    },
+    {
+      "id": "q44",
+      "type": "true_false",
+      "prompt": "In long adjective chains, purpose usually comes last before the noun.",
+      "theory_block_id": "b4_full_osascomp",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "Purpose обычно ближе всего к существительному: a red plastic sports bottle."
+    },
+    {
+      "id": "q45",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'a small old red leather Italian bag'",
+      "theory_block_id": "b4_full_osascomp",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "a small old red Italian leather bag"},
+        {"id": "b", "text": "a small old red leather Italian bag"},
+        {"id": "c", "text": "a small old red Italian bag"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Origin должен стоять перед material: Italian leather, не leather Italian."
+    },
+    {
+      "id": "q46",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: a ___ plastic lunch box.",
+      "theory_block_id": "b4_full_osascomp",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "small"},
+        {"id": "b", "text": "Italian"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Size идет перед material/purpose."
+    },
+    {
+      "id": "q47",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b4_full_osascomp",
+      "difficulty": 3,
+      "correct_answer": "They bought a big old round wooden table.",
+      "explanation": "Size → age → shape → material."
+    },
+    {
+      "id": "q48",
+      "type": "fill_blank",
+      "prompt": "She wears a beautiful ___ dress. (французский)",
+      "theory_block_id": "b4_full_osascomp",
+      "difficulty": 2,
+      "correct_answer": "French",
+      "explanation": "Origin идет после opinion и перед material."
+    },
+
+    {
+      "id": "q49",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: I want that ___ red car.",
+      "theory_block_id": "b5_fixed_and_focus",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "old"},
+        {"id": "b", "text": "red"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Обычно old идет перед red, даже если возможен акцент на цвет."
+    },
+    {
+      "id": "q50",
+      "type": "fill_blank",
+      "prompt": "He wants that ___ old car, not the blue one. (красный)",
+      "theory_block_id": "b5_fixed_and_focus",
+      "difficulty": 2,
+      "correct_answer": "red",
+      "explanation": "Для акцента на цвет можно поставить его впереди: that red old car."
+    },
+    {
+      "id": "q51",
+      "type": "true_false",
+      "prompt": "Breaking adjective order is sometimes possible for emphasis.",
+      "theory_block_id": "b5_fixed_and_focus",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "Нарушение порядка возможно при сильном акценте в речи."
+    },
+    {
+      "id": "q52",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'She bought a leather beautiful bag.'",
+      "theory_block_id": "b5_fixed_and_focus",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "She bought a beautiful leather bag."},
+        {"id": "b", "text": "She bought a leather beautiful bag."},
+        {"id": "c", "text": "She bought a nice leather bag."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Если нет акцента, соблюдаем нормальный порядок: opinion перед material."
+    },
+    {
+      "id": "q53",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b5_fixed_and_focus",
+      "difficulty": 2,
+      "correct_answer": "That red old car is mine.",
+      "explanation": "Возможно смещение ради фокуса на цвет."
+    },
+    {
+      "id": "q54",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: It's a ___ old house, very quiet.",
+      "theory_block_id": "b5_fixed_and_focus",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "nice"},
+        {"id": "b", "text": "stone"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Opinion обычно стоит первым, а при необходимости можно добавить отдельное предложение."
+    },
+    {
+      "id": "q55",
+      "type": "fill_blank",
+      "prompt": "I want that ___ chair, not the black one. (белый)",
+      "theory_block_id": "b5_fixed_and_focus",
+      "difficulty": 2,
+      "correct_answer": "white",
+      "explanation": "Цвет можно выдвинуть вперед для контраста."
+    },
+    {
+      "id": "q56",
+      "type": "true_false",
+      "prompt": "In careful writing, it is better to keep adjective order stable.",
+      "theory_block_id": "b5_fixed_and_focus",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Норма — сохранять порядок и избегать перегруженных цепочек."
+    },
+    {
+      "id": "q57",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'He bought a metal nice desk.'",
+      "theory_block_id": "b5_fixed_and_focus",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "He bought a nice metal desk."},
+        {"id": "b", "text": "He bought a metal nice desk."},
+        {"id": "c", "text": "He bought a desk made of metal."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Без акцента соблюдаем порядок: opinion перед material."
+    },
+    {
+      "id": "q58",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b5_fixed_and_focus",
+      "difficulty": 2,
+      "correct_answer": "I want the blue old bike.",
+      "explanation": "Смещение возможно, но при желании можно сохранить стандартный порядок."
+    },
+    {
+      "id": "q59",
+      "type": "mcq_single",
+      "prompt": "Choose the correct option: That ___ old car is faster.",
+      "theory_block_id": "b5_fixed_and_focus",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "red"},
+        {"id": "b", "text": "wooden"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Color может быть выдвинут для контраста в разговоре."
+    },
+    {
+      "id": "q60",
+      "type": "fill_blank",
+      "prompt": "She wants that ___ bag, not the brown one. (черный)",
+      "theory_block_id": "b5_fixed_and_focus",
+      "difficulty": 2,
+      "correct_answer": "black",
+      "explanation": "Выдвигаем цвет для фокуса и противопоставления."
+    }
+  ]
+}
