@@ -1,0 +1,1164 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.describing_precisely_adjectives_adverbs.adjective_position_a_nice",
+  "section_id": "en.grammar.describing_precisely_adjectives_adverbs",
+  "title": "Adjective position: a nice place / the place is nice",
+  "title_short": "Adjective position",
+  "description": "Где стоит прилагательное в английском: перед существительным, после глаголов-связок и в постпозиции.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "B1",
+  "order": 0,
+  "prerequisites": [],
+  "concept_refs": [
+    "adjective_before_noun",
+    "adjective_after_linking_verb",
+    "adjective_after_pronouns",
+    "adjective_after_noun_fixed",
+    "object_complement_adjective"
+  ],
+  "learning_objectives": [
+    "Ставить прилагательные перед существительным в обычных описаниях",
+    "Использовать прилагательные после be и других linking verbs",
+    "Понимать постпозицию после something/anyone и некоторых существительных",
+    "Строить фразы с объектом + прилагательное (make/keep/find)"
+  ],
+  "estimated_minutes": 22,
+  "blocks": [
+    {
+      "id": "b1_attributive",
+      "type": "theory",
+      "title": "В английском прилагательное обычно стоит перед существительным: *a nice place, a busy street*. Это стандартная позиция для описаний.",
+      "theory": {
+        "concept_id": "adjective_before_noun",
+        "content_md": "В английском прилагательное обычно стоит **перед существительным**: *a nice place, a busy street*. Это стандартная позиция для описаний.\n\nЕсли есть артикль или притяжательное, прилагательное стоит после него: *a nice place, my new phone*.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "She bought a new jacket.",
+            "translation": "Она купила новую куртку.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Is that a good idea?",
+            "translation": "Это хорошая идея?",
+            "tags": [
+              "question"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_attributive",
+      "type": "quiz_inline",
+      "title": "Quick check: adjective before noun",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_predicative",
+      "type": "theory",
+      "title": "После be и других глаголов-связок прилагательное стоит после глагола: *The place is nice.* К таким глаголам относятся seem, look, feel, become, get.",
+      "theory": {
+        "concept_id": "adjective_after_linking_verb",
+        "content_md": "После **be** и других глаголов-связок прилагательное стоит **после глагола**: *The place is nice.* К таким глаголам относятся **seem, look, feel, become, get**.\n\nМы описываем состояние или впечатление, а не ставим прилагательное перед существительным.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "The soup smells good.",
+            "translation": "Суп пахнет вкусно.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "He looks tired today.",
+            "translation": "Он выглядит уставшим сегодня.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "The room isn't ready yet.",
+            "translation": "Комната еще не готова.",
+            "tags": [
+              "negative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_predicative",
+      "type": "quiz_inline",
+      "title": "Quick check: linking verbs",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14",
+          "q15",
+          "q16",
+          "q17"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_postpositive",
+      "type": "theory",
+      "title": "После неопределенных местоимений прилагательное идет после: *something nice, anyone available*. Это стабильное правило.",
+      "theory": {
+        "concept_id": "adjective_after_pronouns",
+        "content_md": "После неопределенных местоимений прилагательное идет **после**: *something nice, anyone available*. Это стабильное правило.\n\nТакже постпозиция встречается с некоторыми существительными в официальном стиле: *people present, the time available*.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I need something warm to drink.",
+            "translation": "Мне нужно что-то теплое, чтобы выпить.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Is there anyone free?",
+            "translation": "Есть кто-нибудь свободный?",
+            "tags": [
+              "question"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_postpositive",
+      "type": "quiz_inline",
+      "title": "Quick check: postpositive adjectives",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26",
+          "q27",
+          "q28",
+          "q29"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_after_noun_fixed",
+      "type": "theory",
+      "title": "Некоторые прилагательные обычно стоят после существительного: *the tickets available, the person responsible*. Частые слова: available, responsible, present, involved, concerned.",
+      "theory": {
+        "concept_id": "adjective_after_noun_fixed",
+        "content_md": "Некоторые прилагательные обычно стоят **после** существительного: *the tickets available, the person responsible*. Частые слова: **available, responsible, present, involved, concerned**.\n\nТакая позиция обычно уточняет, какие именно люди или вещи имеются в виду.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Please contact the person responsible.",
+            "translation": "Пожалуйста, свяжитесь с ответственным лицом.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "We used the seats available.",
+            "translation": "Мы использовали доступные места.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8_quiz_after_after_noun",
+      "type": "quiz_inline",
+      "title": "Quick check: fixed postposition",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38",
+          "q39",
+          "q40",
+          "q41"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_object_complement",
+      "type": "theory",
+      "title": "После некоторых глаголов можно поставить object + adjective, чтобы описать результат: *make it clear, keep the door closed, find the task easy*.",
+      "theory": {
+        "concept_id": "object_complement_adjective",
+        "content_md": "После некоторых глаголов можно поставить **object + adjective**, чтобы описать результат: *make it clear, keep the door closed, find the task easy*.\n\nЭто не «прилагательное перед существительным», а отдельная позиция после объекта.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Please keep the door closed.",
+            "translation": "Пожалуйста, держите дверь закрытой.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "She made the instructions clear.",
+            "translation": "Она сделала инструкции понятными.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "I found the room too noisy.",
+            "translation": "Мне показалась комната слишком шумной.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: She lives in ___ apartment.",
+        "theory_block_id": "b1_attributive",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "a small"
+          },
+          {
+            "id": "b",
+            "text": "small a"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Прилагательное стоит перед существительным: a small apartment."
+      },
+      {
+        "id": "q2",
+        "type": "fill_blank",
+        "prompt": "She bought a ___ dress for the party. (цвет)",
+        "theory_block_id": "b1_attributive",
+        "difficulty": 1,
+        "correct_answer": "blue",
+        "explanation": "В описании предмета прилагательное ставится перед существительным: a blue dress."
+      },
+      {
+        "id": "q3",
+        "type": "true_false",
+        "prompt": "In English, adjectives usually come before the noun.",
+        "theory_block_id": "b1_attributive",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Базовое правило — adjective + noun в описаниях."
+      },
+      {
+        "id": "q4",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'He bought a car red.'",
+        "theory_block_id": "b1_attributive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He bought a red car."
+          },
+          {
+            "id": "b",
+            "text": "He bought a car red."
+          },
+          {
+            "id": "c",
+            "text": "He bought the red car."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Прилагательное должно стоять перед существительным: a red car."
+      },
+      {
+        "id": "q5",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_attributive",
+        "difficulty": 2,
+        "correct_answer": "They rented a cheap room.",
+        "explanation": "Прилагательное cheap стоит перед существительным room."
+      },
+      {
+        "id": "q6",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: I lost ___ phone.",
+        "theory_block_id": "b1_attributive",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "my old"
+          },
+          {
+            "id": "b",
+            "text": "old my"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Притяжательное стоит перед прилагательным: my old phone."
+      },
+      {
+        "id": "q7",
+        "type": "fill_blank",
+        "prompt": "He bought an ___ umbrella. (старый)",
+        "theory_block_id": "b1_attributive",
+        "difficulty": 2,
+        "correct_answer": "old",
+        "explanation": "Прилагательное стоит перед существительным: an old umbrella."
+      },
+      {
+        "id": "q8",
+        "type": "true_false",
+        "prompt": "We say 'the house big' in standard English.",
+        "theory_block_id": "b1_attributive",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Перед существительным ставим прилагательное: the big house."
+      },
+      {
+        "id": "q9",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'She has a skirt beautiful.'",
+        "theory_block_id": "b1_attributive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She has a beautiful skirt."
+          },
+          {
+            "id": "b",
+            "text": "She has a skirt beautiful."
+          },
+          {
+            "id": "c",
+            "text": "She has the beautiful skirt."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Прилагательное beautiful должно быть перед существительным."
+      },
+      {
+        "id": "q10",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: We need ___ chair for the meeting.",
+        "theory_block_id": "b1_attributive",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "a comfortable"
+          },
+          {
+            "id": "b",
+            "text": "comfortable a"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Обычное место прилагательного — перед существительным."
+      },
+      {
+        "id": "q11",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_attributive",
+        "difficulty": 2,
+        "correct_answer": "It is a nice place.",
+        "explanation": "Прилагательное стоит перед существительным: a nice place."
+      },
+      {
+        "id": "q12",
+        "type": "fill_blank",
+        "prompt": "They live in a ___ neighborhood. (приятный)",
+        "theory_block_id": "b1_attributive",
+        "difficulty": 2,
+        "correct_answer": "pleasant",
+        "explanation": "Прилагательное pleasant ставится перед существительным neighborhood."
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: The soup smells ___.",
+        "theory_block_id": "b2_predicative",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "good"
+          },
+          {
+            "id": "b",
+            "text": "well"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После linking verb (smell) используется прилагательное: smells good."
+      },
+      {
+        "id": "q14",
+        "type": "fill_blank",
+        "prompt": "He looks ___ today. (усталый)",
+        "theory_block_id": "b2_predicative",
+        "difficulty": 1,
+        "correct_answer": "tired",
+        "explanation": "После look используется прилагательное: looks tired."
+      },
+      {
+        "id": "q15",
+        "type": "true_false",
+        "prompt": "After 'be' we use an adjective: The test is difficult.",
+        "theory_block_id": "b2_predicative",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Be — глагол-связка, после него ставится прилагательное."
+      },
+      {
+        "id": "q16",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'She seems happily today.'",
+        "theory_block_id": "b2_predicative",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She seems happy today."
+          },
+          {
+            "id": "b",
+            "text": "She seems happily today."
+          },
+          {
+            "id": "c",
+            "text": "She looks happy today."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После seem нужно прилагательное, а не наречие."
+      },
+      {
+        "id": "q17",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_predicative",
+        "difficulty": 2,
+        "correct_answer": "The room is clean.",
+        "explanation": "После be ставим прилагательное clean."
+      },
+      {
+        "id": "q18",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: The kids feel ___.",
+        "theory_block_id": "b2_predicative",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "happy"
+          },
+          {
+            "id": "b",
+            "text": "happily"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После feel используется прилагательное: feel happy."
+      },
+      {
+        "id": "q19",
+        "type": "fill_blank",
+        "prompt": "The weather became ___ quickly. (холодный)",
+        "theory_block_id": "b2_predicative",
+        "difficulty": 2,
+        "correct_answer": "cold",
+        "explanation": "После become ставится прилагательное: became cold."
+      },
+      {
+        "id": "q20",
+        "type": "true_false",
+        "prompt": "We can say 'It sounds nicely' in standard English.",
+        "theory_block_id": "b2_predicative",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "После sound нужен прилагательное: sounds nice."
+      },
+      {
+        "id": "q21",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'The cake tastes sweetly.'",
+        "theory_block_id": "b2_predicative",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The cake tastes sweet."
+          },
+          {
+            "id": "b",
+            "text": "The cake tastes sweetly."
+          },
+          {
+            "id": "c",
+            "text": "The cake is sweet."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После taste требуется прилагательное, а не наречие."
+      },
+      {
+        "id": "q22",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: He got ___ after the run.",
+        "theory_block_id": "b2_predicative",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "tired"
+          },
+          {
+            "id": "b",
+            "text": "tiring"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Говорим о состоянии человека, поэтому tired."
+      },
+      {
+        "id": "q23",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_predicative",
+        "difficulty": 2,
+        "correct_answer": "The plan seems simple.",
+        "explanation": "Seem — linking verb, после него идет прилагательное."
+      },
+      {
+        "id": "q24",
+        "type": "fill_blank",
+        "prompt": "The milk smells ___ . (плохой запах)",
+        "theory_block_id": "b2_predicative",
+        "difficulty": 2,
+        "correct_answer": "bad",
+        "explanation": "После smell используем прилагательное bad."
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: I need something ___.",
+        "theory_block_id": "b3_postpositive",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "warm"
+          },
+          {
+            "id": "b",
+            "text": "warmly"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После something прилагательное стоит после местоимения: something warm."
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "Is there anyone ___? (свободный)",
+        "theory_block_id": "b3_postpositive",
+        "difficulty": 1,
+        "correct_answer": "free",
+        "explanation": "После anyone прилагательное ставится в постпозиции: anyone free."
+      },
+      {
+        "id": "q27",
+        "type": "true_false",
+        "prompt": "We say 'something interesting', not 'interesting something'.",
+        "theory_block_id": "b3_postpositive",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Неопределенные местоимения требуют прилагательное после них."
+      },
+      {
+        "id": "q28",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'He wants new something.'",
+        "theory_block_id": "b3_postpositive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He wants something new."
+          },
+          {
+            "id": "b",
+            "text": "He wants new something."
+          },
+          {
+            "id": "c",
+            "text": "He wants something different."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Прилагательное идет после something: something new."
+      },
+      {
+        "id": "q29",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_postpositive",
+        "difficulty": 2,
+        "correct_answer": "I have nothing useful.",
+        "explanation": "После nothing прилагательное стоит в постпозиции."
+      },
+      {
+        "id": "q30",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: We invited the people ___.",
+        "theory_block_id": "b3_postpositive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "present"
+          },
+          {
+            "id": "b",
+            "text": "presently"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Present здесь прилагательное в постпозиции: people present."
+      },
+      {
+        "id": "q31",
+        "type": "fill_blank",
+        "prompt": "She has somewhere ___ to stay. (безопасный)",
+        "theory_block_id": "b3_postpositive",
+        "difficulty": 2,
+        "correct_answer": "safe",
+        "explanation": "После somewhere прилагательное ставится после местоимения: somewhere safe."
+      },
+      {
+        "id": "q32",
+        "type": "true_false",
+        "prompt": "Adjectives follow someone/anyone/anything in standard English.",
+        "theory_block_id": "b3_postpositive",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это правило постпозиции для неопределенных местоимений."
+      },
+      {
+        "id": "q33",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'Do you have anything coldly to drink?'",
+        "theory_block_id": "b3_postpositive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Do you have anything cold to drink?"
+          },
+          {
+            "id": "b",
+            "text": "Do you have anything coldly to drink?"
+          },
+          {
+            "id": "c",
+            "text": "Do you have something cold to drink?"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно прилагательное cold, а не наречие coldly."
+      },
+      {
+        "id": "q34",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: There was nothing ___ in the fridge.",
+        "theory_block_id": "b3_postpositive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "left"
+          },
+          {
+            "id": "b",
+            "text": "leftly"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Left — прилагательное, которое может стоять после nothing."
+      },
+      {
+        "id": "q35",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_postpositive",
+        "difficulty": 2,
+        "correct_answer": "Someone important called.",
+        "explanation": "После someone прилагательное стоит после местоимения."
+      },
+      {
+        "id": "q36",
+        "type": "fill_blank",
+        "prompt": "We need something ___ for dessert. (сладкое)",
+        "theory_block_id": "b3_postpositive",
+        "difficulty": 2,
+        "correct_answer": "sweet",
+        "explanation": "После something ставим прилагательное: something sweet."
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: We used the seats ___.",
+        "theory_block_id": "b4_after_noun_fixed",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "available"
+          },
+          {
+            "id": "b",
+            "text": "availablely"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Available ставится после существительного: the seats available."
+      },
+      {
+        "id": "q38",
+        "type": "fill_blank",
+        "prompt": "Please talk to the person ___. (ответственный)",
+        "theory_block_id": "b4_after_noun_fixed",
+        "difficulty": 2,
+        "correct_answer": "responsible",
+        "explanation": "В выражении person responsible прилагательное стоит после существительного."
+      },
+      {
+        "id": "q39",
+        "type": "true_false",
+        "prompt": "In formal notices, adjectives like 'available' often follow the noun.",
+        "theory_block_id": "b4_after_noun_fixed",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Постпозиция характерна для слов available/responsible/present."
+      },
+      {
+        "id": "q40",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'We used the seats availables.'",
+        "theory_block_id": "b4_after_noun_fixed",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We used the seats available."
+          },
+          {
+            "id": "b",
+            "text": "We used the available seats."
+          },
+          {
+            "id": "c",
+            "text": "We used the seats availables."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Available не имеет формы множественного числа и часто стоит после существительного."
+      },
+      {
+        "id": "q41",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_after_noun_fixed",
+        "difficulty": 2,
+        "correct_answer": "The documents required are missing.",
+        "explanation": "Required стоит после существительного: documents required."
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: The people ___ will be contacted.",
+        "theory_block_id": "b4_after_noun_fixed",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "involved"
+          },
+          {
+            "id": "b",
+            "text": "involving"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Involved описывает людей и стоит после существительного в формальном стиле."
+      },
+      {
+        "id": "q43",
+        "type": "fill_blank",
+        "prompt": "There were no rooms ___. (свободные)",
+        "theory_block_id": "b4_after_noun_fixed",
+        "difficulty": 2,
+        "correct_answer": "available",
+        "explanation": "Available обычно стоит после существительного: rooms available."
+      },
+      {
+        "id": "q44",
+        "type": "true_false",
+        "prompt": "In 'the person responsible for safety', the adjective comes after the noun.",
+        "theory_block_id": "b4_after_noun_fixed",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Responsible здесь стоит после существительного и берет дополнение for safety."
+      },
+      {
+        "id": "q45",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'The responsible for safety person will speak.'",
+        "theory_block_id": "b4_after_noun_fixed",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The person responsible for safety will speak."
+          },
+          {
+            "id": "b",
+            "text": "The responsible for safety person will speak."
+          },
+          {
+            "id": "c",
+            "text": "The person in charge will speak."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Прилагательное с дополнением ставится после существительного: person responsible for safety."
+      },
+      {
+        "id": "q46",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: We need the manager ___ the budget.",
+        "theory_block_id": "b4_after_noun_fixed",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "responsible for"
+          },
+          {
+            "id": "b",
+            "text": "responsible of"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильное сочетание: responsible for. Прилагательное стоит после существительного."
+      },
+      {
+        "id": "q47",
+        "type": "fill_blank",
+        "prompt": "We used all the time ___. (доступное)",
+        "theory_block_id": "b4_after_noun_fixed",
+        "difficulty": 2,
+        "correct_answer": "available",
+        "explanation": "Available ставится после существительного: time available."
+      },
+      {
+        "id": "q48",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_after_noun_fixed",
+        "difficulty": 2,
+        "correct_answer": "The team responsible arrived late.",
+        "explanation": "Responsible стоит после существительного: team responsible."
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: Please keep the door ___.",
+        "theory_block_id": "b5_object_complement",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "closed"
+          },
+          {
+            "id": "b",
+            "text": "close"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После объекта используется прилагательное: keep the door closed."
+      },
+      {
+        "id": "q50",
+        "type": "fill_blank",
+        "prompt": "This story made me ___. (грустный)",
+        "theory_block_id": "b5_object_complement",
+        "difficulty": 2,
+        "correct_answer": "sad",
+        "explanation": "Make + object + adjective: made me sad."
+      },
+      {
+        "id": "q51",
+        "type": "true_false",
+        "prompt": "We can say 'make it clear' with an adjective after the object.",
+        "theory_block_id": "b5_object_complement",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Clear — прилагательное, описывающее объект it."
+      },
+      {
+        "id": "q52",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'She kept the window openly.'",
+        "theory_block_id": "b5_object_complement",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She kept the window open."
+          },
+          {
+            "id": "b",
+            "text": "She kept the window openly."
+          },
+          {
+            "id": "c",
+            "text": "She left the window open."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После объекта нужен adjective: open."
+      },
+      {
+        "id": "q53",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_object_complement",
+        "difficulty": 2,
+        "correct_answer": "They found the task easy.",
+        "explanation": "Adjective easy описывает объект task."
+      },
+      {
+        "id": "q54",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: I painted the wall ___.",
+        "theory_block_id": "b5_object_complement",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "white"
+          },
+          {
+            "id": "b",
+            "text": "whitely"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После объекта используем прилагательное: painted the wall white."
+      },
+      {
+        "id": "q55",
+        "type": "fill_blank",
+        "prompt": "The noise drove us ___. (с ума)",
+        "theory_block_id": "b5_object_complement",
+        "difficulty": 3,
+        "correct_answer": "crazy",
+        "explanation": "Drive + object + adjective: drove us crazy."
+      },
+      {
+        "id": "q56",
+        "type": "true_false",
+        "prompt": "In 'I find this problem difficult', the adjective describes the object.",
+        "theory_block_id": "b5_object_complement",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Difficult относится к problem, это object complement."
+      },
+      {
+        "id": "q57",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'He made the rules clearly.'",
+        "theory_block_id": "b5_object_complement",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He made the rules clear."
+          },
+          {
+            "id": "b",
+            "text": "He made the rules clearly."
+          },
+          {
+            "id": "c",
+            "text": "He explained the rules clearly."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После объекта нужен adjective: made the rules clear."
+      },
+      {
+        "id": "q58",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_object_complement",
+        "difficulty": 2,
+        "correct_answer": "Keep your phone silent.",
+        "explanation": "Silent описывает объект phone после keep."
+      },
+      {
+        "id": "q59",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: They left the door ___.",
+        "theory_block_id": "b5_object_complement",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "open"
+          },
+          {
+            "id": "b",
+            "text": "openly"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Open — прилагательное, описывает door."
+      },
+      {
+        "id": "q60",
+        "type": "fill_blank",
+        "prompt": "The long flight left me ___. (уставший)",
+        "theory_block_id": "b5_object_complement",
+        "difficulty": 2,
+        "correct_answer": "tired",
+        "explanation": "Leave + object + adjective: left me tired."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-19T14:38:10Z",
+    "source": "llm"
+  }
+}
