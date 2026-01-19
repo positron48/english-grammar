@@ -990,11 +990,11 @@
       },
       {
         "type": "true_false",
-        "prompt": "We say 'on the bus' and 'on the train'.",
+        "prompt": "We say 'in the bus' and 'in the train' for public transport.",
         "theory_block_id": "b4_place_on_surfaces",
         "difficulty": 2,
-        "correct_answer": "true",
-        "explanation": "Для общественного транспорта используется **on**. Это устойчивое правило.",
+        "correct_answer": "false",
+        "explanation": "Для общественного транспорта обычно используется **on**: on the bus/train. **In** употребляется, когда подчеркивают нахождение внутри закрытого объекта, но для транспорта это не норма.",
         "id": "q43"
       },
       {
@@ -1114,11 +1114,11 @@
       },
       {
         "type": "true_false",
-        "prompt": "Among is used for a group of three or more.",
+        "prompt": "Among is used only with two items.",
         "theory_block_id": "b5_place_between_among",
         "difficulty": 1,
-        "correct_answer": "true",
-        "explanation": "Among обозначает нахождение внутри группы. Обычно группа больше двух.",
+        "correct_answer": "false",
+        "explanation": "Among используется для группы, обычно из трёх и более. Для двух объектов применяется **between**.",
         "id": "q51"
       },
       {
@@ -1358,11 +1358,11 @@
       },
       {
         "type": "true_false",
-        "prompt": "Next to suggests closer distance than near.",
+        "prompt": "Next to means the same distance as near.",
         "theory_block_id": "b6_place_next_to_near",
         "difficulty": 2,
-        "correct_answer": "true",
-        "explanation": "Next to — это почти вплотную. Near — просто рядом, расстояние может быть больше.",
+        "correct_answer": "false",
+        "explanation": "Next to означает почти вплотную, а near — просто рядом. Это разные степени близости.",
         "id": "q67"
       },
       {
@@ -1543,7 +1543,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-19T19:05:54Z",
+    "updated_at": "2026-01-19T19:07:21Z",
     "source": "llm"
   }
 }
