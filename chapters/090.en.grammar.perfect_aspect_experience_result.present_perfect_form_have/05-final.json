@@ -1,0 +1,1490 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.perfect_aspect_experience_result.present_perfect_form_have",
+  "section_id": "en.grammar.perfect_aspect_experience_result",
+  "title": "Present Perfect form: have/has + V3",
+  "title_short": "Present Perfect form: have/has + V3",
+  "description": "Формирование Present Perfect: have/has + V3, выбор have/has, формы V3 и базовые модели утверждений, вопросов и отрицаний.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "B1",
+  "order": 0,
+  "prerequisites": [],
+  "concept_refs": [
+    "present_perfect_form_basic",
+    "present_perfect_have_has_agreement",
+    "past_participle_v3_forms",
+    "present_perfect_negatives_questions",
+    "present_perfect_short_answers_contractions",
+    "present_perfect_adverb_placement"
+  ],
+  "learning_objectives": [
+    "Собирать утвердительные, отрицательные и вопросительные предложения в Present Perfect",
+    "Выбирать have или has по подлежащему",
+    "Использовать форму V3 (регулярную и неправильную) и типичные маркеры"
+  ],
+  "estimated_minutes": 28,
+  "blocks": [
+    {
+      "id": "b1_theory_core_form",
+      "type": "theory",
+      "title": "Present Perfect строится по формуле have/has + V3 (past participle). Это вспомогательный глагол have/has плюс основная форма в третьей колонке (V3). В настоящем времени меняется только вспомогательный глагол, а V3 остается неизменной.",
+      "theory": {
+        "concept_id": "present_perfect_form_basic",
+        "content_md": "Present Perfect строится по формуле **have/has + V3** (past participle). Это вспомогательный глагол **have/has** плюс основная форма в третьей колонке (V3). В настоящем времени меняется только вспомогательный глагол, а V3 остается неизменной.\n\nФорма показывает связь с настоящим (результат, опыт), но в этой главе мы фокусируемся на конструкции: именно **have/has** несет грамматическую информацию, а V3 — лексический смысл действия.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I have finished the report.",
+            "translation": "Я закончил(а) отчет.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "We have booked a table.",
+            "translation": "Мы забронировали столик.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_core_form",
+      "type": "quiz_inline",
+      "title": "Quick check: core form",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2",
+          "q5",
+          "q7"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_have_vs_has",
+      "type": "theory",
+      "title": "Выбор have или has зависит от подлежащего, как и в Present Simple. Have используется с I/you/we/they и множественным числом; has — с he/she/it и единичными существительными/именами. Это единственное согласование в Present Perfect.",
+      "theory": {
+        "concept_id": "present_perfect_have_has_agreement",
+        "content_md": "Выбор **have** или **has** зависит от подлежащего, как и в Present Simple. **Have** используется с I/you/we/they и множественным числом; **has** — с he/she/it и единичными существительными/именами. Это единственное согласование в Present Perfect.",
+        "key_points": [],
+        "common_mistakes": [
+          {
+            "wrong": "My brother have finished university.",
+            "right": "My brother has finished university.",
+            "why": "С подлежащим в 3-м лице единственного числа используется has, а не have."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "They have moved to Leeds.",
+            "translation": "Они переехали в Лидс.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Has Maria arrived yet?",
+            "translation": "Мария уже приехала?",
+            "tags": [
+              "question"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_have_vs_has",
+      "type": "quiz_inline",
+      "title": "Quick check: have vs has",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q15",
+          "q17",
+          "q18"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_past_participle",
+      "type": "theory",
+      "title": "V3 (past participle) — это третья форма глагола. У регулярных глаголов V3 совпадает с V2 и имеет окончание -ed (worked, played). У неправильных V3 нужно запоминать отдельно (go – went – gone, write – wrote – written).",
+      "theory": {
+        "concept_id": "past_participle_v3_forms",
+        "content_md": "V3 (past participle) — это третья форма глагола. У регулярных глаголов V3 совпадает с V2 и имеет окончание **-ed** (worked, played). У неправильных V3 нужно запоминать отдельно (go – went – **gone**, write – wrote – **written**).\n\nВажно не подставлять V2 вместо V3: в Present Perfect всегда используется именно V3.",
+        "key_points": [],
+        "common_mistakes": [
+          {
+            "wrong": "I have went to the bank.",
+            "right": "I have gone to the bank.",
+            "why": "В Present Perfect нужна форма V3, а не V2: go – went – gone."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "She has worked here for three years.",
+            "translation": "Она работает здесь уже три года.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "I have written two emails today.",
+            "translation": "Я написал(а) два письма сегодня.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_past_participle",
+      "type": "quiz_inline",
+      "title": "Quick check: V3 forms",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26",
+          "q28",
+          "q33"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_negatives_questions",
+      "type": "theory",
+      "title": "Отрицание строится с not после have/has: have not (haven't) + V3, has not (hasn't) + V3. В вопросе вспомогательный глагол переносится на первое место: Have/Has + subject + V3?.",
+      "theory": {
+        "concept_id": "present_perfect_negatives_questions",
+        "content_md": "Отрицание строится с **not** после have/has: **have not (haven't) + V3**, **has not (hasn't) + V3**. В вопросе вспомогательный глагол переносится на первое место: **Have/Has + subject + V3?**.\n\nНе добавляй do/does: в Present Perfect вспомогательный уже есть — have/has.",
+        "key_points": [],
+        "common_mistakes": [
+          {
+            "wrong": "Did you have seen it?",
+            "right": "Have you seen it?",
+            "why": "В вопросе Present Perfect используется have/has, без do/did."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "She hasn't called me back.",
+            "translation": "Она мне не перезвонила.",
+            "tags": [
+              "negative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Have you seen this film?",
+            "translation": "Ты видел(а) этот фильм?",
+            "tags": [
+              "question"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "We have not decided yet.",
+            "translation": "Мы еще не решили.",
+            "tags": [
+              "negative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_negatives_questions",
+      "type": "quiz_inline",
+      "title": "Quick check: negatives and questions",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q41",
+          "q42",
+          "q43"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_short_answers_contractions",
+      "type": "theory",
+      "title": "В кратких ответах повторяется только have/has: Yes, I have. / No, she hasn't. Полный смысл уже понятен из вопроса. В разговорной речи часто используют сокращения: I've, you've, he's, she's, it's, we've, they've.",
+      "theory": {
+        "concept_id": "present_perfect_short_answers_contractions",
+        "content_md": "В кратких ответах повторяется только have/has: **Yes, I have. / No, she hasn't.** Полный смысл уже понятен из вопроса. В разговорной речи часто используют сокращения: **I've, you've, he's, she's, it's, we've, they've**.\n\nСокращения не меняют порядок слов и используются только в утверждениях/отрицаниях, но не в кратких ответах (обычно: *Yes, I have*, а не *Yes, I've*).",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Yes, I have.",
+            "translation": "Да.",
+            "tags": [
+              "affirmative",
+              "short_answer"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "No, he hasn't.",
+            "translation": "Нет, он не...",
+            "tags": [
+              "negative",
+              "short_answer"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "I've finished my homework.",
+            "translation": "Я закончил(а) домашнее задание.",
+            "tags": [
+              "affirmative",
+              "contraction"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_short_answers_contractions",
+      "type": "quiz_inline",
+      "title": "Quick check: short answers",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q50",
+          "q55",
+          "q57"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_adverb_placement",
+      "type": "theory",
+      "title": "Частотные наречия already, just, ever, never обычно ставятся между have/has и V3: have already done. Yet чаще стоит в конце отрицаний и вопросов: haven't done it yet / Have you done it yet?.",
+      "theory": {
+        "concept_id": "present_perfect_adverb_placement",
+        "content_md": "Частотные наречия **already, just, ever, never** обычно ставятся между have/has и V3: **have already done**. **Yet** чаще стоит в конце отрицаний и вопросов: **haven't done it yet / Have you done it yet?**.\n\nЕсли в предложении есть обстоятельство времени вроде *today, this week*, оно обычно ставится в конце: **have finished today**.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I have already sent the email.",
+            "translation": "Я уже отправил(а) письмо.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Have you finished yet?",
+            "translation": "Ты уже закончил(а)?",
+            "tags": [
+              "question"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "She has never tried sushi.",
+            "translation": "Она никогда не пробовала суши.",
+            "tags": [
+              "negative"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Choose the correct sentence:",
+        "theory_block_id": "b1_theory_core_form",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I have finished my coffee."
+          },
+          {
+            "id": "b",
+            "text": "I finished have my coffee."
+          },
+          {
+            "id": "c",
+            "text": "I have finish my coffee."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Present Perfect uses have/has + V3: *have finished*. The auxiliary comes before the main verb, and the main verb is in V3."
+      },
+      {
+        "id": "q2",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"They ___ finished the meeting.\" (I/you/we/they)",
+        "theory_block_id": "b1_theory_core_form",
+        "difficulty": 1,
+        "correct_answer": "have",
+        "explanation": "With I/you/we/they we use **have** in Present Perfect. The main verb stays in V3: *have finished*."
+      },
+      {
+        "id": "q3",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She ___ completed the form.\" (he/she/it)",
+        "theory_block_id": "b1_theory_core_form",
+        "difficulty": 1,
+        "correct_answer": "has",
+        "explanation": "With he/she/it the auxiliary is **has**. The verb **completed** is V3 and does not change."
+      },
+      {
+        "id": "q4",
+        "type": "true_false",
+        "prompt": "Present Perfect is formed with have/has + V3.",
+        "theory_block_id": "b1_theory_core_form",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "The construction is have/has + past participle (V3). The auxiliary carries the tense, the V3 carries the meaning."
+      },
+      {
+        "id": "q5",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: \"I ___ my keys.\"",
+        "theory_block_id": "b1_theory_core_form",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "have lost"
+          },
+          {
+            "id": "b",
+            "text": "lost have"
+          },
+          {
+            "id": "c",
+            "text": "have lose"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Present Perfect requires have + V3: *have lost*. Word order is auxiliary + V3, not the other way around."
+      },
+      {
+        "id": "q6",
+        "type": "error_spotting",
+        "prompt": "Find the correct sentence:",
+        "theory_block_id": "b1_theory_core_form",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He have started his new job."
+          },
+          {
+            "id": "b",
+            "text": "He has started his new job."
+          },
+          {
+            "id": "c",
+            "text": "He has start his new job."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Present Perfect needs **has + V3** for he/she/it. Only option b has the correct auxiliary and V3 form."
+      },
+      {
+        "id": "q7",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке: I, have, finished, the, task",
+        "theory_block_id": "b1_theory_core_form",
+        "difficulty": 1,
+        "correct_answer": "I have finished the task.",
+        "explanation": "Standard order is Subject + have/has + V3 + object. Here it is: *I have finished the task.*"
+      },
+      {
+        "id": "q8",
+        "type": "mcq_single",
+        "prompt": "Choose the correct sentence:",
+        "theory_block_id": "b1_theory_core_form",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We have sent the report."
+          },
+          {
+            "id": "b",
+            "text": "We have send the report."
+          },
+          {
+            "id": "c",
+            "text": "We sent have the report."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Present Perfect needs have + V3, so *have sent* is correct. The other options break either word order or V3 form."
+      },
+      {
+        "id": "q9",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"The train ___ left.\" (he/she/it)",
+        "theory_block_id": "b1_theory_core_form",
+        "difficulty": 1,
+        "correct_answer": "has",
+        "explanation": "The noun *the train* is singular, so we use **has**. The V3 *left* stays the same."
+      },
+      {
+        "id": "q10",
+        "type": "true_false",
+        "prompt": "In Present Perfect, V3 does not change for different subjects.",
+        "theory_block_id": "b1_theory_core_form",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Only the auxiliary changes between have and has. The V3 form is the same for all subjects."
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: \"She ___ her ticket.\"",
+        "theory_block_id": "b1_theory_core_form",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "has found"
+          },
+          {
+            "id": "b",
+            "text": "have found"
+          },
+          {
+            "id": "c",
+            "text": "has find"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "With she we use **has**, and the main verb must be V3: *found*. That makes option a correct."
+      },
+      {
+        "id": "q12",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"We ___ the tickets.\" (I/you/we/they)",
+        "theory_block_id": "b1_theory_core_form",
+        "difficulty": 1,
+        "correct_answer": "have",
+        "explanation": "With we the auxiliary is **have**. The full form is *have bought* with V3 after the auxiliary."
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: \"Tom ___ already arrived.\"",
+        "theory_block_id": "b2_theory_have_vs_has",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "have"
+          },
+          {
+            "id": "b",
+            "text": "has"
+          },
+          {
+            "id": "c",
+            "text": "is"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Tom is he, so Present Perfect uses **has**. The auxiliary agrees with the subject."
+      },
+      {
+        "id": "q14",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I ___ finished my shift.\" (I/you/we/they)",
+        "theory_block_id": "b2_theory_have_vs_has",
+        "difficulty": 1,
+        "correct_answer": "have",
+        "explanation": "With I we use **have**, not has. The V3 comes after it: *have finished*."
+      },
+      {
+        "id": "q15",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"My sister ___ moved to Oslo.\" (he/she/it)",
+        "theory_block_id": "b2_theory_have_vs_has",
+        "difficulty": 1,
+        "correct_answer": "has",
+        "explanation": "*My sister* is third person singular, so we use **has**. The form does not use -s on the main verb."
+      },
+      {
+        "id": "q16",
+        "type": "true_false",
+        "prompt": "With plural subjects we use has in Present Perfect.",
+        "theory_block_id": "b2_theory_have_vs_has",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Plural subjects take **have**, not has. Has is only for he/she/it and singular nouns."
+      },
+      {
+        "id": "q17",
+        "type": "mcq_single",
+        "prompt": "Choose the correct sentence:",
+        "theory_block_id": "b2_theory_have_vs_has",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The dogs have eaten."
+          },
+          {
+            "id": "b",
+            "text": "The dogs has eaten."
+          },
+          {
+            "id": "c",
+            "text": "The dogs having eaten."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Dogs* is plural, so the auxiliary is **have**. Option a has the correct agreement and V3."
+      },
+      {
+        "id": "q18",
+        "type": "error_spotting",
+        "prompt": "Find the correct sentence:",
+        "theory_block_id": "b2_theory_have_vs_has",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "My parents has arrived."
+          },
+          {
+            "id": "b",
+            "text": "My parents have arrived."
+          },
+          {
+            "id": "c",
+            "text": "My parents have arrives."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Plural subject *parents* needs **have**. The V3 is *arrived*, so only option b is correct."
+      },
+      {
+        "id": "q19",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"He ___ just called.\" (he/she/it)",
+        "theory_block_id": "b2_theory_have_vs_has",
+        "difficulty": 1,
+        "correct_answer": "has",
+        "explanation": "With he we use **has**. The adverb *just* goes between has and V3."
+      },
+      {
+        "id": "q20",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: \"We ___ already paid.\"",
+        "theory_block_id": "b2_theory_have_vs_has",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "has"
+          },
+          {
+            "id": "b",
+            "text": "have"
+          },
+          {
+            "id": "c",
+            "text": "having"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "With we, Present Perfect uses **have**. The auxiliary does the agreement for number and person."
+      },
+      {
+        "id": "q21",
+        "type": "true_false",
+        "prompt": "Names like Anna or Carlos take has in Present Perfect.",
+        "theory_block_id": "b2_theory_have_vs_has",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "A single name is a singular subject, so it takes **has**. The main verb stays in V3."
+      },
+      {
+        "id": "q22",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке: has, our, teacher, explained, it",
+        "theory_block_id": "b2_theory_have_vs_has",
+        "difficulty": 2,
+        "correct_answer": "Our teacher has explained it.",
+        "explanation": "With the singular subject *our teacher*, we use **has**. The normal order is Subject + has + V3 + object."
+      },
+      {
+        "id": "q23",
+        "type": "mcq_single",
+        "prompt": "Choose the correct sentence:",
+        "theory_block_id": "b2_theory_have_vs_has",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "You has left your bag."
+          },
+          {
+            "id": "b",
+            "text": "You have left your bag."
+          },
+          {
+            "id": "c",
+            "text": "You have lefted your bag."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "With you we use **have**, not has. The V3 of *leave* is *left*, so option b is correct."
+      },
+      {
+        "id": "q24",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"The company ___ opened a new office.\" (he/she/it)",
+        "theory_block_id": "b2_theory_have_vs_has",
+        "difficulty": 2,
+        "correct_answer": "has",
+        "explanation": "*The company* is singular, so the auxiliary is **has**. The V3 *opened* follows it."
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Choose the correct V3: \"go – went – ___\"",
+        "theory_block_id": "b3_theory_past_participle",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "gone"
+          },
+          {
+            "id": "b",
+            "text": "goed"
+          },
+          {
+            "id": "c",
+            "text": "went"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "The irregular verb *go* has V3 **gone**. Present Perfect always uses V3, not V2."
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She has ___ the letter.\" (write)",
+        "theory_block_id": "b3_theory_past_participle",
+        "difficulty": 2,
+        "correct_answer": "written",
+        "explanation": "The V3 of *write* is **written**. Present Perfect needs have/has + V3."
+      },
+      {
+        "id": "q27",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"We have ___ the door.\" (close)",
+        "theory_block_id": "b3_theory_past_participle",
+        "difficulty": 1,
+        "correct_answer": "closed",
+        "explanation": "Regular verbs form V3 with -ed, so **closed** is correct. The V3 equals V2 here."
+      },
+      {
+        "id": "q28",
+        "type": "error_spotting",
+        "prompt": "Find the correct sentence:",
+        "theory_block_id": "b3_theory_past_participle",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I have broke my phone."
+          },
+          {
+            "id": "b",
+            "text": "I have broken my phone."
+          },
+          {
+            "id": "c",
+            "text": "I have break my phone."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "The V3 of *break* is **broken**, not broke. Present Perfect always uses V3 after have/has."
+      },
+      {
+        "id": "q29",
+        "type": "mcq_single",
+        "prompt": "Choose the correct V3 for *see*:",
+        "theory_block_id": "b3_theory_past_participle",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "see"
+          },
+          {
+            "id": "b",
+            "text": "saw"
+          },
+          {
+            "id": "c",
+            "text": "seen"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "*See* is irregular: see – saw – **seen**. Use V3 after have/has."
+      },
+      {
+        "id": "q30",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"He has ___ the dishes.\" (wash)",
+        "theory_block_id": "b3_theory_past_participle",
+        "difficulty": 1,
+        "correct_answer": "washed",
+        "explanation": "Regular verbs use -ed for V3, so **washed** is correct. The auxiliary already shows tense."
+      },
+      {
+        "id": "q31",
+        "type": "true_false",
+        "prompt": "For regular verbs, V2 and V3 are usually the same.",
+        "theory_block_id": "b3_theory_past_participle",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Regular verbs take -ed in both V2 and V3. That is why *worked* and *played* are the same in both forms."
+      },
+      {
+        "id": "q32",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: \"They have ___ early.\"",
+        "theory_block_id": "b3_theory_past_participle",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "came"
+          },
+          {
+            "id": "b",
+            "text": "come"
+          },
+          {
+            "id": "c",
+            "text": "comed"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "The V3 of *come* is **come**, not came. Present Perfect needs have/has + V3."
+      },
+      {
+        "id": "q33",
+        "type": "error_spotting",
+        "prompt": "Find the correct sentence:",
+        "theory_block_id": "b3_theory_past_participle",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She has ate breakfast."
+          },
+          {
+            "id": "b",
+            "text": "She has eaten breakfast."
+          },
+          {
+            "id": "c",
+            "text": "She has eat breakfast."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "The V3 of *eat* is **eaten**. Only option b uses the correct past participle."
+      },
+      {
+        "id": "q34",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I have ___ the report.\" (finish)",
+        "theory_block_id": "b3_theory_past_participle",
+        "difficulty": 1,
+        "correct_answer": "finished",
+        "explanation": "Regular verbs add -ed to make V3, so **finished** is correct. The auxiliary is have."
+      },
+      {
+        "id": "q35",
+        "type": "mcq_single",
+        "prompt": "Choose the correct V3 for *take*:",
+        "theory_block_id": "b3_theory_past_participle",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "taked"
+          },
+          {
+            "id": "b",
+            "text": "took"
+          },
+          {
+            "id": "c",
+            "text": "taken"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "*Take* is irregular: take – took – **taken**. The V3 is used in Present Perfect."
+      },
+      {
+        "id": "q36",
+        "type": "true_false",
+        "prompt": "In Present Perfect, it is correct to use V2 after have/has.",
+        "theory_block_id": "b3_theory_past_participle",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Present Perfect requires V3, not V2. Using V2 (like *went*) is a common error."
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Choose the correct question:",
+        "theory_block_id": "b4_theory_negatives_questions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Have you finished the task?"
+          },
+          {
+            "id": "b",
+            "text": "Do you have finished the task?"
+          },
+          {
+            "id": "c",
+            "text": "You have finished the task?"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Questions in Present Perfect use inversion: **Have/Has + subject + V3**. We do not use do/does here."
+      },
+      {
+        "id": "q38",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She ___ not called yet.\" (negative, he/she/it)",
+        "theory_block_id": "b4_theory_negatives_questions",
+        "difficulty": 2,
+        "correct_answer": "has",
+        "explanation": "Negative is **has not + V3** with he/she/it. The not goes after the auxiliary."
+      },
+      {
+        "id": "q39",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"They ___ not arrived.\" (negative, I/you/we/they)",
+        "theory_block_id": "b4_theory_negatives_questions",
+        "difficulty": 2,
+        "correct_answer": "have",
+        "explanation": "With I/you/we/they, the negative is **have not + V3**. The auxiliary is have, not has."
+      },
+      {
+        "id": "q40",
+        "type": "true_false",
+        "prompt": "In Present Perfect questions, we use do/does before the subject.",
+        "theory_block_id": "b4_theory_negatives_questions",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Present Perfect already has an auxiliary (have/has). The question is formed by moving have/has to the front."
+      },
+      {
+        "id": "q41",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке: has, he, arrived, yet",
+        "theory_block_id": "b4_theory_negatives_questions",
+        "difficulty": 2,
+        "correct_answer": "Has he arrived yet?",
+        "explanation": "In questions, the auxiliary goes first: **Has + subject + V3**. *Yet* typically goes at the end."
+      },
+      {
+        "id": "q42",
+        "type": "error_spotting",
+        "prompt": "Find the correct sentence:",
+        "theory_block_id": "b4_theory_negatives_questions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She hasn't finished."
+          },
+          {
+            "id": "b",
+            "text": "She didn't has finished."
+          },
+          {
+            "id": "c",
+            "text": "She hasn't finish."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Negative Present Perfect uses **has not + V3**. Only option a has the correct auxiliary and V3 form."
+      },
+      {
+        "id": "q43",
+        "type": "mcq_single",
+        "prompt": "Choose the correct negative sentence:",
+        "theory_block_id": "b4_theory_negatives_questions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We have not seen him."
+          },
+          {
+            "id": "b",
+            "text": "We not have seen him."
+          },
+          {
+            "id": "c",
+            "text": "We don't have seen him."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "The negative is formed with have not + V3. We do not use do/does with Present Perfect."
+      },
+      {
+        "id": "q44",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ you eaten?\" (question, I/you/we/they)",
+        "theory_block_id": "b4_theory_negatives_questions",
+        "difficulty": 1,
+        "correct_answer": "Have",
+        "explanation": "Questions start with the auxiliary. With you we use **have**: *Have you eaten?*"
+      },
+      {
+        "id": "q45",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ she finished?\" (question, he/she/it)",
+        "theory_block_id": "b4_theory_negatives_questions",
+        "difficulty": 1,
+        "correct_answer": "Has",
+        "explanation": "With he/she/it the auxiliary is **has**, and it goes before the subject in a question."
+      },
+      {
+        "id": "q46",
+        "type": "true_false",
+        "prompt": "In Present Perfect negatives, not comes after the main verb.",
+        "theory_block_id": "b4_theory_negatives_questions",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Not comes after the auxiliary have/has: *has not finished*. The main verb stays in V3."
+      },
+      {
+        "id": "q47",
+        "type": "mcq_single",
+        "prompt": "Choose the correct question:",
+        "theory_block_id": "b4_theory_negatives_questions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Has your team won today?"
+          },
+          {
+            "id": "b",
+            "text": "Did your team has won today?"
+          },
+          {
+            "id": "c",
+            "text": "Your team has won today?"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Present Perfect questions use **Has/Have + subject + V3**. No did/does is used."
+      },
+      {
+        "id": "q48",
+        "type": "error_spotting",
+        "prompt": "Find the correct sentence:",
+        "theory_block_id": "b4_theory_negatives_questions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Have you not saw it?"
+          },
+          {
+            "id": "b",
+            "text": "Have you not seen it?"
+          },
+          {
+            "id": "c",
+            "text": "Do you have not seen it?"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "The auxiliary is have, and the main verb must be V3: *seen*. Option b has the correct form."
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "Choose the best short answer: \"Have you finished?\"",
+        "theory_block_id": "b5_theory_short_answers_contractions",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yes, I have."
+          },
+          {
+            "id": "b",
+            "text": "Yes, I've."
+          },
+          {
+            "id": "c",
+            "text": "Yes, I finished."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Short answers repeat only the auxiliary: *Yes, I have.* Contractions are not typical in short answers."
+      },
+      {
+        "id": "q50",
+        "type": "mcq_single",
+        "prompt": "Choose the best short answer: \"Has she arrived?\"",
+        "theory_block_id": "b5_theory_short_answers_contractions",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "No, she hasn't."
+          },
+          {
+            "id": "b",
+            "text": "No, she not."
+          },
+          {
+            "id": "c",
+            "text": "No, she hasn't arrived."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Short negative answers use **hasn't** or **haven't** with the subject. Option a is the standard form."
+      },
+      {
+        "id": "q51",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I've ___ the email.\" (send)",
+        "theory_block_id": "b5_theory_short_answers_contractions",
+        "difficulty": 2,
+        "correct_answer": "sent",
+        "explanation": "*I've* is a contraction of *I have*. After it we use V3: *sent*."
+      },
+      {
+        "id": "q52",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She's ___ home.\" (прийти)",
+        "theory_block_id": "b5_theory_short_answers_contractions",
+        "difficulty": 2,
+        "correct_answer": "come",
+        "explanation": "*She's* = *She has* in Present Perfect. The V3 of *come* is **come**."
+      },
+      {
+        "id": "q53",
+        "type": "true_false",
+        "prompt": "It is normal to say: \"Yes, I've\" as a short answer.",
+        "theory_block_id": "b5_theory_short_answers_contractions",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Short answers usually use the full auxiliary: *Yes, I have.* Contractions are common in statements, not short answers."
+      },
+      {
+        "id": "q54",
+        "type": "mcq_single",
+        "prompt": "Choose the correct sentence with a contraction:",
+        "theory_block_id": "b5_theory_short_answers_contractions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We've finished early."
+          },
+          {
+            "id": "b",
+            "text": "We' ve finished early."
+          },
+          {
+            "id": "c",
+            "text": "We finished've early."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*We've* is the correct contraction of *we have*. The apostrophe replaces the missing letters."
+      },
+      {
+        "id": "q55",
+        "type": "error_spotting",
+        "prompt": "Find the correct sentence:",
+        "theory_block_id": "b5_theory_short_answers_contractions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yes, I've."
+          },
+          {
+            "id": "b",
+            "text": "Yes, I have."
+          },
+          {
+            "id": "c",
+            "text": "Yes, I has."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Short answers use the full auxiliary: *Yes, I have.* Contractions and *has* with I are incorrect."
+      },
+      {
+        "id": "q56",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"They've ___ the door.\" (close)",
+        "theory_block_id": "b5_theory_short_answers_contractions",
+        "difficulty": 1,
+        "correct_answer": "closed",
+        "explanation": "*They've* = *They have*. The main verb must be V3, which is **closed**."
+      },
+      {
+        "id": "q57",
+        "type": "mcq_single",
+        "prompt": "Choose the correct short answer: \"Have we met before?\"",
+        "theory_block_id": "b5_theory_short_answers_contractions",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yes, we have."
+          },
+          {
+            "id": "b",
+            "text": "Yes, we've met."
+          },
+          {
+            "id": "c",
+            "text": "Yes, we did."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Short answers repeat only the auxiliary. *Yes, we have* matches the question form."
+      },
+      {
+        "id": "q58",
+        "type": "true_false",
+        "prompt": "Contractions like I've or she's are formed from have/has + subject.",
+        "theory_block_id": "b5_theory_short_answers_contractions",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "In Present Perfect, *I've* means *I have* and *she's* means *she has*. The contraction does not change the verb form."
+      },
+      {
+        "id": "q59",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"He's ___ a mistake.\" (make)",
+        "theory_block_id": "b5_theory_short_answers_contractions",
+        "difficulty": 2,
+        "correct_answer": "made",
+        "explanation": "*He's* = *He has*. The V3 of *make* is **made**, so the sentence is *He's made a mistake*."
+      },
+      {
+        "id": "q60",
+        "type": "mcq_single",
+        "prompt": "Choose the correct sentence:",
+        "theory_block_id": "b5_theory_short_answers_contractions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I've finished, and she has too."
+          },
+          {
+            "id": "b",
+            "text": "I finished, and she has too."
+          },
+          {
+            "id": "c",
+            "text": "I've finished, and she too has."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "The contraction *I've* is correct for *I have*. Using *has* alone is acceptable in ellipsis: *she has too*."
+      },
+      {
+        "id": "q61",
+        "type": "mcq_single",
+        "prompt": "Choose the correct placement: \"I have ___ finished.\"",
+        "theory_block_id": "b6_theory_adverb_placement",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "already"
+          },
+          {
+            "id": "b",
+            "text": "yet"
+          },
+          {
+            "id": "c",
+            "text": "before"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Adverbs like *already* usually go between have/has and V3. *Yet* is used mainly in negatives and questions."
+      },
+      {
+        "id": "q62",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She has ___ seen this movie.\" (никогда)",
+        "theory_block_id": "b6_theory_adverb_placement",
+        "difficulty": 1,
+        "correct_answer": "never",
+        "explanation": "*Never* goes between has and V3: *has never seen*. This is the typical placement in Present Perfect."
+      },
+      {
+        "id": "q63",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Have you finished ___?\" (еще)",
+        "theory_block_id": "b6_theory_adverb_placement",
+        "difficulty": 1,
+        "correct_answer": "yet",
+        "explanation": "In questions, *yet* usually goes at the end. The rest of the structure is Have + subject + V3."
+      },
+      {
+        "id": "q64",
+        "type": "error_spotting",
+        "prompt": "Find the correct sentence:",
+        "theory_block_id": "b6_theory_adverb_placement",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I have finished yet."
+          },
+          {
+            "id": "b",
+            "text": "I haven't finished yet."
+          },
+          {
+            "id": "c",
+            "text": "I have yet finished."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "*Yet* is typically used in negatives and questions, often at the end. Option b has the correct negative and placement."
+      },
+      {
+        "id": "q65",
+        "type": "mcq_single",
+        "prompt": "Choose the correct sentence:",
+        "theory_block_id": "b6_theory_adverb_placement",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We have just arrived."
+          },
+          {
+            "id": "b",
+            "text": "We just have arrived."
+          },
+          {
+            "id": "c",
+            "text": "We have arrived just."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Just* goes between have/has and V3: *have just arrived*. That is the standard placement."
+      },
+      {
+        "id": "q66",
+        "type": "true_false",
+        "prompt": "Yet is usually placed at the end of questions or negatives in Present Perfect.",
+        "theory_block_id": "b6_theory_adverb_placement",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "The common position is end: *Have you finished yet?* or *I haven't finished yet.* This is a standard pattern."
+      },
+      {
+        "id": "q67",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I have ___ been to Japan.\" (когда-либо)",
+        "theory_block_id": "b6_theory_adverb_placement",
+        "difficulty": 2,
+        "correct_answer": "ever",
+        "explanation": "*Ever* usually sits between have/has and V3. This position is typical in Present Perfect questions and statements."
+      },
+      {
+        "id": "q68",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке: have, already, we, cleaned, the, room",
+        "theory_block_id": "b6_theory_adverb_placement",
+        "difficulty": 2,
+        "correct_answer": "We have already cleaned the room.",
+        "explanation": "The adverb *already* goes between have and V3. The normal order is subject + have + adverb + V3."
+      },
+      {
+        "id": "q69",
+        "type": "mcq_single",
+        "prompt": "Choose the correct sentence:",
+        "theory_block_id": "b6_theory_adverb_placement",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She has never met him."
+          },
+          {
+            "id": "b",
+            "text": "She never has met him."
+          },
+          {
+            "id": "c",
+            "text": "She has met never him."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "*Never* normally comes between has and V3: *has never met*. Option a follows this placement."
+      },
+      {
+        "id": "q70",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"They have ___ finished their project.\" (уже)",
+        "theory_block_id": "b6_theory_adverb_placement",
+        "difficulty": 1,
+        "correct_answer": "already",
+        "explanation": "*Already* typically goes between have/has and V3. This is the standard placement in affirmative sentences."
+      },
+      {
+        "id": "q71",
+        "type": "true_false",
+        "prompt": "In Present Perfect, adverbs like already and just usually go before have/has.",
+        "theory_block_id": "b6_theory_adverb_placement",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "These adverbs usually go between have/has and V3, not before the auxiliary. Example: *have already finished*."
+      },
+      {
+        "id": "q72",
+        "type": "error_spotting",
+        "prompt": "Find the correct sentence:",
+        "theory_block_id": "b6_theory_adverb_placement",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Have you yet finished?"
+          },
+          {
+            "id": "b",
+            "text": "Have you finished yet?"
+          },
+          {
+            "id": "c",
+            "text": "Have you finished already yet?"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "*Yet* normally appears at the end of the question: *Have you finished yet?* The other placements are unnatural."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q6",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q14",
+      "q16",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q27",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q34",
+      "q35",
+      "q36",
+      "q38",
+      "q39",
+      "q40",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q56",
+      "q58",
+      "q59",
+      "q60",
+      "q61",
+      "q62",
+      "q63",
+      "q64",
+      "q65",
+      "q66",
+      "q67",
+      "q68",
+      "q69",
+      "q70",
+      "q71",
+      "q72"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-20T10:00:10Z",
+    "source": "llm"
+  }
+}
