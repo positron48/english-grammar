@@ -60,8 +60,55 @@ while true; do
         echo -e "${BOLD}${RED}🛑 Обнаружена ошибка лимита использования (429)${RESET}"
         echo -e "${RED}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
         echo ""
-        echo -e "${YELLOW}Скрипт остановлен. Дождитесь сброса лимита и запустите скрипт снова.${RESET}"
-        exit 1
+        
+        # Попытка извлечь время ожидания из JSON ответа
+        WAIT_SECONDS=0
+        
+        # Пробуем извлечь resets_in_seconds из JSON
+        RESETS_IN_SECONDS=$(echo "$OUTPUT" | grep -oE '"resets_in_seconds":\s*[0-9]+' | grep -oE '[0-9]+' | head -1)
+        
+        if [ -n "$RESETS_IN_SECONDS" ] && [ "$RESETS_IN_SECONDS" -gt 0 ]; then
+            WAIT_SECONDS=$RESETS_IN_SECONDS
+        else
+            # Пробуем извлечь resets_at и вычислить разницу
+            RESETS_AT=$(echo "$OUTPUT" | grep -oE '"resets_at":\s*[0-9]+' | grep -oE '[0-9]+' | head -1)
+            if [ -n "$RESETS_AT" ] && [ "$RESETS_AT" -gt 0 ]; then
+                CURRENT_TIME=$(date +%s)
+                WAIT_SECONDS=$((RESETS_AT - CURRENT_TIME))
+            fi
+        fi
+        
+        # Если не удалось определить время, используем значение по умолчанию (5 минут)
+        if [ -z "$WAIT_SECONDS" ] || [ "$WAIT_SECONDS" -le 0 ]; then
+            echo -e "${YELLOW}⚠️  Не удалось определить время сброса лимита. Используется значение по умолчанию: 5 минут${RESET}"
+            WAIT_SECONDS=300
+        fi
+        
+        # Добавляем небольшую задержку для надежности
+        WAIT_SECONDS=$((WAIT_SECONDS + 10))
+        
+        # Форматируем время ожидания
+        WAIT_MINUTES=$((WAIT_SECONDS / 60))
+        WAIT_REMAINING_SECONDS=$((WAIT_SECONDS % 60))
+        RESET_TIME=$(date -d "+${WAIT_SECONDS} seconds" '+%H:%M:%S' 2>/dev/null || date -v+${WAIT_SECONDS}S '+%H:%M:%S' 2>/dev/null || echo "через ~${WAIT_MINUTES} мин")
+        
+        echo -e "${YELLOW}⏳ Ожидание сброса лимита...${RESET}"
+        echo -e "${YELLOW}   Время ожидания: ${BOLD}${WAIT_MINUTES} мин ${WAIT_REMAINING_SECONDS} сек${RESET}"
+        echo -e "${YELLOW}   Ожидаемое время сброса: ${BOLD}${RESET_TIME}${RESET}"
+        echo ""
+        
+        # Обратный отсчет
+        while [ $WAIT_SECONDS -gt 0 ]; do
+            MINUTES=$((WAIT_SECONDS / 60))
+            SECONDS=$((WAIT_SECONDS % 60))
+            printf "\r${GRAY}   Осталось: ${YELLOW}%02d:%02d${GRAY} (Ctrl+C для выхода)${RESET}" $MINUTES $SECONDS
+            sleep 1
+            WAIT_SECONDS=$((WAIT_SECONDS - 1))
+        done
+        echo ""
+        echo ""
+        echo -e "${GREEN}✅ Лимит сброшен, продолжаем работу...${RESET}"
+        echo ""
     fi
     
     # Пауза перед следующим запуском
