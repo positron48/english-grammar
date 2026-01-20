@@ -1,0 +1,1526 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.complex_sentences_1_connecting.and_but_or_so",
+  "section_id": "en.grammar.complex_sentences_1_connecting",
+  "title": "and/but/or/so: coordination + basic punctuation",
+  "title_short": "and/but/or/so: coordination + basic punctuation",
+  "description": "Глава вводит основные союзы and/but/or/so, правила координации и базовую пунктуацию.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "B1",
+  "order": 0,
+  "prerequisites": [],
+  "concept_refs": [
+    "coordination_and",
+    "coordination_but",
+    "coordination_or",
+    "coordination_so",
+    "coordination_punctuation",
+    "coordination_balance"
+  ],
+  "learning_objectives": [
+    "Соединять два простых предложения союзами and/but/or/so",
+    "Понимать различия по смыслу между союзами",
+    "Использовать базовую пунктуацию при соединении независимых частей"
+  ],
+  "estimated_minutes": 20,
+  "blocks": [
+    {
+      "id": "b1_coordination_and",
+      "type": "theory",
+      "title": "And соединяет идеи и действия: добавление, последовательность или список.",
+      "theory": {
+        "concept_id": "coordination_and",
+        "content_md": "**And** соединяет идеи и действия: добавление, последовательность или список.\n\nИспользуйте and, когда хотите показать, что два факта равны по важности и логично идут вместе.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I opened the window **and** sat down.",
+            "translation": "Я открыл окно **и** сел.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "We bought bread **and** milk.",
+            "translation": "Мы купили хлеб **и** молоко.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_and",
+      "type": "quiz_inline",
+      "title": "Quick check: and",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2",
+          "q4",
+          "q6",
+          "q9"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_coordination_but",
+      "type": "theory",
+      "title": "But выражает контраст или неожиданное противопоставление: *I want to go, but I'm busy.*",
+      "theory": {
+        "concept_id": "coordination_but",
+        "content_md": "**But** выражает контраст или неожиданное противопоставление: *I want to go, but I'm busy.*\n\nИспользуйте but, когда второе сообщение ограничивает или противопоставляет первое.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I like the plan, **but** it's too expensive.",
+            "translation": "Мне нравится план, **но** он слишком дорогой.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "She was tired, **but** she finished the report.",
+            "translation": "Она устала, **но** закончила отчет.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_but",
+      "type": "quiz_inline",
+      "title": "Quick check: but",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14",
+          "q16",
+          "q18",
+          "q21"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_coordination_or",
+      "type": "theory",
+      "title": "Or показывает выбор или альтернативу: *Tea or coffee?*",
+      "theory": {
+        "concept_id": "coordination_or",
+        "content_md": "**Or** показывает выбор или альтернативу: *Tea or coffee?*\n\nТакже or используется для вариантов действий или условий.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Do you want tea **or** coffee?",
+            "translation": "Вы хотите чай **или** кофе?",
+            "tags": [
+              "question"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "We can take a taxi **or** walk.",
+            "translation": "Мы можем взять такси **или** пойти пешком.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_or",
+      "type": "quiz_inline",
+      "title": "Quick check: or",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26",
+          "q28",
+          "q30",
+          "q33"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_coordination_so",
+      "type": "theory",
+      "title": "So вводит результат: *It was late, so we went home.*",
+      "theory": {
+        "concept_id": "coordination_so",
+        "content_md": "**So** вводит результат: *It was late, so we went home.*\n\nSo соединяет причину и итог, часто с запятой перед союзом.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "The bus was late, **so** we took a taxi.",
+            "translation": "Автобус опоздал, **поэтому** мы взяли такси.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "It rained, **so** the game was canceled.",
+            "translation": "Пошел дождь, **поэтому** игру отменили.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8_quiz_after_so",
+      "type": "quiz_inline",
+      "title": "Quick check: so",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38",
+          "q40",
+          "q42",
+          "q45"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_punctuation_comma",
+      "type": "theory",
+      "title": "Когда соединяем две независимые части, обычно ставим запятую перед and/but/or/so: *I was tired, and I went to bed.*",
+      "theory": {
+        "concept_id": "coordination_punctuation",
+        "content_md": "Когда соединяем **две независимые части**, обычно ставим запятую перед and/but/or/so: *I was tired, and I went to bed.*\n\nЕсли соединяются короткие части с общим подлежащим, запятая часто не нужна: *I got up and made coffee.*",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "She finished the task, **and** she sent the email.",
+            "translation": "Она закончила задачу, **и** отправила письмо.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "He opened the door and left.",
+            "translation": "Он открыл дверь и ушел.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b10_quiz_after_punctuation",
+      "type": "quiz_inline",
+      "title": "Quick check: punctuation",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q50",
+          "q52",
+          "q54",
+          "q57"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_sentence_balance",
+      "type": "theory",
+      "title": "Чтобы текст был ясным, избегайте длинных цепочек с and. Разбивайте идеи на 2–3 части.",
+      "theory": {
+        "concept_id": "coordination_balance",
+        "content_md": "Чтобы текст был ясным, избегайте длинных цепочек с and. Разбивайте идеи на 2–3 части.\n\nБалансируйте длину частей, чтобы предложение звучало естественно.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "We arrived early, and we prepared the room.",
+            "translation": "Мы пришли рано и подготовили комнату.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "He was hungry, so he ate, but he still felt tired.",
+            "translation": "Он был голоден, поэтому поел, но все равно устал.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: I opened the window ___ sat down.",
+        "theory_block_id": "b1_coordination_and",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "and"
+          },
+          {
+            "id": "b",
+            "text": "but"
+          },
+          {
+            "id": "c",
+            "text": "so"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "And соединяет два действия без контраста.",
+        "id": "q1"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: We bought bread ___ milk. (добавление)",
+        "theory_block_id": "b1_coordination_and",
+        "difficulty": 1,
+        "correct_answer": "and",
+        "explanation": "And используется для перечисления.",
+        "id": "q2"
+      },
+      {
+        "type": "true_false",
+        "prompt": "'And' can show sequence of actions.",
+        "theory_block_id": "b1_coordination_and",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "And часто передает последовательность.",
+        "id": "q3"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'I opened the door but sat down.'",
+        "theory_block_id": "b1_coordination_and",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I opened the door and sat down."
+          },
+          {
+            "id": "b",
+            "text": "I opened the door but sat down."
+          },
+          {
+            "id": "c",
+            "text": "I opened the door and I sat down."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Здесь нет контраста, нужен and.",
+        "id": "q4"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: She called me ___ we talked for an hour.",
+        "theory_block_id": "b1_coordination_and",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "and"
+          },
+          {
+            "id": "b",
+            "text": "or"
+          },
+          {
+            "id": "c",
+            "text": "so"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "And соединяет два связанных события.",
+        "id": "q5"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: He went to the store ___ bought fruit. (последовательность)",
+        "theory_block_id": "b1_coordination_and",
+        "difficulty": 1,
+        "correct_answer": "and",
+        "explanation": "And подходит для последовательности действий.",
+        "id": "q6"
+      },
+      {
+        "type": "true_false",
+        "prompt": "'And' is used only for contrast.",
+        "theory_block_id": "b1_coordination_and",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Контраст выражает but, а and — добавление/последовательность.",
+        "id": "q7"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'We bought bread or milk.' (значение: купили и то и другое)",
+        "theory_block_id": "b1_coordination_and",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We bought bread and milk."
+          },
+          {
+            "id": "b",
+            "text": "We bought bread or milk."
+          },
+          {
+            "id": "c",
+            "text": "We bought bread and also milk."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Если купили оба продукта, нужен and.",
+        "id": "q8"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: We met at six ___ went to dinner.",
+        "theory_block_id": "b1_coordination_and",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "and"
+          },
+          {
+            "id": "b",
+            "text": "but"
+          },
+          {
+            "id": "c",
+            "text": "so"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "And соединяет последовательные действия.",
+        "id": "q9"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: She smiled ___ waved. (добавление)",
+        "theory_block_id": "b1_coordination_and",
+        "difficulty": 1,
+        "correct_answer": "and",
+        "explanation": "And объединяет два действия.",
+        "id": "q10"
+      },
+      {
+        "type": "true_false",
+        "prompt": "'And' can connect two nouns.",
+        "theory_block_id": "b1_coordination_and",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "And соединяет слова и фразы.",
+        "id": "q11"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: He finished the task ___ sent the report.",
+        "theory_block_id": "b1_coordination_and",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "and"
+          },
+          {
+            "id": "b",
+            "text": "so"
+          },
+          {
+            "id": "c",
+            "text": "or"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "And соединяет последовательные действия.",
+        "id": "q12"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: I like the idea, ___ it's too risky.",
+        "theory_block_id": "b2_coordination_but",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "but"
+          },
+          {
+            "id": "b",
+            "text": "and"
+          },
+          {
+            "id": "c",
+            "text": "so"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "But выражает контраст.",
+        "id": "q13"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: It was cold, ___ we went for a walk. (контраст)",
+        "theory_block_id": "b2_coordination_but",
+        "difficulty": 2,
+        "correct_answer": "but",
+        "explanation": "But показывает противопоставление.",
+        "id": "q14"
+      },
+      {
+        "type": "true_false",
+        "prompt": "'But' is used to show contrast.",
+        "theory_block_id": "b2_coordination_but",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это основной смысл but.",
+        "id": "q15"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'She was tired and she finished the report.' (контраст)",
+        "theory_block_id": "b2_coordination_but",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She was tired, but she finished the report."
+          },
+          {
+            "id": "b",
+            "text": "She was tired and she finished the report."
+          },
+          {
+            "id": "c",
+            "text": "She was tired, but finished the report."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для контраста нужен but.",
+        "id": "q16"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: He is smart, ___ he makes mistakes sometimes.",
+        "theory_block_id": "b2_coordination_but",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "but"
+          },
+          {
+            "id": "b",
+            "text": "and"
+          },
+          {
+            "id": "c",
+            "text": "so"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "But соединяет ожидание и реальность.",
+        "id": "q17"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: I want to go, ___ I'm busy. (контраст)",
+        "theory_block_id": "b2_coordination_but",
+        "difficulty": 1,
+        "correct_answer": "but",
+        "explanation": "But выражает противопоставление.",
+        "id": "q18"
+      },
+      {
+        "type": "true_false",
+        "prompt": "'But' can connect two independent clauses.",
+        "theory_block_id": "b2_coordination_but",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "But соединяет независимые части.",
+        "id": "q19"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'I was hungry, and I didn't eat.'",
+        "theory_block_id": "b2_coordination_but",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I was hungry, but I didn't eat."
+          },
+          {
+            "id": "b",
+            "text": "I was hungry, and I didn't eat."
+          },
+          {
+            "id": "c",
+            "text": "I was hungry, but I didn't want to eat."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Здесь контраст, поэтому but.",
+        "id": "q20"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: The room is small, ___ it's cozy.",
+        "theory_block_id": "b2_coordination_but",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "but"
+          },
+          {
+            "id": "b",
+            "text": "and"
+          },
+          {
+            "id": "c",
+            "text": "or"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "But показывает противопоставление.",
+        "id": "q21"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: He studied a lot, ___ he failed. (неожиданный результат)",
+        "theory_block_id": "b2_coordination_but",
+        "difficulty": 2,
+        "correct_answer": "but",
+        "explanation": "But подходит для неожиданного контраста.",
+        "id": "q22"
+      },
+      {
+        "type": "true_false",
+        "prompt": "'But' is used for alternatives like choices.",
+        "theory_block_id": "b2_coordination_but",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Для выбора используется or.",
+        "id": "q23"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: I like coffee, ___ I don't drink it at night.",
+        "theory_block_id": "b2_coordination_but",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "but"
+          },
+          {
+            "id": "b",
+            "text": "and"
+          },
+          {
+            "id": "c",
+            "text": "so"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "But показывает контраст между фактами.",
+        "id": "q24"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: Do you want tea ___ coffee?",
+        "theory_block_id": "b3_coordination_or",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "or"
+          },
+          {
+            "id": "b",
+            "text": "and"
+          },
+          {
+            "id": "c",
+            "text": "so"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Or вводит выбор.",
+        "id": "q25"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: We can take a taxi ___ walk. (альтернатива)",
+        "theory_block_id": "b3_coordination_or",
+        "difficulty": 1,
+        "correct_answer": "or",
+        "explanation": "Or — союз выбора.",
+        "id": "q26"
+      },
+      {
+        "type": "true_false",
+        "prompt": "'Or' is used to show alternatives.",
+        "theory_block_id": "b3_coordination_or",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Or обозначает альтернативу.",
+        "id": "q27"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'Do you want tea and coffee?' (значение: выбор одного)",
+        "theory_block_id": "b3_coordination_or",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Do you want tea or coffee?"
+          },
+          {
+            "id": "b",
+            "text": "Do you want tea and coffee?"
+          },
+          {
+            "id": "c",
+            "text": "Would you like tea or coffee?"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для выбора нужен or.",
+        "id": "q28"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: Hurry up, ___ we'll be late.",
+        "theory_block_id": "b3_coordination_or",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "or"
+          },
+          {
+            "id": "b",
+            "text": "and"
+          },
+          {
+            "id": "c",
+            "text": "so"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Or используется в предупреждениях: иначе/или.",
+        "id": "q29"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: You can stay here ___ come with us. (альтернатива)",
+        "theory_block_id": "b3_coordination_or",
+        "difficulty": 1,
+        "correct_answer": "or",
+        "explanation": "Or — выбор между двумя вариантами.",
+        "id": "q30"
+      },
+      {
+        "type": "true_false",
+        "prompt": "'Or' can be used in negative sentences for alternatives.",
+        "theory_block_id": "b3_coordination_or",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Or подходит для альтернатив в отрицаниях.",
+        "id": "q31"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'You can take the bus and the train.' (значение: выбор одного)",
+        "theory_block_id": "b3_coordination_or",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "You can take the bus or the train."
+          },
+          {
+            "id": "b",
+            "text": "You can take the bus and the train."
+          },
+          {
+            "id": "c",
+            "text": "You can take a bus or a train."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для выбора нужен or.",
+        "id": "q32"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: Call me now, ___ I will call you later.",
+        "theory_block_id": "b3_coordination_or",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "or"
+          },
+          {
+            "id": "b",
+            "text": "and"
+          },
+          {
+            "id": "c",
+            "text": "so"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Or может означать «иначе».",
+        "id": "q33"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: Do you want to eat here ___ go home? (альтернатива)",
+        "theory_block_id": "b3_coordination_or",
+        "difficulty": 1,
+        "correct_answer": "or",
+        "explanation": "Or — выбор.",
+        "id": "q34"
+      },
+      {
+        "type": "true_false",
+        "prompt": "'Or' is used for contrast like but.",
+        "theory_block_id": "b3_coordination_or",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Контраст выражает but, or — выбор.",
+        "id": "q35"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: You can email me ___ call me.",
+        "theory_block_id": "b3_coordination_or",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "or"
+          },
+          {
+            "id": "b",
+            "text": "and"
+          },
+          {
+            "id": "c",
+            "text": "so"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Or — альтернатива.",
+        "id": "q36"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: It was late, ___ we went home.",
+        "theory_block_id": "b4_coordination_so",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "so"
+          },
+          {
+            "id": "b",
+            "text": "but"
+          },
+          {
+            "id": "c",
+            "text": "or"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "So вводит результат.",
+        "id": "q37"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: I missed the bus, ___ I took a taxi. (результат)",
+        "theory_block_id": "b4_coordination_so",
+        "difficulty": 1,
+        "correct_answer": "so",
+        "explanation": "So = поэтому.",
+        "id": "q38"
+      },
+      {
+        "type": "true_false",
+        "prompt": "'So' connects cause and result.",
+        "theory_block_id": "b4_coordination_so",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "So показывает следствие.",
+        "id": "q39"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'It was late, but we went home.' (значение: результат)",
+        "theory_block_id": "b4_coordination_so",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It was late, so we went home."
+          },
+          {
+            "id": "b",
+            "text": "It was late, but we went home."
+          },
+          {
+            "id": "c",
+            "text": "It was late, so we left."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужен so для результата.",
+        "id": "q40"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: She was sick, ___ she stayed home.",
+        "theory_block_id": "b4_coordination_so",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "so"
+          },
+          {
+            "id": "b",
+            "text": "and"
+          },
+          {
+            "id": "c",
+            "text": "or"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "So показывает следствие.",
+        "id": "q41"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: The store was closed, ___ we came back later. (результат)",
+        "theory_block_id": "b4_coordination_so",
+        "difficulty": 2,
+        "correct_answer": "so",
+        "explanation": "So = поэтому.",
+        "id": "q42"
+      },
+      {
+        "type": "true_false",
+        "prompt": "'So' can mean 'therefore'.",
+        "theory_block_id": "b4_coordination_so",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "So часто переводится как «поэтому».",
+        "id": "q43"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'He was tired, or he went to bed.'",
+        "theory_block_id": "b4_coordination_so",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He was tired, so he went to bed."
+          },
+          {
+            "id": "b",
+            "text": "He was tired, or he went to bed."
+          },
+          {
+            "id": "c",
+            "text": "He was tired, so he slept."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Здесь причина-следствие, нужен so.",
+        "id": "q44"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: The traffic was heavy, ___ we were late.",
+        "theory_block_id": "b4_coordination_so",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "so"
+          },
+          {
+            "id": "b",
+            "text": "but"
+          },
+          {
+            "id": "c",
+            "text": "or"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "So — результат.",
+        "id": "q45"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: I forgot my wallet, ___ I couldn't pay. (результат)",
+        "theory_block_id": "b4_coordination_so",
+        "difficulty": 2,
+        "correct_answer": "so",
+        "explanation": "So связывает причину и следствие.",
+        "id": "q46"
+      },
+      {
+        "type": "true_false",
+        "prompt": "'So' is used for alternatives.",
+        "theory_block_id": "b4_coordination_so",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Альтернатива выражается or.",
+        "id": "q47"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: It rained, ___ the game was canceled.",
+        "theory_block_id": "b4_coordination_so",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "so"
+          },
+          {
+            "id": "b",
+            "text": "and"
+          },
+          {
+            "id": "c",
+            "text": "but"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "So — следствие.",
+        "id": "q48"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: I was tired, ___ I went to bed. (and/but/or/so)",
+        "theory_block_id": "b5_punctuation_comma",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "so"
+          },
+          {
+            "id": "b",
+            "text": "and"
+          },
+          {
+            "id": "c",
+            "text": "or"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Причина-следствие: so, запятая перед союзом.",
+        "id": "q49"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: She finished the report, ___ she sent it. (and/but/or/so)",
+        "theory_block_id": "b5_punctuation_comma",
+        "difficulty": 2,
+        "correct_answer": "and",
+        "explanation": "Две независимые части соединены and с запятой.",
+        "id": "q50"
+      },
+      {
+        "type": "true_false",
+        "prompt": "A comma is often used before and/but/or/so when joining two independent clauses.",
+        "theory_block_id": "b5_punctuation_comma",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Это базовое правило пунктуации.",
+        "id": "q51"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'He opened the door, and left.'",
+        "theory_block_id": "b5_punctuation_comma",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He opened the door and left."
+          },
+          {
+            "id": "b",
+            "text": "He opened the door, and left."
+          },
+          {
+            "id": "c",
+            "text": "He opened the door and then left."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Один подлежащее и два глагола — запятая не нужна.",
+        "id": "q52"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: She was late, ___ she missed the meeting.",
+        "theory_block_id": "b5_punctuation_comma",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "so"
+          },
+          {
+            "id": "b",
+            "text": "but"
+          },
+          {
+            "id": "c",
+            "text": "and"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Причина-следствие: so.",
+        "id": "q53"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: It was cold, ___ we stayed inside. (and/but/or/so)",
+        "theory_block_id": "b5_punctuation_comma",
+        "difficulty": 2,
+        "correct_answer": "so",
+        "explanation": "Следствие — so.",
+        "id": "q54"
+      },
+      {
+        "type": "true_false",
+        "prompt": "You always need a comma before and in any sentence.",
+        "theory_block_id": "b5_punctuation_comma",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Если части короткие и с общим подлежащим, запятая не нужна.",
+        "id": "q55"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'She cooked dinner and, she washed the dishes.'",
+        "theory_block_id": "b5_punctuation_comma",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She cooked dinner, and she washed the dishes."
+          },
+          {
+            "id": "b",
+            "text": "She cooked dinner and, she washed the dishes."
+          },
+          {
+            "id": "c",
+            "text": "She cooked dinner and washed the dishes."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Запятая ставится перед and, но не после.",
+        "id": "q56"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: I called you, ___ you didn't answer.",
+        "theory_block_id": "b5_punctuation_comma",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "but"
+          },
+          {
+            "id": "b",
+            "text": "and"
+          },
+          {
+            "id": "c",
+            "text": "so"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Контраст: but.",
+        "id": "q57"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: We can go now, ___ we can wait. (and/but/or/so)",
+        "theory_block_id": "b5_punctuation_comma",
+        "difficulty": 2,
+        "correct_answer": "or",
+        "explanation": "Выбор — or.",
+        "id": "q58"
+      },
+      {
+        "type": "true_false",
+        "prompt": "A comma is optional when two independent clauses are joined by and.",
+        "theory_block_id": "b5_punctuation_comma",
+        "difficulty": 3,
+        "correct_answer": "false",
+        "explanation": "С независимыми частями запятая обычно нужна.",
+        "id": "q59"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: He studied hard, ___ he passed the exam.",
+        "theory_block_id": "b5_punctuation_comma",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "so"
+          },
+          {
+            "id": "b",
+            "text": "but"
+          },
+          {
+            "id": "c",
+            "text": "or"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Следствие: so.",
+        "id": "q60"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: We arrived early, ___ we prepared the room.",
+        "theory_block_id": "b6_sentence_balance",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "and"
+          },
+          {
+            "id": "b",
+            "text": "but"
+          },
+          {
+            "id": "c",
+            "text": "or"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "And соединяет две связанные части.",
+        "id": "q61"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: He was hungry, ___ he ate. (результат)",
+        "theory_block_id": "b6_sentence_balance",
+        "difficulty": 2,
+        "correct_answer": "so",
+        "explanation": "So показывает результат.",
+        "id": "q62"
+      },
+      {
+        "type": "true_false",
+        "prompt": "Using too many 'and' can make sentences unclear.",
+        "theory_block_id": "b6_sentence_balance",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Длинные цепочки and ухудшают ясность.",
+        "id": "q63"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'He was tired and he was hungry and he was late.'",
+        "theory_block_id": "b6_sentence_balance",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He was tired, hungry, and late."
+          },
+          {
+            "id": "b",
+            "text": "He was tired and he was hungry and he was late."
+          },
+          {
+            "id": "c",
+            "text": "He was tired, and he was late."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Лучше объединить повторяющиеся элементы для баланса.",
+        "id": "q64"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: He was tired, ___ he finished the task.",
+        "theory_block_id": "b6_sentence_balance",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "but"
+          },
+          {
+            "id": "b",
+            "text": "and"
+          },
+          {
+            "id": "c",
+            "text": "so"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Контраст: but.",
+        "id": "q65"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: We can stop now, ___ continue later. (альтернатива)",
+        "theory_block_id": "b6_sentence_balance",
+        "difficulty": 2,
+        "correct_answer": "or",
+        "explanation": "Or показывает выбор.",
+        "id": "q66"
+      },
+      {
+        "type": "true_false",
+        "prompt": "Balanced sentences often have similar length in both parts.",
+        "theory_block_id": "b6_sentence_balance",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Баланс делает фразу читаемой.",
+        "id": "q67"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'She finished the report but she didn't send it, and because she was busy.'",
+        "theory_block_id": "b6_sentence_balance",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She finished the report, but she didn't send it because she was busy."
+          },
+          {
+            "id": "b",
+            "text": "She finished the report but she didn't send it, and because she was busy."
+          },
+          {
+            "id": "c",
+            "text": "She finished the report but didn't send it."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно убрать лишнее соединение and.",
+        "id": "q68"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: The sentence is long, ___ it's still clear.",
+        "theory_block_id": "b6_sentence_balance",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "but"
+          },
+          {
+            "id": "b",
+            "text": "and"
+          },
+          {
+            "id": "c",
+            "text": "so"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "But выражает контраст.",
+        "id": "q69"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: I was late, ___ I called you. (результат)",
+        "theory_block_id": "b6_sentence_balance",
+        "difficulty": 2,
+        "correct_answer": "so",
+        "explanation": "So — результат.",
+        "id": "q70"
+      },
+      {
+        "type": "true_false",
+        "prompt": "Long chains of 'and' are always good style.",
+        "theory_block_id": "b6_sentence_balance",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Слишком много and ухудшает стиль.",
+        "id": "q71"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: We can meet today, ___ we can meet tomorrow.",
+        "theory_block_id": "b6_sentence_balance",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "or"
+          },
+          {
+            "id": "b",
+            "text": "and"
+          },
+          {
+            "id": "c",
+            "text": "so"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Or — выбор.",
+        "id": "q72"
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60",
+      "q61",
+      "q62",
+      "q63",
+      "q64",
+      "q65",
+      "q66",
+      "q67",
+      "q68",
+      "q69",
+      "q70",
+      "q71",
+      "q72"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-20T07:14:34Z",
+    "source": "llm"
+  }
+}
