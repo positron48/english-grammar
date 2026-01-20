@@ -1,0 +1,1542 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.complex_sentences_1_connecting.because_so_although_but",
+  "section_id": "en.grammar.complex_sentences_1_connecting",
+  "title": "because/so; although/but; while/whereas (contrast)",
+  "title_short": "because/so; although/but; while/whereas",
+  "description": "Глава объясняет причинно-следственные и контрастные связи: because/so, although/but, while/whereas.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "B1",
+  "order": 0,
+  "prerequisites": [
+    "en.grammar.complex_sentences_1_connecting.and_but_or_so"
+  ],
+  "concept_refs": [
+    "because_cause",
+    "so_result",
+    "although_contrast",
+    "while_whereas_contrast",
+    "clause_order_punctuation",
+    "cause_contrast_errors"
+  ],
+  "learning_objectives": [
+    "Различать because и so по роли причины и результата",
+    "Использовать although/though vs but в контрасте",
+    "Понимать contrast-значение while/whereas"
+  ],
+  "estimated_minutes": 22,
+  "blocks": [
+    {
+      "id": "b1_because_cause",
+      "type": "theory",
+      "title": "Because вводит причину: *I stayed home because I was sick.*",
+      "theory": {
+        "concept_id": "because_cause",
+        "content_md": "**Because** вводит причину: *I stayed home because I was sick.*\n\nПридаточное с because может стоять в начале или конце. Если оно впереди, обычно ставим запятую: *Because it was late, we left.*",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I stayed home **because** I was sick.",
+            "translation": "Я остался дома, потому что был болен.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "**Because** it was late, we left.",
+            "translation": "Так как было поздно, мы ушли.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_because",
+      "type": "quiz_inline",
+      "title": "Quick check: because",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2",
+          "q4",
+          "q6",
+          "q9"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_so_result",
+      "type": "theory",
+      "title": "So показывает результат: *It was late, so we left.*",
+      "theory": {
+        "concept_id": "so_result",
+        "content_md": "**So** показывает результат: *It was late, so we left.*\n\nSo соединяет причину и следствие в одной связке. В отличие от because, so вводит **результат**.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "It was late, **so** we left.",
+            "translation": "Было поздно, поэтому мы ушли.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "The bus was late, **so** I took a taxi.",
+            "translation": "Автобус опоздал, поэтому я взял такси.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_so",
+      "type": "quiz_inline",
+      "title": "Quick check: so",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14",
+          "q16",
+          "q18",
+          "q21"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_although_contrast",
+      "type": "theory",
+      "title": "Although/though вводят уступку: *Although it was raining, we went out.*",
+      "theory": {
+        "concept_id": "although_contrast",
+        "content_md": "**Although/though** вводят уступку: *Although it was raining, we went out.*\n\nВажно: в одном предложении **не** используют одновременно although и but.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "**Although** it was cold, we went for a walk.",
+            "translation": "Хотя было холодно, мы пошли гулять.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "He stayed calm, **though** he was nervous.",
+            "translation": "Он оставался спокойным, хотя нервничал.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_although",
+      "type": "quiz_inline",
+      "title": "Quick check: although/though",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26",
+          "q28",
+          "q30",
+          "q33"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_while_whereas",
+      "type": "theory",
+      "title": "While/whereas используются для контраста между двумя фактами: *While I like tea, she prefers coffee.*",
+      "theory": {
+        "concept_id": "while_whereas_contrast",
+        "content_md": "**While/whereas** используются для контраста между двумя фактами: *While I like tea, she prefers coffee.*\n\nWhereas звучит более формально.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "**While** I like tea, she prefers coffee.",
+            "translation": "Мне нравится чай, тогда как она предпочитает кофе.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "He likes sports, **whereas** his brother prefers music.",
+            "translation": "Ему нравятся спорт, тогда как брат предпочитает музыку.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8_quiz_after_while_whereas",
+      "type": "quiz_inline",
+      "title": "Quick check: while/whereas",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38",
+          "q40",
+          "q42",
+          "q45"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_clause_order_punct",
+      "type": "theory",
+      "title": "Если придаточное стоит в начале, ставим запятую: *Although it was late, we stayed.*",
+      "theory": {
+        "concept_id": "clause_order_punctuation",
+        "content_md": "Если придаточное стоит **в начале**, ставим запятую: *Although it was late, we stayed.*\n\nЕсли придаточное стоит **в конце**, запятая обычно не нужна: *We stayed because it was late.*",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "**While** I agree with you, I see a risk.",
+            "translation": "Хотя я согласен, я вижу риск.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "We stayed because it was raining.",
+            "translation": "Мы остались, потому что шел дождь.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b10_quiz_after_punctuation",
+      "type": "quiz_inline",
+      "title": "Quick check: order & punctuation",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q50",
+          "q52",
+          "q54",
+          "q57"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_common_errors",
+      "type": "theory",
+      "title": "Типичные ошибки: ",
+      "theory": {
+        "concept_id": "cause_contrast_errors",
+        "content_md": "Типичные ошибки: \n- *Because it was late, so we left* (нельзя because + so в одном предложении)\n- *Although it was cold, but we went out* (нельзя although + but)\n\nВыбирайте один союз для одной связи.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Because it was late, we left.",
+            "translation": "Так как было поздно, мы ушли.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Although it was cold, we went out.",
+            "translation": "Хотя было холодно, мы вышли.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: I stayed home ___ I was sick.",
+        "theory_block_id": "b1_because_cause",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "because"
+          },
+          {
+            "id": "b",
+            "text": "so"
+          },
+          {
+            "id": "c",
+            "text": "but"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Because вводит причину.",
+        "id": "q1"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: ___ it was late, we left. (причина)",
+        "theory_block_id": "b1_because_cause",
+        "difficulty": 1,
+        "correct_answer": "Because",
+        "explanation": "Because может стоять в начале предложения.",
+        "id": "q2"
+      },
+      {
+        "type": "true_false",
+        "prompt": "Because introduces a cause.",
+        "theory_block_id": "b1_because_cause",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Because обозначает причину.",
+        "id": "q3"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'We left because it was late,.'",
+        "theory_block_id": "b1_because_cause",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We left because it was late."
+          },
+          {
+            "id": "b",
+            "text": "We left because it was late,."
+          },
+          {
+            "id": "c",
+            "text": "Because it was late, we left."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Запятая после because в конце не нужна.",
+        "id": "q4"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: She smiled ___ she was happy.",
+        "theory_block_id": "b1_because_cause",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "because"
+          },
+          {
+            "id": "b",
+            "text": "so"
+          },
+          {
+            "id": "c",
+            "text": "or"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Причина: потому что была счастлива.",
+        "id": "q5"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: We canceled the trip ___ it rained. (причина)",
+        "theory_block_id": "b1_because_cause",
+        "difficulty": 1,
+        "correct_answer": "because",
+        "explanation": "Because вводит причину.",
+        "id": "q6"
+      },
+      {
+        "type": "true_false",
+        "prompt": "Because clauses can come first with a comma.",
+        "theory_block_id": "b1_because_cause",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Если придаточное впереди, ставим запятую.",
+        "id": "q7"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'Because I was tired I went home.'",
+        "theory_block_id": "b1_because_cause",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Because I was tired, I went home."
+          },
+          {
+            "id": "b",
+            "text": "Because I was tired I went home."
+          },
+          {
+            "id": "c",
+            "text": "I went home because I was tired."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После начального because ставим запятую.",
+        "id": "q8"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: We stayed inside ___ the storm.",
+        "theory_block_id": "b1_because_cause",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "because of"
+          },
+          {
+            "id": "b",
+            "text": "because"
+          },
+          {
+            "id": "c",
+            "text": "so"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Перед существительным нужна because of.",
+        "id": "q9"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: He was late ___ he missed the bus. (причина)",
+        "theory_block_id": "b1_because_cause",
+        "difficulty": 2,
+        "correct_answer": "because",
+        "explanation": "Because связывает причину и факт.",
+        "id": "q10"
+      },
+      {
+        "type": "true_false",
+        "prompt": "Because can be used with a noun without 'of'.",
+        "theory_block_id": "b1_because_cause",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "С существительным нужен because of.",
+        "id": "q11"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: I was late ___ there was traffic.",
+        "theory_block_id": "b1_because_cause",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "because"
+          },
+          {
+            "id": "b",
+            "text": "so"
+          },
+          {
+            "id": "c",
+            "text": "but"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Because вводит причину.",
+        "id": "q12"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: It was late, ___ we left.",
+        "theory_block_id": "b2_so_result",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "so"
+          },
+          {
+            "id": "b",
+            "text": "because"
+          },
+          {
+            "id": "c",
+            "text": "but"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "So вводит результат.",
+        "id": "q13"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: The bus was late, ___ we took a taxi. (результат)",
+        "theory_block_id": "b2_so_result",
+        "difficulty": 1,
+        "correct_answer": "so",
+        "explanation": "So = поэтому.",
+        "id": "q14"
+      },
+      {
+        "type": "true_false",
+        "prompt": "So introduces the result, not the cause.",
+        "theory_block_id": "b2_so_result",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "So обозначает следствие.",
+        "id": "q15"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'It was late so we left.' (нужна запятая)",
+        "theory_block_id": "b2_so_result",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It was late, so we left."
+          },
+          {
+            "id": "b",
+            "text": "It was late so we left."
+          },
+          {
+            "id": "c",
+            "text": "So we left because it was late."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "При соединении независимых частей ставим запятую перед so.",
+        "id": "q16"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: I forgot my wallet, ___ I couldn't pay.",
+        "theory_block_id": "b2_so_result",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "so"
+          },
+          {
+            "id": "b",
+            "text": "because"
+          },
+          {
+            "id": "c",
+            "text": "or"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "So показывает результат.",
+        "id": "q17"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: It rained, ___ the game was canceled. (результат)",
+        "theory_block_id": "b2_so_result",
+        "difficulty": 1,
+        "correct_answer": "so",
+        "explanation": "So связывает причину и следствие.",
+        "id": "q18"
+      },
+      {
+        "type": "true_false",
+        "prompt": "So can replace because in the same position.",
+        "theory_block_id": "b2_so_result",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Because вводит причину, so — результат.",
+        "id": "q19"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'I was tired, because I went to bed.'",
+        "theory_block_id": "b2_so_result",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I was tired, so I went to bed."
+          },
+          {
+            "id": "b",
+            "text": "I was tired, because I went to bed."
+          },
+          {
+            "id": "c",
+            "text": "Because I was tired, I went to bed."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Здесь нужен результат: so.",
+        "id": "q20"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: She was sick, ___ she stayed home.",
+        "theory_block_id": "b2_so_result",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "so"
+          },
+          {
+            "id": "b",
+            "text": "but"
+          },
+          {
+            "id": "c",
+            "text": "or"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "So показывает следствие.",
+        "id": "q21"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: The store was closed, ___ we came back later. (результат)",
+        "theory_block_id": "b2_so_result",
+        "difficulty": 2,
+        "correct_answer": "so",
+        "explanation": "So = поэтому.",
+        "id": "q22"
+      },
+      {
+        "type": "true_false",
+        "prompt": "So is used for alternatives like choices.",
+        "theory_block_id": "b2_so_result",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Выбор выражает or, а so — результат.",
+        "id": "q23"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: We missed the train, ___ we took a taxi.",
+        "theory_block_id": "b2_so_result",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "so"
+          },
+          {
+            "id": "b",
+            "text": "because"
+          },
+          {
+            "id": "c",
+            "text": "and"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "So связывает причину и следствие.",
+        "id": "q24"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ it was raining, we went out.",
+        "theory_block_id": "b3_although_contrast",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Although"
+          },
+          {
+            "id": "b",
+            "text": "So"
+          },
+          {
+            "id": "c",
+            "text": "Because"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Although вводит уступку.",
+        "id": "q25"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: We went out, ___ it was cold. (уступка)",
+        "theory_block_id": "b3_although_contrast",
+        "difficulty": 2,
+        "correct_answer": "though",
+        "explanation": "Though можно использовать в конце.",
+        "id": "q26"
+      },
+      {
+        "type": "true_false",
+        "prompt": "Although and but can be used together in one sentence.",
+        "theory_block_id": "b3_although_contrast",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нельзя использовать although и but вместе.",
+        "id": "q27"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'Although it was cold, but we went out.'",
+        "theory_block_id": "b3_although_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Although it was cold, we went out."
+          },
+          {
+            "id": "b",
+            "text": "Although it was cold, but we went out."
+          },
+          {
+            "id": "c",
+            "text": "It was cold, but we went out."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Either although or but, not both.",
+        "id": "q28"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: He stayed calm, ___ he was nervous.",
+        "theory_block_id": "b3_although_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "though"
+          },
+          {
+            "id": "b",
+            "text": "so"
+          },
+          {
+            "id": "c",
+            "text": "because"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Though выражает уступку.",
+        "id": "q29"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: ___ I like it, I won't buy it. (уступка)",
+        "theory_block_id": "b3_although_contrast",
+        "difficulty": 2,
+        "correct_answer": "Although",
+        "explanation": "Although вводит уступку.",
+        "id": "q30"
+      },
+      {
+        "type": "true_false",
+        "prompt": "Though is less formal than although.",
+        "theory_block_id": "b3_although_contrast",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Though считается более разговорным.",
+        "id": "q31"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'Though it was late, but we stayed.'",
+        "theory_block_id": "b3_although_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Though it was late, we stayed."
+          },
+          {
+            "id": "b",
+            "text": "Though it was late, but we stayed."
+          },
+          {
+            "id": "c",
+            "text": "It was late, but we stayed."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Though и but не ставятся вместе.",
+        "id": "q32"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ he was tired, he finished the work.",
+        "theory_block_id": "b3_although_contrast",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Although"
+          },
+          {
+            "id": "b",
+            "text": "Because"
+          },
+          {
+            "id": "c",
+            "text": "So"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Although показывает уступку.",
+        "id": "q33"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: We enjoyed the trip, ___ the weather was bad. (уступка)",
+        "theory_block_id": "b3_although_contrast",
+        "difficulty": 2,
+        "correct_answer": "although",
+        "explanation": "Although вводит уступку.",
+        "id": "q34"
+      },
+      {
+        "type": "true_false",
+        "prompt": "You can start a sentence with although.",
+        "theory_block_id": "b3_although_contrast",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Although часто стоит в начале предложения.",
+        "id": "q35"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: He was late, ___ he apologized.",
+        "theory_block_id": "b3_although_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "but"
+          },
+          {
+            "id": "b",
+            "text": "although"
+          },
+          {
+            "id": "c",
+            "text": "so"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Здесь нужен but для простого контраста.",
+        "id": "q36"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ I like tea, she prefers coffee.",
+        "theory_block_id": "b4_while_whereas",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "While"
+          },
+          {
+            "id": "b",
+            "text": "Because"
+          },
+          {
+            "id": "c",
+            "text": "So"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "While выражает контраст.",
+        "id": "q37"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: He likes sports, ___ his brother prefers music. (контраст)",
+        "theory_block_id": "b4_while_whereas",
+        "difficulty": 2,
+        "correct_answer": "whereas",
+        "explanation": "Whereas — более формальный союз контраста.",
+        "id": "q38"
+      },
+      {
+        "type": "true_false",
+        "prompt": "Whereas is more formal than while.",
+        "theory_block_id": "b4_while_whereas",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Whereas обычно формальнее.",
+        "id": "q39"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'While I like tea, but she prefers coffee.'",
+        "theory_block_id": "b4_while_whereas",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "While I like tea, she prefers coffee."
+          },
+          {
+            "id": "b",
+            "text": "While I like tea, but she prefers coffee."
+          },
+          {
+            "id": "c",
+            "text": "I like tea, whereas she prefers coffee."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "While/whereas не сочетаются с but.",
+        "id": "q40"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: She works nights, ___ he works days.",
+        "theory_block_id": "b4_while_whereas",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "whereas"
+          },
+          {
+            "id": "b",
+            "text": "because"
+          },
+          {
+            "id": "c",
+            "text": "so"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Whereas выражает контраст.",
+        "id": "q41"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: ___ I agree, I still have doubts. (контраст)",
+        "theory_block_id": "b4_while_whereas",
+        "difficulty": 2,
+        "correct_answer": "While",
+        "explanation": "While может вводить контраст.",
+        "id": "q42"
+      },
+      {
+        "type": "true_false",
+        "prompt": "While can mean contrast in formal writing.",
+        "theory_block_id": "b4_while_whereas",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "While может использоваться как союз контраста.",
+        "id": "q43"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'He likes coffee whereas, she likes tea.'",
+        "theory_block_id": "b4_while_whereas",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He likes coffee, whereas she likes tea."
+          },
+          {
+            "id": "b",
+            "text": "He likes coffee whereas, she likes tea."
+          },
+          {
+            "id": "c",
+            "text": "He likes coffee while she likes tea."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Запятая ставится перед whereas, не после.",
+        "id": "q44"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: I work in the city, ___ she works from home.",
+        "theory_block_id": "b4_while_whereas",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "while"
+          },
+          {
+            "id": "b",
+            "text": "so"
+          },
+          {
+            "id": "c",
+            "text": "because"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "While используется для контраста.",
+        "id": "q45"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: I prefer mornings, ___ my partner likes evenings. (контраст)",
+        "theory_block_id": "b4_while_whereas",
+        "difficulty": 2,
+        "correct_answer": "whereas",
+        "explanation": "Whereas — союз контраста.",
+        "id": "q46"
+      },
+      {
+        "type": "true_false",
+        "prompt": "Whereas is used for cause and effect.",
+        "theory_block_id": "b4_while_whereas",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Whereas используется для контраста, не причины.",
+        "id": "q47"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: My brother is tall, ___ I'm short.",
+        "theory_block_id": "b4_while_whereas",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "while"
+          },
+          {
+            "id": "b",
+            "text": "so"
+          },
+          {
+            "id": "c",
+            "text": "because"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "While показывает контраст.",
+        "id": "q48"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ it was raining, we stayed inside.",
+        "theory_block_id": "b5_clause_order_punct",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Although"
+          },
+          {
+            "id": "b",
+            "text": "So"
+          },
+          {
+            "id": "c",
+            "text": "Or"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Хотя + запятая после придаточного.",
+        "id": "q49"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте слово: We stayed because it was ___. (погода)",
+        "theory_block_id": "b5_clause_order_punct",
+        "difficulty": 2,
+        "correct_answer": "raining",
+        "explanation": "Пример без запятой, придаточное в конце.",
+        "id": "q50"
+      },
+      {
+        "type": "true_false",
+        "prompt": "If the dependent clause comes first, a comma is usually used.",
+        "theory_block_id": "b5_clause_order_punct",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Запятая ставится после начального придаточного.",
+        "id": "q51"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'Although it was late we stayed.'",
+        "theory_block_id": "b5_clause_order_punct",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Although it was late, we stayed."
+          },
+          {
+            "id": "b",
+            "text": "Although it was late we stayed."
+          },
+          {
+            "id": "c",
+            "text": "We stayed although it was late."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После although в начале нужна запятая.",
+        "id": "q52"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: We left because it was late. (запятая)",
+        "theory_block_id": "b5_clause_order_punct",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "No comma"
+          },
+          {
+            "id": "b",
+            "text": "Comma before because"
+          },
+          {
+            "id": "c",
+            "text": "Comma after because"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "При because в конце запятая обычно не нужна.",
+        "id": "q53"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте слово: ___ I was late, I called you. (причина)",
+        "theory_block_id": "b5_clause_order_punct",
+        "difficulty": 2,
+        "correct_answer": "Because",
+        "explanation": "Начальное придаточное с because.",
+        "id": "q54"
+      },
+      {
+        "type": "true_false",
+        "prompt": "A comma is always required before because.",
+        "theory_block_id": "b5_clause_order_punct",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Запятая перед because не обязательна.",
+        "id": "q55"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'While I agree, but I have doubts.'",
+        "theory_block_id": "b5_clause_order_punct",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "While I agree, I have doubts."
+          },
+          {
+            "id": "b",
+            "text": "While I agree, but I have doubts."
+          },
+          {
+            "id": "c",
+            "text": "I agree, but I have doubts."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "While и but не используются вместе.",
+        "id": "q56"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ I like coffee, I drink tea at night.",
+        "theory_block_id": "b5_clause_order_punct",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Although"
+          },
+          {
+            "id": "b",
+            "text": "So"
+          },
+          {
+            "id": "c",
+            "text": "Because"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Although вводит уступку.",
+        "id": "q57"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте слово: He left early, ___ he was tired. (причина)",
+        "theory_block_id": "b5_clause_order_punct",
+        "difficulty": 2,
+        "correct_answer": "because",
+        "explanation": "Because вводит причину в конце.",
+        "id": "q58"
+      },
+      {
+        "type": "true_false",
+        "prompt": "If the dependent clause is last, a comma is usually not used.",
+        "theory_block_id": "b5_clause_order_punct",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Это базовое правило.",
+        "id": "q59"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: We stayed inside, ___ it was raining. (потому что)",
+        "theory_block_id": "b5_clause_order_punct",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "because"
+          },
+          {
+            "id": "b",
+            "text": "so"
+          },
+          {
+            "id": "c",
+            "text": "or"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Because вводит причину.",
+        "id": "q60"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ it was late, we left.",
+        "theory_block_id": "b6_common_errors",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Because"
+          },
+          {
+            "id": "b",
+            "text": "Because ... so"
+          },
+          {
+            "id": "c",
+            "text": "So"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нельзя использовать because и so вместе.",
+        "id": "q61"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: It was late, ___ we left. (результат)",
+        "theory_block_id": "b6_common_errors",
+        "difficulty": 1,
+        "correct_answer": "so",
+        "explanation": "So вводит результат.",
+        "id": "q62"
+      },
+      {
+        "type": "true_false",
+        "prompt": "It is correct to use although and but together.",
+        "theory_block_id": "b6_common_errors",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Хотя и but вместе не употребляются.",
+        "id": "q63"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'Because it was cold, so we stayed inside.'",
+        "theory_block_id": "b6_common_errors",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Because it was cold, we stayed inside."
+          },
+          {
+            "id": "b",
+            "text": "Because it was cold, so we stayed inside."
+          },
+          {
+            "id": "c",
+            "text": "It was cold, so we stayed inside."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужен либо because, либо so, но не оба.",
+        "id": "q64"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ it was cold, we went out.",
+        "theory_block_id": "b6_common_errors",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Although"
+          },
+          {
+            "id": "b",
+            "text": "Although ... but"
+          },
+          {
+            "id": "c",
+            "text": "Because"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Although используется без but.",
+        "id": "q65"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: \"Although it was cold, but we went out.\"",
+        "theory_block_id": "b6_common_errors",
+        "difficulty": 2,
+        "explanation": "Нельзя использовать although и but вместе. Вариант a корректен.",
+        "id": "q66",
+        "choices": [
+          {
+            "id": "a",
+            "text": "Although it was cold, we went out."
+          },
+          {
+            "id": "b",
+            "text": "Although it was cold, but we went out."
+          },
+          {
+            "id": "c",
+            "text": "It was cold, but we went out."
+          }
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "type": "true_false",
+        "prompt": "Because...so is acceptable in standard English.",
+        "theory_block_id": "b6_common_errors",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Because и so вместе не употребляются.",
+        "id": "q67"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'Although he was tired, but he stayed.'",
+        "theory_block_id": "b6_common_errors",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Although he was tired, he stayed."
+          },
+          {
+            "id": "b",
+            "text": "Although he was tired, but he stayed."
+          },
+          {
+            "id": "c",
+            "text": "He was tired, but he stayed."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Although и but не соединяются.",
+        "id": "q68"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: It was late, ___ we left. (результат)",
+        "theory_block_id": "b6_common_errors",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "so"
+          },
+          {
+            "id": "b",
+            "text": "because"
+          },
+          {
+            "id": "c",
+            "text": "although"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "So = поэтому.",
+        "id": "q69"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: We left ___ it was late. (причина)",
+        "theory_block_id": "b6_common_errors",
+        "difficulty": 1,
+        "correct_answer": "because",
+        "explanation": "Because вводит причину.",
+        "id": "q70"
+      },
+      {
+        "type": "true_false",
+        "prompt": "Although and but can both appear if they link different clauses.",
+        "theory_block_id": "b6_common_errors",
+        "difficulty": 3,
+        "correct_answer": "false",
+        "explanation": "В одном предложении не используют although + but для одной связи.",
+        "id": "q71"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: Because it was late, ___ we left. (ошибка исправить)",
+        "theory_block_id": "b6_common_errors",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "we left"
+          },
+          {
+            "id": "b",
+            "text": "so we left"
+          },
+          {
+            "id": "c",
+            "text": "but we left"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Because уже выражает причину, добавляем только основное предложение.",
+        "id": "q72"
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60",
+      "q61",
+      "q62",
+      "q63",
+      "q64",
+      "q65",
+      "q66",
+      "q67",
+      "q68",
+      "q69",
+      "q70",
+      "q71",
+      "q72"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-20T08:25:55Z",
+    "source": "llm"
+  }
+}
