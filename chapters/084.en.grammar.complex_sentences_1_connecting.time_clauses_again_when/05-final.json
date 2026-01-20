@@ -1,0 +1,1299 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.complex_sentences_1_connecting.time_clauses_again_when",
+  "section_id": "en.grammar.complex_sentences_1_connecting",
+  "title": "Time clauses again: when/before/after/as soon as",
+  "title_short": "Time clauses again: when/before/after/as soon as",
+  "description": "Глава повторяет и уточняет временные придаточные с when/before/after/as soon as и правила их соединения с главным предложением.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "B1",
+  "order": 0,
+  "prerequisites": [
+    "en.grammar.complex_sentences_1_connecting.because_so_although_but"
+  ],
+  "concept_refs": [
+    "time_clause_when_simultaneous",
+    "time_clause_before_after_sequence",
+    "time_clause_as_soon_as_immediate",
+    "future_time_clauses_no_will",
+    "time_clause_position_comma"
+  ],
+  "learning_objectives": [
+    "Различать when, before, after и as soon as по смыслу временной связи",
+    "Строить предложения с временными придаточными в правильном порядке и с нужной пунктуацией",
+    "Использовать present simple в time clauses для будущих действий"
+  ],
+  "estimated_minutes": 22,
+  "blocks": [
+    {
+      "id": "b1_time_clause_when",
+      "type": "theory",
+      "title": "When связывает два действия во времени и показывает, что одно происходит на фоне другого или в момент другого: *When I was a child, I lived near the sea.*",
+      "theory": {
+        "concept_id": "time_clause_when_simultaneous",
+        "content_md": "**When** связывает два действия во времени и показывает, что одно происходит на фоне другого или в момент другого: *When I was a child, I lived near the sea.*\n\nTime clause с **when** может стоять в начале или в конце предложения — смысл не меняется, меняется только пунктуация.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "When I was a child, I lived near the sea.",
+            "translation": "Когда я был ребенком, я жил рядом с морем.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "What do you do when you feel stressed?",
+            "translation": "Что ты делаешь, когда чувствуешь стресс?",
+            "tags": [
+              "question"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_when",
+      "type": "quiz_inline",
+      "title": "Quick check: when",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2",
+          "q4",
+          "q5",
+          "q6"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_time_clause_before_after",
+      "type": "theory",
+      "title": "Before показывает, что одно событие произошло раньше другого, а after — что событие произошло позже.",
+      "theory": {
+        "concept_id": "time_clause_before_after_sequence",
+        "content_md": "**Before** показывает, что одно событие произошло **раньше** другого, а **after** — что событие произошло **позже**.\n\nОба союза работают одинаково: можно менять порядок частей, но важно сохранять логику последовательности.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "She didn't call me before she left.",
+            "translation": "Она не позвонила мне перед тем, как ушла.",
+            "tags": [
+              "negative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "We had dinner after we arrived.",
+            "translation": "Мы поужинали после того, как приехали.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_before_after",
+      "type": "quiz_inline",
+      "title": "Quick check: before/after",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14",
+          "q16",
+          "q17",
+          "q18"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_time_clause_as_soon_as",
+      "type": "theory",
+      "title": "As soon as подчеркивает немедленную последовательность: действие B происходит сразу после действия A.",
+      "theory": {
+        "concept_id": "time_clause_as_soon_as_immediate",
+        "content_md": "**As soon as** подчеркивает **немедленную** последовательность: действие B происходит сразу после действия A.\n\nЭтот союз делает связь более точной, чем просто after.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Call me as soon as you get home.",
+            "translation": "Позвони мне, как только ты придешь домой.",
+            "tags": [
+              "imperative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "What will you do as soon as you finish the exam?",
+            "translation": "Что ты сделаешь, как только закончишь экзамен?",
+            "tags": [
+              "question"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_as_soon_as",
+      "type": "quiz_inline",
+      "title": "Quick check: as soon as",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26",
+          "q28",
+          "q29",
+          "q30"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_future_time_clause_no_will",
+      "type": "theory",
+      "title": "Когда time clause относится к будущему, в нем не используют will. В придаточном времени ставим present simple, а будущее выражаем в главной части: *I'll text you when I arrive.*",
+      "theory": {
+        "concept_id": "future_time_clauses_no_will",
+        "content_md": "Когда time clause относится к будущему, в нем **не используют will**. В придаточном времени ставим **present simple**, а будущее выражаем в главной части: *I'll text you when I arrive.*\n\nЭто касается when/before/after/as soon as.",
+        "key_points": [],
+        "common_mistakes": [
+          {
+            "wrong": "I'll call you when I will arrive.",
+            "right": "I'll call you when I arrive.",
+            "why": "В time clause для будущего используем present simple, will ставится в главной части."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I'll text you when I arrive.",
+            "translation": "Я напишу тебе, когда приеду.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "I won't leave before you get back.",
+            "translation": "Я не уйду, пока ты не вернешься.",
+            "tags": [
+              "negative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8_quiz_after_future_time_clauses",
+      "type": "quiz_inline",
+      "title": "Quick check: future time clauses",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38",
+          "q40",
+          "q41",
+          "q42"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_time_clause_position_punctuation",
+      "type": "theory",
+      "title": "Если time clause стоит в начале, ставим запятую: *Before we started, we checked the plan.*",
+      "theory": {
+        "concept_id": "time_clause_position_comma",
+        "content_md": "Если time clause стоит **в начале**, ставим запятую: *Before we started, we checked the plan.*\n\nЕсли time clause стоит **в конце**, запятая обычно не нужна: *We checked the plan before we started.*",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Before we started, we checked the plan.",
+            "translation": "Перед тем как мы начали, мы проверили план.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "We checked the plan before we started.",
+            "translation": "Мы проверили план, прежде чем начали.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный союз: I listen to music ___ I work.",
+        "theory_block_id": "b1_time_clause_when",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "when"
+          },
+          {
+            "id": "b",
+            "text": "before"
+          },
+          {
+            "id": "c",
+            "text": "after"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно слово для одновременности. **When** показывает, что два действия идут параллельно или пересекаются во времени."
+      },
+      {
+        "id": "q2",
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: ___ I was a teenager, I played basketball every day. (когда)",
+        "theory_block_id": "b1_time_clause_when",
+        "difficulty": 1,
+        "correct_answer": "When",
+        "explanation": "Для фона в прошлом используется **when**. Оно связывает два действия во времени."
+      },
+      {
+        "id": "q3",
+        "type": "true_false",
+        "prompt": "When can introduce a background action.",
+        "theory_block_id": "b1_time_clause_when",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "When часто вводит фон: одно действие происходит, когда другое идет. Это базовое значение союза."
+      },
+      {
+        "id": "q4",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в пунктуации: \"When I moved to London I found a new job.\"",
+        "theory_block_id": "b1_time_clause_when",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "When I moved to London, I found a new job."
+          },
+          {
+            "id": "b",
+            "text": "When I moved to London I found a new job."
+          },
+          {
+            "id": "c",
+            "text": "I found a new job when I moved to London."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Если time clause стоит в начале, нужна запятая после него. Вариант a исправляет пунктуацию."
+      },
+      {
+        "id": "q5",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: She smiles ___ she sees her dog.",
+        "theory_block_id": "b1_time_clause_when",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "when"
+          },
+          {
+            "id": "b",
+            "text": "before"
+          },
+          {
+            "id": "c",
+            "text": "after"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Здесь важна одновременность: улыбка возникает в момент, когда она видит собаку. Поэтому нужен **when**."
+      },
+      {
+        "id": "q6",
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: What do you do ___ you feel tired? (когда)",
+        "theory_block_id": "b1_time_clause_when",
+        "difficulty": 2,
+        "correct_answer": "when",
+        "explanation": "В вопросах **when** связывает действие и условие во времени. Здесь речь о ситуации, когда ты устал."
+      },
+      {
+        "id": "q7",
+        "type": "true_false",
+        "prompt": "The clause with when must always come first.",
+        "theory_block_id": "b1_time_clause_when",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Придаточное с when может стоять и в начале, и в конце. Обязательного фиксированного порядка нет."
+      },
+      {
+        "id": "q8",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: I pause the video ___ I answer the phone.",
+        "theory_block_id": "b1_time_clause_when",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "when"
+          },
+          {
+            "id": "b",
+            "text": "before"
+          },
+          {
+            "id": "c",
+            "text": "after"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Действия происходят практически одновременно: пауза делается в момент ответа на звонок. Поэтому **when** подходит лучше всего."
+      },
+      {
+        "id": "q9",
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: I met him ___ I was studying in Paris. (когда)",
+        "theory_block_id": "b1_time_clause_when",
+        "difficulty": 2,
+        "correct_answer": "when",
+        "explanation": "Союз **when** вводит фон действия: «когда я учился в Париже». Это типичный случай одновременности."
+      },
+      {
+        "id": "q10",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный союз: ___ the bell rings, the class starts.",
+        "theory_block_id": "b1_time_clause_when",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "When"
+          },
+          {
+            "id": "b",
+            "text": "After"
+          },
+          {
+            "id": "c",
+            "text": "Before"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Звонок и начало урока происходят в одном моменте. Это значение **when**."
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: I get nervous ___ I speak in public.",
+        "theory_block_id": "b1_time_clause_when",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "when"
+          },
+          {
+            "id": "b",
+            "text": "before"
+          },
+          {
+            "id": "c",
+            "text": "after"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужна связь во времени «когда я говорю публично». Союз **when** выражает эту одновременность."
+      },
+      {
+        "id": "q12",
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: He feels better ___ he exercises. (когда)",
+        "theory_block_id": "b1_time_clause_when",
+        "difficulty": 1,
+        "correct_answer": "when",
+        "explanation": "**When** вводит ситуацию, в которой происходит улучшение. Это стандартное использование time clause."
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный союз: We locked the door ___ we left.",
+        "theory_block_id": "b2_time_clause_before_after",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "before"
+          },
+          {
+            "id": "b",
+            "text": "after"
+          },
+          {
+            "id": "c",
+            "text": "when"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Дверь запирают раньше, чем уходят. Это значение **before**."
+      },
+      {
+        "id": "q14",
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: She washed her hands ___ she ate. (до)",
+        "theory_block_id": "b2_time_clause_before_after",
+        "difficulty": 1,
+        "correct_answer": "before",
+        "explanation": "Если действие произошло раньше другого, используем **before**. Здесь мытье рук было раньше еды."
+      },
+      {
+        "id": "q15",
+        "type": "true_false",
+        "prompt": "After shows that one event happened later.",
+        "theory_block_id": "b2_time_clause_before_after",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "After обозначает, что событие произошло позже. Это прямое значение союза."
+      },
+      {
+        "id": "q16",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: \"I called you after I arrive.\"",
+        "theory_block_id": "b2_time_clause_before_after",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I called you after I arrived."
+          },
+          {
+            "id": "b",
+            "text": "I call you after I arrive."
+          },
+          {
+            "id": "c",
+            "text": "After I arrived, I called you."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В прошлом обе части должны быть в прошедшем времени. Вариант a исправляет временную форму."
+      },
+      {
+        "id": "q17",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ I finished the report, I sent it to my boss.",
+        "theory_block_id": "b2_time_clause_before_after",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "After"
+          },
+          {
+            "id": "b",
+            "text": "Before"
+          },
+          {
+            "id": "c",
+            "text": "When"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Сначала отчет закончили, потом отправили. Для такого порядка нужен **after**."
+      },
+      {
+        "id": "q18",
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: We checked the tickets ___ we boarded. (до)",
+        "theory_block_id": "b2_time_clause_before_after",
+        "difficulty": 2,
+        "correct_answer": "before",
+        "explanation": "Проверка билетов была раньше посадки. **Before** точно передает порядок событий."
+      },
+      {
+        "id": "q19",
+        "type": "true_false",
+        "prompt": "You can place the after-clause at the beginning with a comma.",
+        "theory_block_id": "b2_time_clause_before_after",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "After-clause может стоять первым: *After we arrived, we checked in.* Тогда ставим запятую."
+      },
+      {
+        "id": "q20",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: She went out ___ she did her homework.",
+        "theory_block_id": "b2_time_clause_before_after",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "after"
+          },
+          {
+            "id": "b",
+            "text": "before"
+          },
+          {
+            "id": "c",
+            "text": "when"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Домашняя работа сделана раньше, а выход — позже. Такой порядок выражает **after**."
+      },
+      {
+        "id": "q21",
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: ___ we started the meeting, we set the agenda. (до)",
+        "theory_block_id": "b2_time_clause_before_after",
+        "difficulty": 2,
+        "correct_answer": "Before",
+        "explanation": "Подготовка повестки была раньше начала встречи. Поэтому используется **before**."
+      },
+      {
+        "id": "q22",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: He took a shower ___ he went to bed.",
+        "theory_block_id": "b2_time_clause_before_after",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "before"
+          },
+          {
+            "id": "b",
+            "text": "after"
+          },
+          {
+            "id": "c",
+            "text": "when"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Душ принят раньше сна. Для этого нужен союз **before**."
+      },
+      {
+        "id": "q23",
+        "type": "mcq_single",
+        "prompt": "Choose the correct connector: The lights went out ___ the storm started.",
+        "theory_block_id": "b2_time_clause_before_after",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "after"
+          },
+          {
+            "id": "b",
+            "text": "before"
+          },
+          {
+            "id": "c",
+            "text": "when"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Сначала началась буря, потом погас свет. Это соответствует **after**."
+      },
+      {
+        "id": "q24",
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: He apologized ___ he spoke. (после)",
+        "theory_block_id": "b2_time_clause_before_after",
+        "difficulty": 2,
+        "correct_answer": "after",
+        "explanation": "Извинение следует позже, поэтому нужен **after**. Этот союз показывает последовательность."
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: I'll tell you ___ I know.",
+        "theory_block_id": "b3_time_clause_as_soon_as",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "as soon as"
+          },
+          {
+            "id": "b",
+            "text": "before"
+          },
+          {
+            "id": "c",
+            "text": "after"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужна идея «сразу как узнаю». **As soon as** передает немедленную последовательность."
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "Вставьте слово: Call me as ___ as you land. (immediately)",
+        "theory_block_id": "b3_time_clause_as_soon_as",
+        "difficulty": 2,
+        "correct_answer": "soon",
+        "explanation": "Фраза *as soon as* строится с ключевым словом **soon**. Она передает идею немедленного действия."
+      },
+      {
+        "id": "q27",
+        "type": "true_false",
+        "prompt": "As soon as suggests immediate sequence.",
+        "theory_block_id": "b3_time_clause_as_soon_as",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Этот союз подчеркивает отсутствие паузы между событиями. Событие B происходит сразу после A."
+      },
+      {
+        "id": "q28",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: \"As soon as I will see him, I'll tell him.\"",
+        "theory_block_id": "b3_time_clause_as_soon_as",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "As soon as I see him, I'll tell him."
+          },
+          {
+            "id": "b",
+            "text": "As soon as I saw him, I told him."
+          },
+          {
+            "id": "c",
+            "text": "As soon as I will see him, I'll tell him."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В time clause для будущего нужен present simple. Вариант a корректно исправляет will."
+      },
+      {
+        "id": "q29",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ the teacher arrived, the class started.",
+        "theory_block_id": "b3_time_clause_as_soon_as",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "As soon as"
+          },
+          {
+            "id": "b",
+            "text": "Before"
+          },
+          {
+            "id": "c",
+            "text": "When"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Начало занятия происходит сразу после прихода учителя. Это точное значение **as soon as**."
+      },
+      {
+        "id": "q30",
+        "type": "fill_blank",
+        "prompt": "Вставьте слово: I'll leave as ___ as the meeting ends. (immediately)",
+        "theory_block_id": "b3_time_clause_as_soon_as",
+        "difficulty": 2,
+        "correct_answer": "soon",
+        "explanation": "В выражении *as soon as* пропущено слово **soon**. Оно подчеркивает отсутствие задержки."
+      },
+      {
+        "id": "q31",
+        "type": "true_false",
+        "prompt": "As soon as is stronger than after and shows no delay.",
+        "theory_block_id": "b3_time_clause_as_soon_as",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "After просто указывает на порядок, а **as soon as** добавляет идею мгновенности. Это делает связь сильнее."
+      },
+      {
+        "id": "q32",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: She smiled ___ she heard the news.",
+        "theory_block_id": "b3_time_clause_as_soon_as",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "as soon as"
+          },
+          {
+            "id": "b",
+            "text": "before"
+          },
+          {
+            "id": "c",
+            "text": "when"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Улыбка появилась сразу после новости. Это типичный контекст для **as soon as**."
+      },
+      {
+        "id": "q33",
+        "type": "fill_blank",
+        "prompt": "Вставьте слово: We can start as ___ as everyone is ready. (immediately)",
+        "theory_block_id": "b3_time_clause_as_soon_as",
+        "difficulty": 2,
+        "correct_answer": "soon",
+        "explanation": "Для *as soon as* нужен элемент **soon**. Он показывает, что старт происходит сразу."
+      },
+      {
+        "id": "q34",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: \"As soon as, you arrive, call me.\"",
+        "theory_block_id": "b3_time_clause_as_soon_as",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "As soon as you arrive, call me."
+          },
+          {
+            "id": "b",
+            "text": "As soon as, you arrive, call me."
+          },
+          {
+            "id": "c",
+            "text": "Call me as soon as you arrive."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Запятая ставится после всей time clause, не внутри союза. Вариант a исправляет пунктуацию."
+      },
+      {
+        "id": "q35",
+        "type": "mcq_single",
+        "prompt": "Choose the best connector: ___ I finished, I turned off the computer.",
+        "theory_block_id": "b3_time_clause_as_soon_as",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "As soon as"
+          },
+          {
+            "id": "b",
+            "text": "Before"
+          },
+          {
+            "id": "c",
+            "text": "When"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Смысл «сразу как закончил» требует **as soon as**. Он подчеркивает отсутствие задержки."
+      },
+      {
+        "id": "q36",
+        "type": "fill_blank",
+        "prompt": "Вставьте слово: Он ушел as ___ as he got the message. (сразу)",
+        "theory_block_id": "b3_time_clause_as_soon_as",
+        "difficulty": 2,
+        "correct_answer": "soon",
+        "explanation": "В конструкции *as soon as* ключевое слово **soon** обозначает немедленность."
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: I'll wait here ___ you get back.",
+        "theory_block_id": "b4_future_time_clause_no_will",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "when"
+          },
+          {
+            "id": "b",
+            "text": "before"
+          },
+          {
+            "id": "c",
+            "text": "after"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Здесь time clause относится к будущему, но в нем используется present simple. Союз **when** связывает возвращение и ожидание."
+      },
+      {
+        "id": "q38",
+        "type": "fill_blank",
+        "prompt": "Вставьте союз: We will start ___ the guests arrive. (когда)",
+        "theory_block_id": "b4_future_time_clause_no_will",
+        "difficulty": 2,
+        "correct_answer": "when",
+        "explanation": "Для будущего в time clause используем present simple. Союз **when** подходит по смыслу."
+      },
+      {
+        "id": "q39",
+        "type": "true_false",
+        "prompt": "In time clauses about the future, we use present simple, not will.",
+        "theory_block_id": "b4_future_time_clause_no_will",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Это ключевое правило time clauses. Will ставится в главной части, а придаточное остается в present simple."
+      },
+      {
+        "id": "q40",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: \"I'll call you when I will be free.\"",
+        "theory_block_id": "b4_future_time_clause_no_will",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I'll call you when I am free."
+          },
+          {
+            "id": "b",
+            "text": "I'll call you when I will be free."
+          },
+          {
+            "id": "c",
+            "text": "When I am free, I'll call you."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В time clause нельзя использовать will. Вариант a исправляет ошибку, оставляя present simple."
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: She will leave after she ___ the email.",
+        "theory_block_id": "b4_future_time_clause_no_will",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "sends"
+          },
+          {
+            "id": "b",
+            "text": "sent"
+          },
+          {
+            "id": "c",
+            "text": "will send"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Time clause говорит о будущем, но используется present simple. Поэтому правильная форма **sends**."
+      },
+      {
+        "id": "q42",
+        "type": "fill_blank",
+        "prompt": "Вставьте глагол: I'll cook dinner as soon as I ___ home. (come home)",
+        "theory_block_id": "b4_future_time_clause_no_will",
+        "difficulty": 2,
+        "correct_answer": "get",
+        "explanation": "В придаточном времени нужно present simple. Подсказка дана перефразом, поэтому подходит **get**."
+      },
+      {
+        "id": "q43",
+        "type": "true_false",
+        "prompt": "You can say: 'Before I will go, I'll lock the door'.",
+        "theory_block_id": "b4_future_time_clause_no_will",
+        "difficulty": 3,
+        "correct_answer": "false",
+        "explanation": "Will в time clause недопустим. Правильно: *Before I go, I'll lock the door.*"
+      },
+      {
+        "id": "q44",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: \"We won't start before you will arrive.\"",
+        "theory_block_id": "b4_future_time_clause_no_will",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We won't start before you arrive."
+          },
+          {
+            "id": "b",
+            "text": "We won't start before you will arrive."
+          },
+          {
+            "id": "c",
+            "text": "We will not start before you arrive."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Время в придаточном должно быть present simple. Вариант a исправляет will и сохраняет смысл."
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: I'll send the file after I ___ it.",
+        "theory_block_id": "b4_future_time_clause_no_will",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "finish"
+          },
+          {
+            "id": "b",
+            "text": "finished"
+          },
+          {
+            "id": "c",
+            "text": "will finish"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для будущих time clauses используется present simple. Поэтому нужна форма **finish**."
+      },
+      {
+        "id": "q46",
+        "type": "fill_blank",
+        "prompt": "Вставьте глагол: He'll call as soon as he ___ the report. (finish)",
+        "theory_block_id": "b4_future_time_clause_no_will",
+        "difficulty": 2,
+        "correct_answer": "finishes",
+        "explanation": "В придаточном времени ставим present simple. Здесь подлежащее he, значит форма **finishes**."
+      },
+      {
+        "id": "q47",
+        "type": "mcq_single",
+        "prompt": "Choose the correct form: When she ___, we'll eat.",
+        "theory_block_id": "b4_future_time_clause_no_will",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "arrives"
+          },
+          {
+            "id": "b",
+            "text": "arrived"
+          },
+          {
+            "id": "c",
+            "text": "will arrive"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Time clause с when относится к будущему, но форма остается present simple. Поэтому правильное **arrives**."
+      },
+      {
+        "id": "q48",
+        "type": "fill_blank",
+        "prompt": "Вставьте глагол: We will leave before the show ___. (start)",
+        "theory_block_id": "b4_future_time_clause_no_will",
+        "difficulty": 2,
+        "correct_answer": "starts",
+        "explanation": "В time clause используется present simple. Для подлежащего the show нужна форма **starts**."
+      },
+      {
+        "id": "q49",
+        "type": "true_false",
+        "prompt": "If the time clause comes first, a comma is usually used.",
+        "theory_block_id": "b5_time_clause_position_punctuation",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "При начальном придаточном ставим запятую после него. Это стандартная пунктуация."
+      },
+      {
+        "id": "q50",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: Before we started, we reviewed the plan.",
+        "theory_block_id": "b5_time_clause_position_punctuation",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Правильно: запятая после придаточного"
+          },
+          {
+            "id": "b",
+            "text": "Нужна запятая после we"
+          },
+          {
+            "id": "c",
+            "text": "Запятая не нужна"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Time clause стоит в начале, поэтому после него ставится запятая. Вариант a отражает это правило."
+      },
+      {
+        "id": "q51",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: \"Before we started we reviewed the plan.\"",
+        "theory_block_id": "b5_time_clause_position_punctuation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Before we started, we reviewed the plan."
+          },
+          {
+            "id": "b",
+            "text": "Before we started we reviewed the plan."
+          },
+          {
+            "id": "c",
+            "text": "We reviewed the plan before we started."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "При начальном придаточном нужна запятая. Вариант a исправляет пунктуацию."
+      },
+      {
+        "id": "q52",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_time_clause_position_punctuation",
+        "difficulty": 2,
+        "correct_answer": "Before we started, we checked the plan.",
+        "explanation": "Time clause стоит первым, затем запятая и главное предложение. Такой порядок естественен и грамматически корректен."
+      },
+      {
+        "id": "q53",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_time_clause_position_punctuation",
+        "difficulty": 2,
+        "correct_answer": "We checked the plan before we started.",
+        "explanation": "Когда time clause стоит в конце, запятая не нужна. Предложение остается корректным без паузы."
+      },
+      {
+        "id": "q54",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: We called the taxi before we finished.",
+        "theory_block_id": "b5_time_clause_position_punctuation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Запятая не нужна"
+          },
+          {
+            "id": "b",
+            "text": "Нужна запятая перед before"
+          },
+          {
+            "id": "c",
+            "text": "Нужна запятая после before"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Time clause стоит в конце, поэтому запятая обычно не ставится. Вариант a соответствует правилу."
+      },
+      {
+        "id": "q55",
+        "type": "true_false",
+        "prompt": "A comma is usually NOT used when the time clause comes last.",
+        "theory_block_id": "b5_time_clause_position_punctuation",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "При придаточном в конце запятая, как правило, не нужна. Это стандартное правило пунктуации."
+      },
+      {
+        "id": "q56",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную пунктуацию: We left after the show ended.",
+        "theory_block_id": "b5_time_clause_position_punctuation",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Запятая не нужна"
+          },
+          {
+            "id": "b",
+            "text": "Запятая перед after"
+          },
+          {
+            "id": "c",
+            "text": "Запятая после after"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Time clause стоит в конце, поэтому запятая не ставится. Вариант a верен."
+      },
+      {
+        "id": "q57",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: \"After, the show ended, we left.\"",
+        "theory_block_id": "b5_time_clause_position_punctuation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "After the show ended, we left."
+          },
+          {
+            "id": "b",
+            "text": "After, the show ended, we left."
+          },
+          {
+            "id": "c",
+            "text": "We left after the show ended."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Запятая ставится после всей time clause, не после союза. Вариант a корректен."
+      },
+      {
+        "id": "q58",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_time_clause_position_punctuation",
+        "difficulty": 2,
+        "correct_answer": "After the film ended, we went home.",
+        "explanation": "При начальном придаточном ставим запятую. Это базовая схема for time clauses."
+      },
+      {
+        "id": "q59",
+        "type": "mcq_single",
+        "prompt": "Какое предложение корректно, если придаточное стоит в конце?",
+        "theory_block_id": "b5_time_clause_position_punctuation",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "After the film ended, we went home."
+          },
+          {
+            "id": "b",
+            "text": "We went home after the film ended."
+          },
+          {
+            "id": "c",
+            "text": "We went home, after the film ended."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Если придаточное в конце, запятая не нужна. Вариант b соответствует правилу."
+      },
+      {
+        "id": "q60",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: We went home after the film ended.",
+        "theory_block_id": "b5_time_clause_position_punctuation",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Порядок корректный, запятая не нужна"
+          },
+          {
+            "id": "b",
+            "text": "Нужна запятая перед after"
+          },
+          {
+            "id": "c",
+            "text": "Нужна запятая после after"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Time clause стоит в конце предложения, поэтому запятая не ставится. Вариант a верен."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-20T08:58:53Z",
+    "source": "llm"
+  }
+}
