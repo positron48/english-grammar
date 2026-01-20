@@ -88,7 +88,7 @@ export async function loadAllChapters() {
             try {
                 // Используем folder_name если есть (для папок с префиксом), иначе id
                 const folderName = chapterInfo.folder_name || chapterInfo.id;
-                const chapterPath = `${CHAPTERS_BASE_PATH}${folderName}/05-final.json`;
+                const chapterPath = `${CHAPTERS_BASE_PATH}${folderName}/05-final.json?t=${timestamp}`;
                 const chapterResponse = await fetch(chapterPath);
                 if (chapterResponse.ok) {
                     const chapterData = await chapterResponse.json();
@@ -140,8 +140,10 @@ export async function loadChapter(chapterId) {
         // Сначала пытаемся загрузить индекс, чтобы найти правильное имя папки
         let folderName = chapterId;
         
+        const timestamp = new Date().getTime();
+        
         try {
-            const indexResponse = await fetch('data/chapters-index.json');
+            const indexResponse = await fetch(`data/chapters-index.json?t=${timestamp}`);
             if (indexResponse.ok) {
                 const index = await indexResponse.json();
                 const chapterInfo = index.chapters.find(c => c.id === chapterId);
@@ -154,12 +156,12 @@ export async function loadChapter(chapterId) {
         }
         
         // Пробуем загрузить с найденным именем папки
-        let chapterPath = `${CHAPTERS_BASE_PATH}${folderName}/05-final.json`;
+        let chapterPath = `${CHAPTERS_BASE_PATH}${folderName}/05-final.json?t=${timestamp}`;
         let response = await fetch(chapterPath);
         
         // Если не найдено, пробуем без префикса
         if (!response.ok && folderName !== chapterId) {
-            chapterPath = `${CHAPTERS_BASE_PATH}${chapterId}/05-final.json`;
+            chapterPath = `${CHAPTERS_BASE_PATH}${chapterId}/05-final.json?t=${timestamp}`;
             response = await fetch(chapterPath);
         }
         

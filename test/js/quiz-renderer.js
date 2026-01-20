@@ -186,7 +186,10 @@ function renderMcqSingle(question, showAnswers, onAnswer, checkImmediately, cont
     const choices = question.choices || [];
     const correctAnswer = question.correct_answer;
     
-    choices.forEach(choice => {
+    // Перемешиваем варианты ответов случайным образом
+    const shuffledChoices = shuffleArray([...choices]);
+    
+    shuffledChoices.forEach(choice => {
         const label = document.createElement('label');
         label.className = 'choice';
         
@@ -274,7 +277,10 @@ function renderMcqMulti(question, showAnswers, onAnswer, checkImmediately, conta
         ? question.correct_answer 
         : [question.correct_answer];
     
-    choices.forEach(choice => {
+    // Перемешиваем варианты ответов случайным образом
+    const shuffledChoices = shuffleArray([...choices]);
+    
+    shuffledChoices.forEach(choice => {
         const label = document.createElement('label');
         label.className = 'choice';
         
@@ -687,7 +693,10 @@ function renderTrueFalse(question, showAnswers, onAnswer, checkImmediately, cont
     
     const correctAnswer = question.correct_answer === 'true' || question.correct_answer === true;
     
-    ['true', 'false'].forEach(value => {
+    // Перемешиваем варианты ответов (Да/Нет)
+    const shuffledValues = shuffleArray(['true', 'false']);
+    
+    shuffledValues.forEach(value => {
         const label = document.createElement('label');
         label.className = 'choice';
         
