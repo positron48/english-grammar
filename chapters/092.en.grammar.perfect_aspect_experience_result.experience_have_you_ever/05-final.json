@@ -1,0 +1,1643 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.perfect_aspect_experience_result.experience_have_you_ever",
+  "section_id": "en.grammar.perfect_aspect_experience_result",
+  "title": "Experience: Have you ever…? never/before; been vs gone",
+  "title_short": "Experience: Have you ever…?",
+  "description": "Как говорить об опыте в жизни без точного времени: вопросы Have you ever…?, маркеры ever/never/before/once/twice и различие been vs gone.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "B1",
+  "order": 0,
+  "prerequisites": [
+    "en.grammar.perfect_aspect_experience_result.result_i_ve_lost"
+  ],
+  "concept_refs": [
+    "present_perfect_experience",
+    "experience_markers_ever_never_before",
+    "present_perfect_experience_questions",
+    "experience_open_time_periods",
+    "been_vs_gone",
+    "experience_time_marker_traps"
+  ],
+  "learning_objectives": [
+    "Объяснять опыт до настоящего момента без указания точного времени",
+    "Строить вопросы и короткие ответы с Present Perfect (Have you ever…?)",
+    "Использовать маркеры ever/never/before/once/twice",
+    "Различать been to и gone to в контексте путешествий"
+  ],
+  "estimated_minutes": 24,
+  "blocks": [
+    {
+      "id": "b1_theory_experience_meaning",
+      "type": "theory",
+      "title": "Present Perfect для опыта отвечает на вопрос: делал(а) ли я это когда‑либо в жизни? Важно, что точного времени нет и оно не важно — опыт сам по себе важнее момента. Поэтому мы не называем конкретный год/день.",
+      "theory": {
+        "concept_id": "present_perfect_experience",
+        "content_md": "Present Perfect для опыта отвечает на вопрос: **делал(а) ли я это когда‑либо в жизни?** Важно, что точного времени нет и оно не важно — опыт сам по себе важнее момента. Поэтому мы не называем конкретный год/день.",
+        "key_points": [
+          "Опыт в жизни без точного времени: Have/has + V3",
+          "Фокус на факте опыта, а не на моменте"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I have tried Korean food.",
+            "translation": "Я пробовал корейскую еду.",
+            "tags": [
+              "affirmative",
+              "experience"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Have you ever ridden a horse?",
+            "translation": "Ты когда-нибудь катался на лошади?",
+            "tags": [
+              "question",
+              "ever"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_experience_meaning",
+      "type": "quiz_inline",
+      "title": "Quick check: experience meaning",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2",
+          "q4",
+          "q7",
+          "q8"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_markers_ever_never",
+      "type": "theory",
+      "title": "Для опыта часто используются маркеры ever (когда‑нибудь), never (никогда), before (раньше), once/twice (один/два раза). Они помогают уточнить частоту опыта, но всё равно не называют конкретное время.",
+      "theory": {
+        "concept_id": "experience_markers_ever_never_before",
+        "content_md": "Для опыта часто используются маркеры **ever** (когда‑нибудь), **never** (никогда), **before** (раньше), **once/twice** (один/два раза). Они помогают уточнить частоту опыта, но всё равно не называют конкретное время.",
+        "key_points": [],
+        "common_mistakes": [
+          {
+            "wrong": "I have ever visited Paris.",
+            "right": "Have you ever visited Paris?",
+            "why": "Ever обычно используется в вопросах или с отрицанием/условием, но не в простом утверждении без контекста."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "She has never flown on a plane.",
+            "translation": "Она никогда не летала на самолёте.",
+            "tags": [
+              "negative",
+              "never"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "We have been to Rome twice.",
+            "translation": "Мы были в Риме два раза.",
+            "tags": [
+              "affirmative",
+              "twice"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_markers_ever_never",
+      "type": "quiz_inline",
+      "title": "Quick check: ever/never/before",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14",
+          "q18",
+          "q19",
+          "q20"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_questions_short_answers",
+      "type": "theory",
+      "title": "Вопрос об опыте строится по формуле Have/Has + подлежащее + ever + V3? Короткие ответы: Yes, I have. / No, I haven't.",
+      "theory": {
+        "concept_id": "present_perfect_experience_questions",
+        "content_md": "Вопрос об опыте строится по формуле **Have/Has + подлежащее + ever + V3?** Короткие ответы: **Yes, I have. / No, I haven't.**",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Have they ever met a celebrity? — Yes, they have.",
+            "translation": "Они когда-нибудь встречали знаменитость? — Да.",
+            "tags": [
+              "question",
+              "short_answer"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Has he ever lost his passport? — No, he hasn't.",
+            "translation": "Он когда-нибудь терял паспорт? — Нет.",
+            "tags": [
+              "question",
+              "negative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_questions_short_answers",
+      "type": "quiz_inline",
+      "title": "Quick check: Have you ever…?",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26",
+          "q27",
+          "q31",
+          "q32"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_open_time_periods",
+      "type": "theory",
+      "title": "Если период времени ещё не закончился (this week, this month, so far, in my life), мы можем спрашивать об опыте с Present Perfect. Мы говорим о том, что произошло до настоящего момента внутри открытого периода.",
+      "theory": {
+        "concept_id": "experience_open_time_periods",
+        "content_md": "Если период времени **ещё не закончился** (this week, this month, so far, in my life), мы можем спрашивать об опыте с Present Perfect. Мы говорим о том, что произошло **до настоящего момента** внутри открытого периода.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I have had three meetings this week.",
+            "translation": "На этой неделе у меня было три встречи (неделя ещё продолжается).",
+            "tags": [
+              "affirmative",
+              "time_period"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "She hasn't made any big mistakes so far.",
+            "translation": "Пока что она не совершала серьёзных ошибок.",
+            "tags": [
+              "negative",
+              "so_far"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8_quiz_after_open_time_periods",
+      "type": "quiz_inline",
+      "title": "Quick check: open time periods",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38",
+          "q40",
+          "q41",
+          "q43"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_been_vs_gone",
+      "type": "theory",
+      "title": "Been to значит «был(а) и уже вернулся(ась)», то есть опыт. Gone to — «уехал(а) и сейчас там/в пути». Это помогает различать факт опыта и текущее состояние.",
+      "theory": {
+        "concept_id": "been_vs_gone",
+        "content_md": "**Been to** значит «был(а) и уже вернулся(ась)», то есть опыт. **Gone to** — «уехал(а) и сейчас там/в пути». Это помогает различать факт опыта и текущее состояние.",
+        "key_points": [],
+        "common_mistakes": [
+          {
+            "wrong": "He has been to the office, so he is there now.",
+            "right": "He has gone to the office, so he is there now.",
+            "why": "Been to означает, что человек уже вернулся; gone to — что он всё ещё там или в пути."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Mia has been to Japan, but she isn't there now.",
+            "translation": "Мия бывала в Японии, но сейчас её там нет.",
+            "tags": [
+              "affirmative",
+              "been_to"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Tom has gone to the bank; he'll be back soon.",
+            "translation": "Том ушёл в банк; он скоро вернётся.",
+            "tags": [
+              "affirmative",
+              "gone_to"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b10_quiz_after_been_vs_gone",
+      "type": "quiz_inline",
+      "title": "Quick check: been vs gone",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q50",
+          "q53",
+          "q55",
+          "q56"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_time_marker_traps",
+      "type": "theory",
+      "title": "Present Perfect не используется с конкретным прошлым временем (yesterday, last year, in 2019). Для таких случаев нужен Past Simple. Если время не указано, опыт можно выразить Present Perfect.",
+      "theory": {
+        "concept_id": "experience_time_marker_traps",
+        "content_md": "Present Perfect не используется с **конкретным прошлым временем** (yesterday, last year, in 2019). Для таких случаев нужен Past Simple. Если время не указано, опыт можно выразить Present Perfect.",
+        "key_points": [],
+        "common_mistakes": [
+          {
+            "wrong": "I have visited London in 2019.",
+            "right": "I visited London in 2019.",
+            "why": "Конкретный год требует Past Simple."
+          },
+          {
+            "wrong": "She has met him yesterday.",
+            "right": "She met him yesterday.",
+            "why": "Yesterday фиксирует момент в прошлом."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I have met his sister, but I don't remember when.",
+            "translation": "Я встречал его сестру, но не помню когда.",
+            "tags": [
+              "affirmative",
+              "experience"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите предложение, которое говорит об опыте в жизни без указания времени.",
+        "theory_block_id": "b1_theory_experience_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I have seen the Northern Lights.",
+            "feedback": "Опыт без точного времени: Present Perfect."
+          },
+          {
+            "id": "b",
+            "text": "I saw the Northern Lights last winter.",
+            "feedback": "Есть конкретное время → Past Simple."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Опыт в жизни без точного времени выражается Present Perfect. Вариант с last winter фиксирует момент и требует Past Simple."
+      },
+      {
+        "id": "q2",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I have ___ Korean food before.\" (try)",
+        "theory_block_id": "b1_theory_experience_meaning",
+        "difficulty": 2,
+        "correct_answer": "tried",
+        "explanation": "Present Perfect для опыта: have + V3 → have tried."
+      },
+      {
+        "id": "q3",
+        "type": "true_false",
+        "prompt": "Верно или неверно: Present Perfect для опыта обычно используется с точным временем, например yesterday.",
+        "theory_block_id": "b1_theory_experience_meaning",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Опыт описывается без конкретного времени. С yesterday нужен Past Simple."
+      },
+      {
+        "id": "q4",
+        "type": "error_spotting",
+        "prompt": "Выберите корректное предложение об опыте.",
+        "theory_block_id": "b1_theory_experience_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I have met him last year.",
+            "feedback": "Last year требует Past Simple."
+          },
+          {
+            "id": "b",
+            "text": "I have met him before.",
+            "feedback": "Есть опыт, время не указано."
+          },
+          {
+            "id": "c",
+            "text": "I have met him in 2019.",
+            "feedback": "Конкретный год → Past Simple."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Present Perfect подходит для опыта без точного времени, как в варианте с before."
+      },
+      {
+        "id": "q5",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант вопроса об опыте: \"___ you ever ___ a marathon?\"",
+        "theory_block_id": "b1_theory_experience_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Did / run",
+            "feedback": "Did + V1 обычно о конкретном прошедшем событии."
+          },
+          {
+            "id": "b",
+            "text": "Have / run",
+            "feedback": "Have + V3 — стандартная формула опыта."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Вопрос об опыте строится как Have you ever + V3: Have you ever run...?"
+      },
+      {
+        "id": "q6",
+        "type": "mcq_single",
+        "prompt": "Какое предложение описывает опыт без указания времени?",
+        "theory_block_id": "b1_theory_experience_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She has visited Canada.",
+            "feedback": "Время не указано — опыт."
+          },
+          {
+            "id": "b",
+            "text": "She visited Canada in 2021.",
+            "feedback": "Конкретный год → Past Simple."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Если время не важно, используем Present Perfect для опыта."
+      },
+      {
+        "id": "q7",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"He has ___ a helicopter.\" (ride)",
+        "theory_block_id": "b1_theory_experience_meaning",
+        "difficulty": 2,
+        "correct_answer": "ridden",
+        "explanation": "Present Perfect: has + V3 → has ridden."
+      },
+      {
+        "id": "q8",
+        "type": "mcq_multi",
+        "prompt": "Выберите все предложения об опыте (возможны несколько вариантов).",
+        "theory_block_id": "b1_theory_experience_meaning",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I have tried scuba diving.",
+            "feedback": "Это опыт без времени, Present Perfect подходит."
+          },
+          {
+            "id": "b",
+            "text": "I tried scuba diving last July.",
+            "feedback": "Есть конкретное время."
+          },
+          {
+            "id": "c",
+            "text": "We have met the author before.",
+            "feedback": "Опыт с before — без указания времени."
+          },
+          {
+            "id": "d",
+            "text": "We met the author yesterday.",
+            "feedback": "Конкретный момент."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "Present Perfect используется для опыта без указания точного времени, как в a и c."
+      },
+      {
+        "id": "q9",
+        "type": "true_false",
+        "prompt": "Верно или неверно: Present Perfect для опыта сообщает о факте, но не о том, когда это произошло.",
+        "theory_block_id": "b1_theory_experience_meaning",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Идея опыта — факт в жизни без точного времени."
+      },
+      {
+        "id": "q10",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант вопроса об опыте.",
+        "theory_block_id": "b1_theory_experience_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Did you ever been abroad?",
+            "feedback": "Неверная форма: did + V1, а здесь V3."
+          },
+          {
+            "id": "b",
+            "text": "Have you ever been abroad?",
+            "feedback": "Правильная формула Have + V3."
+          },
+          {
+            "id": "c",
+            "text": "Do you ever have been abroad?",
+            "feedback": "Нарушен порядок слов и форма."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Вопрос об опыте строится как Have you ever + V3."
+      },
+      {
+        "id": "q11",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"We have ___ to a Japanese onsen.\" (be)",
+        "theory_block_id": "b1_theory_experience_meaning",
+        "difficulty": 2,
+        "correct_answer": "been",
+        "explanation": "Для опыта посещения используем have been."
+      },
+      {
+        "id": "q12",
+        "type": "mcq_single",
+        "prompt": "Какое предложение лучше для рассказа об опыте?",
+        "theory_block_id": "b1_theory_experience_meaning",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I have seen that movie.",
+            "feedback": "Опыт без времени."
+          },
+          {
+            "id": "b",
+            "text": "I saw that movie yesterday.",
+            "feedback": "Есть конкретный момент времени."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для опыта без времени выбираем Present Perfect."
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"___ you ever ___ bungee jumping?\"",
+        "theory_block_id": "b2_theory_markers_ever_never",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Have / tried",
+            "feedback": "Have you ever tried... — стандартная форма опыта."
+          },
+          {
+            "id": "b",
+            "text": "Did / try",
+            "feedback": "Did + V1 обычно о конкретном прошлом событии."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ever чаще всего используется в вопросах с Present Perfect."
+      },
+      {
+        "id": "q14",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She has ___ been to Africa.\" (not)",
+        "theory_block_id": "b2_theory_markers_ever_never",
+        "difficulty": 2,
+        "correct_answer": "never",
+        "explanation": "Never = «никогда» для опыта: has never been."
+      },
+      {
+        "id": "q15",
+        "type": "mcq_single",
+        "prompt": "Выберите корректное место маркера: \"He has visited Berlin ___.\"",
+        "theory_block_id": "b2_theory_markers_ever_never",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "before",
+            "feedback": "Before подходит для опыта без времени."
+          },
+          {
+            "id": "b",
+            "text": "yesterday",
+            "feedback": "Yesterday требует Past Simple."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Before используется для опыта, не фиксируя момент времени."
+      },
+      {
+        "id": "q16",
+        "type": "true_false",
+        "prompt": "Верно или неверно: Ever обычно используется в простом утвердительном предложении без контекста.",
+        "theory_block_id": "b2_theory_markers_ever_never",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Ever чаще встречается в вопросах, отрицаниях или с if/only."
+      },
+      {
+        "id": "q17",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"We have been here ___.\" (один раз)",
+        "theory_block_id": "b2_theory_markers_ever_never",
+        "difficulty": 1,
+        "correct_answer": "once",
+        "explanation": "Once выражает количество раз опыта."
+      },
+      {
+        "id": "q18",
+        "type": "mcq_multi",
+        "prompt": "Выберите все предложения с корректным использованием маркеров опыта.",
+        "theory_block_id": "b2_theory_markers_ever_never",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Have you ever eaten snails?",
+            "feedback": "Ever в вопросе — корректно."
+          },
+          {
+            "id": "b",
+            "text": "I have ever eaten snails.",
+            "feedback": "Без контекста так не говорят."
+          },
+          {
+            "id": "c",
+            "text": "I have never eaten snails.",
+            "feedback": "Never в отрицании — корректно."
+          },
+          {
+            "id": "d",
+            "text": "She has been to Spain twice.",
+            "feedback": "Twice корректно для количества опыта."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "c",
+          "d"
+        ],
+        "explanation": "Ever обычно в вопросах, never и twice допустимы в утверждении об опыте."
+      },
+      {
+        "id": "q19",
+        "type": "error_spotting",
+        "prompt": "Выберите предложение без ошибки с маркером опыта.",
+        "theory_block_id": "b2_theory_markers_ever_never",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I have ever driven a truck.",
+            "feedback": "Ever в обычном утверждении звучит неестественно."
+          },
+          {
+            "id": "b",
+            "text": "I have never driven a truck.",
+            "feedback": "Корректное отрицание опыта."
+          },
+          {
+            "id": "c",
+            "text": "I have driven a truck yesterday.",
+            "feedback": "Yesterday требует Past Simple."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Never — нормальный маркер опыта в отрицательных утверждениях."
+      },
+      {
+        "id": "q20",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Have you ___ seen a whale?\" (когда‑нибудь)",
+        "theory_block_id": "b2_theory_markers_ever_never",
+        "difficulty": 1,
+        "correct_answer": "ever",
+        "explanation": "В вопросах об опыте часто ставим ever."
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "prompt": "Выберите корректный вариант: \"I have met her ___.\"",
+        "theory_block_id": "b2_theory_markers_ever_never",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "before",
+            "feedback": "Before корректно для опыта."
+          },
+          {
+            "id": "b",
+            "text": "last night",
+            "feedback": "Last night — конкретное время, нужен Past Simple."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Before помогает говорить об опыте без указания времени."
+      },
+      {
+        "id": "q22",
+        "type": "true_false",
+        "prompt": "Верно или неверно: Once/twice можно использовать с Present Perfect для количества раз опыта.",
+        "theory_block_id": "b2_theory_markers_ever_never",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Once и twice — типичные маркеры количества опыта."
+      },
+      {
+        "id": "q23",
+        "type": "error_spotting",
+        "prompt": "Выберите правильное предложение с указанием количества раз.",
+        "theory_block_id": "b2_theory_markers_ever_never",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She has been to London two.",
+            "feedback": "Two без раз/раза звучит неверно."
+          },
+          {
+            "id": "b",
+            "text": "She has been to London twice.",
+            "feedback": "Twice корректно."
+          },
+          {
+            "id": "c",
+            "text": "She has been to London in 2018.",
+            "feedback": "Конкретный год → Past Simple."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Twice — правильный маркер количества раз для опыта."
+      },
+      {
+        "id": "q24",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I have ___ visited this museum before.\" (not)",
+        "theory_block_id": "b2_theory_markers_ever_never",
+        "difficulty": 2,
+        "correct_answer": "never",
+        "explanation": "Never используется для отрицания опыта."
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вопрос: \"___ she ever ___ a podcast?\"",
+        "theory_block_id": "b3_theory_questions_short_answers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Has / started",
+            "feedback": "Has + V3 — верно."
+          },
+          {
+            "id": "b",
+            "text": "Did / start",
+            "feedback": "Did + V1 — вопрос о конкретном прошлом."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Вопрос об опыте: Has she ever + V3."
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Have you ever ___ sushi?\" (try)",
+        "theory_block_id": "b3_theory_questions_short_answers",
+        "difficulty": 2,
+        "correct_answer": "tried",
+        "explanation": "После Have you ever ставим V3: tried."
+      },
+      {
+        "id": "q27",
+        "type": "mcq_single",
+        "prompt": "Выберите корректный короткий ответ: \"Have you ever flown in a helicopter?\"",
+        "theory_block_id": "b3_theory_questions_short_answers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yes, I did.",
+            "feedback": "Did — для Past Simple вопросов."
+          },
+          {
+            "id": "b",
+            "text": "Yes, I have.",
+            "feedback": "Правильный краткий ответ к Present Perfect."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Короткий ответ повторяет have/has: Yes, I have."
+      },
+      {
+        "id": "q28",
+        "type": "true_false",
+        "prompt": "Верно или неверно: На вопрос \"Has he ever…?\" правильный короткий ответ — \"No, he hasn't.\"",
+        "theory_block_id": "b3_theory_questions_short_answers",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Отрицательный короткий ответ строится с hasn't."
+      },
+      {
+        "id": "q29",
+        "type": "error_spotting",
+        "prompt": "Выберите корректный вопрос об опыте.",
+        "theory_block_id": "b3_theory_questions_short_answers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Have ever they seen snow?",
+            "feedback": "Неверный порядок слов."
+          },
+          {
+            "id": "b",
+            "text": "Have they ever seen snow?",
+            "feedback": "Правильный порядок слов."
+          },
+          {
+            "id": "c",
+            "text": "Do they ever have seen snow?",
+            "feedback": "Неверная форма."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Правильно: Have + subject + ever + V3."
+      },
+      {
+        "id": "q30",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Has Anna ever ___ late for work?\" (be)",
+        "theory_block_id": "b3_theory_questions_short_answers",
+        "difficulty": 2,
+        "correct_answer": "been",
+        "explanation": "Вопрос: Has Anna ever been...?"
+      },
+      {
+        "id": "q31",
+        "type": "mcq_multi",
+        "prompt": "Выберите все корректные вопросы об опыте.",
+        "theory_block_id": "b3_theory_questions_short_answers",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Have you ever met him?",
+            "feedback": "Корректный вопрос с have и V3."
+          },
+          {
+            "id": "b",
+            "text": "Did you ever met him?",
+            "feedback": "После did нужна V1."
+          },
+          {
+            "id": "c",
+            "text": "Has your sister ever been abroad?",
+            "feedback": "Правильное согласование: has your sister..."
+          },
+          {
+            "id": "d",
+            "text": "Have your sister ever been abroad?",
+            "feedback": "Нужно has для she."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "Вопрос об опыте строится с have/has и V3, с правильным согласованием."
+      },
+      {
+        "id": "q32",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный короткий ответ.",
+        "theory_block_id": "b3_theory_questions_short_answers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Yes, I have.",
+            "feedback": "Верный ответ."
+          },
+          {
+            "id": "b",
+            "text": "Yes, I am.",
+            "feedback": "Am не относится к Present Perfect."
+          },
+          {
+            "id": "c",
+            "text": "Yes, I did.",
+            "feedback": "Did — для Past Simple."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В коротких ответах повторяем have/has."
+      },
+      {
+        "id": "q33",
+        "type": "true_false",
+        "prompt": "Верно или неверно: Ever обычно стоит между подлежащим и V3 в вопросе: Have you ever seen…?",
+        "theory_block_id": "b3_theory_questions_short_answers",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Позиция ever типична: Have + subject + ever + V3."
+      },
+      {
+        "id": "q34",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"___ he ever run a marathon?\" (have)",
+        "theory_block_id": "b3_theory_questions_short_answers",
+        "difficulty": 2,
+        "correct_answer": "Has",
+        "explanation": "Вопрос об опыте строится с have/has: Has he ever run...?"
+      },
+      {
+        "id": "q35",
+        "type": "mcq_single",
+        "prompt": "Выберите корректный порядок слов.",
+        "theory_block_id": "b3_theory_questions_short_answers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Have ever you been to Italy?",
+            "feedback": "Ever не ставится перед подлежащим."
+          },
+          {
+            "id": "b",
+            "text": "Have you ever been to Italy?",
+            "feedback": "Правильный порядок."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Ever стоит после подлежащего: Have you ever..."
+      },
+      {
+        "id": "q36",
+        "type": "error_spotting",
+        "prompt": "Выберите предложение без ошибки.",
+        "theory_block_id": "b3_theory_questions_short_answers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Have you ever swum in the sea? — Yes, I have.",
+            "feedback": "Корректно."
+          },
+          {
+            "id": "b",
+            "text": "Have you ever swum in the sea? — Yes, I am.",
+            "feedback": "Am не подходит."
+          },
+          {
+            "id": "c",
+            "text": "Have you ever swum in the sea? — Yes, I did.",
+            "feedback": "Did — для Past Simple."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Короткий ответ в Present Perfect использует have/has."
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Выберите корректный вариант для открытого периода: \"this month\".",
+        "theory_block_id": "b4_theory_open_time_periods",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I have written two reports this month.",
+            "feedback": "Месяц ещё продолжается → Present Perfect."
+          },
+          {
+            "id": "b",
+            "text": "I wrote two reports this month in 2020.",
+            "feedback": "Есть конкретный год, период завершён."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Открытый период (this month) допускает Present Perfect."
+      },
+      {
+        "id": "q38",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I have ___ to the gym three times this week.\" (go)",
+        "theory_block_id": "b4_theory_open_time_periods",
+        "difficulty": 2,
+        "correct_answer": "gone",
+        "explanation": "This week — открытый период, поэтому have gone."
+      },
+      {
+        "id": "q39",
+        "type": "true_false",
+        "prompt": "Верно или неверно: If the time period is still open, Present Perfect is possible.",
+        "theory_block_id": "b4_theory_open_time_periods",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Открытый период (this week/so far) позволяет использовать Present Perfect."
+      },
+      {
+        "id": "q40",
+        "type": "error_spotting",
+        "prompt": "Выберите правильное предложение, если день ещё продолжается.",
+        "theory_block_id": "b4_theory_open_time_periods",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She called me twice today.",
+            "feedback": "Past Simple звучит как завершенный период."
+          },
+          {
+            "id": "b",
+            "text": "She has called me twice today.",
+            "feedback": "Present Perfect подходит для открытого периода."
+          },
+          {
+            "id": "c",
+            "text": "She called me twice in 2018.",
+            "feedback": "Конкретный год требует Past Simple."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Если today ещё не закончился, Present Perfect уместен."
+      },
+      {
+        "id": "q41",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"We haven't ___ any complaints so far.\" (receive)",
+        "theory_block_id": "b4_theory_open_time_periods",
+        "difficulty": 2,
+        "correct_answer": "received",
+        "explanation": "So far указывает на период до настоящего момента; отрицание в Present Perfect: haven't received."
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "prompt": "Какое предложение соответствует открытому периоду?",
+        "theory_block_id": "b4_theory_open_time_periods",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I have seen him this week.",
+            "feedback": "This week ещё продолжается."
+          },
+          {
+            "id": "b",
+            "text": "I saw him in 2010.",
+            "feedback": "Конкретный год → Past Simple."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "This week — открытый период, поэтому Present Perfect."
+      },
+      {
+        "id": "q43",
+        "type": "mcq_multi",
+        "prompt": "Выберите все предложения с открытым периодом времени.",
+        "theory_block_id": "b4_theory_open_time_periods",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I have learned a lot this year.",
+            "feedback": "This year ещё продолжается."
+          },
+          {
+            "id": "b",
+            "text": "He has made no mistakes so far.",
+            "feedback": "So far — открытый период."
+          },
+          {
+            "id": "c",
+            "text": "They visited us in 2019.",
+            "feedback": "Конкретный год, закрытый период."
+          },
+          {
+            "id": "d",
+            "text": "I have been to three meetings today.",
+            "feedback": "Today как открытый период."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "b",
+          "d"
+        ],
+        "explanation": "This year/so far/today указывают на период, который ещё не завершён."
+      },
+      {
+        "id": "q44",
+        "type": "true_false",
+        "prompt": "Верно или неверно: Если период времени закончился, Present Perfect обычно не используется.",
+        "theory_block_id": "b4_theory_open_time_periods",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Для завершенного периода предпочтителен Past Simple."
+      },
+      {
+        "id": "q45",
+        "type": "error_spotting",
+        "prompt": "Выберите корректное предложение для открытого периода.",
+        "theory_block_id": "b4_theory_open_time_periods",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I have finished three reports this month so far.",
+            "feedback": "Открытый период — корректно."
+          },
+          {
+            "id": "b",
+            "text": "I finished three reports this month so far.",
+            "feedback": "Past Simple хуже подходит к so far."
+          },
+          {
+            "id": "c",
+            "text": "I have finished three reports in 2019.",
+            "feedback": "Конкретный год требует Past Simple."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "So far указывает на незавершенный период, поэтому Present Perfect."
+      },
+      {
+        "id": "q46",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She hasn't ___ any coffee today.\" (drink)",
+        "theory_block_id": "b4_theory_open_time_periods",
+        "difficulty": 2,
+        "correct_answer": "drunk",
+        "explanation": "Today как открытый период допускает Present Perfect; отрицание: hasn't drunk."
+      },
+      {
+        "id": "q47",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант с \"so far\".",
+        "theory_block_id": "b4_theory_open_time_periods",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We didn't face any delays so far.",
+            "feedback": "Past Simple плохо сочетается с so far."
+          },
+          {
+            "id": "b",
+            "text": "We haven't faced any delays so far.",
+            "feedback": "Present Perfect подходит для so far."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "So far указывает на период до настоящего момента, поэтому Present Perfect."
+      },
+      {
+        "id": "q48",
+        "type": "true_false",
+        "prompt": "Верно или неверно: In my life обычно используется с Past Simple.",
+        "theory_block_id": "b4_theory_open_time_periods",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "In my life — типичный маркер опыта, поэтому Present Perfect."
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"Tom isn't here; he ___ to the post office.\"",
+        "theory_block_id": "b5_theory_been_vs_gone",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "has been",
+            "feedback": "Been означает, что он уже вернулся."
+          },
+          {
+            "id": "b",
+            "text": "has gone",
+            "feedback": "Gone показывает, что он сейчас там/в пути."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Если его нет здесь, логично использовать has gone."
+      },
+      {
+        "id": "q50",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Lena has ___ to Mexico, so she knows the food.\" (be)",
+        "theory_block_id": "b5_theory_been_vs_gone",
+        "difficulty": 2,
+        "correct_answer": "been",
+        "explanation": "Been to — опыт, она уже вернулась."
+      },
+      {
+        "id": "q51",
+        "type": "mcq_single",
+        "prompt": "Какое предложение означает, что она все еще там?",
+        "theory_block_id": "b5_theory_been_vs_gone",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She has been to the clinic.",
+            "feedback": "Been — уже вернулась."
+          },
+          {
+            "id": "b",
+            "text": "She has gone to the clinic.",
+            "feedback": "Gone — сейчас там или в пути."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Gone to описывает текущее отсутствие."
+      },
+      {
+        "id": "q52",
+        "type": "true_false",
+        "prompt": "Верно или неверно: Been to означает, что человек все еще в этом месте.",
+        "theory_block_id": "b5_theory_been_vs_gone",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Been to означает, что человек уже вернулся."
+      },
+      {
+        "id": "q53",
+        "type": "error_spotting",
+        "prompt": "Выберите правильное предложение по контексту: \"He is not at his desk.\"",
+        "theory_block_id": "b5_theory_been_vs_gone",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He has been to the bank; he'll be back soon.",
+            "feedback": "Been подразумевает, что он уже вернулся."
+          },
+          {
+            "id": "b",
+            "text": "He has gone to the bank; he'll be back soon.",
+            "feedback": "Gone — сейчас его нет."
+          },
+          {
+            "id": "c",
+            "text": "He has been to the bank twice.",
+            "feedback": "Опыт без связи с текущим отсутствием."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Если человека сейчас нет, используем has gone."
+      },
+      {
+        "id": "q54",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"My parents have ___ to Italy twice.\" (be)",
+        "theory_block_id": "b5_theory_been_vs_gone",
+        "difficulty": 2,
+        "correct_answer": "been",
+        "explanation": "Twice указывает на опыт, поэтому been."
+      },
+      {
+        "id": "q55",
+        "type": "mcq_multi",
+        "prompt": "Выберите все варианты, где человек сейчас отсутствует (gone).",
+        "theory_block_id": "b5_theory_been_vs_gone",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Maria has gone to the dentist.",
+            "feedback": "Gone — она сейчас там/в пути."
+          },
+          {
+            "id": "b",
+            "text": "Maria has been to the dentist.",
+            "feedback": "Been — уже вернулась."
+          },
+          {
+            "id": "c",
+            "text": "The manager has gone to a meeting.",
+            "feedback": "Gone — сейчас на встрече."
+          },
+          {
+            "id": "d",
+            "text": "The manager has been to a meeting.",
+            "feedback": "Been — опыт, не про текущее отсутствие."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "Gone to используется, когда человек сейчас отсутствует."
+      },
+      {
+        "id": "q56",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"Sara has ___ to Paris, but she is back now.\"",
+        "theory_block_id": "b5_theory_been_vs_gone",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "been",
+            "feedback": "Been — уже вернулась."
+          },
+          {
+            "id": "b",
+            "text": "gone",
+            "feedback": "Gone — еще там."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Фраза but she is back now указывает на been to."
+      },
+      {
+        "id": "q57",
+        "type": "true_false",
+        "prompt": "Верно или неверно: Gone to часто описывает текущее отсутствие человека.",
+        "theory_block_id": "b5_theory_been_vs_gone",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Gone to означает, что человек еще не вернулся."
+      },
+      {
+        "id": "q58",
+        "type": "error_spotting",
+        "prompt": "Выберите корректное предложение об опыте посещения.",
+        "theory_block_id": "b5_theory_been_vs_gone",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I have gone to London three times.",
+            "feedback": "Gone звучит как текущее отсутствие, а не опыт."
+          },
+          {
+            "id": "b",
+            "text": "I have been to London three times.",
+            "feedback": "Been to подходит для опыта."
+          },
+          {
+            "id": "c",
+            "text": "I have went to London three times.",
+            "feedback": "Неверная форма V3."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Опыт с количеством раз выражается через have been to."
+      },
+      {
+        "id": "q59",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Alex has ___ to the gym; he'll be home at 7.\" (go)",
+        "theory_block_id": "b5_theory_been_vs_gone",
+        "difficulty": 2,
+        "correct_answer": "gone",
+        "explanation": "Если он сейчас в зале, нужен gone."
+      },
+      {
+        "id": "q60",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"Where is Julia?\" — \"She has ___ to the dentist.\"",
+        "theory_block_id": "b5_theory_been_vs_gone",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "been",
+            "feedback": "Been — она уже вернулась."
+          },
+          {
+            "id": "b",
+            "text": "gone",
+            "feedback": "Gone — она сейчас там."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Вопрос Where is Julia? указывает на текущее отсутствие → gone."
+      },
+      {
+        "id": "q61",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант со временем yesterday.",
+        "theory_block_id": "b6_theory_time_marker_traps",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I have seen him yesterday.",
+            "feedback": "Yesterday требует Past Simple."
+          },
+          {
+            "id": "b",
+            "text": "I saw him yesterday.",
+            "feedback": "Past Simple корректно."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "С yesterday используется Past Simple, потому что время конкретно."
+      },
+      {
+        "id": "q62",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"We ___ that movie in 2015.\" (see)",
+        "theory_block_id": "b6_theory_time_marker_traps",
+        "difficulty": 2,
+        "correct_answer": "saw",
+        "explanation": "Конкретный год → Past Simple: saw."
+      },
+      {
+        "id": "q63",
+        "type": "true_false",
+        "prompt": "Верно или неверно: Past Simple используется с выражениями last year и in 2010.",
+        "theory_block_id": "b6_theory_time_marker_traps",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Эти выражения обозначают конкретное прошлое время."
+      },
+      {
+        "id": "q64",
+        "type": "error_spotting",
+        "prompt": "Выберите предложение без ошибки (без точного времени).",
+        "theory_block_id": "b6_theory_time_marker_traps",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I have met your boss last week.",
+            "feedback": "Last week требует Past Simple."
+          },
+          {
+            "id": "b",
+            "text": "I have met your boss before.",
+            "feedback": "Опыт без конкретного времени — корректно."
+          },
+          {
+            "id": "c",
+            "text": "I have met your boss in 2022.",
+            "feedback": "Конкретный год → Past Simple."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Present Perfect допустим, если время не указано явно."
+      },
+      {
+        "id": "q65",
+        "type": "mcq_single",
+        "prompt": "Выберите грамматически правильное предложение.",
+        "theory_block_id": "b6_theory_time_marker_traps",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She has called me two hours ago.",
+            "feedback": "Two hours ago требует Past Simple."
+          },
+          {
+            "id": "b",
+            "text": "She called me two hours ago.",
+            "feedback": "Past Simple корректно."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "С ago используется Past Simple."
+      },
+      {
+        "id": "q66",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She ___ her first job when she was 18.\" (get)",
+        "theory_block_id": "b6_theory_time_marker_traps",
+        "difficulty": 2,
+        "correct_answer": "got",
+        "explanation": "When she was 18 — конкретное прошлое время, Past Simple."
+      },
+      {
+        "id": "q67",
+        "type": "mcq_multi",
+        "prompt": "Выберите все корректные предложения.",
+        "theory_block_id": "b6_theory_time_marker_traps",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I have never been to Canada.",
+            "feedback": "Опыт без времени — корректно."
+          },
+          {
+            "id": "b",
+            "text": "I went to Canada in 2018.",
+            "feedback": "Конкретный год → Past Simple, это корректно."
+          },
+          {
+            "id": "c",
+            "text": "I have been to Canada in 2018.",
+            "feedback": "С конкретным годом нельзя Present Perfect."
+          },
+          {
+            "id": "d",
+            "text": "They met in 2010.",
+            "feedback": "Еще один пример Past Simple с конкретным годом."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "b",
+          "d"
+        ],
+        "explanation": "Past Simple используется с конкретным временем, Present Perfect — без него."
+      },
+      {
+        "id": "q68",
+        "type": "true_false",
+        "prompt": "Верно или неверно: Present Perfect можно использовать с yesterday.",
+        "theory_block_id": "b6_theory_time_marker_traps",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Yesterday — конкретное прошлое время, нужен Past Simple."
+      },
+      {
+        "id": "q69",
+        "type": "error_spotting",
+        "prompt": "Выберите правильное предложение.",
+        "theory_block_id": "b6_theory_time_marker_traps",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He has left an hour ago.",
+            "feedback": "Ago требует Past Simple."
+          },
+          {
+            "id": "b",
+            "text": "He left an hour ago.",
+            "feedback": "Past Simple корректно."
+          },
+          {
+            "id": "c",
+            "text": "He has left in 2020.",
+            "feedback": "Конкретный год требует Past Simple."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "С ago используем Past Simple: He left an hour ago."
+      },
+      {
+        "id": "q70",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I ___ to Canada last summer.\" (go)",
+        "theory_block_id": "b6_theory_time_marker_traps",
+        "difficulty": 2,
+        "correct_answer": "went",
+        "explanation": "Last summer фиксирует время → Past Simple."
+      },
+      {
+        "id": "q71",
+        "type": "mcq_single",
+        "prompt": "Выберите корректное предложение без точного времени.",
+        "theory_block_id": "b6_theory_time_marker_traps",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I have never been to Canada.",
+            "feedback": "Опыт без времени."
+          },
+          {
+            "id": "b",
+            "text": "I have been to Canada in 2012.",
+            "feedback": "Конкретный год → Past Simple."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Если время не указано, Present Perfect подходит для опыта."
+      },
+      {
+        "id": "q72",
+        "type": "true_false",
+        "prompt": "Верно или неверно: If you mention a finished time period, use Past Simple.",
+        "theory_block_id": "b6_theory_time_marker_traps",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Завершенное время (last year, in 2019) требует Past Simple."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q5",
+      "q6",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q15",
+      "q16",
+      "q17",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q28",
+      "q29",
+      "q30",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q39",
+      "q42",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q51",
+      "q52",
+      "q54",
+      "q57",
+      "q58",
+      "q59",
+      "q60",
+      "q61",
+      "q62",
+      "q63",
+      "q64",
+      "q65",
+      "q66",
+      "q67",
+      "q68",
+      "q69",
+      "q70",
+      "q71",
+      "q72"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-20T10:35:38Z",
+    "source": "llm"
+  }
+}
