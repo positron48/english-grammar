@@ -76,6 +76,18 @@
       }
     },
     {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b2_theory_description_statements",
       "type": "theory",
       "title": "Утверждения описания (description) характеризуют состояние, качество или свойство. После глагола be ставится прилагательное без артикля.",
@@ -118,6 +130,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -165,6 +189,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q24",
+          "q25"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -217,6 +253,18 @@
       }
     },
     {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q34",
+          "q35"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b5_theory_combining_types",
       "type": "theory",
       "title": "В одном предложении можно объединять разные типы информации: тождество, описание и местоположение. Для этого используется союз and (и).",
@@ -251,6 +299,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q42",
+          "q43"
+        ],
+        "show_answers_immediately": true
       }
     }
   ],
@@ -1092,8 +1152,6 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q2",
       "q3",
       "q4",
       "q8",
@@ -1101,26 +1159,18 @@
       "q10",
       "q11",
       "q12",
-      "q13",
-      "q14",
       "q20",
       "q21",
       "q22",
-      "q24",
-      "q25",
       "q26",
       "q27",
       "q28",
       "q31",
       "q32",
       "q33",
-      "q34",
-      "q35",
       "q38",
       "q39",
       "q40",
-      "q42",
-      "q43",
       "q45",
       "q46",
       "q47",
@@ -1147,7 +1197,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T12:47:32Z",
+    "updated_at": "2026-01-20T14:10:50Z",
     "source": "llm"
   }
 }

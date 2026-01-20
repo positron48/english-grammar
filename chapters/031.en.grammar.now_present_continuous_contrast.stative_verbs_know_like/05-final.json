@@ -76,6 +76,18 @@
       }
     },
     {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b2_theory_groups_stative_verbs",
       "type": "theory",
       "title": "Статичные глаголы можно разделить на несколько основных групп:",
@@ -129,6 +141,18 @@
       }
     },
     {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q6",
+          "q7"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b3_theory_why_not_continuous",
       "type": "theory",
       "title": "Статичные глаголы обычно не используются в Continuous, потому что:",
@@ -173,6 +197,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q11",
+          "q11b"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -229,6 +265,18 @@
       }
     },
     {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q16",
+          "q17"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b5_theory_exceptions_temporary_state",
       "type": "theory",
       "title": "Некоторые статичные глаголы могут использоваться в Continuous для подчеркивания временного характера состояния, особенно когда речь идет о поведении или самочувствии:",
@@ -276,6 +324,18 @@
       }
     },
     {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q23",
+          "q24"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b6_theory_common_mistakes",
       "type": "theory",
       "title": "Типичные ошибки русскоязычных студентов:",
@@ -310,6 +370,18 @@
           }
         ],
         "examples": []
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q28",
+          "q29"
+        ],
+        "show_answers_immediately": true
       }
     }
   ],
@@ -1609,38 +1681,26 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q2",
       "q2b",
       "q3",
       "q4",
       "q5",
-      "q6",
-      "q7",
       "q8",
       "q9",
       "q9b",
       "q10",
-      "q11",
-      "q11b",
       "q12",
       "q13",
       "q14",
       "q15",
-      "q16",
-      "q17",
       "q18",
       "q19",
       "q20",
       "q21",
       "q22",
-      "q23",
-      "q24",
       "q25",
       "q26",
       "q27",
-      "q28",
-      "q29",
       "q31",
       "q32",
       "q33",
@@ -1687,7 +1747,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T12:47:27Z",
+    "updated_at": "2026-01-20T14:10:55Z",
     "source": "llm"
   }
 }

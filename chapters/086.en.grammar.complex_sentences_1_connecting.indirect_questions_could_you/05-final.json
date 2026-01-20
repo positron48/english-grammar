@@ -59,6 +59,18 @@
       }
     },
     {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b2_theory_statement_word_order",
       "type": "theory",
       "title": "Внутри косвенного вопроса используется прямой порядок слов: подлежащее + сказуемое. Инверсия с do/does/did и перенос вспомогательного глагола в начало не используется.",
@@ -100,6 +112,18 @@
       }
     },
     {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q14",
+          "q15"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b3_theory_yes_no_if_whether",
       "type": "theory",
       "title": "Если в прямом вопросе нет вопросительного слова (Yes/No question), то в косвенном вопросе мы используем if или whether. После них идёт прямой порядок слов.",
@@ -138,6 +162,18 @@
       }
     },
     {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q27",
+          "q28"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b4_theory_wh_indirect_questions",
       "type": "theory",
       "title": "В косвенных вопросах с what/where/when/how/why вопросительное слово сохраняется, но дальше — прямой порядок слов. Никаких do/does/did и инверсии.",
@@ -167,6 +203,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q40",
+          "q41"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -204,6 +252,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q53",
+          "q54"
+        ],
+        "show_answers_immediately": true
       }
     }
   ],
@@ -1312,8 +1372,6 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q2",
       "q3",
       "q4",
       "q5",
@@ -1325,8 +1383,6 @@
       "q11",
       "q12",
       "q13",
-      "q14",
-      "q15",
       "q16",
       "q17",
       "q18",
@@ -1338,8 +1394,6 @@
       "q24",
       "q25",
       "q26",
-      "q27",
-      "q28",
       "q29",
       "q30",
       "q31",
@@ -1351,8 +1405,6 @@
       "q37",
       "q38",
       "q39",
-      "q40",
-      "q41",
       "q42",
       "q43",
       "q44",
@@ -1364,8 +1416,6 @@
       "q50",
       "q51",
       "q52",
-      "q53",
-      "q54",
       "q55",
       "q56",
       "q57",
@@ -1391,7 +1441,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T12:47:31Z",
+    "updated_at": "2026-01-20T14:11:07Z",
     "source": "llm"
   }
 }

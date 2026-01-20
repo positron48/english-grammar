@@ -60,6 +60,18 @@
       }
     },
     {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b2_should_form_basics",
       "type": "theory",
       "title": "После should всегда стоит базовая форма глагола (V1) без to: *should go*, *should be*. Should не меняется по лицам: *I/you/he should*.",
@@ -85,6 +97,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -119,6 +143,18 @@
       }
     },
     {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b4_should_expectation",
       "type": "theory",
       "title": "Should также выражает ожидание или логичную вероятность: вы предполагаете, что что-то верно, потому что есть основания так думать.",
@@ -138,6 +174,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -166,6 +214,18 @@
       }
     },
     {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q50"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b6_should_negatives",
       "type": "theory",
       "title": "Shouldn't используется, когда вы советуете не делать что-то или предупреждаете о нежелательном действии. Это мягче, чем запрет с mustn't.",
@@ -185,6 +245,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q61",
+          "q62"
+        ],
+        "show_answers_immediately": true
       }
     }
   ],
@@ -1333,8 +1405,6 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q2",
       "q3",
       "q4",
       "q5",
@@ -1345,8 +1415,6 @@
       "q10",
       "q11",
       "q12",
-      "q13",
-      "q14",
       "q15",
       "q16",
       "q17",
@@ -1357,8 +1425,6 @@
       "q22",
       "q23",
       "q24",
-      "q25",
-      "q26",
       "q27",
       "q28",
       "q29",
@@ -1369,8 +1435,6 @@
       "q34",
       "q35",
       "q36",
-      "q37",
-      "q38",
       "q39",
       "q40",
       "q41",
@@ -1381,8 +1445,6 @@
       "q46",
       "q47",
       "q48",
-      "q49",
-      "q50",
       "q51",
       "q52",
       "q53",
@@ -1393,8 +1455,6 @@
       "q58",
       "q59",
       "q60",
-      "q61",
-      "q62",
       "q63",
       "q64",
       "q65",
@@ -1419,7 +1479,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T12:47:33Z",
+    "updated_at": "2026-01-20T14:11:00Z",
     "source": "llm"
   }
 }

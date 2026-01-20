@@ -79,6 +79,18 @@
       }
     },
     {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b2_theory_do_vs_does",
       "type": "theory",
       "title": "Выбор между `do` и `does` зависит от подлежащего (subject) в предложении:",
@@ -144,6 +156,18 @@
       }
     },
     {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q7",
+          "q8"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b3_theory_yes_no_questions",
       "type": "theory",
       "title": "Общие вопросы (Yes/No questions) — это вопросы, на которые можно ответить \"да\" или \"нет\". Они начинаются с `do` или `does`.",
@@ -201,6 +225,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -277,6 +313,18 @@
       }
     },
     {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q20",
+          "q21"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b5_theory_short_answers",
       "type": "theory",
       "title": "В английском языке мы часто даем краткие ответы на вопросы с do/does, не повторяя все предложение целиком.",
@@ -338,6 +386,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q28",
+          "q29"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -408,6 +468,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q35",
+          "q36"
+        ],
+        "show_answers_immediately": true
       }
     }
   ],
@@ -1843,42 +1915,30 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q2",
       "q3",
       "q4",
       "q5",
       "q6",
-      "q7",
-      "q8",
       "q9",
       "q10",
       "q11",
       "q12",
-      "q13",
-      "q14",
       "q15",
       "q16",
       "q17",
       "q18",
       "q19",
-      "q20",
-      "q21",
       "q22",
       "q23",
       "q24",
       "q25",
       "q26",
       "q27",
-      "q28",
-      "q29",
       "q30",
       "q31",
       "q32",
       "q33",
       "q34",
-      "q35",
-      "q36",
       "q37",
       "q39",
       "q40",
@@ -1925,7 +1985,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T12:47:24Z",
+    "updated_at": "2026-01-20T14:10:53Z",
     "source": "llm"
   }
 }

@@ -59,6 +59,18 @@
       }
     },
     {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b2_theory_v1_base_form",
       "type": "theory",
       "title": "V1 — это базовая форма глагола, та самая форма, которую вы найдете в словаре. Это форма без изменений, которая используется в настоящем времени.",
@@ -96,6 +108,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -140,6 +164,18 @@
       }
     },
     {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q26",
+          "q27"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b4_theory_v3_past_participle",
       "type": "theory",
       "title": "V3 — это причастие прошедшего времени. Эта форма используется в различных грамматических конструкциях.",
@@ -181,6 +217,18 @@
       }
     },
     {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q38",
+          "q39"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b5_theory_why_it_matters",
       "type": "theory",
       "title": "Знание трех форм глагола (V1, V2, V3) — это фундамент для понимания английской грамматики.",
@@ -190,6 +238,18 @@
         "key_points": [],
         "common_mistakes": [],
         "examples": []
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q51"
+        ],
+        "show_answers_immediately": true
       }
     }
   ],
@@ -862,8 +922,6 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q2",
       "q3",
       "q5",
       "q6",
@@ -871,8 +929,6 @@
       "q9",
       "q10",
       "q11",
-      "q13",
-      "q14",
       "q15",
       "q17",
       "q18",
@@ -880,8 +936,6 @@
       "q21",
       "q22",
       "q23",
-      "q26",
-      "q27",
       "q29",
       "q30",
       "q31",
@@ -889,16 +943,12 @@
       "q33",
       "q35",
       "q36",
-      "q38",
-      "q39",
       "q41",
       "q42",
       "q43",
       "q45",
       "q46",
       "q47",
-      "q49",
-      "q51",
       "q53",
       "q55",
       "q57",
@@ -917,7 +967,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T12:47:25Z",
+    "updated_at": "2026-01-20T14:10:49Z",
     "source": "llm"
   }
 }

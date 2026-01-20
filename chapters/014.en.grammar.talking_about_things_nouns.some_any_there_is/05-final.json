@@ -63,6 +63,18 @@
       }
     },
     {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b2_theory_any_questions",
       "type": "theory",
       "title": "В вопросах с конструкцией there is/are мы используем any вместо some. Any в вопросах означает \"какое-либо количество\", \"есть ли вообще\".",
@@ -95,6 +107,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q16",
+          "q17"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -142,6 +166,18 @@
       }
     },
     {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q30",
+          "q31"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b4_theory_any_negative",
       "type": "theory",
       "title": "В отрицательных предложениях с there is/are мы также используем any, а не some. Any в отрицаниях означает \"никакого\", \"нисколько\".",
@@ -180,6 +216,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q43",
+          "q44"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -222,6 +270,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q55",
+          "q56"
+        ],
+        "show_answers_immediately": true
       }
     }
   ],
@@ -1350,8 +1410,6 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q2",
       "q3",
       "q4",
       "q6",
@@ -1363,8 +1421,6 @@
       "q13",
       "q14",
       "q15",
-      "q16",
-      "q17",
       "q18",
       "q19",
       "q21",
@@ -1376,8 +1432,6 @@
       "q27",
       "q28",
       "q29",
-      "q30",
-      "q31",
       "q32",
       "q33",
       "q37",
@@ -1385,15 +1439,11 @@
       "q39",
       "q41",
       "q42",
-      "q43",
-      "q44",
       "q45",
       "q46",
       "q50",
       "q51",
       "q53",
-      "q55",
-      "q56",
       "q57",
       "q58",
       "q59",
@@ -1416,7 +1466,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T12:47:31Z",
+    "updated_at": "2026-01-20T14:10:51Z",
     "source": "llm"
   }
 }

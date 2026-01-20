@@ -60,6 +60,18 @@
       }
     },
     {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b2_geography_zero",
       "type": "theory",
       "title": "Без артикля обычно идут страны, города, улицы, озера и отдельные горы: France, Tokyo, Oxford Street, Lake Baikal, Mount Everest.",
@@ -88,6 +100,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q6",
+          "q7"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -122,6 +146,18 @@
       }
     },
     {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q11",
+          "q12"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b4_institutions_building",
       "type": "theory",
       "title": "С the говорим о конкретном здании: the school on Main Street, the hospital near my house.",
@@ -150,6 +186,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q16",
+          "q17"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -184,6 +232,18 @@
       }
     },
     {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q21",
+          "q22"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b6_fixed_expressions",
       "type": "theory",
       "title": "В устойчивых выражениях home/bed/work часто без артикля: go home, go to bed, be at work.",
@@ -212,6 +272,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q26",
+          "q27"
+        ],
+        "show_answers_immediately": true
       }
     }
   ],
@@ -730,33 +802,21 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q2",
       "q3",
       "q4",
       "q5",
-      "q6",
-      "q7",
       "q8",
       "q9",
       "q10",
-      "q11",
-      "q12",
       "q13",
       "q14",
       "q15",
-      "q16",
-      "q17",
       "q18",
       "q19",
       "q20",
-      "q21",
-      "q22",
       "q23",
       "q24",
       "q25",
-      "q26",
-      "q27",
       "q28",
       "q29",
       "q30"
@@ -774,7 +834,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T12:47:33Z",
+    "updated_at": "2026-01-20T14:11:02Z",
     "source": "llm"
   }
 }

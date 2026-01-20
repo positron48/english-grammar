@@ -77,6 +77,18 @@
       }
     },
     {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b2_theory_these_those_plural",
       "type": "theory",
       "title": "These и those — это указательные местоимения для множественного числа. Они работают так же, как this и that, но для нескольких предметов.",
@@ -125,6 +137,18 @@
       }
     },
     {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b3_theory_here_there_location",
       "type": "theory",
       "title": "Here (здесь) и there (там) — это слова, которые указывают на место, где находится предмет.",
@@ -165,6 +189,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -218,6 +254,18 @@
       }
     },
     {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q35",
+          "q36"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b5_theory_questions_with_demonstratives",
       "type": "theory",
       "title": "С указательными местоимениями можно задавать вопросы, используя вопросительные слова What (что) или Who (кто).",
@@ -265,6 +313,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q46",
+          "q47"
+        ],
+        "show_answers_immediately": true
       }
     }
   ],
@@ -1359,16 +1419,12 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q2",
       "q6",
       "q7",
       "q8",
       "q9",
       "q11",
       "q12",
-      "q13",
-      "q14",
       "q17",
       "q18",
       "q19",
@@ -1376,15 +1432,11 @@
       "q21",
       "q23",
       "q24",
-      "q25",
-      "q26",
       "q29",
       "q30",
       "q31",
       "q32",
       "q33",
-      "q35",
-      "q36",
       "q37",
       "q38",
       "q39",
@@ -1393,8 +1445,6 @@
       "q43",
       "q44",
       "q45",
-      "q46",
-      "q47",
       "q49",
       "q50",
       "q51",
@@ -1421,7 +1471,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T12:47:24Z",
+    "updated_at": "2026-01-20T14:10:50Z",
     "source": "llm"
   }
 }

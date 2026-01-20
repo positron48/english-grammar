@@ -101,12 +101,12 @@ jq -s '
     # Находим вопросы для этого theory блока и берем первые 2
     (($all_questions | map(select(.theory_block_id == $theory_blocks_formatted[$i].id)) | .[0:2] | map(.id)) as $quiz_question_ids |
      if ($quiz_question_ids | length) > 0 then
-       # Формируем ID для quiz блока: b{N+1}_quiz_after_{suffix}
-       # Извлекаем номер и суффикс из theory блока
-       (($theory_blocks_formatted[$i].id | capture("^b(?<num>[0-9]+)_theory_(?<suffix>.*)$")) as $match |
+       # Формируем ID для quiz блока
+       # Извлекаем номер из theory блока (формат: b{N}_...)
+       (($theory_blocks_formatted[$i].id | capture("^b(?<num>[0-9]+)_")) as $match |
         if $match then
           [{
-            id: "b\($match.num | tonumber + 1)_quiz_after_\($match.suffix)",
+            id: "b\($match.num | tonumber + 1)_quiz_after_block",
             type: "quiz_inline",
             title: "Проверка знаний",
             quiz_inline: {
@@ -231,8 +231,8 @@ fi
 echo ""
 echo "Статистика главы:"
 jq '{
-  theory_blocks: (.blocks | map(select(.type == "theory")) | length),
-  inline_quizzes: (.blocks | map(select(.type == "quiz_inline")) | length),
-  total_questions: (.question_bank.questions | length),
-  chapter_test_pool: (.chapter_test.pool_question_ids | length)
-}' "$FINAL_FILE"
+  theory_blocks: ((.blocks // []) | map(select(.type == "theory")) | length),
+  inline_quizzes: ((.blocks // []) | map(select(.type == "quiz_inline")) | length),
+  total_questions: ((.question_bank.questions // []) | length),
+  chapter_test_pool: ((.chapter_test.pool_question_ids // []) | length)
+}' "$FINAL_FILE" 2>/dev/null || echo "  (не удалось получить статистику)"

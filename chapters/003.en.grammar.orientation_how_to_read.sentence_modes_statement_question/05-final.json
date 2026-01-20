@@ -50,6 +50,18 @@
       }
     },
     {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b2_theory_statements",
       "type": "theory",
       "title": "Утверждение (Statement) — это обычное предложение, которое констатирует факт. Это самый простой режим предложения.",
@@ -78,6 +90,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -118,6 +142,18 @@
       }
     },
     {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b4_theory_negatives",
       "type": "theory",
       "title": "Отрицание (Negative) — это предложение, которое отрицает факт. Отрицание создается с помощью слова not (не).",
@@ -155,6 +191,18 @@
       }
     },
     {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b5_theory_switching_practice",
       "type": "theory",
       "title": "Теперь вы знаете, как «переключаться» между тремя режимами предложения. Одна идея — три способа её выразить.",
@@ -180,6 +228,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q50"
+        ],
+        "show_answers_immediately": true
       }
     }
   ],
@@ -957,40 +1017,30 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q2",
       "q3",
       "q4",
       "q7",
       "q8",
       "q9",
       "q10",
-      "q13",
-      "q14",
       "q17",
       "q18",
       "q19",
       "q20",
       "q23",
       "q24",
-      "q25",
-      "q26",
       "q30",
       "q31",
       "q32",
       "q33",
       "q35",
       "q36",
-      "q37",
-      "q38",
       "q42",
       "q43",
       "q44",
       "q45",
       "q47",
       "q48",
-      "q49",
-      "q50",
       "q51",
       "q53",
       "q54",
@@ -1013,7 +1063,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T12:47:35Z",
+    "updated_at": "2026-01-20T14:10:49Z",
     "source": "llm"
   }
 }

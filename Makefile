@@ -1,15 +1,16 @@
 # Makefile для управления проектом english-grammar
 
-.PHONY: help final final-all validate-all validate-uniqueness clean admin run test dev update-admin-index update-test-index
+.PHONY: help final final-all final-force validate-all validate-uniqueness clean admin run test dev update-admin-index update-test-index
 
 # Находим все главы (с префиксами или без)
-# Извлекаем chapter_id из имени папки (убираем префикс вида 001.)
-CHAPTERS := $(shell find chapters -mindepth 1 -maxdepth 1 -type d -not -name '.*' | sed 's|chapters/||' | sed 's|^[0-9][0-9][0-9]\.||' | sort -u)
+# Сортируем по номеру префикса (001, 002, ...), затем извлекаем chapter_id
+CHAPTERS := $(shell find chapters -mindepth 1 -maxdepth 1 -type d -not -name '.*' | sed 's|chapters/||' | sort -V | sed 's|^[0-9][0-9][0-9]\.||' | awk '!seen[$$0]++')
 
 help:
 	@echo "Доступные команды:"
 	@echo "  make final              - Пересобрать final.json только для измененных глав"
 	@echo "  make final-all          - Принудительно пересобрать все final.json для всех глав"
+	@echo "  make final-force        - Алиас для make final-all (принудительная пересборка всех глав)"
 	@echo "  make validate-all        - Валидировать все главы"
 	@echo "  make validate-uniqueness - Проверить уникальность вопросов по всему курсу"
 	@echo "  make admin               - Запустить админ-панель для просмотра глав"
@@ -86,6 +87,9 @@ final-all:
 	if [ $$FAILED -gt 0 ]; then \
 		echo "  ⚠️  Ошибок: $$FAILED глав"; \
 	fi
+
+# Алиас для принудительной пересборки всех глав
+final-force: final-all
 
 # Валидировать все главы
 validate-all:

@@ -24,6 +24,10 @@ if [ $? -ne 0 ]; then
     echo "Ошибка: папка главы не найдена: $CHAPTER_ID"
     exit 1
 fi
+
+# Получаем имя папки главы (с префиксом, если есть)
+CHAPTER_FOLDER_NAME=$(basename "$CHAPTER_DIR")
+
 SCHEMA_FILE="$PROJECT_ROOT/02-chapter-schema.json"
 FINAL_FILE="$CHAPTER_DIR/05-final.json"
 VALIDATION_OUTPUT="$CHAPTER_DIR/05-validation.json"
@@ -74,28 +78,31 @@ if chapter.get('level') not in ['A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'mixed']:
 
 # Собираем все theory_block_id
 theory_blocks = {}
-for block in chapter['blocks']:
-    if block['type'] == 'theory':
+blocks = chapter.get('blocks') or []
+for block in blocks:
+    if block.get('type') == 'theory':
         theory_blocks[block['id']] = block
 
 # Собираем все question_ids
-question_ids = {q['id']: q for q in chapter['question_bank']['questions']}
+question_bank = chapter.get('question_bank', {})
+questions = question_bank.get('questions') or []
+question_ids = {q['id']: q for q in questions}
 
 # 2. Содержательная валидность
 # Проверка theory_block_id в вопросах
-for q in chapter['question_bank']['questions']:
+for q in questions:
     if q['theory_block_id'] not in theory_blocks:
         issues.append({
             'severity': 'error',
             'category': 'structural',
             'message': f"Question {q['id']} references non-existent theory_block_id '{q['theory_block_id']}'",
-            'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}]",
+            'location': f"question_bank.questions[{questions.index(q)}]",
             'suggested_fix': 'Изменить theory_block_id на существующий ID блока теории'
         })
         errors += 1
 
 # Проверка question_ids в quiz_inline
-for block in chapter['blocks']:
+for block in blocks:
     if block['type'] == 'quiz_inline':
         for qid in block['quiz_inline']['question_ids']:
             if qid not in question_ids:
@@ -103,13 +110,15 @@ for block in chapter['blocks']:
                     'severity': 'error',
                     'category': 'structural',
                     'message': f"Quiz inline block {block['id']} references non-existent question_id '{qid}'",
-                    'location': f"blocks[{chapter['blocks'].index(block)}].quiz_inline.question_ids",
+                    'location': f"blocks[{blocks.index(block)}].quiz_inline.question_ids",
                     'suggested_fix': 'Изменить question_id на существующий ID вопроса'
                 })
                 errors += 1
 
 # Проверка question_ids в chapter_test
-for qid in chapter['chapter_test']['pool_question_ids']:
+chapter_test = chapter.get('chapter_test', {})
+pool_question_ids = chapter_test.get('pool_question_ids') or []
+for qid in pool_question_ids:
     if qid not in question_ids:
         issues.append({
             'severity': 'error',
@@ -121,7 +130,7 @@ for qid in chapter['chapter_test']['pool_question_ids']:
         errors += 1
 
 # Проверка соответствия correct_answer типу вопроса
-for q in chapter['question_bank']['questions']:
+for q in questions:
     qid = q['id']
     qtype = q['type']
     correct_answer = q.get('correct_answer')
@@ -132,7 +141,7 @@ for q in chapter['question_bank']['questions']:
                 'severity': 'error',
                 'category': 'structural',
                 'message': f"Question {qid}: mcq_single requires 'choices' field",
-                'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}]",
+                'location': f"question_bank.questions[{questions.index(q)}]",
                 'suggested_fix': 'Add choices array to question'
             })
             errors += 1
@@ -152,7 +161,7 @@ for q in chapter['question_bank']['questions']:
                 'severity': 'error',
                 'category': 'structural',
                 'message': f"Question {qid}: mcq_multi requires 'choices' field",
-                'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}]",
+                'location': f"question_bank.questions[{questions.index(q)}]",
                 'suggested_fix': 'Add choices array to question'
             })
             errors += 1
@@ -192,7 +201,7 @@ for q in chapter['question_bank']['questions']:
                 'severity': 'warning',
                 'category': 'content',
                 'message': f"Question {qid}: true_false не должен содержать choices",
-                'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}]",
+                'location': f"question_bank.questions[{questions.index(q)}]",
                 'suggested_fix': 'Удалить поле choices для true_false вопроса'
             })
             warnings += 1
@@ -296,7 +305,7 @@ for q in chapter['question_bank']['questions']:
             errors += 1
 
 # Проверка уникальности feedback в choices
-for q in chapter['question_bank']['questions']:
+for q in questions:
     qid = q['id']
     qtype = q['type']
     
@@ -358,7 +367,7 @@ allowed_duplicate_exact = [
 ]
 
 prompt_questions = {}  # Для отслеживания, какие вопросы имеют одинаковый prompt
-for q in chapter['question_bank']['questions']:
+for q in questions:
     qid = q['id']
     qtype = q['type']
     
@@ -402,7 +411,7 @@ if duplicates:
 
 # 3. Методическая валидность
 # Проверка наличия content_md в theory_blocks (обязательное поле)
-for block in chapter['blocks']:
+for block in blocks:
     if block['type'] == 'theory':
         block_id = block['id']
         if not block['theory'].get('content_md') or len(block['theory'].get('content_md', '').strip()) == 0:
@@ -416,7 +425,7 @@ for block in chapter['blocks']:
             errors += 1
 
 # Количество theory_blocks
-num_theory_blocks = len([b for b in chapter['blocks'] if b['type'] == 'theory'])
+num_theory_blocks = len([b for b in blocks if b.get('type') == 'theory'])
 if num_theory_blocks > 9:
     issues.append({
         'severity': 'warning',
@@ -428,20 +437,20 @@ if num_theory_blocks > 9:
     warnings += 1
 
 # Проверка наличия explanation у всех вопросов
-for q in chapter['question_bank']['questions']:
+for q in questions:
     if not q.get('explanation') or len(q.get('explanation', '').strip()) == 0:
         issues.append({
             'severity': 'error',
             'category': 'methodological',
             'message': f"Question {q['id']} не содержит explanation",
-            'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}]",
+            'location': f"question_bank.questions[{questions.index(q)}]",
             'suggested_fix': 'Добавить explanation к вопросу'
         })
         errors += 1
 
 # Проверка покрытия theory_blocks вопросами
 theory_blocks_covered = set()
-for q in chapter['question_bank']['questions']:
+for q in questions:
     if q.get('theory_block_id') in theory_blocks:
         theory_blocks_covered.add(q['theory_block_id'])
 
@@ -458,7 +467,7 @@ for block_id in theory_blocks:
 
 # Подсчет вопросов по блокам
 questions_per_block = {}
-for q in chapter['question_bank']['questions']:
+for q in questions:
     block_id = q.get('theory_block_id')
     if block_id:
         questions_per_block[block_id] = questions_per_block.get(block_id, 0) + 1
@@ -477,7 +486,7 @@ for block_id in theory_blocks:
         warnings += 1
 
 # Проверка баланса true_false вопросов (50±30% должны быть true)
-true_false_questions = [q for q in chapter['question_bank']['questions'] if q['type'] == 'true_false']
+true_false_questions = [q for q in questions if q.get('type') == 'true_false']
 if len(true_false_questions) > 0:
     true_count = sum(1 for q in true_false_questions if q.get('correct_answer') == 'true')
     false_count = sum(1 for q in true_false_questions if q.get('correct_answer') == 'false')
@@ -534,12 +543,17 @@ class Colors:
 
 # Выводим краткую информацию с цветами
 chapter_id = '$CHAPTER_ID'
+chapter_folder = '$CHAPTER_FOLDER_NAME'
+# Формируем отображаемое имя: показываем папку (с номером), если она отличается от chapter_id
+# Если папка совпадает с chapter_id, показываем только chapter_id
+display_name = chapter_folder if chapter_folder != chapter_id else chapter_id
+
 if errors == 0 and warnings == 0:
-    print(f"{Colors.GREEN}✓{Colors.RESET} {chapter_id}: валидно")
+    print(f"{Colors.GREEN}✓{Colors.RESET} {display_name}: валидно")
     sys.exit(0)
 else:
     # Выводим ошибки и предупреждения кратко
-    print(f"{chapter_id}:", end=' ')
+    print(f"{display_name}:", end=' ')
     if errors > 0:
         print(f"{Colors.RED}✗ {errors} ошибок{Colors.RESET}")
         for issue in issues:

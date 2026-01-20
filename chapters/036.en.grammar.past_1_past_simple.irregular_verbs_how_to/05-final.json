@@ -83,6 +83,18 @@
       }
     },
     {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b2_theory_patterns_over_memorization",
       "type": "theory",
       "title": "Изучение через паттерны эффективнее заучивания списков. Вместо того чтобы механически заучивать списки неправильных глаголов, гораздо эффективнее искать в них паттерны (закономерности).",
@@ -107,6 +119,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q15",
+          "q16"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -150,6 +174,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q29",
+          "q30"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -214,6 +250,18 @@
       }
     },
     {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q43",
+          "q45"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b5_theory_memory_strategies",
       "type": "theory",
       "title": "Стратегии запоминания неправильных глаголов. Эффективное запоминание неправильных глаголов требует использования разных методов.",
@@ -239,6 +287,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q57",
+          "q58"
+        ],
+        "show_answers_immediately": true
       }
     }
   ],
@@ -1732,8 +1792,6 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q2",
       "q3",
       "q4",
       "q5",
@@ -1746,8 +1804,6 @@
       "q12",
       "q13",
       "q14",
-      "q15",
-      "q16",
       "q17",
       "q18",
       "q19",
@@ -1760,8 +1816,6 @@
       "q26",
       "q27",
       "q28",
-      "q29",
-      "q30",
       "q31",
       "q32",
       "q33",
@@ -1774,8 +1828,6 @@
       "q40",
       "q41",
       "q42",
-      "q43",
-      "q45",
       "q46",
       "q47",
       "q48",
@@ -1787,8 +1839,6 @@
       "q54",
       "q55",
       "q56",
-      "q57",
-      "q58",
       "q59",
       "q60",
       "q61",
@@ -1815,7 +1865,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T12:47:38Z",
+    "updated_at": "2026-01-20T14:10:56Z",
     "source": "llm"
   }
 }

@@ -65,6 +65,18 @@
       }
     },
     {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b2_theory_singular_nouns_names",
       "type": "theory",
       "title": "С именами и существительными в единственном числе мы просто добавляем апостроф + s ('s) к слову.",
@@ -106,6 +118,18 @@
       }
     },
     {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q6",
+          "q7"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b3_theory_plural_nouns",
       "type": "theory",
       "title": "С существительными во множественном числе правило немного другое. Если слово уже заканчивается на -s (потому что это множественное число), мы просто добавляем только апостроф (без s).",
@@ -144,6 +168,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q11",
+          "q12"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -191,6 +227,18 @@
       }
     },
     {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q17",
+          "q18"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b5_theory_when_to_use_of",
       "type": "theory",
       "title": "Хотя possessive 's используется очень часто, иногда лучше использовать конструкцию с \"of\". ",
@@ -234,6 +282,18 @@
       }
     },
     {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q21",
+          "q22"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b6_theory_common_mistakes",
       "type": "theory",
       "title": "Типичные ошибки при использовании possessive 's:",
@@ -264,6 +324,18 @@
           }
         ],
         "examples": []
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q27",
+          "q28"
+        ],
+        "show_answers_immediately": true
       }
     }
   ],
@@ -900,30 +972,18 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q2",
       "q3",
       "q4",
       "q5",
-      "q6",
-      "q7",
       "q8",
       "q10",
-      "q11",
-      "q12",
       "q13",
       "q15",
-      "q17",
-      "q18",
       "q19",
       "q20",
-      "q21",
-      "q22",
       "q23",
       "q24",
       "q25",
-      "q27",
-      "q28",
       "q29",
       "q30",
       "q31",
@@ -945,7 +1005,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T12:47:30Z",
+    "updated_at": "2026-01-20T14:10:52Z",
     "source": "llm"
   }
 }

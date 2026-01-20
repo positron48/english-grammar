@@ -64,6 +64,18 @@
       }
     },
     {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q4"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b2_theory_there_is_singular",
       "type": "theory",
       "title": "There is используется с существительными в единственном числе (одна вещь) или с неисчисляемыми существительными.",
@@ -96,6 +108,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q16",
+          "q17"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -137,6 +161,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q31",
+          "q32"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -194,6 +230,18 @@
       }
     },
     {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q46",
+          "q47"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b5_theory_there_negatives",
       "type": "theory",
       "title": "Для формирования отрицаний с конструкцией There is/are нужно добавить not после is или are.",
@@ -232,6 +280,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q61",
+          "q63"
+        ],
+        "show_answers_immediately": true
       }
     }
   ],
@@ -1226,24 +1286,18 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q4",
       "q5",
       "q7",
       "q8",
       "q11",
       "q12",
       "q15",
-      "q16",
-      "q17",
       "q18",
       "q21",
       "q22",
       "q25",
       "q28",
       "q29",
-      "q31",
-      "q32",
       "q33",
       "q34",
       "q36",
@@ -1251,8 +1305,6 @@
       "q40",
       "q43",
       "q44",
-      "q46",
-      "q47",
       "q48",
       "q49",
       "q50",
@@ -1262,8 +1314,6 @@
       "q56",
       "q58",
       "q59",
-      "q61",
-      "q63",
       "q64",
       "q65",
       "q67",
@@ -1285,7 +1335,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T12:47:34Z",
+    "updated_at": "2026-01-20T14:10:51Z",
     "source": "llm"
   }
 }

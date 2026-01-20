@@ -59,6 +59,18 @@
       }
     },
     {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b2_theory_base_form",
       "type": "theory",
       "title": "Базовая форма глагола (V1 или infinitive без to) — это начальная форма глагола, как он представлен в словаре: work, play, read, go, like, see.",
@@ -108,6 +120,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -166,6 +190,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -230,6 +266,18 @@
       }
     },
     {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q40",
+          "q41"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b5_theory_contrast_forms",
       "type": "theory",
       "title": "Важно научиться различать формы глагола для разных лиц. Давайте сравним:",
@@ -290,6 +338,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q55",
+          "q56"
+        ],
+        "show_answers_immediately": true
       }
     }
   ],
@@ -1754,8 +1814,6 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q2",
       "q3",
       "q4",
       "q5",
@@ -1766,8 +1824,6 @@
       "q10",
       "q11",
       "q12",
-      "q13",
-      "q14",
       "q15",
       "q16",
       "q18",
@@ -1777,8 +1833,6 @@
       "q22",
       "q23",
       "q24",
-      "q25",
-      "q26",
       "q27",
       "q28",
       "q29",
@@ -1792,8 +1846,6 @@
       "q37",
       "q38",
       "q39",
-      "q40",
-      "q41",
       "q42",
       "q43",
       "q44",
@@ -1807,8 +1859,6 @@
       "q52",
       "q53",
       "q54",
-      "q55",
-      "q56",
       "q57",
       "q58",
       "q59",
@@ -1835,7 +1885,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T12:47:31Z",
+    "updated_at": "2026-01-20T14:10:53Z",
     "source": "llm"
   }
 }

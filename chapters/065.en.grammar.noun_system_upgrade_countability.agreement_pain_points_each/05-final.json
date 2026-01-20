@@ -68,6 +68,18 @@
       }
     },
     {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b2_none_agreement",
       "type": "theory",
       "title": "None может согласовываться как с единственным, так и с множественным числом. Если речь о количестве как о «нуле» в целом, часто используют единственное; если говорим о людях/предметах, обычно выбирают множественное.",
@@ -99,6 +111,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -137,6 +161,18 @@
       }
     },
     {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b4_singular_ending_s",
       "type": "theory",
       "title": "Есть существительные, которые оканчиваются на -s, но грамматически являются единственными. Это news, названия наук (physics, economics), некоторые болезни (measles, mumps).",
@@ -155,6 +191,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -196,6 +244,18 @@
       }
     },
     {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q50"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b6_quantity_of",
       "type": "theory",
       "title": "В конструкциях с количеством глагол согласуется с «ядром» выражения. A number of + plural noun означает «несколько», поэтому глагол во множественном числе. The number of + plural noun — это «количество» как единое число, поэтому единственное.",
@@ -231,6 +291,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b7_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q61",
+          "q62"
+        ],
+        "show_answers_immediately": true
       }
     }
   ],
@@ -1374,8 +1446,6 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q2",
       "q3",
       "q4",
       "q5",
@@ -1386,8 +1456,6 @@
       "q10",
       "q11",
       "q12",
-      "q13",
-      "q14",
       "q15",
       "q16",
       "q17",
@@ -1398,8 +1466,6 @@
       "q22",
       "q23",
       "q24",
-      "q25",
-      "q26",
       "q27",
       "q28",
       "q29",
@@ -1410,8 +1476,6 @@
       "q34",
       "q35",
       "q36",
-      "q37",
-      "q38",
       "q39",
       "q40",
       "q41",
@@ -1422,8 +1486,6 @@
       "q46",
       "q47",
       "q48",
-      "q49",
-      "q50",
       "q51",
       "q52",
       "q53",
@@ -1434,8 +1496,6 @@
       "q58",
       "q59",
       "q60",
-      "q61",
-      "q62",
       "q63",
       "q64",
       "q65",
@@ -1460,7 +1520,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T12:47:29Z",
+    "updated_at": "2026-01-20T14:11:02Z",
     "source": "llm"
   }
 }
