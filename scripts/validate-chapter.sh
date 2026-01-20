@@ -463,16 +463,16 @@ for q in chapter['question_bank']['questions']:
     if block_id:
         questions_per_block[block_id] = questions_per_block.get(block_id, 0) + 1
 
-# Проверка минимального количества вопросов на блок (минимум 2)
+# Проверка минимального количества вопросов на блок (минимум 4)
 for block_id in theory_blocks:
     question_count = questions_per_block.get(block_id, 0)
-    if question_count < 2:
+    if question_count < 4:
         issues.append({
             'severity': 'warning',
             'category': 'methodological',
-            'message': f"Theory block {block_id} имеет только {question_count} вопрос(ов), минимум 2 требуется",
+            'message': f"Theory block {block_id} имеет только {question_count} вопрос(ов), минимум 4 требуется",
             'location': 'question_bank.questions',
-            'suggested_fix': f'Добавить вопросы для theory_block {block_id}. Сейчас: {question_count}, нужно минимум 2'
+            'suggested_fix': f'Добавить вопросы для theory_block {block_id}. Сейчас: {question_count}, нужно минимум 4'
         })
         warnings += 1
 

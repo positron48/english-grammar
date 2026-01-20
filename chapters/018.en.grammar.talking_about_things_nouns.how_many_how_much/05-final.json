@@ -47,6 +47,18 @@
       }
     },
     {
+      "id": "b2_quiz_after_introduction_how_many_much",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b2_theory_countable_uncountable_difference",
       "type": "theory",
       "title": "Чтобы правильно использовать how many и how much, нужно понимать разницу между счетными и несчетными существительными.",
@@ -77,6 +89,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_countable_uncountable_difference",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q11",
+          "q12"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -118,6 +142,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_how_many_with_countable",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q70",
+          "q71"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -163,6 +199,18 @@
       }
     },
     {
+      "id": "b5_quiz_after_how_much_with_uncountable",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q75",
+          "q76"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b5_theory_question_structure_answers",
       "type": "theory",
       "title": "Вопросы с How many и How much следуют стандартной структуре английских вопросов. После вопросительного слова идет подлежащее и сказуемое в нужном порядке (с вспомогательным глаголом, если нужен).",
@@ -198,6 +246,18 @@
       }
     },
     {
+      "id": "b6_quiz_after_question_structure_answers",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q46",
+          "q25"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b6_theory_common_mistakes",
       "type": "theory",
       "title": "Самая частая ошибка при использовании How many и How much — это путаница между ними. Важно помнить: many — для счетных, much — для несчетных.",
@@ -223,6 +283,18 @@
           }
         ],
         "examples": []
+      }
+    },
+    {
+      "id": "b7_quiz_after_common_mistakes",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q60",
+          "q80"
+        ],
+        "show_answers_immediately": true
       }
     }
   ],
@@ -700,93 +772,6 @@
         "id": "q46"
       },
       {
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"How many water?\"",
-        "theory_block_id": "b6_theory_common_mistakes",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "How many water? → How much water?",
-            "feedback": "Правильно! Water — несчетное, нужно How much"
-          },
-          {
-            "id": "b",
-            "text": "Другая ошибка",
-            "feedback": "Нет"
-          },
-          {
-            "id": "c",
-            "text": "Нет ошибки",
-            "feedback": "Нет, ошибка есть"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: How many water?. Правильно: How much water?. Water — несчетное, нужно How much.",
-        "tags": [
-          "error"
-        ],
-        "id": "q51"
-      },
-      {
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"How much books?\"",
-        "theory_block_id": "b6_theory_common_mistakes",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "How much books? → How many books?",
-            "feedback": "Правильно! Books — счетные, нужно How many"
-          },
-          {
-            "id": "b",
-            "text": "Другая ошибка",
-            "feedback": "Нет"
-          },
-          {
-            "id": "c",
-            "text": "Нет ошибки",
-            "feedback": "Нет, ошибка есть"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: How much books?. Правильно: How many books?. Books — счетные, нужно How many.",
-        "tags": [
-          "error"
-        ],
-        "id": "q52"
-      },
-      {
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"How many book?\"",
-        "theory_block_id": "b6_theory_common_mistakes",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "How many book? → How many books?",
-            "feedback": "Правильно! После How many существительное должно быть во множественном числе"
-          },
-          {
-            "id": "b",
-            "text": "Другая ошибка",
-            "feedback": "Нет"
-          },
-          {
-            "id": "c",
-            "text": "Нет ошибки",
-            "feedback": "Нет, ошибка есть"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: How many book?. Правильно: How many books?. После How many существительное должно быть во множественном числе.",
-        "tags": [
-          "error"
-        ],
-        "id": "q53"
-      },
-      {
         "id": "q60",
         "type": "mcq_single",
         "prompt": "Верно или неверно: После How many существительное должно быть во множественном числе.",
@@ -815,82 +800,6 @@
           "how_many",
           "plural"
         ]
-      },
-      {
-        "id": "q21",
-        "type": "mcq_single",
-        "prompt": "Choose the correct option: How many ___ are in the box?",
-        "theory_block_id": "b3_theory_how_many_with_countable",
-        "difficulty": 1,
-        "choices": [
-          {
-            "id": "a",
-            "text": "apples"
-          },
-          {
-            "id": "b",
-            "text": "apple"
-          },
-          {
-            "id": "c",
-            "text": "juice"
-          },
-          {
-            "id": "d",
-            "text": "milk"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "How many is used with countable plural nouns. Apples is the plural form, so it matches the question. Juice and milk are uncountable, and apple is singular.",
-        "tags": []
-      },
-      {
-        "id": "q22",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How many ___ do you need?\" (ticket)",
-        "theory_block_id": "b3_theory_how_many_with_countable",
-        "difficulty": 1,
-        "correct_answer": "tickets",
-        "explanation": "How many requires a countable plural noun. Ticket becomes tickets. This is the standard pattern for quantities of countable items.",
-        "tags": []
-      },
-      {
-        "id": "q23",
-        "type": "mcq_single",
-        "prompt": "Choose the correct option: How much ___ is left?",
-        "theory_block_id": "b4_theory_how_much_with_uncountable",
-        "difficulty": 1,
-        "choices": [
-          {
-            "id": "a",
-            "text": "water"
-          },
-          {
-            "id": "b",
-            "text": "waters"
-          },
-          {
-            "id": "c",
-            "text": "bottles"
-          },
-          {
-            "id": "d",
-            "text": "apples"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "How much is used with uncountable nouns. Water is uncountable, so it fits. The plural forms refer to countable items.",
-        "tags": []
-      },
-      {
-        "id": "q24",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How much ___ do we have?\" (uncountable noun about facts)",
-        "theory_block_id": "b4_theory_how_much_with_uncountable",
-        "difficulty": 1,
-        "correct_answer": "information",
-        "explanation": "How much is used with uncountable nouns. Information is uncountable, so the base form stays the same. This matches the rule.",
-        "tags": []
       },
       {
         "id": "q25",
@@ -1190,22 +1099,551 @@
           "question_structure",
           "uncountable"
         ]
+      },
+      {
+        "id": "q70",
+        "type": "mcq_single",
+        "prompt": "Какая структура правильная для вопроса со счетными существительными?",
+        "theory_block_id": "b3_theory_how_many_with_countable",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "How many + существительное (множественное число) + ...?",
+            "feedback": "Правильно! После How many всегда идет существительное во множественном числе."
+          },
+          {
+            "id": "b",
+            "text": "How many + существительное (единственное число) + ...?",
+            "feedback": "Нет, после How many существительное должно быть во множественном числе."
+          },
+          {
+            "id": "c",
+            "text": "How much + существительное (множественное число) + ...?",
+            "feedback": "Нет, How much используется с несчетными, а не со счетными."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильная структура: How many + существительное (множественное число) + ...? Например: How many books do you have?",
+        "tags": [
+          "structure",
+          "how_many",
+          "countable"
+        ]
+      },
+      {
+        "id": "q71",
+        "type": "mcq_single",
+        "prompt": "Заполните пропуск: \"___ students are in your class?\"",
+        "theory_block_id": "b3_theory_how_many_with_countable",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "How many",
+            "feedback": "Правильно! Students — счетное существительное во множественном числе, используется How many."
+          },
+          {
+            "id": "b",
+            "text": "How much",
+            "feedback": "Нет, How much используется с несчетными существительными."
+          },
+          {
+            "id": "c",
+            "text": "How",
+            "feedback": "Нет, нужно How many для вопроса о количестве счетных предметов."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Students — счетное существительное во множественном числе, поэтому используется How many: How many students are in your class?",
+        "tags": [
+          "how_many",
+          "countable",
+          "plural"
+        ]
+      },
+      {
+        "id": "q72",
+        "type": "mcq_single",
+        "prompt": "Какой ответ правильный на вопрос \"How many apples do you want?\"",
+        "theory_block_id": "b3_theory_how_many_with_countable",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I want five apples.",
+            "feedback": "Правильно! Ответ содержит числительное, как и требуется для вопросов с How many."
+          },
+          {
+            "id": "b",
+            "text": "I want a little apples.",
+            "feedback": "Нет, a little используется с несчетными. Для счетных нужны числительные или many/a lot."
+          },
+          {
+            "id": "c",
+            "text": "I want much apples.",
+            "feedback": "Нет, much не используется со счетными существительными."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ответы на вопросы с How many обычно содержат числительные (five, ten) или слова many, a lot: I have five apples или I have a lot of apples.",
+        "tags": [
+          "answers",
+          "how_many",
+          "countable"
+        ]
+      },
+      {
+        "id": "q73",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: \"How many book do you have?\"",
+        "theory_block_id": "b3_theory_how_many_with_countable",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "book → books",
+            "feedback": "Правильно! После How many существительное должно быть во множественном числе."
+          },
+          {
+            "id": "b",
+            "text": "How many → How much",
+            "feedback": "Нет, How many здесь правильное, ошибка в числе существительного."
+          },
+          {
+            "id": "c",
+            "text": "do → does",
+            "feedback": "Нет, do здесь правильное, ошибка в числе существительного."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: How many book?. Правильно: How many books?. После How many существительное всегда стоит во множественном числе.",
+        "tags": [
+          "error",
+          "plural",
+          "how_many"
+        ]
+      },
+      {
+        "id": "q74",
+        "type": "mcq_single",
+        "prompt": "Какие слова можно использовать в ответе на вопрос \"How many pens?\"",
+        "theory_block_id": "b3_theory_how_many_with_countable",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Числительные (five, ten) или слова many, a lot",
+            "feedback": "Правильно! Ответы на How many содержат числительные или many/a lot."
+          },
+          {
+            "id": "b",
+            "text": "Только a little или not much",
+            "feedback": "Нет, a little и not much используются для несчетных существительных."
+          },
+          {
+            "id": "c",
+            "text": "Только much",
+            "feedback": "Нет, much не используется со счетными существительными."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ответы на вопросы с How many содержат числительные (five, ten) или слова many, a lot: Five pens, Not many, A lot.",
+        "tags": [
+          "answers",
+          "how_many",
+          "countable"
+        ]
+      },
+      {
+        "id": "q75",
+        "type": "mcq_single",
+        "prompt": "Какая структура правильная для вопроса с несчетными существительными?",
+        "theory_block_id": "b4_theory_how_much_with_uncountable",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "How much + существительное (единственное число) + ...?",
+            "feedback": "Правильно! После How much идет несчетное существительное в единственном числе."
+          },
+          {
+            "id": "b",
+            "text": "How much + существительное (множественное число) + ...?",
+            "feedback": "Нет, несчетные существительные не имеют множественного числа."
+          },
+          {
+            "id": "c",
+            "text": "How many + существительное (единственное число) + ...?",
+            "feedback": "Нет, How many используется со счетными существительными во множественном числе."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильная структура: How much + существительное (единственное число) + ...? Например: How much water do you need?",
+        "tags": [
+          "structure",
+          "how_much",
+          "uncountable"
+        ]
+      },
+      {
+        "id": "q76",
+        "type": "mcq_single",
+        "prompt": "Заполните пропуск: \"___ money do you have?\"",
+        "theory_block_id": "b4_theory_how_much_with_uncountable",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "How much",
+            "feedback": "Правильно! Money — несчетное существительное, используется How much."
+          },
+          {
+            "id": "b",
+            "text": "How many",
+            "feedback": "Нет, How many используется со счетными существительными."
+          },
+          {
+            "id": "c",
+            "text": "How",
+            "feedback": "Нет, нужно How much для вопроса о количестве несчетных существительных."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Money — несчетное существительное, поэтому используется How much: How much money do you have?",
+        "tags": [
+          "how_much",
+          "uncountable"
+        ]
+      },
+      {
+        "id": "q77",
+        "type": "mcq_single",
+        "prompt": "Для чего еще используется How much, кроме вопроса о количестве несчетных существительных?",
+        "theory_block_id": "b4_theory_how_much_with_uncountable",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Для вопроса о цене",
+            "feedback": "Правильно! How much часто используется для вопроса о цене: How much is it?"
+          },
+          {
+            "id": "b",
+            "text": "Для вопроса о времени",
+            "feedback": "Нет, для времени используются другие слова (What time, When)."
+          },
+          {
+            "id": "c",
+            "text": "Для вопроса о месте",
+            "feedback": "Нет, для места используется Where."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "How much также используется для вопроса о цене: How much is it? (Сколько это стоит?), How much does it cost?",
+        "tags": [
+          "how_much",
+          "price"
+        ]
+      },
+      {
+        "id": "q78",
+        "type": "mcq_single",
+        "prompt": "Какие слова можно использовать в ответе на вопрос \"How much water do you need?\"",
+        "theory_block_id": "b4_theory_how_much_with_uncountable",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "a little, a lot, not much, или количество с единицами измерения",
+            "feedback": "Правильно! Ответы на How much содержат слова для количества или конкретное количество с единицами."
+          },
+          {
+            "id": "b",
+            "text": "Только числительные (five, ten)",
+            "feedback": "Нет, для несчетных нужны слова количества или единицы измерения, а не просто числительные."
+          },
+          {
+            "id": "c",
+            "text": "Только many",
+            "feedback": "Нет, many используется со счетными существительными."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ответы на вопросы с How much содержат слова для количества (a little, a lot, not much) или конкретное количество с единицами измерения: two liters of water, five dollars.",
+        "tags": [
+          "answers",
+          "how_much",
+          "uncountable"
+        ]
+      },
+      {
+        "id": "q79",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вопрос о цене:",
+        "theory_block_id": "b4_theory_how_much_with_uncountable",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "How much is this book?",
+            "feedback": "Правильно! How much используется для вопроса о цене."
+          },
+          {
+            "id": "b",
+            "text": "How many is this book?",
+            "feedback": "Нет, для вопроса о цене используется How much, а не How many."
+          },
+          {
+            "id": "c",
+            "text": "How is this book?",
+            "feedback": "Нет, для вопроса о цене нужно How much."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для вопроса о цене используется How much: How much is this book? (Сколько стоит эта книга?) или How much does it cost?",
+        "tags": [
+          "how_much",
+          "price",
+          "question"
+        ]
+      },
+      {
+        "id": "q80",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: \"How many water do you need?\"",
+        "theory_block_id": "b6_theory_common_mistakes",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "How many → How much",
+            "feedback": "Правильно! Water — несчетное существительное, нужно использовать How much"
+          },
+          {
+            "id": "b",
+            "text": "water → waters",
+            "feedback": "Нет, water — несчетное, ошибка в выборе вопросительного слова"
+          },
+          {
+            "id": "c",
+            "text": "do → does",
+            "feedback": "Нет, do здесь правильное, ошибка в выборе How many/How much"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: How many water?. Правильно: How much water?. Water — несчетное существительное, поэтому используется How much, а не How many.",
+        "tags": [
+          "error",
+          "how_many",
+          "how_much",
+          "uncountable"
+        ]
+      },
+      {
+        "id": "q81",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: \"How much books do you have?\"",
+        "theory_block_id": "b6_theory_common_mistakes",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "How much → How many",
+            "feedback": "Правильно! Books — счетные существительные, нужно использовать How many"
+          },
+          {
+            "id": "b",
+            "text": "books → book",
+            "feedback": "Нет, books правильное, ошибка в выборе How many/How much"
+          },
+          {
+            "id": "c",
+            "text": "do → does",
+            "feedback": "Нет, do здесь правильное, ошибка в выборе How many/How much"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: How much books?. Правильно: How many books?. Books — счетные существительные, поэтому используется How many, а не How much.",
+        "tags": [
+          "error",
+          "how_many",
+          "how_much",
+          "countable"
+        ]
+      },
+      {
+        "id": "q82",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: \"How many book is on the table?\"",
+        "theory_block_id": "b6_theory_common_mistakes",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "book → books",
+            "feedback": "Правильно! После How many существительное должно быть во множественном числе"
+          },
+          {
+            "id": "b",
+            "text": "is → are",
+            "feedback": "Нет, ошибка в числе существительного, а не в глаголе"
+          },
+          {
+            "id": "c",
+            "text": "How many → How much",
+            "feedback": "Нет, How many здесь правильное, ошибка в числе существительного"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: How many book?. Правильно: How many books?. После How many существительное всегда стоит во множественном числе.",
+        "tags": [
+          "error",
+          "how_many",
+          "plural"
+        ]
+      },
+      {
+        "id": "q84",
+        "type": "mcq_single",
+        "prompt": "Какая из этих фраз правильная?",
+        "theory_block_id": "b6_theory_common_mistakes",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "How many apples do you want?",
+            "feedback": "Правильно! Apples — счетные, используется How many с множественным числом"
+          },
+          {
+            "id": "b",
+            "text": "How much apples do you want?",
+            "feedback": "Нет, apples — счетные, нужно How many"
+          },
+          {
+            "id": "c",
+            "text": "How many apple do you want?",
+            "feedback": "Нет, после How many нужно множественное число apples"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильно: How many apples do you want?. Apples — счетные существительные, поэтому используется How many (не How much) и во множественном числе.",
+        "tags": [
+          "how_many",
+          "countable",
+          "plural"
+        ]
+      },
+      {
+        "id": "q86",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: \"How much students are in the class?\"",
+        "theory_block_id": "b6_theory_common_mistakes",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "How much → How many",
+            "feedback": "Правильно! Students — счетные, нужно использовать How many"
+          },
+          {
+            "id": "b",
+            "text": "students → student",
+            "feedback": "Нет, students правильное, ошибка в выборе How many/How much"
+          },
+          {
+            "id": "c",
+            "text": "are → is",
+            "feedback": "Нет, are здесь правильное, ошибка в выборе How many/How much"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: How much students?. Правильно: How many students?. Students — счетные существительные, поэтому используется How many, а не How much.",
+        "tags": [
+          "error",
+          "how_many",
+          "how_much",
+          "countable"
+        ]
+      },
+      {
+        "id": "q87",
+        "type": "mcq_single",
+        "prompt": "Что нужно помнить, чтобы не путать How many и How much?",
+        "theory_block_id": "b6_theory_common_mistakes",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Many — для счетных, much — для несчетных",
+            "feedback": "Правильно! Это ключевое правило для правильного выбора"
+          },
+          {
+            "id": "b",
+            "text": "Many — для несчетных, much — для счетных",
+            "feedback": "Нет, наоборот: many для счетных, much для несчетных"
+          },
+          {
+            "id": "c",
+            "text": "Оба используются одинаково",
+            "feedback": "Нет, они используются по-разному в зависимости от типа существительного"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Чтобы не путать, помните: many — для счетных существительных (books, apples), much — для несчетных (water, money).",
+        "tags": [
+          "how_many",
+          "how_much",
+          "rule"
+        ]
+      },
+      {
+        "id": "q89",
+        "type": "mcq_single",
+        "prompt": "Какая ошибка чаще всего встречается при использовании How many?",
+        "theory_block_id": "b6_theory_common_mistakes",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Забывать про множественное число после How many",
+            "feedback": "Правильно! Часто говорят How many book вместо How many books"
+          },
+          {
+            "id": "b",
+            "text": "Использовать How many с несчетными",
+            "feedback": "Это тоже ошибка, но не самая частая"
+          },
+          {
+            "id": "c",
+            "text": "Использовать How many вместо How much для цены",
+            "feedback": "Это ошибка, но не самая частая"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Самая частая ошибка — забывать про множественное число: How many book? вместо How many books?. После How many существительное всегда во множественном числе.",
+        "tags": [
+          "how_many",
+          "plural",
+          "common_mistake"
+        ]
       }
     ]
   },
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
       "q8",
       "q9",
+      "q15",
+      "q16",
       "q17",
       "q19",
       "q20",
-      "q51",
-      "q52",
-      "q53",
-      "q60",
-      "q25",
       "q61",
       "q62",
       "q63",
@@ -1214,7 +1652,19 @@
       "q66",
       "q67",
       "q68",
-      "q69"
+      "q69",
+      "q72",
+      "q73",
+      "q74",
+      "q77",
+      "q78",
+      "q79",
+      "q81",
+      "q82",
+      "q84",
+      "q86",
+      "q87",
+      "q89"
     ],
     "selection_strategy": {
       "type": "stratified_by_theory_block",
@@ -1229,7 +1679,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T12:14:20Z",
+    "updated_at": "2026-01-20T13:01:51Z",
     "source": "llm"
   }
 }

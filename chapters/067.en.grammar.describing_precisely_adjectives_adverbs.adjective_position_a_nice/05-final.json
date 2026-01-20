@@ -55,21 +55,6 @@
       }
     },
     {
-      "id": "b2_quiz_after_attributive",
-      "type": "quiz_inline",
-      "title": "Quick check: adjective before noun",
-      "quiz_inline": {
-        "question_ids": [
-          "q1",
-          "q2",
-          "q3",
-          "q4",
-          "q5"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b2_predicative",
       "type": "theory",
       "title": "После be и других глаголов-связок прилагательное стоит после глагола: *The place is nice.* К таким глаголам относятся seem, look, feel, become, get.",
@@ -107,21 +92,6 @@
       }
     },
     {
-      "id": "b4_quiz_after_predicative",
-      "type": "quiz_inline",
-      "title": "Quick check: linking verbs",
-      "quiz_inline": {
-        "question_ids": [
-          "q13",
-          "q14",
-          "q15",
-          "q16",
-          "q17"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b3_postpositive",
       "type": "theory",
       "title": "После неопределенных местоимений прилагательное идет после: *something nice, anyone available*. Это стабильное правило.",
@@ -151,21 +121,6 @@
       }
     },
     {
-      "id": "b6_quiz_after_postpositive",
-      "type": "quiz_inline",
-      "title": "Quick check: postpositive adjectives",
-      "quiz_inline": {
-        "question_ids": [
-          "q25",
-          "q26",
-          "q27",
-          "q28",
-          "q29"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b4_after_noun_fixed",
       "type": "theory",
       "title": "Некоторые прилагательные обычно стоят после существительного: *the tickets available, the person responsible*. Частые слова: available, responsible, present, involved, concerned.",
@@ -192,21 +147,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b8_quiz_after_after_noun",
-      "type": "quiz_inline",
-      "title": "Quick check: fixed postposition",
-      "quiz_inline": {
-        "question_ids": [
-          "q37",
-          "q38",
-          "q39",
-          "q40",
-          "q41"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -1084,6 +1024,11 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
       "q6",
       "q7",
       "q8",
@@ -1091,6 +1036,11 @@
       "q10",
       "q11",
       "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
       "q18",
       "q19",
       "q20",
@@ -1098,6 +1048,11 @@
       "q22",
       "q23",
       "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
       "q30",
       "q31",
       "q32",
@@ -1105,6 +1060,11 @@
       "q34",
       "q35",
       "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
       "q42",
       "q43",
       "q44",
@@ -1138,7 +1098,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T09:41:55Z",
+    "updated_at": "2026-01-20T12:47:32Z",
     "source": "llm"
   }
 }

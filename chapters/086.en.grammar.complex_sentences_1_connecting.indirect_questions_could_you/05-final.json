@@ -59,21 +59,6 @@
       }
     },
     {
-      "id": "b2_quiz_after_indirect_questions_purpose",
-      "type": "quiz_inline",
-      "title": "Quick check: косвенные вопросы",
-      "quiz_inline": {
-        "question_ids": [
-          "q1",
-          "q2",
-          "q3",
-          "q4",
-          "q5"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b2_theory_statement_word_order",
       "type": "theory",
       "title": "Внутри косвенного вопроса используется прямой порядок слов: подлежащее + сказуемое. Инверсия с do/does/did и перенос вспомогательного глагола в начало не используется.",
@@ -115,21 +100,6 @@
       }
     },
     {
-      "id": "b4_quiz_after_statement_word_order",
-      "type": "quiz_inline",
-      "title": "Quick check: порядок слов",
-      "quiz_inline": {
-        "question_ids": [
-          "q14",
-          "q15",
-          "q16",
-          "q17",
-          "q18"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b3_theory_yes_no_if_whether",
       "type": "theory",
       "title": "Если в прямом вопросе нет вопросительного слова (Yes/No question), то в косвенном вопросе мы используем if или whether. После них идёт прямой порядок слов.",
@@ -168,21 +138,6 @@
       }
     },
     {
-      "id": "b6_quiz_after_yes_no_if_whether",
-      "type": "quiz_inline",
-      "title": "Quick check: if/whether",
-      "quiz_inline": {
-        "question_ids": [
-          "q27",
-          "q28",
-          "q29",
-          "q30",
-          "q31"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b4_theory_wh_indirect_questions",
       "type": "theory",
       "title": "В косвенных вопросах с what/where/when/how/why вопросительное слово сохраняется, но дальше — прямой порядок слов. Никаких do/does/did и инверсии.",
@@ -212,21 +167,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b8_quiz_after_wh_indirect_questions",
-      "type": "quiz_inline",
-      "title": "Quick check: wh-косвенные вопросы",
-      "quiz_inline": {
-        "question_ids": [
-          "q40",
-          "q41",
-          "q42",
-          "q43",
-          "q44"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -1372,6 +1312,11 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
       "q6",
       "q7",
       "q8",
@@ -1380,6 +1325,11 @@
       "q11",
       "q12",
       "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
       "q19",
       "q20",
       "q21",
@@ -1388,6 +1338,11 @@
       "q24",
       "q25",
       "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
       "q32",
       "q33",
       "q34",
@@ -1396,6 +1351,11 @@
       "q37",
       "q38",
       "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
       "q45",
       "q46",
       "q47",
@@ -1431,7 +1391,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T09:15:39Z",
+    "updated_at": "2026-01-20T12:47:31Z",
     "source": "llm"
   }
 }

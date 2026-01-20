@@ -56,16 +56,8 @@ def update_files(chapter_id, data):
         except Exception as e:
             errors.append(f'Failed to update 03-questions.json: {str(e)}')
     
-    # Обновляем 04-inline-quizzes.json
-    if 'quizzes' in data:
-        quizzes_file = os.path.join(chapter_dir, '04-inline-quizzes.json')
-        
-        try:
-            with open(quizzes_file, 'w', encoding='utf-8') as f:
-                json.dump(data['quizzes'], f, ensure_ascii=False, indent=2)
-            updated.append('04-inline-quizzes.json')
-        except Exception as e:
-            errors.append(f'Failed to update 04-inline-quizzes.json: {str(e)}')
+    # 04-inline-quizzes.json больше не используется - квизы генерируются автоматически
+    # Inline quizzes теперь создаются динамически из первых 2 вопросов каждого theory блока
     
     # Обновляем 05-final.json (если предоставлен)
     if 'final' in data:

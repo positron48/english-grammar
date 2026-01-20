@@ -72,21 +72,6 @@
       }
     },
     {
-      "id": "b2_quiz_after_duration_up_to_now",
-      "type": "quiz_inline",
-      "title": "Quick check: длительность до настоящего",
-      "quiz_inline": {
-        "question_ids": [
-          "q1",
-          "q2",
-          "q3",
-          "q4",
-          "q10"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b2_theory_for_vs_since",
       "type": "theory",
       "title": "for используется с периодом (сколько времени), а since — с точкой начала.",
@@ -133,21 +118,6 @@
       }
     },
     {
-      "id": "b4_quiz_after_for_vs_since",
-      "type": "quiz_inline",
-      "title": "Мини-квиз: for или since?",
-      "quiz_inline": {
-        "question_ids": [
-          "q13",
-          "q14",
-          "q16",
-          "q17",
-          "q19"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b3_theory_how_long",
       "type": "theory",
       "title": "Чтобы спросить о длительности до настоящего, используют вопрос How long have/has + подлежащее + V3?",
@@ -189,21 +159,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b6_quiz_after_how_long",
-      "type": "quiz_inline",
-      "title": "Quick check: вопросы How long",
-      "quiz_inline": {
-        "question_ids": [
-          "q25",
-          "q26",
-          "q27",
-          "q28",
-          "q30"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -254,21 +209,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b8_quiz_after_since_clauses",
-      "type": "quiz_inline",
-      "title": "Мини-квиз: since + clause и позиции",
-      "quiz_inline": {
-        "question_ids": [
-          "q37",
-          "q38",
-          "q39",
-          "q41",
-          "q42"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -1391,28 +1331,48 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
       "q5",
       "q6",
       "q7",
       "q8",
       "q9",
+      "q10",
       "q11",
       "q12",
+      "q13",
+      "q14",
       "q15",
+      "q16",
+      "q17",
       "q18",
+      "q19",
       "q20",
       "q21",
       "q22",
       "q23",
       "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
       "q29",
+      "q30",
       "q31",
       "q32",
       "q33",
       "q34",
       "q35",
       "q36",
+      "q37",
+      "q38",
+      "q39",
       "q40",
+      "q41",
+      "q42",
       "q43",
       "q44",
       "q45",
@@ -1445,7 +1405,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T10:46:20Z",
+    "updated_at": "2026-01-20T12:47:34Z",
     "source": "llm"
   }
 }

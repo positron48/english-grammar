@@ -60,21 +60,6 @@
       }
     },
     {
-      "id": "b2_quiz_after_shared",
-      "type": "quiz_inline",
-      "title": "Quick check: shared knowledge",
-      "quiz_inline": {
-        "question_ids": [
-          "q1",
-          "q2",
-          "q3",
-          "q4",
-          "q5"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b2_specific_reference",
       "type": "theory",
       "title": "Мы используем the, когда речь идет о конкретном объекте, уже упомянутом или очевидном в контексте.",
@@ -115,21 +100,6 @@
       }
     },
     {
-      "id": "b4_quiz_after_specific",
-      "type": "quiz_inline",
-      "title": "Quick check: specific reference",
-      "quiz_inline": {
-        "question_ids": [
-          "q11",
-          "q12",
-          "q13",
-          "q14",
-          "q15"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b3_defining_phrases",
       "type": "theory",
       "title": "The ставится перед существительным, которое уточняется фразой: *the book on the table*, *the person who called*, *the house that we bought*.",
@@ -161,21 +131,6 @@
       }
     },
     {
-      "id": "b6_quiz_after_defining",
-      "type": "quiz_inline",
-      "title": "Quick check: defining phrases",
-      "quiz_inline": {
-        "question_ids": [
-          "q21",
-          "q22",
-          "q23",
-          "q24",
-          "q25"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b4_unique_objects",
       "type": "theory",
       "title": "The используется с уникальными объектами, когда в мире есть только один: *the sun, the moon, the internet, the Earth*.",
@@ -204,21 +159,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b8_quiz_after_unique",
-      "type": "quiz_inline",
-      "title": "Quick check: unique objects",
-      "quiz_inline": {
-        "question_ids": [
-          "q31",
-          "q32",
-          "q33",
-          "q34",
-          "q35"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -259,21 +199,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b10_quiz_after_places",
-      "type": "quiz_inline",
-      "title": "Quick check: places/context",
-      "quiz_inline": {
-        "question_ids": [
-          "q41",
-          "q42",
-          "q43",
-          "q44",
-          "q45"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -1197,26 +1122,51 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
       "q6",
       "q7",
       "q8",
       "q9",
       "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
       "q16",
       "q17",
       "q18",
       "q19",
       "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
       "q26",
       "q27",
       "q28",
       "q29",
       "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
       "q36",
       "q37",
       "q38",
       "q39",
       "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
       "q46",
       "q47",
       "q48",
@@ -1246,7 +1196,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T09:41:57Z",
+    "updated_at": "2026-01-20T12:47:26Z",
     "source": "llm"
   }
 }

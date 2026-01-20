@@ -61,21 +61,6 @@
       }
     },
     {
-      "id": "b2_quiz_after_past_time_markers",
-      "type": "quiz_inline",
-      "title": "Проверка: узнаешь маркеры прошлого?",
-      "quiz_inline": {
-        "question_ids": [
-          "q1",
-          "q3",
-          "q5",
-          "q8",
-          "q12"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b2_theory_yesterday_last",
       "type": "theory",
       "title": "Yesterday используется сам по себе и означает \"вчера\": *yesterday morning*, *yesterday evening*.",
@@ -113,21 +98,6 @@
       }
     },
     {
-      "id": "b4_quiz_after_yesterday_last",
-      "type": "quiz_inline",
-      "title": "Проверка: yesterday и last",
-      "quiz_inline": {
-        "question_ids": [
-          "q13",
-          "q14",
-          "q16",
-          "q18",
-          "q21"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b3_theory_ago_usage",
       "type": "theory",
       "title": "Ago показывает, сколько времени прошло до настоящего момента. Структура: number + time + ago.",
@@ -156,21 +126,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b6_quiz_after_ago_usage",
-      "type": "quiz_inline",
-      "title": "Проверка: ago",
-      "quiz_inline": {
-        "question_ids": [
-          "q25",
-          "q26",
-          "q28",
-          "q30",
-          "q32"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -208,21 +163,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b8_quiz_after_in_year_past",
-      "type": "quiz_inline",
-      "title": "Проверка: in + year",
-      "quiz_inline": {
-        "question_ids": [
-          "q37",
-          "q38",
-          "q40",
-          "q41",
-          "q44"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -1264,30 +1204,50 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
       "q2",
+      "q3",
       "q4",
+      "q5",
       "q6",
       "q7",
+      "q8",
       "q9",
       "q10",
       "q11",
+      "q12",
+      "q13",
+      "q14",
       "q15",
+      "q16",
       "q17",
+      "q18",
       "q19",
       "q20",
+      "q21",
       "q22",
       "q23",
       "q24",
+      "q25",
+      "q26",
       "q27",
+      "q28",
       "q29",
+      "q30",
       "q31",
+      "q32",
       "q33",
       "q34",
       "q35",
       "q36",
+      "q37",
+      "q38",
       "q39",
+      "q40",
+      "q41",
       "q42",
       "q43",
+      "q44",
       "q45",
       "q46",
       "q47",
@@ -1318,7 +1278,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T09:41:58Z",
+    "updated_at": "2026-01-20T12:47:27Z",
     "source": "llm"
   }
 }

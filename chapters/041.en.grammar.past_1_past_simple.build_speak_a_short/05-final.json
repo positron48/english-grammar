@@ -60,21 +60,6 @@
       }
     },
     {
-      "id": "b2_quiz_after_story_structure",
-      "type": "quiz_inline",
-      "title": "Проверка: структура рассказа",
-      "quiz_inline": {
-        "question_ids": [
-          "q1",
-          "q2",
-          "q3",
-          "q5",
-          "q6"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b2_theory_time_sequence",
       "type": "theory",
       "title": "Чтобы история звучала связно, используйте маркеры времени и последовательности: *yesterday, then, after that, later, finally, one day*.",
@@ -103,21 +88,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b4_quiz_after_time_sequence",
-      "type": "quiz_inline",
-      "title": "Проверка: маркеры последовательности",
-      "quiz_inline": {
-        "question_ids": [
-          "q11",
-          "q12",
-          "q14",
-          "q16",
-          "q17"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -152,21 +122,6 @@
       }
     },
     {
-      "id": "b6_quiz_after_past_simple_accuracy",
-      "type": "quiz_inline",
-      "title": "Проверка: точность Past Simple",
-      "quiz_inline": {
-        "question_ids": [
-          "q21",
-          "q22",
-          "q24",
-          "q25",
-          "q30"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b4_theory_story_variety",
       "type": "theory",
       "title": "Чтобы рассказ звучал естественно, чередуйте типы предложений: утверждения, отрицания и вопросы.",
@@ -195,21 +150,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b8_quiz_after_story_variety",
-      "type": "quiz_inline",
-      "title": "Проверка: разнообразие предложений",
-      "quiz_inline": {
-        "question_ids": [
-          "q31",
-          "q32",
-          "q33",
-          "q36",
-          "q38"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -1258,24 +1198,44 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
       "q4",
+      "q5",
+      "q6",
       "q7",
       "q8",
       "q9",
       "q10",
+      "q11",
+      "q12",
       "q13",
+      "q14",
       "q15",
+      "q16",
+      "q17",
       "q18",
       "q19",
       "q20",
+      "q21",
+      "q22",
       "q23",
+      "q24",
+      "q25",
       "q26",
       "q27",
       "q28",
       "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
       "q34",
       "q35",
+      "q36",
       "q37",
+      "q38",
       "q39",
       "q40",
       "q41",
@@ -1312,7 +1272,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T09:41:57Z",
+    "updated_at": "2026-01-20T12:47:38Z",
     "source": "llm"
   }
 }

@@ -76,22 +76,6 @@
       }
     },
     {
-      "id": "b2_quiz_after_word_order_basics",
-      "type": "quiz_inline",
-      "title": "Проверка: основы порядка слов",
-      "quiz_inline": {
-        "question_ids": [
-          "q1",
-          "q2",
-          "q3",
-          "q4",
-          "q5",
-          "q6"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b2_theory_subject_position",
       "type": "theory",
       "title": "Подлежащее в вопросах всегда находится между вспомогательным глаголом и смысловым глаголом. Это ключевое правило, которое нельзя нарушать.",
@@ -140,21 +124,6 @@
       }
     },
     {
-      "id": "b4_quiz_after_subject_position",
-      "type": "quiz_inline",
-      "title": "Проверка: позиция подлежащего",
-      "quiz_inline": {
-        "question_ids": [
-          "q15",
-          "q16",
-          "q17",
-          "q18",
-          "q20"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b3_theory_yes_no_vs_wh",
       "type": "theory",
       "title": "Порядок слов различается в общих вопросах (Yes/No questions) и специальных вопросах (Wh-questions), но подлежащее всегда остается на одной и той же позиции.",
@@ -200,22 +169,6 @@
       }
     },
     {
-      "id": "b6_quiz_after_yes_no_vs_wh",
-      "type": "quiz_inline",
-      "title": "Проверка: общие и специальные вопросы",
-      "quiz_inline": {
-        "question_ids": [
-          "q29",
-          "q30",
-          "q31",
-          "q32",
-          "q33",
-          "q34"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b4_theory_common_mistakes",
       "type": "theory",
       "title": "При построении вопросов русскоязычные студенты часто совершают ошибки, связанные с порядком слов. Самая частая ошибка — использовать порядок слов из утверждения в вопросе.",
@@ -246,20 +199,6 @@
           }
         ],
         "examples": []
-      }
-    },
-    {
-      "id": "b8_quiz_after_common_mistakes",
-      "type": "quiz_inline",
-      "title": "Проверка: типичные ошибки",
-      "quiz_inline": {
-        "question_ids": [
-          "q43",
-          "q44",
-          "q45",
-          "q46"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -1591,6 +1530,12 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
+      "q6",
       "q8",
       "q9",
       "q10",
@@ -1598,6 +1543,11 @@
       "q12",
       "q13",
       "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q20",
       "q21",
       "q22",
       "q23",
@@ -1605,6 +1555,12 @@
       "q25",
       "q27",
       "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
       "q35",
       "q36",
       "q37",
@@ -1613,6 +1569,10 @@
       "q40",
       "q41",
       "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
       "q51",
       "q52",
       "q53",
@@ -1646,7 +1606,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T09:41:56Z",
+    "updated_at": "2026-01-20T12:47:29Z",
     "source": "llm"
   }
 }

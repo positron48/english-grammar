@@ -57,21 +57,6 @@
       }
     },
     {
-      "id": "b2_quiz_after_mustnt",
-      "type": "quiz_inline",
-      "title": "Quick check: запрет",
-      "quiz_inline": {
-        "question_ids": [
-          "q1",
-          "q2",
-          "q3",
-          "q4",
-          "q5"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b2_theory_dont_have_to",
       "type": "theory",
       "title": "Don’t have to означает отсутствие необходимости: действие можно не делать, потому что это не важно сейчас. Это мягкая, освобождающая форма.",
@@ -98,21 +83,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b4_quiz_after_no_necessity",
-      "type": "quiz_inline",
-      "title": "Quick check: нет необходимости",
-      "quiz_inline": {
-        "question_ids": [
-          "q13",
-          "q14",
-          "q15",
-          "q16",
-          "q17"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -145,21 +115,6 @@
       }
     },
     {
-      "id": "b6_quiz_after_questions",
-      "type": "quiz_inline",
-      "title": "Quick check: вопросы",
-      "quiz_inline": {
-        "question_ids": [
-          "q25",
-          "q26",
-          "q27",
-          "q28",
-          "q29"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b4_theory_contrast_examples",
       "type": "theory",
       "title": "Сравнение помогает выбирать: mustn’t когда запрещено, don’t have to когда можно, но не обязано.",
@@ -186,21 +141,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b8_quiz_after_contrast",
-      "type": "quiz_inline",
-      "title": "Quick check: контраст",
-      "quiz_inline": {
-        "question_ids": [
-          "q37",
-          "q38",
-          "q39",
-          "q40",
-          "q41"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -1138,6 +1078,11 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
       "q6",
       "q7",
       "q8",
@@ -1145,6 +1090,11 @@
       "q10",
       "q11",
       "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
       "q18",
       "q19",
       "q20",
@@ -1152,6 +1102,11 @@
       "q22",
       "q23",
       "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
       "q30",
       "q31",
       "q32",
@@ -1159,6 +1114,11 @@
       "q34",
       "q35",
       "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
       "q42",
       "q43",
       "q44",
@@ -1192,7 +1152,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T09:41:55Z",
+    "updated_at": "2026-01-20T12:47:24Z",
     "source": "llm"
   }
 }

@@ -105,16 +105,8 @@ if (isset($data['questions'])) {
     }
 }
 
-// Обновляем 04-inline-quizzes.json
-if (isset($data['quizzes'])) {
-    $quizzesFile = $chapterDir . '/04-inline-quizzes.json';
-    
-    if (file_put_contents($quizzesFile, json_encode_pretty_2spaces($data['quizzes'])) !== false) {
-        $updated[] = '04-inline-quizzes.json';
-    } else {
-        $errors[] = 'Failed to update 04-inline-quizzes.json';
-    }
-}
+// 04-inline-quizzes.json больше не используется - квизы генерируются автоматически
+// Inline quizzes теперь создаются динамически из первых 2 вопросов каждого theory блока
 
 // Обновляем 05-final.json (если предоставлен)
 if (isset($data['final'])) {

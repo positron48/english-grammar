@@ -156,35 +156,14 @@ run_step_3() {
     echo '{"questions": []}' > "$OUTPUT_FILE"
 }
 
-# Проход 4: Inline quizzes
+# Проход 4: Inline quizzes (теперь генерируются автоматически)
 run_step_4() {
-    echo "=== Проход 4: Генерация inline quizzes ==="
-    
-    OUTLINE_FILE="$CHAPTER_DIR/01-outline.json"
-    QUESTIONS_FILE="$CHAPTER_DIR/03-questions.json"
-    
-    if [ ! -f "$OUTLINE_FILE" ] || [ ! -f "$QUESTIONS_FILE" ]; then
-        echo "Ошибка: сначала выполните проходы 1 и 3"
-        exit 1
-    fi
-    
-    PROMPT_FILE="$PROJECT_ROOT/prompts/04-inline-quizzes.md"
-    OUTPUT_FILE="$CHAPTER_DIR/04-inline-quizzes.json"
-    
+    echo "=== Проход 4: Inline quizzes ==="
     echo ""
-    echo "Для генерации inline quizzes:"
-    echo "1. Используйте @$PROMPT_FILE"
-    echo "2. Используйте @$OUTLINE_FILE (план)"
-    echo "3. Используйте @$QUESTIONS_FILE (question_bank)"
+    echo "✓ Inline quizzes теперь генерируются автоматически при сборке финального файла"
+    echo "  Квизы создаются динамически из первых 2 вопросов каждого theory блока"
+    echo "  Файл 04-inline-quizzes.json больше не используется"
     echo ""
-    echo "Пример запроса в Cursor:"
-    echo "  @$PROMPT_FILE @$OUTLINE_FILE @$QUESTIONS_FILE"
-    echo "  Используй промпт из prompts/04-inline-quizzes.md"
-    echo "  Используй план из $OUTLINE_FILE и question_bank из $QUESTIONS_FILE"
-    echo "  Сгенерируй inline_quizzes. Сохрани в $OUTPUT_FILE"
-    echo ""
-    
-    echo '{"inline_quizzes": []}' > "$OUTPUT_FILE"
 }
 
 # Проход 5: Сборка финального JSON и валидация
@@ -193,10 +172,9 @@ run_step_5() {
     
     OUTLINE_FILE="$CHAPTER_DIR/01-outline.json"
     QUESTIONS_FILE="$CHAPTER_DIR/03-questions.json"
-    INLINE_QUIZZES_FILE="$CHAPTER_DIR/04-inline-quizzes.json"
     
-    if [ ! -f "$OUTLINE_FILE" ] || [ ! -f "$QUESTIONS_FILE" ] || [ ! -f "$INLINE_QUIZZES_FILE" ]; then
-        echo "Ошибка: сначала выполните проходы 1, 3 и 4"
+    if [ ! -f "$OUTLINE_FILE" ] || [ ! -f "$QUESTIONS_FILE" ]; then
+        echo "Ошибка: сначала выполните проходы 1 и 3"
         exit 1
     fi
     

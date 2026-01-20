@@ -60,21 +60,6 @@
       }
     },
     {
-      "id": "b2_quiz_after_parallel_concept",
-      "type": "quiz_inline",
-      "title": "Проверка: параллельные действия",
-      "quiz_inline": {
-        "question_ids": [
-          "q1",
-          "q2",
-          "q3",
-          "q5",
-          "q6"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b2_theory_while_two_processes",
       "type": "theory",
       "title": "Типичная структура для параллельных действий:",
@@ -103,21 +88,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b4_quiz_after_while_two_processes",
-      "type": "quiz_inline",
-      "title": "Проверка: while + два процесса",
-      "quiz_inline": {
-        "question_ids": [
-          "q11",
-          "q12",
-          "q14",
-          "q16",
-          "q17"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -152,21 +122,6 @@
       }
     },
     {
-      "id": "b6_quiz_after_timeline",
-      "type": "quiz_inline",
-      "title": "Проверка: одна линия времени",
-      "quiz_inline": {
-        "question_ids": [
-          "q21",
-          "q22",
-          "q24",
-          "q26",
-          "q27"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b4_theory_variations",
       "type": "theory",
       "title": "Можно менять порядок частей и использовать as вместо while, если хотите подчеркнуть одновременность.",
@@ -195,21 +150,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b8_quiz_after_variations",
-      "type": "quiz_inline",
-      "title": "Проверка: вариации формулировок",
-      "quiz_inline": {
-        "question_ids": [
-          "q31",
-          "q32",
-          "q34",
-          "q36",
-          "q37"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -1252,23 +1192,43 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
       "q4",
+      "q5",
+      "q6",
       "q7",
       "q8",
       "q9",
       "q10",
+      "q11",
+      "q12",
       "q13",
+      "q14",
       "q15",
+      "q16",
+      "q17",
       "q18",
       "q19",
       "q20",
+      "q21",
+      "q22",
       "q23",
+      "q24",
       "q25",
+      "q26",
+      "q27",
       "q28",
       "q29",
       "q30",
+      "q31",
+      "q32",
       "q33",
+      "q34",
       "q35",
+      "q36",
+      "q37",
       "q38",
       "q39",
       "q40",
@@ -1306,7 +1266,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T09:41:58Z",
+    "updated_at": "2026-01-20T12:47:37Z",
     "source": "llm"
   }
 }

@@ -29,7 +29,6 @@ SCHEMA_FILE="$PROJECT_ROOT/02-chapter-schema.json"
 # Проверяем наличие необходимых файлов
 OUTLINE_FILE="$CHAPTER_DIR/01-outline.json"
 QUESTIONS_FILE="$CHAPTER_DIR/03-questions.json"
-INLINE_QUIZZES_FILE="$CHAPTER_DIR/04-inline-quizzes.json"
 
 if [ ! -f "$OUTLINE_FILE" ]; then
     echo "Ошибка: не найден $OUTLINE_FILE"
@@ -69,23 +68,15 @@ OUTLINE_JSON=$(cat "$OUTLINE_FILE")
 # Читаем theory_blocks
 THEORY_BLOCKS_JSON=$(cat "$TEMP_DIR/theory_blocks.json")
 
-# Формируем blocks: theory + inline_quizzes
-# Сначала добавляем theory_blocks, затем inline_quizzes между ними
-if [ -f "$INLINE_QUIZZES_FILE" ]; then
-    INLINE_QUIZZES_JSON=$(jq '.inline_quizzes' "$INLINE_QUIZZES_FILE")
-else
-    INLINE_QUIZZES_JSON='[]'
-    echo "⚠️  Предупреждение: не найден $INLINE_QUIZZES_FILE"
-fi
-
-# Собираем blocks: theory_blocks и inline_quizzes чередуются по order
-jq -s --argjson inline_quizzes "$INLINE_QUIZZES_JSON" '
+# Формируем blocks: theory + inline_quizzes (динамически из вопросов)
+# Для каждого theory блока создаем quiz_inline с первыми 2 вопросами
+jq -s '
   .[0] as $outline |
   .[1] as $theory_blocks |
-  (if $inline_quizzes then $inline_quizzes else [] end) as $inline_quizzes_array |
+  .[2] as $questions |
   
-  # Создаем мапу inline_quizzes по theory_block_id (фильтруем null значения)
-  (if ($inline_quizzes_array | length) > 0 then ($inline_quizzes_array | map(select(.theory_block_id != null)) | map({(.theory_block_id): .}) | add) else {} end) as $quizzes_map |
+  # Получаем все вопросы
+  (if $questions.questions then $questions.questions else [] end) as $all_questions |
   
   # Формируем blocks
   # $theory_blocks уже содержит массив theory_block объектов (после map(.theory_block))
@@ -102,23 +93,42 @@ jq -s --argjson inline_quizzes "$INLINE_QUIZZES_JSON" '
     }
   }) as $theory_blocks_formatted |
   
-  # Добавляем inline_quizzes после соответствующих theory_blocks
-  reduce range(0; $theory_blocks_formatted | length) as $i (
+  # Добавляем inline_quizzes после каждого theory блока
+  # Берем первые 2 вопроса для каждого theory_block_id
+  (reduce range(0; $theory_blocks_formatted | length) as $i (
     [];
     . + [$theory_blocks_formatted[$i]] +
-    (if $quizzes_map[$theory_blocks_formatted[$i].id] then
-      [{
-        id: $quizzes_map[$theory_blocks_formatted[$i].id].block_id,
-        type: "quiz_inline",
-        title: (if $quizzes_map[$theory_blocks_formatted[$i].id].title then $quizzes_map[$theory_blocks_formatted[$i].id].title else "Quick check" end),
-        quiz_inline: {
-          question_ids: $quizzes_map[$theory_blocks_formatted[$i].id].question_ids,
-          show_answers_immediately: (if $quizzes_map[$theory_blocks_formatted[$i].id].show_answers_immediately != null then $quizzes_map[$theory_blocks_formatted[$i].id].show_answers_immediately else true end)
-        }
-      }]
-    else [] end)
-  )
-' "$OUTLINE_FILE" "$TEMP_DIR/theory_blocks.json" > "$TEMP_DIR/blocks.json"
+    # Находим вопросы для этого theory блока и берем первые 2
+    (($all_questions | map(select(.theory_block_id == $theory_blocks_formatted[$i].id)) | .[0:2] | map(.id)) as $quiz_question_ids |
+     if ($quiz_question_ids | length) > 0 then
+       # Формируем ID для quiz блока: b{N+1}_quiz_after_{suffix}
+       # Извлекаем номер и суффикс из theory блока
+       (($theory_blocks_formatted[$i].id | capture("^b(?<num>[0-9]+)_theory_(?<suffix>.*)$")) as $match |
+        if $match then
+          [{
+            id: "b\($match.num | tonumber + 1)_quiz_after_\($match.suffix)",
+            type: "quiz_inline",
+            title: "Проверка знаний",
+            quiz_inline: {
+              question_ids: $quiz_question_ids,
+              show_answers_immediately: true
+            }
+          }]
+        else
+          # Fallback: если формат не совпадает, используем простой формат
+          [{
+            id: "b\($i + 1)_quiz_after_block",
+            type: "quiz_inline",
+            title: "Проверка знаний",
+            quiz_inline: {
+              question_ids: $quiz_question_ids,
+              show_answers_immediately: true
+            }
+          }]
+        end)
+     else [] end)
+  ))
+' "$OUTLINE_FILE" "$TEMP_DIR/theory_blocks.json" "$QUESTIONS_FILE" > "$TEMP_DIR/blocks.json"
 
 # Сохраняем старый updated_at, если файл существует
 OLD_UPDATED_AT=""
@@ -127,11 +137,20 @@ if [ -f "$FINAL_FILE" ]; then
 fi
 
 # Собираем новый финальный JSON во временный файл
-jq -s --argjson inline_quizzes "$INLINE_QUIZZES_JSON" '
+# Исключаем первые 2 вопроса каждого theory блока из финального теста
+jq -s '
   .[0].chapter_outline as $outline |
   .[1] as $blocks |
   .[2] as $questions |
-  (if ($inline_quizzes | length) > 0 then ($inline_quizzes | map(.question_ids) | add) else [] end) as $quiz_qids |
+  .[3] as $theory_blocks |
+  
+  # Получаем все вопросы
+  (if $questions.questions then $questions.questions else [] end) as $all_questions |
+  
+  # Находим ID первых 2 вопросов для каждого theory блока
+  ($theory_blocks | map(.id) | map(. as $block_id |
+    ($all_questions | map(select(.theory_block_id == $block_id)) | .[0:2] | map(.id))
+  ) | add) as $excluded_question_ids |
   
   {
     schema_version: "1.0.0",
@@ -150,11 +169,11 @@ jq -s --argjson inline_quizzes "$INLINE_QUIZZES_JSON" '
     estimated_minutes: (if $outline.estimated_minutes then $outline.estimated_minutes else 30 end),
     blocks: $blocks,
     question_bank: {
-      questions: (if $questions.questions then $questions.questions else [] end)
+      questions: $all_questions
     },
     chapter_test: {
       num_questions: 10,
-      pool_question_ids: ((if $questions.questions then $questions.questions else [] end) | map(.id) | map(select(. as $id | ($quiz_qids | index($id) | not)))),
+      pool_question_ids: ($all_questions | map(.id) | map(select(. as $id | ($excluded_question_ids | index($id) | not)))),
       selection_strategy: {
         type: "stratified_by_theory_block",
         min_per_theory_block: 1,
@@ -172,7 +191,7 @@ jq -s --argjson inline_quizzes "$INLINE_QUIZZES_JSON" '
       source: "llm"
     }
   }
-' "$OUTLINE_FILE" "$TEMP_DIR/blocks.json" "$QUESTIONS_FILE" > "$TEMP_DIR/new_final.json"
+' "$OUTLINE_FILE" "$TEMP_DIR/blocks.json" "$QUESTIONS_FILE" "$TEMP_DIR/theory_blocks.json" > "$TEMP_DIR/new_final.json"
 
 # Проверяем, были ли изменения (сравниваем JSON, исключая meta.updated_at)
 if [ -f "$FINAL_FILE" ] && [ -n "$OLD_UPDATED_AT" ]; then

@@ -62,21 +62,6 @@
       }
     },
     {
-      "id": "b2_quiz_after_didnt_form",
-      "type": "quiz_inline",
-      "title": "Проверка: форма отрицания с didn't",
-      "quiz_inline": {
-        "question_ids": [
-          "q1",
-          "q2",
-          "q4",
-          "q7",
-          "q12"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b2_theory_base_verb_after_didnt",
       "type": "theory",
       "title": "После didn't основной глагол всегда стоит в базовой форме V1. Прошедшее время уже выражено вспомогательным did, поэтому форма V2 не нужна.",
@@ -114,21 +99,6 @@
       }
     },
     {
-      "id": "b4_quiz_after_base_verb_after_didnt",
-      "type": "quiz_inline",
-      "title": "Проверка: глагол после didn't",
-      "quiz_inline": {
-        "question_ids": [
-          "q13",
-          "q14",
-          "q17",
-          "q20",
-          "q23"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b3_theory_word_order_negatives",
       "type": "theory",
       "title": "Порядок слов в отрицании Past Simple фиксированный: Subject + didn't + V1 + объект/обстоятельства. Частица not уже включена в didn't, поэтому отдельно not не ставится.",
@@ -157,21 +127,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b6_quiz_after_word_order_negatives",
-      "type": "quiz_inline",
-      "title": "Проверка: порядок слов в отрицании",
-      "quiz_inline": {
-        "question_ids": [
-          "q25",
-          "q26",
-          "q28",
-          "q30",
-          "q31"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -205,21 +160,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b8_quiz_after_short_answers_didnt",
-      "type": "quiz_inline",
-      "title": "Проверка: краткие отрицательные ответы",
-      "quiz_inline": {
-        "question_ids": [
-          "q37",
-          "q38",
-          "q41",
-          "q44",
-          "q46"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -1314,32 +1254,52 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
+      "q4",
       "q5",
       "q6",
+      "q7",
       "q8",
       "q9",
       "q10",
       "q11",
+      "q12",
+      "q13",
+      "q14",
       "q15",
       "q16",
+      "q17",
       "q18",
       "q19",
+      "q20",
       "q21",
       "q22",
+      "q23",
       "q24",
+      "q25",
+      "q26",
       "q27",
+      "q28",
       "q29",
+      "q30",
+      "q31",
       "q32",
       "q33",
       "q34",
       "q35",
       "q36",
+      "q37",
+      "q38",
       "q39",
       "q40",
+      "q41",
       "q42",
       "q43",
+      "q44",
       "q45",
+      "q46",
       "q47",
       "q48",
       "q49",
@@ -1368,7 +1328,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T09:41:57Z",
+    "updated_at": "2026-01-20T12:47:23Z",
     "source": "llm"
   }
 }

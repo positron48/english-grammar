@@ -73,21 +73,6 @@
       }
     },
     {
-      "id": "b2_quiz_after_morning_routine",
-      "type": "quiz_inline",
-      "title": "Проверка: описание утренней рутины",
-      "quiz_inline": {
-        "question_ids": [
-          "q1",
-          "q2",
-          "q3",
-          "q4",
-          "q5"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b2_theory_describing_daily_activities",
       "type": "theory",
       "title": "Описание повседневных занятий включает основные действия, которые вы делаете в течение дня: работа, учеба, отдых, спорт.",
@@ -129,21 +114,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b4_quiz_after_daily_activities",
-      "type": "quiz_inline",
-      "title": "Проверка: описание повседневных занятий",
-      "quiz_inline": {
-        "question_ids": [
-          "q15",
-          "q16",
-          "q17",
-          "q18",
-          "q19"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -191,20 +161,6 @@
       }
     },
     {
-      "id": "b6_quiz_after_frequency_adverbs",
-      "type": "quiz_inline",
-      "title": "Проверка: использование наречий частоты",
-      "quiz_inline": {
-        "question_ids": [
-          "q29",
-          "q31",
-          "q32",
-          "q33"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b4_theory_asking_about_routine",
       "type": "theory",
       "title": "Вопросы о рутине позволяют узнать о распорядке дня и привычках собеседника. Используйте вопросы с do/does для Present Simple.",
@@ -246,21 +202,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b8_quiz_after_asking_about_routine",
-      "type": "quiz_inline",
-      "title": "Проверка: вопросы о рутине",
-      "quiz_inline": {
-        "question_ids": [
-          "q43",
-          "q44",
-          "q45",
-          "q46",
-          "q47"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -1740,6 +1681,11 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "q5",
       "q6",
       "q7",
       "q8",
@@ -1749,6 +1695,11 @@
       "q12",
       "q13",
       "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
       "q20",
       "q21",
       "q23",
@@ -1757,6 +1708,10 @@
       "q26",
       "q27",
       "q28",
+      "q29",
+      "q31",
+      "q32",
+      "q33",
       "q34",
       "q35",
       "q36",
@@ -1766,6 +1721,11 @@
       "q40",
       "q41",
       "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
       "q48",
       "q49",
       "q50",
@@ -1803,7 +1763,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T09:41:55Z",
+    "updated_at": "2026-01-20T12:47:29Z",
     "source": "llm"
   }
 }

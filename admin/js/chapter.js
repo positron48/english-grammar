@@ -34,10 +34,10 @@ async function loadChapter() {
     
     try {
         // Загружаем все файлы главы
-        const [outline, questions, quizzes, final, validation] = await Promise.all([
+        // 04-inline-quizzes.json больше не используется - квизы генерируются автоматически
+        const [outline, questions, final, validation] = await Promise.all([
             fetch(`${basePath}01-outline.json`).then(r => r.ok ? r.json() : null).catch(() => null),
             fetch(`${basePath}03-questions.json`).then(r => r.ok ? r.json() : null).catch(() => null),
-            fetch(`${basePath}04-inline-quizzes.json`).then(r => r.ok ? r.json() : null).catch(() => null),
             fetch(`${basePath}05-final.json`).then(r => r.ok ? r.json() : null).catch(() => null),
             fetch(`${basePath}05-validation.json`).then(r => r.ok ? r.json() : null).catch(() => null)
         ]);
@@ -46,7 +46,6 @@ async function loadChapter() {
             id: chapterId,
             outline,
             questions,
-            quizzes,
             final,
             validation
         };
@@ -418,23 +417,22 @@ function renderQuestionItem(q) {
 }
 
 function renderQuizzes() {
-    const quizzes = chapterData.quizzes?.inline_quizzes || [];
     const final = chapterData.final;
     
-    // Также проверяем блоки quiz_inline в final
+    // Квизы теперь генерируются автоматически из final.blocks
     const inlineQuizzes = final?.blocks?.filter(b => b.type === 'quiz_inline') || [];
     
-    if (quizzes.length === 0 && inlineQuizzes.length === 0) {
-        document.getElementById('quizzesContent').innerHTML = '<p>Инлайн-квизы не найдены</p>';
+    if (inlineQuizzes.length === 0) {
+        document.getElementById('quizzesContent').innerHTML = '<p>Инлайн-квизы не найдены (генерируются автоматически из первых 2 вопросов каждого theory блока)</p>';
         return;
     }
 
-    const allQuizzes = [...quizzes, ...inlineQuizzes.map(q => ({
+    const allQuizzes = inlineQuizzes.map(q => ({
         block_id: q.id,
         title: q.title,
         question_ids: q.quiz_inline?.question_ids || [],
         show_answers_immediately: q.quiz_inline?.show_answers_immediately
-    }))];
+    }));
 
     let html = allQuizzes.map(quiz => {
         return `
@@ -605,28 +603,7 @@ async function updateChapterFiles() {
     
     // Подготовка данных для отправки
     const questionsData = chapterData.questions?.questions || chapterData.final?.question_bank?.questions || [];
-    const quizzesData = {
-        inline_quizzes: chapterData.quizzes?.inline_quizzes || []
-    };
-
-    // Обновляем inline_quizzes из final.blocks если нужно
-    if (chapterData.final && Array.isArray(chapterData.final.blocks)) {
-        const inlineQuizzesFromBlocks = chapterData.final.blocks
-            .filter(block => block.type === 'quiz_inline')
-            .map(block => ({
-                block_id: block.id,
-                theory_block_id: block.theory_block_id || null,
-                title: block.title || 'Quick check',
-                question_ids: block.quiz_inline?.question_ids || [],
-                show_answers_immediately: block.quiz_inline?.show_answers_immediately !== undefined 
-                    ? block.quiz_inline.show_answers_immediately 
-                    : true
-            }));
-        
-        if (inlineQuizzesFromBlocks.length > 0) {
-            quizzesData.inline_quizzes = inlineQuizzesFromBlocks;
-        }
-    }
+    // 04-inline-quizzes.json больше не используется - квизы генерируются автоматически
 
     // Подготавливаем обновленный final.json (если есть)
     let finalData = null;
@@ -653,8 +630,7 @@ async function updateChapterFiles() {
     // Формируем данные для отправки
     const updateData = {
         chapter_id: chapterId,
-        questions: questionsData,
-        quizzes: quizzesData
+        questions: questionsData
     };
     
     if (finalData) {
@@ -752,7 +728,7 @@ function showNotification(message, type = 'info') {
 
 // Удаление вопроса (глобальная функция для доступа из HTML)
 window.deleteQuestion = function(questionId) {
-    if (!confirm(`Вы уверены, что хотите удалить вопрос "${questionId}"?\n\nВопрос будет удален из:\n- 03-questions.json\n- Всех inline-quizzes (04-inline-quizzes.json)\n- 05-final.json (если доступен)\n\nФайлы будут обновлены автоматически на сервере.`)) {
+    if (!confirm(`Вы уверены, что хотите удалить вопрос "${questionId}"?\n\nВопрос будет удален из:\n- 03-questions.json\n- 05-final.json (если доступен)\n\nInline-квизы генерируются автоматически, поэтому будут обновлены при следующей пересборке.\n\nФайлы будут обновлены автоматически на сервере.`)) {
         return;
     }
 
@@ -764,15 +740,7 @@ window.deleteQuestion = function(questionId) {
         chapterData.final.question_bank.questions = chapterData.final.question_bank.questions.filter(q => q.id !== questionId);
     }
 
-    // Удаляем ID вопроса из всех inline-quizzes
-    if (chapterData.quizzes && Array.isArray(chapterData.quizzes.inline_quizzes)) {
-        chapterData.quizzes.inline_quizzes.forEach(quiz => {
-            if (Array.isArray(quiz.question_ids)) {
-                quiz.question_ids = quiz.question_ids.filter(id => id !== questionId);
-            }
-        });
-    }
-
+    // Inline-квизы генерируются автоматически, поэтому при пересборке они обновятся автоматически
     // Удаляем ID вопроса из quiz_inline блоков в final
     if (chapterData.final && Array.isArray(chapterData.final.blocks)) {
         chapterData.final.blocks.forEach(block => {
