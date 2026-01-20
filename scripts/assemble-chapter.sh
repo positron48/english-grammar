@@ -127,10 +127,11 @@ if [ -f "$FINAL_FILE" ]; then
 fi
 
 # Собираем новый финальный JSON во временный файл
-jq -s '
+jq -s --argjson inline_quizzes "$INLINE_QUIZZES_JSON" '
   .[0].chapter_outline as $outline |
   .[1] as $blocks |
   .[2] as $questions |
+  (if ($inline_quizzes | length) > 0 then ($inline_quizzes | map(.question_ids) | add) else [] end) as $quiz_qids |
   
   {
     schema_version: "1.0.0",
@@ -153,7 +154,7 @@ jq -s '
     },
     chapter_test: {
       num_questions: 10,
-      pool_question_ids: ((if $questions.questions then $questions.questions else [] end) | map(.id)),
+      pool_question_ids: ((if $questions.questions then $questions.questions else [] end) | map(.id) | map(select(. as $id | ($quiz_qids | index($id) | not)))),
       selection_strategy: {
         type: "stratified_by_theory_block",
         min_per_theory_block: 1,
