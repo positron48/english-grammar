@@ -47,22 +47,6 @@
       }
     },
     {
-      "id": "b2_quiz_after_much",
-      "type": "quiz_inline",
-      "title": "Проверка: much",
-      "quiz_inline": {
-        "question_ids": [
-          "q1",
-          "q2",
-          "q3",
-          "q4",
-          "q5",
-          "q6"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b2_theory_countable_uncountable_difference",
       "type": "theory",
       "title": "Чтобы правильно использовать how many и how much, нужно понимать разницу между счетными и несчетными существительными.",
@@ -93,21 +77,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b4_quiz_after_difference",
-      "type": "quiz_inline",
-      "title": "Проверка: difference",
-      "quiz_inline": {
-        "question_ids": [
-          "q11",
-          "q12",
-          "q14",
-          "q15",
-          "q16"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -149,22 +118,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b6_quiz_after_countable",
-      "type": "quiz_inline",
-      "title": "Проверка: countable",
-      "quiz_inline": {
-        "question_ids": [
-          "q21",
-          "q22",
-          "q23",
-          "q24",
-          "q25",
-          "q26"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -210,22 +163,6 @@
       }
     },
     {
-      "id": "b8_quiz_after_uncountable",
-      "type": "quiz_inline",
-      "title": "Проверка: uncountable",
-      "quiz_inline": {
-        "question_ids": [
-          "q31",
-          "q32",
-          "q33",
-          "q34",
-          "q35",
-          "q36"
-        ],
-        "show_answers_immediately": true
-      }
-    },
-    {
       "id": "b5_theory_question_structure_answers",
       "type": "theory",
       "title": "Вопросы с How many и How much следуют стандартной структуре английских вопросов. После вопросительного слова идет подлежащее и сказуемое в нужном порядке (с вспомогательным глаголом, если нужен).",
@@ -258,22 +195,6 @@
             ]
           }
         ]
-      }
-    },
-    {
-      "id": "b10_quiz_after_answers",
-      "type": "quiz_inline",
-      "title": "Проверка: answers",
-      "quiz_inline": {
-        "question_ids": [
-          "q41",
-          "q42",
-          "q43",
-          "q44",
-          "q45",
-          "q46"
-        ],
-        "show_answers_immediately": true
       }
     },
     {
@@ -487,19 +408,6 @@
         "id": "q6"
       },
       {
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b1_theory_introduction_how_many_much",
-        "difficulty": 2,
-        "correct_answer": "How many books do you have?",
-        "explanation": "Правильный порядок: How many + существительное (мн.ч.) + глагол + подлежащее. How many books do you have?",
-        "tags": [
-          "reorder",
-          "how_many"
-        ],
-        "id": "q7"
-      },
-      {
         "type": "mcq_single",
         "prompt": "Заполните пропуск: \"___ money do you have?\" (сколько - с несчетными)",
         "theory_block_id": "b1_theory_introduction_how_many_much",
@@ -559,19 +467,6 @@
         "id": "q9"
       },
       {
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b1_theory_introduction_how_many_much",
-        "difficulty": 2,
-        "correct_answer": "How much water is there?",
-        "explanation": "Правильный порядок: How much + существительное (ед.ч.) + глагол + подлежащее. How much water is there?",
-        "tags": [
-          "reorder",
-          "how_much"
-        ],
-        "id": "q10"
-      },
-      {
         "type": "mcq_single",
         "prompt": "Что такое счетные существительные?",
         "theory_block_id": "b2_theory_countable_uncountable_difference",
@@ -628,18 +523,6 @@
           "uncountable"
         ],
         "id": "q12"
-      },
-      {
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I need some ___.\" (вода)",
-        "theory_block_id": "b2_theory_countable_uncountable_difference",
-        "difficulty": 1,
-        "correct_answer": "water",
-        "explanation": "Water — несчетное существительное в единственном числе: I need some water.",
-        "tags": [
-          "uncountable"
-        ],
-        "id": "q14"
       },
       {
         "type": "mcq_single",
@@ -730,19 +613,6 @@
         "id": "q17"
       },
       {
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b2_theory_countable_uncountable_difference",
-        "difficulty": 2,
-        "correct_answer": "Books are countable nouns.",
-        "explanation": "Правильный порядок: Books are countable nouns. Books — счетное существительное.",
-        "tags": [
-          "reorder",
-          "countable"
-        ],
-        "id": "q18"
-      },
-      {
         "type": "mcq_single",
         "prompt": "Можно ли сказать \"one water, two waters\"?",
         "theory_block_id": "b2_theory_countable_uncountable_difference",
@@ -801,360 +671,6 @@
         "id": "q20"
       },
       {
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (книги)",
-        "theory_block_id": "b3_theory_how_many_with_countable",
-        "difficulty": 1,
-        "correct_answer": "books",
-        "explanation": "How many используется со счетными существительными во множественном числе: How many books do you have?",
-        "tags": [
-          "how_many",
-          "countable"
-        ],
-        "id": "q21"
-      },
-      {
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (яблоки)",
-        "theory_block_id": "b3_theory_how_many_with_countable",
-        "difficulty": 1,
-        "correct_answer": "apples",
-        "explanation": "How many используется со счетными существительными во множественном числе: How many apples do you have?",
-        "tags": [
-          "how_many",
-          "countable"
-        ],
-        "id": "q22"
-      },
-      {
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (студенты)",
-        "theory_block_id": "b3_theory_how_many_with_countable",
-        "difficulty": 1,
-        "correct_answer": "students",
-        "explanation": "How many используется со счетными существительными во множественном числе: How many students do you have?",
-        "tags": [
-          "how_many",
-          "countable"
-        ],
-        "id": "q23"
-      },
-      {
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (стулья)",
-        "theory_block_id": "b3_theory_how_many_with_countable",
-        "difficulty": 1,
-        "correct_answer": "chairs",
-        "explanation": "How many используется со счетными существительными во множественном числе: How many chairs do you have?",
-        "tags": [
-          "how_many",
-          "countable"
-        ],
-        "id": "q24"
-      },
-      {
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (ручки)",
-        "theory_block_id": "b3_theory_how_many_with_countable",
-        "difficulty": 1,
-        "correct_answer": "pens",
-        "explanation": "How many используется со счетными существительными во множественном числе: How many pens do you have?",
-        "tags": [
-          "how_many",
-          "countable"
-        ],
-        "id": "q25"
-      },
-      {
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (машины)",
-        "theory_block_id": "b3_theory_how_many_with_countable",
-        "difficulty": 1,
-        "correct_answer": "cars",
-        "explanation": "How many используется со счетными существительными во множественном числе: How many cars do you have?",
-        "tags": [
-          "how_many",
-          "countable"
-        ],
-        "id": "q26"
-      },
-      {
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (дети)",
-        "theory_block_id": "b3_theory_how_many_with_countable",
-        "difficulty": 1,
-        "correct_answer": "children",
-        "explanation": "How many используется со счетными существительными во множественном числе: How many children do you have?",
-        "tags": [
-          "how_many",
-          "countable"
-        ],
-        "id": "q27"
-      },
-      {
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (яйца)",
-        "theory_block_id": "b3_theory_how_many_with_countable",
-        "difficulty": 1,
-        "correct_answer": "eggs",
-        "explanation": "How many используется со счетными существительными во множественном числе: How many eggs do you have?",
-        "tags": [
-          "how_many",
-          "countable"
-        ],
-        "id": "q28"
-      },
-      {
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (цветы)",
-        "theory_block_id": "b3_theory_how_many_with_countable",
-        "difficulty": 1,
-        "correct_answer": "flowers",
-        "explanation": "How many используется со счетными существительными во множественном числе: How many flowers do you have?",
-        "tags": [
-          "how_many",
-          "countable"
-        ],
-        "id": "q29"
-      },
-      {
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How many ___ do you have?\" (города)",
-        "theory_block_id": "b3_theory_how_many_with_countable",
-        "difficulty": 1,
-        "correct_answer": "cities",
-        "explanation": "How many используется со счетными существительными во множественном числе: How many cities do you have?",
-        "tags": [
-          "how_many",
-          "countable"
-        ],
-        "id": "q30"
-      },
-      {
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (вода)",
-        "theory_block_id": "b4_theory_how_much_with_uncountable",
-        "difficulty": 1,
-        "correct_answer": "water",
-        "explanation": "How much используется с несчетными существительными: How much water do you need?",
-        "tags": [
-          "how_much",
-          "uncountable"
-        ],
-        "id": "q31"
-      },
-      {
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (деньги)",
-        "theory_block_id": "b4_theory_how_much_with_uncountable",
-        "difficulty": 1,
-        "correct_answer": "money",
-        "explanation": "How much используется с несчетными существительными: How much money do you need?",
-        "tags": [
-          "how_much",
-          "uncountable"
-        ],
-        "id": "q32"
-      },
-      {
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (время)",
-        "theory_block_id": "b4_theory_how_much_with_uncountable",
-        "difficulty": 1,
-        "correct_answer": "time",
-        "explanation": "How much используется с несчетными существительными: How much time do you need?",
-        "tags": [
-          "how_much",
-          "uncountable"
-        ],
-        "id": "q33"
-      },
-      {
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (кофе)",
-        "theory_block_id": "b4_theory_how_much_with_uncountable",
-        "difficulty": 1,
-        "correct_answer": "coffee",
-        "explanation": "How much используется с несчетными существительными: How much coffee do you need?",
-        "tags": [
-          "how_much",
-          "uncountable"
-        ],
-        "id": "q34"
-      },
-      {
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (хлеб)",
-        "theory_block_id": "b4_theory_how_much_with_uncountable",
-        "difficulty": 1,
-        "correct_answer": "bread",
-        "explanation": "How much используется с несчетными существительными: How much bread do you need?",
-        "tags": [
-          "how_much",
-          "uncountable"
-        ],
-        "id": "q35"
-      },
-      {
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (молоко)",
-        "theory_block_id": "b4_theory_how_much_with_uncountable",
-        "difficulty": 1,
-        "correct_answer": "milk",
-        "explanation": "How much используется с несчетными существительными: How much milk do you need?",
-        "tags": [
-          "how_much",
-          "uncountable"
-        ],
-        "id": "q36"
-      },
-      {
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (сахар)",
-        "theory_block_id": "b4_theory_how_much_with_uncountable",
-        "difficulty": 1,
-        "correct_answer": "sugar",
-        "explanation": "How much используется с несчетными существительными: How much sugar do you need?",
-        "tags": [
-          "how_much",
-          "uncountable"
-        ],
-        "id": "q37"
-      },
-      {
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (информация)",
-        "theory_block_id": "b4_theory_how_much_with_uncountable",
-        "difficulty": 1,
-        "correct_answer": "information",
-        "explanation": "How much используется с несчетными существительными: How much information do you need?",
-        "tags": [
-          "how_much",
-          "uncountable"
-        ],
-        "id": "q38"
-      },
-      {
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (совет)",
-        "theory_block_id": "b4_theory_how_much_with_uncountable",
-        "difficulty": 1,
-        "correct_answer": "advice",
-        "explanation": "How much используется с несчетными существительными: How much advice do you need?",
-        "tags": [
-          "how_much",
-          "uncountable"
-        ],
-        "id": "q39"
-      },
-      {
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How much ___ do you need?\" (новости)",
-        "theory_block_id": "b4_theory_how_much_with_uncountable",
-        "difficulty": 1,
-        "correct_answer": "news",
-        "explanation": "How much используется с несчетными существительными: How much news do you need?",
-        "tags": [
-          "how_much",
-          "uncountable"
-        ],
-        "id": "q40"
-      },
-      {
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b5_theory_question_structure_answers",
-        "difficulty": 2,
-        "correct_answer": "How many students are there?",
-        "explanation": "Правильный порядок: How many + существительное + глагол + подлежащее. How many students are there?",
-        "tags": [
-          "reorder"
-        ],
-        "id": "q41"
-      },
-      {
-        "type": "mcq_single",
-        "prompt": "Какой ответ правильный на вопрос \"How many books?\"",
-        "theory_block_id": "b5_theory_question_structure_answers",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Five books.",
-            "feedback": "Правильно!"
-          },
-          {
-            "id": "b",
-            "text": "Much books.",
-            "feedback": "Нет"
-          },
-          {
-            "id": "c",
-            "text": "A lot book.",
-            "feedback": "Нет, students — множественное число, нужен are"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "На вопрос How many? отвечаем с числительным: Five books. или Five.",
-        "tags": [
-          "answers"
-        ],
-        "id": "q42"
-      },
-      {
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b5_theory_question_structure_answers",
-        "difficulty": 2,
-        "correct_answer": "How many students are there?",
-        "explanation": "Правильный порядок: How many + существительное + глагол + подлежащее. How many students are there?",
-        "tags": [
-          "reorder"
-        ],
-        "id": "q43"
-      },
-      {
-        "type": "mcq_single",
-        "prompt": "Какой ответ правильный на вопрос \"How many books?\"",
-        "theory_block_id": "b5_theory_question_structure_answers",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Five books.",
-            "feedback": "Правильно!"
-          },
-          {
-            "id": "b",
-            "text": "Much books.",
-            "feedback": "Нет"
-          },
-          {
-            "id": "c",
-            "text": "A lot book.",
-            "feedback": "Нет, apples — множественное число, нужен aren't"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "На вопрос How many? отвечаем с числительным: Five books. или Five.",
-        "tags": [
-          "answers"
-        ],
-        "id": "q44"
-      },
-      {
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b5_theory_question_structure_answers",
-        "difficulty": 2,
-        "correct_answer": "How many students are there?",
-        "explanation": "Правильный порядок: How many + существительное + глагол + подлежащее. How many students are there?",
-        "tags": [
-          "reorder"
-        ],
-        "id": "q45"
-      },
-      {
         "type": "mcq_single",
         "prompt": "Какой ответ правильный на вопрос \"How many books?\"",
         "theory_block_id": "b5_theory_question_structure_answers",
@@ -1182,88 +698,6 @@
           "answers"
         ],
         "id": "q46"
-      },
-      {
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b5_theory_question_structure_answers",
-        "difficulty": 2,
-        "correct_answer": "How many students are there?",
-        "explanation": "Правильный порядок: How many + существительное + глагол + подлежащее. How many students are there?",
-        "tags": [
-          "reorder"
-        ],
-        "id": "q47"
-      },
-      {
-        "type": "mcq_single",
-        "prompt": "Какой ответ правильный на вопрос \"How many books?\"",
-        "theory_block_id": "b5_theory_question_structure_answers",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Five books.",
-            "feedback": "Правильно!"
-          },
-          {
-            "id": "b",
-            "text": "Much books.",
-            "feedback": "Нет"
-          },
-          {
-            "id": "c",
-            "text": "A lot book.",
-            "feedback": "Нет, sugar — неисчисляемое, нужен isn't"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "На вопрос How many? отвечаем с числительным: Five books. или Five.",
-        "tags": [
-          "answers"
-        ],
-        "id": "q48"
-      },
-      {
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b5_theory_question_structure_answers",
-        "difficulty": 2,
-        "correct_answer": "How many students are there?",
-        "explanation": "Правильный порядок: How many + существительное + глагол + подлежащее. How many students are there?",
-        "tags": [
-          "reorder"
-        ],
-        "id": "q49"
-      },
-      {
-        "type": "mcq_single",
-        "prompt": "Какой ответ правильный на вопрос \"How many books?\"",
-        "theory_block_id": "b5_theory_question_structure_answers",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Five books.",
-            "feedback": "Правильно!"
-          },
-          {
-            "id": "b",
-            "text": "Much books.",
-            "feedback": "Нет"
-          },
-          {
-            "id": "c",
-            "text": "A lot book.",
-            "feedback": "Нет, students — множественное число, нужен aren't"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "На вопрос How many? отвечаем с числительным: Five books. или Five.",
-        "tags": [
-          "answers"
-        ],
-        "id": "q50"
       },
       {
         "type": "error_spotting",
@@ -1381,36 +815,406 @@
           "how_many",
           "plural"
         ]
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: How many ___ are in the box?",
+        "theory_block_id": "b3_theory_how_many_with_countable",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "apples"
+          },
+          {
+            "id": "b",
+            "text": "apple"
+          },
+          {
+            "id": "c",
+            "text": "juice"
+          },
+          {
+            "id": "d",
+            "text": "milk"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "How many is used with countable plural nouns. Apples is the plural form, so it matches the question. Juice and milk are uncountable, and apple is singular.",
+        "tags": []
+      },
+      {
+        "id": "q22",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"How many ___ do you need?\" (ticket)",
+        "theory_block_id": "b3_theory_how_many_with_countable",
+        "difficulty": 1,
+        "correct_answer": "tickets",
+        "explanation": "How many requires a countable plural noun. Ticket becomes tickets. This is the standard pattern for quantities of countable items.",
+        "tags": []
+      },
+      {
+        "id": "q23",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: How much ___ is left?",
+        "theory_block_id": "b4_theory_how_much_with_uncountable",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "water"
+          },
+          {
+            "id": "b",
+            "text": "waters"
+          },
+          {
+            "id": "c",
+            "text": "bottles"
+          },
+          {
+            "id": "d",
+            "text": "apples"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "How much is used with uncountable nouns. Water is uncountable, so it fits. The plural forms refer to countable items.",
+        "tags": []
+      },
+      {
+        "id": "q24",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"How much ___ do we have?\" (uncountable noun about facts)",
+        "theory_block_id": "b4_theory_how_much_with_uncountable",
+        "difficulty": 1,
+        "correct_answer": "information",
+        "explanation": "How much is used with uncountable nouns. Information is uncountable, so the base form stays the same. This matches the rule.",
+        "tags": []
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Choose the correct question: ___ people are in the room?",
+        "theory_block_id": "b5_theory_question_structure_answers",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "How many"
+          },
+          {
+            "id": "b",
+            "text": "How much"
+          },
+          {
+            "id": "c",
+            "text": "How"
+          },
+          {
+            "id": "d",
+            "text": "How often"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "People is countable, so the correct question is How many people are in the room? How much is for uncountable nouns.",
+        "tags": []
+      },
+      {
+        "id": "q61",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный ответ на вопрос \"How many books do you have?\"",
+        "theory_block_id": "b5_theory_question_structure_answers",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Five books.",
+            "feedback": "Правильно! Это короткий ответ с числительным."
+          },
+          {
+            "id": "b",
+            "text": "Much books.",
+            "feedback": "Нет, much не используется со счетными существительными."
+          },
+          {
+            "id": "c",
+            "text": "A lot book.",
+            "feedback": "Нет, после a lot нужно множественное число books."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "На вопрос How many? можно ответить коротко с числительным: Five books. или просто Five.",
+        "tags": [
+          "answers",
+          "short_answer"
+        ]
+      },
+      {
+        "id": "q62",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный полный ответ на вопрос \"How much water do you need?\"",
+        "theory_block_id": "b5_theory_question_structure_answers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I need a lot of water.",
+            "feedback": "Правильно! Это полный ответ с полным предложением."
+          },
+          {
+            "id": "b",
+            "text": "A lot water.",
+            "feedback": "Нет, нужно a lot of water (с предлогом of)."
+          },
+          {
+            "id": "c",
+            "text": "Much water.",
+            "feedback": "Нет, это не полное предложение."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Полный ответ на How much? должен быть полным предложением: I need a lot of water.",
+        "tags": [
+          "answers",
+          "full_answer"
+        ]
+      },
+      {
+        "id": "q63",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную структуру вопроса: ___ students are in the class?",
+        "theory_block_id": "b5_theory_question_structure_answers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "How many students are in the class?",
+            "feedback": "Правильно! How many + существительное (мн.ч.) + are + ..."
+          },
+          {
+            "id": "b",
+            "text": "How many student are in the class?",
+            "feedback": "Нет, после How many нужно множественное число students."
+          },
+          {
+            "id": "c",
+            "text": "How many students is in the class?",
+            "feedback": "Нет, с students (множественное число) используется are, а не is."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильная структура: How many + существительное (мн.ч.) + глагол be (are для множественного числа) + ...",
+        "tags": [
+          "question_structure",
+          "grammar"
+        ]
+      },
+      {
+        "id": "q64",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный короткий ответ на вопрос \"How much money do you have?\"",
+        "theory_block_id": "b5_theory_question_structure_answers",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Not much.",
+            "feedback": "Правильно! Это короткий ответ для несчетных существительных."
+          },
+          {
+            "id": "b",
+            "text": "Not many.",
+            "feedback": "Нет, many используется со счетными, а money — несчетное."
+          },
+          {
+            "id": "c",
+            "text": "A lot money.",
+            "feedback": "Нет, нужно a lot of money или просто a lot."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "На вопрос How much? можно ответить коротко: Not much. (для несчетных) или A lot.",
+        "tags": [
+          "answers",
+          "short_answer",
+          "uncountable"
+        ]
+      },
+      {
+        "id": "q65",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную структуру вопроса: ___ is this book?",
+        "theory_block_id": "b5_theory_question_structure_answers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "How much is this book?",
+            "feedback": "Правильно! How much используется для вопроса о цене."
+          },
+          {
+            "id": "b",
+            "text": "How many is this book?",
+            "feedback": "Нет, для вопроса о цене используется How much."
+          },
+          {
+            "id": "c",
+            "text": "How is this book?",
+            "feedback": "Нет, для вопроса о цене нужно How much."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для вопроса о цене используется How much: How much is this book?",
+        "tags": [
+          "question_structure",
+          "price"
+        ]
+      },
+      {
+        "id": "q66",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный полный ответ на вопрос \"How many apples do you want?\"",
+        "theory_block_id": "b5_theory_question_structure_answers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I want three apples.",
+            "feedback": "Правильно! Это полный ответ с полным предложением."
+          },
+          {
+            "id": "b",
+            "text": "Three apples.",
+            "feedback": "Это короткий ответ, но нужен полный."
+          },
+          {
+            "id": "c",
+            "text": "Want three apples.",
+            "feedback": "Нет, нужно полное предложение с подлежащим I."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Полный ответ должен быть полным предложением: I want three apples.",
+        "tags": [
+          "answers",
+          "full_answer"
+        ]
+      },
+      {
+        "id": "q67",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную структуру вопроса: ___ coffee do you drink?",
+        "theory_block_id": "b5_theory_question_structure_answers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "How much coffee do you drink?",
+            "feedback": "Правильно! Coffee — несчетное, используется How much."
+          },
+          {
+            "id": "b",
+            "text": "How many coffee do you drink?",
+            "feedback": "Нет, coffee — несчетное, нужно How much."
+          },
+          {
+            "id": "c",
+            "text": "How much coffees do you drink?",
+            "feedback": "Нет, coffee — несчетное, не имеет множественного числа."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Coffee — несчетное существительное, поэтому используется How much coffee (без множественного числа).",
+        "tags": [
+          "question_structure",
+          "uncountable"
+        ]
+      },
+      {
+        "id": "q68",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный короткий ответ на вопрос \"How many people are there?\"",
+        "theory_block_id": "b5_theory_question_structure_answers",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Ten.",
+            "feedback": "Правильно! Короткий ответ с числительным."
+          },
+          {
+            "id": "b",
+            "text": "Ten people.",
+            "feedback": "Это тоже правильно, но более короткий ответ — просто Ten."
+          },
+          {
+            "id": "c",
+            "text": "Much.",
+            "feedback": "Нет, much не используется со счетными существительными."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "На вопрос How many? можно ответить коротко просто числительным: Ten. или Ten people.",
+        "tags": [
+          "answers",
+          "short_answer"
+        ]
+      },
+      {
+        "id": "q69",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную структуру вопроса: ___ time do you have?",
+        "theory_block_id": "b5_theory_question_structure_answers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "How much time do you have?",
+            "feedback": "Правильно! Time — несчетное, используется How much."
+          },
+          {
+            "id": "b",
+            "text": "How many time do you have?",
+            "feedback": "Нет, time — несчетное, нужно How much."
+          },
+          {
+            "id": "c",
+            "text": "How much times do you have?",
+            "feedback": "Нет, time — несчетное, не имеет множественного числа times в этом значении."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Time (время) — несчетное существительное, используется How much time (не times в этом значении).",
+        "tags": [
+          "question_structure",
+          "uncountable"
+        ]
       }
     ]
   },
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q7",
       "q8",
       "q9",
-      "q10",
       "q17",
-      "q18",
       "q19",
       "q20",
-      "q27",
-      "q28",
-      "q29",
-      "q30",
-      "q37",
-      "q38",
-      "q39",
-      "q40",
-      "q47",
-      "q48",
-      "q49",
-      "q50",
       "q51",
       "q52",
       "q53",
-      "q60"
+      "q60",
+      "q25",
+      "q61",
+      "q62",
+      "q63",
+      "q64",
+      "q65",
+      "q66",
+      "q67",
+      "q68",
+      "q69"
     ],
     "selection_strategy": {
       "type": "stratified_by_theory_block",
@@ -1425,7 +1229,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T09:41:58Z",
+    "updated_at": "2026-01-20T12:14:20Z",
     "source": "llm"
   }
 }

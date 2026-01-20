@@ -1,0 +1,1834 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.perfect_aspect_experience_result.build_speak_biography_experience",
+  "section_id": "en.grammar.perfect_aspect_experience_result",
+  "title": "Build & speak: biography/experience + a story with a flashback",
+  "title_short": "Build & speak: biography/experience + a story with a flashback",
+  "description": "Учимся строить короткую биографию и рассказывать историю с флэшбеком, комбинируя Present Perfect, Past Simple и Past Perfect.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "B1",
+  "order": 0,
+  "prerequisites": [
+    "en.grammar.perfect_aspect_experience_result.future_perfect_future_continuous"
+  ],
+  "concept_refs": [
+    "biography_present_perfect",
+    "experience_markers",
+    "present_perfect_vs_past_simple",
+    "past_perfect_flashback",
+    "past_timeline_linkers",
+    "biography_plus_story_structure"
+  ],
+  "learning_objectives": [
+    "Использовать Present Perfect для краткой биографии и опыта без точного времени",
+    "Разделять Present Perfect для опыта и Past Simple для деталей с конкретным временем",
+    "Встраивать Past Perfect для флэшбека и поддерживать логичную временную линию"
+  ],
+  "estimated_minutes": 25,
+  "blocks": [
+    {
+      "id": "b1_theory_biography_frame",
+      "type": "theory",
+      "title": "Present Perfect helps you build a short biography: you name experience or achievements without a specific time. This frames your background before the story starts. Use have/has + V3 and avoid exact past dates in the same sentence.",
+      "theory": {
+        "concept_id": "biography_present_perfect",
+        "content_md": "Present Perfect helps you build a short biography: you name experience or achievements without a specific time. This frames your background before the story starts. Use **have/has + V3** and avoid exact past dates in the same sentence.\n\nIf you want to show duration up to now, add **for** or **since**. This keeps the focus on the present result of your experience.",
+        "key_points": [
+          "Present Perfect = опыт без точного времени",
+          "Для длительности используйте for/since"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "She has lived in Canada for five years.",
+            "translation": "Она живет в Канаде уже пять лет.",
+            "tags": [
+              "affirmative",
+              "biography",
+              "duration"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "I have worked in sales since 2018.",
+            "translation": "Я работаю в продажах с 2018 года.",
+            "tags": [
+              "affirmative",
+              "biography",
+              "since"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_biography_frame",
+      "type": "quiz_inline",
+      "title": "Quick check: biography frame",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2",
+          "q4",
+          "q7",
+          "q10"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_experience_markers",
+      "type": "theory",
+      "title": "Markers like ever, never, already, yet, just are common with Present Perfect. They help you talk about experience, recent events, or expectations. Use ever in questions, never for negative experience, and yet/already to show whether something is finished.",
+      "theory": {
+        "concept_id": "experience_markers",
+        "content_md": "Markers like **ever, never, already, yet, just** are common with Present Perfect. They help you talk about experience, recent events, or expectations. Use **ever** in questions, **never** for negative experience, and **yet/already** to show whether something is finished.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Have you ever worked abroad?",
+            "translation": "Ты когда-нибудь работал за границей?",
+            "tags": [
+              "question",
+              "ever",
+              "experience"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "I have never met a famous actor.",
+            "translation": "Я никогда не встречал известного актера.",
+            "tags": [
+              "negative",
+              "never",
+              "experience"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "She has already finished her CV, but she hasn't sent it yet.",
+            "translation": "Она уже закончила свое резюме, но еще не отправила его.",
+            "tags": [
+              "affirmative",
+              "already",
+              "yet"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_experience_markers",
+      "type": "quiz_inline",
+      "title": "Quick check: experience markers",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q15",
+          "q17",
+          "q18",
+          "q23"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_details_past_simple",
+      "type": "theory",
+      "title": "Use Present Perfect to introduce an experience and Past Simple to add specific details with time. The time word (yesterday, in 2021, last summer) belongs to Past Simple, not Present Perfect.",
+      "theory": {
+        "concept_id": "present_perfect_vs_past_simple",
+        "content_md": "Use Present Perfect to introduce an experience and Past Simple to add specific details with time. The time word (yesterday, in 2021, last summer) belongs to Past Simple, not Present Perfect.\n\nA common pattern is: **Present Perfect statement** → **Past Simple detail**. This makes your biography clear and your story concrete.",
+        "key_points": [],
+        "common_mistakes": [
+          {
+            "wrong": "I have been to Rome in 2021.",
+            "right": "I went to Rome in 2021.",
+            "why": "Точное время (in 2021) требует Past Simple, а не Present Perfect."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I've visited Rome. I went there in 2021.",
+            "translation": "Я бывал в Риме. Я ездил туда в 2021 году.",
+            "tags": [
+              "affirmative",
+              "contrast",
+              "time_detail"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Have you met the new director? Yes, I met her last week.",
+            "translation": "Ты встречал нового директора? Да, я встретил ее на прошлой неделе.",
+            "tags": [
+              "question",
+              "past_simple_detail"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_details_past_simple",
+      "type": "quiz_inline",
+      "title": "Quick check: experience vs details",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26",
+          "q28",
+          "q31",
+          "q35"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_past_perfect_flashback",
+      "type": "theory",
+      "title": "Past Perfect shows an earlier past action in a story. Use it for a flashback when two past events are compared. The later event is in Past Simple, and the earlier event is in Past Perfect.",
+      "theory": {
+        "concept_id": "past_perfect_flashback",
+        "content_md": "Past Perfect shows an earlier past action in a story. Use it for a flashback when two past events are compared. The later event is in Past Simple, and the earlier event is in Past Perfect.\n\nThis helps the listener follow the timeline without confusion.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "When I arrived at the office, he had already left.",
+            "translation": "Когда я приехал в офис, он уже ушел.",
+            "tags": [
+              "affirmative",
+              "flashback",
+              "past_perfect"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "She hadn't finished the report when the meeting started.",
+            "translation": "Она не закончила отчет, когда началась встреча.",
+            "tags": [
+              "negative",
+              "past_perfect",
+              "sequence"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Had you ever visited the town before you moved there?",
+            "translation": "Ты бывал в этом городе до того, как переехал туда?",
+            "tags": [
+              "question",
+              "past_perfect",
+              "experience"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8_quiz_after_past_perfect_flashback",
+      "type": "quiz_inline",
+      "title": "Quick check: past perfect flashback",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38",
+          "q40",
+          "q42",
+          "q47"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_time_linkers",
+      "type": "theory",
+      "title": "Time linkers like before, after, by the time, once help structure a story. They show the order of actions and often work with Past Perfect for the earlier event. Use them to make the flashback smooth.",
+      "theory": {
+        "concept_id": "past_timeline_linkers",
+        "content_md": "Time linkers like **before, after, by the time, once** help structure a story. They show the order of actions and often work with Past Perfect for the earlier event. Use them to make the flashback smooth.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "By the time I got the offer, I had already accepted another job.",
+            "translation": "К моменту, когда я получил оффер, я уже принял другую работу.",
+            "tags": [
+              "affirmative",
+              "by_the_time",
+              "past_perfect"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "After I had finished the interview, I called my manager.",
+            "translation": "После того как я закончил интервью, я позвонил менеджеру.",
+            "tags": [
+              "affirmative",
+              "after",
+              "sequence"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b10_quiz_after_time_linkers",
+      "type": "quiz_inline",
+      "title": "Quick check: time linkers",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q50",
+          "q52",
+          "q57",
+          "q59"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_story_structure",
+      "type": "theory",
+      "title": "A clear structure helps: start with 2-3 Present Perfect sentences about your experience, then tell one story in Past Simple, and add a flashback in Past Perfect if needed. Keep time words consistent and avoid mixing Present Perfect with exact past dates.",
+      "theory": {
+        "concept_id": "biography_plus_story_structure",
+        "content_md": "A clear structure helps: start with 2-3 Present Perfect sentences about your experience, then tell one story in Past Simple, and add a flashback in Past Perfect if needed. Keep time words consistent and avoid mixing Present Perfect with exact past dates.",
+        "key_points": [
+          "Биография = Present Perfect, история = Past Simple",
+          "Флэшбек = Past Perfect, затем возвращайтесь к Past Simple"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I've worked in tourism for ten years. Last summer I moved to Lisbon. When I arrived, I realized I had forgotten my passport.",
+            "translation": "Я работаю в туризме уже десять лет. Прошлым летом я переехал в Лиссабон. Когда я приехал, я понял, что забыл паспорт.",
+            "tags": [
+              "affirmative",
+              "structure",
+              "flashback"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: She ___ in finance for ten years.",
+        "theory_block_id": "b1_theory_biography_frame",
+        "difficulty": 2,
+        "correct_answer": "a",
+        "explanation": "For a biography with duration up to now, use Present Perfect: has worked. Past Simple would suggest a finished period. The sentence has no finished time marker.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "has worked"
+          },
+          {
+            "id": "b",
+            "text": "worked"
+          },
+          {
+            "id": "c",
+            "text": "has work"
+          },
+          {
+            "id": "d",
+            "text": "is worked"
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I have ___ in three countries so far.\" (live)",
+        "theory_block_id": "b1_theory_biography_frame",
+        "difficulty": 2,
+        "correct_answer": "lived",
+        "explanation": "So far signals experience up to now. Present Perfect uses have/has + V3: have lived. This fits a biography summary.",
+        "tags": []
+      },
+      {
+        "id": "q3",
+        "type": "true_false",
+        "prompt": "Present Perfect can be used with a specific past time like \"in 2019\" in the same clause.",
+        "theory_block_id": "b1_theory_biography_frame",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Specific past times like in 2019 belong to Past Simple. Present Perfect avoids exact past time markers. This keeps the focus on present relevance.",
+        "tags": []
+      },
+      {
+        "id": "q4",
+        "type": "error_spotting",
+        "prompt": "Find the mistake and choose the corrected sentence: \"He has worked at that company last year.\"",
+        "theory_block_id": "b1_theory_biography_frame",
+        "difficulty": 3,
+        "correct_answer": "a",
+        "explanation": "Last year is a finished time, so Past Simple is needed: worked. Present Perfect cannot take that time marker.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "He worked at that company last year."
+          },
+          {
+            "id": "b",
+            "text": "He has worked at that company."
+          },
+          {
+            "id": "c",
+            "text": "He has work at that company last year."
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: She ___ a master's degree.",
+        "theory_block_id": "b1_theory_biography_frame",
+        "difficulty": 2,
+        "correct_answer": "b",
+        "explanation": "A biography often lists achievements without exact time. Present Perfect shows the result now: has earned. Past Simple would need a specific time.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "earned"
+          },
+          {
+            "id": "b",
+            "text": "has earned"
+          },
+          {
+            "id": "c",
+            "text": "has earn"
+          },
+          {
+            "id": "d",
+            "text": "is earning"
+          }
+        ]
+      },
+      {
+        "id": "q6",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"We have ___ together since 2016.\" (work)",
+        "theory_block_id": "b1_theory_biography_frame",
+        "difficulty": 2,
+        "correct_answer": "worked",
+        "explanation": "Since introduces the starting point and implies a duration to now. Present Perfect is required: have worked.",
+        "tags": []
+      },
+      {
+        "id": "q7",
+        "type": "mcq_single",
+        "prompt": "Which sentence sounds like a short biography line?",
+        "theory_block_id": "b1_theory_biography_frame",
+        "difficulty": 2,
+        "correct_answer": "c",
+        "explanation": "A biography summary uses Present Perfect with duration: have worked for eight years. The other options mix tenses with past time markers.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "I worked as a designer in 2020."
+          },
+          {
+            "id": "b",
+            "text": "I am working as a designer yesterday."
+          },
+          {
+            "id": "c",
+            "text": "I have worked as a designer for eight years."
+          },
+          {
+            "id": "d",
+            "text": "I work as a designer last year."
+          }
+        ]
+      },
+      {
+        "id": "q8",
+        "type": "true_false",
+        "prompt": "In biography summaries, Present Perfect focuses on the result or experience relevant now.",
+        "theory_block_id": "b1_theory_biography_frame",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Present Perfect links past experience to the present. That is why it fits biography summaries. It highlights current relevance, not the exact time.",
+        "tags": []
+      },
+      {
+        "id": "q9",
+        "type": "error_spotting",
+        "prompt": "Find the mistake and choose the corrected sentence: \"I have been a teacher in 2015.\"",
+        "theory_block_id": "b1_theory_biography_frame",
+        "difficulty": 3,
+        "correct_answer": "b",
+        "explanation": "In 2015 is a finished time, so Past Simple is needed: was. Present Perfect would work with since 2015 instead.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "I have been a teacher since 2015."
+          },
+          {
+            "id": "b",
+            "text": "I was a teacher in 2015."
+          },
+          {
+            "id": "c",
+            "text": "I am a teacher in 2015."
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"My sister has ___ in Berlin for two years.\" (live)",
+        "theory_block_id": "b1_theory_biography_frame",
+        "difficulty": 2,
+        "correct_answer": "lived",
+        "explanation": "For a continuing or relevant experience with for, use Present Perfect: has lived. It frames a biography statement.",
+        "tags": []
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: I ___ in HR for five years.",
+        "theory_block_id": "b1_theory_biography_frame",
+        "difficulty": 1,
+        "correct_answer": "a",
+        "explanation": "For a duration up to now, Present Perfect is required. Have worked is the correct form. Past Simple would imply the period is finished.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "have worked"
+          },
+          {
+            "id": "b",
+            "text": "worked"
+          },
+          {
+            "id": "c",
+            "text": "am worked"
+          },
+          {
+            "id": "d",
+            "text": "have work"
+          }
+        ]
+      },
+      {
+        "id": "q12",
+        "type": "mcq_multi",
+        "prompt": "Select all sentences that fit a biography summary.",
+        "theory_block_id": "b1_theory_biography_frame",
+        "difficulty": 3,
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "Biography summaries use Present Perfect without a finished time. Sentences a and c show ongoing experience. Sentences b and d are specific past events.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "I have led small teams for three years."
+          },
+          {
+            "id": "b",
+            "text": "I led a team in 2019."
+          },
+          {
+            "id": "c",
+            "text": "She has studied in Spain since 2020."
+          },
+          {
+            "id": "d",
+            "text": "He studied in Spain yesterday."
+          }
+        ]
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: Have you ever ___ sushi?",
+        "theory_block_id": "b2_theory_experience_markers",
+        "difficulty": 2,
+        "correct_answer": "b",
+        "explanation": "Experience questions use Present Perfect: Have you ever + V3. The past participle of try is tried. This fits the marker ever.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "try"
+          },
+          {
+            "id": "b",
+            "text": "tried"
+          },
+          {
+            "id": "c",
+            "text": "trying"
+          },
+          {
+            "id": "d",
+            "text": "tries"
+          }
+        ]
+      },
+      {
+        "id": "q14",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I have ___ been to Africa.\" (наречие отрицания)",
+        "theory_block_id": "b2_theory_experience_markers",
+        "difficulty": 1,
+        "correct_answer": "never",
+        "explanation": "Never is used with Present Perfect to state no experience. The sentence stays affirmative in form but has negative meaning.",
+        "tags": []
+      },
+      {
+        "id": "q15",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: She hasn't called me ___.",
+        "theory_block_id": "b2_theory_experience_markers",
+        "difficulty": 2,
+        "correct_answer": "a",
+        "explanation": "Yet is common in negative sentences and questions about completion. It appears at the end. Already is for completed actions.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "yet"
+          },
+          {
+            "id": "b",
+            "text": "already"
+          },
+          {
+            "id": "c",
+            "text": "just"
+          },
+          {
+            "id": "d",
+            "text": "ever"
+          }
+        ]
+      },
+      {
+        "id": "q16",
+        "type": "true_false",
+        "prompt": "Already can be used in questions to show surprise or expectation.",
+        "theory_block_id": "b2_theory_experience_markers",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "We can ask: Have you already finished? This shows surprise or expectation about completion. It is natural with Present Perfect.",
+        "tags": []
+      },
+      {
+        "id": "q17",
+        "type": "error_spotting",
+        "prompt": "Find the mistake and choose the corrected sentence: \"I have yet finished the report.\"",
+        "theory_block_id": "b2_theory_experience_markers",
+        "difficulty": 3,
+        "correct_answer": "b",
+        "explanation": "Yet is used with negatives or questions, not with positive statements. The correct form is I haven't finished the report yet. Already would be used in an affirmative clause.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "I have finished the report yet."
+          },
+          {
+            "id": "b",
+            "text": "I haven't finished the report yet."
+          },
+          {
+            "id": "c",
+            "text": "I have already finished the report yet."
+          }
+        ]
+      },
+      {
+        "id": "q18",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"They have ___ arrived; you can come in.\" (very recently)",
+        "theory_block_id": "b2_theory_experience_markers",
+        "difficulty": 2,
+        "correct_answer": "just",
+        "explanation": "Just indicates a very recent action and pairs with Present Perfect. It goes between have and the past participle.",
+        "tags": []
+      },
+      {
+        "id": "q19",
+        "type": "mcq_multi",
+        "prompt": "Select all sentences where ever is used correctly.",
+        "theory_block_id": "b2_theory_experience_markers",
+        "difficulty": 3,
+        "correct_answer": [
+          "a",
+          "d"
+        ],
+        "explanation": "Ever is standard in Present Perfect questions about experience. Sentences a and d follow this pattern. Sentences b and c misuse ever in affirmative statements.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "Have you ever driven a bus?"
+          },
+          {
+            "id": "b",
+            "text": "I ever visited Japan."
+          },
+          {
+            "id": "c",
+            "text": "She has ever been here."
+          },
+          {
+            "id": "d",
+            "text": "Have they ever worked remotely?"
+          }
+        ]
+      },
+      {
+        "id": "q20",
+        "type": "true_false",
+        "prompt": "Never is used with an affirmative verb in Present Perfect: \"I have never...\"",
+        "theory_block_id": "b2_theory_experience_markers",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Never carries negative meaning, so the verb stays affirmative. In Present Perfect, we say I have never + V3. This is a common pattern.",
+        "tags": []
+      },
+      {
+        "id": "q21",
+        "type": "error_spotting",
+        "prompt": "Find the mistake and choose the corrected sentence: \"She has already yet finished the essay.\"",
+        "theory_block_id": "b2_theory_experience_markers",
+        "difficulty": 3,
+        "correct_answer": "c",
+        "explanation": "Already and yet cannot be used together in this way. Already is for a completed action in an affirmative clause. The correct sentence uses already alone.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "She has finished the essay yet."
+          },
+          {
+            "id": "b",
+            "text": "She hasn't already finished the essay."
+          },
+          {
+            "id": "c",
+            "text": "She has already finished the essay."
+          }
+        ]
+      },
+      {
+        "id": "q22",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Have you ___ updated your resume?\" (sooner than expected)",
+        "theory_block_id": "b2_theory_experience_markers",
+        "difficulty": 2,
+        "correct_answer": "already",
+        "explanation": "Already can appear in questions to check if something is done. It goes between have and the past participle. The pattern is Have you already + V3?",
+        "tags": []
+      },
+      {
+        "id": "q23",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: I haven't seen that movie ___.",
+        "theory_block_id": "b2_theory_experience_markers",
+        "difficulty": 1,
+        "correct_answer": "d",
+        "explanation": "Yet is used in negatives to indicate that something is still not done. It typically comes at the end of the sentence. Already is for completed actions.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "already"
+          },
+          {
+            "id": "b",
+            "text": "just"
+          },
+          {
+            "id": "c",
+            "text": "ever"
+          },
+          {
+            "id": "d",
+            "text": "yet"
+          }
+        ]
+      },
+      {
+        "id": "q24",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: He has ___ signed the contract, so the deal is done.",
+        "theory_block_id": "b2_theory_experience_markers",
+        "difficulty": 2,
+        "correct_answer": "b",
+        "explanation": "Already signals that the action is completed. It fits the idea that the deal is done. Yet would be used in negatives or questions.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "yet"
+          },
+          {
+            "id": "b",
+            "text": "already"
+          },
+          {
+            "id": "c",
+            "text": "ever"
+          },
+          {
+            "id": "d",
+            "text": "never"
+          }
+        ]
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: I've met her before, and I ___ her last year.",
+        "theory_block_id": "b3_theory_details_past_simple",
+        "difficulty": 2,
+        "correct_answer": "c",
+        "explanation": "The second clause has a specific time marker, last year. This requires Past Simple. The correct form is met.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "have met"
+          },
+          {
+            "id": "b",
+            "text": "have meet"
+          },
+          {
+            "id": "c",
+            "text": "met"
+          },
+          {
+            "id": "d",
+            "text": "meet"
+          }
+        ]
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"We ___ to Brazil in 2019.\" (go)",
+        "theory_block_id": "b3_theory_details_past_simple",
+        "difficulty": 1,
+        "correct_answer": "went",
+        "explanation": "A finished time like in 2019 takes Past Simple. The correct past form of go is went. Present Perfect would be incorrect here.",
+        "tags": []
+      },
+      {
+        "id": "q27",
+        "type": "true_false",
+        "prompt": "You can use Present Perfect with \"yesterday\".",
+        "theory_block_id": "b3_theory_details_past_simple",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Yesterday is a finished time expression. Present Perfect avoids exact past time markers. Use Past Simple instead.",
+        "tags": []
+      },
+      {
+        "id": "q28",
+        "type": "error_spotting",
+        "prompt": "Find the mistake and choose the corrected sentence: \"She has bought a car two weeks ago.\"",
+        "theory_block_id": "b3_theory_details_past_simple",
+        "difficulty": 3,
+        "correct_answer": "a",
+        "explanation": "Two weeks ago is a specific past time, so Past Simple is required. The correct form is bought. Present Perfect cannot take that time marker.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "She bought a car two weeks ago."
+          },
+          {
+            "id": "b",
+            "text": "She has bought a car."
+          },
+          {
+            "id": "c",
+            "text": "She has buy a car two weeks ago."
+          }
+        ]
+      },
+      {
+        "id": "q29",
+        "type": "mcq_multi",
+        "prompt": "Select all sentences that use Present Perfect correctly.",
+        "theory_block_id": "b3_theory_details_past_simple",
+        "difficulty": 3,
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "Present Perfect is correct without a finished time or with since/for. Sentences a and c follow this rule. Sentences b and d use specific times, so Past Simple is needed.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "I have seen that film."
+          },
+          {
+            "id": "b",
+            "text": "I have seen that film last night."
+          },
+          {
+            "id": "c",
+            "text": "He has worked here since May."
+          },
+          {
+            "id": "d",
+            "text": "They have arrived at 8 p.m."
+          }
+        ]
+      },
+      {
+        "id": "q30",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I've met her before. We ___ in Paris in 2018.\" (meet)",
+        "theory_block_id": "b3_theory_details_past_simple",
+        "difficulty": 2,
+        "correct_answer": "met",
+        "explanation": "The detail includes a specific time, in 2018, so Past Simple is required. The correct form is met.",
+        "tags": []
+      },
+      {
+        "id": "q31",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: Have you ever eaten sushi? Yes, I ___ last Friday.",
+        "theory_block_id": "b3_theory_details_past_simple",
+        "difficulty": 2,
+        "correct_answer": "b",
+        "explanation": "The answer includes last Friday, a finished time. This requires Past Simple: ate. Present Perfect would be incorrect with that time marker.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "have eaten"
+          },
+          {
+            "id": "b",
+            "text": "ate"
+          },
+          {
+            "id": "c",
+            "text": "eat"
+          },
+          {
+            "id": "d",
+            "text": "have ate"
+          }
+        ]
+      },
+      {
+        "id": "q32",
+        "type": "true_false",
+        "prompt": "In a biography sentence with \"since 2020\", Present Perfect is expected.",
+        "theory_block_id": "b3_theory_details_past_simple",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Since marks a starting point that continues to now, so Present Perfect is the standard choice. It links the past to the present.",
+        "tags": []
+      },
+      {
+        "id": "q33",
+        "type": "error_spotting",
+        "prompt": "Find the mistake and choose the corrected sentence: \"Did you ever went to Italy?\"",
+        "theory_block_id": "b3_theory_details_past_simple",
+        "difficulty": 3,
+        "correct_answer": "c",
+        "explanation": "After did, the base form is used: go. The correct question is Did you ever go to Italy? Alternatively, Have you ever been to Italy uses Present Perfect, but that is a different structure.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "Did you ever went to Italy?"
+          },
+          {
+            "id": "b",
+            "text": "Have you ever go to Italy?"
+          },
+          {
+            "id": "c",
+            "text": "Did you ever go to Italy?"
+          }
+        ]
+      },
+      {
+        "id": "q34",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She ___ in Spain for a year, then she moved to France.\" (live)",
+        "theory_block_id": "b3_theory_details_past_simple",
+        "difficulty": 2,
+        "correct_answer": "lived",
+        "explanation": "The sequence is in the past and finished, so Past Simple is needed. The correct form is lived. Present Perfect would not match the completed time frame.",
+        "tags": []
+      },
+      {
+        "id": "q35",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: I ___ already sent the email.",
+        "theory_block_id": "b3_theory_details_past_simple",
+        "difficulty": 2,
+        "correct_answer": "a",
+        "explanation": "Present Perfect uses have/has + V3. With already, the correct form is have already sent. The other options are ungrammatical.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "have already sent"
+          },
+          {
+            "id": "b",
+            "text": "already sent"
+          },
+          {
+            "id": "c",
+            "text": "has already sent"
+          },
+          {
+            "id": "d",
+            "text": "am already sent"
+          }
+        ]
+      },
+      {
+        "id": "q36",
+        "type": "mcq_multi",
+        "prompt": "Select sentences that require Past Simple because of a finished time expression.",
+        "theory_block_id": "b3_theory_details_past_simple",
+        "difficulty": 3,
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "Finished time expressions like in 2010 and yesterday require Past Simple. Sentences a and c fit this rule. Sentences b and d describe experience without a finished time.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "I lived there in 2010."
+          },
+          {
+            "id": "b",
+            "text": "She has lived there for years."
+          },
+          {
+            "id": "c",
+            "text": "We met yesterday."
+          },
+          {
+            "id": "d",
+            "text": "They have met many times."
+          }
+        ]
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: When I arrived, they ___ dinner.",
+        "theory_block_id": "b4_theory_past_perfect_flashback",
+        "difficulty": 2,
+        "correct_answer": "a",
+        "explanation": "Two past events are compared. The earlier one takes Past Perfect: had finished. The later event is in Past Simple: arrived.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "had finished"
+          },
+          {
+            "id": "b",
+            "text": "finished"
+          },
+          {
+            "id": "c",
+            "text": "have finished"
+          },
+          {
+            "id": "d",
+            "text": "were finish"
+          }
+        ]
+      },
+      {
+        "id": "q38",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She had ___ the report before the meeting started.\" (finish)",
+        "theory_block_id": "b4_theory_past_perfect_flashback",
+        "difficulty": 2,
+        "correct_answer": "finished",
+        "explanation": "Before the meeting started signals an earlier past action. Past Perfect shows that order. The correct form is had finished.",
+        "tags": []
+      },
+      {
+        "id": "q39",
+        "type": "true_false",
+        "prompt": "Past Perfect is used to show an earlier past event relative to another past event.",
+        "theory_block_id": "b4_theory_past_perfect_flashback",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Past Perfect places one action before another past action. It makes the timeline clear. This is the core function of the tense.",
+        "tags": []
+      },
+      {
+        "id": "q40",
+        "type": "error_spotting",
+        "prompt": "Find the mistake and choose the corrected sentence: \"By the time we got there, the show already started.\"",
+        "theory_block_id": "b4_theory_past_perfect_flashback",
+        "difficulty": 3,
+        "correct_answer": "b",
+        "explanation": "By the time introduces a later past event, so the earlier action needs Past Perfect: had already started. Present Perfect is not correct in a past timeline.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "By the time we got there, the show already start."
+          },
+          {
+            "id": "b",
+            "text": "By the time we got there, the show had already started."
+          },
+          {
+            "id": "c",
+            "text": "By the time we got there, the show has already started."
+          }
+        ]
+      },
+      {
+        "id": "q41",
+        "type": "mcq_multi",
+        "prompt": "Select all sentences that use Past Perfect correctly.",
+        "theory_block_id": "b4_theory_past_perfect_flashback",
+        "difficulty": 3,
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "Past Perfect is correct when it shows earlier past relative to another past action. Sentences a and c do this. Sentences b and d use past time words without a clear reference point or are ungrammatical.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "I realized I had lost my keys."
+          },
+          {
+            "id": "b",
+            "text": "I had met him yesterday."
+          },
+          {
+            "id": "c",
+            "text": "She had never flown before that trip."
+          },
+          {
+            "id": "d",
+            "text": "He had left now."
+          }
+        ]
+      },
+      {
+        "id": "q42",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Had you ever ___ that city before 2020?\" (visit)",
+        "theory_block_id": "b4_theory_past_perfect_flashback",
+        "difficulty": 2,
+        "correct_answer": "visited",
+        "explanation": "In Past Perfect questions, we use had + past participle. The past participle of visit is visited. The phrase before 2020 signals an earlier past time.",
+        "tags": []
+      },
+      {
+        "id": "q43",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: I felt tired because I ___ all night.",
+        "theory_block_id": "b4_theory_past_perfect_flashback",
+        "difficulty": 2,
+        "correct_answer": "c",
+        "explanation": "There are two past events: feeling tired and working all night. The earlier action takes Past Perfect: had worked. This makes the cause clear.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "worked"
+          },
+          {
+            "id": "b",
+            "text": "have worked"
+          },
+          {
+            "id": "c",
+            "text": "had worked"
+          },
+          {
+            "id": "d",
+            "text": "was work"
+          }
+        ]
+      },
+      {
+        "id": "q44",
+        "type": "true_false",
+        "prompt": "Past Perfect is always necessary when two past events are mentioned.",
+        "theory_block_id": "b4_theory_past_perfect_flashback",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Past Perfect is used when the order is not obvious or needs emphasis. Sometimes Past Simple is enough if the sequence is clear. So it is not always required.",
+        "tags": []
+      },
+      {
+        "id": "q45",
+        "type": "error_spotting",
+        "prompt": "Find the mistake and choose the corrected sentence: \"After I finished the interview, I had sent a thank-you email.\"",
+        "theory_block_id": "b4_theory_past_perfect_flashback",
+        "difficulty": 3,
+        "correct_answer": "c",
+        "explanation": "The email happened after the interview, so it should be Past Simple. Past Perfect is used for the earlier event, not the later one. The correct sentence is I sent.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "After I had finished the interview, I had sent a thank-you email."
+          },
+          {
+            "id": "b",
+            "text": "After I finished the interview, I send a thank-you email."
+          },
+          {
+            "id": "c",
+            "text": "After I finished the interview, I sent a thank-you email."
+          }
+        ]
+      },
+      {
+        "id": "q46",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"They had ___ their tickets before they entered the hall.\" (buy)",
+        "theory_block_id": "b4_theory_past_perfect_flashback",
+        "difficulty": 2,
+        "correct_answer": "bought",
+        "explanation": "The ticket purchase happened before entering the hall. That earlier past action uses Past Perfect: had bought. This keeps the sequence clear.",
+        "tags": []
+      },
+      {
+        "id": "q47",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: She couldn't get in because she ___ her ID at home.",
+        "theory_block_id": "b4_theory_past_perfect_flashback",
+        "difficulty": 2,
+        "correct_answer": "a",
+        "explanation": "The cause happened earlier than the past moment of not getting in. Past Perfect shows the earlier action: had left. Past Simple would be less clear here.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "had left"
+          },
+          {
+            "id": "b",
+            "text": "left"
+          },
+          {
+            "id": "c",
+            "text": "has left"
+          },
+          {
+            "id": "d",
+            "text": "leaves"
+          }
+        ]
+      },
+      {
+        "id": "q48",
+        "type": "mcq_multi",
+        "prompt": "Select all sentences where Past Perfect is needed to show earlier past.",
+        "theory_block_id": "b4_theory_past_perfect_flashback",
+        "difficulty": 3,
+        "correct_answer": [
+          "b",
+          "c"
+        ],
+        "explanation": "Past Perfect is used to show an earlier event in a past timeline. Sentences b and c make that order explicit. Sentences a and d do not require Past Perfect or use a different tense.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "I met him in 2010."
+          },
+          {
+            "id": "b",
+            "text": "I was nervous because I had never spoken in public."
+          },
+          {
+            "id": "c",
+            "text": "She called after she had arrived."
+          },
+          {
+            "id": "d",
+            "text": "They have arrived before I left."
+          }
+        ]
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: ___ I had finished the call, I went outside.",
+        "theory_block_id": "b5_theory_time_linkers",
+        "difficulty": 2,
+        "correct_answer": "b",
+        "explanation": "After introduces the later action. The earlier action is in Past Perfect: had finished. This sequence is common in stories.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "Before"
+          },
+          {
+            "id": "b",
+            "text": "After"
+          },
+          {
+            "id": "c",
+            "text": "Yet"
+          },
+          {
+            "id": "d",
+            "text": "Already"
+          }
+        ]
+      },
+      {
+        "id": "q50",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"By the time the meeting started, we had ___ the slides.\" (prepare)",
+        "theory_block_id": "b5_theory_time_linkers",
+        "difficulty": 2,
+        "correct_answer": "prepared",
+        "explanation": "By the time marks the later past event. The earlier action uses Past Perfect: had prepared. This shows the slides were ready before the meeting started.",
+        "tags": []
+      },
+      {
+        "id": "q51",
+        "type": "true_false",
+        "prompt": "By the time usually introduces the later past event.",
+        "theory_block_id": "b5_theory_time_linkers",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "By the time X happened, Y had already happened. X is the later event and Y is earlier. This structure keeps the timeline clear.",
+        "tags": []
+      },
+      {
+        "id": "q52",
+        "type": "error_spotting",
+        "prompt": "Find the mistake and choose the corrected sentence: \"Before she had left, she will call me.\"",
+        "theory_block_id": "b5_theory_time_linkers",
+        "difficulty": 3,
+        "correct_answer": "a",
+        "explanation": "The sentence is in a past narrative, so both verbs should be past. The correct form is Past Simple: Before she left, she called me. Future forms do not fit.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "Before she left, she called me."
+          },
+          {
+            "id": "b",
+            "text": "Before she had left, she calls me."
+          },
+          {
+            "id": "c",
+            "text": "Before she will leave, she called me."
+          }
+        ]
+      },
+      {
+        "id": "q53",
+        "type": "mcq_multi",
+        "prompt": "Select all sentences that show correct sequencing.",
+        "theory_block_id": "b5_theory_time_linkers",
+        "difficulty": 3,
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "Correct sequencing uses Past Perfect for the earlier action. Sentences a and c follow this rule. Sentences b and d have incorrect verb forms or tense.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "After I had packed, I left."
+          },
+          {
+            "id": "b",
+            "text": "Before I left, I had lock the door."
+          },
+          {
+            "id": "c",
+            "text": "By the time we arrived, they had started."
+          },
+          {
+            "id": "d",
+            "text": "After I had eaten, I am hungry."
+          }
+        ]
+      },
+      {
+        "id": "q54",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Once I had ___ the visa, I booked the flight.\" (get)",
+        "theory_block_id": "b5_theory_time_linkers",
+        "difficulty": 2,
+        "correct_answer": "gotten",
+        "explanation": "Once introduces a completed action before another past action. Past Perfect shows the earlier action: had gotten. This fits a past narrative timeline.",
+        "tags": []
+      },
+      {
+        "id": "q55",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: We left ___ the concert ended.",
+        "theory_block_id": "b5_theory_time_linkers",
+        "difficulty": 1,
+        "correct_answer": "b",
+        "explanation": "After indicates the sequence: the concert ended first, then we left. This is a simple Past Simple timeline. The other options do not fit the meaning.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "before"
+          },
+          {
+            "id": "b",
+            "text": "after"
+          },
+          {
+            "id": "c",
+            "text": "yet"
+          },
+          {
+            "id": "d",
+            "text": "ever"
+          }
+        ]
+      },
+      {
+        "id": "q56",
+        "type": "true_false",
+        "prompt": "In a story, time linkers help keep the listener oriented in time.",
+        "theory_block_id": "b5_theory_time_linkers",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Linkers like before, after, and by the time signal order. They prevent confusion about which event happened first. This is essential in a narrative.",
+        "tags": []
+      },
+      {
+        "id": "q57",
+        "type": "error_spotting",
+        "prompt": "Find the mistake and choose the corrected sentence: \"By the time she arrived, I already cooked dinner.\"",
+        "theory_block_id": "b5_theory_time_linkers",
+        "difficulty": 3,
+        "correct_answer": "b",
+        "explanation": "By the time sets a past reference point. The earlier action should be Past Perfect: had already cooked. Present Perfect is not used in a past timeline.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "By the time she arrived, I already cook dinner."
+          },
+          {
+            "id": "b",
+            "text": "By the time she arrived, I had already cooked dinner."
+          },
+          {
+            "id": "c",
+            "text": "By the time she arrived, I have already cooked dinner."
+          }
+        ]
+      },
+      {
+        "id": "q58",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I called him before I ___ to the airport.\" (go)",
+        "theory_block_id": "b5_theory_time_linkers",
+        "difficulty": 2,
+        "correct_answer": "went",
+        "explanation": "Before can be followed by Past Simple when the sequence is clear. The action of going is later, so Past Simple is natural: went. Past Perfect is not required here.",
+        "tags": []
+      },
+      {
+        "id": "q59",
+        "type": "mcq_multi",
+        "prompt": "Select all sentences where Past Perfect fits with the time linker.",
+        "theory_block_id": "b5_theory_time_linkers",
+        "difficulty": 3,
+        "correct_answer": [
+          "a",
+          "b",
+          "d"
+        ],
+        "explanation": "Past Perfect is used for the earlier action in a past sequence. Sentences a, b, and d use it correctly. Sentence c mixes the order and should be Before I went home, I had dinner or I had dinner before I went home.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "When I called, he had already left."
+          },
+          {
+            "id": "b",
+            "text": "After I had finished, I went home."
+          },
+          {
+            "id": "c",
+            "text": "Before I went home, I had dinner."
+          },
+          {
+            "id": "d",
+            "text": "By the time we arrived, they had closed."
+          }
+        ]
+      },
+      {
+        "id": "q60",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: She checked in at the hotel ___ she had landed.",
+        "theory_block_id": "b5_theory_time_linkers",
+        "difficulty": 2,
+        "correct_answer": "a",
+        "explanation": "The landing happened first, then the check-in. After matches this order. The other options do not express the correct sequence.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "after"
+          },
+          {
+            "id": "b",
+            "text": "before"
+          },
+          {
+            "id": "c",
+            "text": "yet"
+          },
+          {
+            "id": "d",
+            "text": "ever"
+          }
+        ]
+      },
+      {
+        "id": "q61",
+        "type": "mcq_single",
+        "prompt": "Choose the best opening for a short biography.",
+        "theory_block_id": "b6_theory_story_structure",
+        "difficulty": 2,
+        "correct_answer": "a",
+        "explanation": "A biography opening uses Present Perfect without a finished time. Sentence a is correct and shows experience and duration. The other options include incorrect time markers or tense.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "I have worked in marketing for six years."
+          },
+          {
+            "id": "b",
+            "text": "I worked in marketing last year."
+          },
+          {
+            "id": "c",
+            "text": "I am working in marketing yesterday."
+          },
+          {
+            "id": "d",
+            "text": "I have worked in marketing in 2019."
+          }
+        ]
+      },
+      {
+        "id": "q62",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I've managed small teams for years. Last month I ___ a new project.\" (start)",
+        "theory_block_id": "b6_theory_story_structure",
+        "difficulty": 2,
+        "correct_answer": "started",
+        "explanation": "The story detail has a finished time, last month, so Past Simple is required. The correct form is started. This keeps the timeline consistent.",
+        "tags": []
+      },
+      {
+        "id": "q63",
+        "type": "true_false",
+        "prompt": "A flashback in a story is typically expressed with Past Perfect.",
+        "theory_block_id": "b6_theory_story_structure",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Past Perfect shows an earlier past event relative to the story line. This is exactly what a flashback does. It helps the listener follow the timeline.",
+        "tags": []
+      },
+      {
+        "id": "q64",
+        "type": "error_spotting",
+        "prompt": "Find the mistake and choose the corrected sentence: \"I've moved to Paris last year, and I learned French there.\"",
+        "theory_block_id": "b6_theory_story_structure",
+        "difficulty": 3,
+        "correct_answer": "c",
+        "explanation": "Last year is a finished time, so Past Simple is required. The correct sentence is I moved to Paris last year. Present Perfect cannot be used with that time marker.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "I've moved to Paris, and I learn French there."
+          },
+          {
+            "id": "b",
+            "text": "I have moved to Paris last year, and I learned French there."
+          },
+          {
+            "id": "c",
+            "text": "I moved to Paris last year, and I learned French there."
+          }
+        ]
+      },
+      {
+        "id": "q65",
+        "type": "mcq_multi",
+        "prompt": "Select all sentences that keep tense consistency in a biography + story.",
+        "theory_block_id": "b6_theory_story_structure",
+        "difficulty": 3,
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "Sentence a uses Present Perfect for the biography and Past Simple for a past event. Sentence c follows the same pattern. Sentences b and d mix time markers with the wrong tense.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "I've worked in IT for five years. Last year I changed companies."
+          },
+          {
+            "id": "b",
+            "text": "I have worked in IT for five years. I changed companies in 2019, and I have met my new boss yesterday."
+          },
+          {
+            "id": "c",
+            "text": "I've managed a team. In 2022 I led a launch."
+          },
+          {
+            "id": "d",
+            "text": "I worked in IT since 2018."
+          }
+        ]
+      },
+      {
+        "id": "q66",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"When I arrived at the interview, I realized I had ___ the wrong file.\" (bring)",
+        "theory_block_id": "b6_theory_story_structure",
+        "difficulty": 2,
+        "correct_answer": "brought",
+        "explanation": "The realization happened after the earlier action. Past Perfect shows the earlier event: had brought. This creates a clear flashback.",
+        "tags": []
+      },
+      {
+        "id": "q67",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: She has lived in Tokyo. She ___ there in 2020.",
+        "theory_block_id": "b6_theory_story_structure",
+        "difficulty": 2,
+        "correct_answer": "b",
+        "explanation": "The detail includes a specific time, in 2020, so Past Simple is required. The correct form is moved. Present Perfect is not used with exact past dates.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "has moved"
+          },
+          {
+            "id": "b",
+            "text": "moved"
+          },
+          {
+            "id": "c",
+            "text": "moves"
+          },
+          {
+            "id": "d",
+            "text": "has move"
+          }
+        ]
+      },
+      {
+        "id": "q68",
+        "type": "true_false",
+        "prompt": "It is fine to mix Present Perfect with exact past dates in the same clause.",
+        "theory_block_id": "b6_theory_story_structure",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Exact past dates belong to Past Simple. Present Perfect avoids finished time expressions. Mixing them causes a tense error.",
+        "tags": []
+      },
+      {
+        "id": "q69",
+        "type": "error_spotting",
+        "prompt": "Find the mistake and choose the corrected sentence: \"I have worked at the hotel for five years, then I have left last summer.\"",
+        "theory_block_id": "b6_theory_story_structure",
+        "difficulty": 3,
+        "correct_answer": "b",
+        "explanation": "Last summer is a finished time, so Past Simple is needed. The correct sequence is I worked..., then I left last summer. Present Perfect cannot be used with that time marker.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "I worked at the hotel for five years, then I have left last summer."
+          },
+          {
+            "id": "b",
+            "text": "I worked at the hotel for five years, then I left last summer."
+          },
+          {
+            "id": "c",
+            "text": "I have worked at the hotel for five years, then I left last summer."
+          }
+        ]
+      },
+      {
+        "id": "q70",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I've never worked in banking, but I ___ in finance in 2017.\" (work)",
+        "theory_block_id": "b6_theory_story_structure",
+        "difficulty": 2,
+        "correct_answer": "worked",
+        "explanation": "The second clause has a specific time, in 2017, which requires Past Simple. The correct form is worked. This keeps the biography plus detail structure clear.",
+        "tags": []
+      },
+      {
+        "id": "q71",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: After I had solved the issue, I ___ the client.",
+        "theory_block_id": "b6_theory_story_structure",
+        "difficulty": 2,
+        "correct_answer": "a",
+        "explanation": "After introduces the later action, so Past Simple is needed for the result: called. Past Perfect is for the earlier action only.",
+        "tags": [],
+        "choices": [
+          {
+            "id": "a",
+            "text": "called"
+          },
+          {
+            "id": "b",
+            "text": "have called"
+          },
+          {
+            "id": "c",
+            "text": "call"
+          },
+          {
+            "id": "d",
+            "text": "had called"
+          }
+        ]
+      },
+      {
+        "id": "q72",
+        "type": "true_false",
+        "prompt": "A biography summary can be 2-3 Present Perfect sentences before a past story.",
+        "theory_block_id": "b6_theory_story_structure",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "This structure is common: short Present Perfect summary, then Past Simple story with optional flashback. It keeps the narrative organized and clear.",
+        "tags": []
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q5",
+      "q6",
+      "q8",
+      "q9",
+      "q11",
+      "q12",
+      "q14",
+      "q16",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q24",
+      "q27",
+      "q29",
+      "q30",
+      "q32",
+      "q33",
+      "q34",
+      "q36",
+      "q39",
+      "q41",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q48",
+      "q51",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q58",
+      "q60",
+      "q61",
+      "q62",
+      "q63",
+      "q64",
+      "q65",
+      "q66",
+      "q67",
+      "q68",
+      "q69",
+      "q70",
+      "q71",
+      "q72"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-20T12:05:12Z",
+    "source": "llm"
+  }
+}

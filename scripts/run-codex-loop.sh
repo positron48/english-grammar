@@ -24,6 +24,30 @@ trap 'echo ""; echo -e "${RED}🛑 Остановка цикла...${RESET}"; ex
 
 cd "$PROJECT_ROOT" || exit 1
 
+# Функция для форматирования времени в дни, часы, минуты, секунды
+format_time() {
+    local total_seconds=$1
+    local days=$((total_seconds / 86400))
+    local hours=$(((total_seconds % 86400) / 3600))
+    local minutes=$(((total_seconds % 3600) / 60))
+    local seconds=$((total_seconds % 60))
+    
+    local result=""
+    if [ $days -gt 0 ]; then
+        result="${days} дн "
+    fi
+    if [ $hours -gt 0 ]; then
+        result="${result}${hours} ч "
+    fi
+    if [ $minutes -gt 0 ]; then
+        result="${result}${minutes} мин "
+    fi
+    # Всегда показываем секунды для стабильности формата
+    result="${result}${seconds} сек"
+    
+    echo "$result"
+}
+
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
 echo -e "${BOLD}${CYAN}🔄 Запуск бесконечного цикла codex exec${RESET}"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
@@ -101,12 +125,11 @@ while true; do
         WAIT_SECONDS=$((WAIT_SECONDS + 10))
         
         # Форматируем время ожидания
-        WAIT_MINUTES=$((WAIT_SECONDS / 60))
-        WAIT_REMAINING_SECONDS=$((WAIT_SECONDS % 60))
-        RESET_TIME=$(date -d "+${WAIT_SECONDS} seconds" '+%H:%M:%S' 2>/dev/null || date -v+${WAIT_SECONDS}S '+%H:%M:%S' 2>/dev/null || echo "через ~${WAIT_MINUTES} мин")
+        WAIT_FORMATTED=$(format_time $WAIT_SECONDS)
+        RESET_TIME=$(date -d "+${WAIT_SECONDS} seconds" '+%H:%M:%S' 2>/dev/null || date -v+${WAIT_SECONDS}S '+%H:%M:%S' 2>/dev/null || echo "через ~$((WAIT_SECONDS / 60)) мин")
         
         echo -e "${YELLOW}⏳ Ожидание сброса лимита...${RESET}"
-        echo -e "${YELLOW}   Время ожидания: ${BOLD}${WAIT_MINUTES} мин ${WAIT_REMAINING_SECONDS} сек${RESET}"
+        echo -e "${YELLOW}   Время ожидания: ${BOLD}${WAIT_FORMATTED}${RESET}"
         echo -e "${YELLOW}   Ожидаемое время сброса: ${BOLD}${RESET_TIME}${RESET}"
         echo ""
         
@@ -151,8 +174,8 @@ while true; do
         PROGRESS_CHARS=("░" "▒" "▓" "█" "▉" "▊" "▋" "▌" "▍" "▎" "▏")
         
         while [ $WAIT_SECONDS -gt 0 ]; do
-            MINUTES=$((WAIT_SECONDS / 60))
-            SECONDS=$((WAIT_SECONDS % 60))
+            # Форматируем оставшееся время
+            TIME_REMAINING=$(format_time $WAIT_SECONDS)
             
             # Вычисляем прогресс-бар (30 символов)
             TOTAL_BARS=30
@@ -275,7 +298,7 @@ while true; do
             
             # Строка с временем
             printf "\r\033[K  "
-            printf "${COLORED_SPINNER} ${TIME_COLOR}⏱️  Осталось: ${TIME_COLOR}%02d:%02d${RESET}\n" $MINUTES $SECONDS
+            printf "${COLORED_SPINNER} ${TIME_COLOR}⏱️  Осталось: ${TIME_COLOR}${TIME_REMAINING}${RESET}\n"
             
             # Пустая строка
             printf "\r\033[K\n"
