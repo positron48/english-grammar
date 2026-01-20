@@ -84,6 +84,18 @@
       }
     },
     {
+      "id": "b2_quiz_after_negatives_basics",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b2_theory_dont_vs_doesnt",
       "type": "theory",
       "title": "Выбор между don't и doesn't зависит от подлежащего (subject) в предложении:",
@@ -147,6 +159,18 @@
       }
     },
     {
+      "id": "b3_quiz_after_dont_vs_doesnt",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b3_theory_contractions",
       "type": "theory",
       "title": "В английском языке можно использовать как сокращенные формы (don't, doesn't), так и полные формы (do not, does not).",
@@ -182,6 +206,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_contractions",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q24",
+          "q25"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -246,6 +282,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_never_usage",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q30",
+          "q31"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -324,6 +372,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_common_mistakes",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q39",
+          "q43"
+        ],
+        "show_answers_immediately": true
       }
     }
   ],
@@ -1634,14 +1694,37 @@
           "never",
           "third_person"
         ]
+      },
+      {
+        "id": "q45",
+        "type": "error_spotting",
+        "prompt": "Исправьте ошибку в предложении:\n\n**You doesn't like it.**",
+        "theory_block_id": "b5_theory_common_mistakes",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "You don't like it.",
+            "feedback": "Правильно! С 'you' используется 'don't', а не 'doesn't'"
+          },
+          {
+            "id": "b",
+            "text": "You not like it.",
+            "feedback": "Нет, нужен вспомогательный глагол do"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: неправильный выбор don't/doesn't. С местоимением 'you' используется 'don't', а не 'doesn't'. Правильно: You don't like it.",
+        "tags": [
+          "common_mistakes",
+          "dont_vs_doesnt"
+        ]
       }
     ]
   },
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q2",
       "q3",
       "q4",
       "q5",
@@ -1652,8 +1735,6 @@
       "q10",
       "q11",
       "q12",
-      "q13",
-      "q14",
       "q15",
       "q16",
       "q17",
@@ -1663,14 +1744,10 @@
       "q21",
       "q22",
       "q23",
-      "q24",
-      "q25",
       "q26",
       "q27",
       "q28",
       "q29",
-      "q30",
-      "q31",
       "q32",
       "q33",
       "q34",
@@ -1678,8 +1755,6 @@
       "q36",
       "q37",
       "q38",
-      "q39",
-      "q43",
       "q44",
       "q46",
       "q47",
@@ -1695,7 +1770,8 @@
       "q57",
       "q58",
       "q59",
-      "q60"
+      "q60",
+      "q45"
     ],
     "selection_strategy": {
       "type": "stratified_by_theory_block",
@@ -1710,7 +1786,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T12:47:33Z",
+    "updated_at": "2026-01-20T13:13:16Z",
     "source": "llm"
   }
 }

@@ -64,6 +64,18 @@
       }
     },
     {
+      "id": "b2_quiz_after_introducing_yourself",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b2_theory_describing_state",
       "type": "theory",
       "title": "Описание состояния в диалоге. После представления вы можете описать свое состояние или чувства, используя I am + прилагательное: \"I am tired\", \"I am happy\", \"I am fine\". Когда вы говорите о другом человеке, используйте правильную форму be: \"She is happy\", \"He is tired\", \"They are fine\".",
@@ -87,6 +99,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_describing_state",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q17"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -125,6 +149,18 @@
       }
     },
     {
+      "id": "b4_quiz_after_asking_questions",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q28"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b4_theory_clarifying_this_that",
       "type": "theory",
       "title": "Уточнение с помощью this/that. В диалоге вы можете уточнять информацию, используя this is... (это) и that is... (то). This используется для близких объектов или людей: \"This is my friend Anna\". That — для далеких: \"That is my book over there\".",
@@ -151,6 +187,18 @@
       }
     },
     {
+      "id": "b5_quiz_after_clarifying_this_that",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q38",
+          "q39"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b5_theory_mini_dialogue_structure",
       "type": "theory",
       "title": "Структура мини-диалога. Хороший мини-диалог имеет логичную структуру: 1) Приветствие (Hello/Hi), 2) Представление (I am... / My name is...), 3) Обмен информацией (описание состояния, вопросы, уточнения), 4) Завершение (Goodbye / Bye / See you).",
@@ -174,6 +222,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_mini_dialogue_structure",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q51"
+        ],
+        "show_answers_immediately": true
       }
     }
   ],
@@ -776,22 +836,29 @@
         "tags": [
           "structure"
         ]
+      },
+      {
+        "id": "q58",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"They ___ fine today.\" (to be)",
+        "theory_block_id": "b2_theory_describing_state",
+        "difficulty": 2,
+        "correct_answer": "are",
+        "explanation": "Правильный ответ: 'are'. Для описания состояния группы используется They are + прилагательное: They are fine today.",
+        "tags": [
+          "state",
+          "plural"
+        ]
       }
     ]
   },
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q2",
       "q5",
       "q7",
       "q9",
-      "q13",
-      "q17",
       "q21",
-      "q25",
-      "q28",
       "q29",
       "q30",
       "q31",
@@ -799,8 +866,6 @@
       "q33",
       "q35",
       "q36",
-      "q38",
-      "q39",
       "q40",
       "q41",
       "q42",
@@ -808,10 +873,9 @@
       "q45",
       "q46",
       "q47",
-      "q49",
-      "q51",
       "q53",
-      "q57"
+      "q57",
+      "q58"
     ],
     "selection_strategy": {
       "type": "stratified_by_theory_block",
@@ -826,7 +890,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T12:47:22Z",
+    "updated_at": "2026-01-20T13:31:50Z",
     "source": "llm"
   }
 }

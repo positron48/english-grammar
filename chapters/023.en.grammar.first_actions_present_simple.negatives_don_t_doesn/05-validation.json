@@ -2,19 +2,11 @@
   "validation_result": {
     "is_valid": true,
     "schema_valid": true,
-    "issues": [
-      {
-        "severity": "warning",
-        "category": "methodological",
-        "message": "Theory block b5_theory_common_mistakes имеет только 3 вопрос(ов), минимум 4 требуется",
-        "location": "question_bank.questions",
-        "suggested_fix": "Добавить вопросы для theory_block b5_theory_common_mistakes. Сейчас: 3, нужно минимум 4"
-      }
-    ],
+    "issues": [],
     "summary": {
-      "total_issues": 1,
+      "total_issues": 0,
       "errors": 0,
-      "warnings": 1,
+      "warnings": 0,
       "suggestions": 0
     },
     "coverage": {
@@ -25,7 +17,7 @@
         "b2_theory_dont_vs_doesnt": 16,
         "b3_theory_contractions": 7,
         "b4_theory_never_usage": 13,
-        "b5_theory_common_mistakes": 3
+        "b5_theory_common_mistakes": 4
       }
     }
   }

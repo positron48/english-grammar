@@ -69,6 +69,18 @@
       }
     },
     {
+      "id": "b2_quiz_after_personal_pronouns",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b2_theory_am_is_are_forms",
       "type": "theory",
       "title": "Глагол be (быть) имеет три основные формы в настоящем времени:",
@@ -110,6 +122,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_am_is_are_forms",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -169,6 +193,18 @@
       }
     },
     {
+      "id": "b4_quiz_after_pronouns_with_be",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b4_theory_singular_plural",
       "type": "theory",
       "title": "Местоимения делятся на единственное и множественное число:",
@@ -215,6 +251,18 @@
       }
     },
     {
+      "id": "b5_quiz_after_singular_plural",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b5_theory_common_patterns",
       "type": "theory",
       "title": "С местоимениями и глаголом be можно строить простые предложения по основным паттернам:",
@@ -257,6 +305,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_common_patterns",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q51",
+          "q52"
+        ],
+        "show_answers_immediately": true
       }
     }
   ],
@@ -941,14 +1001,41 @@
           "patterns",
           "word_order"
         ]
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "prompt": "Какое из этих местоимений относится к множественному числу?",
+        "theory_block_id": "b4_theory_singular_plural",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "he",
+            "feedback": "Нет, 'he' — единственное число"
+          },
+          {
+            "id": "b",
+            "text": "they",
+            "feedback": "Правильно! 'they' — множественное число"
+          },
+          {
+            "id": "c",
+            "text": "she",
+            "feedback": "Нет, 'she' — единственное число"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Местоимение 'they' (они) — это множественное число (третье лицо множественного числа).",
+        "tags": [
+          "singular_plural"
+        ]
       }
     ]
   },
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q2",
       "q3",
       "q4",
       "q5",
@@ -957,8 +1044,6 @@
       "q8",
       "q9",
       "q10",
-      "q13",
-      "q14",
       "q15",
       "q16",
       "q17",
@@ -967,8 +1052,6 @@
       "q20",
       "q21",
       "q22",
-      "q25",
-      "q26",
       "q27",
       "q28",
       "q29",
@@ -977,15 +1060,12 @@
       "q32",
       "q33",
       "q34",
-      "q37",
-      "q38",
       "q42",
-      "q51",
-      "q52",
       "q53",
       "q58",
       "q59",
-      "q60"
+      "q60",
+      "q11"
     ],
     "selection_strategy": {
       "type": "stratified_by_theory_block",
@@ -1000,7 +1080,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T12:47:25Z",
+    "updated_at": "2026-01-20T13:13:09Z",
     "source": "llm"
   }
 }

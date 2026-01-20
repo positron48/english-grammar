@@ -82,6 +82,18 @@
       }
     },
     {
+      "id": "b2_quiz_after_frequency_adverbs_basics",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b2_theory_placement_with_ordinary_verbs",
       "type": "theory",
       "title": "С обычными глаголами наречия частоты ставятся ПЕРЕД основным глаголом.",
@@ -137,6 +149,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_placement_with_ordinary_verbs",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q8",
+          "q9"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -198,6 +222,18 @@
       }
     },
     {
+      "id": "b4_quiz_after_placement_with_be",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q17",
+          "q18"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b4_theory_adverbs_in_negatives_questions",
       "type": "theory",
       "title": "Наречия частоты используются и в отрицаниях, и в вопросах Present Simple.",
@@ -251,6 +287,18 @@
       }
     },
     {
+      "id": "b5_quiz_after_adverbs_in_negatives_questions",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q27",
+          "q28"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b5_theory_common_mistakes_placement",
       "type": "theory",
       "title": "Основная ошибка русскоязычных студентов — неправильная позиция наречий частоты.",
@@ -285,6 +333,18 @@
           }
         ],
         "examples": []
+      }
+    },
+    {
+      "id": "b6_quiz_after_common_mistakes_placement",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q32",
+          "q36"
+        ],
+        "show_answers_immediately": true
       }
     }
   ],
@@ -1086,21 +1146,75 @@
         "correct_answer": "b",
         "explanation": "With the verb be, the adverb of frequency goes after be. The correct order is She is always late. Placing always before be is a common mistake.",
         "tags": []
+      },
+      {
+        "id": "q37",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в предложении:\n\n**I don't go often there.**",
+        "theory_block_id": "b5_theory_common_mistakes_placement",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I don't often go there.",
+            "feedback": "Правильно! В отрицаниях наречие ставится между don't/doesn't и глаголом"
+          },
+          {
+            "id": "b",
+            "text": "I don't go often there",
+            "feedback": "Нет, это неправильная позиция наречия"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: в отрицаниях наречие частоты ставится между don't/doesn't и глаголом, а не после глагола. Правильно: I don't often go there.",
+        "tags": [
+          "common_mistakes",
+          "placement",
+          "negatives"
+        ]
+      },
+      {
+        "id": "q38",
+        "type": "mcq_single",
+        "prompt": "Какая типичная ошибка в предложении \"They are always not happy.\"?",
+        "theory_block_id": "b5_theory_common_mistakes_placement",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "They are not always happy.",
+            "feedback": "Правильно! В отрицаниях с be наречие ставится после not"
+          },
+          {
+            "id": "b",
+            "text": "They are always not happy.",
+            "feedback": "Нет, это неправильный порядок слов"
+          },
+          {
+            "id": "c",
+            "text": "They always are not happy.",
+            "feedback": "Нет, это тоже неправильно"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Типичная ошибка: неправильная позиция наречия в отрицаниях с be. Правильно: They are not always happy. Порядок: am/is/are + not + наречие.",
+        "tags": [
+          "common_mistakes",
+          "placement",
+          "negatives",
+          "be_verb"
+        ]
       }
     ]
   },
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q2",
       "q3",
       "q4",
       "q5",
       "q6",
       "q7",
-      "q8",
-      "q9",
       "q10",
       "q11",
       "q12",
@@ -1108,8 +1222,6 @@
       "q14",
       "q15",
       "q16",
-      "q17",
-      "q18",
       "q19",
       "q20",
       "q21",
@@ -1118,15 +1230,13 @@
       "q24",
       "q25",
       "q26",
-      "q27",
-      "q28",
       "q29",
       "q30",
       "q31",
-      "q32",
       "q34",
       "q35",
-      "q36"
+      "q37",
+      "q38"
     ],
     "selection_strategy": {
       "type": "stratified_by_theory_block",
@@ -1141,7 +1251,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T12:47:26Z",
+    "updated_at": "2026-01-20T13:07:51Z",
     "source": "llm"
   }
 }

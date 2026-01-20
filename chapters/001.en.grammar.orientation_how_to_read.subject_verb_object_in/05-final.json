@@ -48,6 +48,18 @@
       }
     },
     {
+      "id": "b2_quiz_after_basic_structure",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b2_theory_subject",
       "type": "theory",
       "title": "Подлежащее — это главная часть предложения, которая отвечает на вопросы «кто?» или «что?». Оно показывает, кто или что выполняет действие.",
@@ -80,6 +92,18 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_subject",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q6",
+          "q8"
+        ],
+        "show_answers_immediately": true
       }
     },
     {
@@ -118,6 +142,18 @@
       }
     },
     {
+      "id": "b4_quiz_after_verb",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q11",
+          "q13"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b4_theory_object",
       "type": "theory",
       "title": "Дополнение — это часть предложения, которая показывает, на что направлено действие. Оно отвечает на вопросы «кого?», «что?», «кому?», «для кого?».",
@@ -148,6 +184,18 @@
       }
     },
     {
+      "id": "b5_quiz_after_object",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q16",
+          "q18"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
       "id": "b5_theory_practice",
       "type": "theory",
       "title": "Теперь давайте потренируемся определять структуру предложений. Помните:",
@@ -157,6 +205,18 @@
         "key_points": [],
         "common_mistakes": [],
         "examples": []
+      }
+    },
+    {
+      "id": "b6_quiz_after_practice",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q23",
+          "q24"
+        ],
+        "show_answers_immediately": true
       }
     }
   ],
@@ -591,32 +651,80 @@
           "object",
           "identification"
         ]
+      },
+      {
+        "id": "q30",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную структуру предложения:",
+        "theory_block_id": "b5_theory_practice",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I read books.",
+            "feedback": "Правильно! Подлежащее (I) → сказуемое (read) → дополнение (books)"
+          },
+          {
+            "id": "b",
+            "text": "Read I books.",
+            "feedback": "Нет, неправильный порядок слов"
+          },
+          {
+            "id": "c",
+            "text": "Books I read.",
+            "feedback": "Нет, порядок слов строгий: подлежащее → сказуемое → дополнение"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильная структура: подлежащее (I) → сказуемое (read) → дополнение (books). В английском языке порядок слов строгий и его нельзя менять.",
+        "tags": [
+          "practice",
+          "structure"
+        ]
+      },
+      {
+        "id": "q31",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку в структуре предложения:\n\n**Plays he football.**",
+        "theory_block_id": "b5_theory_practice",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He plays football.",
+            "feedback": "Правильно! Подлежащее должно быть перед сказуемым"
+          },
+          {
+            "id": "b",
+            "text": "Plays he football",
+            "feedback": "Нет, это неправильный порядок слов"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ошибка: неправильный порядок слов. В английском языке подлежащее всегда идет перед сказуемым. Правильно: He plays football.",
+        "tags": [
+          "practice",
+          "word_order",
+          "error"
+        ]
       }
     ]
   },
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q2",
       "q4",
       "q5",
-      "q6",
-      "q8",
       "q9",
       "q10",
-      "q11",
-      "q13",
       "q14",
       "q15",
-      "q16",
-      "q18",
       "q19",
       "q20",
-      "q23",
-      "q24",
       "q27",
-      "q29"
+      "q29",
+      "q30",
+      "q31"
     ],
     "selection_strategy": {
       "type": "stratified_by_theory_block",
@@ -631,7 +739,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T12:47:39Z",
+    "updated_at": "2026-01-20T13:08:27Z",
     "source": "llm"
   }
 }

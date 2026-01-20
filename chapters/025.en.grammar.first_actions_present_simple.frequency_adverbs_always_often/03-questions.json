@@ -796,6 +796,64 @@
       "correct_answer": "b",
       "explanation": "With the verb be, the adverb of frequency goes after be. The correct order is She is always late. Placing always before be is a common mistake.",
       "tags": []
+    },
+    {
+      "id": "q37",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку в предложении:\n\n**I don't go often there.**",
+      "theory_block_id": "b5_theory_common_mistakes_placement",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I don't often go there.",
+          "feedback": "Правильно! В отрицаниях наречие ставится между don't/doesn't и глаголом"
+        },
+        {
+          "id": "b",
+          "text": "I don't go often there",
+          "feedback": "Нет, это неправильная позиция наречия"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Ошибка: в отрицаниях наречие частоты ставится между don't/doesn't и глаголом, а не после глагола. Правильно: I don't often go there.",
+      "tags": [
+        "common_mistakes",
+        "placement",
+        "negatives"
+      ]
+    },
+    {
+      "id": "q38",
+      "type": "mcq_single",
+      "prompt": "Какая типичная ошибка в предложении \"They are always not happy.\"?",
+      "theory_block_id": "b5_theory_common_mistakes_placement",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "They are not always happy.",
+          "feedback": "Правильно! В отрицаниях с be наречие ставится после not"
+        },
+        {
+          "id": "b",
+          "text": "They are always not happy.",
+          "feedback": "Нет, это неправильный порядок слов"
+        },
+        {
+          "id": "c",
+          "text": "They always are not happy.",
+          "feedback": "Нет, это тоже неправильно"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Типичная ошибка: неправильная позиция наречия в отрицаниях с be. Правильно: They are not always happy. Порядок: am/is/are + not + наречие.",
+      "tags": [
+        "common_mistakes",
+        "placement",
+        "negatives",
+        "be_verb"
+      ]
     }
   ]
 }

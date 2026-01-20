@@ -1305,6 +1305,31 @@
         "never",
         "third_person"
       ]
+    },
+    {
+      "id": "q45",
+      "type": "error_spotting",
+      "prompt": "Исправьте ошибку в предложении:\n\n**You doesn't like it.**",
+      "theory_block_id": "b5_theory_common_mistakes",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "You don't like it.",
+          "feedback": "Правильно! С 'you' используется 'don't', а не 'doesn't'"
+        },
+        {
+          "id": "b",
+          "text": "You not like it.",
+          "feedback": "Нет, нужен вспомогательный глагол do"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Ошибка: неправильный выбор don't/doesn't. С местоимением 'you' используется 'don't', а не 'doesn't'. Правильно: You don't like it.",
+      "tags": [
+        "common_mistakes",
+        "dont_vs_doesnt"
+      ]
     }
   ]
 }

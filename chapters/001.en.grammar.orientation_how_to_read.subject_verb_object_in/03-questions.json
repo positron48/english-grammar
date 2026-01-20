@@ -429,6 +429,62 @@
                 "object",
                 "identification"
             ]
+        },
+        {
+            "id": "q30",
+            "type": "mcq_single",
+            "prompt": "Выберите правильную структуру предложения:",
+            "theory_block_id": "b5_theory_practice",
+            "difficulty": 2,
+            "choices": [
+                {
+                    "id": "a",
+                    "text": "I read books.",
+                    "feedback": "Правильно! Подлежащее (I) → сказуемое (read) → дополнение (books)"
+                },
+                {
+                    "id": "b",
+                    "text": "Read I books.",
+                    "feedback": "Нет, неправильный порядок слов"
+                },
+                {
+                    "id": "c",
+                    "text": "Books I read.",
+                    "feedback": "Нет, порядок слов строгий: подлежащее → сказуемое → дополнение"
+                }
+            ],
+            "correct_answer": "a",
+            "explanation": "Правильная структура: подлежащее (I) → сказуемое (read) → дополнение (books). В английском языке порядок слов строгий и его нельзя менять.",
+            "tags": [
+                "practice",
+                "structure"
+            ]
+        },
+        {
+            "id": "q31",
+            "type": "error_spotting",
+            "prompt": "Найдите ошибку в структуре предложения:\n\n**Plays he football.**",
+            "theory_block_id": "b5_theory_practice",
+            "difficulty": 2,
+            "choices": [
+                {
+                    "id": "a",
+                    "text": "He plays football.",
+                    "feedback": "Правильно! Подлежащее должно быть перед сказуемым"
+                },
+                {
+                    "id": "b",
+                    "text": "Plays he football",
+                    "feedback": "Нет, это неправильный порядок слов"
+                }
+            ],
+            "correct_answer": "a",
+            "explanation": "Ошибка: неправильный порядок слов. В английском языке подлежащее всегда идет перед сказуемым. Правильно: He plays football.",
+            "tags": [
+                "practice",
+                "word_order",
+                "error"
+            ]
         }
     ]
 }
