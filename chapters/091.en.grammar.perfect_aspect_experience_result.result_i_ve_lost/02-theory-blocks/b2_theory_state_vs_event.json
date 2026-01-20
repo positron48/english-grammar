@@ -1,0 +1,38 @@
+{
+  "theory_block": {
+    "id": "b2_theory_state_vs_event",
+    "concept_id": "result_state_vs_past_simple",
+    "content_md": "Если важен **результат сейчас**, выбираем Present Perfect. Если важно **когда** произошло действие (есть завершенное время или временной контекст), используем Past Simple. Сравните: результатное значение отвечает на вопрос «что это меняет сейчас?».",
+    "key_points": [
+      "Present Perfect: результат важен сейчас, время не названо.",
+      "Past Simple: событие завершено в прошлом, время или контекст важны."
+    ],
+    "examples": [
+      {
+        "id": "ex1",
+        "text": "I've lost my keys, so I can't get in.",
+        "translation": "Я потерял ключи, поэтому не могу войти.",
+        "tags": ["affirmative", "result"]
+      },
+      {
+        "id": "ex2",
+        "text": "I lost my keys yesterday.",
+        "translation": "Я потерял ключи вчера.",
+        "tags": ["affirmative", "past_simple", "time"]
+      },
+      {
+        "id": "ex3",
+        "text": "Have you finished the report yet?",
+        "translation": "Ты уже закончил отчет?",
+        "tags": ["question", "result"]
+      }
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "I have lost my keys yesterday.",
+        "right": "I lost my keys yesterday.",
+        "why": "С конкретным прошлым временем (yesterday) используется Past Simple, не Present Perfect."
+      }
+    ]
+  }
+}
