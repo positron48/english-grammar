@@ -64,7 +64,6 @@
              "outline": "chapters/{chapter_id}/01-outline.json",
              "theory_blocks": "chapters/{chapter_id}/02-theory-blocks/",
              "questions": "chapters/{chapter_id}/03-questions.json",
-             "inline_quizzes": "chapters/{chapter_id}/04-inline-quizzes.json",
              "final": "chapters/{chapter_id}/05-final.json",
              "validation": "chapters/{chapter_id}/05-validation.json"
            }
@@ -79,7 +78,8 @@
      git commit -m "feat: сгенерирована глава {chapter_id}
 
      - Глава: {title} ({level})
-     - Созданы все файлы: outline, theory blocks, questions, inline quizzes, final JSON
+     - Созданы все файлы: outline, theory blocks, questions, final JSON
+     - Inline-квизы сгенерированы автоматически при сборке final JSON
      - Валидация: {is_valid ? 'пройдена' : 'есть ошибки'}
      - Обновлен generation-status.json"
      ```

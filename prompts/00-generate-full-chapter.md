@@ -28,15 +28,7 @@
 
 Сгенерируй `chapters/{chapter_id}/03-questions.json` с минимум 60 вопросами.
 
-### Шаг 4: Inline Quizzes
-Используй:
-- Промпт `prompts/04-inline-quizzes.md`
-- План из `chapters/{chapter_id}/01-outline.json`
-- Question_bank из `chapters/{chapter_id}/03-questions.json`
-
-Сгенерируй `chapters/{chapter_id}/04-inline-quizzes.json`.
-
-### Шаг 5: Сборка и валидация
+### Шаг 4: Сборка и валидация
 1. Собери финальный JSON из всех частей:
    - Используй `scripts/assemble-chapter.sh` ИЛИ собери вручную по схеме `02-chapter-schema.json`
    - Сохрани в `chapters/{chapter_id}/05-final.json`
@@ -52,7 +44,8 @@
    git commit -m "feat: сгенерирована глава {chapter_id}
 
    - Глава: {title} ({level})
-   - Созданы все файлы: outline, theory blocks, questions, inline quizzes, final JSON
+   - Созданы все файлы: outline, theory blocks, questions, final JSON
+   - Inline-квизы сгенерированы автоматически при сборке final JSON
    - Валидация: {is_valid ? 'пройдена' : 'есть ошибки'}
    - Обновлен generation-status.json"
    ```
@@ -74,9 +67,10 @@
 - `chapters/{chapter_id}/01-outline.json` - план главы
 - `chapters/{chapter_id}/02-theory-blocks/{block_id}.json` - theory blocks (по одному файлу на блок)
 - `chapters/{chapter_id}/03-questions.json` - банк вопросов
-- `chapters/{chapter_id}/04-inline-quizzes.json` - inline quizzes
-- `chapters/{chapter_id}/05-final.json` - финальный JSON главы
+- `chapters/{chapter_id}/05-final.json` - финальный JSON главы (с автоматически сгенерированными inline-квизами)
 - `chapters/{chapter_id}/05-validation.json` - результат валидации
+
+**Примечание:** Файл `04-inline-quizzes.json` больше не создается. Inline-квизы генерируются автоматически при сборке `05-final.json` из первых 2 вопросов каждого theory блока.
 
 ## Формат ответа
 
