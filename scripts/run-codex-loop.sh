@@ -110,14 +110,275 @@ while true; do
         echo -e "${YELLOW}   Ожидаемое время сброса: ${BOLD}${RESET_TIME}${RESET}"
         echo ""
         
-        # Обратный отсчет
+        # Обратный отсчет с МЕГА-анимацией! 🎨✨
+        INITIAL_WAIT=$WAIT_SECONDS
+        FRAME=0
+        
+        # Радужные цвета ANSI (256 цветов)
+        RAINBOW_COLORS=(
+            "\033[38;5;196m"  # Красный
+            "\033[38;5;202m"  # Оранжевый
+            "\033[38;5;226m"  # Желтый
+            "\033[38;5;46m"   # Зеленый
+            "\033[38;5;51m"   # Голубой
+            "\033[38;5;21m"   # Синий
+            "\033[38;5;129m"  # Фиолетовый
+            "\033[38;5;201m"  # Розовый
+        )
+        
+        # Разные наборы спиннеров
+        SPINNER_SETS=(
+            "⠋⠙⠹⠸⠼⠴⠦⠧⠇⠏"
+            "◐◓◑◒"
+            "◴◷◶◵"
+            "⣾⣽⣻⢿⡿⣟⣯⣷"
+            "▁▂▃▄▅▆▇█▇▆▅▄▃▂▁"
+            "▉▊▋▌▍▎▏▎▍▌▋▊▉"
+            "◆◇◆◇"
+            "✦✧✦✧"
+        )
+        SPINNER_SET_INDEX=0
+        SPINNER_CHAR_INDEX=0
+        
+        # Частицы для эффекта
+        PARTICLES=("·" "•" "○" "●" "◉" "◯" "◐" "◑" "◒" "◓")
+        
+        # Эмодзи для дополнительной анимации
+        EMOJI_SEQUENCE=("⏳" "⏰" "⏱️" "🕐" "🕑" "🕒" "🕓" "🕔" "🕕" "🕖" "🕗" "🕘" "✨" "🌟" "💫" "⭐")
+        EMOJI_INDEX=0
+        
+        # Символы для прогресс-бара
+        PROGRESS_CHARS=("░" "▒" "▓" "█" "▉" "▊" "▋" "▌" "▍" "▎" "▏")
+        
         while [ $WAIT_SECONDS -gt 0 ]; do
             MINUTES=$((WAIT_SECONDS / 60))
             SECONDS=$((WAIT_SECONDS % 60))
-            printf "\r${GRAY}   Осталось: ${YELLOW}%02d:%02d${GRAY} (Ctrl+C для выхода)${RESET}" $MINUTES $SECONDS
-            sleep 1
-            WAIT_SECONDS=$((WAIT_SECONDS - 1))
+            
+            # Вычисляем прогресс-бар (30 символов)
+            TOTAL_BARS=30
+            ELAPSED=$((INITIAL_WAIT - WAIT_SECONDS))
+            FILLED=$((ELAPSED * TOTAL_BARS / INITIAL_WAIT))
+            PROGRESS_PERCENT=$((ELAPSED * 100 / INITIAL_WAIT))
+            
+            # Создаем РАДУЖНЫЙ прогресс-бар! 🌈
+            PROGRESS_BAR=""
+            for ((i=0; i<FILLED; i++)); do
+                # Радужный эффект - цвет меняется по позиции
+                COLOR_INDEX=$(((i + FRAME) % ${#RAINBOW_COLORS[@]}))
+                CHAR_INDEX=$(((i + FRAME) % ${#PROGRESS_CHARS[@]}))
+                PROGRESS_BAR="${PROGRESS_BAR}${RAINBOW_COLORS[$COLOR_INDEX]}${PROGRESS_CHARS[-1]}${RESET}"
+            done
+            
+            # Анимированная граница с эффектом пульсации
+            if [ $FILLED -lt $TOTAL_BARS ]; then
+                WAVE_CHAR_INDEX=$((FRAME % ${#PROGRESS_CHARS[@]}))
+                PULSE_COLOR=$((FRAME % ${#RAINBOW_COLORS[@]}))
+                PROGRESS_BAR="${PROGRESS_BAR}${RAINBOW_COLORS[$PULSE_COLOR]}${PROGRESS_CHARS[$WAVE_CHAR_INDEX]}${RESET}"
+            fi
+            
+            # Заполняем пустую часть с эффектом "тумана"
+            REMAINING=$((TOTAL_BARS - FILLED - 1))
+            for ((i=0; i<REMAINING; i++)); do
+                FOG_CHAR=$(( (FRAME + i) % 3 ))
+                case $FOG_CHAR in
+                    0) FOG_SYMBOL="░" ;;
+                    1) FOG_SYMBOL="▒" ;;
+                    *) FOG_SYMBOL="▓" ;;
+                esac
+                PROGRESS_BAR="${PROGRESS_BAR}${GRAY}${FOG_SYMBOL}${RESET}"
+            done
+            
+            # Получаем текущий набор спиннеров
+            CURRENT_SPINNER_SET="${SPINNER_SETS[$SPINNER_SET_INDEX]}"
+            SPINNER_LENGTH=${#CURRENT_SPINNER_SET}
+            SPINNER="${CURRENT_SPINNER_SET:$SPINNER_CHAR_INDEX:1}"
+            
+            # Радужный спиннер
+            SPINNER_COLOR_INDEX=$((FRAME % ${#RAINBOW_COLORS[@]}))
+            COLORED_SPINNER="${RAINBOW_COLORS[$SPINNER_COLOR_INDEX]}${SPINNER}${RESET}"
+            
+            # Обновляем индексы спиннера
+            SPINNER_CHAR_INDEX=$(((SPINNER_CHAR_INDEX + 1) % SPINNER_LENGTH))
+            if [ $SPINNER_CHAR_INDEX -eq 0 ]; then
+                SPINNER_SET_INDEX=$(((SPINNER_SET_INDEX + 1) % ${#SPINNER_SETS[@]}))
+            fi
+            
+            # Обновляем эмодзи
+            if [ $((FRAME % 2)) -eq 0 ]; then
+                EMOJI="${EMOJI_SEQUENCE[$EMOJI_INDEX]}"
+                EMOJI_INDEX=$(((EMOJI_INDEX + 1) % ${#EMOJI_SEQUENCE[@]}))
+            fi
+            
+            # Радужный текст времени с пульсацией
+            TIME_COLOR_INDEX=$(((FRAME / 2) % ${#RAINBOW_COLORS[@]}))
+            PULSE=$((FRAME % 8))
+            if [ $PULSE -lt 4 ]; then
+                TIME_COLOR="${BOLD}${RAINBOW_COLORS[$TIME_COLOR_INDEX]}"
+            else
+                TIME_COLOR="${RAINBOW_COLORS[$TIME_COLOR_INDEX]}"
+            fi
+            
+            # Процент с радужным эффектом
+            PERCENT_COLOR_INDEX=$(((FRAME + 5) % ${#RAINBOW_COLORS[@]}))
+            
+            # Генерируем частицы для эффекта (ограничиваем до 10 частиц для правильного выравнивания)
+            PARTICLES_LINE=""
+            PARTICLE_COUNT=0
+            for ((i=0; i<20 && PARTICLE_COUNT<10; i++)); do
+                if [ $(( (FRAME + i) % 3 )) -eq 0 ]; then
+                    PARTICLE_COLOR_INDEX=$(( (i + FRAME) % ${#RAINBOW_COLORS[@]} ))
+                    PARTICLE_INDEX=$(( (FRAME + i) % ${#PARTICLES[@]} ))
+                    PARTICLES_LINE="${PARTICLES_LINE}${RAINBOW_COLORS[$PARTICLE_COLOR_INDEX]}${PARTICLES[$PARTICLE_INDEX]}${RESET} "
+                    PARTICLE_COUNT=$((PARTICLE_COUNT + 1))
+                else
+                    PARTICLES_LINE="${PARTICLES_LINE}  "
+                fi
+            done
+            
+            # Радужная рамка
+            FRAME_COLOR_INDEX=$((FRAME % ${#RAINBOW_COLORS[@]}))
+            FRAME_COLOR="${RAINBOW_COLORS[$FRAME_COLOR_INDEX]}"
+            
+            # ASCII-арт элементы
+            CORNER_TL="${FRAME_COLOR}╔${RESET}"
+            CORNER_TR="${FRAME_COLOR}╗${RESET}"
+            CORNER_BL="${FRAME_COLOR}╚${RESET}"
+            CORNER_BR="${FRAME_COLOR}╝${RESET}"
+            H_LINE="${FRAME_COLOR}═${RESET}"
+            V_LINE="${FRAME_COLOR}║${RESET}"
+            
+            # Анимированный заголовок
+            HEADER_COLOR_INDEX=$(((FRAME / 3) % ${#RAINBOW_COLORS[@]}))
+            HEADER_COLOR="${RAINBOW_COLORS[$HEADER_COLOR_INDEX]}"
+            
+            # Выводим МЕГА-многострочную анимацию! 🎆
+            # Перемещаемся на 9 строк вверх (если это не первая итерация)
+            # Всего 9 строк: верхняя рамка, заголовок, пустая, время, пустая, прогресс, пустая, частицы, нижняя рамка
+            if [ $FRAME -gt 0 ]; then
+                printf "\033[9A"
+            fi
+            
+            # Ширина рамки: 60 символов (58 горизонтальных + 2 угла)
+            FRAME_WIDTH=60
+            
+            # Верхняя рамка
+            printf "\r\033[K${CORNER_TL}"
+            for i in {1..58}; do printf "${H_LINE}"; done
+            printf "${CORNER_TR}\n"
+            
+            # Строка с заголовком
+            HEADER_TEXT="${EMOJI} ${HEADER_COLOR}Ожидание сброса лимита${RESET}"
+            printf "\r\033[K  ${HEADER_TEXT}\n"
+            
+            # Пустая строка
+            printf "\r\033[K\n"
+            
+            # Строка с временем
+            printf "\r\033[K  "
+            printf "${COLORED_SPINNER} ${TIME_COLOR}⏱️  Осталось: ${TIME_COLOR}%02d:%02d${RESET}\n" $MINUTES $SECONDS
+            
+            # Пустая строка
+            printf "\r\033[K\n"
+            
+            # Строка с прогресс-баром
+            printf "\r\033[K  "
+            printf "${PROGRESS_BAR} ${RAINBOW_COLORS[$PERCENT_COLOR_INDEX]}[%3d%%]${RESET}\n" $PROGRESS_PERCENT
+            
+            # Пустая строка
+            printf "\r\033[K\n"
+            
+            # Строка с частицами
+            PARTICLES_FIXED=""
+            PARTICLE_COUNT=0
+            for ((i=0; i<${#PARTICLES[@]} && PARTICLE_COUNT<9; i++)); do
+                if [ $(( (FRAME + i) % 3 )) -eq 0 ]; then
+                    PARTICLE_COLOR_INDEX=$(( (i + FRAME) % ${#RAINBOW_COLORS[@]} ))
+                    PARTICLE_INDEX=$(( (FRAME + i) % ${#PARTICLES[@]} ))
+                    PARTICLES_FIXED="${PARTICLES_FIXED}${RAINBOW_COLORS[$PARTICLE_COLOR_INDEX]}${PARTICLES[$PARTICLE_INDEX]}${RESET} "
+                    PARTICLE_COUNT=$((PARTICLE_COUNT + 1))
+                else
+                    PARTICLES_FIXED="${PARTICLES_FIXED}  "
+                fi
+            done
+            printf "\r\033[K  ${PARTICLES_FIXED}\n"
+            
+            # Нижняя рамка
+            printf "\r\033[K${CORNER_BL}"
+            for i in {1..58}; do printf "${H_LINE}"; done
+            printf "${CORNER_BR}\n"
+            
+            sleep 0.15
+            FRAME=$((FRAME + 1))
+            
+            # Обновляем секунды каждые ~7 кадров (1 секунда при sleep 0.15)
+            if [ $((FRAME % 7)) -eq 0 ]; then
+                WAIT_SECONDS=$((WAIT_SECONDS - 1))
+            fi
         done
+        
+        # Финальный эффект - "взрыв" радуги! 🎆
+        # Очищаем текущую анимацию перед финальным эффектом
+        printf "\033[9A"  # Перемещаемся на 9 строк вверх
+        for i in {1..9}; do
+            printf "\r\033[K\n"  # Очищаем каждую строку
+        done
+        printf "\033[9A"  # Возвращаемся наверх
+        
+        for i in {1..3}; do
+            for color in "${RAINBOW_COLORS[@]}"; do
+                # Верхняя рамка
+                printf "\r\033[K${color}╔"
+                for j in {1..58}; do printf "═"; done
+                printf "╗${RESET}\n"
+                
+                # Пустая строка
+                printf "\r\033[K\n"
+                
+                # Сообщение
+                MSG="${color}${BOLD}✨ ЛИМИТ СБРОШЕН! ✨${RESET}"
+                printf "\r\033[K  ${MSG}\n"
+                
+                # Пустая строка
+                printf "\r\033[K\n"
+                
+                # Пустая строка
+                printf "\r\033[K\n"
+                
+                # Пустая строка
+                printf "\r\033[K\n"
+                
+                # Пустая строка
+                printf "\r\033[K\n"
+                
+                # Пустая строка
+                printf "\r\033[K\n"
+                
+                # Пустая строка
+                printf "\r\033[K\n"
+                
+                # Нижняя рамка
+                printf "\r\033[K${color}╚"
+                for j in {1..58}; do printf "═"; done
+                printf "╝${RESET}\n"
+                
+                # Возвращаемся наверх для следующей итерации
+                printf "\033[9A"
+                
+                sleep 0.05
+            done
+        done
+        
+        # Очищаем анимацию (9 строк)
+        # Перемещаемся наверх и очищаем каждую строку полностью
+        printf "\033[9A"  # Перемещаемся на 9 строк вверх (к началу анимации)
+        for i in {1..9}; do
+            printf "\r\033[K"  # Очищаем текущую строку полностью
+            if [ $i -lt 9 ]; then
+                printf "\033[1B"  # Переходим на следующую строку вниз
+            fi
+        done
+        # Теперь мы на последней строке анимации, очищаем её и остаемся там
+        
         echo ""
         echo ""
         echo -e "${GREEN}✅ Лимит сброшен, продолжаем работу...${RESET}"

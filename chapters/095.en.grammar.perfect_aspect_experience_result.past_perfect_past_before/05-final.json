@@ -1,0 +1,1682 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.perfect_aspect_experience_result.past_perfect_past_before",
+  "section_id": "en.grammar.perfect_aspect_experience_result",
+  "title": "Past Perfect: “past before another past”",
+  "title_short": "Past Perfect: past before past",
+  "description": "Разбираем, как описывать событие, которое произошло раньше другого события в прошлом, и как отличать Past Perfect от Past Simple.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "B1",
+  "order": 0,
+  "prerequisites": [
+    "en.grammar.perfect_aspect_experience_result.present_perfect_vs_past"
+  ],
+  "concept_refs": [
+    "past_perfect_form",
+    "past_perfect_sequence",
+    "past_perfect_time_markers",
+    "past_perfect_vs_past_simple",
+    "past_perfect_questions_negatives",
+    "past_perfect_narrative"
+  ],
+  "learning_objectives": [
+    "Понимать смысл Past Perfect как \"раньше другого прошлого\"",
+    "Уметь строить утвердительные, отрицательные и вопросительные формы",
+    "Различать Past Perfect и Past Simple в сложных предложениях"
+  ],
+  "estimated_minutes": 25,
+  "blocks": [
+    {
+      "id": "b1_theory_form_usage",
+      "type": "theory",
+      "title": "Past Perfect образуется с had + V3 и показывает, что действие завершилось до другого момента в прошлом. Формально это \"прошедшее в прошлом\": мы говорим не просто о событии, а о том, что оно было уже закончено к другой точке прошлого.",
+      "theory": {
+        "concept_id": "past_perfect_form",
+        "content_md": "Past Perfect образуется с **had + V3** и показывает, что действие завершилось **до** другого момента в прошлом. Формально это \"прошедшее в прошлом\": мы говорим не просто о событии, а о том, что оно было уже закончено к другой точке прошлого.",
+        "key_points": [
+          "Форма одинакова для всех лиц: I/you/he/we/they **had + V3**",
+          "Past Perfect указывает на завершенность раньше другого прошлого события"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "She had finished the report before noon.",
+            "translation": "Она закончила отчет до полудня.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "We hadn’t met him before that day.",
+            "translation": "Мы не встречали его до того дня.",
+            "tags": [
+              "negative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_form_usage",
+      "type": "quiz_inline",
+      "title": "Quick check: Past Perfect form",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2",
+          "q5",
+          "q7",
+          "q9"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_sequence_before_past",
+      "type": "theory",
+      "title": "Past Perfect нужен, когда в прошлом есть два события, и одно произошло раньше другого. Более позднее событие обычно ставится в Past Simple, а более раннее — в Past Perfect. Так мы фиксируем порядок, даже если он не совпадает с порядком в предложении.",
+      "theory": {
+        "concept_id": "past_perfect_sequence",
+        "content_md": "Past Perfect нужен, когда в прошлом есть **два события**, и одно произошло раньше другого. Более позднее событие обычно ставится в Past Simple, а более раннее — в Past Perfect. Так мы фиксируем порядок, даже если он не совпадает с порядком в предложении.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "When I arrived, the train had already left.",
+            "translation": "Когда я приехал, поезд уже ушел.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Had you ever visited Paris before you moved there?",
+            "translation": "Ты когда-нибудь бывал в Париже до того, как переехал туда?",
+            "tags": [
+              "question"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_sequence_before_past",
+      "type": "quiz_inline",
+      "title": "Quick check: order of past events",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q15",
+          "q16",
+          "q18",
+          "q21"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_time_markers",
+      "type": "theory",
+      "title": "Частые маркеры Past Perfect: already, just, never, by the time, before, after. Они показывают, что к определенному моменту в прошлом действие уже произошло или еще не произошло.",
+      "theory": {
+        "concept_id": "past_perfect_time_markers",
+        "content_md": "Частые маркеры Past Perfect: **already**, **just**, **never**, **by the time**, **before**, **after**. Они показывают, что к определенному моменту в прошлом действие уже произошло или еще не произошло.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "By the time we got home, the kids had fallen asleep.",
+            "translation": "К тому времени, как мы вернулись домой, дети уже уснули.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "After she had locked the door, she realized she forgot the keys inside.",
+            "translation": "После того как она заперла дверь, она поняла, что забыла ключи внутри.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_time_markers",
+      "type": "quiz_inline",
+      "title": "Quick check: time markers",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26",
+          "q30",
+          "q32",
+          "q36"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_contrast_past_simple",
+      "type": "theory",
+      "title": "Если последовательность понятна из контекста или есть указание времени, можно использовать два Past Simple. Past Perfect нужен, когда важно подчеркнуть, что одно событие уже завершилось к моменту другого.",
+      "theory": {
+        "concept_id": "past_perfect_vs_past_simple",
+        "content_md": "Если последовательность понятна из контекста или есть указание времени, можно использовать два Past Simple. Past Perfect нужен, когда важно подчеркнуть, что одно событие **уже завершилось** к моменту другого.",
+        "key_points": [],
+        "common_mistakes": [
+          {
+            "wrong": "When I arrived, the train left.",
+            "right": "When I arrived, the train had left.",
+            "why": "Сначала поезд ушел, потом я приехал. Нужно Past Perfect для более раннего события."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I called him after I finished the meeting.",
+            "translation": "Я позвонил ему после того, как закончил встречу.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "I called him after I had finished the meeting.",
+            "translation": "Я позвонил ему после того, как уже закончил встречу.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8_quiz_after_contrast_past_simple",
+      "type": "quiz_inline",
+      "title": "Quick check: Past Perfect vs Past Simple",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q39",
+          "q41",
+          "q44",
+          "q46"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_questions_negatives",
+      "type": "theory",
+      "title": "Вопросы строятся с Had + subject + V3? Отрицание: hadn’t + V3. Важно не ставить did в Past Perfect и не использовать V2 вместо V3.",
+      "theory": {
+        "concept_id": "past_perfect_questions_negatives",
+        "content_md": "Вопросы строятся с **Had + subject + V3?** Отрицание: **hadn’t + V3**. Важно не ставить did в Past Perfect и не использовать V2 вместо V3.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Had he finished the task before the deadline?",
+            "translation": "Он закончил задачу до дедлайна?",
+            "tags": [
+              "question"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "They hadn’t seen the movie before the sequel came out.",
+            "translation": "Они не видели этот фильм до выхода сиквела.",
+            "tags": [
+              "negative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b10_quiz_after_questions_negatives",
+      "type": "quiz_inline",
+      "title": "Quick check: questions and negatives",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q50",
+          "q51",
+          "q54",
+          "q56"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b6_theory_narrative_context",
+      "type": "theory",
+      "title": "В рассказах Past Perfect помогает вводить фон и \"флэшбек\": основная линия идет в Past Simple, а более ранние события обозначаются Past Perfect. Это делает историю понятной и логичной.",
+      "theory": {
+        "concept_id": "past_perfect_narrative",
+        "content_md": "В рассказах Past Perfect помогает вводить фон и \"флэшбек\": основная линия идет в Past Simple, а более ранние события обозначаются Past Perfect. Это делает историю понятной и логичной.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "She moved to Madrid in 2019. She had studied Spanish for two years before that.",
+            "translation": "Она переехала в Мадрид в 2019 году. До этого она два года учила испанский.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Choose the correct form: She ___ already ___ the email before lunch.",
+        "theory_block_id": "b1_theory_form_usage",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had sent"
+          },
+          {
+            "id": "b",
+            "text": "has sent"
+          },
+          {
+            "id": "c",
+            "text": "had send"
+          },
+          {
+            "id": "d",
+            "text": "was sending"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Perfect uses had + V3: had sent. The action was completed before another past moment.",
+        "tags": []
+      },
+      {
+        "id": "q2",
+        "type": "fill_blank",
+        "prompt": "Fill in: They ___ to the office early. (go)",
+        "theory_block_id": "b1_theory_form_usage",
+        "difficulty": 2,
+        "correct_answer": "had gone",
+        "explanation": "Past Perfect requires had + V3. The past participle of go is gone.",
+        "tags": []
+      },
+      {
+        "id": "q3",
+        "type": "mcq_single",
+        "prompt": "Choose the correct form: I ___ never ___ sushi before that trip.",
+        "theory_block_id": "b1_theory_form_usage",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had tried"
+          },
+          {
+            "id": "b",
+            "text": "have tried"
+          },
+          {
+            "id": "c",
+            "text": "tried"
+          },
+          {
+            "id": "d",
+            "text": "was trying"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "A past experience before another past event takes Past Perfect: had tried.",
+        "tags": []
+      },
+      {
+        "id": "q4",
+        "type": "true_false",
+        "prompt": "Past Perfect uses did + V3.",
+        "theory_block_id": "b1_theory_form_usage",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Past Perfect uses had + V3, not did.",
+        "tags": []
+      },
+      {
+        "id": "q5",
+        "type": "error_spotting",
+        "prompt": "Find the mistake and choose the corrected sentence: \"He had went home before it started.\"",
+        "theory_block_id": "b1_theory_form_usage",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He had gone home before it started."
+          },
+          {
+            "id": "b",
+            "text": "He went home before it started."
+          },
+          {
+            "id": "c",
+            "text": "He had go home before it started."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Perfect needs V3; the correct form is had gone.",
+        "tags": []
+      },
+      {
+        "id": "q6",
+        "type": "fill_blank",
+        "prompt": "Fill in: She ___ the keys on the table. (leave)",
+        "theory_block_id": "b1_theory_form_usage",
+        "difficulty": 2,
+        "correct_answer": "had left",
+        "explanation": "Past Perfect is had + V3, and the past participle of leave is left.",
+        "tags": []
+      },
+      {
+        "id": "q7",
+        "type": "mcq_single",
+        "prompt": "Which sentence is correct?",
+        "theory_block_id": "b1_theory_form_usage",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We had finished the test by 3 pm."
+          },
+          {
+            "id": "b",
+            "text": "We had finish the test by 3 pm."
+          },
+          {
+            "id": "c",
+            "text": "We has finished the test by 3 pm."
+          },
+          {
+            "id": "d",
+            "text": "We finished had the test by 3 pm."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Correct Past Perfect is had + V3: had finished.",
+        "tags": []
+      },
+      {
+        "id": "q8",
+        "type": "true_false",
+        "prompt": "Past Perfect form is the same for all subjects.",
+        "theory_block_id": "b1_theory_form_usage",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Had is used for all persons: I/you/he/we/they had + V3.",
+        "tags": []
+      },
+      {
+        "id": "q9",
+        "type": "fill_blank",
+        "prompt": "Fill in: By 2010, he ___ three companies. (start)",
+        "theory_block_id": "b1_theory_form_usage",
+        "difficulty": 2,
+        "correct_answer": "had started",
+        "explanation": "A completed action before a past time uses Past Perfect: had started.",
+        "tags": []
+      },
+      {
+        "id": "q10",
+        "type": "mcq_single",
+        "prompt": "Choose the correct form: The movie ___ already ___ when we arrived.",
+        "theory_block_id": "b1_theory_form_usage",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had already started"
+          },
+          {
+            "id": "b",
+            "text": "has already started"
+          },
+          {
+            "id": "c",
+            "text": "was already started"
+          },
+          {
+            "id": "d",
+            "text": "had already start"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "We need had + V3 for an earlier past action: had already started.",
+        "tags": []
+      },
+      {
+        "id": "q11",
+        "type": "error_spotting",
+        "prompt": "Find the mistake and choose the corrected sentence: \"We had not see her before.\"",
+        "theory_block_id": "b1_theory_form_usage",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We had not seen her before."
+          },
+          {
+            "id": "b",
+            "text": "We did not see her before."
+          },
+          {
+            "id": "c",
+            "text": "We had not saw her before."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Perfect requires V3: seen.",
+        "tags": []
+      },
+      {
+        "id": "q12",
+        "type": "fill_blank",
+        "prompt": "Fill in: I was late because I ___ my alarm. (forget)",
+        "theory_block_id": "b1_theory_form_usage",
+        "difficulty": 2,
+        "correct_answer": "had forgotten",
+        "explanation": "The earlier action is in Past Perfect: had forgotten.",
+        "tags": []
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Choose the correct form: When I arrived, the meeting ___.",
+        "theory_block_id": "b2_theory_sequence_before_past",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had already started"
+          },
+          {
+            "id": "b",
+            "text": "already started"
+          },
+          {
+            "id": "c",
+            "text": "has started"
+          },
+          {
+            "id": "d",
+            "text": "was starting"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "The meeting started earlier than the arrival, so Past Perfect is needed.",
+        "tags": []
+      },
+      {
+        "id": "q14",
+        "type": "true_false",
+        "prompt": "In \"She left after she had called him\", Past Perfect shows the earlier action.",
+        "theory_block_id": "b2_theory_sequence_before_past",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Calling happened before leaving, so Past Perfect marks the earlier event.",
+        "tags": []
+      },
+      {
+        "id": "q15",
+        "type": "fill_blank",
+        "prompt": "Fill in: By the time we got to the station, the bus ___. (leave)",
+        "theory_block_id": "b2_theory_sequence_before_past",
+        "difficulty": 2,
+        "correct_answer": "had left",
+        "explanation": "The bus left earlier than our arrival, so use Past Perfect.",
+        "tags": []
+      },
+      {
+        "id": "q16",
+        "type": "mcq_single",
+        "prompt": "Which sentence correctly shows the earlier action?",
+        "theory_block_id": "b2_theory_sequence_before_past",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He apologized because he had broken the vase."
+          },
+          {
+            "id": "b",
+            "text": "He apologized because he broke the vase."
+          },
+          {
+            "id": "c",
+            "text": "He had apologized because he broke the vase."
+          },
+          {
+            "id": "d",
+            "text": "He was apologizing because he had broke the vase."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Breaking the vase happened before the apology, so Past Perfect is correct.",
+        "tags": []
+      },
+      {
+        "id": "q17",
+        "type": "error_spotting",
+        "prompt": "Find the mistake and choose the corrected sentence: \"After we had ate, we went for a walk.\"",
+        "theory_block_id": "b2_theory_sequence_before_past",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "After we had eaten, we went for a walk."
+          },
+          {
+            "id": "b",
+            "text": "After we ate, we went for a walk."
+          },
+          {
+            "id": "c",
+            "text": "After we had eat, we went for a walk."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Perfect needs V3: eaten.",
+        "tags": []
+      },
+      {
+        "id": "q18",
+        "type": "fill_blank",
+        "prompt": "Fill in: She realized she ___ the wrong number. (dial)",
+        "theory_block_id": "b2_theory_sequence_before_past",
+        "difficulty": 2,
+        "correct_answer": "had dialed",
+        "explanation": "The dialing happened before the realization, so use Past Perfect.",
+        "tags": []
+      },
+      {
+        "id": "q19",
+        "type": "mcq_single",
+        "prompt": "Choose the best option: I didn't recognize him because I ___ him before.",
+        "theory_block_id": "b2_theory_sequence_before_past",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had never met"
+          },
+          {
+            "id": "b",
+            "text": "never met"
+          },
+          {
+            "id": "c",
+            "text": "have never met"
+          },
+          {
+            "id": "d",
+            "text": "was never meeting"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Not meeting him is earlier than not recognizing him, so Past Perfect fits.",
+        "tags": []
+      },
+      {
+        "id": "q20",
+        "type": "true_false",
+        "prompt": "Past Perfect is always used for both actions in a past sequence.",
+        "theory_block_id": "b2_theory_sequence_before_past",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Usually only the earlier action needs Past Perfect; the later one is Past Simple.",
+        "tags": []
+      },
+      {
+        "id": "q21",
+        "type": "fill_blank",
+        "prompt": "Fill in: When the police arrived, the thief ___. (escape)",
+        "theory_block_id": "b2_theory_sequence_before_past",
+        "difficulty": 2,
+        "correct_answer": "had escaped",
+        "explanation": "The escape happened before the arrival, so use Past Perfect.",
+        "tags": []
+      },
+      {
+        "id": "q22",
+        "type": "mcq_single",
+        "prompt": "Select the sentence that keeps the correct order.",
+        "theory_block_id": "b2_theory_sequence_before_past",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "By the time she called, I had left."
+          },
+          {
+            "id": "b",
+            "text": "By the time she called, I left."
+          },
+          {
+            "id": "c",
+            "text": "By the time she called, I have left."
+          },
+          {
+            "id": "d",
+            "text": "By the time she called, I was left."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "The leaving happened earlier, so Past Perfect is required.",
+        "tags": []
+      },
+      {
+        "id": "q23",
+        "type": "error_spotting",
+        "prompt": "Find the mistake and choose the corrected sentence: \"He was tired because he had work all day.\"",
+        "theory_block_id": "b2_theory_sequence_before_past",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He was tired because he had worked all day."
+          },
+          {
+            "id": "b",
+            "text": "He was tired because he worked all day."
+          },
+          {
+            "id": "c",
+            "text": "He was tired because he had working all day."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Perfect needs V3: had worked.",
+        "tags": []
+      },
+      {
+        "id": "q24",
+        "type": "fill_blank",
+        "prompt": "Fill in: They were surprised because they ___ the news earlier. (hear)",
+        "theory_block_id": "b2_theory_sequence_before_past",
+        "difficulty": 2,
+        "correct_answer": "had heard",
+        "explanation": "The hearing happened before the surprise, so Past Perfect is used.",
+        "tags": []
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: By the time the show started, we ___ our seats.",
+        "theory_block_id": "b3_theory_time_markers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had taken"
+          },
+          {
+            "id": "b",
+            "text": "took"
+          },
+          {
+            "id": "c",
+            "text": "have taken"
+          },
+          {
+            "id": "d",
+            "text": "were taking"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "By the time signals an earlier completed action, so Past Perfect fits.",
+        "tags": []
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "Fill in: She had ___ finished when the bell rang. (only a moment before)",
+        "theory_block_id": "b3_theory_time_markers",
+        "difficulty": 2,
+        "correct_answer": "just",
+        "explanation": "Just shows a very recent completion before another past event.",
+        "tags": []
+      },
+      {
+        "id": "q27",
+        "type": "true_false",
+        "prompt": "Markers like \"already\" and \"by the time\" often signal Past Perfect.",
+        "theory_block_id": "b3_theory_time_markers",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "These markers often show that one action finished before a past point.",
+        "tags": []
+      },
+      {
+        "id": "q28",
+        "type": "mcq_single",
+        "prompt": "Choose: After he ___ the email, he called me.",
+        "theory_block_id": "b3_theory_time_markers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had sent"
+          },
+          {
+            "id": "b",
+            "text": "sent"
+          },
+          {
+            "id": "c",
+            "text": "has sent"
+          },
+          {
+            "id": "d",
+            "text": "was sending"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "After can introduce the earlier action with Past Perfect: had sent.",
+        "tags": []
+      },
+      {
+        "id": "q29",
+        "type": "fill_blank",
+        "prompt": "Fill in: She ___ sushi before that trip. (try)",
+        "theory_block_id": "b3_theory_time_markers",
+        "difficulty": 2,
+        "correct_answer": "had never tried",
+        "explanation": "Past Perfect with never shows the earlier lack of experience.",
+        "tags": []
+      },
+      {
+        "id": "q30",
+        "type": "error_spotting",
+        "prompt": "Find the mistake and choose the corrected sentence: \"By the time I arrived, they have already left.\"",
+        "theory_block_id": "b3_theory_time_markers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "By the time I arrived, they had already left."
+          },
+          {
+            "id": "b",
+            "text": "By the time I arrived, they already left."
+          },
+          {
+            "id": "c",
+            "text": "By the time I arrived, they had already leave."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "The time point is in the past, so we use Past Perfect: had left.",
+        "tags": []
+      },
+      {
+        "id": "q31",
+        "type": "mcq_single",
+        "prompt": "Choose: I called him after I ___ the report.",
+        "theory_block_id": "b3_theory_time_markers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had finished"
+          },
+          {
+            "id": "b",
+            "text": "finished"
+          },
+          {
+            "id": "c",
+            "text": "have finished"
+          },
+          {
+            "id": "d",
+            "text": "was finishing"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "The report was finished before the call, so Past Perfect is appropriate.",
+        "tags": []
+      },
+      {
+        "id": "q32",
+        "type": "fill_blank",
+        "prompt": "Fill in: He felt calm because he ___ the exam already. (pass)",
+        "theory_block_id": "b3_theory_time_markers",
+        "difficulty": 2,
+        "correct_answer": "had passed",
+        "explanation": "Already indicates completion before another past moment.",
+        "tags": []
+      },
+      {
+        "id": "q33",
+        "type": "true_false",
+        "prompt": "With \"before\", Past Perfect is never possible.",
+        "theory_block_id": "b3_theory_time_markers",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Past Perfect can be used with before to stress earlier completion.",
+        "tags": []
+      },
+      {
+        "id": "q34",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: She smiled because she ___ the joke already.",
+        "theory_block_id": "b3_theory_time_markers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had understood"
+          },
+          {
+            "id": "b",
+            "text": "understood"
+          },
+          {
+            "id": "c",
+            "text": "has understood"
+          },
+          {
+            "id": "d",
+            "text": "was understanding"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "The understanding happened before the smile, so Past Perfect is used.",
+        "tags": []
+      },
+      {
+        "id": "q35",
+        "type": "error_spotting",
+        "prompt": "Find the mistake and choose the corrected sentence: \"We arrived after the movie had start already.\"",
+        "theory_block_id": "b3_theory_time_markers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We arrived after the movie had already started."
+          },
+          {
+            "id": "b",
+            "text": "We arrived after the movie started already."
+          },
+          {
+            "id": "c",
+            "text": "We arrived after the movie had already start."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Perfect needs V3: started.",
+        "tags": []
+      },
+      {
+        "id": "q36",
+        "type": "fill_blank",
+        "prompt": "Fill in: By 8 p.m., they ___ dinner. (finish)",
+        "theory_block_id": "b3_theory_time_markers",
+        "difficulty": 2,
+        "correct_answer": "had finished",
+        "explanation": "By + past time usually calls for Past Perfect for the earlier action.",
+        "tags": []
+      },
+      {
+        "id": "q37",
+        "type": "fill_blank",
+        "prompt": "Fill in: I went back because I ___ my keys inside. (leave)",
+        "theory_block_id": "b4_theory_contrast_past_simple",
+        "difficulty": 2,
+        "correct_answer": "had left",
+        "explanation": "Leaving the keys happened before going back, so Past Perfect is needed.",
+        "tags": []
+      },
+      {
+        "id": "q38",
+        "type": "true_false",
+        "prompt": "If the order is clear from \"after\", Past Simple can be enough.",
+        "theory_block_id": "b4_theory_contrast_past_simple",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Past Simple can work when sequence is obvious, though Past Perfect adds emphasis.",
+        "tags": []
+      },
+      {
+        "id": "q39",
+        "type": "mcq_single",
+        "prompt": "Which sentence emphasizes earlier completion?",
+        "theory_block_id": "b4_theory_contrast_past_simple",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She had cleaned the room before guests arrived."
+          },
+          {
+            "id": "b",
+            "text": "She cleaned the room before guests arrived."
+          },
+          {
+            "id": "c",
+            "text": "She was cleaning the room before guests arrived."
+          },
+          {
+            "id": "d",
+            "text": "She has cleaned the room before guests arrived."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Perfect highlights that cleaning was completed before arrival.",
+        "tags": []
+      },
+      {
+        "id": "q40",
+        "type": "error_spotting",
+        "prompt": "Find the mistake and choose the corrected sentence: \"He said he has finished the project.\"",
+        "theory_block_id": "b4_theory_contrast_past_simple",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He said he had finished the project."
+          },
+          {
+            "id": "b",
+            "text": "He said he finished the project."
+          },
+          {
+            "id": "c",
+            "text": "He said he had finish the project."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "In reported past context, the earlier action takes Past Perfect: had finished.",
+        "tags": []
+      },
+      {
+        "id": "q41",
+        "type": "fill_blank",
+        "prompt": "Fill in: I realized I ___ the wrong file. (open)",
+        "theory_block_id": "b4_theory_contrast_past_simple",
+        "difficulty": 2,
+        "correct_answer": "had opened",
+        "explanation": "Opening happened before the realization, so use Past Perfect.",
+        "tags": []
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "prompt": "Choose the correct form: When we got there, the store ___.",
+        "theory_block_id": "b4_theory_contrast_past_simple",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had closed"
+          },
+          {
+            "id": "b",
+            "text": "closed"
+          },
+          {
+            "id": "c",
+            "text": "has closed"
+          },
+          {
+            "id": "d",
+            "text": "was closing"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "The store closed earlier than we got there, so Past Perfect fits.",
+        "tags": []
+      },
+      {
+        "id": "q43",
+        "type": "true_false",
+        "prompt": "Past Perfect is required in every past narrative sentence.",
+        "theory_block_id": "b4_theory_contrast_past_simple",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Past Perfect is only needed to mark earlier events; most narrative uses Past Simple.",
+        "tags": []
+      },
+      {
+        "id": "q44",
+        "type": "error_spotting",
+        "prompt": "Find the mistake and choose the corrected sentence: \"She was upset because she lost her passport earlier.\"",
+        "theory_block_id": "b4_theory_contrast_past_simple",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She was upset because she had lost her passport earlier."
+          },
+          {
+            "id": "b",
+            "text": "She was upset because she lost her passport earlier."
+          },
+          {
+            "id": "c",
+            "text": "She was upset because she had lose her passport earlier."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "The loss happened before the upset reaction, so Past Perfect is clearer.",
+        "tags": []
+      },
+      {
+        "id": "q45",
+        "type": "fill_blank",
+        "prompt": "Fill in: He apologized because he ___ me the wrong information. (give)",
+        "theory_block_id": "b4_theory_contrast_past_simple",
+        "difficulty": 2,
+        "correct_answer": "had given",
+        "explanation": "Giving the wrong info happened earlier, so use Past Perfect.",
+        "tags": []
+      },
+      {
+        "id": "q46",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: I didn't know the answer because I ___ the lesson.",
+        "theory_block_id": "b4_theory_contrast_past_simple",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had missed"
+          },
+          {
+            "id": "b",
+            "text": "missed"
+          },
+          {
+            "id": "c",
+            "text": "have missed"
+          },
+          {
+            "id": "d",
+            "text": "was missing"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Missing the lesson happened before not knowing the answer, so Past Perfect is used.",
+        "tags": []
+      },
+      {
+        "id": "q47",
+        "type": "error_spotting",
+        "prompt": "Find the mistake and choose the corrected sentence: \"After I had finished, I had went home.\"",
+        "theory_block_id": "b4_theory_contrast_past_simple",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "After I had finished, I went home."
+          },
+          {
+            "id": "b",
+            "text": "After I had finished, I had gone home."
+          },
+          {
+            "id": "c",
+            "text": "After I finished, I had went home."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Only the earlier action takes Past Perfect; the later action is Past Simple.",
+        "tags": []
+      },
+      {
+        "id": "q48",
+        "type": "fill_blank",
+        "prompt": "Fill in: She was nervous because she ___ never ___ in public. (speak)",
+        "theory_block_id": "b4_theory_contrast_past_simple",
+        "difficulty": 3,
+        "correct_answer": "had never spoken",
+        "explanation": "The earlier lack of experience uses Past Perfect: had never spoken.",
+        "tags": []
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "Choose the correct question: ___ you ___ the report before the meeting?",
+        "theory_block_id": "b5_theory_questions_negatives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Had / finished"
+          },
+          {
+            "id": "b",
+            "text": "Did / had finished"
+          },
+          {
+            "id": "c",
+            "text": "Had / finish"
+          },
+          {
+            "id": "d",
+            "text": "Have / finished"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Perfect questions use Had + subject + V3.",
+        "tags": []
+      },
+      {
+        "id": "q50",
+        "type": "fill_blank",
+        "prompt": "Fill in: He ___ not ___ the contract before he signed it. (read)",
+        "theory_block_id": "b5_theory_questions_negatives",
+        "difficulty": 2,
+        "correct_answer": "had not read",
+        "explanation": "Negative Past Perfect uses had not + V3.",
+        "tags": []
+      },
+      {
+        "id": "q51",
+        "type": "error_spotting",
+        "prompt": "Find the mistake and choose the corrected sentence: \"Did he had seen her before?\"",
+        "theory_block_id": "b5_theory_questions_negatives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Had he seen her before?"
+          },
+          {
+            "id": "b",
+            "text": "Did he see her before?"
+          },
+          {
+            "id": "c",
+            "text": "Had he saw her before?"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Perfect questions use Had + subject + V3; no did.",
+        "tags": []
+      },
+      {
+        "id": "q52",
+        "type": "true_false",
+        "prompt": "In Past Perfect questions we use \"had\" for all persons.",
+        "theory_block_id": "b5_theory_questions_negatives",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Had does not change with the subject in Past Perfect.",
+        "tags": []
+      },
+      {
+        "id": "q53",
+        "type": "mcq_single",
+        "prompt": "Choose the correct negative: They ___ arrived when I called.",
+        "theory_block_id": "b5_theory_questions_negatives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "hadn't"
+          },
+          {
+            "id": "b",
+            "text": "didn't had"
+          },
+          {
+            "id": "c",
+            "text": "haven't"
+          },
+          {
+            "id": "d",
+            "text": "weren't"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Negative Past Perfect is hadn't + V3 (hadn't arrived).",
+        "tags": []
+      },
+      {
+        "id": "q54",
+        "type": "fill_blank",
+        "prompt": "Fill in: Had you ___ the keys before you left? (find)",
+        "theory_block_id": "b5_theory_questions_negatives",
+        "difficulty": 2,
+        "correct_answer": "found",
+        "explanation": "Past Perfect question uses had + V3: found.",
+        "tags": []
+      },
+      {
+        "id": "q55",
+        "type": "error_spotting",
+        "prompt": "Find the mistake and choose the corrected sentence: \"She hadn't went to the office before.\"",
+        "theory_block_id": "b5_theory_questions_negatives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She hadn't gone to the office before."
+          },
+          {
+            "id": "b",
+            "text": "She didn't go to the office before."
+          },
+          {
+            "id": "c",
+            "text": "She hadn't go to the office before."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Perfect needs V3: gone.",
+        "tags": []
+      },
+      {
+        "id": "q56",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: I wondered why she ___ me earlier.",
+        "theory_block_id": "b5_theory_questions_negatives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "hadn't called"
+          },
+          {
+            "id": "b",
+            "text": "didn't had called"
+          },
+          {
+            "id": "c",
+            "text": "hasn't called"
+          },
+          {
+            "id": "d",
+            "text": "wasn't calling"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "The earlier lack of a call is in Past Perfect: hadn't called.",
+        "tags": []
+      },
+      {
+        "id": "q57",
+        "type": "fill_blank",
+        "prompt": "Fill in: We ___ never ___ such a view before. (see)",
+        "theory_block_id": "b5_theory_questions_negatives",
+        "difficulty": 2,
+        "correct_answer": "had never seen",
+        "explanation": "Past Perfect with never uses had + V3: had never seen.",
+        "tags": []
+      },
+      {
+        "id": "q58",
+        "type": "true_false",
+        "prompt": "For negative Past Perfect we use hadn't + V2.",
+        "theory_block_id": "b5_theory_questions_negatives",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Negative Past Perfect uses hadn't + V3, not V2.",
+        "tags": []
+      },
+      {
+        "id": "q59",
+        "type": "mcq_single",
+        "prompt": "Choose the correct question: ___ they ever ___ the museum before the renovation?",
+        "theory_block_id": "b5_theory_questions_negatives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Had / visited"
+          },
+          {
+            "id": "b",
+            "text": "Did / had visited"
+          },
+          {
+            "id": "c",
+            "text": "Have / visited"
+          },
+          {
+            "id": "d",
+            "text": "Had / visit"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Perfect questions use Had + subject + V3.",
+        "tags": []
+      },
+      {
+        "id": "q60",
+        "type": "error_spotting",
+        "prompt": "Find the mistake and choose the corrected sentence: \"Had you finished? No, I haven't.\"",
+        "theory_block_id": "b5_theory_questions_negatives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Had you finished? No, I hadn't."
+          },
+          {
+            "id": "b",
+            "text": "Did you finish? No, I hadn't."
+          },
+          {
+            "id": "c",
+            "text": "Had you finished? No, I didn't."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "The short negative answer to a Past Perfect question is hadn't.",
+        "tags": []
+      },
+      {
+        "id": "q61",
+        "type": "mcq_single",
+        "prompt": "Choose the best option: She moved to Berlin in 2018. She ___ German for years before that.",
+        "theory_block_id": "b6_theory_narrative_context",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had studied"
+          },
+          {
+            "id": "b",
+            "text": "studied"
+          },
+          {
+            "id": "c",
+            "text": "has studied"
+          },
+          {
+            "id": "d",
+            "text": "was studying"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Perfect shows the earlier background action: had studied.",
+        "tags": []
+      },
+      {
+        "id": "q62",
+        "type": "true_false",
+        "prompt": "Past Perfect often introduces background events in stories.",
+        "theory_block_id": "b6_theory_narrative_context",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "It marks earlier events compared to the main past timeline.",
+        "tags": []
+      },
+      {
+        "id": "q63",
+        "type": "fill_blank",
+        "prompt": "Fill in: He told me he ___ the job the year before. (get)",
+        "theory_block_id": "b6_theory_narrative_context",
+        "difficulty": 2,
+        "correct_answer": "had gotten",
+        "explanation": "The getting happened earlier than the telling, so Past Perfect is used.",
+        "tags": []
+      },
+      {
+        "id": "q64",
+        "type": "mcq_single",
+        "prompt": "Choose the correct form: The movie started. I ___ my seat already.",
+        "theory_block_id": "b6_theory_narrative_context",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had found"
+          },
+          {
+            "id": "b",
+            "text": "found"
+          },
+          {
+            "id": "c",
+            "text": "have found"
+          },
+          {
+            "id": "d",
+            "text": "was finding"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Finding the seat happened earlier than the movie start, so Past Perfect fits.",
+        "tags": []
+      },
+      {
+        "id": "q65",
+        "type": "error_spotting",
+        "prompt": "Find the mistake and choose the corrected sentence: \"She said she has met him once before.\"",
+        "theory_block_id": "b6_theory_narrative_context",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She said she had met him once before."
+          },
+          {
+            "id": "b",
+            "text": "She said she met him once before."
+          },
+          {
+            "id": "c",
+            "text": "She said she had meet him once before."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "In past reporting, the earlier event uses Past Perfect: had met.",
+        "tags": []
+      },
+      {
+        "id": "q66",
+        "type": "fill_blank",
+        "prompt": "Fill in: By the time we spoke, he ___ the decision. (make)",
+        "theory_block_id": "b6_theory_narrative_context",
+        "difficulty": 2,
+        "correct_answer": "had made",
+        "explanation": "The decision happened before we spoke, so use Past Perfect.",
+        "tags": []
+      },
+      {
+        "id": "q67",
+        "type": "true_false",
+        "prompt": "In biographies, Past Perfect can show actions completed before a key year.",
+        "theory_block_id": "b6_theory_narrative_context",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "It highlights earlier background events before the main past timeline.",
+        "tags": []
+      },
+      {
+        "id": "q68",
+        "type": "mcq_single",
+        "prompt": "Choose the correct option: I remembered that I ___ my passport at home.",
+        "theory_block_id": "b6_theory_narrative_context",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had left"
+          },
+          {
+            "id": "b",
+            "text": "left"
+          },
+          {
+            "id": "c",
+            "text": "have left"
+          },
+          {
+            "id": "d",
+            "text": "was leaving"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Leaving the passport happened before the remembering, so Past Perfect fits.",
+        "tags": []
+      },
+      {
+        "id": "q69",
+        "type": "error_spotting",
+        "prompt": "Find the mistake and choose the corrected sentence: \"They were excited because they had win the prize earlier.\"",
+        "theory_block_id": "b6_theory_narrative_context",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "They were excited because they had won the prize earlier."
+          },
+          {
+            "id": "b",
+            "text": "They were excited because they won the prize earlier."
+          },
+          {
+            "id": "c",
+            "text": "They were excited because they had winning the prize earlier."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Perfect needs V3: won.",
+        "tags": []
+      },
+      {
+        "id": "q70",
+        "type": "fill_blank",
+        "prompt": "Fill in: She joined the company in 2020, after she ___ from university. (graduate)",
+        "theory_block_id": "b6_theory_narrative_context",
+        "difficulty": 2,
+        "correct_answer": "had graduated",
+        "explanation": "Graduating happened before joining, so Past Perfect is used.",
+        "tags": []
+      },
+      {
+        "id": "q71",
+        "type": "mcq_single",
+        "prompt": "Choose the correct form: The lights went out. We realized we ___ the bill.",
+        "theory_block_id": "b6_theory_narrative_context",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "hadn't paid"
+          },
+          {
+            "id": "b",
+            "text": "didn't pay"
+          },
+          {
+            "id": "c",
+            "text": "haven't paid"
+          },
+          {
+            "id": "d",
+            "text": "weren't paying"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Not paying happened before the lights went out, so Past Perfect fits.",
+        "tags": []
+      },
+      {
+        "id": "q72",
+        "type": "true_false",
+        "prompt": "Past Perfect is used to talk about a future plan.",
+        "theory_block_id": "b6_theory_narrative_context",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Past Perfect only relates to past events and their order.",
+        "tags": []
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q6",
+      "q8",
+      "q10",
+      "q11",
+      "q12",
+      "q14",
+      "q17",
+      "q19",
+      "q20",
+      "q22",
+      "q23",
+      "q24",
+      "q27",
+      "q28",
+      "q29",
+      "q31",
+      "q33",
+      "q34",
+      "q35",
+      "q38",
+      "q40",
+      "q42",
+      "q43",
+      "q45",
+      "q47",
+      "q48",
+      "q52",
+      "q53",
+      "q55",
+      "q57",
+      "q58",
+      "q59",
+      "q60",
+      "q61",
+      "q62",
+      "q63",
+      "q64",
+      "q65",
+      "q66",
+      "q67",
+      "q68",
+      "q69",
+      "q70",
+      "q71",
+      "q72"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-20T11:46:33Z",
+    "source": "llm"
+  }
+}
