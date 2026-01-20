@@ -1,0 +1,42 @@
+{
+  "theory_block": {
+    "id": "b5_theory_common_errors",
+    "concept_id": "common_errors_relative_clauses",
+    "content_md": "В defining relative clauses часто появляются ошибки из-за кальки с русского: лишние запятые, неправильные союзы и дублирование местоимений. Эти ошибки мешают понять, какой именно объект вы уточняете.\n\nЗапомни: в defining clauses **без запятых**, а относительное местоимение заменяет обычное местоимение.",
+    "examples": [
+      {
+        "id": "ex1",
+        "text": "I need the file that you sent yesterday.",
+        "translation": "Мне нужен файл, который ты отправил вчера.",
+        "tags": [
+          "affirmative"
+        ]
+      },
+      {
+        "id": "ex2",
+        "text": "This is the person who can’t join the meeting.",
+        "translation": "Это человек, который не может присоединиться к встрече.",
+        "tags": [
+          "negative"
+        ]
+      }
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "I need the file, that you sent yesterday.",
+        "right": "I need the file that you sent yesterday.",
+        "why": "Запятая делает предложение non-defining, а здесь уточнение обязательно."
+      },
+      {
+        "wrong": "The man which lives here is my neighbor.",
+        "right": "The man who lives here is my neighbor.",
+        "why": "Which используется для предметов, для людей — who/that."
+      },
+      {
+        "wrong": "This is the book what I bought.",
+        "right": "This is the book that I bought.",
+        "why": "В английском для defining clauses не используется what в этой позиции."
+      }
+    ]
+  }
+}

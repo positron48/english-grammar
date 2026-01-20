@@ -1,0 +1,1317 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.complex_sentences_1_connecting.relative_clauses_who_which",
+  "section_id": "en.grammar.complex_sentences_1_connecting",
+  "title": "Relative clauses (defining): who/which/that",
+  "title_short": "Relative clauses: who/which/that",
+  "description": "Определительные относительные придаточные: как уточнять человека или предмет с помощью who/which/that без запятых.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "B1",
+  "order": 1206,
+  "prerequisites": [
+    "en.grammar.complex_sentences_1_connecting.indirect_questions_could_you"
+  ],
+  "concept_refs": [
+    "defining_relative_clause_purpose",
+    "relative_pronoun_who_which_that",
+    "relative_pronoun_subject_object",
+    "prepositions_in_relative_clauses",
+    "common_errors_relative_clauses"
+  ],
+  "learning_objectives": [
+    "Понимать идею defining relative clause и её функцию в предложении",
+    "Выбирать who/which/that в зависимости от того, кого или что описываем",
+    "Использовать или опускать относительное местоимение в объектной позиции",
+    "Ставить предлог в удобной позиции в relative clause",
+    "Избегать типичных ошибок (лишние местоимения, запятые, неверный выбор)"
+  ],
+  "estimated_minutes": 25,
+  "blocks": [
+    {
+      "id": "b1_theory_defining_purpose",
+      "type": "theory",
+      "title": "Defining relative clauses помогают уточнить, о каком человеке или предмете речь, чтобы не возникало двусмысленности. Это часть информации, без которой смысл будет неполным: \"the students\" — какие именно? \"the students who missed the test\".",
+      "theory": {
+        "concept_id": "defining_relative_clause_purpose",
+        "content_md": "Defining relative clauses помогают **уточнить, о каком человеке или предмете речь**, чтобы не возникало двусмысленности. Это часть информации, без которой смысл будет неполным: \"the students\" — какие именно? \"the students who missed the test\".\n\nВ defining relative clauses **запятые не ставятся**, потому что уточнение является необходимым. Такой блок почти всегда отвечает на вопрос \"which one?\" или \"which people?\".",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I need a report that explains the results clearly.",
+            "translation": "Мне нужен отчет, который ясно объясняет результаты.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "She is the manager who checks the final version.",
+            "translation": "Она тот менеджер, который проверяет финальную версию.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Do you know the cafe that opens early?",
+            "translation": "Ты знаешь кафе, которое открывается рано?",
+            "tags": [
+              "question"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_defining_purpose",
+      "type": "quiz_inline",
+      "title": "Quick check: зачем нужны defining clauses",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_pronoun_choice",
+      "type": "theory",
+      "title": "В defining relative clauses выбор местоимения зависит от того, что мы описываем. Who используется для людей, which — для предметов/животных, that — нейтральный вариант для людей и предметов (особенно в разговорной речи).",
+      "theory": {
+        "concept_id": "relative_pronoun_who_which_that",
+        "content_md": "В defining relative clauses выбор местоимения зависит от того, что мы описываем. **Who** используется для людей, **which** — для предметов/животных, **that** — нейтральный вариант для людей и предметов (особенно в разговорной речи).\n\nВ B1 достаточно помнить простое правило: человек → who/that, предмет → which/that. Используй which чаще в нейтральных текстах, that — в более разговорном стиле.",
+        "key_points": [
+          "People: who или that",
+          "Things/animals: which или that",
+          "That звучит более разговорно"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "The man who called you is my uncle.",
+            "translation": "Мужчина, который тебе звонил, — мой дядя.",
+            "tags": [
+              "affirmative",
+              "who"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "The device which controls the lights is new.",
+            "translation": "Устройство, которое управляет светом, новое.",
+            "tags": [
+              "affirmative",
+              "which"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Is this the company that makes your phone?",
+            "translation": "Это та компания, которая производит твой телефон?",
+            "tags": [
+              "question",
+              "that"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_pronoun_choice",
+      "type": "quiz_inline",
+      "title": "Quick check: who/which/that",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14",
+          "q15",
+          "q16",
+          "q17"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_subject_object",
+      "type": "theory",
+      "title": "В relative clause местоимение может быть подлежащим или дополнением. Если это подлежащее (то есть делает действие), местоимение обязательно: *The woman who lives next door...*",
+      "theory": {
+        "concept_id": "relative_pronoun_subject_object",
+        "content_md": "В relative clause местоимение может быть **подлежащим** или **дополнением**. Если это подлежащее (то есть делает действие), местоимение обязательно: *The woman **who lives** next door...*\n\nЕсли это дополнение (действие делает кто-то другой), местоимение можно опустить: *The woman (who/that) I met yesterday...*. Это опускание типично именно для defining clauses.",
+        "key_points": [],
+        "common_mistakes": [
+          {
+            "wrong": "The woman who I met her yesterday is a doctor.",
+            "right": "The woman (who/that) I met yesterday is a doctor.",
+            "why": "В relative clause нельзя использовать и относительное местоимение, и обычное местоимение вместе."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "The woman who lives next door is a doctor.",
+            "translation": "Женщина, которая живет по соседству, — врач.",
+            "tags": [
+              "affirmative",
+              "subject"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "The woman (who/that) I met yesterday is a doctor.",
+            "translation": "Женщина, с которой я встретился вчера, — врач.",
+            "tags": [
+              "affirmative",
+              "object"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "It’s a movie (that) I don’t like.",
+            "translation": "Это фильм, который мне не нравится.",
+            "tags": [
+              "negative",
+              "object"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_subject_object",
+      "type": "quiz_inline",
+      "title": "Quick check: subject vs object",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26",
+          "q27",
+          "q28",
+          "q29"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_prepositions",
+      "type": "theory",
+      "title": "Если в relative clause нужен предлог, в разговорной речи он обычно стоит в конце: *the person I spoke to*.",
+      "theory": {
+        "concept_id": "prepositions_in_relative_clauses",
+        "content_md": "Если в relative clause нужен предлог, в разговорной речи он обычно стоит **в конце**: *the person I spoke to*.\n\nБолее формальный вариант — поставить предлог перед whom/which: *the person to whom I spoke*. В B1 достаточно уметь естественный разговорный вариант с предлогом в конце.",
+        "key_points": [
+          "Разговорно: предлог в конце",
+          "Формально: предлог перед whom/which"
+        ],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "That’s the colleague I talked to yesterday.",
+            "translation": "Это коллега, с которым я говорил вчера.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "This is the document which we’re working on.",
+            "translation": "Это документ, над которым мы работаем.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Is that the team you worked with last year?",
+            "translation": "Это та команда, с которой ты работал в прошлом году?",
+            "tags": [
+              "question"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8_quiz_after_prepositions",
+      "type": "quiz_inline",
+      "title": "Quick check: предлоги в relative clause",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38",
+          "q39",
+          "q40",
+          "q41"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_common_errors",
+      "type": "theory",
+      "title": "В defining relative clauses часто появляются ошибки из-за кальки с русского: лишние запятые, неправильные союзы и дублирование местоимений. Эти ошибки мешают понять, какой именно объект вы уточняете.",
+      "theory": {
+        "concept_id": "common_errors_relative_clauses",
+        "content_md": "В defining relative clauses часто появляются ошибки из-за кальки с русского: лишние запятые, неправильные союзы и дублирование местоимений. Эти ошибки мешают понять, какой именно объект вы уточняете.\n\nЗапомни: в defining clauses **без запятых**, а относительное местоимение заменяет обычное местоимение.",
+        "key_points": [],
+        "common_mistakes": [
+          {
+            "wrong": "I need the file, that you sent yesterday.",
+            "right": "I need the file that you sent yesterday.",
+            "why": "Запятая делает предложение non-defining, а здесь уточнение обязательно."
+          },
+          {
+            "wrong": "The man which lives here is my neighbor.",
+            "right": "The man who lives here is my neighbor.",
+            "why": "Which используется для предметов, для людей — who/that."
+          },
+          {
+            "wrong": "This is the book what I bought.",
+            "right": "This is the book that I bought.",
+            "why": "В английском для defining clauses не используется what в этой позиции."
+          }
+        ],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I need the file that you sent yesterday.",
+            "translation": "Мне нужен файл, который ты отправил вчера.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "This is the person who can’t join the meeting.",
+            "translation": "Это человек, который не может присоединиться к встрече.",
+            "tags": [
+              "negative"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите предложение, где relative clause **уточняет**, о ком идет речь.",
+        "theory_block_id": "b1_theory_defining_purpose",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The students who missed the test must see me.",
+            "feedback": "Клаузa определяет, какие именно студенты."
+          },
+          {
+            "id": "b",
+            "text": "My brother, who lives in Canada, is visiting.",
+            "feedback": "Это non-defining: добавочная информация, отделяется запятыми."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Defining relative clauses уточняют, какие именно люди/предметы, и не отделяются запятыми. В варианте (a) без уточнения непонятно, какие студенты нужны.",
+        "id": "q1"
+      },
+      {
+        "type": "true_false",
+        "prompt": "В defining relative clause запятая не ставится.",
+        "theory_block_id": "b1_theory_defining_purpose",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "В defining clauses уточнение обязательно для смысла, поэтому запятая не используется. Запятая характерна для non-defining clauses.",
+        "id": "q2"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She’s looking for the book ___ explains the rule.\" (для предмета)",
+        "theory_block_id": "b1_theory_defining_purpose",
+        "difficulty": 2,
+        "correct_answer": "that",
+        "explanation": "Для предметов в defining clauses можно использовать which или that. Здесь подходит that.",
+        "id": "q3"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите предложение, где clause отвечает на вопрос \"which one?\".",
+        "theory_block_id": "b1_theory_defining_purpose",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The laptop that has a long battery life is expensive.",
+            "feedback": "Уточняет, какой именно ноутбук."
+          },
+          {
+            "id": "b",
+            "text": "My laptop, which I bought last year, is expensive.",
+            "feedback": "Это добавочная информация о конкретном ноутбуке."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Defining clause выбирает конкретный объект из группы, отвечая на \"which one?\". В (a) без уточнения непонятно, какой ноутбук имеется в виду.",
+        "id": "q4"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I spoke to the client ___ requested a refund.\" (человек)",
+        "theory_block_id": "b1_theory_defining_purpose",
+        "difficulty": 2,
+        "correct_answer": "who",
+        "explanation": "Для людей в defining clauses используется who (или that). Здесь естественно who.",
+        "id": "q5"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "В каком предложении removing the clause меняет смысл так, что объект больше не понятен?",
+        "theory_block_id": "b1_theory_defining_purpose",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I like movies that make me think.",
+            "feedback": "Без уточнения становится непонятно, какие фильмы."
+          },
+          {
+            "id": "b",
+            "text": "My car, which is very old, still runs.",
+            "feedback": "Машина уже известна, уточнение необязательное."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Defining clause несет обязательную информацию, без нее объект не идентифицируется. В (a) уточнение необходимо.",
+        "id": "q6"
+      },
+      {
+        "type": "true_false",
+        "prompt": "Если убрать defining relative clause, предложение все равно четко указывает на объект.",
+        "theory_block_id": "b1_theory_defining_purpose",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Defining clause как раз и уточняет, о каком объекте идет речь. Без нее идентификация часто теряется.",
+        "id": "q7"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"We need a hotel ___ has free parking.\" (место/предмет)",
+        "theory_block_id": "b1_theory_defining_purpose",
+        "difficulty": 2,
+        "correct_answer": "that",
+        "explanation": "Для вещей/мест в defining clauses можно использовать that или which. Здесь подойдет that.",
+        "id": "q8"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильную пунктуацию для defining clause.",
+        "theory_block_id": "b1_theory_defining_purpose",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The reports that arrived late were rejected.",
+            "feedback": "Запятые не нужны в defining clause."
+          },
+          {
+            "id": "b",
+            "text": "The reports, that arrived late, were rejected.",
+            "feedback": "Запятые делают это non-defining и звучит неверно."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Defining clause не отделяется запятыми, так как уточнение необходимо для смысла.",
+        "id": "q9"
+      },
+      {
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_defining_purpose",
+        "difficulty": 2,
+        "correct_answer": "The app that tracks expenses is useful.",
+        "explanation": "Defining clause ставится сразу после существительного, которое уточняет: *app that tracks expenses*.",
+        "id": "q10"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Какое предложение лучше всего описывает функцию defining clause?",
+        "theory_block_id": "b1_theory_defining_purpose",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It selects which person/thing we mean.",
+            "feedback": "Верно: определяет конкретный объект."
+          },
+          {
+            "id": "b",
+            "text": "It adds extra, optional information.",
+            "feedback": "Это non-defining, не defining."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Defining clauses уточняют, какой именно объект имеется в виду, а не просто добавляют комментарий.",
+        "id": "q11"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I'm looking for a person ___ knows Italian.\" (человек)",
+        "theory_block_id": "b1_theory_defining_purpose",
+        "difficulty": 2,
+        "correct_answer": "who",
+        "explanation": "Для людей в defining clauses используется who (или that).",
+        "id": "q12"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильное местоимение: \"The engineer ___ designed the bridge won an award.\"",
+        "theory_block_id": "b2_theory_pronoun_choice",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "who",
+            "feedback": "Для людей используется who."
+          },
+          {
+            "id": "b",
+            "text": "which",
+            "feedback": "Which обычно для предметов."
+          },
+          {
+            "id": "c",
+            "text": "where",
+            "feedback": "Where для мест, не для людей."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Engineer — человек, поэтому в defining clause используется who (или that).",
+        "id": "q13"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"The tool ___ we bought last week is already broken.\" (предмет)",
+        "theory_block_id": "b2_theory_pronoun_choice",
+        "difficulty": 2,
+        "correct_answer": "which",
+        "explanation": "Для предметов используется which или that. Здесь подойдет which.",
+        "id": "q14"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Какой вариант наиболее разговорный в defining clause?",
+        "theory_block_id": "b2_theory_pronoun_choice",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The person that called me",
+            "feedback": "That часто используется в разговорной речи."
+          },
+          {
+            "id": "b",
+            "text": "The person whom called me",
+            "feedback": "Whom не используется как подлежащее и звучит формально."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "That — нейтральный и разговорный вариант для людей и предметов в defining clauses.",
+        "id": "q15"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите корректный вариант: \"The engineer which designed the bridge won an award.\"",
+        "theory_block_id": "b2_theory_pronoun_choice",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The engineer who designed the bridge won an award."
+          },
+          {
+            "id": "b",
+            "text": "The engineer which designed the bridge won an award."
+          },
+          {
+            "id": "c",
+            "text": "The engineer where designed the bridge won an award."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для людей используется who (или that). Which здесь неверно.",
+        "id": "q16"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Is this the app ___ tracks your steps?\" (предмет)",
+        "theory_block_id": "b2_theory_pronoun_choice",
+        "difficulty": 2,
+        "correct_answer": "that",
+        "explanation": "Для предметов подходит that или which. В вопросе звучит естественно that.",
+        "id": "q17"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите корректное предложение.",
+        "theory_block_id": "b2_theory_pronoun_choice",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The woman who lives upstairs is a pilot.",
+            "feedback": "Who для людей."
+          },
+          {
+            "id": "b",
+            "text": "The woman which lives upstairs is a pilot.",
+            "feedback": "Which не для людей."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для людей используется who/that, поэтому правильный вариант — (a).",
+        "id": "q18"
+      },
+      {
+        "type": "true_false",
+        "prompt": "That можно использовать и для людей, и для предметов в defining clauses.",
+        "theory_block_id": "b2_theory_pronoun_choice",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "That — универсальный вариант для людей и предметов в defining relative clauses.",
+        "id": "q19"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She chose the dress ___ fits her best.\" (предмет)",
+        "theory_block_id": "b2_theory_pronoun_choice",
+        "difficulty": 2,
+        "correct_answer": "which",
+        "explanation": "Dress — предмет, поэтому подходит which или that; здесь используем which.",
+        "id": "q20"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Какое местоимение предпочтительнее для людей в нейтральном стиле?",
+        "theory_block_id": "b2_theory_pronoun_choice",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "who",
+            "feedback": "Стандартный вариант для людей."
+          },
+          {
+            "id": "b",
+            "text": "which",
+            "feedback": "Which — для предметов."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В нейтральном стиле для людей используется who; that тоже возможно, но более разговорно.",
+        "id": "q21"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите корректный вариант: \"The laptop who runs this software is new.\"",
+        "theory_block_id": "b2_theory_pronoun_choice",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The laptop which runs this software is new."
+          },
+          {
+            "id": "b",
+            "text": "The laptop who runs this software is new."
+          },
+          {
+            "id": "c",
+            "text": "The laptop where runs this software is new."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для предметов используется which или that, а who относится к людям.",
+        "id": "q22"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I know a doctor ___ speaks three languages.\" (человек)",
+        "theory_block_id": "b2_theory_pronoun_choice",
+        "difficulty": 2,
+        "correct_answer": "who",
+        "explanation": "Doctor — человек, поэтому who (или that) подходит.",
+        "id": "q23"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите вариант, где that подходит лучше всего.",
+        "theory_block_id": "b2_theory_pronoun_choice",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The book that changed my mind",
+            "feedback": "That универсален для предметов."
+          },
+          {
+            "id": "b",
+            "text": "The book who changed my mind",
+            "feedback": "Who для людей."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "That подходит для предметов в defining clause, вариант (b) неверен.",
+        "id": "q24"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "В каком предложении относительное местоимение **нельзя** опустить?",
+        "theory_block_id": "b3_theory_subject_object",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The woman who lives next door is a doctor.",
+            "feedback": "Who — подлежащее, опустить нельзя."
+          },
+          {
+            "id": "b",
+            "text": "The woman (who/that) I met yesterday is a doctor.",
+            "feedback": "Местоимение — объект, опустить можно."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Если местоимение — подлежащее, оно обязательно. В (a) who выполняет роль подлежащего.",
+        "id": "q25"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"The student ___ I taught last year passed the exam.\" (можно опустить)",
+        "theory_block_id": "b3_theory_subject_object",
+        "difficulty": 2,
+        "correct_answer": "that",
+        "explanation": "Здесь местоимение — объект, поэтому можно использовать that/who или опустить. Выбран that.",
+        "id": "q26"
+      },
+      {
+        "type": "true_false",
+        "prompt": "Если относительное местоимение является объектом, его можно опустить.",
+        "theory_block_id": "b3_theory_subject_object",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "В defining clauses object relative pronoun (who/which/that) можно опускать.",
+        "id": "q27"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: \"The man who I met him yesterday is my neighbor.\"",
+        "theory_block_id": "b3_theory_subject_object",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The man (who/that) I met yesterday is my neighbor."
+          },
+          {
+            "id": "b",
+            "text": "The man who I met him yesterday is my neighbor."
+          },
+          {
+            "id": "c",
+            "text": "The man who met yesterday is my neighbor."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нельзя использовать и относительное местоимение, и обычное местоимение одновременно.",
+        "id": "q28"
+      },
+      {
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_subject_object",
+        "difficulty": 2,
+        "correct_answer": "The chef that I met yesterday was famous.",
+        "explanation": "Относительная часть ставится сразу после существительного. Здесь that — объект, опускание возможно.",
+        "id": "q29"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите предложение с object relative clause.",
+        "theory_block_id": "b3_theory_subject_object",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The girl who won the race is my cousin.",
+            "feedback": "Who — подлежащее."
+          },
+          {
+            "id": "b",
+            "text": "The girl (who/that) I saw at the station is my cousin.",
+            "feedback": "Who/that — объект."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В (b) действие совершает I, а местоимение — объект, поэтому его можно опустить.",
+        "id": "q30"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"This is the camera ___ takes great photos.\" (местоимение обязательно)",
+        "theory_block_id": "b3_theory_subject_object",
+        "difficulty": 2,
+        "correct_answer": "that",
+        "explanation": "В этой clause местоимение — подлежащее, поэтому опускание невозможно. Используем that/which.",
+        "id": "q31"
+      },
+      {
+        "type": "true_false",
+        "prompt": "В предложении \"The movie I watched was long\" местоимение можно восстановить как \"that\".",
+        "theory_block_id": "b3_theory_subject_object",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Это object relative clause, поэтому that можно добавить: *The movie that I watched...*",
+        "id": "q32"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "В каком случае местоимение обязательно?",
+        "theory_block_id": "b3_theory_subject_object",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The car that belongs to my neighbor is red.",
+            "feedback": "That — подлежащее."
+          },
+          {
+            "id": "b",
+            "text": "The car (that) my neighbor bought is red.",
+            "feedback": "That — объект, можно опустить."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Если relative pronoun — подлежащее (belongs), его нельзя опускать.",
+        "id": "q33"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: \"The woman lives next door who is a doctor.\"",
+        "theory_block_id": "b3_theory_subject_object",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The woman who lives next door is a doctor."
+          },
+          {
+            "id": "b",
+            "text": "The woman lives next door who is a doctor."
+          },
+          {
+            "id": "c",
+            "text": "The woman who next door lives is a doctor."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Relative clause должна сразу следовать за существительным и содержать местоимение как подлежащее.",
+        "id": "q34"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"That’s the article ___ I recommended to you.\" (можно опустить)",
+        "theory_block_id": "b3_theory_subject_object",
+        "difficulty": 2,
+        "correct_answer": "which",
+        "explanation": "Для предметов можно which/that; здесь это object relative clause, поэтому местоимение можно опустить.",
+        "id": "q35"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильную версию с опусканием местоимения.",
+        "theory_block_id": "b3_theory_subject_object",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The book I borrowed was excellent.",
+            "feedback": "Объектная позиция, опускание допустимо."
+          },
+          {
+            "id": "b",
+            "text": "The book borrowed me was excellent.",
+            "feedback": "Подлежащее удалено, смысл нарушен."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В object relative clause местоимение можно опустить: *The book (that) I borrowed*.",
+        "id": "q36"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Какое предложение звучит естественно в разговорной речи?",
+        "theory_block_id": "b4_theory_prepositions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "That’s the colleague I talked to yesterday.",
+            "feedback": "Разговорная позиция предлога в конце."
+          },
+          {
+            "id": "b",
+            "text": "That’s the colleague to whom I talked yesterday.",
+            "feedback": "Формально, менее разговорно."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В разговорной речи предлог чаще ставится в конце relative clause.",
+        "id": "q37"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"This is the project we’re working ___ at the moment.\" (предлог)",
+        "theory_block_id": "b4_theory_prepositions",
+        "difficulty": 2,
+        "correct_answer": "on",
+        "explanation": "Глагол work требует предлога on: work on a project.",
+        "id": "q38"
+      },
+      {
+        "type": "true_false",
+        "prompt": "В formal style допустимо ставить предлог перед whom/which.",
+        "theory_block_id": "b4_theory_prepositions",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Формальный вариант: *to whom*, *for which*.",
+        "id": "q39"
+      },
+      {
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_prepositions",
+        "difficulty": 2,
+        "correct_answer": "The person I spoke to yesterday is here.",
+        "explanation": "Предлог to естественно остается в конце relative clause.",
+        "id": "q40"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант с предлогом в конце.",
+        "theory_block_id": "b4_theory_prepositions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The topic we talked about was interesting.",
+            "feedback": "Корректный разговорный вариант."
+          },
+          {
+            "id": "b",
+            "text": "The topic about we talked was interesting.",
+            "feedback": "Предлог не ставится перед местоимением без whom/which."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В разговорной речи предлог обычно остается в конце: *talked about*.",
+        "id": "q41"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"That’s the restaurant we had dinner ___.\" (предлог)",
+        "theory_block_id": "b4_theory_prepositions",
+        "difficulty": 2,
+        "correct_answer": "at",
+        "explanation": "Have dinner at a restaurant — устойчивое сочетание с at.",
+        "id": "q42"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Какой формальный вариант корректен?",
+        "theory_block_id": "b4_theory_prepositions",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The company for which I work is hiring.",
+            "feedback": "Формальный вариант с предлогом перед which."
+          },
+          {
+            "id": "b",
+            "text": "The company for I work is hiring.",
+            "feedback": "Нужен which/whom после предлога."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Если предлог стоит перед relative pronoun, нужен which/whom: *for which*.",
+        "id": "q43"
+      },
+      {
+        "type": "true_false",
+        "prompt": "В предложении \"The team I worked with was great\" предлог стоит в конце, и это нормально.",
+        "theory_block_id": "b4_theory_prepositions",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Предлог в конце — нормальная разговорная позиция в defining relative clauses.",
+        "id": "q44"
+      },
+      {
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Is this the device you connected the cable ___?\" (предлог)",
+        "theory_block_id": "b4_theory_prepositions",
+        "difficulty": 3,
+        "correct_answer": "to",
+        "explanation": "Connect something to a device — предлог to.",
+        "id": "q45"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите правильную пару с whom в формальном стиле.",
+        "theory_block_id": "b4_theory_prepositions",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The person to whom I sent the email replied.",
+            "feedback": "Грамотно и формально."
+          },
+          {
+            "id": "b",
+            "text": "The person to who I sent the email replied.",
+            "feedback": "После предлога нужен whom."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После предлога в формальном стиле используется whom.",
+        "id": "q46"
+      },
+      {
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_prepositions",
+        "difficulty": 3,
+        "correct_answer": "The grant that we applied for was approved.",
+        "explanation": "Предлог for остается в конце relative clause: *applied for*.",
+        "id": "q47"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Какое предложение неверно?",
+        "theory_block_id": "b4_theory_prepositions",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The client I worked with was polite.",
+            "feedback": "Корректно."
+          },
+          {
+            "id": "b",
+            "text": "The client with I worked was polite.",
+            "feedback": "Нужен whom/which после предлога."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Если предлог стоит перед местоимением, нужно whom/which, иначе переносим предлог в конец.",
+        "id": "q48"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: \"I need the report, that you finished yesterday.\"",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I need the report that you finished yesterday."
+          },
+          {
+            "id": "b",
+            "text": "I need the report, that you finished yesterday."
+          },
+          {
+            "id": "c",
+            "text": "I need that report you finished yesterday."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В defining clause запятая не ставится, иначе смысл становится добавочным.",
+        "id": "q49"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: \"The people which live here are friendly.\"",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The people who live here are friendly."
+          },
+          {
+            "id": "b",
+            "text": "The people which live here are friendly."
+          },
+          {
+            "id": "c",
+            "text": "The people that live here are friendly."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для людей используется who/that. Which для людей неверно.",
+        "id": "q50"
+      },
+      {
+        "type": "true_false",
+        "prompt": "В defining clause нельзя использовать what вместо who/which/that.",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "What не используется как относительное местоимение в таком типе clauses.",
+        "id": "q51"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: \"This is the book what I bought yesterday.\"",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "This is the book that I bought yesterday."
+          },
+          {
+            "id": "b",
+            "text": "This is the book what I bought yesterday."
+          },
+          {
+            "id": "c",
+            "text": "This is the book which I bought yesterday."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В defining clause нужно that/which, а не what.",
+        "id": "q52"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Какое предложение содержит лишнее местоимение?",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The colleague that I met him yesterday is here.",
+            "feedback": "Лишнее him."
+          },
+          {
+            "id": "b",
+            "text": "The colleague that I met yesterday is here.",
+            "feedback": "Норма."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В relative clause нельзя дублировать местоимение: that уже заменяет him.",
+        "id": "q53"
+      },
+      {
+        "type": "true_false",
+        "prompt": "Запятая в defining clause допустима, если пауза есть в устной речи.",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "В defining clauses запятые не ставятся независимо от паузы, иначе меняется тип clause.",
+        "id": "q54"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: \"The device that it controls the lights is new.\"",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The device that controls the lights is new."
+          },
+          {
+            "id": "b",
+            "text": "The device that it controls the lights is new."
+          },
+          {
+            "id": "c",
+            "text": "The device which it controls the lights is new."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Относительное местоимение заменяет подлежащее, поэтому it лишнее.",
+        "id": "q55"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Выберите корректное предложение без кальки с русского.",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I want the chair that is near the window.",
+            "feedback": "Корректно."
+          },
+          {
+            "id": "b",
+            "text": "I want the chair which is near the window,.",
+            "feedback": "Лишняя запятая."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В defining clause запятая не нужна.",
+        "id": "q56"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: \"The student who she sits next to me is helpful.\"",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The student who sits next to me is helpful."
+          },
+          {
+            "id": "b",
+            "text": "The student who she sits next to me is helpful."
+          },
+          {
+            "id": "c",
+            "text": "The student that sits next to me is helpful."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В relative clause не должно быть дополнительного подлежащего she.",
+        "id": "q57"
+      },
+      {
+        "type": "true_false",
+        "prompt": "Фраза \"the person that I spoke to\" корректна для defining clause.",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Предлог может стоять в конце, а that допустимо в defining clause.",
+        "id": "q58"
+      },
+      {
+        "type": "mcq_single",
+        "prompt": "Какое предложение исправляет ошибку с запятой?",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I met the colleague who handles our accounts.",
+            "feedback": "Без запятой, defining clause."
+          },
+          {
+            "id": "b",
+            "text": "I met the colleague, who handles our accounts.",
+            "feedback": "Запятая делает смысл добавочным."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для defining clause запятая не используется.",
+        "id": "q59"
+      },
+      {
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: \"This is the film which I can’t remember the name.\"",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "This is the film whose name I can’t remember."
+          },
+          {
+            "id": "b",
+            "text": "This is the film which I can’t remember the name."
+          },
+          {
+            "id": "c",
+            "text": "This is the film that I can’t remember the name of."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Нужна корректная структура: *the film that I can’t remember the name of*.",
+        "id": "q60"
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-20T09:25:29Z",
+    "source": "llm"
+  }
+}
