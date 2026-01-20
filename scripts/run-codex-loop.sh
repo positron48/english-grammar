@@ -64,15 +64,28 @@ while true; do
         # Попытка извлечь время ожидания из JSON ответа
         WAIT_SECONDS=0
         
-        # Пробуем извлечь resets_in_seconds из JSON
-        RESETS_IN_SECONDS=$(echo "$OUTPUT" | grep -oE '"resets_in_seconds":\s*[0-9]+' | grep -oE '[0-9]+' | head -1)
+        # Пробуем извлечь resets_in_seconds
+        # Ищем строку с resets_in_seconds и извлекаем все числа, берем последнее (обычно это значение после двоеточия)
+        RESETS_LINE=$(echo "$OUTPUT" | grep -i "resets_in_seconds" | head -1)
+        if [ -n "$RESETS_LINE" ]; then
+            # Извлекаем все числа и берем последнее (это значение resets_in_seconds)
+            # Обычно формат: "resets_in_seconds":1265, поэтому последнее число - это значение
+            RESETS_IN_SECONDS=$(echo "$RESETS_LINE" | grep -oE '[0-9]+' | tail -1)
+            # Отладочный вывод
+            echo -e "${GRAY}   [DEBUG] Найдена строка: ${RESETS_LINE:0:100}...${RESET}" >&2
+            echo -e "${GRAY}   [DEBUG] Извлечено resets_in_seconds: ${RESETS_IN_SECONDS}${RESET}" >&2
+        fi
         
-        if [ -n "$RESETS_IN_SECONDS" ] && [ "$RESETS_IN_SECONDS" -gt 0 ]; then
+        if [ -n "$RESETS_IN_SECONDS" ] && [ "$RESETS_IN_SECONDS" -gt 0 ] 2>/dev/null; then
             WAIT_SECONDS=$RESETS_IN_SECONDS
         else
             # Пробуем извлечь resets_at и вычислить разницу
-            RESETS_AT=$(echo "$OUTPUT" | grep -oE '"resets_at":\s*[0-9]+' | grep -oE '[0-9]+' | head -1)
-            if [ -n "$RESETS_AT" ] && [ "$RESETS_AT" -gt 0 ]; then
+            RESETS_AT_LINE=$(echo "$OUTPUT" | grep -i "resets_at" | head -1)
+            if [ -n "$RESETS_AT_LINE" ]; then
+                RESETS_AT=$(echo "$RESETS_AT_LINE" | grep -oE '[0-9]+' | tail -1)
+            fi
+            
+            if [ -n "$RESETS_AT" ] && [ "$RESETS_AT" -gt 0 ] 2>/dev/null; then
                 CURRENT_TIME=$(date +%s)
                 WAIT_SECONDS=$((RESETS_AT - CURRENT_TIME))
             fi
