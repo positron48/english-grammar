@@ -354,11 +354,11 @@
       {
         "id": "q3",
         "type": "true_false",
-        "prompt": "Верно или неверно: В утверждениях с there is/are мы используем some для обозначения неопределенного количества.",
+        "prompt": "Верно или неверно: При описании комнаты или места в утверждениях с there is/are мы используем some для неопределённого количества.",
         "theory_block_id": "b1_theory_combining_there_is_with_some",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Верно. В утвердительных предложениях с there is/are используется some для обозначения неопределенного количества.",
+        "explanation": "Верно. В утвердительных предложениях с there is/are при описании используется some для неопределённого количества.",
         "tags": [
           "affirmative"
         ]
@@ -1256,11 +1256,11 @@
       {
         "id": "q53",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"In my room there ___ a bed. There ___ some books.\" (be)",
+        "prompt": "Заполните пропуск: \"In my room there ___ a bed. There are some books.\" (be)",
         "theory_block_id": "b5_theory_building_descriptions",
         "difficulty": 2,
-        "correct_answer": "is, are",
-        "explanation": "С единственным числом используется there is, с множественным — there are: In my room there is a bed. There are some books.",
+        "correct_answer": "is",
+        "explanation": "С единственным числом используется there is: In my room there is a bed. There are some books.",
         "tags": [
           "full_description"
         ]
@@ -1309,10 +1309,10 @@
       {
         "id": "q56",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"In my room there is a bed. ___ my laptop on the desk.\" (there is)",
+        "prompt": "Заполните пропуск: \"In my room there is a bed. There ___ my laptop on the desk.\" (be, ед.ч.)",
         "theory_block_id": "b5_theory_building_descriptions",
         "difficulty": 2,
-        "correct_answer": "There is",
+        "correct_answer": "is",
         "explanation": "Описание продолжается с there is: There is my laptop on the desk.",
         "tags": [
           "full_description"
@@ -1363,10 +1363,10 @@
       {
         "id": "q59",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"In my room there are three chairs. ___ one table.\" (there is)",
+        "prompt": "Заполните пропуск: \"In my room there are three chairs. There ___ one table.\" (be, ед.ч.)",
         "theory_block_id": "b5_theory_building_descriptions",
         "difficulty": 2,
-        "correct_answer": "There is",
+        "correct_answer": "is",
         "explanation": "Описание продолжается с there is для единственного числа: There is one table.",
         "tags": [
           "full_description"
@@ -1453,7 +1453,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-21T15:55:58Z",
+    "updated_at": "2026-01-21T16:13:31Z",
     "source": "llm"
   }
 }
