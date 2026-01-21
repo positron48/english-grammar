@@ -44,6 +44,18 @@
       ]
     },
     {
+      "id": "q3",
+      "type": "true_false",
+      "prompt": "Верно или неверно: В утверждениях с there is/are мы используем some для обозначения неопределенного количества.",
+      "theory_block_id": "b1_theory_combining_there_is_with_some",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Верно. В утвердительных предложениях с there is/are используется some для обозначения неопределенного количества.",
+      "tags": [
+        "affirmative"
+      ]
+    },
+    {
       "id": "q4",
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: \"___ some coffee on the table?\"",
@@ -468,11 +480,11 @@
     {
       "id": "q27",
       "type": "true_false",
-      "prompt": "Верно или неверно: Предлог места стоит перед существительным в предложении \"There is a book on the table\".",
+      "prompt": "Верно или неверно: Предлоги места описывают расположение предметов.",
       "theory_block_id": "b3_theory_describing_location",
       "difficulty": 1,
-      "correct_answer": "false",
-      "explanation": "Неверно. Предлог места стоит после существительного: book on the table (не \"on book\").",
+      "correct_answer": "true",
+      "explanation": "Верно. Предлоги места (on, in, under, next to) описывают, где находятся предметы.",
       "tags": [
         "location"
       ]
@@ -895,11 +907,11 @@
     {
       "id": "q51",
       "type": "true_false",
-      "prompt": "Верно или неверно: При описании комнаты нужно использовать только there is, без there are.",
+      "prompt": "Верно или неверно: При описании комнаты можно комбинировать there is/are с притяжательными местоимениями и предлогами места.",
       "theory_block_id": "b5_theory_building_descriptions",
       "difficulty": 2,
-      "correct_answer": "false",
-      "explanation": "Неверно. При описании комнаты используются и there is (для единственного числа), и there are (для множественного числа).",
+      "correct_answer": "true",
+      "explanation": "Верно. Полное описание комбинирует there is/are + притяжательные местоимения + предлоги места: There is my phone on the table.",
       "tags": [
         "full_description"
       ]
@@ -936,11 +948,11 @@
     {
       "id": "q53",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"In my room there ___ a bed and a desk.\" (be)",
+      "prompt": "Заполните пропуск: \"In my room there ___ a bed. There ___ some books.\" (be)",
       "theory_block_id": "b5_theory_building_descriptions",
       "difficulty": 2,
-      "correct_answer": "is",
-      "explanation": "С единственным числом используется there is: In my room there is a bed and a desk.",
+      "correct_answer": "is, are",
+      "explanation": "С единственным числом используется there is, с множественным — there are: In my room there is a bed. There are some books.",
       "tags": [
         "full_description"
       ]
@@ -989,11 +1001,11 @@
     {
       "id": "q56",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"In my room there ___ a bed. There ___ my laptop on the desk.\" (be)",
+      "prompt": "Заполните пропуск: \"In my room there is a bed. ___ my laptop on the desk.\" (there is)",
       "theory_block_id": "b5_theory_building_descriptions",
       "difficulty": 2,
-      "correct_answer": "is",
-      "explanation": "С единственным числом используется there is: In my room there is a bed. There is my laptop on the desk.",
+      "correct_answer": "There is",
+      "explanation": "Описание продолжается с there is: There is my laptop on the desk.",
       "tags": [
         "full_description"
       ]
@@ -1043,11 +1055,11 @@
     {
       "id": "q59",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"In my room there are three chairs. There ___ one table.\" (be)",
+      "prompt": "Заполните пропуск: \"In my room there are three chairs. ___ one table.\" (there is)",
       "theory_block_id": "b5_theory_building_descriptions",
       "difficulty": 2,
-      "correct_answer": "is",
-      "explanation": "С единственным числом используется there is: There is one table.",
+      "correct_answer": "There is",
+      "explanation": "Описание продолжается с there is для единственного числа: There is one table.",
       "tags": [
         "full_description"
       ]

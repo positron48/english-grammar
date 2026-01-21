@@ -102,21 +102,9 @@ handle_change() {
         return
     fi
     
-    # Игнорируем сам final.json (чтобы избежать циклов)
+    # Игнорируем 05-final.json: это наш артефакт от assemble-chapter.sh,
+    # индексы уже обновлены до пересборки — не дублируем обновления
     if [[ "$event_file" == *"05-final.json"* ]]; then
-        # Но обновляем индексы при изменении final.json
-        case "$WATCH_MODE" in
-            admin)
-                update_admin_index
-                ;;
-            test)
-                update_test_index
-                ;;
-            both)
-                update_admin_index
-                update_test_index
-                ;;
-        esac
         return
     fi
     

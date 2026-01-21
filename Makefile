@@ -8,7 +8,7 @@ CHAPTERS := $(shell find chapters -mindepth 1 -maxdepth 1 -type d -not -name '.*
 
 help:
 	@echo "Доступные команды:"
-	@echo "  make final              - Пересобрать final.json только для измененных глав"
+	@echo "  make final              - Пересобрать final.json для всех глав"
 	@echo "  make final-all          - Принудительно пересобрать все final.json для всех глав"
 	@echo "  make final-force        - Алиас для make final-all (принудительная пересборка всех глав)"
 	@echo "  make validate-all        - Валидировать все главы"
@@ -22,52 +22,24 @@ help:
 	@echo "Найдено глав: $(words $(CHAPTERS))"
 	@echo "$(foreach ch,$(CHAPTERS),  - $(ch)$(newline))"
 
-# Пересобрать все final.json (только измененные главы)
+# Пересобрать final.json для всех глав
 final:
-	@bash -c '\
-		echo "Пересборка final.json для измененных глав..."; \
-		UPDATED=0; SKIPPED=0; \
-		source scripts/chapter-utils.sh; \
-		for chapter in $(CHAPTERS); do \
-			CHAPTER_DIR=$$(get_chapter_dir "$$chapter" "$$(pwd)/chapters"); \
-			if [ $$? -ne 0 ] || [ -z "$$CHAPTER_DIR" ]; then \
-				echo "  ⚠️  Папка не найдена: $$chapter"; \
-				continue; \
-			fi; \
-			FINAL_FILE="$$CHAPTER_DIR/05-final.json"; \
-			OUTLINE_FILE="$$CHAPTER_DIR/01-outline.json"; \
-			QUESTIONS_FILE="$$CHAPTER_DIR/03-questions.json"; \
-			THEORY_BLOCKS_DIR="$$CHAPTER_DIR/02-theory-blocks"; \
-			NEEDS_REBUILD=false; \
-			if [ ! -f "$$FINAL_FILE" ]; then \
-				NEEDS_REBUILD=true; \
-			elif [ -f "$$OUTLINE_FILE" ] && [ "$$OUTLINE_FILE" -nt "$$FINAL_FILE" ]; then \
-				NEEDS_REBUILD=true; \
-			elif [ -f "$$QUESTIONS_FILE" ] && [ "$$QUESTIONS_FILE" -nt "$$FINAL_FILE" ]; then \
-				NEEDS_REBUILD=true; \
-			elif [ -d "$$THEORY_BLOCKS_DIR" ]; then \
-				for block_file in $$THEORY_BLOCKS_DIR/*.json; do \
-					if [ -f "$$block_file" ] && [ "$$block_file" -nt "$$FINAL_FILE" ]; then \
-						NEEDS_REBUILD=true; \
-						break; \
-					fi; \
-				done; \
-			fi; \
-			if [ "$$NEEDS_REBUILD" = true ]; then \
-				echo "  🔨 Пересборка: $$chapter"; \
-				if bash scripts/assemble-chapter.sh $$chapter > /dev/null 2>&1; then \
-					UPDATED=$$((UPDATED + 1)); \
-				else \
-					echo "    ✗ Ошибка при сборке $$chapter"; \
-				fi; \
-			else \
-				SKIPPED=$$((SKIPPED + 1)); \
-			fi; \
-		done; \
-		echo ""; \
-		if [ $$UPDATED -gt 0 ] || [ $$SKIPPED -gt 0 ]; then \
-			echo "✓ Пересборка завершена: обновлено $$UPDATED глав, пропущено $$SKIPPED глав"; \
-		fi'
+	@echo "Пересборка final.json для всех глав..."
+	@UPDATED=0; FAILED=0; \
+	for chapter in $(CHAPTERS); do \
+		echo "  🔨 Пересборка: $$chapter"; \
+		if bash scripts/assemble-chapter.sh $$chapter > /dev/null 2>&1; then \
+			UPDATED=$$((UPDATED + 1)); \
+		else \
+			echo "    ✗ Ошибка при сборке $$chapter"; \
+			FAILED=$$((FAILED + 1)); \
+		fi; \
+	done; \
+	echo ""; \
+	echo "✓ Пересборка завершена: обновлено $$UPDATED глав"; \
+	if [ $$FAILED -gt 0 ]; then \
+		echo "  ⚠️  Ошибок: $$FAILED глав"; \
+	fi
 
 # Принудительно пересобрать все final.json
 final-all:
@@ -113,31 +85,14 @@ clean:
 
 # Проверка и обновление индекса админ-панели
 update-admin-index:
-	@if [ ! -f admin/data/chapters-index.json ]; then \
-		echo "Генерация индекса админ-панели..."; \
-		node admin/generate-index.js || (echo "❌ Ошибка: Node.js не найден. Установите Node.js для работы админ-панели." && exit 1); \
-		echo "✓ Индекс создан успешно"; \
-	elif [ -n "$$(find chapters -mindepth 1 -maxdepth 1 -type d -not -name '.*' -newer admin/data/chapters-index.json 2>/dev/null | head -1)" ] || \
-		[ -n "$$(find chapters -mindepth 1 -maxdepth 2 -type f \( -name "05-final.json" -o -name "01-outline.json" \) -newer admin/data/chapters-index.json 2>/dev/null | head -1)" ]; then \
-		echo "Обнаружены изменения в главах, обновление индекса админ-панели..."; \
-		node admin/generate-index.js || (echo "❌ Ошибка: Node.js не найден. Установите Node.js для работы админ-панели." && exit 1); \
-		echo "✓ Индекс обновлен успешно"; \
-	else \
-		echo "✓ Индекс админ-панели актуален"; \
-	fi
+	@echo "Обновление индекса админ-панели..."; \
+	node admin/generate-index.js || (echo "❌ Ошибка: Node.js не найден. Установите Node.js для работы админ-панели." && exit 1); \
+	echo "✓ Индекс админ-панели обновлен"
 
 # Проверка и обновление индекса тестовой системы
 update-test-index:
-	@if [ ! -f test/data/chapters-index.json ]; then \
-		echo "Генерация индекса тестовой системы..."; \
-		node test/scripts/generate-chapters-index.js || (echo "⚠️  Предупреждение: Node.js не найден. Индекс не будет обновлен." && echo "   Для автоматического обновления индекса установите Node.js."); \
-	elif [ -n "$$(find chapters -mindepth 1 -maxdepth 1 -type d -not -name '.*' -newer test/data/chapters-index.json 2>/dev/null | head -1)" ] || \
-		[ -n "$$(find chapters -mindepth 1 -maxdepth 2 -type f -name "05-final.json" -newer test/data/chapters-index.json 2>/dev/null | head -1)" ]; then \
-		echo "Обнаружены изменения в главах, обновление индекса тестовой системы..."; \
-		node test/scripts/generate-chapters-index.js || (echo "⚠️  Предупреждение: Node.js не найден. Индекс не будет обновлен." && echo "   Для автоматического обновления индекса установите Node.js."); \
-	else \
-		echo "✓ Индекс тестовой системы актуален"; \
-	fi
+	@echo "Обновление индекса тестовой системы..."; \
+	node test/scripts/generate-chapters-index.js && echo "✓ Индекс тестовой системы обновлен" || (echo "⚠️  Предупреждение: Node.js не найден. Индекс не будет обновлен." && echo "   Для автоматического обновления индекса установите Node.js.")
 
 # Запуск админ-панели
 admin:
