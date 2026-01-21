@@ -1,5 +1,32 @@
 // Загрузка данных главы
 let chapterData = {};
+let chaptersIndex = null;
+
+const VERIFIED_STORAGE_KEY = 'admin-chapters-verified';
+
+function getVerifiedChapters() {
+    try {
+        const raw = localStorage.getItem(VERIFIED_STORAGE_KEY);
+        const data = raw ? JSON.parse(raw) : {};
+        return (typeof data === 'object' && data !== null) ? data : {};
+    } catch (e) {
+        return {};
+    }
+}
+
+function setChapterVerified(id, value) {
+    const d = getVerifiedChapters();
+    if (value) {
+        d[id] = true;
+    } else {
+        delete d[id];
+    }
+    localStorage.setItem(VERIFIED_STORAGE_KEY, JSON.stringify(d));
+}
+
+function isChapterVerified(id) {
+    return !!getVerifiedChapters()[id];
+}
 
 async function loadChapter() {
     const urlParams = new URLSearchParams(window.location.search);
@@ -17,8 +44,8 @@ async function loadChapter() {
     try {
         const indexResponse = await fetch('/admin/data/chapters-index.json');
         if (indexResponse.ok) {
-            const index = await indexResponse.json();
-            const chapterInfo = index.chapters.find(c => c.id === chapterId);
+            chaptersIndex = await indexResponse.json();
+            const chapterInfo = chaptersIndex.chapters.find(c => c.id === chapterId);
             if (chapterInfo && chapterInfo.path) {
                 // Путь в индексе может быть относительным (chapters/...) или абсолютным (/chapters/...)
                 // Преобразуем в абсолютный путь и убеждаемся, что он заканчивается на /
@@ -115,6 +142,61 @@ function renderChapter() {
     renderQuizzes();
     renderFinal();
     renderValidation();
+    renderChapterPrevNext();
+    renderChapterVerified();
+}
+
+function renderChapterVerified() {
+    const ids = ['chapterVerifiedWrap', 'chapterVerifiedWrapBottom'];
+    if (!chapterData.id) return;
+
+    const verified = isChapterVerified(chapterData.id);
+    const btnHtml = verified
+        ? '<button type="button" class="verified-badge verified-yes verified-toggle-btn" title="Нажмите, чтобы снять отметку">✓ Проверено</button>'
+        : '<button type="button" class="verified-badge verified-no verified-toggle-btn">Отметить проверенной</button>';
+
+    const handler = () => {
+        setChapterVerified(chapterData.id, !isChapterVerified(chapterData.id));
+        renderChapterVerified();
+    };
+
+    ids.forEach(id => {
+        const el = document.getElementById(id);
+        if (!el) return;
+        el.innerHTML = btnHtml;
+        el.querySelector('.verified-toggle-btn')?.addEventListener('click', handler);
+    });
+}
+
+function renderChapterPrevNext() {
+    const topEl = document.getElementById('chapterPrevNextTop');
+    const bottomEl = document.getElementById('chapterPrevNextBottom');
+    if (!topEl || !bottomEl) return;
+
+    let prevBtn = '<span class="prev-next-btn prev-next-disabled">← Предыдущая глава</span>';
+    let nextBtn = '<span class="prev-next-btn prev-next-disabled">Следующая глава →</span>';
+
+    if (chaptersIndex && Array.isArray(chaptersIndex.chapters)) {
+        const extractOrder = (path) => {
+            const m = (path || '').match(/\/chapters\/(\d+)\./);
+            return m ? parseInt(m[1], 10) : 0;
+        };
+        const ordered = [...chaptersIndex.chapters].sort((a, b) => extractOrder(a.path) - extractOrder(b.path));
+        const idx = ordered.findIndex(c => c.id === chapterData.id);
+
+        if (idx > 0) {
+            const prev = ordered[idx - 1];
+            prevBtn = `<a href="chapter.html?id=${encodeURIComponent(prev.id)}" class="prev-next-btn prev-next-prev">← Предыдущая глава</a>`;
+        }
+        if (idx >= 0 && idx < ordered.length - 1) {
+            const next = ordered[idx + 1];
+            nextBtn = `<a href="chapter.html?id=${encodeURIComponent(next.id)}" class="prev-next-btn prev-next-next">Следующая глава →</a>`;
+        }
+    }
+
+    const html = `${prevBtn}${nextBtn}`;
+    topEl.innerHTML = html;
+    bottomEl.innerHTML = html;
 }
 
 function renderOverview() {

@@ -463,7 +463,7 @@
         {
             "id": "q31",
             "type": "error_spotting",
-            "prompt": "Найдите ошибку в структуре предложения:\n\n**Plays he football.**",
+            "prompt": "Выберите правильный вариант предложения.",
             "theory_block_id": "b5_theory_practice",
             "difficulty": 2,
             "choices": [
@@ -474,12 +474,22 @@
                 },
                 {
                     "id": "b",
-                    "text": "Plays he football",
-                    "feedback": "Нет, это неправильный порядок слов"
+                    "text": "Plays he football.",
+                    "feedback": "Нет: подлежащее должно быть перед сказуемым"
+                },
+                {
+                    "id": "c",
+                    "text": "Plays football he.",
+                    "feedback": "Нет: неверный порядок слов"
+                },
+                {
+                    "id": "d",
+                    "text": "He football plays.",
+                    "feedback": "Нет: дополнение должно быть после сказуемого"
                 }
             ],
             "correct_answer": "a",
-            "explanation": "Ошибка: неправильный порядок слов. В английском языке подлежащее всегда идет перед сказуемым. Правильно: He plays football.",
+            "explanation": "Ошибка: неправильный порядок слов. В английском языке подлежащее всегда идёт перед сказуемым, дополнение — после. Правильно: He plays football.",
             "tags": [
                 "practice",
                 "word_order",

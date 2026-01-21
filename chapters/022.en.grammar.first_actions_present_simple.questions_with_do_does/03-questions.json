@@ -76,7 +76,7 @@
     {
       "id": "q4",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**You do work here?**",
+      "prompt": "Выберите правильный вариант предложения.",
       "theory_block_id": "b1_theory_do_does_basics",
       "difficulty": 2,
       "choices": [
@@ -87,8 +87,18 @@
         },
         {
           "id": "b",
+          "text": "You do work here?",
+          "feedback": "Нет: do должен стоять перед подлежащим"
+        },
+        {
+          "id": "c",
           "text": "You work here?",
           "feedback": "Нет, в английском нужен вспомогательный глагол для вопроса"
+        },
+        {
+          "id": "d",
+          "text": "Do work you here?",
+          "feedback": "Нет, порядок: do + подлежащее + глагол"
         }
       ],
       "correct_answer": "a",
@@ -226,7 +236,7 @@
     {
       "id": "q11",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**Does you work here?**",
+      "prompt": "Выберите правильный вариант предложения.",
       "theory_block_id": "b2_theory_do_vs_does",
       "difficulty": 2,
       "choices": [
@@ -237,8 +247,18 @@
         },
         {
           "id": "b",
+          "text": "Does you work here?",
+          "feedback": "Нет: с you используется do, а не does"
+        },
+        {
+          "id": "c",
           "text": "You does work here?",
-          "feedback": "Нет, это неправильный порядок слов"
+          "feedback": "Нет: неправильный порядок и does с you"
+        },
+        {
+          "id": "d",
+          "text": "You do work here?",
+          "feedback": "Нет: do должен стоять перед подлежащим"
         }
       ],
       "correct_answer": "a",
@@ -251,7 +271,7 @@
     {
       "id": "q12",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**Do she works here?**",
+      "prompt": "Выберите правильный вариант предложения.",
       "theory_block_id": "b2_theory_do_vs_does",
       "difficulty": 3,
       "choices": [
@@ -262,12 +282,22 @@
         },
         {
           "id": "b",
+          "text": "Do she works here?",
+          "feedback": "Нет: с she нужен does, после do/does глагол без -s"
+        },
+        {
+          "id": "c",
           "text": "Do she work here?",
           "feedback": "Нет, с she используется does, а не do"
+        },
+        {
+          "id": "d",
+          "text": "She does work here?",
+          "feedback": "Нет: в вопросе does должен стоять перед подлежащим"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Две ошибки: 1) с she используется does, а не do; 2) после does глагол идет без окончания -s. Правильно: 'Does she work here?'",
+      "explanation": "Две ошибки: 1) с she используется does, а не do; 2) после does глагол идёт без окончания -s. Правильно: 'Does she work here?'",
       "tags": [
         "does_choice",
         "error"
@@ -332,23 +362,33 @@
     {
       "id": "q16",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**Does she works here?**",
+      "prompt": "Выберите правильный вариант предложения.",
       "theory_block_id": "b3_theory_yes_no_questions",
       "difficulty": 3,
       "choices": [
         {
           "id": "a",
           "text": "Does she work here?",
-          "feedback": "Правильно! После does глагол идет без окончания -s"
+          "feedback": "Правильно! После does глагол идёт без окончания -s"
         },
         {
           "id": "b",
+          "text": "Does she works here?",
+          "feedback": "Нет: после does глагол в базовой форме, без -s"
+        },
+        {
+          "id": "c",
           "text": "Do she work here?",
           "feedback": "Нет, с she используется does"
+        },
+        {
+          "id": "d",
+          "text": "She does work here?",
+          "feedback": "Нет: в вопросе does перед подлежащим"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Ошибка: после does глагол идет в базовой форме, без окончания -s. Правильно: 'Does she work here?'",
+      "explanation": "Ошибка: после does глагол идёт в базовой форме, без окончания -s. Правильно: 'Does she work here?'",
       "tags": [
         "yes_no",
         "error"
@@ -469,7 +509,7 @@
     {
       "id": "q23",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**What you do?**",
+      "prompt": "Выберите правильный вариант предложения.",
       "theory_block_id": "b4_theory_wh_questions",
       "difficulty": 2,
       "choices": [
@@ -480,8 +520,18 @@
         },
         {
           "id": "b",
+          "text": "What you do?",
+          "feedback": "Нет: после What нужен do/does перед подлежащим"
+        },
+        {
+          "id": "c",
           "text": "What does you do?",
           "feedback": "Нет, с you используется do, а не does"
+        },
+        {
+          "id": "d",
+          "text": "What do you does?",
+          "feedback": "Нет: после do глагол в базовой форме"
         }
       ],
       "correct_answer": "a",
@@ -550,7 +600,7 @@
     {
       "id": "q27",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**What does she works?**",
+      "prompt": "Выберите правильный вариант предложения.",
       "theory_block_id": "b4_theory_wh_questions",
       "difficulty": 3,
       "choices": [
@@ -561,12 +611,22 @@
         },
         {
           "id": "b",
+          "text": "What does she works?",
+          "feedback": "Нет: после does глагол в базовой форме, без -s"
+        },
+        {
+          "id": "c",
           "text": "What do she work?",
           "feedback": "Нет, с she используется does"
+        },
+        {
+          "id": "d",
+          "text": "What she does work?",
+          "feedback": "Нет: does должен стоять после What, перед подлежащим"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Ошибка: после does глагол идет в базовой форме, без окончания -s. Правильно: 'What does she work?' (хотя обычно говорят 'What does she do?' для вопроса о работе).",
+      "explanation": "Ошибка: после does глагол идёт в базовой форме, без окончания -s. Правильно: 'What does she work?' (хотя обычно говорят 'What does she do?' для вопроса о работе).",
       "tags": [
         "wh_questions",
         "error"
@@ -661,7 +721,7 @@
     {
       "id": "q32",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку в кратком ответе:\n\n**Do you work? — Yes, I work.**",
+      "prompt": "Выберите правильный краткий ответ на вопрос «Do you work?»",
       "theory_block_id": "b5_theory_short_answers",
       "difficulty": 2,
       "choices": [
@@ -672,8 +732,18 @@
         },
         {
           "id": "b",
+          "text": "Yes, I work.",
+          "feedback": "Нет: в кратком ответе используем do, а не глагол"
+        },
+        {
+          "id": "c",
           "text": "Yes, I works.",
           "feedback": "Нет, это неправильная форма"
+        },
+        {
+          "id": "d",
+          "text": "Yes, I does.",
+          "feedback": "Нет: с I используется do, а не does"
         }
       ],
       "correct_answer": "a",
@@ -758,19 +828,29 @@
     {
       "id": "q36",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**Where you work?**",
+      "prompt": "Выберите правильный вариант предложения.",
       "theory_block_id": "b6_theory_word_order",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
           "text": "Where do you work?",
-          "feedback": "Правильно! В специальных вопросах тоже нужен do/does после вопросительного слова"
+          "feedback": "Правильно! В специальных вопросах нужен do/does после вопросительного слова"
         },
         {
           "id": "b",
+          "text": "Where you work?",
+          "feedback": "Нет: после Where нужен do перед подлежащим"
+        },
+        {
+          "id": "c",
           "text": "Where work you?",
           "feedback": "Нет, это неправильный порядок слов"
+        },
+        {
+          "id": "d",
+          "text": "Where do work you?",
+          "feedback": "Нет: порядок — do + подлежащее + глагол"
         }
       ],
       "correct_answer": "a",
@@ -852,7 +932,7 @@
     {
       "id": "q42",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**What do he does?**",
+      "prompt": "Выберите правильный вариант предложения.",
       "theory_block_id": "b6_theory_word_order",
       "difficulty": 3,
       "choices": [
@@ -863,12 +943,22 @@
         },
         {
           "id": "b",
+          "text": "What do he does?",
+          "feedback": "Нет: с he нужен does, после do/does глагол без -s"
+        },
+        {
+          "id": "c",
           "text": "What do he do?",
           "feedback": "Нет, с he используется does"
+        },
+        {
+          "id": "d",
+          "text": "What he does do?",
+          "feedback": "Нет: does должен стоять после What, перед подлежащим"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Две ошибки: 1) с he используется does, а не do; 2) после does глагол идет в базовой форме, без -s. Правильно: 'What does he do?'",
+      "explanation": "Две ошибки: 1) с he используется does, а не do; 2) после does глагол идёт в базовой форме, без -s. Правильно: 'What does he do?'",
       "tags": [
         "word_order",
         "error"
@@ -932,7 +1022,7 @@
     {
       "id": "q47",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**Do it work?**",
+      "prompt": "Выберите правильный вариант предложения.",
       "theory_block_id": "b2_theory_do_vs_does",
       "difficulty": 2,
       "choices": [
@@ -943,8 +1033,18 @@
         },
         {
           "id": "b",
+          "text": "Do it work?",
+          "feedback": "Нет: с it используется does"
+        },
+        {
+          "id": "c",
           "text": "It do work?",
-          "feedback": "Нет, это неправильный порядок слов"
+          "feedback": "Нет: do должен стоять перед подлежащим, с it — does"
+        },
+        {
+          "id": "d",
+          "text": "It does work?",
+          "feedback": "Нет: в вопросе does перед подлежащим"
         }
       ],
       "correct_answer": "a",
@@ -1056,7 +1156,7 @@
     {
       "id": "q53",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**When do he goes?**",
+      "prompt": "Выберите правильный вариант предложения.",
       "theory_block_id": "b6_theory_word_order",
       "difficulty": 3,
       "choices": [
@@ -1067,12 +1167,22 @@
         },
         {
           "id": "b",
+          "text": "When do he goes?",
+          "feedback": "Нет: с he нужен does, глагол в базовой форме"
+        },
+        {
+          "id": "c",
           "text": "When do he go?",
           "feedback": "Нет, с he используется does"
+        },
+        {
+          "id": "d",
+          "text": "When he does go?",
+          "feedback": "Нет: does должен стоять после When, перед подлежащим"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Две ошибки: 1) с he используется does, а не do; 2) после does глагол идет в базовой форме, без -s. Правильно: 'When does he go?'",
+      "explanation": "Две ошибки: 1) с he используется does, а не do; 2) после does глагол идёт в базовой форме, без -s. Правильно: 'When does he go?'",
       "tags": [
         "word_order",
         "error"
@@ -1167,7 +1277,7 @@
     {
       "id": "q58",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**Do she likes coffee?**",
+      "prompt": "Выберите правильный вариант предложения.",
       "theory_block_id": "b2_theory_do_vs_does",
       "difficulty": 3,
       "choices": [
@@ -1178,12 +1288,22 @@
         },
         {
           "id": "b",
+          "text": "Do she likes coffee?",
+          "feedback": "Нет: с she нужен does, после do/does глагол без -s"
+        },
+        {
+          "id": "c",
           "text": "Do she like coffee?",
           "feedback": "Нет, с she используется does"
+        },
+        {
+          "id": "d",
+          "text": "She does like coffee?",
+          "feedback": "Нет: в вопросе does перед подлежащим"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Две ошибки: 1) с she используется does, а не do; 2) после does глагол идет в базовой форме, без -s. Правильно: 'Does she like coffee?'",
+      "explanation": "Две ошибки: 1) с she используется does, а не do; 2) после does глагол идёт в базовой форме, без -s. Правильно: 'Does she like coffee?'",
       "tags": [
         "does_choice",
         "error"
@@ -1304,7 +1424,7 @@
     {
       "id": "q66",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**What do he wants?**",
+      "prompt": "Выберите правильный вариант предложения.",
       "theory_block_id": "b6_theory_word_order",
       "difficulty": 3,
       "choices": [
@@ -1315,12 +1435,22 @@
         },
         {
           "id": "b",
+          "text": "What do he wants?",
+          "feedback": "Нет: с he нужен does, глагол в базовой форме"
+        },
+        {
+          "id": "c",
           "text": "What do he want?",
           "feedback": "Нет, с he используется does"
+        },
+        {
+          "id": "d",
+          "text": "What he does want?",
+          "feedback": "Нет: does должен стоять после What, перед подлежащим"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Две ошибки: 1) с he используется does, а не do; 2) после does глагол идет в базовой форме, без -s. Правильно: 'What does he want?'",
+      "explanation": "Две ошибки: 1) с he используется does, а не do; 2) после does глагол идёт в базовой форме, без -s. Правильно: 'What does he want?'",
       "tags": [
         "word_order",
         "error"

@@ -3,6 +3,22 @@ let allChapters = [];
 let filteredChapters = [];
 let generationStatus = null; // Кэш для generation-status.json
 
+const VERIFIED_STORAGE_KEY = 'admin-chapters-verified';
+
+function getVerifiedChapters() {
+    try {
+        const raw = localStorage.getItem(VERIFIED_STORAGE_KEY);
+        const data = raw ? JSON.parse(raw) : {};
+        return (typeof data === 'object' && data !== null) ? data : {};
+    } catch (e) {
+        return {};
+    }
+}
+
+function isChapterVerified(id) {
+    return !!getVerifiedChapters()[id];
+}
+
 // Определяем базовый путь относительно текущего URL
 function getBasePath() {
     // Если мы уже в /admin/, пути должны быть относительно корня сервера
@@ -545,6 +561,10 @@ function renderChapterCard(chapter) {
         ? `<span class="badge badge-level">${chapter.level}</span>` 
         : '';
 
+    const verifiedBadge = isChapterVerified(chapter.id)
+        ? '<span class="badge badge-verified">✓ Проверено</span>'
+        : '';
+
     const hasData = chapter.final || chapter.outline;
     const dataStatus = hasData 
         ? '' 
@@ -567,6 +587,7 @@ function renderChapterCard(chapter) {
                 <div class="chapter-badges">
                     ${levelBadge}
                     ${validationBadge}
+                    ${verifiedBadge}
                 </div>
             </div>
             ${chapter.description ? `<div class="chapter-description">${chapter.description}</div>` : ''}
