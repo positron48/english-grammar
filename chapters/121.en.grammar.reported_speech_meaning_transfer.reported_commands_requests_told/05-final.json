@@ -1,0 +1,1436 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.reported_speech_meaning_transfer.reported_commands_requests_told",
+  "section_id": "en.grammar.reported_speech_meaning_transfer",
+  "title": "Reported commands/requests: told me to..., asked me to...",
+  "title_short": "Reported commands/requests: told me to..., asked me to...",
+  "description": "Как передавать приказы и просьбы в косвенной речи: tell/ask + object + to-infinitive, отрицательные формы и типичные ошибки.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "B2",
+  "order": 0,
+  "prerequisites": [
+    "en.grammar.reported_speech_meaning_transfer.reported_questions_word_order"
+  ],
+  "concept_refs": [
+    "reporting_commands_to_infinitive",
+    "tell_vs_ask_objects",
+    "negative_commands_not_to",
+    "reporting_verbs_requests",
+    "reported_commands_common_errors"
+  ],
+  "learning_objectives": [
+    "Передавать приказы и просьбы с tell/ask + object + to-infinitive",
+    "Корректно формировать отрицательные команды с not to",
+    "Избегать типичных ошибок порядка слов и выбора глагола сообщения"
+  ],
+  "estimated_minutes": 20,
+  "blocks": [
+    {
+      "id": "b1_theory_command_pattern",
+      "type": "theory",
+      "title": "В косвенной речи приказы и просьбы обычно передаются через tell/ask + object + to-infinitive. Инверсия не нужна, а глагол в форме инфинитива с to показывает действие, которое должны выполнить.",
+      "theory": {
+        "concept_id": "reporting_commands_to_infinitive",
+        "content_md": "В косвенной речи приказы и просьбы обычно передаются через **tell/ask + object + to-infinitive**. Инверсия не нужна, а глагол в форме инфинитива с to показывает действие, которое должны выполнить.\n\nСхема: **He told me to leave. / She asked him to wait.** Это работает и для приказов, и для нейтральных просьб; различие обычно в выборе глагола сообщения (tell/ask/ordered).",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "The manager told us to start early.",
+            "translation": "Менеджер сказал нам начать пораньше.",
+            "tags": [
+              "affirmative",
+              "command"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "She asked me to call her back.",
+            "translation": "Она попросила меня перезвонить.",
+            "tags": [
+              "affirmative",
+              "request"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_tell_vs_ask",
+      "type": "theory",
+      "title": "В reported commands объект обязателен: tell + object + to и ask + object + to. Нельзя сказать *told to* или *asked to* без указания, кому это сказано.",
+      "theory": {
+        "concept_id": "tell_vs_ask_objects",
+        "content_md": "В reported commands объект обязателен: **tell + object + to** и **ask + object + to**. Нельзя сказать *told to* или *asked to* без указания, кому это сказано.\n\nAsk без объекта встречается в других структурах (asked if..., asked about...), но не в конструкции приказа/просьбы.",
+        "key_points": [],
+        "common_mistakes": [
+          {
+            "wrong": "He told to wait.",
+            "right": "He told me to wait.",
+            "why": "Tell требует объект: кому сказали ждать."
+          }
+        ],
+        "examples": []
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_negative_commands",
+      "type": "theory",
+      "title": "Отрицательные команды передаются через not to: told/asked + object + not to + V1. Частица not стоит перед инфинитивом и не требует вспомогательного do.",
+      "theory": {
+        "concept_id": "negative_commands_not_to",
+        "content_md": "Отрицательные команды передаются через **not to**: **told/asked + object + not to + V1**. Частица not стоит перед инфинитивом и не требует вспомогательного do.\n\nПример: *\"Don't touch it.\" -> He told me not to touch it.*",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "The doctor told him not to smoke.",
+            "translation": "Доктор сказал ему не курить.",
+            "tags": [
+              "negative",
+              "command"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "She asked us not to make noise.",
+            "translation": "Она попросила нас не шуметь.",
+            "tags": [
+              "negative",
+              "request"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_reporting_verbs_requests",
+      "type": "theory",
+      "title": "Для передачи просьб и приказов важно выбрать глагол, который сохраняет тон: ask/request/beg для просьб, tell/order для приказов. Грамматическая схема остается той же: verb + object + to-infinitive.",
+      "theory": {
+        "concept_id": "reporting_verbs_requests",
+        "content_md": "Для передачи просьб и приказов важно выбрать глагол, который сохраняет тон: **ask/request/beg** для просьб, **tell/order** для приказов. Грамматическая схема остается той же: **verb + object + to-infinitive**.\n\nСравните: *She asked him to wait* (вежливая просьба) vs *She ordered him to wait* (жесткий приказ).",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "They requested the guests to leave quietly.",
+            "translation": "Они попросили гостей уйти тихо.",
+            "tags": [
+              "request"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "The officer ordered us to stop.",
+            "translation": "Офицер приказал нам остановиться.",
+            "tags": [
+              "command"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_common_errors",
+      "type": "theory",
+      "title": "Типичные ошибки в reported commands: оставляют do/does/did, забывают to или объект, либо сохраняют прямую форму повелительного наклонения. В reported speech должна быть конструкция verb + object + to-infinitive.",
+      "theory": {
+        "concept_id": "reported_commands_common_errors",
+        "content_md": "Типичные ошибки в reported commands: оставляют do/does/did, забывают to или объект, либо сохраняют прямую форму повелительного наклонения. В reported speech должна быть конструкция **verb + object + to-infinitive**.\n\nПроверяйте: есть ли объект, есть ли to, и стоит ли not перед to в отрицаниях.",
+        "key_points": [],
+        "common_mistakes": [
+          {
+            "wrong": "He told me don't open it.",
+            "right": "He told me not to open it.",
+            "why": "В косвенной речи нужен not to + V1, без do."
+          },
+          {
+            "wrong": "She asked to sit down.",
+            "right": "She asked us to sit down.",
+            "why": "В reported commands объект обязателен."
+          }
+        ],
+        "examples": []
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q50"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный reported command для: \"Close the window.\"",
+        "theory_block_id": "b1_theory_command_pattern",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He told me close the window."
+          },
+          {
+            "id": "b",
+            "text": "He told me to close the window."
+          },
+          {
+            "id": "c",
+            "text": "He told to close the window."
+          },
+          {
+            "id": "d",
+            "text": "He told me closing the window."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Для команд нужен паттерн tell + object + to-infinitive. Здесь объект есть (me) и инфинитив с to: to close.",
+        "tags": []
+      },
+      {
+        "id": "q2",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: The coach asked us to ___ earlier. (приходить)",
+        "theory_block_id": "b1_theory_command_pattern",
+        "difficulty": 2,
+        "correct_answer": "arrive",
+        "explanation": "После ask + object идет to-infinitive, поэтому используется базовая форма: to arrive.",
+        "tags": []
+      },
+      {
+        "id": "q3",
+        "type": "true_false",
+        "prompt": "Reported commands строятся по схеме verb + object + to-infinitive.",
+        "theory_block_id": "b1_theory_command_pattern",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "И tell, и ask в командах/просьбах требуют объект и инфинитив с to.",
+        "tags": []
+      },
+      {
+        "id": "q4",
+        "type": "mcq_single",
+        "prompt": "Как корректно передать: \"Please wait here.\"",
+        "theory_block_id": "b1_theory_command_pattern",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She asked me to wait here."
+          },
+          {
+            "id": "b",
+            "text": "She asked me wait here."
+          },
+          {
+            "id": "c",
+            "text": "She asked to wait here."
+          },
+          {
+            "id": "d",
+            "text": "She asked me waiting here."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Просьба в reported speech оформляется ask + object + to + V1.",
+        "tags": []
+      },
+      {
+        "id": "q5",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_command_pattern",
+        "difficulty": 2,
+        "correct_answer": "He told the team to start.",
+        "explanation": "В reported command сначала глагол сообщения, затем объект и to-infinitive.",
+        "tags": []
+      },
+      {
+        "id": "q6",
+        "type": "error_spotting",
+        "prompt": "Выберите исправленное предложение.",
+        "theory_block_id": "b1_theory_command_pattern",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He asked me to send the file."
+          },
+          {
+            "id": "b",
+            "text": "He asked me send the file."
+          },
+          {
+            "id": "c",
+            "text": "He asked to send the file."
+          },
+          {
+            "id": "d",
+            "text": "He asked me sending the file."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильная конструкция: ask + object + to-infinitive. Остальные варианты без to или без объекта.",
+        "tags": []
+      },
+      {
+        "id": "q7",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный reported command для: \"Turn off the lights.\"",
+        "theory_block_id": "b1_theory_command_pattern",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She told us to turn off the lights."
+          },
+          {
+            "id": "b",
+            "text": "She told us turn off the lights."
+          },
+          {
+            "id": "c",
+            "text": "She told to turn off the lights."
+          },
+          {
+            "id": "d",
+            "text": "She told us turning off the lights."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Tell + object + to + V1 — стандартная форма передачи команды.",
+        "tags": []
+      },
+      {
+        "id": "q8",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: They asked him to ___ quiet. (оставаться)",
+        "theory_block_id": "b1_theory_command_pattern",
+        "difficulty": 2,
+        "correct_answer": "stay",
+        "explanation": "После to используется базовая форма глагола: stay.",
+        "tags": []
+      },
+      {
+        "id": "q9",
+        "type": "true_false",
+        "prompt": "В reported commands сохраняется повелительное наклонение без изменений.",
+        "theory_block_id": "b1_theory_command_pattern",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Повелительное наклонение преобразуется в конструкцию verb + object + to-infinitive.",
+        "tags": []
+      },
+      {
+        "id": "q10",
+        "type": "mcq_single",
+        "prompt": "Как корректно передать: \"Call the client now.\"",
+        "theory_block_id": "b1_theory_command_pattern",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He told me to call the client then."
+          },
+          {
+            "id": "b",
+            "text": "He told me call the client now."
+          },
+          {
+            "id": "c",
+            "text": "He told to call the client now."
+          },
+          {
+            "id": "d",
+            "text": "He told me calling the client now."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Tell + object + to-infinitive. Дополнительно возможно смещение now -> then в косвенной речи.",
+        "tags": []
+      },
+      {
+        "id": "q11",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_command_pattern",
+        "difficulty": 2,
+        "correct_answer": "She asked me to wait.",
+        "explanation": "Ask + object + to + V1.",
+        "tags": []
+      },
+      {
+        "id": "q12",
+        "type": "mcq_single",
+        "prompt": "Выберите корректное продолжение: He told us ___",
+        "theory_block_id": "b1_theory_command_pattern",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "to sit down"
+          },
+          {
+            "id": "b",
+            "text": "sit down"
+          },
+          {
+            "id": "c",
+            "text": "sitting down"
+          },
+          {
+            "id": "d",
+            "text": "that sit down"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После told us требуется to-infinitive: to sit down.",
+        "tags": []
+      },
+      {
+        "id": "q13",
+        "type": "true_false",
+        "prompt": "В конструкции reported command с tell объект обязателен.",
+        "theory_block_id": "b2_theory_tell_vs_ask",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Tell без объекта неверен: нужно указать, кому сказали выполнить действие.",
+        "tags": []
+      },
+      {
+        "id": "q14",
+        "type": "mcq_single",
+        "prompt": "Какой вариант грамматически корректен?",
+        "theory_block_id": "b2_theory_tell_vs_ask",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He told to wait."
+          },
+          {
+            "id": "b",
+            "text": "He told me to wait."
+          },
+          {
+            "id": "c",
+            "text": "He told me wait."
+          },
+          {
+            "id": "d",
+            "text": "He told me waiting."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Tell требует объект и to-infinitive: told me to wait.",
+        "tags": []
+      },
+      {
+        "id": "q15",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение:",
+        "theory_block_id": "b2_theory_tell_vs_ask",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She asked me to join the meeting."
+          },
+          {
+            "id": "b",
+            "text": "She asked to join the meeting."
+          },
+          {
+            "id": "c",
+            "text": "She asked me join the meeting."
+          },
+          {
+            "id": "d",
+            "text": "She asked me joining the meeting."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В reported command требуется объект и to-infinitive. Только вариант a соответствует схеме.",
+        "tags": []
+      },
+      {
+        "id": "q16",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: He told ___ to call the supplier. (кому?)",
+        "theory_block_id": "b2_theory_tell_vs_ask",
+        "difficulty": 2,
+        "correct_answer": "me",
+        "explanation": "Tell нуждается в объекте, указывающем адресата действия.",
+        "tags": []
+      },
+      {
+        "id": "q17",
+        "type": "mcq_single",
+        "prompt": "Какой вариант неверен из-за отсутствия объекта?",
+        "theory_block_id": "b2_theory_tell_vs_ask",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The guide told us to follow the path."
+          },
+          {
+            "id": "b",
+            "text": "The guide told to follow the path."
+          },
+          {
+            "id": "c",
+            "text": "The guide asked us to follow the path."
+          },
+          {
+            "id": "d",
+            "text": "The guide asked me to follow the path."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Tell без объекта невозможен: нужно указать, кому сказали.",
+        "tags": []
+      },
+      {
+        "id": "q18",
+        "type": "true_false",
+        "prompt": "В reported commands с ask объект тоже обязателен.",
+        "theory_block_id": "b2_theory_tell_vs_ask",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Ask в значении приказа/просьбы требует объект: asked me to do.",
+        "tags": []
+      },
+      {
+        "id": "q19",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_tell_vs_ask",
+        "difficulty": 2,
+        "correct_answer": "She asked him to stay.",
+        "explanation": "Ask + object + to + V1 — обязательная схема для команд/просьб.",
+        "tags": []
+      },
+      {
+        "id": "q20",
+        "type": "mcq_single",
+        "prompt": "Выберите корректное продолжение: They asked the interns ___",
+        "theory_block_id": "b2_theory_tell_vs_ask",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "to prepare slides"
+          },
+          {
+            "id": "b",
+            "text": "prepare slides"
+          },
+          {
+            "id": "c",
+            "text": "preparing slides"
+          },
+          {
+            "id": "d",
+            "text": "that prepare slides"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После asked the interns нужен to-infinitive.",
+        "tags": []
+      },
+      {
+        "id": "q21",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: She asked ___ to send the report. (адресат)",
+        "theory_block_id": "b2_theory_tell_vs_ask",
+        "difficulty": 2,
+        "correct_answer": "him",
+        "explanation": "Ask в reported command требует объект: asked him to send.",
+        "tags": []
+      },
+      {
+        "id": "q22",
+        "type": "mcq_single",
+        "prompt": "Какой вариант правильный для команды?",
+        "theory_block_id": "b2_theory_tell_vs_ask",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She told to move the car."
+          },
+          {
+            "id": "b",
+            "text": "She told us to move the car."
+          },
+          {
+            "id": "c",
+            "text": "She told us move the car."
+          },
+          {
+            "id": "d",
+            "text": "She told us moving the car."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Tell требует объект и to-infinitive: told us to move.",
+        "tags": []
+      },
+      {
+        "id": "q23",
+        "type": "error_spotting",
+        "prompt": "Выберите корректное предложение с ask.",
+        "theory_block_id": "b2_theory_tell_vs_ask",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He asked to open the door."
+          },
+          {
+            "id": "b",
+            "text": "He asked me to open the door."
+          },
+          {
+            "id": "c",
+            "text": "He asked me open the door."
+          },
+          {
+            "id": "d",
+            "text": "He asked me opening the door."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Для команды/просьбы нужен объект и to-infinitive: asked me to open.",
+        "tags": []
+      },
+      {
+        "id": "q24",
+        "type": "true_false",
+        "prompt": "Форма *asked to do* корректна для reported command без указания объекта.",
+        "theory_block_id": "b2_theory_tell_vs_ask",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "В reported commands объект обязателен: asked him/her/us to do.",
+        "tags": []
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Как передать: \"Don't leave the door open.\"",
+        "theory_block_id": "b3_theory_negative_commands",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He told me not to leave the door open."
+          },
+          {
+            "id": "b",
+            "text": "He told me don't leave the door open."
+          },
+          {
+            "id": "c",
+            "text": "He told me to not leave the door open."
+          },
+          {
+            "id": "d",
+            "text": "He told me not leave the door open."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Отрицательная команда: told + object + not to + V1.",
+        "tags": []
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: She asked us ___ to touch the samples. (отрицание)",
+        "theory_block_id": "b3_theory_negative_commands",
+        "difficulty": 2,
+        "correct_answer": "not",
+        "explanation": "В отрицательной форме частица not ставится перед to.",
+        "tags": []
+      },
+      {
+        "id": "q27",
+        "type": "true_false",
+        "prompt": "В отрицательных reported commands используется not to + V1.",
+        "theory_block_id": "b3_theory_negative_commands",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это стандартная форма запрета в косвенной речи.",
+        "tags": []
+      },
+      {
+        "id": "q28",
+        "type": "mcq_single",
+        "prompt": "Выберите корректное продолжение: The teacher told the students ___",
+        "theory_block_id": "b3_theory_negative_commands",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "not to use phones"
+          },
+          {
+            "id": "b",
+            "text": "don't use phones"
+          },
+          {
+            "id": "c",
+            "text": "to not use phones"
+          },
+          {
+            "id": "d",
+            "text": "not use phones"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно not to + V1 после объекта: told the students not to use.",
+        "tags": []
+      },
+      {
+        "id": "q29",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_negative_commands",
+        "difficulty": 2,
+        "correct_answer": "He told me not to worry.",
+        "explanation": "Not стоит перед to-infinitive: not to worry.",
+        "tags": []
+      },
+      {
+        "id": "q30",
+        "type": "error_spotting",
+        "prompt": "Выберите исправленное предложение для отрицательной команды.",
+        "theory_block_id": "b3_theory_negative_commands",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She asked me not to be late."
+          },
+          {
+            "id": "b",
+            "text": "She asked me don't be late."
+          },
+          {
+            "id": "c",
+            "text": "She asked me not be late."
+          },
+          {
+            "id": "d",
+            "text": "She asked me to not be late."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильная форма: asked + object + not to + V1.",
+        "tags": []
+      },
+      {
+        "id": "q31",
+        "type": "mcq_single",
+        "prompt": "Какой вариант правильно передает запрет?",
+        "theory_block_id": "b3_theory_negative_commands",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The sign told us don't park here."
+          },
+          {
+            "id": "b",
+            "text": "The sign told us not to park here."
+          },
+          {
+            "id": "c",
+            "text": "The sign told us to not park here."
+          },
+          {
+            "id": "d",
+            "text": "The sign told to not park here."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Запрет выражается через not to + V1 после объекта.",
+        "tags": []
+      },
+      {
+        "id": "q32",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: He asked her not to ___ noise. (делать)",
+        "theory_block_id": "b3_theory_negative_commands",
+        "difficulty": 2,
+        "correct_answer": "make",
+        "explanation": "После not to используется базовая форма: make.",
+        "tags": []
+      },
+      {
+        "id": "q33",
+        "type": "true_false",
+        "prompt": "В отрицательных reported commands нужен вспомогательный do.",
+        "theory_block_id": "b3_theory_negative_commands",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Используется not to + V1, без do/does/did.",
+        "tags": []
+      },
+      {
+        "id": "q34",
+        "type": "mcq_single",
+        "prompt": "Выберите корректный reported command для: \"Don't interrupt me.\"",
+        "theory_block_id": "b3_theory_negative_commands",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She told me not to interrupt her."
+          },
+          {
+            "id": "b",
+            "text": "She told me don't interrupt her."
+          },
+          {
+            "id": "c",
+            "text": "She told me to not interrupt her."
+          },
+          {
+            "id": "d",
+            "text": "She told me not interrupt her."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "При запрете используется not to + V1 и возможная смена местоимений.",
+        "tags": []
+      },
+      {
+        "id": "q35",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_negative_commands",
+        "difficulty": 2,
+        "correct_answer": "The host asked us not to smoke.",
+        "explanation": "Ask + object + not to + V1 — стандартная схема отрицательной просьбы.",
+        "tags": []
+      },
+      {
+        "id": "q36",
+        "type": "mcq_single",
+        "prompt": "Какой вариант грамматически правильный?",
+        "theory_block_id": "b3_theory_negative_commands",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He told me not to forget the keys."
+          },
+          {
+            "id": "b",
+            "text": "He told me not forget the keys."
+          },
+          {
+            "id": "c",
+            "text": "He told me don't forget the keys."
+          },
+          {
+            "id": "d",
+            "text": "He told not to me forget the keys."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Not to стоит перед базовой формой глагола, объект следует после told.",
+        "tags": []
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Какой глагол лучше сохраняет вежливый тон?",
+        "theory_block_id": "b4_theory_reporting_verbs_requests",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "ordered"
+          },
+          {
+            "id": "b",
+            "text": "asked"
+          },
+          {
+            "id": "c",
+            "text": "commanded"
+          },
+          {
+            "id": "d",
+            "text": "forced"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Ask используется для просьб и звучит вежливо по сравнению с order/command.",
+        "tags": []
+      },
+      {
+        "id": "q38",
+        "type": "true_false",
+        "prompt": "Request и beg могут использоваться с тем же паттерном object + to-infinitive.",
+        "theory_block_id": "b4_theory_reporting_verbs_requests",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "И request, и beg в reported commands обычно используют object + to-infinitive.",
+        "tags": []
+      },
+      {
+        "id": "q39",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант для официальной просьбы:",
+        "theory_block_id": "b4_theory_reporting_verbs_requests",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "They requested us to sign the form."
+          },
+          {
+            "id": "b",
+            "text": "They requested us sign the form."
+          },
+          {
+            "id": "c",
+            "text": "They requested to sign the form."
+          },
+          {
+            "id": "d",
+            "text": "They requested us signing the form."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Request строится по той же схеме: request + object + to-infinitive.",
+        "tags": []
+      },
+      {
+        "id": "q40",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: The officer ordered them to ___ immediately. (остановиться)",
+        "theory_block_id": "b4_theory_reporting_verbs_requests",
+        "difficulty": 2,
+        "correct_answer": "stop",
+        "explanation": "Order также требует to-infinitive: to stop.",
+        "tags": []
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "prompt": "Как корректно передать: \"Please send me the invoice.\"",
+        "theory_block_id": "b4_theory_reporting_verbs_requests",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He requested me to send the invoice."
+          },
+          {
+            "id": "b",
+            "text": "He requested me sending the invoice."
+          },
+          {
+            "id": "c",
+            "text": "He requested to send the invoice."
+          },
+          {
+            "id": "d",
+            "text": "He requested me send the invoice."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Request + object + to-infinitive. Это сохраняет официальный тон просьбы.",
+        "tags": []
+      },
+      {
+        "id": "q42",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_reporting_verbs_requests",
+        "difficulty": 2,
+        "correct_answer": "He begged her to stay.",
+        "explanation": "Beg используется с object + to-infinitive: begged her to stay.",
+        "tags": []
+      },
+      {
+        "id": "q43",
+        "type": "error_spotting",
+        "prompt": "Выберите корректное предложение с order.",
+        "theory_block_id": "b4_theory_reporting_verbs_requests",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The judge ordered him to leave."
+          },
+          {
+            "id": "b",
+            "text": "The judge ordered to leave."
+          },
+          {
+            "id": "c",
+            "text": "The judge ordered him leave."
+          },
+          {
+            "id": "d",
+            "text": "The judge ordered him leaving."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Order требует объект и to-infinitive: ordered him to leave.",
+        "tags": []
+      },
+      {
+        "id": "q44",
+        "type": "true_false",
+        "prompt": "Tell звучит более жестко, чем ask, и часто передает приказ.",
+        "theory_block_id": "b4_theory_reporting_verbs_requests",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Tell обычно используется для инструкции или приказа, в отличие от ask.",
+        "tags": []
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "prompt": "Какой вариант передает сильную необходимость?",
+        "theory_block_id": "b4_theory_reporting_verbs_requests",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She asked him to leave."
+          },
+          {
+            "id": "b",
+            "text": "She ordered him to leave."
+          },
+          {
+            "id": "c",
+            "text": "She begged him to leave."
+          },
+          {
+            "id": "d",
+            "text": "She invited him to leave."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Ordered передает приказ и более жесткий тон, чем ask или beg.",
+        "tags": []
+      },
+      {
+        "id": "q46",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: They begged us to ___ the story. (рассказать)",
+        "theory_block_id": "b4_theory_reporting_verbs_requests",
+        "difficulty": 2,
+        "correct_answer": "tell",
+        "explanation": "После beg используется to-infinitive: to tell.",
+        "tags": []
+      },
+      {
+        "id": "q47",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант с request:",
+        "theory_block_id": "b4_theory_reporting_verbs_requests",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The admin requested them to reset the password."
+          },
+          {
+            "id": "b",
+            "text": "The admin requested them reset the password."
+          },
+          {
+            "id": "c",
+            "text": "The admin requested to reset the password."
+          },
+          {
+            "id": "d",
+            "text": "The admin requested them resetting the password."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Request использует object + to-infinitive.",
+        "tags": []
+      },
+      {
+        "id": "q48",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_reporting_verbs_requests",
+        "difficulty": 2,
+        "correct_answer": "She ordered the driver to slow down.",
+        "explanation": "Order + object + to-infinitive сохраняет приказ в косвенной речи.",
+        "tags": []
+      },
+      {
+        "id": "q49",
+        "type": "true_false",
+        "prompt": "Форма *He told me do it* корректна в reported commands.",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нужен to-infinitive: told me to do it.",
+        "tags": []
+      },
+      {
+        "id": "q50",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант без типичной ошибки:",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He told me not to open it."
+          },
+          {
+            "id": "b",
+            "text": "He told me don't open it."
+          },
+          {
+            "id": "c",
+            "text": "He told me not open it."
+          },
+          {
+            "id": "d",
+            "text": "He told me to not open it."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильно: told + object + not to + V1. Остальные варианты содержат ошибки.",
+        "tags": []
+      },
+      {
+        "id": "q51",
+        "type": "mcq_single",
+        "prompt": "Что неверно в предложении: \"She asked to wait outside.\"",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Нет объекта"
+          },
+          {
+            "id": "b",
+            "text": "Неверный артикль"
+          },
+          {
+            "id": "c",
+            "text": "Неверное время"
+          },
+          {
+            "id": "d",
+            "text": "Нужна инверсия"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В reported command нужен объект: asked us/me to wait outside.",
+        "tags": []
+      },
+      {
+        "id": "q52",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: He told us ___ lock the door. (инфинитивная частица)",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 2,
+        "correct_answer": "to",
+        "explanation": "Типичная ошибка — пропуск to. В reported commands обязательно to.",
+        "tags": []
+      },
+      {
+        "id": "q53",
+        "type": "mcq_single",
+        "prompt": "Какое предложение исправляет ошибку: \"They told to hurry up.\"",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "They told us to hurry up."
+          },
+          {
+            "id": "b",
+            "text": "They told us hurry up."
+          },
+          {
+            "id": "c",
+            "text": "They told to us hurry up."
+          },
+          {
+            "id": "d",
+            "text": "They told us to hurrying up."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужен объект и to-infinitive: told us to hurry up.",
+        "tags": []
+      },
+      {
+        "id": "q54",
+        "type": "true_false",
+        "prompt": "В reported commands нельзя использовать форму do/does/did.",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Используется to-infinitive, поэтому вспомогательные do/does/did не нужны.",
+        "tags": []
+      },
+      {
+        "id": "q55",
+        "type": "error_spotting",
+        "prompt": "Выберите исправленное предложение после ошибки:",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She told him to not drive fast."
+          },
+          {
+            "id": "b",
+            "text": "She told him not to drive fast."
+          },
+          {
+            "id": "c",
+            "text": "She told him don't drive fast."
+          },
+          {
+            "id": "d",
+            "text": "She told him not drive fast."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Правильный порядок: not to + V1. Варианты с do или без to неверны.",
+        "tags": []
+      },
+      {
+        "id": "q56",
+        "type": "mcq_single",
+        "prompt": "Что исправить в: \"He told me to don't worry.\"",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Убрать do и поставить not перед to"
+          },
+          {
+            "id": "b",
+            "text": "Заменить told на said"
+          },
+          {
+            "id": "c",
+            "text": "Поменять порядок слов на вопросительный"
+          },
+          {
+            "id": "d",
+            "text": "Поставить did после me"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно not to worry: told me not to worry. Do не используется.",
+        "tags": []
+      },
+      {
+        "id": "q57",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: She asked us to ___ the meeting. (посетить)",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 2,
+        "correct_answer": "attend",
+        "explanation": "После to используется базовая форма. Ошибка была бы в использовании -ing.",
+        "tags": []
+      },
+      {
+        "id": "q58",
+        "type": "mcq_single",
+        "prompt": "Какой вариант содержит ошибку в конструкции reported command?",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He asked me to sit down."
+          },
+          {
+            "id": "b",
+            "text": "He asked me sit down."
+          },
+          {
+            "id": "c",
+            "text": "He asked me to wait."
+          },
+          {
+            "id": "d",
+            "text": "He asked me to stay."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Вариант b без to. В reported commands to обязателен.",
+        "tags": []
+      },
+      {
+        "id": "q59",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 2,
+        "correct_answer": "They told her not to panic.",
+        "explanation": "Схема: told + object + not to + V1.",
+        "tags": []
+      },
+      {
+        "id": "q60",
+        "type": "true_false",
+        "prompt": "Ошибка *asked him to do it* связана с отсутствием объекта.",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "В этом примере объект есть (him), поэтому ошибка отсутствует.",
+        "tags": []
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-24T10:14:14Z",
+    "source": "llm"
+  }
+}
