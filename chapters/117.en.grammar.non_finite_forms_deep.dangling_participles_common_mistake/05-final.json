@@ -1,0 +1,1195 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.non_finite_forms_deep.dangling_participles_common_mistake",
+  "section_id": "en.grammar.non_finite_forms_deep",
+  "title": "Dangling participles: common mistake + fixes",
+  "title_short": "Dangling participles: common mistake + fixes",
+  "description": "Как распознавать «висящие» причастные обороты и исправлять их.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "B2",
+  "order": 0,
+  "prerequisites": [
+    "en.grammar.non_finite_forms_deep.participle_clauses_having_finished"
+  ],
+  "concept_refs": [
+    "dangling_participle_definition",
+    "dangling_participle_detection",
+    "dangling_participle_fixes",
+    "safe_participle_phrases",
+    "dangling_participle_traps"
+  ],
+  "learning_objectives": [
+    "Определять dangling participles в тексте",
+    "Понимать причину ошибки: неверный субъект",
+    "Исправлять предложения разными способами",
+    "Избегать типичных ловушек в письменной речи"
+  ],
+  "estimated_minutes": 22,
+  "blocks": [
+    {
+      "id": "b1_theory_definition",
+      "type": "theory",
+      "title": "Dangling participle — это причастный оборот, который логически относится не к тому субъекту в предложении. В результате возникает абсурдный смысл: действие как будто выполняет другой объект.\\n\\nНапример: *Driving home, the rain started.* Кажется, что дождь «ехал домой». Ошибка в том, что субъект оборота отсутствует или не совпадает с субъектом главного предложения.",
+      "theory": {
+        "concept_id": "dangling_participle_definition",
+        "content_md": "Dangling participle — это причастный оборот, который **логически относится не к тому субъекту** в предложении. В результате возникает абсурдный смысл: действие как будто выполняет другой объект.\\n\\nНапример: *Driving home, the rain started.* Кажется, что дождь «ехал домой». Ошибка в том, что субъект оборота отсутствует или не совпадает с субъектом главного предложения.",
+        "key_points": [
+          "Оборот должен относиться к тому же субъекту, что и основное сказуемое",
+          "Если субъект не совпадает, смысл становится нелогичным",
+          "Часто ошибка встречается в письменной речи"
+        ],
+        "common_mistakes": [],
+        "examples": []
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_detection",
+      "type": "theory",
+      "title": "Чтобы обнаружить dangling participle, задайте вопрос: кто выполняет действие в обороте? Если субъект не назван или не совпадает с главным, значит оборот «висит».\\n\\nПростой тест: попробуйте подставить субъект из главного предложения внутрь оборота. Если получается нелепо, оборот нужно исправлять.",
+      "theory": {
+        "concept_id": "dangling_participle_detection",
+        "content_md": "Чтобы обнаружить dangling participle, задайте вопрос: **кто выполняет действие в обороте?** Если субъект не назван или не совпадает с главным, значит оборот «висит».\\n\\nПростой тест: попробуйте подставить субъект из главного предложения внутрь оборота. Если получается нелепо, оборот нужно исправлять.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Walking to the office, the phone rang.",
+            "translation": "Идя в офис, зазвонил телефон.",
+            "notes": "Телефон не может идти в офис — значит, оборот ошибочный.",
+            "tags": [
+              "incorrect"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q11",
+          "q12"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_fixes",
+      "type": "theory",
+      "title": "Есть три основных способа исправления dangling participle:\\n\\n1) Добавить субъект: *Walking to the office, I heard the phone ring.*\\n2) Перестроить предложение: *While I was walking to the office, the phone rang.*\\n3) Сделать оборот пассивным, если смысл пассивный: *While walking to the office, I was called.*\\n\\nВыбор способа зависит от контекста и стиля.",
+      "theory": {
+        "concept_id": "dangling_participle_fixes",
+        "content_md": "Есть три основных способа исправления dangling participle:\\n\\n1) **Добавить субъект**: *Walking to the office, I heard the phone ring.*\\n2) **Перестроить предложение**: *While I was walking to the office, the phone rang.*\\n3) **Сделать оборот пассивным**, если смысл пассивный: *While walking to the office, I was called.*\\n\\nВыбор способа зависит от контекста и стиля.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Walking to the office, I heard the phone ring.",
+            "translation": "Идя в офис, я услышал звонок телефона.",
+            "tags": [
+              "correct"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q21",
+          "q22"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_safe_phrases",
+      "type": "theory",
+      "title": "Некоторые вводные обороты считаются «безопасными», потому что они не требуют конкретного субъекта. Например: generally speaking, frankly speaking, strictly speaking, considering, judging by.\\n\\nТакие конструкции выражают отношение говорящего и не создают dangling participle.",
+      "theory": {
+        "concept_id": "safe_participle_phrases",
+        "content_md": "Некоторые вводные обороты считаются «безопасными», потому что они не требуют конкретного субъекта. Например: **generally speaking**, **frankly speaking**, **strictly speaking**, **considering**, **judging by**.\\n\\nТакие конструкции выражают отношение говорящего и не создают dangling participle.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Generally speaking, this policy works well.",
+            "translation": "В целом эта политика работает хорошо.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q31",
+          "q32"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_common_traps",
+      "type": "theory",
+      "title": "Частые ловушки: использовать V-ing, когда субъект не совпадает, или использовать V3 вместо активной формы. Ошибка часто возникает в формальных текстах и при попытке сделать предложение более «академическим».\\n\\nВсегда проверяйте, кто выполняет действие в обороте, и соответствует ли этому субъект главной части.",
+      "theory": {
+        "concept_id": "dangling_participle_traps",
+        "content_md": "Частые ловушки: использовать V-ing, когда субъект не совпадает, или использовать V3 вместо активной формы. Ошибка часто возникает в формальных текстах и при попытке сделать предложение более «академическим».\\n\\nВсегда проверяйте, кто выполняет действие в обороте, и соответствует ли этому субъект главной части.",
+        "key_points": [],
+        "common_mistakes": [
+          {
+            "wrong": "Driving home, the storm started.",
+            "right": "Driving home, we noticed the storm starting.",
+            "why": "Субъект действия должен быть тем, кто едет домой."
+          },
+          {
+            "wrong": "Seen the email, I replied immediately.",
+            "right": "Having seen the email, I replied immediately.",
+            "why": "Seen — пассив. Для активного смысла нужен having + V3."
+          },
+          {
+            "wrong": "Considering the budget was tight, the plan was changed.",
+            "right": "Considering the budget, we changed the plan.",
+            "why": "Considering — вводный оборот; субъект должен быть явным, если нужно действие."
+          }
+        ],
+        "examples": []
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q41",
+          "q42"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "true_false",
+        "prompt": "Dangling participle возникает, когда оборот относится не к тому субъекту.",
+        "theory_block_id": "b1_theory_definition",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Смысл ошибки именно в неправильной связи оборота с субъектом. Поэтому определение верно.",
+        "tags": []
+      },
+      {
+        "id": "q2",
+        "type": "mcq_single",
+        "prompt": "Почему предложение \"Driving home, the rain started\" считается ошибочным?",
+        "theory_block_id": "b1_theory_definition",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Неверное время"
+          },
+          {
+            "id": "b",
+            "text": "Неверный субъект"
+          },
+          {
+            "id": "c",
+            "text": "Неверный артикль"
+          },
+          {
+            "id": "d",
+            "text": "Неверный предлог"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Получается, что rain выполняет действие driving. Это логическая ошибка субъекта.",
+        "tags": []
+      },
+      {
+        "id": "q3",
+        "type": "mcq_single",
+        "prompt": "Что такое dangling participle?",
+        "theory_block_id": "b1_theory_definition",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Причастный оборот с неверным субъектом"
+          },
+          {
+            "id": "b",
+            "text": "Неправильный порядок слов"
+          },
+          {
+            "id": "c",
+            "text": "Форма пассива"
+          },
+          {
+            "id": "d",
+            "text": "Сокращение с if"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Dangling participle — это оборот, который логически относится не к тому субъекту.",
+        "tags": []
+      },
+      {
+        "id": "q4",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Dangling participle часто делает смысл ___ . (нелогичным)",
+        "theory_block_id": "b1_theory_definition",
+        "difficulty": 1,
+        "correct_answer": "illogical",
+        "explanation": "В результате неверной связи субъекта смысл становится нелогичным. Поэтому illogical подходит.",
+        "tags": []
+      },
+      {
+        "id": "q5",
+        "type": "true_false",
+        "prompt": "Если субъект совпадает, dangling participle все равно возможен.",
+        "theory_block_id": "b1_theory_definition",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Если субъект совпадает, dangling participle не возникает. Поэтому утверждение неверно.",
+        "tags": []
+      },
+      {
+        "id": "q6",
+        "type": "mcq_single",
+        "prompt": "Выберите пример с dangling participle.",
+        "theory_block_id": "b1_theory_definition",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Walking to class, I met Sarah."
+          },
+          {
+            "id": "b",
+            "text": "Walking to class, the bell rang."
+          },
+          {
+            "id": "c",
+            "text": "While walking to class, I met Sarah."
+          },
+          {
+            "id": "d",
+            "text": "I walked to class and met Sarah."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Вариант b делает колокол субъектом действия walking. Это классический dangling participle.",
+        "tags": []
+      },
+      {
+        "id": "q7",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Ошибка dangling participle связана с неверным ___. (субъект)",
+        "theory_block_id": "b1_theory_definition",
+        "difficulty": 1,
+        "correct_answer": "subject",
+        "explanation": "Проблема именно в неправильной связи с субъектом. Поэтому subject — верное слово.",
+        "tags": []
+      },
+      {
+        "id": "q8",
+        "type": "true_false",
+        "prompt": "Dangling participle чаще встречается в устной речи.",
+        "theory_block_id": "b1_theory_definition",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Чаще ошибка встречается в письменной речи, где используют сложные обороты.",
+        "tags": []
+      },
+      {
+        "id": "q9",
+        "type": "mcq_single",
+        "prompt": "Какой вариант звучит нелогично из-за dangling participle?",
+        "theory_block_id": "b1_theory_definition",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Opening the door, I saw the cat."
+          },
+          {
+            "id": "b",
+            "text": "Opening the door, the cat ran away."
+          },
+          {
+            "id": "c",
+            "text": "When I opened the door, the cat ran away."
+          },
+          {
+            "id": "d",
+            "text": "I opened the door and the cat ran away."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В b выходит, что кошка открывала дверь. Это неверный субъект.",
+        "tags": []
+      },
+      {
+        "id": "q10",
+        "type": "mcq_single",
+        "prompt": "Что нарушено в предложении \"Crossing the street, the traffic light turned red\"?",
+        "theory_block_id": "b1_theory_definition",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Согласование времен"
+          },
+          {
+            "id": "b",
+            "text": "Связь с субъектом"
+          },
+          {
+            "id": "c",
+            "text": "Порядок слов"
+          },
+          {
+            "id": "d",
+            "text": "Форма пассива"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Светофор не может переходить улицу. Субъект оборота не совпадает с главным.",
+        "tags": []
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "prompt": "Как распознать dangling participle?",
+        "theory_block_id": "b2_theory_detection",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Проверить, кто выполняет действие в обороте"
+          },
+          {
+            "id": "b",
+            "text": "Проверить длину предложения"
+          },
+          {
+            "id": "c",
+            "text": "Проверить артикли"
+          },
+          {
+            "id": "d",
+            "text": "Проверить модальные глаголы"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Ключевой тест — определить исполнителя действия в обороте и сравнить с субъектом.",
+        "tags": []
+      },
+      {
+        "id": "q12",
+        "type": "true_false",
+        "prompt": "Если подставить субъект главного предложения в оборот и получается абсурд, оборот «висит».",
+        "theory_block_id": "b2_theory_detection",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Это простой тест на dangling participle. Нелепый результат означает ошибку.",
+        "tags": []
+      },
+      {
+        "id": "q13",
+        "type": "error_spotting",
+        "prompt": "Выберите предложение без dangling participle.",
+        "theory_block_id": "b2_theory_detection",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Looking at the timetable, the bus arrived."
+          },
+          {
+            "id": "b",
+            "text": "Looking at the timetable, I saw the bus arrive."
+          },
+          {
+            "id": "c",
+            "text": "Looking at the timetable, the station was crowded."
+          },
+          {
+            "id": "d",
+            "text": "Looking at the timetable, the rain stopped."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Вариант b сохраняет общий субъект (I). Остальные варианты дают нелогичного субъекта.",
+        "tags": []
+      },
+      {
+        "id": "q14",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Проверка dangling participle = кто ___ действие? (делает)",
+        "theory_block_id": "b2_theory_detection",
+        "difficulty": 1,
+        "correct_answer": "does",
+        "explanation": "Нужно определить, кто выполняет действие в обороте. Поэтому does подходит.",
+        "tags": []
+      },
+      {
+        "id": "q15",
+        "type": "mcq_single",
+        "prompt": "Какое предложение звучит логично?",
+        "theory_block_id": "b2_theory_detection",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Walking to the station, the timetable changed."
+          },
+          {
+            "id": "b",
+            "text": "Walking to the station, I checked the timetable."
+          },
+          {
+            "id": "c",
+            "text": "Walking to the station, the platform was empty."
+          },
+          {
+            "id": "d",
+            "text": "Walking to the station, the train left."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Вариант b сохраняет общий субъект: I was walking and I checked.",
+        "tags": []
+      },
+      {
+        "id": "q16",
+        "type": "true_false",
+        "prompt": "Если субъект в главном предложении неодушевленный, participle clause всегда неверен.",
+        "theory_block_id": "b2_theory_detection",
+        "difficulty": 3,
+        "correct_answer": "false",
+        "explanation": "Неодушевленный субъект возможен, если оборот пассивный или логически связан. Ошибка не всегда.",
+        "tags": []
+      },
+      {
+        "id": "q17",
+        "type": "mcq_single",
+        "prompt": "Что помогает быстрее обнаружить dangling participle?",
+        "theory_block_id": "b2_theory_detection",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Подстановка субъекта в оборот"
+          },
+          {
+            "id": "b",
+            "text": "Поиск модальных глаголов"
+          },
+          {
+            "id": "c",
+            "text": "Проверка степени сравнения"
+          },
+          {
+            "id": "d",
+            "text": "Подсчет слов"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Если подставить субъект и получается нелепость, это признак dangling participle.",
+        "tags": []
+      },
+      {
+        "id": "q18",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Dangling participle часто заметен по ___ связи с субъектом. (неверной)",
+        "theory_block_id": "b2_theory_detection",
+        "difficulty": 2,
+        "correct_answer": "wrong",
+        "explanation": "Неверная (wrong) связь с субъектом — основной сигнал ошибки.",
+        "tags": []
+      },
+      {
+        "id": "q19",
+        "type": "error_spotting",
+        "prompt": "Выберите предложение, где оборот относится к правильному субъекту.",
+        "theory_block_id": "b2_theory_detection",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Entering the room, the music was loud."
+          },
+          {
+            "id": "b",
+            "text": "Entering the room, I heard loud music."
+          },
+          {
+            "id": "c",
+            "text": "Entering the room, the lights were bright."
+          },
+          {
+            "id": "d",
+            "text": "Entering the room, the furniture looked new."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Вариант b сохраняет общего субъекта (I). Остальные варианты создают dangling participle.",
+        "tags": []
+      },
+      {
+        "id": "q20",
+        "type": "true_false",
+        "prompt": "Тест \"кто выполняет действие в обороте\" помогает обнаружить dangling participle.",
+        "theory_block_id": "b2_theory_detection",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Если исполнитель не совпадает с субъектом, оборот «висит». Тест это выявляет.",
+        "tags": []
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "prompt": "Какое исправление делает предложение логичным?",
+        "theory_block_id": "b3_theory_fixes",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Walking to the office, the phone rang."
+          },
+          {
+            "id": "b",
+            "text": "Walking to the office, I heard the phone ring."
+          },
+          {
+            "id": "c",
+            "text": "Walking to the office, the phone was heard."
+          },
+          {
+            "id": "d",
+            "text": "Walking to the office, there was a ring."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Добавление субъекта I исправляет dangling participle и делает связь логичной.",
+        "tags": []
+      },
+      {
+        "id": "q22",
+        "type": "true_false",
+        "prompt": "Одно из исправлений — раскрыть оборот в придаточное с while/when.",
+        "theory_block_id": "b3_theory_fixes",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Перестройка в полное придаточное — стандартный способ исправления.",
+        "tags": []
+      },
+      {
+        "id": "q23",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Один способ исправления — добавить ___ . (подлежащее)",
+        "theory_block_id": "b3_theory_fixes",
+        "difficulty": 1,
+        "correct_answer": "subject",
+        "explanation": "Добавление правильного субъекта устраняет dangling participle.",
+        "tags": []
+      },
+      {
+        "id": "q24",
+        "type": "error_spotting",
+        "prompt": "Выберите корректную переработку.",
+        "theory_block_id": "b3_theory_fixes",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "While walking to the office, the phone rang."
+          },
+          {
+            "id": "b",
+            "text": "While I was walking to the office, the phone rang."
+          },
+          {
+            "id": "c",
+            "text": "Walking to the office, the phone rang."
+          },
+          {
+            "id": "d",
+            "text": "Walking to the office, I was ringing the phone."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Полное придаточное с субъектом I устраняет ошибку. Остальные варианты сохраняют проблему.",
+        "tags": []
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Какой способ исправления подходит, если нужно сохранить краткость?",
+        "theory_block_id": "b3_theory_fixes",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Добавить правильный субъект"
+          },
+          {
+            "id": "b",
+            "text": "Поменять время"
+          },
+          {
+            "id": "c",
+            "text": "Убрать все обороты"
+          },
+          {
+            "id": "d",
+            "text": "Добавить артикль"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Добавление субъекта часто позволяет сохранить краткость и устранить ошибку.",
+        "tags": []
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Another fix is to rewrite the sentence as a ___ clause. (полное)",
+        "theory_block_id": "b3_theory_fixes",
+        "difficulty": 2,
+        "correct_answer": "full",
+        "explanation": "Полное придаточное предложение устраняет двусмысленность и исправляет ошибку.",
+        "tags": []
+      },
+      {
+        "id": "q27",
+        "type": "true_false",
+        "prompt": "Иногда можно заменить оборот на пассив, если это отражает смысл.",
+        "theory_block_id": "b3_theory_fixes",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Пассив может быть корректным способом исправления, если он соответствует значению.",
+        "tags": []
+      },
+      {
+        "id": "q28",
+        "type": "mcq_single",
+        "prompt": "Выберите корректное исправление: \"Reading the report, the decision was made.\"",
+        "theory_block_id": "b3_theory_fixes",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Reading the report, we made the decision."
+          },
+          {
+            "id": "b",
+            "text": "Reading the report, the decision made us."
+          },
+          {
+            "id": "c",
+            "text": "Reading the report, the decision was read."
+          },
+          {
+            "id": "d",
+            "text": "Reading the report, there was a decision."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужен явный субъект, который читает отчет и принимает решение. Вариант a исправляет это.",
+        "tags": []
+      },
+      {
+        "id": "q29",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: Добавив субъект, мы можем сохранить ___ конструкцию. (краткую)",
+        "theory_block_id": "b3_theory_fixes",
+        "difficulty": 2,
+        "correct_answer": "short",
+        "explanation": "Добавление субъекта позволяет сохранить краткость, не теряя грамматику.",
+        "tags": []
+      },
+      {
+        "id": "q30",
+        "type": "mcq_single",
+        "prompt": "Какой вариант правильно исправляет dangling participle?",
+        "theory_block_id": "b3_theory_fixes",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "While driving home, the accident happened."
+          },
+          {
+            "id": "b",
+            "text": "While I was driving home, the accident happened."
+          },
+          {
+            "id": "c",
+            "text": "Driving home, the accident was driven."
+          },
+          {
+            "id": "d",
+            "text": "Driving home, there was an accident."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Полное придаточное с I устраняет dangling participle.",
+        "tags": []
+      },
+      {
+        "id": "q31",
+        "type": "mcq_single",
+        "prompt": "Какая фраза является «безопасной» вводной конструкцией?",
+        "theory_block_id": "b4_theory_safe_phrases",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Generally speaking"
+          },
+          {
+            "id": "b",
+            "text": "Speaking about the plan"
+          },
+          {
+            "id": "c",
+            "text": "To speaking"
+          },
+          {
+            "id": "d",
+            "text": "General speaking"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Generally speaking — устойчивый вводный оборот, не требующий субъекта.",
+        "tags": []
+      },
+      {
+        "id": "q32",
+        "type": "true_false",
+        "prompt": "Фраза \"frankly speaking\" может использоваться без явного субъекта.",
+        "theory_block_id": "b4_theory_safe_phrases",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Это вводное выражение мнения говорящего и не требует субъекта.",
+        "tags": []
+      },
+      {
+        "id": "q33",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: ___ speaking, the idea is risky. (откровенно)",
+        "theory_block_id": "b4_theory_safe_phrases",
+        "difficulty": 1,
+        "correct_answer": "Frankly",
+        "explanation": "Frankly speaking — устойчивый вводный оборот.",
+        "tags": []
+      },
+      {
+        "id": "q34",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ by the results, the method works.",
+        "theory_block_id": "b4_theory_safe_phrases",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Judging"
+          },
+          {
+            "id": "b",
+            "text": "Judged"
+          },
+          {
+            "id": "c",
+            "text": "To judge"
+          },
+          {
+            "id": "d",
+            "text": "Judgingly"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Judging by — устойчивый оборот, не привязанный к субъекту.",
+        "tags": []
+      },
+      {
+        "id": "q35",
+        "type": "true_false",
+        "prompt": "Considering the data — это вводный оборот, не требующий субъекта.",
+        "theory_block_id": "b4_theory_safe_phrases",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Considering используется как вводный оборот со значением «учитывая».",
+        "tags": []
+      },
+      {
+        "id": "q36",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: ___ speaking, this is our best option. (строго)",
+        "theory_block_id": "b4_theory_safe_phrases",
+        "difficulty": 1,
+        "correct_answer": "Strictly",
+        "explanation": "Strictly speaking — устойчивый вводный оборот.",
+        "tags": []
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Какой вариант НЕ является безопасной вводной конструкцией?",
+        "theory_block_id": "b4_theory_safe_phrases",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Generally speaking"
+          },
+          {
+            "id": "b",
+            "text": "Judging by the data"
+          },
+          {
+            "id": "c",
+            "text": "Walking down the street"
+          },
+          {
+            "id": "d",
+            "text": "Strictly speaking"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Walking down the street требует субъекта и может создать dangling participle.",
+        "tags": []
+      },
+      {
+        "id": "q38",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: ___ speaking, most people agree. (в целом)",
+        "theory_block_id": "b4_theory_safe_phrases",
+        "difficulty": 1,
+        "correct_answer": "Generally",
+        "explanation": "Generally speaking — устойчивый оборот для общего утверждения.",
+        "tags": []
+      },
+      {
+        "id": "q39",
+        "type": "true_false",
+        "prompt": "Safe phrases не создают dangling participle, потому что не требуют конкретного субъекта.",
+        "theory_block_id": "b4_theory_safe_phrases",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Это вводные обороты, которые выражают отношение говорящего и не привязаны к субъекту.",
+        "tags": []
+      },
+      {
+        "id": "q40",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ the circumstances, we postponed the meeting.",
+        "theory_block_id": "b4_theory_safe_phrases",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Considering"
+          },
+          {
+            "id": "b",
+            "text": "Considered"
+          },
+          {
+            "id": "c",
+            "text": "To consider"
+          },
+          {
+            "id": "d",
+            "text": "Consideringly"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Considering используется как вводный оборот «учитывая».",
+        "tags": []
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "prompt": "Выберите пример типичной ловушки.",
+        "theory_block_id": "b5_theory_common_traps",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Driving home, we saw the storm."
+          },
+          {
+            "id": "b",
+            "text": "Driving home, the storm started."
+          },
+          {
+            "id": "c",
+            "text": "While we were driving home, the storm started."
+          },
+          {
+            "id": "d",
+            "text": "We drove home and the storm started."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В b субъект неверный: storm не может driving. Это типичная ловушка.",
+        "tags": []
+      },
+      {
+        "id": "q42",
+        "type": "true_false",
+        "prompt": "Фраза \"Seen the email, I replied\" содержит ошибку в форме.",
+        "theory_block_id": "b5_theory_common_traps",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Seen — пассив, а нужно having seen для активного смысла. Иначе это ошибка.",
+        "tags": []
+      },
+      {
+        "id": "q43",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант исправления.",
+        "theory_block_id": "b5_theory_common_traps",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Seen the report, we changed the plan."
+          },
+          {
+            "id": "b",
+            "text": "Having seen the report, we changed the plan."
+          },
+          {
+            "id": "c",
+            "text": "Seeing the report, the plan was changed."
+          },
+          {
+            "id": "d",
+            "text": "To see the report, we changed the plan."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Having seen дает активный смысл и правильную последовательность действий.",
+        "tags": []
+      },
+      {
+        "id": "q44",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: ___ the budget, we changed the plan. (consider)",
+        "theory_block_id": "b5_theory_common_traps",
+        "difficulty": 2,
+        "correct_answer": "Considering",
+        "explanation": "Considering используется как вводный оборот «учитывая».",
+        "tags": []
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "prompt": "Какой вариант ошибочен из-за пассивной формы?",
+        "theory_block_id": "b5_theory_common_traps",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Having seen the email, I replied immediately."
+          },
+          {
+            "id": "b",
+            "text": "Seen the email, I replied immediately."
+          },
+          {
+            "id": "c",
+            "text": "After I saw the email, I replied immediately."
+          },
+          {
+            "id": "d",
+            "text": "When I saw the email, I replied immediately."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Seen делает пассивный смысл, а здесь нужен активный. Это ошибка.",
+        "tags": []
+      },
+      {
+        "id": "q46",
+        "type": "true_false",
+        "prompt": "Если оборот использует V3, он всегда пассивный.",
+        "theory_block_id": "b5_theory_common_traps",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "V3 в таких оборотах обычно дает пассивный смысл. Для активного нужен V-ing или having + V3.",
+        "tags": []
+      },
+      {
+        "id": "q47",
+        "type": "mcq_single",
+        "prompt": "Выберите корректный вариант без логической ошибки.",
+        "theory_block_id": "b5_theory_common_traps",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Driving to the airport, the flight was delayed."
+          },
+          {
+            "id": "b",
+            "text": "Driving to the airport, we heard about the delay."
+          },
+          {
+            "id": "c",
+            "text": "Driving to the airport, the delay increased."
+          },
+          {
+            "id": "d",
+            "text": "Driving to the airport, the weather was bad."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Вариант b сохраняет общий субъект we. Остальные дают dangling participle.",
+        "tags": []
+      },
+      {
+        "id": "q48",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: ___ the data, we revised the report. (have)",
+        "theory_block_id": "b5_theory_common_traps",
+        "difficulty": 2,
+        "correct_answer": "Having",
+        "explanation": "Having seen/checked показывает, что действие произошло раньше. Поэтому Having — верная часть формы.",
+        "tags": []
+      },
+      {
+        "id": "q49",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b5_theory_common_traps",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Considering the budget was tight, the plan was changed."
+          },
+          {
+            "id": "b",
+            "text": "Considering the budget, we changed the plan."
+          },
+          {
+            "id": "c",
+            "text": "Considered the budget, we changed the plan."
+          },
+          {
+            "id": "d",
+            "text": "Considering to budget, we changed the plan."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Considering the budget — корректный вводный оборот. Вариант b исправляет ловушку.",
+        "tags": []
+      },
+      {
+        "id": "q50",
+        "type": "true_false",
+        "prompt": "Dangling participle можно исправить, добавив ясный субъект в основную часть.",
+        "theory_block_id": "b5_theory_common_traps",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Ясный субъект устраняет двусмысленность и делает оборот корректным.",
+        "tags": []
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-24T09:35:55Z",
+    "source": "llm"
+  }
+}
