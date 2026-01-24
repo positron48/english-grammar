@@ -857,28 +857,25 @@
       {
         "id": "q32",
         "type": "error_spotting",
-        "prompt": "Выберите правильный короткий ответ.",
+        "prompt": "Выберите корректный короткий ответ: \"Have they ever been to Italy?\"",
         "theory_block_id": "b3_theory_questions_short_answers",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Yes, I have.",
-            "feedback": "Верный ответ."
+            "text": "Yes, they have."
           },
           {
             "id": "b",
-            "text": "Yes, I am.",
-            "feedback": "Am не относится к Present Perfect."
+            "text": "Yes, they did."
           },
           {
             "id": "c",
-            "text": "Yes, I did.",
-            "feedback": "Did — для Past Simple."
+            "text": "Yes, they are."
           }
         ],
         "correct_answer": "a",
-        "explanation": "В коротких ответах повторяем have/has."
+        "explanation": "Короткий ответ повторяет have/has: Yes, they have."
       },
       {
         "id": "q33",

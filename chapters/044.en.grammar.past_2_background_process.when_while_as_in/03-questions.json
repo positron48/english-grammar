@@ -377,19 +377,19 @@
     {
       "id": "q24",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**As I leave, I saw him.**",
+      "prompt": "Найдите ошибку:\n\n**As she left, the door opened.**",
       "theory_block_id": "b3_theory_as_basic",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "As I was leaving, I saw him.",
+          "text": "As she was leaving, the door opened.",
           "feedback": "Правильно: Past Continuous + Past Simple"
         },
         {
           "id": "b",
-          "text": "As I leave, I saw him.",
-          "feedback": "Неверно: времена смешаны"
+          "text": "As she left, the door opened.",
+          "feedback": "Неверно: нужен фоновый процесс"
         }
       ],
       "correct_answer": "a",
@@ -445,7 +445,7 @@
       "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b3_theory_as_basic",
       "difficulty": 2,
-      "correct_answer": "As I was leaving, I saw him.",
+      "correct_answer": "As we were walking, it started to rain.",
       "explanation": "Past Continuous + Past Simple (типичное сочетание)."
     },
     {

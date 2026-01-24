@@ -120,22 +120,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "I'm student.",
-          "feedback": "Нет, нужен артикль: 'I'm a student'"
+          "text": "I'm engineer.",
+          "feedback": "Нет, нужен артикль: 'I'm an engineer'"
         },
         {
           "id": "b",
-          "text": "I'm a student.",
-          "feedback": "Правильно! Артикль 'a' обязателен"
+          "text": "I'm an engineer.",
+          "feedback": "Правильно! Артикль 'an' обязателен"
         },
         {
           "id": "c",
-          "text": "I'm an student.",
-          "feedback": "Нет, 'student' начинается с согласного, нужен 'a'"
+          "text": "I'm a engineer.",
+          "feedback": "Нет, 'engineer' начинается с гласного звука, нужен 'an'"
         }
       ],
       "correct_answer": "b",
-      "explanation": "В утверждениях о тождестве после be обязательно используется артикль 'a' или 'an' перед существительным в единственном числе.",
+      "explanation": "В утверждениях о тождестве после be обязательно используется артикль 'a' или 'an' перед существительным в единственном числе. Например: I'm an engineer.",
       "tags": [
         "identity",
         "articles"

@@ -862,7 +862,7 @@
         "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b3_theory_placement_with_be",
         "difficulty": 3,
-        "correct_answer": "She is often busy.",
+        "correct_answer": "She is often late.",
         "explanation": "Правильный порядок с be: Подлежащее + is + Наречие частоты + Остальное.",
         "tags": [
           "placement",
@@ -873,23 +873,28 @@
       {
         "id": "q25",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении:\\n\\n**I always am late.**",
+        "prompt": "Найдите ошибку в предложении:\n\n**I always am hungry.**",
         "theory_block_id": "b3_theory_placement_with_be",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "I am always late.",
-            "feedback": "Правильно! С be наречие после am/is/are"
+            "text": "I am always hungry.",
+            "feedback": "Правильно! Наречие частоты ставится после be"
           },
           {
             "id": "b",
-            "text": "I always am late",
-            "feedback": "Нет, неправильная позиция наречия"
+            "text": "I always am hungry.",
+            "feedback": "Нет, это ошибка"
+          },
+          {
+            "id": "c",
+            "text": "I am hungry always.",
+            "feedback": "Нет, это неправильный порядок слов"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Ошибка: с глаголом be наречие частоты ставится ПОСЛЕ am/is/are. Правильно: I am always late.",
+        "explanation": "С be наречие частоты ставится после be: I am always hungry.",
         "tags": [
           "placement",
           "error",
@@ -899,23 +904,28 @@
       {
         "id": "q26",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении:\\n\\n**She often is tired.**",
+        "prompt": "Найдите ошибку в предложении:\n\n**She often is busy.**",
         "theory_block_id": "b3_theory_placement_with_be",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "She is often tired.",
-            "feedback": "Правильно! С be наречие после is"
+            "text": "She is often busy.",
+            "feedback": "Правильно! Наречие частоты ставится после be"
           },
           {
             "id": "b",
-            "text": "She often is tired",
-            "feedback": "Нет, неправильная позиция наречия"
+            "text": "She often is busy.",
+            "feedback": "Нет, это ошибка"
+          },
+          {
+            "id": "c",
+            "text": "She is busy often.",
+            "feedback": "Нет, это неправильный порядок слов"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Ошибка: с глаголом be наречие частоты ставится ПОСЛЕ is. Правильно: She is often tired.",
+        "explanation": "С be наречие частоты ставится после be: She is often busy.",
         "tags": [
           "placement",
           "error",
@@ -1036,28 +1046,28 @@
       {
         "id": "q32",
         "type": "mcq_single",
-        "prompt": "Какая типичная ошибка в предложении \"I go often to the gym\"?",
+        "prompt": "Какая типичная ошибка в предложении \"He eats often breakfast\"?",
         "theory_block_id": "b5_theory_common_mistakes_placement",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "I often go to the gym.",
-            "feedback": "Правильно! Наречие должно быть перед глаголом"
+            "text": "He often eats breakfast.",
+            "feedback": "Правильно! Наречие частоты ставится перед смысловым глаголом"
           },
           {
             "id": "b",
-            "text": "I go often to the gym.",
-            "feedback": "Нет, это типичная ошибка"
+            "text": "He eats often breakfast.",
+            "feedback": "Нет, это ошибка"
           },
           {
             "id": "c",
-            "text": "Often I go to the gym.",
-            "feedback": "Нет, наречие не в начале"
+            "text": "He often breakfast eats.",
+            "feedback": "Нет, это неправильный порядок слов"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Типичная ошибка: наречие частоты после глагола. Правильно: наречие перед глаголом.",
+        "explanation": "Наречия частоты ставятся перед смысловым глаголом: He often eats breakfast.",
         "tags": [
           "common_mistakes",
           "placement"
@@ -1150,23 +1160,28 @@
       {
         "id": "q37",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении:\n\n**I don't go often there.**",
+        "prompt": "Найдите ошибку в предложении:\n\n**I don't go usually there.**",
         "theory_block_id": "b5_theory_common_mistakes_placement",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "I don't often go there.",
-            "feedback": "Правильно! В отрицаниях наречие ставится между don't/doesn't и глаголом"
+            "text": "I don't usually go there.",
+            "feedback": "Правильно! Наречие частоты ставится перед смысловым глаголом"
           },
           {
             "id": "b",
-            "text": "I don't go often there",
-            "feedback": "Нет, это неправильная позиция наречия"
+            "text": "I don't go usually there.",
+            "feedback": "Нет, это ошибка"
+          },
+          {
+            "id": "c",
+            "text": "I usually don't go there.",
+            "feedback": "Нет, здесь меняется акцент, но это не то исправление"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Ошибка: в отрицаниях наречие частоты ставится между don't/doesn't и глаголом, а не после глагола. Правильно: I don't often go there.",
+        "explanation": "Наречие обычно ставится перед смысловым глаголом: I don't usually go there.",
         "tags": [
           "common_mistakes",
           "placement",

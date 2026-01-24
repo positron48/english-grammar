@@ -248,23 +248,28 @@
     {
       "id": "q12",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**We am watching TV.**",
+      "prompt": "Найдите ошибку:\n\n**We am watching a movie.**",
       "theory_block_id": "b1_theory_basic_form",
       "difficulty": 1,
       "choices": [
         {
           "id": "a",
-          "text": "We are watching TV.",
+          "text": "We are watching a movie.",
           "feedback": "Правильно! С we используется are"
         },
         {
           "id": "b",
-          "text": "We is watching TV.",
+          "text": "We am watching a movie.",
+          "feedback": "Нет, это ошибка"
+        },
+        {
+          "id": "c",
+          "text": "We is watching a movie.",
           "feedback": "Нет, с we используется are"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Ошибка: с we используется are, а не am. Правильно: We are watching TV.",
+      "explanation": "С we используется are: We are watching a movie.",
       "tags": [
         "basic_form"
       ]
@@ -328,23 +333,28 @@
     {
       "id": "q16",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку в правописании:\n\n**I am readding a book.**",
+      "prompt": "Найдите ошибку в правописании:\n\n**I am readding a magazine.**",
       "theory_block_id": "b2_theory_spelling_basic",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "I am reading a book.",
-          "feedback": "Правильно! Для read просто добавляем -ing"
+          "text": "I am reading a magazine.",
+          "feedback": "Правильно! В слове reading одна d"
         },
         {
           "id": "b",
-          "text": "I am read a book.",
+          "text": "I am readding a magazine.",
+          "feedback": "Нет, это ошибка"
+        },
+        {
+          "id": "c",
+          "text": "I am read a magazine.",
           "feedback": "Нет, нужна форма -ing"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Ошибка: для read не нужно удваивать d. Правильно: reading (просто добавляем -ing).",
+      "explanation": "Правильно: reading (одна d).",
       "tags": [
         "spelling",
         "basic"
@@ -1428,23 +1438,28 @@
     {
       "id": "q66",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку в правописании:\n\n**She is writting a letter.**",
+      "prompt": "Найдите ошибку в правописании:\n\n**She is writting an email.**",
       "theory_block_id": "b6_theory_practice_all_rules",
       "difficulty": 3,
       "choices": [
         {
           "id": "a",
-          "text": "She is writing a letter.",
-          "feedback": "Правильно! Для write удаляем e, не удваиваем t"
+          "text": "She is writing an email.",
+          "feedback": "Правильно! В слове writing одна t"
         },
         {
           "id": "b",
-          "text": "She is write a letter.",
-          "feedback": "Нет, нужна форма -ing"
+          "text": "She is writting an email.",
+          "feedback": "Нет, это ошибка"
+        },
+        {
+          "id": "c",
+          "text": "She is writeing an email.",
+          "feedback": "Нет, это ошибка"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Ошибка: write - глагол на -e, нужно удалить e, не удваивать t. Правильно: writing.",
+      "explanation": "Правильно: writing (одна t).",
       "tags": [
         "spelling",
         "mixed"

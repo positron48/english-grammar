@@ -705,15 +705,15 @@
         "choices": [
           {
             "id": "a",
-            "text": "more / better"
+            "text": "less / worse"
           },
           {
             "id": "b",
-            "text": "most / best"
+            "text": "least / worst"
           }
         ],
         "correct_answer": "a",
-        "explanation": "The + comparative в обеих частях."
+        "explanation": "Конструкция the + comparative, the + comparative: the less… the worse."
       },
       {
         "id": "q35",
@@ -1008,25 +1008,25 @@
       {
         "id": "q57",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'This is as good than the last one.'",
+        "prompt": "Найдите ошибку: \"My car is as fast as yours.\"",
         "theory_block_id": "b5_common_mistakes",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "This is as good as the last one."
+            "text": "My car is as fast as yours."
           },
           {
             "id": "b",
-            "text": "This is as good than the last one."
+            "text": "My car is as fast than yours."
           },
           {
             "id": "c",
-            "text": "This is better than the last one."
+            "text": "My car is faster than yours."
           }
         ],
         "correct_answer": "a",
-        "explanation": "As…as требует второй as, не than."
+        "explanation": "В конструкции as…as нужен второй as, не than."
       },
       {
         "id": "q58",

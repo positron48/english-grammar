@@ -145,23 +145,28 @@
     {
       "id": "q7",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**I don't works here.**",
+      "prompt": "Найдите ошибку в предложении:\n\n**I don't lives here.**",
       "theory_block_id": "b1_theory_negatives_basics",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "I don't work here.",
-          "feedback": "Правильно! После don't глагол идет без окончания -s"
+          "text": "I don't live here.",
+          "feedback": "Правильно! После do/does глагол в базовой форме"
         },
         {
           "id": "b",
-          "text": "I doesn't work here.",
-          "feedback": "Нет, с 'I' используется 'don't', а не 'doesn't'"
+          "text": "I doesn't live here.",
+          "feedback": "Нет, с I используется do, а не does"
+        },
+        {
+          "id": "c",
+          "text": "I don't lived here.",
+          "feedback": "Нет, после do/does глагол без -ed"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Ошибка: после don't глагол должен идти в базовой форме без окончания -s. Правильно: 'I don't work here.'",
+      "explanation": "После do/does глагол используется в базовой форме: I don't live here.",
       "tags": [
         "basics",
         "verb_form"
@@ -911,23 +916,28 @@
     {
       "id": "q39",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**I not work here.**",
+      "prompt": "Найдите ошибку в предложении:\n\n**I not study here.**",
       "theory_block_id": "b5_theory_common_mistakes",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "I don't work here.",
-          "feedback": "Правильно! Нужен вспомогательный глагол do перед not"
+          "text": "I don't study here.",
+          "feedback": "Правильно! Для отрицания нужен вспомогательный глагол do"
         },
         {
           "id": "b",
-          "text": "I work not here.",
-          "feedback": "Нет, неправильный порядок слов"
+          "text": "I not studies here.",
+          "feedback": "Нет, нужен вспомогательный do"
+        },
+        {
+          "id": "c",
+          "text": "I doesn't study here.",
+          "feedback": "Нет, с I используется do, а не does"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Ошибка: пропущен вспомогательный глагол do. Для отрицания в Present Simple нужен вспомогательный глагол don't (do not) перед основным глаголом. Правильно: 'I don't work here.'",
+      "explanation": "Для отрицания в Present Simple нужен do + not: I don't study here.",
       "tags": [
         "common_mistakes",
         "auxiliary_verb"
@@ -936,23 +946,28 @@
     {
       "id": "q43",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**She never eat meat.**",
+      "prompt": "Найдите ошибку в предложении:\n\n**She never drink coffee.**",
       "theory_block_id": "b5_theory_common_mistakes",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "She never eats meat.",
-          "feedback": "Правильно! С never для третьего лица глагол идет с окончанием -s"
+          "text": "She never drinks coffee.",
+          "feedback": "Правильно! В 3-м лице ед. числа глагол с -s"
         },
         {
           "id": "b",
-          "text": "She doesn't never eat meat.",
+          "text": "She never drink coffee.",
+          "feedback": "Нет, нужна форма drinks"
+        },
+        {
+          "id": "c",
+          "text": "She doesn't never drink coffee.",
           "feedback": "Нет, это двойное отрицание"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Ошибка: с never для третьего лица единственного числа (she) глагол должен идти с окончанием -s, как в утверждении. Правильно: 'She never eats meat.'",
+      "explanation": "В 3-м лице единственного числа глагол имеет окончание -s: She never drinks coffee.",
       "tags": [
         "common_mistakes",
         "never",
@@ -1068,22 +1083,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "They never don't watch TV.",
+          "text": "They never don't eat meat.",
           "feedback": "Нет, это двойное отрицание"
         },
         {
           "id": "b",
-          "text": "They don't never watch TV.",
+          "text": "They don't never eat meat.",
           "feedback": "Нет, это тоже двойное отрицание"
         },
         {
           "id": "c",
-          "text": "They never watch TV.",
+          "text": "They never eat meat.",
           "feedback": "Правильно! Never уже содержит отрицание"
         }
       ],
       "correct_answer": "c",
-      "explanation": "Правильный ответ: 'They never watch TV.' Never уже содержит отрицание, поэтому не нужно добавлять don't. Использование don't + never или never + don't — это двойное отрицание, грамматическая ошибка.",
+      "explanation": "Правильный ответ: 'They never eat meat.' Never уже содержит отрицание, поэтому не нужно добавлять don't. Использование don't + never или never + don't — это двойное отрицание, грамматическая ошибка.",
       "tags": [
         "never",
         "correct"
@@ -1136,22 +1151,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "We don't like it.",
-          "feedback": "Правильно! Don't используется для отрицания с 'we'"
+          "text": "We don't want it.",
+          "feedback": "Правильно! Отрицание в Present Simple с do not"
         },
         {
           "id": "b",
-          "text": "We not like it.",
-          "feedback": "Нет, нужен вспомогательный глагол do"
+          "text": "We doesn't want it.",
+          "feedback": "Нет, с we используется do, а не does"
         },
         {
           "id": "c",
-          "text": "We like not it.",
-          "feedback": "Нет, неправильный порядок слов"
+          "text": "We not want it.",
+          "feedback": "Нет, нужен вспомогательный do"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Правильный ответ: 'We don't like it.' Для отрицания в Present Simple нужен вспомогательный глагол don't (do not) перед основным глаголом.",
+      "explanation": "Правильное отрицание: We don't want it.",
       "tags": [
         "basics",
         "dont"
@@ -1272,22 +1287,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "I never go there.",
+          "text": "I never eat there.",
           "feedback": "Правильно! Never уже содержит отрицание"
         },
         {
           "id": "b",
-          "text": "I don't never go there.",
+          "text": "I don't never eat there.",
           "feedback": "Нет, это двойное отрицание"
         },
         {
           "id": "c",
-          "text": "I never don't go there.",
-          "feedback": "Нет, это тоже неправильно"
+          "text": "I never eats there.",
+          "feedback": "Нет, после I глагол без -s"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Правильный ответ: 'I never go there.' Never уже содержит отрицание, поэтому не нужно добавлять don't. Использование don't + never — это двойное отрицание, грамматическая ошибка.",
+      "explanation": "Never уже содержит отрицание, поэтому don't не нужно: I never eat there.",
       "tags": [
         "never",
         "correct"
@@ -1309,23 +1324,28 @@
     {
       "id": "q45",
       "type": "error_spotting",
-      "prompt": "Исправьте ошибку в предложении:\n\n**You doesn't like it.**",
+      "prompt": "Исправьте ошибку в предложении:\n\n**You doesn't need it.**",
       "theory_block_id": "b5_theory_common_mistakes",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "You don't like it.",
-          "feedback": "Правильно! С 'you' используется 'don't', а не 'doesn't'"
+          "text": "You don't need it.",
+          "feedback": "Правильно! С you используется do, а не does"
         },
         {
           "id": "b",
-          "text": "You not like it.",
-          "feedback": "Нет, нужен вспомогательный глагол do"
+          "text": "You doesn't need it.",
+          "feedback": "Нет, это исходная ошибка"
+        },
+        {
+          "id": "c",
+          "text": "You don't needs it.",
+          "feedback": "Нет, после do глагол в базовой форме"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Ошибка: неправильный выбор don't/doesn't. С местоимением 'you' используется 'don't', а не 'doesn't'. Правильно: You don't like it.",
+      "explanation": "С you используется do: You don't need it.",
       "tags": [
         "common_mistakes",
         "dont_vs_doesnt"

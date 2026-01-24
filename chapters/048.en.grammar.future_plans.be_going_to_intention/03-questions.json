@@ -295,25 +295,21 @@
     {
       "id": "q21",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку и выберите правильный вариант: 'It's going to raining.'",
+      "prompt": "Найдите ошибку и выберите правильный вариант: \"It's going to snowing.\"",
       "theory_block_id": "b2_theory_evidence_predictions",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "It's going to rain."
+          "text": "It's going to snow."
         },
         {
           "id": "b",
-          "text": "It's going to rains."
-        },
-        {
-          "id": "c",
-          "text": "It's going rain."
+          "text": "It's going to snowing."
         }
       ],
       "correct_answer": "a",
-      "explanation": "После going to нужна базовая форма глагола: rain."
+      "explanation": "После going to нужна базовая форма глагола: snow."
     },
     {
       "id": "q22",

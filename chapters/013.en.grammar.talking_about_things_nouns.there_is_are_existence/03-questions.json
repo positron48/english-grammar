@@ -79,8 +79,8 @@
       "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b1_theory_there_is_are_basic",
       "difficulty": 2,
-      "correct_answer": "There is a chair in the room.",
-      "explanation": "Правильный порядок: There is + существительное + место. There is a chair in the room.",
+      "correct_answer": "There is a chair on the table.",
+      "explanation": "Правильный порядок: There is + существительное + место. There is a chair on the table.",
       "tags": [
         "reorder"
       ]
@@ -120,8 +120,8 @@
       "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b1_theory_there_is_are_basic",
       "difficulty": 3,
-      "correct_answer": "There is a chair in the room.",
-      "explanation": "Правильный порядок: There is + существительное + место. There is a chair in the room.",
+      "correct_answer": "There is a lamp in the room.",
+      "explanation": "Правильный порядок: There is + существительное + место. There is a lamp in the room.",
       "tags": [
         "reorder"
       ]
@@ -129,28 +129,28 @@
     {
       "id": "q12",
       "type": "mcq_single",
-      "prompt": "Выберите правильный вариант для выражения существования книги на столе:",
+      "prompt": "Выберите правильный вариант для выражения существования чашки на столе:",
       "theory_block_id": "b1_theory_there_is_are_basic",
       "difficulty": 1,
       "choices": [
         {
           "id": "a",
-          "text": "There is a book on the table.",
+          "text": "There is a cup on the table.",
           "feedback": "Правильно!"
         },
         {
           "id": "b",
-          "text": "There are a book on the table.",
+          "text": "There are a cup on the table.",
           "feedback": "Нет, для единственного числа используется is"
         },
         {
           "id": "c",
-          "text": "A book is on the table.",
+          "text": "A cup is on the table.",
           "feedback": "Нет, для выражения существования используется конструкция There is"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Для выражения существования используется конструкция There is с единственным числом: There is a book on the table.",
+      "explanation": "Для единственного числа (a cup) используется is: There is a cup on the table.",
       "tags": [
         "existence"
       ]
@@ -161,8 +161,8 @@
       "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b1_theory_there_is_are_basic",
       "difficulty": 1,
-      "correct_answer": "There is a chair in the room.",
-      "explanation": "Правильный порядок: There is + существительное + место. There is a chair in the room.",
+      "correct_answer": "There is a sofa in the room.",
+      "explanation": "Правильный порядок: There is + существительное + место. There is a sofa in the room.",
       "tags": [
         "reorder"
       ]
@@ -213,28 +213,28 @@
     {
       "id": "q18",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку: \"There are a book on the table.\"",
+      "prompt": "Найдите ошибку: \"There are a plant in the room.\"",
       "theory_block_id": "b2_theory_there_is_singular",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "There is a book on the table.",
+          "text": "There is a plant in the room.",
           "feedback": "Правильно! Для единственного числа используется is"
         },
         {
           "id": "b",
-          "text": "There are books on the table.",
+          "text": "There are plants in the room.",
           "feedback": "Нет, в исходном предложении было единственное число"
         },
         {
           "id": "c",
-          "text": "There is book on the table.",
+          "text": "There is plant in the room.",
           "feedback": "Нет, нужен артикль a"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Для единственного числа (a book) используется is, а не are: There is a book on the table.",
+      "explanation": "Для единственного числа (a plant) используется is, а не are: There is a plant in the room.",
       "tags": [
         "error_spotting",
         "singular"
@@ -290,22 +290,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "There is a pen.",
+          "text": "There is a cup.",
           "feedback": "Правильно!"
         },
         {
           "id": "b",
-          "text": "There are a pen.",
+          "text": "There are a cup.",
           "feedback": "Нет, для единственного числа используется is"
         },
         {
           "id": "c",
-          "text": "There is pens.",
-          "feedback": "Нет, pens во множественном числе, нужен are"
+          "text": "There is cups.",
+          "feedback": "Нет, cups во множественном числе, нужен are"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Для единственного числа (a pen) используется is: There is a pen.",
+      "explanation": "Для единственного числа (a cup) используется is: There is a cup.",
       "tags": [
         "singular"
       ]
@@ -319,22 +319,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "There is a pen.",
+          "text": "There is a key.",
           "feedback": "Правильно!"
         },
         {
           "id": "b",
-          "text": "There are a pen.",
+          "text": "There are a key.",
           "feedback": "Нет, для единственного числа используется is"
         },
         {
           "id": "c",
-          "text": "There is pens.",
-          "feedback": "Нет, pens во множественном числе, нужен are"
+          "text": "There is keys.",
+          "feedback": "Нет, keys во множественном числе, нужен are"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Для единственного числа (a pen) используется is: There is a pen.",
+      "explanation": "Для единственного числа (a key) используется is: There is a key.",
       "tags": [
         "singular"
       ]
@@ -486,22 +486,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "There are chairs.",
+          "text": "There are tables.",
           "feedback": "Правильно!"
         },
         {
           "id": "b",
-          "text": "There is chairs.",
+          "text": "There is tables.",
           "feedback": "Нет, для множественного числа используется are"
         },
         {
           "id": "c",
-          "text": "There are a chair.",
-          "feedback": "Нет, chair в единственном числе, нужен is"
+          "text": "There are a table.",
+          "feedback": "Нет, table в единственном числе, нужен is"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Для множественного числа (chairs) используется are: There are chairs.",
+      "explanation": "Для множественного числа (tables) используется are: There are tables.",
       "tags": [
         "plural"
       ]
@@ -515,22 +515,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "There are chairs.",
+          "text": "There are windows.",
           "feedback": "Правильно!"
         },
         {
           "id": "b",
-          "text": "There is chairs.",
+          "text": "There is windows.",
           "feedback": "Нет, для множественного числа используется are"
         },
         {
           "id": "c",
-          "text": "There are a chair.",
-          "feedback": "Нет, chair в единственном числе, нужен is"
+          "text": "There are a window.",
+          "feedback": "Нет, window в единственном числе, нужен is"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Для множественного числа (chairs) используется are: There are chairs.",
+      "explanation": "Для множественного числа (windows) используется are: There are windows.",
       "tags": [
         "plural"
       ]
@@ -702,22 +702,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "Is there a computer?",
+          "text": "Is there a printer?",
           "feedback": "Правильно!"
         },
         {
           "id": "b",
-          "text": "There is a computer?",
+          "text": "There is a printer?",
           "feedback": "Нет, в вопросах Is ставится перед there"
         },
         {
           "id": "c",
-          "text": "Are there a computer?",
+          "text": "Are there a printer?",
           "feedback": "Нет, для единственного числа используется is"
         }
       ],
       "correct_answer": "a",
-      "explanation": "В вопросах Is ставится перед there: Is there a computer?",
+      "explanation": "В вопросах Is ставится перед there: Is there a printer?",
       "tags": [
         "question",
         "singular"
@@ -745,22 +745,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "Is there a computer?",
+          "text": "Is there a TV?",
           "feedback": "Правильно!"
         },
         {
           "id": "b",
-          "text": "There is a computer?",
+          "text": "There is a TV?",
           "feedback": "Нет, в вопросах Is ставится перед there"
         },
         {
           "id": "c",
-          "text": "Are there a computer?",
+          "text": "Are there a TV?",
           "feedback": "Нет, для единственного числа используется is"
         }
       ],
       "correct_answer": "a",
-      "explanation": "В вопросах Is ставится перед there: Is there a computer?",
+      "explanation": "В вопросах Is ставится перед there: Is there a TV?",
       "tags": [
         "question",
         "singular"
@@ -907,22 +907,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "There aren't chairs.",
+          "text": "There aren't tables.",
           "feedback": "Правильно!"
         },
         {
           "id": "b",
-          "text": "There isn't chairs.",
+          "text": "There isn't tables.",
           "feedback": "Нет, для множественного числа используется aren't"
         },
         {
           "id": "c",
-          "text": "There aren't a chair.",
-          "feedback": "Нет, chair в единственном числе, нужен isn't"
+          "text": "There aren't a table.",
+          "feedback": "Нет, table в единственном числе, нужен isn't"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Для множественного числа (chairs) используется aren't: There aren't chairs.",
+      "explanation": "Для множественного числа (tables) используется aren't: There aren't tables.",
       "tags": [
         "negative",
         "plural"
@@ -950,22 +950,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "There aren't chairs.",
+          "text": "There aren't windows.",
           "feedback": "Правильно!"
         },
         {
           "id": "b",
-          "text": "There isn't chairs.",
+          "text": "There isn't windows.",
           "feedback": "Нет, для множественного числа используется aren't"
         },
         {
           "id": "c",
-          "text": "There aren't a chair.",
-          "feedback": "Нет, chair в единственном числе, нужен isn't"
+          "text": "There aren't a window.",
+          "feedback": "Нет, window в единственном числе, нужен isn't"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Для множественного числа (chairs) используется aren't: There aren't chairs.",
+      "explanation": "Для множественного числа (windows) используется aren't: There aren't windows.",
       "tags": [
         "negative",
         "plural"

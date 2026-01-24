@@ -56,22 +56,19 @@
       "choices": [
         {
           "id": "a",
-          "text": "She always helps me.",
-          "feedback": "Нет, это Present Simple — нейтральное описание привычки."
+          "text": "He always leaves the door open."
         },
         {
           "id": "b",
-          "text": "She is always asking for help.",
-          "feedback": "Правильно! Present Continuous с always выражает раздражение по поводу повторяющихся просьб."
+          "text": "He is always leaving the door open."
         },
         {
           "id": "c",
-          "text": "She is helping me now.",
-          "feedback": "Нет, это обычный Present Continuous — действие происходит сейчас, без эмоциональной окраски."
+          "text": "He is leaving the door open now."
         }
       ],
       "correct_answer": "b",
-      "explanation": "Present Continuous с always выражает эмоциональную реакцию. \"She is always asking for help\" — это жалоба на повторяющиеся просьбы.",
+      "explanation": "Present Continuous с always выражает раздражение. \"He is always leaving the door open\" — это жалоба на повторяющееся действие.",
       "tags": []
     },
     {
@@ -183,23 +180,23 @@
     {
       "id": "q11",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку: \"The children always are making noise.\"",
+      "prompt": "Найдите ошибку: \"The manager often is criticizing us.\"",
       "theory_block_id": "b1_theory_basic_idea",
       "difficulty": 3,
       "choices": [
         {
           "id": "a",
-          "text": "always are → are always",
-          "feedback": "Правильно! Always должен быть между be и V-ing."
+          "text": "often is → is often",
+          "feedback": "Правильно: adverb стоит после be"
         },
         {
           "id": "b",
-          "text": "making → make",
-          "feedback": "Нет, making правильно. Ошибка в позиции always."
+          "text": "criticizing → criticize",
+          "feedback": "Неверно: нужна форма V-ing"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Ошибка: always стоит перед are. Правильно: \"The children are always making noise.\" Always должен быть между be и V-ing.",
+      "explanation": "Ошибка: often стоит перед is. Правильно: \"The manager is often criticizing us.\"",
       "tags": []
     },
     {
@@ -400,23 +397,23 @@
     {
       "id": "q24",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку: \"They always are arriving late.\"",
+      "prompt": "Найдите ошибку: \"They constantly are complaining.\"",
       "theory_block_id": "b2_theory_structure_position",
       "difficulty": 3,
       "choices": [
         {
           "id": "a",
-          "text": "always are → are always",
-          "feedback": "Правильно! Always должен быть между are и arriving."
+          "text": "constantly are → are constantly",
+          "feedback": "Правильно: adverb между be и V-ing"
         },
         {
           "id": "b",
-          "text": "arriving → arrive",
-          "feedback": "Нет, arriving правильно. Ошибка в позиции always."
+          "text": "complaining → complain",
+          "feedback": "Неверно: нужна форма V-ing"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Ошибка: always стоит перед are. Правильно: \"They are always arriving late.\" Always должен быть между be и V-ing.",
+      "explanation": "Ошибка: constantly стоит перед are. Правильно: \"They are constantly complaining.\"",
       "tags": []
     },
     {
@@ -677,22 +674,19 @@
       "choices": [
         {
           "id": "a",
-          "text": "She always helps me.",
-          "feedback": "Нет, это Present Simple — нейтральное описание."
+          "text": "They always forget my name."
         },
         {
           "id": "b",
-          "text": "She is always asking for help.",
-          "feedback": "Правильно! Present Continuous с always выражает жалобу на повторяющиеся просьбы."
+          "text": "They are always forgetting my name."
         },
         {
           "id": "c",
-          "text": "She is helping me now.",
-          "feedback": "Нет, это обычный Present Continuous — действие происходит сейчас."
+          "text": "They are forgetting my name right now."
         }
       ],
       "correct_answer": "b",
-      "explanation": "Present Continuous с always выражает эмоциональную реакцию — жалобу. \"She is always asking for help\" — это жалоба на повторяющиеся просьбы.",
+      "explanation": "Present Continuous с always выражает эмоциональную реакцию — жалобу. \"They are always forgetting my name\" — это жалоба на повторяющееся действие.",
       "tags": []
     },
     {

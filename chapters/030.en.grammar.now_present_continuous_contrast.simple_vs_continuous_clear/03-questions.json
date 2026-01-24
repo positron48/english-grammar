@@ -310,23 +310,28 @@
     {
       "id": "q18",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**I'm living in Moscow. (когда речь о постоянном месте жительства)**",
+      "prompt": "Найдите ошибку:\n\n**I'm living in Rome. (когда речь о постоянном месте жительства)**",
       "theory_block_id": "b2_theory_permanent_vs_temporary",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "I live in Moscow.",
-          "feedback": "Правильно! Постоянное место жительства требует Present Simple."
+          "text": "I live in Rome.",
+          "feedback": "Правильно! Для постоянных фактов используется Present Simple"
         },
         {
           "id": "b",
-          "text": "Ошибок нет.",
-          "feedback": "Нет, для постоянного места жительства нужен Simple, а не Continuous."
+          "text": "I'm living in Rome.",
+          "feedback": "Нет, это неверно для постоянного факта"
+        },
+        {
+          "id": "c",
+          "text": "I am live in Rome.",
+          "feedback": "Нет, неправильная форма"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Если место жительства постоянное, используется Present Simple. I'm living подходит только для временных ситуаций.",
+      "explanation": "Для постоянных фактов используется Present Simple: I live in Rome.",
       "tags": [
         "error_spotting",
         "permanent"
@@ -422,22 +427,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "I'm studying English this semester.",
-          "feedback": "Нет, это временная ситуация."
+          "text": "I study math every day.",
+          "feedback": "Правильно! Это регулярное действие"
         },
         {
           "id": "b",
-          "text": "I study English every day.",
-          "feedback": "Правильно! Это постоянная привычка."
+          "text": "I am studying math right now.",
+          "feedback": "Нет, это действие сейчас"
         },
         {
           "id": "c",
-          "text": "I'm studying English right now.",
-          "feedback": "Нет, это действие сейчас."
+          "text": "I studied math yesterday.",
+          "feedback": "Нет, это прошедшее время"
         }
       ],
-      "correct_answer": "b",
-      "explanation": "Постоянная привычка описывается Present Simple. I study English every day — это постоянная ситуация.",
+      "correct_answer": "a",
+      "explanation": "Present Simple используется для регулярных действий: I study math every day.",
       "tags": [
         "permanent",
         "simple"
@@ -1090,23 +1095,28 @@
     {
       "id": "q56",
       "type": "error_spotting",
-      "prompt": "Найдите типичную ошибку:\n\n**I'm knowing this person.**",
+      "prompt": "Найдите типичную ошибку:\n\n**I'm knowing this place.**",
       "theory_block_id": "b6_theory_common_mistakes",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "I know this person.",
-          "feedback": "Правильно! know — статичный глагол, не используется в Continuous."
+          "text": "I know this place.",
+          "feedback": "Правильно! Stative verb know не используется в Continuous"
         },
         {
           "id": "b",
-          "text": "Ошибок нет.",
-          "feedback": "Нет, know — статичный глагол, не используется в Continuous."
+          "text": "I'm knowing this place.",
+          "feedback": "Нет, know не используется в Continuous"
+        },
+        {
+          "id": "c",
+          "text": "I am know this place.",
+          "feedback": "Нет, неправильная форма"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Типичная ошибка — использование Continuous со статичными глаголами. know — статичный глагол, используется только в Simple: I know this person.",
+      "explanation": "Глагол know статический, поэтому используется Present Simple: I know this place.",
       "tags": [
         "error_spotting",
         "common_mistake"
@@ -1169,23 +1179,28 @@
     {
       "id": "q60",
       "type": "error_spotting",
-      "prompt": "Найдите типичную ошибку:\n\n**I'm living in Moscow. (когда речь о постоянном месте жительства)**",
+      "prompt": "Найдите типичную ошибку:\n\n**I'm living in Tokyo. (когда речь о постоянном месте жительства)**",
       "theory_block_id": "b6_theory_common_mistakes",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "I live in Moscow.",
-          "feedback": "Правильно! Для постоянного места жительства нужен Simple."
+          "text": "I live in Tokyo.",
+          "feedback": "Правильно! Для постоянных фактов используется Present Simple"
         },
         {
           "id": "b",
-          "text": "Ошибок нет.",
-          "feedback": "Нет, для постоянного места жительства нужен Simple."
+          "text": "I'm living in Tokyo.",
+          "feedback": "Нет, это неверно для постоянного факта"
+        },
+        {
+          "id": "c",
+          "text": "I am live in Tokyo.",
+          "feedback": "Нет, неправильная форма"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Типичная ошибка — использование Continuous для постоянных ситуаций. Для постоянного места жительства нужен Simple: I live in Moscow.",
+      "explanation": "Для постоянных фактов используется Present Simple: I live in Tokyo.",
       "tags": [
         "error_spotting",
         "common_mistake"

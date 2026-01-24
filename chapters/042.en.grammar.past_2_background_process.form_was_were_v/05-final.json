@@ -957,23 +957,23 @@
       {
         "id": "q44",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в форме V-ing:\n\n**They were watch TV.**",
+        "prompt": "Найдите ошибку в форме V-ing:\n\n**He was read a book.**",
         "theory_block_id": "b5_theory_common_mistakes",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "They were watching TV.",
-            "feedback": "Правильно: нужна форма -ing"
+            "text": "He was reading a book.",
+            "feedback": "Правильно: после was нужна форма V-ing"
           },
           {
             "id": "b",
-            "text": "They were watch TV.",
-            "feedback": "Неверно: нет -ing"
+            "text": "He was read a book.",
+            "feedback": "Неверно: нужна форма V-ing"
           }
         ],
         "correct_answer": "a",
-        "explanation": "После were нужна форма V-ing."
+        "explanation": "После was/were используется V-ing: reading."
       },
       {
         "id": "q45",
@@ -1314,7 +1314,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-21T16:11:12Z",
+    "updated_at": "2026-01-24T11:26:14Z",
     "source": "llm"
   }
 }

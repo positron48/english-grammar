@@ -534,23 +534,28 @@
       {
         "id": "q9",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**You read this book.**",
+        "prompt": "Найдите ошибку:\n\n**You read this note.**",
         "theory_block_id": "b1_theory_imperative_basics",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Read this book.",
-            "feedback": "Правильно!"
+            "text": "Read this note.",
+            "feedback": "Правильно! Императив без подлежащего"
           },
           {
             "id": "b",
-            "text": "You reads this book.",
-            "feedback": "Нет"
+            "text": "You read this note.",
+            "feedback": "Нет, в императиве подлежащее не используется"
+          },
+          {
+            "id": "c",
+            "text": "Reads this note.",
+            "feedback": "Нет, в императиве нет -s"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Ошибка: подлежащее \"you\" не используется в императиве.",
+        "explanation": "В императиве подлежащее не используется: Read this note.",
         "tags": [
           "basics"
         ]
@@ -588,22 +593,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "Базовая форма глагола без подлежащего",
-            "feedback": "Правильно!"
+            "text": "Глагол без to и без подлежащего",
+            "feedback": "Правильно! Императив = базовая форма глагола"
           },
           {
             "id": "b",
-            "text": "Глагол с -s",
-            "feedback": "Нет, в императиве глагол без окончания -s"
+            "text": "Глагол с to",
+            "feedback": "Нет, to в императиве не используется"
           },
           {
             "id": "c",
-            "text": "Глагол с подлежащим",
-            "feedback": "Нет, это неправильный вариант"
+            "text": "Глагол с окончанием -s",
+            "feedback": "Нет, -s не используется в императиве"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Императив = базовая форма глагола без подлежащего.",
+        "explanation": "Императив образуется базовой формой глагола без to и без подлежащего.",
         "tags": [
           "basics"
         ]
@@ -665,22 +670,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "Open the door.",
-            "feedback": "Правильно!"
+            "text": "Open the window.",
+            "feedback": "Правильно! Это утвердительный императив"
           },
           {
             "id": "b",
-            "text": "Opens the door.",
-            "feedback": "Нет, без -s"
+            "text": "Opens the window.",
+            "feedback": "Нет, в императиве не используется -s"
           },
           {
             "id": "c",
-            "text": "You open the door.",
-            "feedback": "Нет, подлежащее не используется"
+            "text": "To open the window.",
+            "feedback": "Нет, to не используется в императиве"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Утвердительный императив = базовая форма глагола без подлежащего.",
+        "explanation": "Императив — это базовая форма глагола: Open the window.",
         "tags": [
           "affirmative"
         ]
@@ -914,23 +919,28 @@
       {
         "id": "q29",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**Closes the door.**",
+        "prompt": "Найдите ошибку:\n\n**Closes the window.**",
         "theory_block_id": "b2_theory_affirmative_imperatives",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Close the door.",
-            "feedback": "Правильно!"
+            "text": "Close the window.",
+            "feedback": "Правильно! В императиве нет -s"
           },
           {
             "id": "b",
-            "text": "You close the door.",
-            "feedback": "Нет"
+            "text": "Closes the window.",
+            "feedback": "Нет, это ошибка"
+          },
+          {
+            "id": "c",
+            "text": "To close the window.",
+            "feedback": "Нет, to не используется в императиве"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Ошибка: в императиве глагол без -s. Правильно: \"Close the door.\"",
+        "explanation": "В императиве используется базовая форма: Close the window.",
         "tags": [
           "affirmative"
         ]
@@ -1021,23 +1031,28 @@
       {
         "id": "q34",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**Not open the door.**",
+        "prompt": "Найдите ошибку:\n\n**Not touch the door.**",
         "theory_block_id": "b3_theory_negative_imperatives",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Don't open the door.",
-            "feedback": "Правильно!"
+            "text": "Don't touch the door.",
+            "feedback": "Правильно! Отрицательный императив: don't + глагол"
           },
           {
             "id": "b",
-            "text": "Doesn't open the door.",
-            "feedback": "Нет"
+            "text": "Not touch the door.",
+            "feedback": "Нет, это ошибка"
+          },
+          {
+            "id": "c",
+            "text": "Doesn't touch the door.",
+            "feedback": "Нет, в императиве не используется does"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Ошибка: нужен Don't, а не просто Not. Правильно: \"Don't open the door.\"",
+        "explanation": "Отрицательный императив: Don't + глагол. Don't touch the door.",
         "tags": [
           "negative"
         ]
@@ -1110,23 +1125,28 @@
       {
         "id": "q39",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**Doesn't open the door.**",
+        "prompt": "Найдите ошибку:\n\n**Doesn't talk here.**",
         "theory_block_id": "b3_theory_negative_imperatives",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Don't open the door.",
-            "feedback": "Правильно!"
+            "text": "Don't talk here.",
+            "feedback": "Правильно! Отрицательный императив: don't + глагол"
           },
           {
             "id": "b",
-            "text": "Not open the door.",
-            "feedback": "Нет"
+            "text": "Doesn't talk here.",
+            "feedback": "Нет, в императиве не используется does"
+          },
+          {
+            "id": "c",
+            "text": "Not talk here.",
+            "feedback": "Нет, это ошибка"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Ошибка: в императиве используется Don't (не зависит от лица), а не Doesn't. Правильно: \"Don't open the door.\"",
+        "explanation": "Отрицательный императив: Don't + глагол. Don't talk here.",
         "tags": [
           "negative"
         ]
@@ -1200,23 +1220,28 @@
       {
         "id": "q44",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**You don't open the door.**",
+        "prompt": "Найдите ошибку:\n\n**You don't enter the room.**",
         "theory_block_id": "b3_theory_negative_imperatives",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Don't open the door.",
-            "feedback": "Правильно!"
+            "text": "Don't enter the room.",
+            "feedback": "Правильно! Отрицательный императив: don't + глагол"
           },
           {
             "id": "b",
-            "text": "Doesn't open the door.",
-            "feedback": "Нет"
+            "text": "You don't enter the room.",
+            "feedback": "Нет, в императиве подлежащее не используется"
+          },
+          {
+            "id": "c",
+            "text": "Doesn't enter the room.",
+            "feedback": "Нет, в императиве не используется does"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Ошибка: в императиве подлежащее \"you\" не используется. Правильно: \"Don't open the door.\"",
+        "explanation": "В императиве подлежащее не используется: Don't enter the room.",
         "tags": [
           "negative"
         ]
@@ -1809,7 +1834,7 @@
         "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b5_theory_imperative_usage",
         "difficulty": 3,
-        "correct_answer": "Don't be late.",
+        "correct_answer": "Don't be noisy.",
         "explanation": "Правильный порядок: Don't + глагол + остальное. Отрицательные императивы для предупреждений.",
         "tags": [
           "usage",

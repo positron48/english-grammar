@@ -1118,28 +1118,28 @@
       {
         "id": "q33",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении: \"I amn't a student.\"",
+        "prompt": "Найдите ошибку в предложении: \"I not am a student.\"",
         "theory_block_id": "b3_theory_am_not_contraction",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "amn't → I'm not",
-            "feedback": "Правильно! Форма amn't не существует"
+            "text": "not am → am not",
+            "feedback": "Правильно! Not должно стоять после am"
           },
           {
             "id": "b",
-            "text": "a → the",
+            "text": "I → We",
             "feedback": "Нет, ошибка в форме отрицания"
           },
           {
             "id": "c",
-            "text": "student → teacher",
+            "text": "student → students",
             "feedback": "Нет, ошибка в форме отрицания"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Форма amn't не существует. Правильно: I'm not a student.",
+        "explanation": "Not должно стоять после am: I am not a student.",
         "tags": [
           "negative",
           "contraction"
@@ -1213,8 +1213,8 @@
         "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b3_theory_am_not_contraction",
         "difficulty": 2,
-        "correct_answer": "I'm not tired.",
-        "explanation": "Порядок слов с I: I'm not + tired.",
+        "correct_answer": "I'm not hungry.",
+        "explanation": "Порядок слов с I: I + am not (I'm not) + hungry.",
         "tags": [
           "negative",
           "contraction",
@@ -1230,22 +1230,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "I am not a student.",
-            "feedback": "Правильно! Порядок: I + am + not"
+            "text": "They are not students.",
+            "feedback": "Правильно! Порядок: They + are + not"
           },
           {
             "id": "b",
-            "text": "I not am a student.",
-            "feedback": "Нет, not должно стоять после am"
+            "text": "They not are students.",
+            "feedback": "Нет, not должно стоять после are"
           },
           {
             "id": "c",
-            "text": "Not I am a student.",
+            "text": "Not they are students.",
             "feedback": "Нет, not не может стоять в начале"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Правильный порядок слов в отрицании: подлежащее + be + not + остальное.",
+        "explanation": "Правильный порядок слов в отрицании: подлежащее + be + not + остальное. They are not students.",
         "tags": [
           "negative",
           "word_order"
@@ -1287,8 +1287,8 @@
         "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b4_theory_word_order_negatives",
         "difficulty": 2,
-        "correct_answer": "They are not students.",
-        "explanation": "Порядок слов: They + are + not + students.",
+        "correct_answer": "They are not teachers.",
+        "explanation": "Порядок слов: They + are + not + teachers.",
         "tags": [
           "negative",
           "word_order"
@@ -1340,28 +1340,28 @@
       {
         "id": "q44",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в порядке слов: \"You not are a teacher.\"",
+        "prompt": "Найдите ошибку в порядке слов: \"We am not ready.\"",
         "theory_block_id": "b4_theory_word_order_negatives",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "not are → are not",
-            "feedback": "Правильно! Not должно стоять после are"
+            "text": "am → are",
+            "feedback": "Правильно! Для we используется are"
           },
           {
             "id": "b",
-            "text": "You → I",
-            "feedback": "Нет, ошибка в порядке слов"
+            "text": "not → never",
+            "feedback": "Нет, ошибка в форме глагола"
           },
           {
             "id": "c",
-            "text": "a → the",
-            "feedback": "Нет, ошибка в порядке слов"
+            "text": "ready → read",
+            "feedback": "Нет, ошибка в форме глагола"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Правильный порядок: You are not a teacher.",
+        "explanation": "Для we используется are: We are not ready.",
         "tags": [
           "negative",
           "word_order"

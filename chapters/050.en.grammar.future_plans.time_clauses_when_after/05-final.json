@@ -333,21 +333,17 @@
       {
         "id": "q4",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите правильный вариант: 'I'll call you when I will arrive.'",
+        "prompt": "Найдите ошибку и выберите правильный вариант: \"I'll text you when I will arrive.\"",
         "theory_block_id": "b1_theory_time_clause_rule",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "I'll call you when I arrive."
+            "text": "I'll text you when I arrive."
           },
           {
             "id": "b",
-            "text": "I'll call you when I arriving."
-          },
-          {
-            "id": "c",
-            "text": "I'll call you when I arrived."
+            "text": "I'll text you when I will arrive."
           }
         ],
         "correct_answer": "a",
@@ -1045,21 +1041,17 @@
       {
         "id": "q52",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите правильный вариант: 'I'll call you, when I arrive.'",
+        "prompt": "Найдите ошибку и выберите правильный вариант: \"I'll send the file, when I finish.\"",
         "theory_block_id": "b5_theory_word_order",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "I'll call you when I arrive."
+            "text": "I'll send the file when I finish."
           },
           {
             "id": "b",
-            "text": "I'll call you, when I arrive."
-          },
-          {
-            "id": "c",
-            "text": "I'll call you when, I arrive."
+            "text": "I'll send the file, when I finish."
           }
         ],
         "correct_answer": "a",
@@ -1118,21 +1110,17 @@
       {
         "id": "q57",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите правильный вариант: 'When I finish I'll call you.'",
+        "prompt": "Найдите ошибку и выберите правильный вариант: \"When I get home I'll call you.\"",
         "theory_block_id": "b5_theory_word_order",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "When I finish, I'll call you."
+            "text": "When I get home, I'll call you."
           },
           {
             "id": "b",
-            "text": "When I finish I'll call you."
-          },
-          {
-            "id": "c",
-            "text": "When I finish, I'll, call you."
+            "text": "When I get home I'll call you."
           }
         ],
         "correct_answer": "a",
@@ -1436,7 +1424,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-21T16:25:52Z",
+    "updated_at": "2026-01-24T11:26:21Z",
     "source": "llm"
   }
 }

@@ -255,8 +255,8 @@
       "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b2_theory_these_those_plural",
       "difficulty": 2,
-      "correct_answer": "These are my keys.",
-      "explanation": "Правильный порядок: These are my keys. (Это мои ключи.)",
+      "correct_answer": "Those are my keys.",
+      "explanation": "Правильный порядок: Those are my keys. (Это мои ключи.)",
       "tags": [
         "these",
         "reorder"
@@ -619,22 +619,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "These are my keys.",
+          "text": "These are my bags.",
           "feedback": "Правильно! 'These' используется с 'are'"
         },
         {
           "id": "b",
-          "text": "These is my keys.",
+          "text": "These is my bags.",
           "feedback": "Нет, 'these' используется с 'are', а не с 'is'"
         },
         {
           "id": "c",
-          "text": "This are my keys.",
+          "text": "This are my bags.",
           "feedback": "Нет, 'this' используется с 'is', а не с 'are'"
         }
       ],
       "correct_answer": "a",
-      "explanation": "'These' всегда используется с 'are' (множественное число): These are my keys.",
+      "explanation": "'These' всегда используется с 'are' (множественное число): These are my bags.",
       "tags": [
         "these",
         "are"
@@ -775,22 +775,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "What is this?",
-          "feedback": "Правильно! В вопросах порядок слов: What + is + this"
+          "text": "What is that?",
+          "feedback": "Правильно! В вопросах порядок слов: What + is + that"
         },
         {
           "id": "b",
-          "text": "What this is?",
-          "feedback": "Нет, в вопросах порядок слов: What + is + this"
+          "text": "What that is?",
+          "feedback": "Нет, в вопросах порядок слов: What + is + that"
         },
         {
           "id": "c",
-          "text": "This is what?",
+          "text": "That is what?",
           "feedback": "Нет, в вопросах вопросительное слово стоит в начале"
         }
       ],
       "correct_answer": "a",
-      "explanation": "В вопросах порядок слов: вопросительное слово + be + указательное местоимение. Правильно: What is this?",
+      "explanation": "В вопросах порядок слов: вопросительное слово + be + указательное местоимение. Правильно: What is that?",
       "tags": [
         "question",
         "what"
@@ -855,28 +855,28 @@
     {
       "id": "q51",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении: \"What this is?\"",
+      "prompt": "Найдите ошибку в предложении: \"What this thing is?\"",
       "theory_block_id": "b5_theory_questions_with_demonstratives",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "What is this?",
+          "text": "What is this thing?",
           "feedback": "Правильно! В вопросах порядок слов: What + is + this"
         },
         {
           "id": "b",
-          "text": "What are this?",
+          "text": "What are this thing?",
           "feedback": "Нет, 'this' используется с 'is', а не с 'are'"
         },
         {
           "id": "c",
-          "text": "This is what?",
+          "text": "This thing is what?",
           "feedback": "Нет, в вопросах вопросительное слово стоит в начале"
         }
       ],
       "correct_answer": "a",
-      "explanation": "В вопросах порядок слов: вопросительное слово + be + указательное местоимение. Правильно: What is this?",
+      "explanation": "В вопросах порядок слов: вопросительное слово + be + указательное местоимение. Правильно: What is this thing?",
       "tags": [
         "question",
         "error"
@@ -885,28 +885,28 @@
     {
       "id": "q52",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении: \"What these are?\"",
+      "prompt": "Найдите ошибку в предложении: \"What those things are?\"",
       "theory_block_id": "b5_theory_questions_with_demonstratives",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "What are these?",
-          "feedback": "Правильно! В вопросах порядок слов: What + are + these"
+          "text": "What are those things?",
+          "feedback": "Правильно! В вопросах порядок слов: What + are + those"
         },
         {
           "id": "b",
-          "text": "What is these?",
-          "feedback": "Нет, 'these' используется с 'are', а не с 'is'"
+          "text": "What is those things?",
+          "feedback": "Нет, 'those' используется с 'are', а не с 'is'"
         },
         {
           "id": "c",
-          "text": "These are what?",
+          "text": "Those things are what?",
           "feedback": "Нет, в вопросах вопросительное слово стоит в начале"
         }
       ],
       "correct_answer": "a",
-      "explanation": "В вопросах порядок слов: вопросительное слово + be + указательное местоимение. Правильно: What are these?",
+      "explanation": "В вопросах порядок слов: вопросительное слово + be + указательное местоимение. Правильно: What are those things?",
       "tags": [
         "question",
         "error"
@@ -934,22 +934,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "What is that?",
-          "feedback": "Правильно! 'What is that?' — правильный вопрос"
+          "text": "What is that thing?",
+          "feedback": "Правильно! 'What is that thing?' — правильный вопрос"
         },
         {
           "id": "b",
-          "text": "What that is?",
+          "text": "What that thing is?",
           "feedback": "Нет, в вопросах порядок слов: What + is + that"
         },
         {
           "id": "c",
-          "text": "That is what?",
+          "text": "That thing is what?",
           "feedback": "Нет, в вопросах вопросительное слово стоит в начале"
         }
       ],
       "correct_answer": "a",
-      "explanation": "В вопросах порядок слов: вопросительное слово + be + указательное местоимение. Правильно: What is that?",
+      "explanation": "В вопросах порядок слов: вопросительное слово + be + указательное местоимение. Правильно: What is that thing?",
       "tags": [
         "question",
         "what"

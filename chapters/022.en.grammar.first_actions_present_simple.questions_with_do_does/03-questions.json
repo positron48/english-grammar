@@ -242,27 +242,27 @@
       "choices": [
         {
           "id": "a",
-          "text": "Do you work here?",
-          "feedback": "Правильно! С местоимением you используется do, а не does"
+          "text": "Do you study here?",
+          "feedback": "Правильно! В вопросах do/does стоит перед подлежащим"
         },
         {
           "id": "b",
-          "text": "Does you work here?",
+          "text": "Does you study here?",
           "feedback": "Нет: с you используется do, а не does"
         },
         {
           "id": "c",
-          "text": "You does work here?",
+          "text": "You does study here?",
           "feedback": "Нет: неправильный порядок и does с you"
         },
         {
           "id": "d",
-          "text": "You do work here?",
+          "text": "You do study here?",
           "feedback": "Нет: do должен стоять перед подлежащим"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Ошибка: с местоимением you используется do, а не does. Правильно: 'Do you work here?'",
+      "explanation": "Правильный вопрос: 'Do you study here?'.",
       "tags": [
         "do_choice",
         "error"
@@ -368,27 +368,27 @@
       "choices": [
         {
           "id": "a",
-          "text": "Does she work here?",
+          "text": "Does she live here?",
           "feedback": "Правильно! После does глагол идёт без окончания -s"
         },
         {
           "id": "b",
-          "text": "Does she works here?",
+          "text": "Does she lives here?",
           "feedback": "Нет: после does глагол в базовой форме, без -s"
         },
         {
           "id": "c",
-          "text": "Do she work here?",
+          "text": "Do she live here?",
           "feedback": "Нет, с she используется does"
         },
         {
           "id": "d",
-          "text": "She does work here?",
+          "text": "She does live here?",
           "feedback": "Нет: в вопросе does перед подлежащим"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Ошибка: после does глагол идёт в базовой форме, без окончания -s. Правильно: 'Does she work here?'",
+      "explanation": "Правильный вопрос: 'Does she live here?'.",
       "tags": [
         "yes_no",
         "error"
@@ -499,8 +499,8 @@
       "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b4_theory_wh_questions",
       "difficulty": 3,
-      "correct_answer": "What do you do?",
-      "explanation": "Правильный порядок: What (вопросительное слово) + do (вспомогательный глагол) + you (подлежащее) + do (глагол).",
+      "correct_answer": "What do they do?",
+      "explanation": "Правильный порядок: What (вопросительное слово) + do (вспомогательный глагол) + they (подлежащее) + do (глагол).",
       "tags": [
         "wh_questions",
         "reorder"
@@ -515,27 +515,27 @@
       "choices": [
         {
           "id": "a",
-          "text": "What do you do?",
-          "feedback": "Правильно! В специальных вопросах нужен do/does после вопросительного слова"
+          "text": "What does she do?",
+          "feedback": "Правильно! В специальных вопросах нужен does после вопросительного слова"
         },
         {
           "id": "b",
-          "text": "What you do?",
-          "feedback": "Нет: после What нужен do/does перед подлежащим"
+          "text": "What she does?",
+          "feedback": "Нет: после What нужен does перед подлежащим"
         },
         {
           "id": "c",
-          "text": "What does you do?",
-          "feedback": "Нет, с you используется do, а не does"
+          "text": "What do she do?",
+          "feedback": "Нет, с she используется does, а не do"
         },
         {
           "id": "d",
-          "text": "What do you does?",
-          "feedback": "Нет: после do глагол в базовой форме"
+          "text": "What does she does?",
+          "feedback": "Нет: после does глагол в базовой форме"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Ошибка: в специальных вопросах тоже нужен вспомогательный глагол do/does после вопросительного слова. Правильно: 'What do you do?'",
+      "explanation": "Ошибка: в специальных вопросах нужен вспомогательный глагол does после вопросительного слова. Правильно: 'What does she do?'",
       "tags": [
         "wh_questions",
         "error"
@@ -805,22 +805,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "You do work here?",
+          "text": "You do live here?",
           "feedback": "Нет, do должен стоять перед подлежащим"
         },
         {
           "id": "b",
-          "text": "Do you work here?",
+          "text": "Do you live here?",
           "feedback": "Правильно! Do стоит перед подлежащим you"
         },
         {
           "id": "c",
-          "text": "Work you do here?",
+          "text": "Live you do here?",
           "feedback": "Нет, это неправильный порядок слов"
         }
       ],
       "correct_answer": "b",
-      "explanation": "Правильный вариант: 'Do you work here?'. В вопросах вспомогательный глагол do/does всегда стоит перед подлежащим.",
+      "explanation": "Правильный вариант: 'Do you live here?'. В вопросах вспомогательный глагол do/does всегда стоит перед подлежащим.",
       "tags": [
         "word_order"
       ]
@@ -834,27 +834,27 @@
       "choices": [
         {
           "id": "a",
-          "text": "Where do you work?",
+          "text": "Where do you live?",
           "feedback": "Правильно! В специальных вопросах нужен do/does после вопросительного слова"
         },
         {
           "id": "b",
-          "text": "Where you work?",
+          "text": "Where you live?",
           "feedback": "Нет: после Where нужен do перед подлежащим"
         },
         {
           "id": "c",
-          "text": "Where work you?",
+          "text": "Where live you?",
           "feedback": "Нет, это неправильный порядок слов"
         },
         {
           "id": "d",
-          "text": "Where do work you?",
+          "text": "Where do live you?",
           "feedback": "Нет: порядок — do + подлежащее + глагол"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Ошибка: в специальных вопросах тоже нужен вспомогательный глагол do/does после вопросительного слова. Правильно: 'Where do you work?'",
+      "explanation": "Ошибка: в специальных вопросах тоже нужен вспомогательный глагол do/does после вопросительного слова. Правильно: 'Where do you live?'",
       "tags": [
         "word_order",
         "error"
@@ -866,8 +866,8 @@
       "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b6_theory_word_order",
       "difficulty": 3,
-      "correct_answer": "What does he want?",
-      "explanation": "Правильный порядок: What (вопросительное слово) + does (вспомогательный глагол) + he (подлежащее) + want (глагол).",
+      "correct_answer": "What does he need?",
+      "explanation": "Правильный порядок: What (вопросительное слово) + does (вспомогательный глагол) + he (подлежащее) + need (глагол).",
       "tags": [
         "word_order",
         "reorder"
@@ -1374,22 +1374,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "Yes, they do.",
+          "text": "No, they don't.",
           "feedback": "Правильно! В кратком ответе используем do"
         },
         {
           "id": "b",
-          "text": "Yes, they like.",
-          "feedback": "Нет, в кратком ответе используем do, а не повторяем глагол"
+          "text": "No, they not.",
+          "feedback": "Нет, нужно использовать do в кратком ответе"
         },
         {
           "id": "c",
-          "text": "Yes, they does.",
+          "text": "No, they does.",
           "feedback": "Нет, с they используется do, а не does"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Правильный ответ: 'Yes, they do.'. В кратких ответах на вопросы с do мы используем do, а не повторяем весь глагол.",
+      "explanation": "Правильный ответ: 'No, they don't.'. В кратких ответах на вопросы с do мы используем do/don't.",
       "tags": [
         "short_answers",
         "affirmative"
@@ -1430,27 +1430,27 @@
       "choices": [
         {
           "id": "a",
-          "text": "What does he want?",
+          "text": "What does he like?",
           "feedback": "Правильно! С he используется does, и после него глагол в базовой форме"
         },
         {
           "id": "b",
-          "text": "What do he wants?",
+          "text": "What do he likes?",
           "feedback": "Нет: с he нужен does, глагол в базовой форме"
         },
         {
           "id": "c",
-          "text": "What do he want?",
+          "text": "What do he like?",
           "feedback": "Нет, с he используется does"
         },
         {
           "id": "d",
-          "text": "What he does want?",
+          "text": "What he does like?",
           "feedback": "Нет: does должен стоять после What, перед подлежащим"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Две ошибки: 1) с he используется does, а не do; 2) после does глагол идёт в базовой форме, без -s. Правильно: 'What does he want?'",
+      "explanation": "Две ошибки: 1) с he используется does, а не do; 2) после does глагол идёт в базовой форме, без -s. Правильно: 'What does he like?'",
       "tags": [
         "word_order",
         "error"
@@ -1521,22 +1521,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "Yes, she works.",
-          "feedback": "Нет, в кратком ответе используем does, а не повторяем глагол"
-        },
-        {
-          "id": "b",
-          "text": "Yes, she does.",
+          "text": "No, she doesn't.",
           "feedback": "Правильно! В кратком ответе используем does"
         },
         {
+          "id": "b",
+          "text": "No, she not.",
+          "feedback": "Нет, нужно использовать does в кратком ответе"
+        },
+        {
           "id": "c",
-          "text": "Yes, she do.",
+          "text": "No, she do.",
           "feedback": "Нет, с she используется does"
         }
       ],
-      "correct_answer": "b",
-      "explanation": "Правильный ответ: 'Yes, she does.'. В кратких ответах на вопросы с does мы используем does, а не повторяем глагол с окончанием.",
+      "correct_answer": "a",
+      "explanation": "Правильный ответ: 'No, she doesn't.'. В кратких ответах на вопросы с does мы используем does/doesn't.",
       "tags": [
         "short_answers",
         "affirmative"

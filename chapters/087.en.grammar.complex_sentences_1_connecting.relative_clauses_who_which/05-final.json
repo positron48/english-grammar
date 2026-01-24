@@ -805,25 +805,25 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"The woman lives next door who is a doctor.\"",
+        "prompt": "Найдите ошибку: \"The man works here who is my uncle.\"",
         "theory_block_id": "b3_theory_subject_object",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "The woman who lives next door is a doctor."
+            "text": "The man who works here is my uncle."
           },
           {
             "id": "b",
-            "text": "The woman lives next door who is a doctor."
+            "text": "The man works here who is my uncle."
           },
           {
             "id": "c",
-            "text": "The woman who next door lives is a doctor."
+            "text": "The man who here works is my uncle."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Relative clause должна сразу следовать за существительным и содержать местоимение как подлежащее.",
+        "explanation": "Relative clause должна следовать сразу за существительным; who — подлежащее.",
         "id": "q34"
       },
       {

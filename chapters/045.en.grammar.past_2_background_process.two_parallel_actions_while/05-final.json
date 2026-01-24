@@ -629,18 +629,18 @@
       {
         "id": "q24",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**We were eating while they talked.**",
+        "prompt": "Найдите ошибку:\n\n**She was reading while he cooked.**",
         "theory_block_id": "b3_theory_timeline",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "We were eating while they were talking.",
+            "text": "She was reading while he was cooking.",
             "feedback": "Правильно: оба процесса"
           },
           {
             "id": "b",
-            "text": "We were eating while they talked.",
+            "text": "She was reading while he cooked.",
             "feedback": "Неверно: второе действие должно быть в Continuous"
           }
         ],
@@ -656,18 +656,15 @@
         "choices": [
           {
             "id": "a",
-            "text": "He was driving while she was sleeping.",
-            "feedback": "Верно: параллельные процессы"
+            "text": "They were studying while we were playing."
           },
           {
             "id": "b",
-            "text": "He was driving when she called.",
-            "feedback": "Это процесс + событие"
+            "text": "They were studying when we arrived."
           },
           {
             "id": "c",
-            "text": "He drove to work yesterday.",
-            "feedback": "Это Past Simple"
+            "text": "They studied yesterday."
           }
         ],
         "correct_answer": "a",
@@ -729,18 +726,18 @@
       {
         "id": "q30",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**He was driving while she slept.**",
+        "prompt": "Найдите ошибку:\n\n**He was cooking while she cleaned.**",
         "theory_block_id": "b3_theory_timeline",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "He was driving while she was sleeping.",
+            "text": "He was cooking while she was cleaning.",
             "feedback": "Правильно: оба процесса"
           },
           {
             "id": "b",
-            "text": "He was driving while she slept.",
+            "text": "He was cooking while she cleaned.",
             "feedback": "Неверно: второе действие должно быть в Continuous"
           }
         ],
@@ -1027,7 +1024,7 @@
         "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b5_theory_common_mistakes",
         "difficulty": 2,
-        "correct_answer": "We were talking while they were eating.",
+        "correct_answer": "We were talking while they were waiting.",
         "explanation": "Обе части в Past Continuous."
       },
       {
@@ -1316,7 +1313,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T14:10:57Z",
+    "updated_at": "2026-01-24T11:26:18Z",
     "source": "llm"
   }
 }

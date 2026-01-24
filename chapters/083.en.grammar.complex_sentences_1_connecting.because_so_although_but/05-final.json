@@ -1325,7 +1325,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"Although it was cold, but we went out.\"",
+        "prompt": "Найдите ошибку: \"Although it was late, but they kept working.\"",
         "theory_block_id": "b6_common_errors",
         "difficulty": 2,
         "explanation": "Нельзя использовать although и but вместе. Вариант a корректен.",
@@ -1333,15 +1333,15 @@
         "choices": [
           {
             "id": "a",
-            "text": "Although it was cold, we went out."
+            "text": "Although it was late, they kept working."
           },
           {
             "id": "b",
-            "text": "Although it was cold, but we went out."
+            "text": "Although it was late, but they kept working."
           },
           {
             "id": "c",
-            "text": "It was cold, but we went out."
+            "text": "It was late, but they kept working."
           }
         ],
         "correct_answer": "a"

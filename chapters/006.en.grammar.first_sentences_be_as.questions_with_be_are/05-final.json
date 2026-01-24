@@ -827,8 +827,8 @@
         "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b2_theory_wh_questions",
         "difficulty": 2,
-        "correct_answer": "Where is the book?",
-        "explanation": "В специальных вопросах порядок: Wh-слово + be + подлежащее. Where is the book?",
+        "correct_answer": "Where is the bag?",
+        "explanation": "В специальных вопросах порядок: Wh-слово + be + подлежащее. Where is the bag?",
         "tags": [
           "wh_question",
           "reorder"
@@ -1055,22 +1055,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "You are a student?",
+            "text": "You are a teacher?",
             "feedback": "Нет, в вопросах be стоит перед подлежащим"
           },
           {
             "id": "b",
-            "text": "Are you a student?",
+            "text": "Are you a teacher?",
             "feedback": "Правильно! В вопросах be стоит перед подлежащим"
           },
           {
             "id": "c",
-            "text": "A student are you?",
+            "text": "A teacher are you?",
             "feedback": "Нет, порядок слов неправильный"
           }
         ],
         "correct_answer": "b",
-        "explanation": "В вопросах порядок слов: be + подлежащее + остальное. Are you a student?",
+        "explanation": "В вопросах порядок слов: be + подлежащее + остальное. Are you a teacher?",
         "tags": [
           "word_order"
         ]
@@ -1097,22 +1097,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "What is your name?",
+            "text": "What is your surname?",
             "feedback": "Правильно! После Wh-слова порядок: be + подлежащее"
           },
           {
             "id": "b",
-            "text": "What your name is?",
+            "text": "What your surname is?",
             "feedback": "Нет, после Wh-слова порядок: be + подлежащее"
           },
           {
             "id": "c",
-            "text": "What name is your?",
+            "text": "What surname is your?",
             "feedback": "Нет, порядок слов неправильный"
           }
         ],
         "correct_answer": "a",
-        "explanation": "В специальных вопросах порядок: Wh-слово + be + подлежащее. What is your name?",
+        "explanation": "В специальных вопросах порядок: Wh-слово + be + подлежащее. What is your surname?",
         "tags": [
           "word_order"
         ]
@@ -1120,13 +1120,13 @@
       {
         "id": "q40",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в порядке слов: \"Where you are?\"",
+        "prompt": "Найдите ошибку в порядке слов: \"Where she is?\"",
         "theory_block_id": "b4_theory_word_order",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "you are → are you",
+            "text": "she is → is she",
             "feedback": "Правильно! После Where порядок: be + подлежащее"
           },
           {
@@ -1136,12 +1136,12 @@
           },
           {
             "id": "c",
-            "text": "are → is",
+            "text": "is → are",
             "feedback": "Нет, ошибка в порядке слов"
           }
         ],
         "correct_answer": "a",
-        "explanation": "После Where порядок слов: be + подлежащее. Where are you?",
+        "explanation": "После Where порядок слов: be + подлежащее. Where is she?",
         "tags": [
           "word_order",
           "error_spotting"
@@ -1218,13 +1218,13 @@
       {
         "id": "q45",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в порядке слов: \"What your name is?\"",
+        "prompt": "Найдите ошибку в порядке слов: \"What time it is?\"",
         "theory_block_id": "b4_theory_word_order",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "your name is → is your name",
+            "text": "time it is → time is it",
             "feedback": "Правильно! После What порядок: be + подлежащее"
           },
           {
@@ -1234,12 +1234,12 @@
           },
           {
             "id": "c",
-            "text": "name → names",
+            "text": "time → times",
             "feedback": "Нет, ошибка в порядке слов"
           }
         ],
         "correct_answer": "a",
-        "explanation": "После What порядок слов: be + подлежащее. What is your name?",
+        "explanation": "После What порядок слов: be + подлежащее. What time is it?",
         "tags": [
           "word_order",
           "error_spotting"
@@ -1251,8 +1251,8 @@
         "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b4_theory_word_order",
         "difficulty": 2,
-        "correct_answer": "Where are you from?",
-        "explanation": "В специальных вопросах порядок: Wh-слово + be + подлежащее + остальное. Where are you from?",
+        "correct_answer": "Where are they from?",
+        "explanation": "В специальных вопросах порядок: Wh-слово + be + подлежащее + остальное. Where are they from?",
         "tags": [
           "word_order",
           "reorder"
@@ -1280,22 +1280,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "What is your name?",
-            "feedback": "Правильно! Это типичный вопрос для знакомства"
+            "text": "What is your phone number?",
+            "feedback": "Правильно! Это типичный вопрос при знакомстве"
           },
           {
             "id": "b",
-            "text": "What your name is?",
-            "feedback": "Нет, после What порядок: be + подлежащее, а не подлежащее + be"
+            "text": "What your phone number is?",
+            "feedback": "Нет, после What порядок: be + подлежащее"
           },
           {
             "id": "c",
-            "text": "What name is your?",
-            "feedback": "Нет, порядок слов неправильный. После What должно быть is your name"
+            "text": "What phone number is your?",
+            "feedback": "Нет, порядок слов неправильный"
           }
         ],
         "correct_answer": "a",
-        "explanation": "What is your name? — это типичный вопрос для знакомства.",
+        "explanation": "What is your phone number? — это типичный вопрос при знакомстве.",
         "tags": [
           "common_pattern",
           "introduction"
@@ -1324,22 +1324,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "Where is the book?",
+            "text": "Where is the key?",
             "feedback": "Правильно! Это типичный вопрос о местоположении"
           },
           {
             "id": "b",
-            "text": "Where the book is?",
-            "feedback": "Нет, после Where порядок: be + подлежащее, а не подлежащее + be"
+            "text": "Where the key is?",
+            "feedback": "Нет, после Where порядок: be + подлежащее"
           },
           {
             "id": "c",
-            "text": "Where book is the?",
-            "feedback": "Нет, порядок слов неправильный. После Where должно быть is the book"
+            "text": "Where key is the?",
+            "feedback": "Нет, порядок слов неправильный"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Where is the book? — это типичный вопрос о местоположении.",
+        "explanation": "Where is the key? — это типичный вопрос о местоположении.",
         "tags": [
           "common_pattern",
           "location"
@@ -1348,13 +1348,13 @@
       {
         "id": "q52",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в типичном вопросе: \"How you are?\"",
+        "prompt": "Найдите ошибку в типичном вопросе: \"How they are?\"",
         "theory_block_id": "b5_theory_common_patterns",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "you are → are you",
+            "text": "they are → are they",
             "feedback": "Правильно! После How порядок: be + подлежащее"
           },
           {
@@ -1369,7 +1369,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "После How порядок слов: be + подлежащее. How are you?",
+        "explanation": "После How порядок слов: be + подлежащее. How are they?",
         "tags": [
           "common_pattern",
           "error_spotting"
@@ -1381,8 +1381,8 @@
         "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b5_theory_common_patterns",
         "difficulty": 2,
-        "correct_answer": "How are you?",
-        "explanation": "How are you? — это типичный вопрос для знакомства.",
+        "correct_answer": "Where are you from?",
+        "explanation": "Правильный порядок: Where + are + you + from?",
         "tags": [
           "common_pattern",
           "introduction",
@@ -1448,13 +1448,13 @@
       {
         "id": "q57",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в типичном вопросе: \"Where you are?\"",
+        "prompt": "Найдите ошибку в типичном вопросе: \"Where he is?\"",
         "theory_block_id": "b5_theory_common_patterns",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "you are → are you",
+            "text": "he is → is he",
             "feedback": "Правильно! После Where порядок: be + подлежащее"
           },
           {
@@ -1464,12 +1464,12 @@
           },
           {
             "id": "c",
-            "text": "are → is",
+            "text": "is → are",
             "feedback": "Нет, ошибка в порядке слов"
           }
         ],
         "correct_answer": "a",
-        "explanation": "После Where порядок слов: be + подлежащее. Where are you?",
+        "explanation": "После Where порядок слов: be + подлежащее. Where is he?",
         "tags": [
           "common_pattern",
           "error_spotting"

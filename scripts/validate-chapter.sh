@@ -411,6 +411,78 @@ if duplicates:
         })
         errors += 1
 
+# Проверка уникальности пары prompt + correct_answer (в пределах главы)
+def normalize_correct_answer(question):
+    qtype = question.get('type')
+    correct = question.get('correct_answer')
+    choices = question.get('choices') or []
+
+    # Для вопросов с choices используем текст вариантов, а не ID
+    if qtype in ['mcq_single', 'mcq_multi', 'error_spotting'] and choices:
+        choice_map = {c.get('id'): c.get('text', '').strip() for c in choices}
+        if qtype == 'mcq_multi' and isinstance(correct, list):
+            texts = [choice_map.get(cid, str(cid).strip()) for cid in correct]
+            # Сортируем, чтобы одинаковые наборы считались одинаковыми
+            return sorted([t for t in texts if t != ''])
+        return choice_map.get(correct, str(correct).strip())
+        return str(correct).strip()
+
+    # Для остальных типов используем значение correct_answer напрямую
+    if isinstance(correct, (dict, list)):
+        return json.dumps(correct, ensure_ascii=False, sort_keys=True)
+    if correct is None:
+        return ''
+    return str(correct).strip()
+
+prompt_answer_pairs = {}
+long_answer_map = {}
+for q in questions:
+    prompt_text = q.get('prompt', '').strip()
+    if not prompt_text:
+        continue
+    normalized_answer = normalize_correct_answer(q)
+    if normalized_answer == '':
+        continue
+    if isinstance(normalized_answer, list):
+        normalized_answer_str = ' | '.join(normalized_answer)
+    else:
+        normalized_answer_str = str(normalized_answer)
+    pair_key = (prompt_text, json.dumps(normalized_answer_str, ensure_ascii=False))
+    if pair_key not in prompt_answer_pairs:
+        prompt_answer_pairs[pair_key] = []
+    prompt_answer_pairs[pair_key].append(q['id'])
+
+    # Проверка уникальности правильных ответов длиной > 10 символов
+    if len(normalized_answer_str) > 10:
+        if normalized_answer_str not in long_answer_map:
+            long_answer_map[normalized_answer_str] = []
+        long_answer_map[normalized_answer_str].append(q['id'])
+
+pair_duplicates = {key: qids for key, qids in prompt_answer_pairs.items() if len(qids) > 1}
+
+if pair_duplicates:
+    for (dup_prompt, dup_answer), qids in pair_duplicates.items():
+        issues.append({
+            'severity': 'error',
+            'category': 'content',
+            'message': f"Найдены вопросы с одинаковой парой prompt+correct_answer: '{dup_prompt}' / '{dup_answer}'. Дубликаты: {', '.join(qids)}",
+            'location': 'question_bank.questions',
+            'suggested_fix': f"Изменить prompt или correct_answer для одного из вопросов ({', '.join(qids)}), чтобы пары были уникальными"
+        })
+        errors += 1
+
+long_answer_duplicates = {answer: qids for answer, qids in long_answer_map.items() if len(qids) > 1}
+if long_answer_duplicates:
+    for answer_text, qids in long_answer_duplicates.items():
+        issues.append({
+            'severity': 'error',
+            'category': 'content',
+            'message': f"Найдены одинаковые правильные ответы длиной > 10 символов: '{answer_text}'. Дубликаты: {', '.join(qids)}",
+            'location': 'question_bank.questions',
+            'suggested_fix': f"Изменить correct_answer для одного из вопросов ({', '.join(qids)}), чтобы все длинные ответы были уникальными"
+        })
+        errors += 1
+
 # 3. Методическая валидность
 # Проверка наличия content_md в theory_blocks (обязательное поле)
 for block in blocks:

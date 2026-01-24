@@ -903,24 +903,24 @@
     {
       "id": "q59",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'You should must wear a helmet.'",
+      "prompt": "Найдите ошибку: 'You should must slow down.'",
       "theory_block_id": "b5_should_vs_must",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "You must wear a helmet."
+          "text": "You should slow down."
         },
         {
           "id": "b",
-          "text": "You should wear a helmet."
+          "text": "You must slow down."
         },
         {
           "id": "c",
-          "text": "You should must wear a helmet."
+          "text": "You should must slow down."
         }
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation": "Нельзя ставить два модальных глагола вместе. Нужно выбрать should или must."
     },
     {

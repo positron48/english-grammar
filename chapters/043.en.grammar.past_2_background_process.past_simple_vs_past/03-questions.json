@@ -707,23 +707,23 @@
     {
       "id": "q44",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**While I was reading, the phone was rang.**",
+      "prompt": "Найдите ошибку:\n\n**While we were eating, the lights were went out.**",
       "theory_block_id": "b5_theory_common_mistakes",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "While I was reading, the phone rang.",
+          "text": "While we were eating, the lights went out.",
           "feedback": "Правильно: событие в Past Simple"
         },
         {
           "id": "b",
-          "text": "While I was reading, the phone was rang.",
+          "text": "While we were eating, the lights were went out.",
           "feedback": "Неверно: событие не в Continuous"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Событие нужно в Past Simple: rang."
+      "explanation": "Событие нужно в Past Simple: went out."
     },
     {
       "id": "q45",
@@ -775,7 +775,7 @@
       "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b5_theory_common_mistakes",
       "difficulty": 2,
-      "correct_answer": "I was walking when it started to rain.",
+      "correct_answer": "She was cooking when the phone rang.",
       "explanation": "Процесс + событие."
     },
     {
@@ -913,22 +913,19 @@
       "choices": [
         {
           "id": "a",
-          "text": "I walked when he called.",
-          "feedback": "Да, нет фонового процесса"
+          "text": "I watched TV when she called."
         },
         {
           "id": "b",
-          "text": "I was walking when he called.",
-          "feedback": "Верно: есть фон и событие"
+          "text": "I was watching TV when she called."
         },
         {
           "id": "c",
-          "text": "I was walking when he called me.",
-          "feedback": "Верно: фон + событие с дополнением"
+          "text": "I was watching TV when she called me."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Без Past Continuous теряется фон."
+      "explanation": "Частая ошибка — отсутствие фонового процесса в Past Continuous."
     },
     {
       "id": "q57",

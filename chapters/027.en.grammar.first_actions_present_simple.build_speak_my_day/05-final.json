@@ -1162,22 +1162,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "What time do you wake up?",
-            "feedback": "Правильно!"
+            "text": "What time do you get up?",
+            "feedback": "Правильно! Do/Does + подлежащее + глагол"
           },
           {
             "id": "b",
-            "text": "What time you wake up?",
-            "feedback": "Нет, нужен do"
+            "text": "What time you get up?",
+            "feedback": "Нет, нужен вспомогательный do"
           },
           {
             "id": "c",
-            "text": "What time wake you up?",
-            "feedback": "Нет, неправильный порядок слов"
+            "text": "What time do get you up?",
+            "feedback": "Нет, неверный порядок слов"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для вопросов о времени используется What time + do/does + подлежащее + глагол: What time do you wake up?",
+        "explanation": "Правильный вопрос: What time do you get up?",
         "tags": [
           "questions",
           "time"
@@ -1380,23 +1380,28 @@
       {
         "id": "q54",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**What time does wake you up?**",
+        "prompt": "Найдите ошибку:\n\n**What time does go you to bed?**",
         "theory_block_id": "b4_theory_asking_about_routine",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "What time do you wake up?",
-            "feedback": "Правильно! Порядок: What time + do + подлежащее + глагол"
+            "text": "What time do you go to bed?",
+            "feedback": "Правильно! Do/Does + подлежащее + глагол"
           },
           {
             "id": "b",
-            "text": "What time you wake up?",
-            "feedback": "Нет, нужен do"
+            "text": "What time you go to bed?",
+            "feedback": "Нет, нужен вспомогательный do"
+          },
+          {
+            "id": "c",
+            "text": "What time does you go to bed?",
+            "feedback": "Нет, с you используется do"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Ошибка: неправильный порядок слов. Правильно: What time + do/does + подлежащее + глагол. What time do you wake up?",
+        "explanation": "Правильный вопрос: What time do you go to bed?",
         "tags": [
           "questions",
           "error"
@@ -1454,22 +1459,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "I wake up at 7, then I have breakfast.",
-            "feedback": "Правильно! Используется then для связи"
+            "text": "I wake up at 8, then I have breakfast.",
+            "feedback": "Правильно! Это корректное начало рассказа о дне"
           },
           {
             "id": "b",
-            "text": "I wake up at 7, I have breakfast.",
-            "feedback": "Можно, но лучше с then"
+            "text": "I am waking up at 8, then I have breakfast.",
+            "feedback": "Нет, для привычек используется Present Simple, а не Continuous"
           },
           {
             "id": "c",
-            "text": "I wake up at 7 after I have breakfast.",
-            "feedback": "Нет, логика нарушена"
+            "text": "I wake up at 8, then I am having breakfast.",
+            "feedback": "Нет, для привычек нужен Present Simple: have breakfast"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для связи действий используется 'then': I wake up at 7, then I have breakfast.",
+        "explanation": "Для рассказа о привычках используется Present Simple: I wake up at 8, then I have breakfast.",
         "tags": [
           "full_story",
           "then"
@@ -1671,23 +1676,28 @@
       {
         "id": "q68",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**Morning I wake up. Day I work. Evening I relax.**",
+        "prompt": "Найдите ошибку:\n\n**Morning I study. Day I work. Evening I relax.**",
         "theory_block_id": "b5_theory_building_full_story",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "In the morning I wake up. During the day I work. In the evening I relax.",
-            "feedback": "Правильно! Нужны предлоги In/During"
+            "text": "In the morning I study. During the day I work. In the evening I relax.",
+            "feedback": "Правильно! Нужны предлоги времени"
           },
           {
             "id": "b",
-            "text": "The morning I wake up. The day I work. The evening I relax.",
-            "feedback": "Нет, нужны предлоги"
+            "text": "Morning I study. Day I work. Evening I relax.",
+            "feedback": "Нет, это исходная ошибка"
+          },
+          {
+            "id": "c",
+            "text": "In morning I study. In day I work. In evening I relax.",
+            "feedback": "Нет, нужны артикли"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Ошибка: нужны предлоги для указания времени суток. Правильно: In the morning, During the day, In the evening.",
+        "explanation": "Временные выражения требуют предлогов: in the morning, during the day, in the evening.",
         "tags": [
           "full_story",
           "error"

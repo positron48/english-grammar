@@ -724,28 +724,28 @@
       {
         "id": "q22",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"This is ___ water.\"",
+        "prompt": "Выберите правильный вариант: \"This is ___ milk.\"",
         "theory_block_id": "b3_theory_countable_singular",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "This is a water.",
-            "feedback": "Нет, water неисчисляемое существительное, артикль a не используется"
+            "text": "This is a milk.",
+            "feedback": "Нет, milk неисчисляемое существительное, артикль a не используется"
           },
           {
             "id": "b",
-            "text": "This is water.",
+            "text": "This is milk.",
             "feedback": "Правильно! С неисчисляемыми существительными артикль не используется"
           },
           {
             "id": "c",
-            "text": "This is an water.",
-            "feedback": "Нет, water неисчисляемое существительное, артикль an не используется"
+            "text": "This is an milk.",
+            "feedback": "Нет, milk неисчисляемое существительное, артикль an не используется"
           }
         ],
         "correct_answer": "b",
-        "explanation": "С неисчисляемыми существительными артикль a/an не используется: This is water.",
+        "explanation": "С неисчисляемыми существительными артикль a/an не используется: This is milk.",
         "tags": [
           "uncountable",
           "no_article"
@@ -754,28 +754,28 @@
       {
         "id": "q24",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении: \"These are a books.\"",
+        "prompt": "Найдите ошибку в предложении: \"These are a pens.\"",
         "theory_block_id": "b3_theory_countable_singular",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "These are books.",
+            "text": "These are pens.",
             "feedback": "Правильно! С множественным числом артикль a/an не используется"
           },
           {
             "id": "b",
-            "text": "This are books.",
+            "text": "This are pens.",
             "feedback": "Нет, these правильное местоимение для множественного числа"
           },
           {
             "id": "c",
-            "text": "These is books.",
+            "text": "These is pens.",
             "feedback": "Нет, are правильная форма для these"
           }
         ],
         "correct_answer": "a",
-        "explanation": "С множественным числом артикль a/an не используется: These are books.",
+        "explanation": "С множественным числом артикль a/an не используется: These are pens.",
         "tags": [
           "plural",
           "no_article"
@@ -826,11 +826,11 @@
       {
         "id": "q29",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: **This is ___ book.** (артикль)",
+        "prompt": "Заполните пропуск: **This is ___ apple.** (артикль)",
         "theory_block_id": "b3_theory_countable_singular",
         "difficulty": 1,
-        "correct_answer": "a",
-        "explanation": "С исчисляемым существительным в единственном числе используется артикль a: This is a book.",
+        "correct_answer": "an",
+        "explanation": "С исчисляемым существительным в единственном числе, начинающимся на гласный звук, используется артикль an: This is an apple.",
         "tags": [
           "singular",
           "countable"
@@ -1054,11 +1054,11 @@
       {
         "id": "q41",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: **This is ___ book.** (артикль)",
+        "prompt": "Заполните пропуск: **This is ___ new chair.** (артикль)",
         "theory_block_id": "b5_theory_practical_patterns",
         "difficulty": 1,
         "correct_answer": "a",
-        "explanation": "В паттерне \"This is a/an...\" используется артикль a/an для указания на предмет: This is a book.",
+        "explanation": "В паттерне \"This is a/an...\" используется артикль a/an для указания на предмет: This is a new chair.",
         "tags": [
           "this_that",
           "pattern"
@@ -1067,28 +1067,28 @@
       {
         "id": "q42",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"I'm ___ student.\"",
+        "prompt": "Выберите правильный вариант: \"I'm ___ engineer.\"",
         "theory_block_id": "b5_theory_practical_patterns",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "I'm a student.",
-            "feedback": "Правильно! Паттерн I'm a/an... для профессии или роли"
+            "text": "I'm an engineer.",
+            "feedback": "Правильно! an используется перед гласным звуком [e]"
           },
           {
             "id": "b",
-            "text": "I'm an student.",
-            "feedback": "Нет, student начинается с согласного звука [s]"
+            "text": "I'm a engineer.",
+            "feedback": "Нет, engineer начинается с гласного звука"
           },
           {
             "id": "c",
-            "text": "I'm student.",
-            "feedback": "Нет, нужен артикль a перед исчисляемым существительным"
+            "text": "I'm engineer.",
+            "feedback": "Нет, нужен артикль a/an перед исчисляемым существительным"
           }
         ],
         "correct_answer": "a",
-        "explanation": "В паттерне \"I'm a/an...\" используется артикль для указания на профессию или роль: I'm a student.",
+        "explanation": "В паттерне \"I'm a/an...\" используется артикль для указания на профессию или роль: I'm an engineer.",
         "tags": [
           "identity",
           "pattern"
@@ -1097,11 +1097,11 @@
       {
         "id": "q44",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: **She's ___ teacher.** (артикль)",
+        "prompt": "Заполните пропуск: **She's ___ doctor.** (артикль)",
         "theory_block_id": "b5_theory_practical_patterns",
         "difficulty": 1,
         "correct_answer": "a",
-        "explanation": "В паттерне \"She's a/an...\" используется артикль для указания на профессию: She's a teacher.",
+        "explanation": "В паттерне \"She's a/an...\" используется артикль для указания на профессию: She's a doctor.",
         "tags": [
           "profession",
           "pattern"
@@ -1280,28 +1280,28 @@
       {
         "id": "q56",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"We are ___ students.\"",
+        "prompt": "Выберите правильный вариант: \"We are ___ teachers.\"",
         "theory_block_id": "b5_theory_practical_patterns",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "We are a students.",
+            "text": "We are a teachers.",
             "feedback": "Нет, с множественным числом артикль a не используется"
           },
           {
             "id": "b",
-            "text": "We are students.",
+            "text": "We are teachers.",
             "feedback": "Правильно! С множественным числом артикль не нужен"
           },
           {
             "id": "c",
-            "text": "We are an students.",
+            "text": "We are an teachers.",
             "feedback": "Нет, с множественным числом артикль an не используется"
           }
         ],
         "correct_answer": "b",
-        "explanation": "С множественным числом артикль a/an не используется: We are students.",
+        "explanation": "С множественным числом артикль a/an не используется: We are teachers.",
         "tags": [
           "plural",
           "pattern"

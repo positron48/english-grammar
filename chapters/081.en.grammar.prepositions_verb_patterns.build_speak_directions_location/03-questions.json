@@ -66,13 +66,13 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Выберите правильный вариант: The cafe is ___ from the bank.",
+      "prompt": "Выберите правильный вариант: The cafe is ___ the bank.",
       "theory_block_id": "b1_directions_core_phrases",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "across"
+          "text": "next to"
         },
         {
           "id": "b",
@@ -80,11 +80,11 @@
         },
         {
           "id": "c",
-          "text": "along"
+          "text": "between"
         }
       ],
-      "correct_answer": "b",
-      "explanation": "Across from = напротив здания.",
+      "correct_answer": "a",
+      "explanation": "Next to = рядом.",
       "id": "q5"
     },
     {
@@ -171,17 +171,17 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Выберите правильный вариант: The bus stop is ___ from the museum.",
+      "prompt": "Выберите правильный вариант: The bus stop is ___ the museum.",
       "theory_block_id": "b1_directions_core_phrases",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "across from"
+          "text": "in front of"
         },
         {
           "id": "b",
-          "text": "across"
+          "text": "across from"
         },
         {
           "id": "c",
@@ -189,7 +189,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Across from используется для расположения напротив.",
+      "explanation": "In front of = перед зданием.",
       "id": "q12"
     },
     {
@@ -898,13 +898,13 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Выберите правильный вариант: The library is ___ the street from the bank.",
+      "prompt": "Выберите правильный вариант: The library is ___ the bank and the pharmacy.",
       "theory_block_id": "b5_landmarks_distance",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "across"
+          "text": "between"
         },
         {
           "id": "b",
@@ -912,11 +912,11 @@
         },
         {
           "id": "c",
-          "text": "between"
+          "text": "along"
         }
       ],
-      "correct_answer": "b",
-      "explanation": "Across from — напротив.",
+      "correct_answer": "a",
+      "explanation": "Between используется для расположения между двумя объектами.",
       "id": "q57"
     },
     {
@@ -1067,25 +1067,25 @@
     },
     {
       "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'Go straight and turn left in the corner.'",
+      "prompt": "Найдите ошибку: 'Go straight and turn right at the bridge.'",
       "theory_block_id": "b6_build_speak_dialogue",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "Go straight and turn left at the corner."
+          "text": "Go straight and turn right at the bridge."
         },
         {
           "id": "b",
-          "text": "Go straight and turn left in the corner."
+          "text": "Go straight and turn right in the bridge."
         },
         {
           "id": "c",
-          "text": "Go straight, then turn left at the corner."
+          "text": "Go straight, then turn right at the bridge."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Правильно: at the corner.",
+      "explanation": "Правильно: at the bridge. In the bridge не подходит.",
       "id": "q68"
     },
     {

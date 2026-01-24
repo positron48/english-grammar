@@ -910,28 +910,28 @@
     {
       "id": "q53",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку: \"I like they.\"",
+      "prompt": "Найдите ошибку: \"I like she.\"",
       "theory_block_id": "b6_theory_common_mistakes",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "they → them",
-          "feedback": "Правильно! После глагола like нужен object pronoun (them), а не subject pronoun (they)"
+          "text": "she → her",
+          "feedback": "Правильно! После глагола like нужен object pronoun (her), а не subject pronoun (she)"
         },
         {
           "id": "b",
           "text": "I → Me",
-          "feedback": "Нет, I здесь правильное (перед глаголом). Ошибка в they → them"
+          "feedback": "Нет, I здесь правильное (перед глаголом). Ошибка в she → her"
         },
         {
           "id": "c",
           "text": "like → likes",
-          "feedback": "Нет, like здесь правильное (I требует like, а не likes). Ошибка в they → them"
+          "feedback": "Нет, like здесь правильное (I требует like, а не likes). Ошибка в she → her"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Ошибка: they → them. После глагола like нужен object pronoun (them), а не subject pronoun (they). Правильно: I like them.",
+      "explanation": "Ошибка: she → her. После глагола like нужен object pronoun (her), а не subject pronoun (she). Правильно: I like her.",
       "tags": [
         "mistakes",
         "error"

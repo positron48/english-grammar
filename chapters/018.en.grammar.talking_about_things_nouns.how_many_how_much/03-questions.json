@@ -127,7 +127,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "How many → How much",
+          "text": "How many → How much (price)",
           "feedback": "Правильно! Для вопроса о цене используется How much"
         },
         {
@@ -538,7 +538,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Five books.",
+          "text": "Two books.",
           "feedback": "Правильно! Это короткий ответ с числительным."
         },
         {
@@ -553,7 +553,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "На вопрос How many? можно ответить коротко с числительным: Five books. или просто Five.",
+      "explanation": "На вопрос How many? можно ответить коротко с числительным: Two books. или просто Two.",
       "tags": [
         "answers",
         "short_answer"
@@ -1086,22 +1086,22 @@
       "choices": [
         {
           "id": "a",
-          "text": "How much is this book?",
+          "text": "How much is this pen?",
           "feedback": "Правильно! How much используется для вопроса о цене."
         },
         {
           "id": "b",
-          "text": "How many is this book?",
+          "text": "How many is this pen?",
           "feedback": "Нет, для вопроса о цене используется How much, а не How many."
         },
         {
           "id": "c",
-          "text": "How is this book?",
+          "text": "How is this pen?",
           "feedback": "Нет, для вопроса о цене нужно How much."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Для вопроса о цене используется How much: How much is this book? (Сколько стоит эта книга?) или How much does it cost?",
+      "explanation": "Для вопроса о цене используется How much: How much is this pen?",
       "tags": [
         "how_much",
         "price",
@@ -1111,19 +1111,19 @@
     {
       "id": "q80",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку: \"How many water do you need?\"",
+      "prompt": "Найдите ошибку: \"How many milk do you need?\"",
       "theory_block_id": "b6_theory_common_mistakes",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "How many → How much",
-          "feedback": "Правильно! Water — несчетное существительное, нужно использовать How much"
+          "text": "How many → How much (milk)",
+          "feedback": "Правильно! Milk — несчетное существительное, нужно использовать How much"
         },
         {
           "id": "b",
-          "text": "water → waters",
-          "feedback": "Нет, water — несчетное, ошибка в выборе вопросительного слова"
+          "text": "milk → milks",
+          "feedback": "Нет, milk — несчетное, ошибка в выборе вопросительного слова"
         },
         {
           "id": "c",
@@ -1132,7 +1132,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Ошибка: How many water?. Правильно: How much water?. Water — несчетное существительное, поэтому используется How much, а не How many.",
+      "explanation": "Ошибка: How many milk?. Правильно: How much milk?. Milk — несчетное существительное, поэтому используется How much, а не How many.",
       "tags": [
         "error",
         "how_many",
@@ -1149,7 +1149,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "How much → How many",
+          "text": "How much → How many (books)",
           "feedback": "Правильно! Books — счетные существительные, нужно использовать How many"
         },
         {
@@ -1175,18 +1175,18 @@
     {
       "id": "q82",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку: \"How many book is on the table?\"",
+      "prompt": "Найдите ошибку: \"How many student are in the class?\"",
       "theory_block_id": "b6_theory_common_mistakes",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "book → books",
+          "text": "student → students",
           "feedback": "Правильно! После How many существительное должно быть во множественном числе"
         },
         {
           "id": "b",
-          "text": "is → are",
+          "text": "are → is",
           "feedback": "Нет, ошибка в числе существительного, а не в глаголе"
         },
         {
@@ -1196,7 +1196,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Ошибка: How many book?. Правильно: How many books?. После How many существительное всегда стоит во множественном числе.",
+      "explanation": "Ошибка: How many student?. Правильно: How many students?. После How many существительное всегда стоит во множественном числе.",
       "tags": [
         "error",
         "how_many",
@@ -1237,19 +1237,19 @@
     {
       "id": "q86",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку: \"How much students are in the class?\"",
+      "prompt": "Найдите ошибку: \"How much apples are in the bag?\"",
       "theory_block_id": "b6_theory_common_mistakes",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "How much → How many",
-          "feedback": "Правильно! Students — счетные, нужно использовать How many"
+          "text": "How much → How many (apples)",
+          "feedback": "Правильно! Apples — счетные, нужно использовать How many"
         },
         {
           "id": "b",
-          "text": "students → student",
-          "feedback": "Нет, students правильное, ошибка в выборе How many/How much"
+          "text": "apples → apple",
+          "feedback": "Нет, apples правильное, ошибка в выборе How many/How much"
         },
         {
           "id": "c",
@@ -1258,7 +1258,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Ошибка: How much students?. Правильно: How many students?. Students — счетные существительные, поэтому используется How many, а не How much.",
+      "explanation": "Ошибка: How much apples?. Правильно: How many apples?. Apples — счетные, поэтому используется How many, а не How much.",
       "tags": [
         "error",
         "how_many",
