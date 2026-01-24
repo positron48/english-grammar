@@ -1,0 +1,1364 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.voice_focus_passive_and.build_write_news_processes",
+  "section_id": "en.grammar.voice_focus_passive_and",
+  "title": "Build & write: news/processes/services (passive + causative)",
+  "title_short": "Build & write: passive",
+  "description": "Практика: писать короткие новости, описания процессов и сервисов с пассивом и каузативом.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "B2",
+  "order": 0,
+  "prerequisites": [
+    "en.grammar.voice_focus_passive_and.passive_basics_be_v3",
+    "en.grammar.voice_focus_passive_and.passive_across_tenses",
+    "en.grammar.voice_focus_passive_and.by_agent_when_to",
+    "en.grammar.voice_focus_passive_and.get_passive_it_happened",
+    "en.grammar.voice_focus_passive_and.causative_have_get_something",
+    "en.grammar.voice_focus_passive_and.impersonal_passive_it_is"
+  ],
+  "concept_refs": [
+    "news_passive_structure",
+    "process_passive_description",
+    "service_causative_usage",
+    "style_consistency_passive",
+    "news_process_templates"
+  ],
+  "learning_objectives": [
+    "Строить новости с безличным пассивом",
+    "Описывать процесс или сервис в пассиве",
+    "Использовать каузатив для услуг и организации действий"
+  ],
+  "estimated_minutes": 24,
+  "blocks": [
+    {
+      "id": "b1_theory_news_structure",
+      "type": "theory",
+      "title": "В новостях пассив помогает сохранять нейтральный тон и фокус на фактах. Часто используются формулы It is reported that..., It is believed that..., was confirmed/announced.",
+      "theory": {
+        "concept_id": "news_passive_structure",
+        "content_md": "В новостях пассив помогает сохранять нейтральный тон и фокус на фактах. Часто используются формулы **It is reported that...**, **It is believed that...**, **was confirmed/announced**.\n\nИсполнитель обычно опускается, если он не важен или очевиден.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "It was reported that the bridge reopened.",
+            "translation": "Сообщалось, что мост снова открылся.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "The decision was announced on Monday.",
+            "translation": "Решение объявили в понедельник.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_process_descriptions",
+      "type": "theory",
+      "title": "При описании процессов и инструкций пассив удобен, потому что фокус на шаге, а не на исполнителе. Используются формы is/are + V3 и was/were + V3.",
+      "theory": {
+        "concept_id": "process_passive_description",
+        "content_md": "При описании процессов и инструкций пассив удобен, потому что фокус на шаге, а не на исполнителе. Используются формы **is/are + V3** и **was/were + V3**.\n\nЭто типично для описания сервисов: *Orders are processed within 24 hours.*",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Orders are processed within 24 hours.",
+            "translation": "Заказы обрабатываются в течение 24 часов.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "The package is delivered to your door.",
+            "translation": "Посылка доставляется до вашей двери.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q6",
+          "q7"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_service_causative",
+      "type": "theory",
+      "title": "Для услуг и сервисов часто используется каузатив have/get something done. Он подчеркивает, что клиент организует действие, а выполняет его специалист.",
+      "theory": {
+        "concept_id": "service_causative_usage",
+        "content_md": "Для услуг и сервисов часто используется каузатив **have/get something done**. Он подчеркивает, что клиент организует действие, а выполняет его специалист.\n\nЭто удобно для описания сервисов: ремонт, чистка, доставка, обслуживание.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "You can have your phone repaired the same day.",
+            "translation": "Вы можете отремонтировать телефон в тот же день (вам его отремонтируют).",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "We got the documents translated by a certified specialist.",
+            "translation": "Мы заказали перевод документов у сертифицированного специалиста.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q11",
+          "q12"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_style_consistency",
+      "type": "theory",
+      "title": "В текстах важно сохранять единый стиль: если вы выбрали пассив для нейтрального тона, не смешивайте его с активом без причины. Следите за временем: was announced, is processed, has been confirmed.",
+      "theory": {
+        "concept_id": "style_consistency_passive",
+        "content_md": "В текстах важно сохранять единый стиль: если вы выбрали пассив для нейтрального тона, не смешивайте его с активом без причины. Следите за временем: **was announced**, **is processed**, **has been confirmed**.\n\nСогласование времени помогает сделать текст связным и профессиональным.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "The issue was reported on Monday and has been resolved.",
+            "translation": "О проблеме сообщили в понедельник, и она уже устранена.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "The form is checked and the request is processed.",
+            "translation": "Форма проверяется, и запрос обрабатывается.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q16",
+          "q17"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_examples_templates",
+      "type": "theory",
+      "title": "Шаблоны помогают быстро писать тексты:",
+      "theory": {
+        "concept_id": "news_process_templates",
+        "content_md": "Шаблоны помогают быстро писать тексты:\n- **Новость:** It is reported that... / The decision was announced...\n- **Процесс:** Orders are processed..., The package is delivered...\n- **Сервис:** You can have/get your X done..., We had the X repaired...\n\nИспользуйте их как каркас и добавляйте конкретные детали.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "It is reported that the flight has been canceled.",
+            "translation": "Сообщается, что рейс отменен.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Orders are processed within 24 hours and shipped the next day.",
+            "translation": "Заказы обрабатываются в течение 24 часов и отправляются на следующий день.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q20",
+          "q21"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите нейтральную новостную форму: ___ reported that the bridge reopened.",
+        "theory_block_id": "b1_theory_news_structure",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It was"
+          },
+          {
+            "id": "b",
+            "text": "People were"
+          },
+          {
+            "id": "c",
+            "text": "They were"
+          },
+          {
+            "id": "d",
+            "text": "We were"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В новостях часто используется безличная форма: It was reported that...",
+        "tags": []
+      },
+      {
+        "id": "q2",
+        "type": "true_false",
+        "prompt": "В новостях пассив помогает сохранить нейтральный тон.",
+        "theory_block_id": "b1_theory_news_structure",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Пассив делает сообщение безличным и фактическим.",
+        "tags": []
+      },
+      {
+        "id": "q3",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The decision was ___ on Monday. (announce)",
+        "theory_block_id": "b1_theory_news_structure",
+        "difficulty": 2,
+        "correct_answer": "announced",
+        "explanation": "Past Simple passive: was + V3.",
+        "tags": []
+      },
+      {
+        "id": "q4",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"It was report that the storm passed.\"",
+        "theory_block_id": "b1_theory_news_structure",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It was reported that the storm passed."
+          },
+          {
+            "id": "b",
+            "text": "It was reporting that the storm passed."
+          },
+          {
+            "id": "c",
+            "text": "It was report the storm passed."
+          },
+          {
+            "id": "d",
+            "text": "It was reports that the storm passed."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужна форма V3: was reported.",
+        "tags": []
+      },
+      {
+        "id": "q5",
+        "type": "mcq_single",
+        "prompt": "Выберите корректный вариант: It was ___ that the museum reopened.",
+        "theory_block_id": "b1_theory_news_structure",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "confirmed"
+          },
+          {
+            "id": "b",
+            "text": "confirm"
+          },
+          {
+            "id": "c",
+            "text": "confirming"
+          },
+          {
+            "id": "d",
+            "text": "confirms"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В пассиве нужен V3: confirmed.",
+        "tags": []
+      },
+      {
+        "id": "q6",
+        "type": "mcq_single",
+        "prompt": "Выберите подходящую форму процесса: Orders ___ processed within 24 hours.",
+        "theory_block_id": "b2_theory_process_descriptions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "are"
+          },
+          {
+            "id": "b",
+            "text": "is"
+          },
+          {
+            "id": "c",
+            "text": "was"
+          },
+          {
+            "id": "d",
+            "text": "were"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Present Simple passive для множественного числа: are processed.",
+        "tags": []
+      },
+      {
+        "id": "q7",
+        "type": "true_false",
+        "prompt": "В описании процессов пассив помогает сосредоточиться на шаге, а не на исполнителе.",
+        "theory_block_id": "b2_theory_process_descriptions",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Именно поэтому пассив часто используется в инструкциях.",
+        "tags": []
+      },
+      {
+        "id": "q8",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The package is ___ to your door. (deliver)",
+        "theory_block_id": "b2_theory_process_descriptions",
+        "difficulty": 2,
+        "correct_answer": "delivered",
+        "explanation": "Present Simple passive: is delivered.",
+        "tags": []
+      },
+      {
+        "id": "q9",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The forms are process within 24 hours.\"",
+        "theory_block_id": "b2_theory_process_descriptions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The forms are processed within 24 hours."
+          },
+          {
+            "id": "b",
+            "text": "The forms are processing within 24 hours."
+          },
+          {
+            "id": "c",
+            "text": "The forms is processed within 24 hours."
+          },
+          {
+            "id": "d",
+            "text": "The forms are process within 24 hours."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужна форма V3: processed.",
+        "tags": []
+      },
+      {
+        "id": "q10",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: Requests are ___ in order of arrival. (handle)",
+        "theory_block_id": "b2_theory_process_descriptions",
+        "difficulty": 2,
+        "correct_answer": "handled",
+        "explanation": "Present Simple passive: are handled.",
+        "tags": []
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму для сервиса: You can ___ your phone repaired today.",
+        "theory_block_id": "b3_theory_service_causative",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "have"
+          },
+          {
+            "id": "b",
+            "text": "has"
+          },
+          {
+            "id": "c",
+            "text": "had"
+          },
+          {
+            "id": "d",
+            "text": "having"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Causative: have + object + V3.",
+        "tags": []
+      },
+      {
+        "id": "q12",
+        "type": "true_false",
+        "prompt": "Causative используется, когда действие выполняет специалист, а не вы сами.",
+        "theory_block_id": "b3_theory_service_causative",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Вы организуете действие, но выполняет его другой.",
+        "tags": []
+      },
+      {
+        "id": "q13",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: We got the certificates ___. (notarize)",
+        "theory_block_id": "b3_theory_service_causative",
+        "difficulty": 2,
+        "correct_answer": "notarized",
+        "explanation": "Get + object + V3: got the certificates notarized.",
+        "tags": []
+      },
+      {
+        "id": "q14",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"You can have your laptop fix today.\"",
+        "theory_block_id": "b3_theory_service_causative",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "You can have your laptop fixed today."
+          },
+          {
+            "id": "b",
+            "text": "You can have your laptop fixing today."
+          },
+          {
+            "id": "c",
+            "text": "You can have your laptop was fixed today."
+          },
+          {
+            "id": "d",
+            "text": "You can have your laptop fix today."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужна форма V3: fixed.",
+        "tags": []
+      },
+      {
+        "id": "q15",
+        "type": "mcq_single",
+        "prompt": "Выберите корректный вариант: We had our tickets ___ yesterday. (print)",
+        "theory_block_id": "b3_theory_service_causative",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "printed"
+          },
+          {
+            "id": "b",
+            "text": "print"
+          },
+          {
+            "id": "c",
+            "text": "printing"
+          },
+          {
+            "id": "d",
+            "text": "prints"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Have + object + V3: had our tickets printed.",
+        "tags": []
+      },
+      {
+        "id": "q16",
+        "type": "mcq_single",
+        "prompt": "Выберите корректную связку времени: The issue was reported and has been ___ . (resolve)",
+        "theory_block_id": "b4_theory_style_consistency",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "resolved"
+          },
+          {
+            "id": "b",
+            "text": "resolve"
+          },
+          {
+            "id": "c",
+            "text": "resolving"
+          },
+          {
+            "id": "d",
+            "text": "resolves"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Present Perfect passive: has been resolved.",
+        "tags": []
+      },
+      {
+        "id": "q17",
+        "type": "true_false",
+        "prompt": "В тексте можно свободно смешивать актив и пассив без влияния на стиль.",
+        "theory_block_id": "b4_theory_style_consistency",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Смешение без причины делает стиль менее цельным.",
+        "tags": []
+      },
+      {
+        "id": "q18",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The form is checked and the request is ___. (process)",
+        "theory_block_id": "b4_theory_style_consistency",
+        "difficulty": 2,
+        "correct_answer": "processed",
+        "explanation": "Обе части в Present Simple passive.",
+        "tags": []
+      },
+      {
+        "id": "q19",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The application is reviewed and the fee pays online.\"",
+        "theory_block_id": "b4_theory_style_consistency",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The application is reviewed and the fee is paid online."
+          },
+          {
+            "id": "b",
+            "text": "The application is reviewed and the fee paid online."
+          },
+          {
+            "id": "c",
+            "text": "The application was reviewed and the fee is paid online."
+          },
+          {
+            "id": "d",
+            "text": "The application is reviewing and the fee is paid online."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно сохранить пассив в обеих частях: is reviewed / is paid.",
+        "tags": []
+      },
+      {
+        "id": "q20",
+        "type": "mcq_single",
+        "prompt": "Выберите шаблон новости.",
+        "theory_block_id": "b5_theory_examples_templates",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It is reported that the flight has been canceled."
+          },
+          {
+            "id": "b",
+            "text": "We canceled the flight."
+          },
+          {
+            "id": "c",
+            "text": "The flight cancels."
+          },
+          {
+            "id": "d",
+            "text": "The flight is canceling."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Шаблон новостного пассива: It is reported that...",
+        "tags": []
+      },
+      {
+        "id": "q21",
+        "type": "true_false",
+        "prompt": "Шаблоны помогают сохранять единый стиль текста.",
+        "theory_block_id": "b5_theory_examples_templates",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Они дают устойчивую структуру и тон.",
+        "tags": []
+      },
+      {
+        "id": "q22",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: Orders are processed within 24 hours and ___ the next day. (ship)",
+        "theory_block_id": "b5_theory_examples_templates",
+        "difficulty": 2,
+        "correct_answer": "shipped",
+        "explanation": "Продолжение в пассиве: are processed and shipped.",
+        "tags": []
+      },
+      {
+        "id": "q23",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"It is report that the service is delayed.\"",
+        "theory_block_id": "b5_theory_examples_templates",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It is reported that the service is delayed."
+          },
+          {
+            "id": "b",
+            "text": "It is reporting that the service is delayed."
+          },
+          {
+            "id": "c",
+            "text": "It is report the service is delayed."
+          },
+          {
+            "id": "d",
+            "text": "It is reports that the service is delayed."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В пассиве нужен V3: reported.",
+        "tags": []
+      },
+      {
+        "id": "q24",
+        "type": "mcq_single",
+        "prompt": "Выберите корректный вариант: The car was serviced yesterday. We ___ it serviced at the dealer.",
+        "theory_block_id": "b3_theory_service_causative",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had"
+          },
+          {
+            "id": "b",
+            "text": "have"
+          },
+          {
+            "id": "c",
+            "text": "got"
+          },
+          {
+            "id": "d",
+            "text": "getting"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Прошлое время: had it serviced.",
+        "tags": []
+      },
+      {
+        "id": "q25",
+        "type": "true_false",
+        "prompt": "В процессных описаниях чаще используется active voice.",
+        "theory_block_id": "b2_theory_process_descriptions",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Обычно используется пассив, чтобы сфокусироваться на процессе.",
+        "tags": []
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The issue was reported and has been ___. (fix)",
+        "theory_block_id": "b4_theory_style_consistency",
+        "difficulty": 2,
+        "correct_answer": "fixed",
+        "explanation": "Present Perfect passive: has been fixed.",
+        "tags": []
+      },
+      {
+        "id": "q27",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: It is ___ that flights are delayed. (say)",
+        "theory_block_id": "b1_theory_news_structure",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "said"
+          },
+          {
+            "id": "b",
+            "text": "say"
+          },
+          {
+            "id": "c",
+            "text": "saying"
+          },
+          {
+            "id": "d",
+            "text": "says"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "It-passive требует V3: is said.",
+        "tags": []
+      },
+      {
+        "id": "q28",
+        "type": "true_false",
+        "prompt": "Causative и пассив взаимозаменяемы без изменения смысла.",
+        "theory_block_id": "b3_theory_service_causative",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Каузатив подчеркивает организацию действия.",
+        "tags": []
+      },
+      {
+        "id": "q29",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The report is checked and the summary is ___. (update)",
+        "theory_block_id": "b4_theory_style_consistency",
+        "difficulty": 2,
+        "correct_answer": "updated",
+        "explanation": "Обе части в Present Simple passive.",
+        "tags": []
+      },
+      {
+        "id": "q30",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: The claim is reviewed and the client is ___. (notify)",
+        "theory_block_id": "b2_theory_process_descriptions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "notified"
+          },
+          {
+            "id": "b",
+            "text": "notify"
+          },
+          {
+            "id": "c",
+            "text": "notifying"
+          },
+          {
+            "id": "d",
+            "text": "notifies"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Пассив: is notified.",
+        "tags": []
+      },
+      {
+        "id": "q31",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: You can have your laptop ___ within 2 hours. (repair)",
+        "theory_block_id": "b3_theory_service_causative",
+        "difficulty": 2,
+        "correct_answer": "repaired",
+        "explanation": "Have + object + V3: have your laptop repaired.",
+        "tags": []
+      },
+      {
+        "id": "q32",
+        "type": "true_false",
+        "prompt": "It is reported that... подходит для формального стиля и новостей.",
+        "theory_block_id": "b1_theory_news_structure",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это типичная формальная конструкция.",
+        "tags": []
+      },
+      {
+        "id": "q33",
+        "type": "mcq_single",
+        "prompt": "Выберите корректный вариант: The order was processed and ___ yesterday. (ship)",
+        "theory_block_id": "b2_theory_process_descriptions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "shipped"
+          },
+          {
+            "id": "b",
+            "text": "ship"
+          },
+          {
+            "id": "c",
+            "text": "shipping"
+          },
+          {
+            "id": "d",
+            "text": "ships"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Simple passive: was processed and shipped.",
+        "tags": []
+      },
+      {
+        "id": "q34",
+        "type": "true_false",
+        "prompt": "В процессном описании лучше использовать пассив для всех шагов, если цель — нейтральный тон.",
+        "theory_block_id": "b4_theory_style_consistency",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Так сохраняется единый стиль.",
+        "tags": []
+      },
+      {
+        "id": "q35",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The statement was ___ by the spokesperson. (issue)",
+        "theory_block_id": "b1_theory_news_structure",
+        "difficulty": 2,
+        "correct_answer": "issued",
+        "explanation": "Past Simple passive: was issued.",
+        "tags": []
+      },
+      {
+        "id": "q36",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: The customer can get the device ___ today. (replace)",
+        "theory_block_id": "b3_theory_service_causative",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "replaced"
+          },
+          {
+            "id": "b",
+            "text": "replace"
+          },
+          {
+            "id": "c",
+            "text": "replacing"
+          },
+          {
+            "id": "d",
+            "text": "replaces"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Get + object + V3: get the device replaced.",
+        "tags": []
+      },
+      {
+        "id": "q37",
+        "type": "true_false",
+        "prompt": "В новостных текстах обычно называют исполнителя, чтобы повысить точность.",
+        "theory_block_id": "b1_theory_news_structure",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "В новостях агент часто опускают ради нейтральности.",
+        "tags": []
+      },
+      {
+        "id": "q38",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The form is checked and the payment is ___. (confirm)",
+        "theory_block_id": "b4_theory_style_consistency",
+        "difficulty": 2,
+        "correct_answer": "confirmed",
+        "explanation": "Present Simple passive: is confirmed.",
+        "tags": []
+      },
+      {
+        "id": "q39",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: It is ___ that the service will resume tomorrow. (expect)",
+        "theory_block_id": "b5_theory_examples_templates",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "expected"
+          },
+          {
+            "id": "b",
+            "text": "expect"
+          },
+          {
+            "id": "c",
+            "text": "expecting"
+          },
+          {
+            "id": "d",
+            "text": "expects"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "It-passive требует V3: is expected.",
+        "tags": []
+      },
+      {
+        "id": "q40",
+        "type": "true_false",
+        "prompt": "Шаблоны новостей и процессов помогают писать связные тексты.",
+        "theory_block_id": "b5_theory_examples_templates",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Они задают структуру и тон.",
+        "tags": []
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: The claim was reviewed and ___ yesterday. (approve)",
+        "theory_block_id": "b2_theory_process_descriptions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "approved"
+          },
+          {
+            "id": "b",
+            "text": "approve"
+          },
+          {
+            "id": "c",
+            "text": "approving"
+          },
+          {
+            "id": "d",
+            "text": "approves"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Simple passive: was reviewed and approved.",
+        "tags": []
+      },
+      {
+        "id": "q42",
+        "type": "true_false",
+        "prompt": "Causative подходит для описания услуг и сервисов.",
+        "theory_block_id": "b3_theory_service_causative",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это типичный контекст каузатива.",
+        "tags": []
+      },
+      {
+        "id": "q43",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: We had the documents ___ and the summary ___ . (check/update)",
+        "theory_block_id": "b4_theory_style_consistency",
+        "difficulty": 2,
+        "correct_answer": "checked",
+        "explanation": "Для одного пропуска нужен V3; используйте checked.",
+        "tags": []
+      },
+      {
+        "id": "q44",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"Orders are processed and ship the next day.\"",
+        "theory_block_id": "b2_theory_process_descriptions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Orders are processed and shipped the next day."
+          },
+          {
+            "id": "b",
+            "text": "Orders are processed and shipping the next day."
+          },
+          {
+            "id": "c",
+            "text": "Orders are processing and shipped the next day."
+          },
+          {
+            "id": "d",
+            "text": "Orders process and shipped the next day."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно сохранить пассив: are processed and shipped.",
+        "tags": []
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: The client can have the report ___ today. (print)",
+        "theory_block_id": "b3_theory_service_causative",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "printed"
+          },
+          {
+            "id": "b",
+            "text": "print"
+          },
+          {
+            "id": "c",
+            "text": "printing"
+          },
+          {
+            "id": "d",
+            "text": "prints"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Have + object + V3: have the report printed.",
+        "tags": []
+      },
+      {
+        "id": "q46",
+        "type": "true_false",
+        "prompt": "В новостях можно использовать It is reported that... и The decision was announced...",
+        "theory_block_id": "b1_theory_news_structure",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это типичные модели новостного пассива.",
+        "tags": []
+      },
+      {
+        "id": "q47",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The request is reviewed, the payment is confirmed, and the order is ___. (ship)",
+        "theory_block_id": "b4_theory_style_consistency",
+        "difficulty": 2,
+        "correct_answer": "shipped",
+        "explanation": "Единый пассивный стиль: is reviewed / is confirmed / is shipped.",
+        "tags": []
+      },
+      {
+        "id": "q48",
+        "type": "mcq_single",
+        "prompt": "Выберите корректный вариант: It is ___ that the flight has been canceled. (report)",
+        "theory_block_id": "b5_theory_examples_templates",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "reported"
+          },
+          {
+            "id": "b",
+            "text": "report"
+          },
+          {
+            "id": "c",
+            "text": "reporting"
+          },
+          {
+            "id": "d",
+            "text": "reports"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "It-passive требует V3: is reported.",
+        "tags": []
+      },
+      {
+        "id": "q49",
+        "type": "true_false",
+        "prompt": "В сервисных описаниях лучше использовать актив, чтобы подчеркнуть исполнителя.",
+        "theory_block_id": "b3_theory_service_causative",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Часто используют каузатив или пассив, чтобы фокус был на услуге.",
+        "tags": []
+      },
+      {
+        "id": "q50",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The device can be repaired or ___ the same day. (replace)",
+        "theory_block_id": "b3_theory_service_causative",
+        "difficulty": 2,
+        "correct_answer": "replaced",
+        "explanation": "Пассив: be repaired or replaced.",
+        "tags": []
+      },
+      {
+        "id": "q51",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: The complaint was filed and has been ___. (review)",
+        "theory_block_id": "b4_theory_style_consistency",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "reviewed"
+          },
+          {
+            "id": "b",
+            "text": "review"
+          },
+          {
+            "id": "c",
+            "text": "reviewing"
+          },
+          {
+            "id": "d",
+            "text": "reviews"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Present Perfect passive: has been reviewed.",
+        "tags": []
+      },
+      {
+        "id": "q52",
+        "type": "true_false",
+        "prompt": "Process descriptions often use Present Simple passive.",
+        "theory_block_id": "b2_theory_process_descriptions",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Процессы описываются как регулярные действия.",
+        "tags": []
+      },
+      {
+        "id": "q53",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The news was reported and later ___. (confirm)",
+        "theory_block_id": "b1_theory_news_structure",
+        "difficulty": 2,
+        "correct_answer": "confirmed",
+        "explanation": "Past Simple passive: was reported and confirmed.",
+        "tags": []
+      },
+      {
+        "id": "q54",
+        "type": "true_false",
+        "prompt": "Causative и пассив можно комбинировать в одном тексте при соблюдении единого стиля.",
+        "theory_block_id": "b4_theory_style_consistency",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Главное — согласованность и понятный фокус.",
+        "tags": []
+      },
+      {
+        "id": "q55",
+        "type": "mcq_single",
+        "prompt": "Выберите корректный вариант: Customers can have their devices ___ in 2 hours. (repair)",
+        "theory_block_id": "b3_theory_service_causative",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "repaired"
+          },
+          {
+            "id": "b",
+            "text": "repair"
+          },
+          {
+            "id": "c",
+            "text": "repairing"
+          },
+          {
+            "id": "d",
+            "text": "repairs"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Have + object + V3.",
+        "tags": []
+      },
+      {
+        "id": "q56",
+        "type": "true_false",
+        "prompt": "It is reported that... можно заменить на актив без изменения стиля.",
+        "theory_block_id": "b1_theory_news_structure",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Актив изменит тон и стиль сообщения.",
+        "tags": []
+      },
+      {
+        "id": "q57",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The application is reviewed and the decision is ___. (send)",
+        "theory_block_id": "b4_theory_style_consistency",
+        "difficulty": 2,
+        "correct_answer": "sent",
+        "explanation": "Пассивный стиль сохраняется: is reviewed / is sent.",
+        "tags": []
+      },
+      {
+        "id": "q58",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: The package is processed and ___ within 24 hours. (ship)",
+        "theory_block_id": "b2_theory_process_descriptions",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "shipped"
+          },
+          {
+            "id": "b",
+            "text": "ship"
+          },
+          {
+            "id": "c",
+            "text": "shipping"
+          },
+          {
+            "id": "d",
+            "text": "ships"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Present Simple passive: is processed and shipped.",
+        "tags": []
+      },
+      {
+        "id": "q59",
+        "type": "true_false",
+        "prompt": "Шаблоны можно использовать как основу для собственного текста.",
+        "theory_block_id": "b5_theory_examples_templates",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Они помогают быстро строить связные тексты.",
+        "tags": []
+      },
+      {
+        "id": "q60",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The service is available and orders are ___. (process)",
+        "theory_block_id": "b2_theory_process_descriptions",
+        "difficulty": 2,
+        "correct_answer": "processed",
+        "explanation": "Present Simple passive: are processed.",
+        "tags": []
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q8",
+      "q9",
+      "q10",
+      "q13",
+      "q14",
+      "q15",
+      "q18",
+      "q19",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-24T08:08:22Z",
+    "source": "llm"
+  }
+}
