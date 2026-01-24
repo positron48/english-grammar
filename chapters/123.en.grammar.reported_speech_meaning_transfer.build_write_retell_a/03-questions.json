@@ -1,0 +1,776 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq_single",
+      "prompt": "Выберите наиболее логичный старт пересказа:",
+      "theory_block_id": "b1_theory_retell_structure",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "He said that the meeting was delayed."},
+        {"id": "b", "text": "Where was the meeting?"},
+        {"id": "c", "text": "To delay the meeting."},
+        {"id": "d", "text": "Delayed meeting?"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Пересказ обычно начинается с указания говорящего и базового утверждения: He said that...",
+      "tags": []
+    },
+    {
+      "id": "q2",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: In a retell, we often start with who ___ what. (say)",
+      "theory_block_id": "b1_theory_retell_structure",
+      "difficulty": 2,
+      "correct_answer": "said",
+      "explanation": "Классическая структура пересказа: who said what.",
+      "tags": []
+    },
+    {
+      "id": "q3",
+      "type": "true_false",
+      "prompt": "Хороший пересказ обычно указывает говорящего и последовательность событий.",
+      "theory_block_id": "b1_theory_retell_structure",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Структура пересказа опирается на говорящего и порядок реплик.",
+      "tags": []
+    },
+    {
+      "id": "q4",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b1_theory_retell_structure",
+      "difficulty": 2,
+      "correct_answer": "She said that the report was ready.",
+      "explanation": "Начинаем с говорящего и затем передаем содержание через that-clause.",
+      "tags": []
+    },
+    {
+      "id": "q5",
+      "type": "error_spotting",
+      "prompt": "Выберите грамматически корректный пересказ.",
+      "theory_block_id": "b1_theory_retell_structure",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "He said that he would arrive late."},
+        {"id": "b", "text": "He said will arrive late."},
+        {"id": "c", "text": "He said to arrive late."},
+        {"id": "d", "text": "He said arriving late."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Пересказ утверждения строится через said + that-clause с корректным backshift.",
+      "tags": []
+    },
+    {
+      "id": "q6",
+      "type": "mcq_single",
+      "prompt": "Как лучше обозначить последовательность событий?",
+      "theory_block_id": "b1_theory_retell_structure",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "first, then, after that"},
+        {"id": "b", "text": "yesterday, now, maybe"},
+        {"id": "c", "text": "who, where, why"},
+        {"id": "d", "text": "do, does, did"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Связки first/then/after that помогают выстроить пересказ по порядку.",
+      "tags": []
+    },
+    {
+      "id": "q7",
+      "type": "mcq_single",
+      "prompt": "Как корректно пересказать: \"I am busy.\"",
+      "theory_block_id": "b1_theory_retell_structure",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "He said that he was busy."},
+        {"id": "b", "text": "He said that he is busy."},
+        {"id": "c", "text": "He said me that he was busy."},
+        {"id": "d", "text": "He told that he was busy."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Сначала reporting verb, затем that-clause с backshift: was busy.",
+      "tags": []
+    },
+    {
+      "id": "q8",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: She said that the files ___ ready. (be)",
+      "theory_block_id": "b1_theory_retell_structure",
+      "difficulty": 2,
+      "correct_answer": "were",
+      "explanation": "Backshift: are -> were в reported speech.",
+      "tags": []
+    },
+    {
+      "id": "q9",
+      "type": "true_false",
+      "prompt": "Пересказ обычно начинается с вопроса, если в диалоге был вопрос.",
+      "theory_block_id": "b1_theory_retell_structure",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Пересказ чаще начинает с утверждения и контекста, а вопросы интегрируются позже.",
+      "tags": []
+    },
+    {
+      "id": "q10",
+      "type": "mcq_single",
+      "prompt": "Выберите правильную структуру пересказа:",
+      "theory_block_id": "b1_theory_retell_structure",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "She said that..., then she asked if..., and finally she told me to..."},
+        {"id": "b", "text": "Asked if..., then said that..., and to told me..."},
+        {"id": "c", "text": "She said, then asked where did I..., and told me..."},
+        {"id": "d", "text": "She said to me that..., asked did I..., told me..."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Логичный пересказ включает связки и правильные паттерны: said that, asked if, told to.",
+      "tags": []
+    },
+    {
+      "id": "q11",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b1_theory_retell_structure",
+      "difficulty": 2,
+      "correct_answer": "He explained that the delay was unavoidable.",
+      "explanation": "Сначала reporting verb, затем that-clause с нормальным порядком слов.",
+      "tags": []
+    },
+    {
+      "id": "q12",
+      "type": "error_spotting",
+      "prompt": "Выберите правильный пересказ утверждения.",
+      "theory_block_id": "b1_theory_retell_structure",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "They said that they had finished the task."},
+        {"id": "b", "text": "They said had finished the task."},
+        {"id": "c", "text": "They said to have finished the task."},
+        {"id": "d", "text": "They said finishing the task."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Reported statement требует that-clause с правильным backshift.",
+      "tags": []
+    },
+
+    {
+      "id": "q13",
+      "type": "mcq_single",
+      "prompt": "Как корректно объединить утверждение и вопрос в одном пересказе?",
+      "theory_block_id": "b2_theory_mix_statements_questions",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "She said she was tired and asked if I could help."},
+        {"id": "b", "text": "She said she was tired and asked could I help."},
+        {"id": "c", "text": "She said she was tired and asked if could I help."},
+        {"id": "d", "text": "She said she was tired and asked if I could help?"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Reported question требует if + порядок слов утверждения: if I could help.",
+      "tags": []
+    },
+    {
+      "id": "q14",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: He said he was lost and asked ___ I knew the way. (yes/no linker)",
+      "theory_block_id": "b2_theory_mix_statements_questions",
+      "difficulty": 2,
+      "correct_answer": "if",
+      "explanation": "Yes/no вопрос в косвенной речи вводится if/whether.",
+      "tags": []
+    },
+    {
+      "id": "q15",
+      "type": "true_false",
+      "prompt": "В reported questions сохраняется инверсия из прямого вопроса.",
+      "theory_block_id": "b2_theory_mix_statements_questions",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "В reported questions порядок слов как в утверждении: where I lived.",
+      "tags": []
+    },
+    {
+      "id": "q16",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b2_theory_mix_statements_questions",
+      "difficulty": 2,
+      "correct_answer": "She said she was late and asked if we could start.",
+      "explanation": "Смешиваем statement и question: said that + asked if.",
+      "tags": []
+    },
+    {
+      "id": "q17",
+      "type": "error_spotting",
+      "prompt": "Выберите правильный вариант пересказа с вопросом.",
+      "theory_block_id": "b2_theory_mix_statements_questions",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "He said he would help and asked when we needed it."},
+        {"id": "b", "text": "He said he would help and asked when did we need it."},
+        {"id": "c", "text": "He said he would help and asked when we needed it?"},
+        {"id": "d", "text": "He said he would help and asked when do we need it."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Wh-question в reported speech не использует инверсию: when we needed it.",
+      "tags": []
+    },
+    {
+      "id": "q18",
+      "type": "mcq_single",
+      "prompt": "Как корректно пересказать: \"I'm leaving now. Where are you?\"",
+      "theory_block_id": "b2_theory_mix_statements_questions",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "She said she was leaving then and asked where I was."},
+        {"id": "b", "text": "She said she is leaving now and asked where was I."},
+        {"id": "c", "text": "She said she was leaving now and asked where am I."},
+        {"id": "d", "text": "She said she was leaving then and asked where did I be."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Backshift и порядок слов: was leaving then; where I was.",
+      "tags": []
+    },
+    {
+      "id": "q19",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: She said she was busy and asked where I ___. (be)",
+      "theory_block_id": "b2_theory_mix_statements_questions",
+      "difficulty": 2,
+      "correct_answer": "was",
+      "explanation": "В reported question порядок слов утверждения: where I was.",
+      "tags": []
+    },
+    {
+      "id": "q20",
+      "type": "true_false",
+      "prompt": "В пересказе можно объединять несколько реплик в одно предложение.",
+      "theory_block_id": "b2_theory_mix_statements_questions",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Это делает пересказ компактным и связным.",
+      "tags": []
+    },
+    {
+      "id": "q21",
+      "type": "mcq_single",
+      "prompt": "Выберите корректный вариант: She said she was ready and asked ___.",
+      "theory_block_id": "b2_theory_mix_statements_questions",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "if I needed help"},
+        {"id": "b", "text": "did I need help"},
+        {"id": "c", "text": "if did I need help"},
+        {"id": "d", "text": "if I need help?"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Yes/no вопрос в reported speech: if + порядок слов утверждения.",
+      "tags": []
+    },
+    {
+      "id": "q22",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b2_theory_mix_statements_questions",
+      "difficulty": 2,
+      "correct_answer": "He said he was fine and asked where she lived.",
+      "explanation": "Statement + wh-question: said that + asked where + statement order.",
+      "tags": []
+    },
+    {
+      "id": "q23",
+      "type": "error_spotting",
+      "prompt": "Выберите правильный вариант пересказа с if/whether.",
+      "theory_block_id": "b2_theory_mix_statements_questions",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "She said she was ill and asked whether I could come."},
+        {"id": "b", "text": "She said she was ill and asked whether could I come."},
+        {"id": "c", "text": "She said she was ill and asked whether I could come?"},
+        {"id": "d", "text": "She said she was ill and asked whether did I come."}
+      ],
+      "correct_answer": "a",
+      "explanation": "После whether порядок слов утверждения: whether I could come.",
+      "tags": []
+    },
+    {
+      "id": "q24",
+      "type": "mcq_single",
+      "prompt": "Как правильно пересказать: \"We are late. Can you wait?\"",
+      "theory_block_id": "b2_theory_mix_statements_questions",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "They said they were late and asked if I could wait."},
+        {"id": "b", "text": "They said they are late and asked if I can wait."},
+        {"id": "c", "text": "They said they were late and asked could I wait."},
+        {"id": "d", "text": "They said they were late and asked if could I wait."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Backshift и правильный порядок слов: were late; asked if I could wait.",
+      "tags": []
+    },
+
+    {
+      "id": "q25",
+      "type": "mcq_single",
+      "prompt": "Как корректно пересказать инструкцию: \"Send the file.\"",
+      "theory_block_id": "b3_theory_commands_requests",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "He told me to send the file."},
+        {"id": "b", "text": "He told me send the file."},
+        {"id": "c", "text": "He told to send the file."},
+        {"id": "d", "text": "He told me sending the file."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Команды пересказываются через tell + object + to-infinitive.",
+      "tags": []
+    },
+    {
+      "id": "q26",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: She asked us ___ to be late. (отрицание)",
+      "theory_block_id": "b3_theory_commands_requests",
+      "difficulty": 2,
+      "correct_answer": "not",
+      "explanation": "Отрицательные команды: asked + object + not to + V1.",
+      "tags": []
+    },
+    {
+      "id": "q27",
+      "type": "true_false",
+      "prompt": "В пересказе инструкций используется to-infinitive.",
+      "theory_block_id": "b3_theory_commands_requests",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Команды и просьбы передаются через object + to-infinitive.",
+      "tags": []
+    },
+    {
+      "id": "q28",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b3_theory_commands_requests",
+      "difficulty": 2,
+      "correct_answer": "She asked me to call her back.",
+      "explanation": "Ask + object + to-infinitive: asked me to call.",
+      "tags": []
+    },
+    {
+      "id": "q29",
+      "type": "error_spotting",
+      "prompt": "Выберите корректный вариант пересказа просьбы.",
+      "theory_block_id": "b3_theory_commands_requests",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "He asked me to wait outside."},
+        {"id": "b", "text": "He asked me wait outside."},
+        {"id": "c", "text": "He asked to wait outside."},
+        {"id": "d", "text": "He asked me waiting outside."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильная структура: ask + object + to-infinitive.",
+      "tags": []
+    },
+    {
+      "id": "q30",
+      "type": "mcq_single",
+      "prompt": "Как корректно пересказать запрет: \"Don't touch the samples.\"",
+      "theory_block_id": "b3_theory_commands_requests",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "She told us not to touch the samples."},
+        {"id": "b", "text": "She told us don't touch the samples."},
+        {"id": "c", "text": "She told us not touch the samples."},
+        {"id": "d", "text": "She told to not touch the samples."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Запрет передается через not to + V1 после объекта.",
+      "tags": []
+    },
+    {
+      "id": "q31",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: The guide told us to ___ silent. (быть)",
+      "theory_block_id": "b3_theory_commands_requests",
+      "difficulty": 2,
+      "correct_answer": "be",
+      "explanation": "После to используется базовая форма: be.",
+      "tags": []
+    },
+    {
+      "id": "q32",
+      "type": "true_false",
+      "prompt": "Форма *asked to do* корректна для просьбы без объекта.",
+      "theory_block_id": "b3_theory_commands_requests",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "В reported commands объект обязателен: asked me/us to do.",
+      "tags": []
+    },
+    {
+      "id": "q33",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b3_theory_commands_requests",
+      "difficulty": 2,
+      "correct_answer": "They advised us to leave early.",
+      "explanation": "Advise + object + to-infinitive используется для советов.",
+      "tags": []
+    },
+    {
+      "id": "q34",
+      "type": "error_spotting",
+      "prompt": "Выберите корректный вариант пересказа инструкции.",
+      "theory_block_id": "b3_theory_commands_requests",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "She requested us to sign the form."},
+        {"id": "b", "text": "She requested us sign the form."},
+        {"id": "c", "text": "She requested to sign the form."},
+        {"id": "d", "text": "She requested us signing the form."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Request в reported speech: request + object + to-infinitive.",
+      "tags": []
+    },
+    {
+      "id": "q35",
+      "type": "mcq_single",
+      "prompt": "Как лучше связать инструкции в пересказе?",
+      "theory_block_id": "b3_theory_commands_requests",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "first, then, after that"},
+        {"id": "b", "text": "because, however, unless"},
+        {"id": "c", "text": "who, what, when"},
+        {"id": "d", "text": "is, are, was"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Порядок действий удобно передавать через first/then/after that.",
+      "tags": []
+    },
+    {
+      "id": "q36",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: She told him ___ to open the file. (отрицание)",
+      "theory_block_id": "b3_theory_commands_requests",
+      "difficulty": 2,
+      "correct_answer": "not",
+      "explanation": "Запрет: told him not to open.",
+      "tags": []
+    },
+
+    {
+      "id": "q37",
+      "type": "mcq_single",
+      "prompt": "Какой reporting verb лучше передает предупреждение?",
+      "theory_block_id": "b4_theory_reporting_verbs_variety",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "warned"},
+        {"id": "b", "text": "promised"},
+        {"id": "c", "text": "admitted"},
+        {"id": "d", "text": "agreed"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Warn передает предупреждение и часто используется с to/not to.",
+      "tags": []
+    },
+    {
+      "id": "q38",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: He ___ us not to be late. (warn)",
+      "theory_block_id": "b4_theory_reporting_verbs_variety",
+      "difficulty": 2,
+      "correct_answer": "warned",
+      "explanation": "Warn используется как reporting verb и требует object + not to.",
+      "tags": []
+    },
+    {
+      "id": "q39",
+      "type": "true_false",
+      "prompt": "Reporting verbs помогают передать отношение говорящего к сообщению.",
+      "theory_block_id": "b4_theory_reporting_verbs_variety",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Выбор reporting verb добавляет оттенок смысла: warn, promise, suggest.",
+      "tags": []
+    },
+    {
+      "id": "q40",
+      "type": "mcq_single",
+      "prompt": "Какое сочетание соответствует смыслу \"пообещал\"?",
+      "theory_block_id": "b4_theory_reporting_verbs_variety",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "promised to call"},
+        {"id": "b", "text": "warned to call"},
+        {"id": "c", "text": "denied to call"},
+        {"id": "d", "text": "admitted to call"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Promise выражает обещание и обычно используется с to-infinitive.",
+      "tags": []
+    },
+    {
+      "id": "q41",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b4_theory_reporting_verbs_variety",
+      "difficulty": 2,
+      "correct_answer": "He warned us not to rush.",
+      "explanation": "Warn + object + not to + V1 выражает предупреждение.",
+      "tags": []
+    },
+    {
+      "id": "q42",
+      "type": "error_spotting",
+      "prompt": "Выберите корректный вариант с suggest.",
+      "theory_block_id": "b4_theory_reporting_verbs_variety",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "She suggested taking a break."},
+        {"id": "b", "text": "She suggested to take a break."},
+        {"id": "c", "text": "She suggested take a break."},
+        {"id": "d", "text": "She suggested that taking a break."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Suggest для идеи требует V-ing: suggested taking.",
+      "tags": []
+    },
+    {
+      "id": "q43",
+      "type": "mcq_single",
+      "prompt": "Какой reporting verb лучше передает признание?",
+      "theory_block_id": "b4_theory_reporting_verbs_variety",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "admitted"},
+        {"id": "b", "text": "warned"},
+        {"id": "c", "text": "insisted"},
+        {"id": "d", "text": "requested"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Admit выражает признание и часто используется в reported speech.",
+      "tags": []
+    },
+    {
+      "id": "q44",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: She ___ to help us with the report. (promise)",
+      "theory_block_id": "b4_theory_reporting_verbs_variety",
+      "difficulty": 2,
+      "correct_answer": "promised",
+      "explanation": "Promise + to-infinitive: promised to help.",
+      "tags": []
+    },
+    {
+      "id": "q45",
+      "type": "true_false",
+      "prompt": "Reporting verb можно заменить любым синонимом без потери смысла.",
+      "theory_block_id": "b4_theory_reporting_verbs_variety",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Разные reporting verbs передают разные оттенки: warn vs suggest vs promise.",
+      "tags": []
+    },
+    {
+      "id": "q46",
+      "type": "mcq_single",
+      "prompt": "Какой reporting verb подойдет для отрицательной рекомендации?",
+      "theory_block_id": "b4_theory_reporting_verbs_variety",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "warned"},
+        {"id": "b", "text": "admitted"},
+        {"id": "c", "text": "promised"},
+        {"id": "d", "text": "agreed"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Warn часто используется для предупреждений и рекомендаций не делать что-то.",
+      "tags": []
+    },
+    {
+      "id": "q47",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b4_theory_reporting_verbs_variety",
+      "difficulty": 2,
+      "correct_answer": "They admitted that they were wrong.",
+      "explanation": "Admit часто используется с that-clause.",
+      "tags": []
+    },
+    {
+      "id": "q48",
+      "type": "error_spotting",
+      "prompt": "Выберите корректный вариант с reporting verb.",
+      "theory_block_id": "b4_theory_reporting_verbs_variety",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "He promised to call later."},
+        {"id": "b", "text": "He promised that call later."},
+        {"id": "c", "text": "He promised calling later."},
+        {"id": "d", "text": "He promised to calling later."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Promise требует to-infinitive: promised to call.",
+      "tags": []
+    },
+
+    {
+      "id": "q49",
+      "type": "mcq_single",
+      "prompt": "Как сделать пересказ связным?",
+      "theory_block_id": "b5_theory_cohesion",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "Использовать связки first/then/after that"},
+        {"id": "b", "text": "Повторять каждую реплику слово в слово"},
+        {"id": "c", "text": "Убирать все reporting verbs"},
+        {"id": "d", "text": "Смешивать времена без нужды"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Связки помогают объединять события и реплики в логичную цепочку.",
+      "tags": []
+    },
+    {
+      "id": "q50",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: First she explained the problem, ___ she asked for help. (sequence marker)",
+      "theory_block_id": "b5_theory_cohesion",
+      "difficulty": 2,
+      "correct_answer": "then",
+      "explanation": "Then используется для последовательности событий.",
+      "tags": []
+    },
+    {
+      "id": "q51",
+      "type": "true_false",
+      "prompt": "Связки помогают упорядочить события в пересказе.",
+      "theory_block_id": "b5_theory_cohesion",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "First/then/after that упрощают восприятие последовательности.",
+      "tags": []
+    },
+    {
+      "id": "q52",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b5_theory_cohesion",
+      "difficulty": 2,
+      "correct_answer": "First he apologized, then he explained the delay.",
+      "explanation": "Связки first/then показывают порядок действий.",
+      "tags": []
+    },
+    {
+      "id": "q53",
+      "type": "error_spotting",
+      "prompt": "Выберите наиболее связный вариант пересказа с логикой.",
+      "theory_block_id": "b5_theory_cohesion",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "First he apologized, then he explained the delay, and after that he asked for help."},
+        {"id": "b", "text": "He apologized. Asked for help. Delay."},
+        {"id": "c", "text": "Apologized, delay, asked."},
+        {"id": "d", "text": "He apologized? He asked? Delay?"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Связки и полные предложения делают пересказ логичным.",
+      "tags": []
+    },
+    {
+      "id": "q54",
+      "type": "mcq_single",
+      "prompt": "Какая связка лучше показывает причину?",
+      "theory_block_id": "b5_theory_cohesion",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "because"},
+        {"id": "b", "text": "then"},
+        {"id": "c", "text": "after that"},
+        {"id": "d", "text": "first"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Because вводит причину.",
+      "tags": []
+    },
+    {
+      "id": "q55",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: He was late, ___ he missed the call. (result linker)",
+      "theory_block_id": "b5_theory_cohesion",
+      "difficulty": 2,
+      "correct_answer": "so",
+      "explanation": "So выражает следствие.",
+      "tags": []
+    },
+    {
+      "id": "q56",
+      "type": "true_false",
+      "prompt": "Связность пересказа улучшается, если смешивать прямую речь и косвенную без правил.",
+      "theory_block_id": "b5_theory_cohesion",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Смешение без правил снижает ясность пересказа.",
+      "tags": []
+    },
+    {
+      "id": "q57",
+      "type": "mcq_single",
+      "prompt": "Какой вариант наиболее логичный?",
+      "theory_block_id": "b5_theory_cohesion",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "First she explained the issue, then she asked for a solution."},
+        {"id": "b", "text": "She asked for a solution, first she explained the issue."},
+        {"id": "c", "text": "Solution asked, issue explained."},
+        {"id": "d", "text": "Asked? Explained?"}
+      ],
+      "correct_answer": "a",
+      "explanation": "First/then задают естественный порядок действий.",
+      "tags": []
+    },
+    {
+      "id": "q58",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b5_theory_cohesion",
+      "difficulty": 2,
+      "correct_answer": "After that, they agreed on a plan.",
+      "explanation": "After that соединяет этапы в пересказе.",
+      "tags": []
+    },
+    {
+      "id": "q59",
+      "type": "error_spotting",
+      "prompt": "Выберите наиболее связный вариант пересказа без фрагментов.",
+      "theory_block_id": "b5_theory_cohesion",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "He explained the problem, so we adjusted the plan."},
+        {"id": "b", "text": "He explained the problem. So we adjusted. Then?"},
+        {"id": "c", "text": "Problem explained. Adjusted plan. So."},
+        {"id": "d", "text": "Explained? Plan?"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Связка so показывает следствие и делает пересказ плавным.",
+      "tags": []
+    },
+    {
+      "id": "q60",
+      "type": "true_false",
+      "prompt": "Хороший пересказ избегает лишних цитат и фокусируется на смысле.",
+      "theory_block_id": "b5_theory_cohesion",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Цель пересказа — передать смысл и порядок событий кратко.",
+      "tags": []
+    }
+  ]
+}
