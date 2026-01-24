@@ -1,0 +1,782 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "type": "true_false",
+      "prompt": "Reported statements пересказывают содержание, а не цитируют дословно.",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Косвенная речь передает смысл, поэтому дословной цитаты нет.",
+      "tags": []
+    },
+    {
+      "id": "q2",
+      "type": "mcq_single",
+      "prompt": "Выберите пример reported statement.",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "She said that she was ready."},
+        {"id": "b", "text": "\"I'm ready,\" she said."},
+        {"id": "c", "text": "She asks, \"Are you ready?\""},
+        {"id": "d", "text": "Ready, she said."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Reported statement использует say/tell + that-clause. Вариант a соответствует формату.",
+      "tags": []
+    },
+    {
+      "id": "q3",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: In reported speech, the conjunction ___ is often optional. (союз)",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 2,
+      "correct_answer": "that",
+      "explanation": "В косвенной речи that часто опускается, но грамматически допустим.",
+      "tags": []
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "prompt": "That в reported statements всегда обязателен.",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "That часто можно опустить, если смысл остается понятным.",
+      "tags": []
+    },
+    {
+      "id": "q5",
+      "type": "mcq_single",
+      "prompt": "Выберите корректный вариант пересказа: \"I am late,\" he said.",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "He said he was late."},
+        {"id": "b", "text": "He said he is late."},
+        {"id": "c", "text": "He said I am late."},
+        {"id": "d", "text": "He said to be late."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Backshift: am -> was, и местоимение меняется.",
+      "tags": []
+    },
+    {
+      "id": "q6",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: Reported speech is also called ___ speech. (косвенная)",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 1,
+      "correct_answer": "indirect",
+      "explanation": "Другой термин — indirect speech.",
+      "tags": []
+    },
+    {
+      "id": "q7",
+      "type": "mcq_single",
+      "prompt": "Что происходит с временем при backshift?",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "Обычно сдвигается назад"},
+        {"id": "b", "text": "Всегда остается тем же"},
+        {"id": "c", "text": "Всегда становится будущим"},
+        {"id": "d", "text": "Становится Present Perfect"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Backshift означает перенос времени назад при прошедшем глаголе сообщения.",
+      "tags": []
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "prompt": "Reported statements могут быть без that.",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "That часто опускается: He said he was tired.",
+      "tags": []
+    },
+    {
+      "id": "q9",
+      "type": "mcq_single",
+      "prompt": "Выберите корректный вариант: She said ___ she was busy.",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "that"},
+        {"id": "b", "text": "to"},
+        {"id": "c", "text": "for"},
+        {"id": "d", "text": "if"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Say + that-clause — базовый шаблон reported statement.",
+      "tags": []
+    },
+    {
+      "id": "q10",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: He said he ___ tired. (be)",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 2,
+      "correct_answer": "was",
+      "explanation": "Backshift: am/is -> was.",
+      "tags": []
+    },
+    {
+      "id": "q11",
+      "type": "mcq_single",
+      "prompt": "Какой элемент обязателен в reported statement?",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "Глагол сообщения"},
+        {"id": "b", "text": "Вопросительный порядок"},
+        {"id": "c", "text": "Императив"},
+        {"id": "d", "text": "Инфинитив"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Reported statement строится на глаголе сообщения: said/told.",
+      "tags": []
+    },
+    {
+      "id": "q12",
+      "type": "true_false",
+      "prompt": "Reported statements всегда начинаются с that.",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "That можно опустить, особенно в разговорной речи.",
+      "tags": []
+    },
+
+    {
+      "id": "q13",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: He ___ me he was busy.",
+      "theory_block_id": "b2_theory_say_tell",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "told"},
+        {"id": "b", "text": "said"},
+        {"id": "c", "text": "say"},
+        {"id": "d", "text": "tell"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Tell требует объекта (me/us/him). Поэтому told — правильный вариант.",
+      "tags": []
+    },
+    {
+      "id": "q14",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: She ___ that she was ill.",
+      "theory_block_id": "b2_theory_say_tell",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "said"},
+        {"id": "b", "text": "told"},
+        {"id": "c", "text": "telling"},
+        {"id": "d", "text": "tells"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Say используется без прямого объекта. Здесь объект не указан.",
+      "tags": []
+    },
+    {
+      "id": "q15",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: He ___ us that the meeting was canceled. (tell)",
+      "theory_block_id": "b2_theory_say_tell",
+      "difficulty": 2,
+      "correct_answer": "told",
+      "explanation": "Tell + object: told us.",
+      "tags": []
+    },
+    {
+      "id": "q16",
+      "type": "true_false",
+      "prompt": "Tell можно использовать без объекта так же, как say.",
+      "theory_block_id": "b2_theory_say_tell",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Tell требует объекта: tell me/us/him. Без объекта использовать нельзя.",
+      "tags": []
+    },
+    {
+      "id": "q17",
+      "type": "mcq_single",
+      "prompt": "Выберите корректный вариант: She said ___ she was leaving.",
+      "theory_block_id": "b2_theory_say_tell",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "that"},
+        {"id": "b", "text": "to me"},
+        {"id": "c", "text": "me"},
+        {"id": "d", "text": "at"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Say + that-clause. Если нужен адресат, лучше tell somebody.",
+      "tags": []
+    },
+    {
+      "id": "q18",
+      "type": "error_spotting",
+      "prompt": "Выберите правильный вариант.",
+      "theory_block_id": "b2_theory_say_tell",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "He told that he was tired."},
+        {"id": "b", "text": "He said that he was tired."},
+        {"id": "c", "text": "He told he was tired."},
+        {"id": "d", "text": "He said me that he was tired."}
+      ],
+      "correct_answer": "b",
+      "explanation": "Tell требует объекта, а say — нет. Вариант b грамматически правильный.",
+      "tags": []
+    },
+    {
+      "id": "q19",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: She ___ me she would call later. (tell)",
+      "theory_block_id": "b2_theory_say_tell",
+      "difficulty": 2,
+      "correct_answer": "told",
+      "explanation": "Tell + object: told me.",
+      "tags": []
+    },
+    {
+      "id": "q20",
+      "type": "true_false",
+      "prompt": "Say можно использовать с объектом без предлога: \"She said me\".",
+      "theory_block_id": "b2_theory_say_tell",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Say не используется так. Нужен tell + object или say to someone.",
+      "tags": []
+    },
+    {
+      "id": "q21",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: He said ___ us that he was leaving.",
+      "theory_block_id": "b2_theory_say_tell",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "to"},
+        {"id": "b", "text": "for"},
+        {"id": "c", "text": "at"},
+        {"id": "d", "text": "with"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Say + to + object: said to us.",
+      "tags": []
+    },
+    {
+      "id": "q22",
+      "type": "mcq_single",
+      "prompt": "Как правильно передать адресата?",
+      "theory_block_id": "b2_theory_say_tell",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "tell someone"},
+        {"id": "b", "text": "say someone"},
+        {"id": "c", "text": "say somebody"},
+        {"id": "d", "text": "tell to someone"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Tell требует прямого объекта: tell someone.",
+      "tags": []
+    },
+    {
+      "id": "q23",
+      "type": "true_false",
+      "prompt": "Say to someone — допустимо, если нужен адресат.",
+      "theory_block_id": "b2_theory_say_tell",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "Можно сказать: He said to us that... Это альтернатива tell.",
+      "tags": []
+    },
+    {
+      "id": "q24",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: She said ___ she would arrive at six. (союз)",
+      "theory_block_id": "b2_theory_say_tell",
+      "difficulty": 1,
+      "correct_answer": "that",
+      "explanation": "That-clause типичен после say. Его можно опустить, но здесь он нужен как ответ.",
+      "tags": []
+    },
+
+    {
+      "id": "q25",
+      "type": "mcq_single",
+      "prompt": "Какой backshift верный? Present Simple -> ?",
+      "theory_block_id": "b3_theory_backshift",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "Past Simple"},
+        {"id": "b", "text": "Present Perfect"},
+        {"id": "c", "text": "Future Simple"},
+        {"id": "d", "text": "Past Continuous"}
+      ],
+      "correct_answer": "a",
+      "explanation": "В базовом backshift Present Simple -> Past Simple.",
+      "tags": []
+    },
+    {
+      "id": "q26",
+      "type": "mcq_single",
+      "prompt": "Выберите корректный backshift: \"I work here,\" she said.",
+      "theory_block_id": "b3_theory_backshift",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "She said she worked there."},
+        {"id": "b", "text": "She said she works here."},
+        {"id": "c", "text": "She said she had worked there."},
+        {"id": "d", "text": "She said she is working there."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Present Simple -> Past Simple, и here -> there.",
+      "tags": []
+    },
+    {
+      "id": "q27",
+      "type": "true_false",
+      "prompt": "Past Simple в прямой речи обычно становится Past Perfect в reported speech.",
+      "theory_block_id": "b3_theory_backshift",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "Это базовое правило backshift: Past Simple -> Past Perfect.",
+      "tags": []
+    },
+    {
+      "id": "q28",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: will -> ___. (будущее в прошлом)",
+      "theory_block_id": "b3_theory_backshift",
+      "difficulty": 1,
+      "correct_answer": "would",
+      "explanation": "Will сдвигается в would при backshift.",
+      "tags": []
+    },
+    {
+      "id": "q29",
+      "type": "error_spotting",
+      "prompt": "Выберите корректный пересказ.",
+      "theory_block_id": "b3_theory_backshift",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "He said he is tired."},
+        {"id": "b", "text": "He said he was tired."},
+        {"id": "c", "text": "He said he had tired."},
+        {"id": "d", "text": "He said he tired."}
+      ],
+      "correct_answer": "b",
+      "explanation": "Backshift: is -> was. Вариант b грамматически верен.",
+      "tags": []
+    },
+    {
+      "id": "q30",
+      "type": "mcq_single",
+      "prompt": "Какой backshift верный? Present Continuous -> ?",
+      "theory_block_id": "b3_theory_backshift",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "Past Continuous"},
+        {"id": "b", "text": "Past Simple"},
+        {"id": "c", "text": "Present Perfect"},
+        {"id": "d", "text": "Future Simple"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Present Continuous -> Past Continuous: am/is/are + V-ing -> was/were + V-ing.",
+      "tags": []
+    },
+    {
+      "id": "q31",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"I saw him,\" she said -> She said she ___ him. (see)",
+      "theory_block_id": "b3_theory_backshift",
+      "difficulty": 2,
+      "correct_answer": "had",
+      "explanation": "Past Simple (saw) -> Past Perfect (had seen). Ответ — had, остальное дано глаголом.",
+      "tags": []
+    },
+    {
+      "id": "q32",
+      "type": "true_false",
+      "prompt": "Backshift применяется, если глагол сообщения в настоящем.",
+      "theory_block_id": "b3_theory_backshift",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Если глагол сообщения в настоящем (says), backshift обычно не нужен.",
+      "tags": []
+    },
+    {
+      "id": "q33",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: She said she ___ working late.",
+      "theory_block_id": "b3_theory_backshift",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "was"},
+        {"id": "b", "text": "is"},
+        {"id": "c", "text": "has"},
+        {"id": "d", "text": "had"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Present Continuous -> Past Continuous: was working.",
+      "tags": []
+    },
+    {
+      "id": "q34",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"We will help,\" they said -> They said they ___ help. (будущее в прошлом)",
+      "theory_block_id": "b3_theory_backshift",
+      "difficulty": 2,
+      "correct_answer": "would",
+      "explanation": "Will -> would в reported speech.",
+      "tags": []
+    },
+    {
+      "id": "q35",
+      "type": "mcq_single",
+      "prompt": "Какой пример показывает правильный backshift?",
+      "theory_block_id": "b3_theory_backshift",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "He said he is happy."},
+        {"id": "b", "text": "He said he was happy."},
+        {"id": "c", "text": "He said he has happy."},
+        {"id": "d", "text": "He said he happy."}
+      ],
+      "correct_answer": "b",
+      "explanation": "Is -> was при backshift. Поэтому b правильный.",
+      "tags": []
+    },
+    {
+      "id": "q36",
+      "type": "true_false",
+      "prompt": "Will обычно становится would в reported statements.",
+      "theory_block_id": "b3_theory_backshift",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Это стандартная замена при backshift.",
+      "tags": []
+    },
+
+    {
+      "id": "q37",
+      "type": "mcq_single",
+      "prompt": "Как меняется today в reported speech?",
+      "theory_block_id": "b4_theory_time_place",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "that day"},
+        {"id": "b", "text": "the day before"},
+        {"id": "c", "text": "the next day"},
+        {"id": "d", "text": "this day"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Today обычно меняется на that day.",
+      "tags": []
+    },
+    {
+      "id": "q38",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"I will do it tomorrow,\" he said -> He said he would do it ___. (the next day)",
+      "theory_block_id": "b4_theory_time_place",
+      "difficulty": 2,
+      "correct_answer": "then",
+      "explanation": "При пересказе можно использовать then как временной маркер. Вариант the next day тоже корректен.",
+      "tags": []
+    },
+    {
+      "id": "q39",
+      "type": "true_false",
+      "prompt": "Here обычно меняется на there в reported speech.",
+      "theory_block_id": "b4_theory_time_place",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "При смене точки отсчета here -> there.",
+      "tags": []
+    },
+    {
+      "id": "q40",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"I saw her yesterday,\" she said.",
+      "theory_block_id": "b4_theory_time_place",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "She said she had seen her the day before."},
+        {"id": "b", "text": "She said she saw her yesterday."},
+        {"id": "c", "text": "She said she has seen her yesterday."},
+        {"id": "d", "text": "She said she would see her yesterday."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Yesterday -> the day before, Past Simple -> Past Perfect.",
+      "tags": []
+    },
+    {
+      "id": "q41",
+      "type": "mcq_single",
+      "prompt": "Как меняется this в reported speech?",
+      "theory_block_id": "b4_theory_time_place",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "that"},
+        {"id": "b", "text": "these"},
+        {"id": "c", "text": "those"},
+        {"id": "d", "text": "there"}
+      ],
+      "correct_answer": "a",
+      "explanation": "This обычно становится that в reported speech.",
+      "tags": []
+    },
+    {
+      "id": "q42",
+      "type": "true_false",
+      "prompt": "Tomorrow обычно становится the next day.",
+      "theory_block_id": "b4_theory_time_place",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Это стандартная замена указателя времени.",
+      "tags": []
+    },
+    {
+      "id": "q43",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: here -> ___. (там)",
+      "theory_block_id": "b4_theory_time_place",
+      "difficulty": 1,
+      "correct_answer": "there",
+      "explanation": "Here меняется на there при переносе точки отсчета.",
+      "tags": []
+    },
+    {
+      "id": "q44",
+      "type": "mcq_single",
+      "prompt": "Выберите корректный вариант: \"I need this file today,\" he said.",
+      "theory_block_id": "b4_theory_time_place",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "He said he needed that file that day."},
+        {"id": "b", "text": "He said he needs this file today."},
+        {"id": "c", "text": "He said he needed this file today."},
+        {"id": "d", "text": "He said he needed that file tomorrow."}
+      ],
+      "correct_answer": "a",
+      "explanation": "This -> that, today -> that day, need -> needed.",
+      "tags": []
+    },
+    {
+      "id": "q45",
+      "type": "true_false",
+      "prompt": "Yesterday может стать the day before.",
+      "theory_block_id": "b4_theory_time_place",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Это стандартная замена в reported speech.",
+      "tags": []
+    },
+    {
+      "id": "q46",
+      "type": "error_spotting",
+      "prompt": "Выберите правильный вариант пересказа.",
+      "theory_block_id": "b4_theory_time_place",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "She said she would meet me here today."},
+        {"id": "b", "text": "She said she would meet me there that day."},
+        {"id": "c", "text": "She said she will meet me there that day."},
+        {"id": "d", "text": "She said she met me there today."}
+      ],
+      "correct_answer": "b",
+      "explanation": "Here -> there, today -> that day, will -> would.",
+      "tags": []
+    },
+    {
+      "id": "q47",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: yesterday -> ___. (the day before)",
+      "theory_block_id": "b4_theory_time_place",
+      "difficulty": 1,
+      "correct_answer": "before",
+      "explanation": "Вариант the day before включает слово before. Здесь нужно вставить ключевое слово.",
+      "tags": []
+    },
+    {
+      "id": "q48",
+      "type": "mcq_single",
+      "prompt": "Какой вариант неверно меняет указатели?",
+      "theory_block_id": "b4_theory_time_place",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "today -> that day"},
+        {"id": "b", "text": "tomorrow -> the next day"},
+        {"id": "c", "text": "here -> there"},
+        {"id": "d", "text": "yesterday -> tomorrow"}
+      ],
+      "correct_answer": "d",
+      "explanation": "Yesterday не превращается в tomorrow. Это ошибка.",
+      "tags": []
+    },
+
+    {
+      "id": "q49",
+      "type": "error_spotting",
+      "prompt": "Выберите корректную фразу с say/tell.",
+      "theory_block_id": "b5_theory_common_errors",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "He told that he was late."},
+        {"id": "b", "text": "He said that he was late."},
+        {"id": "c", "text": "He told he was late."},
+        {"id": "d", "text": "He said me that he was late."}
+      ],
+      "correct_answer": "b",
+      "explanation": "Tell требует объекта, say — нет. Вариант b грамматически корректен.",
+      "tags": []
+    },
+    {
+      "id": "q50",
+      "type": "true_false",
+      "prompt": "Фраза \"He told that...\" считается стандартной.",
+      "theory_block_id": "b5_theory_common_errors",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Tell требует объекта: He told me/us...",
+      "tags": []
+    },
+    {
+      "id": "q51",
+      "type": "mcq_single",
+      "prompt": "Какая ошибка в предложении \"She said she is busy\"?",
+      "theory_block_id": "b5_theory_common_errors",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "Нет backshift"},
+        {"id": "b", "text": "Неверный артикль"},
+        {"id": "c", "text": "Неверное местоимение"},
+        {"id": "d", "text": "Неверный предлог"}
+      ],
+      "correct_answer": "a",
+      "explanation": "При прошедшем глаголе сообщения нужно was, а не is.",
+      "tags": []
+    },
+    {
+      "id": "q52",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: He told ___ he was leaving. (объект)",
+      "theory_block_id": "b5_theory_common_errors",
+      "difficulty": 1,
+      "correct_answer": "me",
+      "explanation": "Tell требует объекта: told me.",
+      "tags": []
+    },
+    {
+      "id": "q53",
+      "type": "true_false",
+      "prompt": "Ошибочно оставлять here/today без изменений, если точка отсчета изменилась.",
+      "theory_block_id": "b5_theory_common_errors",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "Указатели времени/места нужно адаптировать к новой ситуации.",
+      "tags": []
+    },
+    {
+      "id": "q54",
+      "type": "mcq_single",
+      "prompt": "Выберите корректный вариант: They said they would meet us ___ that day.",
+      "theory_block_id": "b5_theory_common_errors",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "there"},
+        {"id": "b", "text": "here"},
+        {"id": "c", "text": "this"},
+        {"id": "d", "text": "today"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Here меняется на there при backshift.",
+      "tags": []
+    },
+    {
+      "id": "q55",
+      "type": "error_spotting",
+      "prompt": "Найдите правильный вариант исправления.",
+      "theory_block_id": "b5_theory_common_errors",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "She said me she would call."},
+        {"id": "b", "text": "She told me she would call."},
+        {"id": "c", "text": "She said to me she would call."},
+        {"id": "d", "text": "She told that she would call."}
+      ],
+      "correct_answer": "b",
+      "explanation": "Tell требует объекта: told me. Это стандартная исправленная форма.",
+      "tags": []
+    },
+    {
+      "id": "q56",
+      "type": "true_false",
+      "prompt": "Если глагол сообщения в прошлом, backshift обязателен всегда без исключений.",
+      "theory_block_id": "b5_theory_common_errors",
+      "difficulty": 3,
+      "correct_answer": "false",
+      "explanation": "Есть случаи, когда backshift не нужен (факты, общие истины, актуальность).",
+      "tags": []
+    },
+    {
+      "id": "q57",
+      "type": "mcq_single",
+      "prompt": "Что исправить в \"He told that the meeting was canceled\"?",
+      "theory_block_id": "b5_theory_common_errors",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "Добавить объект"},
+        {"id": "b", "text": "Убрать that"},
+        {"id": "c", "text": "Поменять was на is"},
+        {"id": "d", "text": "Добавить вопросительный порядок"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Tell требует объекта: He told us/me that...",
+      "tags": []
+    },
+    {
+      "id": "q58",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: Ошибка \"She said she is busy\" — отсутствие ___. (сдвиг времени)",
+      "theory_block_id": "b5_theory_common_errors",
+      "difficulty": 2,
+      "correct_answer": "backshift",
+      "explanation": "Нужно сдвинуть время: is -> was.",
+      "tags": []
+    },
+    {
+      "id": "q59",
+      "type": "mcq_single",
+      "prompt": "Какое предложение содержит правильную замену указателей?",
+      "theory_block_id": "b5_theory_common_errors",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "He said he would come here today."},
+        {"id": "b", "text": "He said he would come there that day."},
+        {"id": "c", "text": "He said he will come there today."},
+        {"id": "d", "text": "He said he would come this day."}
+      ],
+      "correct_answer": "b",
+      "explanation": "Here -> there, today -> that day, will -> would.",
+      "tags": []
+    },
+    {
+      "id": "q60",
+      "type": "true_false",
+      "prompt": "Смешение say/tell и неверные указатели времени — типичные ошибки в reported speech.",
+      "theory_block_id": "b5_theory_common_errors",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "Это наиболее частые ошибки: неверный глагол сообщения и неадаптированные маркеры.",
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "theory_block": {
+    "id": "b5_theory_common_errors",
+    "concept_id": "reported_speech_errors",
+    "content_md": "Типичные ошибки:\\n\\n- использовать **tell** без объекта\\n- забыть backshift при прошедшем глаголе сообщения\\n- оставить исходные указатели времени/места\\n\\nПроверяйте форму глагола сообщения и изменяйте детали, если изменился контекст.",
+    "common_mistakes": [
+      {
+        "wrong": "He told that he was late.",
+        "right": "He said that he was late.",
+        "why": "Tell требует объекта: He told me/us..."
+      },
+      {
+        "wrong": "She said she is busy.",
+        "right": "She said she was busy.",
+        "why": "При прошедшем глаголе сообщения нужен backshift."
+      },
+      {
+        "wrong": "They said they would meet us here today.",
+        "right": "They said they would meet us there that day.",
+        "why": "Нужно изменить here/today на there/that day."
+      }
+    ]
+  }
+}
