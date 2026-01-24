@@ -1,0 +1,1396 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.conditionals_hypotheticals.third_conditional",
+  "section_id": "en.grammar.conditionals_hypotheticals",
+  "title": "Third conditional (unreal past)",
+  "title_short": "Third conditional",
+  "description": "Объясняем third conditional: нереальное прошлое и воображаемый результат.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "B2",
+  "order": 0,
+  "prerequisites": [
+    "en.grammar.conditionals_hypotheticals.second_conditional"
+  ],
+  "concept_refs": [
+    "third_conditional_meaning",
+    "third_conditional_form",
+    "third_conditional_modals",
+    "third_conditional_inversion",
+    "second_vs_third_conditional"
+  ],
+  "learning_objectives": [
+    "Понимать смысл third conditional как нереального прошлого",
+    "Строить if + Past Perfect, would have + V3",
+    "Использовать could/might have для оттенков значения",
+    "Понимать инверсию без if (Had I known...)"
+  ],
+  "estimated_minutes": 22,
+  "blocks": [
+    {
+      "id": "b1_theory_meaning",
+      "type": "theory",
+      "title": "Third conditional описывает нереальное прошлое: условие не было выполнено, поэтому результат тоже не случился. Часто используется для сожалений или анализа прошлого.",
+      "theory": {
+        "concept_id": "third_conditional_meaning",
+        "content_md": "Third conditional описывает нереальное прошлое: условие не было выполнено, поэтому результат тоже не случился. Часто используется для сожалений или анализа прошлого.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "If I had left earlier, I would have caught the train.",
+            "translation": "Если бы я вышел раньше, я бы успел на поезд.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "If she had studied more, she would have passed the exam.",
+            "translation": "Если бы она больше училась, она бы сдала экзамен.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_form",
+      "type": "theory",
+      "title": "Форма: if + Past Perfect, would have + V3. В if-части не используется would. Для отрицаний: *If I hadn't missed the call, I would have answered.*",
+      "theory": {
+        "concept_id": "third_conditional_form",
+        "content_md": "Форма: **if + Past Perfect, would have + V3**. В if-части не используется would. Для отрицаний: *If I hadn't missed the call, I would have answered.*",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "If we had known about the delay, we would have waited.",
+            "translation": "Если бы мы знали о задержке, мы бы подождали.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "If he hadn't forgotten the key, we wouldn't have been late.",
+            "translation": "Если бы он не забыл ключ, мы бы не опоздали.",
+            "tags": [
+              "negative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_modals",
+      "type": "theory",
+      "title": "В главной части можно использовать could have (возможность/способность) или might have (неуверенная возможность) вместо would have.",
+      "theory": {
+        "concept_id": "third_conditional_modals",
+        "content_md": "В главной части можно использовать **could have** (возможность/способность) или **might have** (неуверенная возможность) вместо **would have**.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "If I had had the tools, I could have fixed it.",
+            "translation": "Если бы у меня были инструменты, я мог бы это починить.",
+            "tags": [
+              "could_have"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "If we had taken a different route, we might have avoided traffic.",
+            "translation": "Если бы мы выбрали другой маршрут, мы могли бы избежать пробок.",
+            "tags": [
+              "might_have"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_inversion",
+      "type": "theory",
+      "title": "В формальном стиле можно опустить if и использовать инверсию: Had + subject + V3, ... Это эквивалентно обычной форме с if.",
+      "theory": {
+        "concept_id": "third_conditional_inversion",
+        "content_md": "В формальном стиле можно опустить **if** и использовать инверсию: **Had + subject + V3**, ... Это эквивалентно обычной форме с if.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Had I known, I would have acted differently.",
+            "translation": "Если бы я знал, я бы поступил иначе.",
+            "tags": [
+              "inversion"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Had they left on time, they would have caught the bus.",
+            "translation": "Если бы они вышли вовремя, они бы успели на автобус.",
+            "tags": [
+              "inversion"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_second_vs_third",
+      "type": "theory",
+      "title": "Second conditional говорит о нереальной ситуации в настоящем/будущем. Third conditional — о нереальной ситуации в прошлом и ее последствиях.",
+      "theory": {
+        "concept_id": "second_vs_third_conditional",
+        "content_md": "**Second conditional** говорит о нереальной ситуации в настоящем/будущем. **Third conditional** — о нереальной ситуации в прошлом и ее последствиях.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "If I had more time, I would travel more.",
+            "translation": "Если бы у меня было больше времени, я бы больше путешествовал.",
+            "tags": [
+              "second_conditional"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "If I had had more time, I would have traveled more.",
+            "translation": "Если бы у меня было больше времени (тогда), я бы больше путешествовал.",
+            "tags": [
+              "third_conditional"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q50"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный смысл third conditional.",
+        "theory_block_id": "b1_theory_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Нереальное прошлое и его воображаемый результат"
+          },
+          {
+            "id": "b",
+            "text": "Реальное будущее"
+          },
+          {
+            "id": "c",
+            "text": "Общие правила"
+          },
+          {
+            "id": "d",
+            "text": "Нереальное настоящее"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Third conditional описывает ситуацию, которая не случилась в прошлом.",
+        "tags": []
+      },
+      {
+        "id": "q2",
+        "type": "true_false",
+        "prompt": "Third conditional часто используют, чтобы выразить сожаление о прошлом.",
+        "theory_block_id": "b1_theory_meaning",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это типичный контекст third conditional.",
+        "tags": []
+      },
+      {
+        "id": "q3",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If I ___ known about the change, I would have come earlier. (знать)",
+        "theory_block_id": "b1_theory_meaning",
+        "difficulty": 2,
+        "correct_answer": "had",
+        "explanation": "Past Perfect: had known.",
+        "tags": []
+      },
+      {
+        "id": "q4",
+        "type": "mcq_single",
+        "prompt": "Выберите предложение с third conditional.",
+        "theory_block_id": "b1_theory_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If she studies today, she will pass."
+          },
+          {
+            "id": "b",
+            "text": "If he had studied more, he would have passed."
+          },
+          {
+            "id": "c",
+            "text": "If I were you, I would wait."
+          },
+          {
+            "id": "d",
+            "text": "If you heat ice, it melts."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Past Perfect + would have + V3 = third conditional.",
+        "tags": []
+      },
+      {
+        "id": "q5",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If they had left earlier, they would have ___ on time. (приехать)",
+        "theory_block_id": "b1_theory_meaning",
+        "difficulty": 2,
+        "correct_answer": "arrived",
+        "explanation": "V3 после would have.",
+        "tags": []
+      },
+      {
+        "id": "q6",
+        "type": "true_false",
+        "prompt": "Third conditional описывает реальную ситуацию, которая случилась в прошлом.",
+        "theory_block_id": "b1_theory_meaning",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Он описывает нереальное прошлое.",
+        "tags": []
+      },
+      {
+        "id": "q7",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If I had saved the file, I would have ___ it. (отправить)",
+        "theory_block_id": "b1_theory_meaning",
+        "difficulty": 2,
+        "correct_answer": "sent",
+        "explanation": "V3 после would have.",
+        "tags": []
+      },
+      {
+        "id": "q8",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If we would have known, we would have stayed.\"",
+        "theory_block_id": "b1_theory_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If we had known, we would have stayed."
+          },
+          {
+            "id": "b",
+            "text": "If we knew, we would have stayed."
+          },
+          {
+            "id": "c",
+            "text": "If we had known, we stayed."
+          },
+          {
+            "id": "d",
+            "text": "If we would have known, we stayed."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В if-части нужен Past Perfect, без would.",
+        "tags": []
+      },
+      {
+        "id": "q9",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный перевод: If I had seen the email, I would have replied.",
+        "theory_block_id": "b1_theory_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Если бы я увидел письмо, я бы ответил."
+          },
+          {
+            "id": "b",
+            "text": "Если я увижу письмо, я отвечу."
+          },
+          {
+            "id": "c",
+            "text": "Когда я увидел письмо, я ответил."
+          },
+          {
+            "id": "d",
+            "text": "Если бы я видел письмо, я бы отвечал."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Это сожаление о прошлом.",
+        "tags": []
+      },
+      {
+        "id": "q10",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If she had told me, I would have ___ her. (предупредить)",
+        "theory_block_id": "b1_theory_meaning",
+        "difficulty": 2,
+        "correct_answer": "warned",
+        "explanation": "V3 после would have.",
+        "tags": []
+      },
+      {
+        "id": "q11",
+        "type": "true_false",
+        "prompt": "Third conditional относится к прошлому, но говорит о нереальном результате.",
+        "theory_block_id": "b1_theory_meaning",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "И условие, и результат относятся к прошлому.",
+        "tags": []
+      },
+      {
+        "id": "q12",
+        "type": "mcq_single",
+        "prompt": "Выберите правильное продолжение: If they had booked earlier, they ___.",
+        "theory_block_id": "b1_theory_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "will get a better price"
+          },
+          {
+            "id": "b",
+            "text": "would have gotten a better price"
+          },
+          {
+            "id": "c",
+            "text": "get a better price"
+          },
+          {
+            "id": "d",
+            "text": "would get a better price"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Third conditional: would have + V3.",
+        "tags": []
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: If I ___ the warning, I would have avoided the mistake.",
+        "theory_block_id": "b2_theory_form",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had seen"
+          },
+          {
+            "id": "b",
+            "text": "saw"
+          },
+          {
+            "id": "c",
+            "text": "would see"
+          },
+          {
+            "id": "d",
+            "text": "see"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Perfect в if-части.",
+        "tags": []
+      },
+      {
+        "id": "q14",
+        "type": "true_false",
+        "prompt": "Форма third conditional: if + Past Perfect, would have + V3.",
+        "theory_block_id": "b2_theory_form",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это стандартная формула.",
+        "tags": []
+      },
+      {
+        "id": "q15",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If we had ___ the map, we would have found the place. (сохранить)",
+        "theory_block_id": "b2_theory_form",
+        "difficulty": 2,
+        "correct_answer": "saved",
+        "explanation": "Past Perfect: had saved.",
+        "tags": []
+      },
+      {
+        "id": "q16",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If she had called, I would answer.\"",
+        "theory_block_id": "b2_theory_form",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If she had called, I would have answered."
+          },
+          {
+            "id": "b",
+            "text": "If she called, I would have answered."
+          },
+          {
+            "id": "c",
+            "text": "If she had called, I answered."
+          },
+          {
+            "id": "d",
+            "text": "If she would have called, I would have answered."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Главная часть в форме would have + V3.",
+        "tags": []
+      },
+      {
+        "id": "q17",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: If he ___ his ID, he would have entered.",
+        "theory_block_id": "b2_theory_form",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had brought"
+          },
+          {
+            "id": "b",
+            "text": "brought"
+          },
+          {
+            "id": "c",
+            "text": "would bring"
+          },
+          {
+            "id": "d",
+            "text": "brings"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Perfect в if-части.",
+        "tags": []
+      },
+      {
+        "id": "q18",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If I had listened, I would have ___ the problem. (избежать)",
+        "theory_block_id": "b2_theory_form",
+        "difficulty": 2,
+        "correct_answer": "avoided",
+        "explanation": "V3 после would have.",
+        "tags": []
+      },
+      {
+        "id": "q19",
+        "type": "true_false",
+        "prompt": "В if-части third conditional используется would have.",
+        "theory_block_id": "b2_theory_form",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Would have не используется в if-части.",
+        "tags": []
+      },
+      {
+        "id": "q20",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: If the server ___ earlier, we would have recovered the data.",
+        "theory_block_id": "b2_theory_form",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had crashed"
+          },
+          {
+            "id": "b",
+            "text": "crashed"
+          },
+          {
+            "id": "c",
+            "text": "would crash"
+          },
+          {
+            "id": "d",
+            "text": "crashes"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Perfect в if-части.",
+        "tags": []
+      },
+      {
+        "id": "q21",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If you had told me, I would have ___ you. (помочь)",
+        "theory_block_id": "b2_theory_form",
+        "difficulty": 2,
+        "correct_answer": "helped",
+        "explanation": "V3 после would have.",
+        "tags": []
+      },
+      {
+        "id": "q22",
+        "type": "true_false",
+        "prompt": "Third conditional описывает нереальный результат в прошлом.",
+        "theory_block_id": "b2_theory_form",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "И условие, и результат относятся к прошлому.",
+        "tags": []
+      },
+      {
+        "id": "q23",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If we had finished sooner, we would leave early.\"",
+        "theory_block_id": "b2_theory_form",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If we had finished sooner, we would have left early."
+          },
+          {
+            "id": "b",
+            "text": "If we finished sooner, we would have left early."
+          },
+          {
+            "id": "c",
+            "text": "If we had finished sooner, we left early."
+          },
+          {
+            "id": "d",
+            "text": "If we would have finished sooner, we would have left early."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Главная часть должна быть would have + V3.",
+        "tags": []
+      },
+      {
+        "id": "q24",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: If I ___ that, I would have apologized.",
+        "theory_block_id": "b2_theory_form",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had known"
+          },
+          {
+            "id": "b",
+            "text": "knew"
+          },
+          {
+            "id": "c",
+            "text": "would know"
+          },
+          {
+            "id": "d",
+            "text": "know"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Perfect в if-части.",
+        "tags": []
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: If she had the key, she ___ opened the door.",
+        "theory_block_id": "b3_theory_modals",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "could have"
+          },
+          {
+            "id": "b",
+            "text": "can have"
+          },
+          {
+            "id": "c",
+            "text": "could"
+          },
+          {
+            "id": "d",
+            "text": "might"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Could have показывает возможность в прошлом.",
+        "tags": []
+      },
+      {
+        "id": "q26",
+        "type": "true_false",
+        "prompt": "В third conditional можно заменить would have на could have.",
+        "theory_block_id": "b3_theory_modals",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это меняет оттенок результата.",
+        "tags": []
+      },
+      {
+        "id": "q27",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If I had tried, I ___ have succeeded. (мочь)",
+        "theory_block_id": "b3_theory_modals",
+        "difficulty": 2,
+        "correct_answer": "could",
+        "explanation": "Could have = возможность в прошлом.",
+        "tags": []
+      },
+      {
+        "id": "q28",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: If we had chosen a taxi, we ___ have arrived sooner.",
+        "theory_block_id": "b3_theory_modals",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "might"
+          },
+          {
+            "id": "b",
+            "text": "must"
+          },
+          {
+            "id": "c",
+            "text": "will"
+          },
+          {
+            "id": "d",
+            "text": "can"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Might have выражает неуверенную возможность.",
+        "tags": []
+      },
+      {
+        "id": "q29",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If he had checked the schedule, he ___ have missed the train. (возможно)",
+        "theory_block_id": "b3_theory_modals",
+        "difficulty": 2,
+        "correct_answer": "might",
+        "explanation": "Might have = вероятная возможность.",
+        "tags": []
+      },
+      {
+        "id": "q30",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If we had the tickets, we could have went.\"",
+        "theory_block_id": "b3_theory_modals",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If we had the tickets, we could have gone."
+          },
+          {
+            "id": "b",
+            "text": "If we had the tickets, we could went."
+          },
+          {
+            "id": "c",
+            "text": "If we had the tickets, we might have go."
+          },
+          {
+            "id": "d",
+            "text": "If we had the tickets, we could have go."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После could have используется V3.",
+        "tags": []
+      },
+      {
+        "id": "q31",
+        "type": "true_false",
+        "prompt": "Might have указывает на меньшую уверенность в результате.",
+        "theory_block_id": "b3_theory_modals",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Might have = возможность, не гарантия.",
+        "tags": []
+      },
+      {
+        "id": "q32",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If she had more time, she ___ have finished the task. (мочь)",
+        "theory_block_id": "b3_theory_modals",
+        "difficulty": 2,
+        "correct_answer": "could",
+        "explanation": "Could have = возможность.",
+        "tags": []
+      },
+      {
+        "id": "q33",
+        "type": "mcq_single",
+        "prompt": "Выберите корректный вариант: If I had known the address, I ___ have visited.",
+        "theory_block_id": "b3_theory_modals",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "might"
+          },
+          {
+            "id": "b",
+            "text": "must"
+          },
+          {
+            "id": "c",
+            "text": "will"
+          },
+          {
+            "id": "d",
+            "text": "can"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Might have подходит для вероятного результата.",
+        "tags": []
+      },
+      {
+        "id": "q34",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If he had asked, we would could have helped.\"",
+        "theory_block_id": "b3_theory_modals",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If he had asked, we could have helped."
+          },
+          {
+            "id": "b",
+            "text": "If he had asked, we would have could helped."
+          },
+          {
+            "id": "c",
+            "text": "If he asked, we could have helped."
+          },
+          {
+            "id": "d",
+            "text": "If he had asked, we could helped."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Modal could replaces would have.",
+        "tags": []
+      },
+      {
+        "id": "q35",
+        "type": "true_false",
+        "prompt": "Could have в third conditional выражает способность/возможность в прошлом.",
+        "theory_block_id": "b3_theory_modals",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это оттенок возможности.",
+        "tags": []
+      },
+      {
+        "id": "q36",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If we had planned better, we ___ have avoided the delay. (возможно)",
+        "theory_block_id": "b3_theory_modals",
+        "difficulty": 2,
+        "correct_answer": "might",
+        "explanation": "Might have = вероятная возможность.",
+        "tags": []
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную инверсию без if.",
+        "theory_block_id": "b4_theory_inversion",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Had I known, I would have called."
+          },
+          {
+            "id": "b",
+            "text": "Had I know, I would have called."
+          },
+          {
+            "id": "c",
+            "text": "Have I known, I would have called."
+          },
+          {
+            "id": "d",
+            "text": "Had I known, I would call."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Инверсия использует Had + subject + V3.",
+        "tags": []
+      },
+      {
+        "id": "q38",
+        "type": "true_false",
+        "prompt": "Инверсия Had I known равна If I had known.",
+        "theory_block_id": "b4_theory_inversion",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это формальный вариант того же смысла.",
+        "tags": []
+      },
+      {
+        "id": "q39",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: Had she ___ earlier, she would have seen him. (прийти)",
+        "theory_block_id": "b4_theory_inversion",
+        "difficulty": 2,
+        "correct_answer": "come",
+        "explanation": "После had нужен V3: had come.",
+        "tags": []
+      },
+      {
+        "id": "q40",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"Had we know about the change, we would have adjusted.\"",
+        "theory_block_id": "b4_theory_inversion",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Had we known about the change, we would have adjusted."
+          },
+          {
+            "id": "b",
+            "text": "Had we knew about the change, we would have adjusted."
+          },
+          {
+            "id": "c",
+            "text": "Had we known about the change, we would adjust."
+          },
+          {
+            "id": "d",
+            "text": "Had we known about the change, we adjusted."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Инверсия требует V3 после had.",
+        "tags": []
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант инверсии.",
+        "theory_block_id": "b4_theory_inversion",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Had they seen the sign, they would have stopped."
+          },
+          {
+            "id": "b",
+            "text": "Had they saw the sign, they would have stopped."
+          },
+          {
+            "id": "c",
+            "text": "Had they seen the sign, they would stop."
+          },
+          {
+            "id": "d",
+            "text": "Had they seen the sign, they would have stop."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Had + V3, would have + V3.",
+        "tags": []
+      },
+      {
+        "id": "q42",
+        "type": "true_false",
+        "prompt": "Инверсия Had you called возможна только в вопросах.",
+        "theory_block_id": "b4_theory_inversion",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Это утвердительная форма без if.",
+        "tags": []
+      },
+      {
+        "id": "q43",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: Had I ___ the map, I would have found the place. (взять)",
+        "theory_block_id": "b4_theory_inversion",
+        "difficulty": 2,
+        "correct_answer": "taken",
+        "explanation": "Had + V3.",
+        "tags": []
+      },
+      {
+        "id": "q44",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"Had she arrived on time, she would have miss the meeting.\"",
+        "theory_block_id": "b4_theory_inversion",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Had she arrived on time, she would have missed the meeting."
+          },
+          {
+            "id": "b",
+            "text": "Had she arrived on time, she would have miss the meeting."
+          },
+          {
+            "id": "c",
+            "text": "Had she arrive on time, she would have missed the meeting."
+          },
+          {
+            "id": "d",
+            "text": "Had she arrived on time, she would miss the meeting."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После would have нужен V3: missed.",
+        "tags": []
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "prompt": "Выберите корректную форму без if.",
+        "theory_block_id": "b4_theory_inversion",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Had we taken the train, we would have arrived earlier."
+          },
+          {
+            "id": "b",
+            "text": "Had we took the train, we would have arrived earlier."
+          },
+          {
+            "id": "c",
+            "text": "Had we taking the train, we would have arrived earlier."
+          },
+          {
+            "id": "d",
+            "text": "Had we taken the train, we would arrive earlier."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Инверсия требует V3 и would have + V3.",
+        "tags": []
+      },
+      {
+        "id": "q46",
+        "type": "true_false",
+        "prompt": "В инверсии had + subject используется вместо if.",
+        "theory_block_id": "b4_theory_inversion",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это формальный эквивалент if-clause.",
+        "tags": []
+      },
+      {
+        "id": "q47",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: Had he ___ earlier, we would have finished. (закончить)",
+        "theory_block_id": "b4_theory_inversion",
+        "difficulty": 2,
+        "correct_answer": "started",
+        "explanation": "Had + V3: had started.",
+        "tags": []
+      },
+      {
+        "id": "q48",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"Had you called, I would have answer.\"",
+        "theory_block_id": "b4_theory_inversion",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Had you called, I would have answered."
+          },
+          {
+            "id": "b",
+            "text": "Had you call, I would have answered."
+          },
+          {
+            "id": "c",
+            "text": "Had you called, I would answer."
+          },
+          {
+            "id": "d",
+            "text": "Had you called, I would have answer."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После would have нужен V3.",
+        "tags": []
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "Выберите предложение про нереальное прошлое.",
+        "theory_block_id": "b5_theory_second_vs_third",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If I had time, I would help."
+          },
+          {
+            "id": "b",
+            "text": "If I had had time, I would have helped."
+          },
+          {
+            "id": "c",
+            "text": "If I have time, I will help."
+          },
+          {
+            "id": "d",
+            "text": "If you mix red and blue, you get purple."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Past Perfect + would have = third conditional.",
+        "tags": []
+      },
+      {
+        "id": "q50",
+        "type": "true_false",
+        "prompt": "Second conditional относится к прошлому.",
+        "theory_block_id": "b5_theory_second_vs_third",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Second conditional относится к настоящему/будущему.",
+        "tags": []
+      },
+      {
+        "id": "q51",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If she had seen the note, she would have ___ earlier. (прийти)",
+        "theory_block_id": "b5_theory_second_vs_third",
+        "difficulty": 2,
+        "correct_answer": "come",
+        "explanation": "V3 после would have.",
+        "tags": []
+      },
+      {
+        "id": "q52",
+        "type": "mcq_single",
+        "prompt": "Выберите пример second conditional (нереальное настоящее/будущее).",
+        "theory_block_id": "b5_theory_second_vs_third",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If I had known, I would have called."
+          },
+          {
+            "id": "b",
+            "text": "If I knew, I would call."
+          },
+          {
+            "id": "c",
+            "text": "If I will know, I will call."
+          },
+          {
+            "id": "d",
+            "text": "If I had known, I called."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "If + Past Simple, would + V1 = second conditional.",
+        "tags": []
+      },
+      {
+        "id": "q53",
+        "type": "true_false",
+        "prompt": "If he had studied more, he would have passed. — это third conditional.",
+        "theory_block_id": "b5_theory_second_vs_third",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Past Perfect + would have + V3.",
+        "tags": []
+      },
+      {
+        "id": "q54",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If I had had the address, I would have ___ you. (найти)",
+        "theory_block_id": "b5_theory_second_vs_third",
+        "difficulty": 2,
+        "correct_answer": "found",
+        "explanation": "V3 после would have.",
+        "tags": []
+      },
+      {
+        "id": "q55",
+        "type": "mcq_single",
+        "prompt": "Выберите верное сравнение second и third conditional.",
+        "theory_block_id": "b5_theory_second_vs_third",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Second conditional = нереальное настоящее/будущее, Third conditional = нереальное прошлое."
+          },
+          {
+            "id": "b",
+            "text": "Second conditional = факт, Third conditional = правило."
+          },
+          {
+            "id": "c",
+            "text": "Second conditional = real future, Third conditional = real past."
+          },
+          {
+            "id": "d",
+            "text": "Second conditional = present perfect, Third conditional = past simple."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Разница в времени и степени реальности.",
+        "tags": []
+      },
+      {
+        "id": "q56",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If I had more time, I would have finished.\"",
+        "theory_block_id": "b5_theory_second_vs_third",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If I had had more time, I would have finished."
+          },
+          {
+            "id": "b",
+            "text": "If I had more time, I would finish."
+          },
+          {
+            "id": "c",
+            "text": "If I had more time, I will finish."
+          },
+          {
+            "id": "d",
+            "text": "If I would have more time, I would have finished."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для прошлого нужен Past Perfect в if-части.",
+        "tags": []
+      },
+      {
+        "id": "q57",
+        "type": "true_false",
+        "prompt": "If I had known, I would have called. — это second conditional.",
+        "theory_block_id": "b5_theory_second_vs_third",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Это third conditional.",
+        "tags": []
+      },
+      {
+        "id": "q58",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If she were here, she would ___ us. (помочь)",
+        "theory_block_id": "b5_theory_second_vs_third",
+        "difficulty": 2,
+        "correct_answer": "help",
+        "explanation": "Это second conditional: would + V1.",
+        "tags": []
+      },
+      {
+        "id": "q59",
+        "type": "mcq_single",
+        "prompt": "Выберите предложение о нереальном настоящем.",
+        "theory_block_id": "b5_theory_second_vs_third",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If I had lost the file, I would have panicked."
+          },
+          {
+            "id": "b",
+            "text": "If I lost the file, I would panic."
+          },
+          {
+            "id": "c",
+            "text": "If I will lose the file, I will panic."
+          },
+          {
+            "id": "d",
+            "text": "If I had lost the file, I panicked."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Past Simple + would = second conditional.",
+        "tags": []
+      },
+      {
+        "id": "q60",
+        "type": "true_false",
+        "prompt": "Third conditional описывает последствия воображаемого прошлого.",
+        "theory_block_id": "b5_theory_second_vs_third",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "И условие, и результат относятся к прошлому.",
+        "tags": []
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-24T08:32:43Z",
+    "source": "llm"
+  }
+}
