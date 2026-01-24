@@ -1,0 +1,1378 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.voice_focus_passive_and.impersonal_passive_it_is",
+  "section_id": "en.grammar.voice_focus_passive_and",
+  "title": "Impersonal passive: It is said that… / He is believed to…",
+  "title_short": "Impersonal passive",
+  "description": "Разбираем безличный пассив для передачи слухов, мнений и источников информации.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "B2",
+  "order": 0,
+  "prerequisites": [
+    "en.grammar.voice_focus_passive_and.passive_basics_be_v3",
+    "en.grammar.voice_focus_passive_and.passive_across_tenses"
+  ],
+  "concept_refs": [
+    "impersonal_it_passive",
+    "impersonal_he_passive",
+    "impersonal_tense_alignment",
+    "impersonal_reporting_verbs",
+    "impersonal_style_contexts"
+  ],
+  "learning_objectives": [
+    "Использовать конструкции It is said that / He is believed to",
+    "Понимать разницу между it- и he-формой",
+    "Выбирать подходящую форму в формальном стиле"
+  ],
+  "estimated_minutes": 22,
+  "blocks": [
+    {
+      "id": "b1_theory_it_passive",
+      "type": "theory",
+      "title": "Конструкция It is said that... используется для передачи слухов, мнений и общей информации без указания источника. Она звучит формально и часто встречается в новостях и официальных текстах.",
+      "theory": {
+        "concept_id": "impersonal_it_passive",
+        "content_md": "Конструкция **It is said that...** используется для передачи слухов, мнений и общей информации без указания источника. Она звучит формально и часто встречается в новостях и официальных текстах.\n\nФокус — не на том, кто говорит, а на самом сообщении.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "It is said that the company will expand abroad.",
+            "translation": "Говорят, что компания расширится за границей.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "It is believed that the storm will pass soon.",
+            "translation": "Считается, что шторм скоро пройдет.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_he_passive",
+      "type": "theory",
+      "title": "Личная форма использует структуру He/She/They is believed to + V1 и передает тот же смысл, что It is believed that... Она делает фокус на лице или объекте, о котором говорят.",
+      "theory": {
+        "concept_id": "impersonal_he_passive",
+        "content_md": "Личная форма использует структуру **He/She/They is believed to + V1** и передает тот же смысл, что It is believed that... Она делает фокус на лице или объекте, о котором говорят.\n\nЭта форма часто используется в формальном стиле и позволяет сделать текст более компактным.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "He is believed to be a leading expert.",
+            "translation": "Считается, что он ведущий эксперт.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "They are expected to arrive tomorrow.",
+            "translation": "Ожидается, что они прибудут завтра.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q6",
+          "q7"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_tense_alignment",
+      "type": "theory",
+      "title": "В личной форме выбор инфинитива зависит от времени: to do для одновременных/будущих действий, to have done для предшествующих.",
+      "theory": {
+        "concept_id": "impersonal_tense_alignment",
+        "content_md": "В личной форме выбор инфинитива зависит от времени: **to do** для одновременных/будущих действий, **to have done** для предшествующих.\n\nНапример: *He is believed to live abroad* (сейчас) vs *He is believed to have left* (раньше).",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "She is thought to work at the embassy.",
+            "translation": "Считается, что она работает в посольстве.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "She is thought to have worked at the embassy before.",
+            "translation": "Считается, что она раньше работала в посольстве.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q10",
+          "q11"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_reporting_verbs",
+      "type": "theory",
+      "title": "В безличном пассиве часто используются глаголы said, believed, thought, expected, reported, known, considered. Они позволяют выразить отношение источника или степень уверенности.",
+      "theory": {
+        "concept_id": "impersonal_reporting_verbs",
+        "content_md": "В безличном пассиве часто используются глаголы **said, believed, thought, expected, reported, known, considered**. Они позволяют выразить отношение источника или степень уверенности.\n\nВыбор глагола меняет оттенок: *reported* звучит как новость, *considered* — как оценка.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "It is reported that the bridge is closed.",
+            "translation": "Сообщается, что мост закрыт.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "The plan is considered to be risky.",
+            "translation": "Считается, что план рискованный.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q14",
+          "q15"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_style_contexts",
+      "type": "theory",
+      "title": "Безличный пассив характерен для новостей, официальных заявлений и академических текстов. Он помогает сохранять нейтральный тон и не называть источник напрямую.",
+      "theory": {
+        "concept_id": "impersonal_style_contexts",
+        "content_md": "Безличный пассив характерен для новостей, официальных заявлений и академических текстов. Он помогает сохранять нейтральный тон и не называть источник напрямую.\n\nВ разговорной речи чаще используют более прямые конструкции: *People say...*, *They think...*.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "It is expected that inflation will fall.",
+            "translation": "Ожидается, что инфляция снизится.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "He is said to be very wealthy.",
+            "translation": "Говорят, что он очень богат.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q18",
+          "q19"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: ___ said that the company will expand.",
+        "theory_block_id": "b1_theory_it_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It is"
+          },
+          {
+            "id": "b",
+            "text": "It was"
+          },
+          {
+            "id": "c",
+            "text": "He is"
+          },
+          {
+            "id": "d",
+            "text": "They are"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Безличная форма: It is said that...",
+        "tags": []
+      },
+      {
+        "id": "q2",
+        "type": "true_false",
+        "prompt": "It is said that... используется только в разговорной речи.",
+        "theory_block_id": "b1_theory_it_passive",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Эта конструкция формальна и часто встречается в новостях и официальных текстах.",
+        "tags": []
+      },
+      {
+        "id": "q3",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: It is ___ that the bridge is closed. (report)",
+        "theory_block_id": "b1_theory_it_passive",
+        "difficulty": 2,
+        "correct_answer": "reported",
+        "explanation": "В it-passive используется V3: is reported.",
+        "tags": []
+      },
+      {
+        "id": "q4",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"It is say that the prices will rise.\"",
+        "theory_block_id": "b1_theory_it_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It is said that the prices will rise."
+          },
+          {
+            "id": "b",
+            "text": "It is saying that the prices will rise."
+          },
+          {
+            "id": "c",
+            "text": "It was say that the prices will rise."
+          },
+          {
+            "id": "d",
+            "text": "It is say the prices will rise."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужна форма V3: is said.",
+        "tags": []
+      },
+      {
+        "id": "q5",
+        "type": "mcq_single",
+        "prompt": "Выберите корректную it-конструкцию.",
+        "theory_block_id": "b1_theory_it_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It is believed that she is abroad."
+          },
+          {
+            "id": "b",
+            "text": "It believes that she is abroad."
+          },
+          {
+            "id": "c",
+            "text": "It believed that she is abroad."
+          },
+          {
+            "id": "d",
+            "text": "It is believe that she is abroad."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильная форма: It is believed that...",
+        "tags": []
+      },
+      {
+        "id": "q6",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: He is believed ___ a leading expert.",
+        "theory_block_id": "b2_theory_he_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "to be"
+          },
+          {
+            "id": "b",
+            "text": "be"
+          },
+          {
+            "id": "c",
+            "text": "to have been"
+          },
+          {
+            "id": "d",
+            "text": "being"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Личная форма требует to + V1: is believed to be.",
+        "tags": []
+      },
+      {
+        "id": "q7",
+        "type": "true_false",
+        "prompt": "He is believed to... используется только в неформальной речи.",
+        "theory_block_id": "b2_theory_he_passive",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Форма He is believed to... характерна для формального стиля.",
+        "tags": []
+      },
+      {
+        "id": "q8",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: They are expected to ___ tomorrow. (прибыть)",
+        "theory_block_id": "b2_theory_he_passive",
+        "difficulty": 2,
+        "correct_answer": "arrive",
+        "explanation": "После be + V3 используется to + V1: to arrive.",
+        "tags": []
+      },
+      {
+        "id": "q9",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"He is believed to be left the city.\"",
+        "theory_block_id": "b2_theory_he_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He is believed to have left the city."
+          },
+          {
+            "id": "b",
+            "text": "He is believed to leave the city."
+          },
+          {
+            "id": "c",
+            "text": "He believed to have left the city."
+          },
+          {
+            "id": "d",
+            "text": "He is believed to be left the city."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для предшествующего действия нужен инфинитив perfect: to have left.",
+        "tags": []
+      },
+      {
+        "id": "q10",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: She is thought to ___ in Paris. (жить)",
+        "theory_block_id": "b3_theory_tense_alignment",
+        "difficulty": 2,
+        "correct_answer": "live",
+        "explanation": "Одновременность с настоящим: to live.",
+        "tags": []
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: He is believed ___ the report already.",
+        "theory_block_id": "b3_theory_tense_alignment",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "to finish"
+          },
+          {
+            "id": "b",
+            "text": "to have finished"
+          },
+          {
+            "id": "c",
+            "text": "to be finishing"
+          },
+          {
+            "id": "d",
+            "text": "finishing"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Для предшествующего действия используется to have done.",
+        "tags": []
+      },
+      {
+        "id": "q12",
+        "type": "true_false",
+        "prompt": "To have done используется, когда действие происходит одновременно с моментом речи.",
+        "theory_block_id": "b3_theory_tense_alignment",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Perfect infinitive показывает, что действие произошло раньше.",
+        "tags": []
+      },
+      {
+        "id": "q13",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"She is thought to have live in London.\"",
+        "theory_block_id": "b3_theory_tense_alignment",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She is thought to have lived in London."
+          },
+          {
+            "id": "b",
+            "text": "She is thought to live in London."
+          },
+          {
+            "id": "c",
+            "text": "She is thought to has lived in London."
+          },
+          {
+            "id": "d",
+            "text": "She is thought to have live in London."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После have нужен V3: lived.",
+        "tags": []
+      },
+      {
+        "id": "q14",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный reporting verb: It is ___ that the bridge is closed.",
+        "theory_block_id": "b4_theory_reporting_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "reported"
+          },
+          {
+            "id": "b",
+            "text": "report"
+          },
+          {
+            "id": "c",
+            "text": "reporting"
+          },
+          {
+            "id": "d",
+            "text": "reports"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В пассиве нужен V3: is reported.",
+        "tags": []
+      },
+      {
+        "id": "q15",
+        "type": "true_false",
+        "prompt": "It is reported that... звучит как новостное сообщение.",
+        "theory_block_id": "b4_theory_reporting_verbs",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Reported обычно используется в новостях.",
+        "tags": []
+      },
+      {
+        "id": "q16",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The plan is ___ to be risky. (consider)",
+        "theory_block_id": "b4_theory_reporting_verbs",
+        "difficulty": 2,
+        "correct_answer": "considered",
+        "explanation": "В пассиве: is considered.",
+        "tags": []
+      },
+      {
+        "id": "q17",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"It is know that he is abroad.\"",
+        "theory_block_id": "b4_theory_reporting_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It is known that he is abroad."
+          },
+          {
+            "id": "b",
+            "text": "It is know that he is abroad."
+          },
+          {
+            "id": "c",
+            "text": "It is knowing that he is abroad."
+          },
+          {
+            "id": "d",
+            "text": "It was know that he is abroad."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужна форма V3: known.",
+        "tags": []
+      },
+      {
+        "id": "q18",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант для официального стиля.",
+        "theory_block_id": "b5_theory_style_contexts",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It is expected that inflation will fall."
+          },
+          {
+            "id": "b",
+            "text": "People expect inflation to fall."
+          },
+          {
+            "id": "c",
+            "text": "They think inflation will fall."
+          },
+          {
+            "id": "d",
+            "text": "We expect inflation to fall."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Безличный пассив характерен для официального стиля.",
+        "tags": []
+      },
+      {
+        "id": "q19",
+        "type": "true_false",
+        "prompt": "Impersonal passive редко используется в новостях и академических текстах.",
+        "theory_block_id": "b5_theory_style_contexts",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Напротив, такие тексты часто используют impersonal passive.",
+        "tags": []
+      },
+      {
+        "id": "q20",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: It is ___ that the policy will change. (expect)",
+        "theory_block_id": "b5_theory_style_contexts",
+        "difficulty": 2,
+        "correct_answer": "expected",
+        "explanation": "It-passive требует V3: is expected.",
+        "tags": []
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: He is said ___ very wealthy.",
+        "theory_block_id": "b2_theory_he_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "to be"
+          },
+          {
+            "id": "b",
+            "text": "be"
+          },
+          {
+            "id": "c",
+            "text": "to have been"
+          },
+          {
+            "id": "d",
+            "text": "being"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Личная форма требует to + V1: is said to be.",
+        "tags": []
+      },
+      {
+        "id": "q22",
+        "type": "true_false",
+        "prompt": "He is said to have left означает, что уход произошёл раньше момента речи.",
+        "theory_block_id": "b3_theory_tense_alignment",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Perfect infinitive указывает на предшествование.",
+        "tags": []
+      },
+      {
+        "id": "q23",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"They are expect to arrive soon.\"",
+        "theory_block_id": "b4_theory_reporting_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "They are expected to arrive soon."
+          },
+          {
+            "id": "b",
+            "text": "They are expecting to arrive soon."
+          },
+          {
+            "id": "c",
+            "text": "They are expect to arrive soon."
+          },
+          {
+            "id": "d",
+            "text": "They expected to arrive soon."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужна пассивная форма: are expected.",
+        "tags": []
+      },
+      {
+        "id": "q24",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The CEO is ___ to resign. (expect)",
+        "theory_block_id": "b2_theory_he_passive",
+        "difficulty": 2,
+        "correct_answer": "expected",
+        "explanation": "He/She is expected to + V1.",
+        "tags": []
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: It is ___ that he will win.",
+        "theory_block_id": "b4_theory_reporting_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "thought"
+          },
+          {
+            "id": "b",
+            "text": "think"
+          },
+          {
+            "id": "c",
+            "text": "thinking"
+          },
+          {
+            "id": "d",
+            "text": "thinks"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "It-passive требует V3: is thought.",
+        "tags": []
+      },
+      {
+        "id": "q26",
+        "type": "true_false",
+        "prompt": "В разговорной речи чаще используют People say..., чем It is said that...",
+        "theory_block_id": "b5_theory_style_contexts",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "It-passive более формален.",
+        "tags": []
+      },
+      {
+        "id": "q27",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: It is ___ that the tunnel is unsafe. (consider)",
+        "theory_block_id": "b4_theory_reporting_verbs",
+        "difficulty": 2,
+        "correct_answer": "considered",
+        "explanation": "В пассиве: is considered.",
+        "tags": []
+      },
+      {
+        "id": "q28",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: She is believed ___ abroad now.",
+        "theory_block_id": "b3_theory_tense_alignment",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "to be"
+          },
+          {
+            "id": "b",
+            "text": "to have been"
+          },
+          {
+            "id": "c",
+            "text": "be"
+          },
+          {
+            "id": "d",
+            "text": "being"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Сейчас — to be.",
+        "tags": []
+      },
+      {
+        "id": "q29",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"He is believed to have leave already.\"",
+        "theory_block_id": "b3_theory_tense_alignment",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He is believed to have left already."
+          },
+          {
+            "id": "b",
+            "text": "He is believed to leave already."
+          },
+          {
+            "id": "c",
+            "text": "He is believed to have leaving already."
+          },
+          {
+            "id": "d",
+            "text": "He is believed to have leave already."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После have нужен V3: left.",
+        "tags": []
+      },
+      {
+        "id": "q30",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The scientist is ___ to have won the prize. (say)",
+        "theory_block_id": "b2_theory_he_passive",
+        "difficulty": 2,
+        "correct_answer": "said",
+        "explanation": "He/She is said to have done.",
+        "tags": []
+      },
+      {
+        "id": "q31",
+        "type": "true_false",
+        "prompt": "It is known that... и He is known to... одинаково формальны.",
+        "theory_block_id": "b2_theory_he_passive",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Обе формы считаются формальными.",
+        "tags": []
+      },
+      {
+        "id": "q32",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: It is ___ that he resigned. (report)",
+        "theory_block_id": "b4_theory_reporting_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "reported"
+          },
+          {
+            "id": "b",
+            "text": "report"
+          },
+          {
+            "id": "c",
+            "text": "reporting"
+          },
+          {
+            "id": "d",
+            "text": "reports"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "It-passive требует V3: is reported.",
+        "tags": []
+      },
+      {
+        "id": "q33",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: He is believed to have ___ in 2010. (arrive)",
+        "theory_block_id": "b3_theory_tense_alignment",
+        "difficulty": 2,
+        "correct_answer": "arrived",
+        "explanation": "Для прошедшего действия используется to have + V3.",
+        "tags": []
+      },
+      {
+        "id": "q34",
+        "type": "true_false",
+        "prompt": "It is expected that... обычно звучит менее формально, чем People say...",
+        "theory_block_id": "b5_theory_style_contexts",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "It is expected that... формальнее разговорных конструкций.",
+        "tags": []
+      },
+      {
+        "id": "q35",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: The plan is ___ to be risky.",
+        "theory_block_id": "b4_theory_reporting_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "considered"
+          },
+          {
+            "id": "b",
+            "text": "consider"
+          },
+          {
+            "id": "c",
+            "text": "considering"
+          },
+          {
+            "id": "d",
+            "text": "considers"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужна форма V3: considered.",
+        "tags": []
+      },
+      {
+        "id": "q36",
+        "type": "true_false",
+        "prompt": "Impersonal passive чаще встречается в разговорной речи.",
+        "theory_block_id": "b5_theory_style_contexts",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Эта конструкция характерна для формального стиля.",
+        "tags": []
+      },
+      {
+        "id": "q37",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"It is expect that the prices will fall.\"",
+        "theory_block_id": "b1_theory_it_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It is expected that the prices will fall."
+          },
+          {
+            "id": "b",
+            "text": "It is expecting that the prices will fall."
+          },
+          {
+            "id": "c",
+            "text": "It is expect that the prices will fall."
+          },
+          {
+            "id": "d",
+            "text": "It was expect that the prices will fall."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужна форма V3: expected.",
+        "tags": []
+      },
+      {
+        "id": "q38",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The president is ___ to speak tonight. (expect)",
+        "theory_block_id": "b2_theory_he_passive",
+        "difficulty": 2,
+        "correct_answer": "expected",
+        "explanation": "He/She is expected to + V1.",
+        "tags": []
+      },
+      {
+        "id": "q39",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: It is ___ that the meeting was canceled. (report)",
+        "theory_block_id": "b4_theory_reporting_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "reported"
+          },
+          {
+            "id": "b",
+            "text": "report"
+          },
+          {
+            "id": "c",
+            "text": "reporting"
+          },
+          {
+            "id": "d",
+            "text": "reports"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В it-passive используется V3: is reported.",
+        "tags": []
+      },
+      {
+        "id": "q40",
+        "type": "true_false",
+        "prompt": "He is believed to be... используется, когда важно сделать текст компактнее.",
+        "theory_block_id": "b2_theory_he_passive",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Личная форма часто короче, чем it-форма.",
+        "tags": []
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "prompt": "Выберите корректную форму: It is ___ that he has left. (say)",
+        "theory_block_id": "b1_theory_it_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "said"
+          },
+          {
+            "id": "b",
+            "text": "say"
+          },
+          {
+            "id": "c",
+            "text": "saying"
+          },
+          {
+            "id": "d",
+            "text": "says"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "It-passive требует V3: is said.",
+        "tags": []
+      },
+      {
+        "id": "q42",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The actor is ___ to have won several awards. (report)",
+        "theory_block_id": "b2_theory_he_passive",
+        "difficulty": 2,
+        "correct_answer": "reported",
+        "explanation": "He/She is reported to have done.",
+        "tags": []
+      },
+      {
+        "id": "q43",
+        "type": "true_false",
+        "prompt": "It is said that... можно заменить на People say... без изменения смысла.",
+        "theory_block_id": "b5_theory_style_contexts",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Смысл сохраняется, меняется стиль.",
+        "tags": []
+      },
+      {
+        "id": "q44",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"It is believed he is innocent.\"",
+        "theory_block_id": "b1_theory_it_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It is believed that he is innocent."
+          },
+          {
+            "id": "b",
+            "text": "It is believed he is innocent."
+          },
+          {
+            "id": "c",
+            "text": "It believed that he is innocent."
+          },
+          {
+            "id": "d",
+            "text": "It is believing that he is innocent."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В it-форме обычно нужен that.",
+        "tags": []
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: The scientist is ___ to have discovered a new element. (think)",
+        "theory_block_id": "b2_theory_he_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "thought"
+          },
+          {
+            "id": "b",
+            "text": "think"
+          },
+          {
+            "id": "c",
+            "text": "thinking"
+          },
+          {
+            "id": "d",
+            "text": "thinks"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "He/She is thought to have done.",
+        "tags": []
+      },
+      {
+        "id": "q46",
+        "type": "true_false",
+        "prompt": "It is known that... звучит более формально, чем We know that...",
+        "theory_block_id": "b5_theory_style_contexts",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Безличная форма формальнее и нейтральнее.",
+        "tags": []
+      },
+      {
+        "id": "q47",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: He is ___ to have resigned. (say)",
+        "theory_block_id": "b2_theory_he_passive",
+        "difficulty": 2,
+        "correct_answer": "said",
+        "explanation": "He is said to have done.",
+        "tags": []
+      },
+      {
+        "id": "q48",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: It is ___ that the team won. (report)",
+        "theory_block_id": "b4_theory_reporting_verbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "reported"
+          },
+          {
+            "id": "b",
+            "text": "report"
+          },
+          {
+            "id": "c",
+            "text": "reporting"
+          },
+          {
+            "id": "d",
+            "text": "reports"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В it-passive нужен V3: is reported.",
+        "tags": []
+      },
+      {
+        "id": "q49",
+        "type": "true_false",
+        "prompt": "He is expected to arrive и It is expected that he will arrive различаются по смыслу.",
+        "theory_block_id": "b2_theory_he_passive",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Смысл одинаковый, меняется форма.",
+        "tags": []
+      },
+      {
+        "id": "q50",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: It is ___ that the law will change. (expect)",
+        "theory_block_id": "b1_theory_it_passive",
+        "difficulty": 2,
+        "correct_answer": "expected",
+        "explanation": "It-passive требует V3: is expected.",
+        "tags": []
+      },
+      {
+        "id": "q51",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: The minister is ___ to resign. (report)",
+        "theory_block_id": "b2_theory_he_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "reported"
+          },
+          {
+            "id": "b",
+            "text": "report"
+          },
+          {
+            "id": "c",
+            "text": "reporting"
+          },
+          {
+            "id": "d",
+            "text": "reports"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "He/She is reported to + V1.",
+        "tags": []
+      },
+      {
+        "id": "q52",
+        "type": "true_false",
+        "prompt": "To do в личной форме обычно указывает на действие в настоящем или будущем.",
+        "theory_block_id": "b3_theory_tense_alignment",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "To do — одновременность или будущее.",
+        "tags": []
+      },
+      {
+        "id": "q53",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: She is believed to have ___ the city last year. (leave)",
+        "theory_block_id": "b3_theory_tense_alignment",
+        "difficulty": 2,
+        "correct_answer": "left",
+        "explanation": "Прошлое действие: to have + V3 (left).",
+        "tags": []
+      },
+      {
+        "id": "q54",
+        "type": "true_false",
+        "prompt": "Impersonal passive подходит для официальных отчетов и новостей.",
+        "theory_block_id": "b5_theory_style_contexts",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это одна из основных сфер использования.",
+        "tags": []
+      },
+      {
+        "id": "q55",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: It is ___ that prices may rise. (say)",
+        "theory_block_id": "b1_theory_it_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "said"
+          },
+          {
+            "id": "b",
+            "text": "say"
+          },
+          {
+            "id": "c",
+            "text": "says"
+          },
+          {
+            "id": "d",
+            "text": "saying"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "It-passive требует V3: is said.",
+        "tags": []
+      },
+      {
+        "id": "q56",
+        "type": "true_false",
+        "prompt": "He is believed to have done используется, когда действие произошло раньше.",
+        "theory_block_id": "b3_theory_tense_alignment",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Perfect infinitive показывает предшествование.",
+        "tags": []
+      },
+      {
+        "id": "q57",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: It is ___ that the CEO will resign. (expect)",
+        "theory_block_id": "b1_theory_it_passive",
+        "difficulty": 2,
+        "correct_answer": "expected",
+        "explanation": "It-passive требует V3: is expected.",
+        "tags": []
+      },
+      {
+        "id": "q58",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: The actor is ___ to be in Italy. (say)",
+        "theory_block_id": "b2_theory_he_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "said"
+          },
+          {
+            "id": "b",
+            "text": "say"
+          },
+          {
+            "id": "c",
+            "text": "saying"
+          },
+          {
+            "id": "d",
+            "text": "says"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "He/She is said to + V1.",
+        "tags": []
+      },
+      {
+        "id": "q59",
+        "type": "true_false",
+        "prompt": "It is said that... обычно менее формально, чем People say...",
+        "theory_block_id": "b5_theory_style_contexts",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "It-passive более формален, чем разговорные конструкции.",
+        "tags": []
+      },
+      {
+        "id": "q60",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The results are ___ to be accurate. (consider)",
+        "theory_block_id": "b4_theory_reporting_verbs",
+        "difficulty": 2,
+        "correct_answer": "considered",
+        "explanation": "В пассиве: are considered.",
+        "tags": []
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q8",
+      "q9",
+      "q12",
+      "q13",
+      "q16",
+      "q17",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-24T08:03:14Z",
+    "source": "llm"
+  }
+}
