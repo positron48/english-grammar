@@ -1,0 +1,1378 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.conditionals_hypotheticals.second_conditional",
+  "section_id": "en.grammar.conditionals_hypotheticals",
+  "title": "Second conditional (unreal present/future)",
+  "title_short": "Second conditional",
+  "description": "Объясняем second conditional: нереальное настоящее/будущее и воображаемый результат.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "B2",
+  "order": 0,
+  "prerequisites": [
+    "en.grammar.conditionals_hypotheticals.first_conditional"
+  ],
+  "concept_refs": [
+    "second_conditional_meaning",
+    "second_conditional_form",
+    "second_conditional_were",
+    "second_conditional_modals",
+    "first_vs_second_conditional"
+  ],
+  "learning_objectives": [
+    "Понимать смысл second conditional как нереального настоящего/будущего",
+    "Строить if + Past Simple, would + V1",
+    "Использовать were для всех лиц в формальном стиле",
+    "Применять could/might вместо would для оттенков значения"
+  ],
+  "estimated_minutes": 22,
+  "blocks": [
+    {
+      "id": "b1_theory_meaning",
+      "type": "theory",
+      "title": "Second conditional описывает воображаемые или маловероятные ситуации в настоящем или будущем. Мы говорим о том, что *не является реальностью сейчас*, и о гипотетическом результате.",
+      "theory": {
+        "concept_id": "second_conditional_meaning",
+        "content_md": "Second conditional описывает воображаемые или маловероятные ситуации в настоящем или будущем. Мы говорим о том, что *не является реальностью сейчас*, и о гипотетическом результате.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "If I lived near the office, I would walk to work.",
+            "translation": "Если бы я жил рядом с офисом, я бы ходил на работу пешком.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "If we had more time, we would visit you tomorrow.",
+            "translation": "Если бы у нас было больше времени, мы бы навестили тебя завтра.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_form",
+      "type": "theory",
+      "title": "Форма: if + Past Simple, would + V1. В if-части не используется would. В главной части можно использовать сокращение 'd.",
+      "theory": {
+        "concept_id": "second_conditional_form",
+        "content_md": "Форма: **if + Past Simple, would + V1**. В if-части не используется would. В главной части можно использовать сокращение **'d**.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "If she knew the answer, she would tell us.",
+            "translation": "Если бы она знала ответ, она бы сказала нам.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "If I didn't have a meeting, I would join you.",
+            "translation": "Если бы у меня не было встречи, я бы присоединился.",
+            "tags": [
+              "negative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_were",
+      "type": "theory",
+      "title": "В формальном стиле часто используют were для всех лиц: *If I were*, *If he were*. В разговорной речи можно встретить *was*, но were считается более правильным.",
+      "theory": {
+        "concept_id": "second_conditional_were",
+        "content_md": "В формальном стиле часто используют **were** для всех лиц: *If I were*, *If he were*. В разговорной речи можно встретить *was*, но **were** считается более правильным.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "If I were you, I would apologize.",
+            "translation": "Если бы я был на твоем месте, я бы извинился.",
+            "tags": [
+              "formal"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "If she were free tonight, she would join us.",
+            "translation": "Если бы она была свободна сегодня вечером, она бы присоединилась.",
+            "tags": [
+              "formal"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_modals",
+      "type": "theory",
+      "title": "В главной части можно использовать could (возможность/способность) или might (неуверенная возможность) вместо would.",
+      "theory": {
+        "concept_id": "second_conditional_modals",
+        "content_md": "В главной части можно использовать **could** (возможность/способность) или **might** (неуверенная возможность) вместо **would**.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "If I had the tools, I could fix it.",
+            "translation": "Если бы у меня были инструменты, я мог бы это починить.",
+            "tags": [
+              "could"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "If we moved closer, we might see them more often.",
+            "translation": "Если бы мы переехали ближе, мы могли бы видеться чаще.",
+            "tags": [
+              "might"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_first_vs_second",
+      "type": "theory",
+      "title": "First conditional — реальная возможность в будущем. Second conditional — воображаемая или маловероятная ситуация сейчас/в будущем.",
+      "theory": {
+        "concept_id": "first_vs_second_conditional",
+        "content_md": "**First conditional** — реальная возможность в будущем. **Second conditional** — воображаемая или маловероятная ситуация сейчас/в будущем.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "If it rains tomorrow, we will stay home.",
+            "translation": "Если завтра пойдет дождь, мы останемся дома.",
+            "tags": [
+              "first_conditional"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "If it rained tomorrow, we would stay home.",
+            "translation": "Если бы завтра шел дождь, мы бы остались дома.",
+            "tags": [
+              "second_conditional"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q50"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный смысл second conditional.",
+        "theory_block_id": "b1_theory_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Воображаемая ситуация и гипотетический результат"
+          },
+          {
+            "id": "b",
+            "text": "Факт, который всегда верен"
+          },
+          {
+            "id": "c",
+            "text": "Реальное будущее"
+          },
+          {
+            "id": "d",
+            "text": "Завершенное прошлое"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Second conditional описывает нереальные или маловероятные ситуации.",
+        "tags": []
+      },
+      {
+        "id": "q2",
+        "type": "true_false",
+        "prompt": "Second conditional часто используется для воображаемых ситуаций в настоящем.",
+        "theory_block_id": "b1_theory_meaning",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это основной контекст second conditional.",
+        "tags": []
+      },
+      {
+        "id": "q3",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If I had more free time, I ___ learn Spanish. (учить)",
+        "theory_block_id": "b1_theory_meaning",
+        "difficulty": 2,
+        "correct_answer": "would",
+        "explanation": "Гипотетический результат выражается через would.",
+        "tags": []
+      },
+      {
+        "id": "q4",
+        "type": "mcq_single",
+        "prompt": "Выберите предложение со second conditional.",
+        "theory_block_id": "b1_theory_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If she arrives early, we will start."
+          },
+          {
+            "id": "b",
+            "text": "If I were taller, I would play basketball."
+          },
+          {
+            "id": "c",
+            "text": "If he called, I answer."
+          },
+          {
+            "id": "d",
+            "text": "If you heat water, it boils."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Second conditional: нереальная ситуация + would.",
+        "tags": []
+      },
+      {
+        "id": "q5",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If we lived by the sea, we ___ swim every day. (плавать)",
+        "theory_block_id": "b1_theory_meaning",
+        "difficulty": 2,
+        "correct_answer": "would",
+        "explanation": "Would в главной части показывает гипотетический результат.",
+        "tags": []
+      },
+      {
+        "id": "q6",
+        "type": "true_false",
+        "prompt": "Second conditional описывает реальный и вероятный план на завтра.",
+        "theory_block_id": "b1_theory_meaning",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Для реальных планов подходит first conditional.",
+        "tags": []
+      },
+      {
+        "id": "q7",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If he had a car, he ___ drive to work. (ездить)",
+        "theory_block_id": "b1_theory_meaning",
+        "difficulty": 2,
+        "correct_answer": "would",
+        "explanation": "Гипотетический результат: would + V1.",
+        "tags": []
+      },
+      {
+        "id": "q8",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If I would know his number, I would call him.\"",
+        "theory_block_id": "b1_theory_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If I knew his number, I would call him."
+          },
+          {
+            "id": "b",
+            "text": "If I know his number, I would call him."
+          },
+          {
+            "id": "c",
+            "text": "If I would know his number, I call him."
+          },
+          {
+            "id": "d",
+            "text": "If I knew his number, I call him."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В if-части используется Past Simple, без would.",
+        "tags": []
+      },
+      {
+        "id": "q9",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный перевод: If I had the chance, I would take the course.",
+        "theory_block_id": "b1_theory_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Если бы у меня была возможность, я бы прошел курс."
+          },
+          {
+            "id": "b",
+            "text": "Когда у меня была возможность, я прошел курс."
+          },
+          {
+            "id": "c",
+            "text": "Если у меня будет возможность, я пройду курс."
+          },
+          {
+            "id": "d",
+            "text": "Если бы у меня была возможность, я бы прохожу курс."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Это гипотетическое действие в настоящем/будущем.",
+        "tags": []
+      },
+      {
+        "id": "q10",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If she had a bigger office, she ___ happier. (быть)",
+        "theory_block_id": "b1_theory_meaning",
+        "difficulty": 2,
+        "correct_answer": "would",
+        "explanation": "Would + adjective в главной части.",
+        "tags": []
+      },
+      {
+        "id": "q11",
+        "type": "true_false",
+        "prompt": "Second conditional говорит о ситуации, которая сейчас нереальна.",
+        "theory_block_id": "b1_theory_meaning",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Смысл — воображаемая ситуация.",
+        "tags": []
+      },
+      {
+        "id": "q12",
+        "type": "mcq_single",
+        "prompt": "Выберите правильное продолжение: If they lived closer, they ___.",
+        "theory_block_id": "b1_theory_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "will visit more often"
+          },
+          {
+            "id": "b",
+            "text": "visit more often"
+          },
+          {
+            "id": "c",
+            "text": "would visit more often"
+          },
+          {
+            "id": "d",
+            "text": "visited more often"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Second conditional: would + V1.",
+        "tags": []
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: If I ___ a better laptop, I would work faster.",
+        "theory_block_id": "b2_theory_form",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had"
+          },
+          {
+            "id": "b",
+            "text": "have"
+          },
+          {
+            "id": "c",
+            "text": "will have"
+          },
+          {
+            "id": "d",
+            "text": "having"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "If + Past Simple.",
+        "tags": []
+      },
+      {
+        "id": "q14",
+        "type": "true_false",
+        "prompt": "В if-части second conditional используется Past Simple.",
+        "theory_block_id": "b2_theory_form",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это базовая форма second conditional.",
+        "tags": []
+      },
+      {
+        "id": "q15",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If we ___ more staff, we would finish on time. (иметь)",
+        "theory_block_id": "b2_theory_form",
+        "difficulty": 2,
+        "correct_answer": "had",
+        "explanation": "Past Simple в условной части.",
+        "tags": []
+      },
+      {
+        "id": "q16",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If she would be free, she would join.\"",
+        "theory_block_id": "b2_theory_form",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If she were free, she would join."
+          },
+          {
+            "id": "b",
+            "text": "If she is free, she would join."
+          },
+          {
+            "id": "c",
+            "text": "If she would be free, she joined."
+          },
+          {
+            "id": "d",
+            "text": "If she was free, she will join."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Would не используется в if-части.",
+        "tags": []
+      },
+      {
+        "id": "q17",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: If he ___ more careful, he would make fewer mistakes.",
+        "theory_block_id": "b2_theory_form",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "were"
+          },
+          {
+            "id": "b",
+            "text": "is"
+          },
+          {
+            "id": "c",
+            "text": "will be"
+          },
+          {
+            "id": "d",
+            "text": "been"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Simple (were) в if-части.",
+        "tags": []
+      },
+      {
+        "id": "q18",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If it ___ warmer, we would go out. (быть)",
+        "theory_block_id": "b2_theory_form",
+        "difficulty": 2,
+        "correct_answer": "were",
+        "explanation": "Past Simple в if-части.",
+        "tags": []
+      },
+      {
+        "id": "q19",
+        "type": "true_false",
+        "prompt": "Second conditional использует would + V1 в главной части.",
+        "theory_block_id": "b2_theory_form",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это стандартная форма.",
+        "tags": []
+      },
+      {
+        "id": "q20",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: If I ___ a passport, I would travel more.",
+        "theory_block_id": "b2_theory_form",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had"
+          },
+          {
+            "id": "b",
+            "text": "have"
+          },
+          {
+            "id": "c",
+            "text": "will have"
+          },
+          {
+            "id": "d",
+            "text": "having"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "If + Past Simple.",
+        "tags": []
+      },
+      {
+        "id": "q21",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If you ___ the file, you would see the note. (открыть)",
+        "theory_block_id": "b2_theory_form",
+        "difficulty": 2,
+        "correct_answer": "opened",
+        "explanation": "Past Simple в условной части.",
+        "tags": []
+      },
+      {
+        "id": "q22",
+        "type": "true_false",
+        "prompt": "В second conditional можно использовать will в if-части.",
+        "theory_block_id": "b2_theory_form",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "В if-части используется Past Simple без will.",
+        "tags": []
+      },
+      {
+        "id": "q23",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If we would know the result, we would decide faster.\"",
+        "theory_block_id": "b2_theory_form",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If we knew the result, we would decide faster."
+          },
+          {
+            "id": "b",
+            "text": "If we know the result, we would decide faster."
+          },
+          {
+            "id": "c",
+            "text": "If we knew the result, we decide faster."
+          },
+          {
+            "id": "d",
+            "text": "If we would know the result, we decide faster."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Would в if-части не используется.",
+        "tags": []
+      },
+      {
+        "id": "q24",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: If it ___ earlier, we would leave now.",
+        "theory_block_id": "b2_theory_form",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "stopped"
+          },
+          {
+            "id": "b",
+            "text": "stops"
+          },
+          {
+            "id": "c",
+            "text": "will stop"
+          },
+          {
+            "id": "d",
+            "text": "stopping"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Simple в if-части.",
+        "tags": []
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: If I ___ you, I would accept the offer.",
+        "theory_block_id": "b3_theory_were",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "were"
+          },
+          {
+            "id": "b",
+            "text": "was"
+          },
+          {
+            "id": "c",
+            "text": "am"
+          },
+          {
+            "id": "d",
+            "text": "will be"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В формальном стиле используется were для всех лиц.",
+        "tags": []
+      },
+      {
+        "id": "q26",
+        "type": "true_false",
+        "prompt": "Фраза “If I were you” считается более формальной, чем “If I was you”.",
+        "theory_block_id": "b3_theory_were",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Were — предпочтительный вариант в учебной норме.",
+        "tags": []
+      },
+      {
+        "id": "q27",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If he ___ more confident, he would speak up. (быть)",
+        "theory_block_id": "b3_theory_were",
+        "difficulty": 2,
+        "correct_answer": "were",
+        "explanation": "Were возможно для всех лиц в formal style.",
+        "tags": []
+      },
+      {
+        "id": "q28",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: If she ___ the manager, she would change the policy.",
+        "theory_block_id": "b3_theory_were",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "were"
+          },
+          {
+            "id": "b",
+            "text": "was"
+          },
+          {
+            "id": "c",
+            "text": "is"
+          },
+          {
+            "id": "d",
+            "text": "will be"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Were используется как более правильный вариант.",
+        "tags": []
+      },
+      {
+        "id": "q29",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If I ___ taller, I would reach the shelf. (быть)",
+        "theory_block_id": "b3_theory_were",
+        "difficulty": 2,
+        "correct_answer": "were",
+        "explanation": "Were подходит для гипотетической ситуации.",
+        "tags": []
+      },
+      {
+        "id": "q30",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If I was you, I would check the data.\"",
+        "theory_block_id": "b3_theory_were",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If I were you, I would check the data."
+          },
+          {
+            "id": "b",
+            "text": "If I am you, I would check the data."
+          },
+          {
+            "id": "c",
+            "text": "If I were you, I will check the data."
+          },
+          {
+            "id": "d",
+            "text": "If I was you, I check the data."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Were — предпочтительная форма в условном нереальном.",
+        "tags": []
+      },
+      {
+        "id": "q31",
+        "type": "true_false",
+        "prompt": "В разговорной речи иногда используют was вместо were в second conditional.",
+        "theory_block_id": "b3_theory_were",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Но were считается более правильным в формальном стиле.",
+        "tags": []
+      },
+      {
+        "id": "q32",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If it ___ possible, we would help. (быть)",
+        "theory_block_id": "b3_theory_were",
+        "difficulty": 2,
+        "correct_answer": "were",
+        "explanation": "Were используется для нереальной ситуации.",
+        "tags": []
+      },
+      {
+        "id": "q33",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: If I ___ in your position, I would wait.",
+        "theory_block_id": "b3_theory_were",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "were"
+          },
+          {
+            "id": "b",
+            "text": "was"
+          },
+          {
+            "id": "c",
+            "text": "am"
+          },
+          {
+            "id": "d",
+            "text": "will be"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "If I were... — устойчивое выражение.",
+        "tags": []
+      },
+      {
+        "id": "q34",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If she were here, she will help.\"",
+        "theory_block_id": "b3_theory_were",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If she were here, she would help."
+          },
+          {
+            "id": "b",
+            "text": "If she is here, she would help."
+          },
+          {
+            "id": "c",
+            "text": "If she were here, she helps."
+          },
+          {
+            "id": "d",
+            "text": "If she was here, she will help."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Главная часть должна быть would + V1.",
+        "tags": []
+      },
+      {
+        "id": "q35",
+        "type": "true_false",
+        "prompt": "Вариант “If he is late, we would start without him” соответствует second conditional.",
+        "theory_block_id": "b3_theory_were",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Здесь смесь Present Simple и would, это неверно для second conditional.",
+        "tags": []
+      },
+      {
+        "id": "q36",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If she ___ more experienced, she would lead the team. (быть)",
+        "theory_block_id": "b3_theory_were",
+        "difficulty": 2,
+        "correct_answer": "were",
+        "explanation": "Were для гипотетического описания.",
+        "tags": []
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: If I had the budget, I ___ hire another designer.",
+        "theory_block_id": "b4_theory_modals",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "could"
+          },
+          {
+            "id": "b",
+            "text": "can"
+          },
+          {
+            "id": "c",
+            "text": "must"
+          },
+          {
+            "id": "d",
+            "text": "have"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Could выражает возможность при условии.",
+        "tags": []
+      },
+      {
+        "id": "q38",
+        "type": "true_false",
+        "prompt": "В second conditional вместо would можно использовать could/might.",
+        "theory_block_id": "b4_theory_modals",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это меняет оттенок значения результата.",
+        "tags": []
+      },
+      {
+        "id": "q39",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If we had more data, we ___ predict the outcome. (мочь)",
+        "theory_block_id": "b4_theory_modals",
+        "difficulty": 2,
+        "correct_answer": "could",
+        "explanation": "Could = возможность при условии.",
+        "tags": []
+      },
+      {
+        "id": "q40",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: If she lived nearby, she ___ visit more often.",
+        "theory_block_id": "b4_theory_modals",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "might"
+          },
+          {
+            "id": "b",
+            "text": "must"
+          },
+          {
+            "id": "c",
+            "text": "will"
+          },
+          {
+            "id": "d",
+            "text": "did"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Might выражает менее уверенный результат.",
+        "tags": []
+      },
+      {
+        "id": "q41",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If I had a map, I ___ find the shortcut. (возможно)",
+        "theory_block_id": "b4_theory_modals",
+        "difficulty": 2,
+        "correct_answer": "might",
+        "explanation": "Might = вероятная возможность.",
+        "tags": []
+      },
+      {
+        "id": "q42",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If we had time, we will could help.\"",
+        "theory_block_id": "b4_theory_modals",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If we had time, we could help."
+          },
+          {
+            "id": "b",
+            "text": "If we had time, we could helped."
+          },
+          {
+            "id": "c",
+            "text": "If we had time, we might helping."
+          },
+          {
+            "id": "d",
+            "text": "If we had time, we will help."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После could используется базовая форма.",
+        "tags": []
+      },
+      {
+        "id": "q43",
+        "type": "true_false",
+        "prompt": "Could в second conditional часто подчеркивает способность.",
+        "theory_block_id": "b4_theory_modals",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Could = способность/возможность при условии.",
+        "tags": []
+      },
+      {
+        "id": "q44",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If he had the contacts, he ___ get us tickets. (мочь)",
+        "theory_block_id": "b4_theory_modals",
+        "difficulty": 2,
+        "correct_answer": "could",
+        "explanation": "Could подходит для возможности.",
+        "tags": []
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "prompt": "Выберите корректный вариант: If I had more time, I ___ finish the course.",
+        "theory_block_id": "b4_theory_modals",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "would"
+          },
+          {
+            "id": "b",
+            "text": "might"
+          },
+          {
+            "id": "c",
+            "text": "could"
+          },
+          {
+            "id": "d",
+            "text": "can"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Would — нейтральный гипотетический результат.",
+        "tags": []
+      },
+      {
+        "id": "q46",
+        "type": "true_false",
+        "prompt": "Might в second conditional делает результат менее уверенным.",
+        "theory_block_id": "b4_theory_modals",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Might = возможность, а не уверенность.",
+        "tags": []
+      },
+      {
+        "id": "q47",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If I had a free weekend, I ___ go hiking. (возможно)",
+        "theory_block_id": "b4_theory_modals",
+        "difficulty": 2,
+        "correct_answer": "might",
+        "explanation": "Might обозначает возможный результат.",
+        "tags": []
+      },
+      {
+        "id": "q48",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If you had the app, you can track the order.\"",
+        "theory_block_id": "b4_theory_modals",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If you had the app, you could track the order."
+          },
+          {
+            "id": "b",
+            "text": "If you have the app, you could track the order."
+          },
+          {
+            "id": "c",
+            "text": "If you had the app, you would tracked the order."
+          },
+          {
+            "id": "d",
+            "text": "If you had the app, you might tracked the order."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Second conditional требует could/might/would + V1.",
+        "tags": []
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "Выберите предложение, описывающее реальную возможность.",
+        "theory_block_id": "b5_theory_first_vs_second",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If I were you, I would wait."
+          },
+          {
+            "id": "b",
+            "text": "If he knew the answer, he would tell us."
+          },
+          {
+            "id": "c",
+            "text": "If it rains tomorrow, we will cancel the trip."
+          },
+          {
+            "id": "d",
+            "text": "If I had a million, I would quit."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Это first conditional: реальное будущее.",
+        "tags": []
+      },
+      {
+        "id": "q50",
+        "type": "true_false",
+        "prompt": "Second conditional описывает более реальную ситуацию, чем first conditional.",
+        "theory_block_id": "b5_theory_first_vs_second",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "First conditional более реалистичен.",
+        "tags": []
+      },
+      {
+        "id": "q51",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If the deal falls through, we will ___ another partner. (искать)",
+        "theory_block_id": "b5_theory_first_vs_second",
+        "difficulty": 2,
+        "correct_answer": "seek",
+        "explanation": "Это first conditional: реальный будущий результат.",
+        "tags": []
+      },
+      {
+        "id": "q52",
+        "type": "mcq_single",
+        "prompt": "Выберите вариант со second conditional.",
+        "theory_block_id": "b5_theory_first_vs_second",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If the lights go out, we will use candles."
+          },
+          {
+            "id": "b",
+            "text": "If I had more savings, I would invest."
+          },
+          {
+            "id": "c",
+            "text": "If you press this key, the screen lights up."
+          },
+          {
+            "id": "d",
+            "text": "If she calls, I will answer."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Нереальная ситуация + would.",
+        "tags": []
+      },
+      {
+        "id": "q53",
+        "type": "true_false",
+        "prompt": "If it rained tomorrow, we would stay inside. — это second conditional.",
+        "theory_block_id": "b5_theory_first_vs_second",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Past Simple + would = second conditional.",
+        "tags": []
+      },
+      {
+        "id": "q54",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If I won the prize, I would ___ it to charity. (отдать)",
+        "theory_block_id": "b5_theory_first_vs_second",
+        "difficulty": 2,
+        "correct_answer": "donate",
+        "explanation": "Second conditional: would + V1.",
+        "tags": []
+      },
+      {
+        "id": "q55",
+        "type": "mcq_single",
+        "prompt": "Выберите корректное сравнение.",
+        "theory_block_id": "b5_theory_first_vs_second",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "First conditional = реальная возможность, Second conditional = нереальная/воображаемая."
+          },
+          {
+            "id": "b",
+            "text": "First conditional = прошлое, Second conditional = будущее."
+          },
+          {
+            "id": "c",
+            "text": "First conditional = правило, Second conditional = факт."
+          },
+          {
+            "id": "d",
+            "text": "First conditional = past perfect, Second conditional = present perfect."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Это главное различие между first и second.",
+        "tags": []
+      },
+      {
+        "id": "q56",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If I have more time, I would finish the report.\"",
+        "theory_block_id": "b5_theory_first_vs_second",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If I had more time, I would finish the report."
+          },
+          {
+            "id": "b",
+            "text": "If I have more time, I will finish the report."
+          },
+          {
+            "id": "c",
+            "text": "If I had more time, I will finish the report."
+          },
+          {
+            "id": "d",
+            "text": "If I would have more time, I would finish the report."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для second conditional нужен Past Simple в if-части.",
+        "tags": []
+      },
+      {
+        "id": "q57",
+        "type": "true_false",
+        "prompt": "If you study tomorrow, you will pass. — это first conditional.",
+        "theory_block_id": "b5_theory_first_vs_second",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "If + Present Simple и will + V1.",
+        "tags": []
+      },
+      {
+        "id": "q58",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If she were the CEO, she would ___ the strategy. (изменить)",
+        "theory_block_id": "b5_theory_first_vs_second",
+        "difficulty": 2,
+        "correct_answer": "change",
+        "explanation": "Second conditional: would + V1.",
+        "tags": []
+      },
+      {
+        "id": "q59",
+        "type": "mcq_single",
+        "prompt": "Выберите предложение про воображаемую ситуацию.",
+        "theory_block_id": "b5_theory_first_vs_second",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If the traffic is heavy, we will be late."
+          },
+          {
+            "id": "b",
+            "text": "If I owned a studio, I would record music."
+          },
+          {
+            "id": "c",
+            "text": "If you press Enter, the form sends."
+          },
+          {
+            "id": "d",
+            "text": "If she calls, I will answer."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Это нереальная ситуация в настоящем.",
+        "tags": []
+      },
+      {
+        "id": "q60",
+        "type": "true_false",
+        "prompt": "Second conditional использует Past Simple в if-части, но не говорит о прошлом.",
+        "theory_block_id": "b5_theory_first_vs_second",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Past Simple здесь выражает нереальность, а не время.",
+        "tags": []
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-24T08:27:23Z",
+    "source": "llm"
+  }
+}
