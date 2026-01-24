@@ -1,0 +1,1378 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.conditionals_hypotheticals.build_speak_advice_regrets",
+  "section_id": "en.grammar.conditionals_hypotheticals",
+  "title": "Build & speak: advice + regrets + alternative scenarios",
+  "title_short": "Build & speak: advice + regrets + alternative scenarios",
+  "description": "Практика: советы, сожаления и альтернативные сценарии с условными.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "B2",
+  "order": 0,
+  "prerequisites": [
+    "en.grammar.conditionals_hypotheticals.wish_if_only_would"
+  ],
+  "concept_refs": [
+    "advice_conditionals",
+    "regrets_third",
+    "alternative_scenarios",
+    "wish_if_only_practice",
+    "build_speak_conditional"
+  ],
+  "learning_objectives": [
+    "Давать советы с помощью conditional конструкций",
+    "Выражать сожаления о прошлом",
+    "Строить альтернативные сценарии",
+    "Комбинировать формы для осмысленных высказываний"
+  ],
+  "estimated_minutes": 24,
+  "blocks": [
+    {
+      "id": "b1_theory_advice",
+      "type": "theory",
+      "title": "Для советов часто используют If I were you, I would... или You should.... Это мягкая форма рекомендации.",
+      "theory": {
+        "concept_id": "advice_conditionals",
+        "content_md": "Для советов часто используют **If I were you, I would...** или **You should...**. Это мягкая форма рекомендации.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "If I were you, I would talk to your manager.",
+            "translation": "На твоем месте я бы поговорил с руководителем.",
+            "tags": [
+              "advice"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "If I were you, I wouldn't postpone the decision.",
+            "translation": "На твоем месте я бы не откладывал решение.",
+            "tags": [
+              "advice"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_regrets",
+      "type": "theory",
+      "title": "Сожаления о прошлом выражаются через third conditional: if + Past Perfect, would have + V3.",
+      "theory": {
+        "concept_id": "regrets_third",
+        "content_md": "Сожаления о прошлом выражаются через **third conditional**: if + Past Perfect, would have + V3.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "If I had checked the details, I would have avoided the mistake.",
+            "translation": "Если бы я проверил детали, я бы избежал ошибки.",
+            "tags": [
+              "regret"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "If we had left earlier, we would have caught the train.",
+            "translation": "Если бы мы вышли раньше, мы бы успели на поезд.",
+            "tags": [
+              "regret"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_alternatives",
+      "type": "theory",
+      "title": "Альтернативные сценарии часто строятся как mixed conditional: прошлое условие → настоящее следствие.",
+      "theory": {
+        "concept_id": "alternative_scenarios",
+        "content_md": "Альтернативные сценарии часто строятся как **mixed conditional**: прошлое условие → настоящее следствие.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "If I had accepted the offer, I would work abroad now.",
+            "translation": "Если бы я принял предложение, я бы сейчас работал за границей.",
+            "tags": [
+              "mixed"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "If she had taken that course, she would feel more confident now.",
+            "translation": "Если бы она прошла тот курс, сейчас она бы чувствовала себя увереннее.",
+            "tags": [
+              "mixed"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_wish_if_only",
+      "type": "theory",
+      "title": "Wish / If only помогают выразить эмоции: сожаления, недовольство, сильные желания.",
+      "theory": {
+        "concept_id": "wish_if_only_practice",
+        "content_md": "**Wish / If only** помогают выразить эмоции: сожаления, недовольство, сильные желания.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I wish I had more time this week.",
+            "translation": "Жаль, что у меня нет больше времени на этой неделе.",
+            "tags": [
+              "wish"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "If only we had booked earlier.",
+            "translation": "Если бы мы забронировали раньше.",
+            "tags": [
+              "if_only"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q35",
+          "q36"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_build_speak",
+      "type": "theory",
+      "title": "В связной речи можно комбинировать условные конструкции: совет → сожаление → альтернативный вывод.",
+      "theory": {
+        "concept_id": "build_speak_conditional",
+        "content_md": "В связной речи можно комбинировать условные конструкции: совет → сожаление → альтернативный вывод.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "If I were you, I'd clarify the terms; if I had done that earlier, I'd be calmer now.",
+            "translation": "На твоем месте я бы уточнил условия; если бы я сделал это раньше, сейчас был бы спокойнее.",
+            "tags": [
+              "combined"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "If only we had checked the plan, we wouldn't be fixing it today.",
+            "translation": "Если бы мы проверили план, мы бы не исправляли его сегодня.",
+            "tags": [
+              "combined"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q43",
+          "q44"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите лучший совет.",
+        "theory_block_id": "b1_theory_advice",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If I were you, I would update your CV."
+          },
+          {
+            "id": "b",
+            "text": "If I was you, I will update your CV."
+          },
+          {
+            "id": "c",
+            "text": "If I am you, I would update your CV."
+          },
+          {
+            "id": "d",
+            "text": "If I were you, I update your CV."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "If I were you + would — стандартная форма совета.",
+        "tags": []
+      },
+      {
+        "id": "q2",
+        "type": "true_false",
+        "prompt": "Фраза “If I were you, I would…” — это мягкий совет.",
+        "theory_block_id": "b1_theory_advice",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это вежливая рекомендация.",
+        "tags": []
+      },
+      {
+        "id": "q3",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If I were you, I ___ call the client. (позвонить)",
+        "theory_block_id": "b1_theory_advice",
+        "difficulty": 2,
+        "correct_answer": "would",
+        "explanation": "Совет: would + V1.",
+        "tags": []
+      },
+      {
+        "id": "q4",
+        "type": "mcq_single",
+        "prompt": "Выберите корректный совет: If I were you, I ___ the report today.",
+        "theory_block_id": "b1_theory_advice",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "would finish"
+          },
+          {
+            "id": "b",
+            "text": "will finish"
+          },
+          {
+            "id": "c",
+            "text": "finish"
+          },
+          {
+            "id": "d",
+            "text": "finished"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Would + V1 для совета.",
+        "tags": []
+      },
+      {
+        "id": "q5",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If I were you, I ___ not postpone the meeting. (не откладывать)",
+        "theory_block_id": "b1_theory_advice",
+        "difficulty": 2,
+        "correct_answer": "would",
+        "explanation": "Совет: would + not + V1.",
+        "tags": []
+      },
+      {
+        "id": "q6",
+        "type": "true_false",
+        "prompt": "Для советов можно использовать would во всех частях предложения.",
+        "theory_block_id": "b1_theory_advice",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Would используется только в главной части.",
+        "tags": []
+      },
+      {
+        "id": "q7",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If I were you, I ___ to HR. (обратиться)",
+        "theory_block_id": "b1_theory_advice",
+        "difficulty": 2,
+        "correct_answer": "would",
+        "explanation": "Would + V1.",
+        "tags": []
+      },
+      {
+        "id": "q8",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If I were you, I will wait.\"",
+        "theory_block_id": "b1_theory_advice",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If I were you, I would wait."
+          },
+          {
+            "id": "b",
+            "text": "If I was you, I would wait."
+          },
+          {
+            "id": "c",
+            "text": "If I were you, I wait."
+          },
+          {
+            "id": "d",
+            "text": "If I am you, I would wait."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В главной части нужен would.",
+        "tags": []
+      },
+      {
+        "id": "q9",
+        "type": "mcq_single",
+        "prompt": "Выберите лучший совет: If I were you, I ___ a backup.",
+        "theory_block_id": "b1_theory_advice",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "would make"
+          },
+          {
+            "id": "b",
+            "text": "will make"
+          },
+          {
+            "id": "c",
+            "text": "make"
+          },
+          {
+            "id": "d",
+            "text": "made"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Would + V1 для совета.",
+        "tags": []
+      },
+      {
+        "id": "q10",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If I were you, I ___ ask for clarification. (спросить)",
+        "theory_block_id": "b1_theory_advice",
+        "difficulty": 2,
+        "correct_answer": "would",
+        "explanation": "Would + V1.",
+        "tags": []
+      },
+      {
+        "id": "q11",
+        "type": "true_false",
+        "prompt": "If I were you может быть заменено на If I was you без изменения смысла.",
+        "theory_block_id": "b1_theory_advice",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Was встречается в разговорной речи, но were предпочтительнее.",
+        "tags": []
+      },
+      {
+        "id": "q12",
+        "type": "mcq_single",
+        "prompt": "Выберите корректный совет: If I were you, I ___ earlier tonight.",
+        "theory_block_id": "b1_theory_advice",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "would sleep"
+          },
+          {
+            "id": "b",
+            "text": "will sleep"
+          },
+          {
+            "id": "c",
+            "text": "sleep"
+          },
+          {
+            "id": "d",
+            "text": "slept"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Would + V1 для совета.",
+        "tags": []
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму сожаления о прошлом.",
+        "theory_block_id": "b2_theory_regrets",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If I had checked, I would have noticed."
+          },
+          {
+            "id": "b",
+            "text": "If I checked, I would have noticed."
+          },
+          {
+            "id": "c",
+            "text": "If I had checked, I would notice."
+          },
+          {
+            "id": "d",
+            "text": "If I check, I would have noticed."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Third conditional: Past Perfect + would have + V3.",
+        "tags": []
+      },
+      {
+        "id": "q14",
+        "type": "true_false",
+        "prompt": "Third conditional используется для сожалений о прошлом.",
+        "theory_block_id": "b2_theory_regrets",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это типичный контекст.",
+        "tags": []
+      },
+      {
+        "id": "q15",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If I had left earlier, I would have ___ the train. (успеть)",
+        "theory_block_id": "b2_theory_regrets",
+        "difficulty": 2,
+        "correct_answer": "caught",
+        "explanation": "V3 после would have.",
+        "tags": []
+      },
+      {
+        "id": "q16",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If we had known, we would avoid the issue.\"",
+        "theory_block_id": "b2_theory_regrets",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If we had known, we would have avoided the issue."
+          },
+          {
+            "id": "b",
+            "text": "If we knew, we would have avoided the issue."
+          },
+          {
+            "id": "c",
+            "text": "If we had known, we avoided the issue."
+          },
+          {
+            "id": "d",
+            "text": "If we had known, we will avoid the issue."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past result требует would have + V3.",
+        "tags": []
+      },
+      {
+        "id": "q17",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: If she had told me, I would have ___.",
+        "theory_block_id": "b2_theory_regrets",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "helped"
+          },
+          {
+            "id": "b",
+            "text": "help"
+          },
+          {
+            "id": "c",
+            "text": "helps"
+          },
+          {
+            "id": "d",
+            "text": "will help"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Would have + V3.",
+        "tags": []
+      },
+      {
+        "id": "q18",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If they had prepared better, they would have ___ the delay. (избежать)",
+        "theory_block_id": "b2_theory_regrets",
+        "difficulty": 2,
+        "correct_answer": "avoided",
+        "explanation": "V3 после would have.",
+        "tags": []
+      },
+      {
+        "id": "q19",
+        "type": "true_false",
+        "prompt": "В third conditional главная часть использует would + V1.",
+        "theory_block_id": "b2_theory_regrets",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Нужен would have + V3.",
+        "tags": []
+      },
+      {
+        "id": "q20",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: If I had saved the file, I would have ___.",
+        "theory_block_id": "b2_theory_regrets",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "sent it"
+          },
+          {
+            "id": "b",
+            "text": "send it"
+          },
+          {
+            "id": "c",
+            "text": "sending it"
+          },
+          {
+            "id": "d",
+            "text": "will send it"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Would have + V3.",
+        "tags": []
+      },
+      {
+        "id": "q21",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If I had taken notes, I would have ___ the details. (запомнить)",
+        "theory_block_id": "b2_theory_regrets",
+        "difficulty": 2,
+        "correct_answer": "remembered",
+        "explanation": "Past result: would have + V3.",
+        "tags": []
+      },
+      {
+        "id": "q22",
+        "type": "true_false",
+        "prompt": "Third conditional описывает альтернативный результат в прошлом.",
+        "theory_block_id": "b2_theory_regrets",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Обе части относятся к прошлому.",
+        "tags": []
+      },
+      {
+        "id": "q23",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If we had listened, we would have knew.\"",
+        "theory_block_id": "b2_theory_regrets",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If we had listened, we would have known."
+          },
+          {
+            "id": "b",
+            "text": "If we had listened, we would know."
+          },
+          {
+            "id": "c",
+            "text": "If we listened, we would have known."
+          },
+          {
+            "id": "d",
+            "text": "If we had listened, we knew."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "V3 после would have.",
+        "tags": []
+      },
+      {
+        "id": "q24",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: If he had left on time, he would have ___.",
+        "theory_block_id": "b2_theory_regrets",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "arrived"
+          },
+          {
+            "id": "b",
+            "text": "arrive"
+          },
+          {
+            "id": "c",
+            "text": "arrives"
+          },
+          {
+            "id": "d",
+            "text": "will arrive"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Would have + V3.",
+        "tags": []
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: If I had taken that job, I ___ abroad now.",
+        "theory_block_id": "b3_theory_alternatives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "would work"
+          },
+          {
+            "id": "b",
+            "text": "would have worked"
+          },
+          {
+            "id": "c",
+            "text": "worked"
+          },
+          {
+            "id": "d",
+            "text": "will work"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Mixed: past condition + present result.",
+        "tags": []
+      },
+      {
+        "id": "q26",
+        "type": "true_false",
+        "prompt": "Mixed conditional связывает прошлое условие и настоящее последствие.",
+        "theory_block_id": "b3_theory_alternatives",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это типичная схема mixed.",
+        "tags": []
+      },
+      {
+        "id": "q27",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If she had studied design, she ___ more confident now. (быть)",
+        "theory_block_id": "b3_theory_alternatives",
+        "difficulty": 2,
+        "correct_answer": "would",
+        "explanation": "Present result: would + V1.",
+        "tags": []
+      },
+      {
+        "id": "q28",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If he had taken the course, he would have more skills now.\"",
+        "theory_block_id": "b3_theory_alternatives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If he had taken the course, he would have more skills now."
+          },
+          {
+            "id": "b",
+            "text": "If he had taken the course, he would have had more skills then."
+          },
+          {
+            "id": "c",
+            "text": "If he had taken the course, he would have more skills then."
+          },
+          {
+            "id": "d",
+            "text": "If he took the course, he would have more skills now."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Would have + noun phrase (have) подходит для результата сейчас.",
+        "tags": []
+      },
+      {
+        "id": "q29",
+        "type": "mcq_single",
+        "prompt": "Выберите смешанный вариант.",
+        "theory_block_id": "b3_theory_alternatives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If I had known, I would have called."
+          },
+          {
+            "id": "b",
+            "text": "If I knew, I would call."
+          },
+          {
+            "id": "c",
+            "text": "If I had known, I would be calm now."
+          },
+          {
+            "id": "d",
+            "text": "If I know, I will call."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Past condition + present result.",
+        "tags": []
+      },
+      {
+        "id": "q30",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If we had planned better, we ___ less stressed now. (быть)",
+        "theory_block_id": "b3_theory_alternatives",
+        "difficulty": 2,
+        "correct_answer": "would",
+        "explanation": "Would + V1 for present result.",
+        "tags": []
+      },
+      {
+        "id": "q31",
+        "type": "true_false",
+        "prompt": "В mixed conditional главная часть всегда в форме would have + V3.",
+        "theory_block_id": "b3_theory_alternatives",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Для настоящего результата используется would + V1.",
+        "tags": []
+      },
+      {
+        "id": "q32",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: If I had accepted the offer, I ___ in the city now.",
+        "theory_block_id": "b3_theory_alternatives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "would live"
+          },
+          {
+            "id": "b",
+            "text": "would have lived"
+          },
+          {
+            "id": "c",
+            "text": "lived"
+          },
+          {
+            "id": "d",
+            "text": "will live"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Present result: would + V1.",
+        "tags": []
+      },
+      {
+        "id": "q33",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If he had chosen differently, he ___ happier now. (быть)",
+        "theory_block_id": "b3_theory_alternatives",
+        "difficulty": 2,
+        "correct_answer": "would",
+        "explanation": "Would + V1 for present result.",
+        "tags": []
+      },
+      {
+        "id": "q34",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If I had taken that course, I would have better English now.\"",
+        "theory_block_id": "b3_theory_alternatives",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If I had taken that course, I would have better English now."
+          },
+          {
+            "id": "b",
+            "text": "If I had taken that course, I would have had better English then."
+          },
+          {
+            "id": "c",
+            "text": "If I took that course, I would have better English now."
+          },
+          {
+            "id": "d",
+            "text": "If I had taken that course, I would have better English then."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Would have + noun phrase can express present result.",
+        "tags": []
+      },
+      {
+        "id": "q35",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: I wish I ___ more time this week.",
+        "theory_block_id": "b4_theory_wish_if_only",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had"
+          },
+          {
+            "id": "b",
+            "text": "have"
+          },
+          {
+            "id": "c",
+            "text": "will have"
+          },
+          {
+            "id": "d",
+            "text": "had had"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Wish + Past Simple for present regret.",
+        "tags": []
+      },
+      {
+        "id": "q36",
+        "type": "true_false",
+        "prompt": "Wish может выражать эмоциональное сожаление.",
+        "theory_block_id": "b4_theory_wish_if_only",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это частая функция wish.",
+        "tags": []
+      },
+      {
+        "id": "q37",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If only we ___ the hotel earlier. (забронировать)",
+        "theory_block_id": "b4_theory_wish_if_only",
+        "difficulty": 2,
+        "correct_answer": "had",
+        "explanation": "Past Perfect: had booked.",
+        "tags": []
+      },
+      {
+        "id": "q38",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"I wish I would have more time.\"",
+        "theory_block_id": "b4_theory_wish_if_only",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I wish I had more time."
+          },
+          {
+            "id": "b",
+            "text": "I wish I will have more time."
+          },
+          {
+            "id": "c",
+            "text": "I wish I had had more time."
+          },
+          {
+            "id": "d",
+            "text": "I wish I would have had more time."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для настоящего сожаления нужен Past Simple.",
+        "tags": []
+      },
+      {
+        "id": "q39",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: If only I ___ earlier yesterday.",
+        "theory_block_id": "b4_theory_wish_if_only",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had arrived"
+          },
+          {
+            "id": "b",
+            "text": "arrived"
+          },
+          {
+            "id": "c",
+            "text": "would arrive"
+          },
+          {
+            "id": "d",
+            "text": "will arrive"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "If only + Past Perfect для прошлого сожаления.",
+        "tags": []
+      },
+      {
+        "id": "q40",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: I wish it ___ stop raining. (перестать)",
+        "theory_block_id": "b4_theory_wish_if_only",
+        "difficulty": 2,
+        "correct_answer": "would",
+        "explanation": "Wish + would для изменения ситуации.",
+        "tags": []
+      },
+      {
+        "id": "q41",
+        "type": "true_false",
+        "prompt": "If only используется в более эмоциональных ситуациях, чем wish.",
+        "theory_block_id": "b4_theory_wish_if_only",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "If only звучит сильнее.",
+        "tags": []
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: I wish you ___ stop complaining.",
+        "theory_block_id": "b4_theory_wish_if_only",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "would"
+          },
+          {
+            "id": "b",
+            "text": "did"
+          },
+          {
+            "id": "c",
+            "text": "had"
+          },
+          {
+            "id": "d",
+            "text": "will"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Wish + would для жалобы.",
+        "tags": []
+      },
+      {
+        "id": "q43",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную структуру: It’s time you ___.",
+        "theory_block_id": "b5_theory_build_speak",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "started"
+          },
+          {
+            "id": "b",
+            "text": "start"
+          },
+          {
+            "id": "c",
+            "text": "will start"
+          },
+          {
+            "id": "d",
+            "text": "have started"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "It's time + Past Simple.",
+        "tags": []
+      },
+      {
+        "id": "q44",
+        "type": "true_false",
+        "prompt": "В связной речи можно сочетать совет и сожаление в одном высказывании.",
+        "theory_block_id": "b5_theory_build_speak",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это и есть цель блока build & speak.",
+        "tags": []
+      },
+      {
+        "id": "q45",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If I were you, I ___ ask for feedback; if I had done that earlier, I'd feel calmer now. (быть)",
+        "theory_block_id": "b5_theory_build_speak",
+        "difficulty": 2,
+        "correct_answer": "would",
+        "explanation": "Совет: would + V1.",
+        "tags": []
+      },
+      {
+        "id": "q46",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If only we had checked, we wouldn't be fixing it today.\"",
+        "theory_block_id": "b5_theory_build_speak",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If only we had checked, we wouldn't be fixing it today."
+          },
+          {
+            "id": "b",
+            "text": "If only we checked, we wouldn't be fixing it today."
+          },
+          {
+            "id": "c",
+            "text": "If only we had checked, we wouldn't fixed it today."
+          },
+          {
+            "id": "d",
+            "text": "If only we had checked, we wouldn't be fixed it today."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Смешанная форма корректна: прошлое условие + настоящее следствие.",
+        "tags": []
+      },
+      {
+        "id": "q47",
+        "type": "mcq_single",
+        "prompt": "Выберите логичную комбинацию.",
+        "theory_block_id": "b5_theory_build_speak",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If I were you, I'd clarify; if I'd clarified earlier, I'd be calmer now."
+          },
+          {
+            "id": "b",
+            "text": "If I am you, I'd clarify; if I had clarified earlier, I'd be calmer now."
+          },
+          {
+            "id": "c",
+            "text": "If I were you, I'd clarify; if I had clarified earlier, I'd be calmer now."
+          },
+          {
+            "id": "d",
+            "text": "If I were you, I clarify; if I had clarified earlier, I am calmer now."
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "Корректное сочетание совета и mixed conditional.",
+        "tags": []
+      },
+      {
+        "id": "q48",
+        "type": "true_false",
+        "prompt": "В выражении 'If only we had checked, we wouldn't be fixing it today' используется mixed conditional.",
+        "theory_block_id": "b5_theory_build_speak",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Прошлое условие + настоящее последствие.",
+        "tags": []
+      },
+      {
+        "id": "q49",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If I had prepared, I ___ not be stressed now. (быть)",
+        "theory_block_id": "b5_theory_build_speak",
+        "difficulty": 2,
+        "correct_answer": "would",
+        "explanation": "Present result: would + V1.",
+        "tags": []
+      },
+      {
+        "id": "q50",
+        "type": "true_false",
+        "prompt": "Форма 'If I were you, I would...' относится к third conditional.",
+        "theory_block_id": "b5_theory_build_speak",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Это second conditional, используемый для советов.",
+        "tags": []
+      },
+      {
+        "id": "q51",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: I wish I ___ more confident now. (быть)",
+        "theory_block_id": "b4_theory_wish_if_only",
+        "difficulty": 2,
+        "correct_answer": "were",
+        "explanation": "Wish + Past Simple.",
+        "tags": []
+      },
+      {
+        "id": "q52",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: If only I ___ the train. (not miss)",
+        "theory_block_id": "b4_theory_wish_if_only",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "hadn't missed"
+          },
+          {
+            "id": "b",
+            "text": "didn't miss"
+          },
+          {
+            "id": "c",
+            "text": "wouldn't miss"
+          },
+          {
+            "id": "d",
+            "text": "won't miss"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Perfect для сожаления о прошлом.",
+        "tags": []
+      },
+      {
+        "id": "q53",
+        "type": "true_false",
+        "prompt": "If only + Past Simple выражает сожаление о настоящем.",
+        "theory_block_id": "b4_theory_wish_if_only",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это эквивалент wish для настоящего.",
+        "tags": []
+      },
+      {
+        "id": "q54",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: I wish you ___ help more. (быть добр,)",
+        "theory_block_id": "b4_theory_wish_if_only",
+        "difficulty": 2,
+        "correct_answer": "would",
+        "explanation": "Wish + would.",
+        "tags": []
+      },
+      {
+        "id": "q55",
+        "type": "mcq_single",
+        "prompt": "Выберите корректный вариант: I wish I ___ said that. (не говорить)",
+        "theory_block_id": "b2_theory_regrets",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "hadn't"
+          },
+          {
+            "id": "b",
+            "text": "didn't"
+          },
+          {
+            "id": "c",
+            "text": "wouldn't"
+          },
+          {
+            "id": "d",
+            "text": "won't"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Perfect negative.",
+        "tags": []
+      },
+      {
+        "id": "q56",
+        "type": "true_false",
+        "prompt": "If I had prepared, I would be calmer now. — это mixed conditional.",
+        "theory_block_id": "b3_theory_alternatives",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Прошлое условие + результат в настоящем.",
+        "tags": []
+      },
+      {
+        "id": "q57",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: It's time you ___ a decision. (принять)",
+        "theory_block_id": "b5_theory_build_speak",
+        "difficulty": 2,
+        "correct_answer": "made",
+        "explanation": "It's time + Past Simple.",
+        "tags": []
+      },
+      {
+        "id": "q58",
+        "type": "mcq_single",
+        "prompt": "Выберите корректную комбинацию: If I were you, I would ___; if I had done that earlier, I'd feel better now.",
+        "theory_block_id": "b5_theory_build_speak",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "apologize"
+          },
+          {
+            "id": "b",
+            "text": "apologized"
+          },
+          {
+            "id": "c",
+            "text": "apologizing"
+          },
+          {
+            "id": "d",
+            "text": "to apologize"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Would + V1.",
+        "tags": []
+      },
+      {
+        "id": "q59",
+        "type": "true_false",
+        "prompt": "В связной речи можно комбинировать wish и mixed conditional.",
+        "theory_block_id": "b5_theory_build_speak",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это допустимо и естественно.",
+        "tags": []
+      },
+      {
+        "id": "q60",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If only we had planned better, we ___ not be stressed now. (быть)",
+        "theory_block_id": "b5_theory_build_speak",
+        "difficulty": 2,
+        "correct_answer": "would",
+        "explanation": "Mixed conditional: would + V1.",
+        "tags": []
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-24T08:56:40Z",
+    "source": "llm"
+  }
+}
