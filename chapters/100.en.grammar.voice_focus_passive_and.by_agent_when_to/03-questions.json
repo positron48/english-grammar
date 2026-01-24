@@ -1,0 +1,1144 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq_single",
+      "prompt": "Выберите вариант, где by-исполнитель НЕ нужен: The meeting ___ at 10 a.m.",
+      "theory_block_id": "b1_theory_omit_agent",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "is scheduled"
+        },
+        {
+          "id": "b",
+          "text": "is scheduled by the team"
+        },
+        {
+          "id": "c",
+          "text": "is scheduling"
+        },
+        {
+          "id": "d",
+          "text": "scheduled"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Исполнитель не важен: достаточно is scheduled, так как фокус на факте и времени.",
+      "tags": []
+    },
+    {
+      "id": "q2",
+      "type": "fill_blank",
+      "prompt": "Вставьте пропущенное: The door is ___ at 8 p.m. (lock)",
+      "theory_block_id": "b1_theory_omit_agent",
+      "difficulty": 2,
+      "correct_answer": "locked",
+      "explanation": "Пассив без агента уместен, когда исполнитель очевиден или не важен.",
+      "tags": []
+    },
+    {
+      "id": "q3",
+      "type": "true_false",
+      "prompt": "Если исполнитель неизвестен, by-агент обычно опускают.",
+      "theory_block_id": "b1_theory_omit_agent",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Когда агент неизвестен, его не добавляют, чтобы не перегружать предложение.",
+      "tags": []
+    },
+    {
+      "id": "q4",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку и выберите исправленное предложение: \"The rules were explained by the teacher in every class.\"",
+      "theory_block_id": "b1_theory_omit_agent",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The rules were explained in every class."
+        },
+        {
+          "id": "b",
+          "text": "The rules were explaining by the teacher in every class."
+        },
+        {
+          "id": "c",
+          "text": "The rules explained in every class."
+        },
+        {
+          "id": "d",
+          "text": "The rules were explained by every class."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "В этом контексте исполнитель очевиден, поэтому by-агента лучше опустить.",
+      "tags": []
+    },
+    {
+      "id": "q5",
+      "type": "mcq_single",
+      "prompt": "Выберите предложение, где агент очевиден и может быть опущен.",
+      "theory_block_id": "b1_theory_omit_agent",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The exam is graded by the teacher."
+        },
+        {
+          "id": "b",
+          "text": "The exam is graded every Friday."
+        },
+        {
+          "id": "c",
+          "text": "The exam is grading every Friday."
+        },
+        {
+          "id": "d",
+          "text": "The exam grades every Friday."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "В варианте b достаточно факта регулярности, исполнитель не нужен.",
+      "tags": []
+    },
+    {
+      "id": "q6",
+      "type": "fill_blank",
+      "prompt": "Вставьте пропущенное: The package was ___ this morning. (deliver)",
+      "theory_block_id": "b1_theory_omit_agent",
+      "difficulty": 2,
+      "correct_answer": "delivered",
+      "explanation": "Агент не важен: достаточно пассивной формы was delivered.",
+      "tags": []
+    },
+    {
+      "id": "q7",
+      "type": "mcq_single",
+      "prompt": "Выберите вариант, где агент добавляет важную информацию.",
+      "theory_block_id": "b2_theory_include_agent",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The portrait was painted by a local artist."
+        },
+        {
+          "id": "b",
+          "text": "The portrait was painted."
+        },
+        {
+          "id": "c",
+          "text": "The portrait was painting by a local artist."
+        },
+        {
+          "id": "d",
+          "text": "The portrait painted."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Информация о художнике существенна, поэтому by-агент нужен.",
+      "tags": []
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "prompt": "By-агент обязателен, если он уточняет ответственность или авторство.",
+      "theory_block_id": "b2_theory_include_agent",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Когда исполнитель важен для смысла, его указывают через by.",
+      "tags": []
+    },
+    {
+      "id": "q9",
+      "type": "fill_blank",
+      "prompt": "Вставьте пропущенное: The decision was made ___ the board. (agent)",
+      "theory_block_id": "b2_theory_include_agent",
+      "difficulty": 2,
+      "correct_answer": "by",
+      "explanation": "Исполнитель важен для ответственности, поэтому нужен by.",
+      "tags": []
+    },
+    {
+      "id": "q10",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: The law was approved ___ Parliament.",
+      "theory_block_id": "b2_theory_include_agent",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "by"
+        },
+        {
+          "id": "b",
+          "text": "with"
+        },
+        {
+          "id": "c",
+          "text": "for"
+        },
+        {
+          "id": "d",
+          "text": "of"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Исполнитель — организация, поэтому используется by.",
+      "tags": []
+    },
+    {
+      "id": "q11",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку и выберите исправленное предложение: \"The painting was created with Picasso.\"",
+      "theory_block_id": "b2_theory_include_agent",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The painting was created by Picasso."
+        },
+        {
+          "id": "b",
+          "text": "The painting was created with Picasso."
+        },
+        {
+          "id": "c",
+          "text": "The painting created by Picasso."
+        },
+        {
+          "id": "d",
+          "text": "The painting was creating by Picasso."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Для автора используется by, а with — для инструмента.",
+      "tags": []
+    },
+    {
+      "id": "q12",
+      "type": "fill_blank",
+      "prompt": "Вставьте пропущенное: The book was written ___ Tolstoy. (agent)",
+      "theory_block_id": "b2_theory_include_agent",
+      "difficulty": 2,
+      "correct_answer": "by",
+      "explanation": "Автор — это агент, он вводится предлогом by.",
+      "tags": []
+    },
+    {
+      "id": "q13",
+      "type": "mcq_single",
+      "prompt": "Выберите правильное сочетание: The window was broken ___ a stone.",
+      "theory_block_id": "b3_theory_agent_types",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "with"
+        },
+        {
+          "id": "b",
+          "text": "by"
+        },
+        {
+          "id": "c",
+          "text": "from"
+        },
+        {
+          "id": "d",
+          "text": "of"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Инструмент вводится с with: broken with a stone.",
+      "tags": []
+    },
+    {
+      "id": "q14",
+      "type": "true_false",
+      "prompt": "By используется для исполнителя, а with — для инструмента или средства.",
+      "theory_block_id": "b3_theory_agent_types",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "By обозначает агента, with — инструмент или способ.",
+      "tags": []
+    },
+    {
+      "id": "q15",
+      "type": "fill_blank",
+      "prompt": "Вставьте пропущенное: The computer was repaired ___ a technician. (agent)",
+      "theory_block_id": "b3_theory_agent_types",
+      "difficulty": 2,
+      "correct_answer": "by",
+      "explanation": "Исполнитель — человек, поэтому нужен by.",
+      "tags": []
+    },
+    {
+      "id": "q16",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку и выберите исправленное предложение: \"The box was opened by a key.\"",
+      "theory_block_id": "b3_theory_agent_types",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The box was opened with a key."
+        },
+        {
+          "id": "b",
+          "text": "The box was opened by a key."
+        },
+        {
+          "id": "c",
+          "text": "The box opened with a key."
+        },
+        {
+          "id": "d",
+          "text": "The box was opening with a key."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Ключ — инструмент, поэтому нужен with.",
+      "tags": []
+    },
+    {
+      "id": "q17",
+      "type": "mcq_single",
+      "prompt": "Выберите корректное предложение: The message was sent ___ the app.",
+      "theory_block_id": "b3_theory_agent_types",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "via"
+        },
+        {
+          "id": "b",
+          "text": "by"
+        },
+        {
+          "id": "c",
+          "text": "with"
+        },
+        {
+          "id": "d",
+          "text": "at"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Для канала/средства общения подходит via, это уточняет способ отправки.",
+      "tags": []
+    },
+    {
+      "id": "q18",
+      "type": "true_false",
+      "prompt": "Фраза \"The email was sent by a laptop\" корректна, потому что laptop — инструмент.",
+      "theory_block_id": "b3_theory_agent_types",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Для инструмента лучше with или via, а by обозначает агента.",
+      "tags": []
+    },
+    {
+      "id": "q19",
+      "type": "mcq_single",
+      "prompt": "Выберите вариант, где by-агент делает фразу тяжёлой и лучше перейти в актив.",
+      "theory_block_id": "b4_theory_avoid_by",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The decision was announced by the manager."
+        },
+        {
+          "id": "b",
+          "text": "The decision was announced."
+        },
+        {
+          "id": "c",
+          "text": "The decision was announcing by the manager."
+        },
+        {
+          "id": "d",
+          "text": "The decision announced."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Если важно подчеркнуть менеджера, активное предложение будет естественнее.",
+      "tags": []
+    },
+    {
+      "id": "q20",
+      "type": "true_false",
+      "prompt": "Если исполнитель очевиден, пассив с by может звучать избыточно.",
+      "theory_block_id": "b4_theory_avoid_by",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "By-агент добавляют только при необходимости, иначе лучше опустить.",
+      "tags": []
+    },
+    {
+      "id": "q21",
+      "type": "fill_blank",
+      "prompt": "Вставьте пропущенное: The rules were announced ___ the teacher. (agent)",
+      "theory_block_id": "b4_theory_avoid_by",
+      "difficulty": 2,
+      "correct_answer": "by",
+      "explanation": "Если важно указать автора объявления, используется by + agent.",
+      "tags": []
+    },
+    {
+      "id": "q22",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку и выберите исправленное предложение: \"A decision was made by.\"",
+      "theory_block_id": "b4_theory_avoid_by",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "A decision was made."
+        },
+        {
+          "id": "b",
+          "text": "A decision was made by the team."
+        },
+        {
+          "id": "c",
+          "text": "A decision made by."
+        },
+        {
+          "id": "d",
+          "text": "A decision was making by."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Если агент не указан, by нельзя оставлять без дополнения.",
+      "tags": []
+    },
+    {
+      "id": "q23",
+      "type": "mcq_single",
+      "prompt": "Выберите вариант, который звучит нейтрально в новостях.",
+      "theory_block_id": "b5_theory_news_reports",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The suspect was arrested last night."
+        },
+        {
+          "id": "b",
+          "text": "The police arrested the suspect last night."
+        },
+        {
+          "id": "c",
+          "text": "The suspect was arresting last night."
+        },
+        {
+          "id": "d",
+          "text": "The suspect arrested last night."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Пассив без агента передает факт нейтрально, что типично для новостей.",
+      "tags": []
+    },
+    {
+      "id": "q24",
+      "type": "true_false",
+      "prompt": "В официальных сообщениях часто опускают исполнителя, чтобы сохранить нейтральность.",
+      "theory_block_id": "b5_theory_news_reports",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Пассив без агента помогает сфокусироваться на событии, а не на авторе.",
+      "tags": []
+    },
+    {
+      "id": "q25",
+      "type": "fill_blank",
+      "prompt": "Вставьте пропущенное: The results were confirmed ___ the ministry. (agent)",
+      "theory_block_id": "b5_theory_news_reports",
+      "difficulty": 2,
+      "correct_answer": "by",
+      "explanation": "Если источник важен, его добавляют через by.",
+      "tags": []
+    },
+    {
+      "id": "q26",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку и выберите исправленное предложение: \"The report was published with the company.\"",
+      "theory_block_id": "b5_theory_news_reports",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The report was published by the company."
+        },
+        {
+          "id": "b",
+          "text": "The report was published with the company."
+        },
+        {
+          "id": "c",
+          "text": "The report published by the company."
+        },
+        {
+          "id": "d",
+          "text": "The report was publishing by the company."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Организация — исполнитель, значит нужен by, а не with.",
+      "tags": []
+    },
+    {
+      "id": "q27",
+      "type": "mcq_single",
+      "prompt": "Выберите предложение, где by-агент НЕ нужен.",
+      "theory_block_id": "b1_theory_omit_agent",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The seats are reserved for VIPs."
+        },
+        {
+          "id": "b",
+          "text": "The seats are reserved by the organizer."
+        },
+        {
+          "id": "c",
+          "text": "The seats are reserving for VIPs."
+        },
+        {
+          "id": "d",
+          "text": "The seats reserve for VIPs."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Исполнитель не нужен, главное — информация о местах.",
+      "tags": []
+    },
+    {
+      "id": "q28",
+      "type": "true_false",
+      "prompt": "Если агент важен для контраста, его следует добавить через by.",
+      "theory_block_id": "b2_theory_include_agent",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Контраст или ответственность — причина назвать агента.",
+      "tags": []
+    },
+    {
+      "id": "q29",
+      "type": "fill_blank",
+      "prompt": "Вставьте пропущенное: The email was sent ___ a colleague. (agent)",
+      "theory_block_id": "b2_theory_include_agent",
+      "difficulty": 2,
+      "correct_answer": "by",
+      "explanation": "Когда важно, кто отправил письмо, используется by.",
+      "tags": []
+    },
+    {
+      "id": "q30",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: The glass was broken ___ a hammer.",
+      "theory_block_id": "b3_theory_agent_types",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "with"
+        },
+        {
+          "id": "b",
+          "text": "by"
+        },
+        {
+          "id": "c",
+          "text": "of"
+        },
+        {
+          "id": "d",
+          "text": "at"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Инструмент обозначается с with: broken with a hammer.",
+      "tags": []
+    },
+    {
+      "id": "q31",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку и выберите исправленное предложение: \"The prize was won with the athlete.\"",
+      "theory_block_id": "b3_theory_agent_types",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The prize was won by the athlete."
+        },
+        {
+          "id": "b",
+          "text": "The prize was won with the athlete."
+        },
+        {
+          "id": "c",
+          "text": "The prize won by the athlete."
+        },
+        {
+          "id": "d",
+          "text": "The prize was winning by the athlete."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Агент — спортсмен, поэтому нужен by, не with.",
+      "tags": []
+    },
+    {
+      "id": "q32",
+      "type": "true_false",
+      "prompt": "Фраза \"The report was prepared with the analyst\" корректна, если analyst — исполнитель.",
+      "theory_block_id": "b3_theory_agent_types",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Для исполнителя используется by: prepared by the analyst.",
+      "tags": []
+    },
+    {
+      "id": "q33",
+      "type": "mcq_single",
+      "prompt": "Выберите вариант, который лучше переформулировать в актив.",
+      "theory_block_id": "b4_theory_avoid_by",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The warning was issued by the coach."
+        },
+        {
+          "id": "b",
+          "text": "The warning was issued."
+        },
+        {
+          "id": "c",
+          "text": "The warning was issuing by the coach."
+        },
+        {
+          "id": "d",
+          "text": "The warning issued."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Если важно выделить автора, актив звучит проще: The coach issued the warning.",
+      "tags": []
+    },
+    {
+      "id": "q34",
+      "type": "fill_blank",
+      "prompt": "Вставьте пропущенное: The announcement was made ___ the manager. (agent)",
+      "theory_block_id": "b4_theory_avoid_by",
+      "difficulty": 2,
+      "correct_answer": "by",
+      "explanation": "By-агент добавляется, если нужно подчеркнуть автора.",
+      "tags": []
+    },
+    {
+      "id": "q35",
+      "type": "true_false",
+      "prompt": "Если агент важен, но пассив громоздкий, актив может быть предпочтительнее.",
+      "theory_block_id": "b4_theory_avoid_by",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Стилистически актив часто звучит легче, когда исполнитель важен.",
+      "tags": []
+    },
+    {
+      "id": "q36",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку и выберите исправленное предложение: \"The statement was issued by.\"",
+      "theory_block_id": "b4_theory_avoid_by",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The statement was issued."
+        },
+        {
+          "id": "b",
+          "text": "The statement was issued by the spokesperson."
+        },
+        {
+          "id": "c",
+          "text": "The statement issued by."
+        },
+        {
+          "id": "d",
+          "text": "The statement was issuing by."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Если агента нет, by не должно оставаться без дополнения.",
+      "tags": []
+    },
+    {
+      "id": "q37",
+      "type": "mcq_single",
+      "prompt": "Выберите нейтральный новостной вариант.",
+      "theory_block_id": "b5_theory_news_reports",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "A new policy was introduced yesterday."
+        },
+        {
+          "id": "b",
+          "text": "The government introduced a new policy yesterday."
+        },
+        {
+          "id": "c",
+          "text": "A new policy introduced yesterday."
+        },
+        {
+          "id": "d",
+          "text": "A new policy was introducing yesterday."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Пассив без агента звучит нейтрально и типичен для новостей.",
+      "tags": []
+    },
+    {
+      "id": "q38",
+      "type": "true_false",
+      "prompt": "В официальных сообщениях by-агент часто добавляют, чтобы подчеркнуть ответственность.",
+      "theory_block_id": "b5_theory_news_reports",
+      "difficulty": 1,
+      "correct_answer": "false",
+      "explanation": "Чаще агент опускают ради нейтральности, если он не критичен.",
+      "tags": []
+    },
+    {
+      "id": "q39",
+      "type": "fill_blank",
+      "prompt": "Вставьте пропущенное: The statement was released ___ the company. (agent)",
+      "theory_block_id": "b5_theory_news_reports",
+      "difficulty": 2,
+      "correct_answer": "by",
+      "explanation": "Если источник важен, он вводится предлогом by.",
+      "tags": []
+    },
+    {
+      "id": "q40",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку и выберите исправленное предложение: \"The announcement was made with the company.\"",
+      "theory_block_id": "b5_theory_news_reports",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The announcement was made by the company."
+        },
+        {
+          "id": "b",
+          "text": "The announcement was made with the company."
+        },
+        {
+          "id": "c",
+          "text": "The announcement made by the company."
+        },
+        {
+          "id": "d",
+          "text": "The announcement was making by the company."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Компания — исполнитель, значит нужен by.",
+      "tags": []
+    },
+    {
+      "id": "q41",
+      "type": "mcq_single",
+      "prompt": "Выберите предложение, где by-агент уместен.",
+      "theory_block_id": "b2_theory_include_agent",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The vaccine was developed by a research team."
+        },
+        {
+          "id": "b",
+          "text": "The vaccine was developed."
+        },
+        {
+          "id": "c",
+          "text": "The vaccine developed."
+        },
+        {
+          "id": "d",
+          "text": "The vaccine was developing by a research team."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Агент добавляет важную информацию об авторстве.",
+      "tags": []
+    },
+    {
+      "id": "q42",
+      "type": "true_false",
+      "prompt": "Если исполнитель очевиден, by-агент можно опустить без потери смысла.",
+      "theory_block_id": "b1_theory_omit_agent",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "В таких случаях фокус на результате сохраняется и без агента.",
+      "tags": []
+    },
+    {
+      "id": "q43",
+      "type": "fill_blank",
+      "prompt": "Вставьте пропущенное: The sculpture was created ___ a local artist. (agent)",
+      "theory_block_id": "b2_theory_include_agent",
+      "difficulty": 2,
+      "correct_answer": "by",
+      "explanation": "Автор важен, поэтому нужен by.",
+      "tags": []
+    },
+    {
+      "id": "q44",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку и выберите исправленное предложение: \"The report was prepared with the analyst.\"",
+      "theory_block_id": "b3_theory_agent_types",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The report was prepared by the analyst."
+        },
+        {
+          "id": "b",
+          "text": "The report was prepared with the analyst."
+        },
+        {
+          "id": "c",
+          "text": "The report prepared by the analyst."
+        },
+        {
+          "id": "d",
+          "text": "The report was preparing by the analyst."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Агент — человек, используется by.",
+      "tags": []
+    },
+    {
+      "id": "q45",
+      "type": "mcq_single",
+      "prompt": "Выберите вариант, где лучше сохранить нейтральность.",
+      "theory_block_id": "b5_theory_news_reports",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The contract was terminated last week."
+        },
+        {
+          "id": "b",
+          "text": "The company terminated the contract last week."
+        },
+        {
+          "id": "c",
+          "text": "The contract terminated last week."
+        },
+        {
+          "id": "d",
+          "text": "The contract was terminating last week."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Пассив без агента звучит нейтрально, что типично для официального тона.",
+      "tags": []
+    },
+    {
+      "id": "q46",
+      "type": "true_false",
+      "prompt": "Исполнитель в пассиве всегда делает предложение более естественным.",
+      "theory_block_id": "b4_theory_avoid_by",
+      "difficulty": 1,
+      "correct_answer": "false",
+      "explanation": "By-агент уместен не всегда; иногда он утяжеляет фразу.",
+      "tags": []
+    },
+    {
+      "id": "q47",
+      "type": "fill_blank",
+      "prompt": "Вставьте пропущенное: The prize was awarded ___ the jury. (agent)",
+      "theory_block_id": "b2_theory_include_agent",
+      "difficulty": 2,
+      "correct_answer": "by",
+      "explanation": "Жюри — исполнитель, поэтому используется by.",
+      "tags": []
+    },
+    {
+      "id": "q48",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку и выберите исправленное предложение: \"The report was published by a press release.\"",
+      "theory_block_id": "b3_theory_agent_types",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The report was published in a press release."
+        },
+        {
+          "id": "b",
+          "text": "The report was published by a press release."
+        },
+        {
+          "id": "c",
+          "text": "The report published in a press release."
+        },
+        {
+          "id": "d",
+          "text": "The report was publishing in a press release."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Press release — это канал/контекст, не агент. Подходит in.",
+      "tags": []
+    },
+    {
+      "id": "q49",
+      "type": "mcq_single",
+      "prompt": "Выберите корректный вариант: The window was broken ___ a boy.",
+      "theory_block_id": "b3_theory_agent_types",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "by"
+        },
+        {
+          "id": "b",
+          "text": "with"
+        },
+        {
+          "id": "c",
+          "text": "from"
+        },
+        {
+          "id": "d",
+          "text": "at"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Исполнитель — человек, поэтому нужен by.",
+      "tags": []
+    },
+    {
+      "id": "q50",
+      "type": "fill_blank",
+      "prompt": "Вставьте пропущенное: The lock was opened ___ a screwdriver. (instrument)",
+      "theory_block_id": "b3_theory_agent_types",
+      "difficulty": 2,
+      "correct_answer": "with",
+      "explanation": "Инструмент вводится с with.",
+      "tags": []
+    },
+    {
+      "id": "q51",
+      "type": "true_false",
+      "prompt": "В новостях by-агент добавляют только если источник или ответственность важны.",
+      "theory_block_id": "b5_theory_news_reports",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Если источник важен, его указывают; иначе оставляют пассив без агента.",
+      "tags": []
+    },
+    {
+      "id": "q52",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку и выберите исправленное предложение: \"The statement was released with the company.\"",
+      "theory_block_id": "b5_theory_news_reports",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The statement was released by the company."
+        },
+        {
+          "id": "b",
+          "text": "The statement was released with the company."
+        },
+        {
+          "id": "c",
+          "text": "The statement released by the company."
+        },
+        {
+          "id": "d",
+          "text": "The statement was releasing by the company."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Компания — исполнитель, нужен by.",
+      "tags": []
+    },
+    {
+      "id": "q53",
+      "type": "mcq_single",
+      "prompt": "Выберите предложение, где лучше опустить агента.",
+      "theory_block_id": "b1_theory_omit_agent",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The office is cleaned every evening."
+        },
+        {
+          "id": "b",
+          "text": "The office is cleaned by the janitor every evening."
+        },
+        {
+          "id": "c",
+          "text": "The office is cleaning every evening."
+        },
+        {
+          "id": "d",
+          "text": "The office cleans every evening."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Регулярное действие, агент не важен: is cleaned.",
+      "tags": []
+    },
+    {
+      "id": "q54",
+      "type": "true_false",
+      "prompt": "By-агент следует добавлять во всех пассивных предложениях.",
+      "theory_block_id": "b1_theory_omit_agent",
+      "difficulty": 1,
+      "correct_answer": "false",
+      "explanation": "Добавление агента зависит от его значимости для смысла.",
+      "tags": []
+    },
+    {
+      "id": "q55",
+      "type": "fill_blank",
+      "prompt": "Вставьте пропущенное: The policy was announced ___ the CEO. (agent)",
+      "theory_block_id": "b2_theory_include_agent",
+      "difficulty": 2,
+      "correct_answer": "by",
+      "explanation": "Когда важен автор объявления, используется by.",
+      "tags": []
+    },
+    {
+      "id": "q56",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку и выберите исправленное предложение: \"The vase was broken by a hammer.\"",
+      "theory_block_id": "b3_theory_agent_types",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The vase was broken with a hammer."
+        },
+        {
+          "id": "b",
+          "text": "The vase was broken by a hammer."
+        },
+        {
+          "id": "c",
+          "text": "The vase broke with a hammer."
+        },
+        {
+          "id": "d",
+          "text": "The vase was breaking with a hammer."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Молоток — инструмент, поэтому нужен with.",
+      "tags": []
+    },
+    {
+      "id": "q57",
+      "type": "mcq_single",
+      "prompt": "Выберите нейтральную формулировку без агента.",
+      "theory_block_id": "b5_theory_news_reports",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "A new regulation was adopted yesterday."
+        },
+        {
+          "id": "b",
+          "text": "The council adopted a new regulation yesterday."
+        },
+        {
+          "id": "c",
+          "text": "A new regulation adopted yesterday."
+        },
+        {
+          "id": "d",
+          "text": "A new regulation was adopting yesterday."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Пассив без агента нейтрален и типичен для официального тона.",
+      "tags": []
+    },
+    {
+      "id": "q58",
+      "type": "true_false",
+      "prompt": "Если агент очевиден, пассив без by сохраняет смысл.",
+      "theory_block_id": "b1_theory_omit_agent",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Фокус остается на объекте, и смысл не теряется.",
+      "tags": []
+    },
+    {
+      "id": "q59",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: The sculpture was restored ___ the museum staff.",
+      "theory_block_id": "b2_theory_include_agent",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "by"
+        },
+        {
+          "id": "b",
+          "text": "with"
+        },
+        {
+          "id": "c",
+          "text": "from"
+        },
+        {
+          "id": "d",
+          "text": "at"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Исполнитель — люди, значит нужен by.",
+      "tags": []
+    },
+    {
+      "id": "q60",
+      "type": "fill_blank",
+      "prompt": "Вставьте пропущенное: The door was opened ___ a key. (instrument)",
+      "theory_block_id": "b3_theory_agent_types",
+      "difficulty": 2,
+      "correct_answer": "with",
+      "explanation": "Инструмент вводится через with.",
+      "tags": []
+    }
+  ]
+}
