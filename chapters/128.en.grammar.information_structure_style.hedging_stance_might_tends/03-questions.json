@@ -7,10 +7,26 @@
       "theory_block_id": "b1_theory_modals",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "might", "feedback": "Верно: осторожная вероятность."},
-        {"id": "b", "text": "must", "feedback": "Must звучит слишком уверенно."},
-        {"id": "c", "text": "will", "feedback": "Will выражает уверенность или будущее."},
-        {"id": "d", "text": "is", "feedback": "Is утверждает факт без хеджа."}
+        {
+          "id": "a",
+          "text": "might",
+          "feedback": "Верно: осторожная вероятность."
+        },
+        {
+          "id": "b",
+          "text": "must",
+          "feedback": "Must звучит слишком уверенно."
+        },
+        {
+          "id": "c",
+          "text": "will",
+          "feedback": "Will выражает уверенность или будущее."
+        },
+        {
+          "id": "d",
+          "text": "is",
+          "feedback": "Is утверждает факт без хеджа."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Might выражает осторожную вероятность и подходит для hedging."
@@ -31,10 +47,26 @@
       "theory_block_id": "b1_theory_modals",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "It might to be a data error.", "feedback": "После might используется V1 без to."},
-        {"id": "b", "text": "It might be a data error.", "feedback": "Верно: might + V1."},
-        {"id": "c", "text": "It might is a data error.", "feedback": "Неверная форма глагола."},
-        {"id": "d", "text": "It might being a data error.", "feedback": "Неверная форма глагола."}
+        {
+          "id": "a",
+          "text": "It might to be a data error.",
+          "feedback": "После might используется V1 без to."
+        },
+        {
+          "id": "b",
+          "text": "It might be a data error.",
+          "feedback": "Верно: might + V1."
+        },
+        {
+          "id": "c",
+          "text": "It might is a data error.",
+          "feedback": "Неверная форма глагола."
+        },
+        {
+          "id": "d",
+          "text": "It might being a data error.",
+          "feedback": "Неверная форма глагола."
+        }
       ],
       "correct_answer": "b",
       "explanation": "После might используется базовая форма глагола: might be."
@@ -64,10 +96,26 @@
       "theory_block_id": "b1_theory_modals",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "may", "feedback": "Верно: осторожная вероятность."},
-        {"id": "b", "text": "must", "feedback": "Must слишком категорично."},
-        {"id": "c", "text": "are", "feedback": "Are утверждает факт."},
-        {"id": "d", "text": "will", "feedback": "Will звучит как уверенность."}
+        {
+          "id": "a",
+          "text": "may",
+          "feedback": "Верно: осторожная вероятность."
+        },
+        {
+          "id": "b",
+          "text": "must",
+          "feedback": "Must слишком категорично."
+        },
+        {
+          "id": "c",
+          "text": "are",
+          "feedback": "Are утверждает факт."
+        },
+        {
+          "id": "d",
+          "text": "will",
+          "feedback": "Will звучит как уверенность."
+        }
       ],
       "correct_answer": "a",
       "explanation": "May выражает вероятность без категоричности."
@@ -75,7 +123,7 @@
     {
       "id": "q7",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"Might this ___ a reporting error?\" (be)",
+      "prompt": "Заполните пропуск: \"Might this ___ a reporting error?\" (быть)",
       "theory_block_id": "b1_theory_modals",
       "difficulty": 2,
       "correct_answer": "be",
@@ -97,10 +145,26 @@
       "theory_block_id": "b1_theory_modals",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "This may to be a risk.", "feedback": "После may не используется to."},
-        {"id": "b", "text": "This may be a risk.", "feedback": "Верно: may + V1."},
-        {"id": "c", "text": "This may is a risk.", "feedback": "Неверная форма."},
-        {"id": "d", "text": "This may being a risk.", "feedback": "Неверная форма."}
+        {
+          "id": "a",
+          "text": "This may to be a risk.",
+          "feedback": "После may не используется to."
+        },
+        {
+          "id": "b",
+          "text": "This may be a risk.",
+          "feedback": "Верно: may + V1."
+        },
+        {
+          "id": "c",
+          "text": "This may is a risk.",
+          "feedback": "Неверная форма."
+        },
+        {
+          "id": "d",
+          "text": "This may being a risk.",
+          "feedback": "Неверная форма."
+        }
       ],
       "correct_answer": "b",
       "explanation": "Модальные глаголы требуют базовой формы глагола: may be."
@@ -112,10 +176,26 @@
       "theory_block_id": "b1_theory_modals",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "might", "feedback": "Верно: осторожное предположение."},
-        {"id": "b", "text": "must", "feedback": "Must звучит как вывод."},
-        {"id": "c", "text": "is", "feedback": "Is утверждает факт."},
-        {"id": "d", "text": "will", "feedback": "Will слишком уверенно."}
+        {
+          "id": "a",
+          "text": "might",
+          "feedback": "Верно: осторожное предположение."
+        },
+        {
+          "id": "b",
+          "text": "must",
+          "feedback": "Must звучит как вывод."
+        },
+        {
+          "id": "c",
+          "text": "is",
+          "feedback": "Is утверждает факт."
+        },
+        {
+          "id": "d",
+          "text": "will",
+          "feedback": "Will слишком уверенно."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Might снижает категоричность и подходит для hedging."
@@ -138,7 +218,6 @@
       "correct_answer": "The outcome could be different.",
       "explanation": "Could используется для осторожной оценки: could be."
     },
-
     {
       "id": "q13",
       "type": "mcq_single",
@@ -146,10 +225,26 @@
       "theory_block_id": "b2_theory_lexical_verbs",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "seems", "feedback": "Верно: seems to be."},
-        {"id": "b", "text": "seem", "feedback": "Seem без -s не согласуется."},
-        {"id": "c", "text": "seeming", "feedback": "Неверная форма."},
-        {"id": "d", "text": "seemed", "feedback": "Меняет время."}
+        {
+          "id": "a",
+          "text": "seems",
+          "feedback": "Верно: seems to be."
+        },
+        {
+          "id": "b",
+          "text": "seem",
+          "feedback": "Seem без -s не согласуется."
+        },
+        {
+          "id": "c",
+          "text": "seeming",
+          "feedback": "Неверная форма."
+        },
+        {
+          "id": "d",
+          "text": "seemed",
+          "feedback": "Меняет время."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Seem в Present Simple согласуется с data как с единым целым: seems to be."
@@ -157,7 +252,7 @@
     {
       "id": "q14",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"It appears ___ the files are missing.\" (that)",
+      "prompt": "Заполните пропуск: \"It appears ___ the files are missing.\" (союз)",
       "theory_block_id": "b2_theory_lexical_verbs",
       "difficulty": 2,
       "correct_answer": "that",
@@ -170,10 +265,26 @@
       "theory_block_id": "b2_theory_lexical_verbs",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "She tend to avoid conflict.", "feedback": "Нужна форма tends."},
-        {"id": "b", "text": "She tends to avoid conflict.", "feedback": "Верно: tends to."},
-        {"id": "c", "text": "She tends avoid conflict.", "feedback": "Нужен to."},
-        {"id": "d", "text": "She is tend to avoid conflict.", "feedback": "Неверная форма."}
+        {
+          "id": "a",
+          "text": "She tend to avoid conflict.",
+          "feedback": "Нужна форма tends."
+        },
+        {
+          "id": "b",
+          "text": "She tends to avoid conflict.",
+          "feedback": "Верно: tends to."
+        },
+        {
+          "id": "c",
+          "text": "She tends avoid conflict.",
+          "feedback": "Нужен to."
+        },
+        {
+          "id": "d",
+          "text": "She is tend to avoid conflict.",
+          "feedback": "Неверная форма."
+        }
       ],
       "correct_answer": "b",
       "explanation": "Tend требует to, а с she нужна форма tends."
@@ -203,10 +314,26 @@
       "theory_block_id": "b2_theory_lexical_verbs",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "tends", "feedback": "Верно: tends to."},
-        {"id": "b", "text": "tend", "feedback": "Нужно согласование с he."},
-        {"id": "c", "text": "tending", "feedback": "Неверная форма."},
-        {"id": "d", "text": "tended", "feedback": "Меняет время."}
+        {
+          "id": "a",
+          "text": "tends",
+          "feedback": "Верно: tends to."
+        },
+        {
+          "id": "b",
+          "text": "tend",
+          "feedback": "Нужно согласование с he."
+        },
+        {
+          "id": "c",
+          "text": "tending",
+          "feedback": "Неверная форма."
+        },
+        {
+          "id": "d",
+          "text": "tended",
+          "feedback": "Меняет время."
+        }
       ],
       "correct_answer": "a",
       "explanation": "He tends to — стандартная форма для привычного поведения."
@@ -214,7 +341,7 @@
     {
       "id": "q19",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"It doesn't seem ___ work properly.\" (to)",
+      "prompt": "Заполните пропуск: \"It doesn't seem ___ work properly.\" (частица)",
       "theory_block_id": "b2_theory_lexical_verbs",
       "difficulty": 2,
       "correct_answer": "to",
@@ -236,10 +363,26 @@
       "theory_block_id": "b2_theory_lexical_verbs",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "appears", "feedback": "Верно: appears that..."},
-        {"id": "b", "text": "appear", "feedback": "Нужно appears."},
-        {"id": "c", "text": "appearing", "feedback": "Неверная форма."},
-        {"id": "d", "text": "appeared", "feedback": "Меняет время."}
+        {
+          "id": "a",
+          "text": "appears",
+          "feedback": "Верно: appears that..."
+        },
+        {
+          "id": "b",
+          "text": "appear",
+          "feedback": "Нужно appears."
+        },
+        {
+          "id": "c",
+          "text": "appearing",
+          "feedback": "Неверная форма."
+        },
+        {
+          "id": "d",
+          "text": "appeared",
+          "feedback": "Меняет время."
+        }
       ],
       "correct_answer": "a",
       "explanation": "It appears that... — стандартный hedging-фрейм."
@@ -247,7 +390,7 @@
     {
       "id": "q22",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"The evidence seems ___ support the claim.\" (to)",
+      "prompt": "Заполните пропуск: \"The evidence seems ___ support the claim.\" (частица)",
       "theory_block_id": "b2_theory_lexical_verbs",
       "difficulty": 2,
       "correct_answer": "to",
@@ -269,15 +412,30 @@
       "theory_block_id": "b2_theory_lexical_verbs",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "It appears the data are missing.", "feedback": "Возможно, но чаще нужно that."},
-        {"id": "b", "text": "It appears that the data are missing.", "feedback": "Верно: that-clause."},
-        {"id": "c", "text": "It appear that the data are missing.", "feedback": "Нужно appears."},
-        {"id": "d", "text": "It appears to the data are missing.", "feedback": "Неверная структура."}
+        {
+          "id": "a",
+          "text": "It appears the data are missing.",
+          "feedback": "Возможно, но чаще нужно that."
+        },
+        {
+          "id": "b",
+          "text": "It appears that the data are missing.",
+          "feedback": "Верно: that-clause."
+        },
+        {
+          "id": "c",
+          "text": "It appear that the data are missing.",
+          "feedback": "Нужно appears."
+        },
+        {
+          "id": "d",
+          "text": "It appears to the data are missing.",
+          "feedback": "Неверная структура."
+        }
       ],
       "correct_answer": "b",
       "explanation": "It appears that... — стандартная структура для осторожного вывода."
     },
-
     {
       "id": "q25",
       "type": "mcq_single",
@@ -285,10 +443,26 @@
       "theory_block_id": "b3_theory_adverbs",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "probably", "feedback": "Верно: hedging-наречие."},
-        {"id": "b", "text": "certainly", "feedback": "Слишком уверенно."},
-        {"id": "c", "text": "always", "feedback": "Не выражает осторожность."},
-        {"id": "d", "text": "exactly", "feedback": "Тоже слишком категорично."}
+        {
+          "id": "a",
+          "text": "probably",
+          "feedback": "Верно: hedging-наречие."
+        },
+        {
+          "id": "b",
+          "text": "certainly",
+          "feedback": "Слишком уверенно."
+        },
+        {
+          "id": "c",
+          "text": "always",
+          "feedback": "Не выражает осторожность."
+        },
+        {
+          "id": "d",
+          "text": "exactly",
+          "feedback": "Тоже слишком категорично."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Probably смягчает утверждение и снижает категоричность."
@@ -309,10 +483,26 @@
       "theory_block_id": "b3_theory_adverbs",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "It is possible too expensive.", "feedback": "Нужен to be или that-clause."},
-        {"id": "b", "text": "It is possibly too expensive.", "feedback": "Верно: hedging-наречие."},
-        {"id": "c", "text": "It possibly is too expensive.", "feedback": "Возможно, но менее естественно."},
-        {"id": "d", "text": "It is possible too expensively.", "feedback": "Неверная форма."}
+        {
+          "id": "a",
+          "text": "It is possible too expensive.",
+          "feedback": "Нужен to be или that-clause."
+        },
+        {
+          "id": "b",
+          "text": "It is possibly too expensive.",
+          "feedback": "Верно: hedging-наречие."
+        },
+        {
+          "id": "c",
+          "text": "It possibly is too expensive.",
+          "feedback": "Возможно, но менее естественно."
+        },
+        {
+          "id": "d",
+          "text": "It is possible too expensively.",
+          "feedback": "Неверная форма."
+        }
       ],
       "correct_answer": "b",
       "explanation": "Possibly — наречие, которое смягчает утверждение."
@@ -342,10 +532,26 @@
       "theory_block_id": "b3_theory_adverbs",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "somewhat", "feedback": "Верно: смягчает степень."},
-        {"id": "b", "text": "perfectly", "feedback": "Не выражает осторожность."},
-        {"id": "c", "text": "absolutely", "feedback": "Слишком категорично."},
-        {"id": "d", "text": "always", "feedback": "Не относится к степени."}
+        {
+          "id": "a",
+          "text": "somewhat",
+          "feedback": "Верно: смягчает степень."
+        },
+        {
+          "id": "b",
+          "text": "perfectly",
+          "feedback": "Не выражает осторожность."
+        },
+        {
+          "id": "c",
+          "text": "absolutely",
+          "feedback": "Слишком категорично."
+        },
+        {
+          "id": "d",
+          "text": "always",
+          "feedback": "Не относится к степени."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Somewhat уменьшает степень утверждения."
@@ -375,10 +581,26 @@
       "theory_block_id": "b3_theory_adverbs",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "The approach is relatively effective.", "feedback": "Верно: hedging-наречие."},
-        {"id": "b", "text": "The approach is relative effective.", "feedback": "Нужна форма relatively."},
-        {"id": "c", "text": "The approach relatively is effective.", "feedback": "Неестественный порядок."},
-        {"id": "d", "text": "The approach is effectives relatively.", "feedback": "Неверная форма."}
+        {
+          "id": "a",
+          "text": "The approach is relatively effective.",
+          "feedback": "Верно: hedging-наречие."
+        },
+        {
+          "id": "b",
+          "text": "The approach is relative effective.",
+          "feedback": "Нужна форма relatively."
+        },
+        {
+          "id": "c",
+          "text": "The approach relatively is effective.",
+          "feedback": "Неестественный порядок."
+        },
+        {
+          "id": "d",
+          "text": "The approach is effectives relatively.",
+          "feedback": "Неверная форма."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Relatively — наречие, корректно смягчающее утверждение."
@@ -390,10 +612,26 @@
       "theory_block_id": "b3_theory_adverbs",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "possibly", "feedback": "Верно: осторожная оценка."},
-        {"id": "b", "text": "definitely", "feedback": "Слишком категорично."},
-        {"id": "c", "text": "always", "feedback": "Не выражает вероятность."},
-        {"id": "d", "text": "exactly", "feedback": "Слишком уверенно."}
+        {
+          "id": "a",
+          "text": "possibly",
+          "feedback": "Верно: осторожная оценка."
+        },
+        {
+          "id": "b",
+          "text": "definitely",
+          "feedback": "Слишком категорично."
+        },
+        {
+          "id": "c",
+          "text": "always",
+          "feedback": "Не выражает вероятность."
+        },
+        {
+          "id": "d",
+          "text": "exactly",
+          "feedback": "Слишком уверенно."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Possibly снижает категоричность."
@@ -416,7 +654,6 @@
       "correct_answer": "somewhat",
       "explanation": "Somewhat уменьшает степень утверждения."
     },
-
     {
       "id": "q37",
       "type": "mcq_single",
@@ -424,10 +661,26 @@
       "theory_block_id": "b4_theory_phrases",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "that", "feedback": "Верно: seems that..."},
-        {"id": "b", "text": "to", "feedback": "To используется с инфинитивом."},
-        {"id": "c", "text": "for", "feedback": "Неверная структура."},
-        {"id": "d", "text": "of", "feedback": "Неверная структура."}
+        {
+          "id": "a",
+          "text": "that",
+          "feedback": "Верно: seems that..."
+        },
+        {
+          "id": "b",
+          "text": "to",
+          "feedback": "To используется с инфинитивом."
+        },
+        {
+          "id": "c",
+          "text": "for",
+          "feedback": "Неверный предлог."
+        },
+        {
+          "id": "d",
+          "text": "of",
+          "feedback": "Неверный союз."
+        }
       ],
       "correct_answer": "a",
       "explanation": "It seems that... — стандартный hedging-фрейм."
@@ -435,7 +688,7 @@
     {
       "id": "q38",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"There is some evidence ___ the process is unstable.\" (that)",
+      "prompt": "Заполните пропуск: \"There is some evidence ___ the process is unstable.\" (союз)",
       "theory_block_id": "b4_theory_phrases",
       "difficulty": 2,
       "correct_answer": "that",
@@ -448,10 +701,26 @@
       "theory_block_id": "b4_theory_phrases",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "It is likely that sales will drop.", "feedback": "Верно: hedging-фрейм."},
-        {"id": "b", "text": "It is likely sales will drop.", "feedback": "Нужен that."},
-        {"id": "c", "text": "It likely that sales will drop.", "feedback": "Нужен is."},
-        {"id": "d", "text": "It is likely to sales will drop.", "feedback": "Неверная структура."}
+        {
+          "id": "a",
+          "text": "It is likely that sales will drop.",
+          "feedback": "Верно: hedging-фрейм."
+        },
+        {
+          "id": "b",
+          "text": "It is likely sales will drop.",
+          "feedback": "Нужен that."
+        },
+        {
+          "id": "c",
+          "text": "It likely that sales will drop.",
+          "feedback": "Нужен is."
+        },
+        {
+          "id": "d",
+          "text": "It is likely to sales will drop.",
+          "feedback": "Неверная структура."
+        }
       ],
       "correct_answer": "a",
       "explanation": "It is likely that... — корректная форма для осторожного прогноза."
@@ -481,10 +750,26 @@
       "theory_block_id": "b4_theory_phrases",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "is", "feedback": "Верно: evidence — неисчисляемое."},
-        {"id": "b", "text": "are", "feedback": "Are не согласуется."},
-        {"id": "c", "text": "be", "feedback": "Неверная форма."},
-        {"id": "d", "text": "were", "feedback": "Меняет время."}
+        {
+          "id": "a",
+          "text": "is",
+          "feedback": "Верно: evidence — неисчисляемое."
+        },
+        {
+          "id": "b",
+          "text": "are",
+          "feedback": "Are не согласуется."
+        },
+        {
+          "id": "c",
+          "text": "be",
+          "feedback": "Неверная форма."
+        },
+        {
+          "id": "d",
+          "text": "were",
+          "feedback": "Меняет время."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Evidence — неисчисляемое, поэтому is."
@@ -492,7 +777,7 @@
     {
       "id": "q43",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"It is possible ___ the data was misread.\" (that)",
+      "prompt": "Заполните пропуск: \"It is possible ___ the data was misread.\" (союз)",
       "theory_block_id": "b4_theory_phrases",
       "difficulty": 2,
       "correct_answer": "that",
@@ -514,10 +799,26 @@
       "theory_block_id": "b4_theory_phrases",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "It seems that the schedule is tight.", "feedback": "Верно: seems that."},
-        {"id": "b", "text": "It seems the schedule is tight.", "feedback": "Возможно, но менее формально."},
-        {"id": "c", "text": "It seems to the schedule is tight.", "feedback": "Неверная структура."},
-        {"id": "d", "text": "It seems that the schedule are tight.", "feedback": "Неверное согласование."}
+        {
+          "id": "a",
+          "text": "It seems that the schedule is tight.",
+          "feedback": "Верно: seems that."
+        },
+        {
+          "id": "b",
+          "text": "It seems the schedule is tight.",
+          "feedback": "Возможно, но менее формально."
+        },
+        {
+          "id": "c",
+          "text": "It seems to the schedule is tight.",
+          "feedback": "Неверная структура."
+        },
+        {
+          "id": "d",
+          "text": "It seems that the schedule are tight.",
+          "feedback": "Неверное согласование."
+        }
       ],
       "correct_answer": "a",
       "explanation": "It seems that... — корректная формальная структура."
@@ -538,10 +839,26 @@
       "theory_block_id": "b4_theory_phrases",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "likely", "feedback": "Верно: likely that..."},
-        {"id": "b", "text": "possible", "feedback": "Возможно, но менее подходящее здесь."},
-        {"id": "c", "text": "certain", "feedback": "Слишком категорично."},
-        {"id": "d", "text": "sure", "feedback": "Слишком уверенно."}
+        {
+          "id": "a",
+          "text": "likely",
+          "feedback": "Верно: likely that..."
+        },
+        {
+          "id": "b",
+          "text": "possible",
+          "feedback": "Возможно, но менее подходящее здесь."
+        },
+        {
+          "id": "c",
+          "text": "certain",
+          "feedback": "Слишком категорично."
+        },
+        {
+          "id": "d",
+          "text": "sure",
+          "feedback": "Слишком уверенно."
+        }
       ],
       "correct_answer": "a",
       "explanation": "It is likely that... выражает вероятный, но не категоричный вывод."
@@ -549,13 +866,12 @@
     {
       "id": "q48",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"It is unlikely ___ we will finish today.\" (that)",
+      "prompt": "Заполните пропуск: \"It is unlikely ___ we will finish today.\" (союз)",
       "theory_block_id": "b4_theory_phrases",
       "difficulty": 2,
       "correct_answer": "that",
       "explanation": "Unlikely + that-clause: It is unlikely that..."
     },
-
     {
       "id": "q49",
       "type": "mcq_single",
@@ -563,10 +879,26 @@
       "theory_block_id": "b5_theory_style_limits",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "soften", "feedback": "Верно: hedging делает тон мягче."},
-        {"id": "b", "text": "insist", "feedback": "Insist звучит жестко."},
-        {"id": "c", "text": "confirm", "feedback": "Confirm более категорично."},
-        {"id": "d", "text": "prove", "feedback": "Prove слишком уверенно."}
+        {
+          "id": "a",
+          "text": "soften",
+          "feedback": "Верно: hedging делает тон мягче."
+        },
+        {
+          "id": "b",
+          "text": "insist",
+          "feedback": "Insist звучит жестко."
+        },
+        {
+          "id": "c",
+          "text": "confirm",
+          "feedback": "Confirm более категорично."
+        },
+        {
+          "id": "d",
+          "text": "prove",
+          "feedback": "Prove слишком уверенно."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Hedging помогает смягчить тон: soften the tone."
@@ -587,10 +919,26 @@
       "theory_block_id": "b5_theory_style_limits",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "The data clearly proves the claim.", "feedback": "Слишком категорично для hedging."},
-        {"id": "b", "text": "The data seems to support the claim.", "feedback": "Верно: мягкий вывод."},
-        {"id": "c", "text": "The data must support the claim.", "feedback": "Must звучит слишком уверенно."},
-        {"id": "d", "text": "The data is definitely the claim.", "feedback": "Неверная структура."}
+        {
+          "id": "a",
+          "text": "The data clearly proves the claim.",
+          "feedback": "Слишком категорично для hedging."
+        },
+        {
+          "id": "b",
+          "text": "The data seems to support the claim.",
+          "feedback": "Верно: мягкий вывод."
+        },
+        {
+          "id": "c",
+          "text": "The data must support the claim.",
+          "feedback": "Must звучит слишком уверенно."
+        },
+        {
+          "id": "d",
+          "text": "The data is definitely the claim.",
+          "feedback": "Неверная структура."
+        }
       ],
       "correct_answer": "b",
       "explanation": "Seem to support — аккуратная формулировка, без категоричности."
@@ -620,10 +968,26 @@
       "theory_block_id": "b5_theory_style_limits",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "be", "feedback": "Верно: be decisive."},
-        {"id": "b", "text": "being", "feedback": "Нужен инфинитив."},
-        {"id": "c", "text": "to be", "feedback": "После should нужен V1."},
-        {"id": "d", "text": "been", "feedback": "Неверная форма."}
+        {
+          "id": "a",
+          "text": "be",
+          "feedback": "Верно: be decisive."
+        },
+        {
+          "id": "b",
+          "text": "being",
+          "feedback": "Нужен инфинитив."
+        },
+        {
+          "id": "c",
+          "text": "to be",
+          "feedback": "После should нужен V1."
+        },
+        {
+          "id": "d",
+          "text": "been",
+          "feedback": "Неверная форма."
+        }
       ],
       "correct_answer": "a",
       "explanation": "После should используется базовая форма глагола: should be."
@@ -653,10 +1017,26 @@
       "theory_block_id": "b5_theory_style_limits",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "It might possibly perhaps be wrong.", "feedback": "Слишком много хеджей."},
-        {"id": "b", "text": "It might be wrong.", "feedback": "Верно: один хедж достаточно."},
-        {"id": "c", "text": "It must be wrong.", "feedback": "Слишком категорично."},
-        {"id": "d", "text": "It is wrong.", "feedback": "Нет hedging, утверждение слишком жесткое."}
+        {
+          "id": "a",
+          "text": "It might possibly perhaps be wrong.",
+          "feedback": "Слишком много хеджей."
+        },
+        {
+          "id": "b",
+          "text": "It might be wrong.",
+          "feedback": "Верно: один хедж достаточно."
+        },
+        {
+          "id": "c",
+          "text": "It must be wrong.",
+          "feedback": "Слишком категорично."
+        },
+        {
+          "id": "d",
+          "text": "It is wrong.",
+          "feedback": "Нет hedging, утверждение слишком жесткое."
+        }
       ],
       "correct_answer": "b",
       "explanation": "Лучше использовать один умеренный хедж, чтобы не звучать уклончиво."
@@ -677,10 +1057,26 @@
       "theory_block_id": "b5_theory_style_limits",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "would be", "feedback": "Верно: мягкая рекомендация."},
-        {"id": "b", "text": "is", "feedback": "Слишком категорично."},
-        {"id": "c", "text": "must be", "feedback": "Слишком жестко."},
-        {"id": "d", "text": "will be", "feedback": "Звучит как предсказание."}
+        {
+          "id": "a",
+          "text": "would be",
+          "feedback": "Верно: мягкая рекомендация."
+        },
+        {
+          "id": "b",
+          "text": "is",
+          "feedback": "Слишком категорично."
+        },
+        {
+          "id": "c",
+          "text": "must be",
+          "feedback": "Слишком жестко."
+        },
+        {
+          "id": "d",
+          "text": "will be",
+          "feedback": "Звучит как предсказание."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Would be выражает мягкую оценку и снижает категоричность."
