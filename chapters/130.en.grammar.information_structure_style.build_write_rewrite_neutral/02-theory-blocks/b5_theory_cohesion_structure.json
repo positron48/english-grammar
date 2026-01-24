@@ -1,0 +1,33 @@
+{
+  "theory_block": {
+    "id": "b5_theory_cohesion_structure",
+    "concept_id": "formal_cohesion_structure",
+    "content_md": "Формальные тексты требуют связности и структуры:\n- логические связки (therefore, however, furthermore)\n- ясные абзацы: тема → детали → вывод\n- нейтральный, объективный тон без эмоций и разговорных вставок\n\nСвязки и структура помогают сохранить ясность при переписывании.",
+    "examples": [
+      {
+        "id": "ex1",
+        "text": "The budget was reduced; therefore, the timeline was adjusted.",
+        "translation": "Бюджет был сокращен; поэтому сроки были скорректированы.",
+        "tags": ["formal", "linker"]
+      },
+      {
+        "id": "ex2",
+        "text": "The budget was reduced, so we changed the timeline.",
+        "translation": "Бюджет сократили, поэтому мы изменили сроки.",
+        "tags": ["neutral", "linker"]
+      },
+      {
+        "id": "ex3",
+        "text": "However, the proposal requires additional review.",
+        "translation": "Однако предложение требует дополнительной проверки.",
+        "tags": ["formal", "contrast"]
+      },
+      {
+        "id": "ex4",
+        "text": "But the proposal needs another look.",
+        "translation": "Но предложение требует еще одного просмотра.",
+        "tags": ["neutral", "contrast"]
+      }
+    ]
+  }
+}

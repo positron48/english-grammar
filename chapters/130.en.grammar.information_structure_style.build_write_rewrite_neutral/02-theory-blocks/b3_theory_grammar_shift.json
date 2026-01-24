@@ -1,0 +1,33 @@
+{
+  "theory_block": {
+    "id": "b3_theory_grammar_shift",
+    "concept_id": "formal_grammar_shift",
+    "content_md": "Формальный стиль усиливают грамматические приемы:\n- отказ от сокращений (do not вместо don't)\n- пассив для фокуса на действии (The report was approved)\n- номинализация (failure → a failure to comply)\n- безличные конструкции (It is recommended that...)\n\nЭти приемы делают текст более официальным и нейтральным.",
+    "examples": [
+      {
+        "id": "ex1",
+        "text": "The report was approved by the committee.",
+        "translation": "Отчет был утвержден комитетом.",
+        "tags": ["formal", "passive"]
+      },
+      {
+        "id": "ex2",
+        "text": "The committee approved the report.",
+        "translation": "Комитет утвердил отчет.",
+        "tags": ["neutral", "active"]
+      },
+      {
+        "id": "ex3",
+        "text": "It is recommended that all staff comply with the policy.",
+        "translation": "Рекомендуется, чтобы все сотрудники соблюдали политику.",
+        "tags": ["formal", "impersonal"]
+      },
+      {
+        "id": "ex4",
+        "text": "We recommend that everyone follows the policy.",
+        "translation": "Мы рекомендуем, чтобы все соблюдали политику.",
+        "tags": ["neutral", "personal"]
+      }
+    ]
+  }
+}
