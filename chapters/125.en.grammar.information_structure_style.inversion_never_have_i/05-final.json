@@ -1,0 +1,1462 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.information_structure_style.inversion_never_have_i",
+  "section_id": "en.grammar.information_structure_style",
+  "title": "Inversion: Never have I…, Not only…, Hardly…when…",
+  "title_short": "Inversion",
+  "description": "Как работает инверсия после отрицательных/ограничивающих наречий и фиксированных конструкций для усиления и формального стиля.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "C1",
+  "order": 0,
+  "prerequisites": [],
+  "concept_refs": [
+    "negative_adverb_inversion",
+    "not_only_inversion",
+    "little_no_so_inversion",
+    "hardly_scarcely_when",
+    "inversion_style_emphasis"
+  ],
+  "learning_objectives": [
+    "Распознавать случаи инверсии после отрицательных и ограничивающих выражений",
+    "Строить инверсию с вспомогательными глаголами do/does/did и be",
+    "Использовать фиксированные связки типа hardly/scarcely/rarely + when",
+    "Избегать типичных ошибок: отсутствие вспомогательного глагола, неверный порядок"
+  ],
+  "estimated_minutes": 24,
+  "blocks": [
+    {
+      "id": "b1_theory_negative_adverbs",
+      "type": "theory",
+      "title": "Когда предложение начинается с отрицательного или ограничивающего наречия (never, rarely, seldom, at no time, under no circumstances), в формальном стиле используется инверсия: вспомогательный глагол ставится перед подлежащим.",
+      "theory": {
+        "concept_id": "negative_adverb_inversion",
+        "content_md": "Когда предложение начинается с отрицательного или ограничивающего наречия (never, rarely, seldom, at no time, under no circumstances), в формальном стиле используется инверсия: вспомогательный глагол ставится перед подлежащим.\n\nСхема: **Negative adverb + auxiliary + subject + V1/V3**. Если вспомогательного нет, используется do/does/did.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Never have I seen such a calm response.",
+            "translation": "Никогда я не видел такой спокойной реакции.",
+            "tags": [
+              "affirmative",
+              "inversion"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Rarely do we get feedback this detailed.",
+            "translation": "Мы редко получаем настолько подробную обратную связь.",
+            "tags": [
+              "affirmative",
+              "inversion"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Under no circumstances should we leave the file open.",
+            "translation": "Ни при каких обстоятельствах мы не должны оставлять файл открытым.",
+            "tags": [
+              "negative",
+              "inversion"
+            ]
+          },
+          {
+            "id": "ex4",
+            "text": "Never have you encountered a stricter policy?",
+            "translation": "Разве вы никогда не сталкивались с более строгой политикой?",
+            "tags": [
+              "question",
+              "inversion"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_not_only",
+      "type": "theory",
+      "title": "В конструкции Not only..., but also... инверсия обязательна в первой части: Not only + auxiliary + subject + V1/V3. Это усиливает контраст и делает стиль более формальным.",
+      "theory": {
+        "concept_id": "not_only_inversion",
+        "content_md": "В конструкции **Not only..., but also...** инверсия обязательна в первой части: **Not only + auxiliary + subject + V1/V3**. Это усиливает контраст и делает стиль более формальным.\n\nЕсли вспомогательного глагола нет, используется do/does/did. Во второй части инверсии нет.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Not only did she finish early, but she also helped others.",
+            "translation": "Она не только закончила рано, но и помогла другим.",
+            "tags": [
+              "affirmative",
+              "inversion"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Not only is the plan risky, but it is also expensive.",
+            "translation": "План не только рискованный, но и дорогой.",
+            "tags": [
+              "affirmative",
+              "inversion"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_little_no_so",
+      "type": "theory",
+      "title": "Слово little в значении «едва/почти не» и конструкции only then/only after/only by запускают инверсию: Little/Only + auxiliary + subject + V1/V3.",
+      "theory": {
+        "concept_id": "little_no_so_inversion",
+        "content_md": "Слово **little** в значении «едва/почти не» и конструкции **only then/only after/only by** запускают инверсию: **Little/Only + auxiliary + subject + V1/V3**.\n\nДля выражения «едва/как только» используются связки **No sooner... than** и **Only when/Only after** с инверсией в первой части.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Little did he know what was coming.",
+            "translation": "Он и представить не мог, что будет дальше.",
+            "tags": [
+              "affirmative",
+              "inversion"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Only after the audit did we discover the error.",
+            "translation": "Только после аудита мы обнаружили ошибку.",
+            "tags": [
+              "affirmative",
+              "inversion"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_hardly_scarcely",
+      "type": "theory",
+      "title": "В конструкциях Hardly/Scarcely/Barely ... when используется Past Perfect в первой части и Past Simple во второй. Инверсия обязательна: Hardly had + subject + V3, when + past simple.",
+      "theory": {
+        "concept_id": "hardly_scarcely_when",
+        "content_md": "В конструкциях **Hardly/Scarcely/Barely ... when** используется Past Perfect в первой части и Past Simple во второй. Инверсия обязательна: **Hardly had + subject + V3, when + past simple**.\n\nТакие связки выражают «едва... как» и характерны для формальной речи.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Hardly had we started the meeting when the fire alarm went off.",
+            "translation": "Мы едва начали совещание, как сработала пожарная сигнализация.",
+            "tags": [
+              "affirmative",
+              "inversion"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Scarcely had she sat down when the phone rang.",
+            "translation": "Она едва села, как зазвонил телефон.",
+            "tags": [
+              "affirmative",
+              "inversion"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Barely had I closed the door when it started to rain.",
+            "translation": "Я едва закрыл дверь, как пошел дождь.",
+            "tags": [
+              "affirmative",
+              "inversion"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_emphasis_style",
+      "type": "theory",
+      "title": "Инверсия после ограничивающих выражений делает фразу более торжественной и выразительной. Она часто встречается в письменной речи, публичных выступлениях и новостном стиле.",
+      "theory": {
+        "concept_id": "inversion_style_emphasis",
+        "content_md": "Инверсия после ограничивающих выражений делает фразу более торжественной и выразительной. Она часто встречается в письменной речи, публичных выступлениях и новостном стиле.\n\nВ разговорной речи инверсия возможна, но звучит подчеркнуто и используется для контраста или драматического эффекта.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "Under no circumstances should we release the draft.",
+            "translation": "Ни при каких обстоятельствах мы не должны публиковать черновик.",
+            "tags": [
+              "negative",
+              "inversion"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Never have I felt such relief.",
+            "translation": "Никогда я не чувствовал такого облегчения.",
+            "tags": [
+              "affirmative",
+              "inversion"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "Only then did the audience understand the twist.",
+            "translation": "Только тогда публика поняла поворот сюжета.",
+            "tags": [
+              "affirmative",
+              "inversion"
+            ]
+          },
+          {
+            "id": "ex4",
+            "text": "Under no circumstances should you share this outside the team.",
+            "translation": "Ни при каких обстоятельствах тебе нельзя делиться этим вне команды.",
+            "tags": [
+              "negative",
+              "inversion"
+            ]
+          },
+          {
+            "id": "ex5",
+            "text": "Only then did you realize what it meant?",
+            "translation": "Ты понял, что это значило, только тогда?",
+            "tags": [
+              "question",
+              "inversion"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q50"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"Never ___ I heard such a careful explanation.\"",
+        "theory_block_id": "b1_theory_negative_adverbs",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "have",
+            "feedback": "Верно: инверсия с Present Perfect."
+          },
+          {
+            "id": "b",
+            "text": "has",
+            "feedback": "Has используется с he/she/it."
+          },
+          {
+            "id": "c",
+            "text": "do",
+            "feedback": "Do не подходит с have heard."
+          },
+          {
+            "id": "d",
+            "text": "did",
+            "feedback": "Did относится к Past Simple."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После never в начале предложения требуется инверсия: Never have I heard. Вспомогательный have ставится перед подлежащим."
+      },
+      {
+        "id": "q2",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Rarely ___ we see results like these.\" (видеть)",
+        "theory_block_id": "b1_theory_negative_adverbs",
+        "difficulty": 2,
+        "correct_answer": "do",
+        "explanation": "Когда вспомогательного нет, используем do/does. После rarely нужна инверсия: Rarely do we see."
+      },
+      {
+        "id": "q3",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b1_theory_negative_adverbs",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Seldom we meet under such pressure.",
+            "feedback": "После seldom нужна инверсия."
+          },
+          {
+            "id": "b",
+            "text": "Seldom do we meet under such pressure.",
+            "feedback": "Верно: инверсия с do."
+          },
+          {
+            "id": "c",
+            "text": "Seldom did we meet under such pressure now.",
+            "feedback": "Неверное время с now."
+          },
+          {
+            "id": "d",
+            "text": "Seldom met we under such pressure.",
+            "feedback": "Нужен вспомогательный глагол."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "С отрицательными наречиями в начале требуется инверсия. В Present Simple ставим do: Seldom do we meet."
+      },
+      {
+        "id": "q4",
+        "type": "true_false",
+        "prompt": "После выражений never/rarely/seldom в начале предложения используется инверсия.",
+        "theory_block_id": "b1_theory_negative_adverbs",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, отрицательные/ограничивающие наречия запускают инверсию: auxiliary + subject."
+      },
+      {
+        "id": "q5",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_negative_adverbs",
+        "difficulty": 2,
+        "correct_answer": "At no time did he apologize.",
+        "explanation": "At no time в начале требует инверсии с did: At no time did he apologize."
+      },
+      {
+        "id": "q6",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"Under no circumstances ___ we disclose the data.\"",
+        "theory_block_id": "b1_theory_negative_adverbs",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "should",
+            "feedback": "Верно: инверсия с модальным should."
+          },
+          {
+            "id": "b",
+            "text": "we should",
+            "feedback": "Нужна инверсия, вспомогательный перед подлежащим."
+          },
+          {
+            "id": "c",
+            "text": "do",
+            "feedback": "Do не используется с модальными."
+          },
+          {
+            "id": "d",
+            "text": "are",
+            "feedback": "Are не соответствует смыслу should."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После under no circumstances обязательна инверсия: should ставится перед we."
+      },
+      {
+        "id": "q7",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Never ___ she been so confident.\" (быть)",
+        "theory_block_id": "b1_theory_negative_adverbs",
+        "difficulty": 2,
+        "correct_answer": "has",
+        "explanation": "В Present Perfect используется has, и он ставится перед подлежащим при инверсии: Never has she been."
+      },
+      {
+        "id": "q8",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b1_theory_negative_adverbs",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Rarely we do see mistakes like this.",
+            "feedback": "Неверный порядок слов."
+          },
+          {
+            "id": "b",
+            "text": "Rarely do we see mistakes like this.",
+            "feedback": "Верно: rare + inversion."
+          },
+          {
+            "id": "c",
+            "text": "Rarely do see we mistakes like this.",
+            "feedback": "Подлежащее должно быть после вспомогательного."
+          },
+          {
+            "id": "d",
+            "text": "Rarely see we mistakes like this.",
+            "feedback": "Нужен вспомогательный глагол."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Правильный порядок: negative adverb + auxiliary + subject + V1. Здесь: Rarely do we see..."
+      },
+      {
+        "id": "q9",
+        "type": "true_false",
+        "prompt": "В предложении \"Seldom do they arrive early\" инверсия обязательна.",
+        "theory_block_id": "b1_theory_negative_adverbs",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Когда seldom стоит в начале, требуется инверсия. Без нее предложение звучит неверно в формальном стиле."
+      },
+      {
+        "id": "q10",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"At no time ___ the team agree to the change.\"",
+        "theory_block_id": "b1_theory_negative_adverbs",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "did",
+            "feedback": "Верно: Past Simple с инверсией."
+          },
+          {
+            "id": "b",
+            "text": "does",
+            "feedback": "Does не подходит к прошедшему времени."
+          },
+          {
+            "id": "c",
+            "text": "has",
+            "feedback": "Has относится к Present Perfect."
+          },
+          {
+            "id": "d",
+            "text": "do",
+            "feedback": "Do не подходит к прошедшему времени."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "At no time требует инверсии. Для прошедшего времени используется did + V1: did the team agree."
+      },
+      {
+        "id": "q11",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Seldom ___ he arrive before noon.\" (приходить)",
+        "theory_block_id": "b1_theory_negative_adverbs",
+        "difficulty": 2,
+        "correct_answer": "does",
+        "explanation": "С he в Present Simple используется does. Инверсия: Seldom does he arrive."
+      },
+      {
+        "id": "q12",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_negative_adverbs",
+        "difficulty": 2,
+        "correct_answer": "Never did we doubt her skills.",
+        "explanation": "После never нужна инверсия с did: Never did we doubt."
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"Not only ___ he explain the issue, but he also fixed it.\"",
+        "theory_block_id": "b2_theory_not_only",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "did",
+            "feedback": "Верно: инверсия в первой части."
+          },
+          {
+            "id": "b",
+            "text": "does",
+            "feedback": "Does относится к настоящему, здесь прошлое."
+          },
+          {
+            "id": "c",
+            "text": "he did",
+            "feedback": "Нужен вспомогательный перед подлежащим."
+          },
+          {
+            "id": "d",
+            "text": "was",
+            "feedback": "Was не подходит по смыслу."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В конструкции Not only... but also инверсия обязательна в первой части: Not only did he explain..."
+      },
+      {
+        "id": "q14",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Not only ___ the report accurate, but it was also timely.\" (быть)",
+        "theory_block_id": "b2_theory_not_only",
+        "difficulty": 2,
+        "correct_answer": "was",
+        "explanation": "С be инверсия выражается перестановкой: Not only was the report accurate..."
+      },
+      {
+        "id": "q15",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b2_theory_not_only",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Not only he finished early, but he also stayed late.",
+            "feedback": "Нужна инверсия после not only."
+          },
+          {
+            "id": "b",
+            "text": "Not only did he finish early, but he also stayed late.",
+            "feedback": "Верно: инверсия в первой части."
+          },
+          {
+            "id": "c",
+            "text": "Not only did he finished early, but he also stayed late.",
+            "feedback": "После did нужна базовая форма."
+          },
+          {
+            "id": "d",
+            "text": "Not only finished he early, but he also stayed late.",
+            "feedback": "Нужен вспомогательный глагол."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Not only требует инверсии: auxiliary + subject + V1. Правильно: did he finish."
+      },
+      {
+        "id": "q16",
+        "type": "true_false",
+        "prompt": "В конструкции Not only..., but also... инверсия используется только в первой части.",
+        "theory_block_id": "b2_theory_not_only",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, инверсия обязательна в первой части после not only. Вторая часть строится обычно."
+      },
+      {
+        "id": "q17",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_not_only",
+        "difficulty": 2,
+        "correct_answer": "Not only does she speak French, but she also writes it well.",
+        "explanation": "После not only нужна инверсия: does she speak. Вторая часть без инверсии."
+      },
+      {
+        "id": "q18",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"Not only ___ the system fast, but it is also secure.\"",
+        "theory_block_id": "b2_theory_not_only",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "is",
+            "feedback": "Верно: инверсия с be."
+          },
+          {
+            "id": "b",
+            "text": "does",
+            "feedback": "Does не нужен с be."
+          },
+          {
+            "id": "c",
+            "text": "the system is",
+            "feedback": "Нужен be перед подлежащим."
+          },
+          {
+            "id": "d",
+            "text": "are",
+            "feedback": "Не согласуется с system."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С be инверсия выражается перестановкой: Not only is the system fast..."
+      },
+      {
+        "id": "q19",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Not only ___ they win, but they also broke the record.\" (побеждать)",
+        "theory_block_id": "b2_theory_not_only",
+        "difficulty": 2,
+        "correct_answer": "did",
+        "explanation": "Для Past Simple используем did и инверсию: Not only did they win..."
+      },
+      {
+        "id": "q20",
+        "type": "true_false",
+        "prompt": "Фраза \"Not only he was late\" допустима без инверсии.",
+        "theory_block_id": "b2_theory_not_only",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "После not only требуется инверсия: Not only was he late."
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"Not only ___ the idea bold, but it was also practical.\"",
+        "theory_block_id": "b2_theory_not_only",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "was",
+            "feedback": "Верно: инверсия с was."
+          },
+          {
+            "id": "b",
+            "text": "is",
+            "feedback": "Не подходит по времени."
+          },
+          {
+            "id": "c",
+            "text": "did",
+            "feedback": "Did не используется с be."
+          },
+          {
+            "id": "d",
+            "text": "the idea was",
+            "feedback": "Нужна инверсия, be перед подлежащим."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "С be используется инверсия: Not only was the idea bold."
+      },
+      {
+        "id": "q22",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Not only ___ she understand the risk, but she accepted it.\" (понимать)",
+        "theory_block_id": "b2_theory_not_only",
+        "difficulty": 2,
+        "correct_answer": "did",
+        "explanation": "Если нет вспомогательного, используем did/does/do. Здесь прошедшее: did she understand."
+      },
+      {
+        "id": "q23",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_not_only",
+        "difficulty": 2,
+        "correct_answer": "Not only did we survive, but we also learned a lot.",
+        "explanation": "После not only ставим did перед подлежащим, далее V1. Вторая часть обычная."
+      },
+      {
+        "id": "q24",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b2_theory_not_only",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Not only does he writes well, but he also edits fast.",
+            "feedback": "После does нужна V1."
+          },
+          {
+            "id": "b",
+            "text": "Not only does he write well, but he also edits fast.",
+            "feedback": "Верно: does + V1."
+          },
+          {
+            "id": "c",
+            "text": "Not only he does write well, but he also edits fast.",
+            "feedback": "Неверный порядок слов."
+          },
+          {
+            "id": "d",
+            "text": "Not only wrote he well, but he also edits fast.",
+            "feedback": "Нужен вспомогательный глагол."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "После not only нужна инверсия, а после does используется базовая форма write."
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"Little ___ they know about the merger.\"",
+        "theory_block_id": "b3_theory_little_no_so",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "did",
+            "feedback": "Верно: little запускает инверсию с did."
+          },
+          {
+            "id": "b",
+            "text": "do",
+            "feedback": "Do относится к настоящему, но здесь past implication."
+          },
+          {
+            "id": "c",
+            "text": "have",
+            "feedback": "Have не подходит по смыслу."
+          },
+          {
+            "id": "d",
+            "text": "were",
+            "feedback": "Were не подходит с know."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Little в значении «едва/почти не» требует инверсии. В прошедшем: Little did they know."
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Only after the review ___ we see the flaw.\" (видеть)",
+        "theory_block_id": "b3_theory_little_no_so",
+        "difficulty": 3,
+        "correct_answer": "did",
+        "explanation": "После only after нужна инверсия с did: Only after the review did we see."
+      },
+      {
+        "id": "q27",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b3_theory_little_no_so",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Only then we realized the impact.",
+            "feedback": "После only then нужна инверсия."
+          },
+          {
+            "id": "b",
+            "text": "Only then did we realize the impact.",
+            "feedback": "Верно: инверсия с did."
+          },
+          {
+            "id": "c",
+            "text": "Only then realized we the impact.",
+            "feedback": "Нужен вспомогательный глагол."
+          },
+          {
+            "id": "d",
+            "text": "Only then we did realize the impact.",
+            "feedback": "Неверный порядок слов."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Only then в начале требует инверсии: did we realize."
+      },
+      {
+        "id": "q28",
+        "type": "true_false",
+        "prompt": "После little в начале предложения используется инверсия.",
+        "theory_block_id": "b3_theory_little_no_so",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Little в значении «едва/почти не» запускает инверсию: auxiliary + subject."
+      },
+      {
+        "id": "q29",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_little_no_so",
+        "difficulty": 2,
+        "correct_answer": "Only after the delay did she respond.",
+        "explanation": "Only after требует инверсии с did: did she respond."
+      },
+      {
+        "id": "q30",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"No sooner ___ we arrived than the show started.\"",
+        "theory_block_id": "b3_theory_little_no_so",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had",
+            "feedback": "Верно: no sooner + past perfect + than."
+          },
+          {
+            "id": "b",
+            "text": "did",
+            "feedback": "Did не используется в no sooner."
+          },
+          {
+            "id": "c",
+            "text": "have",
+            "feedback": "Have не подходит по времени."
+          },
+          {
+            "id": "d",
+            "text": "were",
+            "feedback": "Were не используется с arrive."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "No sooner обычно используется с Past Perfect и инверсией: No sooner had we arrived than..."
+      },
+      {
+        "id": "q31",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Little ___ she suspect the outcome.\" (подозревать)",
+        "theory_block_id": "b3_theory_little_no_so",
+        "difficulty": 3,
+        "correct_answer": "did",
+        "explanation": "Little + inversion. В прошедшем времени используем did: Little did she suspect."
+      },
+      {
+        "id": "q32",
+        "type": "true_false",
+        "prompt": "В конструкции Only after... инверсия ставится в главной части, а не в придаточной.",
+        "theory_block_id": "b3_theory_little_no_so",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да, инверсия применяется в основной части: Only after X did we realize."
+      },
+      {
+        "id": "q33",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b3_theory_little_no_so",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "No sooner had he left than the manager arrived.",
+            "feedback": "Верно: Past Perfect + inversion."
+          },
+          {
+            "id": "b",
+            "text": "No sooner he had left than the manager arrived.",
+            "feedback": "Нужна инверсия."
+          },
+          {
+            "id": "c",
+            "text": "No sooner did he left than the manager arrived.",
+            "feedback": "После did нужна V1, но конструкция обычно с had."
+          },
+          {
+            "id": "d",
+            "text": "No sooner left he than the manager arrived.",
+            "feedback": "Нужен вспомогательный had."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "No sooner требует Past Perfect и инверсии: had + subject + V3."
+      },
+      {
+        "id": "q34",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"Only by working together ___ we solve this.\"",
+        "theory_block_id": "b3_theory_little_no_so",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "can",
+            "feedback": "Верно: инверсия с модальным can."
+          },
+          {
+            "id": "b",
+            "text": "we can",
+            "feedback": "Нужна инверсия."
+          },
+          {
+            "id": "c",
+            "text": "do",
+            "feedback": "Do не используется с can."
+          },
+          {
+            "id": "d",
+            "text": "are",
+            "feedback": "Are не подходит по смыслу."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Only by в начале запускает инверсию: can we solve."
+      },
+      {
+        "id": "q35",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_little_no_so",
+        "difficulty": 2,
+        "correct_answer": "Little did we realize the cost.",
+        "explanation": "Little требует инверсии с did: Little did we realize."
+      },
+      {
+        "id": "q36",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Only then ___ the audience laugh.\" (смеяться)",
+        "theory_block_id": "b3_theory_little_no_so",
+        "difficulty": 2,
+        "correct_answer": "did",
+        "explanation": "Only then в начале требует инверсии с did: did the audience laugh."
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"Hardly ___ we started when the lights went out.\"",
+        "theory_block_id": "b4_theory_hardly_scarcely",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had",
+            "feedback": "Верно: Hardly had + subject + V3."
+          },
+          {
+            "id": "b",
+            "text": "did",
+            "feedback": "Did не используется в этой связке."
+          },
+          {
+            "id": "c",
+            "text": "have",
+            "feedback": "Have не подходит по времени."
+          },
+          {
+            "id": "d",
+            "text": "were",
+            "feedback": "Were не используется с start."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Hardly... when требует Past Perfect с инверсией: Hardly had we started."
+      },
+      {
+        "id": "q38",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Scarcely ___ she arrived when the meeting began.\" (прибывать)",
+        "theory_block_id": "b4_theory_hardly_scarcely",
+        "difficulty": 3,
+        "correct_answer": "had",
+        "explanation": "Scarcely + Past Perfect с инверсией: Scarcely had she arrived."
+      },
+      {
+        "id": "q39",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b4_theory_hardly_scarcely",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Hardly we had finished when the client called.",
+            "feedback": "Нужна инверсия."
+          },
+          {
+            "id": "b",
+            "text": "Hardly had we finished when the client called.",
+            "feedback": "Верно: инверсия с had."
+          },
+          {
+            "id": "c",
+            "text": "Hardly did we finished when the client called.",
+            "feedback": "После did нужна V1 и конструкция обычно с had."
+          },
+          {
+            "id": "d",
+            "text": "Hardly finished we when the client called.",
+            "feedback": "Нужен вспомогательный had."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Hardly/Scarcely в таких связках требует Past Perfect и инверсии: had + subject + V3."
+      },
+      {
+        "id": "q40",
+        "type": "true_false",
+        "prompt": "В конструкции Hardly... when первая часть обычно стоит в Past Perfect.",
+        "theory_block_id": "b4_theory_hardly_scarcely",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Да, стандартный шаблон: Hardly had + subject + V3, when + Past Simple."
+      },
+      {
+        "id": "q41",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_hardly_scarcely",
+        "difficulty": 3,
+        "correct_answer": "Barely had he entered when the call came.",
+        "explanation": "Barely/Scarcely/Hardly используют Past Perfect с инверсией: had he entered."
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"Scarcely ___ the doors closed when the alarm sounded.\"",
+        "theory_block_id": "b4_theory_hardly_scarcely",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had",
+            "feedback": "Верно: Past Perfect + inversion."
+          },
+          {
+            "id": "b",
+            "text": "did",
+            "feedback": "Did не используется в этой связке."
+          },
+          {
+            "id": "c",
+            "text": "have",
+            "feedback": "Have не подходит по времени."
+          },
+          {
+            "id": "d",
+            "text": "were",
+            "feedback": "Were не подходит по смыслу."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Scarcely... when требует Past Perfect с инверсией: Scarcely had the doors closed."
+      },
+      {
+        "id": "q43",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Hardly ___ I sat down when the phone rang.\" (садиться)",
+        "theory_block_id": "b4_theory_hardly_scarcely",
+        "difficulty": 3,
+        "correct_answer": "had",
+        "explanation": "Hardly + Past Perfect с инверсией: Hardly had I sat down."
+      },
+      {
+        "id": "q44",
+        "type": "true_false",
+        "prompt": "В связке Scarcely... when можно использовать Present Perfect в первой части.",
+        "theory_block_id": "b4_theory_hardly_scarcely",
+        "difficulty": 3,
+        "correct_answer": "false",
+        "explanation": "Стандартный шаблон использует Past Perfect в первой части и Past Simple во второй."
+      },
+      {
+        "id": "q45",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b4_theory_hardly_scarcely",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Scarcely had we left when the storm began.",
+            "feedback": "Верно: had + V3."
+          },
+          {
+            "id": "b",
+            "text": "Scarcely we had left when the storm began.",
+            "feedback": "Нужна инверсия."
+          },
+          {
+            "id": "c",
+            "text": "Scarcely did we left when the storm began.",
+            "feedback": "После did нужна V1."
+          },
+          {
+            "id": "d",
+            "text": "Scarcely left we when the storm began.",
+            "feedback": "Нужен вспомогательный had."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В этих конструкциях используется инверсия с had: Scarcely had we left..."
+      },
+      {
+        "id": "q46",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_hardly_scarcely",
+        "difficulty": 3,
+        "correct_answer": "Hardly had they agreed when the terms changed.",
+        "explanation": "Hardly + Past Perfect требует инверсии: had they agreed."
+      },
+      {
+        "id": "q47",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"Barely ___ I finished when the deadline passed.\"",
+        "theory_block_id": "b4_theory_hardly_scarcely",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had",
+            "feedback": "Верно: Past Perfect + inversion."
+          },
+          {
+            "id": "b",
+            "text": "did",
+            "feedback": "Did не используется в этой связке."
+          },
+          {
+            "id": "c",
+            "text": "have",
+            "feedback": "Have не подходит по времени."
+          },
+          {
+            "id": "d",
+            "text": "were",
+            "feedback": "Were не подходит по смыслу."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Barely... when требует Past Perfect с инверсией: Barely had I finished."
+      },
+      {
+        "id": "q48",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Barely ___ we closed the shop when a client returned.\" (закрывать)",
+        "theory_block_id": "b4_theory_hardly_scarcely",
+        "difficulty": 3,
+        "correct_answer": "had",
+        "explanation": "Barely + Past Perfect с инверсией: Barely had we closed."
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"Under no circumstances ___ this be ignored.\"",
+        "theory_block_id": "b5_theory_emphasis_style",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "should",
+            "feedback": "Верно: инверсия с модальным глаголом."
+          },
+          {
+            "id": "b",
+            "text": "this should",
+            "feedback": "Нужна инверсия: should перед this."
+          },
+          {
+            "id": "c",
+            "text": "do",
+            "feedback": "Do не используется с should."
+          },
+          {
+            "id": "d",
+            "text": "is",
+            "feedback": "Is не соответствует модальному значению."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Инверсия после under no circumstances: should + subject. Это усиленная, формальная структура."
+      },
+      {
+        "id": "q50",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Never ___ I felt so relieved.\" (чувствовать)",
+        "theory_block_id": "b5_theory_emphasis_style",
+        "difficulty": 2,
+        "correct_answer": "have",
+        "explanation": "Формальная эмфаза с never в начале требует инверсии: Never have I felt."
+      },
+      {
+        "id": "q51",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b5_theory_emphasis_style",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Under no circumstances we should accept this.",
+            "feedback": "Нужна инверсия."
+          },
+          {
+            "id": "b",
+            "text": "Under no circumstances should we accept this.",
+            "feedback": "Верно: модальный глагол перед подлежащим."
+          },
+          {
+            "id": "c",
+            "text": "Under no circumstances should accept we this.",
+            "feedback": "Неверный порядок слов."
+          },
+          {
+            "id": "d",
+            "text": "Under no circumstances do we should accept this.",
+            "feedback": "Do не используется с модальными."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В формальном стиле инверсия обязательна: should we accept. Это делает фразу выразительной."
+      },
+      {
+        "id": "q52",
+        "type": "true_false",
+        "prompt": "Инверсия после отрицательных выражений делает стиль более формальным и выразительным.",
+        "theory_block_id": "b5_theory_emphasis_style",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, инверсия часто используется ради эффекта и формального регистра."
+      },
+      {
+        "id": "q53",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_emphasis_style",
+        "difficulty": 2,
+        "correct_answer": "Only then did the audience understand the twist.",
+        "explanation": "Only then в начале требует инверсии: did the audience understand."
+      },
+      {
+        "id": "q54",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"Never ___ such a reaction in the press.\"",
+        "theory_block_id": "b5_theory_emphasis_style",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "have we seen",
+            "feedback": "Верно: инверсия с Present Perfect."
+          },
+          {
+            "id": "b",
+            "text": "we have seen",
+            "feedback": "Нужна инверсия."
+          },
+          {
+            "id": "c",
+            "text": "we saw",
+            "feedback": "Нет инверсии и другое время."
+          },
+          {
+            "id": "d",
+            "text": "did we seen",
+            "feedback": "После did нужна V1."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После never в начале используется инверсия: have we seen."
+      },
+      {
+        "id": "q55",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Under no circumstances ___ we publish the draft.\" (можно/следует)",
+        "theory_block_id": "b5_theory_emphasis_style",
+        "difficulty": 3,
+        "correct_answer": "should",
+        "explanation": "В формальной инверсии модальный глагол ставится перед подлежащим: should we publish."
+      },
+      {
+        "id": "q56",
+        "type": "true_false",
+        "prompt": "Инверсия после never возможна только в письменной речи.",
+        "theory_block_id": "b5_theory_emphasis_style",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Она возможна и в речи, но звучит более подчеркнуто и формально."
+      },
+      {
+        "id": "q57",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b5_theory_emphasis_style",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Never I have heard such silence.",
+            "feedback": "Нужна инверсия."
+          },
+          {
+            "id": "b",
+            "text": "Never have I heard such silence.",
+            "feedback": "Верно: инверсия после never."
+          },
+          {
+            "id": "c",
+            "text": "Never did I heard such silence.",
+            "feedback": "После did нужна V1."
+          },
+          {
+            "id": "d",
+            "text": "Never heard I have such silence.",
+            "feedback": "Неверный порядок слов."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "После never в начале: auxiliary + subject + V3/V1. Правильно: Never have I heard."
+      },
+      {
+        "id": "q58",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_emphasis_style",
+        "difficulty": 2,
+        "correct_answer": "Under no circumstances should we delay the launch.",
+        "explanation": "Under no circumstances в начале требует инверсии: should we delay."
+      },
+      {
+        "id": "q59",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"Only then ___ it clear to everyone.\"",
+        "theory_block_id": "b5_theory_emphasis_style",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "did it become",
+            "feedback": "Верно: инверсия с did."
+          },
+          {
+            "id": "b",
+            "text": "it became",
+            "feedback": "Нужна инверсия."
+          },
+          {
+            "id": "c",
+            "text": "was it become",
+            "feedback": "Неверная форма."
+          },
+          {
+            "id": "d",
+            "text": "did become it",
+            "feedback": "Неверный порядок слов."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Only then в начале запускает инверсию: did it become clear."
+      },
+      {
+        "id": "q60",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Never ___ we witnessed such unity.\" (видеть)",
+        "theory_block_id": "b5_theory_emphasis_style",
+        "difficulty": 2,
+        "correct_answer": "have",
+        "explanation": "Never в начале требует инверсии: have we witnessed."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-24T14:03:21Z",
+    "source": "llm"
+  }
+}
