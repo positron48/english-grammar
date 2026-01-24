@@ -127,6 +127,9 @@ function renderChapter() {
     
     // Мета-информация
     const meta = [];
+    const chapterInfo = chaptersIndex?.chapters?.find(c => c.id === chapterData.id);
+    const chapterNum = chapterInfo?.path?.match(/\/chapters\/(\d+)\./)?.[1];
+    if (chapterNum) meta.push(`№ ${chapterNum}`);
     if (final?.level) meta.push(`Уровень: ${final.level}`);
     if (final?.order !== undefined) meta.push(`Порядок: ${final.order}`);
     if (final?.estimated_minutes) meta.push(`Время: ${final.estimated_minutes} мин`);
@@ -428,6 +431,14 @@ function renderQuestions() {
     document.getElementById('questionsContent').innerHTML = html;
 }
 
+// Вспомогательная функция для экранирования HTML
+function escapeHtml(text) {
+    if (!text) return '';
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+
 function renderQuestionItem(q) {
     const typeLabels = {
         'mcq_single': 'Один ответ',
@@ -438,55 +449,89 @@ function renderQuestionItem(q) {
         'true_false': 'Верно/Неверно'
     };
 
+    // Экранируем ID вопроса для безопасного использования в атрибутах
+    const safeQuestionId = escapeHtml(q.id);
+    const safeTheoryBlockId = q.theory_block_id ? escapeHtml(q.theory_block_id) : '';
+
     return `
-        <div class="question-item" data-question-id="${q.id}" style="margin-bottom: 20px; padding: 15px; background: white; border-radius: 6px; border-left: 4px solid #2196F3;">
+        <div class="question-item" data-question-id="${safeQuestionId}" style="margin-bottom: 20px; padding: 15px; background: white; border-radius: 6px; border-left: 4px solid #2196F3;">
             <div class="question-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
                 <div>
                     <span class="question-type" style="background: #2196F3; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px;">
-                        ${typeLabels[q.type] || q.type}
+                        ${typeLabels[q.type] || escapeHtml(q.type || '')}
                     </span>
                     <span style="margin-left: 10px; font-size: 12px; color: #7f8c8d;">
                         Сложность: ${'⭐'.repeat(q.difficulty || 1)}
                     </span>
                     ${q.theory_block_id ? `
                         <span style="margin-left: 10px; font-size: 11px; color: #666; background: #e3f2fd; padding: 2px 6px; border-radius: 3px;">
-                            Блок: ${q.theory_block_id}
+                            Блок: ${safeTheoryBlockId}
                         </span>
                     ` : ''}
                 </div>
                 <div style="display: flex; align-items: center; gap: 10px;">
-                    <span class="question-id" style="font-size: 12px; color: #666;">ID: ${q.id}</span>
-                    <button onclick="deleteQuestion('${q.id}')" 
+                    <span class="question-id" style="font-size: 12px; color: #666;">ID: ${safeQuestionId}</span>
+                    <button onclick="deleteQuestion('${safeQuestionId.replace(/'/g, "\\'")}')" 
                             style="padding: 6px 12px; background: #f44336; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 12px;"
                             title="Удалить вопрос">
                         🗑️ Удалить
                     </button>
                 </div>
             </div>
-            <div class="question-prompt" style="margin-bottom: 10px; font-weight: 500;">
+            <div class="question-prompt editable-text" 
+                 data-question-id="${safeQuestionId}" 
+                 data-field="prompt"
+                 style="margin-bottom: 10px; font-weight: 500; padding: 8px; border: 2px dashed transparent; border-radius: 4px; cursor: pointer; min-height: 20px;"
+                 onmouseover="this.style.borderColor='#2196F3'; this.style.background='#f5f5f5';"
+                 onmouseout="if(!this.querySelector('textarea')) { this.style.borderColor='transparent'; this.style.background='transparent'; }"
+                 onclick="startEditQuestionText(event, '${safeQuestionId.replace(/'/g, "\\'")}', 'prompt')"
+                 title="Кликните для редактирования текста вопроса">
                 ${formatMarkdown(q.prompt || '')}
             </div>
             ${Array.isArray(q.choices) && q.choices.length > 0 ? `
                 <div class="question-choices" style="margin-top: 10px;">
-                    ${q.choices.map(choice => {
+                    ${q.choices.map((choice, idx) => {
                         const isCorrect = Array.isArray(q.correct_answer) 
                             ? q.correct_answer.includes(choice.id)
                             : q.correct_answer === choice.id;
+                        const choiceText = escapeHtml(choice.text || '');
+                        const safeChoiceId = escapeHtml(choice.id || '');
+                        const safeChoiceIdForAttr = (choice.id || '').replace(/'/g, "\\'");
                         return `
                             <div class="choice-item ${isCorrect ? 'correct' : ''}" 
                                  style="padding: 8px; margin: 5px 0; background: ${isCorrect ? '#e8f5e9' : '#f5f5f5'}; border-radius: 4px; border-left: 3px solid ${isCorrect ? '#4caf50' : '#ccc'};">
-                                <span class="choice-id" style="font-weight: bold; margin-right: 8px;">${choice.id}.</span>
-                                <span>${choice.text}</span>
-                                ${choice.feedback ? `<div class="choice-feedback" style="margin-top: 5px; font-size: 12px; color: #666; font-style: italic;">${choice.feedback}</div>` : ''}
+                                <span class="choice-id" style="font-weight: bold; margin-right: 8px;">${safeChoiceId}.</span>
+                                <span class="editable-choice-text" 
+                                      data-question-id="${safeQuestionId}" 
+                                      data-choice-id="${safeChoiceId}"
+                                      data-choice-index="${idx}"
+                                      data-field="choice"
+                                      style="padding: 4px; border: 2px dashed transparent; border-radius: 4px; cursor: pointer; display: inline-block; min-width: 100px;"
+                                      onmouseover="this.style.borderColor='#2196F3'; this.style.background='rgba(33, 150, 243, 0.1)';"
+                                      onmouseout="if(!this.querySelector('textarea')) { this.style.borderColor='transparent'; this.style.background='transparent'; }"
+                                      onclick="startEditChoiceText(event, '${safeQuestionId.replace(/'/g, "\\'")}', '${safeChoiceIdForAttr}', ${idx})"
+                                      title="Кликните для редактирования варианта ответа">
+                                    ${choiceText}
+                                </span>
+                                ${choice.feedback ? `<div class="choice-feedback" style="margin-top: 5px; font-size: 12px; color: #666; font-style: italic;">${escapeHtml(choice.feedback)}</div>` : ''}
                             </div>
                         `;
                     }).join('')}
                 </div>
             ` : ''}
-            ${q.correct_answer ? `
+            ${q.correct_answer !== undefined && q.correct_answer !== null ? `
                 <div style="margin-top: 10px; padding: 10px; background: #e8f5e9; border-radius: 6px;">
                     <strong>Правильный ответ:</strong> 
-                    ${Array.isArray(q.correct_answer) ? q.correct_answer.join(', ') : q.correct_answer}
+                    <span class="editable-correct-answer" 
+                          data-question-id="${safeQuestionId}" 
+                          data-field="correct_answer"
+                          style="padding: 4px 8px; border: 2px dashed transparent; border-radius: 4px; cursor: pointer; display: inline-block; margin-left: 8px; min-width: 50px;"
+                          onmouseover="this.style.borderColor='#4caf50'; this.style.background='rgba(76, 175, 80, 0.1)';"
+                          onmouseout="if(!this.querySelector('textarea')) { this.style.borderColor='transparent'; this.style.background='transparent'; }"
+                          onclick="startEditCorrectAnswer(event, '${safeQuestionId.replace(/'/g, "\\'")}')"
+                          title="Кликните для редактирования правильного ответа">
+                        ${Array.isArray(q.correct_answer) ? q.correct_answer.join(', ') : escapeHtml(String(q.correct_answer))}
+                    </span>
                 </div>
             ` : ''}
             ${q.explanation ? `
@@ -743,8 +788,8 @@ async function updateChapterFiles() {
 
         if (result.success) {
             console.log('✓ Файлы обновлены:', result.updated);
-            // Показываем уведомление об успехе
-            showNotification(`✓ Файлы успешно обновлены: ${result.updated.join(', ')}`, 'success');
+            // Показываем уведомление об успехе в правом нижнем углу
+            showNotification('✓ Сохранено', 'success', 2500);
         } else {
             console.error('✗ Ошибка обновления файлов:', result);
             const errorMsg = result.error || (result.errors && result.errors.join(', ')) || 'Неизвестная ошибка';
@@ -757,22 +802,23 @@ async function updateChapterFiles() {
 }
 
 // Показ уведомления
-function showNotification(message, type = 'info') {
+function showNotification(message, type = 'info', duration = 3000) {
     // Создаем элемент уведомления
     const notification = document.createElement('div');
     notification.style.cssText = `
         position: fixed;
-        top: 20px;
+        bottom: 20px;
         right: 20px;
         padding: 15px 20px;
         background: ${type === 'success' ? '#4caf50' : type === 'error' ? '#f44336' : '#2196F3'};
         color: white;
         border-radius: 6px;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
         z-index: 10000;
         max-width: 400px;
         font-size: 14px;
-        animation: slideIn 0.3s ease-out;
+        animation: slideInFromBottom 0.3s ease-out;
+        word-wrap: break-word;
     `;
     notification.textContent = message;
     
@@ -781,14 +827,24 @@ function showNotification(message, type = 'info') {
         const style = document.createElement('style');
         style.id = 'notification-styles';
         style.textContent = `
-            @keyframes slideIn {
+            @keyframes slideInFromBottom {
                 from {
-                    transform: translateX(100%);
+                    transform: translateY(100%);
                     opacity: 0;
                 }
                 to {
-                    transform: translateX(0);
+                    transform: translateY(0);
                     opacity: 1;
+                }
+            }
+            @keyframes slideOutToBottom {
+                from {
+                    transform: translateY(0);
+                    opacity: 1;
+                }
+                to {
+                    transform: translateY(100%);
+                    opacity: 0;
                 }
             }
         `;
@@ -797,15 +853,400 @@ function showNotification(message, type = 'info') {
     
     document.body.appendChild(notification);
     
-    // Удаляем уведомление через 3 секунды
+    // Удаляем уведомление через указанное время
     setTimeout(() => {
-        notification.style.animation = 'slideIn 0.3s ease-out reverse';
+        notification.style.animation = 'slideOutToBottom 0.3s ease-out';
         setTimeout(() => {
             if (notification.parentNode) {
                 notification.parentNode.removeChild(notification);
             }
         }, 300);
-    }, 3000);
+    }, duration);
+}
+
+// Редактирование текста вопроса
+window.startEditQuestionText = function(event, questionId, field) {
+    event.stopPropagation();
+    const element = event.target.closest('.editable-text');
+    if (!element) return;
+    
+    // Проверяем, не редактируется ли уже
+    if (element.querySelector('textarea')) return;
+    
+    const currentText = getQuestionField(questionId, field);
+    
+    // Создаем textarea для редактирования
+    const textarea = document.createElement('textarea');
+    textarea.value = currentText || '';
+    textarea.style.cssText = `
+        width: 100%;
+        min-height: 60px;
+        padding: 8px;
+        border: 2px solid #2196F3;
+        border-radius: 4px;
+        font-size: 14px;
+        font-family: inherit;
+        resize: vertical;
+    `;
+    
+    // Сохраняем оригинальный контент
+    const originalContent = element.innerHTML;
+    
+    // Заменяем контент на textarea
+    element.innerHTML = '';
+    element.appendChild(textarea);
+    element.style.borderColor = '#2196F3';
+    element.style.background = '#fff';
+    
+    // Фокус и выделение текста
+    textarea.focus();
+    textarea.select();
+    
+    // Обработчики для сохранения
+    const saveEdit = () => {
+        const newText = textarea.value.trim();
+        if (newText !== currentText) {
+            updateQuestionField(questionId, field, newText);
+        } else {
+            // Восстанавливаем оригинальный контент если не было изменений
+            element.innerHTML = originalContent;
+            element.style.borderColor = 'transparent';
+            element.style.background = 'transparent';
+        }
+    };
+    
+    const cancelEdit = () => {
+        element.innerHTML = originalContent;
+        element.style.borderColor = 'transparent';
+        element.style.background = 'transparent';
+    };
+    
+    // Сохранение по Enter (Ctrl+Enter) или Escape для отмены
+    textarea.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            e.preventDefault();
+            cancelEdit();
+        } else if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
+            e.preventDefault();
+            saveEdit();
+        }
+    });
+    
+    // Сохранение при потере фокуса
+    textarea.addEventListener('blur', () => {
+        setTimeout(saveEdit, 200); // Небольшая задержка для обработки клика на кнопку сохранения
+    });
+    
+    // Останавливаем всплытие события
+    textarea.addEventListener('click', (e) => e.stopPropagation());
+};
+
+// Редактирование правильного ответа
+window.startEditCorrectAnswer = function(event, questionId) {
+    event.stopPropagation();
+    const element = event.target.closest('.editable-correct-answer');
+    if (!element) return;
+    
+    // Проверяем, не редактируется ли уже
+    if (element.querySelector('textarea')) return;
+    
+    const question = findQuestionById(questionId);
+    if (!question) return;
+    
+    // Получаем текущее значение правильного ответа
+    const currentAnswer = question.correct_answer;
+    const currentText = Array.isArray(currentAnswer) 
+        ? currentAnswer.join(', ') 
+        : (currentAnswer !== undefined && currentAnswer !== null ? String(currentAnswer) : '');
+    
+    // Создаем textarea для редактирования
+    const textarea = document.createElement('textarea');
+    textarea.value = currentText;
+    textarea.style.cssText = `
+        width: 100%;
+        min-height: 40px;
+        padding: 4px 8px;
+        border: 2px solid #4caf50;
+        border-radius: 4px;
+        font-size: 14px;
+        font-family: inherit;
+        resize: vertical;
+        display: block;
+        margin-top: 4px;
+    `;
+    
+    // Добавляем подсказку в зависимости от типа вопроса
+    const questionType = question.type;
+    let hint = '';
+    if (questionType === 'mcq_multi') {
+        hint = ' (для множественного выбора введите ID через запятую, например: a, b, c)';
+    } else if (questionType === 'mcq_single') {
+        hint = ' (введите ID одного из вариантов, например: a)';
+    } else if (questionType === 'true_false') {
+        hint = ' (введите: true или false)';
+    }
+    
+    // Сохраняем оригинальный контент
+    const originalContent = element.innerHTML;
+    
+    // Создаем контейнер для textarea и подсказки
+    const container = document.createElement('div');
+    container.style.cssText = 'width: 100%;';
+    
+    container.appendChild(textarea);
+    if (hint) {
+        const hintEl = document.createElement('div');
+        hintEl.textContent = hint;
+        hintEl.style.cssText = 'font-size: 11px; color: #666; margin-top: 4px; font-style: italic;';
+        container.appendChild(hintEl);
+    }
+    
+    // Заменяем контент на textarea
+    element.innerHTML = '';
+    element.appendChild(container);
+    element.style.borderColor = '#4caf50';
+    element.style.background = 'rgba(76, 175, 80, 0.1)';
+    element.style.display = 'block';
+    element.style.width = '100%';
+    
+    // Фокус и выделение текста
+    textarea.focus();
+    textarea.select();
+    
+    // Обработчики для сохранения
+    const saveEdit = () => {
+        const newText = textarea.value.trim();
+        let newValue;
+        
+        // Парсим значение в зависимости от типа вопроса
+        if (questionType === 'mcq_multi') {
+            // Для множественного выбора - массив
+            newValue = newText ? newText.split(',').map(s => s.trim()).filter(s => s) : [];
+        } else {
+            // Для остальных типов - строка
+            newValue = newText;
+        }
+        
+        // Проверяем, изменилось ли значение
+        const currentValueStr = Array.isArray(currentAnswer) 
+            ? currentAnswer.join(', ') 
+            : (currentAnswer !== undefined && currentAnswer !== null ? String(currentAnswer) : '');
+        
+        if (newText !== currentValueStr) {
+            updateCorrectAnswer(questionId, newValue);
+        } else {
+            // Восстанавливаем оригинальный контент если не было изменений
+            element.innerHTML = originalContent;
+            element.style.borderColor = 'transparent';
+            element.style.background = 'transparent';
+            element.style.display = 'inline-block';
+            element.style.width = 'auto';
+        }
+    };
+    
+    const cancelEdit = () => {
+        element.innerHTML = originalContent;
+        element.style.borderColor = 'transparent';
+        element.style.background = 'transparent';
+        element.style.display = 'inline-block';
+        element.style.width = 'auto';
+    };
+    
+    // Сохранение по Enter (Ctrl+Enter) или Escape для отмены
+    textarea.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            e.preventDefault();
+            cancelEdit();
+        } else if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
+            e.preventDefault();
+            saveEdit();
+        }
+    });
+    
+    // Сохранение при потере фокуса
+    textarea.addEventListener('blur', () => {
+        setTimeout(saveEdit, 200);
+    });
+    
+    // Останавливаем всплытие события
+    textarea.addEventListener('click', (e) => e.stopPropagation());
+    container.addEventListener('click', (e) => e.stopPropagation());
+};
+
+// Редактирование варианта ответа
+window.startEditChoiceText = function(event, questionId, choiceId, choiceIndex) {
+    event.stopPropagation();
+    const element = event.target.closest('.editable-choice-text');
+    if (!element) return;
+    
+    // Проверяем, не редактируется ли уже
+    if (element.querySelector('textarea')) return;
+    
+    const question = findQuestionById(questionId);
+    if (!question || !Array.isArray(question.choices)) return;
+    
+    const choice = question.choices[choiceIndex];
+    if (!choice || choice.id !== choiceId) return;
+    
+    const currentText = choice.text || '';
+    
+    // Создаем textarea для редактирования
+    const textarea = document.createElement('textarea');
+    textarea.value = currentText;
+    textarea.style.cssText = `
+        width: 100%;
+        min-height: 40px;
+        padding: 4px;
+        border: 2px solid #2196F3;
+        border-radius: 4px;
+        font-size: 14px;
+        font-family: inherit;
+        resize: vertical;
+    `;
+    
+    // Сохраняем оригинальный контент
+    const originalContent = element.innerHTML;
+    
+    // Заменяем контент на textarea
+    element.innerHTML = '';
+    element.appendChild(textarea);
+    element.style.borderColor = '#2196F3';
+    element.style.background = 'rgba(33, 150, 243, 0.1)';
+    
+    // Фокус и выделение текста
+    textarea.focus();
+    textarea.select();
+    
+    // Обработчики для сохранения
+    const saveEdit = () => {
+        const newText = textarea.value.trim();
+        if (newText !== currentText) {
+            updateChoiceText(questionId, choiceId, choiceIndex, newText);
+        } else {
+            // Восстанавливаем оригинальный контент если не было изменений
+            element.innerHTML = originalContent;
+            element.style.borderColor = 'transparent';
+            element.style.background = 'transparent';
+        }
+    };
+    
+    const cancelEdit = () => {
+        element.innerHTML = originalContent;
+        element.style.borderColor = 'transparent';
+        element.style.background = 'transparent';
+    };
+    
+    // Сохранение по Enter (Ctrl+Enter) или Escape для отмены
+    textarea.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            e.preventDefault();
+            cancelEdit();
+        } else if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
+            e.preventDefault();
+            saveEdit();
+        }
+    });
+    
+    // Сохранение при потере фокуса
+    textarea.addEventListener('blur', () => {
+        setTimeout(saveEdit, 200);
+    });
+    
+    // Останавливаем всплытие события
+    textarea.addEventListener('click', (e) => e.stopPropagation());
+};
+
+// Вспомогательные функции для работы с вопросами
+function findQuestionById(questionId) {
+    const questions = chapterData.questions?.questions || chapterData.final?.question_bank?.questions || [];
+    return questions.find(q => q.id === questionId);
+}
+
+function getQuestionField(questionId, field) {
+    const question = findQuestionById(questionId);
+    if (!question) return '';
+    return question[field] || '';
+}
+
+function updateQuestionField(questionId, field, newValue) {
+    // Обновляем в questions
+    if (chapterData.questions && Array.isArray(chapterData.questions.questions)) {
+        const question = chapterData.questions.questions.find(q => q.id === questionId);
+        if (question) {
+            question[field] = newValue;
+        }
+    }
+    
+    // Обновляем в final.question_bank.questions
+    if (chapterData.final && chapterData.final.question_bank && Array.isArray(chapterData.final.question_bank.questions)) {
+        const question = chapterData.final.question_bank.questions.find(q => q.id === questionId);
+        if (question) {
+            question[field] = newValue;
+        }
+    }
+    
+    // Сохраняем изменения
+    saveQuestionChanges(questionId);
+}
+
+function updateChoiceText(questionId, choiceId, choiceIndex, newText) {
+    // Обновляем в questions
+    if (chapterData.questions && Array.isArray(chapterData.questions.questions)) {
+        const question = chapterData.questions.questions.find(q => q.id === questionId);
+        if (question && Array.isArray(question.choices) && question.choices[choiceIndex]) {
+            if (question.choices[choiceIndex].id === choiceId) {
+                question.choices[choiceIndex].text = newText;
+            }
+        }
+    }
+    
+    // Обновляем в final.question_bank.questions
+    if (chapterData.final && chapterData.final.question_bank && Array.isArray(chapterData.final.question_bank.questions)) {
+        const question = chapterData.final.question_bank.questions.find(q => q.id === questionId);
+        if (question && Array.isArray(question.choices) && question.choices[choiceIndex]) {
+            if (question.choices[choiceIndex].id === choiceId) {
+                question.choices[choiceIndex].text = newText;
+            }
+        }
+    }
+    
+    // Сохраняем изменения
+    saveQuestionChanges(questionId);
+}
+
+function updateCorrectAnswer(questionId, newValue) {
+    // Обновляем в questions
+    if (chapterData.questions && Array.isArray(chapterData.questions.questions)) {
+        const question = chapterData.questions.questions.find(q => q.id === questionId);
+        if (question) {
+            question.correct_answer = newValue;
+        }
+    }
+    
+    // Обновляем в final.question_bank.questions
+    if (chapterData.final && chapterData.final.question_bank && Array.isArray(chapterData.final.question_bank.questions)) {
+        const question = chapterData.final.question_bank.questions.find(q => q.id === questionId);
+        if (question) {
+            question.correct_answer = newValue;
+        }
+    }
+    
+    // Сохраняем изменения
+    saveQuestionChanges(questionId);
+}
+
+// Сохранение изменений вопроса
+async function saveQuestionChanges(questionId) {
+    try {
+        // Используем существующую функцию updateChapterFiles для сохранения
+        // Она сама покажет уведомление об успехе или ошибке
+        await updateChapterFiles();
+        // После успешного сохранения перерисовываем вопросы
+        renderQuestions();
+    } catch (error) {
+        console.error('Ошибка при сохранении изменений:', error);
+        // updateChapterFiles уже показал уведомление об ошибке, но на всякий случай показываем еще раз
+    }
 }
 
 // Удаление вопроса (глобальная функция для доступа из HTML)

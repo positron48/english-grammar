@@ -16,7 +16,7 @@ help:
 	@echo "  make admin               - Запустить админ-панель для просмотра глав"
 	@echo "  make run                 - Запустить тестовую систему для изучения курса"
 	@echo "  make test                - Алиас для make run (тестовая система)"
-	@echo "  make dev                 - Запустить оба сервера (admin + test) с автообновлением"
+	@echo "  make dev                 - Запустить оба сервера (admin + test)"
 	@echo "  make clean               - Удалить временные файлы"
 	@echo ""
 	@echo "Найдено глав: $(words $(CHAPTERS))"
@@ -136,34 +136,14 @@ admin:
 	@echo "📖 Для остановки нажмите Ctrl+C"
 	@echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 	@echo ""
-	@if command -v inotifywait >/dev/null 2>&1; then \
-		echo "🔍 Запуск мониторинга изменений глав (автообновление индексов)..."; \
-		bash scripts/watch-chapters.sh admin & \
-		WATCH_PID=$$!; \
-		trap "kill $$WATCH_PID 2>/dev/null; exit" INT TERM; \
-		if command -v php >/dev/null 2>&1; then \
-			php -S localhost:8000 -t . 2>/dev/null || \
-			(kill $$WATCH_PID 2>/dev/null; echo "❌ Ошибка запуска PHP сервера" && exit 1); \
-		else \
-			python3 -m http.server 8000 2>/dev/null || \
-			(kill $$WATCH_PID 2>/dev/null; echo "❌ Ошибка: Не найден Python3 или PHP для запуска сервера." && \
-			 echo "   Установите PHP: sudo apt install php" && \
-			 echo "   Или Python3: sudo apt install python3" && exit 1); \
-		fi; \
-		kill $$WATCH_PID 2>/dev/null; \
+	@if command -v php >/dev/null 2>&1; then \
+		php -S localhost:8000 -t . 2>/dev/null || \
+		(echo "❌ Ошибка запуска PHP сервера" && exit 1); \
 	else \
-		echo "⚠️  inotifywait не найден - автообновление индексов отключено"; \
-		echo "   Установите: sudo apt install inotify-tools"; \
-		echo ""; \
-		if command -v php >/dev/null 2>&1; then \
-			php -S localhost:8000 -t . 2>/dev/null || \
-			(echo "❌ Ошибка запуска PHP сервера" && exit 1); \
-		else \
-			python3 -m http.server 8000 2>/dev/null || \
-			(echo "❌ Ошибка: Не найден Python3 или PHP для запуска сервера." && \
-			 echo "   Установите PHP: sudo apt install php" && \
-			 echo "   Или Python3: sudo apt install python3" && exit 1); \
-		fi; \
+		python3 -m http.server 8000 2>/dev/null || \
+		(echo "❌ Ошибка: Не найден Python3 или PHP для запуска сервера." && \
+		 echo "   Установите PHP: sudo apt install php" && \
+		 echo "   Или Python3: sudo apt install python3" && exit 1); \
 	fi
 
 # Запуск тестовой системы для изучения
@@ -201,27 +181,11 @@ run:
 	@echo "💡 Для остановки сервера нажмите Ctrl+C"
 	@echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 	@echo ""
-	@if command -v inotifywait >/dev/null 2>&1; then \
-		echo "🔍 Запуск мониторинга изменений глав (автообновление индексов)..."; \
-		bash scripts/watch-chapters.sh test & \
-		WATCH_PID=$$!; \
-		trap "kill $$WATCH_PID 2>/dev/null; exit" INT TERM; \
-		python3 -m http.server 8001 2>/dev/null || \
-		 (php -S localhost:8001 2>/dev/null) || \
-		 (kill $$WATCH_PID 2>/dev/null; echo "❌ Ошибка: Не найден Python3 или PHP для запуска сервера." && \
-		  echo "   Установите Python3: sudo apt install python3" && \
-		  echo "   Или PHP: sudo apt install php" && exit 1); \
-		kill $$WATCH_PID 2>/dev/null; \
-	else \
-		echo "⚠️  inotifywait не найден - автообновление индексов отключено"; \
-		echo "   Установите: sudo apt install inotify-tools"; \
-		echo ""; \
-		python3 -m http.server 8001 2>/dev/null || \
-		 (php -S localhost:8001 2>/dev/null) || \
-		 (echo "❌ Ошибка: Не найден Python3 или PHP для запуска сервера." && \
-		  echo "   Установите Python3: sudo apt install python3" && \
-		  echo "   Или PHP: sudo apt install php" && exit 1); \
-	fi
+	@python3 -m http.server 8001 2>/dev/null || \
+	 (php -S localhost:8001 2>/dev/null) || \
+	 (echo "❌ Ошибка: Не найден Python3 или PHP для запуска сервера." && \
+	  echo "   Установите Python3: sudo apt install python3" && \
+	  echo "   Или PHP: sudo apt install php" && exit 1)
 
 # Алиас для команды run
 test: run
@@ -237,7 +201,7 @@ dev:
 	@$(MAKE) -s update-test-index >/dev/null 2>&1 || true
 	@echo "✓ Индексы обновлены"
 	@echo ""
-	@echo "Запуск серверов и мониторинга..."
+	@echo "Запуск серверов..."
 	@echo ""
 	@bash -c '\
 		cleanup() { \
@@ -257,11 +221,6 @@ dev:
 		}; \
 		trap cleanup INT TERM; \
 		PIDS=""; \
-		if command -v inotifywait >/dev/null 2>&1; then \
-			echo "🔍 Запуск мониторинга изменений глав (с автообновлением индексов и final.json)..."; \
-			bash scripts/watch-chapters.sh both --rebuild-final & \
-			PIDS="$$PIDS $$!"; \
-		fi; \
 		echo "📚 Запуск админ-панели (http://localhost:8000/admin/)..."; \
 		if command -v php >/dev/null 2>&1; then \
 			php -S localhost:8000 -t . >/dev/null 2>&1 & \
@@ -284,13 +243,6 @@ dev:
 		echo ""; \
 		echo "🌐 Админ-панель:  http://localhost:8000/admin/"; \
 		echo "🌐 Тестовая система: http://localhost:8001/test/"; \
-		echo ""; \
-		if command -v inotifywait >/dev/null 2>&1; then \
-			echo "🔍 Мониторинг изменений активен - индексы обновляются автоматически"; \
-		else \
-			echo "⚠️  inotifywait не найден - автообновление индексов отключено"; \
-			echo "   Установите: sudo apt install inotify-tools"; \
-		fi; \
 		echo ""; \
 		echo "📖 Для остановки нажмите Ctrl+C"; \
 		echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"; \
