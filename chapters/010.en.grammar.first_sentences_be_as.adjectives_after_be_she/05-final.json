@@ -149,7 +149,7 @@
       "quiz_inline": {
         "question_ids": [
           "q12",
-          "q13"
+          "q15"
         ],
         "show_answers_immediately": true
       }
@@ -474,19 +474,6 @@
         "tags": [
           "fill_blank",
           "happy"
-        ]
-      },
-      {
-        "id": "q13",
-        "type": "true_false",
-        "prompt": "Верно или неверно: Прилагательное \"tired\" описывает эмоциональное состояние человека.",
-        "theory_block_id": "b2_theory_describing_people",
-        "difficulty": 2,
-        "correct_answer": "false",
-        "explanation": "Неверно. Прилагательное tired описывает физическое состояние (усталость), а не эмоциональное состояние.",
-        "tags": [
-          "state",
-          "tired"
         ]
       },
       {
@@ -888,7 +875,7 @@
       {
         "id": "q50",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"He is ___ well.\" (не)",
+        "prompt": "Заполните пропуск: \"He is ___ well.\" (отрицание)",
         "theory_block_id": "b5_theory_negative_questions",
         "difficulty": 1,
         "correct_answer": "not",
@@ -931,7 +918,7 @@
       {
         "id": "q52",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ it easy?\" (вопрос)",
+        "prompt": "Заполните пропуск: \"___ it easy?\" (be)",
         "theory_block_id": "b5_theory_negative_questions",
         "difficulty": 1,
         "correct_answer": "Is",
@@ -971,7 +958,7 @@
       {
         "id": "q55",
         "type": "mcq_single",
-        "prompt": "Как правильно сформировать вопрос \"Are they happy?\"?",
+        "prompt": "Как правильно сформировать вопрос?",
         "theory_block_id": "b5_theory_negative_questions",
         "difficulty": 2,
         "choices": [
@@ -1001,7 +988,7 @@
       {
         "id": "q56",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ is the book interesting?\" (вопрос)",
+        "prompt": "Заполните пропуск: \"___ is the book interesting?\" (be)",
         "theory_block_id": "b5_theory_negative_questions",
         "difficulty": 1,
         "correct_answer": "Is",
@@ -1071,7 +1058,7 @@
       {
         "id": "q60",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ are we hungry?\" (вопрос)",
+        "prompt": "Заполните пропуск: \"___ are we hungry?\" (Wh-слово)",
         "theory_block_id": "b5_theory_negative_questions",
         "difficulty": 1,
         "correct_answer": "Why",
@@ -1090,7 +1077,6 @@
       "q6",
       "q9",
       "q10",
-      "q15",
       "q16",
       "q17",
       "q19",
@@ -1129,7 +1115,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-20T14:10:51Z",
+    "updated_at": "2026-01-24T10:03:37Z",
     "source": "llm"
   }
 }
