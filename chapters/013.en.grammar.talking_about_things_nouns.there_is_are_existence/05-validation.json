@@ -1,11 +1,54 @@
 {
   "validation_result": {
-    "is_valid": true,
-    "schema_valid": true,
-    "issues": [],
+    "is_valid": false,
+    "schema_valid": false,
+    "issues": [
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Найдены вопросы с одинаковой парой prompt+correct_answer: 'Расставьте слова в правильном порядке:' / '\"There is a chair in the room.\"'. Дубликаты: q7, q11, q15",
+        "location": "question_bank.questions",
+        "suggested_fix": "Изменить prompt или correct_answer для одного из вопросов (q7, q11, q15), чтобы пары были уникальными"
+      },
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Найдены вопросы с одинаковой парой prompt+correct_answer: 'Выберите правильный вариант для выражения существования книги на столе:' / '\"There is a book on the table.\"'. Дубликаты: q8, q12",
+        "location": "question_bank.questions",
+        "suggested_fix": "Изменить prompt или correct_answer для одного из вопросов (q8, q12), чтобы пары были уникальными"
+      },
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Найдены вопросы с одинаковой парой prompt+correct_answer: 'Выберите правильный вариант:' / '\"There is a pen.\"'. Дубликаты: q22, q25, q28",
+        "location": "question_bank.questions",
+        "suggested_fix": "Изменить prompt или correct_answer для одного из вопросов (q22, q25, q28), чтобы пары были уникальными"
+      },
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Найдены вопросы с одинаковой парой prompt+correct_answer: 'Выберите правильный вариант:' / '\"There are chairs.\"'. Дубликаты: q37, q40, q43",
+        "location": "question_bank.questions",
+        "suggested_fix": "Изменить prompt или correct_answer для одного из вопросов (q37, q40, q43), чтобы пары были уникальными"
+      },
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Найдены вопросы с одинаковой парой prompt+correct_answer: 'Выберите правильный вариант вопроса:' / '\"Is there a computer?\"'. Дубликаты: q52, q55, q58",
+        "location": "question_bank.questions",
+        "suggested_fix": "Изменить prompt или correct_answer для одного из вопросов (q52, q55, q58), чтобы пары были уникальными"
+      },
+      {
+        "severity": "error",
+        "category": "content",
+        "message": "Найдены вопросы с одинаковой парой prompt+correct_answer: 'Выберите правильный вариант отрицания:' / '\"There aren't chairs.\"'. Дубликаты: q67, q70, q73",
+        "location": "question_bank.questions",
+        "suggested_fix": "Изменить prompt или correct_answer для одного из вопросов (q67, q70, q73), чтобы пары были уникальными"
+      }
+    ],
     "summary": {
-      "total_issues": 0,
-      "errors": 0,
+      "total_issues": 6,
+      "errors": 6,
       "warnings": 0,
       "suggestions": 0
     },
