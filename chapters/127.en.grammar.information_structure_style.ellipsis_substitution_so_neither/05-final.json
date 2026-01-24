@@ -1,0 +1,1426 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.information_structure_style.ellipsis_substitution_so_neither",
+  "section_id": "en.grammar.information_structure_style",
+  "title": "Ellipsis/substitution: so/neither, do/does, one/ones",
+  "title_short": "Ellipsis & substitution",
+  "description": "Как избегать повторов с помощью ellipsis и substitution: so/neither, do/does/did, one/ones.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "C1",
+  "order": 0,
+  "prerequisites": [],
+  "concept_refs": [
+    "so_neither_agreement",
+    "auxiliary_substitution_do",
+    "so_not_vs_not",
+    "one_ones_substitution",
+    "ellipsis_limits"
+  ],
+  "learning_objectives": [
+    "Использовать so/neither для согласия/несогласия без повтора",
+    "Заменять глагольные группы с помощью do/does/did",
+    "Использовать one/ones для замены существительных",
+    "Избегать типичных ошибок согласования и неверных вспомогательных"
+  ],
+  "estimated_minutes": 24,
+  "blocks": [
+    {
+      "id": "b1_theory_so_neither",
+      "type": "theory",
+      "title": "So/neither используются, чтобы согласиться или не согласиться с утверждением без повтора. Структура: So + auxiliary + subject для согласия и Neither + auxiliary + subject для отрицательного согласия.",
+      "theory": {
+        "concept_id": "so_neither_agreement",
+        "content_md": "So/neither используются, чтобы согласиться или не согласиться с утверждением без повтора. Структура: **So + auxiliary + subject** для согласия и **Neither + auxiliary + subject** для отрицательного согласия.\n\nВспомогательный глагол должен совпадать с временем и типом исходного предложения.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "She is tired. So am I.",
+            "translation": "Она устала. Я тоже.",
+            "tags": [
+              "affirmative",
+              "ellipsis"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "He didn't call. Neither did I.",
+            "translation": "Он не позвонил. Я тоже нет.",
+            "tags": [
+              "negative",
+              "ellipsis"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "I can swim. So can you.",
+            "translation": "Я умею плавать. Ты тоже.",
+            "tags": [
+              "affirmative",
+              "ellipsis"
+            ]
+          },
+          {
+            "id": "ex4",
+            "text": "You were at the meeting? So was I.",
+            "translation": "Ты был на встрече? Я тоже.",
+            "tags": [
+              "question",
+              "ellipsis"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_aux_substitution",
+      "type": "theory",
+      "title": "Чтобы избежать повтора, можно заменить целую глагольную группу вспомогательным do/does/did. Это особенно часто в коротких ответах и параллельных конструкциях.",
+      "theory": {
+        "concept_id": "auxiliary_substitution_do",
+        "content_md": "Чтобы избежать повтора, можно заменить целую глагольную группу вспомогательным **do/does/did**. Это особенно часто в коротких ответах и параллельных конструкциях.\n\nФорма do/does/did согласуется с лицом и временем исходного глагола.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I finish my reports, and she does too.",
+            "translation": "Я заканчиваю отчеты, и она тоже.",
+            "tags": [
+              "affirmative",
+              "ellipsis"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "They didn't apologize, but we did.",
+            "translation": "Они не извинились, а мы — извинились.",
+            "tags": [
+              "negative",
+              "ellipsis"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_so_not",
+      "type": "theory",
+      "title": "Важно различать So do I (согласие с чужой репликой) и So I do (эмфаза: «я действительно это делаю»). В первом случае используется инверсия, во втором — обычный порядок.",
+      "theory": {
+        "concept_id": "so_not_vs_not",
+        "content_md": "Важно различать **So do I** (согласие с чужой репликой) и **So I do** (эмфаза: «я действительно это делаю»). В первом случае используется инверсия, во втором — обычный порядок.\n\nЭмфатическая структура часто усиливает контраст или подтверждает факт.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I like jazz. So do I.",
+            "translation": "Мне нравится джаз. Мне тоже.",
+            "tags": [
+              "affirmative",
+              "ellipsis"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "You say I never help. So I do help.",
+            "translation": "Ты говоришь, что я никогда не помогаю. Я как раз помогаю.",
+            "tags": [
+              "affirmative",
+              "contrast"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_one_ones",
+      "type": "theory",
+      "title": "One/ones заменяют повторяющееся существительное: the red one, the smaller ones. Это удобно, когда объект уже понятен из контекста.",
+      "theory": {
+        "concept_id": "one_ones_substitution",
+        "content_md": "One/ones заменяют повторяющееся существительное: **the red one**, **the smaller ones**. Это удобно, когда объект уже понятен из контекста.\n\nOne используется с единственным числом, ones — с множественным.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I prefer the blue one.",
+            "translation": "Я предпочитаю синюю (вещь).",
+            "tags": [
+              "affirmative",
+              "ellipsis"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Take the smaller ones, not the large ones.",
+            "translation": "Возьми те, что поменьше, а не большие.",
+            "tags": [
+              "negative",
+              "ellipsis"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_style_limits",
+      "type": "theory",
+      "title": "Ellipsis и substitution работают только если контекст ясен. Неверный вспомогательный глагол или неправильное согласование делают фразу неестественной.",
+      "theory": {
+        "concept_id": "ellipsis_limits",
+        "content_md": "Ellipsis и substitution работают только если контекст ясен. Неверный вспомогательный глагол или неправильное согласование делают фразу неестественной.\n\nТакже важно не путать эллипсис (So do I) с обычным порядком слов (So I do), который меняет значение.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "I won't ignore it, and neither will they.",
+            "translation": "Я не буду это игнорировать, и они тоже нет.",
+            "tags": [
+              "negative",
+              "ellipsis"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Do you want the large one or the small one?",
+            "translation": "Тебе нужен большой или маленький?",
+            "tags": [
+              "question",
+              "ellipsis"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q50"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"She is nervous. ___ am I.\"",
+        "theory_block_id": "b1_theory_so_neither",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "So",
+            "feedback": "Верно: согласие с утверждением."
+          },
+          {
+            "id": "b",
+            "text": "Neither",
+            "feedback": "Neither используется при отрицании."
+          },
+          {
+            "id": "c",
+            "text": "Not",
+            "feedback": "Not не используется в этой конструкции."
+          },
+          {
+            "id": "d",
+            "text": "Also",
+            "feedback": "Also не требует инверсии."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "При согласии с утверждением используется So + auxiliary + subject: So am I."
+      },
+      {
+        "id": "q2",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"He didn't call. Neither ___ I.\" (do)",
+        "theory_block_id": "b1_theory_so_neither",
+        "difficulty": 2,
+        "correct_answer": "did",
+        "explanation": "В Past Simple используется did. При отрицании: Neither did I."
+      },
+      {
+        "id": "q3",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b1_theory_so_neither",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She can drive. So can I.",
+            "feedback": "Верно: инверсия с can."
+          },
+          {
+            "id": "b",
+            "text": "She can drive. So I can.",
+            "feedback": "Это эмфаза, не нейтральное согласие."
+          },
+          {
+            "id": "c",
+            "text": "She can drive. Neither can I.",
+            "feedback": "Neither используется при отрицании."
+          },
+          {
+            "id": "d",
+            "text": "She can drive. So do I.",
+            "feedback": "Нужен can, не do."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После can используем тот же вспомогательный: So can I. Это нейтральное согласие."
+      },
+      {
+        "id": "q4",
+        "type": "true_false",
+        "prompt": "В конструкции So do I используется инверсия вспомогательного глагола.",
+        "theory_block_id": "b1_theory_so_neither",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, структура So + auxiliary + subject предполагает инверсию."
+      },
+      {
+        "id": "q5",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_so_neither",
+        "difficulty": 2,
+        "correct_answer": "Neither do we agree with the proposal.",
+        "explanation": "Neither + auxiliary + subject: Neither do we agree..."
+      },
+      {
+        "id": "q6",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"They weren't ready. ___ were we.\"",
+        "theory_block_id": "b1_theory_so_neither",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Neither",
+            "feedback": "Верно: отрицательное согласие."
+          },
+          {
+            "id": "b",
+            "text": "So",
+            "feedback": "So используется при утверждении."
+          },
+          {
+            "id": "c",
+            "text": "Also",
+            "feedback": "Also не требует инверсии."
+          },
+          {
+            "id": "d",
+            "text": "Not",
+            "feedback": "Not не используется здесь."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для отрицательного согласия используем Neither + auxiliary + subject: Neither were we."
+      },
+      {
+        "id": "q7",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I can stay late. So ___ he.\" (can)",
+        "theory_block_id": "b1_theory_so_neither",
+        "difficulty": 2,
+        "correct_answer": "can",
+        "explanation": "С модальными глаголами повторяем тот же модальный: So can he."
+      },
+      {
+        "id": "q8",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b1_theory_so_neither",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She wasn't surprised. Neither did I.",
+            "feedback": "Неверный вспомогательный: нужно was."
+          },
+          {
+            "id": "b",
+            "text": "She wasn't surprised. Neither was I.",
+            "feedback": "Верно: was для состояния."
+          },
+          {
+            "id": "c",
+            "text": "She wasn't surprised. So was I.",
+            "feedback": "So используется при утверждении."
+          },
+          {
+            "id": "d",
+            "text": "She wasn't surprised. Neither I was.",
+            "feedback": "Нужна инверсия."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "При отрицательном согласии используем neither и тот же вспомогательный: Neither was I."
+      },
+      {
+        "id": "q9",
+        "type": "true_false",
+        "prompt": "В ответе So can I используется тот же модальный, что и в первой фразе.",
+        "theory_block_id": "b1_theory_so_neither",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, вспомогательный должен совпадать: can → can."
+      },
+      {
+        "id": "q10",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"I was late. ___ was he.\"",
+        "theory_block_id": "b1_theory_so_neither",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "So",
+            "feedback": "Верно: согласие с утверждением."
+          },
+          {
+            "id": "b",
+            "text": "Neither",
+            "feedback": "Neither используется при отрицании."
+          },
+          {
+            "id": "c",
+            "text": "Not",
+            "feedback": "Not не используется здесь."
+          },
+          {
+            "id": "d",
+            "text": "Also",
+            "feedback": "Also без инверсии."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для согласия используем So + auxiliary: So was he."
+      },
+      {
+        "id": "q11",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"They won't leave early. Neither ___ we.\" (will)",
+        "theory_block_id": "b1_theory_so_neither",
+        "difficulty": 2,
+        "correct_answer": "will",
+        "explanation": "С will используем тот же модальный: Neither will we."
+      },
+      {
+        "id": "q12",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_so_neither",
+        "difficulty": 2,
+        "correct_answer": "So did they.",
+        "explanation": "So + auxiliary + subject: So did they."
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"I finish on time, and she ___ too.\"",
+        "theory_block_id": "b2_theory_aux_substitution",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "does",
+            "feedback": "Верно: замена глагольной группы."
+          },
+          {
+            "id": "b",
+            "text": "do",
+            "feedback": "Do не согласуется с she."
+          },
+          {
+            "id": "c",
+            "text": "did",
+            "feedback": "Did меняет время."
+          },
+          {
+            "id": "d",
+            "text": "is",
+            "feedback": "Is не заменяет глагол действия."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для she используем does как замену: she does too."
+      },
+      {
+        "id": "q14",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"They didn't apologize, but we ___.\" (do)",
+        "theory_block_id": "b2_theory_aux_substitution",
+        "difficulty": 2,
+        "correct_answer": "did",
+        "explanation": "В прошедшем времени используется did: we did."
+      },
+      {
+        "id": "q15",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b2_theory_aux_substitution",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He likes tea, and I do too.",
+            "feedback": "Верно: do как замена."
+          },
+          {
+            "id": "b",
+            "text": "He likes tea, and I does too.",
+            "feedback": "Does не согласуется с I."
+          },
+          {
+            "id": "c",
+            "text": "He likes tea, and I did too.",
+            "feedback": "Did меняет время."
+          },
+          {
+            "id": "d",
+            "text": "He likes tea, and I am too.",
+            "feedback": "Am не заменяет глагол действия."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Substitution с do соответствует времени Present Simple и подлежащему I: I do too."
+      },
+      {
+        "id": "q16",
+        "type": "true_false",
+        "prompt": "Do/does/did могут заменять глагольную группу, чтобы избежать повтора.",
+        "theory_block_id": "b2_theory_aux_substitution",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, это базовая функция вспомогательного do в substitution."
+      },
+      {
+        "id": "q17",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_aux_substitution",
+        "difficulty": 2,
+        "correct_answer": "They didn't sign, but we did.",
+        "explanation": "Did заменяет повтор глагола sign в прошедшем времени."
+      },
+      {
+        "id": "q18",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"She never replies, but he ___.\"",
+        "theory_block_id": "b2_theory_aux_substitution",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "does",
+            "feedback": "Верно: does для he."
+          },
+          {
+            "id": "b",
+            "text": "do",
+            "feedback": "Do не согласуется с he."
+          },
+          {
+            "id": "c",
+            "text": "did",
+            "feedback": "Did меняет время."
+          },
+          {
+            "id": "d",
+            "text": "is",
+            "feedback": "Is не заменяет глагол действия."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Substitution в Present Simple: he does."
+      },
+      {
+        "id": "q19",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I didn't notice it, but she ___.\" (do)",
+        "theory_block_id": "b2_theory_aux_substitution",
+        "difficulty": 2,
+        "correct_answer": "did",
+        "explanation": "Past Simple требует did: she did."
+      },
+      {
+        "id": "q20",
+        "type": "true_false",
+        "prompt": "В substitution с do/does/did основной глагол повторять не нужно.",
+        "theory_block_id": "b2_theory_aux_substitution",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, цель substitution — убрать повтор глагольной группы."
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"We support the plan, and they ___ too.\"",
+        "theory_block_id": "b2_theory_aux_substitution",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "do",
+            "feedback": "Верно: do для they."
+          },
+          {
+            "id": "b",
+            "text": "does",
+            "feedback": "Does не согласуется с they."
+          },
+          {
+            "id": "c",
+            "text": "did",
+            "feedback": "Did меняет время."
+          },
+          {
+            "id": "d",
+            "text": "are",
+            "feedback": "Are не заменяет глагол действия."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для they используем do: they do too."
+      },
+      {
+        "id": "q22",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"He doesn't travel much, but we ___.\" (do)",
+        "theory_block_id": "b2_theory_aux_substitution",
+        "difficulty": 2,
+        "correct_answer": "do",
+        "explanation": "Present Simple: we do. Это замена глагольной группы travel much."
+      },
+      {
+        "id": "q23",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_aux_substitution",
+        "difficulty": 2,
+        "correct_answer": "She didn't agree, but he did.",
+        "explanation": "Did заменяет agree в прошедшем времени."
+      },
+      {
+        "id": "q24",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b2_theory_aux_substitution",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "They work late, and I do too.",
+            "feedback": "Верно: do как замена."
+          },
+          {
+            "id": "b",
+            "text": "They work late, and I does too.",
+            "feedback": "Does не согласуется с I."
+          },
+          {
+            "id": "c",
+            "text": "They work late, and I did too.",
+            "feedback": "Did меняет время."
+          },
+          {
+            "id": "d",
+            "text": "They work late, and I am too.",
+            "feedback": "Am не заменяет глагол действия."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Substitution с do соответствует Present Simple и подлежащему I."
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"I like classical music. ___.\"",
+        "theory_block_id": "b3_theory_so_not",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "So do I",
+            "feedback": "Это согласие с чужой репликой, не подходит."
+          },
+          {
+            "id": "b",
+            "text": "So I do",
+            "feedback": "Верно: эмфаза «я действительно люблю»"
+          },
+          {
+            "id": "c",
+            "text": "Neither do I",
+            "feedback": "Neither используется при отрицании."
+          },
+          {
+            "id": "d",
+            "text": "So I am",
+            "feedback": "Am не заменяет like."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "So I do — эмфатическая конструкция без инверсии, подтверждает факт."
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"You say I never help. So I ___.\" (do)",
+        "theory_block_id": "b3_theory_so_not",
+        "difficulty": 2,
+        "correct_answer": "do",
+        "explanation": "So I do — эмфаза: «я действительно помогаю». Без инверсии."
+      },
+      {
+        "id": "q27",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b3_theory_so_not",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I finish early. So do I.",
+            "feedback": "Это избыточное согласие с самим собой."
+          },
+          {
+            "id": "b",
+            "text": "I finish early. So I do.",
+            "feedback": "Верно: эмфаза и подтверждение."
+          },
+          {
+            "id": "c",
+            "text": "I finish early. Neither do I.",
+            "feedback": "Neither противоречит утверждению."
+          },
+          {
+            "id": "d",
+            "text": "I finish early. So I am.",
+            "feedback": "Am не заменяет finish."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "So I do используется для эмфазы и подтверждения собственного утверждения."
+      },
+      {
+        "id": "q28",
+        "type": "true_false",
+        "prompt": "So I do и So do I имеют одинаковое значение.",
+        "theory_block_id": "b3_theory_so_not",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "So do I — согласие с другим, So I do — эмфаза подтверждения."
+      },
+      {
+        "id": "q29",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_so_not",
+        "difficulty": 2,
+        "correct_answer": "So I do understand the risk.",
+        "explanation": "Эмфатический порядок без инверсии: So I do understand..."
+      },
+      {
+        "id": "q30",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант ответа:\nA: \"I don't trust the data.\"\nB: ",
+        "theory_block_id": "b3_theory_so_not",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Neither do I.",
+            "feedback": "Верно: согласие с отрицанием."
+          },
+          {
+            "id": "b",
+            "text": "So I do.",
+            "feedback": "Эмфаза, не согласие."
+          },
+          {
+            "id": "c",
+            "text": "So do I.",
+            "feedback": "So используется для утверждения."
+          },
+          {
+            "id": "d",
+            "text": "Neither I do.",
+            "feedback": "Неверный порядок слов."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "При отрицании используем Neither + auxiliary + subject: Neither do I."
+      },
+      {
+        "id": "q31",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"You think I don't care. So I ___.\" (do)",
+        "theory_block_id": "b3_theory_so_not",
+        "difficulty": 2,
+        "correct_answer": "do",
+        "explanation": "So I do — эмфаза, подтверждающая, что я действительно забочусь."
+      },
+      {
+        "id": "q32",
+        "type": "true_false",
+        "prompt": "В So do I используется тот же вспомогательный глагол, что и в исходной реплике.",
+        "theory_block_id": "b3_theory_so_not",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, вспомогательный должен совпадать: do/does/did, can, will и т.д."
+      },
+      {
+        "id": "q33",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b3_theory_so_not",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "You say I never listen. So I do listen.",
+            "feedback": "Верно: эмфаза."
+          },
+          {
+            "id": "b",
+            "text": "You say I never listen. So do I listen.",
+            "feedback": "Неверный порядок для эмфазы."
+          },
+          {
+            "id": "c",
+            "text": "You say I never listen. Neither do I listen.",
+            "feedback": "Neither противоречит смыслу."
+          },
+          {
+            "id": "d",
+            "text": "You say I never listen. So I am listen.",
+            "feedback": "Неверная форма."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "So I do listen — эмфатическое подтверждение с обычным порядком слов."
+      },
+      {
+        "id": "q34",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"I promise to help, and so ___ you.\"",
+        "theory_block_id": "b3_theory_so_not",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "do",
+            "feedback": "Верно: so do you — согласие."
+          },
+          {
+            "id": "b",
+            "text": "you do",
+            "feedback": "Это эмфаза, не согласие."
+          },
+          {
+            "id": "c",
+            "text": "did",
+            "feedback": "Did меняет время."
+          },
+          {
+            "id": "d",
+            "text": "are",
+            "feedback": "Are не заменяет promise."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Здесь нужно нейтральное согласие: so do you."
+      },
+      {
+        "id": "q35",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_so_not",
+        "difficulty": 2,
+        "correct_answer": "So do I.",
+        "explanation": "Структура согласия: So + auxiliary + subject."
+      },
+      {
+        "id": "q36",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"You doubt me, but so ___ I.\" (do)",
+        "theory_block_id": "b3_theory_so_not",
+        "difficulty": 3,
+        "correct_answer": "do",
+        "explanation": "So do I — согласие: «я тоже сомневаюсь»."
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"I'll take the blue ___ .\"",
+        "theory_block_id": "b4_theory_one_ones",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "one",
+            "feedback": "Верно: замена существительного в единственном числе."
+          },
+          {
+            "id": "b",
+            "text": "ones",
+            "feedback": "Ones используется для множественного числа."
+          },
+          {
+            "id": "c",
+            "text": "it",
+            "feedback": "It возможно, но здесь подразумевается выбор из набора."
+          },
+          {
+            "id": "d",
+            "text": "those",
+            "feedback": "Those — указательное, не замена существительного."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "One заменяет существительное в единственном числе: the blue one."
+      },
+      {
+        "id": "q38",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Take the smaller ___, not the large ones.\" (one/ones)",
+        "theory_block_id": "b4_theory_one_ones",
+        "difficulty": 2,
+        "correct_answer": "ones",
+        "explanation": "Если речь о множественном числе, используем ones."
+      },
+      {
+        "id": "q39",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b4_theory_one_ones",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I like the red one.",
+            "feedback": "Верно: one в единственном числе."
+          },
+          {
+            "id": "b",
+            "text": "I like the red ones.",
+            "feedback": "Ones требует множественного контекста."
+          },
+          {
+            "id": "c",
+            "text": "I like the red one ones.",
+            "feedback": "Избыточно."
+          },
+          {
+            "id": "d",
+            "text": "I like the red it.",
+            "feedback": "It не используется так."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Когда речь об одном предмете, используем one."
+      },
+      {
+        "id": "q40",
+        "type": "true_false",
+        "prompt": "Ones используется для замены существительного во множественном числе.",
+        "theory_block_id": "b4_theory_one_ones",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, ones соответствует множественному числу."
+      },
+      {
+        "id": "q41",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_one_ones",
+        "difficulty": 2,
+        "correct_answer": "I'll take the green one.",
+        "explanation": "One заменяет существительное в единственном числе: the green one."
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"These shoes are too big. Do you have smaller ___?\"",
+        "theory_block_id": "b4_theory_one_ones",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "ones",
+            "feedback": "Верно: shoes — множественное число."
+          },
+          {
+            "id": "b",
+            "text": "one",
+            "feedback": "One для единственного числа."
+          },
+          {
+            "id": "c",
+            "text": "it",
+            "feedback": "It не подходит для множественного числа."
+          },
+          {
+            "id": "d",
+            "text": "those",
+            "feedback": "Those возможно, но не замена существительного в таком виде."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Shoes во множественном числе, поэтому ones."
+      },
+      {
+        "id": "q43",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I prefer the newer ___ .\" (one/ones)",
+        "theory_block_id": "b4_theory_one_ones",
+        "difficulty": 2,
+        "correct_answer": "one",
+        "explanation": "Если речь об одном объекте, используем one."
+      },
+      {
+        "id": "q44",
+        "type": "true_false",
+        "prompt": "One/ones можно использовать только с определенным артиклем the.",
+        "theory_block_id": "b4_theory_one_ones",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "One/ones могут идти и с другими определителями: this one, those ones, my one."
+      },
+      {
+        "id": "q45",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b4_theory_one_ones",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Which one do you want?",
+            "feedback": "Верно: one заменяет существительное."
+          },
+          {
+            "id": "b",
+            "text": "Which ones do you want?",
+            "feedback": "Ones требует множественного контекста."
+          },
+          {
+            "id": "c",
+            "text": "Which do you want one?",
+            "feedback": "Неверный порядок."
+          },
+          {
+            "id": "d",
+            "text": "Which it do you want?",
+            "feedback": "Неверно."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "One используется для единственного объекта: Which one do you want?"
+      },
+      {
+        "id": "q46",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_one_ones",
+        "difficulty": 2,
+        "correct_answer": "Take the darker ones.",
+        "explanation": "Ones для множественного числа: the darker ones."
+      },
+      {
+        "id": "q47",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"I don't like these cups. Can I see the other ___?\"",
+        "theory_block_id": "b4_theory_one_ones",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "ones",
+            "feedback": "Верно: cups — множественное число."
+          },
+          {
+            "id": "b",
+            "text": "one",
+            "feedback": "One для единственного числа."
+          },
+          {
+            "id": "c",
+            "text": "it",
+            "feedback": "It не подходит для множественного числа."
+          },
+          {
+            "id": "d",
+            "text": "those",
+            "feedback": "Those возможно, но здесь нужна замена существительного."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Cups во множественном числе, поэтому ones."
+      },
+      {
+        "id": "q48",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I like this jacket, but I need a warmer ___.\" (one/ones)",
+        "theory_block_id": "b4_theory_one_ones",
+        "difficulty": 2,
+        "correct_answer": "one",
+        "explanation": "Jacket в единственном числе, поэтому one."
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"He can't swim, and neither ___ I.\"",
+        "theory_block_id": "b5_theory_style_limits",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "can",
+            "feedback": "Верно: совпадает вспомогательный."
+          },
+          {
+            "id": "b",
+            "text": "do",
+            "feedback": "Do не используется с can."
+          },
+          {
+            "id": "c",
+            "text": "am",
+            "feedback": "Am не соответствует can."
+          },
+          {
+            "id": "d",
+            "text": "did",
+            "feedback": "Did меняет время."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В neither используется тот же модальный, что и в исходной фразе: can."
+      },
+      {
+        "id": "q50",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"She is focused, and so ___ I.\" (be)",
+        "theory_block_id": "b5_theory_style_limits",
+        "difficulty": 2,
+        "correct_answer": "am",
+        "explanation": "Для I используется am: so am I."
+      },
+      {
+        "id": "q51",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b5_theory_style_limits",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He won't join us, and neither will we.",
+            "feedback": "Верно: will соответствует won't."
+          },
+          {
+            "id": "b",
+            "text": "He won't join us, and neither do we.",
+            "feedback": "Неверный вспомогательный."
+          },
+          {
+            "id": "c",
+            "text": "He won't join us, and neither we will.",
+            "feedback": "Нужна инверсия."
+          },
+          {
+            "id": "d",
+            "text": "He won't join us, and neither are we.",
+            "feedback": "Are не соответствует will."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Neither требует тот же вспомогательный: will. И нужен инверсированный порядок."
+      },
+      {
+        "id": "q52",
+        "type": "true_false",
+        "prompt": "Если в исходном предложении модальный глагол, то в So/Neither используется do/does.",
+        "theory_block_id": "b5_theory_style_limits",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Нужно повторять тот же модальный глагол (can, will и т.д.), а не do/does."
+      },
+      {
+        "id": "q53",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_style_limits",
+        "difficulty": 2,
+        "correct_answer": "So am I.",
+        "explanation": "So + auxiliary + subject: So am I."
+      },
+      {
+        "id": "q54",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"I didn't see the message, but she ___.\"",
+        "theory_block_id": "b5_theory_style_limits",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "did",
+            "feedback": "Верно: did заменяет saw."
+          },
+          {
+            "id": "b",
+            "text": "does",
+            "feedback": "Does меняет время."
+          },
+          {
+            "id": "c",
+            "text": "do",
+            "feedback": "Do не соответствует Past Simple."
+          },
+          {
+            "id": "d",
+            "text": "was",
+            "feedback": "Was не заменяет глагол действия."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В Past Simple substitution требует did: she did."
+      },
+      {
+        "id": "q55",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"These are mine. Those are the red ___.\" (one/ones)",
+        "theory_block_id": "b5_theory_style_limits",
+        "difficulty": 2,
+        "correct_answer": "ones",
+        "explanation": "Those во множественном числе → ones."
+      },
+      {
+        "id": "q56",
+        "type": "true_false",
+        "prompt": "В ответе So I do используется инверсия.",
+        "theory_block_id": "b5_theory_style_limits",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "So I do — обычный порядок слов, это эмфаза, а не согласие."
+      },
+      {
+        "id": "q57",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b5_theory_style_limits",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "They were excited, and so were we.",
+            "feedback": "Верно: was/were как вспомогательный."
+          },
+          {
+            "id": "b",
+            "text": "They were excited, and so did we.",
+            "feedback": "Did не соответствует were."
+          },
+          {
+            "id": "c",
+            "text": "They were excited, and so we were.",
+            "feedback": "Это эмфаза, не нейтральное согласие."
+          },
+          {
+            "id": "d",
+            "text": "They were excited, and neither were we.",
+            "feedback": "Neither противоречит утверждению."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Состояние с were требует were в согласии: so were we."
+      },
+      {
+        "id": "q58",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_style_limits",
+        "difficulty": 2,
+        "correct_answer": "Neither can she.",
+        "explanation": "Neither + auxiliary + subject: Neither can she."
+      },
+      {
+        "id": "q59",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"I don't like this design, and neither ___ they.\"",
+        "theory_block_id": "b5_theory_style_limits",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "do",
+            "feedback": "Верно: do соответствует don't."
+          },
+          {
+            "id": "b",
+            "text": "are",
+            "feedback": "Are не соответствует don't."
+          },
+          {
+            "id": "c",
+            "text": "did",
+            "feedback": "Did меняет время."
+          },
+          {
+            "id": "d",
+            "text": "can",
+            "feedback": "Can не соответствует don't."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Отрицание в Present Simple требует do: neither do they."
+      },
+      {
+        "id": "q60",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"I prefer the soft pillows, not the hard ___.\" (one/ones)",
+        "theory_block_id": "b5_theory_style_limits",
+        "difficulty": 2,
+        "correct_answer": "ones",
+        "explanation": "Pillows — множественное число, поэтому ones."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-24T14:19:52Z",
+    "source": "llm"
+  }
+}
