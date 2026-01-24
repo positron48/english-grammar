@@ -1,0 +1,1449 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.reported_speech_meaning_transfer.reporting_verbs_advise_suggest",
+  "section_id": "en.grammar.reported_speech_meaning_transfer",
+  "title": "Reporting verbs: advise/suggest/insist + patterns",
+  "title_short": "Reporting verbs: advise/suggest/insist",
+  "description": "Как использовать reporting verbs с разными грамматическими паттернами: advise + object + to, suggest + V-ing/that-clause, insist + that-clause, и типичные ошибки.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "B2",
+  "order": 0,
+  "prerequisites": [
+    "en.grammar.reported_speech_meaning_transfer.reported_commands_requests_told"
+  ],
+  "concept_refs": [
+    "advise_object_to_infinitive",
+    "suggest_gerund",
+    "suggest_that_clause",
+    "insist_that_clause",
+    "reporting_verbs_common_errors"
+  ],
+  "learning_objectives": [
+    "Выбирать правильный паттерн после advise, suggest и insist",
+    "Различать suggest + V-ing и suggest + that-clause",
+    "Избегать типичных ошибок с to-infinitive и объектами"
+  ],
+  "estimated_minutes": 22,
+  "blocks": [
+    {
+      "id": "b1_theory_advise_pattern",
+      "type": "theory",
+      "title": "Глагол advise в reported speech обычно требует объект и инфинитив с to: advise + object + to-infinitive. Это не приказ, но четкий совет.",
+      "theory": {
+        "concept_id": "advise_object_to_infinitive",
+        "content_md": "Глагол **advise** в reported speech обычно требует объект и инфинитив с to: **advise + object + to-infinitive**. Это не приказ, но четкий совет.\n\nФорма без объекта в этом паттерне считается ошибкой: нужно указать, кому дали совет.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "She advised me to update the app.",
+            "translation": "Она посоветовала мне обновить приложение.",
+            "tags": [
+              "affirmative",
+              "advice"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "The doctor advised him to rest.",
+            "translation": "Врач посоветовал ему отдохнуть.",
+            "tags": [
+              "affirmative",
+              "advice"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_suggest_gerund",
+      "type": "theory",
+      "title": "Suggest часто используется с формой V-ing для предложения идеи: suggest + V-ing. Объект в такой конструкции обычно не нужен.",
+      "theory": {
+        "concept_id": "suggest_gerund",
+        "content_md": "**Suggest** часто используется с формой **V-ing** для предложения идеи: **suggest + V-ing**. Объект в такой конструкции обычно не нужен.\n\nЭто отличается от advise: *suggest taking a break* звучит естественно, а *suggest to take* — ошибка.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "He suggested taking a short break.",
+            "translation": "Он предложил сделать короткий перерыв.",
+            "tags": [
+              "suggestion"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "They suggested meeting earlier.",
+            "translation": "Они предложили встретиться раньше.",
+            "tags": [
+              "suggestion"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_suggest_that_clause",
+      "type": "theory",
+      "title": "Suggest также может вводить придаточное предложение: suggest (that) + subject + base form. В британском варианте часто добавляют should: *suggested that we should go*.",
+      "theory": {
+        "concept_id": "suggest_that_clause",
+        "content_md": "**Suggest** также может вводить придаточное предложение: **suggest (that) + subject + base form**. В британском варианте часто добавляют **should**: *suggested that we should go*.\n\nВажно: после suggest в that-clause используется базовая форма, без -s в 3 лице.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "She suggested that we leave early.",
+            "translation": "Она предложила, чтобы мы ушли пораньше.",
+            "tags": [
+              "suggestion",
+              "that_clause"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "They suggested that he should apologize.",
+            "translation": "Они предложили, чтобы он извинился.",
+            "tags": [
+              "suggestion",
+              "that_clause"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_insist_that_clause",
+      "type": "theory",
+      "title": "Insist выражает настойчивое требование и обычно используется с that-clause: insist (that) + subject + base form. Вариант с should возможен: *insisted that he should stay*.",
+      "theory": {
+        "concept_id": "insist_that_clause",
+        "content_md": "**Insist** выражает настойчивое требование и обычно используется с that-clause: **insist (that) + subject + base form**. Вариант с should возможен: *insisted that he should stay*.\n\nInsist не используется с to-infinitive в таком значении.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "She insisted that he stay for dinner.",
+            "translation": "Она настаивала, чтобы он остался на ужин.",
+            "tags": [
+              "insistence",
+              "that_clause"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "They insisted that we should sign the form.",
+            "translation": "Они настаивали, чтобы мы подписали форму.",
+            "tags": [
+              "insistence",
+              "that_clause"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_common_errors",
+      "type": "theory",
+      "title": "Частые ошибки: *suggest to do* вместо suggest doing или suggest that + base form; *advise to do* без объекта; *insist to do* вместо that-clause.",
+      "theory": {
+        "concept_id": "reporting_verbs_common_errors",
+        "content_md": "Частые ошибки: *suggest to do* вместо **suggest doing** или **suggest that + base form**; *advise to do* без объекта; *insist to do* вместо that-clause.\n\nПроверяйте: нужен ли объект (advise), нужна ли форма V-ing (suggest), и используется ли базовая форма в that-clause.",
+        "key_points": [],
+        "common_mistakes": [
+          {
+            "wrong": "He suggested to take a taxi.",
+            "right": "He suggested taking a taxi.",
+            "why": "После suggest в этом значении используется V-ing."
+          },
+          {
+            "wrong": "She advised to leave early.",
+            "right": "She advised us to leave early.",
+            "why": "Advise требует объект: кому дали совет."
+          }
+        ],
+        "examples": []
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q50"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант с advise:",
+        "theory_block_id": "b1_theory_advise_pattern",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She advised me to save the files."
+          },
+          {
+            "id": "b",
+            "text": "She advised me save the files."
+          },
+          {
+            "id": "c",
+            "text": "She advised to save the files."
+          },
+          {
+            "id": "d",
+            "text": "She advised me saving the files."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Advise требует объект и to-infinitive: advised me to save.",
+        "tags": []
+      },
+      {
+        "id": "q2",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: The trainer advised us to ___ up properly. (разогреваться)",
+        "theory_block_id": "b1_theory_advise_pattern",
+        "difficulty": 2,
+        "correct_answer": "warm",
+        "explanation": "После advise + object используется to-infinitive с базовой формой: to warm.",
+        "tags": []
+      },
+      {
+        "id": "q3",
+        "type": "true_false",
+        "prompt": "В конструкции advise объект обязателен.",
+        "theory_block_id": "b1_theory_advise_pattern",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Advise обычно требует указать, кому дали совет: advise + object + to.",
+        "tags": []
+      },
+      {
+        "id": "q4",
+        "type": "mcq_single",
+        "prompt": "Как корректно передать совет: \"Take a taxi.\"",
+        "theory_block_id": "b1_theory_advise_pattern",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He advised me to take a taxi."
+          },
+          {
+            "id": "b",
+            "text": "He advised me take a taxi."
+          },
+          {
+            "id": "c",
+            "text": "He advised to take a taxi."
+          },
+          {
+            "id": "d",
+            "text": "He advised me taking a taxi."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильная схема: advise + object + to-infinitive.",
+        "tags": []
+      },
+      {
+        "id": "q5",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_advise_pattern",
+        "difficulty": 2,
+        "correct_answer": "She advised him to rest.",
+        "explanation": "Порядок: subject + advised + object + to + V1.",
+        "tags": []
+      },
+      {
+        "id": "q6",
+        "type": "error_spotting",
+        "prompt": "Выберите исправленное предложение с advise.",
+        "theory_block_id": "b1_theory_advise_pattern",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The nurse advised him to drink more water."
+          },
+          {
+            "id": "b",
+            "text": "The nurse advised to drink more water."
+          },
+          {
+            "id": "c",
+            "text": "The nurse advised him drink more water."
+          },
+          {
+            "id": "d",
+            "text": "The nurse advised him drinking more water."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Advise требует объект и to-infinitive. Только вариант a соответствует схеме.",
+        "tags": []
+      },
+      {
+        "id": "q7",
+        "type": "mcq_single",
+        "prompt": "Выберите правильное продолжение: I advised my team ___",
+        "theory_block_id": "b1_theory_advise_pattern",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "to double-check the report"
+          },
+          {
+            "id": "b",
+            "text": "double-check the report"
+          },
+          {
+            "id": "c",
+            "text": "double-checking the report"
+          },
+          {
+            "id": "d",
+            "text": "that double-check the report"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После advised + object используется to-infinitive.",
+        "tags": []
+      },
+      {
+        "id": "q8",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: She advised ___ to postpone the trip. (кому?)",
+        "theory_block_id": "b1_theory_advise_pattern",
+        "difficulty": 2,
+        "correct_answer": "us",
+        "explanation": "Advise требует объект: advised us to postpone.",
+        "tags": []
+      },
+      {
+        "id": "q9",
+        "type": "true_false",
+        "prompt": "Форма *advised to do* корректна без указания объекта.",
+        "theory_block_id": "b1_theory_advise_pattern",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "В этом паттерне объект обязателен: advised me/us to do.",
+        "tags": []
+      },
+      {
+        "id": "q10",
+        "type": "mcq_single",
+        "prompt": "Какая конструкция с advise правильная?",
+        "theory_block_id": "b1_theory_advise_pattern",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He advised her to reduce costs."
+          },
+          {
+            "id": "b",
+            "text": "He advised her reduce costs."
+          },
+          {
+            "id": "c",
+            "text": "He advised to reduce costs."
+          },
+          {
+            "id": "d",
+            "text": "He advised her reducing costs."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Правильный паттерн: advise + object + to-infinitive.",
+        "tags": []
+      },
+      {
+        "id": "q11",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_advise_pattern",
+        "difficulty": 2,
+        "correct_answer": "The counselor advised me to speak up.",
+        "explanation": "Advise + object + to-infinitive сохраняет совет в reported speech.",
+        "tags": []
+      },
+      {
+        "id": "q12",
+        "type": "mcq_single",
+        "prompt": "Выберите корректный вариант для: \"Stay calm.\"",
+        "theory_block_id": "b1_theory_advise_pattern",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She advised me to stay calm."
+          },
+          {
+            "id": "b",
+            "text": "She advised me stay calm."
+          },
+          {
+            "id": "c",
+            "text": "She advised to stay calm."
+          },
+          {
+            "id": "d",
+            "text": "She advised me staying calm."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Совет передается через advise + object + to-infinitive.",
+        "tags": []
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант с suggest + V-ing:",
+        "theory_block_id": "b2_theory_suggest_gerund",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He suggested taking a taxi."
+          },
+          {
+            "id": "b",
+            "text": "He suggested to take a taxi."
+          },
+          {
+            "id": "c",
+            "text": "He suggested take a taxi."
+          },
+          {
+            "id": "d",
+            "text": "He suggested that take a taxi."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После suggest для идеи используется V-ing: suggested taking.",
+        "tags": []
+      },
+      {
+        "id": "q14",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: She suggested ___ a quick break. (делать)",
+        "theory_block_id": "b2_theory_suggest_gerund",
+        "difficulty": 2,
+        "correct_answer": "taking",
+        "explanation": "Suggest + V-ing: taking a break.",
+        "tags": []
+      },
+      {
+        "id": "q15",
+        "type": "true_false",
+        "prompt": "После suggest возможна форма V-ing без объекта.",
+        "theory_block_id": "b2_theory_suggest_gerund",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Suggest + V-ing — типичная конструкция для предложения идеи.",
+        "tags": []
+      },
+      {
+        "id": "q16",
+        "type": "mcq_single",
+        "prompt": "Какой вариант корректен для предложения идеи?",
+        "theory_block_id": "b2_theory_suggest_gerund",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "They suggested meeting at noon."
+          },
+          {
+            "id": "b",
+            "text": "They suggested to meet at noon."
+          },
+          {
+            "id": "c",
+            "text": "They suggested meet at noon."
+          },
+          {
+            "id": "d",
+            "text": "They suggested that meeting at noon."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Suggest + V-ing без объекта: suggested meeting.",
+        "tags": []
+      },
+      {
+        "id": "q17",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_suggest_gerund",
+        "difficulty": 2,
+        "correct_answer": "He suggested leaving earlier.",
+        "explanation": "После suggest используется V-ing: leaving.",
+        "tags": []
+      },
+      {
+        "id": "q18",
+        "type": "error_spotting",
+        "prompt": "Выберите правильное предложение с suggest.",
+        "theory_block_id": "b2_theory_suggest_gerund",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I suggested taking the train."
+          },
+          {
+            "id": "b",
+            "text": "I suggested to take the train."
+          },
+          {
+            "id": "c",
+            "text": "I suggested take the train."
+          },
+          {
+            "id": "d",
+            "text": "I suggested that taking the train."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Suggest для идеи требует форму V-ing.",
+        "tags": []
+      },
+      {
+        "id": "q19",
+        "type": "mcq_single",
+        "prompt": "Как корректно передать: \"Let's meet earlier.\"",
+        "theory_block_id": "b2_theory_suggest_gerund",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She suggested meeting earlier."
+          },
+          {
+            "id": "b",
+            "text": "She suggested to meet earlier."
+          },
+          {
+            "id": "c",
+            "text": "She suggested meet earlier."
+          },
+          {
+            "id": "d",
+            "text": "She suggested that meeting earlier."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для предложения идеи используется suggest + V-ing.",
+        "tags": []
+      },
+      {
+        "id": "q20",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: They suggested ___ the budget again. (проверять)",
+        "theory_block_id": "b2_theory_suggest_gerund",
+        "difficulty": 2,
+        "correct_answer": "checking",
+        "explanation": "Suggest + V-ing: checking the budget.",
+        "tags": []
+      },
+      {
+        "id": "q21",
+        "type": "true_false",
+        "prompt": "Форма *suggest to do* считается стандартной для предложения идеи.",
+        "theory_block_id": "b2_theory_suggest_gerund",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Стандартно используется suggest + V-ing или suggest that + base form.",
+        "tags": []
+      },
+      {
+        "id": "q22",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант с предложением идеи:",
+        "theory_block_id": "b2_theory_suggest_gerund",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We suggested going by bus."
+          },
+          {
+            "id": "b",
+            "text": "We suggested to go by bus."
+          },
+          {
+            "id": "c",
+            "text": "We suggested go by bus."
+          },
+          {
+            "id": "d",
+            "text": "We suggested that go by bus."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Suggest + V-ing для идеи: going by bus.",
+        "tags": []
+      },
+      {
+        "id": "q23",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_suggest_gerund",
+        "difficulty": 2,
+        "correct_answer": "They suggested starting now.",
+        "explanation": "V-ing следует после suggest: starting now.",
+        "tags": []
+      },
+      {
+        "id": "q24",
+        "type": "mcq_single",
+        "prompt": "Какой вариант правильно использует suggest?",
+        "theory_block_id": "b2_theory_suggest_gerund",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He suggested reading the manual."
+          },
+          {
+            "id": "b",
+            "text": "He suggested to read the manual."
+          },
+          {
+            "id": "c",
+            "text": "He suggested read the manual."
+          },
+          {
+            "id": "d",
+            "text": "He suggested that reading the manual."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для предложения идеи используется suggest + V-ing.",
+        "tags": []
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант с that-clause после suggest:",
+        "theory_block_id": "b3_theory_suggest_that_clause",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She suggested that we leave early."
+          },
+          {
+            "id": "b",
+            "text": "She suggested that we left early."
+          },
+          {
+            "id": "c",
+            "text": "She suggested that we leaving early."
+          },
+          {
+            "id": "d",
+            "text": "She suggested that we to leave early."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В that-clause используется базовая форма: leave.",
+        "tags": []
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: He suggested that we ___ at 7. (приходить)",
+        "theory_block_id": "b3_theory_suggest_that_clause",
+        "difficulty": 2,
+        "correct_answer": "arrive",
+        "explanation": "После suggest в that-clause используется базовая форма: arrive.",
+        "tags": []
+      },
+      {
+        "id": "q27",
+        "type": "true_false",
+        "prompt": "В that-clause после suggest возможна форма should.",
+        "theory_block_id": "b3_theory_suggest_that_clause",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Вариант suggested that we should go допустим, особенно в BrE.",
+        "tags": []
+      },
+      {
+        "id": "q28",
+        "type": "mcq_single",
+        "prompt": "Какой вариант правильный для suggest + that-clause?",
+        "theory_block_id": "b3_theory_suggest_that_clause",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "They suggested that he take a day off."
+          },
+          {
+            "id": "b",
+            "text": "They suggested that he takes a day off."
+          },
+          {
+            "id": "c",
+            "text": "They suggested that he took a day off."
+          },
+          {
+            "id": "d",
+            "text": "They suggested that he taking a day off."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После suggest в that-clause используется базовая форма: take.",
+        "tags": []
+      },
+      {
+        "id": "q29",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_suggest_that_clause",
+        "difficulty": 2,
+        "correct_answer": "She suggested that we start now.",
+        "explanation": "That-clause: that + subject + base form.",
+        "tags": []
+      },
+      {
+        "id": "q30",
+        "type": "error_spotting",
+        "prompt": "Выберите корректное предложение с that-clause.",
+        "theory_block_id": "b3_theory_suggest_that_clause",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He suggested that I call later."
+          },
+          {
+            "id": "b",
+            "text": "He suggested that I called later."
+          },
+          {
+            "id": "c",
+            "text": "He suggested that I calling later."
+          },
+          {
+            "id": "d",
+            "text": "He suggested that I to call later."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В that-clause используется базовая форма: call.",
+        "tags": []
+      },
+      {
+        "id": "q31",
+        "type": "mcq_single",
+        "prompt": "Как правильно: \"Maybe we try again.\"",
+        "theory_block_id": "b3_theory_suggest_that_clause",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She suggested that we try again."
+          },
+          {
+            "id": "b",
+            "text": "She suggested that we tried again."
+          },
+          {
+            "id": "c",
+            "text": "She suggested that we trying again."
+          },
+          {
+            "id": "d",
+            "text": "She suggested that we to try again."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "That-clause требует базовую форму: try.",
+        "tags": []
+      },
+      {
+        "id": "q32",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: They suggested that he ___ the offer. (принимать)",
+        "theory_block_id": "b3_theory_suggest_that_clause",
+        "difficulty": 2,
+        "correct_answer": "accept",
+        "explanation": "В that-clause после suggest используется базовая форма без -s.",
+        "tags": []
+      },
+      {
+        "id": "q33",
+        "type": "true_false",
+        "prompt": "В that-clause после suggest допустима форма leave без -s даже в 3 лице.",
+        "theory_block_id": "b3_theory_suggest_that_clause",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Используется базовая форма, поэтому -s не добавляется.",
+        "tags": []
+      },
+      {
+        "id": "q34",
+        "type": "mcq_single",
+        "prompt": "Выберите корректную форму в that-clause:",
+        "theory_block_id": "b3_theory_suggest_that_clause",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I suggested that she be on time."
+          },
+          {
+            "id": "b",
+            "text": "I suggested that she is on time."
+          },
+          {
+            "id": "c",
+            "text": "I suggested that she was on time."
+          },
+          {
+            "id": "d",
+            "text": "I suggested that she being on time."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После suggest в that-clause используется базовая форма be.",
+        "tags": []
+      },
+      {
+        "id": "q35",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_suggest_that_clause",
+        "difficulty": 2,
+        "correct_answer": "He suggested that we should wait.",
+        "explanation": "That-clause допускает should: that we should wait.",
+        "tags": []
+      },
+      {
+        "id": "q36",
+        "type": "mcq_single",
+        "prompt": "Какой вариант соответствует that-clause после suggest?",
+        "theory_block_id": "b3_theory_suggest_that_clause",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She suggested that he take the bus."
+          },
+          {
+            "id": "b",
+            "text": "She suggested that he takes the bus."
+          },
+          {
+            "id": "c",
+            "text": "She suggested that he took the bus."
+          },
+          {
+            "id": "d",
+            "text": "She suggested that he taking the bus."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "That-clause требует базовой формы: take.",
+        "tags": []
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант с insist:",
+        "theory_block_id": "b4_theory_insist_that_clause",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He insisted that we leave now."
+          },
+          {
+            "id": "b",
+            "text": "He insisted to leave now."
+          },
+          {
+            "id": "c",
+            "text": "He insisted that we left now."
+          },
+          {
+            "id": "d",
+            "text": "He insisted that we leaving now."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Insist требует that-clause с базовой формой: leave.",
+        "tags": []
+      },
+      {
+        "id": "q38",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: She insisted that he ___ the rules. (следовать)",
+        "theory_block_id": "b4_theory_insist_that_clause",
+        "difficulty": 2,
+        "correct_answer": "follow",
+        "explanation": "После insist используется базовая форма глагола в that-clause.",
+        "tags": []
+      },
+      {
+        "id": "q39",
+        "type": "true_false",
+        "prompt": "Insist может использоваться с that-clause и базовой формой глагола.",
+        "theory_block_id": "b4_theory_insist_that_clause",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это стандартный паттерн: insist (that) + subject + base form.",
+        "tags": []
+      },
+      {
+        "id": "q40",
+        "type": "mcq_single",
+        "prompt": "Какой вариант корректен с insist и that-clause?",
+        "theory_block_id": "b4_theory_insist_that_clause",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "They insisted that she sign the contract."
+          },
+          {
+            "id": "b",
+            "text": "They insisted that she signs the contract."
+          },
+          {
+            "id": "c",
+            "text": "They insisted that she signed the contract."
+          },
+          {
+            "id": "d",
+            "text": "They insisted that she signing the contract."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После insist в that-clause используется базовая форма: sign.",
+        "tags": []
+      },
+      {
+        "id": "q41",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_insist_that_clause",
+        "difficulty": 2,
+        "correct_answer": "She insisted that we stay.",
+        "explanation": "Insist + that-clause: that + subject + base form.",
+        "tags": []
+      },
+      {
+        "id": "q42",
+        "type": "error_spotting",
+        "prompt": "Выберите корректное предложение с insist.",
+        "theory_block_id": "b4_theory_insist_that_clause",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He insisted that I be there on time."
+          },
+          {
+            "id": "b",
+            "text": "He insisted to be there on time."
+          },
+          {
+            "id": "c",
+            "text": "He insisted that I was there on time."
+          },
+          {
+            "id": "d",
+            "text": "He insisted that I being there on time."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Insist требует that-clause с базовой формой be.",
+        "tags": []
+      },
+      {
+        "id": "q43",
+        "type": "mcq_single",
+        "prompt": "Как корректно передать настойчивость?",
+        "theory_block_id": "b4_theory_insist_that_clause",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She insisted that we should wait."
+          },
+          {
+            "id": "b",
+            "text": "She insisted to wait."
+          },
+          {
+            "id": "c",
+            "text": "She insisted that we waited."
+          },
+          {
+            "id": "d",
+            "text": "She insisted that we waiting."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Insist допускает should в that-clause: should wait.",
+        "tags": []
+      },
+      {
+        "id": "q44",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: They insisted that we ___ the agenda. (следовать)",
+        "theory_block_id": "b4_theory_insist_that_clause",
+        "difficulty": 2,
+        "correct_answer": "follow",
+        "explanation": "That-clause после insist использует базовую форму: follow.",
+        "tags": []
+      },
+      {
+        "id": "q45",
+        "type": "true_false",
+        "prompt": "Форма *insist to do* является стандартной для настойчивого требования.",
+        "theory_block_id": "b4_theory_insist_that_clause",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Insist обычно требует that-clause, а не to-infinitive.",
+        "tags": []
+      },
+      {
+        "id": "q46",
+        "type": "mcq_single",
+        "prompt": "Какой вариант корректен после insist в деловом контексте?",
+        "theory_block_id": "b4_theory_insist_that_clause",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The client insisted that we refund the fee."
+          },
+          {
+            "id": "b",
+            "text": "The client insisted to refund the fee."
+          },
+          {
+            "id": "c",
+            "text": "The client insisted that we refunded the fee."
+          },
+          {
+            "id": "d",
+            "text": "The client insisted that we refunding the fee."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Insist + that-clause с базовой формой: refund.",
+        "tags": []
+      },
+      {
+        "id": "q47",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_insist_that_clause",
+        "difficulty": 2,
+        "correct_answer": "He insisted that we be careful.",
+        "explanation": "That-clause требует базовой формы be.",
+        "tags": []
+      },
+      {
+        "id": "q48",
+        "type": "mcq_single",
+        "prompt": "Выберите корректную форму после insist:",
+        "theory_block_id": "b4_theory_insist_that_clause",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She insisted that he call back."
+          },
+          {
+            "id": "b",
+            "text": "She insisted that he calls back."
+          },
+          {
+            "id": "c",
+            "text": "She insisted that he called back."
+          },
+          {
+            "id": "d",
+            "text": "She insisted that he calling back."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После insist используется базовая форма call.",
+        "tags": []
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "Какая ошибка в: \"He suggested to take a taxi.\"",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Неверный паттерн после suggest"
+          },
+          {
+            "id": "b",
+            "text": "Неверное время"
+          },
+          {
+            "id": "c",
+            "text": "Неверный артикль"
+          },
+          {
+            "id": "d",
+            "text": "Нужна инверсия"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Suggest не сочетается с to-infinitive в значении предложения идеи.",
+        "tags": []
+      },
+      {
+        "id": "q50",
+        "type": "error_spotting",
+        "prompt": "Выберите исправленное предложение без типичной ошибки.",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She advised me to update the settings."
+          },
+          {
+            "id": "b",
+            "text": "She advised to update the settings."
+          },
+          {
+            "id": "c",
+            "text": "She advised me update the settings."
+          },
+          {
+            "id": "d",
+            "text": "She advised me updating the settings."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Advise требует объект и to-infinitive. Остальные варианты нарушают паттерн.",
+        "tags": []
+      },
+      {
+        "id": "q51",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: They suggested ___ earlier. (уходить)",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 2,
+        "correct_answer": "leaving",
+        "explanation": "После suggest для идеи используется V-ing: leaving.",
+        "tags": []
+      },
+      {
+        "id": "q52",
+        "type": "true_false",
+        "prompt": "Форма *advise to do* корректна без объекта.",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Advise требует объект: advised him/us to do.",
+        "tags": []
+      },
+      {
+        "id": "q53",
+        "type": "mcq_single",
+        "prompt": "Какое предложение содержит ошибку?",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He insisted that she pay in cash."
+          },
+          {
+            "id": "b",
+            "text": "He insisted to pay in cash."
+          },
+          {
+            "id": "c",
+            "text": "He insisted that she be present."
+          },
+          {
+            "id": "d",
+            "text": "He insisted that she should come."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Insist не используется с to-infinitive в значении требования.",
+        "tags": []
+      },
+      {
+        "id": "q54",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 2,
+        "correct_answer": "She suggested that we be careful.",
+        "explanation": "That-clause требует базовой формы be.",
+        "tags": []
+      },
+      {
+        "id": "q55",
+        "type": "mcq_single",
+        "prompt": "Что неверно в: \"She advised to wait.\"",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Нет объекта после advise"
+          },
+          {
+            "id": "b",
+            "text": "Неверное время"
+          },
+          {
+            "id": "c",
+            "text": "Неправильный артикль"
+          },
+          {
+            "id": "d",
+            "text": "Нужна инверсия"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Advise требует объект: advised me/us to wait.",
+        "tags": []
+      },
+      {
+        "id": "q56",
+        "type": "error_spotting",
+        "prompt": "Выберите корректную форму без ошибки.",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "They suggested taking a different route."
+          },
+          {
+            "id": "b",
+            "text": "They suggested to take a different route."
+          },
+          {
+            "id": "c",
+            "text": "They suggested take a different route."
+          },
+          {
+            "id": "d",
+            "text": "They suggested that taking a different route."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Suggest для идеи требует V-ing: taking a different route.",
+        "tags": []
+      },
+      {
+        "id": "q57",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: He insisted that I ___ the policy. (читать)",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 2,
+        "correct_answer": "read",
+        "explanation": "После insist используется базовая форма в that-clause: read.",
+        "tags": []
+      },
+      {
+        "id": "q58",
+        "type": "mcq_single",
+        "prompt": "Какой вариант нарушает правило suggest?",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She suggested leaving early."
+          },
+          {
+            "id": "b",
+            "text": "She suggested to leave early."
+          },
+          {
+            "id": "c",
+            "text": "She suggested that we leave early."
+          },
+          {
+            "id": "d",
+            "text": "She suggested that we should leave early."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Suggest не используется с to-infinitive в этом значении.",
+        "tags": []
+      },
+      {
+        "id": "q59",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 2,
+        "correct_answer": "He advised her to slow down.",
+        "explanation": "Advise требует объект и to-infinitive.",
+        "tags": []
+      },
+      {
+        "id": "q60",
+        "type": "true_false",
+        "prompt": "Форма *insist to do* является типичной ошибкой.",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Insist обычно требует that-clause, а не to-infinitive.",
+        "tags": []
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-24T10:20:30Z",
+    "source": "llm"
+  }
+}
