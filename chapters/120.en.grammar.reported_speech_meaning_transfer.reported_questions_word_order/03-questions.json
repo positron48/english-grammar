@@ -1,0 +1,652 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "type": "true_false",
+      "prompt": "В reported questions используется порядок слов утверждения.",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "В косвенных вопросах инверсия исчезает, порядок слов как в утверждении.",
+      "tags": []
+    },
+    {
+      "id": "q2",
+      "type": "mcq_single",
+      "prompt": "Выберите корректный reported question:",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "He asked where did I live."},
+        {"id": "b", "text": "He asked where I lived."},
+        {"id": "c", "text": "He asked where do I live."},
+        {"id": "d", "text": "He asked where I live?"}
+      ],
+      "correct_answer": "b",
+      "explanation": "В reported question инверсия не используется: where I lived.",
+      "tags": []
+    },
+    {
+      "id": "q3",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: Reported questions use statement word ___. (sequence)",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 1,
+      "correct_answer": "order",
+      "explanation": "Порядок слов утверждения — ключевое правило reported questions.",
+      "tags": []
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "prompt": "Вопросительный знак обычно не ставится в reported questions внутри предложения.",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "Это часть сложного предложения, поэтому используется обычная пунктуация.",
+      "tags": []
+    },
+    {
+      "id": "q5",
+      "type": "mcq_single",
+      "prompt": "Какой глагол сообщения типичен для reported questions?",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 1,
+      "choices": [
+        {"id": "a", "text": "ask"},
+        {"id": "b", "text": "promise"},
+        {"id": "c", "text": "warn"},
+        {"id": "d", "text": "suggest"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Ask — базовый глагол для передачи вопросов.",
+      "tags": []
+    },
+    {
+      "id": "q6",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: He asked ___ I was ready. (yes/no linker)",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 1,
+      "correct_answer": "if",
+      "explanation": "Для yes/no вопросов используется if или whether.",
+      "tags": []
+    },
+    {
+      "id": "q7",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: She asked me where ___.",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "was I going"},
+        {"id": "b", "text": "I was going"},
+        {"id": "c", "text": "was I go"},
+        {"id": "d", "text": "I am going"}
+      ],
+      "correct_answer": "b",
+      "explanation": "Порядок слов утверждения: I was going.",
+      "tags": []
+    },
+    {
+      "id": "q8",
+      "type": "true_false",
+      "prompt": "Reported questions всегда начинаются с question word.",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Yes/no вопросы используют if/whether, без question word.",
+      "tags": []
+    },
+    {
+      "id": "q9",
+      "type": "mcq_single",
+      "prompt": "Какое предложение правильно оформляет reported question?",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "I wondered where was she."},
+        {"id": "b", "text": "I wondered where she was."},
+        {"id": "c", "text": "I wondered where she is?"},
+        {"id": "d", "text": "I wondered was she where."}
+      ],
+      "correct_answer": "b",
+      "explanation": "Нужен порядок слов утверждения: where she was.",
+      "tags": []
+    },
+    {
+      "id": "q10",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: Reported questions do not use question ___. (punctuation)",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 2,
+      "correct_answer": "mark",
+      "explanation": "Вопросительный знак обычно не используется внутри reported question.",
+      "tags": []
+    },
+
+    {
+      "id": "q11",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант для yes/no вопроса.",
+      "theory_block_id": "b2_theory_if_whether",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "He asked if I was ready."},
+        {"id": "b", "text": "He asked I was ready."},
+        {"id": "c", "text": "He asked was I ready."},
+        {"id": "d", "text": "He asked whether was I ready."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Для yes/no вопросов нужен if/whether и порядок слов утверждения.",
+      "tags": []
+    },
+    {
+      "id": "q12",
+      "type": "true_false",
+      "prompt": "If и whether взаимозаменяемы в большинстве reported questions.",
+      "theory_block_id": "b2_theory_if_whether",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "Обычно их можно заменить, хотя whether более формально.",
+      "tags": []
+    },
+    {
+      "id": "q13",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: She wondered ___ he had arrived. (formal linker)",
+      "theory_block_id": "b2_theory_if_whether",
+      "difficulty": 2,
+      "correct_answer": "whether",
+      "explanation": "Whether часто используется в более формальном стиле.",
+      "tags": []
+    },
+    {
+      "id": "q14",
+      "type": "mcq_single",
+      "prompt": "Выберите корректный вариант: They asked ___ we could join.",
+      "theory_block_id": "b2_theory_if_whether",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "if"},
+        {"id": "b", "text": "what"},
+        {"id": "c", "text": "where"},
+        {"id": "d", "text": "who"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Это общий вопрос, поэтому нужен if/whether.",
+      "tags": []
+    },
+    {
+      "id": "q15",
+      "type": "true_false",
+      "prompt": "Whether обычно считается более формальным, чем if.",
+      "theory_block_id": "b2_theory_if_whether",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "Whether чаще используется в письменном и формальном стиле.",
+      "tags": []
+    },
+    {
+      "id": "q16",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: I asked ___ she was coming.",
+      "theory_block_id": "b2_theory_if_whether",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "if"},
+        {"id": "b", "text": "where"},
+        {"id": "c", "text": "what"},
+        {"id": "d", "text": "who"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Это yes/no вопрос, нужен if/whether.",
+      "tags": []
+    },
+    {
+      "id": "q17",
+      "type": "error_spotting",
+      "prompt": "Выберите корректную форму.",
+      "theory_block_id": "b2_theory_if_whether",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "He asked if was I ready."},
+        {"id": "b", "text": "He asked if I was ready."},
+        {"id": "c", "text": "He asked if am I ready."},
+        {"id": "d", "text": "He asked if I am ready."}
+      ],
+      "correct_answer": "b",
+      "explanation": "Нужен порядок слов утверждения и backshift.",
+      "tags": []
+    },
+    {
+      "id": "q18",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: She asked me ___ I had finished. (yes/no linker)",
+      "theory_block_id": "b2_theory_if_whether",
+      "difficulty": 1,
+      "correct_answer": "if",
+      "explanation": "Yes/no вопрос -> if/whether.",
+      "tags": []
+    },
+    {
+      "id": "q19",
+      "type": "mcq_single",
+      "prompt": "Как правильно передать вопрос \"Do they know?\"",
+      "theory_block_id": "b2_theory_if_whether",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "He asked if they knew."},
+        {"id": "b", "text": "He asked did they know."},
+        {"id": "c", "text": "He asked if do they know."},
+        {"id": "d", "text": "He asked whether do they know."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Do исчезает, используется if + порядок слов утверждения и backshift.",
+      "tags": []
+    },
+    {
+      "id": "q20",
+      "type": "true_false",
+      "prompt": "After if/whether we keep the auxiliary inversion.",
+      "theory_block_id": "b2_theory_if_whether",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "После if/whether порядок слов как в утверждении, без инверсии.",
+      "tags": []
+    },
+
+    {
+      "id": "q21",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: He asked where ___.",
+      "theory_block_id": "b3_theory_wh_questions",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "did she live"},
+        {"id": "b", "text": "she lived"},
+        {"id": "c", "text": "she lives?"},
+        {"id": "d", "text": "does she live"}
+      ],
+      "correct_answer": "b",
+      "explanation": "Wh-слово сохраняется, но порядок слов утверждения: she lived.",
+      "tags": []
+    },
+    {
+      "id": "q22",
+      "type": "true_false",
+      "prompt": "В wh-questions в reported speech сохраняется question word.",
+      "theory_block_id": "b3_theory_wh_questions",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Question word сохраняется, меняется только порядок слов.",
+      "tags": []
+    },
+    {
+      "id": "q23",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: He asked what she ___. (want)",
+      "theory_block_id": "b3_theory_wh_questions",
+      "difficulty": 2,
+      "correct_answer": "wanted",
+      "explanation": "Backshift: want -> wanted в reported question.",
+      "tags": []
+    },
+    {
+      "id": "q24",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: They asked why she ___.",
+      "theory_block_id": "b3_theory_wh_questions",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "left"},
+        {"id": "b", "text": "did leave"},
+        {"id": "c", "text": "did she leave"},
+        {"id": "d", "text": "leaves"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Инверсия не используется, время сдвинуто назад.",
+      "tags": []
+    },
+    {
+      "id": "q25",
+      "type": "mcq_single",
+      "prompt": "Как правильно передать вопрос \"Where do you live?\"",
+      "theory_block_id": "b3_theory_wh_questions",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "He asked where I lived."},
+        {"id": "b", "text": "He asked where did I live."},
+        {"id": "c", "text": "He asked where do I live."},
+        {"id": "d", "text": "He asked where I live?"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Wh-word + порядок слов утверждения, backshift.",
+      "tags": []
+    },
+    {
+      "id": "q26",
+      "type": "true_false",
+      "prompt": "В wh-questions сохраняется do/does/did.",
+      "theory_block_id": "b3_theory_wh_questions",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "В reported questions вспомогательные do/does/did исчезают.",
+      "tags": []
+    },
+    {
+      "id": "q27",
+      "type": "error_spotting",
+      "prompt": "Выберите правильный вариант без инверсии.",
+      "theory_block_id": "b3_theory_wh_questions",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "She asked where did he work."},
+        {"id": "b", "text": "She asked where he worked."},
+        {"id": "c", "text": "She asked where he work."},
+        {"id": "d", "text": "She asked where does he work."}
+      ],
+      "correct_answer": "b",
+      "explanation": "Правильный порядок слов утверждения: he worked.",
+      "tags": []
+    },
+    {
+      "id": "q28",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: I asked why they ___. (leave)",
+      "theory_block_id": "b3_theory_wh_questions",
+      "difficulty": 2,
+      "correct_answer": "left",
+      "explanation": "Wh-word сохраняется, past simple без инверсии.",
+      "tags": []
+    },
+    {
+      "id": "q29",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: She asked who ___.",
+      "theory_block_id": "b3_theory_wh_questions",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "was I"},
+        {"id": "b", "text": "I was"},
+        {"id": "c", "text": "was"},
+        {"id": "d", "text": "am I"}
+      ],
+      "correct_answer": "b",
+      "explanation": "Порядок слов утверждения: I was.",
+      "tags": []
+    },
+    {
+      "id": "q30",
+      "type": "true_false",
+      "prompt": "Wh-word сохраняется, но инверсия исчезает.",
+      "theory_block_id": "b3_theory_wh_questions",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Это ключевое правило reported wh-questions.",
+      "tags": []
+    },
+
+    {
+      "id": "q31",
+      "type": "mcq_single",
+      "prompt": "Какой backshift правильный для reported question?",
+      "theory_block_id": "b4_theory_backshift",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "Are -> was"},
+        {"id": "b", "text": "Are -> is"},
+        {"id": "c", "text": "Are -> will"},
+        {"id": "d", "text": "Are -> am"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Are сдвигается в was/were в зависимости от лица.",
+      "tags": []
+    },
+    {
+      "id": "q32",
+      "type": "true_false",
+      "prompt": "Backshift в reported questions работает так же, как в reported statements.",
+      "theory_block_id": "b4_theory_backshift",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "Правила сдвига времени одинаковые для утверждений и вопросов.",
+      "tags": []
+    },
+    {
+      "id": "q33",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"Did you see it?\" -> He asked if I ___ seen it. (have)",
+      "theory_block_id": "b4_theory_backshift",
+      "difficulty": 2,
+      "correct_answer": "had",
+      "explanation": "Past Simple -> Past Perfect: had seen.",
+      "tags": []
+    },
+    {
+      "id": "q34",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: She asked if I ___ coming.",
+      "theory_block_id": "b4_theory_backshift",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "was"},
+        {"id": "b", "text": "am"},
+        {"id": "c", "text": "have"},
+        {"id": "d", "text": "will"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Are you coming -> if I was coming (backshift).",
+      "tags": []
+    },
+    {
+      "id": "q35",
+      "type": "true_false",
+      "prompt": "Will становится would и в reported questions.",
+      "theory_block_id": "b4_theory_backshift",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Сдвиг времени одинаков: will -> would.",
+      "tags": []
+    },
+    {
+      "id": "q36",
+      "type": "mcq_single",
+      "prompt": "Выберите корректный вариант: He asked if she ___ finished.",
+      "theory_block_id": "b4_theory_backshift",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "had"},
+        {"id": "b", "text": "has"},
+        {"id": "c", "text": "have"},
+        {"id": "d", "text": "is"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Past Simple -> Past Perfect: had finished.",
+      "tags": []
+    },
+    {
+      "id": "q37",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"Are you ready?\" -> She asked if I ___ ready. (be)",
+      "theory_block_id": "b4_theory_backshift",
+      "difficulty": 2,
+      "correct_answer": "was",
+      "explanation": "Backshift: am/is/are -> was/were.",
+      "tags": []
+    },
+    {
+      "id": "q38",
+      "type": "true_false",
+      "prompt": "Backshift не применяется, если глагол сообщения в настоящем.",
+      "theory_block_id": "b4_theory_backshift",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "Если глагол сообщения в настоящем, backshift обычно не нужен.",
+      "tags": []
+    },
+    {
+      "id": "q39",
+      "type": "mcq_single",
+      "prompt": "Как правильно передать \"Did he leave?\"",
+      "theory_block_id": "b4_theory_backshift",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "She asked if he had left."},
+        {"id": "b", "text": "She asked if he left."},
+        {"id": "c", "text": "She asked did he leave."},
+        {"id": "d", "text": "She asked if he has left."}
+      ],
+      "correct_answer": "a",
+      "explanation": "Did + V1 -> had + V3. Инверсия исчезает.",
+      "tags": []
+    },
+    {
+      "id": "q40",
+      "type": "error_spotting",
+      "prompt": "Выберите правильный вариант.",
+      "theory_block_id": "b4_theory_backshift",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "He asked if was I ready."},
+        {"id": "b", "text": "He asked if I was ready."},
+        {"id": "c", "text": "He asked if I am ready."},
+        {"id": "d", "text": "He asked if I were ready?"}
+      ],
+      "correct_answer": "b",
+      "explanation": "Правильный порядок слов и backshift: if I was ready.",
+      "tags": []
+    },
+
+    {
+      "id": "q41",
+      "type": "mcq_single",
+      "prompt": "Какая ошибка в \"He asked where did I live\"?",
+      "theory_block_id": "b5_theory_common_errors",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "Сохранена инверсия"},
+        {"id": "b", "text": "Неверный союз"},
+        {"id": "c", "text": "Нет backshift"},
+        {"id": "d", "text": "Неверное местоимение"}
+      ],
+      "correct_answer": "a",
+      "explanation": "В reported question инверсия не используется.",
+      "tags": []
+    },
+    {
+      "id": "q42",
+      "type": "true_false",
+      "prompt": "Использование do/does/did в reported questions — ошибка.",
+      "theory_block_id": "b5_theory_common_errors",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "В reported questions вспомогательные do/does/did не используются.",
+      "tags": []
+    },
+    {
+      "id": "q43",
+      "type": "error_spotting",
+      "prompt": "Выберите правильный вариант без инверсии и с backshift.",
+      "theory_block_id": "b5_theory_common_errors",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "She asked if was I late."},
+        {"id": "b", "text": "She asked if I was late."},
+        {"id": "c", "text": "She asked if I am late."},
+        {"id": "d", "text": "She asked was I late."}
+      ],
+      "correct_answer": "b",
+      "explanation": "Правильный порядок слов и backshift: if I was late.",
+      "tags": []
+    },
+    {
+      "id": "q44",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: Ошибка \"He asked where did I live\" — сохранение ___. (инверсии)",
+      "theory_block_id": "b5_theory_common_errors",
+      "difficulty": 2,
+      "correct_answer": "inversion",
+      "explanation": "В reported questions не должно быть инверсии.",
+      "tags": []
+    },
+    {
+      "id": "q45",
+      "type": "mcq_single",
+      "prompt": "Какой вариант с if/whether правильный?",
+      "theory_block_id": "b5_theory_common_errors",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "He asked if I was ready."},
+        {"id": "b", "text": "He asked if was I ready."},
+        {"id": "c", "text": "He asked if I am ready."},
+        {"id": "d", "text": "He asked if are I ready."}
+      ],
+      "correct_answer": "a",
+      "explanation": "После if/whether порядок слов утверждения.",
+      "tags": []
+    },
+    {
+      "id": "q46",
+      "type": "true_false",
+      "prompt": "Инверсия сохраняется в reported questions, если вопрос общий.",
+      "theory_block_id": "b5_theory_common_errors",
+      "difficulty": 2,
+      "correct_answer": "false",
+      "explanation": "Инверсия не используется ни в yes/no, ни в wh-questions.",
+      "tags": []
+    },
+    {
+      "id": "q47",
+      "type": "mcq_single",
+      "prompt": "Какой вариант исправляет ошибку в reported question?",
+      "theory_block_id": "b5_theory_common_errors",
+      "difficulty": 3,
+      "choices": [
+        {"id": "a", "text": "He asked where do I work."},
+        {"id": "b", "text": "He asked where I worked."},
+        {"id": "c", "text": "He asked where I work."},
+        {"id": "d", "text": "He asked where did I work."}
+      ],
+      "correct_answer": "b",
+      "explanation": "Правильный порядок слов и backshift: where I worked.",
+      "tags": []
+    },
+    {
+      "id": "q48",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: In reported questions, auxiliary verbs like do/does/did are ___. (taken out)",
+      "theory_block_id": "b5_theory_common_errors",
+      "difficulty": 2,
+      "correct_answer": "removed",
+      "explanation": "В reported questions do/does/did исчезают.",
+      "tags": []
+    },
+    {
+      "id": "q49",
+      "type": "true_false",
+      "prompt": "Ошибка \"She asked if was I late\" связана с неверным порядком слов.",
+      "theory_block_id": "b5_theory_common_errors",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "После if нужен порядок слов утверждения: if I was late.",
+      "tags": []
+    },
+    {
+      "id": "q50",
+      "type": "mcq_single",
+      "prompt": "Что неверно в \"They asked if do we agree\"?",
+      "theory_block_id": "b5_theory_common_errors",
+      "difficulty": 2,
+      "choices": [
+        {"id": "a", "text": "Остался do"},
+        {"id": "b", "text": "Неверный question word"},
+        {"id": "c", "text": "Нет if"},
+        {"id": "d", "text": "Неверное время"}
+      ],
+      "correct_answer": "a",
+      "explanation": "Do в reported questions не используется.",
+      "tags": []
+    }
+  ]
+}
