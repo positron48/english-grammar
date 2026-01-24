@@ -1,0 +1,1449 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.voice_focus_passive_and.passive_across_tenses",
+  "section_id": "en.grammar.voice_focus_passive_and",
+  "title": "Passive across tenses (present/past/perfect)",
+  "title_short": "Passive across tenses",
+  "description": "Разбираем, как строится пассив в настоящем, прошедшем и перфектных временах и как выбрать нужную форму be.",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "B2",
+  "order": 0,
+  "prerequisites": [
+    "en.grammar.voice_focus_passive_and.passive_basics_be_v3"
+  ],
+  "concept_refs": [
+    "passive_present_simple",
+    "passive_past_simple",
+    "passive_present_perfect",
+    "active_passive_tense_mapping",
+    "passive_time_markers"
+  ],
+  "learning_objectives": [
+    "Строить пассивные формы в Present, Past и Perfect",
+    "Согласовывать be по времени и числу в разных временах",
+    "Понимать различия между активом и пассивом в перфекте"
+  ],
+  "estimated_minutes": 24,
+  "blocks": [
+    {
+      "id": "b1_theory_present_passive",
+      "type": "theory",
+      "title": "В Present Simple пассив строится как am/is/are + V3. Эта форма используется для регулярных действий, общих фактов, инструкций и описаний процессов.",
+      "theory": {
+        "concept_id": "passive_present_simple",
+        "content_md": "В Present Simple пассив строится как **am/is/are + V3**. Эта форма используется для регулярных действий, общих фактов, инструкций и описаний процессов.\n\nВремя и число показывает **be**, а V3 остается неизменным. Поэтому важно правильно выбрать am/is/are в зависимости от подлежащего.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "The doors are locked at 9 p.m.",
+            "translation": "Двери запирают в 9 вечера.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Is the report checked every week?",
+            "translation": "Отчет проверяют каждую неделю?",
+            "tags": [
+              "question"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_past_passive",
+      "type": "theory",
+      "title": "В Past Simple пассив строится как was/were + V3. Эту форму используют, когда событие завершено в прошлом, и важен результат или объект действия.",
+      "theory": {
+        "concept_id": "passive_past_simple",
+        "content_md": "В Past Simple пассив строится как **was/were + V3**. Эту форму используют, когда событие завершено в прошлом, и важен результат или объект действия.\n\nВыбор was/were зависит от числа подлежащего. Важно не путать пассив с Past Continuous: в пассиве нет V-ing.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "The contract was signed last week.",
+            "translation": "Контракт подписали на прошлой неделе.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "The files weren't deleted yesterday.",
+            "translation": "Файлы не удалили вчера.",
+            "tags": [
+              "negative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q11",
+          "q12"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_present_perfect_passive",
+      "type": "theory",
+      "title": "Present Perfect passive образуется как has/have been + V3. Эта форма показывает результат, важный сейчас: действие уже произошло, и есть его последствия.",
+      "theory": {
+        "concept_id": "passive_present_perfect",
+        "content_md": "Present Perfect passive образуется как **has/have been + V3**. Эта форма показывает результат, важный сейчас: действие уже произошло, и есть его последствия.\n\nСмысл похож на активный Present Perfect, но фокус переносится на объект: что с ним уже сделано.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "The documents have been sent.",
+            "translation": "Документы уже отправлены.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Has the package been delivered yet?",
+            "translation": "Посылка уже доставлена?",
+            "tags": [
+              "question"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q21",
+          "q22"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_active_vs_passive_tense",
+      "type": "theory",
+      "title": "При переходе из актива в пассив важно сохранить время. Меняется только структура: объект становится подлежащим, а глагол получает форму be + V3 в нужном времени.",
+      "theory": {
+        "concept_id": "active_passive_tense_mapping",
+        "content_md": "При переходе из актива в пассив важно сохранить **время**. Меняется только структура: объект становится подлежащим, а глагол получает форму be + V3 в нужном времени.\n\nНапример, *They sign the contract* → *The contract is signed* (Present Simple), а *They have signed the contract* → *The contract has been signed* (Present Perfect).",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "The menu is updated every month.",
+            "translation": "Меню обновляют каждый месяц.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "The menu has been updated this week.",
+            "translation": "Меню обновили на этой неделе.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q31",
+          "q32"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_time_markers",
+      "type": "theory",
+      "title": "Маркеры времени помогают выбрать форму пассива. Every day, usually ведут к Present Simple passive; yesterday, last week — к Past Simple passive; already, yet, just, recently — к Present Perfect passive.",
+      "theory": {
+        "concept_id": "passive_time_markers",
+        "content_md": "Маркеры времени помогают выбрать форму пассива. **Every day, usually** ведут к Present Simple passive; **yesterday, last week** — к Past Simple passive; **already, yet, just, recently** — к Present Perfect passive.\n\nПравильный выбор формы be задаёт время, а V3 остается неизменным.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "The room is cleaned every day.",
+            "translation": "Комнату убирают каждый день.",
+            "tags": [
+              "affirmative"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "The room has been cleaned already.",
+            "translation": "Комнату уже убрали.",
+            "tags": [
+              "affirmative"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q41",
+          "q42"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: The doors ___ locked every evening.",
+        "theory_block_id": "b1_theory_present_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "are"
+          },
+          {
+            "id": "b",
+            "text": "is"
+          },
+          {
+            "id": "c",
+            "text": "were"
+          },
+          {
+            "id": "d",
+            "text": "been"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В Present Simple passive используется am/is/are + V3. Подлежащее во множественном числе, поэтому are locked.",
+        "tags": []
+      },
+      {
+        "id": "q2",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The report is ___ every Friday. (check)",
+        "theory_block_id": "b1_theory_present_passive",
+        "difficulty": 2,
+        "correct_answer": "checked",
+        "explanation": "Present Simple passive: is + V3. V3 от check — checked.",
+        "tags": []
+      },
+      {
+        "id": "q3",
+        "type": "true_false",
+        "prompt": "Present Simple passive строится как am/is/are + V3.",
+        "theory_block_id": "b1_theory_present_passive",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это базовая формула пассива в настоящем времени.",
+        "tags": []
+      },
+      {
+        "id": "q4",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The tasks is completed every day.\"",
+        "theory_block_id": "b1_theory_present_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The tasks are completed every day."
+          },
+          {
+            "id": "b",
+            "text": "The tasks were completed every day."
+          },
+          {
+            "id": "c",
+            "text": "The tasks completed every day."
+          },
+          {
+            "id": "d",
+            "text": "The tasks are completing every day."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Подлежащее во множественном числе, поэтому нужно are completed.",
+        "tags": []
+      },
+      {
+        "id": "q5",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: The schedule ___ updated monthly.",
+        "theory_block_id": "b1_theory_present_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "is"
+          },
+          {
+            "id": "b",
+            "text": "are"
+          },
+          {
+            "id": "c",
+            "text": "was"
+          },
+          {
+            "id": "d",
+            "text": "has"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Present Simple passive для единственного числа: is updated.",
+        "tags": []
+      },
+      {
+        "id": "q6",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The seats are ___ after each flight. (clean)",
+        "theory_block_id": "b1_theory_present_passive",
+        "difficulty": 2,
+        "correct_answer": "cleaned",
+        "explanation": "Пассив в настоящем времени: are + V3. V3 от clean — cleaned.",
+        "tags": []
+      },
+      {
+        "id": "q7",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: These forms ___ filled out online.",
+        "theory_block_id": "b1_theory_present_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "are"
+          },
+          {
+            "id": "b",
+            "text": "is"
+          },
+          {
+            "id": "c",
+            "text": "were"
+          },
+          {
+            "id": "d",
+            "text": "be"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Подлежащее во множественном числе, поэтому are filled out.",
+        "tags": []
+      },
+      {
+        "id": "q8",
+        "type": "true_false",
+        "prompt": "В Present Simple passive глагол be показывает время, а V3 остается неизменным.",
+        "theory_block_id": "b1_theory_present_passive",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Be задает время и число, V3 — это форма действия.",
+        "tags": []
+      },
+      {
+        "id": "q9",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The brochure are printed every week.\"",
+        "theory_block_id": "b1_theory_present_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The brochure is printed every week."
+          },
+          {
+            "id": "b",
+            "text": "The brochure was printed every week."
+          },
+          {
+            "id": "c",
+            "text": "The brochure printed every week."
+          },
+          {
+            "id": "d",
+            "text": "The brochure is printing every week."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Подлежащее в единственном числе, нужна форма is printed.",
+        "tags": []
+      },
+      {
+        "id": "q10",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The menu is ___ weekly. (change)",
+        "theory_block_id": "b1_theory_present_passive",
+        "difficulty": 2,
+        "correct_answer": "changed",
+        "explanation": "Present Simple passive: is + V3. Change → changed.",
+        "tags": []
+      },
+      {
+        "id": "q11",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: The contract ___ signed last week.",
+        "theory_block_id": "b2_theory_past_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "was"
+          },
+          {
+            "id": "b",
+            "text": "were"
+          },
+          {
+            "id": "c",
+            "text": "is"
+          },
+          {
+            "id": "d",
+            "text": "has been"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Simple passive: was/were + V3. Подлежащее в единственном числе, поэтому was signed.",
+        "tags": []
+      },
+      {
+        "id": "q12",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The files were ___ yesterday. (delete)",
+        "theory_block_id": "b2_theory_past_passive",
+        "difficulty": 2,
+        "correct_answer": "deleted",
+        "explanation": "Past Simple passive: were + V3. Delete → deleted.",
+        "tags": []
+      },
+      {
+        "id": "q13",
+        "type": "true_false",
+        "prompt": "Past Simple passive строится как was/were + V3.",
+        "theory_block_id": "b2_theory_past_passive",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это базовая формула пассива в прошедшем времени.",
+        "tags": []
+      },
+      {
+        "id": "q14",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The letters was sent yesterday.\"",
+        "theory_block_id": "b2_theory_past_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The letters were sent yesterday."
+          },
+          {
+            "id": "b",
+            "text": "The letters are sent yesterday."
+          },
+          {
+            "id": "c",
+            "text": "The letters sent yesterday."
+          },
+          {
+            "id": "d",
+            "text": "The letters were sending yesterday."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Подлежащее во множественном числе, поэтому нужно were sent.",
+        "tags": []
+      },
+      {
+        "id": "q15",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: The gallery ___ opened in 2019.",
+        "theory_block_id": "b2_theory_past_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "was"
+          },
+          {
+            "id": "b",
+            "text": "were"
+          },
+          {
+            "id": "c",
+            "text": "is"
+          },
+          {
+            "id": "d",
+            "text": "has been"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Simple passive: was opened для единственного числа.",
+        "tags": []
+      },
+      {
+        "id": "q16",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The seats were ___ after the concert. (fix)",
+        "theory_block_id": "b2_theory_past_passive",
+        "difficulty": 2,
+        "correct_answer": "fixed",
+        "explanation": "Past Simple passive: were + V3. Fix → fixed.",
+        "tags": []
+      },
+      {
+        "id": "q17",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: The tickets ___ sold out in an hour.",
+        "theory_block_id": "b2_theory_past_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "were"
+          },
+          {
+            "id": "b",
+            "text": "was"
+          },
+          {
+            "id": "c",
+            "text": "are"
+          },
+          {
+            "id": "d",
+            "text": "have been"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Подлежащее во множественном числе и прошлое время → were sold out.",
+        "tags": []
+      },
+      {
+        "id": "q18",
+        "type": "true_false",
+        "prompt": "В Past Simple passive используется форма be + V-ing.",
+        "theory_block_id": "b2_theory_past_passive",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Past Simple passive строится с was/were + V3, а не с V-ing.",
+        "tags": []
+      },
+      {
+        "id": "q19",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The car were repaired last month.\"",
+        "theory_block_id": "b2_theory_past_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The car was repaired last month."
+          },
+          {
+            "id": "b",
+            "text": "The car repaired last month."
+          },
+          {
+            "id": "c",
+            "text": "The car is repaired last month."
+          },
+          {
+            "id": "d",
+            "text": "The car was repairing last month."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Подлежащее в единственном числе, поэтому was repaired.",
+        "tags": []
+      },
+      {
+        "id": "q20",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The building was ___ in 1900. (build)",
+        "theory_block_id": "b2_theory_past_passive",
+        "difficulty": 2,
+        "correct_answer": "built",
+        "explanation": "Past Simple passive: was + V3. Build → built.",
+        "tags": []
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: The documents ___ been sent already.",
+        "theory_block_id": "b3_theory_present_perfect_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "have"
+          },
+          {
+            "id": "b",
+            "text": "has"
+          },
+          {
+            "id": "c",
+            "text": "were"
+          },
+          {
+            "id": "d",
+            "text": "are"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Present Perfect passive: have been + V3. Подлежащее во множественном числе, поэтому have been sent.",
+        "tags": []
+      },
+      {
+        "id": "q22",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The report has been ___ yet. (approve)",
+        "theory_block_id": "b3_theory_present_perfect_passive",
+        "difficulty": 2,
+        "correct_answer": "approved",
+        "explanation": "Present Perfect passive: has been + V3. Approve → approved.",
+        "tags": []
+      },
+      {
+        "id": "q23",
+        "type": "true_false",
+        "prompt": "Present Perfect passive строится как has/have been + V3.",
+        "theory_block_id": "b3_theory_present_perfect_passive",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Это стандартная формула перфектного пассива.",
+        "tags": []
+      },
+      {
+        "id": "q24",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The parcels has been delivered.\"",
+        "theory_block_id": "b3_theory_present_perfect_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The parcels have been delivered."
+          },
+          {
+            "id": "b",
+            "text": "The parcels are delivered."
+          },
+          {
+            "id": "c",
+            "text": "The parcels were been delivered."
+          },
+          {
+            "id": "d",
+            "text": "The parcels have delivered."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Подлежащее во множественном числе, поэтому have been delivered.",
+        "tags": []
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: The invoice ___ been paid already.",
+        "theory_block_id": "b3_theory_present_perfect_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "has"
+          },
+          {
+            "id": "b",
+            "text": "have"
+          },
+          {
+            "id": "c",
+            "text": "was"
+          },
+          {
+            "id": "d",
+            "text": "is"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Present Perfect passive для единственного числа: has been paid.",
+        "tags": []
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The forms have been ___ online. (submit)",
+        "theory_block_id": "b3_theory_present_perfect_passive",
+        "difficulty": 2,
+        "correct_answer": "submitted",
+        "explanation": "Present Perfect passive: have been + V3. Submit → submitted.",
+        "tags": []
+      },
+      {
+        "id": "q27",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: The equipment ___ been repaired yet.",
+        "theory_block_id": "b3_theory_present_perfect_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "has"
+          },
+          {
+            "id": "b",
+            "text": "have"
+          },
+          {
+            "id": "c",
+            "text": "were"
+          },
+          {
+            "id": "d",
+            "text": "are"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Equipment — единственное число, поэтому has been repaired.",
+        "tags": []
+      },
+      {
+        "id": "q28",
+        "type": "true_false",
+        "prompt": "В Present Perfect passive используется was/were.",
+        "theory_block_id": "b3_theory_present_perfect_passive",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Present Perfect passive строится с has/have been, а не с was/were.",
+        "tags": []
+      },
+      {
+        "id": "q29",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The files have been delete.\"",
+        "theory_block_id": "b3_theory_present_perfect_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The files have been deleted."
+          },
+          {
+            "id": "b",
+            "text": "The files were deleted."
+          },
+          {
+            "id": "c",
+            "text": "The files have been deleting."
+          },
+          {
+            "id": "d",
+            "text": "The files have delete."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужна форма V3: delete → deleted. В перфектном пассиве: have been deleted.",
+        "tags": []
+      },
+      {
+        "id": "q30",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The package has been ___ already. (deliver)",
+        "theory_block_id": "b3_theory_present_perfect_passive",
+        "difficulty": 2,
+        "correct_answer": "delivered",
+        "explanation": "Present Perfect passive: has been + V3. Deliver → delivered.",
+        "tags": []
+      },
+      {
+        "id": "q31",
+        "type": "mcq_single",
+        "prompt": "Выберите корректное соответствие: They update the app every month.",
+        "theory_block_id": "b4_theory_active_vs_passive_tense",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The app is updated every month."
+          },
+          {
+            "id": "b",
+            "text": "The app was updated every month."
+          },
+          {
+            "id": "c",
+            "text": "The app has been updated every month."
+          },
+          {
+            "id": "d",
+            "text": "The app is updating every month."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Актив в Present Simple переходит в Present Simple passive: is updated.",
+        "tags": []
+      },
+      {
+        "id": "q32",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The contract has been ___. (sign)",
+        "theory_block_id": "b4_theory_active_vs_passive_tense",
+        "difficulty": 2,
+        "correct_answer": "signed",
+        "explanation": "Для Present Perfect passive нужна форма has been + V3: signed.",
+        "tags": []
+      },
+      {
+        "id": "q33",
+        "type": "true_false",
+        "prompt": "При переходе в пассив нужно сохранить время исходного предложения.",
+        "theory_block_id": "b4_theory_active_vs_passive_tense",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Меняется структура, но временное значение сохраняется через форму be.",
+        "tags": []
+      },
+      {
+        "id": "q34",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"They have cleaned the room\" → \"The room is cleaned.\"",
+        "theory_block_id": "b4_theory_active_vs_passive_tense",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The room has been cleaned."
+          },
+          {
+            "id": "b",
+            "text": "The room was cleaned."
+          },
+          {
+            "id": "c",
+            "text": "The room is being cleaned."
+          },
+          {
+            "id": "d",
+            "text": "The room has cleaned."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Актив в Present Perfect требует пассива has/have been + V3: has been cleaned.",
+        "tags": []
+      },
+      {
+        "id": "q35",
+        "type": "mcq_single",
+        "prompt": "Выберите корректное соответствие: They repaired the bridge last year.",
+        "theory_block_id": "b4_theory_active_vs_passive_tense",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The bridge was repaired last year."
+          },
+          {
+            "id": "b",
+            "text": "The bridge is repaired last year."
+          },
+          {
+            "id": "c",
+            "text": "The bridge has been repaired last year."
+          },
+          {
+            "id": "d",
+            "text": "The bridge is being repaired last year."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Past Simple актив → Past Simple passive: was repaired.",
+        "tags": []
+      },
+      {
+        "id": "q36",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The announcement is ___ every morning. (make)",
+        "theory_block_id": "b4_theory_active_vs_passive_tense",
+        "difficulty": 2,
+        "correct_answer": "made",
+        "explanation": "Present Simple passive: is + V3. Make → made.",
+        "tags": []
+      },
+      {
+        "id": "q37",
+        "type": "true_false",
+        "prompt": "Present Perfect active соответствует пассиву is/are + V3.",
+        "theory_block_id": "b4_theory_active_vs_passive_tense",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Present Perfect active переходит в пассив has/have been + V3.",
+        "tags": []
+      },
+      {
+        "id": "q38",
+        "type": "mcq_single",
+        "prompt": "Выберите корректное соответствие: They have published the results.",
+        "theory_block_id": "b4_theory_active_vs_passive_tense",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The results have been published."
+          },
+          {
+            "id": "b",
+            "text": "The results are published."
+          },
+          {
+            "id": "c",
+            "text": "The results were published."
+          },
+          {
+            "id": "d",
+            "text": "The results have published."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Present Perfect актив → Present Perfect passive: have been published.",
+        "tags": []
+      },
+      {
+        "id": "q39",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"They update the system\" → \"The system was updated.\"",
+        "theory_block_id": "b4_theory_active_vs_passive_tense",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The system is updated."
+          },
+          {
+            "id": "b",
+            "text": "The system has been updated."
+          },
+          {
+            "id": "c",
+            "text": "The system was updated yesterday."
+          },
+          {
+            "id": "d",
+            "text": "The system is being updated."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Present Simple актив соответствует пассиву is updated, а не was updated.",
+        "tags": []
+      },
+      {
+        "id": "q40",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The documents were ___ last night. (print)",
+        "theory_block_id": "b4_theory_active_vs_passive_tense",
+        "difficulty": 2,
+        "correct_answer": "printed",
+        "explanation": "Past Simple passive: were + V3. Print → printed.",
+        "tags": []
+      },
+      {
+        "id": "q41",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму по маркеру времени: The rooms ___ cleaned every day.",
+        "theory_block_id": "b5_theory_time_markers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "are"
+          },
+          {
+            "id": "b",
+            "text": "were"
+          },
+          {
+            "id": "c",
+            "text": "have been"
+          },
+          {
+            "id": "d",
+            "text": "was"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Маркер every day указывает на Present Simple passive: are cleaned.",
+        "tags": []
+      },
+      {
+        "id": "q42",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The order was ___ yesterday. (confirm)",
+        "theory_block_id": "b5_theory_time_markers",
+        "difficulty": 2,
+        "correct_answer": "confirmed",
+        "explanation": "Yesterday указывает на Past Simple passive: was confirmed.",
+        "tags": []
+      },
+      {
+        "id": "q43",
+        "type": "true_false",
+        "prompt": "Маркеры already и yet часто требуют Present Perfect passive.",
+        "theory_block_id": "b5_theory_time_markers",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Already/yet связаны с перфектом, поэтому нужен has/have been + V3.",
+        "tags": []
+      },
+      {
+        "id": "q44",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The files have been deleted yesterday.\"",
+        "theory_block_id": "b5_theory_time_markers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The files were deleted yesterday."
+          },
+          {
+            "id": "b",
+            "text": "The files have been deleted already."
+          },
+          {
+            "id": "c",
+            "text": "The files are deleted yesterday."
+          },
+          {
+            "id": "d",
+            "text": "The files have been deleting yesterday."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Yesterday требует Past Simple passive, поэтому were deleted.",
+        "tags": []
+      },
+      {
+        "id": "q45",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: The package ___ been delivered yet.",
+        "theory_block_id": "b5_theory_time_markers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "has"
+          },
+          {
+            "id": "b",
+            "text": "was"
+          },
+          {
+            "id": "c",
+            "text": "is"
+          },
+          {
+            "id": "d",
+            "text": "were"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Маркер yet указывает на Present Perfect passive: has been delivered.",
+        "tags": []
+      },
+      {
+        "id": "q46",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The report has been ___ already. (finish)",
+        "theory_block_id": "b5_theory_time_markers",
+        "difficulty": 2,
+        "correct_answer": "finished",
+        "explanation": "Already указывает на Present Perfect passive: has been finished.",
+        "tags": []
+      },
+      {
+        "id": "q47",
+        "type": "true_false",
+        "prompt": "Маркеры last week и yesterday обычно требуют Present Perfect passive.",
+        "theory_block_id": "b5_theory_time_markers",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Last week и yesterday относятся к Past Simple passive, не к Present Perfect.",
+        "tags": []
+      },
+      {
+        "id": "q48",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The hall is cleaned last night.\"",
+        "theory_block_id": "b5_theory_time_markers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The hall was cleaned last night."
+          },
+          {
+            "id": "b",
+            "text": "The hall has been cleaned last night."
+          },
+          {
+            "id": "c",
+            "text": "The hall is cleaned every night."
+          },
+          {
+            "id": "d",
+            "text": "The hall was being cleaned last night."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Last night указывает на Past Simple passive: was cleaned.",
+        "tags": []
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "Выберите форму, которая подходит с маркером recently: The system ___ updated recently.",
+        "theory_block_id": "b5_theory_time_markers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "has been"
+          },
+          {
+            "id": "b",
+            "text": "was"
+          },
+          {
+            "id": "c",
+            "text": "is"
+          },
+          {
+            "id": "d",
+            "text": "were"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Recently часто указывает на Present Perfect passive: has been updated.",
+        "tags": []
+      },
+      {
+        "id": "q50",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The emails are ___ every morning. (send)",
+        "theory_block_id": "b5_theory_time_markers",
+        "difficulty": 2,
+        "correct_answer": "sent",
+        "explanation": "Every morning указывает на Present Simple passive: are sent.",
+        "tags": []
+      },
+      {
+        "id": "q51",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: The policy ___ changed last year.",
+        "theory_block_id": "b2_theory_past_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "was"
+          },
+          {
+            "id": "b",
+            "text": "has been"
+          },
+          {
+            "id": "c",
+            "text": "is"
+          },
+          {
+            "id": "d",
+            "text": "were"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Last year указывает на Past Simple passive: was changed.",
+        "tags": []
+      },
+      {
+        "id": "q52",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The machines have been ___ since Monday. (inspect)",
+        "theory_block_id": "b3_theory_present_perfect_passive",
+        "difficulty": 2,
+        "correct_answer": "inspected",
+        "explanation": "Since Monday часто требует Present Perfect passive: have been inspected.",
+        "tags": []
+      },
+      {
+        "id": "q53",
+        "type": "true_false",
+        "prompt": "Если в активе Present Simple, то в пассиве будет is/are + V3.",
+        "theory_block_id": "b4_theory_active_vs_passive_tense",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Present Simple актив соответствует Present Simple passive: is/are + V3.",
+        "tags": []
+      },
+      {
+        "id": "q54",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"They have delivered the parcel\" → \"The parcel is delivered.\"",
+        "theory_block_id": "b4_theory_active_vs_passive_tense",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The parcel has been delivered."
+          },
+          {
+            "id": "b",
+            "text": "The parcel was delivered."
+          },
+          {
+            "id": "c",
+            "text": "The parcel is delivered every day."
+          },
+          {
+            "id": "d",
+            "text": "The parcel has delivered."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Present Perfect актив переходит в пассив has/have been + V3: has been delivered.",
+        "tags": []
+      },
+      {
+        "id": "q55",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: The chairs ___ arranged yesterday.",
+        "theory_block_id": "b2_theory_past_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "were"
+          },
+          {
+            "id": "b",
+            "text": "was"
+          },
+          {
+            "id": "c",
+            "text": "are"
+          },
+          {
+            "id": "d",
+            "text": "have been"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Подлежащее во множественном числе и прошлое время → were arranged.",
+        "tags": []
+      },
+      {
+        "id": "q56",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The service is ___ weekly. (review)",
+        "theory_block_id": "b1_theory_present_passive",
+        "difficulty": 2,
+        "correct_answer": "reviewed",
+        "explanation": "Present Simple passive: is + V3. Review → reviewed.",
+        "tags": []
+      },
+      {
+        "id": "q57",
+        "type": "true_false",
+        "prompt": "Present Perfect passive используется для результата, важного сейчас.",
+        "theory_block_id": "b3_theory_present_perfect_passive",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Эта форма подчеркивает связь результата с настоящим.",
+        "tags": []
+      },
+      {
+        "id": "q58",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The conference was held every year.\"",
+        "theory_block_id": "b5_theory_time_markers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The conference is held every year."
+          },
+          {
+            "id": "b",
+            "text": "The conference has been held every year."
+          },
+          {
+            "id": "c",
+            "text": "The conference was held last year."
+          },
+          {
+            "id": "d",
+            "text": "The conference is holding every year."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Every year указывает на Present Simple passive: is held.",
+        "tags": []
+      },
+      {
+        "id": "q59",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: The bills ___ paid already.",
+        "theory_block_id": "b3_theory_present_perfect_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "have been"
+          },
+          {
+            "id": "b",
+            "text": "was"
+          },
+          {
+            "id": "c",
+            "text": "is"
+          },
+          {
+            "id": "d",
+            "text": "were"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Already указывает на Present Perfect passive, множественное число → have been paid.",
+        "tags": []
+      },
+      {
+        "id": "q60",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The letter was ___ this morning. (send)",
+        "theory_block_id": "b2_theory_past_passive",
+        "difficulty": 2,
+        "correct_answer": "sent",
+        "explanation": "This morning в контексте завершенного действия — Past Simple passive: was sent.",
+        "tags": []
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q37",
+      "q38",
+      "q39",
+      "q40",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-24T07:38:32Z",
+    "source": "llm"
+  }
+}
