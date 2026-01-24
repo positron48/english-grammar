@@ -1,0 +1,1444 @@
+{
+  "schema_version": "1.0.0",
+  "id": "en.grammar.information_structure_style.cleft_sentences_it_s",
+  "section_id": "en.grammar.information_structure_style",
+  "title": "Cleft sentences: It’s X that…, What I need is…",
+  "title_short": "Cleft sentences",
+  "description": "Как с помощью cleft-конструкций выделять фокус: it-cleft и wh-cleft (pseudo-cleft).",
+  "ui_language": "ru",
+  "target_language": "en",
+  "level": "C1",
+  "order": 0,
+  "prerequisites": [],
+  "concept_refs": [
+    "it_cleft_basic",
+    "it_cleft_focus_types",
+    "wh_cleft_basic",
+    "reversed_wh_cleft",
+    "cleft_style_limits"
+  ],
+  "learning_objectives": [
+    "Распознавать it-cleft и wh-cleft в речи и письме",
+    "Строить it-cleft для выделения подлежащего, дополнения и обстоятельства",
+    "Использовать wh-cleft (what/where/when) для фокусировки информации",
+    "Избегать типичных ошибок согласования и лишней инверсии"
+  ],
+  "estimated_minutes": 24,
+  "blocks": [
+    {
+      "id": "b1_theory_it_cleft_basic",
+      "type": "theory",
+      "title": "It-cleft используется, чтобы выделить один элемент и поставить на него фокус. Структура: It + be + фокус + that/who + остальная часть. В этой конструкции смысл не меняется, но меняется акцент.",
+      "theory": {
+        "concept_id": "it_cleft_basic",
+        "content_md": "It-cleft используется, чтобы выделить один элемент и поставить на него фокус. Структура: **It + be + фокус + that/who + остальная часть**. В этой конструкции смысл не меняется, но меняется акцент.\n\nBe согласуется с временем, а союз that/who зависит от того, выделяем ли мы предмет/человека.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "It was Anna who solved the problem.",
+            "translation": "Это Анна решила проблему.",
+            "tags": [
+              "affirmative",
+              "cleft"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "It is the budget that worries the team.",
+            "translation": "Именно бюджет тревожит команду.",
+            "tags": [
+              "affirmative",
+              "cleft"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "It wasn't the tool that failed; it was the settings.",
+            "translation": "Это был не инструмент, который подвел; это были настройки.",
+            "tags": [
+              "negative",
+              "cleft"
+            ]
+          },
+          {
+            "id": "ex4",
+            "text": "Is it the timing that bothers you?",
+            "translation": "Именно время тебя беспокоит?",
+            "tags": [
+              "question",
+              "cleft"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q1",
+          "q2"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b2_theory_it_cleft_focus_types",
+      "type": "theory",
+      "title": "В it-cleft можно выделить практически любой член предложения: подлежащее (It was Tom who called), дополнение (It was the report that she signed) или обстоятельство (It was yesterday that we met).",
+      "theory": {
+        "concept_id": "it_cleft_focus_types",
+        "content_md": "В it-cleft можно выделить практически любой член предложения: **подлежащее** (It was Tom who called), **дополнение** (It was the report that she signed) или **обстоятельство** (It was yesterday that we met).\n\nГлавное — сохранять исходный смысл и правильно согласовывать be по времени.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "It was in Paris that they met.",
+            "translation": "Именно в Париже они встретились.",
+            "tags": [
+              "affirmative",
+              "cleft"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "It was her advice that changed my mind.",
+            "translation": "Именно ее совет изменил мое мнение.",
+            "tags": [
+              "affirmative",
+              "cleft"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q13",
+          "q14"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b3_theory_wh_cleft_basic",
+      "type": "theory",
+      "title": "Wh-cleft (pseudo-cleft) переносит фокус в конец: What I need is time. Первая часть — придаточное с what/where/when/why/how, вторая часть — фокус после be.",
+      "theory": {
+        "concept_id": "wh_cleft_basic",
+        "content_md": "Wh-cleft (pseudo-cleft) переносит фокус в конец: **What I need is time**. Первая часть — придаточное с what/where/when/why/how, вторая часть — фокус после be.\n\nЭта конструкция часто используется, когда говорящий уточняет или корректирует ожидания.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "What I need is a clear answer.",
+            "translation": "Мне нужен четкий ответ.",
+            "tags": [
+              "affirmative",
+              "cleft"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "Where we meet is less important than why we meet.",
+            "translation": "Где мы встречаемся, менее важно, чем почему мы встречаемся.",
+            "tags": [
+              "affirmative",
+              "cleft"
+            ]
+          },
+          {
+            "id": "ex3",
+            "text": "What I don't want is another delay.",
+            "translation": "Чего я не хочу — это очередной задержки.",
+            "tags": [
+              "negative",
+              "cleft"
+            ]
+          },
+          {
+            "id": "ex4",
+            "text": "What she wants is respect, right?",
+            "translation": "Она ведь хочет уважения, верно?",
+            "tags": [
+              "question",
+              "cleft"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b4_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q25",
+          "q26"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b4_theory_reversed_cleft",
+      "type": "theory",
+      "title": "Reversed cleft — это вариант wh-cleft, где фокус ставится впереди: The person I trust is you. Такая структура делает ударение на первом элементе.",
+      "theory": {
+        "concept_id": "reversed_wh_cleft",
+        "content_md": "Reversed cleft — это вариант wh-cleft, где фокус ставится впереди: **The person I trust is you**. Такая структура делает ударение на первом элементе.\n\nОна особенно часто встречается в речи, когда говорящий хочет резко выделить нужный элемент.",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "The one I need to speak to is you.",
+            "translation": "Тот, с кем мне нужно поговорить, — это ты.",
+            "tags": [
+              "affirmative",
+              "cleft"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "The main problem is what we were ignoring.",
+            "translation": "Главная проблема — то, что мы игнорировали.",
+            "tags": [
+              "affirmative",
+              "cleft"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q37",
+          "q38"
+        ],
+        "show_answers_immediately": true
+      }
+    },
+    {
+      "id": "b5_theory_style_limits",
+      "type": "theory",
+      "title": "Cleft-конструкции усиливают фокус и часто звучат более формально или драматично. В обычной разговорной речи их используют, когда нужно подчеркнуть или исправить ожидание.",
+      "theory": {
+        "concept_id": "cleft_style_limits",
+        "content_md": "Cleft-конструкции усиливают фокус и часто звучат более формально или драматично. В обычной разговорной речи их используют, когда нужно подчеркнуть или исправить ожидание.\n\nТипичные ошибки: неправильная форма **be**, лишняя инверсия и несоответствие местоимений (например, *It was me who were...*).",
+        "key_points": [],
+        "common_mistakes": [],
+        "examples": [
+          {
+            "id": "ex1",
+            "text": "It was me who was responsible, not him.",
+            "translation": "Это я был ответственным, а не он.",
+            "tags": [
+              "affirmative",
+              "cleft"
+            ]
+          },
+          {
+            "id": "ex2",
+            "text": "What she wanted was a simple apology.",
+            "translation": "Она хотела простого извинения.",
+            "tags": [
+              "affirmative",
+              "cleft"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b6_quiz_after_block",
+      "type": "quiz_inline",
+      "title": "Проверка знаний",
+      "quiz_inline": {
+        "question_ids": [
+          "q49",
+          "q50"
+        ],
+        "show_answers_immediately": true
+      }
+    }
+  ],
+  "question_bank": {
+    "questions": [
+      {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"It ___ Maria who called you.\"",
+        "theory_block_id": "b1_theory_it_cleft_basic",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "was",
+            "feedback": "Верно: Past Simple в it-cleft."
+          },
+          {
+            "id": "b",
+            "text": "is",
+            "feedback": "Is относится к настоящему времени."
+          },
+          {
+            "id": "c",
+            "text": "were",
+            "feedback": "Were не согласуется с it."
+          },
+          {
+            "id": "d",
+            "text": "did",
+            "feedback": "Did не используется как связка."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "It-cleft использует be в нужном времени: It was Maria who called... Это выделяет Maria как фокус."
+      },
+      {
+        "id": "q2",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"It is the schedule ___ worries me.\" (that/who)",
+        "theory_block_id": "b1_theory_it_cleft_basic",
+        "difficulty": 2,
+        "correct_answer": "that",
+        "explanation": "Для неживых объектов обычно используется that. It is the schedule that worries me."
+      },
+      {
+        "id": "q3",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b1_theory_it_cleft_basic",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It was John which fixed the error.",
+            "feedback": "Для человека нужен who/that."
+          },
+          {
+            "id": "b",
+            "text": "It was John who fixed the error.",
+            "feedback": "Верно: who для человека."
+          },
+          {
+            "id": "c",
+            "text": "It did John who fixed the error.",
+            "feedback": "Неверная связка."
+          },
+          {
+            "id": "d",
+            "text": "It was John fixed the error.",
+            "feedback": "Нужна относительная часть."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В it-cleft после фокуса нужна относительная часть: who/that. Для человека — who."
+      },
+      {
+        "id": "q4",
+        "type": "true_false",
+        "prompt": "It-cleft меняет смысл факта, а не только фокус.",
+        "theory_block_id": "b1_theory_it_cleft_basic",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "It-cleft не меняет факт, а выделяет часть сообщения. Смысл остается тем же."
+      },
+      {
+        "id": "q5",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_it_cleft_basic",
+        "difficulty": 2,
+        "correct_answer": "It was our manager who approved the plan.",
+        "explanation": "It-cleft: It + was + фокус + who + остальная часть."
+      },
+      {
+        "id": "q6",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"It ___ the design that impressed the client.\"",
+        "theory_block_id": "b1_theory_it_cleft_basic",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "was",
+            "feedback": "Верно: Past Simple."
+          },
+          {
+            "id": "b",
+            "text": "is",
+            "feedback": "Is не подходит по времени."
+          },
+          {
+            "id": "c",
+            "text": "were",
+            "feedback": "Were не согласуется с it."
+          },
+          {
+            "id": "d",
+            "text": "did",
+            "feedback": "Did не используется как связка."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "It-cleft использует be в нужном времени. Здесь контекст прошедшего: It was..."
+      },
+      {
+        "id": "q7",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"It was my colleague ___ solved it.\" (that/who)",
+        "theory_block_id": "b1_theory_it_cleft_basic",
+        "difficulty": 2,
+        "correct_answer": "who",
+        "explanation": "Для людей обычно используется who. It was my colleague who solved it."
+      },
+      {
+        "id": "q8",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b1_theory_it_cleft_basic",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It is the budget who worries me.",
+            "feedback": "Для неживого нужен that."
+          },
+          {
+            "id": "b",
+            "text": "It is the budget that worries me.",
+            "feedback": "Верно: that для неживого."
+          },
+          {
+            "id": "c",
+            "text": "It is the budget worries me.",
+            "feedback": "Нужна относительная часть."
+          },
+          {
+            "id": "d",
+            "text": "It are the budget that worries me.",
+            "feedback": "It требует is."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "It-cleft требует that/who. Для неживых объектов используем that."
+      },
+      {
+        "id": "q9",
+        "type": "true_false",
+        "prompt": "В it-cleft конструкциях be может стоять в любом времени.",
+        "theory_block_id": "b1_theory_it_cleft_basic",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, be согласуется с временем исходного предложения: is/was/will be и т.д."
+      },
+      {
+        "id": "q10",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"It ___ our decision that caused the delay.\"",
+        "theory_block_id": "b1_theory_it_cleft_basic",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "was",
+            "feedback": "Верно: Past Simple."
+          },
+          {
+            "id": "b",
+            "text": "is",
+            "feedback": "Не подходит по времени."
+          },
+          {
+            "id": "c",
+            "text": "were",
+            "feedback": "Were не согласуется с it."
+          },
+          {
+            "id": "d",
+            "text": "did",
+            "feedback": "Did не используется как связка."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Для прошедшего времени используем was: It was our decision that caused the delay."
+      },
+      {
+        "id": "q11",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"It was the meeting ___ changed everything.\" (that/who)",
+        "theory_block_id": "b1_theory_it_cleft_basic",
+        "difficulty": 2,
+        "correct_answer": "that",
+        "explanation": "Meeting — неодушевленный объект, поэтому используем that."
+      },
+      {
+        "id": "q12",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b1_theory_it_cleft_basic",
+        "difficulty": 2,
+        "correct_answer": "It is our policy that protects clients.",
+        "explanation": "It-cleft: It is + фокус + that + остальная часть."
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"It was ___ that he apologized.\"",
+        "theory_block_id": "b2_theory_it_cleft_focus_types",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "yesterday",
+            "feedback": "Верно: можно выделить обстоятельство времени."
+          },
+          {
+            "id": "b",
+            "text": "apologized",
+            "feedback": "Это глагол, не фокус."
+          },
+          {
+            "id": "c",
+            "text": "because",
+            "feedback": "Не подходит как фокус."
+          },
+          {
+            "id": "d",
+            "text": "he apologized",
+            "feedback": "Это не фокус, а вся клауза."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В it-cleft можно выделять время/место. Здесь фокус — yesterday."
+      },
+      {
+        "id": "q14",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"It was in Tokyo ___ they signed the contract.\" (that/who)",
+        "theory_block_id": "b2_theory_it_cleft_focus_types",
+        "difficulty": 2,
+        "correct_answer": "that",
+        "explanation": "Для места используется that: It was in Tokyo that they signed..."
+      },
+      {
+        "id": "q15",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b2_theory_it_cleft_focus_types",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It was the client that we met yesterday.",
+            "feedback": "Верно: фокус на дополнении."
+          },
+          {
+            "id": "b",
+            "text": "It was the client we met yesterday.",
+            "feedback": "Нужна относительная часть with that/who."
+          },
+          {
+            "id": "c",
+            "text": "It was the client who we met yesterday.",
+            "feedback": "Who возможно, но обычно that предпочтительнее."
+          },
+          {
+            "id": "d",
+            "text": "It did the client that we met yesterday.",
+            "feedback": "Неверная связка."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "It-cleft требует связку be и относительную часть. It was the client that we met."
+      },
+      {
+        "id": "q16",
+        "type": "true_false",
+        "prompt": "В it-cleft можно выделить обстоятельство места или времени.",
+        "theory_block_id": "b2_theory_it_cleft_focus_types",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, it-cleft позволяет выделять различные части, включая место и время."
+      },
+      {
+        "id": "q17",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_it_cleft_focus_types",
+        "difficulty": 2,
+        "correct_answer": "It was the report that she signed.",
+        "explanation": "Фокус на дополнении: It was the report that she signed."
+      },
+      {
+        "id": "q18",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"It was ___ that caused the confusion.\"",
+        "theory_block_id": "b2_theory_it_cleft_focus_types",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "his comment",
+            "feedback": "Верно: фокус на подлежащем."
+          },
+          {
+            "id": "b",
+            "text": "because",
+            "feedback": "Не является фокусом."
+          },
+          {
+            "id": "c",
+            "text": "that",
+            "feedback": "That уже используется в структуре."
+          },
+          {
+            "id": "d",
+            "text": "confused",
+            "feedback": "Это глагол, не фокус."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Можно выделить подлежащее: It was his comment that caused the confusion."
+      },
+      {
+        "id": "q19",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"It was her idea ___ saved the project.\" (that/who)",
+        "theory_block_id": "b2_theory_it_cleft_focus_types",
+        "difficulty": 2,
+        "correct_answer": "that",
+        "explanation": "Her idea — неодушевленный фокус, поэтому используется that."
+      },
+      {
+        "id": "q20",
+        "type": "true_false",
+        "prompt": "Фокус в it-cleft всегда должен быть человеком.",
+        "theory_block_id": "b2_theory_it_cleft_focus_types",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Фокус может быть человеком, предметом, временем или местом."
+      },
+      {
+        "id": "q21",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"It was ___ that made the difference, not the budget.\"",
+        "theory_block_id": "b2_theory_it_cleft_focus_types",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "their strategy",
+            "feedback": "Верно: фокус на дополнении."
+          },
+          {
+            "id": "b",
+            "text": "that",
+            "feedback": "That уже используется дальше."
+          },
+          {
+            "id": "c",
+            "text": "they",
+            "feedback": "Местоимение не соответствует структуре."
+          },
+          {
+            "id": "d",
+            "text": "make",
+            "feedback": "Это глагол, не фокус."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "It-cleft позволяет выделять конкретный элемент: It was their strategy that made the difference."
+      },
+      {
+        "id": "q22",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"It was last year ___ they moved here.\" (that/who)",
+        "theory_block_id": "b2_theory_it_cleft_focus_types",
+        "difficulty": 2,
+        "correct_answer": "that",
+        "explanation": "Для времени используется that: It was last year that they moved."
+      },
+      {
+        "id": "q23",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b2_theory_it_cleft_focus_types",
+        "difficulty": 2,
+        "correct_answer": "It was at noon that the call came.",
+        "explanation": "Фокус на обстоятельстве времени: It was at noon that the call came."
+      },
+      {
+        "id": "q24",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b2_theory_it_cleft_focus_types",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It was in the lobby that we first met.",
+            "feedback": "Верно: фокус на месте."
+          },
+          {
+            "id": "b",
+            "text": "It was in the lobby we first met.",
+            "feedback": "Нужна относительная часть."
+          },
+          {
+            "id": "c",
+            "text": "It was in the lobby who we first met.",
+            "feedback": "Для места используется that."
+          },
+          {
+            "id": "d",
+            "text": "It did in the lobby that we first met.",
+            "feedback": "Неверная связка."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Фокус на месте оформляется через It was in the lobby that..."
+      },
+      {
+        "id": "q25",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"What I need ___ a short break.\"",
+        "theory_block_id": "b3_theory_wh_cleft_basic",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "is",
+            "feedback": "Верно: wh-cleft использует be."
+          },
+          {
+            "id": "b",
+            "text": "are",
+            "feedback": "Are не согласуется с what-clause."
+          },
+          {
+            "id": "c",
+            "text": "was",
+            "feedback": "Was меняет время."
+          },
+          {
+            "id": "d",
+            "text": "do",
+            "feedback": "Do не используется здесь."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Wh-cleft: What I need is... Clause what воспринимается как единственное число."
+      },
+      {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"What she wanted ___ a simple apology.\" (быть)",
+        "theory_block_id": "b3_theory_wh_cleft_basic",
+        "difficulty": 2,
+        "correct_answer": "was",
+        "explanation": "Wh-cleft согласуется по времени: wanted → was."
+      },
+      {
+        "id": "q27",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b3_theory_wh_cleft_basic",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "What I need are time and focus.",
+            "feedback": "Часто допустимо при множественном фокусе, но предпочтительно is."
+          },
+          {
+            "id": "b",
+            "text": "What I need is time and focus.",
+            "feedback": "Верно: what-clause обычно требует is."
+          },
+          {
+            "id": "c",
+            "text": "What I need do time and focus.",
+            "feedback": "Неверная связка."
+          },
+          {
+            "id": "d",
+            "text": "What I need is to time and focus.",
+            "feedback": "Неверная структура."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В wh-cleft обычно используется is как связка. What I need is time and focus."
+      },
+      {
+        "id": "q28",
+        "type": "true_false",
+        "prompt": "Wh-cleft обычно переносит фокус в конец предложения.",
+        "theory_block_id": "b3_theory_wh_cleft_basic",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, wh-clause в начале, а фокус — после be."
+      },
+      {
+        "id": "q29",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_wh_cleft_basic",
+        "difficulty": 2,
+        "correct_answer": "What we need is a clearer timeline.",
+        "explanation": "Wh-cleft: What + clause + is + фокус."
+      },
+      {
+        "id": "q30",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"Where we meet ___ less important than why we meet.\"",
+        "theory_block_id": "b3_theory_wh_cleft_basic",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "is",
+            "feedback": "Верно: where-clause как единое число."
+          },
+          {
+            "id": "b",
+            "text": "are",
+            "feedback": "Are не согласуется."
+          },
+          {
+            "id": "c",
+            "text": "were",
+            "feedback": "Неподходящее время."
+          },
+          {
+            "id": "d",
+            "text": "do",
+            "feedback": "Do не используется как связка."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Where-clause функционирует как единое целое, поэтому is."
+      },
+      {
+        "id": "q31",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"What I really want ___ honesty.\" (быть)",
+        "theory_block_id": "b3_theory_wh_cleft_basic",
+        "difficulty": 2,
+        "correct_answer": "is",
+        "explanation": "What-clause считается единственным числом: What I really want is honesty."
+      },
+      {
+        "id": "q32",
+        "type": "true_false",
+        "prompt": "В wh-cleft используется инверсия порядка слов.",
+        "theory_block_id": "b3_theory_wh_cleft_basic",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Wh-cleft не использует инверсию; структура обычная, с be как связкой."
+      },
+      {
+        "id": "q33",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b3_theory_wh_cleft_basic",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "What I need is a break.",
+            "feedback": "Верно: wh-cleft."
+          },
+          {
+            "id": "b",
+            "text": "What I need are a break.",
+            "feedback": "Неверное согласование."
+          },
+          {
+            "id": "c",
+            "text": "What I need is to a break.",
+            "feedback": "Неверная форма."
+          },
+          {
+            "id": "d",
+            "text": "What I need do a break.",
+            "feedback": "Неверная связка."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Wh-cleft использует be: What I need is a break."
+      },
+      {
+        "id": "q34",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"Why we are late ___ the traffic.\"",
+        "theory_block_id": "b3_theory_wh_cleft_basic",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "is",
+            "feedback": "Верно: why-clause как единое число."
+          },
+          {
+            "id": "b",
+            "text": "are",
+            "feedback": "Are не согласуется."
+          },
+          {
+            "id": "c",
+            "text": "was",
+            "feedback": "Не подходит по времени."
+          },
+          {
+            "id": "d",
+            "text": "do",
+            "feedback": "Do не используется как связка."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Why-clause функционирует как единый элемент: Why we are late is the traffic."
+      },
+      {
+        "id": "q35",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b3_theory_wh_cleft_basic",
+        "difficulty": 2,
+        "correct_answer": "What they needed was more time.",
+        "explanation": "Wh-cleft: What + clause + was + фокус."
+      },
+      {
+        "id": "q36",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"Where she lives ___ not your concern.\" (быть)",
+        "theory_block_id": "b3_theory_wh_cleft_basic",
+        "difficulty": 2,
+        "correct_answer": "is",
+        "explanation": "Where-clause как единое целое требует is: Where she lives is not your concern."
+      },
+      {
+        "id": "q37",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"The one I trust ___ you.\"",
+        "theory_block_id": "b4_theory_reversed_cleft",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "is",
+            "feedback": "Верно: reversed cleft uses be."
+          },
+          {
+            "id": "b",
+            "text": "are",
+            "feedback": "Are не согласуется с one."
+          },
+          {
+            "id": "c",
+            "text": "was",
+            "feedback": "Не подходит по времени."
+          },
+          {
+            "id": "d",
+            "text": "do",
+            "feedback": "Do не используется как связка."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Reversed cleft: The one I trust is you. Связка be согласуется с one."
+      },
+      {
+        "id": "q38",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"The person I spoke to ___ the director.\" (быть)",
+        "theory_block_id": "b4_theory_reversed_cleft",
+        "difficulty": 2,
+        "correct_answer": "was",
+        "explanation": "Reversed cleft использует be, согласованное по времени: was."
+      },
+      {
+        "id": "q39",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b4_theory_reversed_cleft",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The issue we need to solve is time.",
+            "feedback": "Верно: reversed cleft."
+          },
+          {
+            "id": "b",
+            "text": "The issue we need to solve are time.",
+            "feedback": "Неверное согласование."
+          },
+          {
+            "id": "c",
+            "text": "The issue we need to solve do time.",
+            "feedback": "Неверная связка."
+          },
+          {
+            "id": "d",
+            "text": "The issue we need solve is to time.",
+            "feedback": "Неверная структура."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Reversed cleft требует be: The issue we need to solve is time."
+      },
+      {
+        "id": "q40",
+        "type": "true_false",
+        "prompt": "Reversed cleft ставит фокус в начало предложения.",
+        "theory_block_id": "b4_theory_reversed_cleft",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, reversed cleft выносит фокус вперед: The one I trust is you."
+      },
+      {
+        "id": "q41",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_reversed_cleft",
+        "difficulty": 2,
+        "correct_answer": "The person we hired was her.",
+        "explanation": "Reversed cleft: The person we hired was her. Фокус в начале."
+      },
+      {
+        "id": "q42",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"The main reason ___ timing.\"",
+        "theory_block_id": "b4_theory_reversed_cleft",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "is",
+            "feedback": "Верно: be как связка."
+          },
+          {
+            "id": "b",
+            "text": "are",
+            "feedback": "Не согласуется с reason."
+          },
+          {
+            "id": "c",
+            "text": "was",
+            "feedback": "Не подходит по времени."
+          },
+          {
+            "id": "d",
+            "text": "do",
+            "feedback": "Do не используется как связка."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "The main reason — единственное число, поэтому is."
+      },
+      {
+        "id": "q43",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"The thing she remembered ___ the address.\" (быть)",
+        "theory_block_id": "b4_theory_reversed_cleft",
+        "difficulty": 2,
+        "correct_answer": "was",
+        "explanation": "Reversed cleft использует be: The thing she remembered was the address."
+      },
+      {
+        "id": "q44",
+        "type": "true_false",
+        "prompt": "В reversed cleft можно не использовать глагол be.",
+        "theory_block_id": "b4_theory_reversed_cleft",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Reversed cleft требует связку be, иначе конструкция теряет форму."
+      },
+      {
+        "id": "q45",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b4_theory_reversed_cleft",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The one I rely on is my mentor.",
+            "feedback": "Верно: reversed cleft."
+          },
+          {
+            "id": "b",
+            "text": "The one I rely on are my mentor.",
+            "feedback": "Неверное согласование."
+          },
+          {
+            "id": "c",
+            "text": "The one I rely on do my mentor.",
+            "feedback": "Неверная связка."
+          },
+          {
+            "id": "d",
+            "text": "The one I rely on be my mentor.",
+            "feedback": "Неверная форма be."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Reversed cleft требует be: The one I rely on is my mentor."
+      },
+      {
+        "id": "q46",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b4_theory_reversed_cleft",
+        "difficulty": 2,
+        "correct_answer": "The problem we faced was timing.",
+        "explanation": "Reversed cleft: The problem we faced was timing."
+      },
+      {
+        "id": "q47",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"The issue we discussed ___ unresolved.\"",
+        "theory_block_id": "b4_theory_reversed_cleft",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "is",
+            "feedback": "Верно: present form of be."
+          },
+          {
+            "id": "b",
+            "text": "are",
+            "feedback": "Не согласуется с issue."
+          },
+          {
+            "id": "c",
+            "text": "were",
+            "feedback": "Не подходит по времени."
+          },
+          {
+            "id": "d",
+            "text": "do",
+            "feedback": "Do не используется как связка."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Issue — единственное число, поэтому is."
+      },
+      {
+        "id": "q48",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"The place we met ___ a quiet cafe.\" (быть)",
+        "theory_block_id": "b4_theory_reversed_cleft",
+        "difficulty": 2,
+        "correct_answer": "was",
+        "explanation": "Reversed cleft: The place we met was a quiet cafe."
+      },
+      {
+        "id": "q49",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"It was me who ___ responsible.\"",
+        "theory_block_id": "b5_theory_style_limits",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "was",
+            "feedback": "Верно: согласование по смыслу с me."
+          },
+          {
+            "id": "b",
+            "text": "were",
+            "feedback": "Were возможно в разговорной речи, но здесь стандартная форма was."
+          },
+          {
+            "id": "c",
+            "text": "is",
+            "feedback": "Не соответствует прошедшему времени."
+          },
+          {
+            "id": "d",
+            "text": "are",
+            "feedback": "Не согласуется."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В it-cleft be согласуется по времени; в стандартной норме: It was me who was responsible."
+      },
+      {
+        "id": "q50",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"It is you who ___ in charge today.\" (быть)",
+        "theory_block_id": "b5_theory_style_limits",
+        "difficulty": 2,
+        "correct_answer": "are",
+        "explanation": "С you используется are, несмотря на it-cleft: It is you who are in charge."
+      },
+      {
+        "id": "q51",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b5_theory_style_limits",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It was me who were late.",
+            "feedback": "Неверное согласование."
+          },
+          {
+            "id": "b",
+            "text": "It was me who was late.",
+            "feedback": "Верно: was согласуется по смыслу."
+          },
+          {
+            "id": "c",
+            "text": "It was me that were late.",
+            "feedback": "Неверное согласование."
+          },
+          {
+            "id": "d",
+            "text": "It did me who was late.",
+            "feedback": "Неверная связка."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В стандартной норме используется was. It was me who was late."
+      },
+      {
+        "id": "q52",
+        "type": "true_false",
+        "prompt": "Cleft-конструкции чаще используются для усиления фокуса и могут звучать формально.",
+        "theory_block_id": "b5_theory_style_limits",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Да, cleft усиливает фокус и часто звучит более формально или подчеркнуто."
+      },
+      {
+        "id": "q53",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_style_limits",
+        "difficulty": 2,
+        "correct_answer": "It was the tone that upset her, not the words.",
+        "explanation": "It-cleft используется для контраста: It was the tone that upset her..."
+      },
+      {
+        "id": "q54",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"What he needed ___ reassurance.\"",
+        "theory_block_id": "b5_theory_style_limits",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "was",
+            "feedback": "Верно: согласование по времени."
+          },
+          {
+            "id": "b",
+            "text": "were",
+            "feedback": "Were не согласуется."
+          },
+          {
+            "id": "c",
+            "text": "is",
+            "feedback": "Не соответствует прошедшему времени."
+          },
+          {
+            "id": "d",
+            "text": "do",
+            "feedback": "Do не используется как связка."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "What-clause в прошедшем времени требует was: What he needed was reassurance."
+      },
+      {
+        "id": "q55",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"It was the deadline that ___ the pressure.\" (создавать)",
+        "theory_block_id": "b5_theory_style_limits",
+        "difficulty": 3,
+        "correct_answer": "created",
+        "explanation": "Это обычная относительная часть в Past Simple: that created the pressure."
+      },
+      {
+        "id": "q56",
+        "type": "true_false",
+        "prompt": "В it-cleft можно использовать инверсию порядка слов.",
+        "theory_block_id": "b5_theory_style_limits",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "It-cleft не требует инверсии; структура фиксирована: It + be + фокус + that/who + clause."
+      },
+      {
+        "id": "q57",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b5_theory_style_limits",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "What I wanted was clarity.",
+            "feedback": "Верно: wh-cleft."
+          },
+          {
+            "id": "b",
+            "text": "What I wanted were clarity.",
+            "feedback": "Неверное согласование."
+          },
+          {
+            "id": "c",
+            "text": "What I wanted is clarity.",
+            "feedback": "Возможно, но в прошедшем предпочтительно was."
+          },
+          {
+            "id": "d",
+            "text": "What I wanted did clarity.",
+            "feedback": "Неверная связка."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Wh-cleft требует be. В прошедшем: What I wanted was clarity."
+      },
+      {
+        "id": "q58",
+        "type": "reorder",
+        "prompt": "Расставьте слова в правильном порядке:",
+        "theory_block_id": "b5_theory_style_limits",
+        "difficulty": 2,
+        "correct_answer": "What she needed was a clear plan.",
+        "explanation": "Wh-cleft: What + clause + was + фокус."
+      },
+      {
+        "id": "q59",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"It is she who ___ the final say.\"",
+        "theory_block_id": "b5_theory_style_limits",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "has",
+            "feedback": "Верно: согласование с she."
+          },
+          {
+            "id": "b",
+            "text": "have",
+            "feedback": "Have не согласуется."
+          },
+          {
+            "id": "c",
+            "text": "had",
+            "feedback": "Had меняет время."
+          },
+          {
+            "id": "d",
+            "text": "do",
+            "feedback": "Do не используется здесь."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Относительная часть согласуется с she: It is she who has the final say."
+      },
+      {
+        "id": "q60",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"What we discussed ___ not the main issue.\" (быть)",
+        "theory_block_id": "b5_theory_style_limits",
+        "difficulty": 2,
+        "correct_answer": "was",
+        "explanation": "What-clause воспринимается как единое число: What we discussed was not the main issue."
+      }
+    ]
+  },
+  "chapter_test": {
+    "num_questions": 10,
+    "pool_question_ids": [
+      "q3",
+      "q4",
+      "q5",
+      "q6",
+      "q7",
+      "q8",
+      "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32",
+      "q33",
+      "q34",
+      "q35",
+      "q36",
+      "q39",
+      "q40",
+      "q41",
+      "q42",
+      "q43",
+      "q44",
+      "q45",
+      "q46",
+      "q47",
+      "q48",
+      "q51",
+      "q52",
+      "q53",
+      "q54",
+      "q55",
+      "q56",
+      "q57",
+      "q58",
+      "q59",
+      "q60"
+    ],
+    "selection_strategy": {
+      "type": "stratified_by_theory_block",
+      "min_per_theory_block": 1,
+      "avoid_recent_window": 30,
+      "difficulty_mix": {
+        "easy": 3,
+        "medium": 5,
+        "hard": 2
+      }
+    }
+  },
+  "meta": {
+    "version": "2026.01.16",
+    "updated_at": "2026-01-24T14:10:41Z",
+    "source": "llm"
+  }
+}
