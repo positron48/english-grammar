@@ -2,7 +2,7 @@
 
 ### Section 0. Orientation: How to read grammar (A0)
 
-0.1. Subject / verb / object in practice (no heavy terminology)
+0.1. Subject / verb / object in practice
 0.2. Verb forms: V1 / V2 / V3 — what they are and why they matter
 0.3. Sentence modes: statement → question → negative (as "switches" of one idea)
 
@@ -11,7 +11,7 @@
 ### Section 1. First sentences: BE as the sentence engine (A0–A1)
 
 1.1. Personal pronouns + am/is/are (I am, you are…)
-1.2. Statements with be: identi1ty / description / location (I’m a student. She’s at home.)
+1.2. Statements with be: identi1ty / description / location
 1.3. Questions with be: Are you…? What is…? (+ short answers)
 1.4. Negatives with be: not, isn’t/aren’t
 1.5. a/an as “one of many”: This is a book

@@ -66,11 +66,11 @@ suggestions = 0
 
 # 1. Структурная валидность
 # Проверка level
-if chapter.get('level') not in ['A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'mixed']:
+if chapter.get('level') not in ['A0', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'mixed']:
     issues.append({
         'severity': 'error',
         'category': 'structural',
-        'message': f"Level '{chapter.get('level')}' не соответствует схеме. Допустимые значения: A1, A2, B1, B2, C1, C2, mixed",
+        'message': f"Level '{chapter.get('level')}' не соответствует схеме. Допустимые значения: A0, A1, A2, B1, B2, C1, C2, mixed",
         'location': 'level',
         'suggested_fix': 'Изменить level на одно из допустимых значений'
     })
