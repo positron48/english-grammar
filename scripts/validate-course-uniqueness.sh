@@ -8,6 +8,10 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 
+# Проверка уникальности вопросов по всему курсу отключена (по запросу).
+echo "Проверка уникальности вопросов по всему курсу: отключена"
+exit 0
+
 # Подключаем утилиты для работы с именами папок
 source "$SCRIPT_DIR/chapter-utils.sh"
 

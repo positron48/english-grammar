@@ -15,7 +15,7 @@
       "ui_language": { "type": "string", "minLength": 2, "maxLength": 10, "description": "Язык объяснений (например, ru)" },
       "target_language": { "type": "string", "minLength": 2, "maxLength": 10, "description": "Изучаемый язык (например, en)" },
   
-      "level": { "type": "string", "enum": ["A1", "A2", "B1", "B2", "C1", "C2", "mixed"] },
+      "level": { "type": "string", "enum": ["A0", "A1", "A2", "B1", "B2", "C1", "C2", "mixed"] },
       "order": { "type": "integer", "minimum": 0 },
   
       "prerequisites": {
