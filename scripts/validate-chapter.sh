@@ -76,6 +76,47 @@ if chapter.get('level') not in ['A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'mixed']:
     })
     errors += 1
 
+# Проверка title на отсутствие markdown
+def contains_markdown(text):
+    """Проверяет, содержит ли текст markdown синтаксис"""
+    if not text:
+        return False
+    
+    # Паттерны markdown для проверки
+    # Используем \x60 (hex escape) для обратных кавычек, чтобы избежать проблем с bash heredoc
+    backtick = '\x60'
+    markdown_patterns = [
+        r'\*\*[^*]+\*\*',      # **bold** (минимум один символ между **)
+        r'__[^_]+__',          # __bold__ (минимум один символ между __)
+        r'(?<!\*)\*[^*\s][^*]*[^*\s]\*(?!\*)',  # *italic* (не в начале/конце, не окружен другими *)
+        r'(?<!_)_[^_\s][^_]*[^_\s]_(?!_)',      # _italic_ (не в начале/конце, не окружен другими _)
+        backtick + r'[^' + backtick + r'\n]+' + backtick,  # inline code (обратные кавычки)
+        r'\[[^\]]+\]\([^\)]+\)',  # [link](url)
+        r'^#{1,6}\s',          # heading (в начале строки)
+        r'^>\s',               # quote (в начале строки)
+        r'^[-*+]\s',           # list (в начале строки)
+        r'^---+$',             # horizontal rule (только дефисы)
+        r'^\*\*\*+$',          # horizontal rule (только звездочки)
+        backtick + backtick + backtick,  # code block (три обратные кавычки)
+    ]
+    
+    for pattern in markdown_patterns:
+        if re.search(pattern, text, re.MULTILINE):
+            return True
+    
+    return False
+
+title = chapter.get('title', '')
+if title and contains_markdown(title):
+    issues.append({
+        'severity': 'error',
+        'category': 'structural',
+        'message': f"Название главы содержит markdown синтаксис: '{title}'. Название должно быть обычным текстом без markdown разметки.",
+        'location': 'title',
+        'suggested_fix': 'Удалить markdown разметку из названия главы (убрать **, *, обратные кавычки, #, >, и т.д.)'
+    })
+    errors += 1
+
 # Собираем все theory_block_id
 theory_blocks = {}
 blocks = chapter.get('blocks') or []

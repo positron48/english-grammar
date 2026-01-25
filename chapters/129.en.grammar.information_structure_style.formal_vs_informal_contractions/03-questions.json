@@ -7,10 +7,26 @@
       "theory_block_id": "b1_theory_contractions",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "I cannot attend the meeting.", "feedback": "Верно: без сокращения, более формально."},
-        {"id": "b", "text": "I can't attend the meeting.", "feedback": "Это разговорный вариант."},
-        {"id": "c", "text": "I ain't attending the meeting.", "feedback": "Слишком разговорно."},
-        {"id": "d", "text": "I won't attend the meeting.", "feedback": "Меняет смысл (будущее)."}
+        {
+          "id": "a",
+          "text": "I cannot attend the meeting.",
+          "feedback": "Верно: без сокращения, более формально."
+        },
+        {
+          "id": "b",
+          "text": "I can't attend the meeting.",
+          "feedback": "Это разговорный вариант."
+        },
+        {
+          "id": "c",
+          "text": "I ain't attending the meeting.",
+          "feedback": "Слишком разговорно."
+        },
+        {
+          "id": "d",
+          "text": "I won't attend the meeting.",
+          "feedback": "Меняет смысл (будущее)."
+        }
       ],
       "correct_answer": "a",
       "explanation": "В формальной речи сокращения обычно избегают, поэтому I cannot звучит официальнее."
@@ -18,23 +34,39 @@
     {
       "id": "q2",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"We ___ recommend proceeding without approval.\" (do)",
+      "prompt": "Заполните пропуск: \"We ___ recommend proceeding without approval.\" (подсказка)",
       "theory_block_id": "b1_theory_contractions",
       "difficulty": 2,
-      "correct_answer": "do not",
-      "explanation": "В формальном стиле чаще используют полную форму do not."
+      "correct_answer": "not",
+      "explanation": "В формальном стиле часто выбирают полную форму с not: We do not recommend."
     },
     {
       "id": "q3",
       "type": "error_spotting",
-      "prompt": "Выберите более формальный вариант предложения.",
+      "prompt": "Выберите более формальный вариант предложения (без сокращений).",
       "theory_block_id": "b1_theory_contractions",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "I don't think it's suitable.", "feedback": "Есть сокращения."},
-        {"id": "b", "text": "I do not think it is suitable.", "feedback": "Верно: без сокращений."},
-        {"id": "c", "text": "I ain't think it's suitable.", "feedback": "Неверная и разговорная форма."},
-        {"id": "d", "text": "I won't think it is suitable.", "feedback": "Меняет смысл."}
+        {
+          "id": "a",
+          "text": "I don't think it's suitable.",
+          "feedback": "Есть сокращения."
+        },
+        {
+          "id": "b",
+          "text": "I do not think it is suitable.",
+          "feedback": "Верно: без сокращений."
+        },
+        {
+          "id": "c",
+          "text": "I ain't think it's suitable.",
+          "feedback": "Неверная и разговорная форма."
+        },
+        {
+          "id": "d",
+          "text": "I won't think it is suitable.",
+          "feedback": "Меняет смысл."
+        }
       ],
       "correct_answer": "b",
       "explanation": "Формальный вариант избегает сокращений: do not, it is."
@@ -64,10 +96,26 @@
       "theory_block_id": "b1_theory_contractions",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "I don't agree with this decision.", "feedback": "Верно: сокращение делает тон менее формальным."},
-        {"id": "b", "text": "I do not agree with this decision.", "feedback": "Это формальный вариант."},
-        {"id": "c", "text": "I disagree with this decision, sir.", "feedback": "Не обязательно неформально."},
-        {"id": "d", "text": "I won't agree with this decision.", "feedback": "Меняет смысл."}
+        {
+          "id": "a",
+          "text": "I don't agree with this decision.",
+          "feedback": "Верно: сокращение делает тон менее формальным."
+        },
+        {
+          "id": "b",
+          "text": "I do not agree with this decision.",
+          "feedback": "Это формальный вариант."
+        },
+        {
+          "id": "c",
+          "text": "I disagree with this decision, sir.",
+          "feedback": "Не обязательно неформально."
+        },
+        {
+          "id": "d",
+          "text": "I won't agree with this decision.",
+          "feedback": "Меняет смысл."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Сокращение don't звучит более разговорно."
@@ -75,11 +123,11 @@
     {
       "id": "q7",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"I ___ sure this is the right place.\" (be)",
+      "prompt": "Заполните пропуск: \"I am ___ sure this is the right place.\" (подсказка)",
       "theory_block_id": "b1_theory_contractions",
       "difficulty": 2,
-      "correct_answer": "am not",
-      "explanation": "В более формальной версии используется am not, а не I'm not."
+      "correct_answer": "not",
+      "explanation": "В формальном варианте используется полная форма: I am not sure."
     },
     {
       "id": "q8",
@@ -93,14 +141,30 @@
     {
       "id": "q9",
       "type": "error_spotting",
-      "prompt": "Выберите более формальный вариант предложения.",
+      "prompt": "Выберите более формальный вариант предложения (деловой стиль).",
       "theory_block_id": "b1_theory_contractions",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "We don't have enough data.", "feedback": "Есть сокращение."},
-        {"id": "b", "text": "We do not have enough data.", "feedback": "Верно: без сокращения."},
-        {"id": "c", "text": "We ain't got enough data.", "feedback": "Неформально."},
-        {"id": "d", "text": "We won't have enough data.", "feedback": "Меняет время."}
+        {
+          "id": "a",
+          "text": "We don't have enough data.",
+          "feedback": "Есть сокращение."
+        },
+        {
+          "id": "b",
+          "text": "We do not have enough data.",
+          "feedback": "Верно: без сокращения."
+        },
+        {
+          "id": "c",
+          "text": "We ain't got enough data.",
+          "feedback": "Неформально."
+        },
+        {
+          "id": "d",
+          "text": "We won't have enough data.",
+          "feedback": "Меняет время."
+        }
       ],
       "correct_answer": "b",
       "explanation": "Полная форма do not подходит для формального контекста."
@@ -112,10 +176,26 @@
       "theory_block_id": "b1_theory_contractions",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "It is not acceptable.", "feedback": "Верно: полная форма."},
-        {"id": "b", "text": "It's not acceptable.", "feedback": "Сокращение звучит менее формально."},
-        {"id": "c", "text": "It ain't acceptable.", "feedback": "Разговорная форма."},
-        {"id": "d", "text": "It won't be acceptable.", "feedback": "Меняет смысл."}
+        {
+          "id": "a",
+          "text": "It is not acceptable.",
+          "feedback": "Верно: полная форма."
+        },
+        {
+          "id": "b",
+          "text": "It's not acceptable.",
+          "feedback": "Сокращение звучит менее формально."
+        },
+        {
+          "id": "c",
+          "text": "It ain't acceptable.",
+          "feedback": "Разговорная форма."
+        },
+        {
+          "id": "d",
+          "text": "It won't be acceptable.",
+          "feedback": "Меняет смысл."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Формальный вариант избегает сокращений: It is not acceptable."
@@ -123,11 +203,11 @@
     {
       "id": "q11",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"We ___ proceed without confirmation.\" (do)",
+      "prompt": "Заполните пропуск: \"We do ___ proceed without confirmation.\" (подсказка)",
       "theory_block_id": "b1_theory_contractions",
       "difficulty": 2,
-      "correct_answer": "do not",
-      "explanation": "Формальная версия использует полную форму do not."
+      "correct_answer": "not",
+      "explanation": "Полная форма отрицания: We do not proceed."
     },
     {
       "id": "q12",
@@ -138,7 +218,6 @@
       "correct_answer": "It is not recommended to proceed.",
       "explanation": "Формальный тон предпочитает полные формы."
     },
-
     {
       "id": "q13",
       "type": "mcq_single",
@@ -146,10 +225,26 @@
       "theory_block_id": "b2_theory_formal_linking",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "Therefore", "feedback": "Верно: формальная связка."},
-        {"id": "b", "text": "So", "feedback": "Разговорная связка."},
-        {"id": "c", "text": "And", "feedback": "Слишком нейтрально и не выражает следствие."},
-        {"id": "d", "text": "Plus", "feedback": "Разговорный маркер."}
+        {
+          "id": "a",
+          "text": "Therefore",
+          "feedback": "Верно: формальная связка."
+        },
+        {
+          "id": "b",
+          "text": "So",
+          "feedback": "Разговорная связка."
+        },
+        {
+          "id": "c",
+          "text": "And",
+          "feedback": "Слишком нейтрально и не выражает следствие."
+        },
+        {
+          "id": "d",
+          "text": "Plus",
+          "feedback": "Разговорный маркер."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Therefore — формальная связка для выражения следствия."
@@ -166,14 +261,30 @@
     {
       "id": "q15",
       "type": "error_spotting",
-      "prompt": "Выберите более формальный вариант предложения.",
+      "prompt": "Выберите более формальный вариант предложения (с формальной связкой).",
       "theory_block_id": "b2_theory_formal_linking",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "However, we cannot proceed without approval.", "feedback": "Верно: formal linker."},
-        {"id": "b", "text": "But we can't proceed without approval.", "feedback": "Разговорная связка + сокращение."},
-        {"id": "c", "text": "So we cannot proceed without approval.", "feedback": "So менее формально."},
-        {"id": "d", "text": "And we cannot proceed without approval.", "feedback": "Слишком нейтрально."}
+        {
+          "id": "a",
+          "text": "However, we cannot proceed without approval.",
+          "feedback": "Верно: formal linker."
+        },
+        {
+          "id": "b",
+          "text": "But we can't proceed without approval.",
+          "feedback": "Разговорная связка + сокращение."
+        },
+        {
+          "id": "c",
+          "text": "So we cannot proceed without approval.",
+          "feedback": "So менее формально."
+        },
+        {
+          "id": "d",
+          "text": "And we cannot proceed without approval.",
+          "feedback": "Слишком нейтрально."
+        }
       ],
       "correct_answer": "a",
       "explanation": "However — формальная связка, подходящая для официального тона."
@@ -203,10 +314,26 @@
       "theory_block_id": "b2_theory_formal_linking",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "nevertheless", "feedback": "Верно: формальная связка."},
-        {"id": "b", "text": "but", "feedback": "Разговорный вариант."},
-        {"id": "c", "text": "so", "feedback": "Неверный смысл."},
-        {"id": "d", "text": "plus", "feedback": "Разговорный маркер."}
+        {
+          "id": "a",
+          "text": "nevertheless",
+          "feedback": "Верно: формальная связка."
+        },
+        {
+          "id": "b",
+          "text": "but",
+          "feedback": "Разговорный вариант."
+        },
+        {
+          "id": "c",
+          "text": "so",
+          "feedback": "Неверный смысл."
+        },
+        {
+          "id": "d",
+          "text": "plus",
+          "feedback": "Разговорный маркер."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Nevertheless — формальное противопоставление."
@@ -236,10 +363,26 @@
       "theory_block_id": "b2_theory_formal_linking",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "furthermore", "feedback": "Верно: формальный маркер добавления."},
-        {"id": "b", "text": "also", "feedback": "Нейтрально/разговорно."},
-        {"id": "c", "text": "and", "feedback": "Слишком просто."},
-        {"id": "d", "text": "plus", "feedback": "Разговорно."}
+        {
+          "id": "a",
+          "text": "furthermore",
+          "feedback": "Верно: формальный маркер добавления."
+        },
+        {
+          "id": "b",
+          "text": "also",
+          "feedback": "Нейтрально/разговорно."
+        },
+        {
+          "id": "c",
+          "text": "and",
+          "feedback": "Слишком просто."
+        },
+        {
+          "id": "d",
+          "text": "plus",
+          "feedback": "Разговорно."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Furthermore звучит официальнее."
@@ -265,19 +408,34 @@
     {
       "id": "q24",
       "type": "error_spotting",
-      "prompt": "Выберите более формальный вариант предложения.",
+      "prompt": "Выберите более формальный вариант предложения (причина-следствие).",
       "theory_block_id": "b2_theory_formal_linking",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "We were late, so we canceled.", "feedback": "Разговорно."},
-        {"id": "b", "text": "We were late; therefore, we canceled.", "feedback": "Верно: formal linker."},
-        {"id": "c", "text": "We were late, and we canceled.", "feedback": "Не выражает причинно-следственную связь."},
-        {"id": "d", "text": "We were late, plus we canceled.", "feedback": "Разговорно."}
+        {
+          "id": "a",
+          "text": "We were late, so we canceled.",
+          "feedback": "Разговорно."
+        },
+        {
+          "id": "b",
+          "text": "We were late; therefore, we canceled.",
+          "feedback": "Верно: formal linker."
+        },
+        {
+          "id": "c",
+          "text": "We were late, and we canceled.",
+          "feedback": "Не выражает причинно-следственную связь."
+        },
+        {
+          "id": "d",
+          "text": "We were late, plus we canceled.",
+          "feedback": "Разговорно."
+        }
       ],
       "correct_answer": "b",
       "explanation": "Therefore делает связь формальной и четкой."
     },
-
     {
       "id": "q25",
       "type": "mcq_single",
@@ -285,10 +443,26 @@
       "theory_block_id": "b3_theory_informal_markers",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "kind of", "feedback": "Верно: разговорный маркер."},
-        {"id": "b", "text": "therefore", "feedback": "Формальная связка."},
-        {"id": "c", "text": "consequently", "feedback": "Формальная связка."},
-        {"id": "d", "text": "nevertheless", "feedback": "Формальная связка."}
+        {
+          "id": "a",
+          "text": "kind of",
+          "feedback": "Верно: разговорный маркер."
+        },
+        {
+          "id": "b",
+          "text": "therefore",
+          "feedback": "Формальная связка, не разговорная."
+        },
+        {
+          "id": "c",
+          "text": "consequently",
+          "feedback": "Формальная связка, не маркер степени."
+        },
+        {
+          "id": "d",
+          "text": "nevertheless",
+          "feedback": "Формальная связка, не разговорный маркер."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Kind of — разговорный смягчитель."
@@ -296,11 +470,11 @@
     {
       "id": "q26",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"It's ___ late to change the plan.\" (informal)",
+      "prompt": "Заполните пропуск: \"It's ___ late to change the plan.\" (подсказка)",
       "theory_block_id": "b3_theory_informal_markers",
       "difficulty": 2,
-      "correct_answer": "a bit",
-      "explanation": "A bit — разговорный смягчитель."
+      "correct_answer": "bit",
+      "explanation": "Разговорный смягчитель: a bit. Вставляется слово bit."
     },
     {
       "id": "q27",
@@ -309,10 +483,26 @@
       "theory_block_id": "b3_theory_informal_markers",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "The result is somewhat surprising.", "feedback": "Скорее нейтрально."},
-        {"id": "b", "text": "The result is kind of surprising.", "feedback": "Верно: разговорный маркер."},
-        {"id": "c", "text": "The result is therefore surprising.", "feedback": "Неверный смысл."},
-        {"id": "d", "text": "The result is consequently surprising.", "feedback": "Формальная связка."}
+        {
+          "id": "a",
+          "text": "The result is somewhat surprising.",
+          "feedback": "Скорее нейтрально."
+        },
+        {
+          "id": "b",
+          "text": "The result is kind of surprising.",
+          "feedback": "Верно: разговорный маркер."
+        },
+        {
+          "id": "c",
+          "text": "The result is therefore surprising.",
+          "feedback": "Неверный смысл."
+        },
+        {
+          "id": "d",
+          "text": "The result is consequently surprising.",
+          "feedback": "Формальная связка."
+        }
       ],
       "correct_answer": "b",
       "explanation": "Kind of делает фразу разговорной."
@@ -342,10 +532,26 @@
       "theory_block_id": "b3_theory_informal_markers",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "pretty", "feedback": "Верно: разговорный маркер степени."},
-        {"id": "b", "text": "therefore", "feedback": "Формальная связка."},
-        {"id": "c", "text": "consequently", "feedback": "Формальная связка."},
-        {"id": "d", "text": "nevertheless", "feedback": "Формальная связка."}
+        {
+          "id": "a",
+          "text": "pretty",
+          "feedback": "Верно: разговорный маркер степени."
+        },
+        {
+          "id": "b",
+          "text": "therefore",
+          "feedback": "Формальная связка, не маркер степени."
+        },
+        {
+          "id": "c",
+          "text": "consequently",
+          "feedback": "Формальная связка, не разговорное усиление."
+        },
+        {
+          "id": "d",
+          "text": "nevertheless",
+          "feedback": "Формальная связка, не разговорное слово."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Pretty как наречие степени звучит разговорно."
@@ -353,11 +559,11 @@
     {
       "id": "q31",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"I'm ___ tired today.\" (informal)",
+      "prompt": "Заполните пропуск: \"I'm ___ tired today.\" (подсказка)",
       "theory_block_id": "b3_theory_informal_markers",
       "difficulty": 2,
-      "correct_answer": "sort of",
-      "explanation": "Sort of — разговорный смягчитель."
+      "correct_answer": "sort",
+      "explanation": "Разговорный смягчитель: sort of. Вставляется слово sort."
     },
     {
       "id": "q32",
@@ -375,10 +581,26 @@
       "theory_block_id": "b3_theory_informal_markers",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "It's a bit risky.", "feedback": "Верно: разговорный смягчитель."},
-        {"id": "b", "text": "It is therefore risky.", "feedback": "Формальная связка."},
-        {"id": "c", "text": "It is consequently risky.", "feedback": "Формальная связка."},
-        {"id": "d", "text": "It is nevertheless risky.", "feedback": "Формальная связка."}
+        {
+          "id": "a",
+          "text": "It's a bit risky.",
+          "feedback": "Верно: разговорный смягчитель."
+        },
+        {
+          "id": "b",
+          "text": "It is therefore risky.",
+          "feedback": "Формальная связка."
+        },
+        {
+          "id": "c",
+          "text": "It is consequently risky.",
+          "feedback": "Формальная связка."
+        },
+        {
+          "id": "d",
+          "text": "It is nevertheless risky.",
+          "feedback": "Формальная связка."
+        }
       ],
       "correct_answer": "a",
       "explanation": "A bit делает тон разговорным и менее резким."
@@ -390,10 +612,26 @@
       "theory_block_id": "b3_theory_informal_markers",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "kind of", "feedback": "Верно: разговорный маркер."},
-        {"id": "b", "text": "however", "feedback": "Формальная связка."},
-        {"id": "c", "text": "nevertheless", "feedback": "Формальная связка."},
-        {"id": "d", "text": "therefore", "feedback": "Формальная связка."}
+        {
+          "id": "a",
+          "text": "kind of",
+          "feedback": "Верно: разговорный маркер."
+        },
+        {
+          "id": "b",
+          "text": "however",
+          "feedback": "Формальная связка, не разговорный маркер."
+        },
+        {
+          "id": "c",
+          "text": "nevertheless",
+          "feedback": "Формальная связка, не маркер степени."
+        },
+        {
+          "id": "d",
+          "text": "therefore",
+          "feedback": "Формальная связка, не разговорное слово."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Kind of смягчает и делает тон разговорным."
@@ -416,7 +654,6 @@
       "correct_answer": "pretty",
       "explanation": "Pretty — разговорный маркер степени."
     },
-
     {
       "id": "q37",
       "type": "mcq_single",
@@ -424,10 +661,26 @@
       "theory_block_id": "b4_theory_politeness",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "Could you please send me the file?", "feedback": "Верно: вежливая форма."},
-        {"id": "b", "text": "Send me the file now.", "feedback": "Прямой приказ."},
-        {"id": "c", "text": "You must send me the file.", "feedback": "Слишком категорично."},
-        {"id": "d", "text": "File, please.", "feedback": "Слишком кратко и грубо."}
+        {
+          "id": "a",
+          "text": "Could you please send me the file?",
+          "feedback": "Верно: вежливая форма."
+        },
+        {
+          "id": "b",
+          "text": "Send me the file now.",
+          "feedback": "Прямой приказ."
+        },
+        {
+          "id": "c",
+          "text": "You must send me the file.",
+          "feedback": "Слишком категорично."
+        },
+        {
+          "id": "d",
+          "text": "File, please.",
+          "feedback": "Слишком кратко и грубо."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Could you please... — вежливая, формальная просьба."
@@ -435,23 +688,39 @@
     {
       "id": "q38",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"I would appreciate it if you ___ respond by Friday.\" (could)",
+      "prompt": "Заполните пропуск: \"I would appreciate it if you ___ respond by Friday.\" (модальный)",
       "theory_block_id": "b4_theory_politeness",
       "difficulty": 2,
       "correct_answer": "could",
-      "explanation": "Формула I would appreciate it if you could... — вежливая просьба."
+      "explanation": "Вежливая формула: I would appreciate it if you could..."
     },
     {
       "id": "q39",
       "type": "error_spotting",
-      "prompt": "Выберите более вежливый вариант.",
+      "prompt": "Выберите более вежливый вариант (деловая переписка).",
       "theory_block_id": "b4_theory_politeness",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "Send me the update today.", "feedback": "Слишком прямолинейно."},
-        {"id": "b", "text": "Could you please send the update today?", "feedback": "Верно: вежливая просьба."},
-        {"id": "c", "text": "You must send the update today.", "feedback": "Слишком жестко."},
-        {"id": "d", "text": "Send the update, okay?", "feedback": "Разговорно и неформально."}
+        {
+          "id": "a",
+          "text": "Send me the update today.",
+          "feedback": "Слишком прямолинейно."
+        },
+        {
+          "id": "b",
+          "text": "Could you please send the update today?",
+          "feedback": "Верно: вежливая просьба."
+        },
+        {
+          "id": "c",
+          "text": "You must send the update today.",
+          "feedback": "Слишком жестко."
+        },
+        {
+          "id": "d",
+          "text": "Send the update, okay?",
+          "feedback": "Разговорно и неформально."
+        }
       ],
       "correct_answer": "b",
       "explanation": "Could you please... делает просьбу более вежливой и нейтральной."
@@ -481,10 +750,26 @@
       "theory_block_id": "b4_theory_politeness",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "Could you please send the invoice?", "feedback": "Верно: вежливая просьба."},
-        {"id": "b", "text": "Send the invoice now.", "feedback": "Прямой приказ."},
-        {"id": "c", "text": "You must send the invoice.", "feedback": "Жесткая форма."},
-        {"id": "d", "text": "Invoice, please.", "feedback": "Слишком кратко."}
+        {
+          "id": "a",
+          "text": "Could you please send the invoice?",
+          "feedback": "Верно: вежливая просьба."
+        },
+        {
+          "id": "b",
+          "text": "Send the invoice now.",
+          "feedback": "Прямой приказ."
+        },
+        {
+          "id": "c",
+          "text": "You must send the invoice.",
+          "feedback": "Жесткая форма."
+        },
+        {
+          "id": "d",
+          "text": "Invoice, please.",
+          "feedback": "Слишком кратко."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Could you please... делает просьбу формальной и вежливой."
@@ -510,14 +795,30 @@
     {
       "id": "q45",
       "type": "error_spotting",
-      "prompt": "Выберите более вежливый вариант.",
+      "prompt": "Выберите более вежливый вариант (нейтральный тон).",
       "theory_block_id": "b4_theory_politeness",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "Send me the details.", "feedback": "Прямой приказ."},
-        {"id": "b", "text": "Would you mind sending me the details?", "feedback": "Верно: вежливая просьба."},
-        {"id": "c", "text": "You must send me the details.", "feedback": "Слишком жестко."},
-        {"id": "d", "text": "Send me the details, okay?", "feedback": "Разговорно."}
+        {
+          "id": "a",
+          "text": "Send me the details.",
+          "feedback": "Прямой приказ."
+        },
+        {
+          "id": "b",
+          "text": "Would you mind sending me the details?",
+          "feedback": "Верно: вежливая просьба."
+        },
+        {
+          "id": "c",
+          "text": "You must send me the details.",
+          "feedback": "Слишком жестко."
+        },
+        {
+          "id": "d",
+          "text": "Send me the details, okay?",
+          "feedback": "Разговорно."
+        }
       ],
       "correct_answer": "b",
       "explanation": "Would you mind... — вежливая, дистанцированная просьба."
@@ -538,10 +839,26 @@
       "theory_block_id": "b4_theory_politeness",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "I would appreciate it if you could respond by Friday.", "feedback": "Верно: формальная вежливая форма."},
-        {"id": "b", "text": "Answer by Friday.", "feedback": "Прямой приказ."},
-        {"id": "c", "text": "Can you answer by Friday?", "feedback": "Нейтрально, но менее формально."},
-        {"id": "d", "text": "Answer me by Friday, ok?", "feedback": "Разговорно."}
+        {
+          "id": "a",
+          "text": "I would appreciate it if you could respond by Friday.",
+          "feedback": "Верно: формальная вежливая форма."
+        },
+        {
+          "id": "b",
+          "text": "Answer by Friday.",
+          "feedback": "Прямой приказ."
+        },
+        {
+          "id": "c",
+          "text": "Can you answer by Friday?",
+          "feedback": "Нейтрально, но менее формально."
+        },
+        {
+          "id": "d",
+          "text": "Answer me by Friday, ok?",
+          "feedback": "Разговорно."
+        }
       ],
       "correct_answer": "a",
       "explanation": "I would appreciate it if you could... звучит наиболее официально."
@@ -549,13 +866,12 @@
     {
       "id": "q48",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"Could you ___ let me know by noon?\" (please)",
+      "prompt": "Заполните пропуск: \"Could you ___ let me know by noon?\" (вежливое слово)",
       "theory_block_id": "b4_theory_politeness",
       "difficulty": 2,
       "correct_answer": "please",
-      "explanation": "Please смягчает просьбу: Could you please..."
+      "explanation": "Please смягчает просьбу в вежливой форме."
     },
-
     {
       "id": "q49",
       "type": "mcq_single",
@@ -563,10 +879,26 @@
       "theory_block_id": "b5_theory_style_mismatch",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "We regret to inform you that the request was denied.", "feedback": "Верно: формальный стиль."},
-        {"id": "b", "text": "Hey, your request got rejected.", "feedback": "Слишком разговорно."},
-        {"id": "c", "text": "Your request got rejected, btw.", "feedback": "Разговорный маркер."},
-        {"id": "d", "text": "Sorry, we can't do it.", "feedback": "Слишком неформально."}
+        {
+          "id": "a",
+          "text": "We regret to inform you that the request was denied.",
+          "feedback": "Верно: формальный стиль."
+        },
+        {
+          "id": "b",
+          "text": "Hey, your request got rejected.",
+          "feedback": "Слишком разговорно."
+        },
+        {
+          "id": "c",
+          "text": "Your request got rejected, btw.",
+          "feedback": "Разговорный маркер."
+        },
+        {
+          "id": "d",
+          "text": "Sorry, we can't do it.",
+          "feedback": "Слишком неформально."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Официальное письмо требует формальной лексики и полного стиля."
@@ -587,10 +919,26 @@
       "theory_block_id": "b5_theory_style_mismatch",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "The findings were inconclusive; therefore, further review is required.", "feedback": "Верно: формальный стиль."},
-        {"id": "b", "text": "The findings were kinda unclear, so we need to look again.", "feedback": "Разговорный стиль."},
-        {"id": "c", "text": "We were like, not sure, so we checked again.", "feedback": "Очень разговорно."},
-        {"id": "d", "text": "The findings were unclear, and we checked again, lol.", "feedback": "Недопустимо для отчета."}
+        {
+          "id": "a",
+          "text": "The findings were inconclusive; therefore, further review is required.",
+          "feedback": "Верно: формальный стиль."
+        },
+        {
+          "id": "b",
+          "text": "The findings were kinda unclear, so we need to look again.",
+          "feedback": "Разговорный стиль."
+        },
+        {
+          "id": "c",
+          "text": "We were like, not sure, so we checked again.",
+          "feedback": "Очень разговорно."
+        },
+        {
+          "id": "d",
+          "text": "The findings were unclear, and we checked again, lol.",
+          "feedback": "Недопустимо для отчета."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Официальный отчет требует формальных связок и нейтральной лексики."
@@ -610,8 +958,8 @@
       "prompt": "Расставьте слова в правильном порядке:",
       "theory_block_id": "b5_theory_style_mismatch",
       "difficulty": 2,
-      "correct_answer": "We regret to inform you that the request was denied.",
-      "explanation": "Формальная структура с we regret to inform you."
+      "correct_answer": "We regret to inform you that your request was denied.",
+      "explanation": "Формальная формула уведомления в официальном стиле."
     },
     {
       "id": "q54",
@@ -620,10 +968,26 @@
       "theory_block_id": "b5_theory_style_mismatch",
       "difficulty": 2,
       "choices": [
-        {"id": "a", "text": "Hey, just a heads-up: the request got rejected.", "feedback": "Верно: неформальный стиль."},
-        {"id": "b", "text": "We regret to inform you that the request was denied.", "feedback": "Слишком формально."},
-        {"id": "c", "text": "The request was denied; therefore, no action will be taken.", "feedback": "Официально."},
-        {"id": "d", "text": "Please be advised that your request was denied.", "feedback": "Формально."}
+        {
+          "id": "a",
+          "text": "Hey, just a heads-up: the request got rejected.",
+          "feedback": "Верно: неформальный стиль."
+        },
+        {
+          "id": "b",
+          "text": "We regret to inform you that the request was denied.",
+          "feedback": "Слишком формально."
+        },
+        {
+          "id": "c",
+          "text": "The request was denied; therefore, no action will be taken.",
+          "feedback": "Официально."
+        },
+        {
+          "id": "d",
+          "text": "Please be advised that your request was denied.",
+          "feedback": "Формально."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Для дружеского сообщения подходит неформальная лексика."
@@ -653,10 +1017,26 @@
       "theory_block_id": "b5_theory_style_mismatch",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "We regret to inform you that we cannot approve the request.", "feedback": "Верно: официальный стиль."},
-        {"id": "b", "text": "Hey, we can't approve it.", "feedback": "Слишком разговорно."},
-        {"id": "c", "text": "We can't approve it, sorry.", "feedback": "Неформально."},
-        {"id": "d", "text": "We can't approve it, btw.", "feedback": "Разговорный маркер."}
+        {
+          "id": "a",
+          "text": "We regret to inform you that we cannot approve the request.",
+          "feedback": "Верно: официальный стиль."
+        },
+        {
+          "id": "b",
+          "text": "Hey, we can't approve it.",
+          "feedback": "Слишком разговорно."
+        },
+        {
+          "id": "c",
+          "text": "We can't approve it, sorry.",
+          "feedback": "Неформально."
+        },
+        {
+          "id": "d",
+          "text": "We can't approve it, btw.",
+          "feedback": "Разговорный маркер."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Официальное письмо требует формального тона и без сокращений."
@@ -677,10 +1057,26 @@
       "theory_block_id": "b5_theory_style_mismatch",
       "difficulty": 3,
       "choices": [
-        {"id": "a", "text": "We regret to inform you that the request was denied, btw.", "feedback": "Верно: смешение формального и разговорного."},
-        {"id": "b", "text": "We regret to inform you that the request was denied.", "feedback": "Формально корректно."},
-        {"id": "c", "text": "Hey, the request got rejected.", "feedback": "Неформально, но последовательно."},
-        {"id": "d", "text": "Please be advised that your request was denied.", "feedback": "Формально корректно."}
+        {
+          "id": "a",
+          "text": "We regret to inform you that the request was denied, btw.",
+          "feedback": "Верно: смешение формального и разговорного."
+        },
+        {
+          "id": "b",
+          "text": "We regret to inform you that the request was denied.",
+          "feedback": "Формально корректно, без смешения стиля."
+        },
+        {
+          "id": "c",
+          "text": "Hey, the request got rejected.",
+          "feedback": "Неформально, но последовательно."
+        },
+        {
+          "id": "d",
+          "text": "Please be advised that your request was denied.",
+          "feedback": "Формально корректно и последовательный тон."
+        }
       ],
       "correct_answer": "a",
       "explanation": "Btw — разговорный маркер, неуместный в официальной фразе."
@@ -688,11 +1084,11 @@
     {
       "id": "q60",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"We ___ to inform you that the request was denied.\" (regret)",
+      "prompt": "Заполните пропуск: \"We ___ to inform you that the request was denied.\" (формальный глагол)",
       "theory_block_id": "b5_theory_style_mismatch",
       "difficulty": 2,
       "correct_answer": "regret",
-      "explanation": "We regret to inform you — стандартная формальная конструкция."
+      "explanation": "Формальная конструкция: We regret to inform you..."
     }
   ]
 }

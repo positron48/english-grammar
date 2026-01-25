@@ -327,16 +327,16 @@
       {
         "id": "q2",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"We ___ recommend proceeding without approval.\" (do)",
+        "prompt": "Заполните пропуск: \"We ___ recommend proceeding without approval.\" (подсказка)",
         "theory_block_id": "b1_theory_contractions",
         "difficulty": 2,
-        "correct_answer": "do not",
-        "explanation": "В формальном стиле чаще используют полную форму do not."
+        "correct_answer": "not",
+        "explanation": "В формальном стиле часто выбирают полную форму с not: We do not recommend."
       },
       {
         "id": "q3",
         "type": "error_spotting",
-        "prompt": "Выберите более формальный вариант предложения.",
+        "prompt": "Выберите более формальный вариант предложения (без сокращений).",
         "theory_block_id": "b1_theory_contractions",
         "difficulty": 3,
         "choices": [
@@ -416,11 +416,11 @@
       {
         "id": "q7",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I ___ sure this is the right place.\" (be)",
+        "prompt": "Заполните пропуск: \"I am ___ sure this is the right place.\" (подсказка)",
         "theory_block_id": "b1_theory_contractions",
         "difficulty": 2,
-        "correct_answer": "am not",
-        "explanation": "В более формальной версии используется am not, а не I'm not."
+        "correct_answer": "not",
+        "explanation": "В формальном варианте используется полная форма: I am not sure."
       },
       {
         "id": "q8",
@@ -434,7 +434,7 @@
       {
         "id": "q9",
         "type": "error_spotting",
-        "prompt": "Выберите более формальный вариант предложения.",
+        "prompt": "Выберите более формальный вариант предложения (деловой стиль).",
         "theory_block_id": "b1_theory_contractions",
         "difficulty": 3,
         "choices": [
@@ -496,11 +496,11 @@
       {
         "id": "q11",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"We ___ proceed without confirmation.\" (do)",
+        "prompt": "Заполните пропуск: \"We do ___ proceed without confirmation.\" (подсказка)",
         "theory_block_id": "b1_theory_contractions",
         "difficulty": 2,
-        "correct_answer": "do not",
-        "explanation": "Формальная версия использует полную форму do not."
+        "correct_answer": "not",
+        "explanation": "Полная форма отрицания: We do not proceed."
       },
       {
         "id": "q12",
@@ -554,7 +554,7 @@
       {
         "id": "q15",
         "type": "error_spotting",
-        "prompt": "Выберите более формальный вариант предложения.",
+        "prompt": "Выберите более формальный вариант предложения (с формальной связкой).",
         "theory_block_id": "b2_theory_formal_linking",
         "difficulty": 3,
         "choices": [
@@ -701,7 +701,7 @@
       {
         "id": "q24",
         "type": "error_spotting",
-        "prompt": "Выберите более формальный вариант предложения.",
+        "prompt": "Выберите более формальный вариант предложения (причина-следствие).",
         "theory_block_id": "b2_theory_formal_linking",
         "difficulty": 3,
         "choices": [
@@ -744,17 +744,17 @@
           {
             "id": "b",
             "text": "therefore",
-            "feedback": "Формальная связка."
+            "feedback": "Формальная связка, не разговорная."
           },
           {
             "id": "c",
             "text": "consequently",
-            "feedback": "Формальная связка."
+            "feedback": "Формальная связка, не маркер степени."
           },
           {
             "id": "d",
             "text": "nevertheless",
-            "feedback": "Формальная связка."
+            "feedback": "Формальная связка, не разговорный маркер."
           }
         ],
         "correct_answer": "a",
@@ -763,11 +763,11 @@
       {
         "id": "q26",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"It's ___ late to change the plan.\" (informal)",
+        "prompt": "Заполните пропуск: \"It's ___ late to change the plan.\" (подсказка)",
         "theory_block_id": "b3_theory_informal_markers",
         "difficulty": 2,
-        "correct_answer": "a bit",
-        "explanation": "A bit — разговорный смягчитель."
+        "correct_answer": "bit",
+        "explanation": "Разговорный смягчитель: a bit. Вставляется слово bit."
       },
       {
         "id": "q27",
@@ -833,17 +833,17 @@
           {
             "id": "b",
             "text": "therefore",
-            "feedback": "Формальная связка."
+            "feedback": "Формальная связка, не маркер степени."
           },
           {
             "id": "c",
             "text": "consequently",
-            "feedback": "Формальная связка."
+            "feedback": "Формальная связка, не разговорное усиление."
           },
           {
             "id": "d",
             "text": "nevertheless",
-            "feedback": "Формальная связка."
+            "feedback": "Формальная связка, не разговорное слово."
           }
         ],
         "correct_answer": "a",
@@ -852,11 +852,11 @@
       {
         "id": "q31",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I'm ___ tired today.\" (informal)",
+        "prompt": "Заполните пропуск: \"I'm ___ tired today.\" (подсказка)",
         "theory_block_id": "b3_theory_informal_markers",
         "difficulty": 2,
-        "correct_answer": "sort of",
-        "explanation": "Sort of — разговорный смягчитель."
+        "correct_answer": "sort",
+        "explanation": "Разговорный смягчитель: sort of. Вставляется слово sort."
       },
       {
         "id": "q32",
@@ -913,17 +913,17 @@
           {
             "id": "b",
             "text": "however",
-            "feedback": "Формальная связка."
+            "feedback": "Формальная связка, не разговорный маркер."
           },
           {
             "id": "c",
             "text": "nevertheless",
-            "feedback": "Формальная связка."
+            "feedback": "Формальная связка, не маркер степени."
           },
           {
             "id": "d",
             "text": "therefore",
-            "feedback": "Формальная связка."
+            "feedback": "Формальная связка, не разговорное слово."
           }
         ],
         "correct_answer": "a",
@@ -981,16 +981,16 @@
       {
         "id": "q38",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I would appreciate it if you ___ respond by Friday.\" (could)",
+        "prompt": "Заполните пропуск: \"I would appreciate it if you ___ respond by Friday.\" (модальный)",
         "theory_block_id": "b4_theory_politeness",
         "difficulty": 2,
         "correct_answer": "could",
-        "explanation": "Формула I would appreciate it if you could... — вежливая просьба."
+        "explanation": "Вежливая формула: I would appreciate it if you could..."
       },
       {
         "id": "q39",
         "type": "error_spotting",
-        "prompt": "Выберите более вежливый вариант.",
+        "prompt": "Выберите более вежливый вариант (деловая переписка).",
         "theory_block_id": "b4_theory_politeness",
         "difficulty": 3,
         "choices": [
@@ -1088,7 +1088,7 @@
       {
         "id": "q45",
         "type": "error_spotting",
-        "prompt": "Выберите более вежливый вариант.",
+        "prompt": "Выберите более вежливый вариант (нейтральный тон).",
         "theory_block_id": "b4_theory_politeness",
         "difficulty": 3,
         "choices": [
@@ -1159,11 +1159,11 @@
       {
         "id": "q48",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"Could you ___ let me know by noon?\" (please)",
+        "prompt": "Заполните пропуск: \"Could you ___ let me know by noon?\" (вежливое слово)",
         "theory_block_id": "b4_theory_politeness",
         "difficulty": 2,
         "correct_answer": "please",
-        "explanation": "Please смягчает просьбу: Could you please..."
+        "explanation": "Please смягчает просьбу в вежливой форме."
       },
       {
         "id": "q49",
@@ -1251,8 +1251,8 @@
         "prompt": "Расставьте слова в правильном порядке:",
         "theory_block_id": "b5_theory_style_mismatch",
         "difficulty": 2,
-        "correct_answer": "We regret to inform you that the request was denied.",
-        "explanation": "Формальная структура с we regret to inform you."
+        "correct_answer": "We regret to inform you that your request was denied.",
+        "explanation": "Формальная формула уведомления в официальном стиле."
       },
       {
         "id": "q54",
@@ -1358,7 +1358,7 @@
           {
             "id": "b",
             "text": "We regret to inform you that the request was denied.",
-            "feedback": "Формально корректно."
+            "feedback": "Формально корректно, без смешения стиля."
           },
           {
             "id": "c",
@@ -1368,7 +1368,7 @@
           {
             "id": "d",
             "text": "Please be advised that your request was denied.",
-            "feedback": "Формально корректно."
+            "feedback": "Формально корректно и последовательный тон."
           }
         ],
         "correct_answer": "a",
@@ -1377,11 +1377,11 @@
       {
         "id": "q60",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"We ___ to inform you that the request was denied.\" (regret)",
+        "prompt": "Заполните пропуск: \"We ___ to inform you that the request was denied.\" (формальный глагол)",
         "theory_block_id": "b5_theory_style_mismatch",
         "difficulty": 2,
         "correct_answer": "regret",
-        "explanation": "We regret to inform you — стандартная формальная конструкция."
+        "explanation": "Формальная конструкция: We regret to inform you..."
       }
     ]
   },
@@ -1452,7 +1452,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-24T14:40:07Z",
+    "updated_at": "2026-01-24T14:42:10Z",
     "source": "llm"
   }
 }

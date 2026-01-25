@@ -8,13 +8,13 @@
 
 ------
 
-### Section 1. First sentences: **BE** as the sentence engine (A0–A1)
+### Section 1. First sentences: BE as the sentence engine (A0–A1)
 
 1.1. Personal pronouns + am/is/are (I am, you are…)
 1.2. Statements with be: identi1ty / description / location (I’m a student. She’s at home.)
 1.3. Questions with be: Are you…? What is…? (+ short answers)
 1.4. Negatives with be: not, isn’t/aren’t
-1.5. **a/an** as “one of many”: This is a book
+1.5. a/an as “one of many”: This is a book
 1.6. This/that/these/those + here/there (pointing)
 1.7. Adjectives after be: She is tired / It is important
 1.8. Build & speak: mini-dialogues (introducing yourself + describing + clarifying)
@@ -24,21 +24,21 @@
 ### Section 2. Talking about “things”: nouns, quantity, possession (A1)
 
 2.1. Singular/plural: -s + basic irregulars (children, men…)
-2.2. **There is/are**: existence + questions + negatives
-2.3. **some/any** (starter level): there is some…, are there any…?
+2.2. There is/are: existence + questions + negatives
+2.3. some/any (starter level): there is some…, are there any…?
 2.4. Possessive adjectives: my/your/his/her/our/their
-2.5. Possessive ’s: Anna’s phone (and when **of** is better)
-2.6. Object pronouns: me/him/them (I like **him**)
+2.5. Possessive ’s: Anna’s phone (and when of is better)
+2.6. Object pronouns: me/him/them (I like him)
 2.7. How many / How much (intro)
 2.8. Build & speak: describe a room/bag/shopping list (there is/are + some/any + my)
 
 ------
 
-### Section 3. First actions: **Present Simple** (A1)
+### Section 3. First actions: Present Simple (A1)
 
-3.1. Verbs as actions: base form + **-s** (he/she/it)
+3.1. Verbs as actions: base form + -s (he/she/it)
 3.2. Present Simple statements: I work / She works
-3.3. Questions with **do/does**: Do you…? What do you…?
+3.3. Questions with do/does: Do you…? What do you…?
 3.4. Negatives: don’t/doesn’t + never (carefully)
 3.5. Word order in questions (where the subject goes)
 3.6. Frequency adverbs: always/often/sometimes/never — placement
@@ -47,7 +47,7 @@
 
 ------
 
-### Section 4. “Now”: **Present Continuous** + contrast with Present Simple (A1–A2)
+### Section 4. “Now”: Present Continuous + contrast with Present Simple (A1–A2)
 
 4.1. Form: am/is/are + V-ing (spelling rules)
 4.2. Meanings: right now / temporary / around this period
@@ -58,12 +58,12 @@
 
 ------
 
-### Section 5. Past 1: **Past Simple** (A2)
+### Section 5. Past 1: Past Simple (A2)
 
 5.1. Past of be: was/were + questions + negatives
 5.2. Regular verbs: V2 (-ed) + basic spelling/pronunciation
 5.3. Irregular verbs: how to learn/use them (not just list-memorizing)
-5.4. Questions with **did**: Did you…? Where did you…?
+5.4. Questions with did: Did you…? Where did you…?
 5.5. Negatives: didn’t + V1
 5.6. Time markers: yesterday/last…/…ago/in 2020
 5.7. Used to (past habits) as an upgrade
@@ -71,7 +71,7 @@
 
 ------
 
-### Section 6. Past 2: background & process (**Past Continuous**) (A2)
+### Section 6. Past 2: background & process (Past Continuous) (A2)
 
 6.1. Form: was/were + V-ing
 6.2. Past Simple vs Past Continuous in stories
@@ -83,10 +83,10 @@
 
 ### Section 7. Future & plans (A2)
 
-7.1. **will**: instant decisions, promises, offers, predictions
-7.2. **be going to**: intention/plan, evidence-based prediction
+7.1. will: instant decisions, promises, offers, predictions
+7.2. be going to: intention/plan, evidence-based prediction
 7.3. Present Continuous for arrangements (I’m meeting…)
-7.4. Time clauses: when/after/as soon as — **no will** in the time clause
+7.4. Time clauses: when/after/as soon as — no will in the time clause
 7.5. Build & speak: weekend plans + predictions + arrangements
 
 ------
@@ -108,7 +108,7 @@
 9.1. Countable vs uncountable (money, advice, information…)
 9.2. much/many/a lot of; few/little; a few/a little (meaning differences)
 9.3. some/any in offers/requests (Would you like some…?)
-9.4. **the**: shared knowledge / specific reference (“we both know which one”)
+9.4. the: shared knowledge / specific reference (“we both know which one”)
 9.5. Zero article: plurals/abstract nouns in general statements
 9.6. Special cases (geography, institutions, “school vs the school”)
 9.7. Agreement pain points: each/every, none, police, news, etc.
@@ -215,7 +215,7 @@
 
 ### Section 18. Information structure & style (C1)
 
-18.1. Emphasis: do-emphasis (I *do* agree)
+18.1. Emphasis: do-emphasis (I do agree)
 18.2. Inversion: Never have I…, Not only…, Hardly…when…
 18.3. Cleft sentences: It’s X that…, What I need is…
 18.4. Ellipsis/substitution: so/neither, do/does, one/ones
