@@ -9,6 +9,10 @@
       "id": { "type": "string", "pattern": "^[a-z0-9_.-]+$" },
       "section_id": { "type": "string", "pattern": "^[a-z0-9_.-]+$" },
       "title": { "type": "string", "minLength": 1 },
+      "title_translations": {
+        "type": "object",
+        "additionalProperties": { "type": "string", "minLength": 1 }
+      },
       "title_short": { "type": "string" },
       "description": { "type": "string" },
   

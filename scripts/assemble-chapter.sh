@@ -157,6 +157,7 @@ jq -s '
     id: $outline.chapter_id,
     section_id: $outline.section_id,
     title: $outline.title,
+    title_translations: (if $outline.title_translations then $outline.title_translations else {} end),
     title_short: (if $outline.title_short then $outline.title_short else $outline.title end),
     description: $outline.description,
     ui_language: $outline.ui_language,
