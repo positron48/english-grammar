@@ -564,7 +564,7 @@
       {
         "id": "q14",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"There are ___ books on the shelf.\" (твой)",
+        "prompt": "Заполните пропуск: \"There are ___ books on the shelf.\" (you)",
         "theory_block_id": "b2_theory_using_possessive_adjectives",
         "difficulty": 1,
         "correct_answer": "your",
@@ -618,7 +618,7 @@
       {
         "id": "q17",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"In ___ bag there are some keys.\" (мой)",
+        "prompt": "Заполните пропуск: \"In ___ bag there are some keys.\" (I)",
         "theory_block_id": "b2_theory_using_possessive_adjectives",
         "difficulty": 1,
         "correct_answer": "my",
@@ -671,7 +671,7 @@
       {
         "id": "q20",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"Is there ___ wallet in the bag?\" (твой)",
+        "prompt": "Заполните пропуск: \"Is there ___ wallet in the bag?\" (you)",
         "theory_block_id": "b2_theory_using_possessive_adjectives",
         "difficulty": 1,
         "correct_answer": "your",
@@ -725,7 +725,7 @@
       {
         "id": "q23",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"There is ___ cat in the garden.\" (его)",
+        "prompt": "Заполните пропуск: \"There is ___ cat in the garden.\" (he)",
         "theory_block_id": "b2_theory_using_possessive_adjectives",
         "difficulty": 1,
         "correct_answer": "his",
@@ -1100,7 +1100,7 @@
       {
         "id": "q44",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"There are ___ pens on the desk.\" (две)",
+        "prompt": "Заполните пропуск: \"There are ___ pens on the desk.\" (два)",
         "theory_block_id": "b4_theory_counting_items",
         "difficulty": 1,
         "correct_answer": "two",
@@ -1241,12 +1241,12 @@
           },
           {
             "id": "b",
-            "text": "Books desk.",
+            "text": "There is some books on the desk.",
             "feedback": "Нет, используйте полные предложения."
           },
           {
             "id": "c",
-            "text": "On the desk books.",
+            "text": "There some books on the desk.",
             "feedback": "Нет, используйте правильный порядок слов с there is/are."
           }
         ],
@@ -1294,12 +1294,12 @@
           },
           {
             "id": "b",
-            "text": "Shopping list apples bread milk.",
+            "text": "In my shopping list there is some apples, some bread, and some milk.",
             "feedback": "Нет, используйте полные предложения с there are."
           },
           {
             "id": "c",
-            "text": "There are shopping list.",
+            "text": "In my shopping list there are apple, bread and milk.",
             "feedback": "Нет, неправильный порядок слов."
           }
         ],
@@ -1366,23 +1366,11 @@
       {
         "id": "q59",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"In my room there are three chairs. There ___ one table.\" (be, ед.ч.)",
+        "prompt": "Заполните пропуск: \"In my room there are three chairs. There ___ one table.\" (be)",
         "theory_block_id": "b5_theory_building_descriptions",
         "difficulty": 2,
         "correct_answer": "is",
         "explanation": "Описание продолжается с there is для единственного числа: There is one table.",
-        "tags": [
-          "full_description"
-        ]
-      },
-      {
-        "id": "q60",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b5_theory_building_descriptions",
-        "difficulty": 3,
-        "correct_answer": "In my room there is a bed, a desk, and a chair. There are some books on the desk.",
-        "explanation": "Правильный порядок: In + притяжательное местоимение + место + there is + перечисление. Затем there are + предметы + предлог места. In my room there is a bed, a desk, and a chair. There are some books on the desk.",
         "tags": [
           "full_description"
         ]
@@ -1440,8 +1428,7 @@
       "q56",
       "q57",
       "q58",
-      "q59",
-      "q60"
+      "q59"
     ],
     "selection_strategy": {
       "type": "stratified_by_theory_block",
@@ -1456,7 +1443,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:23:59Z",
+    "updated_at": "2026-01-29T17:38:36Z",
     "source": "llm"
   }
 }
