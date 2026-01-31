@@ -192,65 +192,65 @@ if (count($errors) > 0) {
 }
 
 /**
- * Push or update file in GitHub repo via REST API
- * Returns ['ok' => bool, 'error' => string|null]
+ * Push or update file in GitHub repo via REST API.
+ * Uses shell curl (работает в pod, PHP curl даёт 403).
  */
 function pushFileToGitHub(string $token, string $owner, string $repo, string $path, string $content, string $message): array {
-    $url = "https://api.github.com/repos/{$owner}/{$repo}/contents/" . rawurlencode($path);
-    $base64 = base64_encode($content);
+    $token = trim($token);
+    $url = "https://api.github.com/repos/" . rawurlencode($owner) . "/" . rawurlencode($repo) . "/contents/" . rawurlencode($path);
 
-    $headers = [
-        'Authorization: token ' . $token,
-        'Accept: application/vnd.github.v3+json',
-        'Content-Type: application/json'
+    $body = [
+        'message' => $message,
+        'content' => base64_encode($content)
     ];
 
-    // Get existing file sha for update
     $ch = curl_init($url);
     curl_setopt_array($ch, [
         CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_HTTPHEADER => $headers,
+        CURLOPT_HTTPHEADER => [
+            'Authorization: token ' . $token,
+            'Accept: application/vnd.github.v3+json',
+            'Content-Type: application/json',
+        ],
         CURLOPT_CUSTOMREQUEST => 'GET'
     ]);
     $response = curl_exec($ch);
     $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     curl_close($ch);
 
-    $sha = null;
     if ($httpCode === 200 && $response) {
         $data = json_decode($response, true);
         if (isset($data['sha'])) {
-            $sha = $data['sha'];
+            $body['sha'] = $data['sha'];
         }
     }
 
-    $body = [
-        'message' => $message,
-        'content' => $base64
-    ];
-    if ($sha) {
-        $body['sha'] = $sha;
-    }
+    $jsonBody = json_encode($body);
+    $tmpFile = tempnam(sys_get_temp_dir(), 'git');
+    file_put_contents($tmpFile, $jsonBody);
 
-    $ch = curl_init($url);
-    curl_setopt_array($ch, [
-        CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_HTTPHEADER => $headers,
-        CURLOPT_CUSTOMREQUEST => 'PUT',
-        CURLOPT_POSTFIELDS => json_encode($body)
-    ]);
-    $response = curl_exec($ch);
-    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    $err = curl_error($ch);
-    curl_close($ch);
+    $cmd = sprintf(
+        'curl -s -w "%%{http_code}" -X PUT -H %s -H "Accept: application/vnd.github.v3+json" -H "Content-Type: application/json" -d @%s %s',
+        escapeshellarg('Authorization: token ' . $token),
+        escapeshellarg($tmpFile),
+        escapeshellarg($url)
+    );
+    $output = shell_exec($cmd);
+    @unlink($tmpFile);
+
+    if ($output === null) {
+        return ['ok' => false, 'error' => 'shell_exec failed'];
+    }
+    $httpCode = (int) substr($output, -3);
+    $responseBody = substr($output, 0, -3);
 
     if ($httpCode >= 200 && $httpCode < 300) {
         return ['ok' => true, 'error' => null];
     }
-    $errMsg = $err ?: "HTTP {$httpCode}";
+    $errMsg = "HTTP {$httpCode}";
     $detail = null;
-    if ($response) {
-        $decoded = json_decode($response, true);
+    if ($responseBody) {
+        $decoded = json_decode($responseBody, true);
         if (isset($decoded['message'])) {
             $errMsg = $decoded['message'];
         }

@@ -11,7 +11,7 @@ RUN node admin/generate-index.js && \
 # Stage 2: Runtime (nginx + php-fpm)
 FROM php:8.2-fpm-alpine
 
-RUN apk add --no-cache nginx && \
+RUN apk add --no-cache nginx curl && \
     mkdir -p /var/www/html /var/lib/nginx/tmp /run/nginx
 
 COPY --from=builder /app /var/www/html
