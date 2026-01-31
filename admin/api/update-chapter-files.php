@@ -3,12 +3,15 @@
  * API endpoint для обновления файлов главы после удаления вопросов
  * POST /admin/api/update-chapter-files.php
  * 
+ * Записывает в PVC и пушит изменения в Git через GitHub API.
+ * Требует env: GITHUB_TOKEN, GITHUB_OWNER, GITHUB_REPO
+ * 
  * Body (JSON):
  * {
  *   "chapter_id": "en.grammar.chapter_id",
- *   "questions": [...],  // обновленный массив вопросов
- *   "quizzes": {...},    // обновленные квизы
- *   "final": {...}       // обновленный final (опционально)
+ *   "questions": [...],
+ *   "quizzes": {...},
+ *   "final": {...}
  * }
  */
 
@@ -124,19 +127,96 @@ if (isset($data['final'])) {
     }
 }
 
+// Push to Git via GitHub API (если токен настроен)
+$pushedToGit = [];
+if (count($errors) === 0 && !empty($updated)) {
+    $token = getenv('GITHUB_TOKEN');
+    $owner = getenv('GITHUB_OWNER');
+    $repo = getenv('GITHUB_REPO');
+    if ($token && $owner && $repo) {
+        $folderName = basename($chapterDir);
+        foreach ($updated as $filename) {
+            $filePath = "chapters/{$folderName}/{$filename}";
+            $fullPath = $chapterDir . '/' . $filename;
+            if (file_exists($fullPath)) {
+                $content = file_get_contents($fullPath);
+                if (pushFileToGitHub($token, $owner, $repo, $filePath, $content, "Update {$filename} via admin")) {
+                    $pushedToGit[] = $filePath;
+                }
+            }
+        }
+    }
+}
+
 if (count($errors) > 0) {
     http_response_code(500);
     echo json_encode([
         'success' => false,
         'errors' => $errors,
-        'updated' => $updated
+        'updated' => $updated,
+        'pushed_to_git' => $pushedToGit
     ]);
 } else {
     http_response_code(200);
     echo json_encode([
         'success' => true,
         'updated' => $updated,
+        'pushed_to_git' => $pushedToGit,
         'message' => 'Files updated successfully'
     ]);
+}
+
+/**
+ * Push or update file in GitHub repo via REST API
+ */
+function pushFileToGitHub(string $token, string $owner, string $repo, string $path, string $content, string $message): bool {
+    $url = "https://api.github.com/repos/{$owner}/{$repo}/contents/" . rawurlencode($path);
+    $base64 = base64_encode($content);
+
+    $ch = curl_init($url);
+    $headers = [
+        'Authorization: token ' . $token,
+        'Accept: application/vnd.github.v3+json',
+        'Content-Type: application/json'
+    ];
+
+    // Get existing file sha for update
+    curl_setopt_array($ch, [
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_HTTPHEADER => $headers,
+        CURLOPT_CUSTOMREQUEST => 'GET'
+    ]);
+    $response = curl_exec($ch);
+    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    $sha = null;
+    if ($httpCode === 200 && $response) {
+        $data = json_decode($response, true);
+        if (isset($data['sha'])) {
+            $sha = $data['sha'];
+        }
+    }
+
+    $body = [
+        'message' => $message,
+        'content' => $base64
+    ];
+    if ($sha) {
+        $body['sha'] = $sha;
+    }
+
+    $ch = curl_init($url);
+    curl_setopt_array($ch, [
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_HTTPHEADER => array_merge($headers, ['Content-Type: application/json']),
+        CURLOPT_CUSTOMREQUEST => 'PUT',
+        CURLOPT_POSTFIELDS => json_encode($body)
+    ]);
+    $response = curl_exec($ch);
+    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    return $httpCode >= 200 && $httpCode < 300;
 }
 ?>
