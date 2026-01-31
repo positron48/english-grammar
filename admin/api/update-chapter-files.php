@@ -129,51 +129,70 @@ if (isset($data['final'])) {
 
 // Push to Git via GitHub API (если токен настроен)
 $pushedToGit = [];
+$gitDebug = null;
 if (count($errors) === 0 && !empty($updated)) {
     $token = getenv('GITHUB_TOKEN');
     $owner = getenv('GITHUB_OWNER');
     $repo = getenv('GITHUB_REPO');
-    if ($token && $owner && $repo) {
+    if (!$token || !$owner || !$repo) {
+        $missing = array_filter([
+            !$token ? 'GITHUB_TOKEN' : null,
+            !$owner ? 'GITHUB_OWNER' : null,
+            !$repo ? 'GITHUB_REPO' : null,
+        ]);
+        $gitDebug = ['skipped' => 'env missing: ' . implode(', ', $missing)];
+    } else {
         $folderName = basename($chapterDir);
+        $pushErrors = [];
         foreach ($updated as $filename) {
             $filePath = "chapters/{$folderName}/{$filename}";
             $fullPath = $chapterDir . '/' . $filename;
             if (file_exists($fullPath)) {
                 $content = file_get_contents($fullPath);
-                if (pushFileToGitHub($token, $owner, $repo, $filePath, $content, "Update {$filename} via admin")) {
+                $result = pushFileToGitHub($token, $owner, $repo, $filePath, $content, "Update {$filename} via admin");
+                if ($result['ok']) {
                     $pushedToGit[] = $filePath;
+                } else {
+                    $pushErrors[] = $filePath . ': ' . $result['error'];
                 }
             }
+        }
+        if (!empty($pushErrors)) {
+            $gitDebug = ['errors' => $pushErrors];
         }
     }
 }
 
 if (count($errors) > 0) {
     http_response_code(500);
-    echo json_encode([
+    $resp = [
         'success' => false,
         'errors' => $errors,
         'updated' => $updated,
         'pushed_to_git' => $pushedToGit
-    ]);
+    ];
+    if ($gitDebug) $resp['git_debug'] = $gitDebug;
+    echo json_encode($resp);
 } else {
     http_response_code(200);
-    echo json_encode([
+    $resp = [
         'success' => true,
         'updated' => $updated,
         'pushed_to_git' => $pushedToGit,
         'message' => 'Files updated successfully'
-    ]);
+    ];
+    if ($gitDebug) $resp['git_debug'] = $gitDebug;
+    echo json_encode($resp);
 }
 
 /**
  * Push or update file in GitHub repo via REST API
+ * Returns ['ok' => bool, 'error' => string|null]
  */
-function pushFileToGitHub(string $token, string $owner, string $repo, string $path, string $content, string $message): bool {
+function pushFileToGitHub(string $token, string $owner, string $repo, string $path, string $content, string $message): array {
     $url = "https://api.github.com/repos/{$owner}/{$repo}/contents/" . rawurlencode($path);
     $base64 = base64_encode($content);
 
-    $ch = curl_init($url);
     $headers = [
         'Authorization: token ' . $token,
         'Accept: application/vnd.github.v3+json',
@@ -181,6 +200,7 @@ function pushFileToGitHub(string $token, string $owner, string $repo, string $pa
     ];
 
     // Get existing file sha for update
+    $ch = curl_init($url);
     curl_setopt_array($ch, [
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_HTTPHEADER => $headers,
@@ -209,14 +229,25 @@ function pushFileToGitHub(string $token, string $owner, string $repo, string $pa
     $ch = curl_init($url);
     curl_setopt_array($ch, [
         CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_HTTPHEADER => array_merge($headers, ['Content-Type: application/json']),
+        CURLOPT_HTTPHEADER => $headers,
         CURLOPT_CUSTOMREQUEST => 'PUT',
         CURLOPT_POSTFIELDS => json_encode($body)
     ]);
     $response = curl_exec($ch);
     $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    $err = curl_error($ch);
     curl_close($ch);
 
-    return $httpCode >= 200 && $httpCode < 300;
+    if ($httpCode >= 200 && $httpCode < 300) {
+        return ['ok' => true, 'error' => null];
+    }
+    $errMsg = $err ?: "HTTP {$httpCode}";
+    if ($response) {
+        $decoded = json_decode($response, true);
+        if (isset($decoded['message'])) {
+            $errMsg = $decoded['message'];
+        }
+    }
+    return ['ok' => false, 'error' => $errMsg];
 }
 ?>
