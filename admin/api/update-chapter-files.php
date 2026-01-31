@@ -129,7 +129,11 @@ if (isset($data['final'])) {
 
 // Push to Git via GitHub API (если токен настроен)
 $pushedToGit = [];
-$gitDebug = null;
+$gitDebug = ['env' => [
+    'owner' => getenv('GITHUB_OWNER') ?: '(empty)',
+    'repo' => getenv('GITHUB_REPO') ?: '(empty)',
+    'token' => getenv('GITHUB_TOKEN') ? '***set***' : '(empty)',
+]];
 if (count($errors) === 0 && !empty($updated)) {
     $token = getenv('GITHUB_TOKEN');
     $owner = getenv('GITHUB_OWNER');
@@ -140,7 +144,7 @@ if (count($errors) === 0 && !empty($updated)) {
             !$owner ? 'GITHUB_OWNER' : null,
             !$repo ? 'GITHUB_REPO' : null,
         ]);
-        $gitDebug = ['skipped' => 'env missing: ' . implode(', ', $missing)];
+        $gitDebug['skipped'] = 'env missing: ' . implode(', ', $missing);
     } else {
         $folderName = basename($chapterDir);
         $pushErrors = [];
@@ -158,31 +162,29 @@ if (count($errors) === 0 && !empty($updated)) {
             }
         }
         if (!empty($pushErrors)) {
-            $gitDebug = ['errors' => $pushErrors];
+            $gitDebug['errors'] = $pushErrors;
         }
     }
 }
 
 if (count($errors) > 0) {
     http_response_code(500);
-    $resp = [
+    echo json_encode([
         'success' => false,
         'errors' => $errors,
         'updated' => $updated,
-        'pushed_to_git' => $pushedToGit
-    ];
-    if ($gitDebug) $resp['git_debug'] = $gitDebug;
-    echo json_encode($resp);
+        'pushed_to_git' => $pushedToGit,
+        'git_debug' => $gitDebug
+    ]);
 } else {
     http_response_code(200);
-    $resp = [
+    echo json_encode([
         'success' => true,
         'updated' => $updated,
         'pushed_to_git' => $pushedToGit,
+        'git_debug' => $gitDebug,
         'message' => 'Files updated successfully'
-    ];
-    if ($gitDebug) $resp['git_debug'] = $gitDebug;
-    echo json_encode($resp);
+    ]);
 }
 
 /**
