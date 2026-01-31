@@ -120,17 +120,17 @@
       "choices": [
         {
           "id": "a",
-          "text": "works",
+          "text": "works => work",
           "feedback": "Правильно! Для I используется базовая форма 'work', а не 'works'"
         },
         {
           "id": "b",
-          "text": "every day",
+          "text": "every day => everyday",
           "feedback": "Нет, 'every day' здесь правильно"
         },
         {
           "id": "c",
-          "text": "I",
+          "text": "I => Me",
           "feedback": "Нет, 'I' здесь правильно"
         }
       ],
@@ -202,17 +202,17 @@
       "choices": [
         {
           "id": "a",
-          "text": "goes",
+          "text": "goes => go",
           "feedback": "Правильно! Для we используется базовая форма 'go', а не 'goes'"
         },
         {
           "id": "b",
-          "text": "to school",
+          "text": "to school => in school",
           "feedback": "Нет, 'to school' здесь правильно"
         },
         {
           "id": "c",
-          "text": "We",
+          "text": "We => I",
           "feedback": "Нет, 'We' здесь правильно"
         }
       ],
@@ -500,7 +500,7 @@
     {
       "id": "q26",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"He ___ in a hospital.\" (work)",
+      "prompt": "Заполните пропуск: \"He ___ in a hospital.\" (работать)",
       "theory_block_id": "b3_theory_third_person_s",
       "difficulty": 1,
       "correct_answer": "works",
@@ -512,7 +512,7 @@
     {
       "id": "q27",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"She ___ the piano every day.\" (play)",
+      "prompt": "Заполните пропуск: \"She ___ the piano every day.\" (играть)",
       "theory_block_id": "b3_theory_third_person_s",
       "difficulty": 1,
       "correct_answer": "plays",
@@ -551,38 +551,9 @@
       ]
     },
     {
-      "id": "q30",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении: \"He work every day.\"",
-      "theory_block_id": "b3_theory_third_person_s",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "work",
-          "feedback": "Правильно! Для he нужно 'works' с окончанием -s"
-        },
-        {
-          "id": "b",
-          "text": "every day",
-          "feedback": "Нет, 'every day' здесь правильно"
-        },
-        {
-          "id": "c",
-          "text": "He",
-          "feedback": "Нет, 'He' здесь правильно"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка в слове 'work'. Для he нужно использовать форму 'works' с окончанием -s.",
-      "tags": [
-        "error"
-      ]
-    },
-    {
       "id": "q31",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"My cat ___ all day.\" (sleep)",
+      "prompt": "Заполните пропуск: \"My cat ___ all day.\" (спать)",
       "theory_block_id": "b3_theory_third_person_s",
       "difficulty": 2,
       "correct_answer": "sleeps",
@@ -769,17 +740,17 @@
       "choices": [
         {
           "id": "a",
-          "text": "go",
+          "text": "go => goes",
           "feedback": "Правильно! Глагол 'go' на -o требует 'goes' с -es"
         },
         {
           "id": "b",
-          "text": "to school",
+          "text": "to school => in school",
           "feedback": "Нет, 'to school' здесь правильно"
         },
         {
           "id": "c",
-          "text": "She",
+          "text": "She => He",
           "feedback": "Нет, 'She' здесь правильно"
         }
       ],
@@ -914,17 +885,17 @@
       "choices": [
         {
           "id": "a",
-          "text": "watchs",
+          "text": "watchs => watches",
           "feedback": "Правильно! Глагол 'watch' на -ch требует 'watches' с -es, а не 'watchs'"
         },
         {
           "id": "b",
-          "text": "movies",
+          "text": "watchs => watch",
           "feedback": "Нет, 'movies' здесь правильно"
         },
         {
           "id": "c",
-          "text": "She",
+          "text": "watchs => watchis",
           "feedback": "Нет, 'She' здесь правильно"
         }
       ],
@@ -999,17 +970,17 @@
       "choices": [
         {
           "id": "a",
-          "text": "flys",
+          "text": "flys => flies",
           "feedback": "Правильно! Глагол 'fly' на согласная + -y требует 'flies' с -ies"
         },
         {
           "id": "b",
-          "text": "to London",
+          "text": "flys => fly",
           "feedback": "Нет, 'to London' здесь правильно"
         },
         {
           "id": "c",
-          "text": "He",
+          "text": "flys => flyis",
           "feedback": "Нет, 'He' здесь правильно"
         }
       ],
@@ -1092,66 +1063,6 @@
       ]
     },
     {
-      "id": "q57",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении: \"Tom work in an office.\"",
-      "theory_block_id": "b5_theory_contrast_forms",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "work",
-          "feedback": "Правильно! 'Tom' — третье лицо единственного числа, нужно 'works' с -s"
-        },
-        {
-          "id": "b",
-          "text": "in an office",
-          "feedback": "Нет, 'in an office' здесь правильно"
-        },
-        {
-          "id": "c",
-          "text": "Tom",
-          "feedback": "Нет, 'Tom' здесь правильно"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка в слове 'work'. 'Tom' — это существительное в единственном числе (третье лицо единственного числа), поэтому нужно использовать 'works' с окончанием -s.",
-      "tags": [
-        "error",
-        "nouns"
-      ]
-    },
-    {
-      "id": "q58",
-      "type": "mcq_single",
-      "prompt": "В предложении \"My friends play football\" почему используется базовая форма 'play'?",
-      "theory_block_id": "b5_theory_contrast_forms",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Потому что 'friends' — множественное число",
-          "feedback": "Правильно! Существительные во множественном числе требуют базовую форму"
-        },
-        {
-          "id": "b",
-          "text": "Потому что это прошедшее время",
-          "feedback": "Нет, это настоящее время"
-        },
-        {
-          "id": "c",
-          "text": "Потому что это вопрос",
-          "feedback": "Нет, это утверждение"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Базовая форма 'play' используется потому, что 'friends' (друзья) — это существительное во множественном числе. Для множественного числа используется базовая форма глагола.",
-      "tags": [
-        "concept",
-        "plural"
-      ]
-    },
-    {
       "id": "q59",
       "type": "true_false",
       "prompt": "Существительные в единственном числе всегда требуют форму глагола с -s.",
@@ -1176,36 +1087,6 @@
       ]
     },
     {
-      "id": "q61",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении: \"My friends plays football.\"",
-      "theory_block_id": "b5_theory_contrast_forms",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "plays",
-          "feedback": "Правильно! 'friends' — множественное число, нужно 'play' без -s"
-        },
-        {
-          "id": "b",
-          "text": "football",
-          "feedback": "Нет, 'football' здесь правильно"
-        },
-        {
-          "id": "c",
-          "text": "My",
-          "feedback": "Нет, 'My' здесь правильно"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка в слове 'plays'. 'Friends' — это существительное во множественном числе, поэтому нужно использовать базовую форму 'play' без -s.",
-      "tags": [
-        "error",
-        "plural"
-      ]
-    },
-    {
       "id": "q62",
       "type": "mcq_single",
       "prompt": "Какое предложение правильно показывает форму глагола для множественного числа?",
@@ -1214,7 +1095,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "The books are interesting.",
+          "text": "The books is interesting.",
           "feedback": "Правильно, но здесь глагол-связка 'are'. Нужно предложение с глаголом-действием."
         },
         {
@@ -1274,36 +1155,6 @@
       "explanation": "Правильный ответ: 'work, works'. Для I используется базовая форма 'work', а для 'Tom' (третье лицо единственного числа) — форма с -s 'works'.",
       "tags": [
         "contrast"
-      ]
-    },
-    {
-      "id": "q65",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении: \"Mary and Tom works together.\"",
-      "theory_block_id": "b5_theory_contrast_forms",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "works",
-          "feedback": "Правильно! 'Mary and Tom' — это множественное число (они), нужно 'work' без -s"
-        },
-        {
-          "id": "b",
-          "text": "together",
-          "feedback": "Нет, 'together' здесь правильно"
-        },
-        {
-          "id": "c",
-          "text": "and",
-          "feedback": "Нет, 'and' здесь правильно"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка в слове 'works'. 'Mary and Tom' означает 'они' (множественное число), поэтому нужно использовать базовую форму 'work' без -s.",
-      "tags": [
-        "error",
-        "plural"
       ]
     },
     {

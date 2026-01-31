@@ -287,8 +287,7 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q43",
-          "q44"
+          "q43"
         ],
         "show_answers_immediately": true
       }
@@ -612,25 +611,13 @@
       {
         "id": "q12",
         "type": "true_false",
-        "prompt": "В предложении \"They play football every weekend\" глагол 'play' имеет окончание -s.",
+        "prompt": "В предложении \"They play football every weekend\" глагол 'play' должен иметь окончание -s.",
         "theory_block_id": "b1_theory_statements_intro",
         "difficulty": 1,
         "correct_answer": "false",
         "explanation": "Неверно. Для they используется базовая форма глагола 'play' без окончания -s. Окончание -s добавляется только для he/she/it.",
         "tags": [
           "base_form"
-        ]
-      },
-      {
-        "id": "q13",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"Water ___ at 100°C.\" (кипеть)",
-        "theory_block_id": "b1_theory_statements_intro",
-        "difficulty": 2,
-        "correct_answer": "boils",
-        "explanation": "Правильный ответ: 'boils'. Здесь 'water' — это третье лицо единственного числа, поэтому к глаголу 'boil' добавляется окончание -s.",
-        "tags": [
-          "general_truth"
         ]
       },
       {
@@ -790,35 +777,6 @@
         "explanation": "Неверно. Для I/you/we/they глагол остается в базовой форме независимо от того, единственное это или множественное число. Глагол не изменяется.",
         "tags": [
           "concept"
-        ]
-      },
-      {
-        "id": "q25",
-        "type": "mcq_single",
-        "prompt": "В предложении \"You study English\" какой тип формы глагола используется?",
-        "theory_block_id": "b2_theory_first_second_person",
-        "difficulty": 1,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Базовая форма",
-            "feedback": "Правильно! Для you используется базовая форма 'study'"
-          },
-          {
-            "id": "b",
-            "text": "Форма с -s",
-            "feedback": "Нет, форма с -s используется только для he/she/it"
-          },
-          {
-            "id": "c",
-            "text": "Форма с -ed",
-            "feedback": "Нет, это форма прошедшего времени"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "В предложении 'You study English' используется базовая форма глагола 'study'. Для второго лица (you) глагол остается в базовой форме.",
-        "tags": [
-          "identification"
         ]
       },
       {
@@ -999,35 +957,6 @@
         ]
       },
       {
-        "id": "q37",
-        "type": "mcq_single",
-        "prompt": "В предложении \"My sister lives in Paris\" почему используется форма 'lives'?",
-        "theory_block_id": "b3_theory_third_person_s",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Потому что 'my sister' — это третье лицо единственного числа",
-            "feedback": "Правильно! Существительные в единственном числе требуют форму с -s"
-          },
-          {
-            "id": "b",
-            "text": "Потому что это прошедшее время",
-            "feedback": "Нет, это настоящее время"
-          },
-          {
-            "id": "c",
-            "text": "Потому что это множественное число",
-            "feedback": "Нет, 'sister' — это единственное число"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Форма 'lives' используется потому, что 'my sister' — это третье лицо единственного числа. Существительные в единственном числе требуют форму глагола с окончанием -s.",
-        "tags": [
-          "concept"
-        ]
-      },
-      {
         "id": "q38",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"My cat ___ all day.\" (спать)",
@@ -1150,30 +1079,6 @@
         "explanation": "Структура полного утверждения в Present Simple: Subject (подлежащее) + Verb (глагол) + Object (объект) + (Adverbial) (обстоятельство).",
         "tags": [
           "structure"
-        ]
-      },
-      {
-        "id": "q44",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I read ___ every evening.\" (книги)",
-        "theory_block_id": "b4_theory_full_sentences",
-        "difficulty": 1,
-        "correct_answer": "books",
-        "explanation": "Правильный ответ: 'books'. В полном утверждении объект 'books' указывает на то, на что направлено действие (читать что? — книги).",
-        "tags": [
-          "object"
-        ]
-      },
-      {
-        "id": "q45",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"She teaches ___ at school.\" (английский)",
-        "theory_block_id": "b4_theory_full_sentences",
-        "difficulty": 1,
-        "correct_answer": "English",
-        "explanation": "Правильный ответ: 'English'. В полном утверждении объект 'English' указывает на то, что преподается (преподавать что? — английский).",
-        "tags": [
-          "object"
         ]
       },
       {
@@ -1341,35 +1246,6 @@
         ]
       },
       {
-        "id": "q54",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении: \"They play in the park football.\"",
-        "theory_block_id": "b4_theory_full_sentences",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "in the park football",
-            "feedback": "Правильно! Объект 'football' должен стоять сразу после глагола, а не после обстоятельства. Правильно: 'They play football in the park'"
-          },
-          {
-            "id": "b",
-            "text": "play",
-            "feedback": "Нет, 'play' здесь правильно"
-          },
-          {
-            "id": "c",
-            "text": "They",
-            "feedback": "Нет, 'They' здесь правильно"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка в порядке слов. Объект 'football' должен стоять сразу после глагола 'play', а обстоятельство 'in the park' — после объекта. Правильно: 'They play football in the park'.",
-        "tags": [
-          "word_order"
-        ]
-      },
-      {
         "id": "q55",
         "type": "true_false",
         "prompt": "Объект в утверждении указывает на то, на что направлено действие.",
@@ -1530,35 +1406,6 @@
         ]
       },
       {
-        "id": "q65",
-        "type": "mcq_single",
-        "prompt": "В предложении \"He has two brothers\" почему используется форма 'has'?",
-        "theory_block_id": "b5_theory_common_verbs",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Потому что глагол 'have' имеет особую форму 'has' для he/she/it",
-            "feedback": "Правильно! 'has' — это особая форма глагола 'have' для третьего лица единственного числа"
-          },
-          {
-            "id": "b",
-            "text": "Потому что это прошедшее время",
-            "feedback": "Нет, это настоящее время"
-          },
-          {
-            "id": "c",
-            "text": "Потому что это множественное число",
-            "feedback": "Нет, 'brothers' — это множественное число, но 'He' — единственное"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Форма 'has' используется потому, что глагол 'have' имеет особую форму 'has' для третьего лица единственного числа (he/she/it). Это исключение из общего правила.",
-        "tags": [
-          "have"
-        ]
-      },
-      {
         "id": "q66",
         "type": "true_false",
         "prompt": "Глагол 'like' имеет особую форму для he/she/it, как и глагол 'have'.",
@@ -1616,6 +1463,8 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
       "q5",
@@ -1625,29 +1474,30 @@
       "q10",
       "q11",
       "q12",
-      "q13",
       "q14",
+      "q15",
+      "q16",
       "q17",
       "q18",
       "q19",
       "q21",
       "q23",
       "q24",
-      "q25",
       "q26",
       "q27",
       "q28",
+      "q29",
+      "q30",
       "q31",
       "q32",
       "q34",
       "q36",
-      "q37",
       "q38",
       "q39",
       "q40",
       "q41",
       "q42",
-      "q45",
+      "q43",
       "q46",
       "q47",
       "q48",
@@ -1656,15 +1506,15 @@
       "q51",
       "q52",
       "q53",
-      "q54",
       "q55",
+      "q56",
+      "q58",
       "q59",
       "q60",
       "q61",
       "q62",
       "q63",
       "q64",
-      "q65",
       "q66",
       "q67",
       "q68"
@@ -1682,7 +1532,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:24:00Z",
+    "updated_at": "2026-01-29T18:30:50Z",
     "source": "llm"
   }
 }
