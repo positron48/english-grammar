@@ -157,7 +157,11 @@ if (count($errors) === 0 && !empty($updated)) {
                 if ($result['ok']) {
                     $pushedToGit[] = $filePath;
                 } else {
-                    $pushErrors[] = $filePath . ': ' . $result['error'];
+                    $err = $filePath . ': ' . $result['error'];
+                    if (!empty($result['detail'])) {
+                        $err .= ' | ' . json_encode($result['detail']);
+                    }
+                    $pushErrors[] = $err;
                 }
             }
         }
@@ -244,12 +248,16 @@ function pushFileToGitHub(string $token, string $owner, string $repo, string $pa
         return ['ok' => true, 'error' => null];
     }
     $errMsg = $err ?: "HTTP {$httpCode}";
+    $detail = null;
     if ($response) {
         $decoded = json_decode($response, true);
         if (isset($decoded['message'])) {
             $errMsg = $decoded['message'];
         }
+        if ($httpCode === 403 && $decoded) {
+            $detail = $decoded;
+        }
     }
-    return ['ok' => false, 'error' => $errMsg];
+    return ['ok' => false, 'error' => $errMsg, 'detail' => $detail];
 }
 ?>
