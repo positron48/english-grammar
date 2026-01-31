@@ -204,21 +204,13 @@ function pushFileToGitHub(string $token, string $owner, string $repo, string $pa
         'content' => base64_encode($content)
     ];
 
-    $ch = curl_init($url);
-    curl_setopt_array($ch, [
-        CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_HTTPHEADER => [
-            'Authorization: token ' . $token,
-            'Accept: application/vnd.github.v3+json',
-            'Content-Type: application/json',
-        ],
-        CURLOPT_CUSTOMREQUEST => 'GET'
-    ]);
-    $response = curl_exec($ch);
-    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    curl_close($ch);
-
-    if ($httpCode === 200 && $response) {
+    $getCmd = sprintf(
+        'curl -s -H %s -H "Accept: application/vnd.github.v3+json" %s',
+        escapeshellarg('Authorization: token ' . $token),
+        escapeshellarg($url)
+    );
+    $response = shell_exec($getCmd);
+    if ($response) {
         $data = json_decode($response, true);
         if (isset($data['sha'])) {
             $body['sha'] = $data['sha'];
