@@ -405,31 +405,6 @@
         ]
       },
       {
-        "id": "q6",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**I wake up at 7, then I am having breakfast.**",
-        "theory_block_id": "b1_theory_describing_morning_routine",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I wake up at 7, then I have breakfast.",
-            "feedback": "Правильно! Для рутины используется Present Simple"
-          },
-          {
-            "id": "b",
-            "text": "I wake up at 7, then I have breakfast at 8.",
-            "feedback": "Это тоже правильно, но не исправляет ошибку"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: для описания рутины используется Present Simple, а не Present Continuous. Правильно: I have breakfast.",
-        "tags": [
-          "morning",
-          "error"
-        ]
-      },
-      {
         "id": "q7",
         "type": "mcq_single",
         "prompt": "Как правильно сказать о времени подъема?",
@@ -529,31 +504,6 @@
         ]
       },
       {
-        "id": "q12",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**She wake up at 7.**",
-        "theory_block_id": "b1_theory_describing_morning_routine",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "She wakes up at 7.",
-            "feedback": "Правильно! С he/she/it используется -s/-es"
-          },
-          {
-            "id": "b",
-            "text": "She wake up at 7 every day.",
-            "feedback": "Нет, все равно нужно wakes"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: с he/she/it глагол должен иметь окончание -s/-es. Правильно: She wakes up at 7.",
-        "tags": [
-          "morning",
-          "error"
-        ]
-      },
-      {
         "id": "q13",
         "type": "mcq_single",
         "prompt": "Как правильно описать последовательность утренних действий?",
@@ -586,7 +536,7 @@
       {
         "id": "q14",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I ___ up, then I ___ coffee.\" (просыпаться, пить)",
+        "prompt": "Заполните пропуск: \"I ___ up, then I drink coffee.\" (просыпаться)",
         "theory_block_id": "b1_theory_describing_morning_routine",
         "difficulty": 2,
         "correct_answer": "wake",
@@ -696,31 +646,6 @@
         ]
       },
       {
-        "id": "q20",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**He work from Monday to Friday.**",
-        "theory_block_id": "b2_theory_describing_daily_activities",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "He works from Monday to Friday.",
-            "feedback": "Правильно! С he используется -s/-es"
-          },
-          {
-            "id": "b",
-            "text": "He work from Monday to Friday every week.",
-            "feedback": "Нет, все равно нужно works"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: с he/she/it глагол должен иметь окончание -s/-es. Правильно: He works from Monday to Friday.",
-        "tags": [
-          "work",
-          "error"
-        ]
-      },
-      {
         "id": "q21",
         "type": "mcq_single",
         "prompt": "Как правильно описать учебу?",
@@ -791,44 +716,6 @@
         "tags": [
           "go",
           "cinema"
-        ]
-      },
-      {
-        "id": "q25",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b2_theory_describing_daily_activities",
-        "difficulty": 3,
-        "correct_answer": "I exercise, study, and work every day.",
-        "explanation": "Правильный порядок: Подлежащее + глаголы через запятую + and + последний глагол + частота. I exercise, study, and work every day.",
-        "tags": [
-          "exercise",
-          "sequence"
-        ]
-      },
-      {
-        "id": "q26",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**She study every day.**",
-        "theory_block_id": "b2_theory_describing_daily_activities",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "She studies every day.",
-            "feedback": "Правильно! С he/she/it используется -s/-es"
-          },
-          {
-            "id": "b",
-            "text": "She study every day at home.",
-            "feedback": "Нет, все равно нужно studies"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: с he/she/it глагол должен иметь окончание -s/-es. Правильно: She studies every day.",
-        "tags": [
-          "study",
-          "error"
         ]
       },
       {
@@ -945,44 +832,6 @@
         "tags": [
           "frequency",
           "never"
-        ]
-      },
-      {
-        "id": "q33",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b3_theory_using_frequency_adverbs",
-        "difficulty": 3,
-        "correct_answer": "I always have coffee, sometimes eat pizza, and never drink alcohol.",
-        "explanation": "Правильный порядок: Подлежащее + наречие + глагол + дополнение. I always have coffee, sometimes eat pizza, and never drink alcohol.",
-        "tags": [
-          "frequency",
-          "sequence"
-        ]
-      },
-      {
-        "id": "q34",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**I go always to the gym.**",
-        "theory_block_id": "b3_theory_using_frequency_adverbs",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I always go to the gym.",
-            "feedback": "Правильно! Наречие перед глаголом"
-          },
-          {
-            "id": "b",
-            "text": "I always go to the gym twice a week.",
-            "feedback": "Это тоже правильно, но не исправляет ошибку"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: наречие частоты должно стоять перед основным глаголом. Правильно: I always go to the gym.",
-        "tags": [
-          "frequency",
-          "error"
         ]
       },
       {
@@ -1754,32 +1603,31 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
       "q5",
-      "q6",
       "q7",
       "q8",
       "q9",
       "q10",
       "q11",
-      "q12",
       "q13",
       "q14",
+      "q15",
+      "q16",
       "q17",
       "q18",
       "q19",
-      "q20",
       "q21",
       "q23",
       "q24",
-      "q25",
-      "q26",
       "q27",
       "q28",
+      "q29",
+      "q31",
       "q32",
-      "q33",
-      "q34",
       "q35",
       "q36",
       "q37",
@@ -1788,6 +1636,8 @@
       "q40",
       "q41",
       "q42",
+      "q43",
+      "q44",
       "q45",
       "q46",
       "q47",
@@ -1800,6 +1650,8 @@
       "q54",
       "q55",
       "q56",
+      "q57",
+      "q58",
       "q59",
       "q60",
       "q61",
@@ -1826,7 +1678,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:24:01Z",
+    "updated_at": "2026-02-01T16:59:57Z",
     "source": "llm"
   }
 }
