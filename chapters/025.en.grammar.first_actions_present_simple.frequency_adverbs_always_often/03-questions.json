@@ -149,32 +149,6 @@
       ]
     },
     {
-      "id": "q7",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\\n\\n**I go always to work.**",
-      "theory_block_id": "b1_theory_frequency_adverbs_basics",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I always go to work.",
-          "feedback": "Правильно! Наречие частоты должно быть перед глаголом"
-        },
-        {
-          "id": "b",
-          "text": "I go always to work",
-          "feedback": "Нет, это неправильная позиция наречия"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: наречие частоты должно быть перед глаголом. Правильно: I always go to work.",
-      "tags": [
-        "basics",
-        "error",
-        "placement"
-      ]
-    },
-    {
       "id": "q8",
       "type": "mcq_single",
       "prompt": "Где должно стоять наречие частоты с обычными глаголами?",
@@ -305,32 +279,6 @@
       ]
     },
     {
-      "id": "q15",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\\n\\n**I go often to the gym.**",
-      "theory_block_id": "b2_theory_placement_with_ordinary_verbs",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I often go to the gym.",
-          "feedback": "Правильно! Наречие должно быть перед глаголом"
-        },
-        {
-          "id": "b",
-          "text": "I go often to the gym",
-          "feedback": "Нет, это неправильная позиция"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: наречие частоты должно быть перед глаголом, а не после. Правильно: I often go to the gym.",
-      "tags": [
-        "placement",
-        "error",
-        "ordinary_verbs"
-      ]
-    },
-    {
       "id": "q16",
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант:",
@@ -453,7 +401,7 @@
     {
       "id": "q20",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"I ___ always on time.\" (глагол be)",
+      "prompt": "Заполните пропуск: \"I ___ always on time.\" (be)",
       "theory_block_id": "b3_theory_placement_with_be",
       "difficulty": 2,
       "correct_answer": "am",
@@ -467,7 +415,7 @@
     {
       "id": "q21",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"She ___ often busy.\" (глагол be)",
+      "prompt": "Заполните пропуск: \"She ___ often busy.\" (be)",
       "theory_block_id": "b3_theory_placement_with_be",
       "difficulty": 2,
       "correct_answer": "is",
@@ -481,7 +429,7 @@
     {
       "id": "q22",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"They ___ sometimes late.\" (глагол be)",
+      "prompt": "Заполните пропуск: \"They ___ sometimes late.\" (be)",
       "theory_block_id": "b3_theory_placement_with_be",
       "difficulty": 2,
       "correct_answer": "are",
@@ -669,34 +617,9 @@
       ]
     },
     {
-      "id": "q31",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\\n\\n**I don't go often there.**",
-      "theory_block_id": "b4_theory_adverbs_in_negatives_questions",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I don't often go there.",
-          "feedback": "Правильно! Наречие между don't и глаголом"
-        },
-        {
-          "id": "b",
-          "text": "I don't go often there",
-          "feedback": "Нет, неправильная позиция наречия"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: в отрицаниях наречие должно быть между don't/doesn't и глаголом. Правильно: I don't often go there.",
-      "tags": [
-        "negatives",
-        "error"
-      ]
-    },
-    {
       "id": "q32",
       "type": "mcq_single",
-      "prompt": "Какая типичная ошибка в предложении \"He eats often breakfast\"?",
+      "prompt": "Выберите правильный вариант:",
       "theory_block_id": "b5_theory_common_mistakes_placement",
       "difficulty": 2,
       "choices": [
@@ -786,7 +709,7 @@
     {
       "id": "q36",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку и выберите исправленное предложение: \"She always is late for class.\"",
+      "prompt": "Выберите правильный вариант:",
       "theory_block_id": "b5_theory_common_mistakes_placement",
       "difficulty": 2,
       "choices": [
@@ -810,7 +733,7 @@
     {
       "id": "q37",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**I don't go usually there.**",
+      "prompt": "Выберите правильный вариант:",
       "theory_block_id": "b5_theory_common_mistakes_placement",
       "difficulty": 2,
       "choices": [
@@ -841,7 +764,7 @@
     {
       "id": "q38",
       "type": "mcq_single",
-      "prompt": "Какая типичная ошибка в предложении \"They are always not happy.\"?",
+      "prompt": "Выберите правильный вариант:",
       "theory_block_id": "b5_theory_common_mistakes_placement",
       "difficulty": 2,
       "choices": [
