@@ -1166,35 +1166,6 @@
         ]
       },
       {
-        "id": "q60",
-        "type": "mcq_single",
-        "prompt": "Какой вопрос построен по алгоритму Do/Does + КТО + ЧТО ДЕЛАЕТ?",
-        "theory_block_id": "b5_theory_practice_tips",
-        "difficulty": 1,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Do I need more?",
-            "feedback": "Правильно! Это правильный алгоритм"
-          },
-          {
-            "id": "b",
-            "text": "I do need more?",
-            "feedback": "Нет, неправильный порядок"
-          },
-          {
-            "id": "c",
-            "text": "Do need I more?",
-            "feedback": "Нет, это неправильный алгоритм"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Алгоритм построения вопроса: Do/Does + Подлежащее (КТО) + Глагол (ЧТО ДЕЛАЕТ).",
-        "tags": [
-          "practice_tips"
-        ]
-      },
-      {
         "id": "q61",
         "type": "mcq_single",
         "prompt": "Выберите правильный вариант:",
@@ -1276,81 +1247,6 @@
         ]
       },
       {
-        "id": "q66",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении:\n\n**What do he needs?**",
-        "theory_block_id": "b5_theory_practice_tips",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "What does he need?",
-            "feedback": "Правильно! С he используется does, и глагол в базовой форме"
-          },
-          {
-            "id": "b",
-            "text": "What do he needs",
-            "feedback": "Нет, это неправильный вариант"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: С he используется does, и глагол в базовой форме. Правильно: What does he need?",
-        "tags": [
-          "practice_tips",
-          "error"
-        ]
-      },
-      {
-        "id": "q67",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении:\\n\\n**When do she goes?**",
-        "theory_block_id": "b5_theory_practice_tips",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "When does she go?",
-            "feedback": "Правильно! С she используется does, и глагол в базовой форме"
-          },
-          {
-            "id": "b",
-            "text": "When do she goes",
-            "feedback": "Нет, это неправильный вариант"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: С she используется does, и глагол в базовой форме. Правильно: When does she go?",
-        "tags": [
-          "practice_tips",
-          "error"
-        ]
-      },
-      {
-        "id": "q68",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении:\\n\\n**Why do it happen?**",
-        "theory_block_id": "b5_theory_practice_tips",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Why does it happen?",
-            "feedback": "Правильно! С it используется does"
-          },
-          {
-            "id": "b",
-            "text": "Why do it happen",
-            "feedback": "Нет, это неправильный вариант"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: С it используется does. Правильно: Why does it happen?",
-        "tags": [
-          "practice_tips",
-          "error"
-        ]
-      },
-      {
         "id": "q70",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"What ___ he do?\" (вспомогательный глагол)",
@@ -1409,15 +1305,11 @@
       "q57",
       "q58",
       "q59",
-      "q60",
       "q61",
       "q62",
       "q63",
       "q64",
       "q65",
-      "q66",
-      "q67",
-      "q68",
       "q70"
     ],
     "selection_strategy": {
@@ -1433,7 +1325,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-02-01T14:02:16Z",
+    "updated_at": "2026-02-01T14:41:25Z",
     "source": "llm"
   }
 }
