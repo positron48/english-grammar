@@ -936,32 +936,6 @@
         ]
       },
       {
-        "id": "q40",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**I always am happy.**",
-        "theory_block_id": "b3_theory_using_frequency_adverbs",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I am always happy.",
-            "feedback": "Правильно! С be наречие после am/is/are"
-          },
-          {
-            "id": "b",
-            "text": "I always am happy in the morning.",
-            "feedback": "Нет, все равно наречие должно быть после am"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: с глаголом be наречие частоты должно стоять после am/is/are. Правильно: I am always happy.",
-        "tags": [
-          "frequency",
-          "be",
-          "error"
-        ]
-      },
-      {
         "id": "q41",
         "type": "mcq_single",
         "prompt": "Что означает предложение \"I always exercise\"?",
@@ -1105,31 +1079,6 @@
         ]
       },
       {
-        "id": "q48",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**What time you wake up?**",
-        "theory_block_id": "b4_theory_asking_about_routine",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "What time do you wake up?",
-            "feedback": "Правильно! Нужен do для вопросов"
-          },
-          {
-            "id": "b",
-            "text": "What time you wake up every day?",
-            "feedback": "Нет, все равно нужен do"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: для вопросов в Present Simple нужен вспомогательный глагол do/does. Правильно: What time do you wake up?",
-        "tags": [
-          "questions",
-          "error"
-        ]
-      },
-      {
         "id": "q49",
         "type": "mcq_single",
         "prompt": "Как правильно спросить о частоте?",
@@ -1162,7 +1111,7 @@
       {
         "id": "q50",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"How often ___ he go to the cinema?\" (делать)",
+        "prompt": "Заполните пропуск: \"How often ___ he go to the cinema?\" (вспомогательный глагол)",
         "theory_block_id": "b4_theory_asking_about_routine",
         "difficulty": 2,
         "correct_answer": "does",
@@ -1232,7 +1181,7 @@
       {
         "id": "q54",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**What time does go you to bed?**",
+        "prompt": "Выберите правильный вариант:",
         "theory_block_id": "b4_theory_asking_about_routine",
         "difficulty": 2,
         "choices": [
@@ -1287,19 +1236,6 @@
         "tags": [
           "questions",
           "habits"
-        ]
-      },
-      {
-        "id": "q56",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ do you usually have for breakfast?\" (что)",
-        "theory_block_id": "b4_theory_asking_about_routine",
-        "difficulty": 2,
-        "correct_answer": "What",
-        "explanation": "Для вопросов о вещах используется What: What do you usually have for breakfast?",
-        "tags": [
-          "questions",
-          "what"
         ]
       },
       {
@@ -1389,44 +1325,6 @@
         ]
       },
       {
-        "id": "q61",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b5_theory_building_full_story",
-        "difficulty": 3,
-        "correct_answer": "I wake up at 7, then I have breakfast. After breakfast, I go to work. I always have coffee in the morning.",
-        "explanation": "Правильный порядок: Утро (время) + then + действие. После + действие. Наречие частоты + действие. I wake up at 7, then I have breakfast. After breakfast, I go to work. I always have coffee in the morning.",
-        "tags": [
-          "full_story",
-          "sequence"
-        ]
-      },
-      {
-        "id": "q62",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**I wake up at 7, I have breakfast, I go to work. I always have coffee.**",
-        "theory_block_id": "b5_theory_building_full_story",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I wake up at 7, then I have breakfast. After breakfast, I go to work. I always have coffee.",
-            "feedback": "Правильно! Используются связующие слова"
-          },
-          {
-            "id": "b",
-            "text": "I wake up at 7, I have breakfast, I go to work, I always have coffee.",
-            "feedback": "Нет, все равно нужны связующие слова"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: в рассказе лучше использовать связующие слова 'then' и 'after' для плавности. Правильно: I wake up at 7, then I have breakfast. After breakfast, I go to work.",
-        "tags": [
-          "full_story",
-          "error"
-        ]
-      },
-      {
         "id": "q63",
         "type": "mcq_single",
         "prompt": "Как правильно объединить утро, день и вечер?",
@@ -1483,12 +1381,12 @@
           },
           {
             "id": "b",
-            "text": "Evening I sometimes meet friends.",
+            "text": "Evening I sometimes meet friends or relax at home.",
             "feedback": "Нет, нужен предлог In"
           },
           {
             "id": "c",
-            "text": "I sometimes meet friends in evening.",
+            "text": "I sometimes meet friends in evening or relax at home.",
             "feedback": "Нет, нужен артикль the"
           }
         ],
@@ -1513,22 +1411,9 @@
         ]
       },
       {
-        "id": "q67",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b5_theory_building_full_story",
-        "difficulty": 3,
-        "correct_answer": "In the morning I wake up at 7, then I have breakfast. During the day I work from 9 to 5. In the evening I always relax at home.",
-        "explanation": "Правильный порядок: In the morning + действие + then + действие. During the day + действие. In the evening + наречие + действие. In the morning I wake up at 7, then I have breakfast. During the day I work from 9 to 5. In the evening I always relax at home.",
-        "tags": [
-          "full_story",
-          "sequence"
-        ]
-      },
-      {
         "id": "q68",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**Morning I study. Day I work. Evening I relax.**",
+        "prompt": "Выберите правильный вариант:",
         "theory_block_id": "b5_theory_building_full_story",
         "difficulty": 2,
         "choices": [
@@ -1633,7 +1518,6 @@
       "q37",
       "q38",
       "q39",
-      "q40",
       "q41",
       "q42",
       "q43",
@@ -1641,7 +1525,6 @@
       "q45",
       "q46",
       "q47",
-      "q48",
       "q49",
       "q50",
       "q51",
@@ -1649,18 +1532,14 @@
       "q53",
       "q54",
       "q55",
-      "q56",
       "q57",
       "q58",
       "q59",
       "q60",
-      "q61",
-      "q62",
       "q63",
       "q64",
       "q65",
       "q66",
-      "q67",
       "q68",
       "q69",
       "q70"
@@ -1678,7 +1557,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-02-01T16:59:57Z",
+    "updated_at": "2026-02-01T17:03:20Z",
     "source": "llm"
   }
 }
