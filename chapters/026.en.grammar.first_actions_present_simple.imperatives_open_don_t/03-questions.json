@@ -71,30 +71,6 @@
       ]
     },
     {
-      "id": "q4",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**You sit down.**",
-      "theory_block_id": "b1_theory_imperative_basics",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Sit down.",
-          "feedback": "Правильно!"
-        },
-        {
-          "id": "b",
-          "text": "You sits down.",
-          "feedback": "Нет"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: в императиве подлежащее \"you\" не используется. Правильно: \"Sit down.\"",
-      "tags": [
-        "basics"
-      ]
-    },
-    {
       "id": "q5",
       "type": "reorder",
       "prompt": "Расставьте слова в правильном порядке:",
@@ -179,7 +155,7 @@
     {
       "id": "q9",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**You read this note.**",
+      "prompt": "Выберите правильный вариант:",
       "theory_block_id": "b1_theory_imperative_basics",
       "difficulty": 2,
       "choices": [
@@ -271,42 +247,6 @@
       ]
     },
     {
-      "id": "q14",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**You help me.**",
-      "theory_block_id": "b1_theory_imperative_basics",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Help me.",
-          "feedback": "Правильно!"
-        },
-        {
-          "id": "b",
-          "text": "You helps me.",
-          "feedback": "Нет"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: подлежащее \"you\" не используется в императиве.",
-      "tags": [
-        "basics"
-      ]
-    },
-    {
-      "id": "q15",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b1_theory_imperative_basics",
-      "difficulty": 3,
-      "correct_answer": "Be quiet.",
-      "explanation": "Правильный порядок: Глагол be + прилагательное. Подлежащее не используется.",
-      "tags": [
-        "basics"
-      ]
-    },
-    {
       "id": "q16",
       "type": "mcq_single",
       "prompt": "Выберите правильный утвердительный императив:",
@@ -378,30 +318,6 @@
       ]
     },
     {
-      "id": "q19",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**Opens the window, please.**",
-      "theory_block_id": "b2_theory_affirmative_imperatives",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Open the window, please.",
-          "feedback": "Правильно!"
-        },
-        {
-          "id": "b",
-          "text": "Please opens the window.",
-          "feedback": "Нет"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: в императиве глагол без -s. Правильно: \"Open the window, please.\"",
-      "tags": [
-        "affirmative"
-      ]
-    },
-    {
       "id": "q20",
       "type": "reorder",
       "prompt": "Расставьте слова в правильном порядке:",
@@ -465,30 +381,6 @@
       "difficulty": 2,
       "correct_answer": "Close",
       "explanation": "Правильный ответ: \"Close\". Утвердительный императив = базовая форма глагола.",
-      "tags": [
-        "affirmative"
-      ]
-    },
-    {
-      "id": "q24",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**You open the door, please.**",
-      "theory_block_id": "b2_theory_affirmative_imperatives",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Open the door, please.",
-          "feedback": "Правильно!"
-        },
-        {
-          "id": "b",
-          "text": "Please you open the door.",
-          "feedback": "Нет"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: подлежащее \"you\" не используется в императиве. Правильно: \"Open the door, please.\"",
       "tags": [
         "affirmative"
       ]
@@ -564,7 +456,7 @@
     {
       "id": "q29",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**Closes the window.**",
+      "prompt": "Выберите правильный вариант:",
       "theory_block_id": "b2_theory_affirmative_imperatives",
       "difficulty": 2,
       "choices": [
@@ -676,7 +568,7 @@
     {
       "id": "q34",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**Not touch the door.**",
+      "prompt": "Выберите правильный вариант:",
       "theory_block_id": "b3_theory_negative_imperatives",
       "difficulty": 2,
       "choices": [
@@ -727,35 +619,6 @@
       ]
     },
     {
-      "id": "q37",
-      "type": "mcq_single",
-      "prompt": "Что означает \"Don't\"?",
-      "theory_block_id": "b3_theory_negative_imperatives",
-      "difficulty": 1,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Do not (сокращение)",
-          "feedback": "Правильно!"
-        },
-        {
-          "id": "b",
-          "text": "Does not",
-          "feedback": "Нет, Doesn't = Does not, а Don't = Do not"
-        },
-        {
-          "id": "c",
-          "text": "Did not",
-          "feedback": "Нет, Didn't = Did not (Past Simple), а Don't = Do not (Present Simple)"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Don't = Do not (сокращенная форма).",
-      "tags": [
-        "negative"
-      ]
-    },
-    {
       "id": "q38",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"___ worry about it.\" (отрицание)",
@@ -770,7 +633,7 @@
     {
       "id": "q39",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**Doesn't talk here.**",
+      "prompt": "Выберите правильный вариант:",
       "theory_block_id": "b3_theory_negative_imperatives",
       "difficulty": 2,
       "choices": [
@@ -865,7 +728,7 @@
     {
       "id": "q44",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**You don't enter the room.**",
+      "prompt": "Выберите правильный вариант:",
       "theory_block_id": "b3_theory_negative_imperatives",
       "difficulty": 2,
       "choices": [
@@ -974,30 +837,6 @@
       ]
     },
     {
-      "id": "q49",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**Let's to go.**",
-      "theory_block_id": "b4_theory_lets_construction",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Let's go.",
-          "feedback": "Правильно!"
-        },
-        {
-          "id": "b",
-          "text": "Let's goes.",
-          "feedback": "Нет"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: после Let's глагол без частицы to. Правильно: \"Let's go.\"",
-      "tags": [
-        "lets"
-      ]
-    },
-    {
       "id": "q50",
       "type": "reorder",
       "prompt": "Расставьте слова в правильном порядке:",
@@ -1058,30 +897,6 @@
       "difficulty": 2,
       "correct_answer": "Let's",
       "explanation": "Правильный ответ: \"Let's\". Для дружеских предложений используется Let's.",
-      "tags": [
-        "lets"
-      ]
-    },
-    {
-      "id": "q54",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**Let's goes.**",
-      "theory_block_id": "b4_theory_lets_construction",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Let's go.",
-          "feedback": "Правильно!"
-        },
-        {
-          "id": "b",
-          "text": "Let's to go.",
-          "feedback": "Нет"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: после Let's глагол в базовой форме без -s. Правильно: \"Let's go.\"",
       "tags": [
         "lets"
       ]
@@ -1154,30 +969,6 @@
       ]
     },
     {
-      "id": "q59",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**Let's to have lunch.**",
-      "theory_block_id": "b4_theory_lets_construction",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Let's have lunch.",
-          "feedback": "Правильно!"
-        },
-        {
-          "id": "b",
-          "text": "Let's having lunch.",
-          "feedback": "Нет"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: после Let's глагол без to. Правильно: \"Let's have lunch.\"",
-      "tags": [
-        "lets"
-      ]
-    },
-    {
       "id": "q60",
       "type": "reorder",
       "prompt": "Расставьте слова в правильном порядке:",
@@ -1187,35 +978,6 @@
       "explanation": "Правильный порядок: Let's + глагол + остальное.",
       "tags": [
         "lets"
-      ]
-    },
-    {
-      "id": "q61",
-      "type": "mcq_single",
-      "prompt": "В каких ситуациях используются императивы?",
-      "theory_block_id": "b5_theory_imperative_usage",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Команды, инструкции, просьбы, советы, предложения, запреты",
-          "feedback": "Правильно!"
-        },
-        {
-          "id": "b",
-          "text": "Только для команд",
-          "feedback": "Нет, используются в разных ситуациях"
-        },
-        {
-          "id": "c",
-          "text": "Только для просьб",
-          "feedback": "Нет"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Императивы используются для команд, инструкций, просьб, советов, предложений, запретов.",
-      "tags": [
-        "usage"
       ]
     },
     {
@@ -1256,31 +1018,6 @@
       ],
       "correct_answer": "a",
       "explanation": "Для вежливости добавляем \"please\" или используем \"Could you...\" вместо императива.",
-      "tags": [
-        "usage",
-        "polite"
-      ]
-    },
-    {
-      "id": "q64",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в контексте просьбы:\n\n**Open the door!**",
-      "theory_block_id": "b5_theory_imperative_usage",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Open the door, please. (или Could you open the door?)",
-          "feedback": "Правильно! Для просьб лучше добавить please"
-        },
-        {
-          "id": "b",
-          "text": "Opens the door!",
-          "feedback": "Нет"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Для просьб лучше добавить \"please\" или использовать \"Could you...\" для большей вежливости.",
       "tags": [
         "usage",
         "polite"
@@ -1356,31 +1093,6 @@
       ]
     },
     {
-      "id": "q69",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в контексте вежливой просьбы:\n\n**Give me that book.**",
-      "theory_block_id": "b5_theory_imperative_usage",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Could you give me that book, please? (или Give me that book, please.)",
-          "feedback": "Правильно! Для вежливой просьбы лучше добавить please"
-        },
-        {
-          "id": "b",
-          "text": "Gives me that book.",
-          "feedback": "Нет"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Для вежливой просьбы лучше добавить \"please\" или использовать \"Could you...\".",
-      "tags": [
-        "usage",
-        "polite"
-      ]
-    },
-    {
       "id": "q70",
       "type": "reorder",
       "prompt": "Расставьте слова в правильном порядке:",
@@ -1446,31 +1158,6 @@
       "tags": [
         "usage",
         "command"
-      ]
-    },
-    {
-      "id": "q74",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в контексте инструкции:\n\n**You click here.**",
-      "theory_block_id": "b5_theory_imperative_usage",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Click here.",
-          "feedback": "Правильно!"
-        },
-        {
-          "id": "b",
-          "text": "Clicks here.",
-          "feedback": "Нет"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: в императиве подлежащее \"you\" не используется. Правильно: \"Click here.\"",
-      "tags": [
-        "usage",
-        "instruction"
       ]
     },
     {
