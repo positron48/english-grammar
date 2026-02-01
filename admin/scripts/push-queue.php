@@ -27,9 +27,11 @@ if (!file_exists($queueFile)) {
 $queue = json_decode(file_get_contents($queueFile), true) ?: [];
 $pending = $queue['pending'] ?? [];
 if (empty($pending)) {
+    echo "Queue empty\n";
     exit(0);
 }
 
+echo "Pushing " . count($pending) . " files...\n";
 $pushed = [];
 $errors = [];
 foreach (array_keys($pending) as $filePath) {
@@ -53,8 +55,10 @@ $queue['pending'] = $pending;
 file_put_contents($queueFile, json_encode($queue, JSON_PRETTY_PRINT));
 
 if (!empty($errors)) {
+    echo "Errors: " . implode("; ", $errors) . "\n";
     exit(1);
 }
+echo "Pushed: " . implode(", ", $pushed) . "\n";
 
 function pushFileToGitHub(string $token, string $owner, string $repo, string $path, string $content, string $message): array {
     $url = "https://api.github.com/repos/" . rawurlencode($owner) . "/" . rawurlencode($repo) . "/contents/" . rawurlencode($path);
