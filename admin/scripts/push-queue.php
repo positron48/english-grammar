@@ -9,7 +9,7 @@ if (php_sapi_name() !== 'cli') {
     exit;
 }
 
-$projectRoot = dirname(dirname(dirname(__DIR__)));
+$projectRoot = dirname(dirname(__DIR__));  // admin/scripts -> html
 $queueFile = $projectRoot . '/config/.push-queue.json';
 
 $token = trim(getenv('GITHUB_TOKEN') ?? '');
