@@ -119,8 +119,7 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q13",
-          "q14"
+          "q13"
         ],
         "show_answers_immediately": true
       }
@@ -165,8 +164,7 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q26",
-          "q27"
+          "q26"
         ],
         "show_answers_immediately": true
       }
@@ -305,7 +303,7 @@
       {
         "id": "q2",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I ___ to work every day.\" (ходить на работу)",
+        "prompt": "Заполните пропуск: \"I ___ to work every day.\" (ходить)",
         "theory_block_id": "b1_theory_identifying_context",
         "difficulty": 2,
         "correct_answer": "go",
@@ -318,7 +316,7 @@
       {
         "id": "q3",
         "type": "true_false",
-        "prompt": "Верно или неверно: Маркер \"at the moment\" требует Present Continuous.",
+        "prompt": "Верно или неверно: Маркер \"at the moment\" требует Present Simple.",
         "theory_block_id": "b1_theory_identifying_context",
         "difficulty": 1,
         "correct_answer": "false",
@@ -355,31 +353,6 @@
         "tags": [
           "every_morning",
           "habit"
-        ]
-      },
-      {
-        "id": "q5",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"They ___ dinner right now.\"",
-        "theory_block_id": "b1_theory_identifying_context",
-        "difficulty": 2,
-        "correct_answer": "b",
-        "explanation": "Right now указывает на действие, происходящее в данный момент, поэтому используется Present Continuous: They are having dinner right now.",
-        "tags": [
-          "right_now",
-          "current_action"
-        ],
-        "choices": [
-          {
-            "id": "a",
-            "text": "have",
-            "feedback": "Нет, right now требует Continuous."
-          },
-          {
-            "id": "b",
-            "text": "are having",
-            "feedback": "Правильно! Right now требует Present Continuous."
-          }
         ]
       },
       {
@@ -442,7 +415,7 @@
       {
         "id": "q9",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I ___ to the gym three times a week.\" (регулярно ходить)",
+        "prompt": "Заполните пропуск: \"I ___ to the gym three times a week.\" (ходить)",
         "theory_block_id": "b1_theory_identifying_context",
         "difficulty": 2,
         "correct_answer": "go",
@@ -540,31 +513,6 @@
         ]
       },
       {
-        "id": "q14",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"What ___ she ___ right now?\"",
-        "theory_block_id": "b2_theory_describing_current_actions",
-        "difficulty": 2,
-        "correct_answer": "b",
-        "explanation": "Right now указывает на действие сейчас, поэтому используется Present Continuous: What is she doing right now?",
-        "tags": [
-          "question",
-          "right_now"
-        ],
-        "choices": [
-          {
-            "id": "a",
-            "text": "does / do",
-            "feedback": "Нет, right now требует Continuous."
-          },
-          {
-            "id": "b",
-            "text": "is / doing",
-            "feedback": "Правильно! Right now требует Present Continuous."
-          }
-        ]
-      },
-      {
         "id": "q15",
         "type": "reorder",
         "prompt": "Расставьте слова в правильном порядке:",
@@ -608,47 +556,9 @@
         ]
       },
       {
-        "id": "q17",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"I ___ TV at the moment.\"",
-        "theory_block_id": "b2_theory_describing_current_actions",
-        "difficulty": 2,
-        "correct_answer": "b",
-        "explanation": "At the moment указывает на действие сейчас, поэтому используется Present Continuous: I am watching TV at the moment.",
-        "tags": [
-          "at_the_moment",
-          "current_action"
-        ],
-        "choices": [
-          {
-            "id": "a",
-            "text": "watch",
-            "feedback": "Нет, at the moment требует Continuous."
-          },
-          {
-            "id": "b",
-            "text": "am watching",
-            "feedback": "Правильно! At the moment требует Present Continuous."
-          }
-        ]
-      },
-      {
-        "id": "q18",
-        "type": "true_false",
-        "prompt": "Верно или неверно: \"Are you sleeping?\" — это вопрос о текущем действии.",
-        "theory_block_id": "b2_theory_describing_current_actions",
-        "difficulty": 1,
-        "correct_answer": "false",
-        "explanation": "Неневерно. Are you sleeping? — это вопрос в Present Continuous о действии, происходящем сейчас.",
-        "tags": [
-          "question",
-          "current_action"
-        ]
-      },
-      {
         "id": "q19",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вопрос:",
+        "prompt": "Выберите правильный вопрос о текущем действии:",
         "theory_block_id": "b2_theory_describing_current_actions",
         "difficulty": 2,
         "choices": [
@@ -673,31 +583,6 @@
         "tags": [
           "question",
           "current_action"
-        ]
-      },
-      {
-        "id": "q20",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"They ___ dinner now.\"",
-        "theory_block_id": "b2_theory_describing_current_actions",
-        "difficulty": 2,
-        "correct_answer": "b",
-        "explanation": "Now указывает на действие сейчас, поэтому используется Present Continuous: They are having dinner now.",
-        "tags": [
-          "now",
-          "current_action"
-        ],
-        "choices": [
-          {
-            "id": "a",
-            "text": "have",
-            "feedback": "Нет, now требует Continuous."
-          },
-          {
-            "id": "b",
-            "text": "are having",
-            "feedback": "Правильно! Now требует Present Continuous."
-          }
         ]
       },
       {
@@ -745,32 +630,9 @@
         ]
       },
       {
-        "id": "q23",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"What ___ he ___ at the moment?\"",
-        "theory_block_id": "b2_theory_describing_current_actions",
-        "difficulty": 2,
-        "correct_answer": "b",
-        "explanation": "At the moment требует Present Continuous: What is he doing at the moment?",
-        "tags": [
-          "question",
-          "at_the_moment"
-        ],
-        "choices": [
-          {
-            "id": "a",
-            "text": "does / do"
-          },
-          {
-            "id": "b",
-            "text": "is / doing"
-          }
-        ]
-      },
-      {
         "id": "q24",
         "type": "true_false",
-        "prompt": "Верно или неверно: \"I am reading a book\" описывает действие, происходящее сейчас.",
+        "prompt": "Верно или неверно: \"I am reading a book\" описывает действие, происходящее регулярно.",
         "theory_block_id": "b2_theory_describing_current_actions",
         "difficulty": 1,
         "correct_answer": "false",
@@ -841,31 +703,6 @@
         ]
       },
       {
-        "id": "q27",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"What ___ she ___ on weekends?\"",
-        "theory_block_id": "b3_theory_describing_habits",
-        "difficulty": 2,
-        "correct_answer": "b",
-        "explanation": "Вопрос о привычках в Present Simple: What does she do on weekends?",
-        "tags": [
-          "question",
-          "habit"
-        ],
-        "choices": [
-          {
-            "id": "a",
-            "text": "is / doing",
-            "feedback": "Нет, on weekends требует Simple для привычек."
-          },
-          {
-            "id": "b",
-            "text": "does / do",
-            "feedback": "Правильно! On weekends требует Present Simple для привычек."
-          }
-        ]
-      },
-      {
         "id": "q28",
         "type": "reorder",
         "prompt": "Расставьте слова в правильном порядке:",
@@ -912,7 +749,7 @@
       {
         "id": "q30",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I ___ coffee every morning.\" (пить кофе)",
+        "prompt": "Заполните пропуск: \"I ___ coffee every morning.\" (пить)",
         "theory_block_id": "b3_theory_describing_habits",
         "difficulty": 2,
         "correct_answer": "drink",
@@ -925,7 +762,7 @@
       {
         "id": "q31",
         "type": "true_false",
-        "prompt": "Верно или неверно: \"Do you go to the gym?\" — это вопрос о привычках.",
+        "prompt": "Верно или неверно: \"Do you go to the gym?\" — это вопрос о текущем действии.",
         "theory_block_id": "b3_theory_describing_habits",
         "difficulty": 1,
         "correct_answer": "false",
@@ -1023,37 +860,12 @@
         ]
       },
       {
-        "id": "q36",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"What ___ they ___ on Sundays?\"",
-        "theory_block_id": "b3_theory_describing_habits",
-        "difficulty": 2,
-        "correct_answer": "b",
-        "explanation": "Вопрос о привычках в Present Simple: What do they do on Sundays?",
-        "tags": [
-          "question",
-          "habit"
-        ],
-        "choices": [
-          {
-            "id": "a",
-            "text": "are / doing",
-            "feedback": "Нет, on Sundays требует Simple для привычек."
-          },
-          {
-            "id": "b",
-            "text": "do / do",
-            "feedback": "Правильно! On Sundays требует Present Simple для привычек."
-          }
-        ]
-      },
-      {
         "id": "q37",
         "type": "true_false",
         "prompt": "Верно или неверно: \"I drink coffee every morning\" описывает привычку.",
         "theory_block_id": "b3_theory_describing_habits",
         "difficulty": 1,
-        "correct_answer": "false",
+        "correct_answer": "true",
         "explanation": "Неневерно. Present Simple с every morning описывает привычку: I drink coffee every morning.",
         "tags": [
           "statement",
@@ -1609,9 +1421,10 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
-      "q5",
       "q6",
       "q7",
       "q8",
@@ -1619,17 +1432,15 @@
       "q10",
       "q11",
       "q12",
+      "q13",
       "q15",
       "q16",
-      "q17",
-      "q18",
       "q19",
-      "q20",
       "q21",
       "q22",
-      "q23",
       "q24",
       "q25",
+      "q26",
       "q28",
       "q29",
       "q30",
@@ -1638,9 +1449,10 @@
       "q33",
       "q34",
       "q35",
-      "q36",
       "q37",
       "q38",
+      "q39",
+      "q40",
       "q41",
       "q42",
       "q43",
@@ -1651,6 +1463,8 @@
       "q48",
       "q49",
       "q50",
+      "q51",
+      "q52",
       "q53",
       "q54",
       "q55",
@@ -1675,7 +1489,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:24:01Z",
+    "updated_at": "2026-02-02T17:59:25Z",
     "source": "llm"
   }
 }
