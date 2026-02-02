@@ -212,8 +212,7 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q39",
-          "q40"
+          "q39"
         ],
         "show_answers_immediately": true
       }
@@ -261,8 +260,7 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q51",
-          "q52"
+          "q51"
         ],
         "show_answers_immediately": true
       }
@@ -933,44 +931,6 @@
         ]
       },
       {
-        "id": "q40",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"I ___ English now, but I usually ___ in the morning.\"",
-        "theory_block_id": "b4_theory_contrasting_in_dialogue",
-        "difficulty": 3,
-        "correct_answer": "b",
-        "explanation": "Now требует Continuous, usually требует Simple: I am studying English now, but I usually study in the morning.",
-        "tags": [
-          "contrast",
-          "fill_blank"
-        ],
-        "choices": [
-          {
-            "id": "a",
-            "text": "study / study",
-            "feedback": "Нет, now требует Continuous, usually требует Simple."
-          },
-          {
-            "id": "b",
-            "text": "am studying / study",
-            "feedback": "Правильно! Now требует Continuous, usually требует Simple."
-          }
-        ]
-      },
-      {
-        "id": "q41",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b4_theory_contrasting_in_dialogue",
-        "difficulty": 4,
-        "correct_answer": "I am working now, but I usually work in the evening.",
-        "explanation": "Контраст между текущим действием (Continuous) и привычкой (Simple): I am working now, but I usually work in the evening.",
-        "tags": [
-          "contrast",
-          "word_order"
-        ]
-      },
-      {
         "id": "q42",
         "type": "mcq_single",
         "prompt": "Выберите правильное предложение:",
@@ -1013,31 +973,6 @@
         ]
       },
       {
-        "id": "q44",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"They ___ dinner at the moment, but they usually ___ at home.\"",
-        "theory_block_id": "b4_theory_contrasting_in_dialogue",
-        "difficulty": 3,
-        "correct_answer": "b",
-        "explanation": "At the moment требует Continuous, usually требует Simple: They are having dinner at the moment, but they usually have at home.",
-        "tags": [
-          "contrast",
-          "fill_blank"
-        ],
-        "choices": [
-          {
-            "id": "a",
-            "text": "have / have",
-            "feedback": "Нет, at the moment требует Continuous, usually требует Simple."
-          },
-          {
-            "id": "b",
-            "text": "are having / have",
-            "feedback": "Правильно! At the moment требует Continuous, usually требует Simple."
-          }
-        ]
-      },
-      {
         "id": "q45",
         "type": "mcq_single",
         "prompt": "Выберите правильное предложение с контрастом:",
@@ -1067,19 +1002,6 @@
         ]
       },
       {
-        "id": "q46",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b4_theory_contrasting_in_dialogue",
-        "difficulty": 4,
-        "correct_answer": "I am studying now, but I usually study in the library.",
-        "explanation": "Контраст между текущим действием и привычкой: I am studying now, but I usually study in the library.",
-        "tags": [
-          "contrast",
-          "word_order"
-        ]
-      },
-      {
         "id": "q47",
         "type": "true_false",
         "prompt": "Верно или неверно: \"I am working now, but I usually work from home\" — правильное использование обоих времен.",
@@ -1089,31 +1011,6 @@
         "explanation": "Верно. Continuous для текущего действия (now), Simple для привычки (usually).",
         "tags": [
           "contrast"
-        ]
-      },
-      {
-        "id": "q48",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"He ___ on a project now, but he usually ___ at 5 PM.\"",
-        "theory_block_id": "b4_theory_contrasting_in_dialogue",
-        "difficulty": 3,
-        "correct_answer": "b",
-        "explanation": "Now требует Continuous, usually требует Simple: He is working on a project now, but he usually finishes at 5 PM.",
-        "tags": [
-          "contrast",
-          "fill_blank"
-        ],
-        "choices": [
-          {
-            "id": "a",
-            "text": "works / finishes",
-            "feedback": "Нет, now требует Continuous."
-          },
-          {
-            "id": "b",
-            "text": "is working / finishes",
-            "feedback": "Правильно! Now требует Continuous, usually требует Simple."
-          }
         ]
       },
       {
@@ -1188,45 +1085,6 @@
         ]
       },
       {
-        "id": "q52",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант для диалога: \"A: What ___ you ___? B: I ___ lunch. A: What ___ you usually ___ at this time?\"",
-        "theory_block_id": "b5_theory_common_situations",
-        "difficulty": 4,
-        "correct_answer": "b",
-        "explanation": "Телефонный разговор требует переключения: What are you doing? (Continuous) → I am having lunch (Continuous) → What do you usually do? (Simple).",
-        "tags": [
-          "phone_call",
-          "dialogue",
-          "fill_blank"
-        ],
-        "choices": [
-          {
-            "id": "a",
-            "text": "do / do / have / do / do",
-            "feedback": "Нет, текущее действие требует Continuous."
-          },
-          {
-            "id": "b",
-            "text": "are / doing / am having / do / do",
-            "feedback": "Правильно! Текущее действие требует Continuous, привычки требуют Simple."
-          }
-        ]
-      },
-      {
-        "id": "q53",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b5_theory_common_situations",
-        "difficulty": 4,
-        "correct_answer": "I am working today, but I usually work from home.",
-        "explanation": "Рассказ о дне с контрастом: I am working today, but I usually work from home.",
-        "tags": [
-          "telling_about_day",
-          "word_order"
-        ]
-      },
-      {
         "id": "q54",
         "type": "mcq_single",
         "prompt": "Выберите правильный диалог для встречи с другом:",
@@ -1269,31 +1127,6 @@
         ]
       },
       {
-        "id": "q56",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"Right now I ___ , but I usually ___ from 9 to 5.\"",
-        "theory_block_id": "b5_theory_common_situations",
-        "difficulty": 3,
-        "correct_answer": "b",
-        "explanation": "Рассказ о дне: Right now I am working (Continuous), but I usually work from 9 to 5 (Simple).",
-        "tags": [
-          "telling_about_day",
-          "fill_blank"
-        ],
-        "choices": [
-          {
-            "id": "a",
-            "text": "work / work",
-            "feedback": "Нет, right now требует Continuous."
-          },
-          {
-            "id": "b",
-            "text": "am working / work",
-            "feedback": "Правильно! Right now требует Continuous, usually требует Simple."
-          }
-        ]
-      },
-      {
         "id": "q57",
         "type": "mcq_single",
         "prompt": "Выберите правильное предложение для описания дня:",
@@ -1324,20 +1157,6 @@
         ]
       },
       {
-        "id": "q58",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b5_theory_common_situations",
-        "difficulty": 5,
-        "correct_answer": "What are you doing? I am having lunch. What do you usually do at this time?",
-        "explanation": "Телефонный разговор с переключением между временами: What are you doing? (Continuous) → I am having lunch (Continuous) → What do you usually do? (Simple).",
-        "tags": [
-          "phone_call",
-          "dialogue",
-          "word_order"
-        ]
-      },
-      {
         "id": "q59",
         "type": "true_false",
         "prompt": "Верно или неверно: Типичные ситуации (телефонные разговоры, встречи, рассказ о дне) требуют использования обоих времен.",
@@ -1347,32 +1166,6 @@
         "explanation": "Верно. В типичных ситуациях общения часто нужно переключаться между текущими действиями (Continuous) и привычками (Simple).",
         "tags": [
           "common_situations"
-        ]
-      },
-      {
-        "id": "q60",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант для диалога: \"A: What ___ you ___? B: I ___ my friend. A: When ___ you usually ___?\"",
-        "theory_block_id": "b5_theory_common_situations",
-        "difficulty": 4,
-        "correct_answer": "b",
-        "explanation": "Диалог о встрече: What are you doing? (Continuous) → I am meeting my friend (Continuous) → When do you usually meet? (Simple).",
-        "tags": [
-          "meeting_friends",
-          "dialogue",
-          "fill_blank"
-        ],
-        "choices": [
-          {
-            "id": "a",
-            "text": "do / do / meet / do / meet",
-            "feedback": "Нет, текущее действие требует Continuous."
-          },
-          {
-            "id": "b",
-            "text": "are / doing / am meeting / do / meet",
-            "feedback": "Правильно! Текущее действие требует Continuous, привычки требуют Simple."
-          }
         ]
       },
       {
@@ -1452,27 +1245,17 @@
       "q37",
       "q38",
       "q39",
-      "q40",
-      "q41",
       "q42",
       "q43",
-      "q44",
       "q45",
-      "q46",
       "q47",
-      "q48",
       "q49",
       "q50",
       "q51",
-      "q52",
-      "q53",
       "q54",
       "q55",
-      "q56",
       "q57",
-      "q58",
       "q59",
-      "q60",
       "q61",
       "q62"
     ],
@@ -1489,7 +1272,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-02-02T17:59:25Z",
+    "updated_at": "2026-02-02T18:05:05Z",
     "source": "llm"
   }
 }
