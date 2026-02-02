@@ -272,10 +272,7 @@
       "type": "quiz_inline",
       "title": "Проверка знаний",
       "quiz_inline": {
-        "question_ids": [
-          "q16",
-          "q17"
-        ],
+        "question_ids": [],
         "show_answers_immediately": true
       }
     },
@@ -332,8 +329,7 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q23",
-          "q24"
+          "q23"
         ],
         "show_answers_immediately": true
       }
@@ -380,10 +376,7 @@
       "type": "quiz_inline",
       "title": "Проверка знаний",
       "quiz_inline": {
-        "question_ids": [
-          "q28",
-          "q29"
-        ],
+        "question_ids": [],
         "show_answers_immediately": true
       }
     }
@@ -484,30 +477,6 @@
         "tags": [
           "fill_blank",
           "stative"
-        ]
-      },
-      {
-        "id": "q5",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**I'm knowing the answer.**",
-        "theory_block_id": "b1_theory_what_are_stative_verbs",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I know the answer.",
-            "feedback": "Правильно! know — статичный глагол, используется в Simple."
-          },
-          {
-            "id": "b",
-            "text": "Ошибок нет.",
-            "feedback": "Нет, know — статичный глагол, не используется в Continuous."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "know — статичный глагол, описывающий состояние знания. Не используется в Continuous. Правильно: I know the answer.",
-        "tags": [
-          "error_spotting"
         ]
       },
       {
@@ -659,30 +628,6 @@
         ]
       },
       {
-        "id": "q12",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**She's liking coffee.**",
-        "theory_block_id": "b3_theory_why_not_continuous",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "She likes coffee.",
-            "feedback": "Правильно! like — статичный глагол, используется в Simple."
-          },
-          {
-            "id": "b",
-            "text": "Ошибок нет.",
-            "feedback": "Нет, like — статичный глагол, не используется в Continuous."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "like — статичный глагол, описывающий постоянное предпочтение. Не используется в Continuous. Правильно: She likes coffee.",
-        "tags": [
-          "error_spotting"
-        ]
-      },
-      {
         "id": "q13",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"I ___ the problem.\" (видеть, понимать)",
@@ -725,83 +670,9 @@
         ]
       },
       {
-        "id": "q15",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**I'm understanding the lesson.**",
-        "theory_block_id": "b3_theory_why_not_continuous",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I understand the lesson.",
-            "feedback": "Правильно! understand — статичный глагол, используется в Simple."
-          },
-          {
-            "id": "b",
-            "text": "Ошибок нет.",
-            "feedback": "Нет, understand — статичный глагол, не используется в Continuous."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "understand — статичный глагол из группы мыслей. Не используется в Continuous. Правильно: I understand the lesson.",
-        "tags": [
-          "error_spotting"
-        ]
-      },
-      {
-        "id": "q16",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант:\n\n**I ___ you're right. (считать, полагать)**",
-        "theory_block_id": "b4_theory_exceptions_action_meaning",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "think",
-            "feedback": "Правильно! think в значении считать/полагать — состояние, используется в Simple."
-          },
-          {
-            "id": "b",
-            "text": "am thinking",
-            "feedback": "Нет, am thinking означает думать/размышлять (действие), а не считать."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "think в значении считать/полагать — это состояние, используется в Present Simple: I think you're right.",
-        "tags": [
-          "exception",
-          "think"
-        ]
-      },
-      {
-        "id": "q17",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант:\n\n**I ___ about the problem. (размышлять)**",
-        "theory_block_id": "b4_theory_exceptions_action_meaning",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "think",
-            "feedback": "Нет, для действия размышлять нужен Continuous."
-          },
-          {
-            "id": "b",
-            "text": "am thinking",
-            "feedback": "Правильно! think в значении размышлять — действие, используется в Continuous."
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "think в значении размышлять — это действие, используется в Present Continuous: I'm thinking about the problem.",
-        "tags": [
-          "exception",
-          "think"
-        ]
-      },
-      {
         "id": "q18",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I ___ a car.\" (have - иметь)",
+        "prompt": "Заполните пропуск: \"I ___ a car.\" (иметь)",
         "theory_block_id": "b4_theory_exceptions_action_meaning",
         "difficulty": 3,
         "correct_answer": "have",
@@ -810,106 +681,6 @@
           "fill_blank",
           "exception",
           "have"
-        ]
-      },
-      {
-        "id": "q19",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант:\n\n**I ___ lunch now. (есть)**",
-        "theory_block_id": "b4_theory_exceptions_action_meaning",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "have",
-            "feedback": "Нет, для действия есть нужен Continuous."
-          },
-          {
-            "id": "b",
-            "text": "am having",
-            "feedback": "Правильно! have в значении есть — действие, используется в Continuous."
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "have в значении есть/пить — это действие, используется в Present Continuous: I'm having lunch now.",
-        "tags": [
-          "exception",
-          "have"
-        ]
-      },
-      {
-        "id": "q20",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант:\n\n**I ___ the problem. (видеть, понимать)**",
-        "theory_block_id": "b4_theory_exceptions_action_meaning",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "see",
-            "feedback": "Правильно! see в значении видеть/понимать — состояние, используется в Simple."
-          },
-          {
-            "id": "b",
-            "text": "am seeing",
-            "feedback": "Нет, am seeing означает встречаться, а не видеть."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "see в значении видеть/понимать — это состояние, используется в Present Simple: I see the problem.",
-        "tags": [
-          "exception",
-          "see"
-        ]
-      },
-      {
-        "id": "q21",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант:\n\n**I ___ my doctor tomorrow. (встречаться)**",
-        "theory_block_id": "b4_theory_exceptions_action_meaning",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "see",
-            "feedback": "Нет, для действия встречаться нужен Continuous."
-          },
-          {
-            "id": "b",
-            "text": "am seeing",
-            "feedback": "Правильно! see в значении встречаться — действие, используется в Continuous."
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "see в значении встречаться/навещать — это действие, используется в Present Continuous: I'm seeing my doctor tomorrow.",
-        "tags": [
-          "exception",
-          "see"
-        ]
-      },
-      {
-        "id": "q22",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**I'm having a car.**",
-        "theory_block_id": "b4_theory_exceptions_action_meaning",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I have a car.",
-            "feedback": "Правильно! have в значении иметь — состояние, используется в Simple."
-          },
-          {
-            "id": "b",
-            "text": "Ошибок нет.",
-            "feedback": "Нет, have в значении иметь — состояние, не используется в Continuous."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "have в значении иметь/владеть — это состояние, используется в Present Simple. Continuous только для have = есть/пить: I'm having lunch.",
-        "tags": [
-          "error_spotting",
-          "exception"
         ]
       },
       {
@@ -926,81 +697,6 @@
         ]
       },
       {
-        "id": "q24",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант:\n\n**You ___ very helpful today. (временное поведение)**",
-        "theory_block_id": "b5_theory_exceptions_temporary_state",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "are",
-            "feedback": "Нет, для временного поведения нужен Continuous."
-          },
-          {
-            "id": "b",
-            "text": "are being",
-            "feedback": "Правильно! be в Continuous используется для временного поведения."
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "be в Continuous используется для временного поведения. You're being very helpful today — ты сегодня очень помогаешь (временно).",
-        "tags": [
-          "exception",
-          "be"
-        ]
-      },
-      {
-        "id": "q25",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант:\n\n**She ___ kind. (постоянная черта)**",
-        "theory_block_id": "b5_theory_exceptions_temporary_state",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "is",
-            "feedback": "Правильно! Для постоянной черты используется Simple."
-          },
-          {
-            "id": "b",
-            "text": "is being",
-            "feedback": "Нет, is being используется для временного поведения, а не постоянной черты."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Для постоянной черты характера используется Present Simple: She is kind. Continuous только для временного поведения.",
-        "tags": [
-          "exception",
-          "be"
-        ]
-      },
-      {
-        "id": "q26",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант:\n\n**I ___ better now. (временное самочувствие)**",
-        "theory_block_id": "b5_theory_exceptions_temporary_state",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "feel",
-            "feedback": "Нет, для временного самочувствия нужен Continuous."
-          },
-          {
-            "id": "b",
-            "text": "am feeling",
-            "feedback": "Правильно! feel в значении чувствовать себя может быть в Continuous для временного самочувствия."
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "feel в значении чувствовать себя может быть в Continuous для временного самочувствия: I'm feeling better now.",
-        "tags": [
-          "exception",
-          "feel"
-        ]
-      },
-      {
         "id": "q27",
         "type": "true_false",
         "prompt": "Глагол 'feel' может использоваться в Continuous для подчеркивания временного самочувствия.",
@@ -1011,81 +707,6 @@
         "tags": [
           "exception",
           "feel"
-        ]
-      },
-      {
-        "id": "q28",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**I'm knowing English very well.**",
-        "theory_block_id": "b6_theory_common_mistakes",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I know English very well.",
-            "feedback": "Правильно! know — статичный глагол, используется в Simple."
-          },
-          {
-            "id": "b",
-            "text": "Ошибок нет.",
-            "feedback": "Нет, know — статичный глагол, не используется в Continuous."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Типичная ошибка — использование know в Continuous. know — статичный глагол, описывает состояние знания. Правильно: I know English very well.",
-        "tags": [
-          "error_spotting",
-          "common_mistake"
-        ]
-      },
-      {
-        "id": "q29",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**She's liking chocolate.**",
-        "theory_block_id": "b6_theory_common_mistakes",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "She likes chocolate.",
-            "feedback": "Правильно! like — статичный глагол, используется в Simple."
-          },
-          {
-            "id": "b",
-            "text": "Ошибок нет.",
-            "feedback": "Нет, like — статичный глагол, не используется в Continuous."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Типичная ошибка — использование like в Continuous. like — статичный глагол, описывает постоянное предпочтение. Правильно: She likes chocolate.",
-        "tags": [
-          "error_spotting",
-          "common_mistake"
-        ]
-      },
-      {
-        "id": "q31",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**I'm seeing the problem.** (в значении видеть/понимать)",
-        "theory_block_id": "b6_theory_common_mistakes",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I see the problem.",
-            "feedback": "Правильно! see в значении видеть/понимать — состояние, используется в Simple."
-          },
-          {
-            "id": "b",
-            "text": "Ошибок нет.",
-            "feedback": "Нет, see в значении видеть/понимать — состояние, не используется в Continuous."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Типичная ошибка — смешение значений see. see в значении видеть/понимать — это состояние, используется в Simple. Continuous только для see = встречаться.",
-        "tags": [
-          "error_spotting",
-          "common_mistake"
         ]
       },
       {
@@ -1147,7 +768,7 @@
       {
         "id": "q34",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"We ___ a house in the city.\" (have - иметь)",
+        "prompt": "Заполните пропуск: \"We ___ a house in the city.\" (иметь)",
         "theory_block_id": "b6_theory_common_mistakes",
         "difficulty": 3,
         "correct_answer": "have",
@@ -1168,67 +789,6 @@
         "tags": [
           "fill_blank",
           "perception"
-        ]
-      },
-      {
-        "id": "q36",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант:\n\n**I ___ what you mean.**",
-        "theory_block_id": "b3_theory_why_not_continuous",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "understand",
-            "feedback": "Правильно! understand — статичный глагол, используется в Simple."
-          },
-          {
-            "id": "b",
-            "text": "am understanding",
-            "feedback": "Нет, understand — статичный глагол, не используется в Continuous."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "understand — статичный глагол из группы мыслей. Используется в Present Simple: I understand what you mean.",
-        "tags": [
-          "identification"
-        ]
-      },
-      {
-        "id": "q37",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"She ___ her keys.\" (remember)",
-        "theory_block_id": "b2_theory_groups_stative_verbs",
-        "difficulty": 2,
-        "correct_answer": "remembers",
-        "explanation": "remember — статичный глагол из группы мыслей. С she используется форма remembers в Present Simple.",
-        "tags": [
-          "fill_blank",
-          "thought"
-        ]
-      },
-      {
-        "id": "q38",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант:\n\n**This book ___ to me.**",
-        "theory_block_id": "b2_theory_groups_stative_verbs",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "belongs",
-            "feedback": "Правильно! belong — статичный глагол из группы владения."
-          },
-          {
-            "id": "b",
-            "text": "is belonging",
-            "feedback": "Нет, belong — статичный глагол, не используется в Continuous."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "belong — статичный глагол из группы владения и принадлежности. Используется в Present Simple: This book belongs to me.",
-        "tags": [
-          "possession"
         ]
       },
       {
@@ -1259,7 +819,7 @@
       {
         "id": "q40",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I ___ you're right about this.\" (think - считать)",
+        "prompt": "Заполните пропуск: \"I ___ you're right about this.\" (полагать)",
         "theory_block_id": "b4_theory_exceptions_action_meaning",
         "difficulty": 3,
         "correct_answer": "think",
@@ -1267,128 +827,6 @@
         "tags": [
           "fill_blank",
           "exception"
-        ]
-      },
-      {
-        "id": "q41",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант:\n\n**I ___ a move to another city. (обдумывать)**",
-        "theory_block_id": "b4_theory_exceptions_action_meaning",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "consider"
-          },
-          {
-            "id": "b",
-            "text": "am considering"
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "Consider в значении обдумывать — действие, поэтому Present Continuous: I'm considering a move to another city.",
-        "tags": [
-          "exception"
-        ]
-      },
-      {
-        "id": "q42",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант:\n\n**I ___ dinner with my family.**",
-        "theory_block_id": "b4_theory_exceptions_action_meaning",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "have",
-            "feedback": "Нет, для действия есть нужен Continuous."
-          },
-          {
-            "id": "b",
-            "text": "am having",
-            "feedback": "Правильно! have в значении есть — действие, используется в Continuous."
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "have в значении есть/пить — это действие, используется в Present Continuous: I'm having dinner with my family.",
-        "tags": [
-          "exception",
-          "have"
-        ]
-      },
-      {
-        "id": "q43",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**I'm seeing my friend tomorrow. (в значении видеть/понимать)**",
-        "theory_block_id": "b4_theory_exceptions_action_meaning",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I see my friend tomorrow.",
-            "feedback": "Нет, для действия встречаться нужен Continuous."
-          },
-          {
-            "id": "b",
-            "text": "Ошибок нет. I'm seeing означает встречаться.",
-            "feedback": "Правильно! see в значении встречаться — действие, используется в Continuous."
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "Нет ошибки. see в значении встречаться/навещать — это действие, используется в Present Continuous: I'm seeing my friend tomorrow.",
-        "tags": [
-          "error_spotting",
-          "exception"
-        ]
-      },
-      {
-        "id": "q44",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант:\n\n**She ___ kind. (постоянная черта характера)**",
-        "theory_block_id": "b5_theory_exceptions_temporary_state",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "is",
-            "feedback": "Правильно! Для постоянной черты используется Simple."
-          },
-          {
-            "id": "b",
-            "text": "is being",
-            "feedback": "Нет, is being используется для временного поведения."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Для постоянной черты характера используется Present Simple: She is kind. Continuous только для временного поведения.",
-        "tags": [
-          "exception",
-          "be"
-        ]
-      },
-      {
-        "id": "q45",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант:\n\n**I ___ tired today. (временное самочувствие)**",
-        "theory_block_id": "b5_theory_exceptions_temporary_state",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "feel",
-            "feedback": "Нет, для временного самочувствия нужен Continuous."
-          },
-          {
-            "id": "b",
-            "text": "am feeling",
-            "feedback": "Правильно! feel в значении чувствовать себя может быть в Continuous для временного самочувствия."
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "feel в значении чувствовать себя может быть в Continuous для временного самочувствия: I'm feeling tired today.",
-        "tags": [
-          "exception",
-          "feel"
         ]
       },
       {
@@ -1405,31 +843,6 @@
         ]
       },
       {
-        "id": "q47",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**I'm liking this song.**",
-        "theory_block_id": "b6_theory_common_mistakes",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I like this song.",
-            "feedback": "Правильно! like — статичный глагол, используется в Simple."
-          },
-          {
-            "id": "b",
-            "text": "Ошибок нет.",
-            "feedback": "Нет, like — статичный глагол, не используется в Continuous."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Типичная ошибка — использование like в Continuous. like — статичный глагол, описывает постоянное предпочтение. Правильно: I like this song.",
-        "tags": [
-          "error_spotting",
-          "common_mistake"
-        ]
-      },
-      {
         "id": "q48",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"I ___ the answer to this question.\" (знать)",
@@ -1440,30 +853,6 @@
         "tags": [
           "fill_blank",
           "stative"
-        ]
-      },
-      {
-        "id": "q49",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант:\n\n**They ___ the news.**",
-        "theory_block_id": "b2_theory_groups_stative_verbs",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "believe",
-            "feedback": "Правильно! believe — статичный глагол из группы мыслей."
-          },
-          {
-            "id": "b",
-            "text": "are believing",
-            "feedback": "Нет, believe — статичный глагол, не используется в Continuous."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "believe — статичный глагол из группы мыслей и мнений. Используется в Present Simple: They believe the news.",
-        "tags": [
-          "thought"
         ]
       },
       {
@@ -1492,55 +881,6 @@
         ]
       },
       {
-        "id": "q52",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант:\n\n**I ___ what happened.**",
-        "theory_block_id": "b3_theory_why_not_continuous",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "remember",
-            "feedback": "Правильно! remember — статичный глагол, используется в Simple."
-          },
-          {
-            "id": "b",
-            "text": "am remembering",
-            "feedback": "Нет, remember — статичный глагол, не используется в Continuous."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "remember — статичный глагол из группы мыслей. Используется в Present Simple: I remember what happened.",
-        "tags": [
-          "identification"
-        ]
-      },
-      {
-        "id": "q53",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**I'm preferring tea to coffee.**",
-        "theory_block_id": "b6_theory_common_mistakes",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I prefer tea to coffee.",
-            "feedback": "Правильно! prefer — статичный глагол, используется в Simple."
-          },
-          {
-            "id": "b",
-            "text": "Ошибок нет.",
-            "feedback": "Нет, prefer — статичный глагол, не используется в Continuous."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Типичная ошибка — использование prefer в Continuous. prefer — статичный глагол из группы чувств. Правильно: I prefer tea to coffee.",
-        "tags": [
-          "error_spotting",
-          "common_mistake"
-        ]
-      },
-      {
         "id": "q54",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"She ___ her job.\" (own)",
@@ -1551,30 +891,6 @@
         "tags": [
           "fill_blank",
           "possession"
-        ]
-      },
-      {
-        "id": "q55",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант:\n\n**I ___ the smell of flowers.**",
-        "theory_block_id": "b2_theory_groups_stative_verbs",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "smell",
-            "feedback": "Правильно! smell — статичный глагол из группы восприятия."
-          },
-          {
-            "id": "b",
-            "text": "am smelling",
-            "feedback": "Нет, smell в значении чувствовать запах — статичный глагол, не используется в Continuous."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "smell в значении чувствовать запах — статичный глагол из группы восприятия. Используется в Present Simple: I smell the smell of flowers.",
-        "tags": [
-          "perception"
         ]
       },
       {
@@ -1592,7 +908,7 @@
       {
         "id": "q57",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I ___ you're wrong about this.\" (think - считать)",
+        "prompt": "Заполните пропуск: \"I ___ you're wrong about this.\" (полагать)",
         "theory_block_id": "b4_theory_exceptions_action_meaning",
         "difficulty": 3,
         "correct_answer": "think",
@@ -1601,137 +917,45 @@
           "fill_blank",
           "exception"
         ]
-      },
-      {
-        "id": "q58",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант:\n\n**I ___ about changing my job. (размышлять)**",
-        "theory_block_id": "b4_theory_exceptions_action_meaning",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "wonder"
-          },
-          {
-            "id": "b",
-            "text": "am wondering"
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "Wonder в значении размышлять — действие, поэтому Present Continuous: I'm wondering about changing my job.",
-        "tags": [
-          "exception",
-          "think"
-        ]
-      },
-      {
-        "id": "q59",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**I'm having a house.**",
-        "theory_block_id": "b6_theory_common_mistakes",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I have a house.",
-            "feedback": "Правильно! have в значении иметь — состояние, используется в Simple."
-          },
-          {
-            "id": "b",
-            "text": "Ошибок нет.",
-            "feedback": "Нет, have в значении иметь — состояние, не используется в Continuous."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Типичная ошибка — смешение значений have. have в значении иметь/владеть — это состояние, используется в Simple. Continuous только для have = есть/пить.",
-        "tags": [
-          "error_spotting",
-          "common_mistake"
-        ]
-      },
-      {
-        "id": "q60",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант:\n\n**I ___ a shower now. (принимать)**",
-        "theory_block_id": "b4_theory_exceptions_action_meaning",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "have",
-            "feedback": "Нет, для действия принимать нужен Continuous."
-          },
-          {
-            "id": "b",
-            "text": "am having",
-            "feedback": "Правильно! have в значении принимать — действие, используется в Continuous."
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "have в значении принимать (душ) — это действие, используется в Present Continuous: I'm having a shower now.",
-        "tags": [
-          "exception",
-          "have"
-        ]
       }
     ]
   },
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q2b",
       "q3",
       "q4",
-      "q5",
+      "q6",
+      "q7",
       "q8",
       "q9",
       "q9b",
       "q10",
-      "q12",
+      "q11",
+      "q11b",
       "q13",
       "q14",
-      "q15",
       "q18",
-      "q19",
-      "q20",
-      "q21",
-      "q22",
-      "q25",
-      "q26",
+      "q23",
       "q27",
-      "q31",
       "q32",
       "q33",
       "q33b",
       "q34",
       "q35",
-      "q36",
-      "q37",
-      "q38",
       "q39",
       "q39b",
       "q40",
-      "q41",
-      "q42",
-      "q43",
-      "q44",
-      "q45",
       "q46",
-      "q47",
       "q48",
-      "q49",
       "q50",
       "q51",
-      "q52",
-      "q53",
       "q54",
-      "q55",
       "q56",
-      "q57",
-      "q58",
-      "q59",
-      "q60"
+      "q57"
     ],
     "selection_strategy": {
       "type": "stratified_by_theory_block",
@@ -1746,7 +970,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:24:01Z",
+    "updated_at": "2026-02-02T08:41:10Z",
     "source": "llm"
   }
 }
