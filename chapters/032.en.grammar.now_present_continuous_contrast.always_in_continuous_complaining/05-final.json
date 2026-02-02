@@ -416,28 +416,6 @@
         "tags": []
       },
       {
-        "id": "q5",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"My colleague always is complaining about the workload.\"",
-        "theory_block_id": "b1_theory_basic_idea",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "always is → is always",
-            "feedback": "Правильно! Always должен быть между be и V-ing."
-          },
-          {
-            "id": "b",
-            "text": "complaining → complain",
-            "feedback": "Нет, complaining правильно. Ошибка в позиции always."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: always стоит перед is. Правильно: \"My colleague is always complaining about the workload.\" Always должен быть между be и V-ing.",
-        "tags": []
-      },
-      {
         "id": "q6",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"I am always ___ my phone. It's so annoying!\" (lose)",
@@ -522,28 +500,6 @@
         "tags": []
       },
       {
-        "id": "q11",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"The manager often is criticizing us.\"",
-        "theory_block_id": "b1_theory_basic_idea",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "often is → is often",
-            "feedback": "Правильно: adverb стоит после be"
-          },
-          {
-            "id": "b",
-            "text": "criticizing → criticize",
-            "feedback": "Неверно: нужна форма V-ing"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: often стоит перед is. Правильно: \"The manager is often criticizing us.\"",
-        "tags": []
-      },
-      {
         "id": "q12",
         "type": "true_false",
         "prompt": "Верно или неверно: Present Continuous с always выражает только нейтральное описание повторяющихся действий.",
@@ -591,28 +547,6 @@
         "tags": []
       },
       {
-        "id": "q15",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"I always am losing my wallet.\"",
-        "theory_block_id": "b2_theory_structure_position",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "always am → am always",
-            "feedback": "Правильно! Always должен быть между am и losing."
-          },
-          {
-            "id": "b",
-            "text": "losing → lose",
-            "feedback": "Нет, losing правильно. Ошибка в позиции always."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: always стоит перед am. Правильно: \"I am always losing my wallet.\" Always должен быть между be и V-ing.",
-        "tags": []
-      },
-      {
         "id": "q16",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"He is always ___ during class.\" (talk)",
@@ -635,7 +569,7 @@
       {
         "id": "q18",
         "type": "mcq_single",
-        "prompt": "Где должна стоять always в предложении \"They ___ ___ making mistakes\"?",
+        "prompt": "Где должна стоять always в предложении \"They __ are __ making __ mistakes\"?",
         "theory_block_id": "b2_theory_structure_position",
         "difficulty": 2,
         "choices": [
@@ -657,28 +591,6 @@
         ],
         "correct_answer": "a",
         "explanation": "Always должен быть между вспомогательным глаголом be и основным глаголом с -ing. Правильно: \"They are always making mistakes.\"",
-        "tags": []
-      },
-      {
-        "id": "q19",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"My friend is complaining always about her job.\"",
-        "theory_block_id": "b2_theory_structure_position",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "complaining always → always complaining",
-            "feedback": "Правильно! Always должен быть между is и complaining."
-          },
-          {
-            "id": "b",
-            "text": "is → are",
-            "feedback": "Нет, is правильно. Ошибка в позиции always."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: always стоит после complaining. Правильно: \"My friend is always complaining about her job.\" Always должен быть между be и V-ing.",
         "tags": []
       },
       {
@@ -736,28 +648,6 @@
         "difficulty": 3,
         "correct_answer": "breaking",
         "explanation": "Правильный ответ: \"The computer is always breaking down when I need it most.\" Always ставится между is и breaking — это правильная позиция для выражения раздражения.",
-        "tags": []
-      },
-      {
-        "id": "q24",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"They constantly are complaining.\"",
-        "theory_block_id": "b2_theory_structure_position",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "constantly are → are constantly",
-            "feedback": "Правильно: adverb между be и V-ing"
-          },
-          {
-            "id": "b",
-            "text": "complaining → complain",
-            "feedback": "Неверно: нужна форма V-ing"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: constantly стоит перед are. Правильно: \"They are constantly complaining.\"",
         "tags": []
       },
       {
@@ -845,28 +735,6 @@
         "tags": []
       },
       {
-        "id": "q30",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"The printer constantly is breaking down.\"",
-        "theory_block_id": "b3_theory_other_adverbs",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "constantly is → is constantly",
-            "feedback": "Правильно! Constantly должен быть между is и breaking."
-          },
-          {
-            "id": "b",
-            "text": "breaking → break",
-            "feedback": "Нет, breaking правильно. Ошибка в позиции constantly."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ошибка: constantly стоит перед is. Правильно: \"The printer is constantly breaking down.\" Constantly должен быть между be и V-ing.",
-        "tags": []
-      },
-      {
         "id": "q31",
         "type": "mcq_single",
         "prompt": "Какие наречия можно использовать для выражения раздражения?",
@@ -901,16 +769,6 @@
         "difficulty": 3,
         "correct_answer": "leaving",
         "explanation": "Правильный ответ: \"You are forever leaving the lights on!\" Forever ставится между are и leaving, выражая раздражение.",
-        "tags": []
-      },
-      {
-        "id": "q33",
-        "type": "true_false",
-        "prompt": "Верно или неверно: Continually выражает то же значение, что и always в этой конструкции.",
-        "theory_block_id": "b3_theory_other_adverbs",
-        "difficulty": 2,
-        "correct_answer": "true",
-        "explanation": "Верно. Continually — синоним always в этом значении и выражает раздражение по поводу повторяющихся действий.",
         "tags": []
       },
       {
@@ -985,28 +843,6 @@
         "difficulty": 3,
         "correct_answer": "drinks",
         "explanation": "Для нейтрального описания привычки используется Present Simple: \"She always drinks coffee in the morning.\"",
-        "tags": []
-      },
-      {
-        "id": "q38",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в контексте жалобы: \"She always drinks coffee when I need to talk to her.\"",
-        "theory_block_id": "b4_theory_contrast_neutral",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "always drinks → is always drinking",
-            "feedback": "Правильно! Для выражения жалобы нужен Present Continuous с always."
-          },
-          {
-            "id": "b",
-            "text": "drinks → drink",
-            "feedback": "Нет, drinks правильно по форме, но для жалобы нужен Continuous."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Для выражения жалобы нужно использовать Present Continuous с always: \"She is always drinking coffee when I need to talk to her.\"",
         "tags": []
       },
       {
@@ -1217,28 +1053,6 @@
         "tags": []
       },
       {
-        "id": "q52",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в контексте жалобы: \"My roommate always leaves dirty dishes in the sink.\"",
-        "theory_block_id": "b5_theory_typical_contexts",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "always leaves → is always leaving",
-            "feedback": "Правильно! Для выражения жалобы нужен Present Continuous с always."
-          },
-          {
-            "id": "b",
-            "text": "leaves → leave",
-            "feedback": "Нет, leaves правильно по форме, но для жалобы нужен Continuous."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Для выражения жалобы нужно использовать Present Continuous с always: \"My roommate is always leaving dirty dishes in the sink.\"",
-        "tags": []
-      },
-      {
         "id": "q53",
         "type": "mcq_single",
         "prompt": "В каком случае уместно использовать Present Continuous с always?",
@@ -1313,28 +1127,6 @@
         "tags": []
       },
       {
-        "id": "q57",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в контексте жалобы: \"My boss always gives me too much work.\"",
-        "theory_block_id": "b5_theory_typical_contexts",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "always gives → is always giving",
-            "feedback": "Правильно! Для выражения жалобы нужен Present Continuous с always."
-          },
-          {
-            "id": "b",
-            "text": "gives → give",
-            "feedback": "Нет, gives правильно по форме, но для жалобы нужен Continuous."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Для выражения жалобы нужно использовать Present Continuous с always: \"My boss is always giving me too much work.\"",
-        "tags": []
-      },
-      {
         "id": "q58",
         "type": "true_false",
         "prompt": "Верно или неверно: \"The students are always asking questions\" может выражать как нейтральное описание, так и жалобу, в зависимости от контекста.",
@@ -1386,39 +1178,41 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
-      "q5",
       "q6",
       "q7",
       "q8",
       "q9",
       "q10",
-      "q11",
       "q12",
-      "q15",
+      "q13",
+      "q14",
       "q16",
       "q17",
       "q18",
-      "q19",
       "q20",
       "q21",
       "q22",
       "q23",
-      "q24",
+      "q25",
+      "q26",
       "q27",
       "q28",
       "q29",
-      "q30",
       "q31",
       "q32",
-      "q33",
+      "q34",
+      "q35",
       "q36",
       "q37",
-      "q38",
       "q39",
       "q40",
       "q41",
+      "q42",
+      "q43",
       "q44",
       "q45",
       "q46",
@@ -1427,12 +1221,10 @@
       "q49",
       "q50",
       "q51",
-      "q52",
       "q53",
       "q54",
       "q55",
       "q56",
-      "q57",
       "q58",
       "q59",
       "q60"
@@ -1450,7 +1242,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:24:01Z",
+    "updated_at": "2026-02-02T08:54:12Z",
     "source": "llm"
   }
 }
