@@ -173,30 +173,6 @@
       ]
     },
     {
-      "id": "q11",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**She teaches English. She's teaching a class right now.**",
-      "theory_block_id": "b1_theory_facts_vs_actions",
-      "difficulty": 1,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Ошибок нет. Первое предложение — факт, второе — действие сейчас.",
-          "feedback": "Правильно! Нет ошибок."
-        },
-        {
-          "id": "b",
-          "text": "Первое должно быть 'She's teaching English.'",
-          "feedback": "Нет, первое — факт о работе, правильно Simple."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Нет ошибок. Первое предложение описывает постоянный факт (Present Simple), второе — действие, происходящее сейчас (Present Continuous).",
-      "tags": [
-        "error_spotting"
-      ]
-    },
-    {
       "id": "q12",
       "type": "true_false",
       "prompt": "Различие между фактами и текущими действиями — это первое правило выбора между Present Simple и Present Continuous.",
@@ -310,7 +286,7 @@
     {
       "id": "q18",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**I'm living in Rome. (когда речь о постоянном месте жительства)**",
+      "prompt": "Выберите правильный вариант:",
       "theory_block_id": "b2_theory_permanent_vs_temporary",
       "difficulty": 2,
       "choices": [
@@ -391,31 +367,6 @@
       "tags": [
         "permanent",
         "simple"
-      ]
-    },
-    {
-      "id": "q22",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**I work in London this month. (когда речь о временной работе)**",
-      "theory_block_id": "b2_theory_permanent_vs_temporary",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I'm working in London this month.",
-          "feedback": "Правильно! Временная ситуация требует Present Continuous."
-        },
-        {
-          "id": "b",
-          "text": "Ошибок нет.",
-          "feedback": "Нет, временная ситуация с маркером 'this month' требует Continuous."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Временная ситуация с маркером времени требует Present Continuous. I'm working подходит для временной работы.",
-      "tags": [
-        "error_spotting",
-        "temporary"
       ]
     },
     {
@@ -546,44 +497,6 @@
       ]
     },
     {
-      "id": "q29",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"I ___ running in the park.\" (be)",
-      "theory_block_id": "b3_theory_state_vs_action_verbs",
-      "difficulty": 2,
-      "correct_answer": "'m",
-      "explanation": "Динамичные глаголы могут быть в Present Continuous. I'm running in the park — правильная форма.",
-      "tags": [
-        "action_verb",
-        "continuous"
-      ]
-    },
-    {
-      "id": "q30",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**I'm knowing English well.**",
-      "theory_block_id": "b3_theory_state_vs_action_verbs",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I know English well.",
-          "feedback": "Правильно! Статичный глагол know не используется в Continuous."
-        },
-        {
-          "id": "b",
-          "text": "Ошибок нет.",
-          "feedback": "Нет, статичный глагол know не используется в Continuous."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Глагол know — статичный, описывает состояние знания, не используется в Continuous. I know English well — правильный вариант.",
-      "tags": [
-        "error_spotting",
-        "state_verb"
-      ]
-    },
-    {
       "id": "q31",
       "type": "mcq_single",
       "prompt": "Какое предложение неправильное?",
@@ -670,31 +583,6 @@
       ]
     },
     {
-      "id": "q35",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**I'm wanting to go home now.**",
-      "theory_block_id": "b3_theory_state_vs_action_verbs",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I want to go home now.",
-          "feedback": "Правильно! Статичный глагол want не используется в Continuous."
-        },
-        {
-          "id": "b",
-          "text": "Ошибок нет.",
-          "feedback": "Нет, статичный глагол want не используется в Continuous."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Глагол want — статичный, описывает желание как состояние, не используется в Continuous. I want to go home now — правильный вариант.",
-      "tags": [
-        "error_spotting",
-        "state_verb"
-      ]
-    },
-    {
       "id": "q36",
       "type": "true_false",
       "prompt": "Различие между статичными и динамичными глаголами — это третье правило выбора между Present Simple и Present Continuous.",
@@ -731,19 +619,6 @@
       ],
       "correct_answer": "b",
       "explanation": "Маркер always указывает на регулярность и привычки, что требует Present Simple. I always have breakfast at 8.",
-      "tags": [
-        "time_marker",
-        "simple"
-      ]
-    },
-    {
-      "id": "q38",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"I always ___ breakfast at 8 o'clock.\" (есть, завтракать)",
-      "theory_block_id": "b4_theory_time_markers_decision",
-      "difficulty": 2,
-      "correct_answer": "have",
-      "explanation": "Маркер 'always' указывает на Present Simple. I always have breakfast at 8 o'clock.",
       "tags": [
         "time_marker",
         "simple"
@@ -790,43 +665,6 @@
       "tags": [
         "time_marker",
         "continuous"
-      ]
-    },
-    {
-      "id": "q41",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"I ___ having breakfast now. Can you wait?\" (be)",
-      "theory_block_id": "b4_theory_time_markers_decision",
-      "difficulty": 2,
-      "correct_answer": "'m",
-      "explanation": "Маркер 'now' указывает на Present Continuous. I'm having breakfast now.",
-      "tags": [
-        "time_marker",
-        "continuous"
-      ]
-    },
-    {
-      "id": "q42",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**She usually work from home, but she working at the office this week.**",
-      "theory_block_id": "b4_theory_time_markers_decision",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "She usually works from home, but she's working at the office this week.",
-          "feedback": "Правильно! Первая часть — Simple с usually, вторая — Continuous с this week."
-        },
-        {
-          "id": "b",
-          "text": "She usually works from home, but she works at the office this week.",
-          "feedback": "Нет, this week требует Continuous для временной ситуации."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Первая часть с usually требует Simple (works). Вторая с this week требует Continuous ('s working) для временной ситуации.",
-      "tags": [
-        "error_spotting"
       ]
     },
     {
@@ -902,19 +740,6 @@
       ]
     },
     {
-      "id": "q46",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"___ 1: Действие происходит прямо сейчас? Если ДА → Present Continuous.\" (название этапа)",
-      "theory_block_id": "b5_theory_decision_tree",
-      "difficulty": 1,
-      "correct_answer": "Шаг",
-      "explanation": "Первый шаг алгоритма — проверка, происходит ли действие прямо сейчас. Если да, используется Present Continuous.",
-      "tags": [
-        "algorithm",
-        "step1"
-      ]
-    },
-    {
       "id": "q47",
       "type": "true_false",
       "prompt": "Алгоритм принятия решения помогает систематически выбирать между Present Simple и Present Continuous.",
@@ -955,44 +780,6 @@
       "tags": [
         "algorithm",
         "step2"
-      ]
-    },
-    {
-      "id": "q49",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"___ 2: Это статичный глагол (know, like, want, believe)? Если ДА → Present Simple.\" (название этапа)",
-      "theory_block_id": "b5_theory_decision_tree",
-      "difficulty": 1,
-      "correct_answer": "Шаг",
-      "explanation": "Второй шаг алгоритма — проверка типа глагола. Статичные глаголы обычно требуют Present Simple.",
-      "tags": [
-        "algorithm",
-        "step2"
-      ]
-    },
-    {
-      "id": "q50",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в применении алгоритма:\n\n**Предложение: \"I'm knowing this answer.\"**\n\n**Решение: Действие происходит сейчас? Да. Значит Continuous.**",
-      "theory_block_id": "b5_theory_decision_tree",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Ошибка: пропущен шаг 2. know — статичный глагол, значит Simple: \"I know this answer.\"",
-          "feedback": "Правильно! Алгоритм нужно применять последовательно."
-        },
-        {
-          "id": "b",
-          "text": "Ошибок нет.",
-          "feedback": "Нет, алгоритм применен неполно — пропущен шаг 2."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Алгоритм нужно применять последовательно. Даже если действие \"сейчас\", статичный глагол know требует Simple.",
-      "tags": [
-        "error_spotting",
-        "algorithm"
       ]
     },
     {
@@ -1080,22 +867,9 @@
       ]
     },
     {
-      "id": "q55",
-      "type": "true_false",
-      "prompt": "Русскоязычные студенты часто путают Present Simple и Present Continuous из-за различий между русским и английским языком.",
-      "theory_block_id": "b6_theory_common_mistakes",
-      "difficulty": 1,
-      "correct_answer": "true",
-      "explanation": "Верно. В русском языке «Я работаю в банке» может звучать как процесс, но в английском это факт, требующий Simple.",
-      "tags": [
-        "common_mistake",
-        "concept"
-      ]
-    },
-    {
       "id": "q56",
       "type": "error_spotting",
-      "prompt": "Найдите типичную ошибку:\n\n**I'm knowing this place.**",
+      "prompt": "Выберите правильный вариант:",
       "theory_block_id": "b6_theory_common_mistakes",
       "difficulty": 2,
       "choices": [
@@ -1179,7 +953,7 @@
     {
       "id": "q60",
       "type": "error_spotting",
-      "prompt": "Найдите типичную ошибку:\n\n**I'm living in Tokyo. (когда речь о постоянном месте жительства)**",
+      "prompt": "Выберите правильный вариант:",
       "theory_block_id": "b6_theory_common_mistakes",
       "difficulty": 2,
       "choices": [
