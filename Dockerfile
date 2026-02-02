@@ -14,6 +14,9 @@ FROM php:8.2-fpm-alpine
 RUN apk add --no-cache nginx curl && \
     mkdir -p /var/www/html /var/lib/nginx/tmp /run/nginx
 
+# PHP error_log → stderr (для Loki)
+RUN echo 'php_admin_value[error_log] = /proc/self/fd/2' >> /usr/local/etc/php-fpm.d/www.conf
+
 COPY --from=builder /app /var/www/html
 COPY nginx.conf /etc/nginx/nginx.conf
 

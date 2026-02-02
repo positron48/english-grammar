@@ -9,7 +9,13 @@
  *   "questions": [...],
  *   "final": {...}
  * }
+ *
+ * Логи в stderr (error_log) — собираются Alloy → Loki.
  */
+function grammar_log(string $action, array $ctx = []): void {
+    $parts = array_map(fn($k, $v) => "$k=" . (is_array($v) ? json_encode($v) : (string)$v), array_keys($ctx), $ctx);
+    error_log('[GRAMMAR] ' . date('c') . " action=$action " . implode(' ', $parts));
+}
 
 header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *');
@@ -55,6 +61,7 @@ if (is_dir($chaptersDir)) {
 }
 
 if (!$chapterDir || !is_dir($chapterDir)) {
+    grammar_log('admin_update_error', ['chapter_id' => $chapterId, 'reason' => 'chapter_not_found']);
     http_response_code(404);
     echo json_encode(['error' => 'Chapter directory not found']);
     exit;
@@ -94,13 +101,18 @@ if (count($errors) === 0 && !empty($updated)) {
     $folderName = basename($chapterDir);
     $queue = file_exists($queueFile) ? (json_decode(file_get_contents($queueFile), true) ?: []) : [];
     $queue['pending'] = $queue['pending'] ?? [];
+    $queuedPaths = [];
     foreach ($updated as $f) {
-        $queue['pending']["chapters/{$folderName}/{$f}"] = 1;
+        $path = "chapters/{$folderName}/{$f}";
+        $queue['pending'][$path] = 1;
+        $queuedPaths[] = $path;
     }
     file_put_contents($queueFile, json_encode($queue, JSON_PRETTY_PRINT));
+    grammar_log('admin_update', ['chapter_id' => $chapterId, 'files' => $updated, 'queued' => $queuedPaths]);
 }
 
 if (count($errors) > 0) {
+    grammar_log('admin_update_error', ['chapter_id' => $chapterId, 'errors' => $errors]);
     http_response_code(500);
     echo json_encode(['success' => false, 'errors' => $errors, 'updated' => $updated]);
 } else {
