@@ -71,30 +71,6 @@
       ]
     },
     {
-      "id": "q4",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**He are listening to music.**",
-      "theory_block_id": "b1_theory_basic_form",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "He is listening to music.",
-          "feedback": "Правильно! С he используется is"
-        },
-        {
-          "id": "b",
-          "text": "He are listen to music.",
-          "feedback": "Нет, это неправильно"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: с he используется is, а не are. Правильно: He is listening to music.",
-      "tags": [
-        "basic_form"
-      ]
-    },
-    {
       "id": "q5",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"___ you studying?\" (be)",
@@ -180,31 +156,6 @@
       ]
     },
     {
-      "id": "q9",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**Are he working?**",
-      "theory_block_id": "b1_theory_basic_form",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Is he working?",
-          "feedback": "Правильно! С he используется is"
-        },
-        {
-          "id": "b",
-          "text": "Are he work?",
-          "feedback": "Нет, это неправильно"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: с he используется is, а не are. Правильно: Is he working?",
-      "tags": [
-        "basic_form",
-        "question"
-      ]
-    },
-    {
       "id": "q10",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"They ___ waiting for the bus.\" (be)",
@@ -248,7 +199,7 @@
     {
       "id": "q12",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**We am watching a movie.**",
+      "prompt": "Выберите правильный вариант:",
       "theory_block_id": "b1_theory_basic_form",
       "difficulty": 1,
       "choices": [
@@ -333,7 +284,7 @@
     {
       "id": "q16",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку в правописании:\n\n**I am readding a magazine.**",
+      "prompt": "Выберите правильный вариант:",
       "theory_block_id": "b2_theory_spelling_basic",
       "difficulty": 2,
       "choices": [
@@ -434,31 +385,6 @@
       ]
     },
     {
-      "id": "q20",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**We are speakking English.**",
-      "theory_block_id": "b2_theory_spelling_basic",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "We are speaking English.",
-          "feedback": "Правильно! Для speak просто добавляем -ing"
-        },
-        {
-          "id": "b",
-          "text": "We are speak English.",
-          "feedback": "Нет, нужна форма -ing"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: для speak не нужно удваивать k. Правильно: speaking (просто добавляем -ing).",
-      "tags": [
-        "spelling",
-        "basic"
-      ]
-    },
-    {
       "id": "q21",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"I am ___ dinner.\" (cook)",
@@ -515,31 +441,6 @@
       ]
     },
     {
-      "id": "q24",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**He is lookking at me.**",
-      "theory_block_id": "b2_theory_spelling_basic",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "He is looking at me.",
-          "feedback": "Правильно! Для look просто добавляем -ing"
-        },
-        {
-          "id": "b",
-          "text": "He is look at me.",
-          "feedback": "Нет, нужна форма -ing"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: для look не нужно удваивать k. Правильно: looking (просто добавляем -ing).",
-      "tags": [
-        "spelling",
-        "basic"
-      ]
-    },
-    {
       "id": "q25",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"She is ___ a letter.\" (write)",
@@ -590,31 +491,6 @@
       "difficulty": 1,
       "correct_answer": "taking",
       "explanation": "Удаляем e перед -ing: take → taking. I am taking notes.",
-      "tags": [
-        "spelling",
-        "final_e"
-      ]
-    },
-    {
-      "id": "q28",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**She is writeing a letter.**",
-      "theory_block_id": "b3_theory_spelling_final_e",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "She is writing a letter.",
-          "feedback": "Правильно! Нужно удалить e перед -ing"
-        },
-        {
-          "id": "b",
-          "text": "She is write a letter.",
-          "feedback": "Нет, нужна форма -ing"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: для глаголов на -e нужно удалить e перед -ing. Правильно: writing.",
       "tags": [
         "spelling",
         "final_e"
@@ -694,31 +570,6 @@
       ]
     },
     {
-      "id": "q32",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**He is makeing dinner.**",
-      "theory_block_id": "b3_theory_spelling_final_e",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "He is making dinner.",
-          "feedback": "Правильно! Нужно удалить e перед -ing"
-        },
-        {
-          "id": "b",
-          "text": "He is make dinner.",
-          "feedback": "Нет, нужна форма -ing"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: для make нужно удалить e перед -ing. Правильно: making.",
-      "tags": [
-        "spelling",
-        "final_e"
-      ]
-    },
-    {
       "id": "q33",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"I am ___ a cake.\" (bake)",
@@ -775,31 +626,6 @@
       ]
     },
     {
-      "id": "q36",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**She is takeing notes.**",
-      "theory_block_id": "b3_theory_spelling_final_e",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "She is taking notes.",
-          "feedback": "Правильно! Нужно удалить e перед -ing"
-        },
-        {
-          "id": "b",
-          "text": "She is take notes.",
-          "feedback": "Нет, нужна форма -ing"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: для take нужно удалить e перед -ing. Правильно: taking.",
-      "tags": [
-        "spelling",
-        "final_e"
-      ]
-    },
-    {
       "id": "q37",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"He is ___ now.\" (run)",
@@ -850,31 +676,6 @@
       "difficulty": 2,
       "correct_answer": "getting",
       "explanation": "Для get (CVC) нужно удвоить t перед -ing: get → getting.",
-      "tags": [
-        "spelling",
-        "doubling"
-      ]
-    },
-    {
-      "id": "q40",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**I am runing to the store.**",
-      "theory_block_id": "b4_theory_spelling_doubling",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I am running to the store.",
-          "feedback": "Правильно! Для run нужно удвоить n"
-        },
-        {
-          "id": "b",
-          "text": "I am run to the store.",
-          "feedback": "Нет, нужна форма -ing"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: для односложного run (CVC) нужно удвоить n перед -ing. Правильно: running.",
       "tags": [
         "spelling",
         "doubling"
@@ -956,31 +757,6 @@
       ]
     },
     {
-      "id": "q44",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**She is siting on the chair.**",
-      "theory_block_id": "b4_theory_spelling_doubling",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "She is sitting on the chair.",
-          "feedback": "Правильно! Для sit нужно удвоить t"
-        },
-        {
-          "id": "b",
-          "text": "She is sit on the chair.",
-          "feedback": "Нет, нужна форма -ing"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: для sit (CVC) нужно удвоить t перед -ing. Правильно: sitting.",
-      "tags": [
-        "spelling",
-        "doubling"
-      ]
-    },
-    {
       "id": "q45",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"I am ___ the door.\" (shut)",
@@ -1037,31 +813,6 @@
       ]
     },
     {
-      "id": "q48",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**He is geting ready.**",
-      "theory_block_id": "b4_theory_spelling_doubling",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "He is getting ready.",
-          "feedback": "Правильно! Для get нужно удвоить t"
-        },
-        {
-          "id": "b",
-          "text": "He is get ready.",
-          "feedback": "Нет, нужна форма -ing"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: для get (CVC) нужно удвоить t перед -ing. Правильно: getting.",
-      "tags": [
-        "spelling",
-        "doubling"
-      ]
-    },
-    {
       "id": "q49",
       "type": "mcq_single",
       "prompt": "Выберите правильную форму -ing от \"plan\":",
@@ -1099,31 +850,6 @@
       "difficulty": 2,
       "correct_answer": "planning",
       "explanation": "Для plan нужно удвоить n: plan → planning. We are planning a trip.",
-      "tags": [
-        "spelling",
-        "doubling"
-      ]
-    },
-    {
-      "id": "q51",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**She is stoping the car.**",
-      "theory_block_id": "b4_theory_spelling_doubling",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "She is stopping the car.",
-          "feedback": "Правильно! Для stop нужно удвоить p"
-        },
-        {
-          "id": "b",
-          "text": "She is stop the car.",
-          "feedback": "Нет, нужна форма -ing"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: для stop (CVC) нужно удвоить p перед -ing. Правильно: stopping.",
       "tags": [
         "spelling",
         "doubling"
@@ -1186,31 +912,6 @@
       ]
     },
     {
-      "id": "q55",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**He is lieing on the bed.**",
-      "theory_block_id": "b5_theory_spelling_ie",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "He is lying on the bed.",
-          "feedback": "Правильно! -ie заменяется на -y"
-        },
-        {
-          "id": "b",
-          "text": "He is lie on the bed.",
-          "feedback": "Нет, нужна форма -ing"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: для lie нужно заменить -ie на -y перед -ing. Правильно: lying.",
-      "tags": [
-        "spelling",
-        "ie_rule"
-      ]
-    },
-    {
       "id": "q56",
       "type": "mcq_single",
       "prompt": "Выберите правильную форму -ing от \"tie\":",
@@ -1254,31 +955,6 @@
       ]
     },
     {
-      "id": "q58",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**She is dieing of boredom.**",
-      "theory_block_id": "b5_theory_spelling_ie",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "She is dying of boredom.",
-          "feedback": "Правильно! -ie заменяется на -y"
-        },
-        {
-          "id": "b",
-          "text": "She is die of boredom.",
-          "feedback": "Нет, нужна форма -ing"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: для die нужно заменить -ie на -y перед -ing. Правильно: dying.",
-      "tags": [
-        "spelling",
-        "ie_rule"
-      ]
-    },
-    {
       "id": "q59",
       "type": "mcq_single",
       "prompt": "Как правильно образовать -ing от \"lie\" (лгать)?",
@@ -1316,31 +992,6 @@
       "difficulty": 3,
       "correct_answer": "lying",
       "explanation": "-ie заменяется на -y: lie → lying. He is lying about it.",
-      "tags": [
-        "spelling",
-        "ie_rule"
-      ]
-    },
-    {
-      "id": "q61",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**They are tieing the rope.**",
-      "theory_block_id": "b5_theory_spelling_ie",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "They are tying the rope.",
-          "feedback": "Правильно! -ie заменяется на -y"
-        },
-        {
-          "id": "b",
-          "text": "They are tie the rope.",
-          "feedback": "Нет, нужна форма -ing"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: для tie нужно заменить -ie на -y перед -ing. Правильно: tying.",
       "tags": [
         "spelling",
         "ie_rule"
@@ -1438,7 +1089,7 @@
     {
       "id": "q66",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку в правописании:\n\n**She is writting an email.**",
+      "prompt": "Выберите правильный вариант:",
       "theory_block_id": "b6_theory_practice_all_rules",
       "difficulty": 3,
       "choices": [
@@ -1524,32 +1175,6 @@
       ]
     },
     {
-      "id": "q70",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**The flower is dieing.**",
-      "theory_block_id": "b6_theory_practice_all_rules",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "The flower is dying.",
-          "feedback": "Правильно! -ie заменяется на -y"
-        },
-        {
-          "id": "b",
-          "text": "The flower is die.",
-          "feedback": "Нет, нужна форма -ing"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: для die нужно заменить -ie на -y перед -ing. Правильно: dying.",
-      "tags": [
-        "spelling",
-        "mixed",
-        "ie_rule"
-      ]
-    },
-    {
       "id": "q72",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"We are ___ the project.\" (begin)",
@@ -1564,32 +1189,6 @@
       ]
     },
     {
-      "id": "q73",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**He is makeing coffee.**",
-      "theory_block_id": "b6_theory_practice_all_rules",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "He is making coffee.",
-          "feedback": "Правильно! Для make удаляем e"
-        },
-        {
-          "id": "b",
-          "text": "He is make coffee.",
-          "feedback": "Нет, нужна форма -ing"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: для make нужно удалить e перед -ing. Правильно: making.",
-      "tags": [
-        "spelling",
-        "mixed",
-        "final_e"
-      ]
-    },
-    {
       "id": "q75",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"She is ___ a cake.\" (bake)",
@@ -1601,32 +1200,6 @@
         "spelling",
         "mixed",
         "final_e"
-      ]
-    },
-    {
-      "id": "q76",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**They are runing to school.**",
-      "theory_block_id": "b6_theory_practice_all_rules",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "They are running to school.",
-          "feedback": "Правильно! Для run нужно удвоить n"
-        },
-        {
-          "id": "b",
-          "text": "They are run to school.",
-          "feedback": "Нет, нужна форма -ing"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: для run (CVC) нужно удвоить n перед -ing. Правильно: running.",
-      "tags": [
-        "spelling",
-        "mixed",
-        "doubling"
       ]
     }
   ]
