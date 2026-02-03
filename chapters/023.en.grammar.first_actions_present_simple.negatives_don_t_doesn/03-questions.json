@@ -44,32 +44,6 @@
       ]
     },
     {
-      "id": "q3",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**She doesn't likes coffee.**",
-      "theory_block_id": "b1_theory_negatives_basics",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "She doesn't like coffee.",
-          "feedback": "Правильно! После doesn't глагол идет без окончания -s"
-        },
-        {
-          "id": "b",
-          "text": "She don't like coffee.",
-          "feedback": "Нет, с 'she' используется 'doesn't', а не 'don't'"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: после doesn't глагол должен идти в базовой форме без окончания -s. Правильно: 'She doesn't like coffee.'",
-      "tags": [
-        "basics",
-        "doesnt",
-        "verb_form"
-      ]
-    },
-    {
       "id": "q4",
       "type": "mcq_single",
       "prompt": "Как превратить утверждение \"They play football\" в отрицание?",
@@ -145,7 +119,7 @@
     {
       "id": "q7",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**I don't lives here.**",
+      "prompt": "Выберите правильный вариант:",
       "theory_block_id": "b1_theory_negatives_basics",
       "difficulty": 2,
       "choices": [
@@ -213,31 +187,6 @@
       "tags": [
         "basics",
         "transformation"
-      ]
-    },
-    {
-      "id": "q10",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**They don't plays tennis.**",
-      "theory_block_id": "b1_theory_negatives_basics",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "They don't play tennis.",
-          "feedback": "Правильно! После don't глагол идет без окончания -s"
-        },
-        {
-          "id": "b",
-          "text": "They doesn't play tennis.",
-          "feedback": "Нет, с 'they' используется 'don't', а не 'doesn't'"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: после don't глагол должен идти в базовой форме без окончания -s. Правильно: 'They don't play tennis.'",
-      "tags": [
-        "basics",
-        "verb_form"
       ]
     },
     {
@@ -327,31 +276,6 @@
       ]
     },
     {
-      "id": "q15",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**You doesn't like it.**",
-      "theory_block_id": "b2_theory_dont_vs_doesnt",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "You don't like it.",
-          "feedback": "Правильно! С 'you' используется 'don't', а не 'doesn't'"
-        },
-        {
-          "id": "b",
-          "text": "You not like it.",
-          "feedback": "Нет, нужен вспомогательный глагол do"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: с местоимением 'you' используется 'don't', а не 'doesn't'. Правильно: 'You don't like it.'",
-      "tags": [
-        "choice",
-        "dont"
-      ]
-    },
-    {
       "id": "q16",
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант. С каким местоимением используется doesn't?",
@@ -392,31 +316,6 @@
       "tags": [
         "choice",
         "dont"
-      ]
-    },
-    {
-      "id": "q18",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**He don't play football.**",
-      "theory_block_id": "b2_theory_dont_vs_doesnt",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "He doesn't play football.",
-          "feedback": "Правильно! С 'he' используется 'doesn't', а не 'don't'"
-        },
-        {
-          "id": "b",
-          "text": "He not play football.",
-          "feedback": "Нет, нужен вспомогательный глагол does"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: с местоимением 'he' используется 'doesn't', а не 'don't'. Правильно: 'He doesn't play football.'",
-      "tags": [
-        "choice",
-        "doesnt"
       ]
     },
     {
@@ -461,31 +360,6 @@
         "choice",
         "doesnt",
         "singular"
-      ]
-    },
-    {
-      "id": "q21",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**We doesn't like it.**",
-      "theory_block_id": "b2_theory_dont_vs_doesnt",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "We don't like it.",
-          "feedback": "Правильно! С 'we' используется 'don't', а не 'doesn't'"
-        },
-        {
-          "id": "b",
-          "text": "We not like it.",
-          "feedback": "Нет, нужен вспомогательный глагол do"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: с местоимением 'we' используется 'don't', а не 'doesn't'. Правильно: 'We don't like it.'",
-      "tags": [
-        "choice",
-        "dont"
       ]
     },
     {
@@ -624,31 +498,6 @@
       ]
     },
     {
-      "id": "q27",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**I do'nt like it.**",
-      "theory_block_id": "b3_theory_contractions",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I don't like it.",
-          "feedback": "Правильно! Апостроф ставится между n и t, а не между do и n"
-        },
-        {
-          "id": "b",
-          "text": "I do not like it.",
-          "feedback": "Это тоже правильно, но вопрос про сокращенную форму"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка в написании сокращения. Апостроф ставится между n и t: don't (не do'nt). Правильно: 'I don't like it.'",
-      "tags": [
-        "contractions",
-        "spelling"
-      ]
-    },
-    {
       "id": "q28",
       "type": "mcq_single",
       "prompt": "Выберите правильное предложение (оба варианта грамматически правильны):",
@@ -739,31 +588,6 @@
       ]
     },
     {
-      "id": "q31",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**I don't never go there.**",
-      "theory_block_id": "b4_theory_never_usage",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I never go there.",
-          "feedback": "Правильно! Never уже содержит отрицание, не нужно don't"
-        },
-        {
-          "id": "b",
-          "text": "I don't go there never.",
-          "feedback": "Нет, это тоже неправильно"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: двойное отрицание. Never уже содержит отрицание, поэтому нельзя использовать don't. Правильно: 'I never go there.'",
-      "tags": [
-        "never",
-        "double_negative"
-      ]
-    },
-    {
       "id": "q32",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"She ___ eats meat.\" (никогда не ест)",
@@ -804,32 +628,6 @@
       "tags": [
         "never",
         "correct"
-      ]
-    },
-    {
-      "id": "q34",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**She doesn't never eat meat.**",
-      "theory_block_id": "b4_theory_never_usage",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "She never eats meat.",
-          "feedback": "Правильно! Never уже содержит отрицание, не нужно doesn't, и глагол идет с -s"
-        },
-        {
-          "id": "b",
-          "text": "She don't never eat meat.",
-          "feedback": "Нет, это тоже неправильно"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: двойное отрицание. Doesn't + never — это ошибка. Правильно: 'She never eats meat.' С never не используется doesn't, и глагол идет с окончанием -s для третьего лица.",
-      "tags": [
-        "never",
-        "double_negative",
-        "third_person"
       ]
     },
     {
@@ -876,31 +674,6 @@
       ]
     },
     {
-      "id": "q37",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**We don't never watch TV.**",
-      "theory_block_id": "b4_theory_never_usage",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "We never watch TV.",
-          "feedback": "Правильно! Never уже содержит отрицание, не нужно don't"
-        },
-        {
-          "id": "b",
-          "text": "We doesn't never watch TV.",
-          "feedback": "Нет, это тоже неправильно"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: двойное отрицание. Don't + never — это ошибка. Правильно: 'We never watch TV.' Never уже содержит отрицание, поэтому не нужно добавлять don't.",
-      "tags": [
-        "never",
-        "double_negative"
-      ]
-    },
-    {
       "id": "q38",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"He ___ drinks coffee.\" (никогда не пьет)",
@@ -916,7 +689,7 @@
     {
       "id": "q39",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**I not study here.**",
+      "prompt": "Выберите правильный вариант:",
       "theory_block_id": "b5_theory_common_mistakes",
       "difficulty": 2,
       "choices": [
@@ -946,7 +719,7 @@
     {
       "id": "q43",
       "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**She never drink coffee.**",
+      "prompt": "Выберите правильный вариант:",
       "theory_block_id": "b5_theory_common_mistakes",
       "difficulty": 2,
       "choices": [
@@ -1118,31 +891,6 @@
       ]
     },
     {
-      "id": "q52",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**The dog doesn't barks at night.**",
-      "theory_block_id": "b1_theory_negatives_basics",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "The dog doesn't bark at night.",
-          "feedback": "Правильно! После doesn't глагол идет без окончания -s"
-        },
-        {
-          "id": "b",
-          "text": "The dog don't bark at night.",
-          "feedback": "Нет, с единственным числом используется doesn't"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: после doesn't глагол должен идти в базовой форме без окончания -s. Правильно: 'The dog doesn't bark at night.'",
-      "tags": [
-        "basics",
-        "verb_form"
-      ]
-    },
-    {
       "id": "q53",
       "type": "mcq_single",
       "prompt": "Выберите правильное отрицательное предложение:",
@@ -1186,31 +934,6 @@
       ]
     },
     {
-      "id": "q55",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**My parents doesn't live here.**",
-      "theory_block_id": "b2_theory_dont_vs_doesnt",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "My parents don't live here.",
-          "feedback": "Правильно! 'Parents' — множественное число, используется don't"
-        },
-        {
-          "id": "b",
-          "text": "My parents not live here.",
-          "feedback": "Нет, нужен вспомогательный глагол do"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: с существительным во множественном числе (parents) используется 'don't', а не 'doesn't'. Правильно: 'My parents don't live here.'",
-      "tags": [
-        "choice",
-        "plural"
-      ]
-    },
-    {
       "id": "q56",
       "type": "mcq_single",
       "prompt": "Выберите правильное предложение:",
@@ -1251,31 +974,6 @@
       "tags": [
         "choice",
         "dont"
-      ]
-    },
-    {
-      "id": "q58",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**The student doesn't studies hard.**",
-      "theory_block_id": "b1_theory_negatives_basics",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "The student doesn't study hard.",
-          "feedback": "Правильно! После doesn't глагол идет без окончания -s"
-        },
-        {
-          "id": "b",
-          "text": "The student don't study hard.",
-          "feedback": "Нет, с единственным числом используется doesn't"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: после doesn't глагол должен идти в базовой форме без окончания -s. Правильно: 'The student doesn't study hard.'",
-      "tags": [
-        "basics",
-        "verb_form"
       ]
     },
     {
@@ -1324,7 +1022,7 @@
     {
       "id": "q45",
       "type": "error_spotting",
-      "prompt": "Исправьте ошибку в предложении:\n\n**You doesn't need it.**",
+      "prompt": "Выберите правильный вариант:",
       "theory_block_id": "b5_theory_common_mistakes",
       "difficulty": 2,
       "choices": [
