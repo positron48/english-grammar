@@ -478,7 +478,7 @@
       {
         "id": "q6",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"___ are friends.\" в прошедшем времени.",
+        "prompt": "Выберите правильный вариант: \"They ___ friends.\" в прошедшем времени.",
         "theory_block_id": "b1_theory_was_were_basics",
         "difficulty": 2,
         "choices": [
@@ -863,19 +863,6 @@
         ]
       },
       {
-        "id": "q24",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ were at the cinema yesterday.\" (местоимение множественного числа)",
-        "theory_block_id": "b2_theory_was_were_pronouns",
-        "difficulty": 1,
-        "correct_answer": "They",
-        "explanation": "С they используется were: They were at the cinema yesterday.",
-        "tags": [
-          "were",
-          "fill_blank"
-        ]
-      },
-      {
         "id": "q25",
         "type": "mcq_single",
         "prompt": "Выберите правильный вариант вопроса:",
@@ -1080,7 +1067,7 @@
       {
         "id": "q34",
         "type": "true_false",
-        "prompt": "Верно или неверно: В вопросе \"Was you happy?\" порядок слов правильный.",
+        "prompt": "Верно или неверно: Вопрос \"Was you happy?\" построен правильно.",
         "theory_block_id": "b3_theory_was_were_questions",
         "difficulty": 2,
         "correct_answer": "false",
@@ -1191,32 +1178,6 @@
         "tags": [
           "negative",
           "weren't"
-        ]
-      },
-      {
-        "id": "q39",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"She ___ at the office yesterday.\" (not be)",
-        "theory_block_id": "b4_theory_was_were_negatives",
-        "difficulty": 1,
-        "correct_answer": "wasn't",
-        "explanation": "С she в отрицаниях используется wasn't: She wasn't at the office yesterday.",
-        "tags": [
-          "negative",
-          "fill_blank"
-        ]
-      },
-      {
-        "id": "q40",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"We ___ ready for the exam.\" (not be)",
-        "theory_block_id": "b4_theory_was_were_negatives",
-        "difficulty": 1,
-        "correct_answer": "weren't",
-        "explanation": "С we в отрицаниях используется weren't: We weren't ready for the exam.",
-        "tags": [
-          "negative",
-          "fill_blank"
         ]
       },
       {
@@ -1346,19 +1307,6 @@
         "tags": [
           "negative",
           "reorder"
-        ]
-      },
-      {
-        "id": "q47",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"It ___ sunny yesterday.\" (not be)",
-        "theory_block_id": "b4_theory_was_were_negatives",
-        "difficulty": 1,
-        "correct_answer": "wasn't",
-        "explanation": "С it в отрицаниях используется wasn't: It wasn't sunny yesterday.",
-        "tags": [
-          "negative",
-          "fill_blank"
         ]
       },
       {
@@ -1677,7 +1625,6 @@
       "q21",
       "q22",
       "q23",
-      "q24",
       "q25",
       "q26",
       "q27",
@@ -1692,15 +1639,12 @@
       "q36",
       "q37",
       "q38",
-      "q39",
-      "q40",
       "q41",
       "q42",
       "q43",
       "q44",
       "q45",
       "q46",
-      "q47",
       "q48",
       "q49",
       "q50",
@@ -1728,7 +1672,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-02-02T18:55:53Z",
+    "updated_at": "2026-02-03T08:38:00Z",
     "source": "llm"
   }
 }
