@@ -682,18 +682,6 @@
         ]
       },
       {
-        "id": "q21",
-        "type": "true_false",
-        "prompt": "Верно или неверно: В предложении \"There is my book\" притяжательное местоимение стоит после there is.",
-        "theory_block_id": "b2_theory_using_possessive_adjectives",
-        "difficulty": 2,
-        "correct_answer": "false",
-        "explanation": "Неверно. Притяжательное местоимение стоит перед существительным: There is my book (my перед book).",
-        "tags": [
-          "possessive"
-        ]
-      },
-      {
         "id": "q22",
         "type": "mcq_single",
         "prompt": "Выберите правильный вариант: \"There are ___ toys in the room.\"",
@@ -891,18 +879,6 @@
         "difficulty": 1,
         "correct_answer": "under",
         "explanation": "Предлог under описывает расположение под чем-то: There is a cat under the table.",
-        "tags": [
-          "location"
-        ]
-      },
-      {
-        "id": "q33",
-        "type": "true_false",
-        "prompt": "Верно или неверно: В предложении \"There is a lamp on the desk\" предлог стоит после существительного.",
-        "theory_block_id": "b3_theory_describing_location",
-        "difficulty": 2,
-        "correct_answer": "false",
-        "explanation": "Неверно. Предлог стоит после существительного lamp и перед местом desk: lamp on the desk.",
         "tags": [
           "location"
         ]
@@ -1112,10 +1088,10 @@
       {
         "id": "q45",
         "type": "true_false",
-        "prompt": "Верно или неверно: С числительным one используется there is, а не there are.",
+        "prompt": "Верно или неверно: С числительным one используется there are.",
         "theory_block_id": "b4_theory_counting_items",
         "difficulty": 2,
-        "correct_answer": "true",
+        "correct_answer": "false",
         "explanation": "Верно. С числительным one используется there is, так как речь идет об одном предмете: There is one door.",
         "tags": [
           "counting"
@@ -1380,6 +1356,8 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
       "q5",
@@ -1390,26 +1368,30 @@
       "q10",
       "q11",
       "q12",
+      "q13",
+      "q14",
       "q15",
       "q16",
       "q17",
       "q18",
       "q19",
       "q20",
-      "q21",
       "q22",
       "q23",
       "q24",
+      "q25",
+      "q26",
       "q27",
       "q28",
       "q29",
       "q30",
       "q31",
       "q32",
-      "q33",
       "q34",
       "q35",
       "q36",
+      "q37",
+      "q38",
       "q39",
       "q40",
       "q41",
@@ -1420,6 +1402,8 @@
       "q46",
       "q47",
       "q48",
+      "q49",
+      "q50",
       "q51",
       "q52",
       "q53",
@@ -1443,7 +1427,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-29T17:38:36Z",
+    "updated_at": "2026-02-03T05:47:55Z",
     "source": "llm"
   }
 }
