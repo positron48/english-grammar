@@ -45,27 +45,6 @@
       "explanation": "Правило для Past Simple: did not/didn't + V1. В этом утверждении описана правильная схема."
     },
     {
-      "id": "q4",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**He not finished the work.**",
-      "theory_block_id": "b1_theory_didnt_form",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "He didn't finish the work.",
-          "feedback": "Правильно: нужно did not/didn't перед V1"
-        },
-        {
-          "id": "b",
-          "text": "He wasn't finish the work.",
-          "feedback": "Нет, wasn't используется только с глаголом be"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "В Past Simple отрицание требует вспомогательного did. Нельзя просто поставить not без did. Правильная форма: didn't finish."
-    },
-    {
       "id": "q5",
       "type": "mcq_single",
       "prompt": "Какая форма отрицания звучит более разговорно?",
@@ -114,7 +93,7 @@
         },
         {
           "id": "b",
-          "text": "They not visited us.",
+          "text": "They didn't visited us.",
           "feedback": "Нет, нужен вспомогательный did"
         },
         {
@@ -134,27 +113,6 @@
       "difficulty": 2,
       "correct_answer": "false",
       "explanation": "В Past Simple not идет после did: did not/didn't. После основного глагола not не ставится."
-    },
-    {
-      "id": "q9",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**I didn't not call you.**",
-      "theory_block_id": "b1_theory_didnt_form",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I didn't call you.",
-          "feedback": "Правильно: отрицание уже выражено didn't"
-        },
-        {
-          "id": "b",
-          "text": "I did notn't call you.",
-          "feedback": "Такой формы не существует"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Двойное отрицание не нужно: didn't уже содержит not. Правильная форма: I didn't call you."
     },
     {
       "id": "q10",
@@ -181,15 +139,6 @@
       ],
       "correct_answer": "b",
       "explanation": "Отрицание в Past Simple требует didn't и базовую форму глагола. Вариант B соблюдает оба правила."
-    },
-    {
-      "id": "q11",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"Tom ___ like the soup.\" (do not, short form)",
-      "theory_block_id": "b1_theory_didnt_form",
-      "difficulty": 1,
-      "correct_answer": "didn't",
-      "explanation": "Для отрицания в Past Simple используется didn't перед основным глаголом. Здесь после подлежащего Tom ставим didn't."
     },
     {
       "id": "q12",
@@ -234,27 +183,6 @@
       "difficulty": 2,
       "correct_answer": "know",
       "explanation": "После didn't всегда идет базовая форма глагола. Для 'знать' это know, а не knew."
-    },
-    {
-      "id": "q15",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**We didn't bought tickets.**",
-      "theory_block_id": "b2_theory_base_verb_after_didnt",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "We didn't buy tickets.",
-          "feedback": "Правильно: после didn't нужна базовая форма"
-        },
-        {
-          "id": "b",
-          "text": "We don't bought tickets.",
-          "feedback": "Это Present Simple, а не Past Simple"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "После didn't используется V1, поэтому bought надо заменить на buy. Вариант A соответствует правилу."
     },
     {
       "id": "q16",
@@ -325,36 +253,6 @@
       ],
       "correct_answer": "b",
       "explanation": "В отрицании Past Simple после didn't всегда идет V1. Вариант B соответствует правилу."
-    },
-    {
-      "id": "q20",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**He didn't went to the meeting.**",
-      "theory_block_id": "b2_theory_base_verb_after_didnt",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "He didn't go to the meeting.",
-          "feedback": "Правильно: go — базовая форма"
-        },
-        {
-          "id": "b",
-          "text": "He didn't gone to the meeting.",
-          "feedback": "Неверно: gone — это V3"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "После didn't нельзя использовать V2 или V3. Правильная форма — go."
-    },
-    {
-      "id": "q21",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"I didn't ___ any photos.\" (сделать фото)",
-      "theory_block_id": "b2_theory_base_verb_after_didnt",
-      "difficulty": 2,
-      "correct_answer": "take",
-      "explanation": "После didn't глагол стоит в базовой форме, поэтому take, а не took."
     },
     {
       "id": "q22",
@@ -462,27 +360,6 @@
       "explanation": "Обстоятельство времени обычно ставится в конце. Поэтому правильное место для yesterday — конец предложения."
     },
     {
-      "id": "q28",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**She didn't on time finish the report.**",
-      "theory_block_id": "b3_theory_word_order_negatives",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "She didn't finish the report on time.",
-          "feedback": "Правильно: обстоятельство времени обычно в конце"
-        },
-        {
-          "id": "b",
-          "text": "She didn't on time finished the report.",
-          "feedback": "Неправильно: V2 после didn't"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Сначала идет didn't + V1, затем дополнение, а обстоятельство времени — в конце. Поэтому on time переносится в конец."
-    },
-    {
       "id": "q29",
       "type": "mcq_single",
       "prompt": "Выберите вариант с правильным порядком слов:",
@@ -562,27 +439,6 @@
       "explanation": "В отрицании наречие чаще стоит после основного глагола или в конце. Вариант A — самый нейтральный."
     },
     {
-      "id": "q34",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**We not didn't see him last week.**",
-      "theory_block_id": "b3_theory_word_order_negatives",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "We didn't see him last week.",
-          "feedback": "Правильно: одно отрицание с didn't"
-        },
-        {
-          "id": "b",
-          "text": "We didn't saw him last week.",
-          "feedback": "Неверно: saw — V2"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "В Past Simple отрицание выражается одним didn't. Дополнительное not не нужно, и после didn't используется V1."
-    },
-    {
       "id": "q35",
       "type": "reorder",
       "prompt": "Расставьте слова в правильном порядке:",
@@ -644,15 +500,6 @@
       "explanation": "Краткий отрицательный ответ в Past Simple: No + subject + didn't. Вариант A полностью соответствует формуле."
     },
     {
-      "id": "q38",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"Did she call you? — No, she ___.\" (do not, short form)",
-      "theory_block_id": "b4_theory_short_answers_didnt",
-      "difficulty": 2,
-      "correct_answer": "didn't",
-      "explanation": "В кратком отрицательном ответе используется didn't без основного глагола. Поэтому ответ: No, she didn't."
-    },
-    {
       "id": "q39",
       "type": "true_false",
       "prompt": "В кратком отрицательном ответе повторяется основной глагол.",
@@ -686,27 +533,6 @@
       ],
       "correct_answer": "a",
       "explanation": "В Past Simple краткий отрицательный ответ: No + subject + didn't. Вариант A соблюдает правило."
-    },
-    {
-      "id": "q41",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в ответе:\n\n**Did they arrive on time? — No, they didn't arrived.**",
-      "theory_block_id": "b4_theory_short_answers_didnt",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Did they arrive on time? — No, they didn't.",
-          "feedback": "Правильно: в кратком ответе нет основного глагола"
-        },
-        {
-          "id": "b",
-          "text": "Did they arrived on time? — No, they didn't.",
-          "feedback": "Неверно: в вопросе должен быть V1"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "В кратком отрицательном ответе основной глагол не повторяется. Нужно: No, they didn't."
     },
     {
       "id": "q42",
@@ -776,27 +602,6 @@
       "explanation": "Краткий отрицательный ответ на вопросы с did: No, she didn't. Другие варианты нарушают форму."
     },
     {
-      "id": "q46",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в ответе:\n\n**Did you see the email? — No, I didn't saw it.**",
-      "theory_block_id": "b4_theory_short_answers_didnt",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Did you see the email? — No, I didn't.",
-          "feedback": "Верно: основной глагол не нужен"
-        },
-        {
-          "id": "b",
-          "text": "Did you saw the email? — No, I didn't.",
-          "feedback": "Неверно: в вопросе должен быть V1"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "В кратком отрицательном ответе не повторяется основной глагол. Поэтому корректно: No, I didn't."
-    },
-    {
       "id": "q47",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"Did they come early? — No, they ___.\" (do not, short form)",
@@ -855,27 +660,6 @@
       "explanation": "Глагол be в прошедшем отрицается через wasn't/weren't без did. Поэтому правильный вариант — He wasn't tired."
     },
     {
-      "id": "q50",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении:\n\n**She didn't be at work yesterday.**",
-      "theory_block_id": "b5_theory_be_vs_didnt",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "She wasn't at work yesterday.",
-          "feedback": "Правильно: отрицание с was"
-        },
-        {
-          "id": "b",
-          "text": "She didn't be at work yesterday.",
-          "feedback": "Это исходная неверная форма"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "С глаголом be в прошедшем используется was not/wasn't. Вариант A исправляет ошибку."
-    },
-    {
       "id": "q51",
       "type": "true_false",
       "prompt": "Для отрицания was/were вспомогательный did не нужен.",
@@ -887,7 +671,7 @@
     {
       "id": "q52",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"We ___ at the meeting last week.\" (be, we)",
+      "prompt": "Заполните пропуск: \"We ___ at the meeting last week.\" (be, отрицание)",
       "theory_block_id": "b5_theory_be_vs_didnt",
       "difficulty": 2,
       "correct_answer": "weren't",
