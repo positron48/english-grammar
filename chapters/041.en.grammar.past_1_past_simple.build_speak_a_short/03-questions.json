@@ -1,32 +1,6 @@
 {
   "questions": [
     {
-      "id": "q1",
-      "type": "mcq_single",
-      "prompt": "Что лучше всего подходит для начала короткого рассказа?",
-      "theory_block_id": "b1_theory_story_structure",
-      "difficulty": 1,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Last weekend, I went to the sea.",
-          "feedback": "Да, это задает контекст"
-        },
-        {
-          "id": "b",
-          "text": "Finally, I was happy.",
-          "feedback": "Это скорее завершение"
-        },
-        {
-          "id": "c",
-          "text": "Because I like it.",
-          "feedback": "Это не начало истории"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Начало истории обычно дает контекст: когда и где. Вариант A делает это."
-    },
-    {
       "id": "q2",
       "type": "true_false",
       "prompt": "Короткий рассказ должен иметь начало, середину и конец.",
@@ -43,27 +17,6 @@
       "difficulty": 2,
       "correct_answer": "went",
       "explanation": "Для Past Simple нужен V2: go → went."
-    },
-    {
-      "id": "q4",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в структуре:\n\n**Finally, we woke up. Then we went to bed.**",
-      "theory_block_id": "b1_theory_story_structure",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "We woke up. Then we had breakfast. Finally, we went to bed.",
-          "feedback": "Правильно: последовательность логична"
-        },
-        {
-          "id": "b",
-          "text": "Finally, we woke up. Then we went to bed.",
-          "feedback": "Неверно: финал не может быть началом"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Finally обычно завершает историю. В исходном варианте финал стоит в начале."
     },
     {
       "id": "q5",
@@ -145,27 +98,6 @@
       "explanation": "Да, даже короткий текст выглядит цельным при четкой структуре."
     },
     {
-      "id": "q10",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в логике:\n\n**We came home. Finally, we woke up.**",
-      "theory_block_id": "b1_theory_story_structure",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "We woke up. Then we came home.",
-          "feedback": "Правильно: порядок событий логичный"
-        },
-        {
-          "id": "b",
-          "text": "We came home. Finally, we woke up.",
-          "feedback": "Неверно: awake должен быть раньше"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "В финале не ставят событие, которое логически происходит раньше."
-    },
-    {
       "id": "q11",
       "type": "mcq_single",
       "prompt": "Какое слово лучше связывает события по порядку?",
@@ -208,27 +140,6 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Finally обычно стоит перед последним событием."
-    },
-    {
-      "id": "q14",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в связках:\n\n**Then we arrived. Yesterday we left home.**",
-      "theory_block_id": "b2_theory_time_sequence",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Yesterday we left home. Then we arrived.",
-          "feedback": "Правильно: порядок событий логичный"
-        },
-        {
-          "id": "b",
-          "text": "Then we arrived. Yesterday we left home.",
-          "feedback": "Неверно: then должно быть после первого события"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Сначала указываем первое событие, потом используем then."
     },
     {
       "id": "q15",
@@ -362,15 +273,6 @@
       "explanation": "Past Simple требует V2: find → found."
     },
     {
-      "id": "q22",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"We ___ not see the sign.\" (do, past)",
-      "theory_block_id": "b3_theory_past_simple_accuracy",
-      "difficulty": 2,
-      "correct_answer": "did",
-      "explanation": "Отрицание в Past Simple строится с did + not: did not see."
-    },
-    {
       "id": "q23",
       "type": "true_false",
       "prompt": "В отрицании Past Simple основной глагол стоит в V1.",
@@ -378,27 +280,6 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "После didn't используется базовая форма глагола."
-    },
-    {
-      "id": "q24",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в Past Simple:\n\n**He didn't went to the cafe.**",
-      "theory_block_id": "b3_theory_past_simple_accuracy",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "He didn't go to the cafe.",
-          "feedback": "Правильно: V1 после didn't"
-        },
-        {
-          "id": "b",
-          "text": "He didn't went to the cafe.",
-          "feedback": "Неверно: went это V2"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "После didn't используется V1, поэтому go, а не went."
     },
     {
       "id": "q25",
@@ -445,27 +326,6 @@
       "explanation": "Did обязателен для вопросов в Past Simple."
     },
     {
-      "id": "q28",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в форме:\n\n**They didn't found the keys.**",
-      "theory_block_id": "b3_theory_past_simple_accuracy",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "They didn't find the keys.",
-          "feedback": "Правильно: V1 после didn't"
-        },
-        {
-          "id": "b",
-          "text": "They didn't found the keys.",
-          "feedback": "Неверно: found это V2"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "В отрицании используется V1: find."
-    },
-    {
       "id": "q29",
       "type": "mcq_single",
       "prompt": "Какое предложение с Past Simple правильно?",
@@ -501,32 +361,6 @@
       "explanation": "Вопрос: Did + subject + V1 + time marker."
     },
     {
-      "id": "q31",
-      "type": "mcq_single",
-      "prompt": "Какое предложение показывает разнообразие типов?",
-      "theory_block_id": "b4_theory_story_variety",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "We left early. We didn't take a taxi. Did we miss the bus?",
-          "feedback": "Да: есть утверждение, отрицание и вопрос"
-        },
-        {
-          "id": "b",
-          "text": "We left early. We left early. We left early.",
-          "feedback": "Нет разнообразия"
-        },
-        {
-          "id": "c",
-          "text": "We will leave early. We will leave early.",
-          "feedback": "Это будущее время"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Разнообразие типов делает рассказ живым. Вариант A содержит разные формы."
-    },
-    {
       "id": "q32",
       "type": "true_false",
       "prompt": "Смешивание утверждений, отрицаний и вопросов делает историю менее естественной.",
@@ -536,39 +370,9 @@
       "explanation": "Наоборот, разные типы предложений делают рассказ живее и естественнее."
     },
     {
-      "id": "q33",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"We ___ not find a hotel, so we camped.\" (do, past)",
-      "theory_block_id": "b4_theory_story_variety",
-      "difficulty": 2,
-      "correct_answer": "did",
-      "explanation": "Отрицание Past Simple: did not + V1."
-    },
-    {
-      "id": "q34",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в разнообразии:\n\n**We walked to the park. We walked to the park. We walked to the park.**",
-      "theory_block_id": "b4_theory_story_variety",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "We walked to the park. We didn't see anyone. Did we go too early?",
-          "feedback": "Правильно: есть разнообразие форм"
-        },
-        {
-          "id": "b",
-          "text": "We walked to the park. We walked to the park. We walked to the park.",
-          "feedback": "Неверно: повтор без разнообразия"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Для естественного рассказа нужны разные типы предложений, а не повтор."
-    },
-    {
       "id": "q35",
       "type": "mcq_single",
-      "prompt": "Какой вопрос делает историю более живой?",
+      "prompt": "Какой вариант делает историю более живой?",
       "theory_block_id": "b4_theory_story_variety",
       "difficulty": 2,
       "choices": [
@@ -608,36 +412,6 @@
       "difficulty": 1,
       "correct_answer": "false",
       "explanation": "История звучит живее, если есть отрицания и вопросы."
-    },
-    {
-      "id": "q38",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в вопросе:\n\n**Did you went there?**",
-      "theory_block_id": "b4_theory_story_variety",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Did you go there?",
-          "feedback": "Правильно: V1 после did"
-        },
-        {
-          "id": "b",
-          "text": "Did you went there?",
-          "feedback": "Неверно: went это V2"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "После did используется базовая форма go."
-    },
-    {
-      "id": "q39",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"We ___ not buy tickets.\" (do, past)",
-      "theory_block_id": "b4_theory_story_variety",
-      "difficulty": 2,
-      "correct_answer": "did",
-      "explanation": "Отрицание Past Simple строится с did not."
     },
     {
       "id": "q40",
@@ -684,27 +458,6 @@
       "explanation": "Past Simple правильного глагола: arrive → arrived."
     },
     {
-      "id": "q43",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в финале:\n\n**In the end, we are happy.**",
-      "theory_block_id": "b5_theory_closing",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "In the end, we were happy.",
-          "feedback": "Правильно: Past Simple"
-        },
-        {
-          "id": "b",
-          "text": "In the end, we are happy.",
-          "feedback": "Неверно: время должно быть прошлым"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "История в прошлом требует Past Simple: we were happy."
-    },
-    {
       "id": "q44",
       "type": "reorder",
       "prompt": "Расставьте слова в правильном порядке:",
@@ -749,62 +502,6 @@
       "explanation": "Да, короткая фраза вполне подходит для завершения."
     },
     {
-      "id": "q47",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"Finally, we ___ the bus and went home.\" (catch)",
-      "theory_block_id": "b5_theory_closing",
-      "difficulty": 2,
-      "correct_answer": "caught",
-      "explanation": "Past Simple глагола catch — caught."
-    },
-    {
-      "id": "q48",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в завершении:\n\n**In the end, we feel happy.**",
-      "theory_block_id": "b5_theory_closing",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "In the end, we felt happy.",
-          "feedback": "Правильно: Past Simple"
-        },
-        {
-          "id": "b",
-          "text": "In the end, we feel happy.",
-          "feedback": "Неверно: настоящее время"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "В истории в прошлом финальная фраза тоже должна быть в Past Simple."
-    },
-    {
-      "id": "q49",
-      "type": "mcq_single",
-      "prompt": "Какой вариант дает контекст в начале истории?",
-      "theory_block_id": "b1_theory_story_structure",
-      "difficulty": 1,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Yesterday, I visited my grandma.",
-          "feedback": "Да, есть время и действие"
-        },
-        {
-          "id": "b",
-          "text": "Finally, I went to sleep.",
-          "feedback": "Это завершение, не начало"
-        },
-        {
-          "id": "c",
-          "text": "Because I was tired.",
-          "feedback": "Это причина, а не контекст"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Начало истории обычно содержит время и место/событие, как в варианте A."
-    },
-    {
       "id": "q50",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"At the end, we ___ home.\" (come)",
@@ -812,53 +509,6 @@
       "difficulty": 2,
       "correct_answer": "came",
       "explanation": "Past Simple глагола come — came."
-    },
-    {
-      "id": "q51",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в последовательности:\n\n**Finally, we met our friends. Then we woke up.**",
-      "theory_block_id": "b2_theory_time_sequence",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "We woke up. Then we met our friends. Finally, we went home.",
-          "feedback": "Правильно: порядок событий логичный"
-        },
-        {
-          "id": "b",
-          "text": "Finally, we met our friends. Then we woke up.",
-          "feedback": "Неверно: final не может быть первым"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Finally используется для финала, поэтому сначала должно быть первое событие."
-    },
-    {
-      "id": "q52",
-      "type": "mcq_single",
-      "prompt": "Какой маркер лучше всего подходит для последнего события?",
-      "theory_block_id": "b2_theory_time_sequence",
-      "difficulty": 1,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Finally",
-          "feedback": "Да, это маркер завершения"
-        },
-        {
-          "id": "b",
-          "text": "Then",
-          "feedback": "Это промежуточный шаг"
-        },
-        {
-          "id": "c",
-          "text": "Yesterday",
-          "feedback": "Это просто время, не порядок"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Finally вводит последнюю часть истории."
     },
     {
       "id": "q53",
@@ -894,53 +544,6 @@
       ],
       "correct_answer": "a",
       "explanation": "В отрицании Past Simple используется didn't + V1."
-    },
-    {
-      "id": "q55",
-      "type": "mcq_single",
-      "prompt": "Какой вариант делает рассказ более разнообразным?",
-      "theory_block_id": "b4_theory_story_variety",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "We left. We didn't find the station. Did we take the wrong road?",
-          "feedback": "Да, есть разные типы предложений"
-        },
-        {
-          "id": "b",
-          "text": "We left. We left. We left.",
-          "feedback": "Нет разнообразия"
-        },
-        {
-          "id": "c",
-          "text": "We will leave. We will leave.",
-          "feedback": "Это будущее время"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Смешивание утверждений, отрицаний и вопросов делает историю естественнее."
-    },
-    {
-      "id": "q56",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в вопросе:\n\n**Did you watched the show?**",
-      "theory_block_id": "b4_theory_story_variety",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Did you watch the show?",
-          "feedback": "Правильно: V1 после did"
-        },
-        {
-          "id": "b",
-          "text": "Did you watched the show?",
-          "feedback": "Неверно: watched это V2"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "После did используется базовая форма глагола."
     },
     {
       "id": "q57",
@@ -985,27 +588,6 @@
       ],
       "correct_answer": "a",
       "explanation": "Фраза In the end подводит итог истории."
-    },
-    {
-      "id": "q60",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в финале:\n\n**Finally, we arrive home.**",
-      "theory_block_id": "b5_theory_closing",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Finally, we arrived home.",
-          "feedback": "Правильно: Past Simple"
-        },
-        {
-          "id": "b",
-          "text": "Finally, we arrive home.",
-          "feedback": "Неверно: настоящее время"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Финальная фраза истории должна быть в Past Simple."
     }
   ]
 }
