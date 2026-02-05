@@ -370,17 +370,17 @@
       "choices": [
         {
           "id": "a",
-          "text": "cut-cut-cut, put-put-put, hit-hit-hit",
+          "text": "cut, put, hit",
           "feedback": "Правильно! Эти глаголы имеют одинаковые формы"
         },
         {
           "id": "b",
-          "text": "sing-sang-sung, drink-drank-drunk",
+          "text": "sing, drink",
           "feedback": "Нет, эти глаголы меняют форму"
         },
         {
           "id": "c",
-          "text": "send-sent-sent, build-built-built",
+          "text": "send, build",
           "feedback": "Нет, эти глаголы меняют -d на -t"
         }
       ],
@@ -486,17 +486,17 @@
       "choices": [
         {
           "id": "a",
-          "text": "sing-sang-sung, drink-drank-drunk",
+          "text": "sing, drink",
           "feedback": "Правильно! Эти глаголы имеют паттерн i-a-u"
         },
         {
           "id": "b",
-          "text": "cut-cut-cut, put-put-put",
+          "text": "cut, put",
           "feedback": "Нет, эти глаголы имеют одинаковые формы"
         },
         {
           "id": "c",
-          "text": "send-sent-sent, build-built-built",
+          "text": "send, build",
           "feedback": "Нет, эти глаголы меняют -d на -t"
         }
       ],
@@ -542,17 +542,17 @@
       "choices": [
         {
           "id": "a",
-          "text": "send-sent-sent, build-built-built",
+          "text": "send, build",
           "feedback": "Правильно! Эти глаголы меняют -d на -t"
         },
         {
           "id": "b",
-          "text": "cut-cut-cut, put-put-put",
+          "text": "cut, put",
           "feedback": "Нет, эти глаголы имеют одинаковые формы"
         },
         {
           "id": "c",
-          "text": "sing-sang-sung, drink-drank-drunk",
+          "text": "sing, drink",
           "feedback": "Нет, эти глаголы меняют гласную"
         }
       ],
@@ -628,15 +628,15 @@
       "choices": [
         {
           "id": "a",
-          "text": "let-let-let, set-set-set, cost-cost-cost"
+          "text": "let, set, cost"
         },
         {
           "id": "b",
-          "text": "sing-sang-sung, drink-drank-drunk"
+          "text": "sing, drink"
         },
         {
           "id": "c",
-          "text": "go-went-gone, see-saw-seen"
+          "text": "go, see"
         }
       ],
       "correct_answer": "a",
@@ -668,17 +668,17 @@
       "choices": [
         {
           "id": "a",
-          "text": "sing-sang-sung, drink-drank-drunk, ring-rang-rung",
+          "text": "sing, drink, ring",
           "feedback": "Правильно! Эти глаголы имеют паттерн i-a-u"
         },
         {
           "id": "b",
-          "text": "cut-cut-cut, put-put-put",
+          "text": "cut, put",
           "feedback": "Нет, эти глаголы имеют одинаковые формы"
         },
         {
           "id": "c",
-          "text": "send-sent-sent, build-built-built",
+          "text": "send, build",
           "feedback": "Нет, эти глаголы меняют -d на -t"
         }
       ],
@@ -711,17 +711,17 @@
       "choices": [
         {
           "id": "a",
-          "text": "send-sent-sent, build-built-built, bend-bent-bent",
+          "text": "send, build, bend",
           "feedback": "Правильно! Эти глаголы меняют -d на -t"
         },
         {
           "id": "b",
-          "text": "cut-cut-cut, put-put-put",
+          "text": "cut, put",
           "feedback": "Нет, эти глаголы имеют одинаковые формы"
         },
         {
           "id": "c",
-          "text": "come-came-come, run-ran-run",
+          "text": "come, run",
           "feedback": "Нет, эти глаголы относятся к другой группе"
         }
       ],
@@ -746,36 +746,6 @@
       ]
     },
     {
-      "id": "q35",
-      "type": "mcq_single",
-      "prompt": "Какие глаголы относятся к группе с одинаковыми формами V2 и V3?",
-      "theory_block_id": "b3_theory_common_groups",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "buy-bought-bought, think-thought-thought",
-          "feedback": "Правильно! У этих глаголов V2 и V3 одинаковые"
-        },
-        {
-          "id": "b",
-          "text": "cut-cut-cut, put-put-put",
-          "feedback": "Нет, у этих глаголов все формы одинаковые"
-        },
-        {
-          "id": "c",
-          "text": "sing-sang-sung, drink-drank-drunk",
-          "feedback": "Нет, у этих глаголов все формы разные"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Группа 4 с одинаковыми V2 и V3 включает: buy-bought-bought, think-thought-thought, bring-brought-brought, teach-taught-taught.",
-      "tags": [
-        "groups",
-        "patterns"
-      ]
-    },
-    {
       "id": "q36",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"I ___ a new book yesterday.\" (buy)",
@@ -786,36 +756,6 @@
       "tags": [
         "groups",
         "fill_blank"
-      ]
-    },
-    {
-      "id": "q37",
-      "type": "mcq_single",
-      "prompt": "Какие глаголы относятся к группе с одинаковыми формами V1 и V3?",
-      "theory_block_id": "b3_theory_common_groups",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "come-came-come, run-ran-run, become-became-become",
-          "feedback": "Правильно! У этих глаголов V1 и V3 одинаковые"
-        },
-        {
-          "id": "b",
-          "text": "cut-cut-cut, put-put-put",
-          "feedback": "Нет, у этих глаголов все формы одинаковые"
-        },
-        {
-          "id": "c",
-          "text": "buy-bought-bought, think-thought-thought",
-          "feedback": "Нет, у этих глаголов V2 и V3 одинаковые"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Группа 5 с одинаковыми V1 и V3 включает: come-came-come, run-ran-run, become-became-become. V2 отличается от V1 и V3.",
-      "tags": [
-        "groups",
-        "patterns"
       ]
     },
     {
@@ -853,17 +793,17 @@
       "choices": [
         {
           "id": "a",
-          "text": "be-was/were-been, go-went-gone, do-did-done, see-saw-seen",
+          "text": "be, go, do, see",
           "feedback": "Правильно! Эти глаголы имеют полностью разные формы"
         },
         {
           "id": "b",
-          "text": "cut-cut-cut, put-put-put",
+          "text": "cut, put",
           "feedback": "Нет, у этих глаголов все формы одинаковые"
         },
         {
           "id": "c",
-          "text": "buy-bought-bought, think-thought-thought",
+          "text": "buy, think",
           "feedback": "Нет, у этих глаголов V2 и V3 одинаковые"
         }
       ],
@@ -872,36 +812,6 @@
       "tags": [
         "groups",
         "patterns"
-      ]
-    },
-    {
-      "id": "q41",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в группировке: \"Глаголы cut, put, hit относятся к группе с изменением гласной i-a-u.\"",
-      "theory_block_id": "b3_theory_common_groups",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Они относятся к группе с одинаковыми формами, а не к группе i-a-u",
-          "feedback": "Правильно! cut-cut-cut, put-put-put относятся к группе 1"
-        },
-        {
-          "id": "b",
-          "text": "Группировка правильная",
-          "feedback": "Нет, эти глаголы имеют одинаковые формы"
-        },
-        {
-          "id": "c",
-          "text": "Они относятся к группе с -d→-t",
-          "feedback": "Нет, они имеют одинаковые формы"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: cut, put, hit относятся к группе 1 с одинаковыми формами (cut-cut-cut, put-put-put), а не к группе с изменением гласной i-a-u.",
-      "tags": [
-        "groups",
-        "error_spotting"
       ]
     },
     {
@@ -1028,36 +938,6 @@
       ]
     },
     {
-      "id": "q50",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в предложении: \"Did you seed that movie yesterday?\"",
-      "theory_block_id": "b4_theory_most_common_irregulars",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "seed → saw",
-          "feedback": "Правильно! see — неправильный глагол, его форма прошедшего времени — saw"
-        },
-        {
-          "id": "b",
-          "text": "yesterday → today",
-          "feedback": "Нет, ошибка в форме глагола"
-        },
-        {
-          "id": "c",
-          "text": "Нет ошибки",
-          "feedback": "Нет, есть ошибка в форме глагола"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Ошибка: seed → saw. Глагол see — неправильный, его прошедшее время — saw (а не seed).",
-      "tags": [
-        "common_verbs",
-        "error_spotting"
-      ]
-    },
-    {
       "id": "q51",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"I ___ him before.\" (know)",
@@ -1157,48 +1037,6 @@
       ]
     },
     {
-      "id": "q56",
-      "type": "true_false",
-      "prompt": "Верно или неверно: Глаголы be, have, go используются редко в повседневной речи.",
-      "theory_block_id": "b4_theory_most_common_irregulars",
-      "difficulty": 1,
-      "correct_answer": "false",
-      "explanation": "Неверно. Глаголы be, have, go — самые частые неправильные глаголы и используются постоянно в повседневной речи. Их нужно знать в первую очередь.",
-      "tags": [
-        "common_verbs",
-        "true_false"
-      ]
-    },
-    {
-      "id": "q57",
-      "type": "mcq_single",
-      "prompt": "Какая стратегия запоминания неправильных глаголов наиболее эффективна?",
-      "theory_block_id": "b5_theory_memory_strategies",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Изучение в контексте предложений, группировка по паттернам, регулярное повторение, практика",
-          "feedback": "Правильно! Комплексный подход наиболее эффективен"
-        },
-        {
-          "id": "b",
-          "text": "Только заучивание списков",
-          "feedback": "Нет, это менее эффективно"
-        },
-        {
-          "id": "c",
-          "text": "Изучение без повторения",
-          "feedback": "Нет, повторение важно для запоминания"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Наиболее эффективна комплексная стратегия: изучение в контексте предложений, группировка по паттернам, регулярное повторение и практика через упражнения и использование в речи.",
-      "tags": [
-        "memory_strategies"
-      ]
-    },
-    {
       "id": "q58",
       "type": "true_false",
       "prompt": "Верно или неверно: Использование глаголов в контексте предложений помогает лучше запомнить их формы, чем механическое заучивание.",
@@ -1254,35 +1092,6 @@
       ]
     },
     {
-      "id": "q61",
-      "type": "mcq_single",
-      "prompt": "С чего рекомендуется начать изучение неправильных глаголов?",
-      "theory_block_id": "b5_theory_memory_strategies",
-      "difficulty": 1,
-      "choices": [
-        {
-          "id": "a",
-          "text": "С самых употребительных глаголов (be, have, go, do, say)",
-          "feedback": "Правильно! Начните с частых глаголов"
-        },
-        {
-          "id": "b",
-          "text": "С редко используемых глаголов",
-          "feedback": "Нет, лучше начать с частых"
-        },
-        {
-          "id": "c",
-          "text": "С заучивания всего списка сразу",
-          "feedback": "Нет, лучше начинать постепенно"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Рекомендуется начать с самых употребительных неправильных глаголов (be, have, go, do, say, get, come, see, know, think), а затем добавлять другие по мере необходимости.",
-      "tags": [
-        "memory_strategies"
-      ]
-    },
-    {
       "id": "q62",
       "type": "true_false",
       "prompt": "Верно или неверно: Практика через упражнения и использование в речи — лучший способ закрепления неправильных глаголов.",
@@ -1322,36 +1131,6 @@
       "explanation": "Практика через решение упражнений, где нужно использовать V2 неправильных глаголов в контексте, и применение изученных глаголов в собственных предложениях и диалогах помогает лучше запомнить.",
       "tags": [
         "memory_strategies"
-      ]
-    },
-    {
-      "id": "q64",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в подходе: \"Я буду заучивать неправильные глаголы без контекста и без практики.\"",
-      "theory_block_id": "b5_theory_memory_strategies",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Лучше изучать в контексте и практиковать через упражнения",
-          "feedback": "Правильно! Контекст и практика важны"
-        },
-        {
-          "id": "b",
-          "text": "Подход правильный",
-          "feedback": "Нет, контекст и практика важны"
-        },
-        {
-          "id": "c",
-          "text": "Нужно только заучивать",
-          "feedback": "Нет, практика важна"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Лучше изучать неправильные глаголы в контексте предложений и практиковать через упражнения и использование в речи, а не просто заучивать формы без контекста.",
-      "tags": [
-        "memory_strategies",
-        "error_spotting"
       ]
     },
     {
@@ -1426,19 +1205,6 @@
       ]
     },
     {
-      "id": "q68",
-      "type": "true_false",
-      "prompt": "Верно или неверно: Использование только одного метода (например, только заучивание) так же эффективно, как комплексная стратегия.",
-      "theory_block_id": "b5_theory_memory_strategies",
-      "difficulty": 1,
-      "correct_answer": "false",
-      "explanation": "Неверно. Комплексная стратегия, включающая изучение в контексте, группировку по паттернам, регулярное повторение и практику, более эффективна для запоминания, чем использование только одного метода.",
-      "tags": [
-        "memory_strategies",
-        "true_false"
-      ]
-    },
-    {
       "id": "q69",
       "type": "mcq_single",
       "prompt": "Какой пример показывает эффективное использование неправильных глаголов в контексте?",
@@ -1465,19 +1231,6 @@
       "explanation": "Пример \"Yesterday I went to the store, bought some food, and came home\" показывает эффективное использование нескольких неправильных глаголов в контексте одного предложения.",
       "tags": [
         "memory_strategies"
-      ]
-    },
-    {
-      "id": "q70",
-      "type": "true_false",
-      "prompt": "Верно или неверно: После изучения неправильных глаголов повторение и практика не обязательны.",
-      "theory_block_id": "b5_theory_memory_strategies",
-      "difficulty": 1,
-      "correct_answer": "false",
-      "explanation": "Неверно. После изучения неправильных глаголов важно регулярно их повторять через определенные интервалы и применять на практике через упражнения и использование в речи. Повторение и практика критически важны для долгосрочного запоминания.",
-      "tags": [
-        "memory_strategies",
-        "true_false"
       ]
     }
   ]
