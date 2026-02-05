@@ -1,32 +1,6 @@
 {
   "questions": [
     {
-      "id": "q1",
-      "type": "mcq_single",
-      "prompt": "Выберите предложение, где used to показывает, что ситуация изменилась.",
-      "theory_block_id": "b1_theory_used_to_meaning",
-      "difficulty": 1,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I used to live in Rome, but now I live in Madrid.",
-          "feedback": "Верно: used to + контраст с настоящим"
-        },
-        {
-          "id": "b",
-          "text": "I live in Rome every summer.",
-          "feedback": "Это настоящее повторяющееся действие"
-        },
-        {
-          "id": "c",
-          "text": "I will live in Rome next year.",
-          "feedback": "Это будущее, не прошлое"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Used to описывает прошлую привычку или состояние, которое уже изменилось. Вариант A прямо показывает контраст с настоящим."
-    },
-    {
       "id": "q2",
       "type": "true_false",
       "prompt": "Used to используется, когда действие происходило раньше, но больше не происходит.",
@@ -45,27 +19,6 @@
       "explanation": "В утвердительном предложении используется форма used to. Поэтому нужно used."
     },
     {
-      "id": "q4",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в использовании used to:\n\n**He used to now play football.**",
-      "theory_block_id": "b1_theory_used_to_meaning",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "He used to play football, but now he doesn't.",
-          "feedback": "Правильно: used to показывает прошлую привычку"
-        },
-        {
-          "id": "b",
-          "text": "He used to now play football.",
-          "feedback": "Неверно: now противоречит значению used to"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Used to не сочетается с now, потому что описывает прошлое, которое изменилось. Нужен контраст: used to ..., but now ...."
-    },
-    {
       "id": "q5",
       "type": "mcq_single",
       "prompt": "Как лучше передать мысль: \"Раньше у меня были длинные волосы\"?",
@@ -79,7 +32,7 @@
         },
         {
           "id": "b",
-          "text": "I have long hair now.",
+          "text": "I have long hair then.",
           "feedback": "Это настоящее время"
         },
         {
@@ -145,53 +98,6 @@
       "explanation": "Used to применяется и к состояниям: used to be shy, used to live in a town."
     },
     {
-      "id": "q10",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в значении:\n\n**I used to live here now.**",
-      "theory_block_id": "b1_theory_used_to_meaning",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I used to live here, but now I live elsewhere.",
-          "feedback": "Правильно: used to требует контраста с настоящим"
-        },
-        {
-          "id": "b",
-          "text": "I used to live here now.",
-          "feedback": "Неверно: now противоречит used to"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Used to не совместим с now без контраста. Нужно показать, что это было раньше."
-    },
-    {
-      "id": "q11",
-      "type": "mcq_single",
-      "prompt": "Какое предложение правильно отражает идею used to?",
-      "theory_block_id": "b1_theory_used_to_meaning",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "She used to be shy, but now she's confident.",
-          "feedback": "Верно: прошлое состояние изменилось"
-        },
-        {
-          "id": "b",
-          "text": "She is shy now.",
-          "feedback": "Это настоящее состояние"
-        },
-        {
-          "id": "c",
-          "text": "She will be shy next week.",
-          "feedback": "Это будущее состояние"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Used to показывает прошлое состояние и контраст с настоящим. Вариант A соответствует этой идее."
-    },
-    {
       "id": "q12",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"He ___ to be a chef.\" (use)",
@@ -243,27 +149,6 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Used to сочетается с V1: used to work, used to be."
-    },
-    {
-      "id": "q16",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в форме:\n\n**We used to went there.**",
-      "theory_block_id": "b2_theory_used_to_form",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "We used to go there.",
-          "feedback": "Правильно: после used to нужна V1"
-        },
-        {
-          "id": "b",
-          "text": "We used to went there.",
-          "feedback": "Неверно: went это V2"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "После used to используется базовая форма, поэтому go, а не went."
     },
     {
       "id": "q17",
@@ -345,27 +230,6 @@
       "explanation": "Вариант A соответствует правилу used to + V1."
     },
     {
-      "id": "q22",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в форме:\n\n**She used to wrote poems.**",
-      "theory_block_id": "b2_theory_used_to_form",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "She used to write poems.",
-          "feedback": "Правильно: write — V1"
-        },
-        {
-          "id": "b",
-          "text": "She used to wrote poems.",
-          "feedback": "Неверно: wrote это V2"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "После used to нужна базовая форма глагола, поэтому write."
-    },
-    {
       "id": "q23",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"He ___ to be late for meetings.\" (use)",
@@ -410,15 +274,6 @@
       "explanation": "В отрицании используется did + not, поэтому форма use to без -d."
     },
     {
-      "id": "q26",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"She didn't ___ to drive.\" (привыкать)",
-      "theory_block_id": "b3_theory_used_to_neg_q",
-      "difficulty": 2,
-      "correct_answer": "use",
-      "explanation": "После didn't используется базовая форма use to."
-    },
-    {
       "id": "q27",
       "type": "true_false",
       "prompt": "В вопросе с used to используется Did + subject + use to.",
@@ -426,27 +281,6 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Вопрос строится через did, поэтому форма use to без -d."
-    },
-    {
-      "id": "q28",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в вопросе:\n\n**Did you used to play tennis?**",
-      "theory_block_id": "b3_theory_used_to_neg_q",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Did you use to play tennis?",
-          "feedback": "Правильно: после did пишем use"
-        },
-        {
-          "id": "b",
-          "text": "Did you used to play tennis?",
-          "feedback": "Неверно: used после did нельзя"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "После did используется базовая форма use. Поэтому правильный вариант — Did you use to...?"
     },
     {
       "id": "q29",
@@ -477,7 +311,7 @@
     {
       "id": "q30",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"___ you use to study at night?\" (do, past)",
+      "prompt": "Заполните пропуск: \"___ you use to study at night?\" (do)",
       "theory_block_id": "b3_theory_used_to_neg_q",
       "difficulty": 2,
       "correct_answer": "Did",
@@ -486,7 +320,7 @@
     {
       "id": "q31",
       "type": "true_false",
-      "prompt": "Форма didn't used to считается правильной.",
+      "prompt": "Форма didn't used to корректна.",
       "theory_block_id": "b3_theory_used_to_neg_q",
       "difficulty": 2,
       "correct_answer": "false",
@@ -528,36 +362,6 @@
       "explanation": "Отрицание с used to строится через didn't + use to."
     },
     {
-      "id": "q34",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в отрицании:\n\n**She didn't use to eats meat.**",
-      "theory_block_id": "b3_theory_used_to_neg_q",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "She didn't use to eat meat.",
-          "feedback": "Правильно: после use to идет V1"
-        },
-        {
-          "id": "b",
-          "text": "She didn't use to eats meat.",
-          "feedback": "Неверно: eats это форма Present Simple"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "После use to используется базовая форма, поэтому eat без -s."
-    },
-    {
-      "id": "q35",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"He ___ use to wear glasses.\" (do not, past)",
-      "theory_block_id": "b3_theory_used_to_neg_q",
-      "difficulty": 2,
-      "correct_answer": "didn't",
-      "explanation": "Отрицание строится через did not/didn't: He didn't use to wear glasses."
-    },
-    {
       "id": "q36",
       "type": "mcq_single",
       "prompt": "Какой вопрос сформирован правильно?",
@@ -584,32 +388,6 @@
       "explanation": "Правильный вопрос: Did + subject + use to + V1."
     },
     {
-      "id": "q37",
-      "type": "mcq_single",
-      "prompt": "Когда лучше использовать used to, а не Past Simple?",
-      "theory_block_id": "b4_theory_used_vs_past_simple",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "When talking about a past habit.",
-          "feedback": "Да, это функция used to"
-        },
-        {
-          "id": "b",
-          "text": "When describing a single event yesterday.",
-          "feedback": "Это Past Simple, не used to"
-        },
-        {
-          "id": "c",
-          "text": "When talking about future plans.",
-          "feedback": "Это будущее, used to не подходит"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Used to описывает регулярность или состояние в прошлом, а не единичное событие."
-    },
-    {
       "id": "q38",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"I ___ to walk to school, but now I take the bus.\" (use)",
@@ -626,27 +404,6 @@
       "difficulty": 2,
       "correct_answer": "true",
       "explanation": "Used to говорит о длительной привычке, а конкретный день обычно требует Past Simple."
-    },
-    {
-      "id": "q40",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в выборе формы:\n\n**I used to go to the gym yesterday.**",
-      "theory_block_id": "b4_theory_used_vs_past_simple",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I went to the gym yesterday.",
-          "feedback": "Правильно: конкретное время = Past Simple"
-        },
-        {
-          "id": "b",
-          "text": "I used to go to the gym yesterday.",
-          "feedback": "Неверно: yesterday требует Past Simple"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Yesterday указывает на конкретный момент, поэтому нужен Past Simple, а не used to."
     },
     {
       "id": "q41",
@@ -704,7 +461,7 @@
     {
       "id": "q45",
       "type": "mcq_single",
-      "prompt": "Какое предложение про прошлое событие одного раза?",
+      "prompt": "В каком предложении описано прошедшее событие?",
       "theory_block_id": "b4_theory_used_vs_past_simple",
       "difficulty": 2,
       "choices": [
@@ -726,27 +483,6 @@
       ],
       "correct_answer": "b",
       "explanation": "Единичное событие в прошлом описывается Past Simple с указателем времени."
-    },
-    {
-      "id": "q46",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в выборе времени:\n\n**They used to visit us last weekend.**",
-      "theory_block_id": "b4_theory_used_vs_past_simple",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "They visited us last weekend.",
-          "feedback": "Правильно: конкретный период = Past Simple"
-        },
-        {
-          "id": "b",
-          "text": "They used to visit us last weekend.",
-          "feedback": "Неверно: last weekend — конкретный период"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Last weekend указывает на конкретный период, поэтому нужен Past Simple: visited."
     },
     {
       "id": "q47",
@@ -811,27 +547,6 @@
       "explanation": "Did уже выражает прошедшее время, поэтому используется базовая форма use."
     },
     {
-      "id": "q52",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в написании:\n\n**She didn't used to smoke.**",
-      "theory_block_id": "b5_theory_use_vs_used_spelling",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "She didn't use to smoke.",
-          "feedback": "Правильно: use после didn't"
-        },
-        {
-          "id": "b",
-          "text": "She didn't used to smoke.",
-          "feedback": "Неверно: used после didn't"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "После didn't используется базовая форма use to без -d."
-    },
-    {
       "id": "q53",
       "type": "mcq_single",
       "prompt": "Какое предложение с used to написано правильно?",
@@ -858,18 +573,9 @@
       "explanation": "В утвердительных предложениях пишется used to + V1."
     },
     {
-      "id": "q54",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"Did he ___ to work here?\" (привыкать)",
-      "theory_block_id": "b5_theory_use_vs_used_spelling",
-      "difficulty": 2,
-      "correct_answer": "use",
-      "explanation": "После did используется базовая форма use to."
-    },
-    {
       "id": "q55",
       "type": "true_false",
-      "prompt": "Форма used to в вопросе с did является правильной.",
+      "prompt": "Форма used to в вопросе с did является корректной.",
       "theory_block_id": "b5_theory_use_vs_used_spelling",
       "difficulty": 2,
       "correct_answer": "false",
@@ -909,27 +615,6 @@
       ],
       "correct_answer": "a",
       "explanation": "В утверждении пишется used to, далее базовая форма be."
-    },
-    {
-      "id": "q58",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в вопросе:\n\n**Did she use to worked here?**",
-      "theory_block_id": "b5_theory_use_vs_used_spelling",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Did she use to work here?",
-          "feedback": "Правильно: после use to идет V1"
-        },
-        {
-          "id": "b",
-          "text": "Did she use to worked here?",
-          "feedback": "Неверно: worked это V2"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "После use to нужна базовая форма, поэтому work без -ed."
     },
     {
       "id": "q59",
