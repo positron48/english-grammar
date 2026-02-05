@@ -970,32 +970,11 @@
       {
         "id": "q54",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"He ___ at home yesterday.\" (be, he)",
+        "prompt": "Заполните пропуск: \"He ___ at home yesterday.\" (be, отрицание)",
         "theory_block_id": "b5_theory_be_vs_didnt",
         "difficulty": 2,
         "correct_answer": "wasn't",
         "explanation": "Для he используется was, отрицание — wasn't. С did это не комбинируется."
-      },
-      {
-        "id": "q55",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении:\n\n**I didn't be late for class.**",
-        "theory_block_id": "b5_theory_be_vs_didnt",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I wasn't late for class.",
-            "feedback": "Правильно: отрицание с was"
-          },
-          {
-            "id": "b",
-            "text": "I didn't late for class.",
-            "feedback": "Неверно: нужна форма was"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "С be в прошедшем используется was not/wasn't. Поэтому правильный вариант: I wasn't late for class."
       },
       {
         "id": "q56",
@@ -1022,15 +1001,6 @@
         ],
         "correct_answer": "b",
         "explanation": "Глагол be имеет свою форму отрицания: weren't. Поэтому перевод строится без did: We weren't in the office on Friday."
-      },
-      {
-        "id": "q57",
-        "type": "true_false",
-        "prompt": "Предложения \"We didn't go\" и \"We weren't\" строятся по одному и тому же правилу.",
-        "theory_block_id": "b5_theory_be_vs_didnt",
-        "difficulty": 2,
-        "correct_answer": "false",
-        "explanation": "We didn't go использует did + V1 для обычного глагола. We weren't — отдельное отрицание для be. Правила разные."
       },
       {
         "id": "q58",
@@ -1061,32 +1031,11 @@
       {
         "id": "q59",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"They ___ happy about the news.\" (be, they)",
+        "prompt": "Заполните пропуск: \"They ___ happy about the news.\" (be, отрицание)",
         "theory_block_id": "b5_theory_be_vs_didnt",
         "difficulty": 2,
         "correct_answer": "weren't",
         "explanation": "Для they форма be в прошедшем — were, отрицание — weren't. Did здесь не используется."
-      },
-      {
-        "id": "q60",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении:\n\n**He didn't was angry.**",
-        "theory_block_id": "b5_theory_be_vs_didnt",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "He wasn't angry.",
-            "feedback": "Правильно: отрицание с was"
-          },
-          {
-            "id": "b",
-            "text": "He didn't be angry.",
-            "feedback": "Неверно: did не используется с be"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Глагол be имеет собственную отрицательную форму wasn't. Конструкция didn't was неверна."
       }
     ]
   },
@@ -1135,12 +1084,9 @@
       "q52",
       "q53",
       "q54",
-      "q55",
       "q56",
-      "q57",
       "q58",
-      "q59",
-      "q60"
+      "q59"
     ],
     "selection_strategy": {
       "type": "stratified_by_theory_block",
@@ -1155,7 +1101,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-02-05T17:59:26Z",
+    "updated_at": "2026-02-05T18:01:29Z",
     "source": "llm"
   }
 }
