@@ -333,27 +333,6 @@
         "explanation": "Last week указывает на завершенный период в прошлом, поэтому это маркер Past Simple."
       },
       {
-        "id": "q5",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в выборе времени:\n\n**I go to Berlin in 2019.**",
-        "theory_block_id": "b1_theory_past_time_markers",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I went to Berlin in 2019.",
-            "feedback": "Правильно: in 2019 требует Past Simple"
-          },
-          {
-            "id": "b",
-            "text": "I go to Berlin in 2019.",
-            "feedback": "Это неверная форма, нужен Past Simple"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Метка in 2019 указывает на прошлое, поэтому нужен Past Simple: went."
-      },
-      {
         "id": "q6",
         "type": "true_false",
         "prompt": "Маркеры времени помогают понять, что действие уже завершено.",
@@ -365,7 +344,7 @@
       {
         "id": "q7",
         "type": "mcq_single",
-        "prompt": "Какое предложение лучше всего показывает прошлое действие?",
+        "prompt": "Какое предложение показывает прошлое действие?",
         "theory_block_id": "b1_theory_past_time_markers",
         "difficulty": 2,
         "choices": [
@@ -433,27 +412,6 @@
         "explanation": "Обе фразы описывают завершенное прошлое, поэтому настоящее время здесь не подходит."
       },
       {
-        "id": "q11",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку во времени:\n\n**We are in Paris in 2018.**",
-        "theory_block_id": "b1_theory_past_time_markers",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "We were in Paris in 2018.",
-            "feedback": "Правильно: in 2018 требует Past Simple"
-          },
-          {
-            "id": "b",
-            "text": "We are in Paris in 2018.",
-            "feedback": "Неверно: настоящее время не подходит"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Маркер in 2018 требует прошедшего времени. Поэтому нужно were."
-      },
-      {
         "id": "q12",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"I finished the course ___.\" (вчера)",
@@ -507,27 +465,6 @@
         "explanation": "Yesterday evening указывает на конкретный момент в прошлом, поэтому Past Simple."
       },
       {
-        "id": "q16",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**She left in last month.**",
-        "theory_block_id": "b2_theory_yesterday_last",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "She left last month.",
-            "feedback": "Правильно: без in"
-          },
-          {
-            "id": "b",
-            "text": "She left in last month.",
-            "feedback": "Неверно: in лишний"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "С last предлог in не используется. Правильно: last month."
-      },
-      {
         "id": "q17",
         "type": "mcq_single",
         "prompt": "Выберите правильное сочетание с yesterday:",
@@ -565,7 +502,7 @@
       {
         "id": "q19",
         "type": "mcq_single",
-        "prompt": "Какой вариант корректен без предлогов?",
+        "prompt": "Какой вариант корректен?",
         "theory_block_id": "b2_theory_yesterday_last",
         "difficulty": 2,
         "choices": [
@@ -596,27 +533,6 @@
         "difficulty": 1,
         "correct_answer": "false",
         "explanation": "С last предлог in не ставится. Правильно: last week."
-      },
-      {
-        "id": "q21",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**We met last yesterday.**",
-        "theory_block_id": "b2_theory_yesterday_last",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "We met yesterday.",
-            "feedback": "Правильно: yesterday используется без last"
-          },
-          {
-            "id": "b",
-            "text": "We met last yesterday.",
-            "feedback": "Неверно: так не говорят"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Yesterday уже означает \"вчера\" и не требует last."
       },
       {
         "id": "q22",
@@ -707,27 +623,6 @@
         "explanation": "Стандартная позиция ago — после выражения времени: a week ago."
       },
       {
-        "id": "q28",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**He left ago two days.**",
-        "theory_block_id": "b3_theory_ago_usage",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "He left two days ago.",
-            "feedback": "Правильно: ago в конце"
-          },
-          {
-            "id": "b",
-            "text": "He left ago two days.",
-            "feedback": "Неверный порядок слов"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ago ставится после выражения времени, поэтому: two days ago."
-      },
-      {
         "id": "q29",
         "type": "mcq_single",
         "prompt": "Как правильно спросить о прошлом с ago?",
@@ -754,15 +649,6 @@
         "explanation": "Ago указывает на законченное прошлое, поэтому нужен Past Simple: Did you see...?"
       },
       {
-        "id": "q30",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"We met ___ days ago.\" (число 3 словами)",
-        "theory_block_id": "b3_theory_ago_usage",
-        "difficulty": 2,
-        "correct_answer": "three",
-        "explanation": "Структура: number + time + ago. Здесь число три: three days ago."
-      },
-      {
         "id": "q31",
         "type": "true_false",
         "prompt": "Форма Present Perfect подходит для выражений с ago.",
@@ -770,27 +656,6 @@
         "difficulty": 2,
         "correct_answer": "false",
         "explanation": "Ago обозначает завершенное прошлое и требует Past Simple, а не Present Perfect."
-      },
-      {
-        "id": "q32",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**She has left two hours ago.**",
-        "theory_block_id": "b3_theory_ago_usage",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "She left two hours ago.",
-            "feedback": "Правильно: Past Simple с ago"
-          },
-          {
-            "id": "b",
-            "text": "She has left two hours ago.",
-            "feedback": "Неверно: Present Perfect с ago не используется"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Ago указывает на точку в прошлом, поэтому нужен Past Simple: left."
       },
       {
         "id": "q33",
@@ -907,27 +772,6 @@
         "explanation": "Last year употребляется без in: last year, last month."
       },
       {
-        "id": "q40",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**I met her in last year.**",
-        "theory_block_id": "b4_theory_in_year_past",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I met her last year.",
-            "feedback": "Правильно: без in"
-          },
-          {
-            "id": "b",
-            "text": "I met her in last year.",
-            "feedback": "Неверно: in лишний"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "С last предлог in не нужен. Правильная форма: last year."
-      },
-      {
         "id": "q41",
         "type": "mcq_single",
         "prompt": "Как правильно сказать: \"в мае 2021\"?",
@@ -970,27 +814,6 @@
         "difficulty": 1,
         "correct_answer": "true",
         "explanation": "In 2020 указывает на конкретный год в прошлом, поэтому используется Past Simple."
-      },
-      {
-        "id": "q44",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**She was born on 1995.**",
-        "theory_block_id": "b4_theory_in_year_past",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "She was born in 1995.",
-            "feedback": "Правильно: in + year"
-          },
-          {
-            "id": "b",
-            "text": "She was born on 1995.",
-            "feedback": "Неверный предлог"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "С годами используется in, а не on: in 1995."
       },
       {
         "id": "q45",
@@ -1107,27 +930,6 @@
         "explanation": "Маркер времени можно поставить в начало. После него обычно ставится запятая."
       },
       {
-        "id": "q52",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в порядке слов:\n\n**We last week went to a concert.**",
-        "theory_block_id": "b5_theory_position_time_markers",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "We went to a concert last week.",
-            "feedback": "Правильно: маркер в конце"
-          },
-          {
-            "id": "b",
-            "text": "We last week went to a concert.",
-            "feedback": "Возможен разговорно, но для базового порядка это ошибка"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Нейтральная позиция time marker — конец предложения. Поэтому корректнее: went ... last week."
-      },
-      {
         "id": "q53",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"He left early ___.\" (вчера)",
@@ -1198,27 +1000,6 @@
         "explanation": "Нейтральный порядок: действие + точное время + time marker. Yesterday обычно в конце."
       },
       {
-        "id": "q57",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в порядке слов:\n\n**I yesterday saw him at the station.**",
-        "theory_block_id": "b5_theory_position_time_markers",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I saw him at the station yesterday.",
-            "feedback": "Правильно: маркер в конце"
-          },
-          {
-            "id": "b",
-            "text": "I yesterday saw him at the station.",
-            "feedback": "Это возможно, но не базовый порядок"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "В базовом порядке time marker стоит в конце: saw him ... yesterday."
-      },
-      {
         "id": "q58",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"___, we stayed at home.\" (вчера)",
@@ -1267,53 +1048,52 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
-      "q5",
       "q6",
       "q7",
       "q8",
       "q9",
       "q10",
-      "q11",
       "q12",
+      "q13",
+      "q14",
       "q15",
-      "q16",
       "q17",
       "q18",
       "q19",
       "q20",
-      "q21",
       "q22",
       "q23",
       "q24",
+      "q25",
+      "q26",
       "q27",
-      "q28",
       "q29",
-      "q30",
       "q31",
-      "q32",
       "q33",
       "q34",
       "q35",
       "q36",
+      "q37",
+      "q38",
       "q39",
-      "q40",
       "q41",
       "q42",
       "q43",
-      "q44",
       "q45",
       "q46",
       "q47",
       "q48",
+      "q49",
+      "q50",
       "q51",
-      "q52",
       "q53",
       "q54",
       "q55",
       "q56",
-      "q57",
       "q58",
       "q59",
       "q60"
@@ -1331,7 +1111,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:24:02Z",
+    "updated_at": "2026-02-05T18:10:12Z",
     "source": "llm"
   }
 }
