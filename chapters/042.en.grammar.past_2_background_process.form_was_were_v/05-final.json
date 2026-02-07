@@ -298,27 +298,6 @@
         "explanation": "Для she используется was: she was reading."
       },
       {
-        "id": "q4",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**They were watch TV.**",
-        "theory_block_id": "b1_theory_pc_structure",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "They were watching TV.",
-            "feedback": "Правильно: нужна форма -ing"
-          },
-          {
-            "id": "b",
-            "text": "They were watch TV.",
-            "feedback": "Неверно: watch без -ing"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "После was/were используется V-ing: watching."
-      },
-      {
         "id": "q5",
         "type": "mcq_single",
         "prompt": "Какое предложение показывает процесс в прошлом?",
@@ -382,7 +361,7 @@
       {
         "id": "q8",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"They ___ playing chess.\" (be, they)",
+        "prompt": "Заполните пропуск: \"They ___ playing chess.\" (be)",
         "theory_block_id": "b1_theory_pc_structure",
         "difficulty": 2,
         "correct_answer": "were",
@@ -398,30 +377,9 @@
         "explanation": "Без was/were Past Continuous не строится."
       },
       {
-        "id": "q10",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**She was cook dinner.**",
-        "theory_block_id": "b1_theory_pc_structure",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "She was cooking dinner.",
-            "feedback": "Правильно: cooking"
-          },
-          {
-            "id": "b",
-            "text": "She was cook dinner.",
-            "feedback": "Неверно: нет -ing"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "После was/were нужна форма V-ing."
-      },
-      {
         "id": "q11",
         "type": "mcq_single",
-        "prompt": "Выберите правильную форму was/were для it:",
+        "prompt": "Выберите правильный вариант:",
         "theory_block_id": "b2_theory_was_were_choice",
         "difficulty": 1,
         "choices": [
@@ -1107,7 +1065,7 @@
       {
         "id": "q52",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"It ___ raining heavily.\" (be, it)",
+        "prompt": "Заполните пропуск: \"It ___ raining heavily.\" (be)",
         "theory_block_id": "b1_theory_pc_structure",
         "difficulty": 1,
         "correct_answer": "was",
@@ -1253,14 +1211,16 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
-      "q4",
       "q5",
       "q6",
       "q7",
       "q8",
       "q9",
-      "q10",
+      "q11",
+      "q12",
       "q13",
       "q14",
       "q15",
@@ -1269,6 +1229,8 @@
       "q18",
       "q19",
       "q20",
+      "q21",
+      "q22",
       "q23",
       "q24",
       "q25",
@@ -1277,6 +1239,8 @@
       "q28",
       "q29",
       "q30",
+      "q31",
+      "q32",
       "q33",
       "q34",
       "q35",
@@ -1285,6 +1249,8 @@
       "q38",
       "q39",
       "q40",
+      "q41",
+      "q42",
       "q43",
       "q44",
       "q45",
@@ -1317,7 +1283,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:24:03Z",
+    "updated_at": "2026-02-07T16:43:18Z",
     "source": "llm"
   }
 }
