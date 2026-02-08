@@ -272,7 +272,10 @@
       "type": "quiz_inline",
       "title": "Проверка знаний",
       "quiz_inline": {
-        "question_ids": [],
+        "question_ids": [
+          "q18",
+          "q39"
+        ],
         "show_answers_immediately": true
       }
     },
@@ -329,7 +332,8 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q23"
+          "q23",
+          "q27"
         ],
         "show_answers_immediately": true
       }
@@ -376,7 +380,10 @@
       "type": "quiz_inline",
       "title": "Проверка знаний",
       "quiz_inline": {
-        "question_ids": [],
+        "question_ids": [
+          "q32",
+          "q33"
+        ],
         "show_answers_immediately": true
       }
     }
@@ -923,30 +930,18 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q2",
       "q2b",
       "q3",
       "q4",
-      "q6",
-      "q7",
       "q8",
       "q9",
       "q9b",
       "q10",
-      "q11",
-      "q11b",
       "q13",
       "q14",
-      "q18",
-      "q23",
-      "q27",
-      "q32",
-      "q33",
       "q33b",
       "q34",
       "q35",
-      "q39",
       "q39b",
       "q40",
       "q46",
@@ -970,7 +965,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-02-02T08:41:10Z",
+    "updated_at": "2026-02-08T15:19:56Z",
     "source": "llm"
   }
 }

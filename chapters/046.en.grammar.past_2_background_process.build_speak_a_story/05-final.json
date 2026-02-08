@@ -294,27 +294,6 @@
         "explanation": "Для короткого события в истории подходит вводное Suddenly."
       },
       {
-        "id": "q4",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в структуре:\n\n**In the end, it started to rain. I was walking home.**",
-        "theory_block_id": "b1_theory_story_goal",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I was walking home. Then it started to rain. In the end, I got home safely.",
-            "feedback": "Правильно: фон → событие → итог"
-          },
-          {
-            "id": "b",
-            "text": "In the end, it started to rain. I was walking home.",
-            "feedback": "Неверно: итог не может быть в начале"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Сначала фон, затем событие и итог."
-      },
-      {
         "id": "q5",
         "type": "mcq_single",
         "prompt": "Какое предложение лучше подходит для итога?",
@@ -392,27 +371,6 @@
         "difficulty": 1,
         "correct_answer": "true",
         "explanation": "Короткий итог делает историю завершенной."
-      },
-      {
-        "id": "q10",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в порядке частей:\n\n**Suddenly, we felt relieved. We were walking home.**",
-        "theory_block_id": "b1_theory_story_goal",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "We were walking home. Suddenly, we felt relieved.",
-            "feedback": "Правильно: сначала фон, потом итог"
-          },
-          {
-            "id": "b",
-            "text": "Suddenly, we felt relieved. We were walking home.",
-            "feedback": "Неверно: итог не может быть первым"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Сначала фон, затем событие и итог."
       },
       {
         "id": "q11",
@@ -494,27 +452,6 @@
         "explanation": "С I используется was."
       },
       {
-        "id": "q16",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**They was having dinner.**",
-        "theory_block_id": "b2_theory_background_sentence",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "They were having dinner.",
-            "feedback": "Правильно: they → were"
-          },
-          {
-            "id": "b",
-            "text": "They was having dinner.",
-            "feedback": "Неверно: was с they"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "С they используется were."
-      },
-      {
         "id": "q17",
         "type": "mcq_single",
         "prompt": "Какое предложение является фоном?",
@@ -594,27 +531,6 @@
         "explanation": "Фон — длительный процесс, не короткое событие."
       },
       {
-        "id": "q22",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**She was listen to music.**",
-        "theory_block_id": "b2_theory_background_sentence",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "She was listening to music.",
-            "feedback": "Правильно: нужна форма -ing"
-          },
-          {
-            "id": "b",
-            "text": "She was listen to music.",
-            "feedback": "Неверно: нет -ing"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "В Past Continuous используется V-ing."
-      },
-      {
         "id": "q23",
         "type": "mcq_single",
         "prompt": "Какое предложение с Past Continuous верное?",
@@ -689,27 +605,6 @@
         "difficulty": 1,
         "correct_answer": "arrived",
         "explanation": "В Past Simple: arrive → arrived."
-      },
-      {
-        "id": "q28",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**My phone was rang.**",
-        "theory_block_id": "b3_theory_interruption_sentence",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "My phone rang.",
-            "feedback": "Правильно: Past Simple"
-          },
-          {
-            "id": "b",
-            "text": "My phone was rang.",
-            "feedback": "Неверно: не нужна форма was"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Событие выражается Past Simple без was."
       },
       {
         "id": "q29",
@@ -791,27 +686,6 @@
         "explanation": "Событие короткое и завершенное."
       },
       {
-        "id": "q34",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**The lights were went out.**",
-        "theory_block_id": "b3_theory_interruption_sentence",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "The lights went out.",
-            "feedback": "Правильно: Past Simple"
-          },
-          {
-            "id": "b",
-            "text": "The lights were went out.",
-            "feedback": "Неверно: не нужна форма were"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Событие выражается Past Simple без was/were."
-      },
-      {
         "id": "q35",
         "type": "mcq_single",
         "prompt": "Какой глагол в Past Simple подходит для события?",
@@ -889,27 +763,6 @@
         "difficulty": 2,
         "correct_answer": "when",
         "explanation": "When связывает фон и событие."
-      },
-      {
-        "id": "q40",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**While we were talking, the door was opened.**",
-        "theory_block_id": "b4_theory_linking",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "While we were talking, the door opened.",
-            "feedback": "Правильно: событие в Past Simple"
-          },
-          {
-            "id": "b",
-            "text": "While we were talking, the door was opened.",
-            "feedback": "Неверно: событие не в Continuous"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Событие в Past Simple: opened."
       },
       {
         "id": "q41",
@@ -991,27 +844,6 @@
         "explanation": "While вводит процесс."
       },
       {
-        "id": "q46",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**I was walking when it was started to rain.**",
-        "theory_block_id": "b4_theory_linking",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I was walking when it started to rain.",
-            "feedback": "Правильно: событие в Past Simple"
-          },
-          {
-            "id": "b",
-            "text": "I was walking when it was started to rain.",
-            "feedback": "Неверно: событие не в Continuous"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Событие в Past Simple."
-      },
-      {
         "id": "q47",
         "type": "mcq_single",
         "prompt": "Какое предложение правильно сочетает when/while?",
@@ -1086,27 +918,6 @@
         "difficulty": 2,
         "correct_answer": "were",
         "explanation": "Итог в прошлом: were."
-      },
-      {
-        "id": "q52",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в финальной фразе:\n\n**In the end, we are happy.**",
-        "theory_block_id": "b5_theory_wrap_up",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "In the end, we were happy.",
-            "feedback": "Правильно: Past Simple"
-          },
-          {
-            "id": "b",
-            "text": "In the end, we are happy.",
-            "feedback": "Неверно: не то время"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Итог в истории обычно в Past Simple."
       },
       {
         "id": "q53",
@@ -1188,27 +999,6 @@
         "explanation": "Короткая финальная фраза подходит."
       },
       {
-        "id": "q58",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку:\n\n**In the end, we feel relieved.**",
-        "theory_block_id": "b5_theory_wrap_up",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "In the end, we felt relieved.",
-            "feedback": "Правильно: история в прошлом"
-          },
-          {
-            "id": "b",
-            "text": "In the end, we feel relieved.",
-            "feedback": "Неверно: нужна форма Past Simple"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "История в прошлом требует Past Simple."
-      },
-      {
         "id": "q59",
         "type": "mcq_single",
         "prompt": "Какое предложение лучше завершает рассказ?",
@@ -1249,53 +1039,43 @@
     "num_questions": 10,
     "pool_question_ids": [
       "q3",
-      "q4",
       "q5",
       "q6",
       "q7",
       "q8",
       "q9",
-      "q10",
       "q11",
       "q12",
       "q15",
-      "q16",
       "q17",
       "q18",
       "q19",
       "q20",
       "q21",
-      "q22",
       "q23",
       "q24",
       "q27",
-      "q28",
       "q29",
       "q30",
       "q31",
       "q32",
       "q33",
-      "q34",
       "q35",
       "q36",
       "q39",
-      "q40",
       "q41",
       "q42",
       "q43",
       "q44",
       "q45",
-      "q46",
       "q47",
       "q48",
       "q51",
-      "q52",
       "q53",
       "q54",
       "q55",
       "q56",
       "q57",
-      "q58",
       "q59",
       "q60"
     ],
@@ -1312,7 +1092,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:24:03Z",
+    "updated_at": "2026-02-08T15:23:41Z",
     "source": "llm"
   }
 }

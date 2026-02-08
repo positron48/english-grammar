@@ -45,27 +45,6 @@
       "explanation": "Событие в Past Simple: start → started."
     },
     {
-      "id": "q4",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**I was walking when it was starting to rain.**",
-      "theory_block_id": "b1_theory_when_basic",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I was walking when it started to rain.",
-          "feedback": "Правильно: событие в Past Simple"
-        },
-        {
-          "id": "b",
-          "text": "I was walking when it was starting to rain.",
-          "feedback": "Неверно: событие не должно быть в Continuous"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Событие должно быть в Past Simple: started."
-    },
-    {
       "id": "q5",
       "type": "mcq_single",
       "prompt": "Какое предложение с when правильное?",
@@ -145,27 +124,6 @@
       "explanation": "When чаще вводит событие в Past Simple."
     },
     {
-      "id": "q10",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**He was walking when he was met John.**",
-      "theory_block_id": "b1_theory_when_basic",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "He was walking when he met John.",
-          "feedback": "Правильно: событие в Past Simple"
-        },
-        {
-          "id": "b",
-          "text": "He was walking when he was met John.",
-          "feedback": "Неверно: событие не в Continuous"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Событие должно быть в Past Simple: met."
-    },
-    {
       "id": "q11",
       "type": "mcq_single",
       "prompt": "Что лучше всего сочетается с while?",
@@ -208,27 +166,6 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "While вводит длительный процесс."
-    },
-    {
-      "id": "q14",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в выборе времени:\n\n**While I cooked, he was watching TV.**",
-      "theory_block_id": "b2_theory_while_basic",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "While I was cooking, he was watching TV.",
-          "feedback": "Правильно: while + процесс"
-        },
-        {
-          "id": "b",
-          "text": "While I cooked, he was watching TV.",
-          "feedback": "Неверно: while обычно с процессом"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "While требует Past Continuous."
     },
     {
       "id": "q15",
@@ -310,27 +247,6 @@
       "explanation": "While обычно сочетается с Past Continuous."
     },
     {
-      "id": "q20",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в форме глагола:\n\n**While I was reading, the phone was rang.**",
-      "theory_block_id": "b2_theory_while_basic",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "While I was reading, the phone rang.",
-          "feedback": "Правильно: событие в Past Simple"
-        },
-        {
-          "id": "b",
-          "text": "While I was reading, the phone was rang.",
-          "feedback": "Неверно: событие не в Continuous"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Событие должно быть в Past Simple: rang."
-    },
-    {
       "id": "q21",
       "type": "mcq_single",
       "prompt": "Что подчеркивает as в прошлом?",
@@ -373,27 +289,6 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "As часто используется для одновременности и звучит мягче."
-    },
-    {
-      "id": "q24",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**As she left, the door opened.**",
-      "theory_block_id": "b3_theory_as_basic",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "As she was leaving, the door opened.",
-          "feedback": "Правильно: Past Continuous + Past Simple"
-        },
-        {
-          "id": "b",
-          "text": "As she left, the door opened.",
-          "feedback": "Неверно: нужен фоновый процесс"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "В прошлом as обычно сочетается с Past Continuous."
     },
     {
       "id": "q25",
@@ -475,27 +370,6 @@
       "explanation": "As часто вводит Past Continuous, событие — Past Simple."
     },
     {
-      "id": "q30",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**As he was driving, he was got a call.**",
-      "theory_block_id": "b3_theory_as_basic",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "As he was driving, he got a call.",
-          "feedback": "Правильно: событие в Past Simple"
-        },
-        {
-          "id": "b",
-          "text": "As he was driving, he was got a call.",
-          "feedback": "Неверно: событие не в Continuous"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Событие должно быть в Past Simple: got."
-    },
-    {
       "id": "q31",
       "type": "mcq_single",
       "prompt": "Как выбрать связку для короткого события?",
@@ -538,27 +412,6 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "While обычно вводит длительный процесс."
-    },
-    {
-      "id": "q34",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**When I was cooking, he was arriving.**",
-      "theory_block_id": "b4_theory_contrast_choices",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "When I was cooking, he arrived.",
-          "feedback": "Правильно: событие в Past Simple"
-        },
-        {
-          "id": "b",
-          "text": "When I was cooking, he was arriving.",
-          "feedback": "Неверно: событие не в Continuous"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "When вводит событие, поэтому Past Simple."
     },
     {
       "id": "q35",
@@ -640,27 +493,6 @@
       "explanation": "While лучше подходит для длительного процесса."
     },
     {
-      "id": "q40",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**While I was walking, I was saw a cat.**",
-      "theory_block_id": "b4_theory_contrast_choices",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "While I was walking, I saw a cat.",
-          "feedback": "Правильно: событие в Past Simple"
-        },
-        {
-          "id": "b",
-          "text": "While I was walking, I was saw a cat.",
-          "feedback": "Неверно: событие не в Continuous"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Событие должно быть в Past Simple: saw."
-    },
-    {
       "id": "q41",
       "type": "mcq_single",
       "prompt": "Какая ошибка типична?",
@@ -703,27 +535,6 @@
       "difficulty": 2,
       "correct_answer": "rang",
       "explanation": "Событие в Past Simple: ring → rang."
-    },
-    {
-      "id": "q44",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**As I left, I was saw her.**",
-      "theory_block_id": "b5_theory_common_mistakes",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "As I was leaving, I saw her.",
-          "feedback": "Правильно: процесс + событие"
-        },
-        {
-          "id": "b",
-          "text": "As I left, I was saw her.",
-          "feedback": "Неверно: событие не в Continuous"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Событие должно быть в Past Simple: saw."
     },
     {
       "id": "q45",
@@ -803,27 +614,6 @@
       ],
       "correct_answer": "a",
       "explanation": "As соединяет процесс и событие."
-    },
-    {
-      "id": "q50",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**While I was walking, I was heard a noise.**",
-      "theory_block_id": "b5_theory_common_mistakes",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "While I was walking, I heard a noise.",
-          "feedback": "Правильно: событие в Past Simple"
-        },
-        {
-          "id": "b",
-          "text": "While I was walking, I was heard a noise.",
-          "feedback": "Неверно: событие не в Continuous"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Событие должно быть в Past Simple: heard."
     },
     {
       "id": "q51",
@@ -929,27 +719,6 @@
       ],
       "correct_answer": "a",
       "explanation": "As связывает процесс и событие."
-    },
-    {
-      "id": "q57",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**While he was driving, he was got a call.**",
-      "theory_block_id": "b5_theory_common_mistakes",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "While he was driving, he got a call.",
-          "feedback": "Правильно: событие в Past Simple"
-        },
-        {
-          "id": "b",
-          "text": "While he was driving, he was got a call.",
-          "feedback": "Неверно: событие не в Continuous"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Событие должно быть в Past Simple: got."
     },
     {
       "id": "q58",

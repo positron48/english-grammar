@@ -226,6 +226,28 @@ for q in questions:
                     'suggested_fix': 'Исправить correct_answer на массив существующих ID из choices'
                 })
                 errors += 1
+
+    elif qtype == 'error_spotting':
+        if 'choices' not in q:
+            issues.append({
+                'severity': 'error',
+                'category': 'structural',
+                'message': f"Question {qid}: error_spotting requires 'choices' field",
+                'location': f"question_bank.questions[{questions.index(q)}]",
+                'suggested_fix': 'Add choices array to question'
+            })
+            errors += 1
+        else:
+            choices = q.get('choices') or []
+            if len(choices) < 3:
+                issues.append({
+                    'severity': 'error',
+                    'category': 'content',
+                    'message': f"Question {qid}: error_spotting должен иметь минимум 3 варианта ответа, найдено {len(choices)}",
+                    'location': f"question_bank.questions[{chapter['question_bank']['questions'].index(q)}].choices",
+                    'suggested_fix': 'Добавить недостающие варианты в choices (минимум 3)'
+                })
+                errors += 1
     
     elif qtype == 'true_false':
         if correct_answer not in ['true', 'false']:

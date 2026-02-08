@@ -2,23 +2,31 @@
   "validation_result": {
     "is_valid": true,
     "schema_valid": true,
-    "issues": [],
+    "issues": [
+      {
+        "severity": "warning",
+        "category": "methodological",
+        "message": "Theory block b5_theory_exceptions_temporary_state имеет только 3 вопрос(ов), минимум 4 требуется",
+        "location": "question_bank.questions",
+        "suggested_fix": "Добавить вопросы для theory_block b5_theory_exceptions_temporary_state. Сейчас: 3, нужно минимум 4"
+      }
+    ],
     "summary": {
-      "total_issues": 0,
+      "total_issues": 1,
       "errors": 0,
-      "warnings": 0,
+      "warnings": 1,
       "suggestions": 0
     },
     "coverage": {
       "theory_blocks_covered": 6,
       "total_theory_blocks": 6,
       "questions_per_block": {
-        "b1_theory_what_are_stative_verbs": 7,
-        "b2_theory_groups_stative_verbs": 14,
-        "b3_theory_why_not_continuous": 9,
-        "b4_theory_exceptions_action_meaning": 16,
-        "b5_theory_exceptions_temporary_state": 8,
-        "b6_theory_common_mistakes": 10
+        "b1_theory_what_are_stative_verbs": 6,
+        "b2_theory_groups_stative_verbs": 10,
+        "b3_theory_why_not_continuous": 5,
+        "b4_theory_exceptions_action_meaning": 5,
+        "b5_theory_exceptions_temporary_state": 3,
+        "b6_theory_common_mistakes": 4
       }
     }
   }

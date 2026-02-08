@@ -45,27 +45,6 @@
       "explanation": "Нужно was как форма be с I/he/she/it."
     },
     {
-      "id": "q4",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**I was cooking while she read.**",
-      "theory_block_id": "b1_theory_parallel_concept",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I was cooking while she was reading.",
-          "feedback": "Правильно: два процесса"
-        },
-        {
-          "id": "b",
-          "text": "I was cooking while she read.",
-          "feedback": "Неверно: второе действие тоже в Past Continuous"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Для параллельных действий нужны две формы Past Continuous."
-    },
-    {
       "id": "q5",
       "type": "mcq_single",
       "prompt": "Какое предложение показывает параллельные действия?",
@@ -145,27 +124,6 @@
       "explanation": "Для параллельных действий нужен Past Continuous."
     },
     {
-      "id": "q10",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**While I was reading, she was write a letter.**",
-      "theory_block_id": "b1_theory_parallel_concept",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "While I was reading, she was writing a letter.",
-          "feedback": "Правильно: нужен -ing"
-        },
-        {
-          "id": "b",
-          "text": "While I was reading, she was write a letter.",
-          "feedback": "Неверно: нет -ing"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "В Past Continuous нужен V-ing."
-    },
-    {
       "id": "q11",
       "type": "mcq_single",
       "prompt": "Какой порядок верный для структуры with while?",
@@ -208,27 +166,6 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Оба варианта грамматически верны."
-    },
-    {
-      "id": "q14",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**While he was driving, she read a book.**",
-      "theory_block_id": "b2_theory_while_two_processes",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "While he was driving, she was reading a book.",
-          "feedback": "Правильно: оба процесса"
-        },
-        {
-          "id": "b",
-          "text": "While he was driving, she read a book.",
-          "feedback": "Неверно: второе действие должно быть в Continuous"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Параллельные процессы требуют Past Continuous в обеих частях."
     },
     {
       "id": "q15",
@@ -310,27 +247,6 @@
       "explanation": "Параллельные процессы требуют Past Continuous в обеих частях."
     },
     {
-      "id": "q20",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**While I was reading, she was watched TV.**",
-      "theory_block_id": "b2_theory_while_two_processes",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "While I was reading, she was watching TV.",
-          "feedback": "Правильно: нужна форма -ing"
-        },
-        {
-          "id": "b",
-          "text": "While I was reading, she was watched TV.",
-          "feedback": "Неверно: watched это V2"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "После was/were нужна форма V-ing."
-    },
-    {
       "id": "q21",
       "type": "mcq_single",
       "prompt": "Что показывает одна линия времени?",
@@ -373,27 +289,6 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Параллельность — это два процесса без прерывания."
-    },
-    {
-      "id": "q24",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**She was reading while he cooked.**",
-      "theory_block_id": "b3_theory_timeline",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "She was reading while he was cooking.",
-          "feedback": "Правильно: оба процесса"
-        },
-        {
-          "id": "b",
-          "text": "She was reading while he cooked.",
-          "feedback": "Неверно: второе действие должно быть в Continuous"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Оба действия параллельны, нужны две формы Past Continuous."
     },
     {
       "id": "q25",
@@ -472,27 +367,6 @@
       "explanation": "Процесс + событие — это не два параллельных процесса."
     },
     {
-      "id": "q30",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**He was cooking while she cleaned.**",
-      "theory_block_id": "b3_theory_timeline",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "He was cooking while she was cleaning.",
-          "feedback": "Правильно: оба процесса"
-        },
-        {
-          "id": "b",
-          "text": "He was cooking while she cleaned.",
-          "feedback": "Неверно: второе действие должно быть в Continuous"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Параллельность = две формы Past Continuous."
-    },
-    {
       "id": "q31",
       "type": "mcq_single",
       "prompt": "Какой вариант показывает корректную вариацию?",
@@ -535,27 +409,6 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "As тоже подчеркивает одновременность."
-    },
-    {
-      "id": "q34",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**As I was cooking, he set the table.**",
-      "theory_block_id": "b4_theory_variations",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "As I was cooking, he was setting the table.",
-          "feedback": "Правильно: два процесса"
-        },
-        {
-          "id": "b",
-          "text": "As I was cooking, he set the table.",
-          "feedback": "Неверно: второе действие не в Continuous"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Для параллельных действий нужны две формы Past Continuous."
     },
     {
       "id": "q35",
@@ -637,27 +490,6 @@
       "explanation": "Для параллельных действий обе части должны быть в Past Continuous."
     },
     {
-      "id": "q40",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**While I was walking, he talked.**",
-      "theory_block_id": "b4_theory_variations",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "While I was walking, he was talking.",
-          "feedback": "Правильно: два процесса"
-        },
-        {
-          "id": "b",
-          "text": "While I was walking, he talked.",
-          "feedback": "Неверно: второе действие должно быть в Continuous"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Параллельные действия — две формы Past Continuous."
-    },
-    {
       "id": "q41",
       "type": "mcq_single",
       "prompt": "Какая ошибка типична для параллельных действий?",
@@ -700,27 +532,6 @@
       "difficulty": 2,
       "correct_answer": "was",
       "explanation": "Нужно was как форма be с I/he/she/it."
-    },
-    {
-      "id": "q44",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**While I was walking, she called me.**",
-      "theory_block_id": "b5_theory_common_mistakes",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "While I was walking, she was calling me.",
-          "feedback": "Правильно: два процесса"
-        },
-        {
-          "id": "b",
-          "text": "While I was walking, she called me.",
-          "feedback": "Неверно: второе действие должно быть в Continuous"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Параллельные действия требуют Past Continuous в обеих частях."
     },
     {
       "id": "q45",
@@ -800,27 +611,6 @@
       ],
       "correct_answer": "b",
       "explanation": "Для параллельных действий обе части должны быть в Past Continuous."
-    },
-    {
-      "id": "q50",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**While he was driving, she slept.**",
-      "theory_block_id": "b5_theory_common_mistakes",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "While he was driving, she was sleeping.",
-          "feedback": "Правильно: два процесса"
-        },
-        {
-          "id": "b",
-          "text": "While he was driving, she slept.",
-          "feedback": "Неверно: второе действие должно быть в Continuous"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Параллельные действия требуют Past Continuous в обеих частях."
     },
     {
       "id": "q51",
@@ -926,27 +716,6 @@
       ],
       "correct_answer": "b",
       "explanation": "Для параллельных действий обе части в Past Continuous."
-    },
-    {
-      "id": "q57",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку:\n\n**While I was cooking, he was set the table.**",
-      "theory_block_id": "b4_theory_variations",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "While I was cooking, he was setting the table.",
-          "feedback": "Правильно: нужна форма -ing"
-        },
-        {
-          "id": "b",
-          "text": "While I was cooking, he was set the table.",
-          "feedback": "Неверно: set не в форме -ing"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "В Past Continuous нужна форма V-ing: setting."
     },
     {
       "id": "q58",

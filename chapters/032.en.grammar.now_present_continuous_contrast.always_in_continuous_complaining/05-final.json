@@ -964,28 +964,6 @@
         "tags": []
       },
       {
-        "id": "q46",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку в контексте нейтрального описания: \"She is always helping me with my homework.\"",
-        "theory_block_id": "b5_theory_typical_contexts",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "is always helping → always helps",
-            "feedback": "Правильно! Для нейтрального описания привычки используется Present Simple."
-          },
-          {
-            "id": "b",
-            "text": "helping → help",
-            "feedback": "Нет, проблема в использовании Continuous с always для нейтрального описания."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Для нейтрального описания привычки нужно использовать Present Simple: \"She always helps me with my homework.\" Continuous с always выражает эмоциональную реакцию.",
-        "tags": []
-      },
-      {
         "id": "q47",
         "type": "true_false",
         "prompt": "Верно или неверно: Present Continuous с always можно использовать для нейтрального описания любых привычек.",
@@ -1178,8 +1156,6 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q2",
       "q3",
       "q4",
       "q6",
@@ -1188,8 +1164,6 @@
       "q9",
       "q10",
       "q12",
-      "q13",
-      "q14",
       "q16",
       "q17",
       "q18",
@@ -1197,25 +1171,18 @@
       "q21",
       "q22",
       "q23",
-      "q25",
-      "q26",
       "q27",
       "q28",
       "q29",
       "q31",
       "q32",
-      "q34",
-      "q35",
       "q36",
       "q37",
       "q39",
       "q40",
       "q41",
-      "q42",
-      "q43",
       "q44",
       "q45",
-      "q46",
       "q47",
       "q48",
       "q49",
@@ -1242,7 +1209,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-02-02T08:54:12Z",
+    "updated_at": "2026-02-08T15:23:40Z",
     "source": "llm"
   }
 }

@@ -620,28 +620,6 @@
       "tags": []
     },
     {
-      "id": "q46",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку в контексте нейтрального описания: \"She is always helping me with my homework.\"",
-      "theory_block_id": "b5_theory_typical_contexts",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "is always helping → always helps",
-          "feedback": "Правильно! Для нейтрального описания привычки используется Present Simple."
-        },
-        {
-          "id": "b",
-          "text": "helping → help",
-          "feedback": "Нет, проблема в использовании Continuous с always для нейтрального описания."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Для нейтрального описания привычки нужно использовать Present Simple: \"She always helps me with my homework.\" Continuous с always выражает эмоциональную реакцию.",
-      "tags": []
-    },
-    {
       "id": "q47",
       "type": "true_false",
       "prompt": "Верно или неверно: Present Continuous с always можно использовать для нейтрального описания любых привычек.",

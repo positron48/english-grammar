@@ -587,25 +587,6 @@
         "explanation": "Предупреждение основано на том, что говорящий видит ситуацию прямо сейчас."
       },
       {
-        "id": "q21",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите правильный вариант: \"It's going to snowing.\"",
-        "theory_block_id": "b2_theory_evidence_predictions",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "It's going to snow."
-          },
-          {
-            "id": "b",
-            "text": "It's going to snowing."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "После going to нужна базовая форма глагола: snow."
-      },
-      {
         "id": "q22",
         "type": "mcq_single",
         "prompt": "Какое предложение показывает прогноз на основе фактов?",
@@ -1379,7 +1360,6 @@
       "q18",
       "q19",
       "q20",
-      "q21",
       "q22",
       "q23",
       "q24",
@@ -1437,7 +1417,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:24:03Z",
+    "updated_at": "2026-02-08T15:23:41Z",
     "source": "llm"
   }
 }
