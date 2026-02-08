@@ -335,10 +335,7 @@
       "type": "quiz_inline",
       "title": "Проверка знаний",
       "quiz_inline": {
-        "question_ids": [
-          "q45",
-          "q47"
-        ],
+        "question_ids": [],
         "show_answers_immediately": true
       }
     },
@@ -1135,122 +1132,6 @@
         ]
       },
       {
-        "id": "q45",
-        "type": "mcq_single",
-        "prompt": "Что нужно проверить в первую очередь при выборе между Simple и Continuous?",
-        "theory_block_id": "b5_theory_decision_tree",
-        "difficulty": 1,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Тип глагола (статичный или динамичный)",
-            "feedback": "Это второй шаг, не первый."
-          },
-          {
-            "id": "b",
-            "text": "Происходит ли действие прямо сейчас?",
-            "feedback": "Правильно! Это первый шаг алгоритма."
-          },
-          {
-            "id": "c",
-            "text": "Есть ли маркеры времени?",
-            "feedback": "Это последний шаг, не первый."
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "Первый шаг алгоритма — проверить, происходит ли действие прямо сейчас. Если да — Continuous.",
-        "tags": [
-          "algorithm",
-          "step1"
-        ]
-      },
-      {
-        "id": "q47",
-        "type": "true_false",
-        "prompt": "Алгоритм принятия решения помогает систематически выбирать между Present Simple и Present Continuous.",
-        "theory_block_id": "b5_theory_decision_tree",
-        "difficulty": 1,
-        "correct_answer": "true",
-        "explanation": "Верно. Пошаговый алгоритм помогает принимать решения на основе ключевых критериев и избегать ошибок.",
-        "tags": [
-          "algorithm",
-          "concept"
-        ]
-      },
-      {
-        "id": "q48",
-        "type": "mcq_single",
-        "prompt": "Что нужно проверить вторым шагом?",
-        "theory_block_id": "b5_theory_decision_tree",
-        "difficulty": 1,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Есть ли маркеры времени?",
-            "feedback": "Это последний шаг."
-          },
-          {
-            "id": "b",
-            "text": "Это статичный глагол?",
-            "feedback": "Правильно! Это второй шаг алгоритма."
-          },
-          {
-            "id": "c",
-            "text": "Постоянная или временная ситуация?",
-            "feedback": "Это третий шаг."
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "Второй шаг алгоритма — проверить тип глагола. Если это статичный глагол (know, like, want), используется Simple.",
-        "tags": [
-          "algorithm",
-          "step2"
-        ]
-      },
-      {
-        "id": "q51",
-        "type": "mcq_single",
-        "prompt": "Что нужно проверить третьим шагом?",
-        "theory_block_id": "b5_theory_decision_tree",
-        "difficulty": 1,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Есть ли маркеры времени?",
-            "feedback": "Это последний шаг."
-          },
-          {
-            "id": "b",
-            "text": "Это факт или постоянная ситуация?",
-            "feedback": "Правильно! Это третий шаг алгоритма."
-          },
-          {
-            "id": "c",
-            "text": "Происходит ли действие сейчас?",
-            "feedback": "Это первый шаг."
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "Третий шаг алгоритма — проверить, является ли ситуация фактом или постоянной ситуацией. Если да — Simple.",
-        "tags": [
-          "algorithm",
-          "step3"
-        ]
-      },
-      {
-        "id": "q52",
-        "type": "true_false",
-        "prompt": "При применении алгоритма важно выполнять шаги последовательно, не пропуская этапы.",
-        "theory_block_id": "b5_theory_decision_tree",
-        "difficulty": 1,
-        "correct_answer": "true",
-        "explanation": "Верно. Алгоритм работает только при последовательном выполнении всех шагов. Пропуск шагов может привести к ошибкам.",
-        "tags": [
-          "algorithm",
-          "concept"
-        ]
-      },
-      {
         "id": "q53",
         "type": "mcq_single",
         "prompt": "Какая типичная ошибка русскоязычных студентов при выборе времени?",
@@ -1410,6 +1291,8 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
       "q7",
@@ -1417,6 +1300,8 @@
       "q9",
       "q10",
       "q12",
+      "q13",
+      "q14",
       "q15",
       "q16",
       "q17",
@@ -1426,6 +1311,8 @@
       "q21",
       "q23",
       "q24",
+      "q25",
+      "q26",
       "q27",
       "q28",
       "q31",
@@ -1433,12 +1320,13 @@
       "q33",
       "q34",
       "q36",
+      "q37",
+      "q39",
       "q40",
       "q43",
       "q44",
-      "q48",
-      "q51",
-      "q52",
+      "q53",
+      "q54",
       "q56",
       "q57",
       "q58",
@@ -1458,7 +1346,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-02-08T15:19:56Z",
+    "updated_at": "2026-02-08T16:23:03Z",
     "source": "llm"
   }
 }
