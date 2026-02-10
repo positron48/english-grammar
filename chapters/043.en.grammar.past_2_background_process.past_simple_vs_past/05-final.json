@@ -313,12 +313,12 @@
           },
           {
             "id": "b",
-            "text": "We watched TV yesterday.",
+            "text": "We watched TV yesterday  when the lights went out.",
             "feedback": "Это просто Past Simple"
           },
           {
             "id": "c",
-            "text": "We are watching TV now.",
+            "text": "We are watching TV when the lights went out.",
             "feedback": "Это Present Continuous"
           }
         ],
@@ -407,7 +407,7 @@
       {
         "id": "q12",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ I was cooking, the phone rang.\" (пока)",
+        "prompt": "Заполните пропуск: \"___ I was cooking, the phone rang.\" (while | when)",
         "theory_block_id": "b2_theory_when_while",
         "difficulty": 2,
         "correct_answer": "While",
@@ -451,7 +451,7 @@
       {
         "id": "q16",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I was studying ___ my friend called.\" (когда)",
+        "prompt": "Заполните пропуск: \"I was studying ___ my friend called.\" (while | when)",
         "theory_block_id": "b2_theory_when_while",
         "difficulty": 2,
         "correct_answer": "when",
@@ -1021,30 +1021,40 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q5",
       "q6",
       "q7",
       "q8",
       "q9",
+      "q11",
+      "q12",
       "q13",
       "q15",
       "q16",
       "q17",
       "q18",
       "q19",
+      "q21",
+      "q22",
       "q23",
       "q25",
       "q26",
       "q27",
       "q28",
       "q29",
+      "q31",
+      "q32",
       "q33",
       "q35",
       "q36",
       "q37",
       "q38",
       "q39",
+      "q41",
+      "q42",
       "q43",
       "q45",
       "q46",
@@ -1074,7 +1084,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-02-08T15:23:41Z",
+    "updated_at": "2026-02-10T12:34:36Z",
     "source": "llm"
   }
 }
