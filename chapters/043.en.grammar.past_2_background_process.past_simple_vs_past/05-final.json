@@ -246,7 +246,6 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q41",
           "q42"
         ],
         "show_answers_immediately": true
@@ -696,32 +695,6 @@
         "explanation": "Past Continuous + Past Simple дает правильную историю."
       },
       {
-        "id": "q41",
-        "type": "mcq_single",
-        "prompt": "Какая ошибка типична при смешении времен?",
-        "theory_block_id": "b5_theory_common_mistakes",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I was walking when he called.",
-            "feedback": "Это правильно"
-          },
-          {
-            "id": "b",
-            "text": "I walked when he called.",
-            "feedback": "Нет фона, типичная ошибка"
-          },
-          {
-            "id": "c",
-            "text": "I was walking when he was calling.",
-            "feedback": "Неверно: событие не в Past Simple"
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "Частая ошибка — отсутствие фонового процесса."
-      },
-      {
         "id": "q42",
         "type": "true_false",
         "prompt": "Оба действия в Past Continuous — частая ошибка в таких историях.",
@@ -999,7 +972,6 @@
       "q37",
       "q38",
       "q39",
-      "q41",
       "q42",
       "q43",
       "q45",
@@ -1030,7 +1002,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-02-10T13:12:11Z",
+    "updated_at": "2026-02-10T14:05:31Z",
     "source": "llm"
   }
 }
