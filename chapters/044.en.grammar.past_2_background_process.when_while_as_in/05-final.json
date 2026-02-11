@@ -245,10 +245,7 @@
       "type": "quiz_inline",
       "title": "Проверка знаний",
       "quiz_inline": {
-        "question_ids": [
-          "q41",
-          "q42"
-        ],
+        "question_ids": [],
         "show_answers_immediately": true
       }
     }
@@ -407,7 +404,7 @@
       {
         "id": "q12",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ I was cooking, he arrived.\" (пока)",
+        "prompt": "Заполните пропуск: \"___ I was cooking, he arrived.\" (when | while)",
         "theory_block_id": "b2_theory_while_basic",
         "difficulty": 2,
         "correct_answer": "While",
@@ -451,7 +448,7 @@
       {
         "id": "q16",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ they were sleeping, the alarm went off.\" (пока)",
+        "prompt": "Заполните пропуск: \"___ they were sleeping, the alarm went off.\" (when | while)",
         "theory_block_id": "b2_theory_while_basic",
         "difficulty": 2,
         "correct_answer": "While",
@@ -627,7 +624,7 @@
       {
         "id": "q31",
         "type": "mcq_single",
-        "prompt": "Как выбрать связку для короткого события?",
+        "prompt": "Какую связку выбрать для короткого события?",
         "theory_block_id": "b4_theory_contrast_choices",
         "difficulty": 1,
         "choices": [
@@ -653,7 +650,7 @@
       {
         "id": "q32",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I was walking ___ I heard a noise.\" (когда)",
+        "prompt": "Заполните пропуск: \"I was walking ___ I heard a noise.\" (when | while)",
         "theory_block_id": "b4_theory_contrast_choices",
         "difficulty": 2,
         "correct_answer": "when",
@@ -697,7 +694,7 @@
       {
         "id": "q36",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ I was walking, I saw a dog.\" (когда)",
+        "prompt": "Заполните пропуск: \"___ I was walking, I saw a dog.\" (when | while)",
         "theory_block_id": "b4_theory_contrast_choices",
         "difficulty": 2,
         "correct_answer": "when",
@@ -748,41 +745,6 @@
         "explanation": "While лучше подходит для длительного процесса."
       },
       {
-        "id": "q41",
-        "type": "mcq_single",
-        "prompt": "Какая ошибка типична?",
-        "theory_block_id": "b5_theory_common_mistakes",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "While I was cooking, he arrived.",
-            "feedback": "Это правильно"
-          },
-          {
-            "id": "b",
-            "text": "While I cooked, he arrived.",
-            "feedback": "Ошибка: while требует процесс"
-          },
-          {
-            "id": "c",
-            "text": "As I was cooking, he arrived.",
-            "feedback": "Это допустимо"
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "Частая ошибка — использование Past Simple после while."
-      },
-      {
-        "id": "q42",
-        "type": "true_false",
-        "prompt": "Ошибка: while + Past Simple для длительного процесса.",
-        "theory_block_id": "b5_theory_common_mistakes",
-        "difficulty": 1,
-        "correct_answer": "true",
-        "explanation": "While обычно требует Past Continuous."
-      },
-      {
         "id": "q43",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"I was sleeping when the phone ___.\" (ring)",
@@ -794,7 +756,7 @@
       {
         "id": "q45",
         "type": "mcq_single",
-        "prompt": "Какой вариант с while правильный?",
+        "prompt": "Выберите правильный вариант:",
         "theory_block_id": "b5_theory_common_mistakes",
         "difficulty": 2,
         "choices": [
@@ -829,7 +791,7 @@
       {
         "id": "q47",
         "type": "true_false",
-        "prompt": "В связке with as можно использовать Past Continuous и Past Simple.",
+        "prompt": "В связке с as можно использовать Past Continuous и Past Simple.",
         "theory_block_id": "b5_theory_common_mistakes",
         "difficulty": 2,
         "correct_answer": "true",
@@ -943,10 +905,10 @@
       {
         "id": "q55",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"While I was studying, the door ___.\" (open)",
+        "prompt": "Заполните пропуск: \"___ I was studying, the door opened.\" (when | while)",
         "theory_block_id": "b2_theory_while_basic",
         "difficulty": 2,
-        "correct_answer": "opened",
+        "correct_answer": "While",
         "explanation": "Событие в Past Simple: open → opened."
       },
       {
@@ -1024,24 +986,32 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q5",
       "q6",
       "q7",
       "q8",
       "q9",
+      "q11",
+      "q12",
       "q13",
       "q15",
       "q16",
       "q17",
       "q18",
       "q19",
+      "q21",
+      "q22",
       "q23",
       "q25",
       "q26",
       "q27",
       "q28",
       "q29",
+      "q31",
+      "q32",
       "q33",
       "q35",
       "q36",
@@ -1077,7 +1047,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-02-08T15:23:41Z",
+    "updated_at": "2026-02-11T07:53:18Z",
     "source": "llm"
   }
 }
