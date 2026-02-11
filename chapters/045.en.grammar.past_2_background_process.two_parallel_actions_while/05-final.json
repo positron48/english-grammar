@@ -154,7 +154,6 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q21",
           "q22"
         ],
         "show_answers_immediately": true
@@ -245,10 +244,7 @@
       "type": "quiz_inline",
       "title": "Проверка знаний",
       "quiz_inline": {
-        "question_ids": [
-          "q41",
-          "q42"
-        ],
+        "question_ids": [],
         "show_answers_immediately": true
       }
     }
@@ -269,12 +265,12 @@
           },
           {
             "id": "b",
-            "text": "Одно короткое событие",
+            "text": "Одно событие, которое прерывает другое",
             "feedback": "Это Past Simple"
           },
           {
             "id": "c",
-            "text": "Будущее действие",
+            "text": "Последовательность событий",
             "feedback": "Это не про прошлое"
           }
         ],
@@ -313,26 +309,17 @@
           },
           {
             "id": "b",
-            "text": "She watched TV yesterday.",
+            "text": "She watced TV while I was studying.",
             "feedback": "Это одиночное событие"
           },
           {
             "id": "c",
-            "text": "She was watching TV when I arrived.",
+            "text": "She was watched TV when I arrived.",
             "feedback": "Это процесс + событие"
           }
         ],
         "correct_answer": "a",
         "explanation": "Параллельность = два процесса в Past Continuous."
-      },
-      {
-        "id": "q6",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b1_theory_parallel_concept",
-        "difficulty": 2,
-        "correct_answer": "We were talking while they were eating.",
-        "explanation": "Обе части в Past Continuous."
       },
       {
         "id": "q7",
@@ -381,7 +368,7 @@
       {
         "id": "q11",
         "type": "mcq_single",
-        "prompt": "Какой порядок верный для структуры with while?",
+        "prompt": "Какой порядок верный для структуры с while?",
         "theory_block_id": "b2_theory_while_two_processes",
         "difficulty": 1,
         "choices": [
@@ -416,7 +403,7 @@
       {
         "id": "q13",
         "type": "true_false",
-        "prompt": "Можно поменять порядок частей: While ..., ... / ... while ....",
+        "prompt": "Можно поменять порядок частей: 'While ..., ...' > '... while ...'",
         "theory_block_id": "b2_theory_while_two_processes",
         "difficulty": 1,
         "correct_answer": "true",
@@ -431,7 +418,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "While he was working, she was отдыхала.",
+            "text": "While he was working, she rests.",
             "feedback": "Неверно: смешение языков"
           },
           {
@@ -467,15 +454,6 @@
         "explanation": "Для параллельных процессов нужна форма Past Continuous."
       },
       {
-        "id": "q18",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b2_theory_while_two_processes",
-        "difficulty": 2,
-        "correct_answer": "While I was talking, he was listening.",
-        "explanation": "Обе части в Past Continuous."
-      },
-      {
         "id": "q19",
         "type": "mcq_single",
         "prompt": "Какой вариант верный для двух процессов?",
@@ -502,32 +480,6 @@
         "explanation": "Параллельные процессы требуют Past Continuous в обеих частях."
       },
       {
-        "id": "q21",
-        "type": "mcq_single",
-        "prompt": "Что показывает одна линия времени?",
-        "theory_block_id": "b3_theory_timeline",
-        "difficulty": 1,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Оба действия идут одновременно",
-            "feedback": "Да, это параллельность"
-          },
-          {
-            "id": "b",
-            "text": "Одно событие прерывает другое",
-            "feedback": "Это другая структура"
-          },
-          {
-            "id": "c",
-            "text": "Действие в будущем",
-            "feedback": "Это не про прошлое"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Одна линия времени означает параллельные процессы."
-      },
-      {
         "id": "q22",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"We were eating while they ___ talking.\" (be)",
@@ -535,15 +487,6 @@
         "difficulty": 2,
         "correct_answer": "were",
         "explanation": "Нужно were как форма be с we/they."
-      },
-      {
-        "id": "q23",
-        "type": "true_false",
-        "prompt": "Если есть короткое событие, это уже не параллельные действия.",
-        "theory_block_id": "b3_theory_timeline",
-        "difficulty": 1,
-        "correct_answer": "true",
-        "explanation": "Параллельность — это два процесса без прерывания."
       },
       {
         "id": "q25",
@@ -562,7 +505,7 @@
           },
           {
             "id": "c",
-            "text": "They studied yesterday."
+            "text": "They were studied when we arrived."
           }
         ],
         "correct_answer": "a",
@@ -710,15 +653,6 @@
         "explanation": "Оба порядка грамматически верны."
       },
       {
-        "id": "q38",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b4_theory_variations",
-        "difficulty": 2,
-        "correct_answer": "She was sleeping while he was driving.",
-        "explanation": "Обе части в Past Continuous."
-      },
-      {
         "id": "q39",
         "type": "mcq_single",
         "prompt": "Какой вариант неверный для параллельных действий?",
@@ -743,41 +677,6 @@
         ],
         "correct_answer": "b",
         "explanation": "Для параллельных действий обе части должны быть в Past Continuous."
-      },
-      {
-        "id": "q41",
-        "type": "mcq_single",
-        "prompt": "Какая ошибка типична для параллельных действий?",
-        "theory_block_id": "b5_theory_common_mistakes",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "While I was working, she was resting.",
-            "feedback": "Это правильно: два процесса"
-          },
-          {
-            "id": "b",
-            "text": "While I worked, she was resting.",
-            "feedback": "Ошибка: первое действие не в Continuous"
-          },
-          {
-            "id": "c",
-            "text": "While I was working, she was resting too.",
-            "feedback": "Это тоже правильно, оба в Continuous"
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "Типичная ошибка — Past Simple вместо Past Continuous."
-      },
-      {
-        "id": "q42",
-        "type": "true_false",
-        "prompt": "Ошибка: одно действие в Past Simple, другое в Past Continuous.",
-        "theory_block_id": "b5_theory_common_mistakes",
-        "difficulty": 1,
-        "correct_answer": "true",
-        "explanation": "Для параллельных действий нужны две формы Past Continuous."
       },
       {
         "id": "q43",
@@ -826,20 +725,11 @@
       {
         "id": "q47",
         "type": "true_false",
-        "prompt": "С two parallel actions можно использовать Past Simple + Past Continuous.",
+        "prompt": "С параллельными действиями можно использовать Past Simple + Past Continuous.",
         "theory_block_id": "b5_theory_common_mistakes",
         "difficulty": 2,
         "correct_answer": "false",
         "explanation": "Для параллельных действий нужно две формы Past Continuous."
-      },
-      {
-        "id": "q48",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b5_theory_common_mistakes",
-        "difficulty": 2,
-        "correct_answer": "We were talking while they were waiting.",
-        "explanation": "Обе части в Past Continuous."
       },
       {
         "id": "q49",
@@ -965,7 +855,7 @@
           },
           {
             "id": "c",
-            "text": "While I was walking, she was talking on the phone.",
+            "text": "I was walking while she was talking.",
             "feedback": "Это тоже правильно: два процесса"
           }
         ],
@@ -1021,35 +911,37 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q5",
-      "q6",
       "q7",
       "q8",
       "q9",
+      "q11",
+      "q12",
       "q13",
       "q15",
       "q16",
       "q17",
-      "q18",
       "q19",
-      "q23",
+      "q22",
       "q25",
       "q26",
       "q27",
       "q28",
       "q29",
+      "q31",
+      "q32",
       "q33",
       "q35",
       "q36",
       "q37",
-      "q38",
       "q39",
       "q43",
       "q45",
       "q46",
       "q47",
-      "q48",
       "q49",
       "q51",
       "q52",
@@ -1074,7 +966,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-02-08T15:23:41Z",
+    "updated_at": "2026-02-11T12:39:56Z",
     "source": "llm"
   }
 }
