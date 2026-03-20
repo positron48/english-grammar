@@ -38,29 +38,6 @@
       "explanation": "Это удобная и естественная структура для короткого отзыва."
     },
     {
-      "id": "q4",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'Great movie. It is a movie.'",
-      "theory_block_id": "b1_review_structure",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "It's a great movie."
-        },
-        {
-          "id": "b",
-          "text": "Great movie. It is a movie."
-        },
-        {
-          "id": "c",
-          "text": "It's a movie with a great story."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Нужно сразу дать полное описание: It's a great movie."
-    },
-    {
       "id": "q5",
       "type": "reorder",
       "prompt": "Расставьте слова в правильном порядке:",
@@ -105,29 +82,6 @@
       "difficulty": 2,
       "correct_answer": "false",
       "explanation": "Для всех пунктов обычно нужно 3–5 предложений."
-    },
-    {
-      "id": "q9",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'I recommend it because is cheap.'",
-      "theory_block_id": "b1_review_structure",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I recommend it because it is cheap."
-        },
-        {
-          "id": "b",
-          "text": "I recommend it because is cheap."
-        },
-        {
-          "id": "c",
-          "text": "I recommend it because it's cheap."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Нужно подлежащее: because it is cheap."
     },
     {
       "id": "q10",
@@ -430,15 +384,6 @@
       "explanation": "Quite подходит для gradable."
     },
     {
-      "id": "q32",
-      "type": "true_false",
-      "prompt": "Верно или неверно: «'Absolutely perfect' is a natural collocation.»",
-      "theory_block_id": "b3_intensifiers",
-      "difficulty": 1,
-      "correct_answer": "true",
-      "explanation": "Perfect — non-gradable, absolutely подходит."
-    },
-    {
       "id": "q33",
       "type": "error_spotting",
       "prompt": "Найдите ошибку: 'The place was very unique.'",
@@ -596,15 +541,6 @@
       "explanation": "Сравнительная степень + than."
     },
     {
-      "id": "q44",
-      "type": "true_false",
-      "prompt": "Верно или неверно: «'Not as good as' means the same as 'worse than'.»",
-      "theory_block_id": "b4_comparisons",
-      "difficulty": 1,
-      "correct_answer": "true",
-      "explanation": "Not as…as можно переформулировать как worse than."
-    },
-    {
       "id": "q45",
       "type": "error_spotting",
       "prompt": "Найдите ошибку: 'The sound is as better as before.'",
@@ -626,25 +562,6 @@
       ],
       "correct_answer": "a",
       "explanation": "As…as не использует comparative."
-    },
-    {
-      "id": "q46",
-      "type": "mcq_single",
-      "prompt": "Выберите правильный вариант: It's ___ cheaper than similar models.",
-      "theory_block_id": "b4_comparisons",
-      "difficulty": 1,
-      "choices": [
-        {
-          "id": "a",
-          "text": "much"
-        },
-        {
-          "id": "b",
-          "text": "more"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Much cheaper — стандартное усиление comparative."
     },
     {
       "id": "q47",
@@ -682,15 +599,6 @@
       ],
       "correct_answer": "a",
       "explanation": "Для рекомендации: I would recommend it."
-    },
-    {
-      "id": "q50",
-      "type": "fill_blank",
-      "prompt": "It's ___ it because the quality is great. (стоит)",
-      "theory_block_id": "b5_recommendation",
-      "difficulty": 1,
-      "correct_answer": "worth",
-      "explanation": "Worth it — устойчивое выражение."
     },
     {
       "id": "q51",
