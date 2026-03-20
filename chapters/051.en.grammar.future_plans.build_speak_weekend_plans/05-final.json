@@ -243,8 +243,7 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q49",
-          "q50"
+          "q49"
         ],
         "show_answers_immediately": true
       }
@@ -472,29 +471,6 @@
         "explanation": "Это основное различие между формами."
       },
       {
-        "id": "q16",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите правильный вариант: 'I'm going to meeting them at 6.'",
-        "theory_block_id": "b2_theory_choices_future_forms",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I'm meeting them at 6."
-          },
-          {
-            "id": "b",
-            "text": "I'm going to meet them at 6."
-          },
-          {
-            "id": "c",
-            "text": "I will meeting them at 6."
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "После going to нужен базовый глагол meet."
-      },
-      {
         "id": "q17",
         "type": "reorder",
         "prompt": "Расставьте слова в правильном порядке:",
@@ -543,29 +519,6 @@
         "difficulty": 2,
         "correct_answer": "false",
         "explanation": "Для встреч чаще используется Present Continuous."
-      },
-      {
-        "id": "q21",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите правильный вариант: 'She will going to call you.'",
-        "theory_block_id": "b2_theory_choices_future_forms",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "She is going to call you."
-          },
-          {
-            "id": "b",
-            "text": "She will call you."
-          },
-          {
-            "id": "c",
-            "text": "She going to call you."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Нельзя совмещать will и going to. Для плана: is going to call."
       },
       {
         "id": "q22",
@@ -988,15 +941,6 @@
         "explanation": "В time clause используется Present Simple: get."
       },
       {
-        "id": "q50",
-        "type": "fill_blank",
-        "prompt": "I'm ___ meeting him at 6. (форма be)",
-        "theory_block_id": "b5_theory_common_mistakes",
-        "difficulty": 1,
-        "correct_answer": "not",
-        "explanation": "Отрицание Present Continuous: am not meeting."
-      },
-      {
         "id": "q51",
         "type": "true_false",
         "prompt": "Фраза 'I meet John at 5' подходит для договоренности.",
@@ -1079,29 +1023,6 @@
         "explanation": "Форма be обязательна."
       },
       {
-        "id": "q57",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите правильный вариант: 'Are you meeting to go tomorrow?'",
-        "theory_block_id": "b5_theory_common_mistakes",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Are you going to go tomorrow?"
-          },
-          {
-            "id": "b",
-            "text": "Are you meeting tomorrow?"
-          },
-          {
-            "id": "c",
-            "text": "Do you going tomorrow?"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Для намерения лучше использовать be going to: going to go."
-      },
-      {
         "id": "q58",
         "type": "mcq_single",
         "prompt": "Какое предложение верно о договоренности?",
@@ -1147,6 +1068,8 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
       "q5",
@@ -1157,16 +1080,18 @@
       "q10",
       "q11",
       "q12",
+      "q13",
+      "q14",
       "q15",
-      "q16",
       "q17",
       "q18",
       "q19",
       "q20",
-      "q21",
       "q22",
       "q23",
       "q24",
+      "q25",
+      "q26",
       "q27",
       "q28",
       "q29",
@@ -1177,6 +1102,8 @@
       "q34",
       "q35",
       "q36",
+      "q37",
+      "q38",
       "q39",
       "q40",
       "q41",
@@ -1187,13 +1114,13 @@
       "q46",
       "q47",
       "q48",
+      "q49",
       "q51",
       "q52",
       "q53",
       "q54",
       "q55",
       "q56",
-      "q57",
       "q58",
       "q59",
       "q60"
@@ -1211,7 +1138,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:24:04Z",
+    "updated_at": "2026-03-20T17:01:32Z",
     "source": "llm"
   }
 }
