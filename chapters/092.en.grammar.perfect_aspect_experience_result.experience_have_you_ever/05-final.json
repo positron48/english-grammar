@@ -120,8 +120,7 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q13",
-          "q14"
+          "q13"
         ],
         "show_answers_immediately": true
       }
@@ -206,7 +205,6 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q37",
           "q38"
         ],
         "show_answers_immediately": true
@@ -546,15 +544,6 @@
         "explanation": "Ever чаще всего используется в вопросах с Present Perfect."
       },
       {
-        "id": "q14",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"She has ___ been to Africa.\" (not)",
-        "theory_block_id": "b2_theory_markers_ever_never",
-        "difficulty": 2,
-        "correct_answer": "never",
-        "explanation": "Never = «никогда» для опыта: has never been."
-      },
-      {
         "id": "q15",
         "type": "mcq_single",
         "prompt": "Выберите корректное место маркера: \"He has visited Berlin ___.\"",
@@ -655,15 +644,6 @@
         "explanation": "Never — нормальный маркер опыта в отрицательных утверждениях."
       },
       {
-        "id": "q20",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"Have you ___ seen a whale?\" (когда‑нибудь)",
-        "theory_block_id": "b2_theory_markers_ever_never",
-        "difficulty": 1,
-        "correct_answer": "ever",
-        "explanation": "В вопросах об опыте часто ставим ever."
-      },
-      {
         "id": "q21",
         "type": "mcq_single",
         "prompt": "Выберите корректный вариант: \"I have met her ___.\"",
@@ -718,15 +698,6 @@
         ],
         "correct_answer": "b",
         "explanation": "Twice — правильный маркер количества раз для опыта."
-      },
-      {
-        "id": "q24",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I have ___ visited this museum before.\" (not)",
-        "theory_block_id": "b2_theory_markers_ever_never",
-        "difficulty": 2,
-        "correct_answer": "never",
-        "explanation": "Never используется для отрицания опыта."
       },
       {
         "id": "q25",
@@ -946,27 +917,6 @@
         "explanation": "Короткий ответ в Present Perfect использует have/has."
       },
       {
-        "id": "q37",
-        "type": "mcq_single",
-        "prompt": "Выберите корректный вариант для открытого периода: \"this month\".",
-        "theory_block_id": "b4_theory_open_time_periods",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I have written two reports this month.",
-            "feedback": "Месяц ещё продолжается → Present Perfect."
-          },
-          {
-            "id": "b",
-            "text": "I wrote two reports this month in 2020.",
-            "feedback": "Есть конкретный год, период завершён."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Открытый период (this month) допускает Present Perfect."
-      },
-      {
         "id": "q38",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"I have ___ to the gym three times this week.\" (go)",
@@ -983,32 +933,6 @@
         "difficulty": 1,
         "correct_answer": "true",
         "explanation": "Открытый период (this week/so far) позволяет использовать Present Perfect."
-      },
-      {
-        "id": "q40",
-        "type": "error_spotting",
-        "prompt": "Выберите правильное предложение, если день ещё продолжается.",
-        "theory_block_id": "b4_theory_open_time_periods",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "She called me twice today.",
-            "feedback": "Past Simple звучит как завершенный период."
-          },
-          {
-            "id": "b",
-            "text": "She has called me twice today.",
-            "feedback": "Present Perfect подходит для открытого периода."
-          },
-          {
-            "id": "c",
-            "text": "She called me twice in 2018.",
-            "feedback": "Конкретный год требует Past Simple."
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "Если today ещё не закончился, Present Perfect уместен."
       },
       {
         "id": "q41",
@@ -1573,6 +1497,8 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
       "q5",
@@ -1583,16 +1509,17 @@
       "q10",
       "q11",
       "q12",
+      "q13",
       "q15",
       "q16",
       "q17",
       "q18",
       "q19",
-      "q20",
       "q21",
       "q22",
       "q23",
-      "q24",
+      "q25",
+      "q26",
       "q27",
       "q28",
       "q29",
@@ -1603,8 +1530,8 @@
       "q34",
       "q35",
       "q36",
+      "q38",
       "q39",
-      "q40",
       "q41",
       "q42",
       "q43",
@@ -1613,6 +1540,8 @@
       "q46",
       "q47",
       "q48",
+      "q49",
+      "q50",
       "q51",
       "q52",
       "q53",
@@ -1623,6 +1552,8 @@
       "q58",
       "q59",
       "q60",
+      "q61",
+      "q62",
       "q63",
       "q64",
       "q65",
@@ -1647,7 +1578,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:24:09Z",
+    "updated_at": "2026-03-20T18:42:06Z",
     "source": "llm"
   }
 }
