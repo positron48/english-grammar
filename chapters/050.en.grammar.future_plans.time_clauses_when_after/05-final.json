@@ -608,15 +608,6 @@
         "explanation": "После when используется Present Simple: are."
       },
       {
-        "id": "q23",
-        "type": "fill_blank",
-        "prompt": "I'll open the windows when it ___. (когда)",
-        "theory_block_id": "b2_theory_when",
-        "difficulty": 2,
-        "correct_answer": "gets",
-        "explanation": "Present Simple в time clause: gets hot."
-      },
-      {
         "id": "q24",
         "type": "true_false",
         "prompt": "После when можно использовать will, если время в будущем.",
@@ -688,15 +679,6 @@
         ],
         "correct_answer": "a",
         "explanation": "В придаточном времени: Present Simple (land), в главном: will."
-      },
-      {
-        "id": "q29",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
-        "theory_block_id": "b3_theory_after",
-        "difficulty": 2,
-        "correct_answer": "After dinner, we'll go for a walk.",
-        "explanation": "После after можно поставить придаточное в начале, затем запятая."
       },
       {
         "id": "q30",
@@ -1296,6 +1278,8 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q5",
       "q6",
@@ -1305,6 +1289,8 @@
       "q10",
       "q11",
       "q12",
+      "q13",
+      "q14",
       "q15",
       "q16",
       "q17",
@@ -1313,11 +1299,11 @@
       "q20",
       "q21",
       "q22",
-      "q23",
       "q24",
+      "q25",
+      "q26",
       "q27",
       "q28",
-      "q29",
       "q30",
       "q31",
       "q32",
@@ -1325,6 +1311,8 @@
       "q34",
       "q35",
       "q36",
+      "q37",
+      "q38",
       "q39",
       "q40",
       "q41",
@@ -1335,6 +1323,8 @@
       "q46",
       "q47",
       "q48",
+      "q49",
+      "q50",
       "q51",
       "q53",
       "q54",
@@ -1343,6 +1333,8 @@
       "q58",
       "q59",
       "q60",
+      "q61",
+      "q62",
       "q63",
       "q64",
       "q65",
@@ -1367,7 +1359,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-02-08T15:23:41Z",
+    "updated_at": "2026-03-20T17:00:13Z",
     "source": "llm"
   }
 }
