@@ -142,32 +142,6 @@
       "explanation": "Present Perfect с for обычно показывает длительность до настоящего момента: действие началось раньше и продолжается."
     },
     {
-      "id": "q8",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку и выберите лучшую правку:\n\n**I have live here for five years.**",
-      "theory_block_id": "b1_theory_duration_up_to_now",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I have lived here for five years.",
-          "feedback": "Нужна форма V3: lived."
-        },
-        {
-          "id": "b",
-          "text": "I lived here for five years.",
-          "feedback": "Это смещает смысл в завершенный период."
-        },
-        {
-          "id": "c",
-          "text": "I have been living here for five years.",
-          "feedback": "Возможный вариант, но в исходном предложении ошибка именно в форме глагола."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "После have/has нужна форма V3: **have lived**."
-    },
-    {
       "id": "q9",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: **My sister has ___ in Berlin for years.** (live)",
@@ -269,24 +243,6 @@
       "explanation": "С годами и датами используется **since**: **since 2021**."
     },
     {
-      "id": "q14",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: **She has worked here ___ six months.** (period)",
-      "theory_block_id": "b2_theory_for_vs_since",
-      "difficulty": 2,
-      "correct_answer": "for",
-      "explanation": "Six months — это период, поэтому используем **for**."
-    },
-    {
-      "id": "q15",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: **We've been married ___ 2016.** (start year)",
-      "theory_block_id": "b2_theory_for_vs_since",
-      "difficulty": 2,
-      "correct_answer": "since",
-      "explanation": "2016 — точка начала, поэтому нужен **since**."
-    },
-    {
       "id": "q16",
       "type": "error_spotting",
       "prompt": "Найдите ошибку и выберите лучшую правку:\n\n**They have been on vacation for last Friday.**",
@@ -348,32 +304,6 @@
       "explanation": "*A long time* — период, поэтому используем **for**."
     },
     {
-      "id": "q19",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку и выберите лучшую правку:\n\n**I have lived here since ten years.**",
-      "theory_block_id": "b2_theory_for_vs_since",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I have lived here for ten years.",
-          "feedback": "Ten years — период, нужен for."
-        },
-        {
-          "id": "b",
-          "text": "I have lived here since ten-year.",
-          "feedback": "Неправильная форма."
-        },
-        {
-          "id": "c",
-          "text": "I live here for ten years.",
-          "feedback": "Нужна форма Present Perfect для длительности."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "С периодом используется **for**: **for ten years**."
-    },
-    {
       "id": "q20",
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: **She has studied English ___ she was a child.**",
@@ -398,15 +328,6 @@
       ],
       "correct_answer": "a",
       "explanation": "Когда есть событие-старт, используется **since**: **since she was a child**."
-    },
-    {
-      "id": "q21",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: **He has been sick ___ Monday.** (start day)",
-      "theory_block_id": "b2_theory_for_vs_since",
-      "difficulty": 2,
-      "correct_answer": "since",
-      "explanation": "Monday — точка начала, поэтому **since**."
     },
     {
       "id": "q22",
@@ -444,15 +365,6 @@
       "explanation": "*Ages* — период, поэтому **for**."
     },
     {
-      "id": "q24",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: **I haven't seen them ___ Christmas.** (start point)",
-      "theory_block_id": "b2_theory_for_vs_since",
-      "difficulty": 2,
-      "correct_answer": "since",
-      "explanation": "Christmas — точка начала, поэтому **since**."
-    },
-    {
       "id": "q25",
       "type": "reorder",
       "prompt": "Расставьте слова в правильном порядке:",
@@ -481,15 +393,6 @@
       ],
       "correct_answer": "b",
       "explanation": "Для длительности до настоящего используется Present Perfect: **How long have you lived here?**"
-    },
-    {
-      "id": "q27",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: **How long ___ she been in Paris?** (auxiliary)",
-      "theory_block_id": "b3_theory_how_long",
-      "difficulty": 2,
-      "correct_answer": "has",
-      "explanation": "С she используется **has**: **How long has she been…?**"
     },
     {
       "id": "q28",
@@ -525,50 +428,6 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "How long с продолжающейся ситуацией обычно строится в Present Perfect."
-    },
-    {
-      "id": "q30",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку и выберите лучшую правку:\n\n**How long you have been waiting?**",
-      "theory_block_id": "b3_theory_how_long",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "How long have you been waiting?",
-          "feedback": "Правильный порядок вспомогательного глагола и подлежащего."
-        },
-        {
-          "id": "b",
-          "text": "How long did you been waiting?",
-          "feedback": "Неверная форма после did."
-        },
-        {
-          "id": "c",
-          "text": "How long have you waited?",
-          "feedback": "Возможный вариант, но меняется оттенок; здесь исправление порядка важнее."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Вопрос строится как **How long have you been waiting?**"
-    },
-    {
-      "id": "q31",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: **I've been here ___ two hours.** (period)",
-      "theory_block_id": "b3_theory_how_long",
-      "difficulty": 2,
-      "correct_answer": "for",
-      "explanation": "Two hours — период, поэтому **for**."
-    },
-    {
-      "id": "q32",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: **We've known each other ___ we were at university.** (start event)",
-      "theory_block_id": "b3_theory_how_long",
-      "difficulty": 2,
-      "correct_answer": "since",
-      "explanation": "С событием-стартом используется **since**."
     },
     {
       "id": "q33",
@@ -667,15 +526,6 @@
       "explanation": "С придаточным предложением используется **since**: **since we were children**."
     },
     {
-      "id": "q38",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: **I have been nervous ___ I got the results.** (starting clause)",
-      "theory_block_id": "b4_theory_since_clauses_positions",
-      "difficulty": 2,
-      "correct_answer": "since",
-      "explanation": "Since вводит ситуацию-старт: **since I got the results**."
-    },
-    {
       "id": "q39",
       "type": "mcq_single",
       "prompt": "Где чаще всего стоит **for/since** в нейтральном варианте?",
@@ -772,15 +622,6 @@
       "explanation": "Since может стоять в начале для акцента: **Since last summer, I've avoided sugar.**"
     },
     {
-      "id": "q44",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: **She has lived here ___ she got married.** (starting event)",
-      "theory_block_id": "b4_theory_since_clauses_positions",
-      "difficulty": 2,
-      "correct_answer": "since",
-      "explanation": "Since используется с событием-стартом: **since she got married**."
-    },
-    {
       "id": "q45",
       "type": "true_false",
       "prompt": "**For** может вводить целое придаточное предложение, например: *for I was a child*.",
@@ -814,15 +655,6 @@
       ],
       "correct_answer": "a",
       "explanation": "Когда есть событие-старт, нужен **since**: **since the exam week started**."
-    },
-    {
-      "id": "q47",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: **I have felt better ___ last Tuesday.** (start point)",
-      "theory_block_id": "b4_theory_since_clauses_positions",
-      "difficulty": 2,
-      "correct_answer": "since",
-      "explanation": "Last Tuesday — точка начала, поэтому **since**."
     },
     {
       "id": "q48",
