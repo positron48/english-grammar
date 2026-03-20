@@ -745,29 +745,6 @@
       "id": "q49"
     },
     {
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: \"The people which live here are friendly.\"",
-      "theory_block_id": "b5_theory_common_errors",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "The people who live here are friendly."
-        },
-        {
-          "id": "b",
-          "text": "The people which live here are friendly."
-        },
-        {
-          "id": "c",
-          "text": "The people that live here are friendly."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Для людей используется who/that. Which для людей неверно.",
-      "id": "q50"
-    },
-    {
       "type": "true_false",
       "prompt": "В defining clause нельзя использовать what вместо who/which/that.",
       "theory_block_id": "b5_theory_common_errors",
@@ -775,29 +752,6 @@
       "correct_answer": "true",
       "explanation": "What не используется как относительное местоимение в таком типе clauses.",
       "id": "q51"
-    },
-    {
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: \"This is the book what I bought yesterday.\"",
-      "theory_block_id": "b5_theory_common_errors",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "This is the book that I bought yesterday."
-        },
-        {
-          "id": "b",
-          "text": "This is the book what I bought yesterday."
-        },
-        {
-          "id": "c",
-          "text": "This is the book which I bought yesterday."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "В defining clause нужно that/which, а не what.",
-      "id": "q52"
     },
     {
       "type": "mcq_single",
@@ -925,29 +879,6 @@
       "correct_answer": "a",
       "explanation": "Для defining clause запятая не используется.",
       "id": "q59"
-    },
-    {
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: \"This is the film which I can’t remember the name.\"",
-      "theory_block_id": "b5_theory_common_errors",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "This is the film whose name I can’t remember."
-        },
-        {
-          "id": "b",
-          "text": "This is the film which I can’t remember the name."
-        },
-        {
-          "id": "c",
-          "text": "This is the film that I can’t remember the name of."
-        }
-      ],
-      "correct_answer": "c",
-      "explanation": "Нужна корректная структура: *the film that I can’t remember the name of*.",
-      "id": "q60"
     }
   ]
 }
