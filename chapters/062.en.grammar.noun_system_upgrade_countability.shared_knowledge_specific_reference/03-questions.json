@@ -65,29 +65,6 @@
       "explanation": "The party — речь о конкретной вечеринке, известной обеим сторонам. Это соответствует правилу, разобранному в этом блоке."
     },
     {
-      "id": "q5",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'The meeting is at 3' (без контекста).",
-      "theory_block_id": "b1_shared_knowledge",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "The meeting is at 3 (если встреча уже известна)."
-        },
-        {
-          "id": "b",
-          "text": "A meeting is at 3."
-        },
-        {
-          "id": "c",
-          "text": "The meeting is at 3."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "The требует общего контекста. Без него лучше a meeting. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
       "id": "q6",
       "type": "fill_blank",
       "prompt": "___ manager wants to see you. (мы оба знаем)",
@@ -188,29 +165,6 @@
       "explanation": "Когда объект уже известен, используется the. Это соответствует правилу, разобранному в этом блоке."
     },
     {
-      "id": "q14",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'I saw a car. A car was red.'",
-      "theory_block_id": "b2_specific_reference",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I saw a car. The car was red."
-        },
-        {
-          "id": "b",
-          "text": "I saw a car. A car was red."
-        },
-        {
-          "id": "c",
-          "text": "I saw a car. The car was red."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Второе упоминание требует the. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
       "id": "q15",
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: She opened ___ window because it was hot.",
@@ -293,29 +247,6 @@
       "explanation": "При первом упоминании без контекста нужен a/an. Это соответствует правилу, разобранному в этом блоке."
     },
     {
-      "id": "q21",
-      "type": "mcq_single",
-      "prompt": "Выберите правильный вариант: the book ___ is on the table.",
-      "theory_block_id": "b3_defining_phrases",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "that"
-        },
-        {
-          "id": "b",
-          "text": "a"
-        },
-        {
-          "id": "c",
-          "text": "an"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Уточняющая фраза делает объект конкретным. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
       "id": "q22",
       "type": "fill_blank",
       "prompt": "I like ___ photo on your desk (уточнение on your desk)",
@@ -332,29 +263,6 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Уточнение делает объект конкретным. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
-      "id": "q24",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'I liked a movie that we watched yesterday.'",
-      "theory_block_id": "b3_defining_phrases",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I liked the movie that we watched yesterday."
-        },
-        {
-          "id": "b",
-          "text": "I liked a movie that we watched yesterday."
-        },
-        {
-          "id": "c",
-          "text": "I liked the movie we watched yesterday."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Уточнение делает объект конкретным, поэтому the. Это соответствует правилу, разобранному в этом блоке."
     },
     {
       "id": "q25",
@@ -565,15 +473,6 @@
       ],
       "correct_answer": "a",
       "explanation": "Sky как общий уникальный объект часто используется с the. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
-      "id": "q39",
-      "type": "fill_blank",
-      "prompt": "We checked ___ weather before the trip (конкретная ситуация)",
-      "theory_block_id": "b4_unique_objects",
-      "difficulty": 2,
-      "correct_answer": "the",
-      "explanation": "Weather в конкретной ситуации — the weather. Это соответствует правилу, разобранному в этом блоке."
     },
     {
       "id": "q40",
@@ -816,15 +715,6 @@
       ],
       "correct_answer": "a",
       "explanation": "Первое упоминание — a, второе — the. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
-      "id": "q56",
-      "type": "fill_blank",
-      "prompt": "I saw ___ movie yesterday. ___ movie was great (первое упоминание)",
-      "theory_block_id": "b6_common_mistakes",
-      "difficulty": 2,
-      "correct_answer": "a",
-      "explanation": "Первое упоминание — a. Затем будет the. Это соответствует правилу, разобранному в этом блоке."
     },
     {
       "id": "q57",
