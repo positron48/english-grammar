@@ -446,15 +446,6 @@
         "id": "q10"
       },
       {
-        "type": "true_false",
-        "prompt": "Можно сказать look for a job.",
-        "theory_block_id": "b1_verb_prep_search_listen",
-        "difficulty": 1,
-        "correct_answer": "true",
-        "explanation": "Look for job — стандартная связка.",
-        "id": "q11"
-      },
-      {
         "type": "mcq_single",
         "prompt": "Выберите правильный вариант: She listened ___ the announcement carefully.",
         "theory_block_id": "b1_verb_prep_search_listen",
@@ -581,29 +572,6 @@
         "correct_answer": "false",
         "explanation": "Правильно: rely **on** someone.",
         "id": "q19"
-      },
-      {
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'Everything relies on him.'",
-        "theory_block_id": "b2_verb_prep_depend_on",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Everything relies on him."
-          },
-          {
-            "id": "b",
-            "text": "Everything relies of him."
-          },
-          {
-            "id": "c",
-            "text": "Everything depends on him."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Вариант a корректен: rely on him.",
-        "id": "q20"
       },
       {
         "type": "mcq_single",
@@ -775,29 +743,6 @@
         "id": "q31"
       },
       {
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'I'm waiting on the answer.'",
-        "theory_block_id": "b3_verb_prep_wait_for",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I'm waiting for the answer."
-          },
-          {
-            "id": "b",
-            "text": "I'm waiting on the answer."
-          },
-          {
-            "id": "c",
-            "text": "I'm waiting for your answer."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Wait on возможно в особых контекстах, но на этом уровне ожидается **wait for**.",
-        "id": "q32"
-      },
-      {
         "type": "mcq_single",
         "prompt": "Выберите правильный вариант: We waited ___ the results all day.",
         "theory_block_id": "b3_verb_prep_wait_for",
@@ -828,15 +773,6 @@
         "correct_answer": "for",
         "explanation": "Hope for + существительное.",
         "id": "q34"
-      },
-      {
-        "type": "true_false",
-        "prompt": "Wait может употребляться без предлога при наличии дополнения.",
-        "theory_block_id": "b3_verb_prep_wait_for",
-        "difficulty": 3,
-        "correct_answer": "false",
-        "explanation": "Если есть объект, нужен **for**: wait for the bus.",
-        "id": "q35"
       },
       {
         "type": "mcq_single",
@@ -1150,15 +1086,6 @@
         "id": "q54"
       },
       {
-        "type": "true_false",
-        "prompt": "Argue with — о теме, argue about — о человеке.",
-        "theory_block_id": "b5_verb_prep_agree_with",
-        "difficulty": 3,
-        "correct_answer": "false",
-        "explanation": "Наоборот: argue **with** — с человеком, argue **about** — о теме.",
-        "id": "q55"
-      },
-      {
         "type": "error_spotting",
         "prompt": "Найдите ошибку: 'They talked with the problem.'",
         "theory_block_id": "b5_verb_prep_agree_with",
@@ -1278,15 +1205,6 @@
         "id": "q62"
       },
       {
-        "type": "true_false",
-        "prompt": "О чём-то говорят afraid of.",
-        "theory_block_id": "b6_verb_prep_different_from",
-        "difficulty": 1,
-        "correct_answer": "true",
-        "explanation": "Afraid of — стандартная связка.",
-        "id": "q63"
-      },
-      {
         "type": "error_spotting",
         "prompt": "Найдите ошибку: 'This is different with my idea.'",
         "theory_block_id": "b6_verb_prep_different_from",
@@ -1333,15 +1251,6 @@
         "id": "q65"
       },
       {
-        "type": "fill_blank",
-        "prompt": "Вставьте предлог: He is good ___ math. (предлог после good)",
-        "theory_block_id": "b6_verb_prep_different_from",
-        "difficulty": 2,
-        "correct_answer": "at",
-        "explanation": "Good at + предмет/навык.",
-        "id": "q66"
-      },
-      {
         "type": "true_false",
         "prompt": "Different from и different than допустимы в некоторых вариантах, но from надёжнее для изучающих.",
         "theory_block_id": "b6_verb_prep_different_from",
@@ -1372,29 +1281,6 @@
         "correct_answer": "a",
         "explanation": "После interested используется **in**.",
         "id": "q68"
-      },
-      {
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: She is good ___ languages.",
-        "theory_block_id": "b6_verb_prep_different_from",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "at"
-          },
-          {
-            "id": "b",
-            "text": "in"
-          },
-          {
-            "id": "c",
-            "text": "on"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Good at + навык.",
-        "id": "q69"
       },
       {
         "type": "fill_blank",
@@ -1442,6 +1328,8 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
       "q5",
@@ -1450,28 +1338,30 @@
       "q8",
       "q9",
       "q10",
-      "q11",
       "q12",
+      "q13",
+      "q14",
       "q15",
       "q16",
       "q17",
       "q18",
       "q19",
-      "q20",
       "q21",
       "q22",
       "q23",
       "q24",
+      "q25",
+      "q26",
       "q27",
       "q28",
       "q29",
       "q30",
       "q31",
-      "q32",
       "q33",
       "q34",
-      "q35",
       "q36",
+      "q37",
+      "q38",
       "q39",
       "q40",
       "q41",
@@ -1482,23 +1372,23 @@
       "q46",
       "q47",
       "q48",
+      "q49",
+      "q50",
       "q51",
       "q52",
       "q53",
       "q54",
-      "q55",
       "q56",
       "q57",
       "q58",
       "q59",
       "q60",
-      "q63",
+      "q61",
+      "q62",
       "q64",
       "q65",
-      "q66",
       "q67",
       "q68",
-      "q69",
       "q70",
       "q71",
       "q72"
@@ -1516,7 +1406,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:24:07Z",
+    "updated_at": "2026-03-20T18:26:59Z",
     "source": "llm"
   }
 }
