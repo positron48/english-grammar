@@ -297,8 +297,7 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q49",
-          "q50"
+          "q49"
         ],
         "show_answers_immediately": true
       }
@@ -1051,29 +1050,6 @@
         "id": "q49"
       },
       {
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"The people which live here are friendly.\"",
-        "theory_block_id": "b5_theory_common_errors",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "The people who live here are friendly."
-          },
-          {
-            "id": "b",
-            "text": "The people which live here are friendly."
-          },
-          {
-            "id": "c",
-            "text": "The people that live here are friendly."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Для людей используется who/that. Which для людей неверно.",
-        "id": "q50"
-      },
-      {
         "type": "true_false",
         "prompt": "В defining clause нельзя использовать what вместо who/which/that.",
         "theory_block_id": "b5_theory_common_errors",
@@ -1081,29 +1057,6 @@
         "correct_answer": "true",
         "explanation": "What не используется как относительное местоимение в таком типе clauses.",
         "id": "q51"
-      },
-      {
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"This is the book what I bought yesterday.\"",
-        "theory_block_id": "b5_theory_common_errors",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "This is the book that I bought yesterday."
-          },
-          {
-            "id": "b",
-            "text": "This is the book what I bought yesterday."
-          },
-          {
-            "id": "c",
-            "text": "This is the book which I bought yesterday."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "В defining clause нужно that/which, а не what.",
-        "id": "q52"
       },
       {
         "type": "mcq_single",
@@ -1231,35 +1184,14 @@
         "correct_answer": "a",
         "explanation": "Для defining clause запятая не используется.",
         "id": "q59"
-      },
-      {
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"This is the film which I can’t remember the name.\"",
-        "theory_block_id": "b5_theory_common_errors",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "This is the film whose name I can’t remember."
-          },
-          {
-            "id": "b",
-            "text": "This is the film which I can’t remember the name."
-          },
-          {
-            "id": "c",
-            "text": "This is the film that I can’t remember the name of."
-          }
-        ],
-        "correct_answer": "c",
-        "explanation": "Нужна корректная структура: *the film that I can’t remember the name of*.",
-        "id": "q60"
       }
     ]
   },
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
       "q5",
@@ -1270,6 +1202,8 @@
       "q10",
       "q11",
       "q12",
+      "q13",
+      "q14",
       "q15",
       "q16",
       "q17",
@@ -1280,6 +1214,8 @@
       "q22",
       "q23",
       "q24",
+      "q25",
+      "q26",
       "q27",
       "q28",
       "q29",
@@ -1290,6 +1226,8 @@
       "q34",
       "q35",
       "q36",
+      "q37",
+      "q38",
       "q39",
       "q40",
       "q41",
@@ -1300,16 +1238,15 @@
       "q46",
       "q47",
       "q48",
+      "q49",
       "q51",
-      "q52",
       "q53",
       "q54",
       "q55",
       "q56",
       "q57",
       "q58",
-      "q59",
-      "q60"
+      "q59"
     ],
     "selection_strategy": {
       "type": "stratified_by_theory_block",
@@ -1324,7 +1261,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:24:09Z",
+    "updated_at": "2026-03-20T18:33:24Z",
     "source": "llm"
   }
 }
