@@ -65,29 +65,6 @@
       "explanation": "Water — uncountable, поэтому much. Это соответствует правилу, разобранному в этом блоке."
     },
     {
-      "id": "q5",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'She has much friends.'",
-      "theory_block_id": "b1_much_many_basics",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "She has many friends."
-        },
-        {
-          "id": "b",
-          "text": "She has much friends."
-        },
-        {
-          "id": "c",
-          "text": "She has a lot of friends."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Friends — countable, нужен many. Much используется с uncountable. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
       "id": "q6",
       "type": "fill_blank",
       "prompt": "There are ___ cars on the road. (много)",
@@ -168,15 +145,6 @@
       ],
       "correct_answer": "a",
       "explanation": "A lot of — нейтральное выражение большого количества. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
-      "id": "q12",
-      "type": "fill_blank",
-      "prompt": "We have ___ work today. (много, неформально можно a lot of)",
-      "theory_block_id": "b2_a_lot_of_usage",
-      "difficulty": 1,
-      "correct_answer": "much",
-      "explanation": "Work — uncountable, в нейтральном стиле можно much. В разговоре часто говорят a lot of. Это соответствует правилу, разобранному в этом блоке."
     },
     {
       "id": "q13",
@@ -334,29 +302,6 @@
       "explanation": "Это типичный паттерн: Do you have much...?, We don't have many.... Это соответствует правилу, разобранному в этом блоке."
     },
     {
-      "id": "q24",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'Do you have many money?'",
-      "theory_block_id": "b3_questions_negatives",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Do you have much money?"
-        },
-        {
-          "id": "b",
-          "text": "Do you have many money?"
-        },
-        {
-          "id": "c",
-          "text": "Do you have a lot of money?"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Money — uncountable, поэтому much money. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
       "id": "q25",
       "type": "mcq_single",
       "prompt": "Выберите корректный вариант: We don't have ___ chairs.",
@@ -396,29 +341,6 @@
       "difficulty": 2,
       "correct_answer": "true",
       "explanation": "В утверждениях a lot of звучит естественно. В вопросах/отрицаниях чаще much/many. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
-      "id": "q28",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'She doesn't have much friends.'",
-      "theory_block_id": "b3_questions_negatives",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "She doesn't have many friends."
-        },
-        {
-          "id": "b",
-          "text": "She doesn't have much friends."
-        },
-        {
-          "id": "c",
-          "text": "She doesn't have a lot of friends."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Friends — countable, поэтому many friends. Это соответствует правилу, разобранному в этом блоке."
     },
     {
       "id": "q29",
@@ -622,15 +544,6 @@
       "explanation": "A few — небольшое, но позитивное количество. Это соответствует правилу, разобранному в этом блоке."
     },
     {
-      "id": "q42",
-      "type": "fill_blank",
-      "prompt": "We have ___ time, so we can talk. (немного, но достаточно)",
-      "theory_block_id": "b5_a_few_a_little_positive",
-      "difficulty": 2,
-      "correct_answer": "some",
-      "explanation": "Some time означает, что времени немного, но оно есть. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
       "id": "q43",
       "type": "true_false",
       "prompt": "A few имеет более позитивный оттенок, чем few.",
@@ -686,15 +599,6 @@
       "explanation": "A few ideas — есть несколько идей. Это позитивнее, чем few. Это соответствует правилу, разобранному в этом блоке."
     },
     {
-      "id": "q46",
-      "type": "fill_blank",
-      "prompt": "She has ___ money, so she can pay. (немного, но достаточно)",
-      "theory_block_id": "b5_a_few_a_little_positive",
-      "difficulty": 2,
-      "correct_answer": "some",
-      "explanation": "Some money означает, что денег достаточно. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
       "id": "q47",
       "type": "true_false",
       "prompt": "A little означает «почти нет».",
@@ -725,15 +629,6 @@
       ],
       "correct_answer": "b",
       "explanation": "A little time = немного времени есть. Это позитивный оттенок. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
-      "id": "q49",
-      "type": "fill_blank",
-      "prompt": "We have ___ minutes, so let's start. (немного, но достаточно)",
-      "theory_block_id": "b5_a_few_a_little_positive",
-      "difficulty": 2,
-      "correct_answer": "few",
-      "explanation": "Few minutes здесь означает «немного, но достаточно». Это соответствует правилу, разобранному в этом блоке."
     },
     {
       "id": "q50",
@@ -784,29 +679,6 @@
       "difficulty": 2,
       "correct_answer": "false",
       "explanation": "People — countable, поэтому нужно many people. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
-      "id": "q54",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'He has little friends.'",
-      "theory_block_id": "b6_common_errors",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "He has few friends."
-        },
-        {
-          "id": "b",
-          "text": "He has little friends."
-        },
-        {
-          "id": "c",
-          "text": "He has a few friends."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Friends — countable, поэтому few, не little. Это соответствует правилу, разобранному в этом блоке."
     },
     {
       "id": "q55",
