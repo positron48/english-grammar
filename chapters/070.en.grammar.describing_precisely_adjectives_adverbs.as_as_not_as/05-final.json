@@ -608,29 +608,6 @@
         "explanation": "Sooner и better — сравнительные степени."
       },
       {
-        "id": "q28",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'The more fast you run, the more tired you get.'",
-        "theory_block_id": "b3_the_the",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "The faster you run, the more tired you get."
-          },
-          {
-            "id": "b",
-            "text": "The more fast you run, the more tired you get."
-          },
-          {
-            "id": "c",
-            "text": "The more you run, the more tired you get."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Fast образует faster, не more fast."
-      },
-      {
         "id": "q29",
         "type": "reorder",
         "prompt": "Расставьте слова в правильном порядке:",
@@ -726,15 +703,6 @@
         "difficulty": 2,
         "correct_answer": "The more you practice, the better you get.",
         "explanation": "Сравнение зависимости: the more..., the better."
-      },
-      {
-        "id": "q36",
-        "type": "fill_blank",
-        "prompt": "The ___ he runs, the ___ he gets. (быстрый/усталый)",
-        "theory_block_id": "b3_the_the",
-        "difficulty": 2,
-        "correct_answer": "faster",
-        "explanation": "Нужен comparative: the faster..., the more tired..."
       },
       {
         "id": "q37",
@@ -940,29 +908,6 @@
         "explanation": "Нельзя использовать as more as."
       },
       {
-        "id": "q52",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'He is so tall as his brother.'",
-        "theory_block_id": "b5_common_mistakes",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "He is as tall as his brother."
-          },
-          {
-            "id": "b",
-            "text": "He is so tall as his brother."
-          },
-          {
-            "id": "c",
-            "text": "He is taller than his brother."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Нужна форма as…as, а не so…as."
-      },
-      {
         "id": "q53",
         "type": "reorder",
         "prompt": "Расставьте слова в правильном порядке:",
@@ -1009,29 +954,6 @@
         "explanation": "Нельзя использовать double comparative."
       },
       {
-        "id": "q57",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"My car is as fast as yours.\"",
-        "theory_block_id": "b5_common_mistakes",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "My car is as fast as yours."
-          },
-          {
-            "id": "b",
-            "text": "My car is as fast than yours."
-          },
-          {
-            "id": "c",
-            "text": "My car is faster than yours."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "В конструкции as…as нужен второй as, не than."
-      },
-      {
         "id": "q58",
         "type": "reorder",
         "prompt": "Расставьте слова в правильном порядке:",
@@ -1073,6 +995,8 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
       "q5",
@@ -1083,6 +1007,8 @@
       "q10",
       "q11",
       "q12",
+      "q13",
+      "q14",
       "q15",
       "q16",
       "q17",
@@ -1093,8 +1019,9 @@
       "q22",
       "q23",
       "q24",
+      "q25",
+      "q26",
       "q27",
-      "q28",
       "q29",
       "q30",
       "q31",
@@ -1102,7 +1029,8 @@
       "q33",
       "q34",
       "q35",
-      "q36",
+      "q37",
+      "q38",
       "q39",
       "q40",
       "q41",
@@ -1113,13 +1041,13 @@
       "q46",
       "q47",
       "q48",
+      "q49",
+      "q50",
       "q51",
-      "q52",
       "q53",
       "q54",
       "q55",
       "q56",
-      "q57",
       "q58",
       "q59",
       "q60"
@@ -1137,7 +1065,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:24:06Z",
+    "updated_at": "2026-03-20T18:03:32Z",
     "source": "llm"
   }
 }
