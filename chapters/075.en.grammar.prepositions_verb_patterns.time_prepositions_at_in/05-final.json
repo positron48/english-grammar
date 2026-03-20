@@ -354,15 +354,6 @@
         "explanation": "Выражение **at the end** описывает момент. Это точка во времени, поэтому at."
       },
       {
-        "id": "q7",
-        "type": "true_false",
-        "prompt": "Верно или неверно: «We use 'at' with specific clock times.»",
-        "theory_block_id": "b1_at_time_points",
-        "difficulty": 1,
-        "correct_answer": "true",
-        "explanation": "Часы обозначают точный момент, и для него используется **at**. Например: at 7:00."
-      },
-      {
         "id": "q8",
         "type": "error_spotting",
         "prompt": "Найдите ошибку: 'She called me on 10 p.m.'",
@@ -416,15 +407,6 @@
         "difficulty": 1,
         "correct_answer": "at",
         "explanation": "Midnight — конкретная точка, поэтому **at midnight**. Это правило для точных моментов."
-      },
-      {
-        "id": "q11",
-        "type": "true_false",
-        "prompt": "Верно или неверно: «'At' is used for long periods like years.»",
-        "theory_block_id": "b1_at_time_points",
-        "difficulty": 2,
-        "correct_answer": "false",
-        "explanation": "Годы и большие периоды требуют **in**. **At** используется для точных моментов."
       },
       {
         "id": "q12",
@@ -610,15 +592,6 @@
         "explanation": "Названия дней праздников относятся к уровню дня. Поэтому **on Christmas Day**."
       },
       {
-        "id": "q23",
-        "type": "true_false",
-        "prompt": "Верно или неверно: «'On' is used with months like March.»",
-        "theory_block_id": "b2_on_days_dates",
-        "difficulty": 2,
-        "correct_answer": "false",
-        "explanation": "Месяцы требуют **in**: in March. **On** используется для дней и дат."
-      },
-      {
         "id": "q24",
         "type": "mcq_single",
         "prompt": "Выберите правильный вариант: She left ___ her birthday.",
@@ -802,15 +775,6 @@
         "explanation": "Части дня требуют **in**: in the afternoon. Это устойчивое сочетание."
       },
       {
-        "id": "q35",
-        "type": "true_false",
-        "prompt": "Верно или неверно: «'In' is used with centuries, like in the 21st century.»",
-        "theory_block_id": "b3_in_periods_parts_of_day",
-        "difficulty": 2,
-        "correct_answer": "true",
-        "explanation": "Века — длительные периоды, поэтому используется **in**. Пример: in the 21st century."
-      },
-      {
         "id": "q36",
         "type": "mcq_single",
         "prompt": "Выберите правильный вариант: I'll call you ___ the evening.",
@@ -860,15 +824,6 @@
         "difficulty": 2,
         "correct_answer": "until",
         "explanation": "Здесь действие продолжалось и закончилось в момент. Для этого используется **until**."
-      },
-      {
-        "id": "q39",
-        "type": "true_false",
-        "prompt": "Верно или неверно: «'By 6 p.m.' means the action should be finished no later than 6.»",
-        "theory_block_id": "b4_by_vs_until",
-        "difficulty": 2,
-        "correct_answer": "true",
-        "explanation": "By обозначает срок завершения. Это значит «не позже 6»."
       },
       {
         "id": "q40",
@@ -1158,15 +1113,6 @@
         "explanation": "Five years — длительность, поэтому используем **for**. Это ответ на «сколько?»."
       },
       {
-        "id": "q59",
-        "type": "true_false",
-        "prompt": "Верно или неверно: «'During' can be used with a number like 'during two days'.»",
-        "theory_block_id": "b5_during_vs_for",
-        "difficulty": 2,
-        "correct_answer": "false",
-        "explanation": "Числовая длительность требует **for**. During используется с существительным события/периода."
-      },
-      {
         "id": "q60",
         "type": "mcq_single",
         "prompt": "Выберите правильный вариант: She felt sick ___ the trip.",
@@ -1190,16 +1136,18 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
       "q5",
       "q6",
-      "q7",
       "q8",
       "q9",
       "q10",
-      "q11",
       "q12",
+      "q13",
+      "q14",
       "q15",
       "q16",
       "q17",
@@ -1208,8 +1156,9 @@
       "q20",
       "q21",
       "q22",
-      "q23",
       "q24",
+      "q25",
+      "q26",
       "q27",
       "q28",
       "q29",
@@ -1218,9 +1167,9 @@
       "q32",
       "q33",
       "q34",
-      "q35",
       "q36",
-      "q39",
+      "q37",
+      "q38",
       "q40",
       "q41",
       "q42",
@@ -1230,6 +1179,8 @@
       "q46",
       "q47",
       "q48",
+      "q49",
+      "q50",
       "q51",
       "q52",
       "q53",
@@ -1238,7 +1189,6 @@
       "q56",
       "q57",
       "q58",
-      "q59",
       "q60"
     ],
     "selection_strategy": {
@@ -1254,7 +1204,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:24:07Z",
+    "updated_at": "2026-03-20T18:20:23Z",
     "source": "llm"
   }
 }
