@@ -827,29 +827,6 @@
       "explanation": "Вопрос строится с am/is/are, а do/does не используется."
     },
     {
-      "id": "q57",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку и выберите правильный вариант: 'Is he working tomorrow?'",
-      "theory_block_id": "b5_theory_questions",
-      "difficulty": 1,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Is he working tomorrow?"
-        },
-        {
-          "id": "b",
-          "text": "Is he work tomorrow?"
-        },
-        {
-          "id": "c",
-          "text": "Does he working tomorrow?"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Предложение уже корректное: Is he working tomorrow?"
-    },
-    {
       "id": "q58",
       "type": "reorder",
       "prompt": "Расставьте слова в правильном порядке:",
@@ -930,29 +907,6 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Эта форма показывает расписанные договоренности."
-    },
-    {
-      "id": "q64",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку и выберите правильный вариант: 'I will meeting you at 7.'",
-      "theory_block_id": "b6_theory_contrast_go_will",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I'm meeting you at 7."
-        },
-        {
-          "id": "b",
-          "text": "I'll meet you at 7."
-        },
-        {
-          "id": "c",
-          "text": "I'm going to meet you at 7."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Если это договоренность, нужен Present Continuous: I'm meeting you at 7."
     },
     {
       "id": "q65",
