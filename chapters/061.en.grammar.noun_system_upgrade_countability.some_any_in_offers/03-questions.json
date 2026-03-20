@@ -65,29 +65,6 @@
       "explanation": "В отрицаниях используется any. Это соответствует правилу, разобранному в этом блоке."
     },
     {
-      "id": "q5",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'Do you have some information?'",
-      "theory_block_id": "b1_basic_some_any",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Do you have any information?"
-        },
-        {
-          "id": "b",
-          "text": "Do you have some information?"
-        },
-        {
-          "id": "c",
-          "text": "Do you have information?"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "В нейтральных вопросах обычно используется any. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
       "id": "q6",
       "type": "fill_blank",
       "prompt": "She has ___ ideas for the project. (несколько)",
@@ -186,29 +163,6 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Offer предполагает позитивный ответ, поэтому some. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
-      "id": "q14",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'Would you like any cookies?'",
-      "theory_block_id": "b2_offers_some",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Would you like some cookies?"
-        },
-        {
-          "id": "b",
-          "text": "Would you like any cookies?"
-        },
-        {
-          "id": "c",
-          "text": "Do you want some cookies?"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "В офферах обычно ставят some, а не any. Это соответствует правилу, разобранному в этом блоке."
     },
     {
       "id": "q15",
@@ -332,29 +286,6 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Просьба предполагает позитивный ответ, поэтому some. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
-      "id": "q24",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'Can I have any sugar?'",
-      "theory_block_id": "b3_requests_some",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Can I have some sugar?"
-        },
-        {
-          "id": "b",
-          "text": "Can I have any sugar?"
-        },
-        {
-          "id": "c",
-          "text": "Could I have some sugar?"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "В просьбах используется some. Это соответствует правилу, разобранному в этом блоке."
     },
     {
       "id": "q25",
@@ -770,29 +701,6 @@
       "difficulty": 2,
       "correct_answer": "false",
       "explanation": "В офферах обычно some. Any звучит неестественно. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
-      "id": "q54",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'Can I have any juice?'",
-      "theory_block_id": "b6_common_mistakes",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Can I have some juice?"
-        },
-        {
-          "id": "b",
-          "text": "Can I have any juice?"
-        },
-        {
-          "id": "c",
-          "text": "Could I have some juice?"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "В просьбах используется some. Это соответствует правилу, разобранному в этом блоке."
     },
     {
       "id": "q55",
