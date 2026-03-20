@@ -67,8 +67,7 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q1",
-          "q2"
+          "q1"
         ],
         "show_answers_immediately": true
       }
@@ -276,15 +275,6 @@
         "explanation": "Must выражает личную необходимость: I must finish this today."
       },
       {
-        "id": "q2",
-        "type": "fill_blank",
-        "prompt": "She ___ call her doctor today. (личная необходимость)",
-        "theory_block_id": "b1_theory_must_internal",
-        "difficulty": 1,
-        "correct_answer": "must",
-        "explanation": "Must используется для личной необходимости: must call."
-      },
-      {
         "id": "q3",
         "type": "true_false",
         "prompt": "Must часто выражает личное решение говорящего.",
@@ -349,15 +339,6 @@
         "explanation": "Must отражает личное решение или необходимость."
       },
       {
-        "id": "q7",
-        "type": "fill_blank",
-        "prompt": "We ___ do something about this. (личная необходимость)",
-        "theory_block_id": "b1_theory_must_internal",
-        "difficulty": 1,
-        "correct_answer": "must",
-        "explanation": "Must подходит для внутренней необходимости."
-      },
-      {
         "id": "q8",
         "type": "true_false",
         "prompt": "Must используется только для внешних правил.",
@@ -411,15 +392,6 @@
         ],
         "correct_answer": "a",
         "explanation": "Must + V1 без -s и to."
-      },
-      {
-        "id": "q11",
-        "type": "fill_blank",
-        "prompt": "I ___ remember to call him. (личная необходимость)",
-        "theory_block_id": "b1_theory_must_internal",
-        "difficulty": 1,
-        "correct_answer": "must",
-        "explanation": "Must выражает внутреннюю необходимость."
       },
       {
         "id": "q12",
@@ -484,29 +456,6 @@
         "difficulty": 1,
         "correct_answer": "true",
         "explanation": "Это внешняя обязанность, заданная правилами."
-      },
-      {
-        "id": "q16",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите правильный вариант: 'She have to work on Saturday.'",
-        "theory_block_id": "b2_theory_have_to_external",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "She has to work on Saturday."
-          },
-          {
-            "id": "b",
-            "text": "She must to work on Saturday."
-          },
-          {
-            "id": "c",
-            "text": "She have to working on Saturday."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "В третьем лице: has to."
       },
       {
         "id": "q17",
@@ -842,29 +791,6 @@
         "explanation": "Do I have to звучит нейтрально и разговорно."
       },
       {
-        "id": "q40",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите правильный вариант: 'Do I must wear a uniform?'",
-        "theory_block_id": "b4_theory_questions",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Do I have to wear a uniform?"
-          },
-          {
-            "id": "b",
-            "text": "Must I wear a uniform?"
-          },
-          {
-            "id": "c",
-            "text": "Do I have to to wear a uniform?"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Вопрос с have to строится через do: Do I have to wear...?"
-      },
-      {
         "id": "q41",
         "type": "reorder",
         "prompt": "Расставьте слова в правильном порядке:",
@@ -913,29 +839,6 @@
         "difficulty": 2,
         "correct_answer": "true",
         "explanation": "Must I...? обычно более формален."
-      },
-      {
-        "id": "q45",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите правильный вариант: 'Does he must pay?'",
-        "theory_block_id": "b4_theory_questions",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Does he have to pay?"
-          },
-          {
-            "id": "b",
-            "text": "Must he pay?"
-          },
-          {
-            "id": "c",
-            "text": "Does he have to pays?"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Вопрос с have to: Does he have to pay?"
       },
       {
         "id": "q46",
@@ -1075,15 +978,6 @@
         "explanation": "Don't have to = нет необходимости."
       },
       {
-        "id": "q55",
-        "type": "fill_blank",
-        "prompt": "You ___ to wear a helmet. (ошибка: must to)",
-        "theory_block_id": "b5_theory_common_mistakes",
-        "difficulty": 2,
-        "correct_answer": "must",
-        "explanation": "Правильно: must wear, без to."
-      },
-      {
         "id": "q56",
         "type": "true_false",
         "prompt": "'Don't have to' означает запрет.",
@@ -1161,18 +1055,18 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
       "q3",
       "q4",
       "q5",
       "q6",
-      "q7",
       "q8",
       "q9",
       "q10",
-      "q11",
       "q12",
+      "q13",
+      "q14",
       "q15",
-      "q16",
       "q17",
       "q18",
       "q19",
@@ -1181,6 +1075,8 @@
       "q22",
       "q23",
       "q24",
+      "q25",
+      "q26",
       "q27",
       "q28",
       "q29",
@@ -1191,21 +1087,22 @@
       "q34",
       "q35",
       "q36",
+      "q37",
+      "q38",
       "q39",
-      "q40",
       "q41",
       "q42",
       "q43",
       "q44",
-      "q45",
       "q46",
       "q47",
       "q48",
+      "q49",
+      "q50",
       "q51",
       "q52",
       "q53",
       "q54",
-      "q55",
       "q56",
       "q57",
       "q58",
@@ -1225,7 +1122,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:24:04Z",
+    "updated_at": "2026-03-20T17:33:38Z",
     "source": "llm"
   }
 }
