@@ -161,8 +161,7 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q25",
-          "q26"
+          "q25"
         ],
         "show_answers_immediately": true
       }
@@ -683,24 +682,6 @@
         "explanation": "С маркером мнения 'I think' обычно используется will. Это прогноз без явных доказательств сейчас."
       },
       {
-        "id": "q26",
-        "type": "fill_blank",
-        "prompt": "She'll probably ___ the exam. (сдать экзамен)",
-        "theory_block_id": "b3_theory_predictions_opinion",
-        "difficulty": 2,
-        "correct_answer": "pass",
-        "explanation": "Will образует прогноз, а после него идет базовая форма глагола. Поэтому правильный ответ: pass."
-      },
-      {
-        "id": "q27",
-        "type": "true_false",
-        "prompt": "Will используется для прогнозов без явных признаков сейчас.",
-        "theory_block_id": "b3_theory_predictions_opinion",
-        "difficulty": 1,
-        "correct_answer": "true",
-        "explanation": "Когда прогноз основан на мнении или ощущении, используется will. Для признаков обычно выбирают be going to."
-      },
-      {
         "id": "q28",
         "type": "error_spotting",
         "prompt": "Найдите ошибку и выберите правильный вариант: 'I think he will to be late.'",
@@ -900,29 +881,6 @@
         ],
         "correct_answer": "a",
         "explanation": "После сокращения he'll используется базовая форма глагола. Поэтому правильная версия: 'He'll call you later'."
-      },
-      {
-        "id": "q41",
-        "type": "mcq_single",
-        "prompt": "Выберите правильное сокращение: 'we will' → ?",
-        "theory_block_id": "b4_theory_forms_neg_contractions",
-        "difficulty": 1,
-        "choices": [
-          {
-            "id": "a",
-            "text": "we'll"
-          },
-          {
-            "id": "b",
-            "text": "we're"
-          },
-          {
-            "id": "c",
-            "text": "we'd"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Сокращение will с we — это we'll. Остальные варианты означают we are и we would."
       },
       {
         "id": "q42",
@@ -1401,8 +1359,6 @@
       "q23",
       "q24",
       "q25",
-      "q26",
-      "q27",
       "q28",
       "q29",
       "q30",
@@ -1416,7 +1372,6 @@
       "q38",
       "q39",
       "q40",
-      "q41",
       "q42",
       "q43",
       "q44",
@@ -1462,7 +1417,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-20T15:58:23Z",
+    "updated_at": "2026-03-20T16:07:09Z",
     "source": "llm"
   }
 }
