@@ -38,29 +38,6 @@
       "explanation": "Horrible — мнение, cold — факт. Правильный порядок: opinion → fact."
     },
     {
-      "id": "q4",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'We rented a apartment cheap.'",
-      "theory_block_id": "b1_simple_order",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "We rented a cheap apartment."
-        },
-        {
-          "id": "b",
-          "text": "We rented a apartment cheap."
-        },
-        {
-          "id": "c",
-          "text": "We rented the cheap apartment."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Прилагательное должно стоять перед существительным: a cheap apartment."
-    },
-    {
       "id": "q5",
       "type": "reorder",
       "prompt": "Расставьте слова в правильном порядке:",
@@ -107,29 +84,6 @@
       "explanation": "Opinion должно быть первым: a beautiful metal statue."
     },
     {
-      "id": "q9",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'He has a jacket warm.'",
-      "theory_block_id": "b1_simple_order",
-      "difficulty": 1,
-      "choices": [
-        {
-          "id": "a",
-          "text": "He has a warm jacket."
-        },
-        {
-          "id": "b",
-          "text": "He has a jacket warm."
-        },
-        {
-          "id": "c",
-          "text": "He has the warm jacket."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Прилагательное warm должно стоять перед существительным."
-    },
-    {
       "id": "q10",
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: a ___ old painting.",
@@ -147,15 +101,6 @@
       ],
       "correct_answer": "a",
       "explanation": "Beautiful — мнение, old — факт. Opinion стоит первым."
-    },
-    {
-      "id": "q11",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b1_simple_order",
-      "difficulty": 2,
-      "correct_answer": "She bought a lovely new phone.",
-      "explanation": "Lovely (opinion) идет перед new (fact)."
     },
     {
       "id": "q12",
@@ -225,15 +170,6 @@
       ],
       "correct_answer": "a",
       "explanation": "Размер ставится перед цветом: small red bag."
-    },
-    {
-      "id": "q17",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b2_size_age_color",
-      "difficulty": 2,
-      "correct_answer": "They live in a big old house.",
-      "explanation": "Big (size) стоит перед old (age)."
     },
     {
       "id": "q18",
@@ -536,29 +472,6 @@
       "explanation": "Порядок: ... shape → color → origin → material."
     },
     {
-      "id": "q40",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'a leather beautiful Italian bag'",
-      "theory_block_id": "b4_full_osascomp",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "a beautiful Italian leather bag"
-        },
-        {
-          "id": "b",
-          "text": "a leather beautiful Italian bag"
-        },
-        {
-          "id": "c",
-          "text": "a beautiful small Italian leather bag"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Opinion должно быть первым, затем origin и material ближе к существительному."
-    },
-    {
       "id": "q41",
       "type": "reorder",
       "prompt": "Расставьте слова в правильном порядке:",
@@ -665,34 +578,6 @@
       "explanation": "Origin идет после opinion и перед material."
     },
     {
-      "id": "q49",
-      "type": "mcq_single",
-      "prompt": "Выберите правильный вариант: I want that ___ red car.",
-      "theory_block_id": "b5_fixed_and_focus",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "old"
-        },
-        {
-          "id": "b",
-          "text": "red"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Обычно old идет перед red, даже если возможен акцент на цвет."
-    },
-    {
-      "id": "q50",
-      "type": "fill_blank",
-      "prompt": "He wants that ___ old car, not the blue one. (красный)",
-      "theory_block_id": "b5_fixed_and_focus",
-      "difficulty": 2,
-      "correct_answer": "red",
-      "explanation": "Для акцента на цвет можно поставить его впереди: that red old car."
-    },
-    {
       "id": "q51",
       "type": "true_false",
       "prompt": "Верно или неверно: «Breaking adjective order is sometimes possible for emphasis.»",
@@ -723,15 +608,6 @@
       ],
       "correct_answer": "a",
       "explanation": "Если нет акцента, соблюдаем нормальный порядок: opinion перед material."
-    },
-    {
-      "id": "q53",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b5_fixed_and_focus",
-      "difficulty": 2,
-      "correct_answer": "That red old car is mine.",
-      "explanation": "Возможно смещение ради фокуса на цвет."
     },
     {
       "id": "q54",
@@ -792,34 +668,6 @@
       ],
       "correct_answer": "a",
       "explanation": "Без акцента соблюдаем порядок: opinion перед material."
-    },
-    {
-      "id": "q58",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b5_fixed_and_focus",
-      "difficulty": 2,
-      "correct_answer": "I want the blue old bike.",
-      "explanation": "Смещение возможно, но при желании можно сохранить стандартный порядок."
-    },
-    {
-      "id": "q59",
-      "type": "mcq_single",
-      "prompt": "Выберите правильный вариант: That ___ old car is faster.",
-      "theory_block_id": "b5_fixed_and_focus",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "red"
-        },
-        {
-          "id": "b",
-          "text": "wooden"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Color может быть выдвинут для контраста в разговоре."
     },
     {
       "id": "q60",
