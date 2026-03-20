@@ -1200,15 +1200,6 @@
         "explanation": "В кратком ответе повторяется только вспомогательный. *Yes, we have* соответствует вопросу."
       },
       {
-        "id": "q58",
-        "type": "true_false",
-        "prompt": "Верно или неверно: «Contractions like I've or she's are formed from have/has + subject.»",
-        "theory_block_id": "b5_theory_short_answers_contractions",
-        "difficulty": 1,
-        "correct_answer": "true",
-        "explanation": "В Present Perfect *I've* = *I have*, *she's* = *she has*. Сокращение не меняет форму глагола."
-      },
-      {
         "id": "q59",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"He's ___ a mistake.\" (make)",
@@ -1337,15 +1328,6 @@
         "explanation": "Частая позиция — конец: *Have you finished yet?* или *I haven't finished yet.*"
       },
       {
-        "id": "q67",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I have ___ been to Japan.\" (когда-либо)",
-        "theory_block_id": "b6_theory_adverb_placement",
-        "difficulty": 2,
-        "correct_answer": "ever",
-        "explanation": "*Ever* обычно между have/has и V3. Типично для вопросов и утверждений в Present Perfect."
-      },
-      {
         "id": "q68",
         "type": "reorder",
         "prompt": "Расставьте слова в правильном порядке:",
@@ -1423,6 +1405,8 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
       "q5",
@@ -1433,6 +1417,8 @@
       "q10",
       "q11",
       "q12",
+      "q13",
+      "q14",
       "q15",
       "q16",
       "q17",
@@ -1443,6 +1429,8 @@
       "q22",
       "q23",
       "q24",
+      "q25",
+      "q26",
       "q27",
       "q28",
       "q29",
@@ -1453,6 +1441,8 @@
       "q34",
       "q35",
       "q36",
+      "q37",
+      "q38",
       "q39",
       "q40",
       "q41",
@@ -1463,6 +1453,8 @@
       "q46",
       "q47",
       "q48",
+      "q49",
+      "q50",
       "q51",
       "q52",
       "q53",
@@ -1470,14 +1462,14 @@
       "q55",
       "q56",
       "q57",
-      "q58",
       "q59",
       "q60",
+      "q61",
+      "q62",
       "q63",
       "q64",
       "q65",
       "q66",
-      "q67",
       "q68",
       "q69",
       "q70",
@@ -1497,7 +1489,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:24:09Z",
+    "updated_at": "2026-03-20T18:35:15Z",
     "source": "llm"
   }
 }
