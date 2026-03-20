@@ -627,29 +627,6 @@
         "explanation": "После may ставится базовая форма. В этом контексте: call a taxi."
       },
       {
-        "id": "q24",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'I may am late.'",
-        "theory_block_id": "b2_form_may_might",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I may be late."
-          },
-          {
-            "id": "b",
-            "text": "I may am late."
-          },
-          {
-            "id": "c",
-            "text": "I might be late."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "С глаголом be нужна форма be, а не am. Конструкция: may be."
-      },
-      {
         "id": "q25",
         "type": "mcq_single",
         "prompt": "Какое предложение означает «возможно, не»?",
@@ -1084,29 +1061,6 @@
         "explanation": "May звучит чуть более уверенно, чем might. Can't выражает уверенное отрицание."
       },
       {
-        "id": "q53",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'He may might arrive tomorrow.'",
-        "theory_block_id": "b5_may_vs_might",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "He may arrive tomorrow."
-          },
-          {
-            "id": "b",
-            "text": "He might arrive tomorrow."
-          },
-          {
-            "id": "c",
-            "text": "He may might arrive tomorrow."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Нельзя использовать два модальных глагола подряд. Нужно выбрать either may или might."
-      },
-      {
         "id": "q54",
         "type": "fill_blank",
         "prompt": "I ___ be late, but it's unlikely. (менее вероятно)",
@@ -1187,29 +1141,6 @@
         ],
         "correct_answer": "b",
         "explanation": "May звучит немного увереннее, чем might. Вариант c — факт из прошлого."
-      },
-      {
-        "id": "q60",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'They mights be busy.'",
-        "theory_block_id": "b5_may_vs_might",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "They might be busy."
-          },
-          {
-            "id": "b",
-            "text": "They mights be busy."
-          },
-          {
-            "id": "c",
-            "text": "They may be busy."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Модальные глаголы не принимают -s. Правильно: might be."
       },
       {
         "id": "q61",
@@ -1408,6 +1339,8 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
       "q5",
@@ -1418,6 +1351,8 @@
       "q10",
       "q11",
       "q12",
+      "q13",
+      "q14",
       "q15",
       "q16",
       "q17",
@@ -1427,7 +1362,8 @@
       "q21",
       "q22",
       "q23",
-      "q24",
+      "q25",
+      "q26",
       "q27",
       "q28",
       "q29",
@@ -1438,6 +1374,8 @@
       "q34",
       "q35",
       "q36",
+      "q37",
+      "q38",
       "q39",
       "q40",
       "q41",
@@ -1448,16 +1386,18 @@
       "q46",
       "q47",
       "q48",
+      "q49",
+      "q50",
       "q51",
       "q52",
-      "q53",
       "q54",
       "q55",
       "q56",
       "q57",
       "q58",
       "q59",
-      "q60",
+      "q61",
+      "q62",
       "q63",
       "q64",
       "q65",
@@ -1482,7 +1422,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:24:05Z",
+    "updated_at": "2026-03-20T17:40:37Z",
     "source": "llm"
   }
 }
