@@ -68,8 +68,7 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q1",
-          "q2"
+          "q1"
         ],
         "show_answers_immediately": true
       }
@@ -298,15 +297,6 @@
         "explanation": "Must используется для обязательных правил. Здесь речь о требовании на работе."
       },
       {
-        "id": "q2",
-        "type": "fill_blank",
-        "prompt": "I ___ be at the office by 9. (обязанность)",
-        "theory_block_id": "b1_rules_must_have_to",
-        "difficulty": 1,
-        "correct_answer": "must",
-        "explanation": "Must выражает необходимость и подходит для требований. В этом контексте это обязательство по правилу. Это соответствует правилу, разобранному в этом блоке."
-      },
-      {
         "id": "q3",
         "type": "true_false",
         "prompt": "Must и have to можно использовать для правил и обязанностей.",
@@ -362,15 +352,6 @@
         "explanation": "Must не изменяется по лицам. Правильно: must arrive."
       },
       {
-        "id": "q6",
-        "type": "fill_blank",
-        "prompt": "We ___ keep the kitchen clean. (правило)",
-        "theory_block_id": "b1_rules_must_have_to",
-        "difficulty": 1,
-        "correct_answer": "must",
-        "explanation": "Must выражает правило или обязанность. В этом контексте это требование."
-      },
-      {
         "id": "q7",
         "type": "true_false",
         "prompt": "Must может использоваться для личных обязательств.",
@@ -401,15 +382,6 @@
         ],
         "correct_answer": "a",
         "explanation": "Have to подходит для правил расписания. Should — это совет, might — вероятность."
-      },
-      {
-        "id": "q9",
-        "type": "fill_blank",
-        "prompt": "Employees ___ follow safety rules. (обязанность по правилу)",
-        "theory_block_id": "b1_rules_must_have_to",
-        "difficulty": 2,
-        "correct_answer": "must",
-        "explanation": "Must подходит для формулировки правил и требований. Здесь это обязанность по правилам. Это соответствует правилу, разобранному в этом блоке."
       },
       {
         "id": "q10",
@@ -1028,29 +1000,6 @@
         "explanation": "May/might — модальные глаголы для вероятности. Они не означают обязанность."
       },
       {
-        "id": "q52",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'He might to be late today.'",
-        "theory_block_id": "b5_probability_may_might",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "He might be late today."
-          },
-          {
-            "id": "b",
-            "text": "He might to be late today."
-          },
-          {
-            "id": "c",
-            "text": "He may be late today."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "После might используется V1 без to. Правильно: might be."
-      },
-      {
         "id": "q53",
         "type": "mcq_single",
         "prompt": "Выберите фразу о возможном опоздании.",
@@ -1140,29 +1089,6 @@
         "difficulty": 2,
         "correct_answer": "false",
         "explanation": "May/might — это вероятность, а не совет. Для совета используется should."
-      },
-      {
-        "id": "q60",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'They may to arrive late.'",
-        "theory_block_id": "b5_probability_may_might",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "They may arrive late."
-          },
-          {
-            "id": "b",
-            "text": "They may to arrive late."
-          },
-          {
-            "id": "c",
-            "text": "They might arrive late."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "После may используется V1 без to. Нужна форма arrive."
       },
       {
         "id": "q61",
@@ -1333,16 +1259,17 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
       "q3",
       "q4",
       "q5",
-      "q6",
       "q7",
       "q8",
-      "q9",
       "q10",
       "q11",
       "q12",
+      "q13",
+      "q14",
       "q15",
       "q16",
       "q17",
@@ -1353,6 +1280,8 @@
       "q22",
       "q23",
       "q24",
+      "q25",
+      "q26",
       "q27",
       "q28",
       "q29",
@@ -1363,6 +1292,8 @@
       "q34",
       "q35",
       "q36",
+      "q37",
+      "q38",
       "q39",
       "q40",
       "q41",
@@ -1373,8 +1304,9 @@
       "q46",
       "q47",
       "q48",
+      "q49",
+      "q50",
       "q51",
-      "q52",
       "q53",
       "q54",
       "q55",
@@ -1382,7 +1314,8 @@
       "q57",
       "q58",
       "q59",
-      "q60",
+      "q61",
+      "q62",
       "q63",
       "q64",
       "q65",
@@ -1407,7 +1340,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:24:05Z",
+    "updated_at": "2026-03-20T17:41:37Z",
     "source": "llm"
   }
 }
