@@ -385,38 +385,6 @@
         "explanation": "Book можно посчитать: one book, two books. Это соответствует правилу, разобранному в этом блоке."
       },
       {
-        "id": "q5",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'I need two waters.'",
-        "theory_block_id": "b1_core_difference",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I need some water."
-          },
-          {
-            "id": "b",
-            "text": "I need two waters."
-          },
-          {
-            "id": "c",
-            "text": "I need water."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Water — неисчисляемое, поэтому нельзя two waters. Нужны some water или a bottle of water. Это соответствует правилу, разобранному в этом блоке."
-      },
-      {
-        "id": "q6",
-        "type": "fill_blank",
-        "prompt": "We bought ___ chairs. (число)",
-        "theory_block_id": "b1_core_difference",
-        "difficulty": 1,
-        "correct_answer": "two",
-        "explanation": "Chairs — исчисляемое, его можно считать. Поэтому подходит число. Это соответствует правилу, разобранному в этом блоке."
-      },
-      {
         "id": "q7",
         "type": "true_false",
         "prompt": "Uncountable можно измерять через countable выражения.",
@@ -700,15 +668,6 @@
         "explanation": "Advice — неисчисляемое, поэтому much advice. Это соответствует правилу, разобранному в этом блоке."
       },
       {
-        "id": "q26",
-        "type": "fill_blank",
-        "prompt": "She has ___ friends here. (несколько, незначительное количество)",
-        "theory_block_id": "b3_quantifiers",
-        "difficulty": 1,
-        "correct_answer": "few",
-        "explanation": "Few используется с countable существительными. Friends — countable. Это соответствует правилу, разобранному в этом блоке."
-      },
-      {
         "id": "q27",
         "type": "true_false",
         "prompt": "Some можно использовать с countable и uncountable.",
@@ -812,29 +771,6 @@
         "difficulty": 1,
         "correct_answer": "true",
         "explanation": "A piece of создает счетную единицу. Это соответствует правилу, разобранному в этом блоке."
-      },
-      {
-        "id": "q34",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'She gave me an advice.'",
-        "theory_block_id": "b4_measure_phrases",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "She gave me a piece of advice."
-          },
-          {
-            "id": "b",
-            "text": "She gave me an advice."
-          },
-          {
-            "id": "c",
-            "text": "She gave me some advice."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Advice — неисчисляемое. Нельзя an advice. Нужно some advice или a piece of advice. Это соответствует правилу, разобранному в этом блоке."
       },
       {
         "id": "q35",
@@ -1061,15 +997,6 @@
         "explanation": "Chicken как мясо — uncountable. Остальные варианты — countable. Это соответствует правилу, разобранному в этом блоке."
       },
       {
-        "id": "q49",
-        "type": "fill_blank",
-        "prompt": "We ordered two ___ and a dessert. (порции мяса)",
-        "theory_block_id": "b5_context_switch",
-        "difficulty": 2,
-        "correct_answer": "chickens",
-        "explanation": "В ресторане chicken может означать порцию. Тогда оно countable. Это соответствует правилу, разобранному в этом блоке."
-      },
-      {
         "id": "q50",
         "type": "true_false",
         "prompt": "Coffee всегда неисчисляемое.",
@@ -1229,14 +1156,16 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
-      "q5",
-      "q6",
       "q7",
       "q8",
       "q9",
       "q10",
+      "q11",
+      "q12",
       "q13",
       "q14",
       "q15",
@@ -1245,30 +1174,35 @@
       "q18",
       "q19",
       "q20",
+      "q21",
+      "q22",
       "q23",
       "q24",
       "q25",
-      "q26",
       "q27",
       "q28",
       "q29",
       "q30",
+      "q31",
+      "q32",
       "q33",
-      "q34",
       "q35",
       "q36",
       "q37",
       "q38",
       "q39",
       "q40",
+      "q41",
+      "q42",
       "q43",
       "q44",
       "q45",
       "q46",
       "q47",
       "q48",
-      "q49",
       "q50",
+      "q51",
+      "q52",
       "q53",
       "q54",
       "q55",
@@ -1291,7 +1225,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:24:05Z",
+    "updated_at": "2026-03-20T17:43:18Z",
     "source": "llm"
   }
 }
