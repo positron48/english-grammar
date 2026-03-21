@@ -77,6 +77,16 @@
       "tags": []
     },
     {
+      "id": "q5",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: Лучше учить глагол вместе с его ___. (модель)",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 1,
+      "correct_answer": "pattern",
+      "explanation": "В английском слово и его грамматическая модель идут вместе. Это снижает риск ошибок с V-ing или to-infinitive.",
+      "tags": []
+    },
+    {
       "id": "q6",
       "type": "mcq_single",
       "prompt": "Выберите верное утверждение.",
@@ -115,6 +125,16 @@
       "tags": []
     },
     {
+      "id": "q8",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: V-ing после глагола часто называют ___. (термин)",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 1,
+      "correct_answer": "gerund",
+      "explanation": "Термин gerund используется для формы V-ing в роли существительного. Он часто появляется в описании моделей глаголов.",
+      "tags": []
+    },
+    {
       "id": "q9",
       "type": "mcq_single",
       "prompt": "Выберите предложение, где форма после глагола передает цель.",
@@ -150,16 +170,6 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Примеры дают контекст и уменьшают риск перепутать модель. Это особенно важно для глаголов со сменой смысла.",
-      "tags": []
-    },
-    {
-      "id": "q11",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: If you change the pattern, the meaning can ___. (меняться)",
-      "theory_block_id": "b1_theory_overview",
-      "difficulty": 2,
-      "correct_answer": "change",
-      "explanation": "У некоторых глаголов форма напрямую влияет на смысл. Поэтому change — подходящий глагол для объяснения эффекта.",
       "tags": []
     },
     {
@@ -465,6 +475,16 @@
       "tags": []
     },
     {
+      "id": "q26",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: She promised ___ arrive on time. (arrive)",
+      "theory_block_id": "b3_theory_to_inf_only",
+      "difficulty": 2,
+      "correct_answer": "to",
+      "explanation": "Promise сочетается с to-infinitive. Форма to arrive передает обещание.",
+      "tags": []
+    },
+    {
       "id": "q27",
       "type": "error_spotting",
       "prompt": "Выберите правильный вариант предложения.",
@@ -531,6 +551,16 @@
       "tags": []
     },
     {
+      "id": "q30",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: They agreed ___ sign the contract. (sign)",
+      "theory_block_id": "b3_theory_to_inf_only",
+      "difficulty": 2,
+      "correct_answer": "to",
+      "explanation": "Agree сочетается с to-infinitive. Форма to sign выражает согласие на действие.",
+      "tags": []
+    },
+    {
       "id": "q31",
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: I hope ___ you soon.",
@@ -587,6 +617,16 @@
       "tags": []
     },
     {
+      "id": "q33",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: We offered ___ drive him home. (drive)",
+      "theory_block_id": "b3_theory_to_inf_only",
+      "difficulty": 2,
+      "correct_answer": "to",
+      "explanation": "Offer в роли обещания или предложения требует to-infinitive. Поэтому to drive подходит.",
+      "tags": []
+    },
+    {
       "id": "q34",
       "type": "mcq_single",
       "prompt": "Какой глагол требует to-infinitive?",
@@ -622,6 +662,16 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Это типичная семантическая группа для to-infinitive. Примеры: decide, promise, plan.",
+      "tags": []
+    },
+    {
+      "id": "q36",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: She managed ___ meet the deadline. (meet)",
+      "theory_block_id": "b3_theory_to_inf_only",
+      "difficulty": 2,
+      "correct_answer": "to",
+      "explanation": "Manage требует to-infinitive и выражает успешное усилие. Поэтому to meet — верная форма.",
       "tags": []
     },
     {
@@ -805,6 +855,34 @@
       "tags": []
     },
     {
+      "id": "q46",
+      "type": "error_spotting",
+      "prompt": "Выберите правильный вариант предложения.",
+      "theory_block_id": "b4_theory_memory_duty",
+      "difficulty": 3,
+      "choices": [
+        {
+          "id": "a",
+          "text": "She forgot calling me yesterday."
+        },
+        {
+          "id": "b",
+          "text": "She forgot to call me yesterday."
+        },
+        {
+          "id": "c",
+          "text": "She forgot call me yesterday."
+        },
+        {
+          "id": "d",
+          "text": "She forgot to calling me yesterday."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Forget to do означает не сделать нужное действие. Здесь она не позвонила, поэтому to call — верно.",
+      "tags": []
+    },
+    {
       "id": "q47",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: I regret ___ that email; it sounded rude. (send)",
@@ -929,62 +1007,6 @@
       "tags": []
     },
     {
-      "id": "q54",
-      "type": "mcq_single",
-      "prompt": "Какое предложение означает «продолжать то же действие»?",
-      "theory_block_id": "b5_theory_stop_try_mean",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "She went on talking despite the noise."
-        },
-        {
-          "id": "b",
-          "text": "She went on to explain the next point."
-        },
-        {
-          "id": "c",
-          "text": "She went on explain the next point."
-        },
-        {
-          "id": "d",
-          "text": "She went on to talking about it."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Go on doing означает продолжать то же действие. Вариант with talking соответствует этой модели.",
-      "tags": []
-    },
-    {
-      "id": "q55",
-      "type": "mcq_single",
-      "prompt": "Какое предложение означает «перейти к следующему действию»?",
-      "theory_block_id": "b5_theory_stop_try_mean",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "He went on working after lunch."
-        },
-        {
-          "id": "b",
-          "text": "He went on to describe the second option."
-        },
-        {
-          "id": "c",
-          "text": "He went on describing the second option."
-        },
-        {
-          "id": "d",
-          "text": "He went on describe the second option."
-        }
-      ],
-      "correct_answer": "b",
-      "explanation": "Go on to do используется, когда говорящий переходит к новому действию. Вариант with to describe это показывает.",
-      "tags": []
-    },
-    {
       "id": "q56",
       "type": "true_false",
       "prompt": "Mean doing означает «намереваться сделать».",
@@ -1058,6 +1080,34 @@
       ],
       "correct_answer": "b",
       "explanation": "Stop doing означает прекращение привычки. Вариант smoking показывает, что она бросила курить.",
+      "tags": []
+    },
+    {
+      "id": "q60",
+      "type": "error_spotting",
+      "prompt": "Выберите правильный вариант предложения.",
+      "theory_block_id": "b5_theory_stop_try_mean",
+      "difficulty": 3,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I mean to be rude, I just disagree."
+        },
+        {
+          "id": "b",
+          "text": "I mean being rude, I just disagree."
+        },
+        {
+          "id": "c",
+          "text": "I mean be rude, I just disagree."
+        },
+        {
+          "id": "d",
+          "text": "I mean to being rude, I just disagree."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Mean to do выражает намерение, даже если оно отрицается или объясняется. Поэтому to be rude — корректный вариант.",
       "tags": []
     },
     {
