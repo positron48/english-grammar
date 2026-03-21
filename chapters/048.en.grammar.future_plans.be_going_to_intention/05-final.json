@@ -69,7 +69,7 @@
       "quiz_inline": {
         "question_ids": [
           "q1",
-          "q3"
+          "q2"
         ],
         "show_answers_immediately": true
       }
@@ -112,7 +112,7 @@
       "quiz_inline": {
         "question_ids": [
           "q13",
-          "q15"
+          "q14"
         ],
         "show_answers_immediately": true
       }
@@ -318,6 +318,15 @@
         "explanation": "Если план уже есть, используем be going to. Фраза показывает заранее принятое решение."
       },
       {
+        "id": "q2",
+        "type": "fill_blank",
+        "prompt": "I ___ visit my aunt this weekend. (план)",
+        "theory_block_id": "b1_theory_intentions_plans",
+        "difficulty": 1,
+        "correct_answer": "am",
+        "explanation": "Для be going to нужна форма be. С I используется am: I am going to visit..."
+      },
+      {
         "id": "q3",
         "type": "true_false",
         "prompt": "Be going to используется, когда решение принято заранее.",
@@ -487,6 +496,15 @@
         "explanation": "Есть явные признаки сейчас, поэтому используем be going to."
       },
       {
+        "id": "q14",
+        "type": "fill_blank",
+        "prompt": "Look at the dark clouds. It is ___ to rain soon. (признаки)",
+        "theory_block_id": "b2_theory_evidence_predictions",
+        "difficulty": 1,
+        "correct_answer": "going",
+        "explanation": "В конструкции be going to здесь нужно слово going после is."
+      },
+      {
         "id": "q15",
         "type": "true_false",
         "prompt": "Be going to используется для прогнозов, основанных на видимых признаках.",
@@ -569,13 +587,36 @@
         "explanation": "Предупреждение основано на том, что говорящий видит ситуацию прямо сейчас."
       },
       {
-        "id": "q24",
-        "type": "true_false",
-        "prompt": "Be going to можно использовать без явных признаков, просто как мнение.",
+        "id": "q22",
+        "type": "mcq_single",
+        "prompt": "Какое предложение показывает прогноз на основе фактов?",
         "theory_block_id": "b2_theory_evidence_predictions",
         "difficulty": 2,
-        "correct_answer": "false",
-        "explanation": "Для мнений без признаков обычно используют will, а be going to — для видимых признаков."
+        "choices": [
+          {
+            "id": "a",
+            "text": "I think it will be fun."
+          },
+          {
+            "id": "b",
+            "text": "Look at the smoke. The oven is going to burn."
+          },
+          {
+            "id": "c",
+            "text": "I will help you."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Вариант b основан на явном признаке (дым), поэтому be going to."
+      },
+      {
+        "id": "q23",
+        "type": "fill_blank",
+        "prompt": "The glass is shaking. It is ___ to break. (признаки)",
+        "theory_block_id": "b2_theory_evidence_predictions",
+        "difficulty": 2,
+        "correct_answer": "going",
+        "explanation": "В форме be going to после is используется going."
       },
       {
         "id": "q25",
@@ -1048,29 +1089,6 @@
         "explanation": "Вопрос строится с am/is/are, а do не используется."
       },
       {
-        "id": "q57",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите правильный вариант: 'Is he going to call later?'",
-        "theory_block_id": "b5_theory_questions",
-        "difficulty": 1,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Is he going to call later?"
-          },
-          {
-            "id": "b",
-            "text": "He is going to call later."
-          },
-          {
-            "id": "c",
-            "text": "Is he going call later?"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Предложение уже корректное: Is he going to call later?"
-      },
-      {
         "id": "q58",
         "type": "reorder",
         "prompt": "Расставьте слова в правильном порядке:",
@@ -1153,29 +1171,6 @@
         "explanation": "Be going to связано с планом, will — с реакцией в момент речи."
       },
       {
-        "id": "q64",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите правильный вариант: 'I will going to start a diet next week.'",
-        "theory_block_id": "b6_theory_contrast_will",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I'm going to start a diet next week."
-          },
-          {
-            "id": "b",
-            "text": "I will start a diet next week."
-          },
-          {
-            "id": "c",
-            "text": "I am start a diet next week."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Для плана нужна форма be going to. Конструкция will going to неверна."
-      },
-      {
         "id": "q65",
         "type": "mcq_single",
         "prompt": "Какое предложение показывает запланированное действие?",
@@ -1215,29 +1210,6 @@
         "difficulty": 1,
         "correct_answer": "true",
         "explanation": "Если есть признаки, выбираем be going to."
-      },
-      {
-        "id": "q68",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите правильный вариант: 'I'm going to will help you.'",
-        "theory_block_id": "b6_theory_contrast_will",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I'll help you."
-          },
-          {
-            "id": "b",
-            "text": "I'm going to help you."
-          },
-          {
-            "id": "c",
-            "text": "I'm go to help you."
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "Нельзя использовать will внутри be going to. Здесь уместна форма be going to для плана."
       },
       {
         "id": "q69",
@@ -1294,6 +1266,9 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
       "q4",
       "q5",
       "q6",
@@ -1303,12 +1278,18 @@
       "q10",
       "q11",
       "q12",
+      "q13",
+      "q14",
+      "q15",
       "q16",
       "q17",
       "q18",
       "q19",
       "q20",
-      "q24",
+      "q22",
+      "q23",
+      "q25",
+      "q26",
       "q27",
       "q28",
       "q29",
@@ -1319,6 +1300,8 @@
       "q34",
       "q35",
       "q36",
+      "q37",
+      "q38",
       "q39",
       "q40",
       "q41",
@@ -1329,22 +1312,23 @@
       "q46",
       "q47",
       "q48",
+      "q49",
+      "q50",
       "q51",
       "q52",
       "q53",
       "q54",
       "q55",
       "q56",
-      "q57",
       "q58",
       "q59",
       "q60",
+      "q61",
+      "q62",
       "q63",
-      "q64",
       "q65",
       "q66",
       "q67",
-      "q68",
       "q69",
       "q70",
       "q71",
@@ -1363,7 +1347,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-21T08:14:09Z",
+    "updated_at": "2026-03-21T08:32:19Z",
     "source": "llm"
   }
 }
