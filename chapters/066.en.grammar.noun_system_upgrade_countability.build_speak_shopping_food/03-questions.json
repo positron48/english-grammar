@@ -42,6 +42,29 @@
       "explanation": "Zero article используется для общих категорий. Поэтому 'I like bread' звучит естественно."
     },
     {
+      "id": "q4",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'Can you put apples into the bag? I need a bag.'",
+      "theory_block_id": "b1_context_articles",
+      "difficulty": 3,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Can you put apples into the bag? I need the bag."
+        },
+        {
+          "id": "b",
+          "text": "Can you put apples into a bag? I need a bag."
+        },
+        {
+          "id": "c",
+          "text": "Can you put apples into the bag? I need a bag."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Во второй реплике пакет еще не известен, значит a bag. В первой — тоже речь о любом пакете."
+    },
+    {
       "id": "q5",
       "type": "reorder",
       "prompt": "Расставьте слова в правильном порядке:",
@@ -207,6 +230,29 @@
       "explanation": "В отрицаниях используется any: I don't have any money."
     },
     {
+      "id": "q16",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'Do you have some eggs?'",
+      "theory_block_id": "b2_some_any",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Do you have any eggs?"
+        },
+        {
+          "id": "b",
+          "text": "Do you have some eggs?"
+        },
+        {
+          "id": "c",
+          "text": "Do you have eggs?"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "В нейтральном вопросе лучше использовать any: Do you have any eggs?"
+    },
+    {
       "id": "q17",
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: We don't need ___ tomatoes.",
@@ -226,15 +272,6 @@
       "explanation": "В отрицательных предложениях употребляется any."
     },
     {
-      "id": "q18",
-      "type": "fill_blank",
-      "prompt": "Would you like ___ tea? (предложение/угощение)",
-      "theory_block_id": "b2_some_any",
-      "difficulty": 1,
-      "correct_answer": "some",
-      "explanation": "В предложениях и приглашениях обычно используется some."
-    },
-    {
       "id": "q19",
       "type": "true_false",
       "prompt": "Верно или неверно: «'Any' can be used in questions like 'Do you need any help?'»",
@@ -242,29 +279,6 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Вопросы обычно используют any. Пример полностью корректен."
-    },
-    {
-      "id": "q20",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'I have any time tomorrow.'",
-      "theory_block_id": "b2_some_any",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I have some time tomorrow."
-        },
-        {
-          "id": "b",
-          "text": "I have any time tomorrow."
-        },
-        {
-          "id": "c",
-          "text": "I have time tomorrow."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "В утвердительном предложении логично использовать some или zero article. Any здесь неправильно."
     },
     {
       "id": "q21",
@@ -350,6 +364,29 @@
       "explanation": "A lot of универсально для countable и uncountable."
     },
     {
+      "id": "q28",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'How much oranges do you want?'",
+      "theory_block_id": "b3_much_many_a_lot",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "How many oranges do you want?"
+        },
+        {
+          "id": "b",
+          "text": "How much oranges do you want?"
+        },
+        {
+          "id": "c",
+          "text": "How many oranges would you like?"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Oranges — исчисляемые, поэтому нужно many."
+    },
+    {
       "id": "q29",
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: We bought ___ bread for the trip.",
@@ -419,27 +456,13 @@
       "explanation": "Time — неисчисляемое, поэтому much."
     },
     {
-      "id": "q34",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'We have much apples for the pie.'",
+      "id": "q35",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: «She bought ___ of snacks.» (lot)",
       "theory_block_id": "b3_much_many_a_lot",
       "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "We have many apples for the pie."
-        },
-        {
-          "id": "b",
-          "text": "We have much apples for the pie."
-        },
-        {
-          "id": "c",
-          "text": "We have a lot of apples for the pie."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Apples — исчисляемые, поэтому many или a lot of. Much здесь неверно."
+      "correct_answer": "lots",
+      "explanation": "A lot of подходит к исчисляемым и неисчисляемым и часто используется в разговоре."
     },
     {
       "id": "q36",
@@ -538,15 +561,6 @@
       "explanation": "Eggs — исчисляемые, cheese — неисчисляемое, но some подходит к обоим в разговоре."
     },
     {
-      "id": "q42",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: «She needs two ___ of water.» (bottle)",
-      "theory_block_id": "b4_countable_uncountable",
-      "difficulty": 2,
-      "correct_answer": "bottles",
-      "explanation": "Water — неисчисляемое, поэтому используем меру: two bottles of water."
-    },
-    {
       "id": "q43",
       "type": "true_false",
       "prompt": "Верно или неверно: «'Apple' is countable, so we can say 'an apple'.»",
@@ -577,7 +591,7 @@
         },
         {
           "id": "b",
-          "text": "many"
+          "text": "some"
         }
       ],
       "correct_answer": "a",
@@ -605,15 +619,6 @@
       ],
       "correct_answer": "a",
       "explanation": "Milk — неисчисляемое. Для количества нужны меры: bottles of milk."
-    },
-    {
-      "id": "q47",
-      "type": "fill_blank",
-      "prompt": "We need some ___ for sandwiches. (сыр)",
-      "theory_block_id": "b4_countable_uncountable",
-      "difficulty": 1,
-      "correct_answer": "cheese",
-      "explanation": "Cheese — неисчисляемое, поэтому используется базовая форма без множественного числа."
     },
     {
       "id": "q48",
@@ -662,6 +667,29 @@
       "explanation": "Too many используется с countable, а too much — с uncountable."
     },
     {
+      "id": "q52",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'We bought too many water for the hike.'",
+      "theory_block_id": "b5_plan_quantities",
+      "difficulty": 3,
+      "choices": [
+        {
+          "id": "a",
+          "text": "We bought too much water for the hike."
+        },
+        {
+          "id": "b",
+          "text": "We bought too many water for the hike."
+        },
+        {
+          "id": "c",
+          "text": "We bought too much water for the hike."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Water — неисчисляемое, поэтому нужно too much, а не too many."
+    },
+    {
       "id": "q53",
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: Do we have ___ snacks for everyone?",
@@ -683,7 +711,7 @@
     {
       "id": "q54",
       "type": "fill_blank",
-      "prompt": "How ___ juice do we need for the picnic? (неисчисляемое)",
+      "prompt": "How ___ juice do we need for the picnic? (many / much)",
       "theory_block_id": "b5_plan_quantities",
       "difficulty": 1,
       "correct_answer": "much",
@@ -725,6 +753,29 @@
       ],
       "correct_answer": "a",
       "explanation": "Chairs — исчисляемые, поэтому too many chairs."
+    },
+    {
+      "id": "q58",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'How many milk do we need?'",
+      "theory_block_id": "b5_plan_quantities",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "How much milk do we need?"
+        },
+        {
+          "id": "b",
+          "text": "How many milk do we need?"
+        },
+        {
+          "id": "c",
+          "text": "How much milk do we need for the recipe?"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Milk — неисчисляемое, поэтому используется how much."
     },
     {
       "id": "q59",
@@ -784,6 +835,29 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Some + plural countable в общем значении звучит естественно для планов покупок."
+    },
+    {
+      "id": "q64",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'Let's buy a milk and some breads.'",
+      "theory_block_id": "b6_build_speak",
+      "difficulty": 3,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Let's buy some milk and some bread."
+        },
+        {
+          "id": "b",
+          "text": "Let's buy a milk and some breads."
+        },
+        {
+          "id": "c",
+          "text": "Let's buy a bottle of milk and a loaf of bread."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Milk и bread — неисчисляемые. Нужны some или меры: a bottle of milk, a loaf of bread."
     },
     {
       "id": "q65",
