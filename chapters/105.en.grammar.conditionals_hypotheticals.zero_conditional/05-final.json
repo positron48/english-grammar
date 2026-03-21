@@ -753,34 +753,6 @@
         "tags": []
       },
       {
-        "id": "q29",
-        "type": "mcq_single",
-        "prompt": "Выберите правильно оформленную фразу: ___ the temperature drops, water freezes.",
-        "theory_block_id": "b4_theory_word_order",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "If"
-          },
-          {
-            "id": "b",
-            "text": "When"
-          },
-          {
-            "id": "c",
-            "text": "If,"
-          },
-          {
-            "id": "d",
-            "text": "When,"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "If вводит условие, запятая ставится позже.",
-        "tags": []
-      },
-      {
         "id": "q30",
         "type": "true_false",
         "prompt": "Zero conditional может использоваться в инструкциях.",
@@ -894,16 +866,6 @@
         "difficulty": 1,
         "correct_answer": "false",
         "explanation": "Это роль first conditional.",
-        "tags": []
-      },
-      {
-        "id": "q38",
-        "type": "fill_blank",
-        "prompt": "Вставьте пропущенное: If you don’t exercise, you ___. (чувствовать)",
-        "theory_block_id": "b1_theory_meaning",
-        "difficulty": 2,
-        "correct_answer": "feel",
-        "explanation": "Present Simple: you feel.",
         "tags": []
       },
       {
@@ -1239,16 +1201,26 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
       "q5",
+      "q6",
+      "q7",
       "q8",
       "q9",
+      "q10",
+      "q11",
       "q12",
       "q13",
       "q14",
+      "q15",
+      "q16",
       "q17",
       "q18",
+      "q19",
+      "q20",
       "q21",
       "q22",
       "q23",
@@ -1257,7 +1229,6 @@
       "q26",
       "q27",
       "q28",
-      "q29",
       "q30",
       "q31",
       "q32",
@@ -1266,7 +1237,6 @@
       "q35",
       "q36",
       "q37",
-      "q38",
       "q39",
       "q40",
       "q41",
@@ -1303,7 +1273,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:24:11Z",
+    "updated_at": "2026-03-21T07:01:24Z",
     "source": "llm"
   }
 }
