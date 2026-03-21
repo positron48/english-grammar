@@ -293,27 +293,27 @@
       "explanation": "Now обычно описывает действие в момент речи, а не договоренность."
     },
     {
-      "id": "q21",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку и выберите правильный вариант: 'I'm leaving in Monday.'",
+      "id": "q22",
+      "type": "mcq_single",
+      "prompt": "Какое предложение использует маркер будущего времени?",
       "theory_block_id": "b2_theory_time_markers",
-      "difficulty": 2,
+      "difficulty": 1,
       "choices": [
         {
           "id": "a",
-          "text": "I'm leaving on Monday."
+          "text": "I'm meeting her tonight."
         },
         {
           "id": "b",
-          "text": "I'm leaving at Monday."
+          "text": "I'm meeting her yesterday."
         },
         {
           "id": "c",
-          "text": "I'm leaving Monday."
+          "text": "I'm meeting her now."
         }
       ],
       "correct_answer": "a",
-      "explanation": "С днями недели используется on: on Monday."
+      "explanation": "Tonight указывает на будущее или ближайшее время."
     },
     {
       "id": "q23",
@@ -804,6 +804,29 @@
       "explanation": "Вопрос строится с am/is/are, а do/does не используется."
     },
     {
+      "id": "q57",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку и выберите правильный вариант: 'Is he working tomorrow?'",
+      "theory_block_id": "b5_theory_questions",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Is he working tomorrow?"
+        },
+        {
+          "id": "b",
+          "text": "Is he work tomorrow?"
+        },
+        {
+          "id": "c",
+          "text": "Does he working tomorrow?"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Предложение уже корректное: Is he working tomorrow?"
+    },
+    {
       "id": "q58",
       "type": "reorder",
       "prompt": "Расставьте слова в правильном порядке:",
@@ -811,29 +834,6 @@
       "difficulty": 2,
       "correct_answer": "Is she meeting us at noon?",
       "explanation": "Порядок: Is + subject + V-ing + time marker."
-    },
-    {
-      "id": "q59",
-      "type": "mcq_single",
-      "prompt": "Вы хотите уточнить договоренность о звонке.",
-      "theory_block_id": "b5_theory_questions",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Are you calling me at 5?"
-        },
-        {
-          "id": "b",
-          "text": "Will you call me at 5?"
-        },
-        {
-          "id": "c",
-          "text": "Do you call me at 5?"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Вопрос о договоренности строится с Present Continuous."
     },
     {
       "id": "q60",
@@ -884,6 +884,29 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Эта форма показывает расписанные договоренности."
+    },
+    {
+      "id": "q64",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку и выберите правильный вариант: 'I will meeting you at 7.'",
+      "theory_block_id": "b6_theory_contrast_go_will",
+      "difficulty": 3,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I'm meeting you at 7."
+        },
+        {
+          "id": "b",
+          "text": "I'll meet you at 7."
+        },
+        {
+          "id": "c",
+          "text": "I'm going to meet you at 7."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Если это договоренность, нужен Present Continuous: I'm meeting you at 7."
     },
     {
       "id": "q65",
