@@ -66,8 +66,8 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q3",
-          "q4"
+          "q1",
+          "q2"
         ],
         "show_answers_immediately": true
       }
@@ -129,7 +129,7 @@
       "quiz_inline": {
         "question_ids": [
           "q13",
-          "q15"
+          "q14"
         ],
         "show_answers_immediately": true
       }
@@ -305,6 +305,48 @@
   "question_bank": {
     "questions": [
       {
+        "id": "q1",
+        "type": "mcq_single",
+        "prompt": "Выберите вариант с Present Perfect для результата сейчас: \"Я потерял ключи и не могу войти\".",
+        "theory_block_id": "b1_theory_result_link_now",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I lost my keys and I can't get in.",
+            "feedback": "Past Simple подчеркивает завершенное событие, а не результат сейчас."
+          },
+          {
+            "id": "b",
+            "text": "I've lost my keys and I can't get in.",
+            "feedback": "Present Perfect показывает результат: ключей нет сейчас."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Здесь важен результат сейчас (я не могу войти), поэтому нужен Present Perfect. Времени в прошлом нет, и фокус на текущем состоянии."
+      },
+      {
+        "id": "q2",
+        "type": "mcq_single",
+        "prompt": "Ситуация: телефон не работает, потому что он сломался. Выберите правильную фразу.",
+        "theory_block_id": "b1_theory_result_link_now",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She broke her phone.",
+            "feedback": "Past Simple не подчеркивает текущий результат."
+          },
+          {
+            "id": "b",
+            "text": "She has broken her phone.",
+            "feedback": "Present Perfect показывает результат, который важен сейчас."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Важен текущий результат (телефон не работает), поэтому выбираем Present Perfect. Временной точки в прошлом нет."
+      },
+      {
         "id": "q3",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: «I have ___ my keys.» (lose)",
@@ -349,6 +391,15 @@
         "explanation": "Present Perfect подходит, когда важно текущее последствие и нет конкретного времени. Варианты с yesterday/last week требуют Past Simple."
       },
       {
+        "id": "q6",
+        "type": "true_false",
+        "prompt": "Present Perfect для результата не требует указания конкретного времени в прошлом.",
+        "theory_block_id": "b1_theory_result_link_now",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Результатный Present Perfect обычно не сочетаетcя с finished time. Фокус на текущем эффекте, а не на когда."
+      },
+      {
         "id": "q7",
         "type": "mcq_single",
         "prompt": "Выберите предложение, где фокус на результате сейчас.",
@@ -370,6 +421,27 @@
         "explanation": "Present Perfect указывает на текущий результат (меня нет), без указания времени."
       },
       {
+        "id": "q8",
+        "type": "mcq_single",
+        "prompt": "Ситуация: дверь открыта, потому что кто-то открыл ее. Как сказать по-английски?",
+        "theory_block_id": "b1_theory_result_link_now",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Someone opened the door.",
+            "feedback": "Это просто факт прошлого события без акцента на результат."
+          },
+          {
+            "id": "b",
+            "text": "Someone has opened the door.",
+            "feedback": "Подчеркивается результат: дверь сейчас открыта."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Нам важен текущий результат (дверь открыта), поэтому Present Perfect."
+      },
+      {
         "id": "q9",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: «They have ___ the door, so it's open.» (open)",
@@ -377,6 +449,74 @@
         "difficulty": 1,
         "correct_answer": "opened",
         "explanation": "V3 от open — opened. Present Perfect подчеркивает результат (дверь открыта)."
+      },
+      {
+        "id": "q10",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную фразу для ситуации: его нет дома, потому что он ушел.",
+        "theory_block_id": "b1_theory_result_link_now",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He went out.",
+            "feedback": "Это описывает действие, но не выделяет текущий результат."
+          },
+          {
+            "id": "b",
+            "text": "He has gone out.",
+            "feedback": "Present Perfect показывает результат: его нет сейчас."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Мы объясняем состояние сейчас (его нет), поэтому Present Perfect."
+      },
+      {
+        "id": "q11",
+        "type": "error_spotting",
+        "prompt": "Выберите вариант без грамматической ошибки: finished the task.",
+        "theory_block_id": "b1_theory_result_link_now",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I've finished the task.",
+            "feedback": "Грамматически верно и сообщает о результате."
+          },
+          {
+            "id": "b",
+            "text": "I've finish the task.",
+            "feedback": "Нужна форма V3: finished."
+          },
+          {
+            "id": "c",
+            "text": "I've finished the task yesterday.",
+            "feedback": "Yesterday требует Past Simple."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Present Perfect требует V3 и не используется с yesterday. Вариант a соответствует правилу."
+      },
+      {
+        "id": "q12",
+        "type": "mcq_single",
+        "prompt": "Ситуация: на кухне грязно, потому что он готовил. Выберите правильный вариант.",
+        "theory_block_id": "b1_theory_result_link_now",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "He cooked in the kitchen.",
+            "feedback": "Это просто факт, без акцента на результат."
+          },
+          {
+            "id": "b",
+            "text": "He has cooked in the kitchen.",
+            "feedback": "Present Perfect объясняет текущий результат: сейчас грязно."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Фокус на результате сейчас, поэтому Present Perfect подходит лучше, чем Past Simple."
       },
       {
         "id": "q13",
@@ -398,6 +538,27 @@
         ],
         "correct_answer": "b",
         "explanation": "In 2019 — конкретное завершенное время, поэтому используем Past Simple."
+      },
+      {
+        "id": "q14",
+        "type": "mcq_single",
+        "prompt": "Как сказать: \"Она уже напечатала отчет, поэтому можем отправить\" (результат сейчас)?",
+        "theory_block_id": "b2_theory_state_vs_event",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She printed the report, so we can send it now.",
+            "feedback": "Past Simple не подчеркивает результат сейчас."
+          },
+          {
+            "id": "b",
+            "text": "She has printed the report, so we can send it now.",
+            "feedback": "Present Perfect подчеркивает текущий результат."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Речь о результате, который важен сейчас, поэтому Present Perfect."
       },
       {
         "id": "q15",
@@ -474,6 +635,27 @@
         "explanation": "Результат важен для настоящего момента, поэтому Present Perfect."
       },
       {
+        "id": "q20",
+        "type": "mcq_single",
+        "prompt": "Как спросить о результате без указания времени: \"Ты уже отправил письмо?\"",
+        "theory_block_id": "b2_theory_state_vs_event",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Did you send the email?",
+            "feedback": "Past Simple не указывает на результат сейчас."
+          },
+          {
+            "id": "b",
+            "text": "Have you sent the email?",
+            "feedback": "Present Perfect подходит для результата без времени."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Мы спрашиваем о текущем результате, поэтому используем Present Perfect."
+      },
+      {
         "id": "q21",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: «Have you ___ the email?» (send)",
@@ -507,6 +689,48 @@
         ],
         "correct_answer": "b",
         "explanation": "Ago всегда указывает на завершенное время, поэтому используется Past Simple."
+      },
+      {
+        "id": "q23",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант для результата: \"Я уже посмотрел файл, можно удалять\".",
+        "theory_block_id": "b2_theory_state_vs_event",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I saw the file, you can delete it.",
+            "feedback": "Past Simple не подчеркивает текущий результат."
+          },
+          {
+            "id": "b",
+            "text": "I've seen the file, you can delete it.",
+            "feedback": "Present Perfect показывает результат сейчас."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Фокус на результате сейчас (файл просмотрен), поэтому Present Perfect."
+      },
+      {
+        "id": "q24",
+        "type": "mcq_single",
+        "prompt": "Сейчас 3 часа дня. Выберите правильный вариант: \"Сегодня у меня уже было три встречи\".",
+        "theory_block_id": "b2_theory_state_vs_event",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I had three meetings today.",
+            "feedback": "Past Simple звучит как завершенный период."
+          },
+          {
+            "id": "b",
+            "text": "I've had three meetings today.",
+            "feedback": "День еще не закончился, поэтому Present Perfect возможен."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Когда период еще продолжается (today), Present Perfect может подчеркивать результат на данный момент."
       },
       {
         "id": "q25",
@@ -958,6 +1182,27 @@
         "explanation": "V3 от return — returned. Результат виден сейчас: он дома."
       },
       {
+        "id": "q51",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"Ты устал, ты много работал сегодня\".",
+        "theory_block_id": "b5_theory_evidence",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "You've worked a lot today.",
+            "feedback": "Present Perfect связывает прошлое действие с результатом сейчас."
+          },
+          {
+            "id": "b",
+            "text": "You worked a lot today.",
+            "feedback": "Past Simple звучит как завершенный период."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Результат виден сейчас (ты устал), поэтому Present Perfect логичен."
+      },
+      {
         "id": "q52",
         "type": "true_false",
         "prompt": "Если есть явный результат или следы сейчас, можно использовать Present Perfect.",
@@ -1049,25 +1294,6 @@
         "explanation": "Когда причина важна сейчас и времени нет, используем Present Perfect."
       },
       {
-        "id": "q57",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"Его нет здесь, он ушел\".",
-        "theory_block_id": "b5_theory_evidence",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "He has left."
-          },
-          {
-            "id": "b",
-            "text": "He left at 9."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Мы говорим о текущем результате (его нет), поэтому Present Perfect: He has left."
-      },
-      {
         "id": "q58",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: «There is no milk. I have ___ it.» (drink)",
@@ -1111,15 +1337,32 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
       "q5",
+      "q6",
       "q7",
+      "q8",
       "q9",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
       "q16",
       "q17",
       "q18",
       "q19",
+      "q20",
       "q21",
       "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
       "q27",
       "q28",
       "q29",
@@ -1130,6 +1373,8 @@
       "q34",
       "q35",
       "q36",
+      "q37",
+      "q38",
       "q39",
       "q40",
       "q41",
@@ -1140,12 +1385,14 @@
       "q46",
       "q47",
       "q48",
+      "q49",
+      "q50",
+      "q51",
       "q52",
       "q53",
       "q54",
       "q55",
       "q56",
-      "q57",
       "q58",
       "q59",
       "q60"
@@ -1163,7 +1410,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-21T08:14:11Z",
+    "updated_at": "2026-03-21T10:04:11Z",
     "source": "llm"
   }
 }
