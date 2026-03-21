@@ -352,15 +352,6 @@
       "explanation": "Конструкция the + сравнительная, the + сравнительная: the more… the better."
     },
     {
-      "id": "q26",
-      "type": "fill_blank",
-      "prompt": "The ___ you read, the ___ you know. (много)",
-      "theory_block_id": "b3_the_the",
-      "difficulty": 2,
-      "correct_answer": "more",
-      "explanation": "В обеих частях используется comparative: the more... the more."
-    },
-    {
       "id": "q27",
       "type": "true_false",
       "prompt": "В «the sooner we leave, the better» в обеих частях сравнительная степень.",
@@ -368,6 +359,29 @@
       "difficulty": 2,
       "correct_answer": "true",
       "explanation": "Sooner и better — сравнительные степени."
+    },
+    {
+      "id": "q28",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'The more fast you run, the more tired you get.'",
+      "theory_block_id": "b3_the_the",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The faster you run, the more tired you get."
+        },
+        {
+          "id": "b",
+          "text": "The more fast you run, the more tired you get."
+        },
+        {
+          "id": "c",
+          "text": "The more you run, the more tired you get."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Fast образует faster, не more fast."
     },
     {
       "id": "q29",
@@ -396,15 +410,6 @@
       ],
       "correct_answer": "a",
       "explanation": "Нужны сравнительные степени: colder, worse."
-    },
-    {
-      "id": "q31",
-      "type": "fill_blank",
-      "prompt": "The ___ the task, the ___ the result. (трудный/хороший)",
-      "theory_block_id": "b3_the_the",
-      "difficulty": 3,
-      "correct_answer": "harder",
-      "explanation": "Используем comparative: the harder..., the better."
     },
     {
       "id": "q32",
@@ -465,6 +470,15 @@
       "difficulty": 2,
       "correct_answer": "The more you practice, the better you get.",
       "explanation": "Сравнение зависимости: the more..., the better."
+    },
+    {
+      "id": "q36",
+      "type": "fill_blank",
+      "prompt": "The ___ he runs, the ___ he gets. (быстрый/усталый)",
+      "theory_block_id": "b3_the_the",
+      "difficulty": 2,
+      "correct_answer": "faster",
+      "explanation": "Нужен comparative: the faster..., the more tired..."
     },
     {
       "id": "q37",
@@ -670,6 +684,29 @@
       "explanation": "Нельзя использовать as more as."
     },
     {
+      "id": "q52",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'He is so tall as his brother.'",
+      "theory_block_id": "b5_common_mistakes",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "He is as tall as his brother."
+        },
+        {
+          "id": "b",
+          "text": "He is so tall as his brother."
+        },
+        {
+          "id": "c",
+          "text": "He is taller than his brother."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Нужна форма as…as, а не so…as."
+    },
+    {
       "id": "q53",
       "type": "reorder",
       "prompt": "Расставьте слова в правильном порядке:",
@@ -714,6 +751,29 @@
       "difficulty": 2,
       "correct_answer": "false",
       "explanation": "Нельзя использовать double comparative."
+    },
+    {
+      "id": "q57",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: \"My car is as fast as yours.\"",
+      "theory_block_id": "b5_common_mistakes",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "My car is as fast as yours."
+        },
+        {
+          "id": "b",
+          "text": "My car is as fast than yours."
+        },
+        {
+          "id": "c",
+          "text": "My car is faster than yours."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "В конструкции as…as нужен второй as, не than."
     },
     {
       "id": "q58",
