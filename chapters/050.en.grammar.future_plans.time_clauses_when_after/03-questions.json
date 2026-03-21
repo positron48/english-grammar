@@ -42,15 +42,6 @@
       "explanation": "В time clause will не используется, нужен Present Simple."
     },
     {
-      "id": "q5",
-      "type": "reorder",
-      "prompt": "Расставьте слова в правильном порядке:",
-      "theory_block_id": "b1_theory_time_clause_rule",
-      "difficulty": 2,
-      "correct_answer": "I'll wait until you finish.",
-      "explanation": "В time clause после until/when/after используется Present Simple."
-    },
-    {
       "id": "q6",
       "type": "mcq_single",
       "prompt": "Выберите правильное предложение с придаточным времени.",
@@ -72,15 +63,6 @@
       ],
       "correct_answer": "a",
       "explanation": "В time clause используется Present Simple: arrives."
-    },
-    {
-      "id": "q7",
-      "type": "fill_blank",
-      "prompt": "I'll text you as soon as I ___. (правило)",
-      "theory_block_id": "b1_theory_time_clause_rule",
-      "difficulty": 1,
-      "correct_answer": "can",
-      "explanation": "После as soon as используем Present Simple, здесь can — настоящее время."
     },
     {
       "id": "q8",
@@ -293,6 +275,38 @@
       "explanation": "Придаточное времени: Present Simple (comes), главная часть: will."
     },
     {
+      "id": "q22",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: 'I'll wait when you ___ ready.'",
+      "theory_block_id": "b2_theory_when",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "are"
+        },
+        {
+          "id": "b",
+          "text": "will be"
+        },
+        {
+          "id": "c",
+          "text": "be"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "После when используется Present Simple: are."
+    },
+    {
+      "id": "q23",
+      "type": "fill_blank",
+      "prompt": "I'll open the windows when it ___. (когда)",
+      "theory_block_id": "b2_theory_when",
+      "difficulty": 2,
+      "correct_answer": "gets",
+      "explanation": "Present Simple в time clause: gets hot."
+    },
+    {
       "id": "q24",
       "type": "true_false",
       "prompt": "После when можно использовать will, если время в будущем.",
@@ -325,15 +339,6 @@
       "explanation": "After вводит time clause с Present Simple: finish."
     },
     {
-      "id": "q26",
-      "type": "fill_blank",
-      "prompt": "I'll call you after I ___. (после)",
-      "theory_block_id": "b3_theory_after",
-      "difficulty": 1,
-      "correct_answer": "arrive",
-      "explanation": "В придаточном после after: Present Simple, например arrive."
-    },
-    {
       "id": "q27",
       "type": "true_false",
       "prompt": "After показывает, что второе действие происходит раньше первого.",
@@ -364,6 +369,15 @@
       ],
       "correct_answer": "a",
       "explanation": "В придаточном времени: Present Simple (land), в главном: will."
+    },
+    {
+      "id": "q29",
+      "type": "reorder",
+      "prompt": "Расставьте слова в правильном порядке:",
+      "theory_block_id": "b3_theory_after",
+      "difficulty": 2,
+      "correct_answer": "After dinner, we'll go for a walk.",
+      "explanation": "После after можно поставить придаточное в начале, затем запятая."
     },
     {
       "id": "q30",
@@ -492,15 +506,6 @@
       ],
       "correct_answer": "a",
       "explanation": "В time clause после as soon as используется Present Simple: arrive."
-    },
-    {
-      "id": "q38",
-      "type": "fill_blank",
-      "prompt": "I'll message you as soon as I ___. (как только)",
-      "theory_block_id": "b4_theory_as_soon_as",
-      "difficulty": 1,
-      "correct_answer": "can",
-      "explanation": "Present Simple в time clause: can."
     },
     {
       "id": "q39",
@@ -672,6 +677,15 @@
       "explanation": "Если time clause стоит первым, нужна запятая после него."
     },
     {
+      "id": "q50",
+      "type": "fill_blank",
+      "prompt": "I'll call you ___ I arrive. (порядок)",
+      "theory_block_id": "b5_theory_word_order",
+      "difficulty": 1,
+      "correct_answer": "when",
+      "explanation": "Если time clause во второй части, запятая не нужна."
+    },
+    {
       "id": "q51",
       "type": "true_false",
       "prompt": "Если time clause стоит первым, запятая обязательна.",
@@ -761,6 +775,15 @@
       ],
       "correct_answer": "a",
       "explanation": "Если придаточное времени после главной части — запятая не ставится."
+    },
+    {
+      "id": "q60",
+      "type": "fill_blank",
+      "prompt": "I'll send it ___ I finish. (порядок)",
+      "theory_block_id": "b5_theory_word_order",
+      "difficulty": 1,
+      "correct_answer": "after",
+      "explanation": "Придаточное стоит вторым, запятая не нужна."
     },
     {
       "id": "q61",
