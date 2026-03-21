@@ -49,30 +49,6 @@
       "tags": []
     },
     {
-      "id": "q4",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку и выберите исправленное предложение: \"He has worked at that company last year.\"",
-      "theory_block_id": "b1_theory_biography_frame",
-      "difficulty": 3,
-      "correct_answer": "a",
-      "explanation": "Last year — законченное время, нужен Past Simple: worked. С Present Perfect такой маркер не используют.",
-      "tags": [],
-      "choices": [
-        {
-          "id": "a",
-          "text": "He worked at that company last year."
-        },
-        {
-          "id": "b",
-          "text": "He has worked at that company."
-        },
-        {
-          "id": "c",
-          "text": "He has work at that company last year."
-        }
-      ]
-    },
-    {
       "id": "q5",
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: She ___ a master's degree.",
@@ -149,30 +125,6 @@
       "tags": []
     },
     {
-      "id": "q9",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку и выберите исправленное предложение: \"I have been a teacher in 2015.\"",
-      "theory_block_id": "b1_theory_biography_frame",
-      "difficulty": 3,
-      "correct_answer": "b",
-      "explanation": "In 2015 — законченное время, нужен Past Simple: was. С Present Perfect используют since 2015.",
-      "tags": [],
-      "choices": [
-        {
-          "id": "a",
-          "text": "I have been a teacher since 2015."
-        },
-        {
-          "id": "b",
-          "text": "I was a teacher in 2015."
-        },
-        {
-          "id": "c",
-          "text": "I am a teacher in 2015."
-        }
-      ]
-    },
-    {
       "id": "q10",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"My sister has ___ in Berlin for two years.\" (live)",
@@ -207,6 +159,37 @@
         {
           "id": "d",
           "text": "have work"
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "mcq_multi",
+      "prompt": "Выберите все предложения, подходящие для краткой биографии.",
+      "theory_block_id": "b1_theory_biography_frame",
+      "difficulty": 3,
+      "correct_answer": [
+        "a",
+        "c"
+      ],
+      "explanation": "Итоги биографии — Present Perfect без маркера законченного времени. Варианты a и c — продолжающийся опыт; b и d — конкретные прошлые события.",
+      "tags": [],
+      "choices": [
+        {
+          "id": "a",
+          "text": "I have led small teams for three years."
+        },
+        {
+          "id": "b",
+          "text": "I led a team in 2019."
+        },
+        {
+          "id": "c",
+          "text": "She has studied in Spain since 2020."
+        },
+        {
+          "id": "d",
+          "text": "He studied in Spain yesterday."
         }
       ]
     },
@@ -319,6 +302,37 @@
       "correct_answer": "just",
       "explanation": "Just — недавнее действие, сочетается с Present Perfect. Ставится между have и past participle.",
       "tags": []
+    },
+    {
+      "id": "q19",
+      "type": "mcq_multi",
+      "prompt": "Выберите все предложения, где ever употреблено правильно.",
+      "theory_block_id": "b2_theory_experience_markers",
+      "difficulty": 3,
+      "correct_answer": [
+        "a",
+        "d"
+      ],
+      "explanation": "Ever — норма в вопросах об опыте в Present Perfect. Варианты a и d верны. В b и c ever ошибочно в утверждениях.",
+      "tags": [],
+      "choices": [
+        {
+          "id": "a",
+          "text": "Have you ever driven a bus?"
+        },
+        {
+          "id": "b",
+          "text": "I ever visited Japan."
+        },
+        {
+          "id": "c",
+          "text": "She has ever been here."
+        },
+        {
+          "id": "d",
+          "text": "Have they ever worked remotely?"
+        }
+      ]
     },
     {
       "id": "q20",
@@ -493,6 +507,37 @@
       ]
     },
     {
+      "id": "q29",
+      "type": "mcq_multi",
+      "prompt": "Выберите все предложения с правильным употреблением Present Perfect.",
+      "theory_block_id": "b3_theory_details_past_simple",
+      "difficulty": 3,
+      "correct_answer": [
+        "a",
+        "c"
+      ],
+      "explanation": "Present Perfect — без законченного времени или с since/for. Верны a и c. В b и d конкретное время — нужен Past Simple.",
+      "tags": [],
+      "choices": [
+        {
+          "id": "a",
+          "text": "I have seen that film."
+        },
+        {
+          "id": "b",
+          "text": "I have seen that film last night."
+        },
+        {
+          "id": "c",
+          "text": "He has worked here since May."
+        },
+        {
+          "id": "d",
+          "text": "They have arrived at 8 p.m."
+        }
+      ]
+    },
+    {
       "id": "q30",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"I've met her before. We ___ in Paris in 2018.\" (meet)",
@@ -575,6 +620,65 @@
       "tags": []
     },
     {
+      "id": "q35",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: I ___ already sent the email.",
+      "theory_block_id": "b3_theory_details_past_simple",
+      "difficulty": 2,
+      "correct_answer": "a",
+      "explanation": "Present Perfect: have/has + V3. С already верно: have already sent. Остальные варианты неграмматичны.",
+      "tags": [],
+      "choices": [
+        {
+          "id": "a",
+          "text": "have already sent"
+        },
+        {
+          "id": "b",
+          "text": "already sent"
+        },
+        {
+          "id": "c",
+          "text": "has already sent"
+        },
+        {
+          "id": "d",
+          "text": "am already sent"
+        }
+      ]
+    },
+    {
+      "id": "q36",
+      "type": "mcq_multi",
+      "prompt": "Выберите предложения, где нужен Past Simple из‑за указания на законченное время.",
+      "theory_block_id": "b3_theory_details_past_simple",
+      "difficulty": 3,
+      "correct_answer": [
+        "a",
+        "c"
+      ],
+      "explanation": "Маркеры законченного времени (in 2010, yesterday) — Past Simple. Подходят a и c. В b и d опыт без такого маркера.",
+      "tags": [],
+      "choices": [
+        {
+          "id": "a",
+          "text": "I lived there in 2010."
+        },
+        {
+          "id": "b",
+          "text": "She has lived there for years."
+        },
+        {
+          "id": "c",
+          "text": "We met yesterday."
+        },
+        {
+          "id": "d",
+          "text": "They have met many times."
+        }
+      ]
+    },
+    {
       "id": "q37",
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: When I arrived, they ___ dinner.",
@@ -643,6 +747,37 @@
         {
           "id": "c",
           "text": "By the time we got there, the show has already started."
+        }
+      ]
+    },
+    {
+      "id": "q41",
+      "type": "mcq_multi",
+      "prompt": "Выберите все предложения с правильным употреблением Past Perfect.",
+      "theory_block_id": "b4_theory_past_perfect_flashback",
+      "difficulty": 3,
+      "correct_answer": [
+        "a",
+        "c"
+      ],
+      "explanation": "Past Perfect верен, когда показывает более раннее прошлое. Это a и c. В b и d нет ясной точки отсчёта или форма неверна.",
+      "tags": [],
+      "choices": [
+        {
+          "id": "a",
+          "text": "I realized I had lost my keys."
+        },
+        {
+          "id": "b",
+          "text": "I had met him yesterday."
+        },
+        {
+          "id": "c",
+          "text": "She had never flown before that trip."
+        },
+        {
+          "id": "d",
+          "text": "He had left now."
         }
       ]
     },
@@ -757,6 +892,37 @@
       ]
     },
     {
+      "id": "q48",
+      "type": "mcq_multi",
+      "prompt": "Выберите все предложения, где Past Perfect нужен для обозначения более раннего прошлого.",
+      "theory_block_id": "b4_theory_past_perfect_flashback",
+      "difficulty": 3,
+      "correct_answer": [
+        "b",
+        "c"
+      ],
+      "explanation": "Past Perfect — более раннее событие в прошлой линии. Явно в b и c. В a и d Past Perfect не нужен или другое время.",
+      "tags": [],
+      "choices": [
+        {
+          "id": "a",
+          "text": "I met him in 2010."
+        },
+        {
+          "id": "b",
+          "text": "I was nervous because I had never spoken in public."
+        },
+        {
+          "id": "c",
+          "text": "She called after she had arrived."
+        },
+        {
+          "id": "d",
+          "text": "They have arrived before I left."
+        }
+      ]
+    },
+    {
       "id": "q49",
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: ___ I had finished the call, I went outside.",
@@ -829,6 +995,47 @@
       ]
     },
     {
+      "id": "q53",
+      "type": "mcq_multi",
+      "prompt": "Выберите все предложения с правильной последовательностью действий.",
+      "theory_block_id": "b5_theory_time_linkers",
+      "difficulty": 3,
+      "correct_answer": [
+        "a",
+        "c"
+      ],
+      "explanation": "Правильный порядок: Past Perfect для более раннего. Верны a и c. В b и d неверная форма или время.",
+      "tags": [],
+      "choices": [
+        {
+          "id": "a",
+          "text": "After I had packed, I left."
+        },
+        {
+          "id": "b",
+          "text": "Before I left, I had lock the door."
+        },
+        {
+          "id": "c",
+          "text": "By the time we arrived, they had started."
+        },
+        {
+          "id": "d",
+          "text": "After I had eaten, I am hungry."
+        }
+      ]
+    },
+    {
+      "id": "q54",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"Once I had ___ the visa, I booked the flight.\" (get)",
+      "theory_block_id": "b5_theory_time_linkers",
+      "difficulty": 2,
+      "correct_answer": "gotten",
+      "explanation": "Once — завершённое действие перед другим в прошлом. Past Perfect: had gotten. Подходит для нарратива.",
+      "tags": []
+    },
+    {
       "id": "q55",
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: We left ___ the concert ended.",
@@ -899,6 +1106,38 @@
       "correct_answer": "went",
       "explanation": "После before возможен Past Simple при ясном порядке. Действие «уйти» позже — естественно went. Past Perfect здесь не обязателен.",
       "tags": []
+    },
+    {
+      "id": "q59",
+      "type": "mcq_multi",
+      "prompt": "Выберите все предложения, где Past Perfect подходит к временной связке.",
+      "theory_block_id": "b5_theory_time_linkers",
+      "difficulty": 3,
+      "correct_answer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "explanation": "Past Perfect — для более раннего в прошлой последовательности. Верны a, b, d. В c порядок нарушен; верно: Before I went home, I had dinner или I had dinner before I went home.",
+      "tags": [],
+      "choices": [
+        {
+          "id": "a",
+          "text": "When I called, he had already left."
+        },
+        {
+          "id": "b",
+          "text": "After I had finished, I went home."
+        },
+        {
+          "id": "c",
+          "text": "Before I went home, I had dinner."
+        },
+        {
+          "id": "d",
+          "text": "By the time we arrived, they had closed."
+        }
+      ]
     },
     {
       "id": "q60",
@@ -997,6 +1236,37 @@
         {
           "id": "c",
           "text": "I moved to Paris last year, and I learned French there."
+        }
+      ]
+    },
+    {
+      "id": "q65",
+      "type": "mcq_multi",
+      "prompt": "Выберите все предложения с последовательным употреблением времён в биографии и повествовании.",
+      "theory_block_id": "b6_theory_story_structure",
+      "difficulty": 3,
+      "correct_answer": [
+        "a",
+        "c"
+      ],
+      "explanation": "В a — Present Perfect для биографии и Past Simple для прошлого события. То же в c. В b и d маркеры времени и время не совпадают.",
+      "tags": [],
+      "choices": [
+        {
+          "id": "a",
+          "text": "I've worked in IT for five years. Last year I changed companies."
+        },
+        {
+          "id": "b",
+          "text": "I have worked in IT for five years. I changed companies in 2019, and I have met my new boss yesterday."
+        },
+        {
+          "id": "c",
+          "text": "I've managed a team. In 2022 I led a launch."
+        },
+        {
+          "id": "d",
+          "text": "I worked in IT since 2018."
         }
       ]
     },
