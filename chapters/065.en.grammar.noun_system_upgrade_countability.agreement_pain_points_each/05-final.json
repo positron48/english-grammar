@@ -400,6 +400,36 @@
         "explanation": "Each time вводит привычное действие, глагол в единственном числе. Поэтому leaves, а не leave."
       },
       {
+        "id": "q7",
+        "type": "mcq_multi",
+        "prompt": "Выберите все грамматически верные варианты про each/every.",
+        "theory_block_id": "b1_each_every",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Each of the files is important."
+          },
+          {
+            "id": "b",
+            "text": "Each of the files are important."
+          },
+          {
+            "id": "c",
+            "text": "Every student is on time."
+          },
+          {
+            "id": "d",
+            "text": "Every student are on time."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "Each of и every требуют единственного числа. Поэтому правильны варианты с is."
+      },
+      {
         "id": "q8",
         "type": "mcq_single",
         "prompt": "Выберите правильный вариант: «Every bus and train ___ delayed today.»",
@@ -426,6 +456,15 @@
         "difficulty": 1,
         "correct_answer": "true",
         "explanation": "Each of + plural noun обычно требует единственного числа. Поэтому is здесь корректно."
+      },
+      {
+        "id": "q10",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: «Each of my friends ___ invited.» (be)",
+        "theory_block_id": "b1_each_every",
+        "difficulty": 1,
+        "correct_answer": "is",
+        "explanation": "Each of задает единственное число, поэтому используем is. Это стандартное согласование."
       },
       {
         "id": "q11",
@@ -530,25 +569,6 @@
         "explanation": "Equipment — неисчисляемое, поэтому используется единственное число. Вариант a исправляет согласование."
       },
       {
-        "id": "q17",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: «None of the students ___ the rule.»",
-        "theory_block_id": "b2_none_agreement",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "know"
-          },
-          {
-            "id": "b",
-            "text": "knows"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "С исчисляемыми во множественном числе обычно используется plural verb. Поэтому корректно: None of the students know."
-      },
-      {
         "id": "q18",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: «None of this money ___ mine.» (be)",
@@ -565,6 +585,37 @@
         "difficulty": 2,
         "correct_answer": "true",
         "explanation": "Players — исчисляемое множественное, поэтому plural verb допустим и естественен. Это обычное согласование с none of."
+      },
+      {
+        "id": "q20",
+        "type": "mcq_multi",
+        "prompt": "Выберите все приемлемые варианты.",
+        "theory_block_id": "b2_none_agreement",
+        "difficulty": 4,
+        "choices": [
+          {
+            "id": "a",
+            "text": "None of the books are interesting."
+          },
+          {
+            "id": "b",
+            "text": "None of the books is interesting."
+          },
+          {
+            "id": "c",
+            "text": "None of the water are cold."
+          },
+          {
+            "id": "d",
+            "text": "None of the water is cold."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "b",
+          "d"
+        ],
+        "explanation": "С книгами возможны оба варианта, хотя plural звучит естественнее. С water — только единственное число, поэтому вариант d. Вариант c неверен из-за согласования."
       },
       {
         "id": "q21",
@@ -616,15 +667,6 @@
         "difficulty": 2,
         "correct_answer": "are",
         "explanation": "Tickets — исчисляемое множественное, поэтому естественно использовать plural verb. None of the tickets are left."
-      },
-      {
-        "id": "q24",
-        "type": "true_false",
-        "prompt": "В «None of the students is ready» форма ед.ч. невозможна.",
-        "theory_block_id": "b2_none_agreement",
-        "difficulty": 4,
-        "correct_answer": "false",
-        "explanation": "Единственное число возможно, хотя чаще встречается plural. Здесь singular допустим, если мы мысленно говорим о «ни одном»."
       },
       {
         "id": "q25",
@@ -722,6 +764,59 @@
         "difficulty": 1,
         "correct_answer": "true",
         "explanation": "Police officer — обычное исчисляемое существительное. В единственном числе оно согласуется с is."
+      },
+      {
+        "id": "q32",
+        "type": "mcq_multi",
+        "prompt": "Какие варианты грамматически верны?",
+        "theory_block_id": "b3_plural_only_nouns",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The police are here."
+          },
+          {
+            "id": "b",
+            "text": "The police is here."
+          },
+          {
+            "id": "c",
+            "text": "People are waiting outside."
+          },
+          {
+            "id": "d",
+            "text": "People is waiting outside."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "Police и people требуют множественного числа. Поэтому правильны варианты a и c."
+      },
+      {
+        "id": "q33",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'The people is angry about the decision.'",
+        "theory_block_id": "b3_plural_only_nouns",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The people are angry about the decision."
+          },
+          {
+            "id": "b",
+            "text": "The people is angry about the decision."
+          },
+          {
+            "id": "c",
+            "text": "People are angry about the decision."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "People требует plural verb, поэтому нужно are. Вариант a исправляет согласование."
       },
       {
         "id": "q34",
@@ -856,6 +951,36 @@
         "difficulty": 1,
         "correct_answer": "false",
         "explanation": "News — единственное число. Правильно: the news is."
+      },
+      {
+        "id": "q44",
+        "type": "mcq_multi",
+        "prompt": "Какие предложения верны про news и названия наук?",
+        "theory_block_id": "b4_singular_ending_s",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Physics is interesting."
+          },
+          {
+            "id": "b",
+            "text": "Physics are interesting."
+          },
+          {
+            "id": "c",
+            "text": "The news is good."
+          },
+          {
+            "id": "d",
+            "text": "The news are good."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "Названия наук и news согласуются как единственное число. Поэтому верны варианты a и c."
       },
       {
         "id": "q45",
@@ -1015,27 +1140,34 @@
         "explanation": "В конструкции a pair of glasses ядро — pair, поэтому глагол в единственном числе."
       },
       {
-        "id": "q57",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'The scissors is in the drawer.'",
+        "id": "q56",
+        "type": "mcq_multi",
+        "prompt": "Выберите корректные варианты с trousers и pair of.",
         "theory_block_id": "b5_pair_nouns",
-        "difficulty": 2,
+        "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "The scissors are in the drawer."
+            "text": "These trousers are new."
           },
           {
             "id": "b",
-            "text": "The scissors is in the drawer."
+            "text": "This trousers is new."
           },
           {
             "id": "c",
-            "text": "A pair of scissors is in the drawer."
+            "text": "This pair of trousers is new."
+          },
+          {
+            "id": "d",
+            "text": "This pair of trousers are new."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Scissors — plural-only noun. Поэтому нужен глагол во множественном числе: are."
+        "correct_answer": [
+          "a",
+          "c"
+        ],
+        "explanation": "Trousers требуют множественного числа, а pair of — единственного. Поэтому правильны варианты a и c."
       },
       {
         "id": "q58",
@@ -1172,6 +1304,59 @@
         "explanation": "A number of означает «несколько», поэтому нужно plural verb: are."
       },
       {
+        "id": "q68",
+        "type": "mcq_multi",
+        "prompt": "Выберите корректные варианты с a/the number of.",
+        "theory_block_id": "b6_quantity_of",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "The number of cars is rising."
+          },
+          {
+            "id": "b",
+            "text": "A number of cars are parked outside."
+          },
+          {
+            "id": "c",
+            "text": "A number of cars is parked outside."
+          },
+          {
+            "id": "d",
+            "text": "The number of cars are rising."
+          }
+        ],
+        "correct_answer": [
+          "a",
+          "b"
+        ],
+        "explanation": "The number of → единственное число, a number of → множественное. Поэтому верны a и b."
+      },
+      {
+        "id": "q69",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'Thirty percent of the workers is satisfied.'",
+        "theory_block_id": "b6_quantity_of",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Thirty percent of the workers are satisfied."
+          },
+          {
+            "id": "b",
+            "text": "Thirty percent of the workers is satisfied."
+          },
+          {
+            "id": "c",
+            "text": "Thirty percent of the workforce is satisfied."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Workers — исчисляемое множественное, поэтому нужен plural verb. Вариант a исправляет согласование."
+      },
+      {
         "id": "q70",
         "type": "mcq_single",
         "prompt": "Выберите правильный вариант: «A majority of the students ___ supportive.»",
@@ -1213,54 +1398,72 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
       "q5",
       "q6",
+      "q7",
       "q8",
       "q9",
+      "q10",
       "q11",
       "q12",
+      "q13",
+      "q14",
       "q15",
       "q16",
-      "q17",
       "q18",
       "q19",
+      "q20",
       "q21",
       "q22",
       "q23",
-      "q24",
+      "q25",
+      "q26",
       "q27",
       "q28",
       "q29",
       "q30",
       "q31",
+      "q32",
+      "q33",
       "q34",
       "q35",
       "q36",
+      "q37",
+      "q38",
       "q39",
       "q40",
       "q41",
       "q42",
       "q43",
+      "q44",
       "q45",
       "q46",
       "q47",
       "q48",
+      "q49",
+      "q50",
       "q51",
       "q52",
       "q53",
       "q54",
       "q55",
-      "q57",
+      "q56",
       "q58",
       "q59",
       "q60",
+      "q61",
+      "q62",
       "q63",
       "q64",
       "q65",
       "q66",
       "q67",
+      "q68",
+      "q69",
       "q70",
       "q71",
       "q72"
@@ -1278,7 +1481,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-21T08:14:09Z",
+    "updated_at": "2026-03-21T08:54:07Z",
     "source": "llm"
   }
 }
