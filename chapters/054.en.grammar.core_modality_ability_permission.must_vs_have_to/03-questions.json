@@ -88,6 +88,15 @@
       "explanation": "Must отражает личное решение или необходимость."
     },
     {
+      "id": "q7",
+      "type": "fill_blank",
+      "prompt": "We ___ do something about this. (личная необходимость)",
+      "theory_block_id": "b1_theory_must_internal",
+      "difficulty": 1,
+      "correct_answer": "must",
+      "explanation": "Must подходит для внутренней необходимости."
+    },
+    {
       "id": "q8",
       "type": "true_false",
       "prompt": "Must используется только для внешних правил.",
@@ -141,6 +150,15 @@
       ],
       "correct_answer": "a",
       "explanation": "Must + V1 без -s и to."
+    },
+    {
+      "id": "q11",
+      "type": "fill_blank",
+      "prompt": "I ___ remember to call him. (личная необходимость)",
+      "theory_block_id": "b1_theory_must_internal",
+      "difficulty": 1,
+      "correct_answer": "must",
+      "explanation": "Must выражает внутреннюю необходимость."
     },
     {
       "id": "q12",
@@ -205,6 +223,29 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Это внешняя обязанность, заданная правилами."
+    },
+    {
+      "id": "q16",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку и выберите правильный вариант: 'She have to work on Saturday.'",
+      "theory_block_id": "b2_theory_have_to_external",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "She has to work on Saturday."
+        },
+        {
+          "id": "b",
+          "text": "She must to work on Saturday."
+        },
+        {
+          "id": "c",
+          "text": "She have to working on Saturday."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "В третьем лице: has to."
     },
     {
       "id": "q17",
