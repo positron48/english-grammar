@@ -345,6 +345,34 @@
         "tags": []
       },
       {
+        "id": "q8",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If I would know his number, I would call him.\"",
+        "theory_block_id": "b1_theory_meaning",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If I knew his number, I would call him."
+          },
+          {
+            "id": "b",
+            "text": "If I know his number, I would call him."
+          },
+          {
+            "id": "c",
+            "text": "If I would know his number, I call him."
+          },
+          {
+            "id": "d",
+            "text": "If I knew his number, I call him."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "В if-части используется Past Simple, без would.",
+        "tags": []
+      },
+      {
         "id": "q9",
         "type": "mcq_single",
         "prompt": "Выберите правильный перевод: If I had the chance, I would take the course.",
@@ -370,6 +398,16 @@
         ],
         "correct_answer": "a",
         "explanation": "Это гипотетическое действие в настоящем/будущем.",
+        "tags": []
+      },
+      {
+        "id": "q10",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: If she had a bigger office, she ___ happier. (быть)",
+        "theory_block_id": "b1_theory_meaning",
+        "difficulty": 2,
+        "correct_answer": "would",
+        "explanation": "Would + adjective в главной части.",
         "tags": []
       },
       {
@@ -687,6 +725,34 @@
         "tags": []
       },
       {
+        "id": "q28",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: If she ___ the manager, she would change the policy.",
+        "theory_block_id": "b3_theory_were",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "were"
+          },
+          {
+            "id": "b",
+            "text": "was"
+          },
+          {
+            "id": "c",
+            "text": "is"
+          },
+          {
+            "id": "d",
+            "text": "will be"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Were используется как более правильный вариант.",
+        "tags": []
+      },
+      {
         "id": "q29",
         "type": "fill_blank",
         "prompt": "Вставьте пропущенное: If I ___ taller, I would reach the shelf. (быть)",
@@ -897,16 +963,6 @@
         "tags": []
       },
       {
-        "id": "q41",
-        "type": "fill_blank",
-        "prompt": "Вставьте пропущенное: If I had a map, I ___ find the shortcut. (возможно)",
-        "theory_block_id": "b4_theory_modals",
-        "difficulty": 2,
-        "correct_answer": "might",
-        "explanation": "Might = вероятная возможность.",
-        "tags": []
-      },
-      {
         "id": "q42",
         "type": "error_spotting",
         "prompt": "Найдите ошибку и выберите исправленное предложение: \"If we had time, we will could help.\"",
@@ -955,6 +1011,34 @@
         "tags": []
       },
       {
+        "id": "q45",
+        "type": "mcq_single",
+        "prompt": "Выберите корректный вариант: If I had more time, I ___ finish the course.",
+        "theory_block_id": "b4_theory_modals",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "would"
+          },
+          {
+            "id": "b",
+            "text": "might"
+          },
+          {
+            "id": "c",
+            "text": "could"
+          },
+          {
+            "id": "d",
+            "text": "can"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Would — нейтральный гипотетический результат.",
+        "tags": []
+      },
+      {
         "id": "q46",
         "type": "true_false",
         "prompt": "Might в second conditional делает результат менее уверенным.",
@@ -962,16 +1046,6 @@
         "difficulty": 1,
         "correct_answer": "true",
         "explanation": "Might = возможность, а не уверенность.",
-        "tags": []
-      },
-      {
-        "id": "q47",
-        "type": "fill_blank",
-        "prompt": "Вставьте пропущенное: If I had a free weekend, I ___ go hiking. (возможно)",
-        "theory_block_id": "b4_theory_modals",
-        "difficulty": 2,
-        "correct_answer": "might",
-        "explanation": "Might обозначает возможный результат.",
         "tags": []
       },
       {
@@ -1089,16 +1163,6 @@
         "tags": []
       },
       {
-        "id": "q54",
-        "type": "fill_blank",
-        "prompt": "Вставьте пропущенное: If I won the prize, I would ___ it to charity. (отдать)",
-        "theory_block_id": "b5_theory_first_vs_second",
-        "difficulty": 2,
-        "correct_answer": "donate",
-        "explanation": "Second conditional: would + V1.",
-        "tags": []
-      },
-      {
         "id": "q55",
         "type": "mcq_single",
         "prompt": "Выберите корректное сравнение.",
@@ -1124,34 +1188,6 @@
         ],
         "correct_answer": "a",
         "explanation": "Это главное различие между first и second.",
-        "tags": []
-      },
-      {
-        "id": "q56",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If I have more time, I would finish the report.\"",
-        "theory_block_id": "b5_theory_first_vs_second",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "If I had more time, I would finish the report."
-          },
-          {
-            "id": "b",
-            "text": "If I have more time, I will finish the report."
-          },
-          {
-            "id": "c",
-            "text": "If I had more time, I will finish the report."
-          },
-          {
-            "id": "d",
-            "text": "If I would have more time, I would finish the report."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Для second conditional нужен Past Simple в if-части.",
         "tags": []
       },
       {
@@ -1217,14 +1253,20 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
       "q5",
       "q6",
       "q7",
+      "q8",
       "q9",
+      "q10",
       "q11",
       "q12",
+      "q13",
+      "q14",
       "q15",
       "q16",
       "q17",
@@ -1235,7 +1277,10 @@
       "q22",
       "q23",
       "q24",
+      "q25",
+      "q26",
       "q27",
+      "q28",
       "q29",
       "q30",
       "q31",
@@ -1244,21 +1289,22 @@
       "q34",
       "q35",
       "q36",
+      "q37",
+      "q38",
       "q39",
       "q40",
-      "q41",
       "q42",
       "q43",
       "q44",
+      "q45",
       "q46",
-      "q47",
       "q48",
+      "q49",
+      "q50",
       "q51",
       "q52",
       "q53",
-      "q54",
       "q55",
-      "q56",
       "q57",
       "q58",
       "q59",
@@ -1277,7 +1323,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-21T08:14:11Z",
+    "updated_at": "2026-03-21T10:31:00Z",
     "source": "llm"
   }
 }
