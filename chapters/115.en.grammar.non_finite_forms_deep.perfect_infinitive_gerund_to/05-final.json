@@ -94,7 +94,7 @@
       "quiz_inline": {
         "question_ids": [
           "q10",
-          "q12"
+          "q11"
         ],
         "show_answers_immediately": true
       }
@@ -207,8 +207,7 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q41",
-          "q42"
+          "q41"
         ],
         "show_answers_immediately": true
       }
@@ -280,16 +279,6 @@
         ],
         "correct_answer": "b",
         "explanation": "Перфектные формы — это to have done и having done. Они выражают предшествование.",
-        "tags": []
-      },
-      {
-        "id": "q4",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: Perfect infinitive = to ___ + V3. (иметь)",
-        "theory_block_id": "b1_theory_overview",
-        "difficulty": 1,
-        "correct_answer": "have",
-        "explanation": "Perfect infinitive строится как to have + V3. Это базовая формула.",
         "tags": []
       },
       {
@@ -407,6 +396,16 @@
         "tags": []
       },
       {
+        "id": "q11",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: She appears ___ have forgotten the meeting. (have)",
+        "theory_block_id": "b2_theory_perfect_infinitive",
+        "difficulty": 2,
+        "correct_answer": "to",
+        "explanation": "После appear используется to have + V3, если действие произошло раньше. Поэтому to have — верная часть формы.",
+        "tags": []
+      },
+      {
         "id": "q12",
         "type": "mcq_single",
         "prompt": "Выберите правильный вариант: They claim ___ the report already.",
@@ -473,6 +472,16 @@
         "tags": []
       },
       {
+        "id": "q15",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: She is happy ___ have met the team earlier. (have)",
+        "theory_block_id": "b2_theory_perfect_infinitive",
+        "difficulty": 2,
+        "correct_answer": "to",
+        "explanation": "Конструкция be happy + perfect infinitive показывает, что встреча произошла раньше. Поэтому to have подходит.",
+        "tags": []
+      },
+      {
         "id": "q16",
         "type": "mcq_single",
         "prompt": "Какое предложение говорит о прошлом действии?",
@@ -508,6 +517,44 @@
         "difficulty": 2,
         "correct_answer": "true",
         "explanation": "Модальные глаголы часто формируют выводы о прошлом: must have done — типичный пример.",
+        "tags": []
+      },
+      {
+        "id": "q18",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: She must ___ her keys at home.",
+        "theory_block_id": "b2_theory_perfect_infinitive",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "leave"
+          },
+          {
+            "id": "b",
+            "text": "to have left"
+          },
+          {
+            "id": "c",
+            "text": "having left"
+          },
+          {
+            "id": "d",
+            "text": "to leave"
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "Must have left выражает вывод о прошлом. Other forms don't match the intended meaning.",
+        "tags": []
+      },
+      {
+        "id": "q19",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: They were sorry ___ have caused the delay. (have)",
+        "theory_block_id": "b2_theory_perfect_infinitive",
+        "difficulty": 2,
+        "correct_answer": "to",
+        "explanation": "Be sorry + perfect infinitive указывает на уже совершенное действие. Поэтому to have нужно для формы.",
         "tags": []
       },
       {
@@ -587,62 +634,6 @@
         "tags": []
       },
       {
-        "id": "q24",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: Without ___ the lights, he left.",
-        "theory_block_id": "b3_theory_perfect_gerund",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "having turned off"
-          },
-          {
-            "id": "b",
-            "text": "to have turned off"
-          },
-          {
-            "id": "c",
-            "text": "turning off"
-          },
-          {
-            "id": "d",
-            "text": "to turning off"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Without требует герундия. Having turned off показывает, что выключение должно было произойти до ухода.",
-        "tags": []
-      },
-      {
-        "id": "q25",
-        "type": "error_spotting",
-        "prompt": "Выберите правильный вариант предложения.",
-        "theory_block_id": "b3_theory_perfect_gerund",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "He admitted to have lied about it."
-          },
-          {
-            "id": "b",
-            "text": "He admitted having lied about it."
-          },
-          {
-            "id": "c",
-            "text": "He admitted to lying about it."
-          },
-          {
-            "id": "d",
-            "text": "He admitted have lied about it."
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "Admit требует V-ing, а перфектный вариант — having lied. Это корректная форма для прошлого действия.",
-        "tags": []
-      },
-      {
         "id": "q26",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: After ___ finished the call, she texted me. (have)",
@@ -650,6 +641,34 @@
         "difficulty": 2,
         "correct_answer": "having",
         "explanation": "After требует герундия, и having finished показывает, что звонок завершился раньше сообщения.",
+        "tags": []
+      },
+      {
+        "id": "q27",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: He apologized for ___ late.",
+        "theory_block_id": "b3_theory_perfect_gerund",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "being"
+          },
+          {
+            "id": "b",
+            "text": "to have been"
+          },
+          {
+            "id": "c",
+            "text": "having been"
+          },
+          {
+            "id": "d",
+            "text": "to being"
+          }
+        ],
+        "correct_answer": "c",
+        "explanation": "После for нужен герундий. Having been подчеркивает, что опоздание произошло раньше извинения.",
         "tags": []
       },
       {
@@ -833,6 +852,16 @@
         "tags": []
       },
       {
+        "id": "q37",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: It was a mistake ___ have ignored the warning. (have)",
+        "theory_block_id": "b4_theory_comparison",
+        "difficulty": 2,
+        "correct_answer": "to",
+        "explanation": "Perfect infinitive указывает, что ошибка связана с прошлым действием. Поэтому to have нужно для формы.",
+        "tags": []
+      },
+      {
         "id": "q38",
         "type": "true_false",
         "prompt": "Having done и doing всегда взаимозаменяемы.",
@@ -927,34 +956,6 @@
         "tags": []
       },
       {
-        "id": "q42",
-        "type": "error_spotting",
-        "prompt": "Выберите правильный вариант предложения.",
-        "theory_block_id": "b5_theory_common_errors",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "She apologized for having say it."
-          },
-          {
-            "id": "b",
-            "text": "She apologized for having said it."
-          },
-          {
-            "id": "c",
-            "text": "She apologized for having sayed it."
-          },
-          {
-            "id": "d",
-            "text": "She apologized for to have said it."
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "After having нужна форма V3. Said — правильная третья форма глагола say.",
-        "tags": []
-      },
-      {
         "id": "q43",
         "type": "true_false",
         "prompt": "Форма having + V3 используется после предлогов, когда нужно подчеркнуть предшествование.",
@@ -1038,6 +1039,16 @@
         ],
         "correct_answer": "b",
         "explanation": "После to have нужна третья форма. Gone — правильная форма глагола go.",
+        "tags": []
+      },
+      {
+        "id": "q48",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: He was shocked ___ have made that mistake. (have)",
+        "theory_block_id": "b5_theory_common_errors",
+        "difficulty": 2,
+        "correct_answer": "to",
+        "explanation": "Be shocked + perfect infinitive показывает реакцию на прошлое событие. Поэтому to have нужно для формы.",
         "tags": []
       },
       {
@@ -1160,6 +1171,16 @@
         ],
         "correct_answer": "a",
         "explanation": "Remember + V-ing может принимать perfect gerund, если нужно подчеркнуть прошлое. Having seen — правильная форма.",
+        "tags": []
+      },
+      {
+        "id": "q54",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: She seems ___ have forgotten the password. (have)",
+        "theory_block_id": "b2_theory_perfect_infinitive",
+        "difficulty": 2,
+        "correct_answer": "to",
+        "explanation": "Seem + perfect infinitive используется, если действие уже произошло. To have — часть формы.",
         "tags": []
       },
       {
@@ -1299,42 +1320,56 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
-      "q4",
       "q5",
       "q6",
       "q7",
       "q8",
       "q9",
+      "q10",
+      "q11",
+      "q12",
       "q13",
       "q14",
+      "q15",
       "q16",
       "q17",
+      "q18",
+      "q19",
       "q20",
+      "q21",
+      "q22",
       "q23",
-      "q24",
-      "q25",
       "q26",
+      "q27",
       "q28",
       "q29",
       "q30",
+      "q31",
+      "q32",
       "q33",
       "q34",
       "q35",
       "q36",
+      "q37",
       "q38",
       "q39",
       "q40",
+      "q41",
       "q43",
       "q44",
       "q45",
       "q46",
       "q47",
+      "q48",
       "q49",
       "q50",
       "q51",
       "q52",
       "q53",
+      "q54",
       "q55",
       "q56",
       "q57",
@@ -1355,7 +1390,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-21T08:14:12Z",
+    "updated_at": "2026-03-21T10:35:04Z",
     "source": "llm"
   }
 }
