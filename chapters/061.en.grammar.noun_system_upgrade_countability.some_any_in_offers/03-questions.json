@@ -65,6 +65,29 @@
       "explanation": "В отрицаниях используется any. Это соответствует правилу, разобранному в этом блоке."
     },
     {
+      "id": "q5",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'Do you have some information?'",
+      "theory_block_id": "b1_basic_some_any",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Do you have any information?"
+        },
+        {
+          "id": "b",
+          "text": "Do you have some information?"
+        },
+        {
+          "id": "c",
+          "text": "Do you have information?"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "В нейтральных вопросах обычно используется any. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
       "id": "q6",
       "type": "fill_blank",
       "prompt": "She has ___ ideas for the project. (несколько)",
@@ -147,15 +170,6 @@
       "explanation": "Offer обычно строится с some. Это соответствует правилу, разобранному в этом блоке."
     },
     {
-      "id": "q12",
-      "type": "fill_blank",
-      "prompt": "Would you like ___ coffee? (оффер)",
-      "theory_block_id": "b2_offers_some",
-      "difficulty": 1,
-      "correct_answer": "some",
-      "explanation": "В офферах используется some, ожидаем согласие. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
       "id": "q13",
       "type": "true_false",
       "prompt": "В офферах чаще используется some.",
@@ -163,6 +177,29 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Offer предполагает позитивный ответ, поэтому some. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q14",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'Would you like any cookies?'",
+      "theory_block_id": "b2_offers_some",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Would you like some cookies?"
+        },
+        {
+          "id": "b",
+          "text": "Would you like any cookies?"
+        },
+        {
+          "id": "c",
+          "text": "Do you want some cookies?"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "В офферах обычно ставят some, а не any. Это соответствует правилу, разобранному в этом блоке."
     },
     {
       "id": "q15",
@@ -186,15 +223,6 @@
       ],
       "correct_answer": "a",
       "explanation": "Offer/предложение подразумевает some. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
-      "id": "q16",
-      "type": "fill_blank",
-      "prompt": "Would you like ___ water? (оффер)",
-      "theory_block_id": "b2_offers_some",
-      "difficulty": 1,
-      "correct_answer": "some",
-      "explanation": "В офферах с uncountable тоже some. Это соответствует правилу, разобранному в этом блоке."
     },
     {
       "id": "q17",
@@ -270,15 +298,6 @@
       "explanation": "В просьбах используют some. Это соответствует правилу, разобранному в этом блоке."
     },
     {
-      "id": "q22",
-      "type": "fill_blank",
-      "prompt": "Could I get ___ information? (просьба)",
-      "theory_block_id": "b3_requests_some",
-      "difficulty": 2,
-      "correct_answer": "some",
-      "explanation": "В просьбах обычно some. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
       "id": "q23",
       "type": "true_false",
       "prompt": "Some используется в просьбах, потому что ожидается согласие.",
@@ -286,6 +305,29 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Просьба предполагает позитивный ответ, поэтому some. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
+      "id": "q24",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'Can I have any sugar?'",
+      "theory_block_id": "b3_requests_some",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Can I have some sugar?"
+        },
+        {
+          "id": "b",
+          "text": "Can I have any sugar?"
+        },
+        {
+          "id": "c",
+          "text": "Could I have some sugar?"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "В просьбах используется some. Это соответствует правилу, разобранному в этом блоке."
     },
     {
       "id": "q25",
@@ -309,15 +351,6 @@
       ],
       "correct_answer": "b",
       "explanation": "Could I have some pens? — просьба. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
-      "id": "q26",
-      "type": "fill_blank",
-      "prompt": "Can I borrow ___ notes? (просьба)",
-      "theory_block_id": "b3_requests_some",
-      "difficulty": 1,
-      "correct_answer": "some",
-      "explanation": "В просьбах используется some. Это соответствует правилу, разобранному в этом блоке."
     },
     {
       "id": "q27",
@@ -352,15 +385,6 @@
       "explanation": "В просьбах some звучит естественно. Это соответствует правилу, разобранному в этом блоке."
     },
     {
-      "id": "q29",
-      "type": "fill_blank",
-      "prompt": "Could I have ___ help with this? (просьба)",
-      "theory_block_id": "b3_requests_some",
-      "difficulty": 2,
-      "correct_answer": "some",
-      "explanation": "Some в просьбе показывает ожидание согласия. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
       "id": "q30",
       "type": "true_false",
       "prompt": "Some используется в просьбах и офферах.",
@@ -391,15 +415,6 @@
       ],
       "correct_answer": "a",
       "explanation": "Нейтральный вопрос обычно использует any. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
-      "id": "q32",
-      "type": "fill_blank",
-      "prompt": "Is there ___ milk left? (нейтральный вопрос)",
-      "theory_block_id": "b4_any_neutral_questions",
-      "difficulty": 1,
-      "correct_answer": "any",
-      "explanation": "В нейтральных вопросах используется any. Это соответствует правилу, разобранному в этом блоке."
     },
     {
       "id": "q33",
@@ -457,15 +472,6 @@
       "explanation": "Do you have any... — нейтральный вопрос. Это соответствует правилу, разобранному в этом блоке."
     },
     {
-      "id": "q36",
-      "type": "fill_blank",
-      "prompt": "Are there ___ emails from HR? (нейтральный вопрос)",
-      "theory_block_id": "b4_any_neutral_questions",
-      "difficulty": 2,
-      "correct_answer": "any",
-      "explanation": "Neutral question uses any. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
       "id": "q37",
       "type": "true_false",
       "prompt": "Some всегда подходит в вопросах.",
@@ -496,15 +502,6 @@
       ],
       "correct_answer": "b",
       "explanation": "Neutral question uses any. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
-      "id": "q39",
-      "type": "fill_blank",
-      "prompt": "Do you have ___ updates? (нейтральный вопрос)",
-      "theory_block_id": "b4_any_neutral_questions",
-      "difficulty": 1,
-      "correct_answer": "any",
-      "explanation": "Any — стандарт для нейтральных вопросов. Это соответствует правилу, разобранному в этом блоке."
     },
     {
       "id": "q40",
@@ -603,15 +600,6 @@
       "explanation": "Neutral question uses any. Это соответствует правилу, разобранному в этом блоке."
     },
     {
-      "id": "q46",
-      "type": "fill_blank",
-      "prompt": "I have ___ information for you. (утверждение)",
-      "theory_block_id": "b5_some_any_with_countability",
-      "difficulty": 1,
-      "correct_answer": "some",
-      "explanation": "Утверждение — some. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
       "id": "q47",
       "type": "true_false",
       "prompt": "Any используется только с countable.",
@@ -642,15 +630,6 @@
       ],
       "correct_answer": "b",
       "explanation": "В отрицаниях any. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
-      "id": "q49",
-      "type": "fill_blank",
-      "prompt": "Do you have ___ friends here? (нейтральный вопрос)",
-      "theory_block_id": "b5_some_any_with_countability",
-      "difficulty": 1,
-      "correct_answer": "any",
-      "explanation": "Нейтральные вопросы требуют any. Это соответствует правилу, разобранному в этом блоке."
     },
     {
       "id": "q50",
@@ -703,6 +682,29 @@
       "explanation": "В офферах обычно some. Any звучит неестественно. Это соответствует правилу, разобранному в этом блоке."
     },
     {
+      "id": "q54",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'Can I have any juice?'",
+      "theory_block_id": "b6_common_mistakes",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Can I have some juice?"
+        },
+        {
+          "id": "b",
+          "text": "Can I have any juice?"
+        },
+        {
+          "id": "c",
+          "text": "Could I have some juice?"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "В просьбах используется some. Это соответствует правилу, разобранному в этом блоке."
+    },
+    {
       "id": "q55",
       "type": "mcq_single",
       "prompt": "Какой вариант нейтральный вопрос?",
@@ -724,15 +726,6 @@
       ],
       "correct_answer": "a",
       "explanation": "Any в нейтральном вопросе. Это соответствует правилу, разобранному в этом блоке."
-    },
-    {
-      "id": "q56",
-      "type": "fill_blank",
-      "prompt": "Would you like ___ dessert? (оффер)",
-      "theory_block_id": "b6_common_mistakes",
-      "difficulty": 1,
-      "correct_answer": "some",
-      "explanation": "Offer — some. Это соответствует правилу, разобранному в этом блоке."
     },
     {
       "id": "q57",
