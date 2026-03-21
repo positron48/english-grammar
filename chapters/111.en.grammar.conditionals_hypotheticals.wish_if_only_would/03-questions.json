@@ -107,6 +107,34 @@
       "tags": []
     },
     {
+      "id": "q8",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку и выберите исправленное предложение: \"I wish I am taller.\"",
+      "theory_block_id": "b1_theory_wish_present",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I wish I were taller."
+        },
+        {
+          "id": "b",
+          "text": "I wish I was taller."
+        },
+        {
+          "id": "c",
+          "text": "I wish I will be taller."
+        },
+        {
+          "id": "d",
+          "text": "I wish I had been taller."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Для настоящего сожаления нужен Past Simple.",
+      "tags": []
+    },
+    {
       "id": "q9",
       "type": "mcq_single",
       "prompt": "Выберите правильный смысл: If only he worked less.",
@@ -221,6 +249,16 @@
       "tags": []
     },
     {
+      "id": "q15",
+      "type": "fill_blank",
+      "prompt": "Вставьте пропущенное: I wish I ___ the email earlier. (прочитать)",
+      "theory_block_id": "b2_theory_wish_past",
+      "difficulty": 2,
+      "correct_answer": "had",
+      "explanation": "Past Perfect: had read.",
+      "tags": []
+    },
+    {
       "id": "q16",
       "type": "error_spotting",
       "prompt": "Найдите ошибку и выберите исправленное предложение: \"I wish I saw the message.\"",
@@ -277,6 +315,16 @@
       "tags": []
     },
     {
+      "id": "q18",
+      "type": "fill_blank",
+      "prompt": "Вставьте пропущенное: If only she ___ more careful. (быть)",
+      "theory_block_id": "b2_theory_wish_past",
+      "difficulty": 2,
+      "correct_answer": "had",
+      "explanation": "Past Perfect: had been.",
+      "tags": []
+    },
+    {
       "id": "q19",
       "type": "true_false",
       "prompt": "Wish + Past Simple может выражать сожаление о прошлом.",
@@ -312,6 +360,16 @@
       ],
       "correct_answer": "a",
       "explanation": "Past Perfect после wish для прошлого сожаления.",
+      "tags": []
+    },
+    {
+      "id": "q21",
+      "type": "fill_blank",
+      "prompt": "Вставьте пропущенное: I wish I ___ the deadline. (не пропустить)",
+      "theory_block_id": "b2_theory_wish_past",
+      "difficulty": 2,
+      "correct_answer": "hadn't",
+      "explanation": "Past Perfect negative: hadn't missed.",
       "tags": []
     },
     {
@@ -381,34 +439,6 @@
       "tags": []
     },
     {
-      "id": "q25",
-      "type": "mcq_single",
-      "prompt": "Выберите корректный вариант: I wish you ___ so loud.",
-      "theory_block_id": "b3_theory_wish_would",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "wouldn't speak"
-        },
-        {
-          "id": "b",
-          "text": "didn't speak"
-        },
-        {
-          "id": "c",
-          "text": "won't speak"
-        },
-        {
-          "id": "d",
-          "text": "hadn't spoken"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Wish + would для жалобы на поведение.",
-      "tags": []
-    },
-    {
       "id": "q26",
       "type": "true_false",
       "prompt": "Wish + would можно использовать для жалобы на поведение других людей.",
@@ -416,16 +446,6 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Это типичный контекст.",
-      "tags": []
-    },
-    {
-      "id": "q27",
-      "type": "fill_blank",
-      "prompt": "Вставьте пропущенное: I wish it ___ raining. (перестать)",
-      "theory_block_id": "b3_theory_wish_would",
-      "difficulty": 2,
-      "correct_answer": "would",
-      "explanation": "Wish + would: would stop.",
       "tags": []
     },
     {
@@ -454,6 +474,34 @@
       ],
       "correct_answer": "a",
       "explanation": "Прошлое сожаление требует Past Perfect.",
+      "tags": []
+    },
+    {
+      "id": "q29",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: If only the neighbors ___ quieter.",
+      "theory_block_id": "b3_theory_wish_would",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "would be"
+        },
+        {
+          "id": "b",
+          "text": "were"
+        },
+        {
+          "id": "c",
+          "text": "will be"
+        },
+        {
+          "id": "d",
+          "text": "had been"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "If only + would для жалобы/надежды на изменение.",
       "tags": []
     },
     {
@@ -505,6 +553,44 @@
       "tags": []
     },
     {
+      "id": "q33",
+      "type": "fill_blank",
+      "prompt": "Вставьте пропущенное: I wish you ___ more careful next time. (быть)",
+      "theory_block_id": "b3_theory_wish_would",
+      "difficulty": 2,
+      "correct_answer": "would",
+      "explanation": "Wish + would для надежды на изменение.",
+      "tags": []
+    },
+    {
+      "id": "q34",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку и выберите исправленное предложение: \"I wish I would know the answer.\"",
+      "theory_block_id": "b3_theory_wish_would",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I wish I knew the answer."
+        },
+        {
+          "id": "b",
+          "text": "I wish I had known the answer."
+        },
+        {
+          "id": "c",
+          "text": "I wish I will know the answer."
+        },
+        {
+          "id": "d",
+          "text": "I wish I would have known the answer."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Для сожаления о настоящем нужен Past Simple.",
+      "tags": []
+    },
+    {
       "id": "q35",
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: I'd rather ___ at home tonight.",
@@ -550,34 +636,6 @@
       "difficulty": 2,
       "correct_answer": "asked",
       "explanation": "Для другого лица используется Past Simple.",
-      "tags": []
-    },
-    {
-      "id": "q38",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку и выберите исправленное предложение: \"I'd rather you don't tell him.\"",
-      "theory_block_id": "b4_theory_would_rather",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I'd rather you didn't tell him."
-        },
-        {
-          "id": "b",
-          "text": "I'd rather you won't tell him."
-        },
-        {
-          "id": "c",
-          "text": "I'd rather you don't told him."
-        },
-        {
-          "id": "d",
-          "text": "I'd rather you not tell him."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Past Simple для предпочтения о другом лице.",
       "tags": []
     },
     {
@@ -839,6 +897,16 @@
       "tags": []
     },
     {
+      "id": "q54",
+      "type": "fill_blank",
+      "prompt": "Вставьте пропущенное: I'd rather you ___ that earlier. (не говорить)",
+      "theory_block_id": "b4_theory_would_rather",
+      "difficulty": 2,
+      "correct_answer": "hadn't",
+      "explanation": "Past Perfect для предпочтения о прошлом.",
+      "tags": []
+    },
+    {
       "id": "q55",
       "type": "mcq_single",
       "prompt": "Выберите корректный вариант: If only I ___ that yesterday.",
@@ -922,6 +990,16 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "It’s high time более настойчиво.",
+      "tags": []
+    },
+    {
+      "id": "q60",
+      "type": "fill_blank",
+      "prompt": "Вставьте пропущенное: I wish you ___ stop complaining. (быть добр,)",
+      "theory_block_id": "b3_theory_wish_would",
+      "difficulty": 2,
+      "correct_answer": "would",
+      "explanation": "Wish + would для просьбы/жалобы.",
       "tags": []
     }
   ]
