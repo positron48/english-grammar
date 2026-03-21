@@ -152,29 +152,6 @@
       "explanation": "Порядок слов: подлежащее + must + V1. Получается We must wear helmets."
     },
     {
-      "id": "q13",
-      "type": "mcq_single",
-      "prompt": "Какое предложение выражает строгий запрет?",
-      "theory_block_id": "b2_prohibitions_mustnt",
-      "difficulty": 1,
-      "choices": [
-        {
-          "id": "a",
-          "text": "You mustn't smoke here."
-        },
-        {
-          "id": "b",
-          "text": "You shouldn't smoke here."
-        },
-        {
-          "id": "c",
-          "text": "You may not smoke here."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Mustn't — это запрет. Shouldn't — мягкий совет, may not — вероятность."
-    },
-    {
       "id": "q14",
       "type": "fill_blank",
       "prompt": "You ___ use your phone during meetings. (запрет)",
@@ -709,15 +686,6 @@
       "explanation": "Might показывает возможность, а не обязательство. Это подходит для изменений планов."
     },
     {
-      "id": "q50",
-      "type": "fill_blank",
-      "prompt": "She ___ join the call later. (возможность)",
-      "theory_block_id": "b5_probability_may_might",
-      "difficulty": 1,
-      "correct_answer": "may",
-      "explanation": "May выражает вероятность. Это подходит, когда не уверены в планах."
-    },
-    {
       "id": "q51",
       "type": "true_false",
       "prompt": "May/might выражают вероятность, а не обязанность.",
@@ -725,6 +693,29 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "May/might — модальные глаголы для вероятности. Они не означают обязанность."
+    },
+    {
+      "id": "q52",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'He might to be late today.'",
+      "theory_block_id": "b5_probability_may_might",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "He might be late today."
+        },
+        {
+          "id": "b",
+          "text": "He might to be late today."
+        },
+        {
+          "id": "c",
+          "text": "He may be late today."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "После might используется V1 без to. Правильно: might be."
     },
     {
       "id": "q53",
@@ -818,27 +809,27 @@
       "explanation": "May/might — это вероятность, а не совет. Для совета используется should."
     },
     {
-      "id": "q61",
-      "type": "mcq_single",
-      "prompt": "Какая фраза лучше подходит для начала диалога о правилах дома?",
-      "theory_block_id": "b6_build_speak_dialogues",
+      "id": "q60",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'They may to arrive late.'",
+      "theory_block_id": "b5_probability_may_might",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "You must keep the kitchen clean."
+          "text": "They may arrive late."
         },
         {
           "id": "b",
-          "text": "You might be busy."
+          "text": "They may to arrive late."
         },
         {
           "id": "c",
-          "text": "You should maybe."
+          "text": "They might arrive late."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Для правил уместно использовать must. Это звучит как четкое требование."
+      "explanation": "После may используется V1 без to. Нужна форма arrive."
     },
     {
       "id": "q62",
