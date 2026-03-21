@@ -437,6 +437,37 @@
       "explanation": "После not only нужна инверсия, а после does используется базовая форма write."
     },
     {
+      "id": "q25",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"Little ___ they know about the merger.\"",
+      "theory_block_id": "b3_theory_little_no_so",
+      "difficulty": 3,
+      "choices": [
+        {
+          "id": "a",
+          "text": "did",
+          "feedback": "Верно: little запускает инверсию с did."
+        },
+        {
+          "id": "b",
+          "text": "do",
+          "feedback": "Do относится к настоящему, но здесь past implication."
+        },
+        {
+          "id": "c",
+          "text": "have",
+          "feedback": "Have не подходит по смыслу."
+        },
+        {
+          "id": "d",
+          "text": "were",
+          "feedback": "Were не подходит с know."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Little в значении «едва/почти не» требует инверсии. В прошедшем: Little did they know."
+    },
+    {
       "id": "q26",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"Only after the review ___ we see the flaw.\" (видеть)",
@@ -475,15 +506,6 @@
       ],
       "correct_answer": "b",
       "explanation": "Only then в начале требует инверсии: did we realize."
-    },
-    {
-      "id": "q28",
-      "type": "true_false",
-      "prompt": "После little в начале предложения используется инверсия.",
-      "theory_block_id": "b3_theory_little_no_so",
-      "difficulty": 1,
-      "correct_answer": "true",
-      "explanation": "Little в значении «едва/почти не» запускает инверсию: auxiliary + subject."
     },
     {
       "id": "q29",
@@ -624,6 +646,37 @@
       "explanation": "Only then в начале требует инверсии с did: did the audience laugh."
     },
     {
+      "id": "q37",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"Hardly ___ we started when the lights went out.\"",
+      "theory_block_id": "b4_theory_hardly_scarcely",
+      "difficulty": 4,
+      "choices": [
+        {
+          "id": "a",
+          "text": "had",
+          "feedback": "Верно: Hardly had + subject + V3."
+        },
+        {
+          "id": "b",
+          "text": "did",
+          "feedback": "Did не используется в этой связке."
+        },
+        {
+          "id": "c",
+          "text": "have",
+          "feedback": "Have не подходит по времени."
+        },
+        {
+          "id": "d",
+          "text": "were",
+          "feedback": "Were не используется с start."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Hardly... when требует Past Perfect с инверсией: Hardly had we started."
+    },
+    {
       "id": "q38",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"Scarcely ___ she arrived when the meeting began.\" (прибывать)",
@@ -682,6 +735,37 @@
       "explanation": "Barely/Scarcely/Hardly используют Past Perfect с инверсией: had he entered."
     },
     {
+      "id": "q42",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"Scarcely ___ the doors closed when the alarm sounded.\"",
+      "theory_block_id": "b4_theory_hardly_scarcely",
+      "difficulty": 4,
+      "choices": [
+        {
+          "id": "a",
+          "text": "had",
+          "feedback": "Верно: Past Perfect + inversion."
+        },
+        {
+          "id": "b",
+          "text": "did",
+          "feedback": "Did не используется в этой связке."
+        },
+        {
+          "id": "c",
+          "text": "have",
+          "feedback": "Have не подходит по времени."
+        },
+        {
+          "id": "d",
+          "text": "were",
+          "feedback": "Were не подходит по смыслу."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Scarcely... when требует Past Perfect с инверсией: Scarcely had the doors closed."
+    },
+    {
       "id": "q43",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"Hardly ___ I sat down when the phone rang.\" (садиться)",
@@ -700,6 +784,37 @@
       "explanation": "Стандартный шаблон использует Past Perfect в первой части и Past Simple во второй."
     },
     {
+      "id": "q45",
+      "type": "error_spotting",
+      "prompt": "Выберите правильный вариант предложения.",
+      "theory_block_id": "b4_theory_hardly_scarcely",
+      "difficulty": 4,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Scarcely had we left when the storm began.",
+          "feedback": "Верно: had + V3."
+        },
+        {
+          "id": "b",
+          "text": "Scarcely we had left when the storm began.",
+          "feedback": "Нужна инверсия."
+        },
+        {
+          "id": "c",
+          "text": "Scarcely did we left when the storm began.",
+          "feedback": "После did нужна V1."
+        },
+        {
+          "id": "d",
+          "text": "Scarcely left we when the storm began.",
+          "feedback": "Нужен вспомогательный had."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "В этих конструкциях используется инверсия с had: Scarcely had we left..."
+    },
+    {
       "id": "q46",
       "type": "reorder",
       "prompt": "Расставьте слова в правильном порядке:",
@@ -707,6 +822,37 @@
       "difficulty": 3,
       "correct_answer": "Hardly had they agreed when the terms changed.",
       "explanation": "Hardly + Past Perfect требует инверсии: had they agreed."
+    },
+    {
+      "id": "q47",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"Barely ___ I finished when the deadline passed.\"",
+      "theory_block_id": "b4_theory_hardly_scarcely",
+      "difficulty": 4,
+      "choices": [
+        {
+          "id": "a",
+          "text": "had",
+          "feedback": "Верно: Past Perfect + inversion."
+        },
+        {
+          "id": "b",
+          "text": "did",
+          "feedback": "Did не используется в этой связке."
+        },
+        {
+          "id": "c",
+          "text": "have",
+          "feedback": "Have не подходит по времени."
+        },
+        {
+          "id": "d",
+          "text": "were",
+          "feedback": "Were не подходит по смыслу."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Barely... when требует Past Perfect с инверсией: Barely had I finished."
     },
     {
       "id": "q48",
