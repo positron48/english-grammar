@@ -32,6 +32,15 @@
       "explanation": "Might выражает осторожную вероятность и подходит для hedging."
     },
     {
+      "id": "q2",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"This ___ indicate a larger issue.\" (modal)",
+      "theory_block_id": "b1_theory_modals",
+      "difficulty": 2,
+      "correct_answer": "could",
+      "explanation": "Could используется для возможного объяснения: This could indicate..."
+    },
+    {
       "id": "q3",
       "type": "error_spotting",
       "prompt": "Выберите правильный вариант предложения.",
@@ -190,6 +199,15 @@
       ],
       "correct_answer": "a",
       "explanation": "Might снижает категоричность и подходит для hedging."
+    },
+    {
+      "id": "q11",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"These results ___ be influenced by sample size.\" (modal)",
+      "theory_block_id": "b1_theory_modals",
+      "difficulty": 2,
+      "correct_answer": "may",
+      "explanation": "May выражает вероятность и смягчает утверждение."
     },
     {
       "id": "q12",
@@ -388,37 +406,6 @@
       "explanation": "Tend to используется перед базовой формой глагола."
     },
     {
-      "id": "q24",
-      "type": "error_spotting",
-      "prompt": "Выберите правильный вариант предложения.",
-      "theory_block_id": "b2_theory_lexical_verbs",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "It appears the data are missing.",
-          "feedback": "Возможно, но чаще нужно that."
-        },
-        {
-          "id": "b",
-          "text": "It appears that the data are missing.",
-          "feedback": "Верно: that-clause."
-        },
-        {
-          "id": "c",
-          "text": "It appear that the data are missing.",
-          "feedback": "Нужно appears."
-        },
-        {
-          "id": "d",
-          "text": "It appears to the data are missing.",
-          "feedback": "Неверная структура."
-        }
-      ],
-      "correct_answer": "b",
-      "explanation": "It appears that... — стандартная структура для осторожного вывода."
-    },
-    {
       "id": "q25",
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: \"This is ___ the most efficient solution.\"",
@@ -448,15 +435,6 @@
       ],
       "correct_answer": "a",
       "explanation": "Probably смягчает утверждение и снижает категоричность."
-    },
-    {
-      "id": "q26",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"The claim is ___ too strong.\" (adverb)",
-      "theory_block_id": "b3_theory_adverbs",
-      "difficulty": 2,
-      "correct_answer": "arguably",
-      "explanation": "Arguably выражает осторожную оценку."
     },
     {
       "id": "q27",
@@ -539,15 +517,6 @@
       "explanation": "Somewhat уменьшает степень утверждения."
     },
     {
-      "id": "q31",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"It is ___ true that prices are rising.\" (adverb)",
-      "theory_block_id": "b3_theory_adverbs",
-      "difficulty": 2,
-      "correct_answer": "relatively",
-      "explanation": "Relatively смягчает степень утверждения."
-    },
-    {
       "id": "q32",
       "type": "true_false",
       "prompt": "Наречие arguably делает тон более категоричным.",
@@ -626,15 +595,6 @@
       "difficulty": 2,
       "correct_answer": "The claim is arguably too strong.",
       "explanation": "Arguably ставится перед прилагательным и смягчает оценку."
-    },
-    {
-      "id": "q36",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"This is ___ more complex than it seems.\" (adverb)",
-      "theory_block_id": "b3_theory_adverbs",
-      "difficulty": 2,
-      "correct_answer": "somewhat",
-      "explanation": "Somewhat уменьшает степень утверждения."
     },
     {
       "id": "q37",
@@ -775,37 +735,6 @@
       "explanation": "Да, это классический hedging-фрейм."
     },
     {
-      "id": "q45",
-      "type": "error_spotting",
-      "prompt": "Выберите правильный вариант предложения.",
-      "theory_block_id": "b4_theory_phrases",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "It seems that the schedule is tight.",
-          "feedback": "Верно: seems that."
-        },
-        {
-          "id": "b",
-          "text": "It seems the schedule is tight.",
-          "feedback": "Возможно, но менее формально."
-        },
-        {
-          "id": "c",
-          "text": "It seems to the schedule is tight.",
-          "feedback": "Неверная структура."
-        },
-        {
-          "id": "d",
-          "text": "It seems that the schedule are tight.",
-          "feedback": "Неверное согласование."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "It seems that... — корректная формальная структура."
-    },
-    {
       "id": "q46",
       "type": "reorder",
       "prompt": "Расставьте слова в правильном порядке:",
@@ -813,6 +742,37 @@
       "difficulty": 2,
       "correct_answer": "There is some evidence that the model is unstable.",
       "explanation": "Hedging-фрейм: There is some evidence that..."
+    },
+    {
+      "id": "q47",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"It is ___ that the team will agree.\"",
+      "theory_block_id": "b4_theory_phrases",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "likely",
+          "feedback": "Верно: likely that..."
+        },
+        {
+          "id": "b",
+          "text": "possible",
+          "feedback": "Возможно, но менее подходящее здесь."
+        },
+        {
+          "id": "c",
+          "text": "certain",
+          "feedback": "Слишком категорично."
+        },
+        {
+          "id": "d",
+          "text": "sure",
+          "feedback": "Слишком уверенно."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "It is likely that... выражает вероятный, но не категоричный вывод."
     },
     {
       "id": "q48",
@@ -942,6 +902,15 @@
       ],
       "correct_answer": "a",
       "explanation": "После should используется базовая форма глагола: should be."
+    },
+    {
+      "id": "q55",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"It's ___ to say without more data.\" (adjective)",
+      "theory_block_id": "b5_theory_style_limits",
+      "difficulty": 2,
+      "correct_answer": "hard",
+      "explanation": "Типичный hedging-оборот: It's hard to say without more data."
     },
     {
       "id": "q56",
