@@ -32,6 +32,15 @@
       "explanation": "При согласии с утверждением используется So + auxiliary + subject: So am I."
     },
     {
+      "id": "q2",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"He didn't call. Neither ___ I.\" (do)",
+      "theory_block_id": "b1_theory_so_neither",
+      "difficulty": 2,
+      "correct_answer": "did",
+      "explanation": "В Past Simple используется did. При отрицании: Neither did I."
+    },
+    {
       "id": "q3",
       "type": "error_spotting",
       "prompt": "Выберите правильный вариант предложения.",
@@ -428,6 +437,37 @@
       "explanation": "Substitution с do соответствует Present Simple и подлежащему I."
     },
     {
+      "id": "q25",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"I like classical music. ___.\"",
+      "theory_block_id": "b3_theory_so_not",
+      "difficulty": 3,
+      "choices": [
+        {
+          "id": "a",
+          "text": "So do I",
+          "feedback": "Это согласие с чужой репликой, не подходит."
+        },
+        {
+          "id": "b",
+          "text": "So I do",
+          "feedback": "Верно: эмфаза «я действительно люблю»"
+        },
+        {
+          "id": "c",
+          "text": "Neither do I",
+          "feedback": "Neither используется при отрицании."
+        },
+        {
+          "id": "d",
+          "text": "So I am",
+          "feedback": "Am не заменяет like."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "So I do — эмфатическая конструкция без инверсии, подтверждает факт."
+    },
+    {
       "id": "q26",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"You say I never help. So I ___.\" (подтверждение)",
@@ -566,6 +606,37 @@
       "explanation": "So I do listen — эмфатическое подтверждение с обычным порядком слов."
     },
     {
+      "id": "q34",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: \"I promise to help, and so ___ you.\"",
+      "theory_block_id": "b3_theory_so_not",
+      "difficulty": 3,
+      "choices": [
+        {
+          "id": "a",
+          "text": "do",
+          "feedback": "Верно: so do you — согласие."
+        },
+        {
+          "id": "b",
+          "text": "you do",
+          "feedback": "Это эмфаза, не согласие."
+        },
+        {
+          "id": "c",
+          "text": "did",
+          "feedback": "Did меняет время."
+        },
+        {
+          "id": "d",
+          "text": "are",
+          "feedback": "Are не заменяет promise."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Здесь нужно нейтральное согласие: so do you."
+    },
+    {
       "id": "q35",
       "type": "reorder",
       "prompt": "Расставьте слова в правильном порядке:",
@@ -573,6 +644,15 @@
       "difficulty": 2,
       "correct_answer": "So do I.",
       "explanation": "Структура согласия: So + auxiliary + subject."
+    },
+    {
+      "id": "q36",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"You doubt me, but so ___ I.\" (глагол)",
+      "theory_block_id": "b3_theory_so_not",
+      "difficulty": 3,
+      "correct_answer": "do",
+      "explanation": "So do I — согласие: «я тоже сомневаюсь»."
     },
     {
       "id": "q37",
@@ -613,37 +693,6 @@
       "difficulty": 2,
       "correct_answer": "ones",
       "explanation": "Если речь о множественном числе, используем ones."
-    },
-    {
-      "id": "q39",
-      "type": "error_spotting",
-      "prompt": "Выберите правильный вариант предложения.",
-      "theory_block_id": "b4_theory_one_ones",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I like the red one.",
-          "feedback": "Верно: one в единственном числе."
-        },
-        {
-          "id": "b",
-          "text": "I like the red ones.",
-          "feedback": "Ones требует множественного контекста."
-        },
-        {
-          "id": "c",
-          "text": "I like the red one ones.",
-          "feedback": "Избыточно."
-        },
-        {
-          "id": "d",
-          "text": "I like the red it.",
-          "feedback": "It не используется так."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Когда речь об одном предмете, используем one."
     },
     {
       "id": "q40",
@@ -695,15 +744,6 @@
       "explanation": "Shoes во множественном числе, поэтому ones."
     },
     {
-      "id": "q43",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"I prefer the newer ___ .\" (замена)",
-      "theory_block_id": "b4_theory_one_ones",
-      "difficulty": 2,
-      "correct_answer": "one",
-      "explanation": "Если речь об одном объекте, используем one."
-    },
-    {
       "id": "q44",
       "type": "true_false",
       "prompt": "One/ones можно использовать только с определенным артиклем the.",
@@ -711,37 +751,6 @@
       "difficulty": 2,
       "correct_answer": "false",
       "explanation": "One/ones могут идти и с другими определителями: this one, those ones, my one."
-    },
-    {
-      "id": "q45",
-      "type": "error_spotting",
-      "prompt": "Выберите правильный вариант предложения.",
-      "theory_block_id": "b4_theory_one_ones",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Which one do you want?",
-          "feedback": "Верно: one заменяет существительное."
-        },
-        {
-          "id": "b",
-          "text": "Which ones do you want?",
-          "feedback": "Ones требует множественного контекста."
-        },
-        {
-          "id": "c",
-          "text": "Which do you want one?",
-          "feedback": "Неверный порядок."
-        },
-        {
-          "id": "d",
-          "text": "Which it do you want?",
-          "feedback": "Неверно."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "One используется для единственного объекта: Which one do you want?"
     },
     {
       "id": "q46",
