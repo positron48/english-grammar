@@ -531,15 +531,6 @@
       "explanation": "Отрицание: couldn't + V1."
     },
     {
-      "id": "q35",
-      "type": "fill_blank",
-      "prompt": "I ___ not hear you well. (отрицание)",
-      "theory_block_id": "b3_theory_forms",
-      "difficulty": 1,
-      "correct_answer": "couldn't",
-      "explanation": "Couldn't используется для отрицания."
-    },
-    {
       "id": "q36",
       "type": "true_false",
       "prompt": "В вопросах could стоит перед подлежащим.",
@@ -547,6 +538,29 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Порядок: Could + subject + V1."
+    },
+    {
+      "id": "q37",
+      "type": "mcq_single",
+      "prompt": "Краткий ответ на «Could you help me?»:",
+      "theory_block_id": "b4_theory_short_answers",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, I could."
+        },
+        {
+          "id": "b",
+          "text": "Yes, I can."
+        },
+        {
+          "id": "c",
+          "text": "Yes, I do."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Грамматически корректный ответ: Yes, I could."
     },
     {
       "id": "q38",
