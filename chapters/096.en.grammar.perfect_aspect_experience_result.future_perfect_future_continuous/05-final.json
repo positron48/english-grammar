@@ -501,7 +501,7 @@
       {
         "id": "q11",
         "type": "mcq_single",
-        "prompt": "В Future Perfect после will идёт вспомогательный глагол ___.",
+        "prompt": "Во Future Perfect после will идёт вспомогательный глагол ___.",
         "theory_block_id": "b1_theory_future_perfect_form",
         "difficulty": 1,
         "choices": [
@@ -1223,6 +1223,34 @@
         "tags": []
       },
       {
+        "id": "q48",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: When you get home, I ___ .",
+        "theory_block_id": "b4_theory_future_continuous_process",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "will be showering"
+          },
+          {
+            "id": "b",
+            "text": "will have showered"
+          },
+          {
+            "id": "c",
+            "text": "shower"
+          },
+          {
+            "id": "d",
+            "text": "am showering"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Действие будет в процессе по вашему приходу — уместен Future Continuous.",
+        "tags": []
+      },
+      {
         "id": "q49",
         "type": "mcq_single",
         "prompt": "Выберите правильную форму: By 6, I ___ the slide deck.",
@@ -1258,6 +1286,16 @@
         "difficulty": 2,
         "correct_answer": "working",
         "explanation": "В конкретный момент важен процесс — Future Continuous.",
+        "tags": []
+      },
+      {
+        "id": "q51",
+        "type": "true_false",
+        "prompt": "Фраза «By the time she calls, I will be driving» означает, что действие будет в процессе в тот момент.",
+        "theory_block_id": "b5_theory_contrast_future_forms",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Will be driving — действие в процессе к моменту её звонка, а не завершённый результат.",
         "tags": []
       },
       {
@@ -1348,30 +1386,6 @@
         ],
         "correct_answer": "a",
         "explanation": "By Friday — завершённый результат к дедлайну, это Future Perfect.",
-        "tags": []
-      },
-      {
-        "id": "q56",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"At 5 p.m., I will have meet the client.\"",
-        "theory_block_id": "b5_theory_contrast_future_forms",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "At 5 p.m., I will be meeting the client."
-          },
-          {
-            "id": "b",
-            "text": "At 5 p.m., I will have met the client."
-          },
-          {
-            "id": "c",
-            "text": "At 5 p.m., I will meet the client."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "At 5 p.m. — момент времени, форма процесса will be meeting наиболее уместна.",
         "tags": []
       },
       {
@@ -1693,6 +1707,8 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
       "q5",
@@ -1703,6 +1719,8 @@
       "q10",
       "q11",
       "q12",
+      "q13",
+      "q14",
       "q15",
       "q16",
       "q17",
@@ -1713,6 +1731,8 @@
       "q22",
       "q23",
       "q24",
+      "q25",
+      "q26",
       "q27",
       "q28",
       "q29",
@@ -1723,6 +1743,8 @@
       "q34",
       "q35",
       "q36",
+      "q37",
+      "q38",
       "q39",
       "q40",
       "q41",
@@ -1732,15 +1754,20 @@
       "q45",
       "q46",
       "q47",
+      "q48",
+      "q49",
+      "q50",
+      "q51",
       "q52",
       "q53",
       "q54",
       "q55",
-      "q56",
       "q57",
       "q58",
       "q59",
       "q60",
+      "q61",
+      "q62",
       "q63",
       "q64",
       "q65",
@@ -1765,7 +1792,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-21T08:14:11Z",
+    "updated_at": "2026-03-21T10:07:24Z",
     "source": "llm"
   }
 }
