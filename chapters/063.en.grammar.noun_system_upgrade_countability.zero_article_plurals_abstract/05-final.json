@@ -860,15 +860,6 @@
         "explanation": "В значении института (как заключенный) prison обычно без артикля. Это соответствует правилу, разобранному в этом блоке."
       },
       {
-        "id": "q36",
-        "type": "fill_blank",
-        "prompt": "The school on Main Street is old. (конкретное здание)",
-        "theory_block_id": "b4_institutions_general",
-        "difficulty": 2,
-        "correct_answer": "the",
-        "explanation": "Уточнение делает объект конкретным, нужен the. Это соответствует правилу, разобранному в этом блоке."
-      },
-      {
         "id": "q37",
         "type": "true_false",
         "prompt": "Go to hospital всегда требует the.",
@@ -876,29 +867,6 @@
         "difficulty": 2,
         "correct_answer": "false",
         "explanation": "В значении функции часто без the. Это соответствует правилу, разобранному в этом блоке."
-      },
-      {
-        "id": "q38",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: We visited ___ hospital to see a friend.",
-        "theory_block_id": "b4_institutions_general",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "the"
-          },
-          {
-            "id": "b",
-            "text": "(без артикля)"
-          },
-          {
-            "id": "c",
-            "text": "a"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Когда речь о здании, используем the. Это соответствует правилу, разобранному в этом блоке."
       },
       {
         "id": "q39",
@@ -1215,6 +1183,8 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
       "q5",
@@ -1223,6 +1193,8 @@
       "q8",
       "q9",
       "q10",
+      "q11",
+      "q12",
       "q13",
       "q14",
       "q15",
@@ -1231,6 +1203,8 @@
       "q18",
       "q19",
       "q20",
+      "q21",
+      "q22",
       "q23",
       "q24",
       "q25",
@@ -1239,14 +1213,16 @@
       "q28",
       "q29",
       "q30",
+      "q31",
+      "q32",
       "q33",
       "q34",
       "q35",
-      "q36",
       "q37",
-      "q38",
       "q39",
       "q40",
+      "q41",
+      "q42",
       "q43",
       "q44",
       "q45",
@@ -1255,6 +1231,8 @@
       "q48",
       "q49",
       "q50",
+      "q51",
+      "q52",
       "q53",
       "q54",
       "q55",
@@ -1277,7 +1255,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-21T08:14:09Z",
+    "updated_at": "2026-03-21T08:43:40Z",
     "source": "llm"
   }
 }
