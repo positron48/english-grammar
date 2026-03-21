@@ -477,37 +477,6 @@
       "explanation": "Wh-cleft согласуется по времени: wanted → was."
     },
     {
-      "id": "q27",
-      "type": "error_spotting",
-      "prompt": "Выберите правильный вариант предложения.",
-      "theory_block_id": "b3_theory_wh_cleft_basic",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "What I need are time and focus.",
-          "feedback": "Часто допустимо при множественном фокусе, но предпочтительно is."
-        },
-        {
-          "id": "b",
-          "text": "What I need is time and focus.",
-          "feedback": "Верно: what-clause обычно требует is."
-        },
-        {
-          "id": "c",
-          "text": "What I need do time and focus.",
-          "feedback": "Неверная связка."
-        },
-        {
-          "id": "d",
-          "text": "What I need is to time and focus.",
-          "feedback": "Неверная структура."
-        }
-      ],
-      "correct_answer": "b",
-      "explanation": "В wh-cleft обычно используется is как связка. What I need is time and focus."
-    },
-    {
       "id": "q28",
       "type": "true_false",
       "prompt": "Wh-cleft обычно переносит фокус в конец предложения.",
@@ -833,37 +802,6 @@
       "explanation": "Reversed cleft: The problem we faced was timing."
     },
     {
-      "id": "q47",
-      "type": "mcq_single",
-      "prompt": "Выберите правильный вариант: \"The issue we discussed ___ unresolved.\"",
-      "theory_block_id": "b4_theory_reversed_cleft",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "is",
-          "feedback": "Верно: present form of be."
-        },
-        {
-          "id": "b",
-          "text": "are",
-          "feedback": "Не согласуется с issue."
-        },
-        {
-          "id": "c",
-          "text": "were",
-          "feedback": "Не подходит по времени."
-        },
-        {
-          "id": "d",
-          "text": "do",
-          "feedback": "Do не используется как связка."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Issue — единственное число, поэтому is."
-    },
-    {
       "id": "q48",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: \"The place we met ___ a quiet cafe.\" (быть)",
@@ -991,15 +929,6 @@
       ],
       "correct_answer": "a",
       "explanation": "What-clause в прошедшем времени требует was: What he needed was reassurance."
-    },
-    {
-      "id": "q55",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"It was the deadline that ___ the pressure.\" (создавать)",
-      "theory_block_id": "b5_theory_style_limits",
-      "difficulty": 3,
-      "correct_answer": "created",
-      "explanation": "Это обычная относительная часть в Past Simple: that created the pressure."
     },
     {
       "id": "q56",
