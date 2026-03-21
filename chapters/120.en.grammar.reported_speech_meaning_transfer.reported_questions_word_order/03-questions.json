@@ -39,16 +39,6 @@
       "tags": []
     },
     {
-      "id": "q3",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: Reported questions use statement word ___. (sequence)",
-      "theory_block_id": "b1_theory_overview",
-      "difficulty": 1,
-      "correct_answer": "order",
-      "explanation": "Порядок слов утверждения — ключевое правило reported questions.",
-      "tags": []
-    },
-    {
       "id": "q4",
       "type": "true_false",
       "prompt": "Вопросительный знак обычно не ставится в reported questions внутри предложения.",
@@ -84,6 +74,16 @@
       ],
       "correct_answer": "a",
       "explanation": "Ask — базовый глагол для передачи вопросов.",
+      "tags": []
+    },
+    {
+      "id": "q6",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: He asked ___ I was ready. (yes/no linker)",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 1,
+      "correct_answer": "if",
+      "explanation": "Для yes/no вопросов используется if или whether.",
       "tags": []
     },
     {
@@ -153,6 +153,16 @@
       "tags": []
     },
     {
+      "id": "q10",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: Reported questions do not use question ___. (punctuation)",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 2,
+      "correct_answer": "mark",
+      "explanation": "Вопросительный знак обычно не используется внутри reported question.",
+      "tags": []
+    },
+    {
       "id": "q11",
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант для yes/no вопроса.",
@@ -188,6 +198,16 @@
       "difficulty": 2,
       "correct_answer": "true",
       "explanation": "Обычно их можно заменить, хотя whether более формально.",
+      "tags": []
+    },
+    {
+      "id": "q13",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: She wondered ___ he had arrived. (formal linker)",
+      "theory_block_id": "b2_theory_if_whether",
+      "difficulty": 2,
+      "correct_answer": "whether",
+      "explanation": "Whether часто используется в более формальном стиле.",
       "tags": []
     },
     {
@@ -257,31 +277,13 @@
       "tags": []
     },
     {
-      "id": "q17",
-      "type": "error_spotting",
-      "prompt": "Выберите корректную форму.",
+      "id": "q18",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: She asked me ___ I had finished. (yes/no linker)",
       "theory_block_id": "b2_theory_if_whether",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "He asked if was she ready."
-        },
-        {
-          "id": "b",
-          "text": "He asked if she was ready."
-        },
-        {
-          "id": "c",
-          "text": "He asked if is she ready."
-        },
-        {
-          "id": "d",
-          "text": "He asked if she is ready."
-        }
-      ],
-      "correct_answer": "b",
-      "explanation": "Нужен порядок слов утверждения и backshift.",
+      "difficulty": 1,
+      "correct_answer": "if",
+      "explanation": "Yes/no вопрос -> if/whether.",
       "tags": []
     },
     {
@@ -462,6 +464,16 @@
       ],
       "correct_answer": "b",
       "explanation": "Правильный порядок слов утверждения: he worked.",
+      "tags": []
+    },
+    {
+      "id": "q28",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: I asked why they ___. (leave)",
+      "theory_block_id": "b3_theory_wh_questions",
+      "difficulty": 2,
+      "correct_answer": "left",
+      "explanation": "Wh-word сохраняется, past simple без инверсии.",
       "tags": []
     },
     {
@@ -759,6 +771,16 @@
       "tags": []
     },
     {
+      "id": "q44",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: Ошибка \"He asked where did I live\" — сохранение ___. (инверсии)",
+      "theory_block_id": "b5_theory_common_errors",
+      "difficulty": 2,
+      "correct_answer": "inversion",
+      "explanation": "В reported questions не должно быть инверсии.",
+      "tags": []
+    },
+    {
       "id": "q45",
       "type": "mcq_single",
       "prompt": "Какой вариант с if/whether правильный?",
@@ -797,31 +819,13 @@
       "tags": []
     },
     {
-      "id": "q47",
-      "type": "mcq_single",
-      "prompt": "Какой вариант исправляет ошибку в reported question?",
+      "id": "q48",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: In reported questions, auxiliary verbs like do/does/did are ___. (taken out)",
       "theory_block_id": "b5_theory_common_errors",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "He asked where do I work."
-        },
-        {
-          "id": "b",
-          "text": "He asked where I worked."
-        },
-        {
-          "id": "c",
-          "text": "He asked where I work."
-        },
-        {
-          "id": "d",
-          "text": "He asked where did I work."
-        }
-      ],
-      "correct_answer": "b",
-      "explanation": "Правильный порядок слов и backshift: where I worked.",
+      "difficulty": 2,
+      "correct_answer": "removed",
+      "explanation": "В reported questions do/does/did исчезают.",
       "tags": []
     },
     {
