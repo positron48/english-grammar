@@ -87,16 +87,6 @@
       "tags": []
     },
     {
-      "id": "q6",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: Reported speech is also called ___ speech. (косвенная)",
-      "theory_block_id": "b1_theory_overview",
-      "difficulty": 1,
-      "correct_answer": "indirect",
-      "explanation": "Другой термин — indirect speech.",
-      "tags": []
-    },
-    {
       "id": "q7",
       "type": "mcq_single",
       "prompt": "Что происходит с временем при backshift?",
@@ -571,6 +561,16 @@
       "tags": []
     },
     {
+      "id": "q31",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"I saw him,\" she said -> She said she ___ him. (see)",
+      "theory_block_id": "b3_theory_backshift",
+      "difficulty": 2,
+      "correct_answer": "had",
+      "explanation": "Past Simple (saw) -> Past Perfect (had seen). Ответ — had, остальное дано глаголом.",
+      "tags": []
+    },
+    {
       "id": "q32",
       "type": "true_false",
       "prompt": "Backshift применяется, если глагол сообщения в настоящем.",
@@ -685,6 +685,16 @@
       "tags": []
     },
     {
+      "id": "q38",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: \"I will do it tomorrow,\" he said -> He said he would do it ___. (the next day)",
+      "theory_block_id": "b4_theory_time_place",
+      "difficulty": 2,
+      "correct_answer": "then",
+      "explanation": "При пересказе можно использовать then как временной маркер. Вариант the next day тоже корректен.",
+      "tags": []
+    },
+    {
       "id": "q39",
       "type": "true_false",
       "prompt": "Here обычно меняется на there в reported speech.",
@@ -761,16 +771,6 @@
       "tags": []
     },
     {
-      "id": "q43",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: here -> ___. (там)",
-      "theory_block_id": "b4_theory_time_place",
-      "difficulty": 1,
-      "correct_answer": "there",
-      "explanation": "Here меняется на there при переносе точки отсчета.",
-      "tags": []
-    },
-    {
       "id": "q44",
       "type": "mcq_single",
       "prompt": "Выберите корректный вариант: \"I need this file today,\" he said.",
@@ -834,6 +834,16 @@
       ],
       "correct_answer": "b",
       "explanation": "Here -> there, today -> that day, will -> would.",
+      "tags": []
+    },
+    {
+      "id": "q47",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: yesterday -> ___. (the day before)",
+      "theory_block_id": "b4_theory_time_place",
+      "difficulty": 1,
+      "correct_answer": "before",
+      "explanation": "Вариант the day before включает слово before. Здесь нужно вставить ключевое слово.",
       "tags": []
     },
     {
@@ -931,16 +941,6 @@
       "tags": []
     },
     {
-      "id": "q52",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: He told ___ he was leaving. (объект)",
-      "theory_block_id": "b5_theory_common_errors",
-      "difficulty": 1,
-      "correct_answer": "me",
-      "explanation": "Tell требует объекта: told me.",
-      "tags": []
-    },
-    {
       "id": "q53",
       "type": "true_false",
       "prompt": "Ошибочно оставлять here/today без изменений, если точка отсчета изменилась.",
@@ -976,6 +976,44 @@
       ],
       "correct_answer": "a",
       "explanation": "Here меняется на there при backshift.",
+      "tags": []
+    },
+    {
+      "id": "q55",
+      "type": "error_spotting",
+      "prompt": "Найдите правильный вариант исправления.",
+      "theory_block_id": "b5_theory_common_errors",
+      "difficulty": 3,
+      "choices": [
+        {
+          "id": "a",
+          "text": "She said me she would call."
+        },
+        {
+          "id": "b",
+          "text": "She told me she would call."
+        },
+        {
+          "id": "c",
+          "text": "She said to me she would call."
+        },
+        {
+          "id": "d",
+          "text": "She told that she would call."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Tell требует объекта: told me. Это стандартная исправленная форма.",
+      "tags": []
+    },
+    {
+      "id": "q56",
+      "type": "true_false",
+      "prompt": "Если глагол сообщения в прошлом, backshift обязателен всегда без исключений.",
+      "theory_block_id": "b5_theory_common_errors",
+      "difficulty": 3,
+      "correct_answer": "false",
+      "explanation": "Есть случаи, когда backshift не нужен (факты, общие истины, актуальность).",
       "tags": []
     },
     {
