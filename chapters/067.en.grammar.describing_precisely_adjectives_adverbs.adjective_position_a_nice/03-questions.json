@@ -20,6 +20,15 @@
       "explanation": "Прилагательное стоит перед существительным: a small apartment."
     },
     {
+      "id": "q2",
+      "type": "fill_blank",
+      "prompt": "She bought a ___ dress for the party. (цвет)",
+      "theory_block_id": "b1_attributive",
+      "difficulty": 1,
+      "correct_answer": "blue",
+      "explanation": "В описании предмета прилагательное ставится перед существительным: a blue dress."
+    },
+    {
       "id": "q3",
       "type": "true_false",
       "prompt": "В английском прилагательные обычно стоят перед существительным.",
@@ -27,6 +36,29 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Базовое правило — adjective + noun в описаниях."
+    },
+    {
+      "id": "q4",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'He bought a car red.'",
+      "theory_block_id": "b1_attributive",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "He bought a red car."
+        },
+        {
+          "id": "b",
+          "text": "He bought a car red."
+        },
+        {
+          "id": "c",
+          "text": "He bought the red car."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Прилагательное должно стоять перед существительным: a red car."
     },
     {
       "id": "q5",
@@ -73,6 +105,29 @@
       "difficulty": 1,
       "correct_answer": "false",
       "explanation": "Перед существительным ставим прилагательное: the big house."
+    },
+    {
+      "id": "q9",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'She has a skirt beautiful.'",
+      "theory_block_id": "b1_attributive",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "She has a beautiful skirt."
+        },
+        {
+          "id": "b",
+          "text": "She has a skirt beautiful."
+        },
+        {
+          "id": "c",
+          "text": "She has the beautiful skirt."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Прилагательное beautiful должно быть перед существительным."
     },
     {
       "id": "q10",
@@ -207,15 +262,6 @@
       "difficulty": 2,
       "correct_answer": "cold",
       "explanation": "После become ставится прилагательное: became cold."
-    },
-    {
-      "id": "q20",
-      "type": "true_false",
-      "prompt": "Верно или неверно: «We can say 'It sounds nicely' in standard English.»",
-      "theory_block_id": "b2_predicative",
-      "difficulty": 2,
-      "correct_answer": "false",
-      "explanation": "После sound нужен прилагательное: sounds nice."
     },
     {
       "id": "q21",
@@ -481,6 +527,29 @@
       "explanation": "Постпозиция характерна для слов available/responsible/present."
     },
     {
+      "id": "q40",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'We used the seats availables.'",
+      "theory_block_id": "b4_after_noun_fixed",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "We used the seats available."
+        },
+        {
+          "id": "b",
+          "text": "We used the available seats."
+        },
+        {
+          "id": "c",
+          "text": "We used the seats availables."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Available не имеет формы множественного числа и часто стоит после существительного."
+    },
+    {
       "id": "q41",
       "type": "reorder",
       "prompt": "Расставьте слова в правильном порядке:",
@@ -624,6 +693,29 @@
       "explanation": "Clear — прилагательное, описывающее объект it."
     },
     {
+      "id": "q52",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'She kept the window openly.'",
+      "theory_block_id": "b5_object_complement",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "She kept the window open."
+        },
+        {
+          "id": "b",
+          "text": "She kept the window openly."
+        },
+        {
+          "id": "c",
+          "text": "She left the window open."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "После объекта нужен adjective: open."
+    },
+    {
       "id": "q53",
       "type": "reorder",
       "prompt": "Расставьте слова в правильном порядке:",
@@ -650,15 +742,6 @@
       ],
       "correct_answer": "a",
       "explanation": "После объекта используем прилагательное: painted the wall white."
-    },
-    {
-      "id": "q55",
-      "type": "fill_blank",
-      "prompt": "The noise drove us ___. (с ума)",
-      "theory_block_id": "b5_object_complement",
-      "difficulty": 3,
-      "correct_answer": "crazy",
-      "explanation": "Структура Drive + объект + прилагательное: drove us crazy."
     },
     {
       "id": "q56",
