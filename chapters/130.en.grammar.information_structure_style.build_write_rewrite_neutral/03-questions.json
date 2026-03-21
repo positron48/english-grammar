@@ -32,6 +32,15 @@
       "explanation": "Для официального уведомления нужен нейтрально-формальный тон и ясная цель сообщения."
     },
     {
+      "id": "q2",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: In a formal email, the tone is more ___ than in a chat. (прилагательное)",
+      "theory_block_id": "b1_theory_audience_goal",
+      "difficulty": 2,
+      "correct_answer": "distant",
+      "explanation": "Formal writing обычно предполагает большую дистанцию и нейтральность."
+    },
+    {
       "id": "q3",
       "type": "true_false",
       "prompt": "Формальность зависит от аудитории и цели текста.",
@@ -48,6 +57,37 @@
       "difficulty": 2,
       "correct_answer": "The purpose of this memo is to outline the changes.",
       "explanation": "Формальный стиль требует ясного обозначения цели."
+    },
+    {
+      "id": "q5",
+      "type": "error_spotting",
+      "prompt": "Выберите наиболее формальный вариант сообщения.",
+      "theory_block_id": "b1_theory_audience_goal",
+      "difficulty": 3,
+      "choices": [
+        {
+          "id": "a",
+          "text": "We need you to look at this ASAP.",
+          "feedback": "ASAP и прямой тон слишком разговорные."
+        },
+        {
+          "id": "b",
+          "text": "Please review the attached document at your earliest convenience.",
+          "feedback": "Вежливая формальная формулировка."
+        },
+        {
+          "id": "c",
+          "text": "Take a quick look when you can.",
+          "feedback": "Слишком разговорный тон и неопределенность."
+        },
+        {
+          "id": "d",
+          "text": "Could you check this?",
+          "feedback": "Вариант нейтральный, но менее формальный."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Официальная формулировка избегает разговорных маркеров и содержит вежливую дистанцию."
     },
     {
       "id": "q6",
@@ -79,6 +119,15 @@
       ],
       "correct_answer": "a",
       "explanation": "Формальные письма обычно начинаются с Dear + фамилия/имя с титулом."
+    },
+    {
+      "id": "q7",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: When writing to a regulator, avoid ___ language. (adjective)",
+      "theory_block_id": "b1_theory_audience_goal",
+      "difficulty": 2,
+      "correct_answer": "casual",
+      "explanation": "Регулирующим органам пишут в формальном стиле, избегая casual языка."
     },
     {
       "id": "q8",
@@ -128,6 +177,37 @@
       "difficulty": 2,
       "correct_answer": "This email is intended for all staff.",
       "explanation": "Формальная формула с clearly stated audience."
+    },
+    {
+      "id": "q11",
+      "type": "error_spotting",
+      "prompt": "Выберите корректную по тону формулировку запроса.",
+      "theory_block_id": "b1_theory_audience_goal",
+      "difficulty": 3,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Send the figures today.",
+          "feedback": "Слишком прямой приказной тон."
+        },
+        {
+          "id": "b",
+          "text": "Please provide the figures by the end of the day.",
+          "feedback": "Вежливый официальный запрос."
+        },
+        {
+          "id": "c",
+          "text": "Get me the figures, OK?",
+          "feedback": "Разговорная и фамильярная форма."
+        },
+        {
+          "id": "d",
+          "text": "Figures, please.",
+          "feedback": "Слишком сокращенно и неформально."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Официальные запросы смягчаются вежливой формулировкой."
     },
     {
       "id": "q12",
@@ -192,13 +272,35 @@
       "explanation": "В формальном письме phrasal verbs часто заменяют на однословные глаголы."
     },
     {
-      "id": "q14",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: The meeting was ___ due to scheduling conflicts. (V3)",
+      "id": "q15",
+      "type": "error_spotting",
+      "prompt": "Выберите более формальный вариант с точной лексикой.",
       "theory_block_id": "b2_theory_lexical_upgrade",
-      "difficulty": 2,
-      "correct_answer": "postponed",
-      "explanation": "Postponed — формальная форма вместо put off."
+      "difficulty": 3,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The kids will attend the training.",
+          "feedback": "Kids звучит разговорно для официального текста."
+        },
+        {
+          "id": "b",
+          "text": "The children will attend the training.",
+          "feedback": "Children — более нейтральный и формальный выбор."
+        },
+        {
+          "id": "c",
+          "text": "The little ones will attend the training.",
+          "feedback": "Слишком разговорное и неформальное выражение."
+        },
+        {
+          "id": "d",
+          "text": "The kiddos will attend the training.",
+          "feedback": "Разговорный сленг."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Формальный стиль требует нейтральной и точной лексики."
     },
     {
       "id": "q16",
@@ -250,6 +352,46 @@
       "explanation": "Формальный стиль предпочитает obtain вместо get."
     },
     {
+      "id": "q19",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: Please ___ the form to the department. (verb)",
+      "theory_block_id": "b2_theory_lexical_upgrade",
+      "difficulty": 2,
+      "correct_answer": "submit",
+      "explanation": "Submit — формальный эквивалент send/hand in."
+    },
+    {
+      "id": "q20",
+      "type": "error_spotting",
+      "prompt": "Выберите наиболее формальную формулировку количества.",
+      "theory_block_id": "b2_theory_lexical_upgrade",
+      "difficulty": 3,
+      "choices": [
+        {
+          "id": "a",
+          "text": "We have a lot of issues to fix.",
+          "feedback": "A lot of звучит менее формально."
+        },
+        {
+          "id": "b",
+          "text": "We have numerous issues to address.",
+          "feedback": "Numerous — формальный вариант."
+        },
+        {
+          "id": "c",
+          "text": "We have tons of issues to fix.",
+          "feedback": "Tons of — разговорно."
+        },
+        {
+          "id": "d",
+          "text": "We have loads of issues to fix.",
+          "feedback": "Loads of — разговорная лексика."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Формальный стиль предпочитает точные слова: numerous вместо a lot of."
+    },
+    {
       "id": "q21",
       "type": "true_false",
       "prompt": "Точные существительные помогают повысить уровень формальности текста.",
@@ -288,6 +430,15 @@
       ],
       "correct_answer": "a",
       "explanation": "Determine соответствует формальному регистру."
+    },
+    {
+      "id": "q23",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: The company will ___ the policy next quarter. (verb)",
+      "theory_block_id": "b2_theory_lexical_upgrade",
+      "difficulty": 2,
+      "correct_answer": "implement",
+      "explanation": "Implement — формальный эквивалент put into practice."
     },
     {
       "id": "q24",
@@ -357,6 +508,37 @@
       "explanation": "Пассивная конструкция типична для формального стиля."
     },
     {
+      "id": "q29",
+      "type": "error_spotting",
+      "prompt": "Выберите корректную безличную формулировку.",
+      "theory_block_id": "b3_theory_grammar_shift",
+      "difficulty": 3,
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is recommended that the issue be reviewed.",
+          "feedback": "Формальный безличный вариант."
+        },
+        {
+          "id": "b",
+          "text": "We recommend that the issue is reviewed.",
+          "feedback": "Менее формально и неверное согласование."
+        },
+        {
+          "id": "c",
+          "text": "It recommends that the issue be reviewed.",
+          "feedback": "Неверная структура с it."
+        },
+        {
+          "id": "d",
+          "text": "Recommended to review the issue.",
+          "feedback": "Фрагмент, без подлежащего."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Формальная рекомендация часто оформляется безлично: It is recommended that..."
+    },
+    {
       "id": "q30",
       "type": "mcq_single",
       "prompt": "Какой вариант использует формальную номинализацию?",
@@ -388,15 +570,6 @@
       "explanation": "Номинализация повышает формальность и нейтральность."
     },
     {
-      "id": "q31",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: The policy ___ reviewed annually. (be V3)",
-      "theory_block_id": "b3_theory_grammar_shift",
-      "difficulty": 2,
-      "correct_answer": "is",
-      "explanation": "Пассивная форма требует be: is reviewed."
-    },
-    {
       "id": "q32",
       "type": "true_false",
       "prompt": "Сокращения всегда желательны в формальной речи.",
@@ -413,6 +586,37 @@
       "difficulty": 2,
       "correct_answer": "It is recommended that the matter be reviewed.",
       "explanation": "Формальная безличная конструкция сохраняет нейтральный тон."
+    },
+    {
+      "id": "q34",
+      "type": "error_spotting",
+      "prompt": "Выберите более формальный вариант формулировки о недостатке данных.",
+      "theory_block_id": "b3_theory_grammar_shift",
+      "difficulty": 3,
+      "choices": [
+        {
+          "id": "a",
+          "text": "There is insufficient data to proceed.",
+          "feedback": "Нейтрально-формальный вариант."
+        },
+        {
+          "id": "b",
+          "text": "We don't have enough data to go on.",
+          "feedback": "Сокращения и разговорная формулировка."
+        },
+        {
+          "id": "c",
+          "text": "We ain't got data to go on.",
+          "feedback": "Некорректная разговорная форма."
+        },
+        {
+          "id": "d",
+          "text": "Not enough data, so we stop.",
+          "feedback": "Фрагмент и разговорная структура."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Формальный стиль выбирает безличную и точную формулировку."
     },
     {
       "id": "q35",
@@ -513,6 +717,37 @@
       "explanation": "Стандартная формальная просьба с hedging."
     },
     {
+      "id": "q41",
+      "type": "error_spotting",
+      "prompt": "Выберите наиболее формальный вариант с hedging.",
+      "theory_block_id": "b4_theory_hedging_politeness",
+      "difficulty": 3,
+      "choices": [
+        {
+          "id": "a",
+          "text": "It appears that the results require revision.",
+          "feedback": "Мягкая и формальная формулировка."
+        },
+        {
+          "id": "b",
+          "text": "The results are wrong.",
+          "feedback": "Слишком категорично."
+        },
+        {
+          "id": "c",
+          "text": "The results are totally wrong.",
+          "feedback": "Слишком эмоционально и разговорно."
+        },
+        {
+          "id": "d",
+          "text": "You messed up the results.",
+          "feedback": "Резкий и неприемлемый тон."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Hedging смягчает оценку и делает ее формальной."
+    },
+    {
       "id": "q42",
       "type": "mcq_single",
       "prompt": "Какой вариант лучше смягчает негативную оценку?",
@@ -544,15 +779,6 @@
       "explanation": "Формальный стиль предпочитает смягченные формулировки."
     },
     {
-      "id": "q43",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: The data ___ to indicate a minor decline. (verb)",
-      "theory_block_id": "b4_theory_hedging_politeness",
-      "difficulty": 2,
-      "correct_answer": "appear",
-      "explanation": "Appear to — типичное hedging-выражение."
-    },
-    {
       "id": "q44",
       "type": "true_false",
       "prompt": "Фраза \"Send it now\" считается мягкой формальной просьбой.",
@@ -571,35 +797,35 @@
       "explanation": "Would you mind — стандартная вежливая формула."
     },
     {
-      "id": "q46",
-      "type": "error_spotting",
-      "prompt": "Выберите корректную формальную формулировку с seems to.",
+      "id": "q47",
+      "type": "mcq_single",
+      "prompt": "Какой модальный глагол лучше всего передает возможность в формальном стиле?",
       "theory_block_id": "b4_theory_hedging_politeness",
-      "difficulty": 3,
+      "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "It seems that the schedule requires adjustment.",
-          "feedback": "Грамотно и формально."
+          "text": "may",
+          "feedback": "Формальный вариант для выражения возможности."
         },
         {
           "id": "b",
-          "text": "It seems the schedule require adjustment.",
-          "feedback": "Ошибка согласования."
+          "text": "mighta",
+          "feedback": "Разговорная форма."
         },
         {
           "id": "c",
-          "text": "It seem that the schedule requires adjustment.",
-          "feedback": "Ошибка в форме глагола."
+          "text": "gonna",
+          "feedback": "Разговорный маркер будущего, неформально."
         },
         {
           "id": "d",
-          "text": "Seems that schedule needs adjustment.",
-          "feedback": "Фрагмент и разговорный тон."
+          "text": "wanna",
+          "feedback": "Разговорное сокращение."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Формальная конструкция: It seems that + clause."
+      "explanation": "May используется в формальной письменной речи для осторожных утверждений."
     },
     {
       "id": "q48",
@@ -640,6 +866,15 @@
       ],
       "correct_answer": "a",
       "explanation": "Therefore — типичная формальная связка для логического вывода."
+    },
+    {
+      "id": "q50",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: The budget was reduced; ___, the scope was limited. (linker)",
+      "theory_block_id": "b5_theory_cohesion_structure",
+      "difficulty": 2,
+      "correct_answer": "therefore",
+      "explanation": "Therefore выражает логическое следствие."
     },
     {
       "id": "q51",
@@ -722,6 +957,15 @@
       "explanation": "Topic sentence в формальном тексте должна быть четкой и нейтральной."
     },
     {
+      "id": "q55",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: ___, we recommend postponing the launch. (contrast linker)",
+      "theory_block_id": "b5_theory_cohesion_structure",
+      "difficulty": 2,
+      "correct_answer": "However",
+      "explanation": "However вводит контраст и сохраняет формальный тон."
+    },
+    {
       "id": "q56",
       "type": "true_false",
       "prompt": "Эмоциональные восклицания повышают официальность текста.",
@@ -738,6 +982,37 @@
       "difficulty": 2,
       "correct_answer": "Furthermore, all departments must submit updates.",
       "explanation": "Furthermore — формальная связка для добавления информации."
+    },
+    {
+      "id": "q58",
+      "type": "error_spotting",
+      "prompt": "Выберите наиболее объективную формулировку.",
+      "theory_block_id": "b5_theory_cohesion_structure",
+      "difficulty": 3,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The results were unexpected and clearly disappointing.",
+          "feedback": "Слишком эмоциональная оценка."
+        },
+        {
+          "id": "b",
+          "text": "The results did not meet the projected targets.",
+          "feedback": "Нейтральная и объективная формулировка."
+        },
+        {
+          "id": "c",
+          "text": "The results were awful.",
+          "feedback": "Разговорный и эмоциональный тон."
+        },
+        {
+          "id": "d",
+          "text": "The results were a disaster.",
+          "feedback": "Слишком оценочно и неформально."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Формальный стиль избегает оценочных эпитетов."
     },
     {
       "id": "q59",
@@ -769,6 +1044,15 @@
       ],
       "correct_answer": "a",
       "explanation": "Furthermore типично для формальной письменной речи."
+    },
+    {
+      "id": "q60",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: The findings were reviewed. ___, no changes were required. (result linker)",
+      "theory_block_id": "b5_theory_cohesion_structure",
+      "difficulty": 2,
+      "correct_answer": "Consequently",
+      "explanation": "Consequently выражает следствие в формальном стиле."
     }
   ]
 }
