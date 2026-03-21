@@ -24,6 +24,15 @@
       "explanation": "Must выражает личную необходимость: I must finish this today."
     },
     {
+      "id": "q2",
+      "type": "fill_blank",
+      "prompt": "She ___ call her doctor today. (личная необходимость)",
+      "theory_block_id": "b1_theory_must_internal",
+      "difficulty": 1,
+      "correct_answer": "must",
+      "explanation": "Must используется для личной необходимости: must call."
+    },
+    {
       "id": "q3",
       "type": "true_false",
       "prompt": "Must часто выражает личное решение говорящего.",
@@ -531,15 +540,6 @@
       "explanation": "Mustn't = нельзя."
     },
     {
-      "id": "q36",
-      "type": "true_false",
-      "prompt": "Mustn't и can't одинаковы по значению.",
-      "theory_block_id": "b3_theory_negatives",
-      "difficulty": 2,
-      "correct_answer": "false",
-      "explanation": "Mustn't — запрет, can't — невозможность/запрет, но не всегда то же самое."
-    },
-    {
       "id": "q37",
       "type": "mcq_single",
       "prompt": "Выберите правильный вопрос:",
@@ -579,6 +579,29 @@
       "difficulty": 1,
       "correct_answer": "true",
       "explanation": "Do I have to звучит нейтрально и разговорно."
+    },
+    {
+      "id": "q40",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку и выберите правильный вариант: 'Do I must wear a uniform?'",
+      "theory_block_id": "b4_theory_questions",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Do I have to wear a uniform?"
+        },
+        {
+          "id": "b",
+          "text": "Must I wear a uniform?"
+        },
+        {
+          "id": "c",
+          "text": "Do I have to to wear a uniform?"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Вопрос с have to строится через do: Do I have to wear...?"
     },
     {
       "id": "q41",
@@ -629,6 +652,29 @@
       "difficulty": 2,
       "correct_answer": "true",
       "explanation": "Must I...? обычно более формален."
+    },
+    {
+      "id": "q45",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку и выберите правильный вариант: 'Does he must pay?'",
+      "theory_block_id": "b4_theory_questions",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Does he have to pay?"
+        },
+        {
+          "id": "b",
+          "text": "Must he pay?"
+        },
+        {
+          "id": "c",
+          "text": "Does he have to pays?"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Вопрос с have to: Does he have to pay?"
     },
     {
       "id": "q46",
@@ -745,27 +791,13 @@
       "explanation": "Mustn't выражает запрет."
     },
     {
-      "id": "q54",
-      "type": "mcq_single",
-      "prompt": "Выберите предложение с правильным значением:",
+      "id": "q55",
+      "type": "fill_blank",
+      "prompt": "You ___ to wear a helmet. (ошибка: must to)",
       "theory_block_id": "b5_theory_common_mistakes",
       "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "You don't have to come early."
-        },
-        {
-          "id": "b",
-          "text": "You mustn't come early."
-        },
-        {
-          "id": "c",
-          "text": "You can't come early."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Don't have to = нет необходимости."
+      "correct_answer": "must",
+      "explanation": "Правильно: must wear, без to."
     },
     {
       "id": "q56",
