@@ -106,7 +106,6 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q13",
           "q14"
         ],
         "show_answers_immediately": true
@@ -230,7 +229,7 @@
       "quiz_inline": {
         "question_ids": [
           "q49",
-          "q51"
+          "q50"
         ],
         "show_answers_immediately": true
       }
@@ -276,6 +275,29 @@
         "explanation": "Это удобная и естественная структура для короткого отзыва."
       },
       {
+        "id": "q4",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'Great movie. It is a movie.'",
+        "theory_block_id": "b1_review_structure",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "It's a great movie."
+          },
+          {
+            "id": "b",
+            "text": "Great movie. It is a movie."
+          },
+          {
+            "id": "c",
+            "text": "It's a movie with a great story."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно сразу дать полное описание: It's a great movie."
+      },
+      {
         "id": "q5",
         "type": "reorder",
         "prompt": "Расставьте слова в правильном порядке:",
@@ -283,25 +305,6 @@
         "difficulty": 2,
         "correct_answer": "I recommend it because the service is great.",
         "explanation": "Рекомендация + because завершает отзыв."
-      },
-      {
-        "id": "q6",
-        "type": "mcq_single",
-        "prompt": "Выберите лучшую концовку отзыва:",
-        "theory_block_id": "b1_review_structure",
-        "difficulty": 1,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I would recommend it."
-          },
-          {
-            "id": "b",
-            "text": "It was a place."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Хороший отзыв заканчивается рекомендацией."
       },
       {
         "id": "q7",
@@ -320,6 +323,29 @@
         "difficulty": 2,
         "correct_answer": "false",
         "explanation": "Для всех пунктов обычно нужно 3–5 предложений."
+      },
+      {
+        "id": "q9",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'I recommend it because is cheap.'",
+        "theory_block_id": "b1_review_structure",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I recommend it because it is cheap."
+          },
+          {
+            "id": "b",
+            "text": "I recommend it because is cheap."
+          },
+          {
+            "id": "c",
+            "text": "I recommend it because it's cheap."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужно подлежащее: because it is cheap."
       },
       {
         "id": "q10",
@@ -359,25 +385,6 @@
         "explanation": "Weak помогает добавить критическую деталь."
       },
       {
-        "id": "q13",
-        "type": "mcq_single",
-        "prompt": "Выберите лучшее прилагательное для отзыва об отеле:",
-        "theory_block_id": "b2_descriptive_language",
-        "difficulty": 1,
-        "choices": [
-          {
-            "id": "a",
-            "text": "cozy"
-          },
-          {
-            "id": "b",
-            "text": "sleep"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Cozy — типичное прилагательное для отеля."
-      },
-      {
         "id": "q14",
         "type": "fill_blank",
         "prompt": "The café is ___ and quiet. (уютный)",
@@ -396,29 +403,6 @@
         "explanation": "Баланс делает отзыв более достоверным."
       },
       {
-        "id": "q16",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'The phone is reliability.'",
-        "theory_block_id": "b2_descriptive_language",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "The phone is reliable."
-          },
-          {
-            "id": "b",
-            "text": "The phone is reliability."
-          },
-          {
-            "id": "c",
-            "text": "The phone feels reliable."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Нужно прилагательное reliable, не существительное reliability."
-      },
-      {
         "id": "q17",
         "type": "reorder",
         "prompt": "Расставьте слова в правильном порядке:",
@@ -426,25 +410,6 @@
         "difficulty": 2,
         "correct_answer": "The service was slow but friendly.",
         "explanation": "Сочетайте плюсы и минусы."
-      },
-      {
-        "id": "q18",
-        "type": "mcq_single",
-        "prompt": "Выберите лучшее прилагательное для фильма:",
-        "theory_block_id": "b2_descriptive_language",
-        "difficulty": 1,
-        "choices": [
-          {
-            "id": "a",
-            "text": "engaging"
-          },
-          {
-            "id": "b",
-            "text": "repair"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Engaging подходит для фильмов."
       },
       {
         "id": "q19",
@@ -465,29 +430,6 @@
         "explanation": "Noisy полезен, когда описываете атмосферу места."
       },
       {
-        "id": "q21",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'The place was convenience.'",
-        "theory_block_id": "b2_descriptive_language",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "The place was convenient."
-          },
-          {
-            "id": "b",
-            "text": "The place was convenience."
-          },
-          {
-            "id": "c",
-            "text": "The place felt convenient."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Нужно прилагательное convenient, не существительное convenience."
-      },
-      {
         "id": "q22",
         "type": "reorder",
         "prompt": "Расставьте слова в правильном порядке:",
@@ -504,25 +446,6 @@
         "difficulty": 1,
         "correct_answer": "noisy",
         "explanation": "Noisy хорошо описывает атмосферу."
-      },
-      {
-        "id": "q24",
-        "type": "mcq_single",
-        "prompt": "Выберите лучшее прилагательное для отзыва о товаре:",
-        "theory_block_id": "b2_descriptive_language",
-        "difficulty": 1,
-        "choices": [
-          {
-            "id": "a",
-            "text": "reliable"
-          },
-          {
-            "id": "b",
-            "text": "run"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Reliable — подходящее прилагательное для продукта."
       },
       {
         "id": "q25",
@@ -562,29 +485,6 @@
         "explanation": "Слишком много усилителей перегружает текст."
       },
       {
-        "id": "q28",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'The film was absolutely good.'",
-        "theory_block_id": "b3_intensifiers",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "The film was really good."
-          },
-          {
-            "id": "b",
-            "text": "The film was absolutely good."
-          },
-          {
-            "id": "c",
-            "text": "The film was quite good."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Good — gradable, лучше really/quite."
-      },
-      {
         "id": "q29",
         "type": "reorder",
         "prompt": "Расставьте слова в правильном порядке:",
@@ -622,27 +522,13 @@
         "explanation": "Quite подходит для gradable."
       },
       {
-        "id": "q33",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'The place was very unique.'",
+        "id": "q32",
+        "type": "true_false",
+        "prompt": "Верно или неверно: «'Absolutely perfect' is a natural collocation.»",
         "theory_block_id": "b3_intensifiers",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "The place was absolutely unique."
-          },
-          {
-            "id": "b",
-            "text": "The place was very unique."
-          },
-          {
-            "id": "c",
-            "text": "The place was unique."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Unique — non-gradable, лучше absolutely."
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Perfect — non-gradable, absolutely подходит."
       },
       {
         "id": "q34",
@@ -719,29 +605,6 @@
         "explanation": "As…as выражает равенство."
       },
       {
-        "id": "q40",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'This phone is cheaper as the old one.'",
-        "theory_block_id": "b4_comparisons",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "This phone is cheaper than the old one."
-          },
-          {
-            "id": "b",
-            "text": "This phone is cheaper as the old one."
-          },
-          {
-            "id": "c",
-            "text": "This phone is not as cheap as the old one."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Comparative + than, не as."
-      },
-      {
         "id": "q41",
         "type": "reorder",
         "prompt": "Расставьте слова в правильном порядке:",
@@ -779,27 +642,32 @@
         "explanation": "Сравнительная степень + than."
       },
       {
-        "id": "q45",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'The sound is as better as before.'",
+        "id": "q44",
+        "type": "true_false",
+        "prompt": "Верно или неверно: «'Not as good as' means the same as 'worse than'.»",
         "theory_block_id": "b4_comparisons",
-        "difficulty": 2,
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Not as…as можно переформулировать как worse than."
+      },
+      {
+        "id": "q46",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: It's ___ cheaper than similar models.",
+        "theory_block_id": "b4_comparisons",
+        "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "The sound is better than before."
+            "text": "much"
           },
           {
             "id": "b",
-            "text": "The sound is as better as before."
-          },
-          {
-            "id": "c",
-            "text": "The sound is as good as before."
+            "text": "more"
           }
         ],
         "correct_answer": "a",
-        "explanation": "As…as не использует comparative."
+        "explanation": "Much cheaper — стандартное усиление comparative."
       },
       {
         "id": "q47",
@@ -837,6 +705,15 @@
         ],
         "correct_answer": "a",
         "explanation": "Для рекомендации: I would recommend it."
+      },
+      {
+        "id": "q50",
+        "type": "fill_blank",
+        "prompt": "It's ___ it because the quality is great. (стоит)",
+        "theory_block_id": "b5_recommendation",
+        "difficulty": 1,
+        "correct_answer": "worth",
+        "explanation": "Worth it — устойчивое выражение."
       },
       {
         "id": "q51",
@@ -981,41 +858,47 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
+      "q4",
       "q5",
-      "q6",
       "q7",
       "q8",
+      "q9",
       "q10",
       "q11",
       "q12",
+      "q14",
       "q15",
-      "q16",
       "q17",
-      "q18",
       "q19",
       "q20",
-      "q21",
       "q22",
       "q23",
-      "q24",
+      "q25",
+      "q26",
       "q27",
-      "q28",
       "q29",
       "q30",
       "q31",
-      "q33",
+      "q32",
       "q34",
       "q35",
       "q36",
+      "q37",
+      "q38",
       "q39",
-      "q40",
       "q41",
       "q42",
       "q43",
-      "q45",
+      "q44",
+      "q46",
       "q47",
       "q48",
+      "q49",
+      "q50",
+      "q51",
       "q52",
       "q53",
       "q54",
@@ -1039,7 +922,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-21T08:14:10Z",
+    "updated_at": "2026-03-21T09:03:10Z",
     "source": "llm"
   }
 }
