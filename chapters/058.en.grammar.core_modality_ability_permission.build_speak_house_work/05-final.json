@@ -69,7 +69,7 @@
       "quiz_inline": {
         "question_ids": [
           "q1",
-          "q3"
+          "q2"
         ],
         "show_answers_immediately": true
       }
@@ -102,8 +102,8 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q14",
-          "q15"
+          "q13",
+          "q14"
         ],
         "show_answers_immediately": true
       }
@@ -145,7 +145,6 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q25",
           "q26"
         ],
         "show_answers_immediately": true
@@ -223,7 +222,7 @@
       "quiz_inline": {
         "question_ids": [
           "q49",
-          "q51"
+          "q50"
         ],
         "show_answers_immediately": true
       }
@@ -265,8 +264,8 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q62",
-          "q63"
+          "q61",
+          "q62"
         ],
         "show_answers_immediately": true
       }
@@ -296,6 +295,15 @@
         ],
         "correct_answer": "b",
         "explanation": "Must используется для обязательных правил. Здесь речь о требовании на работе."
+      },
+      {
+        "id": "q2",
+        "type": "fill_blank",
+        "prompt": "I ___ be at the office by 9. (обязанность)",
+        "theory_block_id": "b1_rules_must_have_to",
+        "difficulty": 1,
+        "correct_answer": "must",
+        "explanation": "Must выражает необходимость и подходит для требований. В этом контексте это обязательство по правилу. Это соответствует правилу, разобранному в этом блоке."
       },
       {
         "id": "q3",
@@ -330,27 +338,13 @@
         "explanation": "Have to часто связано с внешними правилами. Company rules — это внешний источник."
       },
       {
-        "id": "q5",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'He musts arrive on time.'",
+        "id": "q6",
+        "type": "fill_blank",
+        "prompt": "We ___ keep the kitchen clean. (правило)",
         "theory_block_id": "b1_rules_must_have_to",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "He must arrive on time."
-          },
-          {
-            "id": "b",
-            "text": "He musts arrive on time."
-          },
-          {
-            "id": "c",
-            "text": "He has to arrive on time."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Must не изменяется по лицам. Правильно: must arrive."
+        "difficulty": 1,
+        "correct_answer": "must",
+        "explanation": "Must выражает правило или обязанность. В этом контексте это требование."
       },
       {
         "id": "q7",
@@ -385,6 +379,15 @@
         "explanation": "Have to подходит для правил расписания. Should — это совет, might — вероятность."
       },
       {
+        "id": "q9",
+        "type": "fill_blank",
+        "prompt": "Employees ___ follow safety rules. (обязанность по правилу)",
+        "theory_block_id": "b1_rules_must_have_to",
+        "difficulty": 2,
+        "correct_answer": "must",
+        "explanation": "Must подходит для формулировки правил и требований. Здесь это обязанность по правилам. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
         "id": "q10",
         "type": "true_false",
         "prompt": "Have to обычно звучит как внутреннее правило говорящего.",
@@ -394,29 +397,6 @@
         "explanation": "Have to чаще связано с внешними требованиями. Внутреннее правило чаще выражают must."
       },
       {
-        "id": "q11",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'She have to wear gloves.'",
-        "theory_block_id": "b1_rules_must_have_to",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "She has to wear gloves."
-          },
-          {
-            "id": "b",
-            "text": "She have to wear gloves."
-          },
-          {
-            "id": "c",
-            "text": "She must wear gloves."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "В 3-м лице используется has to. Форма have to здесь неверна."
-      },
-      {
         "id": "q12",
         "type": "reorder",
         "prompt": "Расставьте слова в правильном порядке:",
@@ -424,6 +404,29 @@
         "difficulty": 2,
         "correct_answer": "We must wear helmets.",
         "explanation": "Порядок слов: подлежащее + must + V1. Получается We must wear helmets."
+      },
+      {
+        "id": "q13",
+        "type": "mcq_single",
+        "prompt": "Какое предложение выражает строгий запрет?",
+        "theory_block_id": "b2_prohibitions_mustnt",
+        "difficulty": 1,
+        "choices": [
+          {
+            "id": "a",
+            "text": "You mustn't smoke here."
+          },
+          {
+            "id": "b",
+            "text": "You shouldn't smoke here."
+          },
+          {
+            "id": "c",
+            "text": "You may not smoke here."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Mustn't — это запрет. Shouldn't — мягкий совет, may not — вероятность."
       },
       {
         "id": "q14",
@@ -526,29 +529,6 @@
         "explanation": "Mustn't используется для запретов в правилах. Здесь это запрет входа."
       },
       {
-        "id": "q22",
-        "type": "mcq_single",
-        "prompt": "Какой вариант означает запрет, а не совет?",
-        "theory_block_id": "b2_prohibitions_mustnt",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "You mustn't leave doors unlocked."
-          },
-          {
-            "id": "b",
-            "text": "You shouldn't leave doors unlocked."
-          },
-          {
-            "id": "c",
-            "text": "You may not leave doors unlocked."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Mustn't — запрет. Shouldn't — рекомендация. May not — вероятность."
-      },
-      {
         "id": "q23",
         "type": "true_false",
         "prompt": "Mustn't можно использовать для мягкого совета.",
@@ -579,29 +559,6 @@
         ],
         "correct_answer": "a",
         "explanation": "После mustn't используется базовая форма leave. Окончание -s неверно."
-      },
-      {
-        "id": "q25",
-        "type": "mcq_single",
-        "prompt": "Какой вопрос — вежливая просьба?",
-        "theory_block_id": "b3_requests_can_could",
-        "difficulty": 1,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Can you help me with this file?"
-          },
-          {
-            "id": "b",
-            "text": "Could you help me with this file?"
-          },
-          {
-            "id": "c",
-            "text": "Do you can help me with this file?"
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "Could звучит более вежливо. Вежливые просьбы часто формулируют с could."
       },
       {
         "id": "q26",
@@ -668,15 +625,6 @@
         "explanation": "Вопрос Can I help you? звучит как предложение помощи. Это естественная формулировка."
       },
       {
-        "id": "q30",
-        "type": "fill_blank",
-        "prompt": "___ you take out the trash? (просьба дома)",
-        "theory_block_id": "b3_requests_can_could",
-        "difficulty": 1,
-        "correct_answer": "Can",
-        "explanation": "Can подходит для обычных просьб дома. Это нейтральная форма."
-      },
-      {
         "id": "q31",
         "type": "true_false",
         "prompt": "Вопросы с can/could строятся без do/does.",
@@ -693,29 +641,6 @@
         "difficulty": 2,
         "correct_answer": "Could you help me?",
         "explanation": "Порядок слов в вопросе: could + подлежащее + V1. Это соответствует правилу, разобранному в этом блоке."
-      },
-      {
-        "id": "q33",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'Can you to send the file?'",
-        "theory_block_id": "b3_requests_can_could",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Can you send the file?"
-          },
-          {
-            "id": "b",
-            "text": "Can you to send the file?"
-          },
-          {
-            "id": "c",
-            "text": "Could you send the file?"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "После can используется V1 без to. Нужна форма send."
       },
       {
         "id": "q34",
@@ -960,6 +885,15 @@
         "explanation": "Might показывает возможность, а не обязательство. Это подходит для изменений планов."
       },
       {
+        "id": "q50",
+        "type": "fill_blank",
+        "prompt": "She ___ join the call later. (возможность)",
+        "theory_block_id": "b5_probability_may_might",
+        "difficulty": 1,
+        "correct_answer": "may",
+        "explanation": "May выражает вероятность. Это подходит, когда не уверены в планах."
+      },
+      {
         "id": "q51",
         "type": "true_false",
         "prompt": "May/might выражают вероятность, а не обязанность.",
@@ -967,29 +901,6 @@
         "difficulty": 1,
         "correct_answer": "true",
         "explanation": "May/might — модальные глаголы для вероятности. Они не означают обязанность."
-      },
-      {
-        "id": "q52",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'He might to be late today.'",
-        "theory_block_id": "b5_probability_may_might",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "He might be late today."
-          },
-          {
-            "id": "b",
-            "text": "He might to be late today."
-          },
-          {
-            "id": "c",
-            "text": "He may be late today."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "После might используется V1 без to. Правильно: might be."
       },
       {
         "id": "q53",
@@ -1013,15 +924,6 @@
         ],
         "correct_answer": "b",
         "explanation": "Might выражает вероятность. Must звучит как уверенное заключение."
-      },
-      {
-        "id": "q54",
-        "type": "fill_blank",
-        "prompt": "We ___ need to reschedule the meeting. (возможно)",
-        "theory_block_id": "b5_probability_may_might",
-        "difficulty": 2,
-        "correct_answer": "might",
-        "explanation": "Might подчеркивает неуверенность. Это типично для возможных изменений."
       },
       {
         "id": "q55",
@@ -1065,15 +967,6 @@
         "explanation": "Might показывает возможность. Must — обязательство, should — рекомендация."
       },
       {
-        "id": "q58",
-        "type": "fill_blank",
-        "prompt": "The train ___ be delayed. (возможность)",
-        "theory_block_id": "b5_probability_may_might",
-        "difficulty": 1,
-        "correct_answer": "may",
-        "explanation": "May выражает вероятность. Это уместно для осторожного прогноза."
-      },
-      {
         "id": "q59",
         "type": "true_false",
         "prompt": "May/might можно использовать вместо should для совета.",
@@ -1083,27 +976,27 @@
         "explanation": "May/might — это вероятность, а не совет. Для совета используется should."
       },
       {
-        "id": "q60",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'They may to arrive late.'",
-        "theory_block_id": "b5_probability_may_might",
+        "id": "q61",
+        "type": "mcq_single",
+        "prompt": "Какая фраза лучше подходит для начала диалога о правилах дома?",
+        "theory_block_id": "b6_build_speak_dialogues",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "They may arrive late."
+            "text": "You must keep the kitchen clean."
           },
           {
             "id": "b",
-            "text": "They may to arrive late."
+            "text": "You might be busy."
           },
           {
             "id": "c",
-            "text": "They might arrive late."
+            "text": "You should maybe."
           }
         ],
         "correct_answer": "a",
-        "explanation": "После may используется V1 без to. Нужна форма arrive."
+        "explanation": "Для правил уместно использовать must. Это звучит как четкое требование."
       },
       {
         "id": "q62",
@@ -1133,29 +1026,6 @@
         "explanation": "Might выражает возможность изменения плана. Это естественно в рабочих диалогах."
       },
       {
-        "id": "q65",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'You should to sign here.'",
-        "theory_block_id": "b6_build_speak_dialogues",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "You should sign here."
-          },
-          {
-            "id": "b",
-            "text": "You should to sign here."
-          },
-          {
-            "id": "c",
-            "text": "You must sign here."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "После should используется V1 без to. В диалогах важно сохранять правильную форму."
-      },
-      {
         "id": "q66",
         "type": "mcq_single",
         "prompt": "Какой вариант лучше завершает диалог с просьбой?",
@@ -1177,15 +1047,6 @@
         ],
         "correct_answer": "a",
         "explanation": "Sure, I can do it — естественный ответ на просьбу. Он подтверждает готовность помочь."
-      },
-      {
-        "id": "q67",
-        "type": "fill_blank",
-        "prompt": "We ___ keep the office quiet during calls. (правило)",
-        "theory_block_id": "b6_build_speak_dialogues",
-        "difficulty": 2,
-        "correct_answer": "must",
-        "explanation": "Для правил и требований используется must. Это стандартная формулировка."
       },
       {
         "id": "q68",
@@ -1229,15 +1090,6 @@
         "explanation": "Should — мягкий совет, идеально подходит для бытовых ситуаций. Это соответствует правилу, разобранному в этом блоке."
       },
       {
-        "id": "q71",
-        "type": "fill_blank",
-        "prompt": "I ___ stay late today; I'm not sure. (возможность)",
-        "theory_block_id": "b6_build_speak_dialogues",
-        "difficulty": 2,
-        "correct_answer": "might",
-        "explanation": "Might выражает неопределенность. Это уместно в рабочем диалоге."
-      },
-      {
         "id": "q72",
         "type": "true_false",
         "prompt": "В диалогах можно сочетать правила, просьбы и советы.",
@@ -1251,32 +1103,38 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
+      "q3",
       "q4",
-      "q5",
+      "q6",
       "q7",
       "q8",
+      "q9",
       "q10",
-      "q11",
       "q12",
+      "q13",
+      "q14",
+      "q15",
       "q16",
       "q17",
       "q18",
       "q19",
       "q20",
       "q21",
-      "q22",
       "q23",
       "q24",
+      "q26",
       "q27",
       "q28",
       "q29",
-      "q30",
       "q31",
       "q32",
-      "q33",
       "q34",
       "q35",
       "q36",
+      "q37",
+      "q38",
       "q39",
       "q40",
       "q41",
@@ -1287,23 +1145,22 @@
       "q46",
       "q47",
       "q48",
-      "q52",
+      "q49",
+      "q50",
+      "q51",
       "q53",
-      "q54",
       "q55",
       "q56",
       "q57",
-      "q58",
       "q59",
-      "q60",
+      "q61",
+      "q62",
+      "q63",
       "q64",
-      "q65",
       "q66",
-      "q67",
       "q68",
       "q69",
       "q70",
-      "q71",
       "q72"
     ],
     "selection_strategy": {
@@ -1319,7 +1176,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-21T08:14:09Z",
+    "updated_at": "2026-03-21T08:37:11Z",
     "source": "llm"
   }
 }
