@@ -295,16 +295,6 @@
         "tags": []
       },
       {
-        "id": "q6",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: He asked ___ I was ready. (yes/no linker)",
-        "theory_block_id": "b1_theory_overview",
-        "difficulty": 1,
-        "correct_answer": "if",
-        "explanation": "Для yes/no вопросов используется if или whether.",
-        "tags": []
-      },
-      {
         "id": "q7",
         "type": "mcq_single",
         "prompt": "Выберите правильный вариант: She asked me where ___.",
@@ -371,16 +361,6 @@
         "tags": []
       },
       {
-        "id": "q10",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: Reported questions do not use question ___. (punctuation)",
-        "theory_block_id": "b1_theory_overview",
-        "difficulty": 2,
-        "correct_answer": "mark",
-        "explanation": "Вопросительный знак обычно не используется внутри reported question.",
-        "tags": []
-      },
-      {
         "id": "q11",
         "type": "mcq_single",
         "prompt": "Выберите правильный вариант для yes/no вопроса.",
@@ -416,16 +396,6 @@
         "difficulty": 2,
         "correct_answer": "true",
         "explanation": "Обычно их можно заменить, хотя whether более формально.",
-        "tags": []
-      },
-      {
-        "id": "q13",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: She wondered ___ he had arrived. (formal linker)",
-        "theory_block_id": "b2_theory_if_whether",
-        "difficulty": 2,
-        "correct_answer": "whether",
-        "explanation": "Whether часто используется в более формальном стиле.",
         "tags": []
       },
       {
@@ -520,16 +490,6 @@
         ],
         "correct_answer": "b",
         "explanation": "Нужен порядок слов утверждения и backshift.",
-        "tags": []
-      },
-      {
-        "id": "q18",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: She asked me ___ I had finished. (yes/no linker)",
-        "theory_block_id": "b2_theory_if_whether",
-        "difficulty": 1,
-        "correct_answer": "if",
-        "explanation": "Yes/no вопрос -> if/whether.",
         "tags": []
       },
       {
@@ -710,16 +670,6 @@
         ],
         "correct_answer": "b",
         "explanation": "Правильный порядок слов утверждения: he worked.",
-        "tags": []
-      },
-      {
-        "id": "q28",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: I asked why they ___. (leave)",
-        "theory_block_id": "b3_theory_wh_questions",
-        "difficulty": 2,
-        "correct_answer": "left",
-        "explanation": "Wh-word сохраняется, past simple без инверсии.",
         "tags": []
       },
       {
@@ -1017,16 +967,6 @@
         "tags": []
       },
       {
-        "id": "q44",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: Ошибка \"He asked where did I live\" — сохранение ___. (инверсии)",
-        "theory_block_id": "b5_theory_common_errors",
-        "difficulty": 2,
-        "correct_answer": "inversion",
-        "explanation": "В reported questions не должно быть инверсии.",
-        "tags": []
-      },
-      {
         "id": "q45",
         "type": "mcq_single",
         "prompt": "Какой вариант с if/whether правильный?",
@@ -1093,16 +1033,6 @@
         "tags": []
       },
       {
-        "id": "q48",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: In reported questions, auxiliary verbs like do/does/did are ___. (taken out)",
-        "theory_block_id": "b5_theory_common_errors",
-        "difficulty": 2,
-        "correct_answer": "removed",
-        "explanation": "В reported questions do/does/did исчезают.",
-        "tags": []
-      },
-      {
         "id": "q49",
         "type": "true_false",
         "prompt": "Ошибка \"She asked if was I late\" связана с неверным порядком слов.",
@@ -1145,30 +1075,33 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
       "q5",
-      "q6",
       "q7",
       "q8",
       "q9",
-      "q10",
-      "q13",
+      "q11",
+      "q12",
       "q14",
       "q15",
       "q16",
       "q17",
-      "q18",
       "q19",
       "q20",
+      "q21",
+      "q22",
       "q23",
       "q24",
       "q25",
       "q26",
       "q27",
-      "q28",
       "q29",
       "q30",
+      "q31",
+      "q32",
       "q33",
       "q34",
       "q35",
@@ -1177,12 +1110,12 @@
       "q38",
       "q39",
       "q40",
+      "q41",
+      "q42",
       "q43",
-      "q44",
       "q45",
       "q46",
       "q47",
-      "q48",
       "q49",
       "q50"
     ],
@@ -1199,7 +1132,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:24:13Z",
+    "updated_at": "2026-03-21T07:14:33Z",
     "source": "llm"
   }
 }
