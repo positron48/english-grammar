@@ -229,7 +229,6 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q41",
           "q42"
         ],
         "show_answers_immediately": true
@@ -312,16 +311,6 @@
         ],
         "correct_answer": "a",
         "explanation": "После unless используется Present Simple.",
-        "tags": []
-      },
-      {
-        "id": "q5",
-        "type": "fill_blank",
-        "prompt": "Вставьте пропущенное: Unless he ___, the door stays locked. (иметь)",
-        "theory_block_id": "b1_theory_unless",
-        "difficulty": 2,
-        "correct_answer": "has",
-        "explanation": "Present Simple: he has.",
         "tags": []
       },
       {
@@ -484,6 +473,16 @@
         "difficulty": 1,
         "correct_answer": "true",
         "explanation": "Это нейтрально-формальный вариант.",
+        "tags": []
+      },
+      {
+        "id": "q15",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: We'll approve the plan provided the budget ___. (подтвердить)",
+        "theory_block_id": "b2_theory_provided",
+        "difficulty": 2,
+        "correct_answer": "is",
+        "explanation": "Present Simple: the budget is confirmed.",
         "tags": []
       },
       {
@@ -677,31 +676,13 @@
         "tags": []
       },
       {
-        "id": "q27",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"We'll help you as long as you will follow the rules.\"",
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: You can stay here as long as you ___ quiet. (быть)",
         "theory_block_id": "b3_theory_as_long_as",
         "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "We'll help you as long as you follow the rules."
-          },
-          {
-            "id": "b",
-            "text": "We'll help you as long as you followed the rules."
-          },
-          {
-            "id": "c",
-            "text": "We'll help you as long as you are following the rules."
-          },
-          {
-            "id": "d",
-            "text": "We'll help you as long as you will following the rules."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Will не используется в условной части.",
+        "correct_answer": "stay",
+        "explanation": "Present Simple после as long as.",
         "tags": []
       },
       {
@@ -750,34 +731,6 @@
         "difficulty": 1,
         "correct_answer": "true",
         "explanation": "Это его типичное значение.",
-        "tags": []
-      },
-      {
-        "id": "q31",
-        "type": "mcq_single",
-        "prompt": "Выберите корректный вариант: We'll stay here as long as it ___.",
-        "theory_block_id": "b3_theory_as_long_as",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "doesn't rain"
-          },
-          {
-            "id": "b",
-            "text": "won't rain"
-          },
-          {
-            "id": "c",
-            "text": "didn't rain"
-          },
-          {
-            "id": "d",
-            "text": "isn't raining"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Present Simple для будущего условия.",
         "tags": []
       },
       {
@@ -961,34 +914,6 @@
         "tags": []
       },
       {
-        "id": "q41",
-        "type": "mcq_single",
-        "prompt": "Выберите эквивалент unless: ___ you call, I won't know.",
-        "theory_block_id": "b5_theory_contrast",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "If you don't"
-          },
-          {
-            "id": "b",
-            "text": "If you will not"
-          },
-          {
-            "id": "c",
-            "text": "When you don't"
-          },
-          {
-            "id": "d",
-            "text": "Because you don't"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Unless = if not.",
-        "tags": []
-      },
-      {
         "id": "q42",
         "type": "true_false",
         "prompt": "Unless всегда можно заменить на if without not.",
@@ -1006,6 +931,34 @@
         "difficulty": 2,
         "correct_answer": "explain",
         "explanation": "Unless = if not: you explain.",
+        "tags": []
+      },
+      {
+        "id": "q44",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"Unless you don't hurry, we'll miss the train.\"",
+        "theory_block_id": "b5_theory_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "Unless you hurry, we'll miss the train."
+          },
+          {
+            "id": "b",
+            "text": "If you don't hurry, we'll miss the train."
+          },
+          {
+            "id": "c",
+            "text": "Unless you don't hurry, we miss the train."
+          },
+          {
+            "id": "d",
+            "text": "Unless you are hurry, we'll miss the train."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Unless уже содержит отрицание, двойное отрицание неверно.",
         "tags": []
       },
       {
@@ -1044,6 +997,44 @@
         "difficulty": 1,
         "correct_answer": "true",
         "explanation": "Unless уже содержит отрицание.",
+        "tags": []
+      },
+      {
+        "id": "q47",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: Unless they ___ us, we'll start. (ждать)",
+        "theory_block_id": "b5_theory_contrast",
+        "difficulty": 2,
+        "correct_answer": "wait",
+        "explanation": "Present Simple в условной части.",
+        "tags": []
+      },
+      {
+        "id": "q48",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If you not pay, we'll cancel.\"",
+        "theory_block_id": "b5_theory_contrast",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "If you don't pay, we'll cancel."
+          },
+          {
+            "id": "b",
+            "text": "Unless you pay, we'll cancel."
+          },
+          {
+            "id": "c",
+            "text": "If you won't pay, we'll cancel."
+          },
+          {
+            "id": "d",
+            "text": "If you not pay, we'll cancel."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужна форма don't pay.",
         "tags": []
       },
       {
@@ -1243,9 +1234,10 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
-      "q5",
       "q6",
       "q7",
       "q8",
@@ -1253,6 +1245,9 @@
       "q10",
       "q11",
       "q12",
+      "q13",
+      "q14",
+      "q15",
       "q16",
       "q17",
       "q18",
@@ -1261,21 +1256,28 @@
       "q21",
       "q22",
       "q23",
-      "q27",
+      "q24",
+      "q25",
+      "q26",
       "q28",
       "q29",
       "q30",
-      "q31",
       "q32",
+      "q33",
+      "q34",
       "q35",
       "q36",
       "q37",
       "q38",
       "q39",
       "q40",
+      "q42",
       "q43",
+      "q44",
       "q45",
       "q46",
+      "q47",
+      "q48",
       "q49",
       "q50",
       "q51",
@@ -1302,7 +1304,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-21T08:14:12Z",
+    "updated_at": "2026-03-21T10:32:26Z",
     "source": "llm"
   }
 }
