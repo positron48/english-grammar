@@ -345,34 +345,6 @@
         "tags": []
       },
       {
-        "id": "q8",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If I would know his number, I would call him.\"",
-        "theory_block_id": "b1_theory_meaning",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "If I knew his number, I would call him."
-          },
-          {
-            "id": "b",
-            "text": "If I know his number, I would call him."
-          },
-          {
-            "id": "c",
-            "text": "If I would know his number, I call him."
-          },
-          {
-            "id": "d",
-            "text": "If I knew his number, I call him."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "В if-части используется Past Simple, без would.",
-        "tags": []
-      },
-      {
         "id": "q9",
         "type": "mcq_single",
         "prompt": "Выберите правильный перевод: If I had the chance, I would take the course.",
@@ -398,16 +370,6 @@
         ],
         "correct_answer": "a",
         "explanation": "Это гипотетическое действие в настоящем/будущем.",
-        "tags": []
-      },
-      {
-        "id": "q10",
-        "type": "fill_blank",
-        "prompt": "Вставьте пропущенное: If she had a bigger office, she ___ happier. (быть)",
-        "theory_block_id": "b1_theory_meaning",
-        "difficulty": 2,
-        "correct_answer": "would",
-        "explanation": "Would + adjective в главной части.",
         "tags": []
       },
       {
@@ -725,34 +687,6 @@
         "tags": []
       },
       {
-        "id": "q28",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: If she ___ the manager, she would change the policy.",
-        "theory_block_id": "b3_theory_were",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "were"
-          },
-          {
-            "id": "b",
-            "text": "was"
-          },
-          {
-            "id": "c",
-            "text": "is"
-          },
-          {
-            "id": "d",
-            "text": "will be"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Were используется как более правильный вариант.",
-        "tags": []
-      },
-      {
         "id": "q29",
         "type": "fill_blank",
         "prompt": "Вставьте пропущенное: If I ___ taller, I would reach the shelf. (быть)",
@@ -1021,34 +955,6 @@
         "tags": []
       },
       {
-        "id": "q45",
-        "type": "mcq_single",
-        "prompt": "Выберите корректный вариант: If I had more time, I ___ finish the course.",
-        "theory_block_id": "b4_theory_modals",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "would"
-          },
-          {
-            "id": "b",
-            "text": "might"
-          },
-          {
-            "id": "c",
-            "text": "could"
-          },
-          {
-            "id": "d",
-            "text": "can"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Would — нейтральный гипотетический результат.",
-        "tags": []
-      },
-      {
         "id": "q46",
         "type": "true_false",
         "prompt": "Might в second conditional делает результат менее уверенным.",
@@ -1311,16 +1217,18 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
       "q5",
       "q6",
       "q7",
-      "q8",
       "q9",
-      "q10",
       "q11",
       "q12",
+      "q13",
+      "q14",
       "q15",
       "q16",
       "q17",
@@ -1331,8 +1239,9 @@
       "q22",
       "q23",
       "q24",
+      "q25",
+      "q26",
       "q27",
-      "q28",
       "q29",
       "q30",
       "q31",
@@ -1341,16 +1250,19 @@
       "q34",
       "q35",
       "q36",
+      "q37",
+      "q38",
       "q39",
       "q40",
       "q41",
       "q42",
       "q43",
       "q44",
-      "q45",
       "q46",
       "q47",
       "q48",
+      "q49",
+      "q50",
       "q51",
       "q52",
       "q53",
@@ -1375,7 +1287,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:24:11Z",
+    "updated_at": "2026-03-21T07:03:03Z",
     "source": "llm"
   }
 }
