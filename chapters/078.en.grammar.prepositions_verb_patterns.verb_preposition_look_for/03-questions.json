@@ -42,29 +42,6 @@
       "id": "q3"
     },
     {
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'He looked my keys for.'",
-      "theory_block_id": "b1_verb_prep_search_listen",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "He looked for my keys."
-        },
-        {
-          "id": "b",
-          "text": "He looked my keys for."
-        },
-        {
-          "id": "c",
-          "text": "He was looking for my keys."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Правильный порядок: **look for** + объект. Вариант a корректен.",
-      "id": "q4"
-    },
-    {
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: Are you listening ___ me?",
       "theory_block_id": "b1_verb_prep_search_listen",
@@ -97,38 +74,6 @@
       "id": "q6"
     },
     {
-      "type": "true_false",
-      "prompt": "Listen for значит «стараться услышать что-то конкретное».",
-      "theory_block_id": "b1_verb_prep_search_listen",
-      "difficulty": 3,
-      "correct_answer": "true",
-      "explanation": "Listen for описывает ожидание конкретного звука. Это корректная связка.",
-      "id": "q7"
-    },
-    {
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'She is searching the keys for.'",
-      "theory_block_id": "b1_verb_prep_search_listen",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "She is searching for the keys."
-        },
-        {
-          "id": "b",
-          "text": "She is searching the keys for."
-        },
-        {
-          "id": "c",
-          "text": "She is looking for the keys."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Search требует предлога **for** перед объектом. Вариант a исправляет ошибку.",
-      "id": "q8"
-    },
-    {
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: I was looking ___ a quiet place to sit.",
       "theory_block_id": "b1_verb_prep_search_listen",
@@ -159,6 +104,15 @@
       "correct_answer": "to",
       "explanation": "Listen используется с **to**.",
       "id": "q10"
+    },
+    {
+      "type": "true_false",
+      "prompt": "Можно сказать look for a job.",
+      "theory_block_id": "b1_verb_prep_search_listen",
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Look for job — стандартная связка.",
+      "id": "q11"
     },
     {
       "type": "mcq_single",
@@ -225,29 +179,6 @@
       "id": "q15"
     },
     {
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'My decision depends from you.'",
-      "theory_block_id": "b2_verb_prep_depend_on",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "My decision depends on you."
-        },
-        {
-          "id": "b",
-          "text": "My decision depends from you."
-        },
-        {
-          "id": "c",
-          "text": "My decision depends on your answer."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Правильный предлог — **on**, не from.",
-      "id": "q16"
-    },
-    {
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: We rely ___ public transport.",
       "theory_block_id": "b2_verb_prep_depend_on",
@@ -287,6 +218,29 @@
       "correct_answer": "false",
       "explanation": "Правильно: rely **on** someone.",
       "id": "q19"
+    },
+    {
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'Everything relies on him.'",
+      "theory_block_id": "b2_verb_prep_depend_on",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Everything relies on him."
+        },
+        {
+          "id": "b",
+          "text": "Everything relies of him."
+        },
+        {
+          "id": "c",
+          "text": "Everything depends on him."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Вариант a корректен: rely on him.",
+      "id": "q20"
     },
     {
       "type": "mcq_single",
@@ -394,29 +348,6 @@
       "id": "q27"
     },
     {
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'She waited the doctor.'",
-      "theory_block_id": "b3_verb_prep_wait_for",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "She waited for the doctor."
-        },
-        {
-          "id": "b",
-          "text": "She waited the doctor."
-        },
-        {
-          "id": "c",
-          "text": "She was waiting for the doctor."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Wait требует предлога **for**. Вариант a исправляет ошибку.",
-      "id": "q28"
-    },
-    {
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: They are hoping ___ a reply soon.",
       "theory_block_id": "b3_verb_prep_wait_for",
@@ -458,6 +389,29 @@
       "id": "q31"
     },
     {
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'I'm waiting on the answer.'",
+      "theory_block_id": "b3_verb_prep_wait_for",
+      "difficulty": 3,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I'm waiting for the answer."
+        },
+        {
+          "id": "b",
+          "text": "I'm waiting on the answer."
+        },
+        {
+          "id": "c",
+          "text": "I'm waiting for your answer."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Wait on возможно в особых контекстах, но на этом уровне ожидается **wait for**.",
+      "id": "q32"
+    },
+    {
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: We waited ___ the results all day.",
       "theory_block_id": "b3_verb_prep_wait_for",
@@ -488,6 +442,15 @@
       "correct_answer": "for",
       "explanation": "Hope for + существительное.",
       "id": "q34"
+    },
+    {
+      "type": "true_false",
+      "prompt": "Wait может употребляться без предлога при наличии дополнения.",
+      "theory_block_id": "b3_verb_prep_wait_for",
+      "difficulty": 3,
+      "correct_answer": "false",
+      "explanation": "Если есть объект, нужен **for**: wait for the bus.",
+      "id": "q35"
     },
     {
       "type": "mcq_single",
@@ -554,29 +517,6 @@
       "id": "q39"
     },
     {
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'He applied to a job.'",
-      "theory_block_id": "b4_verb_prep_apply_for",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "He applied for a job."
-        },
-        {
-          "id": "b",
-          "text": "He applied to a job."
-        },
-        {
-          "id": "c",
-          "text": "He applied for the job."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "При подаче заявки на что-то нужен **apply for**.",
-      "id": "q40"
-    },
-    {
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: They paid ___ the tickets online.",
       "theory_block_id": "b4_verb_prep_apply_for",
@@ -616,29 +556,6 @@
       "correct_answer": "true",
       "explanation": "Apply for употребляется с заявками на работу, визу, грант.",
       "id": "q43"
-    },
-    {
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'We paid the dinner for.'",
-      "theory_block_id": "b4_verb_prep_apply_for",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "We paid for the dinner."
-        },
-        {
-          "id": "b",
-          "text": "We paid the dinner for."
-        },
-        {
-          "id": "c",
-          "text": "We paid for dinner."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Правильный порядок: pay for + объект. Вариант a корректен.",
-      "id": "q44"
     },
     {
       "type": "mcq_single",
@@ -746,29 +663,6 @@
       "id": "q51"
     },
     {
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'I agree about your idea.'",
-      "theory_block_id": "b5_verb_prep_agree_with",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I agree with your idea."
-        },
-        {
-          "id": "b",
-          "text": "I agree about your idea."
-        },
-        {
-          "id": "c",
-          "text": "I agree with this idea."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Agree with используется с человеком/мнением. Вариант a корректен.",
-      "id": "q52"
-    },
-    {
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: Let's talk ___ the plan.",
       "theory_block_id": "b5_verb_prep_agree_with",
@@ -801,27 +695,13 @@
       "id": "q54"
     },
     {
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'They talked with the problem.'",
+      "type": "true_false",
+      "prompt": "Argue with — о теме, argue about — о человеке.",
       "theory_block_id": "b5_verb_prep_agree_with",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "They talked about the problem."
-        },
-        {
-          "id": "b",
-          "text": "They talked with the problem."
-        },
-        {
-          "id": "c",
-          "text": "They talked about that problem."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Talk about + topic. Вариант a исправляет ошибку.",
-      "id": "q56"
+      "difficulty": 3,
+      "correct_answer": "false",
+      "explanation": "Наоборот: argue **with** — с человеком, argue **about** — о теме.",
+      "id": "q55"
     },
     {
       "type": "mcq_single",
@@ -920,27 +800,13 @@
       "id": "q62"
     },
     {
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'This is different with my idea.'",
+      "type": "true_false",
+      "prompt": "О чём-то говорят afraid of.",
       "theory_block_id": "b6_verb_prep_different_from",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "This is different from my idea."
-        },
-        {
-          "id": "b",
-          "text": "This is different with my idea."
-        },
-        {
-          "id": "c",
-          "text": "This is different from your idea."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Different требует **from**, не with.",
-      "id": "q64"
+      "difficulty": 1,
+      "correct_answer": "true",
+      "explanation": "Afraid of — стандартная связка.",
+      "id": "q63"
     },
     {
       "type": "mcq_single",
@@ -966,6 +832,15 @@
       "id": "q65"
     },
     {
+      "type": "fill_blank",
+      "prompt": "Вставьте предлог: He is good ___ math. (предлог после good)",
+      "theory_block_id": "b6_verb_prep_different_from",
+      "difficulty": 2,
+      "correct_answer": "at",
+      "explanation": "Good at + предмет/навык.",
+      "id": "q66"
+    },
+    {
       "type": "true_false",
       "prompt": "Different from и different than допустимы в некоторых вариантах, но from надёжнее для изучающих.",
       "theory_block_id": "b6_verb_prep_different_from",
@@ -975,27 +850,27 @@
       "id": "q67"
     },
     {
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'I'm interested on art.'",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: She is good ___ languages.",
       "theory_block_id": "b6_verb_prep_different_from",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "I'm interested in art."
+          "text": "at"
         },
         {
           "id": "b",
-          "text": "I'm interested on art."
+          "text": "in"
         },
         {
           "id": "c",
-          "text": "I'm interested in modern art."
+          "text": "on"
         }
       ],
       "correct_answer": "a",
-      "explanation": "После interested используется **in**.",
-      "id": "q68"
+      "explanation": "Good at + навык.",
+      "id": "q69"
     },
     {
       "type": "fill_blank",
