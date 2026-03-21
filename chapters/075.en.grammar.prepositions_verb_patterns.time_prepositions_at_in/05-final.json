@@ -299,29 +299,6 @@
         "explanation": "Полночь — это конкретный момент, поэтому используется **at**. Формула: at + точная точка."
       },
       {
-        "id": "q4",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'The train arrives in 7:45.'",
-        "theory_block_id": "b1_at_time_points",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "The train arrives at 7:45."
-          },
-          {
-            "id": "b",
-            "text": "The train arrives in 7:45."
-          },
-          {
-            "id": "c",
-            "text": "The train arrives at 7:45 a.m."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "С точным временем нужен **at**, а не in. Вариант a исправляет ошибку."
-      },
-      {
         "id": "q5",
         "type": "mcq_single",
         "prompt": "Выберите правильный вариант: Our appointment is ___ noon.",
@@ -354,27 +331,13 @@
         "explanation": "Выражение **at the end** описывает момент. Это точка во времени, поэтому at."
       },
       {
-        "id": "q8",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'She called me on 10 p.m.'",
+        "id": "q7",
+        "type": "true_false",
+        "prompt": "Верно или неверно: «We use 'at' with specific clock times.»",
         "theory_block_id": "b1_at_time_points",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "She called me at 10 p.m."
-          },
-          {
-            "id": "b",
-            "text": "She called me on 10 p.m."
-          },
-          {
-            "id": "c",
-            "text": "She called me at 10 p.m. yesterday."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Время по часам требует **at**. Предлог on с часами не используется."
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Часы обозначают точный момент, и для него используется **at**. Например: at 7:00."
       },
       {
         "id": "q9",
@@ -407,6 +370,15 @@
         "difficulty": 1,
         "correct_answer": "at",
         "explanation": "Midnight — конкретная точка, поэтому **at midnight**. Это правило для точных моментов."
+      },
+      {
+        "id": "q11",
+        "type": "true_false",
+        "prompt": "Верно или неверно: «'At' is used for long periods like years.»",
+        "theory_block_id": "b1_at_time_points",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Годы и большие периоды требуют **in**. **At** используется для точных моментов."
       },
       {
         "id": "q12",
@@ -473,29 +445,6 @@
         "explanation": "New Year's Day — конкретный день, поэтому **on**. Это правило для названий дней."
       },
       {
-        "id": "q16",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'The shop is closed in Sunday.'",
-        "theory_block_id": "b2_on_days_dates",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "The shop is closed on Sunday."
-          },
-          {
-            "id": "b",
-            "text": "The shop is closed in Sunday."
-          },
-          {
-            "id": "c",
-            "text": "The shop is closed on Sundays."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "С днями недели нужен **on**. Вариант a исправляет предлог."
-      },
-      {
         "id": "q17",
         "type": "mcq_single",
         "prompt": "Выберите правильный вариант: They got married ___ June 20, 2015.",
@@ -537,29 +486,6 @@
         "explanation": "On ставится с днями и датами: on Monday, on 12 May. Это основной принцип."
       },
       {
-        "id": "q20",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'The meeting is at Tuesday.'",
-        "theory_block_id": "b2_on_days_dates",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "The meeting is on Tuesday."
-          },
-          {
-            "id": "b",
-            "text": "The meeting is at Tuesday."
-          },
-          {
-            "id": "c",
-            "text": "The meeting is on Tuesday morning."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "День недели требует **on**. Предлог at здесь неверен."
-      },
-      {
         "id": "q21",
         "type": "mcq_single",
         "prompt": "Выберите правильный вариант: The festival is ___ the first day of May.",
@@ -590,6 +516,15 @@
         "difficulty": 2,
         "correct_answer": "on",
         "explanation": "Названия дней праздников относятся к уровню дня. Поэтому **on Christmas Day**."
+      },
+      {
+        "id": "q23",
+        "type": "true_false",
+        "prompt": "Верно или неверно: «'On' is used with months like March.»",
+        "theory_block_id": "b2_on_days_dates",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Месяцы требуют **in**: in March. **On** используется для дней и дат."
       },
       {
         "id": "q24",
@@ -656,29 +591,6 @@
         "explanation": "Части дня обычно сочетаются с **in**: in the morning/afternoon/evening. Это устойчивое правило."
       },
       {
-        "id": "q28",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'I go jogging on the morning.'",
-        "theory_block_id": "b3_in_periods_parts_of_day",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I go jogging in the morning."
-          },
-          {
-            "id": "b",
-            "text": "I go jogging on the morning."
-          },
-          {
-            "id": "c",
-            "text": "I go jogging in the early morning."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Части дня требуют **in**, а не on. Правильно: in the morning."
-      },
-      {
         "id": "q29",
         "type": "mcq_single",
         "prompt": "Выберите правильный вариант: The project started ___ April.",
@@ -720,29 +632,6 @@
         "explanation": "Общее значение «ночью» выражается через **at night**. Это исключение среди частей дня."
       },
       {
-        "id": "q32",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'The baby sleeps in night.'",
-        "theory_block_id": "b3_in_periods_parts_of_day",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "The baby sleeps at night."
-          },
-          {
-            "id": "b",
-            "text": "The baby sleeps in night."
-          },
-          {
-            "id": "c",
-            "text": "The baby sleeps at night in winter."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Для общего значения «ночью» нужен **at night**. Предлог in здесь неверен."
-      },
-      {
         "id": "q33",
         "type": "mcq_single",
         "prompt": "Выберите правильный вариант: Sales usually rise ___ December.",
@@ -773,6 +662,15 @@
         "difficulty": 1,
         "correct_answer": "in",
         "explanation": "Части дня требуют **in**: in the afternoon. Это устойчивое сочетание."
+      },
+      {
+        "id": "q35",
+        "type": "true_false",
+        "prompt": "Верно или неверно: «'In' is used with centuries, like in the 21st century.»",
+        "theory_block_id": "b3_in_periods_parts_of_day",
+        "difficulty": 2,
+        "correct_answer": "true",
+        "explanation": "Века — длительные периоды, поэтому используется **in**. Пример: in the 21st century."
       },
       {
         "id": "q36",
@@ -826,27 +724,13 @@
         "explanation": "Здесь действие продолжалось и закончилось в момент. Для этого используется **until**."
       },
       {
-        "id": "q40",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'I will wait by 7 o'clock.'",
+        "id": "q39",
+        "type": "true_false",
+        "prompt": "Верно или неверно: «'By 6 p.m.' means the action should be finished no later than 6.»",
         "theory_block_id": "b4_by_vs_until",
         "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I will wait until 7 o'clock."
-          },
-          {
-            "id": "b",
-            "text": "I will wait by 7 o'clock."
-          },
-          {
-            "id": "c",
-            "text": "I will wait until seven."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Wait описывает длительность, поэтому нужен **until**. By здесь неверен."
+        "correct_answer": "true",
+        "explanation": "By обозначает срок завершения. Это значит «не позже 6»."
       },
       {
         "id": "q41",
@@ -884,29 +768,6 @@
         "difficulty": 2,
         "correct_answer": "true",
         "explanation": "Until показывает границу, до которой длится действие. Это ключевое отличие от by."
-      },
-      {
-        "id": "q44",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'Please finish the form until 5 p.m.'",
-        "theory_block_id": "b4_by_vs_until",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Please finish the form by 5 p.m."
-          },
-          {
-            "id": "b",
-            "text": "Please finish the form until 5 p.m."
-          },
-          {
-            "id": "c",
-            "text": "Please finish the form by five."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Finish — это завершение, нужен дедлайн **by**. Until используется для длительности."
       },
       {
         "id": "q45",
@@ -1113,6 +974,15 @@
         "explanation": "Five years — длительность, поэтому используем **for**. Это ответ на «сколько?»."
       },
       {
+        "id": "q59",
+        "type": "true_false",
+        "prompt": "Верно или неверно: «'During' can be used with a number like 'during two days'.»",
+        "theory_block_id": "b5_during_vs_for",
+        "difficulty": 2,
+        "correct_answer": "false",
+        "explanation": "Числовая длительность требует **for**. During используется с существительным события/периода."
+      },
+      {
         "id": "q60",
         "type": "mcq_single",
         "prompt": "Выберите правильный вариант: She felt sick ___ the trip.",
@@ -1136,41 +1006,48 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
-      "q4",
       "q5",
       "q6",
-      "q8",
+      "q7",
       "q9",
       "q10",
+      "q11",
       "q12",
+      "q13",
+      "q14",
       "q15",
-      "q16",
       "q17",
       "q18",
       "q19",
-      "q20",
       "q21",
       "q22",
+      "q23",
       "q24",
+      "q25",
+      "q26",
       "q27",
-      "q28",
       "q29",
       "q30",
       "q31",
-      "q32",
       "q33",
       "q34",
+      "q35",
       "q36",
-      "q40",
+      "q37",
+      "q38",
+      "q39",
       "q41",
       "q42",
       "q43",
-      "q44",
       "q45",
       "q46",
       "q47",
       "q48",
+      "q49",
+      "q50",
       "q51",
       "q52",
       "q53",
@@ -1179,6 +1056,7 @@
       "q56",
       "q57",
       "q58",
+      "q59",
       "q60"
     ],
     "selection_strategy": {
@@ -1194,7 +1072,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-21T08:14:10Z",
+    "updated_at": "2026-03-21T09:03:56Z",
     "source": "llm"
   }
 }
