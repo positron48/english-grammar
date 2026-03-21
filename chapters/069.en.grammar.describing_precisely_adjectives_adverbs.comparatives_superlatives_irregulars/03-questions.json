@@ -130,6 +130,25 @@
       "explanation": "Tall — короткое, поэтому tallest."
     },
     {
+      "id": "q10",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: a ___ street.",
+      "theory_block_id": "b1_short_adjectives",
+      "difficulty": 1,
+      "choices": [
+        {
+          "id": "a",
+          "text": "narrower"
+        },
+        {
+          "id": "b",
+          "text": "more narrow"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Narrow часто образует -er в разговорной речи: narrower."
+    },
+    {
       "id": "q11",
       "type": "reorder",
       "prompt": "Расставьте слова в правильном порядке:",
@@ -165,15 +184,6 @@
       ],
       "correct_answer": "a",
       "explanation": "Длинные прилагательные используют more/most: more interesting."
-    },
-    {
-      "id": "q14",
-      "type": "fill_blank",
-      "prompt": "It was the ___ option. (дорогой, подсказка: most)",
-      "theory_block_id": "b2_long_adjectives",
-      "difficulty": 1,
-      "correct_answer": "expensive",
-      "explanation": "Superlative для длинных прилагательных: the most expensive."
     },
     {
       "id": "q15",
@@ -236,15 +246,6 @@
       "explanation": "Practical — длинное, поэтому most practical."
     },
     {
-      "id": "q19",
-      "type": "fill_blank",
-      "prompt": "This method is ___ than the old one. (эффективный, подсказка: more)",
-      "theory_block_id": "b2_long_adjectives",
-      "difficulty": 2,
-      "correct_answer": "effective",
-      "explanation": "Effective — длинное, поэтому more effective."
-    },
-    {
       "id": "q20",
       "type": "true_false",
       "prompt": "Верно или неверно: «We can say 'simpler' or 'more simple' in some contexts.»",
@@ -254,29 +255,6 @@
       "explanation": "Некоторые 2-сложные прилагательные допускают обе формы."
     },
     {
-      "id": "q21",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'This is the most easiest way.'",
-      "theory_block_id": "b2_long_adjectives",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "This is the easiest way."
-        },
-        {
-          "id": "b",
-          "text": "This is the most easiest way."
-        },
-        {
-          "id": "c",
-          "text": "This is an easy way."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Нельзя использовать most и -est одновременно."
-    },
-    {
       "id": "q22",
       "type": "reorder",
       "prompt": "Расставьте слова в правильном порядке:",
@@ -284,15 +262,6 @@
       "difficulty": 2,
       "correct_answer": "This plan is the most efficient.",
       "explanation": "Превосходная степень: the most efficient."
-    },
-    {
-      "id": "q23",
-      "type": "fill_blank",
-      "prompt": "His answer was the ___. (детальный, подсказка: most)",
-      "theory_block_id": "b2_long_adjectives",
-      "difficulty": 2,
-      "correct_answer": "detailed",
-      "explanation": "Detailed — длинное, поэтому most detailed."
     },
     {
       "id": "q24",
@@ -471,6 +440,15 @@
       "explanation": "Worst — superlative от bad."
     },
     {
+      "id": "q36",
+      "type": "fill_blank",
+      "prompt": "This route is ___ than the highway. (далекий)",
+      "theory_block_id": "b3_irregulars",
+      "difficulty": 2,
+      "correct_answer": "farther",
+      "explanation": "Far имеет формы farther/further."
+    },
+    {
       "id": "q37",
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: She is taller ___ me.",
@@ -568,6 +546,15 @@
       "explanation": "Than используется в сравнении."
     },
     {
+      "id": "q44",
+      "type": "true_false",
+      "prompt": "Than можно опустить, если сравнение ясно из контекста.",
+      "theory_block_id": "b4_than_the",
+      "difficulty": 2,
+      "correct_answer": "true",
+      "explanation": "В разговорной речи возможно, но лучше использовать than."
+    },
+    {
       "id": "q45",
       "type": "error_spotting",
       "prompt": "Найдите ошибку: 'This is best option.'",
@@ -626,6 +613,34 @@
       "difficulty": 2,
       "correct_answer": "best",
       "explanation": "Superlative good → best с the."
+    },
+    {
+      "id": "q49",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: This is ___ better than before.",
+      "theory_block_id": "b5_uses_and_mistakes",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "much"
+        },
+        {
+          "id": "b",
+          "text": "more"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Усилитель much используется с comparative: much better."
+    },
+    {
+      "id": "q50",
+      "type": "fill_blank",
+      "prompt": "This result is ___ good than the last one. (сравнительная)",
+      "theory_block_id": "b5_uses_and_mistakes",
+      "difficulty": 2,
+      "correct_answer": "better",
+      "explanation": "Нельзя сказать more good, нужна неправильная форма better."
     },
     {
       "id": "q51",
