@@ -66,8 +66,7 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q1",
-          "q2"
+          "q1"
         ],
         "show_answers_immediately": true
       }
@@ -133,8 +132,7 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q11",
-          "q12"
+          "q11"
         ],
         "show_answers_immediately": true
       }
@@ -219,8 +217,7 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q31",
-          "q32"
+          "q31"
         ],
         "show_answers_immediately": true
       }
@@ -311,8 +308,7 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q51",
-          "q52"
+          "q51"
         ],
         "show_answers_immediately": true
       }
@@ -342,15 +338,6 @@
         ],
         "correct_answer": "b",
         "explanation": "Water воспринимается как масса, а не отдельные единицы. Это соответствует правилу, разобранному в этом блоке."
-      },
-      {
-        "id": "q2",
-        "type": "fill_blank",
-        "prompt": "I need ___ water. (немного)",
-        "theory_block_id": "b1_core_difference",
-        "difficulty": 1,
-        "correct_answer": "some",
-        "explanation": "С неисчисляемыми обычно используют some. Water нельзя посчитать напрямую. Это соответствует правилу, разобранному в этом блоке."
       },
       {
         "id": "q3",
@@ -385,13 +372,36 @@
         "explanation": "Book можно посчитать: one book, two books. Это соответствует правилу, разобранному в этом блоке."
       },
       {
-        "id": "q7",
-        "type": "true_false",
-        "prompt": "Uncountable можно измерять через countable выражения.",
+        "id": "q5",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'I need two waters.'",
         "theory_block_id": "b1_core_difference",
         "difficulty": 2,
-        "correct_answer": "true",
-        "explanation": "Для uncountable используют a piece of, a bottle of и т.п. Это соответствует правилу, разобранному в этом блоке."
+        "choices": [
+          {
+            "id": "a",
+            "text": "I need some water."
+          },
+          {
+            "id": "b",
+            "text": "I need two waters."
+          },
+          {
+            "id": "c",
+            "text": "I need water."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Water — неисчисляемое, поэтому нельзя two waters. Нужны some water или a bottle of water. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q6",
+        "type": "fill_blank",
+        "prompt": "We bought ___ chairs. (число)",
+        "theory_block_id": "b1_core_difference",
+        "difficulty": 1,
+        "correct_answer": "two",
+        "explanation": "Chairs — исчисляемое, его можно считать. Поэтому подходит число. Это соответствует правилу, разобранному в этом блоке."
       },
       {
         "id": "q8",
@@ -415,15 +425,6 @@
         ],
         "correct_answer": "b",
         "explanation": "Information — неисчисляемое. Нет a/an и множественного числа. Это соответствует правилу, разобранному в этом блоке."
-      },
-      {
-        "id": "q9",
-        "type": "fill_blank",
-        "prompt": "There is ___ furniture in the room. (немного)",
-        "theory_block_id": "b1_core_difference",
-        "difficulty": 2,
-        "correct_answer": "some",
-        "explanation": "Furniture — неисчисляемое, поэтому используем some. Это соответствует правилу, разобранному в этом блоке."
       },
       {
         "id": "q10",
@@ -458,15 +459,6 @@
         "explanation": "Advice — типичное неисчисляемое слово. Его нельзя во множественном числе. Это соответствует правилу, разобранному в этом блоке."
       },
       {
-        "id": "q12",
-        "type": "fill_blank",
-        "prompt": "This ___ is very useful. (информация)",
-        "theory_block_id": "b2_common_uncountables",
-        "difficulty": 1,
-        "correct_answer": "information",
-        "explanation": "Information — неисчисляемое. Используется в единственной форме. Это соответствует правилу, разобранному в этом блоке."
-      },
-      {
         "id": "q13",
         "type": "true_false",
         "prompt": "Furniture можно использовать во множественном числе.",
@@ -474,6 +466,29 @@
         "difficulty": 2,
         "correct_answer": "false",
         "explanation": "Furniture — неисчисляемое слово. Plural форма не используется. Это соответствует правилу, разобранному в этом блоке."
+      },
+      {
+        "id": "q14",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'These furnitures are new.'",
+        "theory_block_id": "b2_common_uncountables",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "This furniture is new."
+          },
+          {
+            "id": "b",
+            "text": "These furnitures are new."
+          },
+          {
+            "id": "c",
+            "text": "The furniture is new."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Furniture — неисчисляемое. Нельзя furnitures. Нужен this furniture или the furniture. Это соответствует правилу, разобранному в этом блоке."
       },
       {
         "id": "q15",
@@ -497,15 +512,6 @@
         ],
         "correct_answer": "b",
         "explanation": "Money — неисчисляемое, поэтому используется much. Это соответствует правилу, разобранному в этом блоке."
-      },
-      {
-        "id": "q16",
-        "type": "fill_blank",
-        "prompt": "We got some ___ from the manager. (совет)",
-        "theory_block_id": "b2_common_uncountables",
-        "difficulty": 1,
-        "correct_answer": "advice",
-        "explanation": "Advice — неисчисляемое слово. Оно используется без -s. Это соответствует правилу, разобранному в этом блоке."
       },
       {
         "id": "q17",
@@ -741,15 +747,6 @@
         "explanation": "Advice считается через pieces of. Это соответствует правилу, разобранному в этом блоке."
       },
       {
-        "id": "q32",
-        "type": "fill_blank",
-        "prompt": "Can I have a ___ of water? (емкость)",
-        "theory_block_id": "b4_measure_phrases",
-        "difficulty": 1,
-        "correct_answer": "bottle",
-        "explanation": "Для воды используем измерители: a bottle of water. Это соответствует правилу, разобранному в этом блоке."
-      },
-      {
         "id": "q33",
         "type": "true_false",
         "prompt": "A piece of помогает сделать uncountable счетным.",
@@ -757,29 +754,6 @@
         "difficulty": 1,
         "correct_answer": "true",
         "explanation": "A piece of создает счетную единицу. Это соответствует правилу, разобранному в этом блоке."
-      },
-      {
-        "id": "q34",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'She gave me an advice.'",
-        "theory_block_id": "b4_measure_phrases",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "She gave me a piece of advice."
-          },
-          {
-            "id": "b",
-            "text": "She gave me an advice."
-          },
-          {
-            "id": "c",
-            "text": "She gave me some advice."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Advice — неисчисляемое. Нельзя an advice. Нужно some advice или a piece of advice. Это соответствует правилу, разобранному в этом блоке."
       },
       {
         "id": "q35",
@@ -803,15 +777,6 @@
         ],
         "correct_answer": "a",
         "explanation": "Для напитков обычно используется cup. Это соответствует правилу, разобранному в этом блоке."
-      },
-      {
-        "id": "q36",
-        "type": "fill_blank",
-        "prompt": "He gave me two ___ of information. (единица)",
-        "theory_block_id": "b4_measure_phrases",
-        "difficulty": 2,
-        "correct_answer": "pieces",
-        "explanation": "Information — uncountable, поэтому считаем через pieces of. Это соответствует правилу, разобранному в этом блоке."
       },
       {
         "id": "q37",
@@ -919,29 +884,6 @@
         "explanation": "Chicken как еда — uncountable, но a chicken может быть порцией или животным. Это соответствует правилу, разобранному в этом блоке."
       },
       {
-        "id": "q44",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'I need a paper for the printer.'",
-        "theory_block_id": "b5_context_switch",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I need some paper for the printer."
-          },
-          {
-            "id": "b",
-            "text": "I need a paper for the printer."
-          },
-          {
-            "id": "c",
-            "text": "I need paper for the printer."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Paper как материал — uncountable, поэтому some paper. A paper — это документ. Это соответствует правилу, разобранному в этом блоке."
-      },
-      {
         "id": "q45",
         "type": "mcq_single",
         "prompt": "Выберите вариант, где paper = документ.",
@@ -963,15 +905,6 @@
         ],
         "correct_answer": "a",
         "explanation": "A paper означает статью/документ. Это countable значение. Это соответствует правилу, разобранному в этом блоке."
-      },
-      {
-        "id": "q46",
-        "type": "fill_blank",
-        "prompt": "Two ___, please. (напиток в кафе)",
-        "theory_block_id": "b5_context_switch",
-        "difficulty": 2,
-        "correct_answer": "coffees",
-        "explanation": "Coffee как порция становится countable. Two coffees = две чашки. Это соответствует правилу, разобранному в этом блоке."
       },
       {
         "id": "q47",
@@ -1006,15 +939,6 @@
         "explanation": "Chicken как мясо — uncountable. Остальные варианты — countable. Это соответствует правилу, разобранному в этом блоке."
       },
       {
-        "id": "q49",
-        "type": "fill_blank",
-        "prompt": "We ordered two ___ and a dessert. (порции мяса)",
-        "theory_block_id": "b5_context_switch",
-        "difficulty": 2,
-        "correct_answer": "chickens",
-        "explanation": "В ресторане chicken может означать порцию. Тогда оно countable. Это соответствует правилу, разобранному в этом блоке."
-      },
-      {
         "id": "q50",
         "type": "true_false",
         "prompt": "Coffee всегда неисчисляемое.",
@@ -1047,15 +971,6 @@
         "explanation": "Advice — неисчисляемое, поэтому much advice. Это соответствует правилу, разобранному в этом блоке."
       },
       {
-        "id": "q52",
-        "type": "fill_blank",
-        "prompt": "She gave me two ___ of advice. (единица)",
-        "theory_block_id": "b6_common_mistakes",
-        "difficulty": 2,
-        "correct_answer": "pieces",
-        "explanation": "Advice считается через pieces of. Это соответствует правилу, разобранному в этом блоке."
-      },
-      {
         "id": "q53",
         "type": "true_false",
         "prompt": "'Informations' — правильная форма множественного числа.",
@@ -1063,29 +978,6 @@
         "difficulty": 2,
         "correct_answer": "false",
         "explanation": "Information — uncountable, поэтому нет множественного числа. Это соответствует правилу, разобранному в этом блоке."
-      },
-      {
-        "id": "q54",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'I got an advice from her.'",
-        "theory_block_id": "b6_common_mistakes",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I got some advice from her."
-          },
-          {
-            "id": "b",
-            "text": "I got an advice from her."
-          },
-          {
-            "id": "c",
-            "text": "I got a piece of advice from her."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Advice — неисчисляемое. Нельзя an advice. Нужны some advice или a piece of advice. Это соответствует правилу, разобранному в этом блоке."
       },
       {
         "id": "q55",
@@ -1109,15 +1001,6 @@
         ],
         "correct_answer": "b",
         "explanation": "Furniture — uncountable, поэтому much furniture. Это соответствует правилу, разобранному в этом блоке."
-      },
-      {
-        "id": "q56",
-        "type": "fill_blank",
-        "prompt": "There is ___ information in the report. (немного)",
-        "theory_block_id": "b6_common_mistakes",
-        "difficulty": 2,
-        "correct_answer": "some",
-        "explanation": "Information — uncountable, поэтому some. Это соответствует правилу, разобранному в этом блоке."
       },
       {
         "id": "q57",
@@ -1152,15 +1035,6 @@
         "explanation": "Information считается через pieces of. Это соответствует правилу, разобранному в этом блоке."
       },
       {
-        "id": "q59",
-        "type": "fill_blank",
-        "prompt": "We don't have ___ luggage with us. (много)",
-        "theory_block_id": "b6_common_mistakes",
-        "difficulty": 2,
-        "correct_answer": "much",
-        "explanation": "Luggage — uncountable, поэтому much. Это соответствует правилу, разобранному в этом блоке."
-      },
-      {
         "id": "q60",
         "type": "true_false",
         "prompt": "'A piece of' можно использовать с advice и information.",
@@ -1174,19 +1048,23 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
       "q3",
       "q4",
-      "q7",
+      "q5",
+      "q6",
       "q8",
-      "q9",
       "q10",
+      "q11",
       "q13",
+      "q14",
       "q15",
-      "q16",
       "q17",
       "q18",
       "q19",
       "q20",
+      "q21",
+      "q22",
       "q23",
       "q24",
       "q25",
@@ -1195,29 +1073,25 @@
       "q28",
       "q29",
       "q30",
+      "q31",
       "q33",
-      "q34",
       "q35",
-      "q36",
       "q37",
       "q38",
       "q39",
       "q40",
+      "q41",
+      "q42",
       "q43",
-      "q44",
       "q45",
-      "q46",
       "q47",
       "q48",
-      "q49",
       "q50",
+      "q51",
       "q53",
-      "q54",
       "q55",
-      "q56",
       "q57",
       "q58",
-      "q59",
       "q60"
     ],
     "selection_strategy": {
@@ -1233,7 +1107,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-21T08:14:09Z",
+    "updated_at": "2026-03-21T08:39:27Z",
     "source": "llm"
   }
 }
