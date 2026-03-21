@@ -74,29 +74,6 @@
       "explanation": "Глагол know вводит придаточное с фактом. Для этого используется **that**, даже если его можно опустить в разговоре."
     },
     {
-      "id": "q6",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: \"She thinks is right.\"",
-      "theory_block_id": "b1_noun_clause_basic",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "She thinks it is right."
-        },
-        {
-          "id": "b",
-          "text": "She thinks is right."
-        },
-        {
-          "id": "c",
-          "text": "She thinks that is right."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Нужно полное предложение внутри noun clause: **it is right**. Вариант a восстанавливает подлежащее и делает конструкцию грамматически корректной."
-    },
-    {
       "id": "q7",
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: He said ___ he would call.",
@@ -138,6 +115,29 @@
       "explanation": "Noun clause обычно встроена в основное предложение и играет роль объекта. Отдельным предложением она быть не обязана."
     },
     {
+      "id": "q10",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: I know ___ you mean.",
+      "theory_block_id": "b1_noun_clause_basic",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "that"
+        },
+        {
+          "id": "b",
+          "text": "if"
+        },
+        {
+          "id": "c",
+          "text": "why"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "После know мы вводим утверждение с **that**. Вопросительные союзы здесь не подходят по смыслу."
+    },
+    {
       "id": "q11",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: I believe ___ this plan will work. (союз «что»)",
@@ -145,29 +145,6 @@
       "difficulty": 2,
       "correct_answer": "that",
       "explanation": "Глагол believe вводит придаточное с фактом, поэтому используется **that**. Это стандартная структура noun clause."
-    },
-    {
-      "id": "q12",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: \"They think is important.\"",
-      "theory_block_id": "b1_noun_clause_basic",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "They think it is important."
-        },
-        {
-          "id": "b",
-          "text": "They think is important."
-        },
-        {
-          "id": "c",
-          "text": "They think that is important."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "В придаточном должно быть подлежащее и сказуемое. Вариант a добавляет **it** и делает noun clause полноценным предложением."
     },
     {
       "id": "q13",
@@ -385,15 +362,6 @@
       "explanation": "Здесь noun clause отвечает на yes/no вопрос, поэтому нужно **if** или whether. That не подходит, так как это не утверждение."
     },
     {
-      "id": "q26",
-      "type": "fill_blank",
-      "prompt": "Вставьте слово: She asked ___ we had tickets. (или if)",
-      "theory_block_id": "b3_if_whether_noun_clause",
-      "difficulty": 2,
-      "correct_answer": "whether",
-      "explanation": "Для косвенного yes/no вопроса можно использовать **whether**. Это чуть более формальный вариант по сравнению с if."
-    },
-    {
       "id": "q27",
       "type": "true_false",
       "prompt": "Верно или неверно: «In noun clauses for yes/no questions, we use if or whether.»",
@@ -449,15 +417,6 @@
       "explanation": "Здесь нужен союз для yes/no вопроса. **Whether** подходит и звучит естественно после tell me."
     },
     {
-      "id": "q30",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: I'm not sure ___ the office is open. (союз для yes/no вопроса)",
-      "theory_block_id": "b3_if_whether_noun_clause",
-      "difficulty": 2,
-      "correct_answer": "if",
-      "explanation": "В косвенном yes/no вопросе используется **if**. Порядок слов остается прямым."
-    },
-    {
       "id": "q31",
       "type": "true_false",
       "prompt": "Верно или неверно: «We use inversion (do/does) in noun clauses with if.»",
@@ -465,29 +424,6 @@
       "difficulty": 2,
       "correct_answer": "false",
       "explanation": "Внутри noun clause порядок слов прямой. Вспомогательные do/does используются только в прямом вопросе."
-    },
-    {
-      "id": "q32",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: \"Do you know if is there a problem?\"",
-      "theory_block_id": "b3_if_whether_noun_clause",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Do you know if there is a problem?"
-        },
-        {
-          "id": "b",
-          "text": "Do you know if is there a problem?"
-        },
-        {
-          "id": "c",
-          "text": "Do you know whether there is a problem?"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "В noun clause нельзя использовать инверсию. Вариант a дает правильный прямой порядок слов."
     },
     {
       "id": "q33",
@@ -511,15 +447,6 @@
       ],
       "correct_answer": "a",
       "explanation": "Это косвенный yes/no вопрос, поэтому нужен **if**. That и what вводят другие типы придаточных."
-    },
-    {
-      "id": "q34",
-      "type": "fill_blank",
-      "prompt": "Вставьте слово: They asked ___ we were ready. (союз yes/no вопроса)",
-      "theory_block_id": "b3_if_whether_noun_clause",
-      "difficulty": 1,
-      "correct_answer": "if",
-      "explanation": "После asked можно использовать **if** для передачи yes/no вопроса. Порядок слов остается прямым."
     },
     {
       "id": "q35",
@@ -835,29 +762,6 @@
       "difficulty": 2,
       "correct_answer": "true",
       "explanation": "В английском часто говорят **I don't think...** вместо **I think... not**. Это более естественно и мягко."
-    },
-    {
-      "id": "q56",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: \"I don't think she don't agree.\"",
-      "theory_block_id": "b5_negation_scope",
-      "difficulty": 3,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I don't think she agrees."
-        },
-        {
-          "id": "b",
-          "text": "I don't think she don't agree."
-        },
-        {
-          "id": "c",
-          "text": "I think she doesn't agree."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Внутри noun clause не нужно двойное отрицание. Вариант a оставляет отрицание в главной части и делает придаточное утвердительным."
     },
     {
       "id": "q57",
