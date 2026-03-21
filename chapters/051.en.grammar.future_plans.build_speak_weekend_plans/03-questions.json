@@ -115,29 +115,6 @@
       "explanation": "Will используется для мгновенных решений."
     },
     {
-      "id": "q9",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку и выберите правильный вариант: 'I'm meeting to go shopping on Saturday.'",
-      "theory_block_id": "b1_theory_scenario_weekend",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I'm going shopping on Saturday."
-        },
-        {
-          "id": "b",
-          "text": "I'm meeting on Saturday."
-        },
-        {
-          "id": "c",
-          "text": "I'm going to shopping on Saturday."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Для плана действия лучше использовать going shopping или be going to."
-    },
-    {
       "id": "q10",
       "type": "reorder",
       "prompt": "Расставьте слова в правильном порядке:",
@@ -220,6 +197,29 @@
       "explanation": "Это основное различие между формами."
     },
     {
+      "id": "q16",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку и выберите правильный вариант: 'I'm going to meeting them at 6.'",
+      "theory_block_id": "b2_theory_choices_future_forms",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I'm meeting them at 6."
+        },
+        {
+          "id": "b",
+          "text": "I'm going to meet them at 6."
+        },
+        {
+          "id": "c",
+          "text": "I will meeting them at 6."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "После going to нужен базовый глагол meet."
+    },
+    {
       "id": "q17",
       "type": "reorder",
       "prompt": "Расставьте слова в правильном порядке:",
@@ -268,6 +268,29 @@
       "difficulty": 2,
       "correct_answer": "false",
       "explanation": "Для встреч чаще используется Present Continuous."
+    },
+    {
+      "id": "q21",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку и выберите правильный вариант: 'She will going to call you.'",
+      "theory_block_id": "b2_theory_choices_future_forms",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "She is going to call you."
+        },
+        {
+          "id": "b",
+          "text": "She will call you."
+        },
+        {
+          "id": "c",
+          "text": "She going to call you."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Нельзя совмещать will и going to. Для плана: is going to call."
     },
     {
       "id": "q22",
@@ -562,6 +585,29 @@
       "explanation": "Вопрос: Are + subject + V-ing."
     },
     {
+      "id": "q42",
+      "type": "mcq_single",
+      "prompt": "Выберите лучший ответ: 'Are you free on Sunday?'",
+      "theory_block_id": "b4_theory_mini_dialogues",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "I'm visiting my parents."
+        },
+        {
+          "id": "b",
+          "text": "I visit my parents."
+        },
+        {
+          "id": "c",
+          "text": "I'll visiting my parents."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Ответ о договоренности/плане: Present Continuous."
+    },
+    {
       "id": "q43",
       "type": "fill_blank",
       "prompt": "— What ___ you doing tonight? — I'm meeting Jack. (вопрос)",
@@ -667,6 +713,15 @@
       "explanation": "В time clause используется Present Simple: get."
     },
     {
+      "id": "q50",
+      "type": "fill_blank",
+      "prompt": "I'm ___ meeting him at 6. (форма be)",
+      "theory_block_id": "b5_theory_common_mistakes",
+      "difficulty": 1,
+      "correct_answer": "not",
+      "explanation": "Отрицание Present Continuous: am not meeting."
+    },
+    {
       "id": "q51",
       "type": "true_false",
       "prompt": "Фраза 'I meet John at 5' подходит для договоренности.",
@@ -708,29 +763,6 @@
       "explanation": "Present Continuous: am + V-ing + маркер времени."
     },
     {
-      "id": "q54",
-      "type": "mcq_single",
-      "prompt": "Выберите правильный вариант:",
-      "theory_block_id": "b5_theory_common_mistakes",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "We are going to leave at 9."
-        },
-        {
-          "id": "b",
-          "text": "We will going to leave at 9."
-        },
-        {
-          "id": "c",
-          "text": "We are going leave at 9."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Правильная конструкция: are going to + V1."
-    },
-    {
       "id": "q55",
       "type": "fill_blank",
       "prompt": "I'll call you after I ___. (без will)",
@@ -747,6 +779,29 @@
       "difficulty": 2,
       "correct_answer": "false",
       "explanation": "Форма be обязательна."
+    },
+    {
+      "id": "q57",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку и выберите правильный вариант: 'Are you meeting to go tomorrow?'",
+      "theory_block_id": "b5_theory_common_mistakes",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Are you going to go tomorrow?"
+        },
+        {
+          "id": "b",
+          "text": "Are you meeting tomorrow?"
+        },
+        {
+          "id": "c",
+          "text": "Do you going tomorrow?"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Для намерения лучше использовать be going to: going to go."
     },
     {
       "id": "q58",
