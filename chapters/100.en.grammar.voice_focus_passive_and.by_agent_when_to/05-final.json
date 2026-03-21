@@ -315,34 +315,6 @@
         "tags": []
       },
       {
-        "id": "q5",
-        "type": "mcq_single",
-        "prompt": "Выберите предложение, где агент очевиден и может быть опущен.",
-        "theory_block_id": "b1_theory_omit_agent",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "The exam is graded by the teacher."
-          },
-          {
-            "id": "b",
-            "text": "The exam is graded every Friday."
-          },
-          {
-            "id": "c",
-            "text": "The exam is grading every Friday."
-          },
-          {
-            "id": "d",
-            "text": "The exam grades every Friday."
-          }
-        ],
-        "correct_answer": "b",
-        "explanation": "В варианте b достаточно факта регулярности, исполнитель не нужен.",
-        "tags": []
-      },
-      {
         "id": "q6",
         "type": "fill_blank",
         "prompt": "Вставьте пропущенное: The package was ___ this morning. (deliver)",
@@ -543,34 +515,6 @@
         "tags": []
       },
       {
-        "id": "q17",
-        "type": "mcq_single",
-        "prompt": "Выберите корректное предложение: The message was sent ___ the app.",
-        "theory_block_id": "b3_theory_agent_types",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "via"
-          },
-          {
-            "id": "b",
-            "text": "by"
-          },
-          {
-            "id": "c",
-            "text": "with"
-          },
-          {
-            "id": "d",
-            "text": "at"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Для канала/средства общения подходит via, это уточняет способ отправки.",
-        "tags": []
-      },
-      {
         "id": "q18",
         "type": "true_false",
         "prompt": "Фраза \"The email was sent by a laptop\" корректна, потому что laptop — инструмент.",
@@ -626,34 +570,6 @@
         "difficulty": 2,
         "correct_answer": "by",
         "explanation": "Если важно указать автора объявления, используется by + agent.",
-        "tags": []
-      },
-      {
-        "id": "q22",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"A decision was made by.\"",
-        "theory_block_id": "b4_theory_avoid_by",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "A decision was made."
-          },
-          {
-            "id": "b",
-            "text": "A decision was made by the team."
-          },
-          {
-            "id": "c",
-            "text": "A decision made by."
-          },
-          {
-            "id": "d",
-            "text": "A decision was making by."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Если агент не указан, by нельзя оставлять без дополнения.",
         "tags": []
       },
       {
@@ -895,34 +811,6 @@
         "tags": []
       },
       {
-        "id": "q36",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The statement was issued by.\"",
-        "theory_block_id": "b4_theory_avoid_by",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "The statement was issued."
-          },
-          {
-            "id": "b",
-            "text": "The statement was issued by the spokesperson."
-          },
-          {
-            "id": "c",
-            "text": "The statement issued by."
-          },
-          {
-            "id": "d",
-            "text": "The statement was issuing by."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Если агента нет, by не должно оставаться без дополнения.",
-        "tags": []
-      },
-      {
         "id": "q37",
         "type": "mcq_single",
         "prompt": "Выберите нейтральный новостной вариант.",
@@ -948,16 +836,6 @@
         ],
         "correct_answer": "a",
         "explanation": "Пассив без агента звучит нейтрально и типичен для новостей.",
-        "tags": []
-      },
-      {
-        "id": "q38",
-        "type": "true_false",
-        "prompt": "В официальных сообщениях by-агент часто добавляют, чтобы подчеркнуть ответственность.",
-        "theory_block_id": "b5_theory_news_reports",
-        "difficulty": 1,
-        "correct_answer": "false",
-        "explanation": "Чаще агент опускают ради нейтральности, если он не критичен.",
         "tags": []
       },
       {
@@ -1383,20 +1261,27 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
-      "q5",
       "q6",
+      "q7",
+      "q8",
       "q9",
       "q10",
       "q11",
       "q12",
+      "q13",
+      "q14",
       "q15",
       "q16",
-      "q17",
       "q18",
+      "q19",
+      "q20",
       "q21",
-      "q22",
+      "q23",
+      "q24",
       "q25",
       "q26",
       "q27",
@@ -1408,9 +1293,7 @@
       "q33",
       "q34",
       "q35",
-      "q36",
       "q37",
-      "q38",
       "q39",
       "q40",
       "q41",
@@ -1447,7 +1330,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:24:10Z",
+    "updated_at": "2026-03-21T06:56:52Z",
     "source": "llm"
   }
 }
