@@ -24,15 +24,6 @@
       "id": "q1"
     },
     {
-      "type": "fill_blank",
-      "prompt": "Вставьте слово: Turn ___ at the corner. (направление)",
-      "theory_block_id": "b1_directions_core_phrases",
-      "difficulty": 1,
-      "correct_answer": "left",
-      "explanation": "Turn left/right — базовые команды направления.",
-      "id": "q2"
-    },
-    {
       "type": "true_false",
       "prompt": "Across from значит «на противоположной стороне».",
       "theory_block_id": "b1_directions_core_phrases",
@@ -42,36 +33,27 @@
       "id": "q3"
     },
     {
-      "type": "mcq_single",
-      "prompt": "Выберите правильный вариант: The cafe is ___ the bank.",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'Go straight on and turn left in the corner.'",
       "theory_block_id": "b1_directions_core_phrases",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "next to"
+          "text": "Go straight and turn left at the corner."
         },
         {
           "id": "b",
-          "text": "across from"
+          "text": "Go straight on and turn left in the corner."
         },
         {
           "id": "c",
-          "text": "between"
+          "text": "Go straight and turn left at the corner."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Next to = рядом.",
-      "id": "q5"
-    },
-    {
-      "type": "fill_blank",
-      "prompt": "Вставьте слово: It's on your ___ after the lights. (сторона)",
-      "theory_block_id": "b1_directions_core_phrases",
-      "difficulty": 1,
-      "correct_answer": "right",
-      "explanation": "On your left/right — стандартная формула.",
-      "id": "q6"
+      "explanation": "Правильно: go straight; turn left at the corner. In the corner не подходит.",
+      "id": "q4"
     },
     {
       "type": "true_false",
@@ -81,29 +63,6 @@
       "correct_answer": "true",
       "explanation": "At the corner — типичный ориентир для поворота.",
       "id": "q7"
-    },
-    {
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'Turn right on the corner.'",
-      "theory_block_id": "b1_directions_core_phrases",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Turn right at the corner."
-        },
-        {
-          "id": "b",
-          "text": "Turn right on the corner."
-        },
-        {
-          "id": "c",
-          "text": "Turn right at the next corner."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Правильно: at the corner, не on the corner.",
-      "id": "q8"
     },
     {
       "type": "mcq_single",
@@ -129,6 +88,15 @@
       "id": "q9"
     },
     {
+      "type": "fill_blank",
+      "prompt": "Вставьте слово: Go straight, then turn ___. (направление)",
+      "theory_block_id": "b1_directions_core_phrases",
+      "difficulty": 1,
+      "correct_answer": "left",
+      "explanation": "Turn left/right — типичная команда направления.",
+      "id": "q10"
+    },
+    {
       "type": "true_false",
       "prompt": "Go straight значит «не сворачивать».",
       "theory_block_id": "b1_directions_core_phrases",
@@ -136,29 +104,6 @@
       "correct_answer": "true",
       "explanation": "Go straight = идти прямо, без поворотов.",
       "id": "q11"
-    },
-    {
-      "type": "mcq_single",
-      "prompt": "Выберите правильный вариант: The bus stop is ___ the museum.",
-      "theory_block_id": "b1_directions_core_phrases",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "in front of"
-        },
-        {
-          "id": "b",
-          "text": "across from"
-        },
-        {
-          "id": "c",
-          "text": "past"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "In front of = перед зданием.",
-      "id": "q12"
     },
     {
       "type": "mcq_single",
@@ -202,29 +147,6 @@
       "id": "q15"
     },
     {
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'The cafe is in the corner of the street.'",
-      "theory_block_id": "b2_location_prepositions_review",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "The cafe is at the corner of the street."
-        },
-        {
-          "id": "b",
-          "text": "The cafe is in the corner of the street."
-        },
-        {
-          "id": "c",
-          "text": "The cafe is at the street corner."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Corner как точка — at the corner.",
-      "id": "q16"
-    },
-    {
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: The park is ___ the school and the library.",
       "theory_block_id": "b2_location_prepositions_review",
@@ -264,29 +186,6 @@
       "correct_answer": "true",
       "explanation": "At используется для точек, адресов.",
       "id": "q19"
-    },
-    {
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'The book is in the table.'",
-      "theory_block_id": "b2_location_prepositions_review",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "The book is on the table."
-        },
-        {
-          "id": "b",
-          "text": "The book is in the table."
-        },
-        {
-          "id": "c",
-          "text": "The book is on the desk."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Книга на поверхности — on the table.",
-      "id": "q20"
     },
     {
       "type": "mcq_single",
@@ -394,29 +293,6 @@
       "id": "q27"
     },
     {
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'Walk through the street to the other side.'",
-      "theory_block_id": "b3_movement_prepositions_review",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Walk across the street to the other side."
-        },
-        {
-          "id": "b",
-          "text": "Walk through the street to the other side."
-        },
-        {
-          "id": "c",
-          "text": "Walk across the road to the other side."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Улица — поверхность, поэтому across.",
-      "id": "q28"
-    },
-    {
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: Walk ___ the tunnel. (через внутри)",
       "theory_block_id": "b3_movement_prepositions_review",
@@ -456,29 +332,6 @@
       "correct_answer": "true",
       "explanation": "Along — вдоль линии/маршрута.",
       "id": "q31"
-    },
-    {
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'Go to the room' when you mean entering it.",
-      "theory_block_id": "b3_movement_prepositions_review",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Go into the room."
-        },
-        {
-          "id": "b",
-          "text": "Go to the room."
-        },
-        {
-          "id": "c",
-          "text": "Go into the room and sit down."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Для входа внутрь нужно into.",
-      "id": "q32"
     },
     {
       "type": "mcq_single",
@@ -650,29 +503,6 @@
       "id": "q43"
     },
     {
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'Can you show me the way of the museum?'",
-      "theory_block_id": "b4_asking_finding",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Can you show me the way to the museum?"
-        },
-        {
-          "id": "b",
-          "text": "Can you show me the way of the museum?"
-        },
-        {
-          "id": "c",
-          "text": "Can you show me the way to the museum, please?"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Правильно: the way to.",
-      "id": "q44"
-    },
-    {
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: I'm looking ___ a hotel near the station.",
       "theory_block_id": "b4_asking_finding",
@@ -776,6 +606,29 @@
       "correct_answer": "false",
       "explanation": "In front of — перед чем-то.",
       "id": "q51"
+    },
+    {
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'The bank is near to the station.'",
+      "theory_block_id": "b5_landmarks_distance",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "The bank is near the station."
+        },
+        {
+          "id": "b",
+          "text": "The bank is near to the station."
+        },
+        {
+          "id": "c",
+          "text": "The bank is close to the station."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Near обычно без to.",
+      "id": "q52"
     },
     {
       "type": "mcq_single",
@@ -993,15 +846,6 @@
       "id": "q65"
     },
     {
-      "type": "fill_blank",
-      "prompt": "Вставьте слово: It's ___ from the bank. (напротив)",
-      "theory_block_id": "b6_build_speak_dialogue",
-      "difficulty": 1,
-      "correct_answer": "across",
-      "explanation": "Across from — напротив, но можно вставить across в шаблон.",
-      "id": "q66"
-    },
-    {
       "type": "true_false",
       "prompt": "Верно или неверно: «'Next to' can be used to describe a nearby landmark.»",
       "theory_block_id": "b6_build_speak_dialogue",
@@ -1011,27 +855,27 @@
       "id": "q67"
     },
     {
-      "type": "mcq_single",
-      "prompt": "Выберите правильный вариант: The station is ___ the bank.",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку: 'Go straight and turn right at the bridge.'",
       "theory_block_id": "b6_build_speak_dialogue",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "next to"
+          "text": "Go straight and turn right at the bridge."
         },
         {
           "id": "b",
-          "text": "into"
+          "text": "Go straight and turn right in the bridge."
         },
         {
           "id": "c",
-          "text": "through"
+          "text": "Go straight, then turn right at the bridge."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Next to — рядом.",
-      "id": "q69"
+      "explanation": "Правильно: at the bridge. In the bridge не подходит.",
+      "id": "q68"
     },
     {
       "type": "fill_blank",
