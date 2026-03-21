@@ -585,34 +585,6 @@
         "tags": []
       },
       {
-        "id": "q19",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The application is reviewed and the fee pays online.\"",
-        "theory_block_id": "b4_theory_style_consistency",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "The application is reviewed and the fee is paid online."
-          },
-          {
-            "id": "b",
-            "text": "The application is reviewed and the fee paid online."
-          },
-          {
-            "id": "c",
-            "text": "The application was reviewed and the fee is paid online."
-          },
-          {
-            "id": "d",
-            "text": "The application is reviewing and the fee is paid online."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Нужно сохранить пассив в обеих частях: is reviewed / is paid.",
-        "tags": []
-      },
-      {
         "id": "q20",
         "type": "mcq_single",
         "prompt": "Выберите шаблон новости.",
@@ -686,6 +658,34 @@
         ],
         "correct_answer": "a",
         "explanation": "В пассиве нужен V3: reported.",
+        "tags": []
+      },
+      {
+        "id": "q24",
+        "type": "mcq_single",
+        "prompt": "Выберите корректный вариант: The car was serviced yesterday. We ___ it serviced at the dealer.",
+        "theory_block_id": "b3_theory_service_causative",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had"
+          },
+          {
+            "id": "b",
+            "text": "have"
+          },
+          {
+            "id": "c",
+            "text": "got"
+          },
+          {
+            "id": "d",
+            "text": "getting"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Прошлое время: had it serviced.",
         "tags": []
       },
       {
@@ -977,6 +977,16 @@
         "tags": []
       },
       {
+        "id": "q43",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: We had the documents ___ and the summary ___ . (check/update)",
+        "theory_block_id": "b4_theory_style_consistency",
+        "difficulty": 2,
+        "correct_answer": "checked",
+        "explanation": "Для одного пропуска нужен V3; используйте checked.",
+        "tags": []
+      },
+      {
         "id": "q44",
         "type": "error_spotting",
         "prompt": "Найдите ошибку и выберите исправленное предложение: \"Orders are processed and ship the next day.\"",
@@ -1091,6 +1101,16 @@
         "tags": []
       },
       {
+        "id": "q50",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: The device can be repaired or ___ the same day. (replace)",
+        "theory_block_id": "b3_theory_service_causative",
+        "difficulty": 2,
+        "correct_answer": "replaced",
+        "explanation": "Пассив: be repaired or replaced.",
+        "tags": []
+      },
+      {
         "id": "q51",
         "type": "mcq_single",
         "prompt": "Выберите правильный вариант: The complaint was filed and has been ___. (review)",
@@ -1116,6 +1136,16 @@
         ],
         "correct_answer": "a",
         "explanation": "Present Perfect passive: has been reviewed.",
+        "tags": []
+      },
+      {
+        "id": "q52",
+        "type": "true_false",
+        "prompt": "Process descriptions often use Present Simple passive.",
+        "theory_block_id": "b2_theory_process_descriptions",
+        "difficulty": 1,
+        "correct_answer": "true",
+        "explanation": "Процессы описываются как регулярные действия.",
         "tags": []
       },
       {
@@ -1239,19 +1269,29 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
       "q5",
+      "q6",
+      "q7",
       "q8",
       "q9",
       "q10",
+      "q11",
+      "q12",
       "q13",
       "q14",
       "q15",
+      "q16",
+      "q17",
       "q18",
-      "q19",
+      "q20",
+      "q21",
       "q22",
       "q23",
+      "q24",
       "q25",
       "q26",
       "q27",
@@ -1270,13 +1310,16 @@
       "q40",
       "q41",
       "q42",
+      "q43",
       "q44",
       "q45",
       "q46",
       "q47",
       "q48",
       "q49",
+      "q50",
       "q51",
+      "q52",
       "q53",
       "q54",
       "q55",
@@ -1299,7 +1342,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-21T08:14:11Z",
+    "updated_at": "2026-03-21T10:13:38Z",
     "source": "llm"
   }
 }
