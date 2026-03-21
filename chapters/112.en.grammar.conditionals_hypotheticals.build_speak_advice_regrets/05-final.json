@@ -229,7 +229,6 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q43",
           "q44"
         ],
         "show_answers_immediately": true
@@ -725,34 +724,6 @@
         "tags": []
       },
       {
-        "id": "q28",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If he had taken the course, he would have more skills now.\"",
-        "theory_block_id": "b3_theory_alternatives",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "If he had taken the course, he would have more skills now."
-          },
-          {
-            "id": "b",
-            "text": "If he had taken the course, he would have had more skills then."
-          },
-          {
-            "id": "c",
-            "text": "If he had taken the course, he would have more skills then."
-          },
-          {
-            "id": "d",
-            "text": "If he took the course, he would have more skills now."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Would have + noun phrase (have) подходит для результата сейчас.",
-        "tags": []
-      },
-      {
         "id": "q29",
         "type": "mcq_single",
         "prompt": "Выберите смешанный вариант.",
@@ -839,34 +810,6 @@
         "tags": []
       },
       {
-        "id": "q34",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If I had taken that course, I would have better English now.\"",
-        "theory_block_id": "b3_theory_alternatives",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "If I had taken that course, I would have better English now."
-          },
-          {
-            "id": "b",
-            "text": "If I had taken that course, I would have had better English then."
-          },
-          {
-            "id": "c",
-            "text": "If I took that course, I would have better English now."
-          },
-          {
-            "id": "d",
-            "text": "If I had taken that course, I would have better English then."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Would have + noun phrase can express present result.",
-        "tags": []
-      },
-      {
         "id": "q35",
         "type": "mcq_single",
         "prompt": "Выберите правильный вариант: I wish I ___ more time this week.",
@@ -902,16 +845,6 @@
         "difficulty": 1,
         "correct_answer": "true",
         "explanation": "Это частая функция wish.",
-        "tags": []
-      },
-      {
-        "id": "q37",
-        "type": "fill_blank",
-        "prompt": "Вставьте пропущенное: If only we ___ the hotel earlier. (забронировать)",
-        "theory_block_id": "b4_theory_wish_if_only",
-        "difficulty": 2,
-        "correct_answer": "had",
-        "explanation": "Past Perfect: had booked.",
         "tags": []
       },
       {
@@ -1019,34 +952,6 @@
         "tags": []
       },
       {
-        "id": "q43",
-        "type": "mcq_single",
-        "prompt": "Выберите правильную структуру: It’s time you ___.",
-        "theory_block_id": "b5_theory_build_speak",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "started"
-          },
-          {
-            "id": "b",
-            "text": "start"
-          },
-          {
-            "id": "c",
-            "text": "will start"
-          },
-          {
-            "id": "d",
-            "text": "have started"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "It's time + Past Simple.",
-        "tags": []
-      },
-      {
         "id": "q44",
         "type": "true_false",
         "prompt": "В связной речи можно сочетать совет и сожаление в одном высказывании.",
@@ -1064,34 +969,6 @@
         "difficulty": 2,
         "correct_answer": "would",
         "explanation": "Совет: would + V1.",
-        "tags": []
-      },
-      {
-        "id": "q46",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If only we had checked, we wouldn't be fixing it today.\"",
-        "theory_block_id": "b5_theory_build_speak",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "If only we had checked, we wouldn't be fixing it today."
-          },
-          {
-            "id": "b",
-            "text": "If only we checked, we wouldn't be fixing it today."
-          },
-          {
-            "id": "c",
-            "text": "If only we had checked, we wouldn't fixed it today."
-          },
-          {
-            "id": "d",
-            "text": "If only we had checked, we wouldn't be fixed it today."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Смешанная форма корректна: прошлое условие + настоящее следствие.",
         "tags": []
       },
       {
@@ -1211,34 +1088,6 @@
         "tags": []
       },
       {
-        "id": "q55",
-        "type": "mcq_single",
-        "prompt": "Выберите корректный вариант: I wish I ___ said that. (не говорить)",
-        "theory_block_id": "b2_theory_regrets",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "hadn't"
-          },
-          {
-            "id": "b",
-            "text": "didn't"
-          },
-          {
-            "id": "c",
-            "text": "wouldn't"
-          },
-          {
-            "id": "d",
-            "text": "won't"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Past Perfect negative.",
-        "tags": []
-      },
-      {
         "id": "q56",
         "type": "true_false",
         "prompt": "If I had prepared, I would be calmer now. — это mixed conditional.",
@@ -1311,6 +1160,8 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
       "q5",
@@ -1321,6 +1172,8 @@
       "q10",
       "q11",
       "q12",
+      "q13",
+      "q14",
       "q15",
       "q16",
       "q17",
@@ -1331,22 +1184,23 @@
       "q22",
       "q23",
       "q24",
+      "q25",
+      "q26",
       "q27",
-      "q28",
       "q29",
       "q30",
       "q31",
       "q32",
       "q33",
-      "q34",
-      "q37",
+      "q35",
+      "q36",
       "q38",
       "q39",
       "q40",
       "q41",
       "q42",
+      "q44",
       "q45",
-      "q46",
       "q47",
       "q48",
       "q49",
@@ -1355,7 +1209,6 @@
       "q52",
       "q53",
       "q54",
-      "q55",
       "q56",
       "q57",
       "q58",
@@ -1375,7 +1228,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:24:12Z",
+    "updated_at": "2026-03-21T07:06:46Z",
     "source": "llm"
   }
 }
