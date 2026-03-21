@@ -151,7 +151,7 @@
       "quiz_inline": {
         "question_ids": [
           "q25",
-          "q27"
+          "q26"
         ],
         "show_answers_immediately": true
       }
@@ -549,34 +549,6 @@
         "tags": []
       },
       {
-        "id": "q16",
-        "type": "mcq_single",
-        "prompt": "Какое предложение правильно показывает более раннее действие?",
-        "theory_block_id": "b2_theory_sequence_before_past",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "He apologized because he had broken the vase."
-          },
-          {
-            "id": "b",
-            "text": "He apologized because he broke the vase."
-          },
-          {
-            "id": "c",
-            "text": "He had apologized because he broke the vase."
-          },
-          {
-            "id": "d",
-            "text": "He was apologizing because he had broke the vase."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Разбитие вазы произошло до извинения, поэтому верен Past Perfect.",
-        "tags": []
-      },
-      {
         "id": "q17",
         "type": "error_spotting",
         "prompt": "Найдите ошибку и выберите исправленное предложение: \"After we had ate, we went for a walk.\"",
@@ -749,6 +721,16 @@
         "tags": []
       },
       {
+        "id": "q26",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: She had ___ finished when the bell rang. (only a moment before)",
+        "theory_block_id": "b3_theory_time_markers",
+        "difficulty": 2,
+        "correct_answer": "just",
+        "explanation": "Just показывает недавнее завершение перед другим прошлым событием.",
+        "tags": []
+      },
+      {
         "id": "q27",
         "type": "true_false",
         "prompt": "Верно или неверно: «Markers like \"already\" and \"by the time\" often signal Past Perfect.»",
@@ -756,6 +738,34 @@
         "difficulty": 1,
         "correct_answer": "true",
         "explanation": "Эти маркеры часто показывают, что действие завершилось до момента в прошлом.",
+        "tags": []
+      },
+      {
+        "id": "q28",
+        "type": "mcq_single",
+        "prompt": "Выберите: After he ___ the email, he called me.",
+        "theory_block_id": "b3_theory_time_markers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had sent"
+          },
+          {
+            "id": "b",
+            "text": "sent"
+          },
+          {
+            "id": "c",
+            "text": "has sent"
+          },
+          {
+            "id": "d",
+            "text": "was sending"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "After может вводить более раннее действие в Past Perfect: had sent.",
         "tags": []
       },
       {
@@ -793,6 +803,34 @@
         "tags": []
       },
       {
+        "id": "q31",
+        "type": "mcq_single",
+        "prompt": "Выберите: I called him after I ___ the report.",
+        "theory_block_id": "b3_theory_time_markers",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had finished"
+          },
+          {
+            "id": "b",
+            "text": "finished"
+          },
+          {
+            "id": "c",
+            "text": "have finished"
+          },
+          {
+            "id": "d",
+            "text": "was finishing"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Отчёт был закончен до звонка, поэтому уместен Past Perfect.",
+        "tags": []
+      },
+      {
         "id": "q32",
         "type": "fill_blank",
         "prompt": "Вставьте пропущенное: He felt calm because he had ___ the exam already. (pass)",
@@ -810,34 +848,6 @@
         "difficulty": 1,
         "correct_answer": "false",
         "explanation": "Past Perfect с before подчёркивает более раннее завершение.",
-        "tags": []
-      },
-      {
-        "id": "q34",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: She smiled because she ___ the joke already.",
-        "theory_block_id": "b3_theory_time_markers",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "had understood"
-          },
-          {
-            "id": "b",
-            "text": "understood"
-          },
-          {
-            "id": "c",
-            "text": "has understood"
-          },
-          {
-            "id": "d",
-            "text": "was understanding"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Понимание произошло до улыбки, поэтому используется Past Perfect.",
         "tags": []
       },
       {
@@ -995,6 +1005,30 @@
         "tags": []
       },
       {
+        "id": "q44",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"She was upset because she lost her passport earlier.\"",
+        "theory_block_id": "b4_theory_contrast_past_simple",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "She was upset because she had lost her passport earlier."
+          },
+          {
+            "id": "b",
+            "text": "She was upset because she lost her passport earlier."
+          },
+          {
+            "id": "c",
+            "text": "She was upset because she had lose her passport earlier."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Потеря произошла до расстройства, поэтому Past Perfect выражает это яснее.",
+        "tags": []
+      },
+      {
         "id": "q45",
         "type": "fill_blank",
         "prompt": "Вставьте пропущенное: He apologized because he had ___ me the wrong information. (give)",
@@ -1002,34 +1036,6 @@
         "difficulty": 2,
         "correct_answer": "given",
         "explanation": "Передача неверной информации произошла раньше, поэтому используется Past Perfect.",
-        "tags": []
-      },
-      {
-        "id": "q46",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: I didn't know the answer because I ___ the lesson.",
-        "theory_block_id": "b4_theory_contrast_past_simple",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "had missed"
-          },
-          {
-            "id": "b",
-            "text": "missed"
-          },
-          {
-            "id": "c",
-            "text": "have missed"
-          },
-          {
-            "id": "d",
-            "text": "was missing"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Пропуск урока произошёл до незнания ответа, поэтому используется Past Perfect.",
         "tags": []
       },
       {
@@ -1339,6 +1345,16 @@
         "tags": []
       },
       {
+        "id": "q63",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: He told me he had ___ the job the year before. (get)",
+        "theory_block_id": "b6_theory_narrative_context",
+        "difficulty": 2,
+        "correct_answer": "gotten",
+        "explanation": "Получение работы произошло раньше, чем рассказ о ней, поэтому Past Perfect.",
+        "tags": []
+      },
+      {
         "id": "q64",
         "type": "mcq_single",
         "prompt": "Выберите правильную форму: The movie started. I ___ my seat already.",
@@ -1515,6 +1531,8 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
       "q5",
@@ -1525,8 +1543,9 @@
       "q10",
       "q11",
       "q12",
+      "q13",
+      "q14",
       "q15",
-      "q16",
       "q17",
       "q18",
       "q19",
@@ -1535,22 +1554,30 @@
       "q22",
       "q23",
       "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
       "q29",
       "q30",
+      "q31",
       "q32",
       "q33",
-      "q34",
       "q35",
       "q36",
+      "q37",
+      "q38",
       "q39",
       "q40",
       "q41",
       "q42",
       "q43",
+      "q44",
       "q45",
-      "q46",
       "q47",
       "q48",
+      "q49",
+      "q50",
       "q51",
       "q52",
       "q53",
@@ -1561,6 +1588,9 @@
       "q58",
       "q59",
       "q60",
+      "q61",
+      "q62",
+      "q63",
       "q64",
       "q65",
       "q66",
@@ -1584,7 +1614,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-21T08:14:11Z",
+    "updated_at": "2026-03-21T10:07:08Z",
     "source": "llm"
   }
 }
