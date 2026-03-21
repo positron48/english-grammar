@@ -67,7 +67,10 @@
       "type": "quiz_inline",
       "title": "Проверка знаний",
       "quiz_inline": {
-        "question_ids": [],
+        "question_ids": [
+          "q5",
+          "q6"
+        ],
         "show_answers_immediately": true
       }
     },
@@ -920,14 +923,10 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q5",
-      "q6",
       "q7",
       "q8",
       "q11",
       "q12",
-      "q13",
-      "q14",
       "q15",
       "q17",
       "q18",
@@ -935,14 +934,10 @@
       "q20",
       "q23",
       "q24",
-      "q25",
-      "q26",
       "q27",
       "q29",
       "q31",
       "q36",
-      "q37",
-      "q38",
       "q39",
       "q41",
       "q42",
@@ -951,8 +946,6 @@
       "q45",
       "q47",
       "q48",
-      "q49",
-      "q50",
       "q51",
       "q53",
       "q54",
@@ -975,7 +968,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-02-11T14:08:52Z",
+    "updated_at": "2026-03-21T08:14:09Z",
     "source": "llm"
   }
 }
