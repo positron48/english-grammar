@@ -65,29 +65,6 @@
       "explanation": "Вступление задает тему и контекст, поэтому вариант (b) сразу вводит читателя в ситуацию. Вариант (a) больше похож на завершение, а (c) — это комментарий о связках, а не начало текста."
     },
     {
-      "id": "q5",
-      "type": "error_spotting",
-      "prompt": "Найдите лучшую версию вступления для короткого текста.",
-      "theory_block_id": "b1_theory_task_goal_structure",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "My hobby is cooking and I like it and I cook every day and I will tell you everything about it."
-        },
-        {
-          "id": "b",
-          "text": "I enjoy cooking, and this hobby helps me relax after work."
-        },
-        {
-          "id": "c",
-          "text": "Cooking is interesting. Cooking is good. Cooking is nice."
-        }
-      ],
-      "correct_answer": "b",
-      "explanation": "Хорошее вступление короткое и связное: один основной фокус и естественный тон. Вариант (b) дает тему и легкий контекст без перегрузки."
-    },
-    {
       "id": "q6",
       "type": "fill_blank",
       "prompt": "Заполните пропуск: In the last paragraph, you should briefly ___ the main idea. (глагол: подвести итог)",
@@ -705,6 +682,15 @@
       "explanation": "Повторение подлежащего — ошибка. После вставки подлежащее уже есть, поэтому нужно сразу ставить сказуемое."
     },
     {
+      "id": "q47",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: Keep one main idea per sentence to avoid a ___. (термин)",
+      "theory_block_id": "b4_theory_sentence_variety_punctuation",
+      "difficulty": 3,
+      "correct_answer": "run-on",
+      "explanation": "Run-on sentence — это слишком длинное предложение без правильных связок и пунктуации. Его лучше избегать, разделяя идеи."
+    },
+    {
       "id": "q48",
       "type": "error_spotting",
       "prompt": "Найдите корректный вариант: 'I joined the course, which was online it saved time.'",
@@ -765,6 +751,29 @@
       "explanation": "So выражает результат: короткое вступление привело к ясности темы."
     },
     {
+      "id": "q52",
+      "type": "error_spotting",
+      "prompt": "Найдите правильный вариант: 'We met a guide, who was friendly and he gave us advice.'",
+      "theory_block_id": "b4_theory_sentence_variety_punctuation",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "We met a guide, who was friendly and gave us advice."
+        },
+        {
+          "id": "b",
+          "text": "We met a guide, who was friendly and he gave us advice."
+        },
+        {
+          "id": "c",
+          "text": "We met a guide who was friendly, and he gave us advice."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Не нужно повторять подлежащее he после relative clause. Вариант (a) избегает лишнего повторения и звучит естественно."
+    },
+    {
       "id": "q53",
       "type": "mcq_single",
       "prompt": "Что стоит проверить первым делом в чеклисте?",
@@ -795,6 +804,15 @@
       "difficulty": 2,
       "correct_answer": "false",
       "explanation": "Relative clauses не заменяют логические связки между идеями. Текст все равно должен быть связным."
+    },
+    {
+      "id": "q55",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: Before сдачей проверь, что текст содержит минимум ___ relative clauses. (число)",
+      "theory_block_id": "b5_theory_editing_checklist",
+      "difficulty": 1,
+      "correct_answer": "two",
+      "explanation": "Требование задания — минимум два relative clauses. Этот пункт легко проверить в конце."
     },
     {
       "id": "q56",
@@ -946,15 +964,6 @@
       "difficulty": 1,
       "correct_answer": "false",
       "explanation": "Чеклист включает и содержание: структуру, связки и выполнение условий задания. Грамматика — только одна часть."
-    },
-    {
-      "id": "q65",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: If you repeat one word too часто, try to ___ it with a synonym. (глагол)",
-      "theory_block_id": "b5_theory_editing_checklist",
-      "difficulty": 2,
-      "correct_answer": "replace",
-      "explanation": "Replace означает «заменить». Такая правка делает текст более разнообразным."
     }
   ]
 }
