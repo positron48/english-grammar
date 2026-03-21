@@ -330,29 +330,6 @@
         "explanation": "Форма with should выражает совет. Must звучит как требование, а present continuous описывает факт."
       },
       {
-        "id": "q5",
-        "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'She should to rest today.'",
-        "theory_block_id": "b1_should_advice_meaning",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "She should rest today."
-          },
-          {
-            "id": "b",
-            "text": "She should to rest today."
-          },
-          {
-            "id": "c",
-            "text": "She should resting today."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "После should не используется to. Нужна базовая форма rest."
-      },
-      {
         "id": "q6",
         "type": "fill_blank",
         "prompt": "It's late. You should ___ home now. (идти)",
@@ -577,15 +554,6 @@
         "explanation": "После should используется V1 без to. Правильная форма: should go."
       },
       {
-        "id": "q20",
-        "type": "fill_blank",
-        "prompt": "You should ___ your phone during the meeting. (выключить звук)",
-        "theory_block_id": "b2_should_form_basics",
-        "difficulty": 2,
-        "correct_answer": "mute",
-        "explanation": "После should ставится базовая форма глагола. Здесь подходит mute."
-      },
-      {
         "id": "q21",
         "type": "true_false",
         "prompt": "Форма should одинакова для I, you, he, they.",
@@ -616,15 +584,6 @@
         ],
         "correct_answer": "b",
         "explanation": "После should идет базовая форма be. Окончание -s и to не используются."
-      },
-      {
-        "id": "q23",
-        "type": "fill_blank",
-        "prompt": "We should ___ a short break. (сделать)",
-        "theory_block_id": "b2_should_form_basics",
-        "difficulty": 1,
-        "correct_answer": "take",
-        "explanation": "Should требует V1. В сочетании с break обычно используется take."
       },
       {
         "id": "q24",
@@ -979,6 +938,15 @@
         "explanation": "После should нужна базовая форма arrive. Окончание -s недопустимо."
       },
       {
+        "id": "q46",
+        "type": "fill_blank",
+        "prompt": "The weather should ___ better tomorrow. (стать)",
+        "theory_block_id": "b4_should_expectation",
+        "difficulty": 2,
+        "correct_answer": "get",
+        "explanation": "Should + V1. В английском 'становиться' часто выражается get."
+      },
+      {
         "id": "q47",
         "type": "true_false",
         "prompt": "Фраза 'The flight should land at 8' говорит о расписании и ожидании.",
@@ -1098,6 +1066,15 @@
         "explanation": "После must тоже идет базовая форма. Конструкция must to неверна."
       },
       {
+        "id": "q54",
+        "type": "fill_blank",
+        "prompt": "It's a good idea. You ___ try it. (следует)",
+        "theory_block_id": "b5_should_vs_must",
+        "difficulty": 1,
+        "correct_answer": "should",
+        "explanation": "Для мягкой рекомендации используется should. Это не строгая обязанность."
+      },
+      {
         "id": "q55",
         "type": "true_false",
         "prompt": "Фраза 'You must wear a uniform' сильнее по смыслу, чем 'You should wear a uniform'.",
@@ -1130,6 +1107,15 @@
         "explanation": "Should звучит мягко и подходит для совета. Must звучит как приказ."
       },
       {
+        "id": "q57",
+        "type": "fill_blank",
+        "prompt": "At work, you ___ follow safety rules. (обязаны)",
+        "theory_block_id": "b5_should_vs_must",
+        "difficulty": 2,
+        "correct_answer": "must",
+        "explanation": "Здесь речь о правилах, поэтому нужно must. Should выражало бы лишь рекомендацию."
+      },
+      {
         "id": "q58",
         "type": "true_false",
         "prompt": "Should можно заменить на have to без изменения смысла.",
@@ -1137,6 +1123,29 @@
         "difficulty": 3,
         "correct_answer": "false",
         "explanation": "Have to выражает обязательство, а should — рекомендацию. Смысл становится сильнее."
+      },
+      {
+        "id": "q59",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку: 'You should must slow down.'",
+        "theory_block_id": "b5_should_vs_must",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "You should slow down."
+          },
+          {
+            "id": "b",
+            "text": "You must slow down."
+          },
+          {
+            "id": "c",
+            "text": "You should must slow down."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нельзя ставить два модальных глагола вместе. Нужно выбрать should или must."
       },
       {
         "id": "q60",
@@ -1358,9 +1367,10 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
-      "q5",
       "q6",
       "q7",
       "q8",
@@ -1368,16 +1378,18 @@
       "q10",
       "q11",
       "q12",
+      "q13",
+      "q14",
       "q15",
       "q16",
       "q17",
       "q18",
       "q19",
-      "q20",
       "q21",
       "q22",
-      "q23",
       "q24",
+      "q25",
+      "q26",
       "q27",
       "q28",
       "q29",
@@ -1388,6 +1400,8 @@
       "q34",
       "q35",
       "q36",
+      "q37",
+      "q38",
       "q39",
       "q40",
       "q41",
@@ -1395,15 +1409,23 @@
       "q43",
       "q44",
       "q45",
+      "q46",
       "q47",
       "q48",
+      "q49",
+      "q50",
       "q51",
       "q52",
       "q53",
+      "q54",
       "q55",
       "q56",
+      "q57",
       "q58",
+      "q59",
       "q60",
+      "q61",
+      "q62",
       "q63",
       "q64",
       "q65",
@@ -1428,7 +1450,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-21T08:14:09Z",
+    "updated_at": "2026-03-21T08:34:52Z",
     "source": "llm"
   }
 }
