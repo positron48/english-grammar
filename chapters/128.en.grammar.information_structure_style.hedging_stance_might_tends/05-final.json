@@ -83,8 +83,7 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q1",
-          "q2"
+          "q1"
         ],
         "show_answers_immediately": true
       }
@@ -332,15 +331,6 @@
         "explanation": "Might выражает осторожную вероятность и подходит для hedging."
       },
       {
-        "id": "q2",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"This ___ indicate a larger issue.\" (modal)",
-        "theory_block_id": "b1_theory_modals",
-        "difficulty": 2,
-        "correct_answer": "could",
-        "explanation": "Could используется для возможного объяснения: This could indicate..."
-      },
-      {
         "id": "q3",
         "type": "error_spotting",
         "prompt": "Выберите правильный вариант предложения.",
@@ -499,15 +489,6 @@
         ],
         "correct_answer": "a",
         "explanation": "Might снижает категоричность и подходит для hedging."
-      },
-      {
-        "id": "q11",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"These results ___ be influenced by sample size.\" (modal)",
-        "theory_block_id": "b1_theory_modals",
-        "difficulty": 2,
-        "correct_answer": "may",
-        "explanation": "May выражает вероятность и смягчает утверждение."
       },
       {
         "id": "q12",
@@ -1133,37 +1114,6 @@
         "explanation": "Hedging-фрейм: There is some evidence that..."
       },
       {
-        "id": "q47",
-        "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"It is ___ that the team will agree.\"",
-        "theory_block_id": "b4_theory_phrases",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "likely",
-            "feedback": "Верно: likely that..."
-          },
-          {
-            "id": "b",
-            "text": "possible",
-            "feedback": "Возможно, но менее подходящее здесь."
-          },
-          {
-            "id": "c",
-            "text": "certain",
-            "feedback": "Слишком категорично."
-          },
-          {
-            "id": "d",
-            "text": "sure",
-            "feedback": "Слишком уверенно."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "It is likely that... выражает вероятный, но не категоричный вывод."
-      },
-      {
         "id": "q48",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"It is unlikely ___ we will finish today.\" (союз)",
@@ -1293,15 +1243,6 @@
         "explanation": "После should используется базовая форма глагола: should be."
       },
       {
-        "id": "q55",
-        "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"It's ___ to say without more data.\" (adjective)",
-        "theory_block_id": "b5_theory_style_limits",
-        "difficulty": 2,
-        "correct_answer": "hard",
-        "explanation": "Типичный hedging-оборот: It's hard to say without more data."
-      },
-      {
         "id": "q56",
         "type": "true_false",
         "prompt": "Hedging всегда уместен в инструкциях и правилах.",
@@ -1395,6 +1336,7 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
       "q3",
       "q4",
       "q5",
@@ -1403,8 +1345,9 @@
       "q8",
       "q9",
       "q10",
-      "q11",
       "q12",
+      "q13",
+      "q14",
       "q15",
       "q16",
       "q17",
@@ -1415,6 +1358,8 @@
       "q22",
       "q23",
       "q24",
+      "q25",
+      "q26",
       "q27",
       "q28",
       "q29",
@@ -1425,6 +1370,8 @@
       "q34",
       "q35",
       "q36",
+      "q37",
+      "q38",
       "q39",
       "q40",
       "q41",
@@ -1433,13 +1380,13 @@
       "q44",
       "q45",
       "q46",
-      "q47",
       "q48",
+      "q49",
+      "q50",
       "q51",
       "q52",
       "q53",
       "q54",
-      "q55",
       "q56",
       "q57",
       "q58",
@@ -1459,7 +1406,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:24:14Z",
+    "updated_at": "2026-03-21T07:20:03Z",
     "source": "llm"
   }
 }
