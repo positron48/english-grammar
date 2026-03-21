@@ -115,6 +115,16 @@
       "tags": []
     },
     {
+      "id": "q7",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: Participle clauses часто заменяют придаточные с ___/when/because. (пока)",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 2,
+      "correct_answer": "while",
+      "explanation": "V-ing конструкции часто заменяют while/when/because.",
+      "tags": []
+    },
+    {
       "id": "q8",
       "type": "true_false",
       "prompt": "Participle clauses всегда эквивалентны придаточным с if.",
@@ -150,6 +160,34 @@
       ],
       "correct_answer": "a",
       "explanation": "Having finished показывает завершенность до отправки. Это корректный perfect participle.",
+      "tags": []
+    },
+    {
+      "id": "q10",
+      "type": "mcq_single",
+      "prompt": "Какой из вариантов использует past participle?",
+      "theory_block_id": "b1_theory_overview",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Running late, she called."
+        },
+        {
+          "id": "b",
+          "text": "Seen from the hill, the lake is huge."
+        },
+        {
+          "id": "c",
+          "text": "Having checked the list, he left."
+        },
+        {
+          "id": "d",
+          "text": "To finish early, he stayed late."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Seen — это V3 с пассивным значением. Это типичный past participle clause.",
       "tags": []
     },
     {
@@ -761,16 +799,6 @@
       "tags": []
     },
     {
-      "id": "q43",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: ___ speaking, this is a good solution. (в целом)",
-      "theory_block_id": "b5_theory_style_markers",
-      "difficulty": 1,
-      "correct_answer": "Generally",
-      "explanation": "Generally speaking — типичный вводный маркер общего суждения.",
-      "tags": []
-    },
-    {
       "id": "q44",
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: ___ the budget, we did well.",
@@ -875,16 +903,6 @@
       "tags": []
     },
     {
-      "id": "q49",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: ___ speaking, the rule has exceptions. (строго)",
-      "theory_block_id": "b5_theory_style_markers",
-      "difficulty": 1,
-      "correct_answer": "Strictly",
-      "explanation": "Strictly speaking — устойчивое вводное выражение.",
-      "tags": []
-    },
-    {
       "id": "q50",
       "type": "mcq_single",
       "prompt": "Какая пара состоит из устойчивых вводных оборотов?",
@@ -951,13 +969,41 @@
       "tags": []
     },
     {
-      "id": "q55",
-      "type": "true_false",
-      "prompt": "Если нужно подчеркнуть активное действие, нельзя использовать V3.",
+      "id": "q53",
+      "type": "error_spotting",
+      "prompt": "Выберите корректное исправление.",
+      "theory_block_id": "b6_theory_common_errors",
+      "difficulty": 3,
+      "choices": [
+        {
+          "id": "a",
+          "text": "Given the report, she left early."
+        },
+        {
+          "id": "b",
+          "text": "Having given the report, she left early."
+        },
+        {
+          "id": "c",
+          "text": "Giving the report, she left early."
+        },
+        {
+          "id": "d",
+          "text": "To given the report, she left early."
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Если действие активное («она сдала отчет»), нужен having + V3.",
+      "tags": []
+    },
+    {
+      "id": "q54",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: ___ the ticket, he couldn't enter. (lose)",
       "theory_block_id": "b6_theory_common_errors",
       "difficulty": 2,
-      "correct_answer": "true",
-      "explanation": "V3 в participle clauses обычно дает пассивный смысл. Для активного нужен V-ing или having + V3.",
+      "correct_answer": "Having",
+      "explanation": "Having lost показывает, что потеря произошла раньше невозможности войти.",
       "tags": []
     },
     {
@@ -986,6 +1032,16 @@
       ],
       "correct_answer": "b",
       "explanation": "Вариант b сохраняет общий субъект: I was walking and I missed the train.",
+      "tags": []
+    },
+    {
+      "id": "q57",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: ___ the photos, they uploaded them. (edit)",
+      "theory_block_id": "b6_theory_common_errors",
+      "difficulty": 2,
+      "correct_answer": "Having",
+      "explanation": "Having edited показывает, что редактирование предшествует загрузке.",
       "tags": []
     },
     {
