@@ -541,37 +541,6 @@
         "explanation": "Для места используется that: It was in Tokyo that they signed..."
       },
       {
-        "id": "q15",
-        "type": "error_spotting",
-        "prompt": "Выберите правильный вариант предложения.",
-        "theory_block_id": "b2_theory_it_cleft_focus_types",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "It was the client that we met yesterday.",
-            "feedback": "Верно: фокус на дополнении."
-          },
-          {
-            "id": "b",
-            "text": "It was the client we met yesterday.",
-            "feedback": "Нужна относительная часть with that/who."
-          },
-          {
-            "id": "c",
-            "text": "It was the client who we met yesterday.",
-            "feedback": "Who возможно, но обычно that предпочтительнее."
-          },
-          {
-            "id": "d",
-            "text": "It did the client that we met yesterday.",
-            "feedback": "Неверная связка."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "It-cleft требует связку be и относительную часть. It was the client that we met."
-      },
-      {
         "id": "q16",
         "type": "true_false",
         "prompt": "В it-cleft можно выделить обстоятельство места или времени.",
@@ -757,6 +726,37 @@
         "difficulty": 2,
         "correct_answer": "was",
         "explanation": "Wh-cleft согласуется по времени: wanted → was."
+      },
+      {
+        "id": "q27",
+        "type": "error_spotting",
+        "prompt": "Выберите правильный вариант предложения.",
+        "theory_block_id": "b3_theory_wh_cleft_basic",
+        "difficulty": 3,
+        "choices": [
+          {
+            "id": "a",
+            "text": "What I need are time and focus.",
+            "feedback": "Часто допустимо при множественном фокусе, но предпочтительно is."
+          },
+          {
+            "id": "b",
+            "text": "What I need is time and focus.",
+            "feedback": "Верно: what-clause обычно требует is."
+          },
+          {
+            "id": "c",
+            "text": "What I need do time and focus.",
+            "feedback": "Неверная связка."
+          },
+          {
+            "id": "d",
+            "text": "What I need is to time and focus.",
+            "feedback": "Неверная структура."
+          }
+        ],
+        "correct_answer": "b",
+        "explanation": "В wh-cleft обычно используется is как связка. What I need is time and focus."
       },
       {
         "id": "q28",
@@ -1084,6 +1084,37 @@
         "explanation": "Reversed cleft: The problem we faced was timing."
       },
       {
+        "id": "q47",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: \"The issue we discussed ___ unresolved.\"",
+        "theory_block_id": "b4_theory_reversed_cleft",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "is",
+            "feedback": "Верно: present form of be."
+          },
+          {
+            "id": "b",
+            "text": "are",
+            "feedback": "Не согласуется с issue."
+          },
+          {
+            "id": "c",
+            "text": "were",
+            "feedback": "Не подходит по времени."
+          },
+          {
+            "id": "d",
+            "text": "do",
+            "feedback": "Do не используется как связка."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Issue — единственное число, поэтому is."
+      },
+      {
         "id": "q48",
         "type": "fill_blank",
         "prompt": "Заполните пропуск: \"The place we met ___ a quiet cafe.\" (быть)",
@@ -1213,6 +1244,15 @@
         "explanation": "What-clause в прошедшем времени требует was: What he needed was reassurance."
       },
       {
+        "id": "q55",
+        "type": "fill_blank",
+        "prompt": "Заполните пропуск: \"It was the deadline that ___ the pressure.\" (создавать)",
+        "theory_block_id": "b5_theory_style_limits",
+        "difficulty": 3,
+        "correct_answer": "created",
+        "explanation": "Это обычная относительная часть в Past Simple: that created the pressure."
+      },
+      {
         "id": "q56",
         "type": "true_false",
         "prompt": "В it-cleft можно использовать инверсию порядка слов.",
@@ -1306,6 +1346,8 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q1",
+      "q2",
       "q3",
       "q4",
       "q5",
@@ -1316,7 +1358,8 @@
       "q10",
       "q11",
       "q12",
-      "q15",
+      "q13",
+      "q14",
       "q16",
       "q17",
       "q18",
@@ -1326,6 +1369,9 @@
       "q22",
       "q23",
       "q24",
+      "q25",
+      "q26",
+      "q27",
       "q28",
       "q29",
       "q30",
@@ -1335,6 +1381,8 @@
       "q34",
       "q35",
       "q36",
+      "q37",
+      "q38",
       "q39",
       "q40",
       "q41",
@@ -1343,11 +1391,15 @@
       "q44",
       "q45",
       "q46",
+      "q47",
       "q48",
+      "q49",
+      "q50",
       "q51",
       "q52",
       "q53",
       "q54",
+      "q55",
       "q56",
       "q57",
       "q58",
@@ -1367,7 +1419,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-21T08:14:12Z",
+    "updated_at": "2026-03-21T10:39:50Z",
     "source": "llm"
   }
 }
