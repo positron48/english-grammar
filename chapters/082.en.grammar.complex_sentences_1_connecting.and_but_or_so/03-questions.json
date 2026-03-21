@@ -42,29 +42,6 @@
       "id": "q3"
     },
     {
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'I opened the door but sat down.'",
-      "theory_block_id": "b1_coordination_and",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "I opened the door and sat down."
-        },
-        {
-          "id": "b",
-          "text": "I opened the door but sat down."
-        },
-        {
-          "id": "c",
-          "text": "I opened the door and I sat down."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Здесь нет контраста, нужен and.",
-      "id": "q4"
-    },
-    {
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: She called me ___ we talked for an hour.",
       "theory_block_id": "b1_coordination_and",
@@ -104,29 +81,6 @@
       "correct_answer": "false",
       "explanation": "Контраст выражает but, а and — добавление/последовательность.",
       "id": "q7"
-    },
-    {
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'We bought bread or milk.' (значение: купили и то и другое)",
-      "theory_block_id": "b1_coordination_and",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "We bought bread and milk."
-        },
-        {
-          "id": "b",
-          "text": "We bought bread or milk."
-        },
-        {
-          "id": "c",
-          "text": "We bought bread and also milk."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Если купили оба продукта, нужен and.",
-      "id": "q8"
     },
     {
       "type": "mcq_single",
@@ -490,29 +444,6 @@
       "id": "q31"
     },
     {
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'You can take the bus and the train.' (значение: выбор одного)",
-      "theory_block_id": "b3_coordination_or",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "You can take the bus or the train."
-        },
-        {
-          "id": "b",
-          "text": "You can take the bus and the train."
-        },
-        {
-          "id": "c",
-          "text": "You can take a bus or a train."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Для выбора нужен or.",
-      "id": "q32"
-    },
-    {
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: Call me now, ___ I will call you later.",
       "theory_block_id": "b3_coordination_or",
@@ -874,29 +805,6 @@
       "id": "q55"
     },
     {
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку: 'She cooked dinner and, she washed the dishes.'",
-      "theory_block_id": "b5_punctuation_comma",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "She cooked dinner, and she washed the dishes."
-        },
-        {
-          "id": "b",
-          "text": "She cooked dinner and, she washed the dishes."
-        },
-        {
-          "id": "c",
-          "text": "She cooked dinner and washed the dishes."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Запятая ставится перед and, но не после.",
-      "id": "q56"
-    },
-    {
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: I called you, ___ you didn't answer.",
       "theory_block_id": "b5_punctuation_comma",
@@ -927,6 +835,15 @@
       "correct_answer": "or",
       "explanation": "Выбор — or.",
       "id": "q58"
+    },
+    {
+      "type": "true_false",
+      "prompt": "При соединении двух главных предложений and запятая может не ставиться.",
+      "theory_block_id": "b5_punctuation_comma",
+      "difficulty": 3,
+      "correct_answer": "false",
+      "explanation": "С независимыми частями запятая обычно нужна.",
+      "id": "q59"
     },
     {
       "type": "mcq_single",
@@ -1101,15 +1018,6 @@
       "correct_answer": "a",
       "explanation": "But выражает контраст.",
       "id": "q69"
-    },
-    {
-      "type": "fill_blank",
-      "prompt": "Вставьте союз: I was late, ___ I called you. (результат)",
-      "theory_block_id": "b6_sentence_balance",
-      "difficulty": 2,
-      "correct_answer": "so",
-      "explanation": "So — результат.",
-      "id": "q70"
     },
     {
       "type": "true_false",
