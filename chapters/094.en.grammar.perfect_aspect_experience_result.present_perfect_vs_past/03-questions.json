@@ -193,6 +193,15 @@
       "explanation": "С конкретным временем (at 6 p.m.) используем Past Simple: **arrived**."
     },
     {
+      "id": "q11",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: **I have ___ that book already.** (читать)",
+      "theory_block_id": "b1_theory_finished_time",
+      "difficulty": 2,
+      "correct_answer": "read",
+      "explanation": "Already без конкретного времени тянет к Present Perfect: **have read**."
+    },
+    {
       "id": "q12",
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: **My parents ___ in 2005.**",
@@ -437,6 +446,15 @@
       "explanation": "С **just** обычно используется Present Perfect: **have just sent**."
     },
     {
+      "id": "q24",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: **He has ___ the message already, but he hasn't replied yet.** (прочитать)",
+      "theory_block_id": "b2_theory_result_now",
+      "difficulty": 2,
+      "correct_answer": "read",
+      "explanation": "Already без конкретного времени → Present Perfect: **has read**."
+    },
+    {
       "id": "q25",
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: **Have you ___ been to Canada?**",
@@ -533,30 +551,13 @@
       "explanation": "С **last night** нужен Past Simple: **arrived**."
     },
     {
-      "id": "q30",
-      "type": "mcq_single",
-      "prompt": "Выберите правильный вариант: **They have just ___.**",
+      "id": "q31",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: **He has ___ told me about it.** (никогда)",
       "theory_block_id": "b3_theory_time_markers",
       "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "left",
-          "feedback": "Just → Present Perfect + V3 (схема)."
-        },
-        {
-          "id": "b",
-          "text": "leave",
-          "feedback": "Нужна форма V3."
-        },
-        {
-          "id": "c",
-          "text": "leaving",
-          "feedback": "Нужна форма V3 после have."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "С **just** используем Present Perfect: **have just left**."
+      "correct_answer": "never",
+      "explanation": "Never — типичный маркер Present Perfect: **has never told**."
     },
     {
       "id": "q32",
@@ -655,29 +656,6 @@
       "explanation": "С **yet** в отрицании используется Present Perfect: **haven't paid**."
     },
     {
-      "id": "q37",
-      "type": "mcq_single",
-      "prompt": "Выберите правильный вариант: **___ you ever ___ to Japan?**",
-      "theory_block_id": "b4_theory_questions_follow_up",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "Have / been"
-        },
-        {
-          "id": "b",
-          "text": "Did / go"
-        },
-        {
-          "id": "c",
-          "text": "Are / going"
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Опыт без времени спрашиваем в Present Perfect: **Have you ever been...?**"
-    },
-    {
       "id": "q38",
       "type": "mcq_single",
       "prompt": "Выберите правильный вариант: **When ___ you ___ it?**",
@@ -702,15 +680,6 @@
       ],
       "correct_answer": "a",
       "explanation": "С **when** используем Past Simple: **When did you do it?**"
-    },
-    {
-      "id": "q39",
-      "type": "fill_blank",
-      "prompt": "Заполните пропуск: **Where ___ you buy it?** (do)",
-      "theory_block_id": "b4_theory_questions_follow_up",
-      "difficulty": 2,
-      "correct_answer": "did",
-      "explanation": "Where — уточнение времени/места, поэтому Past Simple: **did**."
     },
     {
       "id": "q40",
@@ -746,6 +715,32 @@
       ],
       "correct_answer": "a",
       "explanation": "С **last weekend** вопрос должен быть в Past Simple: **Did you see...?**"
+    },
+    {
+      "id": "q42",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: **Have you ever met him? — Yes, I ___ him at a conference in 2022.**",
+      "theory_block_id": "b4_theory_questions_follow_up",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "met",
+          "feedback": "Деталь с конкретным временем → Past Simple."
+        },
+        {
+          "id": "b",
+          "text": "have met",
+          "feedback": "Present Perfect не сочетается с in 2022."
+        },
+        {
+          "id": "c",
+          "text": "meet",
+          "feedback": "Нужна прошедшая форма."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Уточнение времени переводит ответ в Past Simple: **met**."
     },
     {
       "id": "q43",
@@ -973,6 +968,15 @@
       ],
       "correct_answer": "a",
       "explanation": "Период еще открыт (утро продолжается), поэтому **have had**."
+    },
+    {
+      "id": "q55",
+      "type": "fill_blank",
+      "prompt": "Заполните пропуск: **We have ___ to the museum this morning (it's still morning).** (go)",
+      "theory_block_id": "b5_theory_open_closed_time",
+      "difficulty": 2,
+      "correct_answer": "gone",
+      "explanation": "Утро еще продолжается, поэтому допустим Present Perfect: **have gone**."
     },
     {
       "id": "q56",
