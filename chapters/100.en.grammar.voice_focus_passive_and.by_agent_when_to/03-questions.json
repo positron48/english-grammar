@@ -49,31 +49,31 @@
       "tags": []
     },
     {
-      "id": "q4",
-      "type": "error_spotting",
-      "prompt": "Найдите ошибку и выберите исправленное предложение: \"The rules were explained by the teacher in every class.\"",
+      "id": "q5",
+      "type": "mcq_single",
+      "prompt": "Выберите предложение, где агент очевиден и может быть опущен.",
       "theory_block_id": "b1_theory_omit_agent",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "The rules were explained in every class."
+          "text": "The exam is graded by the teacher."
         },
         {
           "id": "b",
-          "text": "The rules were explaining by the teacher in every class."
+          "text": "The exam is graded every Friday."
         },
         {
           "id": "c",
-          "text": "The rules explained in every class."
+          "text": "The exam is grading every Friday."
         },
         {
           "id": "d",
-          "text": "The rules were explained by every class."
+          "text": "The exam grades every Friday."
         }
       ],
-      "correct_answer": "a",
-      "explanation": "В этом контексте исполнитель очевиден, поэтому by-агента лучше опустить.",
+      "correct_answer": "b",
+      "explanation": "В варианте b достаточно факта регулярности, исполнитель не нужен.",
       "tags": []
     },
     {
@@ -277,6 +277,34 @@
       "tags": []
     },
     {
+      "id": "q17",
+      "type": "mcq_single",
+      "prompt": "Выберите корректное предложение: The message was sent ___ the app.",
+      "theory_block_id": "b3_theory_agent_types",
+      "difficulty": 2,
+      "choices": [
+        {
+          "id": "a",
+          "text": "via"
+        },
+        {
+          "id": "b",
+          "text": "by"
+        },
+        {
+          "id": "c",
+          "text": "with"
+        },
+        {
+          "id": "d",
+          "text": "at"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Для канала/средства общения подходит via, это уточняет способ отправки.",
+      "tags": []
+    },
+    {
       "id": "q18",
       "type": "true_false",
       "prompt": "Фраза \"The email was sent by a laptop\" корректна, потому что laptop — инструмент.",
@@ -335,31 +363,31 @@
       "tags": []
     },
     {
-      "id": "q23",
-      "type": "mcq_single",
-      "prompt": "Выберите вариант, который звучит нейтрально в новостях.",
-      "theory_block_id": "b5_theory_news_reports",
+      "id": "q22",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку и выберите исправленное предложение: \"A decision was made by.\"",
+      "theory_block_id": "b4_theory_avoid_by",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "The suspect was arrested last night."
+          "text": "A decision was made."
         },
         {
           "id": "b",
-          "text": "The police arrested the suspect last night."
+          "text": "A decision was made by the team."
         },
         {
           "id": "c",
-          "text": "The suspect was arresting last night."
+          "text": "A decision made by."
         },
         {
           "id": "d",
-          "text": "The suspect arrested last night."
+          "text": "A decision was making by."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Пассив без агента передает факт нейтрально, что типично для новостей.",
+      "explanation": "Если агент не указан, by нельзя оставлять без дополнения.",
       "tags": []
     },
     {
@@ -573,31 +601,41 @@
       "tags": []
     },
     {
-      "id": "q37",
-      "type": "mcq_single",
-      "prompt": "Выберите нейтральный новостной вариант.",
-      "theory_block_id": "b5_theory_news_reports",
+      "id": "q36",
+      "type": "error_spotting",
+      "prompt": "Найдите ошибку и выберите исправленное предложение: \"The statement was issued by.\"",
+      "theory_block_id": "b4_theory_avoid_by",
       "difficulty": 2,
       "choices": [
         {
           "id": "a",
-          "text": "A new policy was introduced yesterday."
+          "text": "The statement was issued."
         },
         {
           "id": "b",
-          "text": "The government introduced a new policy yesterday."
+          "text": "The statement was issued by the spokesperson."
         },
         {
           "id": "c",
-          "text": "A new policy introduced yesterday."
+          "text": "The statement issued by."
         },
         {
           "id": "d",
-          "text": "A new policy was introducing yesterday."
+          "text": "The statement was issuing by."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Пассив без агента звучит нейтрально и типичен для новостей.",
+      "explanation": "Если агента нет, by не должно оставаться без дополнения.",
+      "tags": []
+    },
+    {
+      "id": "q38",
+      "type": "true_false",
+      "prompt": "В официальных сообщениях by-агент часто добавляют, чтобы подчеркнуть ответственность.",
+      "theory_block_id": "b5_theory_news_reports",
+      "difficulty": 1,
+      "correct_answer": "false",
+      "explanation": "Чаще агент опускают ради нейтральности, если он не критичен.",
       "tags": []
     },
     {
@@ -712,34 +750,6 @@
       ],
       "correct_answer": "a",
       "explanation": "Агент — человек, используется by.",
-      "tags": []
-    },
-    {
-      "id": "q45",
-      "type": "mcq_single",
-      "prompt": "Выберите вариант, где лучше сохранить нейтральность.",
-      "theory_block_id": "b5_theory_news_reports",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "The contract was terminated last week."
-        },
-        {
-          "id": "b",
-          "text": "The company terminated the contract last week."
-        },
-        {
-          "id": "c",
-          "text": "The contract terminated last week."
-        },
-        {
-          "id": "d",
-          "text": "The contract was terminating last week."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Пассив без агента звучит нейтрально, что типично для официального тона.",
       "tags": []
     },
     {
@@ -940,34 +950,6 @@
       ],
       "correct_answer": "a",
       "explanation": "Молоток — инструмент, поэтому нужен with.",
-      "tags": []
-    },
-    {
-      "id": "q57",
-      "type": "mcq_single",
-      "prompt": "Выберите нейтральную формулировку без агента.",
-      "theory_block_id": "b5_theory_news_reports",
-      "difficulty": 2,
-      "choices": [
-        {
-          "id": "a",
-          "text": "A new regulation was adopted yesterday."
-        },
-        {
-          "id": "b",
-          "text": "The council adopted a new regulation yesterday."
-        },
-        {
-          "id": "c",
-          "text": "A new regulation adopted yesterday."
-        },
-        {
-          "id": "d",
-          "text": "A new regulation was adopting yesterday."
-        }
-      ],
-      "correct_answer": "a",
-      "explanation": "Пассив без агента нейтрален и типичен для официального тона.",
       "tags": []
     },
     {
