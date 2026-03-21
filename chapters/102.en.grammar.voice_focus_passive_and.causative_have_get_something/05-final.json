@@ -65,7 +65,6 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q1",
           "q2"
         ],
         "show_answers_immediately": true
@@ -106,7 +105,6 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q6",
           "q7"
         ],
         "show_answers_immediately": true
@@ -147,7 +145,6 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q11",
           "q12"
         ],
         "show_answers_immediately": true
@@ -188,8 +185,8 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q17",
-          "q18"
+          "q16",
+          "q17"
         ],
         "show_answers_immediately": true
       }
@@ -239,34 +236,6 @@
   "question_bank": {
     "questions": [
       {
-        "id": "q1",
-        "type": "mcq_single",
-        "prompt": "Выберите предложение с каузативом.",
-        "theory_block_id": "b1_theory_meaning_causative",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "I had my car repaired yesterday."
-          },
-          {
-            "id": "b",
-            "text": "My car repaired yesterday."
-          },
-          {
-            "id": "c",
-            "text": "My car was repairing yesterday."
-          },
-          {
-            "id": "d",
-            "text": "I repaired my car yesterday."
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Кауcатив показывает, что действие организовано: had my car repaired.",
-        "tags": []
-      },
-      {
         "id": "q2",
         "type": "true_false",
         "prompt": "Causative have/get something done означает, что действие выполняет другой человек.",
@@ -274,6 +243,16 @@
         "difficulty": 1,
         "correct_answer": "true",
         "explanation": "В каузативе вы организуете действие, но выполняет его кто-то другой.",
+        "tags": []
+      },
+      {
+        "id": "q3",
+        "type": "fill_blank",
+        "prompt": "Вставьте пропущенное: She got her hair ___ yesterday. (trim)",
+        "theory_block_id": "b1_theory_meaning_causative",
+        "difficulty": 2,
+        "correct_answer": "cut",
+        "explanation": "В каузативе используется V3: get + object + V3.",
         "tags": []
       },
       {
@@ -333,34 +312,6 @@
         "tags": []
       },
       {
-        "id": "q6",
-        "type": "mcq_single",
-        "prompt": "Выберите правильную форму: I ___ my phone fixed today.",
-        "theory_block_id": "b2_theory_form_have_get",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "had"
-          },
-          {
-            "id": "b",
-            "text": "have"
-          },
-          {
-            "id": "c",
-            "text": "got"
-          },
-          {
-            "id": "d",
-            "text": "getting"
-          }
-        ],
-        "correct_answer": "c",
-        "explanation": "Get звучит разговорно и подходит для результата: got my phone fixed.",
-        "tags": []
-      },
-      {
         "id": "q7",
         "type": "fill_blank",
         "prompt": "Вставьте пропущенное: We had the windows ___. (clean)",
@@ -416,34 +367,6 @@
         "difficulty": 2,
         "correct_answer": "fixed",
         "explanation": "Have + object + V3: had my laptop fixed.",
-        "tags": []
-      },
-      {
-        "id": "q11",
-        "type": "mcq_single",
-        "prompt": "Выберите правильную форму: They ___ the roof repaired next week.",
-        "theory_block_id": "b3_theory_tenses",
-        "difficulty": 2,
-        "choices": [
-          {
-            "id": "a",
-            "text": "will have"
-          },
-          {
-            "id": "b",
-            "text": "will had"
-          },
-          {
-            "id": "c",
-            "text": "will get"
-          },
-          {
-            "id": "d",
-            "text": "had"
-          }
-        ],
-        "correct_answer": "a",
-        "explanation": "Будущее время: will have + object + V3.",
         "tags": []
       },
       {
@@ -523,6 +446,34 @@
         "tags": []
       },
       {
+        "id": "q16",
+        "type": "mcq_single",
+        "prompt": "Выберите правильное соответствие: The car was repaired.",
+        "theory_block_id": "b4_theory_causative_vs_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "I had the car repaired."
+          },
+          {
+            "id": "b",
+            "text": "I repaired the car."
+          },
+          {
+            "id": "c",
+            "text": "The car repaired."
+          },
+          {
+            "id": "d",
+            "text": "The car was repairing."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Каузатив добавляет идею организации действия.",
+        "tags": []
+      },
+      {
         "id": "q17",
         "type": "true_false",
         "prompt": "Пассив и каузатив всегда означают одно и то же.",
@@ -540,6 +491,34 @@
         "difficulty": 2,
         "correct_answer": "painted",
         "explanation": "Causative: had + object + V3.",
+        "tags": []
+      },
+      {
+        "id": "q19",
+        "type": "error_spotting",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The kitchen had painted last month.\"",
+        "theory_block_id": "b4_theory_causative_vs_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We had the kitchen painted last month."
+          },
+          {
+            "id": "b",
+            "text": "The kitchen was painted last month."
+          },
+          {
+            "id": "c",
+            "text": "The kitchen had painting last month."
+          },
+          {
+            "id": "d",
+            "text": "The kitchen had painted last month."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Каузатив требует have + object + V3.",
         "tags": []
       },
       {
@@ -733,6 +712,34 @@
         "tags": []
       },
       {
+        "id": "q30",
+        "type": "mcq_single",
+        "prompt": "Выберите правильное соответствие: The window was cleaned.",
+        "theory_block_id": "b4_theory_causative_vs_passive",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "We had the window cleaned."
+          },
+          {
+            "id": "b",
+            "text": "We cleaned the window."
+          },
+          {
+            "id": "c",
+            "text": "The window cleaned."
+          },
+          {
+            "id": "d",
+            "text": "The window was cleaning."
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Каузатив добавляет смысл организации действия.",
+        "tags": []
+      },
+      {
         "id": "q31",
         "type": "error_spotting",
         "prompt": "Найдите ошибку и выберите исправленное предложение: \"She has her hair cut yesterday.\"",
@@ -781,13 +788,31 @@
         "tags": []
       },
       {
-        "id": "q35",
-        "type": "true_false",
-        "prompt": "Causative всегда подразумевает, что действие сделано по вашей инициативе.",
-        "theory_block_id": "b1_theory_meaning_causative",
-        "difficulty": 1,
-        "correct_answer": "true",
-        "explanation": "Вы организуете или поручаете действие.",
+        "id": "q34",
+        "type": "mcq_single",
+        "prompt": "Выберите подходящий вариант: I had my passport ___ at the embassy.",
+        "theory_block_id": "b5_theory_common_contexts",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "renewed"
+          },
+          {
+            "id": "b",
+            "text": "renew"
+          },
+          {
+            "id": "c",
+            "text": "renewing"
+          },
+          {
+            "id": "d",
+            "text": "renewed"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Нужна форма V3: renewed.",
         "tags": []
       },
       {
@@ -912,6 +937,44 @@
         "difficulty": 1,
         "correct_answer": "true",
         "explanation": "Каузатив фокусируется на организации действия, а не на исполнителе.",
+        "tags": []
+      },
+      {
+        "id": "q43",
+        "type": "mcq_single",
+        "prompt": "Выберите правильную форму: She ___ her portrait painted by a local artist.",
+        "theory_block_id": "b2_theory_form_have_get",
+        "difficulty": 2,
+        "choices": [
+          {
+            "id": "a",
+            "text": "had"
+          },
+          {
+            "id": "b",
+            "text": "has"
+          },
+          {
+            "id": "c",
+            "text": "got"
+          },
+          {
+            "id": "d",
+            "text": "having"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "Прошедшее время: had her portrait painted.",
+        "tags": []
+      },
+      {
+        "id": "q44",
+        "type": "true_false",
+        "prompt": "Kaуcative всегда переводится как пассив и не имеет отличий в смысле.",
+        "theory_block_id": "b4_theory_causative_vs_passive",
+        "difficulty": 1,
+        "correct_answer": "false",
+        "explanation": "Каузатив добавляет идею организации действия, это отличие от пассива.",
         "tags": []
       },
       {
@@ -1187,15 +1250,25 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
+      "q2",
+      "q3",
       "q4",
       "q5",
+      "q7",
       "q8",
       "q9",
       "q10",
+      "q12",
       "q13",
       "q14",
       "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
       "q20",
+      "q21",
+      "q22",
       "q23",
       "q24",
       "q25",
@@ -1203,10 +1276,11 @@
       "q27",
       "q28",
       "q29",
+      "q30",
       "q31",
       "q32",
       "q33",
-      "q35",
+      "q34",
       "q36",
       "q37",
       "q38",
@@ -1214,6 +1288,8 @@
       "q40",
       "q41",
       "q42",
+      "q43",
+      "q44",
       "q45",
       "q46",
       "q47",
@@ -1244,7 +1320,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-21T08:14:11Z",
+    "updated_at": "2026-03-21T10:13:09Z",
     "source": "llm"
   }
 }
