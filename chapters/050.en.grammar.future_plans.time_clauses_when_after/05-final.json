@@ -154,7 +154,8 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q25"
+          "q25",
+          "q27"
         ],
         "show_answers_immediately": true
       }
@@ -196,7 +197,8 @@
       "title": "Проверка знаний",
       "quiz_inline": {
         "question_ids": [
-          "q37"
+          "q37",
+          "q39"
         ],
         "show_answers_immediately": true
       }
@@ -590,7 +592,7 @@
       {
         "id": "q23",
         "type": "fill_blank",
-        "prompt": "I'll open the windows when it ___. (когда)",
+        "prompt": "I'll open the windows when it ___. (get hot, без will)",
         "theory_block_id": "b2_theory_when",
         "difficulty": 2,
         "correct_answer": "gets",
@@ -759,11 +761,11 @@
       {
         "id": "q35",
         "type": "fill_blank",
-        "prompt": "We'll leave after it ___. (после)",
+        "prompt": "We'll leave after the meeting ___. (end)",
         "theory_block_id": "b3_theory_after",
         "difficulty": 1,
-        "correct_answer": "stops",
-        "explanation": "В придаточном времени Present Simple: it stops."
+        "correct_answer": "ends",
+        "explanation": "После after в придаточном времени нужен Present Simple: the meeting ends."
       },
       {
         "id": "q36",
@@ -1258,8 +1260,6 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q2",
       "q3",
       "q6",
       "q8",
@@ -1267,8 +1267,6 @@
       "q10",
       "q11",
       "q12",
-      "q13",
-      "q14",
       "q15",
       "q16",
       "q17",
@@ -1279,8 +1277,6 @@
       "q22",
       "q23",
       "q24",
-      "q25",
-      "q27",
       "q28",
       "q29",
       "q30",
@@ -1290,8 +1286,6 @@
       "q34",
       "q35",
       "q36",
-      "q37",
-      "q39",
       "q40",
       "q41",
       "q42",
@@ -1301,8 +1295,6 @@
       "q46",
       "q47",
       "q48",
-      "q49",
-      "q50",
       "q51",
       "q53",
       "q54",
@@ -1311,8 +1303,6 @@
       "q58",
       "q59",
       "q60",
-      "q61",
-      "q62",
       "q63",
       "q64",
       "q65",
@@ -1337,7 +1327,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-21T08:33:22Z",
+    "updated_at": "2026-04-10T18:42:26Z",
     "source": "llm"
   }
 }

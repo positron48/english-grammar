@@ -764,12 +764,30 @@
     },
     {
       "id": "q55",
-      "type": "fill_blank",
-      "prompt": "I'll call you after I ___. (без will)",
+      "type": "mcq_single",
+      "prompt": "Выберите правильный вариант: **I'll call you after I ___.**",
       "theory_block_id": "b5_theory_common_mistakes",
       "difficulty": 1,
-      "correct_answer": "arrive",
-      "explanation": "Time clause требует Present Simple: arrive."
+      "choices": [
+        {
+          "id": "a",
+          "text": "arrive"
+        },
+        {
+          "id": "b",
+          "text": "will arrive"
+        },
+        {
+          "id": "c",
+          "text": "am arriving"
+        },
+        {
+          "id": "d",
+          "text": "arrived"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "После after в придаточном времени нужен Present Simple: arrive."
     },
     {
       "id": "q56",

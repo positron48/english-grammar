@@ -1016,12 +1016,30 @@
       },
       {
         "id": "q55",
-        "type": "fill_blank",
-        "prompt": "I'll call you after I ___. (без will)",
+        "type": "mcq_single",
+        "prompt": "Выберите правильный вариант: **I'll call you after I ___.**",
         "theory_block_id": "b5_theory_common_mistakes",
         "difficulty": 1,
-        "correct_answer": "arrive",
-        "explanation": "Time clause требует Present Simple: arrive."
+        "choices": [
+          {
+            "id": "a",
+            "text": "arrive"
+          },
+          {
+            "id": "b",
+            "text": "will arrive"
+          },
+          {
+            "id": "c",
+            "text": "am arriving"
+          },
+          {
+            "id": "d",
+            "text": "arrived"
+          }
+        ],
+        "correct_answer": "a",
+        "explanation": "После after в придаточном времени нужен Present Simple: arrive."
       },
       {
         "id": "q56",
@@ -1101,8 +1119,6 @@
   "chapter_test": {
     "num_questions": 10,
     "pool_question_ids": [
-      "q1",
-      "q2",
       "q3",
       "q4",
       "q5",
@@ -1112,8 +1128,6 @@
       "q10",
       "q11",
       "q12",
-      "q13",
-      "q14",
       "q15",
       "q16",
       "q17",
@@ -1124,8 +1138,6 @@
       "q22",
       "q23",
       "q24",
-      "q25",
-      "q26",
       "q27",
       "q28",
       "q29",
@@ -1136,8 +1148,6 @@
       "q34",
       "q35",
       "q36",
-      "q37",
-      "q38",
       "q39",
       "q40",
       "q41",
@@ -1148,8 +1158,6 @@
       "q46",
       "q47",
       "q48",
-      "q49",
-      "q50",
       "q51",
       "q52",
       "q53",
@@ -1173,7 +1181,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-21T08:33:45Z",
+    "updated_at": "2026-04-10T18:41:29Z",
     "source": "llm"
   }
 }
