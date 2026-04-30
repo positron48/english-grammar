@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Training Pack Admin</title>
+  <style>
+    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: #0f1115; color: #e8ecf3; }
+    .layout { display: grid; grid-template-columns: 320px 1fr; height: 100vh; }
+    .sidebar { border-right: 1px solid #273043; overflow-y: auto; overflow-x: hidden; padding: 12px; }
+    .content { overflow: auto; padding: 14px; }
+    .muted { color: #9aa7bd; font-size: 12px; }
+    .folder { margin: 10px 0 4px; color: #7ac7ff; font-weight: 600; }
+    .folder-btn { width: 100%; text-align: left; background: #111a2a; border: 1px solid #2a3d5b; color: #a9d3ff; border-radius: 6px; padding: 6px 8px; cursor: pointer; font-weight: 600; }
+    .folder-btn:hover { background: #17253c; }
+    .folder-btn.folder-has-new { border-left: 4px solid #2fb35f; padding-left: 6px; }
+    .folder-btn.folder-has-modified { border-left: 4px solid #e69f2a; padding-left: 6px; }
+    .folder-range-btn { width: 100%; text-align: left; background: #0e1624; border: 1px dashed #2f4566; color: #8fa6c7; border-radius: 6px; padding: 6px 8px; cursor: pointer; font-weight: 600; margin: 4px 0; }
+    .folder-range-btn:hover { background: #141f30; color: #c8d6ec; }
+    .folder-files { margin-top: 4px; }
+    .file { display: block; width: 100%; text-align: left; margin: 2px 0; background: transparent; color: #d8dfec; border: 1px solid transparent; border-radius: 6px; padding: 6px 8px; cursor: pointer; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .file:hover { background: #172134; border-color: #2f3f62; }
+    .file.active { background: #1e3558; border-color: #466aa5; }
+    .file.file-has-new { border-left: 4px solid #2fb35f; padding-left: 6px; }
+    .file.file-has-modified { border-left: 4px solid #e69f2a; padding-left: 6px; }
+    .topbar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 10px; }
+    button { background: #1a3d63; border: 1px solid #3a648f; color: #e8ecf3; border-radius: 6px; padding: 6px 10px; cursor: pointer; }
+    button:hover { background: #234e7e; }
+    button.danger { background: #652434; border-color: #8d3650; }
+    .card { border: 1px solid #273043; border-radius: 8px; padding: 10px; background: #121722; margin-bottom: 10px; }
+    .question-title { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 8px; }
+    .choices { margin: 8px 0 0; padding-left: 18px; }
+    .ok { color: #7ce38b; font-weight: 700; }
+    .error { color: #ff7b96; }
+    .question { border: 1px solid #273043; border-radius: 8px; padding: 10px; margin-bottom: 10px; background: #0f1520; }
+    .question.git-new { border-left: 6px solid #2fb35f; }
+    .question.git-changed { border-left: 6px solid #e69f2a; }
+    .badge { display: inline-block; border-radius: 999px; padding: 2px 8px; font-size: 12px; font-weight: 600; margin-left: 8px; }
+    .badge.new { background: rgba(47,179,95,0.22); color: #7ce38b; }
+    .badge.changed { background: rgba(230,159,42,0.22); color: #ffd48a; }
+    .markdown-content { line-height: 1.45; }
+    .markdown-content code { background: #0c1019; border: 1px solid #273043; border-radius: 4px; padding: 1px 4px; }
+    .markdown-content p { margin: 0 0 8px; }
+    .markdown-content ul { margin: 6px 0 8px 20px; }
+    .markdown-content h1, .markdown-content h2, .markdown-content h3, .markdown-content h4, .markdown-content h5, .markdown-content h6 { margin: 10px 0 8px; line-height: 1.25; }
+    .markdown-content h1 { font-size: 22px; }
+    .markdown-content h2 { font-size: 19px; }
+    .markdown-content h3 { font-size: 17px; }
+    .markdown-content h4 { font-size: 15px; }
+    .markdown-content table { border-collapse: collapse; width: 100%; margin: 8px 0 10px; }
+    .markdown-content th, .markdown-content td { border: 1px solid #2d3b52; padding: 6px 8px; text-align: left; vertical-align: top; }
+    .markdown-content th { background: #172134; }
+    .sidebar { scrollbar-width: thin; scrollbar-color: #49628f #0f1115; }
+    .sidebar::-webkit-scrollbar { width: 10px; }
+    .sidebar::-webkit-scrollbar-track { background: #0f1115; }
+    .sidebar::-webkit-scrollbar-thumb { background: #49628f; border-radius: 8px; border: 2px solid #0f1115; }
+    .sidebar::-webkit-scrollbar-thumb:hover { background: #6282bc; }
+  </style>
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar">
+    <h3 style="margin:4px 0 8px;">Training Pack</h3>
+    <div class="muted">Файлы `training_pack/chapters/*/*.questions.json`</div>
+    <div id="files"></div>
+  </aside>
+  <main class="content">
+    <div class="topbar">
+      <button id="prevFileBtn">Пред. файл</button>
+      <button id="nextFileBtn">След. файл</button>
+      <span id="gitSummary" class="muted"></span>
+      <span id="status" class="muted"></span>
+    </div>
+
+    <div class="card">
+      <div class="muted">Файл</div>
+      <div id="filePath"></div>
+    </div>
+
+    <div class="card">
+      <div class="muted">Теория блока</div>
+      <div id="theoryMeta"></div>
+      <div id="theoryContent" class="markdown-content"></div>
+    </div>
+
+    <div class="card">
+      <div class="question-title">
+        <strong id="qTitle">Вопросы блока</strong>
+      </div>
+      <div id="questionsList"></div>
+    </div>
+
+    <div class="topbar">
+      <button id="prevFileBtnBottom">Пред. файл</button>
+      <button id="nextFileBtnBottom">След. файл</button>
+    </div>
+  </main>
+</div>
+
+<script>
+let state = {
+  files: [],
+  selectedFileIdx: -1,
+  current: null,
+  collapsedFolders: {},
+};
+
+function byId(id) { return document.getElementById(id); }
+
+function groupedFiles(files) {
+  const map = new Map();
+  for (const f of files) {
+    if (!map.has(f.folder)) map.set(f.folder, []);
+    map.get(f.folder).push(f);
+  }
+  return map;
+}
+
+function folderHasGitChanges(items) {
+  return items.some((f) => {
+    const s = (f.git || {}).status;
+    return s === 'new' || s === 'modified';
+  });
+}
+
+function firstFileIdxWithGitChanges() {
+  for (let i = 0; i < state.files.length; i++) {
+    const s = (state.files[i].git || {}).status;
+    if (s === 'new' || s === 'modified') return i;
+  }
+  return -1;
+}
+
+function folderDisplayNum(folder) {
+  const n = parseInt(folder, 10);
+  return Number.isFinite(n) ? String(n) : folder;
+}
+
+function parseBlockNumFromFileName(fileName) {
+  const m = String(fileName || '').match(/^[a-z]{2}\.(\d{2})\./i);
+  return m ? m[1] : null;
+}
+
+function routeFromPath(pathname) {
+  const m = String(pathname || '').match(/^\/(\d{3})\/(\d{2})\/?$/);
+  if (!m) return null;
+  return { chapter: m[1], block: m[2] };
+}
+
+function findFileIndexByRoute(route) {
+  if (!route) return -1;
+  for (let i = 0; i < state.files.length; i++) {
+    const f = state.files[i];
+    if (String(f.folder) !== route.chapter) continue;
+    if (parseBlockNumFromFileName(f.file) === route.block) return i;
+  }
+  return -1;
+}
+
+function routeForFile(file) {
+  if (!file) return null;
+  const chapter = String(file.folder || '').padStart(3, '0');
+  const block = parseBlockNumFromFileName(file.file);
+  if (!/^\d{3}$/.test(chapter) || !/^\d{2}$/.test(String(block || ''))) return null;
+  return `/${chapter}/${block}`;
+}
+
+function syncUrlToSelectedFile() {
+  const file = state.files[state.selectedFileIdx];
+  const nextPath = routeForFile(file);
+  if (!nextPath) return;
+  if (window.location.pathname === nextPath) return;
+  history.replaceState({ selectedFileIdx: state.selectedFileIdx }, '', nextPath);
+}
+
+function renderFiles() {
+  const root = byId('files');
+  root.innerHTML = '';
+  const groups = groupedFiles(state.files);
+  const entries = Array.from(groups.entries());
+  let i = 0;
+  while (i < entries.length) {
+    const [folder, items] = entries[i];
+    const hasChanges = folderHasGitChanges(items);
+    if (state.collapsedFolders[folder] === undefined) {
+      state.collapsedFolders[folder] = !hasChanges;
+    }
+    const isCollapsed = !!state.collapsedFolders[folder];
+    if (hasChanges || !isCollapsed) {
+      const h = document.createElement('button');
+      h.className = 'folder-btn'
+        + (items.some((f) => (f.git || {}).status === 'new') ? ' folder-has-new'
+          : (items.some((f) => (f.git || {}).status === 'modified') ? ' folder-has-modified' : ''));
+      h.textContent = `${isCollapsed ? '▸' : '▾'} Глава ${folderDisplayNum(folder)}`;
+      h.onclick = () => {
+        state.collapsedFolders[folder] = !state.collapsedFolders[folder];
+        renderFiles();
+      };
+      root.appendChild(h);
+      const filesWrap = document.createElement('div');
+      filesWrap.className = 'folder-files';
+      filesWrap.style.display = isCollapsed ? 'none' : 'block';
+      for (const file of items) {
+        const idx = state.files.findIndex(x => x.rel_path === file.rel_path);
+        const btn = document.createElement('button');
+        const g = file.git || {};
+        const hasNew = g.status === 'new';
+        const hasModified = g.status === 'modified';
+        btn.className = 'file'
+          + (idx === state.selectedFileIdx ? ' active' : '')
+          + (hasNew ? ' file-has-new' : (hasModified ? ' file-has-modified' : ''));
+        btn.textContent = file.file;
+        btn.onclick = () => loadFileByIndex(idx);
+        filesWrap.appendChild(btn);
+      }
+      root.appendChild(filesWrap);
+      i += 1;
+      continue;
+    }
+    let j = i;
+    while (j < entries.length) {
+      const [f2, it2] = entries[j];
+      const ch2 = folderHasGitChanges(it2);
+      if (state.collapsedFolders[f2] === undefined) state.collapsedFolders[f2] = !ch2;
+      const col2 = !!state.collapsedFolders[f2];
+      if (ch2 || !col2) break;
+      j += 1;
+    }
+    const rangeFolders = entries.slice(i, j).map((e) => e[0]);
+    const n0 = parseInt(rangeFolders[0], 10);
+    const n1 = parseInt(rangeFolders[rangeFolders.length - 1], 10);
+    const canCompact = rangeFolders.length >= 2 && Number.isFinite(n0) && Number.isFinite(n1);
+    if (canCompact) {
+      const btn = document.createElement('button');
+      btn.className = 'folder-range-btn';
+      btn.textContent = `▸ Глава ${n0} - ${n1}`;
+      btn.onclick = () => {
+        for (const fid of rangeFolders) state.collapsedFolders[fid] = false;
+        renderFiles();
+      };
+      root.appendChild(btn);
+      i = j;
+      continue;
+    }
+    const [fOnly, itemsOnly] = entries[i];
+    const h = document.createElement('button');
+    h.className = 'folder-btn';
+    h.textContent = `▸ Глава ${folderDisplayNum(fOnly)}`;
+    h.onclick = () => {
+      state.collapsedFolders[fOnly] = !state.collapsedFolders[fOnly];
+      renderFiles();
+    };
+    root.appendChild(h);
+    const filesWrap = document.createElement('div');
+    filesWrap.className = 'folder-files';
+    filesWrap.style.display = 'none';
+    for (const file of itemsOnly) {
+      const fileIdx = state.files.findIndex(x => x.rel_path === file.rel_path);
+      const b = document.createElement('button');
+      b.className = 'file' + (fileIdx === state.selectedFileIdx ? ' active' : '');
+      b.textContent = file.file;
+      b.onclick = () => loadFileByIndex(fileIdx);
+      filesWrap.appendChild(b);
+    }
+    root.appendChild(filesWrap);
+    i += 1;
+  }
+}
+
+async function apiGet(url) {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(await r.text());
+  return r.json();
+}
+
+async function apiPost(url, payload) {
+  const r = await fetch(url, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+  });
+  if (!r.ok) throw new Error(await r.text());
+  return r.json();
+}
+
+function renderTheory() {
+  const t = state.current?.theory_block;
+  if (!t) {
+    byId('theoryMeta').textContent = 'Теория не найдена по chapter_id/theory_block_id';
+    byId('theoryContent').innerHTML = '';
+    return;
+  }
+  byId('theoryMeta').textContent = `${t.id} | ${t.title || '(без title)'} | concept: ${t.concept_id || '-'}`;
+  byId('theoryContent').innerHTML = formatMarkdown(t.content_md || '(пусто)');
+}
+
+function renderQuestions() {
+  const payload = state.current?.payload;
+  const qs = payload?.questions || [];
+  const file = state.files[state.selectedFileIdx];
+  const git = state.current?.git || {};
+  const qStatus = git.question_status || {};
+  byId('filePath').textContent = file ? `${file.rel_path} (${qs.length} вопросов)` : '-';
+  const summary = byId('gitSummary');
+  if (git.available) {
+    const fs = (git.file_status && git.file_status.status) ? git.file_status.status : 'clean';
+    summary.textContent = `Файл: ${fs}; вопросы: changed=${git.total_changed || 0} (new=${git.new_count || 0}, modified=${git.changed_count || 0})`;
+  } else {
+    summary.textContent = 'Git недоступен';
+  }
+  byId('qTitle').textContent = qs.length ? `Вопросы блока (${qs.length})` : 'Вопросы отсутствуют';
+  const root = byId('questionsList');
+  root.innerHTML = '';
+  if (!qs.length) return;
+  for (let i = 0; i < qs.length; i++) {
+    const q = qs[i];
+    const key = questionKey(q, i);
+    const status = qStatus[key] || '';
+    const card = document.createElement('div');
+    card.className = 'question' + (status === 'new' ? ' git-new' : status === 'changed' ? ' git-changed' : '');
+    const badge = status === 'new'
+      ? '<span class="badge new">new</span>'
+      : status === 'changed'
+        ? '<span class="badge changed">changed</span>'
+        : '';
+    const choicesHtml = (q.choices || []).map((c) => {
+      const ok = c.id === q.correct_answer;
+      return `<li><code>${escapeHtml(c.id || '')}</code> — ${escapeHtml(c.text || '')} ${ok ? '<span class="ok">✓</span>' : ''}</li>`;
+    }).join('');
+    card.innerHTML = `
+      <div class="question-title">
+        <strong>${i + 1}. ${escapeHtml(q.id || 'без id')}${badge}</strong>
+        <button class="danger" data-qid="${escapeHtml(q.id || '')}">Удалить из JSON</button>
+      </div>
+      <div>${escapeHtml(q.prompt || '')}</div>
+      <ol class="choices">${choicesHtml}</ol>
+      <div style="margin-top:8px;"><strong>Пояснение:</strong> ${escapeHtml(q.explanation || '')}</div>
+      <div class="muted" style="margin-top:8px;">difficulty=${escapeHtml(String(q.difficulty || '-'))} | signature=${escapeHtml(q.signature || '-')}</div>
+    `;
+    root.appendChild(card);
+  }
+  root.querySelectorAll('button[data-qid]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const qid = btn.getAttribute('data-qid');
+      if (!qid) return;
+      if (btn.dataset.armed === '1') {
+        disarmDeleteButton(btn);
+        deleteQuestionById(qid).catch(showErr);
+        return;
+      }
+      armDeleteButton(btn);
+    });
+  });
+}
+
+function escapeHtml(s) {
+  return String(s).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
+}
+
+function questionKey(q, idx) {
+  const id = String(q?.id || '').trim();
+  if (id) return 'id:' + id;
+  const sig = String(q?.signature || '').trim();
+  if (sig) return 'sig:' + sig;
+  return 'idx:' + idx;
+}
+
+function formatMarkdown(text) {
+  if (!text) return '';
+  const safe = escapeHtml(text);
+  const lines = safe.split('\n');
+  let html = '';
+  let inList = false;
+  let tableRows = [];
+
+  function closeListIfOpen() {
+    if (inList) {
+      html += '</ul>';
+      inList = false;
+    }
+  }
+
+  function isTableLine(line) {
+    return line.includes('|') && /^\|?.+\|.+\|?$/.test(line);
+  }
+
+  function isTableSeparator(line) {
+    const cells = splitTableCells(line);
+    return cells.length > 0 && cells.every((c) => /^:?-{3,}:?$/.test(c.trim()));
+  }
+
+  function splitTableCells(line) {
+    let t = line.trim();
+    if (t.startsWith('|')) t = t.slice(1);
+    if (t.endsWith('|')) t = t.slice(0, -1);
+    return t.split('|').map((c) => c.trim());
+  }
+
+  function flushTable() {
+    if (!tableRows.length) return;
+    let rows = tableRows;
+    let hasExplicitSeparator = false;
+    if (rows.length >= 2 && isTableSeparator(rows[1])) {
+      hasExplicitSeparator = true;
+    }
+    let header = splitTableCells(rows[0]);
+    let bodyLines = hasExplicitSeparator ? rows.slice(2) : rows.slice(1);
+    if (!hasExplicitSeparator && rows.length === 1) {
+      bodyLines = [];
+    }
+    html += '<table><thead><tr>';
+    html += header.map((c) => `<th>${inlineMd(c)}</th>`).join('');
+    html += '</tr></thead><tbody>';
+    for (const row of bodyLines) {
+      const cells = splitTableCells(row);
+      html += '<tr>' + cells.map((c) => `<td>${inlineMd(c)}</td>`).join('') + '</tr>';
+    }
+    html += '</tbody></table>';
+    tableRows = [];
+  }
+
+  for (const lineRaw of lines) {
+    const line = lineRaw.trim();
+    if (isTableLine(line)) {
+      closeListIfOpen();
+      tableRows.push(line);
+      continue;
+    } else {
+      flushTable();
+    }
+    const bullet = line.match(/^[-*]\s+(.*)$/);
+    if (bullet) {
+      if (!inList) {
+        html += '<ul>';
+        inList = true;
+      }
+      html += `<li>${inlineMd(bullet[1])}</li>`;
+      continue;
+    }
+    closeListIfOpen();
+    if (line.length === 0) {
+      continue;
+    }
+    const heading = line.match(/^(#{1,6})\s+(.*)$/);
+    if (heading) {
+      const lvl = heading[1].length;
+      html += `<h${lvl}>${inlineMd(heading[2])}</h${lvl}>`;
+      continue;
+    }
+    html += `<p>${inlineMd(line)}</p>`;
+  }
+  if (inList) html += '</ul>';
+  flushTable();
+  return html || '<p>(пусто)</p>';
+}
+
+function inlineMd(s) {
+  return String(s)
+    .replace(/`([^`]+)`/g, '<code>$1</code>')
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*([^*]+)\*/g, '<em>$1</em>');
+}
+
+async function loadFiles() {
+  const res = await apiGet('/api/files');
+  state.files = res.files || [];
+  if (state.files.length && state.selectedFileIdx < 0) {
+    const route = routeFromPath(window.location.pathname);
+    const routeIdx = findFileIndexByRoute(route);
+    if (routeIdx >= 0) {
+      state.selectedFileIdx = routeIdx;
+    } else {
+      const withChanges = firstFileIdxWithGitChanges();
+      state.selectedFileIdx = withChanges >= 0 ? withChanges : 0;
+    }
+  }
+  renderFiles();
+}
+
+async function loadFileByIndex(idx, options = {}) {
+  const scrollToTop = options.scrollToTop !== false;
+  if (idx < 0 || idx >= state.files.length) return;
+  state.selectedFileIdx = idx;
+  const rel = state.files[idx].rel_path;
+  byId('status').textContent = 'Загрузка...';
+  state.current = await apiGet('/api/file?path=' + encodeURIComponent(rel));
+  renderFiles();
+  renderTheory();
+  renderQuestions();
+  if (scrollToTop) {
+    const contentEl = document.querySelector('.content');
+    if (contentEl) {
+      contentEl.scrollTo({ top: 0, behavior: 'auto' });
+    } else {
+      window.scrollTo({ top: 0, behavior: 'auto' });
+    }
+  }
+  syncUrlToSelectedFile();
+  byId('status').textContent = 'OK';
+}
+
+function changeFile(delta) {
+  const idx = state.selectedFileIdx + delta;
+  if (idx < 0 || idx >= state.files.length) return;
+  loadFileByIndex(idx).catch(showErr);
+}
+
+async function deleteQuestionById(questionId) {
+  if (!questionId) return;
+  const file = state.files[state.selectedFileIdx];
+  byId('status').textContent = 'Удаление...';
+  await apiPost('/api/delete-question', { path: file.rel_path, question_id: questionId });
+  await loadFileByIndex(state.selectedFileIdx, { scrollToTop: false });
+  byId('status').textContent = 'Удалено';
+}
+
+function armDeleteButton(btn) {
+  if (!btn || btn.dataset.armed === '1') return;
+  btn.dataset.armed = '1';
+  btn.dataset.originalText = btn.textContent;
+  btn.textContent = 'Нажмите еще раз для удаления';
+  btn.style.background = '#8b2d42';
+  btn.style.borderColor = '#b64763';
+  const timer = window.setTimeout(() => {
+    if (!btn.isConnected) return;
+    disarmDeleteButton(btn);
+  }, 3500);
+  btn.dataset.armTimer = String(timer);
+}
+
+function disarmDeleteButton(btn) {
+  if (!btn) return;
+  const t = Number(btn.dataset.armTimer || '0');
+  if (t) window.clearTimeout(t);
+  btn.dataset.armed = '0';
+  btn.textContent = btn.dataset.originalText || 'Удалить из JSON';
+  btn.style.background = '';
+  btn.style.borderColor = '';
+}
+
+function showErr(err) {
+  console.error(err);
+  byId('status').innerHTML = `<span class="error">${escapeHtml(err.message || String(err))}</span>`;
+}
+
+async function boot() {
+  byId('prevFileBtn').onclick = () => changeFile(-1);
+  byId('nextFileBtn').onclick = () => changeFile(1);
+  byId('prevFileBtnBottom').onclick = () => changeFile(-1);
+  byId('nextFileBtnBottom').onclick = () => changeFile(1);
+  try {
+    await loadFiles();
+    if (state.files.length) await loadFileByIndex(state.selectedFileIdx);
+    else byId('status').textContent = 'Файлы не найдены';
+  } catch (err) {
+    showErr(err);
+  }
+}
+boot();
+</script>
+</body>
+</html>

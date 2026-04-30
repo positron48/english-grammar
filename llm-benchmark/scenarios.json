@@ -1,0 +1,61 @@
+{
+  "scenarios": [
+    {
+      "name": "ollama-seq",
+      "description": "Ollama sequential baseline (1x)",
+      "base_url": "http://127.0.0.1:11434",
+      "model": "qwen3:30b",
+      "mode": "sequential",
+      "timeout_s": 900,
+      "stop_before_cmd": "pkill -f 'llama-server' || true; pkill -f 'ollama serve' || true",
+      "start_cmd": "nohup ollama serve >/tmp/llm-bench-ollama.log 2>&1 &",
+      "wait_url": "http://127.0.0.1:11434/api/tags",
+      "wait_timeout_s": 60,
+      "stop_cmd": "pkill -f 'ollama serve' || true",
+      "note": "Базовый последовательный режим через Ollama."
+    },
+    {
+      "name": "llamacpp-seq",
+      "description": "llama.cpp server sequential baseline (1x)",
+      "base_url": "http://127.0.0.1:8090",
+      "model": "qwen3:30b",
+      "mode": "sequential",
+      "timeout_s": 900,
+      "stop_before_cmd": "pkill -f 'llama-server' || true; pkill -f 'ollama serve' || true",
+      "start_cmd": "nohup llama-server -m \"/Users/antonfilatov/.ollama/models/blobs/sha256-58574f2e94b99fb9e4391408b57e5aeaaaec10f6384e9a699fc2cb43a5c8eabf\" --alias qwen3:30b --host 127.0.0.1 --port 8090 -ngl 999 -c 8192 >/tmp/llm-bench-llamacpp-seq.log 2>&1 &",
+      "wait_url": "http://127.0.0.1:8090/v1/models",
+      "wait_timeout_s": 180,
+      "stop_cmd": "pkill -f 'llama-server.*--port 8090' || true",
+      "note": "Базовый последовательный режим через llama.cpp OpenAI-compatible endpoint."
+    },
+    {
+      "name": "llamacpp-speculative-seq",
+      "description": "llama.cpp server with speculative decoding (configured on server side)",
+      "base_url": "http://127.0.0.1:8091",
+      "model": "qwen3:30b",
+      "mode": "sequential",
+      "timeout_s": 900,
+      "stop_before_cmd": "pkill -f 'llama-server' || true; pkill -f 'ollama serve' || true",
+      "start_cmd": "nohup llama-server -m \"/Users/antonfilatov/.ollama/models/blobs/sha256-58574f2e94b99fb9e4391408b57e5aeaaaec10f6384e9a699fc2cb43a5c8eabf\" --spec-draft-model \"/Users/antonfilatov/.ollama/models/blobs/sha256-60e05f2100071479f596b964f89f510f057ce397ea22f2833a0cfe029bfc2463\" --spec-draft-n-max 12 --spec-draft-n-min 2 --alias qwen3:30b --host 127.0.0.1 --port 8091 -ngl 999 --gpu-layers-draft 12 -c 8192 >/tmp/llm-bench-llamacpp-spec.log 2>&1 &",
+      "wait_url": "http://127.0.0.1:8091/v1/models",
+      "wait_timeout_s": 180,
+      "stop_cmd": "pkill -f 'llama-server.*--port 8091' || true",
+      "note": "llama.cpp speculative: main qwen3:30b + draft qwen2.5-coder:7b-instruct."
+    },
+    {
+      "name": "llamacpp-parallel4",
+      "description": "llama.cpp parallel 4 tasks at once",
+      "base_url": "http://127.0.0.1:8090",
+      "model": "qwen3:30b",
+      "mode": "parallel",
+      "workers": 4,
+      "timeout_s": 900,
+      "stop_before_cmd": "pkill -f 'llama-server' || true; pkill -f 'ollama serve' || true",
+      "start_cmd": "nohup llama-server -m \"/Users/antonfilatov/.ollama/models/blobs/sha256-58574f2e94b99fb9e4391408b57e5aeaaaec10f6384e9a699fc2cb43a5c8eabf\" --alias qwen3:30b --host 127.0.0.1 --port 8090 -ngl 999 -c 8192 >/tmp/llm-bench-llamacpp-par.log 2>&1 &",
+      "wait_url": "http://127.0.0.1:8090/v1/models",
+      "wait_timeout_s": 180,
+      "stop_cmd": "pkill -f 'llama-server.*--port 8090' || true",
+      "note": "Параллельный клиентский запуск 4 задач одновременно."
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "started_at": "2026-04-29T07:13:34Z",
+  "course_root": "/Users/antonfilatov/www/my/k3s/english-ai-bot/courses/english-grammar",
+  "results": [
+    {
+      "name": "ollama-seq",
+      "description": "Ollama sequential baseline (1x)",
+      "base_url": "http://127.0.0.1:11434",
+      "model": "qwen3:30b",
+      "mode": "sequential",
+      "workers": 1,
+      "elapsed_s": 409.311,
+      "tasks_total": 4,
+      "tasks_ok": 4,
+      "questions_total": 40,
+      "questions_per_sec": 0.098,
+      "rows": [
+        {
+          "task_id": "t1",
+          "chapter_number": 1,
+          "block_number": 1,
+          "chapter_id": "en.grammar.orientation_how_to_read.subject_verb_object_in",
+          "block_id": "b1_theory_basic_structure",
+          "latency_s": 104.57,
+          "questions_returned": 10,
+          "target_questions": 10,
+          "ok": true,
+          "error": "",
+          "backend": "openai-compatible"
+        },
+        {
+          "task_id": "t2",
+          "chapter_number": 2,
+          "block_number": 1,
+          "chapter_id": "en.grammar.orientation_how_to_read.verb_forms_v1_v2",
+          "block_id": "b1_theory_what_are_v1_v2_v3",
+          "latency_s": 97.002,
+          "questions_returned": 10,
+          "target_questions": 10,
+          "ok": true,
+          "error": "",
+          "backend": "openai-compatible"
+        },
+        {
+          "task_id": "t3",
+          "chapter_number": 3,
+          "block_number": 1,
+          "chapter_id": "en.grammar.orientation_how_to_read.sentence_modes_statement_question",
+          "block_id": "b1_theory_one_idea_three_modes",
+          "latency_s": 88.692,
+          "questions_returned": 10,
+          "target_questions": 10,
+          "ok": true,
+          "error": "",
+          "backend": "openai-compatible"
+        },
+        {
+          "task_id": "t4",
+          "chapter_number": 4,
+          "block_number": 1,
+          "chapter_id": "en.grammar.first_sentences_be_as.personal_pronouns_am_is",
+          "block_id": "b1_theory_personal_pronouns",
+          "latency_s": 118.755,
+          "questions_returned": 10,
+          "target_questions": 10,
+          "ok": true,
+          "error": "",
+          "backend": "openai-compatible"
+        }
+      ],
+      "note": "Базовый последовательный режим через Ollama."
+    },
+    {
+      "name": "llamacpp-seq",
+      "description": "llama.cpp server sequential baseline (1x)",
+      "base_url": "http://127.0.0.1:8080",
+      "model": "local-model",
+      "mode": "sequential",
+      "workers": 1,
+      "elapsed_s": 16.507,
+      "tasks_total": 4,
+      "tasks_ok": 0,
+      "questions_total": 0,
+      "questions_per_sec": 0.0,
+      "rows": [
+        {
+          "task_id": "t1",
+          "chapter_number": 1,
+          "block_number": 1,
+          "latency_s": 6.241,
+          "questions_returned": 0,
+          "target_questions": 10,
+          "ok": false,
+          "error": "HTTP Error 500: Internal Server Error",
+          "backend": "error"
+        },
+        {
+          "task_id": "t2",
+          "chapter_number": 2,
+          "block_number": 1,
+          "latency_s": 3.465,
+          "questions_returned": 0,
+          "target_questions": 10,
+          "ok": false,
+          "error": "HTTP Error 500: Internal Server Error",
+          "backend": "error"
+        },
+        {
+          "task_id": "t3",
+          "chapter_number": 3,
+          "block_number": 1,
+          "latency_s": 3.323,
+          "questions_returned": 0,
+          "target_questions": 10,
+          "ok": false,
+          "error": "HTTP Error 500: Internal Server Error",
+          "backend": "error"
+        },
+        {
+          "task_id": "t4",
+          "chapter_number": 4,
+          "block_number": 1,
+          "latency_s": 3.268,
+          "questions_returned": 0,
+          "target_questions": 10,
+          "ok": false,
+          "error": "HTTP Error 500: Internal Server Error",
+          "backend": "error"
+        }
+      ],
+      "note": "Базовый последовательный режим через llama.cpp OpenAI-compatible endpoint."
+    },
+    {
+      "name": "llamacpp-speculative-seq",
+      "description": "llama.cpp server with speculative decoding (configured on server side)",
+      "base_url": "http://127.0.0.1:8081",
+      "model": "local-model",
+      "mode": "sequential",
+      "workers": 1,
+      "elapsed_s": 0.136,
+      "tasks_total": 4,
+      "tasks_ok": 0,
+      "questions_total": 0,
+      "questions_per_sec": 0.0,
+      "rows": [
+        {
+          "task_id": "t1",
+          "chapter_number": 1,
+          "block_number": 1,
+          "latency_s": 0.0,
+          "questions_returned": 0,
+          "target_questions": 10,
+          "ok": false,
+          "error": "<urlopen error [Errno 61] Connection refused>",
+          "backend": "error"
+        },
+        {
+          "task_id": "t2",
+          "chapter_number": 2,
+          "block_number": 1,
+          "latency_s": 0.0,
+          "questions_returned": 0,
+          "target_questions": 10,
+          "ok": false,
+          "error": "<urlopen error [Errno 61] Connection refused>",
+          "backend": "error"
+        },
+        {
+          "task_id": "t3",
+          "chapter_number": 3,
+          "block_number": 1,
+          "latency_s": 0.0,
+          "questions_returned": 0,
+          "target_questions": 10,
+          "ok": false,
+          "error": "<urlopen error [Errno 61] Connection refused>",
+          "backend": "error"
+        },
+        {
+          "task_id": "t4",
+          "chapter_number": 4,
+          "block_number": 1,
+          "latency_s": 0.0,
+          "questions_returned": 0,
+          "target_questions": 10,
+          "ok": false,
+          "error": "<urlopen error [Errno 61] Connection refused>",
+          "backend": "error"
+        }
+      ],
+      "note": "Запускайте отдельный llama-server с включенным speculative decoding на порту 8081."
+    },
+    {
+      "name": "llamacpp-parallel4",
+      "description": "llama.cpp parallel 4 tasks at once",
+      "base_url": "http://127.0.0.1:8080",
+      "model": "local-model",
+      "mode": "parallel",
+      "workers": 4,
+      "elapsed_s": 6.181,
+      "tasks_total": 4,
+      "tasks_ok": 0,
+      "questions_total": 0,
+      "questions_per_sec": 0.0,
+      "rows": [
+        {
+          "task_id": "t1",
+          "chapter_number": 1,
+          "block_number": 1,
+          "latency_s": 6.054,
+          "questions_returned": 0,
+          "target_questions": 10,
+          "ok": false,
+          "error": "HTTP Error 500: Internal Server Error",
+          "backend": "error"
+        },
+        {
+          "task_id": "t2",
+          "chapter_number": 2,
+          "block_number": 1,
+          "latency_s": 6.06,
+          "questions_returned": 0,
+          "target_questions": 10,
+          "ok": false,
+          "error": "HTTP Error 500: Internal Server Error",
+          "backend": "error"
+        },
+        {
+          "task_id": "t3",
+          "chapter_number": 3,
+          "block_number": 1,
+          "latency_s": 6.053,
+          "questions_returned": 0,
+          "target_questions": 10,
+          "ok": false,
+          "error": "HTTP Error 500: Internal Server Error",
+          "backend": "error"
+        },
+        {
+          "task_id": "t4",
+          "chapter_number": 4,
+          "block_number": 1,
+          "latency_s": 6.057,
+          "questions_returned": 0,
+          "target_questions": 10,
+          "ok": false,
+          "error": "HTTP Error 500: Internal Server Error",
+          "backend": "error"
+        }
+      ],
+      "note": "Параллельный клиентский запуск 4 задач одновременно."
+    }
+  ]
+}

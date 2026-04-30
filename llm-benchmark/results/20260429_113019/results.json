@@ -1,0 +1,71 @@
+{
+  "started_at": "2026-04-29T08:29:41Z",
+  "course_root": "/Users/antonfilatov/www/my/k3s/english-ai-bot/courses/english-grammar",
+  "results": [
+    {
+      "name": "llamacpp-parallel4",
+      "description": "llama.cpp parallel 4 tasks at once",
+      "base_url": "http://127.0.0.1:8090",
+      "model": "qwen3:30b",
+      "mode": "parallel",
+      "workers": 4,
+      "elapsed_s": 36.335,
+      "tasks_total": 4,
+      "tasks_ok": 0,
+      "questions_total": 0,
+      "questions_per_sec": 0.0,
+      "rows": [
+        {
+          "task_id": "t1",
+          "chapter_number": 1,
+          "block_number": 1,
+          "latency_s": 36.181,
+          "questions_returned": 0,
+          "target_questions": 10,
+          "ok": false,
+          "error": "HTTP Error 500: Internal Server Error",
+          "backend": "error"
+        },
+        {
+          "task_id": "t2",
+          "chapter_number": 2,
+          "block_number": 1,
+          "latency_s": 36.172,
+          "questions_returned": 0,
+          "target_questions": 10,
+          "ok": false,
+          "error": "HTTP Error 500: Internal Server Error",
+          "backend": "error"
+        },
+        {
+          "task_id": "t3",
+          "chapter_number": 3,
+          "block_number": 1,
+          "latency_s": 36.178,
+          "questions_returned": 0,
+          "target_questions": 10,
+          "ok": false,
+          "error": "HTTP Error 500: Internal Server Error",
+          "backend": "error"
+        },
+        {
+          "task_id": "t4",
+          "chapter_number": 4,
+          "block_number": 1,
+          "latency_s": 36.174,
+          "questions_returned": 0,
+          "target_questions": 10,
+          "ok": false,
+          "error": "HTTP Error 500: Internal Server Error",
+          "backend": "error"
+        }
+      ],
+      "note": "Параллельный клиентский запуск 4 задач одновременно.",
+      "runtime": {
+        "start_cmd": "nohup llama-server -m \"/Users/antonfilatov/.ollama/models/blobs/sha256-58574f2e94b99fb9e4391408b57e5aeaaaec10f6384e9a699fc2cb43a5c8eabf\" --alias qwen3:30b --host 127.0.0.1 --port 8090 -ngl 999 -c 8192 >/tmp/llm-bench-llamacpp-par.log 2>&1 &",
+        "stop_cmd": "pkill -f 'llama-server.*--port 8090' || true",
+        "wait_url": "http://127.0.0.1:8090/v1/models"
+      }
+    }
+  ]
+}

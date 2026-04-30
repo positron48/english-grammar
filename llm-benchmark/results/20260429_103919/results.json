@@ -1,0 +1,142 @@
+{
+  "started_at": "2026-04-29T07:32:29Z",
+  "course_root": "/Users/antonfilatov/www/my/k3s/english-ai-bot/courses/english-grammar",
+  "results": [
+    {
+      "name": "ollama-seq",
+      "description": "Ollama sequential baseline (1x)",
+      "base_url": "http://127.0.0.1:11434",
+      "model": "qwen3:30b",
+      "mode": "sequential",
+      "workers": 1,
+      "elapsed_s": 108.404,
+      "tasks_total": 1,
+      "tasks_ok": 1,
+      "questions_total": 10,
+      "questions_per_sec": 0.092,
+      "rows": [
+        {
+          "task_id": "fast1",
+          "chapter_number": 1,
+          "block_number": 1,
+          "chapter_id": "en.grammar.orientation_how_to_read.subject_verb_object_in",
+          "block_id": "b1_theory_basic_structure",
+          "latency_s": 107.743,
+          "questions_returned": 10,
+          "target_questions": 10,
+          "ok": true,
+          "error": "",
+          "backend": "openai-compatible"
+        }
+      ],
+      "note": "Базовый последовательный режим через Ollama.",
+      "runtime": {
+        "start_cmd": "nohup ollama serve >/tmp/llm-bench-ollama.log 2>&1 &",
+        "stop_cmd": "pkill -f 'ollama serve' || true",
+        "wait_url": "http://127.0.0.1:11434/api/tags"
+      }
+    },
+    {
+      "name": "llamacpp-seq",
+      "description": "llama.cpp server sequential baseline (1x)",
+      "base_url": "http://127.0.0.1:8090",
+      "model": "qwen3:30b",
+      "mode": "sequential",
+      "workers": 1,
+      "elapsed_s": 105.774,
+      "tasks_total": 1,
+      "tasks_ok": 1,
+      "questions_total": 10,
+      "questions_per_sec": 0.095,
+      "rows": [
+        {
+          "task_id": "fast1",
+          "chapter_number": 1,
+          "block_number": 1,
+          "chapter_id": "en.grammar.orientation_how_to_read.subject_verb_object_in",
+          "block_id": "b1_theory_basic_structure",
+          "latency_s": 92.491,
+          "questions_returned": 10,
+          "target_questions": 10,
+          "ok": true,
+          "error": "",
+          "backend": "openai-compatible"
+        }
+      ],
+      "note": "Базовый последовательный режим через llama.cpp OpenAI-compatible endpoint.",
+      "runtime": {
+        "start_cmd": "nohup llama-server -m \"/Users/antonfilatov/.ollama/models/blobs/sha256-58574f2e94b99fb9e4391408b57e5aeaaaec10f6384e9a699fc2cb43a5c8eabf\" --alias qwen3:30b --host 127.0.0.1 --port 8090 -ngl 999 -c 8192 >/tmp/llm-bench-llamacpp-seq.log 2>&1 &",
+        "stop_cmd": "pkill -f 'llama-server.*--port 8090' || true",
+        "wait_url": "http://127.0.0.1:8090/v1/models"
+      }
+    },
+    {
+      "name": "llamacpp-speculative-seq",
+      "description": "llama.cpp server with speculative decoding (configured on server side)",
+      "base_url": "http://127.0.0.1:8091",
+      "model": "qwen3:30b",
+      "mode": "sequential",
+      "workers": 1,
+      "elapsed_s": 99.039,
+      "tasks_total": 1,
+      "tasks_ok": 1,
+      "questions_total": 10,
+      "questions_per_sec": 0.101,
+      "rows": [
+        {
+          "task_id": "fast1",
+          "chapter_number": 1,
+          "block_number": 1,
+          "chapter_id": "en.grammar.orientation_how_to_read.subject_verb_object_in",
+          "block_id": "b1_theory_basic_structure",
+          "latency_s": 96.853,
+          "questions_returned": 10,
+          "target_questions": 10,
+          "ok": true,
+          "error": "",
+          "backend": "openai-compatible"
+        }
+      ],
+      "note": "llama.cpp с включенным --spec-default на том же весе qwen3:30b.",
+      "runtime": {
+        "start_cmd": "nohup llama-server -m \"/Users/antonfilatov/.ollama/models/blobs/sha256-58574f2e94b99fb9e4391408b57e5aeaaaec10f6384e9a699fc2cb43a5c8eabf\" --alias qwen3:30b --host 127.0.0.1 --port 8091 -ngl 999 -c 8192 --spec-default >/tmp/llm-bench-llamacpp-spec.log 2>&1 &",
+        "stop_cmd": "pkill -f 'llama-server.*--port 8091' || true",
+        "wait_url": "http://127.0.0.1:8091/v1/models"
+      }
+    },
+    {
+      "name": "llamacpp-parallel4",
+      "description": "llama.cpp parallel 4 tasks at once",
+      "base_url": "http://127.0.0.1:8090",
+      "model": "qwen3:30b",
+      "mode": "parallel",
+      "workers": 4,
+      "elapsed_s": 97.583,
+      "tasks_total": 1,
+      "tasks_ok": 1,
+      "questions_total": 10,
+      "questions_per_sec": 0.102,
+      "rows": [
+        {
+          "task_id": "fast1",
+          "chapter_number": 1,
+          "block_number": 1,
+          "chapter_id": "en.grammar.orientation_how_to_read.subject_verb_object_in",
+          "block_id": "b1_theory_basic_structure",
+          "latency_s": 95.362,
+          "questions_returned": 10,
+          "target_questions": 10,
+          "ok": true,
+          "error": "",
+          "backend": "openai-compatible"
+        }
+      ],
+      "note": "Параллельный клиентский запуск 4 задач одновременно.",
+      "runtime": {
+        "start_cmd": "nohup llama-server -m \"/Users/antonfilatov/.ollama/models/blobs/sha256-58574f2e94b99fb9e4391408b57e5aeaaaec10f6384e9a699fc2cb43a5c8eabf\" --alias qwen3:30b --host 127.0.0.1 --port 8090 -ngl 999 -c 8192 >/tmp/llm-bench-llamacpp-par.log 2>&1 &",
+        "stop_cmd": "pkill -f 'llama-server.*--port 8090' || true",
+        "wait_url": "http://127.0.0.1:8090/v1/models"
+      }
+    }
+  ]
+}
