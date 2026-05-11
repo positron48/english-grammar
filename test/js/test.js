@@ -123,15 +123,7 @@ function showQuestion(index) {
     const questionEl = renderQuestion(question, false, (questionId, answer) => {
         // Сохраняем ответ только если он не пустой
         if (answer !== undefined && answer !== null && answer !== '') {
-            // Для multi-choice проверяем, что есть хотя бы один выбор
-            if (question.type === 'mcq_multi') {
-                const answers = Array.isArray(answer) ? answer : [answer];
-                if (answers.length > 0) {
-                    userAnswers[questionId] = answer;
-                } else {
-                    delete userAnswers[questionId];
-                }
-            } else if (question.type === 'fill_blank' || question.type === 'reorder') {
+            if (question.type === 'fill_blank' || question.type === 'reorder') {
                 // Для текстовых полей проверяем, что не пустая строка
                 if (answer.trim().length > 0) {
                     userAnswers[questionId] = answer;
@@ -170,14 +162,6 @@ function restoreAnswer(questionEl, question, answer) {
             const radio = questionEl.querySelector(`input[value="${answer}"]`);
             if (radio) radio.checked = true;
             break;
-        case 'mcq_multi':
-            if (Array.isArray(answer)) {
-                answer.forEach(val => {
-                    const checkbox = questionEl.querySelector(`input[value="${val}"]`);
-                    if (checkbox) checkbox.checked = true;
-                });
-            }
-            break;
         case 'fill_blank':
         case 'reorder':
             const input = questionEl.querySelector('input, textarea');
@@ -208,12 +192,6 @@ function isQuestionAnswered(question) {
     
     if (userAnswer === undefined || userAnswer === null || userAnswer === '') {
         return false;
-    }
-    
-    // Для multi-choice проверяем, что выбран хотя бы один вариант
-    if (question.type === 'mcq_multi') {
-        const answers = Array.isArray(userAnswer) ? userAnswer : [userAnswer];
-        return answers.length > 0;
     }
     
     // Для текстовых полей проверяем, что не пустая строка
@@ -378,15 +356,6 @@ function formatAnswer(question, answer) {
         }
         const choice = question.choices?.find(c => c.id === answer);
         return choice ? choice.text : answer;
-    }
-    
-    if (question.type === 'mcq_multi') {
-        const answers = Array.isArray(answer) ? answer : [answer];
-        const choices = answers.map(a => {
-            const choice = question.choices?.find(c => c.id === a);
-            return choice ? choice.text : a;
-        });
-        return choices.join(', ');
     }
     
     return String(answer);

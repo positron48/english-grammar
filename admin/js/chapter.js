@@ -442,7 +442,6 @@ function escapeHtml(text) {
 function renderQuestionItem(q) {
     const typeLabels = {
         'mcq_single': 'Один ответ',
-        'mcq_multi': 'Множественный выбор',
         'fill_blank': 'Заполнить пропуск',
         'reorder': 'Переставить',
         'error_spotting': 'Найти ошибку',
@@ -978,9 +977,7 @@ window.startEditCorrectAnswer = function(event, questionId) {
     // Добавляем подсказку в зависимости от типа вопроса
     const questionType = question.type;
     let hint = '';
-    if (questionType === 'mcq_multi') {
-        hint = ' (для множественного выбора введите ID через запятую, например: a, b, c)';
-    } else if (questionType === 'mcq_single') {
+    if (questionType === 'mcq_single') {
         hint = ' (введите ID одного из вариантов, например: a)';
     } else if (questionType === 'true_false') {
         hint = ' (введите: true или false)';
@@ -1019,13 +1016,7 @@ window.startEditCorrectAnswer = function(event, questionId) {
         let newValue;
         
         // Парсим значение в зависимости от типа вопроса
-        if (questionType === 'mcq_multi') {
-            // Для множественного выбора - массив
-            newValue = newText ? newText.split(',').map(s => s.trim()).filter(s => s) : [];
-        } else {
-            // Для остальных типов - строка
-            newValue = newText;
-        }
+        newValue = newText;
         
         // Проверяем, изменилось ли значение
         const currentValueStr = Array.isArray(currentAnswer) 

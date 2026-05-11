@@ -302,12 +302,102 @@
       "difficulty": 2,
       "id": "q10",
       "signature": "7b4988669de9df3d"
+    },
+    {
+      "type": "mcq_single",
+      "prompt": "Какая форма глагола используется в прошедшем времени в предложении 'Я ходил в школу вчера'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "go"
+        },
+        {
+          "id": "b",
+          "text": "went"
+        },
+        {
+          "id": "c",
+          "text": "gone"
+        },
+        {
+          "id": "d",
+          "text": "going"
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Для прошедшего времени используется форма V2 (went), а не V1 (go) или V3 (gone).",
+      "theory_block_id": "b1_theory_what_are_v1_v2_v3",
+      "chapter_id": "en.grammar.orientation_how_to_read.verb_forms_v1_v2",
+      "concept_id": "verb_forms_introduction",
+      "difficulty": 1,
+      "id": "q11",
+      "signature": "60b0149fe1f3f3c2"
+    },
+    {
+      "type": "mcq_single",
+      "prompt": "Какая форма глагола должна быть использована после 'have' в предложении 'Я был в Лондоне'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "go"
+        },
+        {
+          "id": "b",
+          "text": "went"
+        },
+        {
+          "id": "c",
+          "text": "gone"
+        },
+        {
+          "id": "d",
+          "text": "going"
+        }
+      ],
+      "correct_answer": "c",
+      "explanation": "После have/has используется форма V3 (gone), а не V1 (go).",
+      "theory_block_id": "b1_theory_what_are_v1_v2_v3",
+      "chapter_id": "en.grammar.orientation_how_to_read.verb_forms_v1_v2",
+      "concept_id": "verb_forms_introduction",
+      "difficulty": 1,
+      "id": "q12",
+      "signature": "45f73c8dc596719f"
+    },
+    {
+      "type": "mcq_single",
+      "prompt": "Какая форма глагола 'see' соответствует V3?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "see"
+        },
+        {
+          "id": "b",
+          "text": "saw"
+        },
+        {
+          "id": "c",
+          "text": "seen"
+        },
+        {
+          "id": "d",
+          "text": "seeing"
+        }
+      ],
+      "correct_answer": "c",
+      "explanation": "V3 для глагола 'see' — 'seen', что используется в Present Perfect и пассивном залоге.",
+      "theory_block_id": "b1_theory_what_are_v1_v2_v3",
+      "chapter_id": "en.grammar.orientation_how_to_read.verb_forms_v1_v2",
+      "concept_id": "verb_forms_introduction",
+      "difficulty": 1,
+      "id": "q13",
+      "signature": "4a11132b8d4489d3"
     }
   ],
   "meta": {
-    "generated_at": "2026-04-28T18:34:09Z",
+    "generated_at": "2026-04-30T18:22:28Z",
     "source": "llm-only",
-    "questions_per_block": 10,
+    "questions_per_block": 3,
     "chapter_number_filter": 2,
     "block_number_filter": 1,
     "append": true

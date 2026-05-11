@@ -30,9 +30,6 @@ export function renderQuestion(question, showAnswers = false, onAnswer = null, c
         case 'mcq_single':
             answerContainer = renderMcqSingle(question, showAnswers, onAnswer, checkImmediately, container);
             break;
-        case 'mcq_multi':
-            answerContainer = renderMcqMulti(question, showAnswers, onAnswer, checkImmediately, container);
-            break;
         case 'fill_blank':
             answerContainer = renderFillBlank(question, showAnswers, onAnswer, checkImmediately, container);
             break;
@@ -114,32 +111,6 @@ function highlightAnswers(container, question, isCorrect, userAnswer) {
                 }
                 if (isUserAnswer && !isCorrectAnswer) {
                     label.classList.add('answer-incorrect');
-                }
-                input.disabled = true;
-            });
-            break;
-            
-        case 'mcq_multi':
-            const multiLabels = container.querySelectorAll('.choice');
-            const correctAnswers = Array.isArray(question.correct_answer) 
-                ? question.correct_answer 
-                : [question.correct_answer];
-            const userAnswers = Array.isArray(userAnswer) ? userAnswer : [userAnswer];
-            
-            multiLabels.forEach(label => {
-                const input = label.querySelector('input');
-                const choiceId = input.value;
-                const isCorrectAnswer = correctAnswers.includes(choiceId);
-                const isUserAnswer = userAnswers.includes(choiceId);
-                
-                if (isCorrectAnswer) {
-                    label.classList.add('answer-correct');
-                }
-                if (isUserAnswer && !isCorrectAnswer) {
-                    label.classList.add('answer-incorrect');
-                }
-                if (isUserAnswer && isCorrectAnswer) {
-                    label.classList.add('answer-user-correct');
                 }
                 input.disabled = true;
             });
@@ -256,93 +227,6 @@ function renderMcqSingle(question, showAnswers, onAnswer, checkImmediately, cont
                         explanationDiv.style.display = 'block';
                     }
                 }
-            }
-        });
-        
-        answerContainer.appendChild(label);
-    });
-    
-    return answerContainer;
-}
-
-/**
- * Рендерит вопрос с несколькими правильными ответами (mcq_multi)
- */
-function renderMcqMulti(question, showAnswers, onAnswer, checkImmediately, container) {
-    const answerContainer = document.createElement('div');
-    answerContainer.className = 'question-choices';
-    
-    const choices = question.choices || [];
-    const correctAnswers = Array.isArray(question.correct_answer) 
-        ? question.correct_answer 
-        : [question.correct_answer];
-    
-    // Перемешиваем варианты ответов случайным образом
-    const shuffledChoices = shuffleArray([...choices]);
-    
-    shuffledChoices.forEach(choice => {
-        const label = document.createElement('label');
-        label.className = 'choice';
-        
-        const input = document.createElement('input');
-        input.type = 'checkbox';
-        input.name = `question-${question.id}`;
-        input.value = choice.id;
-        // НЕ отключаем input изначально - только после ответа пользователя
-        
-        const text = document.createElement('span');
-        text.textContent = choice.text;
-        
-        label.appendChild(input);
-        label.appendChild(text);
-        
-        if (choice.feedback) {
-            const feedback = document.createElement('div');
-            feedback.className = 'choice-feedback';
-            feedback.style.display = 'none';
-            feedback.dataset.choiceId = choice.id;
-            feedback.textContent = choice.feedback;
-            label.appendChild(feedback);
-        }
-        
-        // Обработка выбора (всегда)
-        input.addEventListener('change', () => {
-            const checked = Array.from(answerContainer.querySelectorAll('input:checked'))
-                .map(inp => inp.value);
-            
-            if (onAnswer) {
-                onAnswer(question.id, checked);
-            }
-            
-            // Для multi можно проверять после каждого выбора или показать кнопку "Проверить"
-            // Пока проверяем сразу
-            if (checkImmediately) {
-                // Ждем небольшой таймаут, чтобы дать возможность выбрать несколько ответов
-                setTimeout(() => {
-                    const currentChecked = Array.from(answerContainer.querySelectorAll('input:checked'))
-                        .map(inp => inp.value);
-                    if (currentChecked.length > 0) {
-                        const questionContainer = container.closest('.question');
-                        if (questionContainer) {
-                            checkAndShowResult(questionContainer, question, currentChecked);
-                            
-                            // Показываем feedback для выбранных вариантов
-                            currentChecked.forEach(answerId => {
-                                const selectedLabel = answerContainer.querySelector(`input[value="${answerId}"]`)?.closest('.choice');
-                                const feedback = selectedLabel?.querySelector('.choice-feedback');
-                                if (feedback) {
-                                    feedback.style.display = 'block';
-                                }
-                            });
-                            
-                            // Показываем общее объяснение вопроса
-                            const explanationDiv = questionContainer.querySelector('[data-explanation="true"]');
-                            if (explanationDiv) {
-                                explanationDiv.style.display = 'block';
-                            }
-                        }
-                    }
-                }, 300);
             }
         });
         

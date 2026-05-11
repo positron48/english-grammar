@@ -1,0 +1,931 @@
+must_have:
+  title: "Must Have — English"
+  description: "Базовый словарь для эмигранта и изучающего английский. Только отдельные слова, без фраз и словосочетаний."
+
+  subcategories:
+
+    - id: basics
+      title: "База"
+      sets:
+
+        - id: greetings
+          title: "Приветствия и вежливость"
+          words:
+            - { en: "hello", ru: "привет" }
+            - { en: "hi", ru: "привет" }
+            - { en: "bye", ru: "пока" }
+            - { en: "goodbye", ru: "до свидания" }
+            - { en: "thanks", ru: "спасибо" }
+            - { en: "please", ru: "пожалуйста" }
+            - { en: "sorry", ru: "извините / жаль" }
+            - { en: "excuse", ru: "извинять" }
+            - { en: "welcome", ru: "добро пожаловать" }
+            - { en: "okay", ru: "окей / хорошо" }
+            - { en: "sure", ru: "конечно / уверенный" }
+            - { en: "fine", ru: "нормально / хорошо" }
+
+        - id: basic_words
+          title: "Базовые слова"
+          words:
+            - { en: "yes", ru: "да" }
+            - { en: "no", ru: "нет" }
+            - { en: "nothing", ru: "ничего" }
+            - { en: "everything", ru: "всё" }
+            - { en: "something", ru: "что-то" }
+            - { en: "someone", ru: "кто-то" }
+            - { en: "nobody", ru: "никто" }
+            - { en: "always", ru: "всегда" }
+            - { en: "never", ru: "никогда" }
+            - { en: "also", ru: "тоже / также" }
+            - { en: "too", ru: "тоже / слишком" }
+            - { en: "very", ru: "очень" }
+            - { en: "little", ru: "мало / маленький" }
+            - { en: "much", ru: "много" }
+            - { en: "many", ru: "много" }
+            - { en: "more", ru: "больше / ещё" }
+            - { en: "less", ru: "меньше" }
+
+        - id: pronouns
+          title: "Местоимения"
+          words:
+            - { en: "I", ru: "я" }
+            - { en: "you", ru: "ты / вы" }
+            - { en: "he", ru: "он" }
+            - { en: "she", ru: "она" }
+            - { en: "it", ru: "оно / это" }
+            - { en: "we", ru: "мы" }
+            - { en: "they", ru: "они" }
+            - { en: "me", ru: "меня / мне" }
+            - { en: "him", ru: "его / ему" }
+            - { en: "her", ru: "её / ей" }
+            - { en: "us", ru: "нас / нам" }
+            - { en: "them", ru: "их / им" }
+            - { en: "my", ru: "мой" }
+            - { en: "your", ru: "твой / ваш" }
+            - { en: "his", ru: "его" }
+            - { en: "our", ru: "наш" }
+            - { en: "their", ru: "их" }
+
+        - id: question_words
+          title: "Вопросительные слова"
+          words:
+            - { en: "what", ru: "что / какой" }
+            - { en: "who", ru: "кто" }
+            - { en: "where", ru: "где / куда" }
+            - { en: "when", ru: "когда" }
+            - { en: "why", ru: "почему" }
+            - { en: "how", ru: "как" }
+            - { en: "which", ru: "который / какой" }
+            - { en: "whose", ru: "чей" }
+            - { en: "whom", ru: "кого / кому" }
+
+        - id: connectors
+          title: "Связки речи"
+          words:
+            - { en: "and", ru: "и" }
+            - { en: "or", ru: "или" }
+            - { en: "but", ru: "но" }
+            - { en: "because", ru: "потому что" }
+            - { en: "although", ru: "хотя" }
+            - { en: "if", ru: "если" }
+            - { en: "when", ru: "когда" }
+            - { en: "while", ru: "пока / в то время как" }
+            - { en: "before", ru: "до / раньше" }
+            - { en: "after", ru: "после" }
+            - { en: "then", ru: "тогда / потом" }
+            - { en: "also", ru: "также" }
+
+    - id: time
+      title: "Время, даты, числа"
+      sets:
+
+        - id: weekdays
+          title: "Дни недели"
+          words:
+            - { en: "Monday", ru: "понедельник" }
+            - { en: "Tuesday", ru: "вторник" }
+            - { en: "Wednesday", ru: "среда" }
+            - { en: "Thursday", ru: "четверг" }
+            - { en: "Friday", ru: "пятница" }
+            - { en: "Saturday", ru: "суббота" }
+            - { en: "Sunday", ru: "воскресенье" }
+
+        - id: months
+          title: "Месяцы"
+          words:
+            - { en: "January", ru: "январь" }
+            - { en: "February", ru: "февраль" }
+            - { en: "March", ru: "март" }
+            - { en: "April", ru: "апрель" }
+            - { en: "May", ru: "май" }
+            - { en: "June", ru: "июнь" }
+            - { en: "July", ru: "июль" }
+            - { en: "August", ru: "август" }
+            - { en: "September", ru: "сентябрь" }
+            - { en: "October", ru: "октябрь" }
+            - { en: "November", ru: "ноябрь" }
+            - { en: "December", ru: "декабрь" }
+
+        - id: time_words
+          title: "Время"
+          words:
+            - { en: "today", ru: "сегодня" }
+            - { en: "yesterday", ru: "вчера" }
+            - { en: "tomorrow", ru: "завтра" }
+            - { en: "now", ru: "сейчас" }
+            - { en: "later", ru: "позже" }
+            - { en: "soon", ru: "скоро" }
+            - { en: "late", ru: "поздно" }
+            - { en: "early", ru: "рано" }
+            - { en: "day", ru: "день" }
+            - { en: "week", ru: "неделя" }
+            - { en: "month", ru: "месяц" }
+            - { en: "year", ru: "год" }
+            - { en: "hour", ru: "час" }
+            - { en: "minute", ru: "минута" }
+            - { en: "second", ru: "секунда" }
+            - { en: "date", ru: "дата" }
+            - { en: "calendar", ru: "календарь" }
+            - { en: "morning", ru: "утро" }
+            - { en: "evening", ru: "вечер" }
+            - { en: "night", ru: "ночь" }
+
+        - id: numbers_basic
+          title: "Числа 0–20"
+          words:
+            - { en: "zero", ru: "ноль" }
+            - { en: "one", ru: "один" }
+            - { en: "two", ru: "два" }
+            - { en: "three", ru: "три" }
+            - { en: "four", ru: "четыре" }
+            - { en: "five", ru: "пять" }
+            - { en: "six", ru: "шесть" }
+            - { en: "seven", ru: "семь" }
+            - { en: "eight", ru: "восемь" }
+            - { en: "nine", ru: "девять" }
+            - { en: "ten", ru: "десять" }
+            - { en: "eleven", ru: "одиннадцать" }
+            - { en: "twelve", ru: "двенадцать" }
+            - { en: "thirteen", ru: "тринадцать" }
+            - { en: "fourteen", ru: "четырнадцать" }
+            - { en: "fifteen", ru: "пятнадцать" }
+            - { en: "sixteen", ru: "шестнадцать" }
+            - { en: "seventeen", ru: "семнадцать" }
+            - { en: "eighteen", ru: "восемнадцать" }
+            - { en: "nineteen", ru: "девятнадцать" }
+            - { en: "twenty", ru: "двадцать" }
+
+        - id: numbers_large
+          title: "Десятки и крупные числа"
+          words:
+            - { en: "thirty", ru: "тридцать" }
+            - { en: "forty", ru: "сорок" }
+            - { en: "fifty", ru: "пятьдесят" }
+            - { en: "sixty", ru: "шестьдесят" }
+            - { en: "seventy", ru: "семьдесят" }
+            - { en: "eighty", ru: "восемьдесят" }
+            - { en: "ninety", ru: "девяносто" }
+            - { en: "hundred", ru: "сто" }
+            - { en: "thousand", ru: "тысяча" }
+            - { en: "million", ru: "миллион" }
+            - { en: "billion", ru: "миллиард" }
+
+    - id: verbs
+      title: "Основные глаголы"
+      sets:
+
+        - id: core_verbs
+          title: "Самые важные глаголы"
+          words:
+            - { en: "be", ru: "быть" }
+            - { en: "have", ru: "иметь" }
+            - { en: "do", ru: "делать" }
+            - { en: "make", ru: "делать / создавать" }
+            - { en: "go", ru: "идти / ехать" }
+            - { en: "come", ru: "приходить" }
+            - { en: "can", ru: "мочь" }
+            - { en: "want", ru: "хотеть" }
+            - { en: "need", ru: "нуждаться" }
+            - { en: "know", ru: "знать" }
+            - { en: "say", ru: "сказать" }
+            - { en: "speak", ru: "говорить" }
+            - { en: "talk", ru: "разговаривать" }
+            - { en: "understand", ru: "понимать" }
+            - { en: "ask", ru: "спрашивать" }
+            - { en: "answer", ru: "отвечать" }
+            - { en: "listen", ru: "слушать" }
+            - { en: "look", ru: "смотреть" }
+            - { en: "see", ru: "видеть" }
+
+        - id: daily_verbs
+          title: "Повседневные действия"
+          words:
+            - { en: "eat", ru: "есть" }
+            - { en: "drink", ru: "пить" }
+            - { en: "sleep", ru: "спать" }
+            - { en: "wake", ru: "просыпаться" }
+            - { en: "work", ru: "работать" }
+            - { en: "study", ru: "учиться" }
+            - { en: "read", ru: "читать" }
+            - { en: "write", ru: "писать" }
+            - { en: "call", ru: "звонить / называть" }
+            - { en: "buy", ru: "покупать" }
+            - { en: "sell", ru: "продавать" }
+            - { en: "pay", ru: "платить" }
+            - { en: "open", ru: "открывать" }
+            - { en: "close", ru: "закрывать" }
+            - { en: "wait", ru: "ждать" }
+            - { en: "help", ru: "помогать" }
+            - { en: "clean", ru: "убирать / чистить" }
+            - { en: "cook", ru: "готовить" }
+
+        - id: movement_verbs
+          title: "Движение и дорога"
+          words:
+            - { en: "walk", ru: "идти пешком" }
+            - { en: "run", ru: "бежать" }
+            - { en: "enter", ru: "входить" }
+            - { en: "leave", ru: "уходить / покидать" }
+            - { en: "exit", ru: "выходить" }
+            - { en: "rise", ru: "подниматься" }
+            - { en: "fall", ru: "падать" }
+            - { en: "arrive", ru: "прибывать" }
+            - { en: "return", ru: "возвращаться" }
+            - { en: "search", ru: "искать" }
+            - { en: "find", ru: "находить" }
+            - { en: "lose", ru: "терять" }
+            - { en: "carry", ru: "нести" }
+            - { en: "bring", ru: "приносить" }
+            - { en: "drive", ru: "водить" }
+            - { en: "travel", ru: "путешествовать" }
+
+    - id: food
+      title: "Еда и продукты"
+      sets:
+
+        - id: basic_food
+          title: "Основная еда"
+          words:
+            - { en: "food", ru: "еда" }
+            - { en: "water", ru: "вода" }
+            - { en: "bread", ru: "хлеб" }
+            - { en: "milk", ru: "молоко" }
+            - { en: "cheese", ru: "сыр" }
+            - { en: "egg", ru: "яйцо" }
+            - { en: "meat", ru: "мясо" }
+            - { en: "chicken", ru: "курица" }
+            - { en: "fish", ru: "рыба" }
+            - { en: "rice", ru: "рис" }
+            - { en: "pasta", ru: "паста / макароны" }
+            - { en: "potato", ru: "картофель" }
+            - { en: "soup", ru: "суп" }
+            - { en: "salad", ru: "салат" }
+            - { en: "oil", ru: "масло" }
+            - { en: "salt", ru: "соль" }
+            - { en: "sugar", ru: "сахар" }
+            - { en: "butter", ru: "сливочное масло" }
+            - { en: "yogurt", ru: "йогурт" }
+
+        - id: fruits_vegetables
+          title: "Фрукты и овощи"
+          words:
+            - { en: "apple", ru: "яблоко" }
+            - { en: "banana", ru: "банан" }
+            - { en: "orange", ru: "апельсин" }
+            - { en: "lemon", ru: "лимон" }
+            - { en: "pear", ru: "груша" }
+            - { en: "grape", ru: "виноград" }
+            - { en: "strawberry", ru: "клубника" }
+            - { en: "tomato", ru: "помидор" }
+            - { en: "cucumber", ru: "огурец" }
+            - { en: "onion", ru: "лук" }
+            - { en: "garlic", ru: "чеснок" }
+            - { en: "carrot", ru: "морковь" }
+            - { en: "lettuce", ru: "салат-латук" }
+            - { en: "vegetable", ru: "овощ" }
+            - { en: "fruit", ru: "фрукт" }
+
+        - id: drinks
+          title: "Напитки"
+          words:
+            - { en: "drink", ru: "напиток / пить" }
+            - { en: "coffee", ru: "кофе" }
+            - { en: "tea", ru: "чай" }
+            - { en: "juice", ru: "сок" }
+            - { en: "soda", ru: "газировка" }
+            - { en: "beer", ru: "пиво" }
+            - { en: "wine", ru: "вино" }
+            - { en: "milk", ru: "молоко" }
+            - { en: "water", ru: "вода" }
+
+        - id: restaurant
+          title: "Кафе и ресторан"
+          words:
+            - { en: "menu", ru: "меню" }
+            - { en: "table", ru: "стол" }
+            - { en: "waiter", ru: "официант" }
+            - { en: "waitress", ru: "официантка" }
+            - { en: "bill", ru: "счёт" }
+            - { en: "tip", ru: "чаевые" }
+            - { en: "breakfast", ru: "завтрак" }
+            - { en: "lunch", ru: "обед" }
+            - { en: "dinner", ru: "ужин" }
+            - { en: "dessert", ru: "десерт" }
+            - { en: "fork", ru: "вилка" }
+            - { en: "knife", ru: "нож" }
+            - { en: "spoon", ru: "ложка" }
+            - { en: "plate", ru: "тарелка" }
+            - { en: "glass", ru: "стакан" }
+            - { en: "cup", ru: "чашка" }
+
+    - id: home
+      title: "Дом, квартира, быт"
+      sets:
+
+        - id: housing
+          title: "Жильё"
+          words:
+            - { en: "house", ru: "дом" }
+            - { en: "home", ru: "дом / жильё" }
+            - { en: "flat", ru: "квартира" }
+            - { en: "apartment", ru: "квартира" }
+            - { en: "room", ru: "комната" }
+            - { en: "living", ru: "жилой / гостиная" }
+            - { en: "kitchen", ru: "кухня" }
+            - { en: "bathroom", ru: "ванная / туалет" }
+            - { en: "bedroom", ru: "спальня" }
+            - { en: "balcony", ru: "балкон" }
+            - { en: "terrace", ru: "терраса" }
+            - { en: "door", ru: "дверь" }
+            - { en: "window", ru: "окно" }
+            - { en: "key", ru: "ключ" }
+            - { en: "lift", ru: "лифт" }
+            - { en: "elevator", ru: "лифт" }
+            - { en: "stairs", ru: "лестница" }
+            - { en: "roof", ru: "крыша" }
+            - { en: "wall", ru: "стена" }
+            - { en: "floor", ru: "пол / этаж" }
+            - { en: "ceiling", ru: "потолок" }
+
+        - id: rent
+          title: "Аренда и коммуналка"
+          words:
+            - { en: "rent", ru: "аренда / арендовать" }
+            - { en: "rental", ru: "аренда" }
+            - { en: "landlord", ru: "арендодатель" }
+            - { en: "tenant", ru: "арендатор" }
+            - { en: "contract", ru: "договор" }
+            - { en: "deposit", ru: "залог / депозит" }
+            - { en: "expense", ru: "расход" }
+            - { en: "electricity", ru: "электричество" }
+            - { en: "water", ru: "вода" }
+            - { en: "gas", ru: "газ" }
+            - { en: "internet", ru: "интернет" }
+            - { en: "heating", ru: "отопление" }
+            - { en: "bill", ru: "счёт / квитанция" }
+            - { en: "breakdown", ru: "поломка" }
+            - { en: "repair", ru: "ремонт" }
+
+        - id: household_items
+          title: "Предметы быта"
+          words:
+            - { en: "bed", ru: "кровать" }
+            - { en: "table", ru: "стол" }
+            - { en: "chair", ru: "стул" }
+            - { en: "sofa", ru: "диван" }
+            - { en: "wardrobe", ru: "шкаф" }
+            - { en: "fridge", ru: "холодильник" }
+            - { en: "refrigerator", ru: "холодильник" }
+            - { en: "washer", ru: "стиральная машина" }
+            - { en: "oven", ru: "духовка" }
+            - { en: "microwave", ru: "микроволновка" }
+            - { en: "plate", ru: "тарелка" }
+            - { en: "glass", ru: "стакан" }
+            - { en: "cup", ru: "чашка" }
+            - { en: "knife", ru: "нож" }
+            - { en: "fork", ru: "вилка" }
+            - { en: "spoon", ru: "ложка" }
+            - { en: "towel", ru: "полотенце" }
+            - { en: "sheet", ru: "простыня" }
+            - { en: "pillow", ru: "подушка" }
+            - { en: "blanket", ru: "одеяло / плед" }
+            - { en: "soap", ru: "мыло" }
+
+        - id: cleaning
+          title: "Уборка и быт"
+          words:
+            - { en: "cleaning", ru: "уборка" }
+            - { en: "trash", ru: "мусор" }
+            - { en: "garbage", ru: "мусор" }
+            - { en: "bucket", ru: "ведро" }
+            - { en: "bag", ru: "пакет / сумка" }
+            - { en: "broom", ru: "метла" }
+            - { en: "mop", ru: "швабра" }
+            - { en: "detergent", ru: "моющее средство" }
+            - { en: "bleach", ru: "отбеливатель / хлорка" }
+            - { en: "sponge", ru: "губка" }
+            - { en: "rag", ru: "тряпка" }
+            - { en: "dust", ru: "пыль" }
+            - { en: "dirt", ru: "грязь" }
+
+    - id: city_transport
+      title: "Город, улица, транспорт"
+      sets:
+
+        - id: street_city
+          title: "Улица и город"
+          words:
+            - { en: "street", ru: "улица" }
+            - { en: "avenue", ru: "проспект" }
+            - { en: "square", ru: "площадь" }
+            - { en: "building", ru: "здание" }
+            - { en: "neighborhood", ru: "район" }
+            - { en: "centre", ru: "центр" }
+            - { en: "center", ru: "центр" }
+            - { en: "traffic", ru: "движение / трафик" }
+            - { en: "pavement", ru: "тротуар" }
+            - { en: "sidewalk", ru: "тротуар" }
+            - { en: "crossing", ru: "переход / перекрёсток" }
+            - { en: "park", ru: "парк" }
+            - { en: "shop", ru: "магазин" }
+            - { en: "store", ru: "магазин" }
+            - { en: "supermarket", ru: "супермаркет" }
+            - { en: "pharmacy", ru: "аптека" }
+            - { en: "bank", ru: "банк" }
+            - { en: "cashier", ru: "кассир" }
+            - { en: "market", ru: "рынок" }
+            - { en: "bakery", ru: "пекарня" }
+            - { en: "cafe", ru: "кафе" }
+            - { en: "restaurant", ru: "ресторан" }
+
+        - id: directions
+          title: "Направления"
+          words:
+            - { en: "here", ru: "здесь" }
+            - { en: "there", ru: "там" }
+            - { en: "near", ru: "близко / рядом" }
+            - { en: "far", ru: "далеко" }
+            - { en: "right", ru: "право / правый" }
+            - { en: "left", ru: "лево / левый" }
+            - { en: "straight", ru: "прямо / прямой" }
+            - { en: "front", ru: "передняя часть" }
+            - { en: "behind", ru: "позади" }
+            - { en: "above", ru: "выше / над" }
+            - { en: "below", ru: "ниже / под" }
+            - { en: "inside", ru: "внутри" }
+            - { en: "outside", ru: "снаружи" }
+
+        - id: transport
+          title: "Транспорт"
+          words:
+            - { en: "transport", ru: "транспорт" }
+            - { en: "bus", ru: "автобус" }
+            - { en: "metro", ru: "метро" }
+            - { en: "train", ru: "поезд" }
+            - { en: "tram", ru: "трамвай" }
+            - { en: "taxi", ru: "такси" }
+            - { en: "car", ru: "машина" }
+            - { en: "bicycle", ru: "велосипед" }
+            - { en: "bike", ru: "велосипед / мотоцикл" }
+            - { en: "motorcycle", ru: "мотоцикл" }
+            - { en: "stop", ru: "остановка" }
+            - { en: "station", ru: "станция / вокзал" }
+            - { en: "ticket", ru: "билет" }
+            - { en: "card", ru: "карта" }
+            - { en: "delay", ru: "задержка" }
+            - { en: "platform", ru: "платформа" }
+            - { en: "driver", ru: "водитель" }
+
+    - id: shopping_money
+      title: "Покупки и деньги"
+      sets:
+
+        - id: shop_basic
+          title: "Магазин"
+          words:
+            - { en: "buy", ru: "покупать" }
+            - { en: "price", ru: "цена" }
+            - { en: "cheap", ru: "дешёвый" }
+            - { en: "expensive", ru: "дорогой" }
+            - { en: "offer", ru: "предложение / акция" }
+            - { en: "discount", ru: "скидка" }
+            - { en: "checkout", ru: "касса" }
+            - { en: "receipt", ru: "чек / квитанция" }
+            - { en: "bag", ru: "пакет / сумка" }
+            - { en: "size", ru: "размер" }
+            - { en: "fitting", ru: "примерка" }
+            - { en: "return", ru: "возврат / вернуть" }
+            - { en: "exchange", ru: "обмен / обменять" }
+            - { en: "customer", ru: "клиент" }
+            - { en: "seller", ru: "продавец" }
+            - { en: "cashier", ru: "кассир" }
+
+        - id: money_bank
+          title: "Деньги и банк"
+          words:
+            - { en: "money", ru: "деньги" }
+            - { en: "cash", ru: "наличные" }
+            - { en: "card", ru: "карта" }
+            - { en: "bank", ru: "банк" }
+            - { en: "account", ru: "счёт / аккаунт" }
+            - { en: "transfer", ru: "перевод" }
+            - { en: "IBAN", ru: "IBAN" }
+            - { en: "fee", ru: "комиссия" }
+            - { en: "loan", ru: "кредит / заём" }
+            - { en: "mortgage", ru: "ипотека" }
+            - { en: "tax", ru: "налог" }
+            - { en: "declaration", ru: "декларация" }
+            - { en: "invoice", ru: "счёт / инвойс" }
+            - { en: "payment", ru: "платёж" }
+            - { en: "income", ru: "доход" }
+            - { en: "expense", ru: "расход" }
+            - { en: "saving", ru: "сбережение" }
+
+    - id: medicine
+      title: "Медицина"
+      sets:
+
+        - id: body
+          title: "Тело"
+          words:
+            - { en: "head", ru: "голова" }
+            - { en: "face", ru: "лицо" }
+            - { en: "eye", ru: "глаз" }
+            - { en: "ear", ru: "ухо" }
+            - { en: "nose", ru: "нос" }
+            - { en: "mouth", ru: "рот" }
+            - { en: "tooth", ru: "зуб" }
+            - { en: "throat", ru: "горло" }
+            - { en: "hand", ru: "рука / кисть" }
+            - { en: "arm", ru: "рука" }
+            - { en: "leg", ru: "нога" }
+            - { en: "foot", ru: "ступня" }
+            - { en: "back", ru: "спина" }
+            - { en: "stomach", ru: "желудок / живот" }
+            - { en: "heart", ru: "сердце" }
+            - { en: "skin", ru: "кожа" }
+            - { en: "blood", ru: "кровь" }
+            - { en: "bone", ru: "кость" }
+
+        - id: symptoms
+          title: "Симптомы"
+          words:
+            - { en: "pain", ru: "боль" }
+            - { en: "fever", ru: "температура / жар" }
+            - { en: "cough", ru: "кашель" }
+            - { en: "cold", ru: "простуда / холодный" }
+            - { en: "flu", ru: "грипп" }
+            - { en: "nausea", ru: "тошнота" }
+            - { en: "vomit", ru: "рвота / рвать" }
+            - { en: "diarrhea", ru: "диарея" }
+            - { en: "dizziness", ru: "головокружение" }
+            - { en: "allergy", ru: "аллергия" }
+            - { en: "wound", ru: "рана" }
+            - { en: "tiredness", ru: "усталость" }
+            - { en: "itch", ru: "зуд" }
+            - { en: "swelling", ru: "отёк" }
+            - { en: "burn", ru: "ожог / гореть" }
+
+        - id: doctor_pharmacy
+          title: "Врач и аптека"
+          words:
+            - { en: "doctor", ru: "врач" }
+            - { en: "hospital", ru: "больница" }
+            - { en: "emergency", ru: "неотложка / экстренная ситуация" }
+            - { en: "appointment", ru: "запись / встреча" }
+            - { en: "prescription", ru: "рецепт" }
+            - { en: "medicine", ru: "лекарство / медицина" }
+            - { en: "medication", ru: "лекарство" }
+            - { en: "pharmacy", ru: "аптека" }
+            - { en: "insurance", ru: "страховка" }
+            - { en: "test", ru: "анализ / тест" }
+            - { en: "xray", ru: "рентген" }
+            - { en: "pill", ru: "таблетка" }
+            - { en: "syrup", ru: "сироп" }
+            - { en: "vaccine", ru: "вакцина" }
+
+    - id: emigration
+      title: "Эмиграция и документы"
+      sets:
+
+        - id: documents
+          title: "Документы"
+          words:
+            - { en: "document", ru: "документ" }
+            - { en: "passport", ru: "паспорт" }
+            - { en: "visa", ru: "виза" }
+            - { en: "permit", ru: "разрешение" }
+            - { en: "residence", ru: "резиденция / проживание" }
+            - { en: "work", ru: "работа" }
+            - { en: "application", ru: "заявление / заявка" }
+            - { en: "form", ru: "форма / анкета" }
+            - { en: "certificate", ru: "справка / сертификат" }
+            - { en: "translation", ru: "перевод" }
+            - { en: "copy", ru: "копия" }
+            - { en: "original", ru: "оригинал" }
+            - { en: "signature", ru: "подпись" }
+            - { en: "stamp", ru: "печать / штамп" }
+            - { en: "photo", ru: "фото" }
+            - { en: "identity", ru: "личность" }
+
+        - id: bureaucracy
+          title: "Бюрократия"
+          words:
+            - { en: "cityhall", ru: "мэрия" }
+            - { en: "office", ru: "офис / учреждение" }
+            - { en: "immigration", ru: "иммиграция / миграционная служба" }
+            - { en: "tax", ru: "налог / налоговый" }
+            - { en: "procedure", ru: "процедура" }
+            - { en: "file", ru: "дело / файл" }
+            - { en: "deadline", ru: "срок" }
+            - { en: "requirement", ru: "требование" }
+            - { en: "approved", ru: "одобрено" }
+            - { en: "rejected", ru: "отклонено" }
+            - { en: "pending", ru: "в ожидании" }
+            - { en: "renew", ru: "продлить / обновить" }
+            - { en: "submit", ru: "подать" }
+            - { en: "deliver", ru: "доставить / сдать" }
+            - { en: "collect", ru: "забрать / собрать" }
+
+        - id: relocation
+          title: "Переезд"
+          words:
+            - { en: "move", ru: "переезд / переезжать" }
+            - { en: "relocation", ru: "релокация / переезд" }
+            - { en: "suitcase", ru: "чемодан" }
+            - { en: "luggage", ru: "багаж" }
+            - { en: "customs", ru: "таможня" }
+            - { en: "border", ru: "граница" }
+            - { en: "flight", ru: "рейс" }
+            - { en: "airport", ru: "аэропорт" }
+            - { en: "residence", ru: "резиденция / проживание" }
+            - { en: "address", ru: "адрес" }
+            - { en: "code", ru: "код" }
+            - { en: "postal", ru: "почтовый" }
+            - { en: "country", ru: "страна" }
+            - { en: "city", ru: "город" }
+            - { en: "foreigner", ru: "иностранец" }
+
+    - id: work_it
+      title: "Работа и IT"
+      sets:
+
+        - id: work_basic
+          title: "Работа"
+          words:
+            - { en: "work", ru: "работа / работать" }
+            - { en: "job", ru: "работа / должность" }
+            - { en: "employment", ru: "занятость" }
+            - { en: "company", ru: "компания" }
+            - { en: "office", ru: "офис" }
+            - { en: "boss", ru: "начальник" }
+            - { en: "colleague", ru: "коллега" }
+            - { en: "team", ru: "команда" }
+            - { en: "meeting", ru: "встреча / митинг" }
+            - { en: "interview", ru: "собеседование" }
+            - { en: "resume", ru: "резюме" }
+            - { en: "contract", ru: "договор" }
+            - { en: "salary", ru: "зарплата" }
+            - { en: "payroll", ru: "зарплатная ведомость" }
+            - { en: "vacation", ru: "отпуск" }
+            - { en: "leave", ru: "отпуск / уходить" }
+            - { en: "schedule", ru: "график" }
+            - { en: "task", ru: "задача" }
+            - { en: "project", ru: "проект" }
+
+        - id: it_basic
+          title: "IT-база"
+          words:
+            - { en: "computer", ru: "компьютер" }
+            - { en: "laptop", ru: "ноутбук" }
+            - { en: "screen", ru: "экран" }
+            - { en: "keyboard", ru: "клавиатура" }
+            - { en: "mouse", ru: "мышь" }
+            - { en: "file", ru: "файл" }
+            - { en: "folder", ru: "папка" }
+            - { en: "password", ru: "пароль" }
+            - { en: "user", ru: "пользователь" }
+            - { en: "account", ru: "аккаунт / счёт" }
+            - { en: "email", ru: "электронная почта" }
+            - { en: "link", ru: "ссылка" }
+            - { en: "download", ru: "скачать / загрузка" }
+            - { en: "upload", ru: "загрузить / загрузка" }
+            - { en: "save", ru: "сохранить" }
+            - { en: "delete", ru: "удалить" }
+            - { en: "copy", ru: "копировать / копия" }
+            - { en: "paste", ru: "вставить" }
+
+        - id: software
+          title: "Софт и разработка"
+          words:
+            - { en: "software", ru: "программное обеспечение" }
+            - { en: "application", ru: "приложение" }
+            - { en: "app", ru: "приложение" }
+            - { en: "program", ru: "программа" }
+            - { en: "code", ru: "код" }
+            - { en: "developer", ru: "разработчик" }
+            - { en: "server", ru: "сервер" }
+            - { en: "client", ru: "клиент" }
+            - { en: "error", ru: "ошибка" }
+            - { en: "bug", ru: "баг / ошибка" }
+            - { en: "test", ru: "тест" }
+            - { en: "task", ru: "задача" }
+            - { en: "project", ru: "проект" }
+            - { en: "deployment", ru: "деплой / развёртывание" }
+            - { en: "branch", ru: "ветка" }
+            - { en: "version", ru: "версия" }
+            - { en: "data", ru: "данные" }
+
+    - id: people_social
+      title: "Люди, семья, общение"
+      sets:
+
+        - id: family
+          title: "Семья"
+          words:
+            - { en: "family", ru: "семья" }
+            - { en: "mother", ru: "мать" }
+            - { en: "father", ru: "отец" }
+            - { en: "son", ru: "сын" }
+            - { en: "daughter", ru: "дочь" }
+            - { en: "brother", ru: "брат" }
+            - { en: "sister", ru: "сестра" }
+            - { en: "husband", ru: "муж" }
+            - { en: "wife", ru: "жена" }
+            - { en: "partner", ru: "партнёр" }
+            - { en: "grandfather", ru: "дедушка" }
+            - { en: "grandmother", ru: "бабушка" }
+            - { en: "child", ru: "ребёнок" }
+            - { en: "baby", ru: "младенец" }
+            - { en: "parents", ru: "родители" }
+
+        - id: people
+          title: "Люди и роли"
+          words:
+            - { en: "person", ru: "человек" }
+            - { en: "man", ru: "мужчина" }
+            - { en: "woman", ru: "женщина" }
+            - { en: "friend", ru: "друг / подруга" }
+            - { en: "neighbor", ru: "сосед" }
+            - { en: "customer", ru: "клиент" }
+            - { en: "employee", ru: "сотрудник" }
+            - { en: "teacher", ru: "учитель / преподаватель" }
+            - { en: "student", ru: "студент" }
+            - { en: "driver", ru: "водитель" }
+            - { en: "police", ru: "полиция" }
+            - { en: "officer", ru: "офицер / полицейский" }
+
+        - id: emotions
+          title: "Эмоции и состояние"
+          words:
+            - { en: "good", ru: "хороший" }
+            - { en: "bad", ru: "плохой" }
+            - { en: "happy", ru: "счастливый" }
+            - { en: "sad", ru: "грустный" }
+            - { en: "tired", ru: "уставший" }
+            - { en: "sick", ru: "больной" }
+            - { en: "busy", ru: "занятый" }
+            - { en: "free", ru: "свободный" }
+            - { en: "nervous", ru: "нервный" }
+            - { en: "calm", ru: "спокойный" }
+            - { en: "worried", ru: "обеспокоенный" }
+            - { en: "angry", ru: "злой / сердитый" }
+            - { en: "scared", ru: "испуганный" }
+
+    - id: emergency
+      title: "Экстренные ситуации"
+      sets:
+
+        - id: emergency_words
+          title: "Экстренные слова"
+          words:
+            - { en: "help", ru: "помощь / помогать" }
+            - { en: "emergency", ru: "экстренная ситуация" }
+            - { en: "urgent", ru: "срочный" }
+            - { en: "police", ru: "полиция" }
+            - { en: "ambulance", ru: "скорая помощь" }
+            - { en: "firefighters", ru: "пожарные" }
+            - { en: "accident", ru: "авария / несчастный случай" }
+            - { en: "fire", ru: "пожар / огонь" }
+            - { en: "theft", ru: "кража" }
+            - { en: "robbery", ru: "ограбление" }
+            - { en: "danger", ru: "опасность" }
+            - { en: "safe", ru: "безопасный" }
+            - { en: "insurance", ru: "страховка" }
+            - { en: "report", ru: "заявление / отчёт" }
+            - { en: "passport", ru: "паспорт" }
+            - { en: "doctor", ru: "врач" }
+            - { en: "hospital", ru: "больница" }
+            - { en: "pharmacy", ru: "аптека" }
+            - { en: "lost", ru: "потерянный" }
+
+    - id: language_learning
+      title: "Изучение языка"
+      sets:
+
+        - id: grammar_words
+          title: "Слова для грамматики"
+          words:
+            - { en: "word", ru: "слово" }
+            - { en: "phrase", ru: "фраза" }
+            - { en: "sentence", ru: "предложение" }
+            - { en: "verb", ru: "глагол" }
+            - { en: "noun", ru: "существительное" }
+            - { en: "adjective", ru: "прилагательное" }
+            - { en: "adverb", ru: "наречие" }
+            - { en: "pronoun", ru: "местоимение" }
+            - { en: "article", ru: "артикль" }
+            - { en: "gender", ru: "род" }
+            - { en: "number", ru: "число / номер" }
+            - { en: "singular", ru: "единственное число" }
+            - { en: "plural", ru: "множественное число" }
+            - { en: "present", ru: "настоящее время" }
+            - { en: "past", ru: "прошедшее время" }
+            - { en: "future", ru: "будущее время" }
+            - { en: "tense", ru: "время глагола" }
+
+        - id: classroom
+          title: "Учёба и занятия"
+          words:
+            - { en: "class", ru: "урок / занятие" }
+            - { en: "course", ru: "курс" }
+            - { en: "teacher", ru: "преподаватель" }
+            - { en: "student", ru: "студент" }
+            - { en: "book", ru: "книга" }
+            - { en: "notebook", ru: "тетрадь" }
+            - { en: "pen", ru: "ручка" }
+            - { en: "pencil", ru: "карандаш" }
+            - { en: "exercise", ru: "упражнение" }
+            - { en: "homework", ru: "домашнее задание" }
+            - { en: "exam", ru: "экзамен" }
+            - { en: "level", ru: "уровень" }
+            - { en: "beginner", ru: "начинающий" }
+            - { en: "intermediate", ru: "средний уровень" }
+            - { en: "advanced", ru: "продвинутый" }
+            - { en: "dictionary", ru: "словарь" }
+
+    - id: useful_misc
+      title: "Разное, но нужное"
+      sets:
+
+        - id: colors
+          title: "Цвета"
+          words:
+            - { en: "white", ru: "белый" }
+            - { en: "black", ru: "чёрный" }
+            - { en: "red", ru: "красный" }
+            - { en: "blue", ru: "синий / голубой" }
+            - { en: "green", ru: "зелёный" }
+            - { en: "yellow", ru: "жёлтый" }
+            - { en: "grey", ru: "серый" }
+            - { en: "gray", ru: "серый" }
+            - { en: "brown", ru: "коричневый" }
+            - { en: "orange", ru: "оранжевый" }
+            - { en: "pink", ru: "розовый" }
+            - { en: "purple", ru: "фиолетовый" }
+
+        - id: adjectives
+          title: "Базовые прилагательные"
+          words:
+            - { en: "big", ru: "большой" }
+            - { en: "small", ru: "маленький" }
+            - { en: "new", ru: "новый" }
+            - { en: "old", ru: "старый" }
+            - { en: "good", ru: "хороший" }
+            - { en: "bad", ru: "плохой" }
+            - { en: "easy", ru: "лёгкий" }
+            - { en: "difficult", ru: "сложный" }
+            - { en: "hard", ru: "сложный / твёрдый" }
+            - { en: "fast", ru: "быстрый" }
+            - { en: "slow", ru: "медленный" }
+            - { en: "hot", ru: "горячий" }
+            - { en: "cold", ru: "холодный" }
+            - { en: "clean", ru: "чистый" }
+            - { en: "dirty", ru: "грязный" }
+            - { en: "important", ru: "важный" }
+            - { en: "necessary", ru: "необходимый" }
+            - { en: "possible", ru: "возможный" }
+            - { en: "impossible", ru: "невозможный" }
+            - { en: "correct", ru: "правильный" }
+            - { en: "wrong", ru: "неправильный" }
+
+        - id: common_nouns
+          title: "Частые существительные"
+          words:
+            - { en: "thing", ru: "вещь" }
+            - { en: "place", ru: "место" }
+            - { en: "problem", ru: "проблема" }
+            - { en: "question", ru: "вопрос" }
+            - { en: "answer", ru: "ответ" }
+            - { en: "name", ru: "имя / название" }
+            - { en: "surname", ru: "фамилия" }
+            - { en: "number", ru: "номер / число" }
+            - { en: "phone", ru: "телефон" }
+            - { en: "email", ru: "почта" }
+            - { en: "address", ru: "адрес" }
+            - { en: "life", ru: "жизнь" }
+            - { en: "time", ru: "время" }
+            - { en: "weather", ru: "погода" }
+            - { en: "way", ru: "способ / путь" }
+            - { en: "part", ru: "часть" }
+            - { en: "case", ru: "случай / дело" }

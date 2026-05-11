@@ -1,10 +1,12 @@
 # Makefile для управления проектом english-grammar
 
-.PHONY: help final final-all final-force validate-all validate-uniqueness training-pack training-pack-append training-pack-fill training-pack-admin clean admin run test dev update-admin-index update-test-index
+.PHONY: help final final-all final-force validate-all validate-uniqueness reading-generate-one reading-generate-free reading-validate reading-audio-regen training-pack training-pack-append training-pack-fill training-pack-admin clean admin run test dev update-admin-index update-test-index
 
 # Находим все главы (с префиксами или без)
 # Сортируем по номеру префикса (001, 002, ...), затем извлекаем chapter_id
 CHAPTERS := $(shell find chapters -mindepth 1 -maxdepth 1 -type d -not -name '.*' | sed 's|chapters/||' | sort -V | sed 's|^[0-9][0-9][0-9]\.||' | awk '!seen[$$0]++')
+READING_TTS_CMD_DEFAULT := bash ../../scripts/tts-reading-segment.sh --voice-id \"{voice_id}\" --text \"{text}\" --output \"{output}\"
+TTS_CMD_TEMPLATE ?= $(READING_TTS_CMD_DEFAULT)
 
 help:
 	@echo "Доступные команды:"
@@ -13,6 +15,10 @@ help:
 	@echo "  make final-force        - Алиас для make final-all (принудительная пересборка всех глав)"
 	@echo "  make validate-all        - Валидировать все главы"
 	@echo "  make validate-uniqueness - Проверить уникальность вопросов по всему курсу"
+	@echo "  make reading-generate-one - Сгенерировать reading_passage для главы (CHAPTER_ID=..., TARGET_LANG=en|es, LEVEL=A2)"
+	@echo "  make reading-generate-free - draft без chapter_id (TARGET_LANG=en|es; COUNT=1 → LEVEL/FORMAT; COUNT>1 → по кругу A0–C1, блоками dialogue затем narrative; ROTATE=0 — фикс. LEVEL/FORMAT)"
+	@echo "  make reading-validate     - Проверить reading-артефакты (аудио/пути)"
+	@echo "  make reading-audio-regen  - Перегенерить аудио для reading_passage (через reading-generate-one --overwrite)"
 	@echo "  make training-pack       - Сгенерировать training_pack через локальную LLM (с нуля)"
 	@echo "  make training-pack-append - Догенерить новые вопросы к существующему training_pack"
 	@echo "  make training-pack-fill   - Пройти все theory блоки и добить валидные вопросы до целевого порога"
@@ -79,6 +85,66 @@ validate-all:
 # Проверить уникальность вопросов по всему курсу
 validate-uniqueness:
 	@bash scripts/validate-course-uniqueness.sh
+
+reading-generate-one:
+	@test -n "$(CHAPTER_ID)" || (echo "Usage: make reading-generate-one CHAPTER_ID=<chapter_id> TARGET_LANG=en LEVEL=A2 [FORMAT=dialogue] [TITLE='...'] [OVERWRITE=1] [VOICES_PROFILE=config/reading-voices.json] [TTS_CMD_TEMPLATE='...'] [INPUT_JSON=...json]"; exit 1)
+	@set -a; [ -f ../../.env ] && . ../../.env; set +a; \
+	set -a; [ -f ../../.env.en ] && . ../../.env.en; set +a; \
+	set -a; [ -f .env.local ] && . ./.env.local; set +a; \
+	READING_TTS_CMD_TEMPLATE="$(TTS_CMD_TEMPLATE)" READING_INPUT_JSON="$${INPUT_JSON:-}" python3 scripts/generate-reading-text.py \
+		--course-root . \
+		--chapter-id "$(CHAPTER_ID)" \
+		--target-lang "$${TARGET_LANG:-en}" \
+		--level "$${LEVEL:-A2}" \
+		--format "$${FORMAT:-dialogue}" \
+		--title "$${TITLE:-}" \
+		--voices-profile "$${VOICES_PROFILE:-config/reading-voices.json}" \
+		$$( [ "$${OVERWRITE:-0}" = "1" ] && echo "--overwrite" )
+
+reading-generate-free:
+	@cnt="$(or $(COUNT),1)"; \
+	if ! printf '%s' "$$cnt" | grep -Eq '^[1-9][0-9]*$$'; then echo "COUNT must be a positive integer (default 1)"; exit 1; fi; \
+	set -a; [ -f ../../.env ] && . ../../.env; set +a; \
+	set -a; [ -f ../../.env.en ] && . ../../.env.en; set +a; \
+	set -a; [ -f .env.local ] && . ./.env.local; set +a; \
+	failed=0; \
+	i=1; \
+	while [ $$i -le $$cnt ]; do \
+	  if [ $$cnt -eq 1 ] || [ "$${ROTATE:-1}" = "0" ]; then \
+	    lvl="$${LEVEL:-A2}"; \
+	    fmt="$${FORMAT:-dialogue}"; \
+	  else \
+	    k=$$((i - 1)); \
+	    n_lv=6; \
+	    n_fc=2; \
+	    block=$$((k / n_lv)); \
+	    fi=$$((block % n_fc)); \
+	    li=$$((k % n_lv)); \
+	    lvl=$$(printf '%s\n' A0 A1 A2 B1 B2 C1 | sed -n "$$((li + 1))p"); \
+	    fmt=$$(printf '%s\n' dialogue narrative | sed -n "$$((fi + 1))p"); \
+	  fi; \
+	  echo "reading-generate-free $$i/$$cnt level=$$lvl format=$$fmt"; \
+	  if ! READING_TTS_CMD_TEMPLATE="$(TTS_CMD_TEMPLATE)" READING_INPUT_JSON="$${INPUT_JSON:-}" python3 scripts/generate-reading-text.py \
+		--course-root . \
+		--target-lang "$${TARGET_LANG:-en}" \
+		--level "$$lvl" \
+		--format "$$fmt" \
+		--title "$${TITLE:-}" \
+		--voices-profile "$${VOICES_PROFILE:-config/reading-voices.json}" \
+		--draft-dir "$${DRAFT_DIR:-reading}"; then \
+	    failed=$$((failed+1)); \
+	    echo "⚠️  reading-generate-free $$i failed; continuing (failed=$$failed)"; \
+	  fi; \
+	  i=$$((i+1)); \
+	done; \
+	if [ $$failed -gt 0 ]; then echo "reading-generate-free completed with $$failed failure(s)"; exit 1; fi
+
+reading-validate:
+	@python3 scripts/validate-reading-artifacts.py
+
+reading-audio-regen:
+	@test -n "$(CHAPTER_ID)" || (echo "Usage: make reading-audio-regen CHAPTER_ID=<chapter_id> TARGET_LANG=en LEVEL=A2"; exit 1)
+	@OVERWRITE=1 $(MAKE) reading-generate-one CHAPTER_ID="$(CHAPTER_ID)" TARGET_LANG="$${TARGET_LANG:-en}" LEVEL="$${LEVEL:-A2}" FORMAT="$${FORMAT:-dialogue}" TITLE="$${TITLE:-}"
 
 training-pack:
 	@echo "Сборка training_pack (llm-only, replace mode)..."

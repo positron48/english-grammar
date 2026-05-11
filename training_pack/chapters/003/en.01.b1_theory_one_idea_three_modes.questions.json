@@ -302,12 +302,102 @@
       "difficulty": 1,
       "id": "q10",
       "signature": "3c88e878db64357d"
+    },
+    {
+      "type": "mcq_single",
+      "prompt": "Какой вариант правильно преобразует утверждение 'I play soccer' в вопрос?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Do I play soccer?"
+        },
+        {
+          "id": "b",
+          "text": "I play soccer?"
+        },
+        {
+          "id": "c",
+          "text": "Does I play soccer?"
+        },
+        {
+          "id": "d",
+          "text": "Play I soccer?"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Для преобразования утверждения в вопрос с глаголом без 'be' или 'have' используется вспомогательный глагол 'Do' перед подлежащим.",
+      "theory_block_id": "b1_theory_one_idea_three_modes",
+      "chapter_id": "en.grammar.orientation_how_to_read.sentence_modes_statement_question",
+      "concept_id": "sentence_modes_concept",
+      "difficulty": 1,
+      "id": "q11",
+      "signature": "d4c042ae96d27ee3"
+    },
+    {
+      "type": "mcq_single",
+      "prompt": "Какое отрицание правильно выражает идею 'She reads books'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "She doesn't read books."
+        },
+        {
+          "id": "b",
+          "text": "She not reads books."
+        },
+        {
+          "id": "c",
+          "text": "She doesn't reads books."
+        },
+        {
+          "id": "d",
+          "text": "She reads not books."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Отрицание для глагола в настоящем простом времени строится с 'doesn't' + основная форма глагола.",
+      "theory_block_id": "b1_theory_one_idea_three_modes",
+      "chapter_id": "en.grammar.orientation_how_to_read.sentence_modes_statement_question",
+      "concept_id": "sentence_modes_concept",
+      "difficulty": 1,
+      "id": "q12",
+      "signature": "38873be37588b12a"
+    },
+    {
+      "type": "mcq_single",
+      "prompt": "Какое утверждение соответствует вопросу 'Do you like tea?'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "You like tea."
+        },
+        {
+          "id": "b",
+          "text": "I like tea."
+        },
+        {
+          "id": "c",
+          "text": "You do like tea."
+        },
+        {
+          "id": "d",
+          "text": "Do you like tea?"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Вопрос 'Do you like tea?' преобразуется в утверждение, убирая 'Do' и оставляя подлежащее и глагол.",
+      "theory_block_id": "b1_theory_one_idea_three_modes",
+      "chapter_id": "en.grammar.orientation_how_to_read.sentence_modes_statement_question",
+      "concept_id": "sentence_modes_concept",
+      "difficulty": 1,
+      "id": "q13",
+      "signature": "a0b41a18850fb23a"
     }
   ],
   "meta": {
-    "generated_at": "2026-04-28T18:41:41Z",
+    "generated_at": "2026-04-30T18:23:09Z",
     "source": "llm-only",
-    "questions_per_block": 10,
+    "questions_per_block": 3,
     "chapter_number_filter": 3,
     "block_number_filter": 1,
     "append": true

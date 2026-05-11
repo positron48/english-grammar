@@ -22,7 +22,7 @@
 - **Двусмысленность**: нет ли неоднозначных вопросов?
 - **Совпадение ответов**: совпадает ли `correct_answer` с `explanation`?
 - **Соответствие типа вопроса и correct_answer**:
-  - Для `mcq_single` и `mcq_multi`: `correct_answer` должен быть ID из `choices` (строка или массив строк)
+  - Для `mcq_single`: `correct_answer` должен быть ID одного из `choices` (строка)
   - Для `true_false`: `correct_answer` должен быть "true" или "false"
   - Для `fill_blank`: `correct_answer` должен быть строкой (слово/фраза для вставки)
   - Для `reorder`: `correct_answer` должен быть строкой (полное предложение)

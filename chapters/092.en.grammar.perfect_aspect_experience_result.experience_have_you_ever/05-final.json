@@ -560,41 +560,6 @@
         "explanation": "Once выражает количество раз опыта."
       },
       {
-        "id": "q18",
-        "type": "mcq_multi",
-        "prompt": "Выберите все предложения с корректным использованием маркеров опыта.",
-        "theory_block_id": "b2_theory_markers_ever_never",
-        "difficulty": 3,
-        "choices": [
-          {
-            "id": "a",
-            "text": "Have you ever eaten snails?",
-            "feedback": "Ever в вопросе — корректно."
-          },
-          {
-            "id": "b",
-            "text": "I have ever eaten snails.",
-            "feedback": "Без контекста так не говорят."
-          },
-          {
-            "id": "c",
-            "text": "I have never eaten snails.",
-            "feedback": "Never в отрицании — корректно."
-          },
-          {
-            "id": "d",
-            "text": "She has been to Spain twice.",
-            "feedback": "Twice корректно для количества опыта."
-          }
-        ],
-        "correct_answer": [
-          "a",
-          "c",
-          "d"
-        ],
-        "explanation": "Ever обычно в вопросах, never и twice допустимы в утверждении об опыте."
-      },
-      {
         "id": "q19",
         "type": "error_spotting",
         "prompt": "Выберите предложение без ошибки с маркером опыта.",
@@ -1404,7 +1369,6 @@
       "q15",
       "q16",
       "q17",
-      "q18",
       "q19",
       "q20",
       "q21",
@@ -1460,7 +1424,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:49:00Z",
+    "updated_at": "2026-05-01T08:21:39Z",
     "source": "llm"
   }
 }

@@ -302,12 +302,162 @@
       "difficulty": 1,
       "id": "q10",
       "signature": "ca86a1c2e25b0496"
+    },
+    {
+      "type": "mcq_single",
+      "prompt": "Какой из следующих предложений следует правильному порядку слов Subject-Verb-Object в английском языке?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "She reads a book."
+        },
+        {
+          "id": "b",
+          "text": "Book reads she."
+        },
+        {
+          "id": "c",
+          "text": "Is a student."
+        },
+        {
+          "id": "d",
+          "text": "She a book reads."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный порядок: подлежащее (She) → сказуемое (reads) → дополнение (a book). Вариант b — неправильный порядок слов. Вариант c — отсутствует подлежащее и структура SVC (Subject-Verb-Complement), а не SVO. Вариант d — неправильный порядок.",
+      "theory_block_id": "b1_theory_basic_structure",
+      "chapter_id": "en.grammar.orientation_how_to_read.subject_verb_object_in",
+      "concept_id": "sentence_structure_svo",
+      "difficulty": 2,
+      "id": "q11",
+      "signature": "6abe3f8b8d73f3ee"
+    },
+    {
+      "type": "mcq_single",
+      "prompt": "Какой вариант правильно пишется на английском: 'Он студент'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "He is a student."
+        },
+        {
+          "id": "b",
+          "text": "Is a student."
+        },
+        {
+          "id": "c",
+          "text": "He a student is."
+        },
+        {
+          "id": "d",
+          "text": "Student he is."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "В английском языке подлежащее обязательно, поэтому правильный вариант включает подлежащее \"He\".",
+      "theory_block_id": "b1_theory_basic_structure",
+      "chapter_id": "en.grammar.orientation_how_to_read.subject_verb_object_in",
+      "concept_id": "sentence_structure_svo",
+      "difficulty": 2,
+      "id": "q12",
+      "signature": "d27b717722c3221e"
+    },
+    {
+      "type": "mcq_single",
+      "prompt": "Какой вариант соответствует структуре подлежащее-сказуемое-дополнение?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "She reads a book."
+        },
+        {
+          "id": "b",
+          "text": "Book reads she."
+        },
+        {
+          "id": "c",
+          "text": "Reads she book."
+        },
+        {
+          "id": "d",
+          "text": "She book reads."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный порядок слов в английском: подлежащее (She) → сказуемое (reads) → дополнение (a book).",
+      "theory_block_id": "b1_theory_basic_structure",
+      "chapter_id": "en.grammar.orientation_how_to_read.subject_verb_object_in",
+      "concept_id": "sentence_structure_svo",
+      "difficulty": 2,
+      "id": "q13",
+      "signature": "a17d6073279e6528"
+    },
+    {
+      "type": "mcq_single",
+      "prompt": "В английском языке дополнение (Object) обязательно в каждом предложении?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No, the object is not always needed."
+        },
+        {
+          "id": "b",
+          "text": "Yes, the object is always required."
+        },
+        {
+          "id": "c",
+          "text": "Only in interrogative sentences."
+        },
+        {
+          "id": "d",
+          "text": "Only in negative sentences."
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "В английском языке дополнение не обязательно, как указано в теории: не все предложения имеют дополнение.",
+      "theory_block_id": "b1_theory_basic_structure",
+      "chapter_id": "en.grammar.orientation_how_to_read.subject_verb_object_in",
+      "concept_id": "sentence_structure_svo",
+      "difficulty": 2,
+      "id": "q14",
+      "signature": "1e146efef8ee7848"
+    },
+    {
+      "type": "mcq_single",
+      "prompt": "Какой порядок слов соответствует правильной структуре английского предложения?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Book reads she"
+        },
+        {
+          "id": "b",
+          "text": "She reads a book"
+        },
+        {
+          "id": "c",
+          "text": "She a book reads"
+        },
+        {
+          "id": "d",
+          "text": "Reads she a book"
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "В английском языке строгий порядок слов: подлежащее (Subject) → сказуемое (Verb) → дополнение (Object). Пример: 'She reads a book'. Неправильный порядок, как 'Book reads she', является распространённой ошибкой.",
+      "theory_block_id": "b1_theory_basic_structure",
+      "chapter_id": "en.grammar.orientation_how_to_read.subject_verb_object_in",
+      "concept_id": "sentence_structure_svo",
+      "difficulty": 2,
+      "id": "q15",
+      "signature": "021c9f1a55088611"
     }
   ],
   "meta": {
-    "generated_at": "2026-04-28T18:20:32Z",
+    "generated_at": "2026-04-30T18:31:59Z",
     "source": "llm-only",
-    "questions_per_block": 10,
+    "questions_per_block": 1,
     "chapter_number_filter": 1,
     "block_number_filter": 1,
     "append": true

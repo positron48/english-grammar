@@ -302,12 +302,102 @@
       "difficulty": 1,
       "id": "q10",
       "signature": "0414975f06a3db57"
+    },
+    {
+      "type": "mcq_single",
+      "prompt": "Какой артикль используется перед 'artist' в предложении 'She's ___ artist.'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "a"
+        },
+        {
+          "id": "b",
+          "text": "an"
+        },
+        {
+          "id": "c",
+          "text": "the"
+        },
+        {
+          "id": "d",
+          "text": "some"
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Правильный ответ — an, так как 'artist' начинается с гласного звука, поэтому используется an.",
+      "theory_block_id": "b1_theory_identity_statements",
+      "chapter_id": "en.grammar.first_sentences_be_as.statements_with_be_identity",
+      "concept_id": "be_identity_statements",
+      "difficulty": 1,
+      "id": "q11",
+      "signature": "b628d37ece08e361"
+    },
+    {
+      "type": "mcq_single",
+      "prompt": "Как правильно перевести 'Они врачи' на английский?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They are a doctors"
+        },
+        {
+          "id": "b",
+          "text": "They are doctors"
+        },
+        {
+          "id": "c",
+          "text": "They are an doctors"
+        },
+        {
+          "id": "d",
+          "text": "They are the doctors"
+        }
+      ],
+      "correct_answer": "b",
+      "explanation": "Для множественного числа артикль не используется, поэтому правильный вариант — They are doctors.",
+      "theory_block_id": "b1_theory_identity_statements",
+      "chapter_id": "en.grammar.first_sentences_be_as.statements_with_be_identity",
+      "concept_id": "be_identity_statements",
+      "difficulty": 1,
+      "id": "q12",
+      "signature": "647443b7b2e70f72"
+    },
+    {
+      "type": "mcq_single",
+      "prompt": "Какой артикль нужно использовать перед 'student' в предложении 'I'm ___ student.'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "a"
+        },
+        {
+          "id": "b",
+          "text": "an"
+        },
+        {
+          "id": "c",
+          "text": "the"
+        },
+        {
+          "id": "d",
+          "text": "some"
+        }
+      ],
+      "correct_answer": "a",
+      "explanation": "Правильный ответ — a, так как 'student' начинается с согласного звука, поэтому используется a.",
+      "theory_block_id": "b1_theory_identity_statements",
+      "chapter_id": "en.grammar.first_sentences_be_as.statements_with_be_identity",
+      "concept_id": "be_identity_statements",
+      "difficulty": 1,
+      "id": "q13",
+      "signature": "16a9dad911d22fa1"
     }
   ],
   "meta": {
-    "generated_at": "2026-04-28T18:57:20Z",
+    "generated_at": "2026-04-30T18:24:36Z",
     "source": "llm-only",
-    "questions_per_block": 10,
+    "questions_per_block": 3,
     "chapter_number_filter": 5,
     "block_number_filter": 1,
     "append": true

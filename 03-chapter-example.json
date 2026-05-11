@@ -455,21 +455,6 @@
           "explanation": "After have/has we need V3. For place experience, **I’ve never been there** is very natural."
         },
         {
-          "id": "q22",
-          "type": "mcq_multi",
-          "prompt": "Select ALL sentences that are natural for **experience (no exact time)**:",
-          "theory_block_id": "b5_theory_present_perfect_vs_past_simple",
-          "difficulty": 4,
-          "choices": [
-            { "id": "a", "text": "I’ve been to Berlin.", "feedback": "Experience, no time → Present Perfect fits." },
-            { "id": "b", "text": "I went to Berlin in 2022.", "feedback": "Specific year → Past Simple (not an experience-without-time example)." },
-            { "id": "c", "text": "Have you ever tried scuba diving?", "feedback": "Standard experience question." },
-            { "id": "d", "text": "I’ve met her yesterday.", "feedback": "Yesterday is specific time → Past Simple is needed." }
-          ],
-          "correct_answer": ["a", "c"],
-          "explanation": "Experience without exact time typically uses Present Perfect. Specific time markers (in 2022, yesterday) usually require Past Simple."
-        },
-        {
           "id": "q23",
           "type": "fill_blank",
           "prompt": "Fill in the blank:\n\n**Have you ever ___ (be) to Japan?**",
@@ -517,7 +502,6 @@
         "q19",
         "q20",
         "q21",
-        "q22",
         "q23",
         "q24"
       ],

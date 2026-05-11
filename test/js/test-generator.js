@@ -124,15 +124,6 @@ export function checkAnswer(question, userAnswer) {
                 score: userAnswer === correctAnswer ? 1 : 0
             };
         
-        case 'mcq_multi':
-            const correctArray = Array.isArray(correctAnswer) ? correctAnswer : [correctAnswer];
-            const userArray = Array.isArray(userAnswer) ? userAnswer : [userAnswer];
-            const isCorrect = arraysEqual(correctArray.sort(), userArray.sort());
-            return {
-                correct: isCorrect,
-                score: isCorrect ? 1 : 0
-            };
-        
         case 'fill_blank':
         case 'reorder':
             const normalized = (str) => str.toLowerCase().trim();
@@ -144,12 +135,4 @@ export function checkAnswer(question, userAnswer) {
         default:
             return { correct: false, score: 0 };
     }
-}
-
-/**
- * Сравнивает два массива
- */
-function arraysEqual(a, b) {
-    if (a.length !== b.length) return false;
-    return a.every((val, idx) => val === b[idx]);
 }

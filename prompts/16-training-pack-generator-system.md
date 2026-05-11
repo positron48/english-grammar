@@ -29,3 +29,22 @@
 ## Стиль текста
 - Формулировки короткие и конкретные; `difficulty` в диапазоне `1..5`.
 - Пиши как для ученика: не упоминай внутренние ключи/служебные метки (`common_mistakes`, `key_points`, `theory_block_id`, `INPUT`, `source`).
+
+<!-- AUTO_COMPLAINTS_GUARDRAILS:START -->
+## Auto Complaints Guardrails
+- Обновлено автоматически: 2026-04-30T18:31:10Z
+- Этот блок полностью перезаписывается скриптом; не расширяй его вручную.
+
+### Частые паттерны ошибок
+- Missing subject pronoun in conjugation prompts (e.g., 'Which form of 'have'...' without 'for you')
+- Incorrect grouping of verb forms in explanations (e.g., 'have' and 'has' as separate stress patterns)
+- Ambiguous pronoun references in explanations (e.g., 'it' without clear antecedent)
+
+### Дополнительные правила генерации
+- Specify subject pronoun (e.g., 'you', 'he') in conjugation questions
+- Explanations must reference specified context (e.g., 'for you') and avoid grouping unrelated forms
+
+### Проверки перед финальным JSON
+- Check prompt contains subject pronoun (e.g., 'you', 'he'); flag if missing
+- Ensure explanation matches specified context (e.g., 'you' prompt → 'you' explanation)
+<!-- AUTO_COMPLAINTS_GUARDRAILS:END -->
