@@ -107,6 +107,7 @@ reading-generate-free:
 	set -a; [ -f ../../.env ] && . ../../.env; set +a; \
 	set -a; [ -f ../../.env.en ] && . ../../.env.en; set +a; \
 	set -a; [ -f .env.local ] && . ./.env.local; set +a; \
+	python3 -c 'import pathlib,sys; cr=pathlib.Path(".").resolve(); sys.path.insert(0,str((cr/"../../scripts").resolve())); import reading_llm_client as r; raise SystemExit(0 if r.ensure_llamacpp_server(cr,"reading-llm") else 1)'; \
 	failed=0; \
 	i=1; \
 	while [ $$i -le $$cnt ]; do \
@@ -124,7 +125,7 @@ reading-generate-free:
 	    fmt=$$(printf '%s\n' dialogue narrative | sed -n "$$((fi + 1))p"); \
 	  fi; \
 	  echo "reading-generate-free $$i/$$cnt level=$$lvl format=$$fmt"; \
-	  if ! READING_TTS_CMD_TEMPLATE="$(TTS_CMD_TEMPLATE)" READING_INPUT_JSON="$${INPUT_JSON:-}" python3 scripts/generate-reading-text.py \
+	  if ! READING_ENSURE_LLAMA=0 READING_TTS_CMD_TEMPLATE="$(TTS_CMD_TEMPLATE)" READING_INPUT_JSON="$${INPUT_JSON:-}" python3 scripts/generate-reading-text.py \
 		--course-root . \
 		--target-lang "$${TARGET_LANG:-en}" \
 		--level "$$lvl" \
@@ -135,6 +136,7 @@ reading-generate-free:
 	    failed=$$((failed+1)); \
 	    echo "⚠️  reading-generate-free $$i failed; continuing (failed=$$failed)"; \
 	  fi; \
+	  if [ $$i -lt $$cnt ]; then sleep $${READING_BATCH_SLEEP_SEC:-5}; fi; \
 	  i=$$((i+1)); \
 	done; \
 	if [ $$failed -gt 0 ]; then echo "reading-generate-free completed with $$failed failure(s)"; exit 1; fi
