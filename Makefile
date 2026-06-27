@@ -142,7 +142,12 @@ reading-generate-free:
 	if [ $$failed -gt 0 ]; then echo "reading-generate-free completed with $$failed failure(s)"; exit 1; fi
 
 reading-validate:
-	@python3 scripts/validate-reading-artifacts.py
+	@python3 scripts/validate-reading-artifacts.py --covers-optional
+
+reading-covers-batch:
+	@set -a; [ -f ../../.env ] && . ../../.env; set +a; \
+	set -a; [ -f .env.local ] && . ./.env.local; set +a; \
+	python3 scripts/generate-reading-cover.py --course-root . $$( [ "$${FORCE:-0}" = "1" ] && echo --force ) $$( [ -n "$${LIMIT:-}" ] && echo --limit "$${LIMIT}" )
 
 reading-audio-regen:
 	@test -n "$(CHAPTER_ID)" || (echo "Usage: make reading-audio-regen CHAPTER_ID=<chapter_id> TARGET_LANG=en LEVEL=A2"; exit 1)

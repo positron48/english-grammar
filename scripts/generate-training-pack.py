@@ -752,7 +752,7 @@ def main():
         or os.environ.get("OLLAMA_URL")
         or defaults.get("llm_base_url")
         or defaults.get("ollama_url")
-        or "http://127.0.0.1:8080"
+        or "http://127.0.0.1:8090"
     )
 
     ok, report = build_pack(
