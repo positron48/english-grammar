@@ -333,7 +333,7 @@
       {
         "id": "q4",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «There». Закончите словом «desk».",
         "theory_block_id": "b1_theory_there_is_are_basic",
         "difficulty": 2,
         "correct_answer": "There is a pen on the desk.",
@@ -341,7 +341,8 @@
         "tags": [
           "reorder",
           "singular"
-        ]
+        ],
+        "translation_ru": "На столе лежит ручка."
       },
       {
         "id": "q5",
@@ -376,14 +377,15 @@
       {
         "id": "q7",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «There». Закончите словом «table».",
         "theory_block_id": "b1_theory_there_is_are_basic",
         "difficulty": 2,
         "correct_answer": "There is a chair on the table.",
         "explanation": "Правильный порядок: There is + существительное + место. There is a chair on the table.",
         "tags": [
           "reorder"
-        ]
+        ],
+        "translation_ru": "На столе стоит стул."
       },
       {
         "id": "q8",
@@ -417,14 +419,15 @@
       {
         "id": "q11",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «There». Закончите словом «room».",
         "theory_block_id": "b1_theory_there_is_are_basic",
         "difficulty": 3,
         "correct_answer": "There is a lamp in the room.",
         "explanation": "Правильный порядок: There is + существительное + место. There is a lamp in the room.",
         "tags": [
           "reorder"
-        ]
+        ],
+        "translation_ru": "В комнате стоит лампа."
       },
       {
         "id": "q12",
@@ -458,14 +461,15 @@
       {
         "id": "q15",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «There». Закончите словом «room».",
         "theory_block_id": "b1_theory_there_is_are_basic",
         "difficulty": 1,
         "correct_answer": "There is a sofa in the room.",
         "explanation": "Правильный порядок: There is + существительное + место. There is a sofa in the room.",
         "tags": [
           "reorder"
-        ]
+        ],
+        "translation_ru": "В комнате стоит диван."
       },
       {
         "id": "q16",
@@ -895,7 +899,7 @@
       {
         "id": "q48",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «Are». Закончите словом «room». «there» поставьте сразу после «Are».",
         "theory_block_id": "b4_theory_there_questions",
         "difficulty": 2,
         "correct_answer": "Are there any chairs in the room?",
@@ -904,7 +908,8 @@
           "reorder",
           "question",
           "plural"
-        ]
+        ],
+        "translation_ru": "В комнате есть стулья?"
       },
       {
         "id": "q49",
@@ -1157,7 +1162,7 @@
       {
         "id": "q65",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «There». Закончите словом «room».",
         "theory_block_id": "b5_theory_there_negatives",
         "difficulty": 2,
         "correct_answer": "There aren't any windows in this room.",
@@ -1166,7 +1171,8 @@
           "reorder",
           "negative",
           "plural"
-        ]
+        ],
+        "translation_ru": "В этой комнате нет окон."
       },
       {
         "id": "q67",
@@ -1338,7 +1344,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:23:58Z",
+    "updated_at": "2026-09-03T17:11:15Z",
     "source": "llm"
   }
 }

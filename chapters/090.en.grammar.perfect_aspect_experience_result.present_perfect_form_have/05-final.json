@@ -421,11 +421,12 @@
       {
         "id": "q7",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «I».",
         "theory_block_id": "b1_theory_core_form",
         "difficulty": 1,
         "correct_answer": "I have finished the task.",
-        "explanation": "Стандартный порядок: подлежащее + have/has + V3 + дополнение. Пример: *I have finished the task.*"
+        "explanation": "Стандартный порядок: подлежащее + have/has + V3 + дополнение. Пример: *I have finished the task.*",
+        "translation_ru": "Я закончил задание."
       },
       {
         "id": "q8",
@@ -631,11 +632,12 @@
       {
         "id": "q22",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «Our».",
         "theory_block_id": "b2_theory_have_vs_has",
         "difficulty": 2,
         "correct_answer": "Our teacher has explained it.",
-        "explanation": "С подлежащим в ед.ч. *our teacher* — **has**. Порядок: подлежащее + has + V3 + дополнение."
+        "explanation": "С подлежащим в ед.ч. *our teacher* — **has**. Порядок: подлежащее + has + V3 + дополнение.",
+        "translation_ru": "Наш учитель объяснил это."
       },
       {
         "id": "q23",
@@ -914,11 +916,12 @@
       {
         "id": "q41",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «Has». «yet» поставьте сразу после «arrived».",
         "theory_block_id": "b4_theory_negatives_questions",
         "difficulty": 2,
         "correct_answer": "Has he arrived yet?",
-        "explanation": "В вопросе сначала вспомогательный: **Has + подлежащее + V3**. *Yet* обычно в конце."
+        "explanation": "В вопросе сначала вспомогательный: **Has + подлежащее + V3**. *Yet* обычно в конце.",
+        "translation_ru": "Он уже прибыл?"
       },
       {
         "id": "q42",
@@ -1467,7 +1470,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:49:00Z",
+    "updated_at": "2026-09-03T17:11:25Z",
     "source": "llm"
   }
 }

@@ -299,11 +299,12 @@
       {
         "id": "q5",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «You». Закончите словом «corridor».",
         "theory_block_id": "b1_theory_mustn_t_prohibition",
         "difficulty": 2,
-        "correct_answer": "You mustn’t run in the corridor.",
-        "explanation": "Структура: subject + mustn’t + V1."
+        "correct_answer": "You mustn't run in the corridor.",
+        "explanation": "Структура: subject + mustn’t + V1.",
+        "translation_ru": "Вам нельзя бегать по коридору."
       },
       {
         "id": "q6",
@@ -491,11 +492,12 @@
       {
         "id": "q17",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «We».",
         "theory_block_id": "b2_theory_dont_have_to",
         "difficulty": 2,
-        "correct_answer": "We don’t have to hurry.",
-        "explanation": "Схема: Don't have to + V1."
+        "correct_answer": "We don't have to hurry.",
+        "explanation": "Схема: Don't have to + V1.",
+        "translation_ru": "Нам не нужно спешить."
       },
       {
         "id": "q18",
@@ -669,11 +671,12 @@
       {
         "id": "q29",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «Do». Закончите словом «now».",
         "theory_block_id": "b3_theory_questions_forms",
         "difficulty": 2,
         "correct_answer": "Do you have to leave now?",
-        "explanation": "Вопрос: Do + подлежащее + have to."
+        "explanation": "Вопрос: Do + подлежащее + have to.",
+        "translation_ru": "Вам нужно уйти сейчас?"
       },
       {
         "id": "q30",
@@ -823,12 +826,13 @@
       },
       {
         "id": "q41",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "type": "fill_blank",
+        "prompt": "Вставьте нужную форму: «You ___ park here, but you don't have to pay now.» (must; запрет; сокращённая форма с прямым апострофом)",
         "theory_block_id": "b4_theory_contrast_examples",
         "difficulty": 2,
-        "correct_answer": "You mustn’t park here, but you don’t have to pay now.",
-        "explanation": "Сначала запрет, потом отсутствие необходимости."
+        "correct_answer": "mustn't",
+        "explanation": "Mustn't выражает запрет, а don't have to — отсутствие необходимости. Эти значения не взаимозаменяемы.",
+        "translation_ru": "Вам нельзя парковаться здесь, но вам не нужно платить сейчас."
       },
       {
         "id": "q42",
@@ -1002,11 +1006,12 @@
       {
         "id": "q53",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «You».",
         "theory_block_id": "b5_theory_common_mistakes",
         "difficulty": 2,
-        "correct_answer": "You don’t have to hurry.",
-        "explanation": "Схема: Don't have to + V1."
+        "correct_answer": "You don't have to hurry.",
+        "explanation": "Схема: Don't have to + V1.",
+        "translation_ru": "Вам не нужно спешить."
       },
       {
         "id": "q56",
@@ -1147,7 +1152,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-21T08:14:09Z",
+    "updated_at": "2026-09-03T17:11:22Z",
     "source": "llm"
   }
 }

@@ -656,14 +656,15 @@
       {
         "id": "q32",
         "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "prompt": "Соберите предложение с указанным значением. Начните с «I».",
         "theory_block_id": "b3_theory_v2_past_form",
         "difficulty": 3,
         "correct_answer": "I didn't see him.",
         "explanation": "Правильный порядок: \"I didn't see him.\" После didn't используется V1 (see), а не V2 (saw).",
         "tags": [
           "form"
-        ]
+        ],
+        "translation_ru": "Я не видел его."
       },
       {
         "id": "q33",
@@ -708,15 +709,16 @@
       },
       {
         "id": "q36",
-        "type": "reorder",
-        "prompt": "Расставьте слова в правильном порядке:",
+        "type": "fill_blank",
+        "prompt": "Вставьте нужную форму: «We ___ hard yesterday.» (work; Past Simple)",
         "theory_block_id": "b3_theory_v2_past_form",
         "difficulty": 4,
-        "correct_answer": "We worked hard yesterday.",
-        "explanation": "Правильный порядок: \"We worked hard yesterday.\" Это предложение в прошедшем времени с V2 правильного глагола (worked).",
+        "correct_answer": "worked",
+        "explanation": "В Past Simple правильный глагол work получает окончание -ed. Маркер yesterday указывает на завершённое действие в прошлом.",
         "tags": [
           "form"
-        ]
+        ],
+        "translation_ru": "Мы усердно работали вчера."
       },
       {
         "id": "q38",
@@ -970,7 +972,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:23:57Z",
+    "updated_at": "2026-09-03T17:11:13Z",
     "source": "llm"
   }
 }
