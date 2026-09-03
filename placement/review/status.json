@@ -1,0 +1,113 @@
+{
+  "version": "1",
+  "language": "en",
+  "course_code": "en_ru",
+  "reviewed_on": "2026-09-03",
+  "author_review": {
+    "status": "completed",
+    "reviewer": "Codex English bank author",
+    "independent": false,
+    "item_count": 400,
+    "skill_count": 40,
+    "scope": [
+      "Self-contained Russian situation and instruction; English prompt understandable without course reading",
+      "One intended answer after applying the stated situation; avoid optional language variants as wrong answers",
+      "Real chapter IDs and exact machine section levels; optional future expansion explicitly excluded",
+      "Fresh scenarios with stable item/family IDs; no copying course exercises",
+      "Natural learner distractors, meaningful explanations, no grammar-label quiz",
+      "Preliminary difficulty individually reviewed within each level"
+    ],
+    "corrections": [
+      "Removed informal am liking as a wrong option for a valid expression of enjoyment",
+      "Replaced artificial distractors padded with unrelated time words",
+      "Removed incidental passive-progressive complexity from a B1 connector prompt",
+      "Rewrote several gap items as contextual interpretation and contrast tasks",
+      "Changed difficulty from initial drafting distribution to individual editorial assessment",
+      "Independent reviewer findings closed and reviewed again; 19 touched items are revision 2"
+    ]
+  },
+  "independent_linguistic_review": {
+    "status": "passed",
+    "reviewer": "Codex Spanish bank author (separate agent)",
+    "review_type": "independent_agent_content_review",
+    "independent_from_item_author": true,
+    "items_reviewed": 400,
+    "report": "docs/placement/EN_INDEPENDENT_REVIEW.md",
+    "external_human_expert_review": "pending",
+    "issues_closed": [
+      "Removed valid alternative take in car_broken",
+      "Removed American English wait alternative in rather_you_wait",
+      "Removed grammatical hints from six contexts",
+      "Removed all references to choice position from explanations",
+      "Replaced distant distractors in nine C1 items with natural close alternatives"
+    ]
+  },
+  "human_pilot": {
+    "status": "pending",
+    "participants": 0,
+    "target": "Learners who have not read the grammar course; test clarity, response time and boundary classifications"
+  },
+  "difficulty_calibration": {
+    "status": "editorial_only",
+    "empirical_calibration": "pending"
+  },
+  "automated_validation": {
+    "command": "python3 scripts/build-placement-bank.py en",
+    "status": "passed",
+    "item_count": 400,
+    "skill_count": 40
+  },
+  "levels": {
+    "A1": {
+      "items": 80,
+      "families": 80,
+      "difficulty_counts": {
+        "1": 28,
+        "2": 30,
+        "3": 22
+      }
+    },
+    "A2": {
+      "items": 80,
+      "families": 80,
+      "difficulty_counts": {
+        "1": 24,
+        "2": 32,
+        "3": 24
+      }
+    },
+    "B1": {
+      "items": 80,
+      "families": 80,
+      "difficulty_counts": {
+        "1": 25,
+        "2": 27,
+        "3": 28
+      }
+    },
+    "B2": {
+      "items": 80,
+      "families": 80,
+      "difficulty_counts": {
+        "1": 21,
+        "2": 28,
+        "3": 31
+      }
+    },
+    "C1": {
+      "items": 80,
+      "families": 80,
+      "difficulty_counts": {
+        "1": 21,
+        "2": 30,
+        "3": 29
+      }
+    }
+  },
+  "coverage_limits": [
+    "Multiple-choice grammar in context, not a certified full-language CEFR assessment",
+    "No A0 terminology, no pronunciation/audio/writing/interactive speech production",
+    "No optional Future Perfect/Future Continuous until author resolves B1/B2 metadata conflict",
+    "Some C1 chapter skills test foundational forms at the course-assigned C1; do not interpret every item as independently proving external C1 proficiency"
+  ]
+}

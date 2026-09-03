@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.doorbell_dinner",
+    "revision": 1,
+    "skill_id": "en.story_background",
+    "family_id": "en.f.doorbell_dinner",
+    "level": "A2",
+    "difficulty": 1,
+    "context": "Звонок прервал ваш ужин. Дополните рассказ.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I ___ dinner when the doorbell rang.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "was eating"
+      },
+      {
+        "id": "b",
+        "text": "have eaten"
+      },
+      {
+        "id": "c",
+        "text": "am eating"
+      },
+      {
+        "id": "d",
+        "text": "were eating"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Ужин уже шёл в момент звонка: was eating.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.accident_witness",
+    "revision": 1,
+    "skill_id": "en.story_background",
+    "family_id": "en.f.accident_witness",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Полиция спрашивает, чем вы занимались в момент аварии.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "What ___ you doing when the accident happened?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "do"
+      },
+      {
+        "id": "b",
+        "text": "were"
+      },
+      {
+        "id": "c",
+        "text": "was"
+      },
+      {
+        "id": "d",
+        "text": "did"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Для процесса в прошлом с you используется were doing.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.lights_out",
+    "revision": 1,
+    "skill_id": "en.story_background",
+    "family_id": "en.f.lights_out",
+    "level": "A2",
+    "difficulty": 3,
+    "context": "Вы читали, когда внезапно погас свет. Выберите форму для короткого события.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I was reading when the lights ___ out.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "go"
+      },
+      {
+        "id": "b",
+        "text": "going"
+      },
+      {
+        "id": "c",
+        "text": "went"
+      },
+      {
+        "id": "d",
+        "text": "have gone"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Went out обозначает событие, прервавшее чтение.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.parallel_kitchen",
+    "revision": 1,
+    "skill_id": "en.story_background",
+    "family_id": "en.f.parallel_kitchen",
+    "level": "A2",
+    "difficulty": 3,
+    "context": "Два действия шли одновременно: вы мыли посуду, брат готовил.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "While I was washing the dishes, my brother ___ dinner.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "were cooking"
+      },
+      {
+        "id": "b",
+        "text": "cooks"
+      },
+      {
+        "id": "c",
+        "text": "cooking"
+      },
+      {
+        "id": "d",
+        "text": "was cooking"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Одновременный процесс в прошлом с my brother: was cooking.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.rain_arrival",
+    "revision": 1,
+    "skill_id": "en.story_background",
+    "family_id": "en.f.rain_arrival",
+    "level": "A2",
+    "difficulty": 1,
+    "context": "Когда вы приехали, дождь уже шёл. Опишите именно погоду в этот момент.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "It ___ when we arrived.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "was raining"
+      },
+      {
+        "id": "b",
+        "text": "is raining"
+      },
+      {
+        "id": "c",
+        "text": "were raining"
+      },
+      {
+        "id": "d",
+        "text": "raining"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Процесс, который шёл в момент приезда: was raining.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.lost_key_walk",
+    "revision": 1,
+    "skill_id": "en.story_background",
+    "family_id": "en.f.lost_key_walk",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Ключ выпал из кармана во время вашей прогулки.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I lost my key while I ___ in the park.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "walking"
+      },
+      {
+        "id": "b",
+        "text": "was walking"
+      },
+      {
+        "id": "c",
+        "text": "am walking"
+      },
+      {
+        "id": "d",
+        "text": "were walking"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Прогулка — длительный фон для потери ключа: was walking.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.not_driving",
+    "revision": 1,
+    "skill_id": "en.story_background",
+    "family_id": "en.f.not_driving",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Друг думает, что в момент его звонка вы были за рулём. Вы тогда сидели в кафе.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I ___ when you called. I was in a café.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "weren't driving"
+      },
+      {
+        "id": "b",
+        "text": "don't drive"
+      },
+      {
+        "id": "c",
+        "text": "wasn't driving"
+      },
+      {
+        "id": "d",
+        "text": "didn't driving"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Нужно отрицать процесс в тот момент: wasn't driving.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.photo_people",
+    "revision": 1,
+    "skill_id": "en.story_background",
+    "family_id": "en.f.photo_people",
+    "level": "A2",
+    "difficulty": 3,
+    "context": "На фотографии с вчерашней вечеринки люди танцевали. Вы описываете момент снимка.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Everyone ___ when I took the photo.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "were dancing"
+      },
+      {
+        "id": "b",
+        "text": "is dance"
+      },
+      {
+        "id": "c",
+        "text": "dance"
+      },
+      {
+        "id": "d",
+        "text": "was dancing"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Everyone согласуется как единственное число: was dancing.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.waiting_bus_fell",
+    "revision": 1,
+    "skill_id": "en.story_background",
+    "family_id": "en.f.waiting_bus_fell",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Вы стояли на остановке, когда увидели падающего велосипедиста.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "While we ___ for the bus, a cyclist fell off his bike.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "were waiting"
+      },
+      {
+        "id": "b",
+        "text": "was waiting"
+      },
+      {
+        "id": "c",
+        "text": "waits"
+      },
+      {
+        "id": "d",
+        "text": "are wait"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Ожидание уже шло; с we используется were waiting.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.noise_upstairs",
+    "revision": 1,
+    "skill_id": "en.story_background",
+    "family_id": "en.f.noise_upstairs",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Вчера в десять вечера вы услышали шум. Соседи объяснили, что двигали мебель.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "At ten last night, we ___ the furniture.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "are move"
+      },
+      {
+        "id": "b",
+        "text": "were moving"
+      },
+      {
+        "id": "c",
+        "text": "was moving"
+      },
+      {
+        "id": "d",
+        "text": "move"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Действие в конкретный момент прошлого с we: were moving.",
+    "status": "approved"
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.seat_free",
+    "revision": 1,
+    "skill_id": "en.be_exchange",
+    "family_id": "en.f.seat_free",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "В поезде вы хотите узнать, свободно ли соседнее место.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "___ this seat free?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Is"
+      },
+      {
+        "id": "b",
+        "text": "Are"
+      },
+      {
+        "id": "c",
+        "text": "Am"
+      },
+      {
+        "id": "d",
+        "text": "Be"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "This seat — одно место, поэтому вопрос начинается с Is.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.meeting_ready",
+    "revision": 1,
+    "skill_id": "en.be_exchange",
+    "family_id": "en.f.meeting_ready",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "Вы обращаетесь ко всей команде перед началом.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "___ you ready?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Be"
+      },
+      {
+        "id": "b",
+        "text": "Are"
+      },
+      {
+        "id": "c",
+        "text": "Is"
+      },
+      {
+        "id": "d",
+        "text": "Am"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "И к одному you, и к нескольким you вопрос строится Are you…?",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.museum_open",
+    "revision": 1,
+    "skill_id": "en.be_exchange",
+    "family_id": "en.f.museum_open",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "На двери музея написано Closed. Как сообщить, что он не открыт?",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The museum ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "not is open"
+      },
+      {
+        "id": "b",
+        "text": "isn't opens"
+      },
+      {
+        "id": "c",
+        "text": "isn't open"
+      },
+      {
+        "id": "d",
+        "text": "aren't open"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Для отрицания состояния одного музея нужно isn't open.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.coat_colour",
+    "revision": 1,
+    "skill_id": "en.be_exchange",
+    "family_id": "en.f.coat_colour",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Друг считает ваше пальто чёрным, но оно синее. Исправьте его.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "It ___ black. It's blue.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "aren't"
+      },
+      {
+        "id": "b",
+        "text": "am not"
+      },
+      {
+        "id": "c",
+        "text": "not"
+      },
+      {
+        "id": "d",
+        "text": "isn't"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "С it отрицательная форма — isn't.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.students_reply",
+    "revision": 1,
+    "skill_id": "en.be_exchange",
+    "family_id": "en.f.students_reply",
+    "level": "A1",
+    "difficulty": 3,
+    "context": "Вас и подругу спрашивают, студентки ли вы. Вы обе учитесь.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "“Are you students?” “Yes, ___.”",
+    "choices": [
+      {
+        "id": "a",
+        "text": "we are"
+      },
+      {
+        "id": "b",
+        "text": "we is"
+      },
+      {
+        "id": "c",
+        "text": "they are"
+      },
+      {
+        "id": "d",
+        "text": "I am"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Ответ относится к двум отвечающим: Yes, we are.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.cafe_where",
+    "revision": 1,
+    "skill_id": "en.be_exchange",
+    "family_id": "en.f.cafe_where",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Вы ищете кафе в здании. Как спросить, где оно?",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "___ the café?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Where be"
+      },
+      {
+        "id": "b",
+        "text": "Where is"
+      },
+      {
+        "id": "c",
+        "text": "Where are"
+      },
+      {
+        "id": "d",
+        "text": "Is where"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Вопрос о местоположении одного кафе: Where is the café?",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.hotel_towel_reply",
+    "revision": 1,
+    "skill_id": "en.be_exchange",
+    "family_id": "en.f.hotel_towel_reply",
+    "level": "A1",
+    "difficulty": 3,
+    "context": "Гость спрашивает, чистые ли полотенца. Они чистые.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "“Are the towels clean?” “Yes, ___.”",
+    "choices": [
+      {
+        "id": "a",
+        "text": "they is"
+      },
+      {
+        "id": "b",
+        "text": "we are"
+      },
+      {
+        "id": "c",
+        "text": "they are"
+      },
+      {
+        "id": "d",
+        "text": "it is"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Towels во множественном числе заменяется they: they are.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.wrong_floor",
+    "revision": 1,
+    "skill_id": "en.be_exchange",
+    "family_id": "en.f.wrong_floor",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Гости думают, что находятся на третьем этаже. На самом деле это второй.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "You ___ on the third floor. This is the second floor.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "isn't"
+      },
+      {
+        "id": "b",
+        "text": "am not"
+      },
+      {
+        "id": "c",
+        "text": "not are"
+      },
+      {
+        "id": "d",
+        "text": "aren't"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Отрицание с you — aren't.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.name_question",
+    "revision": 1,
+    "skill_id": "en.be_exchange",
+    "family_id": "en.f.name_question",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "Вы знакомитесь с человеком и спрашиваете его имя.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "What ___ your name?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "is"
+      },
+      {
+        "id": "b",
+        "text": "are"
+      },
+      {
+        "id": "c",
+        "text": "am"
+      },
+      {
+        "id": "d",
+        "text": "be"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Your name — одно имя; нужен вопрос What is your name?",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.single_friend",
+    "revision": 2,
+    "skill_id": "en.be_exchange",
+    "family_id": "en.f.single_friend",
+    "level": "A1",
+    "difficulty": 3,
+    "context": "Вы указываете на мужчину на фотографии и спрашиваете, друг ли он собеседнику.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "___ your friend?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Am he"
+      },
+      {
+        "id": "b",
+        "text": "Is he"
+      },
+      {
+        "id": "c",
+        "text": "Are he"
+      },
+      {
+        "id": "d",
+        "text": "He is"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Вопрос с he начинается с Is he. He is — порядок слов утверждения.",
+    "status": "approved"
+  }
+]

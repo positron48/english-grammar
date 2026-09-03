@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.lost_keys_now",
+    "revision": 1,
+    "skill_id": "en.experience_result",
+    "family_id": "en.f.lost_keys_now",
+    "level": "B1",
+    "difficulty": 1,
+    "context": "Вы не можете войти домой: ключи потеряны и до сих пор не найдены. Дополните форму.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I've ___ my keys. I can't get in.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "lost"
+      },
+      {
+        "id": "b",
+        "text": "lose"
+      },
+      {
+        "id": "c",
+        "text": "losing"
+      },
+      {
+        "id": "d",
+        "text": "loses"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "После I've требуется lost: результат потери сохраняется сейчас.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.try_sushi",
+    "revision": 1,
+    "skill_id": "en.experience_result",
+    "family_id": "en.f.try_sushi",
+    "level": "B1",
+    "difficulty": 1,
+    "context": "Вы спрашиваете, пробовал ли друг суши когда-либо в жизни.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Have you ever ___ sushi?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "tries"
+      },
+      {
+        "id": "b",
+        "text": "tried"
+      },
+      {
+        "id": "c",
+        "text": "try"
+      },
+      {
+        "id": "d",
+        "text": "trying"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "После Have you ever нужна форма tried.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.finished_report",
+    "revision": 1,
+    "skill_id": "en.experience_result",
+    "family_id": "en.f.finished_report",
+    "level": "B1",
+    "difficulty": 1,
+    "context": "Коллега сообщает, что отчёт уже готов.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "She has already ___ the report.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "finishing"
+      },
+      {
+        "id": "b",
+        "text": "finishes"
+      },
+      {
+        "id": "c",
+        "text": "finished"
+      },
+      {
+        "id": "d",
+        "text": "finish"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "После has already нужна форма finished.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.specific_trip_year",
+    "revision": 1,
+    "skill_id": "en.experience_result",
+    "family_id": "en.f.specific_trip_year",
+    "level": "B1",
+    "difficulty": 2,
+    "context": "Друг рассказывает о поездке в конкретном законченном году.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I ___ to Rome in 2021.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "have gone"
+      },
+      {
+        "id": "b",
+        "text": "have been"
+      },
+      {
+        "id": "c",
+        "text": "go"
+      },
+      {
+        "id": "d",
+        "text": "went"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "In 2021 задаёт законченный период; используется went.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.gone_shop",
+    "revision": 1,
+    "skill_id": "en.experience_result",
+    "family_id": "en.f.gone_shop",
+    "level": "B1",
+    "difficulty": 3,
+    "context": "Мама ушла в магазин и ещё не вернулась. Дополните сообщение.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Mum has ___ to the shop. She'll be back soon.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "gone"
+      },
+      {
+        "id": "b",
+        "text": "been"
+      },
+      {
+        "id": "c",
+        "text": "went"
+      },
+      {
+        "id": "d",
+        "text": "going"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Has gone означает, что человек ушёл и сейчас отсутствует. Has been обычно описывает состоявшийся визит с возвращением.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.been_returned",
+    "revision": 1,
+    "skill_id": "en.experience_result",
+    "family_id": "en.f.been_returned",
+    "level": "B1",
+    "difficulty": 3,
+    "context": "Друг побывал в Японии и уже вернулся. Выберите фразу о его опыте.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "He has ___ to Japan twice.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "go"
+      },
+      {
+        "id": "b",
+        "text": "been"
+      },
+      {
+        "id": "c",
+        "text": "went"
+      },
+      {
+        "id": "d",
+        "text": "being"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Has been to передаёт опыт посещения; twice считает визиты.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.never_flown",
+    "revision": 1,
+    "skill_id": "en.experience_result",
+    "family_id": "en.f.never_flown",
+    "level": "B1",
+    "difficulty": 2,
+    "context": "Вы ещё ни разу не летали на самолёте.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I have never ___ on a plane.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "fly"
+      },
+      {
+        "id": "b",
+        "text": "flying"
+      },
+      {
+        "id": "c",
+        "text": "flown"
+      },
+      {
+        "id": "d",
+        "text": "flew"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "После have never используется flown.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.yesterday_purchase",
+    "revision": 1,
+    "skill_id": "en.experience_result",
+    "family_id": "en.f.yesterday_purchase",
+    "level": "B1",
+    "difficulty": 2,
+    "context": "Вы говорите о покупке телефона вчера.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I ___ a new phone yesterday.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "have bought"
+      },
+      {
+        "id": "b",
+        "text": "have buy"
+      },
+      {
+        "id": "c",
+        "text": "buy"
+      },
+      {
+        "id": "d",
+        "text": "bought"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Yesterday — законченный момент прошлого, поэтому bought.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.not_received_yet",
+    "revision": 1,
+    "skill_id": "en.experience_result",
+    "family_id": "en.f.not_received_yet",
+    "level": "B1",
+    "difficulty": 1,
+    "context": "Вы всё ещё ждёте письмо. Дополните форму.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I haven't ___ the email yet.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "received"
+      },
+      {
+        "id": "b",
+        "text": "receive"
+      },
+      {
+        "id": "c",
+        "text": "receiving"
+      },
+      {
+        "id": "d",
+        "text": "receives"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Haven't received yet означает, что ожидаемый результат пока не наступил.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.just_arrived",
+    "revision": 1,
+    "skill_id": "en.experience_result",
+    "family_id": "en.f.just_arrived",
+    "level": "B1",
+    "difficulty": 1,
+    "context": "Гости только что пришли. Дополните сообщение хозяину.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The guests have just ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "arrives"
+      },
+      {
+        "id": "b",
+        "text": "arrived"
+      },
+      {
+        "id": "c",
+        "text": "arrive"
+      },
+      {
+        "id": "d",
+        "text": "arriving"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "После have just нужна форма arrived.",
+    "status": "approved"
+  }
+]

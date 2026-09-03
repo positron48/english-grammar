@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.woman_helped",
+    "revision": 1,
+    "skill_id": "en.relative_reference",
+    "family_id": "en.f.woman_helped",
+    "level": "B1",
+    "difficulty": 1,
+    "context": "Вы указываете на женщину, которая помогла вам вчера.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "That's the woman ___ helped me yesterday.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "who"
+      },
+      {
+        "id": "b",
+        "text": "which"
+      },
+      {
+        "id": "c",
+        "text": "whose"
+      },
+      {
+        "id": "d",
+        "text": "where"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Who связывает человека с действием, которое он совершил.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.whose_bag",
+    "revision": 1,
+    "skill_id": "en.relative_reference",
+    "family_id": "en.f.whose_bag",
+    "level": "B1",
+    "difficulty": 2,
+    "context": "Вы нашли сумку и ищете мужчину, которому она принадлежит.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I'm looking for the man ___ bag this is.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "where"
+      },
+      {
+        "id": "b",
+        "text": "whose"
+      },
+      {
+        "id": "c",
+        "text": "who"
+      },
+      {
+        "id": "d",
+        "text": "which"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Whose показывает принадлежность: мужчина, чья это сумка.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.new_bridge_detail",
+    "revision": 1,
+    "skill_id": "en.relative_reference",
+    "family_id": "en.f.new_bridge_detail",
+    "level": "B1",
+    "difficulty": 3,
+    "context": "В городе всем известен один новый мост. Вы добавляете, что он открылся в мае.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The new bridge, ___ opened in May, is already busy.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "whose"
+      },
+      {
+        "id": "b",
+        "text": "what"
+      },
+      {
+        "id": "c",
+        "text": "which"
+      },
+      {
+        "id": "d",
+        "text": "that"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "В добавочном сообщении после запятой о предмете используется which, а не that.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.friend_doctor",
+    "revision": 1,
+    "skill_id": "en.relative_reference",
+    "family_id": "en.f.friend_doctor",
+    "level": "B1",
+    "difficulty": 2,
+    "context": "Вы рассказываете дополнительный факт об Анне.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Anna, ___ is a doctor, lives next door.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "that"
+      },
+      {
+        "id": "b",
+        "text": "which"
+      },
+      {
+        "id": "c",
+        "text": "whose"
+      },
+      {
+        "id": "d",
+        "text": "who"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Добавочный факт о человеке после запятой вводится who.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.phone_battery",
+    "revision": 1,
+    "skill_id": "en.relative_reference",
+    "family_id": "en.f.phone_battery",
+    "level": "B1",
+    "difficulty": 3,
+    "context": "Вы выбираете телефон, батарея которого держит заряд долго.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I want a phone ___ battery lasts all day.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "whose"
+      },
+      {
+        "id": "b",
+        "text": "which"
+      },
+      {
+        "id": "c",
+        "text": "who"
+      },
+      {
+        "id": "d",
+        "text": "what"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Whose может обозначать принадлежность и у предмета: его батарея.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.missed_bus_comment",
+    "revision": 1,
+    "skill_id": "en.relative_reference",
+    "family_id": "en.f.missed_bus_comment",
+    "level": "B1",
+    "difficulty": 3,
+    "context": "Автобус уехал рано, и это вас удивило. Дополните комментарий ко всей ситуации.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The bus left early, ___ surprised me.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "where"
+      },
+      {
+        "id": "b",
+        "text": "which"
+      },
+      {
+        "id": "c",
+        "text": "who"
+      },
+      {
+        "id": "d",
+        "text": "whose"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Which после запятой может отсылать ко всей предыдущей ситуации.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.people_tickets",
+    "revision": 1,
+    "skill_id": "en.relative_reference",
+    "family_id": "en.f.people_tickets",
+    "level": "B1",
+    "difficulty": 1,
+    "context": "В зал допускаются только люди с билетами. Дополните правило.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "People ___ have tickets can enter.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "which"
+      },
+      {
+        "id": "b",
+        "text": "where"
+      },
+      {
+        "id": "c",
+        "text": "who"
+      },
+      {
+        "id": "d",
+        "text": "whose"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Who относится к людям, выполняющим условие have tickets.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.book_borrowed",
+    "revision": 1,
+    "skill_id": "en.relative_reference",
+    "family_id": "en.f.book_borrowed",
+    "level": "B1",
+    "difficulty": 2,
+    "context": "Вы говорите о конкретной книге, которую одолжили у друга.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The book ___ I borrowed from you was fascinating.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "what"
+      },
+      {
+        "id": "b",
+        "text": "who"
+      },
+      {
+        "id": "c",
+        "text": "whose"
+      },
+      {
+        "id": "d",
+        "text": "that"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "That связывает книгу с I borrowed from you; в такой уточняющей конструкции оно допустимо.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.company_office",
+    "revision": 1,
+    "skill_id": "en.relative_reference",
+    "family_id": "en.f.company_office",
+    "level": "B1",
+    "difficulty": 3,
+    "context": "Вы описываете компанию через её офис.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The company, ___ office is near the river, is hiring.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "whose"
+      },
+      {
+        "id": "b",
+        "text": "which"
+      },
+      {
+        "id": "c",
+        "text": "who"
+      },
+      {
+        "id": "d",
+        "text": "that"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Перед office нужен whose, чтобы показать принадлежность офиса компании.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.all_colleagues",
+    "revision": 1,
+    "skill_id": "en.relative_reference",
+    "family_id": "en.f.all_colleagues",
+    "level": "B1",
+    "difficulty": 3,
+    "context": "Все ваши коллеги живут рядом, и вы хотите добавить этот факт без выделения отдельной группы. Какой вариант передаёт именно это?",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "___ walk to work.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "My colleagues which all live nearby"
+      },
+      {
+        "id": "b",
+        "text": "My colleagues, who all live nearby,"
+      },
+      {
+        "id": "c",
+        "text": "Only my colleagues who live nearby"
+      },
+      {
+        "id": "d",
+        "text": "My colleagues whose all live nearby"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Запятые и all показывают добавочный факт обо всех коллегах, а не отбор только живущих рядом.",
+    "status": "approved"
+  }
+]

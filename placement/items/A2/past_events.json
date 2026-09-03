@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.yesterday_home",
+    "revision": 1,
+    "skill_id": "en.past_events",
+    "family_id": "en.f.yesterday_home",
+    "level": "A2",
+    "difficulty": 1,
+    "context": "Друг спрашивает, где вы были вчера вечером.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I ___ at home yesterday evening.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "was"
+      },
+      {
+        "id": "b",
+        "text": "were"
+      },
+      {
+        "id": "c",
+        "text": "am"
+      },
+      {
+        "id": "d",
+        "text": "be"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Для I в завершённом прошлом используется was.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.concert_tickets",
+    "revision": 1,
+    "skill_id": "en.past_events",
+    "family_id": "en.f.concert_tickets",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Вы рассказываете о вчерашней покупке билетов.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "We ___ the tickets yesterday.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "buying"
+      },
+      {
+        "id": "b",
+        "text": "bought"
+      },
+      {
+        "id": "c",
+        "text": "buy"
+      },
+      {
+        "id": "d",
+        "text": "buyed"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Прошедшая форма buy — bought.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.closed_office",
+    "revision": 1,
+    "skill_id": "en.past_events",
+    "family_id": "en.f.closed_office",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Вчера вы пришли в офис, но он был закрыт.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The office ___ closed when I arrived.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "is"
+      },
+      {
+        "id": "b",
+        "text": "be"
+      },
+      {
+        "id": "c",
+        "text": "was"
+      },
+      {
+        "id": "d",
+        "text": "were"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Состояние одного офиса в прошлом: was closed.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.weekend_cleaning",
+    "revision": 1,
+    "skill_id": "en.past_events",
+    "family_id": "en.f.weekend_cleaning",
+    "level": "A2",
+    "difficulty": 1,
+    "context": "Вы рассказываете, что сделали в субботу.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I ___ the kitchen on Saturday.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "clean"
+      },
+      {
+        "id": "b",
+        "text": "cleant"
+      },
+      {
+        "id": "c",
+        "text": "cleaning"
+      },
+      {
+        "id": "d",
+        "text": "cleaned"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Завершённое действие в субботу: cleaned.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.lost_bus",
+    "revision": 1,
+    "skill_id": "en.past_events",
+    "family_id": "en.f.lost_bus",
+    "level": "A2",
+    "difficulty": 1,
+    "context": "Вчера друг ушёл слишком поздно и пропустил автобус.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "He ___ the bus yesterday.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "missed"
+      },
+      {
+        "id": "b",
+        "text": "miss"
+      },
+      {
+        "id": "c",
+        "text": "missing"
+      },
+      {
+        "id": "d",
+        "text": "misses"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Yesterday задаёт завершённое прошлое: missed.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.holiday_weather",
+    "revision": 1,
+    "skill_id": "en.past_events",
+    "family_id": "en.f.holiday_weather",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Вы описываете погоду во время законченной поездки: дни были солнечными.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The days ___ sunny.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "be"
+      },
+      {
+        "id": "b",
+        "text": "were"
+      },
+      {
+        "id": "c",
+        "text": "was"
+      },
+      {
+        "id": "d",
+        "text": "are"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Days — множественное число; в прошлом нужен were.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.first_letter",
+    "revision": 1,
+    "skill_id": "en.past_events",
+    "family_id": "en.f.first_letter",
+    "level": "A2",
+    "difficulty": 3,
+    "context": "Вы рассказываете о письме, написанном на прошлой неделе.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I ___ my first letter in English last week.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "written"
+      },
+      {
+        "id": "b",
+        "text": "writing"
+      },
+      {
+        "id": "c",
+        "text": "wrote"
+      },
+      {
+        "id": "d",
+        "text": "write"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Прошедшее действие last week: wrote. Written отдельно здесь не используется.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.left_wallet",
+    "revision": 1,
+    "skill_id": "en.past_events",
+    "family_id": "en.f.left_wallet",
+    "level": "A2",
+    "difficulty": 3,
+    "context": "Вчера вы забыли кошелёк дома.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I ___ my wallet at home yesterday.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "leave"
+      },
+      {
+        "id": "b",
+        "text": "leaved"
+      },
+      {
+        "id": "c",
+        "text": "leaving"
+      },
+      {
+        "id": "d",
+        "text": "left"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Прошедшая форма leave — left.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.watched_match",
+    "revision": 1,
+    "skill_id": "en.past_events",
+    "family_id": "en.f.watched_match",
+    "level": "A2",
+    "difficulty": 1,
+    "context": "Матч закончился вчера. Вы говорите, что смотрели его по телевизору.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "We ___ the match on TV last night.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "watched"
+      },
+      {
+        "id": "b",
+        "text": "watch"
+      },
+      {
+        "id": "c",
+        "text": "watching"
+      },
+      {
+        "id": "d",
+        "text": "watches"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Last night относится к завершённому прошлому: watched.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.old_address",
+    "revision": 1,
+    "skill_id": "en.past_events",
+    "family_id": "en.f.old_address",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Раньше магазин находился у станции. Теперь он переехал.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The shop ___ near the station in 2019.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "be"
+      },
+      {
+        "id": "b",
+        "text": "was"
+      },
+      {
+        "id": "c",
+        "text": "were"
+      },
+      {
+        "id": "d",
+        "text": "is"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Конкретный прошлый год требует was для одного магазина.",
+    "status": "approved"
+  }
+]

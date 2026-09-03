@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.museum_built",
+    "revision": 1,
+    "skill_id": "en.passive_reporting",
+    "family_id": "en.f.museum_built",
+    "level": "B2",
+    "difficulty": 1,
+    "context": "В путеводителе говорится о дате постройки музея.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The museum ___ in 1890.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "was built"
+      },
+      {
+        "id": "b",
+        "text": "built"
+      },
+      {
+        "id": "c",
+        "text": "has built"
+      },
+      {
+        "id": "d",
+        "text": "was building"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Музей — объект постройки; законченная дата требует was built.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.coffee_grown",
+    "revision": 1,
+    "skill_id": "en.passive_reporting",
+    "family_id": "en.f.coffee_grown",
+    "level": "B2",
+    "difficulty": 1,
+    "context": "Вы описываете происхождение кофе, а не деятельность конкретного фермера.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "This coffee ___ in Colombia.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "is been grown"
+      },
+      {
+        "id": "b",
+        "text": "is grown"
+      },
+      {
+        "id": "c",
+        "text": "is grow"
+      },
+      {
+        "id": "d",
+        "text": "has grew"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Is grown означает, что кофе выращивают; внимание направлено на продукт.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.road_being_repaired",
+    "revision": 1,
+    "skill_id": "en.passive_reporting",
+    "family_id": "en.f.road_being_repaired",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Рабочие прямо сейчас чинят дорогу. Дополните объявление о текущих работах.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The road ___ at the moment.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "is been repaired"
+      },
+      {
+        "id": "b",
+        "text": "repairs"
+      },
+      {
+        "id": "c",
+        "text": "is being repaired"
+      },
+      {
+        "id": "d",
+        "text": "has repairing"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Is being repaired передаёт действие над дорогой, которое идёт сейчас.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.parcel_delivered",
+    "revision": 1,
+    "skill_id": "en.passive_reporting",
+    "family_id": "en.f.parcel_delivered",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Посылку уже доставили, и получатель может её забрать.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The parcel has ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "delivered"
+      },
+      {
+        "id": "b",
+        "text": "being delivered"
+      },
+      {
+        "id": "c",
+        "text": "be delivered"
+      },
+      {
+        "id": "d",
+        "text": "been delivered"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "После has для результата действия над посылкой нужно been delivered.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.windows_cleaned",
+    "revision": 1,
+    "skill_id": "en.passive_reporting",
+    "family_id": "en.f.windows_cleaned",
+    "level": "B2",
+    "difficulty": 1,
+    "context": "В офисе моют окна каждую пятницу. Дополните описание регулярной услуги.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The windows ___ every Friday.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "are cleaned"
+      },
+      {
+        "id": "b",
+        "text": "clean"
+      },
+      {
+        "id": "c",
+        "text": "are cleaning"
+      },
+      {
+        "id": "d",
+        "text": "have cleaning"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Регулярное действие над окнами выражается are cleaned.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.file_deleted_accident",
+    "revision": 1,
+    "skill_id": "en.passive_reporting",
+    "family_id": "en.f.file_deleted_accident",
+    "level": "B2",
+    "difficulty": 1,
+    "context": "Файл случайно удалили вчера. Вы не знаете, кто это сделал.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The file ___ by mistake yesterday.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "was deleting"
+      },
+      {
+        "id": "b",
+        "text": "was deleted"
+      },
+      {
+        "id": "c",
+        "text": "deleted"
+      },
+      {
+        "id": "d",
+        "text": "has deleted"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Файл подвергся действию в завершённом прошлом: was deleted.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.results_tomorrow",
+    "revision": 1,
+    "skill_id": "en.passive_reporting",
+    "family_id": "en.f.results_tomorrow",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Результаты объявят завтра. Дополните уведомление.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The results will ___ tomorrow.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "been announced"
+      },
+      {
+        "id": "b",
+        "text": "be announcing"
+      },
+      {
+        "id": "c",
+        "text": "be announced"
+      },
+      {
+        "id": "d",
+        "text": "announce"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "После will в сообщении о действии над results нужно be announced.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.novel_author",
+    "revision": 1,
+    "skill_id": "en.passive_reporting",
+    "family_id": "en.f.novel_author",
+    "level": "B2",
+    "difficulty": 1,
+    "context": "Для выставки важно назвать автора книги. Дополните подпись.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The novel was written ___ a local teacher.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "with"
+      },
+      {
+        "id": "b",
+        "text": "from"
+      },
+      {
+        "id": "c",
+        "text": "of"
+      },
+      {
+        "id": "d",
+        "text": "by"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "By вводит исполнителя действия: написано местным учителем.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.bike_stolen",
+    "revision": 1,
+    "skill_id": "en.passive_reporting",
+    "family_id": "en.f.bike_stolen",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Друг рассказывает разговорным языком о неприятности: велосипед украли.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "My bike got ___ outside the station.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "stolen"
+      },
+      {
+        "id": "b",
+        "text": "steal"
+      },
+      {
+        "id": "c",
+        "text": "stole"
+      },
+      {
+        "id": "d",
+        "text": "stealing"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Get может передавать событие, случившееся с объектом; после got нужна форма stolen.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.meeting_cancelled_before",
+    "revision": 1,
+    "skill_id": "en.passive_reporting",
+    "family_id": "en.f.meeting_cancelled_before",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "До того как вы приехали в офис, встречу уже отменили.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "When I arrived, the meeting had already ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "be cancelling"
+      },
+      {
+        "id": "b",
+        "text": "been cancelled"
+      },
+      {
+        "id": "c",
+        "text": "cancelled"
+      },
+      {
+        "id": "d",
+        "text": "being cancelled"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Had been cancelled показывает действие над встречей до другого прошлого события.",
+    "status": "approved"
+  }
+]

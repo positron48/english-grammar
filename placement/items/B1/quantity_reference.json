@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.advice_move",
+    "revision": 1,
+    "skill_id": "en.quantity_reference",
+    "family_id": "en.f.advice_move",
+    "level": "B1",
+    "difficulty": 1,
+    "context": "Вы получили полезный совет о переезде. Дополните сообщение.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "She gave me some useful ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "advice"
+      },
+      {
+        "id": "b",
+        "text": "advices"
+      },
+      {
+        "id": "c",
+        "text": "an advice"
+      },
+      {
+        "id": "d",
+        "text": "a advice"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Advice обычно неисчисляемое: some useful advice без s и a.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.few_volunteers",
+    "revision": 1,
+    "skill_id": "en.quantity_reference",
+    "family_id": "en.f.few_volunteers",
+    "level": "B1",
+    "difficulty": 3,
+    "context": "Несколько добровольцев пришли, и их достаточно для работы. Выберите вариант с положительным смыслом «несколько есть».",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "We have ___ volunteers, so we can start.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "a little"
+      },
+      {
+        "id": "b",
+        "text": "a few"
+      },
+      {
+        "id": "c",
+        "text": "few"
+      },
+      {
+        "id": "d",
+        "text": "little"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "A few означает, что несколько добровольцев есть. Few подчёркивало бы их нехватку.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.little_time",
+    "revision": 1,
+    "skill_id": "en.quantity_reference",
+    "family_id": "en.f.little_time",
+    "level": "B1",
+    "difficulty": 2,
+    "context": "До закрытия почти не осталось времени, поэтому нужно торопиться.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "We have very ___ time left. Let's hurry.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "many"
+      },
+      {
+        "id": "b",
+        "text": "a few"
+      },
+      {
+        "id": "c",
+        "text": "little"
+      },
+      {
+        "id": "d",
+        "text": "few"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Time здесь неисчисляемое; very little означает «очень мало».",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.known_invoice",
+    "revision": 1,
+    "skill_id": "en.quantity_reference",
+    "family_id": "en.f.known_invoice",
+    "level": "B1",
+    "difficulty": 3,
+    "context": "Вы обсуждаете единственный счёт, который уже прислали клиенту.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Have you paid ___ invoice I sent you?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "a"
+      },
+      {
+        "id": "b",
+        "text": "an"
+      },
+      {
+        "id": "c",
+        "text": "some"
+      },
+      {
+        "id": "d",
+        "text": "the"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Уточнение I sent you указывает на уже известный конкретный счёт: the invoice.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.general_books",
+    "revision": 1,
+    "skill_id": "en.quantity_reference",
+    "family_id": "en.f.general_books",
+    "level": "B1",
+    "difficulty": 2,
+    "context": "Вы говорите о книгах вообще, а не о конкретной коллекции. Какое начало подходит?",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "___ can help us understand other people.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Books"
+      },
+      {
+        "id": "b",
+        "text": "The book"
+      },
+      {
+        "id": "c",
+        "text": "A books"
+      },
+      {
+        "id": "d",
+        "text": "An books"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Для общего утверждения используется множественное Books без артикля.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.more_tea_offer",
+    "revision": 1,
+    "skill_id": "en.quantity_reference",
+    "family_id": "en.f.more_tea_offer",
+    "level": "B1",
+    "difficulty": 1,
+    "context": "Вы предлагаете гостю ещё чаю.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Would you like ___ more tea?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "an"
+      },
+      {
+        "id": "b",
+        "text": "some"
+      },
+      {
+        "id": "c",
+        "text": "a few"
+      },
+      {
+        "id": "d",
+        "text": "many"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "В предложении угощения используется some more tea; tea здесь неисчисляемое.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.each_ticket",
+    "revision": 1,
+    "skill_id": "en.quantity_reference",
+    "family_id": "en.f.each_ticket",
+    "level": "B1",
+    "difficulty": 2,
+    "context": "У каждого билета свой номер. Дополните правило.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Each ticket ___ a number.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "having"
+      },
+      {
+        "id": "b",
+        "text": "are having"
+      },
+      {
+        "id": "c",
+        "text": "has"
+      },
+      {
+        "id": "d",
+        "text": "have"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Each ticket грамматически единственное число, поэтому has.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.news_update",
+    "revision": 2,
+    "skill_id": "en.quantity_reference",
+    "family_id": "en.f.news_update",
+    "level": "B1",
+    "difficulty": 3,
+    "context": "Вы комментируете новости о ходе работ.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The news ___ encouraging.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "are"
+      },
+      {
+        "id": "b",
+        "text": "have"
+      },
+      {
+        "id": "c",
+        "text": "be"
+      },
+      {
+        "id": "d",
+        "text": "is"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "News в английском согласуется как единственное число: is.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.not_many_seats",
+    "revision": 1,
+    "skill_id": "en.quantity_reference",
+    "family_id": "en.f.not_many_seats",
+    "level": "B1",
+    "difficulty": 1,
+    "context": "Свободных мест на рейсе осталось немного. Дополните предложение.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "There aren't ___ seats left on this flight.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "many"
+      },
+      {
+        "id": "b",
+        "text": "much"
+      },
+      {
+        "id": "c",
+        "text": "a little"
+      },
+      {
+        "id": "d",
+        "text": "a"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Seats можно посчитать; в отрицании используется many.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.a_little_money",
+    "revision": 1,
+    "skill_id": "en.quantity_reference",
+    "family_id": "en.f.a_little_money",
+    "level": "B1",
+    "difficulty": 3,
+    "context": "У вас немного денег, но на кофе хватит. Выберите вариант, подчёркивающий наличие небольшой суммы.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I've got ___ money, enough for a coffee.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "many"
+      },
+      {
+        "id": "b",
+        "text": "a little"
+      },
+      {
+        "id": "c",
+        "text": "few"
+      },
+      {
+        "id": "d",
+        "text": "a few"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Money неисчисляемое; a little выражает небольшое, но имеющееся количество.",
+    "status": "approved"
+  }
+]

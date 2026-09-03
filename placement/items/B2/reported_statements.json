@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.say_tell_me",
+    "revision": 1,
+    "skill_id": "en.reported_statements",
+    "family_id": "en.f.say_tell_me",
+    "level": "B2",
+    "difficulty": 1,
+    "context": "Подруга сообщила вам о своём отпуске. Дополните предложение.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "She ___ me she was on holiday.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "told"
+      },
+      {
+        "id": "b",
+        "text": "said"
+      },
+      {
+        "id": "c",
+        "text": "spoke"
+      },
+      {
+        "id": "d",
+        "text": "talked"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Перед прямым указанием адресата me используется told; said потребовало бы to me.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.said_without_receiver",
+    "revision": 1,
+    "skill_id": "en.reported_statements",
+    "family_id": "en.f.said_without_receiver",
+    "level": "B2",
+    "difficulty": 1,
+    "context": "Адресат не назван. Дополните пересказ слов коллеги.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "He ___ he needed more time.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "spoke me"
+      },
+      {
+        "id": "b",
+        "text": "said"
+      },
+      {
+        "id": "c",
+        "text": "told"
+      },
+      {
+        "id": "d",
+        "text": "told to"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Said вводит содержание без обязательного адресата; told здесь не хватает объекта.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.pronoun_report",
+    "revision": 1,
+    "skill_id": "en.reported_statements",
+    "family_id": "en.f.pronoun_report",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Лена сказала вам: “My brother lives in Leeds.” Вы пересказываете её слова. Чей брат должен остаться в сообщении?",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Lena said that ___ brother lived in Leeds.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "your"
+      },
+      {
+        "id": "b",
+        "text": "our"
+      },
+      {
+        "id": "c",
+        "text": "her"
+      },
+      {
+        "id": "d",
+        "text": "my"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "My в словах Лены относится к Лене, поэтому при пересказе — her brother.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.future_in_past",
+    "revision": 1,
+    "skill_id": "en.reported_statements",
+    "family_id": "en.f.future_in_past",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "В понедельник Пол пообещал: “I'll call you tomorrow.” Сегодня пятница, звонок был во вторник. Дополните пересказ.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "On Monday, Paul said he ___ call me the next day.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "will"
+      },
+      {
+        "id": "b",
+        "text": "had"
+      },
+      {
+        "id": "c",
+        "text": "is"
+      },
+      {
+        "id": "d",
+        "text": "would"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Будущее относительно прошлого обещания передаётся would call.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.previous_day_report",
+    "revision": 1,
+    "skill_id": "en.reported_statements",
+    "family_id": "en.f.previous_day_report",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Во вторник Марк сказал: “I finished it yesterday.” В пятницу вы пересказываете это событие.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Mark said on Tuesday that he'd finished it ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "the day before"
+      },
+      {
+        "id": "b",
+        "text": "tomorrow"
+      },
+      {
+        "id": "c",
+        "text": "the next day"
+      },
+      {
+        "id": "d",
+        "text": "today"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Yesterday относительно вторника — предыдущий день; при пересказе the day before.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.can_help_report",
+    "revision": 1,
+    "skill_id": "en.reported_statements",
+    "family_id": "en.f.can_help_report",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "В прошлом месяце коллега сказал: “I can help you then.” Вы рассказываете о той уже прошедшей возможности.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "He said he ___ help me then.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "was"
+      },
+      {
+        "id": "b",
+        "text": "could"
+      },
+      {
+        "id": "c",
+        "text": "had"
+      },
+      {
+        "id": "d",
+        "text": "has"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Could сохраняет возможность, о которой говорили в прошлом.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.not_own_statement",
+    "revision": 1,
+    "skill_id": "en.reported_statements",
+    "family_id": "en.f.not_own_statement",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Учительница сказала ученикам: “You need more practice.” Вы были одним из учеников и пересказываете от лица группы.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "She told us that ___ needed more practice.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "I"
+      },
+      {
+        "id": "b",
+        "text": "he"
+      },
+      {
+        "id": "c",
+        "text": "we"
+      },
+      {
+        "id": "d",
+        "text": "she"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "You относилось к группе с говорящим; при пересказе от неё — we.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.report_no_change_meaning",
+    "revision": 1,
+    "skill_id": "en.reported_statements",
+    "family_id": "en.f.report_no_change_meaning",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Друг сказал: “I don't eat meat.” Вы выбираете пересказ, сохраняющий именно его привычку.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "He said ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "he had to eat meat"
+      },
+      {
+        "id": "b",
+        "text": "I didn't eat meat"
+      },
+      {
+        "id": "c",
+        "text": "he only ate meat"
+      },
+      {
+        "id": "d",
+        "text": "he didn't eat meat"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Правильный пересказ сохраняет отрицание и того же человека: he didn't eat meat.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.will_send_us",
+    "revision": 1,
+    "skill_id": "en.reported_statements",
+    "family_id": "en.f.will_send_us",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Менеджер сказал вашей группе: “I'll send you the details.” Вы пересказываете от лица группы.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The manager said ___ would send ___ the details.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "he / us"
+      },
+      {
+        "id": "b",
+        "text": "we / him"
+      },
+      {
+        "id": "c",
+        "text": "he / himself"
+      },
+      {
+        "id": "d",
+        "text": "us / he"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "I менеджера становится he, а адресат you, включающий говорящего, — us.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.had_already_left_report",
+    "revision": 1,
+    "skill_id": "en.reported_statements",
+    "family_id": "en.f.had_already_left_report",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Сара сообщила: “I've already left the office.” Вы пересказываете вечером вчерашний разговор, относя уход к моменту до её слов.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Sara said she ___ already left the office.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "did"
+      },
+      {
+        "id": "b",
+        "text": "had"
+      },
+      {
+        "id": "c",
+        "text": "was"
+      },
+      {
+        "id": "d",
+        "text": "would"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Had already left показывает, что уход предшествовал прошлому сообщению.",
+    "status": "approved"
+  }
+]

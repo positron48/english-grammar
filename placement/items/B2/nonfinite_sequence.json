@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.finished_locked",
+    "revision": 1,
+    "skill_id": "en.nonfinite_sequence",
+    "family_id": "en.f.finished_locked",
+    "level": "B2",
+    "difficulty": 1,
+    "context": "Вы закончили отчёт, а затем заперли офис. Дополните компактный рассказ.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "___ the report, I locked the office.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Having finished"
+      },
+      {
+        "id": "b",
+        "text": "Having finishing"
+      },
+      {
+        "id": "c",
+        "text": "Have finished"
+      },
+      {
+        "id": "d",
+        "text": "To having finished"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Having finished показывает завершение работы перед запиранием офиса; обе части относятся к I.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.seen_above",
+    "revision": 2,
+    "skill_id": "en.nonfinite_sequence",
+    "family_id": "en.f.seen_above",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Вы летите на самолёте и описываете вид города под вами.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "___ from above, the city looks like a map.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "To seeing"
+      },
+      {
+        "id": "b",
+        "text": "Seen"
+      },
+      {
+        "id": "c",
+        "text": "Seeing"
+      },
+      {
+        "id": "d",
+        "text": "Having seeing"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Seen from above имеет пассивный смысл: если смотреть на город сверху.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.not_knowing",
+    "revision": 1,
+    "skill_id": "en.nonfinite_sequence",
+    "family_id": "en.f.not_knowing",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Вы не знали дорогу и поэтому попросили помощи.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "___ the way, I asked for directions.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Not to knowing"
+      },
+      {
+        "id": "b",
+        "text": "Having not know"
+      },
+      {
+        "id": "c",
+        "text": "Not knowing"
+      },
+      {
+        "id": "d",
+        "text": "Not known"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Not knowing описывает состояние того же I, который обратился за помощью.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.claim_won",
+    "revision": 1,
+    "skill_id": "en.nonfinite_sequence",
+    "family_id": "en.f.claim_won",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Спортсмен утверждает сейчас, что выиграл гонку раньше. Дополните форму о предшествующем событии.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "He claims ___ the race.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "to having won"
+      },
+      {
+        "id": "b",
+        "text": "have won"
+      },
+      {
+        "id": "c",
+        "text": "having won"
+      },
+      {
+        "id": "d",
+        "text": "to have won"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "To have won показывает, что победа предшествует нынешнему утверждению.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.denied_taking",
+    "revision": 1,
+    "skill_id": "en.nonfinite_sequence",
+    "family_id": "en.f.denied_taking",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Подозреваемый отрицает, что взял деньги ранее. Дополните форму.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "He denied ___ the money.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "having taken"
+      },
+      {
+        "id": "b",
+        "text": "to have taken"
+      },
+      {
+        "id": "c",
+        "text": "have taken"
+      },
+      {
+        "id": "d",
+        "text": "had taken"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "После denied допустима форма having taken, явно указывающая на предшествующее действие.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.walking_owner",
+    "revision": 1,
+    "skill_id": "en.nonfinite_sequence",
+    "family_id": "en.f.walking_owner",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Вы шли домой и увидели лису. Выберите продолжение, в котором именно вы идёте, а не лиса или погода.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Walking home, ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "a car passed me"
+      },
+      {
+        "id": "b",
+        "text": "I saw a fox near the gate"
+      },
+      {
+        "id": "c",
+        "text": "a fox was seen by me"
+      },
+      {
+        "id": "d",
+        "text": "the weather became colder"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Участник Walking home должен совпадать с подлежащим главной части: I.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.having_been_warned",
+    "revision": 1,
+    "skill_id": "en.nonfinite_sequence",
+    "family_id": "en.f.having_been_warned",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Сначала туристов предупредили о льде, затем они выбрали другой путь.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Having ___ about the ice, we took another path.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "being warned"
+      },
+      {
+        "id": "b",
+        "text": "be warned"
+      },
+      {
+        "id": "c",
+        "text": "been warned"
+      },
+      {
+        "id": "d",
+        "text": "warned"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Туристы получили предупреждение; пассивное предшествующее действие — having been warned.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.left_alone",
+    "revision": 1,
+    "skill_id": "en.nonfinite_sequence",
+    "family_id": "en.f.left_alone",
+    "level": "B2",
+    "difficulty": 1,
+    "context": "Собака начинает лаять, когда её оставляют одну.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "___ alone, the dog starts barking.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Leaving"
+      },
+      {
+        "id": "b",
+        "text": "Having leaving"
+      },
+      {
+        "id": "c",
+        "text": "To leaving"
+      },
+      {
+        "id": "d",
+        "text": "Left"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Left alone означает «оставленная одна»; собака не сама оставляет кого-то.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.perfect_happy",
+    "revision": 1,
+    "skill_id": "en.nonfinite_sequence",
+    "family_id": "en.f.perfect_happy",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Вы рады, что уже встретились с командой до отъезда. Дополните фразу о состоявшейся встрече.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I'm glad ___ the team before I left.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "to have met"
+      },
+      {
+        "id": "b",
+        "text": "to meeting"
+      },
+      {
+        "id": "c",
+        "text": "to have meet"
+      },
+      {
+        "id": "d",
+        "text": "to had met"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "To have met обозначает встречу, состоявшуюся раньше нынешней радости.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.checking_alarm",
+    "revision": 1,
+    "skill_id": "en.nonfinite_sequence",
+    "family_id": "en.f.checking_alarm",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Сначала вы проверили все окна, потом включили сигнализацию. Дополните начало.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Having checked all the windows, ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "there was an alarm"
+      },
+      {
+        "id": "b",
+        "text": "I switched on the alarm"
+      },
+      {
+        "id": "c",
+        "text": "the alarm switched me on"
+      },
+      {
+        "id": "d",
+        "text": "all the windows were secure"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Checking выполнял I, поэтому главная часть должна продолжаться тем же участником: I switched on the alarm.",
+    "status": "approved"
+  }
+]

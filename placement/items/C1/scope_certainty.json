@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.tends_not_always",
+    "revision": 1,
+    "skill_id": "en.scope_certainty",
+    "family_id": "en.f.tends_not_always",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Автор пишет: “New staff tend to ask more questions.” Какой пересказ сохраняет границу утверждения?",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "New staff tend to ask more questions.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "New staff generally ask more questions, though there are exceptions."
+      },
+      {
+        "id": "b",
+        "text": "Every new employee always asks more questions."
+      },
+      {
+        "id": "c",
+        "text": "Only new staff are allowed to ask questions."
+      },
+      {
+        "id": "d",
+        "text": "New staff are certain to ask fewer questions."
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Tend to выражает общую тенденцию с исключениями, не правило для каждого человека.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.apparently_not_confirmed",
+    "revision": 1,
+    "skill_id": "en.scope_certainty",
+    "family_id": "en.f.apparently_not_confirmed",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Коллега говорит: “Apparently, the launch has been delayed.” Что передаёт apparently?",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Apparently, the launch has been delayed.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Говорящий утверждает, что запуск уже точно состоялся."
+      },
+      {
+        "id": "b",
+        "text": "По имеющимся сведениям запуск отложили; говорящий не подаёт это как лично подтверждённый факт."
+      },
+      {
+        "id": "c",
+        "text": "Говорящий гарантирует новую дату запуска."
+      },
+      {
+        "id": "d",
+        "text": "Говорящий просит отложить запуск."
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Apparently маркирует вывод по сведениям или внешним признакам, а не личную гарантию.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.not_necessarily_false",
+    "revision": 1,
+    "skill_id": "en.scope_certainty",
+    "family_id": "en.f.not_necessarily_false",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "В отчёте написано: “A lower price does not necessarily mean lower quality.” Выберите точный пересказ.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "A lower price does not necessarily mean lower quality.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Price never has any relation to quality."
+      },
+      {
+        "id": "b",
+        "text": "Low quality always requires a high price."
+      },
+      {
+        "id": "c",
+        "text": "A cheaper product may still be of good quality."
+      },
+      {
+        "id": "d",
+        "text": "A cheaper product is always of better quality."
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Not necessarily отрицает обязательную связь, но не любую возможную связь цены и качества.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.unlikely_possible",
+    "revision": 1,
+    "skill_id": "en.scope_certainty",
+    "family_id": "en.f.unlikely_possible",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Коллега обсуждает время встречи: “It's unlikely that I'll be free before five.” Какой смысл сохранён?",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "It's unlikely that I'll be free before five.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Being free before five is completely impossible."
+      },
+      {
+        "id": "b",
+        "text": "The speaker guarantees being free at four."
+      },
+      {
+        "id": "c",
+        "text": "The speaker says they were free yesterday."
+      },
+      {
+        "id": "d",
+        "text": "Being free before five is possible, but not expected."
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Unlikely означает маловероятность, а не полную невозможность.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.relatively_small",
+    "revision": 1,
+    "skill_id": "en.scope_certainty",
+    "family_id": "en.f.relatively_small",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Отчёт называет рост “relatively small”. Какой пересказ не усиливает исходное утверждение?",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The increase was relatively small.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The increase was small in comparison with a relevant reference point."
+      },
+      {
+        "id": "b",
+        "text": "There was no increase at all."
+      },
+      {
+        "id": "c",
+        "text": "The increase was smaller than every increase ever recorded."
+      },
+      {
+        "id": "d",
+        "text": "The figures are completely unreliable."
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Relatively задаёт сравнение с некоторой точкой отсчёта; не отрицает рост и не объявляет абсолютный рекорд.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.arguably_best",
+    "revision": 1,
+    "skill_id": "en.scope_certainty",
+    "family_id": "en.f.arguably_best",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Рецензент пишет: “This is arguably the strongest chapter.” Что выражает arguably?",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "This is arguably the strongest chapter.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Автор отказывается давать какую-либо оценку."
+      },
+      {
+        "id": "b",
+        "text": "Такую оценку можно обоснованно защищать, хотя с ней можно спорить."
+      },
+      {
+        "id": "c",
+        "text": "Это бесспорно доказанная оценка, несогласие невозможно."
+      },
+      {
+        "id": "d",
+        "text": "Автор точно считает главу самой слабой."
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Arguably предлагает защищаемую, но оспоримую оценку.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.evidence_so_far",
+    "revision": 1,
+    "skill_id": "en.scope_certainty",
+    "family_id": "en.f.evidence_so_far",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Редактор хочет сохранить ограничение по уже собранным данным: новые данные ещё возможны.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Which revision preserves “The evidence so far suggests a decline”?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "There has never been any evidence of a decline."
+      },
+      {
+        "id": "b",
+        "text": "The decline is impossible despite the evidence."
+      },
+      {
+        "id": "c",
+        "text": "The available evidence points to a decline, though later findings may change the picture."
+      },
+      {
+        "id": "d",
+        "text": "All future evidence will certainly confirm the decline."
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "So far ограничивает вывод текущими сведениями; suggests оставляет вывод предварительным.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.not_all_customers",
+    "revision": 1,
+    "skill_id": "en.scope_certainty",
+    "family_id": "en.f.not_all_customers",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Исследователь пишет: “The change may benefit some customers.” Какой пересказ не расширяет группу и уверенность?",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The change may benefit some customers.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "All customers will definitely benefit."
+      },
+      {
+        "id": "b",
+        "text": "No customers can benefit."
+      },
+      {
+        "id": "c",
+        "text": "Every customer has already benefited."
+      },
+      {
+        "id": "d",
+        "text": "Some customers could benefit, but a benefit for everyone is not claimed."
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "May означает возможность, some — часть или некоторое число клиентов; результат для всех не обещан.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.seems_vs_is",
+    "revision": 1,
+    "skill_id": "en.scope_certainty",
+    "family_id": "en.f.seems_vs_is",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Менеджер заменил “The plan is practical” на “The plan seems practical”. Что изменилось?",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The plan seems practical.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Оценка представлена как впечатление, а не как прямое утверждение факта."
+      },
+      {
+        "id": "b",
+        "text": "План теперь описан как непрактичный."
+      },
+      {
+        "id": "c",
+        "text": "Говорящий сообщает, что план уже выполнен."
+      },
+      {
+        "id": "d",
+        "text": "Практичность объявлена окончательно доказанной."
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Seems ослабляет категоричность оценки, сохраняя её положительное направление.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.not_uncommon",
+    "revision": 1,
+    "skill_id": "en.scope_certainty",
+    "family_id": "en.f.not_uncommon",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "В обзоре сказано: “Such delays are not uncommon.” Какой смысл ближе всего?",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Such delays are not uncommon.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Речь только об одной уникальной задержке."
+      },
+      {
+        "id": "b",
+        "text": "Такие задержки встречаются достаточно регулярно."
+      },
+      {
+        "id": "c",
+        "text": "Такие задержки практически никогда не случаются."
+      },
+      {
+        "id": "d",
+        "text": "Задержки неизбежны при каждой доставке."
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Not uncommon мягко сообщает, что явление нередкое, не утверждая, что оно происходит всегда.",
+    "status": "approved"
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.shared_flat",
+    "revision": 1,
+    "skill_id": "en.ownership_reference",
+    "family_id": "en.f.shared_flat",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Вы и брат живёте в одной квартире. Вы говорите о ней от вашего общего имени.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "This is ___ flat.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "our"
+      },
+      {
+        "id": "b",
+        "text": "us"
+      },
+      {
+        "id": "c",
+        "text": "we"
+      },
+      {
+        "id": "d",
+        "text": "ours"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Перед flat нужен показатель принадлежности our — «наша».",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.birthday_sister",
+    "revision": 1,
+    "skill_id": "en.ownership_reference",
+    "family_id": "en.f.birthday_sister",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "Вы говорите о своей сестре: сегодня её день рождения.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Today is ___ birthday.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "him"
+      },
+      {
+        "id": "b",
+        "text": "her"
+      },
+      {
+        "id": "c",
+        "text": "she"
+      },
+      {
+        "id": "d",
+        "text": "he"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Перед birthday используется her — «её».",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.coach_whistle",
+    "revision": 1,
+    "skill_id": "en.ownership_reference",
+    "family_id": "en.f.coach_whistle",
+    "level": "A1",
+    "difficulty": 3,
+    "context": "Свисток принадлежит одному тренеру. Вы указываете на него.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "It's the ___ whistle.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "coachs"
+      },
+      {
+        "id": "b",
+        "text": "coach"
+      },
+      {
+        "id": "c",
+        "text": "coach's"
+      },
+      {
+        "id": "d",
+        "text": "coachs'"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Принадлежность одному человеку выражается 's: the coach's whistle.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.call_parents",
+    "revision": 1,
+    "skill_id": "en.ownership_reference",
+    "family_id": "en.f.call_parents",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Родители ждут вашего звонка. Вы заменяете my parents одним словом.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I call ___ every Sunday.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "they"
+      },
+      {
+        "id": "b",
+        "text": "their"
+      },
+      {
+        "id": "c",
+        "text": "theirs"
+      },
+      {
+        "id": "d",
+        "text": "them"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "После call адресат действия выражается them.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.help_me",
+    "revision": 1,
+    "skill_id": "en.ownership_reference",
+    "family_id": "en.f.help_me",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "Вы просите друга о помощи самому себе.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Please help ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "me"
+      },
+      {
+        "id": "b",
+        "text": "I"
+      },
+      {
+        "id": "c",
+        "text": "my"
+      },
+      {
+        "id": "d",
+        "text": "mine"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "После help нужно me — «мне/меня», а не I.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.jack_bike",
+    "revision": 1,
+    "skill_id": "en.ownership_reference",
+    "family_id": "en.f.jack_bike",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "Джек показывает велосипед, который принадлежит ему. Вы рассказываете об этом велосипеде.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "This is Jack. It's ___ bike.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "she"
+      },
+      {
+        "id": "b",
+        "text": "his"
+      },
+      {
+        "id": "c",
+        "text": "he"
+      },
+      {
+        "id": "d",
+        "text": "him"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Перед bike принадлежность Джеку выражается his.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.our_teacher",
+    "revision": 1,
+    "skill_id": "en.ownership_reference",
+    "family_id": "en.f.our_teacher",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Вы с одноклассником обсуждаете свою учительницу. Как заменить our teacher в «We like our teacher»?",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "We like ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "hers"
+      },
+      {
+        "id": "b",
+        "text": "our"
+      },
+      {
+        "id": "c",
+        "text": "her"
+      },
+      {
+        "id": "d",
+        "text": "she"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Женщина как объект после like заменяется her.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.customer_card",
+    "revision": 1,
+    "skill_id": "en.ownership_reference",
+    "family_id": "en.f.customer_card",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "Сотрудник магазина возвращает покупателю его карту.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Here is ___ card.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "you"
+      },
+      {
+        "id": "b",
+        "text": "yours"
+      },
+      {
+        "id": "c",
+        "text": "you're"
+      },
+      {
+        "id": "d",
+        "text": "your"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Перед card используется your — «ваша».",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.children_room",
+    "revision": 1,
+    "skill_id": "en.ownership_reference",
+    "family_id": "en.f.children_room",
+    "level": "A1",
+    "difficulty": 3,
+    "context": "Одна комната принадлежит нескольким детям.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "This is the ___ room.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "children's"
+      },
+      {
+        "id": "b",
+        "text": "childrens'"
+      },
+      {
+        "id": "c",
+        "text": "childrens"
+      },
+      {
+        "id": "d",
+        "text": "children"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Children уже множественное число без s; для принадлежности добавляем 's.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.address_group",
+    "revision": 1,
+    "skill_id": "en.ownership_reference",
+    "family_id": "en.f.address_group",
+    "level": "A1",
+    "difficulty": 3,
+    "context": "Вы показываете адрес компании, где работают ваши друзья. Он принадлежит их компании.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "This is ___ company's address.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "theirs"
+      },
+      {
+        "id": "b",
+        "text": "their"
+      },
+      {
+        "id": "c",
+        "text": "they"
+      },
+      {
+        "id": "d",
+        "text": "them"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Перед company's address нужен their — «их».",
+    "status": "approved"
+  }
+]

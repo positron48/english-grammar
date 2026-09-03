@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.hardly_arrived_alarm",
+    "revision": 1,
+    "skill_id": "en.timing_inversion",
+    "family_id": "en.f.hardly_arrived_alarm",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Вы едва успели приехать, как сработала сигнализация.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Hardly had we arrived ___ the alarm went off.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "when"
+      },
+      {
+        "id": "b",
+        "text": "than"
+      },
+      {
+        "id": "c",
+        "text": "then"
+      },
+      {
+        "id": "d",
+        "text": "that"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Устойчивая связка: Hardly…when….",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.no_sooner_left",
+    "revision": 1,
+    "skill_id": "en.timing_inversion",
+    "family_id": "en.f.no_sooner_left",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Дождь начался сразу после вашего выхода.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "No sooner had I left the house ___ it started raining.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "that"
+      },
+      {
+        "id": "b",
+        "text": "than"
+      },
+      {
+        "id": "c",
+        "text": "when"
+      },
+      {
+        "id": "d",
+        "text": "then"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Конструкция No sooner требует than.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.only_then_realise",
+    "revision": 1,
+    "skill_id": "en.timing_inversion",
+    "family_id": "en.f.only_then_realise",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Только после объяснения вы поняли, почему клиент рассердился.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Only then ___ why the client was upset.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "did I understood"
+      },
+      {
+        "id": "b",
+        "text": "understood I did"
+      },
+      {
+        "id": "c",
+        "text": "did I understand"
+      },
+      {
+        "id": "d",
+        "text": "I understood"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "После Only then инверсия находится в главной части: did I understand.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.only_after_check",
+    "revision": 1,
+    "skill_id": "en.timing_inversion",
+    "family_id": "en.f.only_after_check",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Отправить заказ удалось лишь после проверки адреса.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Only after checking the address ___ the order.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "we sent"
+      },
+      {
+        "id": "b",
+        "text": "did we sent"
+      },
+      {
+        "id": "c",
+        "text": "sent we"
+      },
+      {
+        "id": "d",
+        "text": "did we send"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Начальное Only after… вызывает did we send в главной части.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.only_when_dark",
+    "revision": 1,
+    "skill_id": "en.timing_inversion",
+    "family_id": "en.f.only_when_dark",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Ошибка стала заметна только после наступления темноты.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Only when it got dark ___ the problem.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "did we notice"
+      },
+      {
+        "id": "b",
+        "text": "we noticed"
+      },
+      {
+        "id": "c",
+        "text": "did we noticed"
+      },
+      {
+        "id": "d",
+        "text": "noticed we did"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "В придаточной части when порядок обычный; инверсия нужна в главной: did we notice.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.scarcely_started",
+    "revision": 1,
+    "skill_id": "en.timing_inversion",
+    "family_id": "en.f.scarcely_started",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Встреча едва началась, как пропала связь.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Scarcely ___ when the connection failed.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "did the meeting began"
+      },
+      {
+        "id": "b",
+        "text": "had the meeting begun"
+      },
+      {
+        "id": "c",
+        "text": "the meeting had begun"
+      },
+      {
+        "id": "d",
+        "text": "had begun the meeting"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "После Scarcely нужна инверсия had the meeting begun, а далее when.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.not_until_letter",
+    "revision": 1,
+    "skill_id": "en.timing_inversion",
+    "family_id": "en.f.not_until_letter",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "О решении вам сообщили только после получения официального письма.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Not until the letter arrived ___ about the decision.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "did I knew"
+      },
+      {
+        "id": "b",
+        "text": "knew I did"
+      },
+      {
+        "id": "c",
+        "text": "did I know"
+      },
+      {
+        "id": "d",
+        "text": "I knew"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "После начального Not until… требуется did I know в главной части.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.only_by_working",
+    "revision": 1,
+    "skill_id": "en.timing_inversion",
+    "family_id": "en.f.only_by_working",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Завершить проект удалось только благодаря совместной работе.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Only by working together ___ finish the project.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "we were able to"
+      },
+      {
+        "id": "b",
+        "text": "we able were to"
+      },
+      {
+        "id": "c",
+        "text": "were able we to"
+      },
+      {
+        "id": "d",
+        "text": "were we able to"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Ограничение Only by… в начале требует инверсии were we able to.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.hardly_sequence_meaning",
+    "revision": 1,
+    "skill_id": "en.timing_inversion",
+    "family_id": "en.f.hardly_sequence_meaning",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Автор пишет: “Hardly had the doors opened when the crowd rushed in.” Какова последовательность?",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Hardly had the doors opened when the crowd rushed in.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Толпа устремилась внутрь почти сразу после открытия дверей."
+      },
+      {
+        "id": "b",
+        "text": "Двери открылись после того, как толпа вошла."
+      },
+      {
+        "id": "c",
+        "text": "Толпа долго ждала внутри до открытия дверей."
+      },
+      {
+        "id": "d",
+        "text": "Двери так и не открыли, хотя толпа спешила."
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Hardly…when подчёркивает очень короткий промежуток между первым и вторым событием.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.only_when_clause",
+    "revision": 1,
+    "skill_id": "en.timing_inversion",
+    "family_id": "en.f.only_when_clause",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Вы заметили ошибку лишь при повторном чтении письма. Выберите полностью правильное начало.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "___ did I notice the mistake.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Only when reread I the letter"
+      },
+      {
+        "id": "b",
+        "text": "Only when I reread the letter"
+      },
+      {
+        "id": "c",
+        "text": "Only when did I reread the letter"
+      },
+      {
+        "id": "d",
+        "text": "Only I reread when the letter"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Внутри when сохраняется I reread; инверсия уже стоит в главной части did I notice.",
+    "status": "approved"
+  }
+]

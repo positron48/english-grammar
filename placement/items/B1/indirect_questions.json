@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.station_desk",
+    "revision": 1,
+    "skill_id": "en.indirect_questions",
+    "family_id": "en.f.station_desk",
+    "level": "B1",
+    "difficulty": 1,
+    "context": "В справочной вы вежливо спрашиваете, где находится платформа.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Could you tell me where ___?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "the platform is"
+      },
+      {
+        "id": "b",
+        "text": "is the platform"
+      },
+      {
+        "id": "c",
+        "text": "does the platform"
+      },
+      {
+        "id": "d",
+        "text": "the platform does"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Внутри Could you tell me where… нужен порядок утверждения: the platform is.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.shop_closing_time",
+    "revision": 1,
+    "skill_id": "en.indirect_questions",
+    "family_id": "en.f.shop_closing_time",
+    "level": "B1",
+    "difficulty": 2,
+    "context": "Вы хотите узнать время закрытия магазина.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Do you know what time ___?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "is the shop close"
+      },
+      {
+        "id": "b",
+        "text": "the shop closes"
+      },
+      {
+        "id": "c",
+        "text": "does the shop close"
+      },
+      {
+        "id": "d",
+        "text": "closes the shop"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Во встроенном вопросе используется the shop closes без does.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.bus_to_centre",
+    "revision": 1,
+    "skill_id": "en.indirect_questions",
+    "family_id": "en.f.bus_to_centre",
+    "level": "B1",
+    "difficulty": 1,
+    "context": "Вы не знаете, идёт ли этот автобус в центр.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I don't know ___ this bus goes to the city centre.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "which"
+      },
+      {
+        "id": "b",
+        "text": "who"
+      },
+      {
+        "id": "c",
+        "text": "whether"
+      },
+      {
+        "id": "d",
+        "text": "what"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Whether передаёт «идёт ли», когда ответ может быть да или нет.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.price_polite",
+    "revision": 1,
+    "skill_id": "en.indirect_questions",
+    "family_id": "en.f.price_polite",
+    "level": "B1",
+    "difficulty": 2,
+    "context": "Вы вежливо спрашиваете стоимость доставки.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Could you tell me how much ___?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "does delivery cost"
+      },
+      {
+        "id": "b",
+        "text": "costs delivery"
+      },
+      {
+        "id": "c",
+        "text": "is delivery cost"
+      },
+      {
+        "id": "d",
+        "text": "delivery costs"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "После how much внутри просьбы сохраняется порядок delivery costs.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.key_location_unknown",
+    "revision": 1,
+    "skill_id": "en.indirect_questions",
+    "family_id": "en.f.key_location_unknown",
+    "level": "B1",
+    "difficulty": 3,
+    "context": "Вы не знаете, где оставили ключи.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I can't remember where ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "I left my keys"
+      },
+      {
+        "id": "b",
+        "text": "did I leave my keys"
+      },
+      {
+        "id": "c",
+        "text": "left I my keys"
+      },
+      {
+        "id": "d",
+        "text": "I did left my keys"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Во встроенной части порядок I left my keys, без вопросительного did.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.train_change",
+    "revision": 1,
+    "skill_id": "en.indirect_questions",
+    "family_id": "en.f.train_change",
+    "level": "B1",
+    "difficulty": 2,
+    "context": "Вы хотите узнать, нужно ли пересаживаться. Дополните вопрос.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Do you know if ___ change trains?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "we to need"
+      },
+      {
+        "id": "b",
+        "text": "we need to"
+      },
+      {
+        "id": "c",
+        "text": "do we need to"
+      },
+      {
+        "id": "d",
+        "text": "need we to"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "После if используется порядок we need to.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.meeting_room_question",
+    "revision": 2,
+    "skill_id": "en.indirect_questions",
+    "family_id": "en.f.meeting_room_question",
+    "level": "B1",
+    "difficulty": 3,
+    "context": "Вы спрашиваете коллегу, кто сейчас пользуется переговорной.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Do you know who ___ the meeting room?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "using is"
+      },
+      {
+        "id": "b",
+        "text": "are use"
+      },
+      {
+        "id": "c",
+        "text": "is using"
+      },
+      {
+        "id": "d",
+        "text": "does using"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Who здесь само обозначает действующего человека, поэтому who is using.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.address_correct",
+    "revision": 1,
+    "skill_id": "en.indirect_questions",
+    "family_id": "en.f.address_correct",
+    "level": "B1",
+    "difficulty": 2,
+    "context": "Вы хотите проверить правильность адреса.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Could you tell me whether ___ correct?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "is this address"
+      },
+      {
+        "id": "b",
+        "text": "does this address"
+      },
+      {
+        "id": "c",
+        "text": "this address does"
+      },
+      {
+        "id": "d",
+        "text": "this address is"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "После whether нужен обычный порядок this address is.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.order_arrival_question",
+    "revision": 1,
+    "skill_id": "en.indirect_questions",
+    "family_id": "en.f.order_arrival_question",
+    "level": "B1",
+    "difficulty": 3,
+    "context": "Вы спрашиваете, когда придёт заказ.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Do you know when ___ arrive?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "the order will"
+      },
+      {
+        "id": "b",
+        "text": "will the order"
+      },
+      {
+        "id": "c",
+        "text": "does the order will"
+      },
+      {
+        "id": "d",
+        "text": "the order does will"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Встроенный вопрос о будущем: when the order will arrive.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.why_cancelled_unknown",
+    "revision": 1,
+    "skill_id": "en.indirect_questions",
+    "family_id": "en.f.why_cancelled_unknown",
+    "level": "B1",
+    "difficulty": 3,
+    "context": "Вы не знаете причину отмены встречи.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I don't know why ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "they did cancelled the meeting"
+      },
+      {
+        "id": "b",
+        "text": "they cancelled the meeting"
+      },
+      {
+        "id": "c",
+        "text": "did they cancel the meeting"
+      },
+      {
+        "id": "d",
+        "text": "cancelled they the meeting"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "После why внутри I don't know… нужен they cancelled the meeting.",
+    "status": "approved"
+  }
+]

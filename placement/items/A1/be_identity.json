@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.new_receptionist",
+    "revision": 1,
+    "skill_id": "en.be_identity",
+    "family_id": "en.f.new_receptionist",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "Вы представляетесь посетителю на новой работе.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Hello, I ___ the new receptionist.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "am"
+      },
+      {
+        "id": "b",
+        "text": "is"
+      },
+      {
+        "id": "c",
+        "text": "are"
+      },
+      {
+        "id": "d",
+        "text": "be"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "После I в таком представлении используется am: I am the new receptionist.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.library_quiet",
+    "revision": 1,
+    "skill_id": "en.be_identity",
+    "family_id": "en.f.library_quiet",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "Вы с другом выбираете место для чтения. Речь о библиотеке.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The library ___ quiet.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "be"
+      },
+      {
+        "id": "b",
+        "text": "is"
+      },
+      {
+        "id": "c",
+        "text": "are"
+      },
+      {
+        "id": "d",
+        "text": "am"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "The library — одно место; описание связывается с ним словом is.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.team_outside",
+    "revision": 1,
+    "skill_id": "en.be_identity",
+    "family_id": "en.f.team_outside",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Коллега ищет вас и другого сотрудника. Вы отвечаете за вас обоих.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "We ___ outside.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "am"
+      },
+      {
+        "id": "b",
+        "text": "be"
+      },
+      {
+        "id": "c",
+        "text": "are"
+      },
+      {
+        "id": "d",
+        "text": "is"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "We означает «мы», поэтому нужно we are.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.passport_nationality",
+    "revision": 1,
+    "skill_id": "en.be_identity",
+    "family_id": "en.f.passport_nationality",
+    "level": "A1",
+    "difficulty": 3,
+    "context": "На стойке регистрации вас спрашивают, из Канады ли вы. Вы из Ирландии.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "“Are you Canadian?” “No, ___ Irish.”",
+    "choices": [
+      {
+        "id": "a",
+        "text": "it's"
+      },
+      {
+        "id": "b",
+        "text": "you're"
+      },
+      {
+        "id": "c",
+        "text": "they're"
+      },
+      {
+        "id": "d",
+        "text": "I'm"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Говорящий описывает себя: I'm Irish — «Я ирландец/ирландка».",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.boxes_heavy",
+    "revision": 1,
+    "skill_id": "en.be_identity",
+    "family_id": "en.f.boxes_heavy",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Вы объясняете, почему две коробки трудно поднять.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "These boxes ___ heavy.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "are"
+      },
+      {
+        "id": "b",
+        "text": "is"
+      },
+      {
+        "id": "c",
+        "text": "am"
+      },
+      {
+        "id": "d",
+        "text": "be"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Boxes во множественном числе: these boxes are heavy.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.sisters_together",
+    "revision": 1,
+    "skill_id": "en.be_identity",
+    "family_id": "en.f.sisters_together",
+    "level": "A1",
+    "difficulty": 3,
+    "context": "Вы показываете общую фотографию с сестрой. Как представить вас обеих?",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "___ sisters.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "It is"
+      },
+      {
+        "id": "b",
+        "text": "We are"
+      },
+      {
+        "id": "c",
+        "text": "They is"
+      },
+      {
+        "id": "d",
+        "text": "She are"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "О себе и сестре вместе говорят we: We are sisters.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.phone_location",
+    "revision": 1,
+    "skill_id": "en.be_identity",
+    "family_id": "en.f.phone_location",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "Друг ищет телефон. Телефон лежит в вашей сумке.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Your phone ___ in my bag.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "am"
+      },
+      {
+        "id": "b",
+        "text": "be"
+      },
+      {
+        "id": "c",
+        "text": "is"
+      },
+      {
+        "id": "d",
+        "text": "are"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Your phone — один предмет; его местоположение выражается через is.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.chef_introduction",
+    "revision": 1,
+    "skill_id": "en.be_identity",
+    "family_id": "en.f.chef_introduction",
+    "level": "A1",
+    "difficulty": 3,
+    "context": "Повар представляется: «Я Алекс. Это моя коллега».",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "“I'm Alex. ___ my colleague.”",
+    "choices": [
+      {
+        "id": "a",
+        "text": "These is"
+      },
+      {
+        "id": "b",
+        "text": "This are"
+      },
+      {
+        "id": "c",
+        "text": "I are"
+      },
+      {
+        "id": "d",
+        "text": "This is"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Для представления одного другого человека подходит This is.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.late_apology",
+    "revision": 1,
+    "skill_id": "en.be_identity",
+    "family_id": "en.f.late_apology",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "Вы пришли после начала встречи и говорите о себе.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Sorry, ___ late.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "I am"
+      },
+      {
+        "id": "b",
+        "text": "I is"
+      },
+      {
+        "id": "c",
+        "text": "me am"
+      },
+      {
+        "id": "d",
+        "text": "my are"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Состояние самого говорящего выражается I am late.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.dogs_thirsty",
+    "revision": 1,
+    "skill_id": "en.be_identity",
+    "family_id": "en.f.dogs_thirsty",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Две собаки хотят пить. Вы объясняете это гостю, заменяя dogs местоимением.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "___ thirsty.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "They is"
+      },
+      {
+        "id": "b",
+        "text": "They are"
+      },
+      {
+        "id": "c",
+        "text": "It are"
+      },
+      {
+        "id": "d",
+        "text": "He am"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Несколько животных заменяются they; с ним используется are.",
+    "status": "approved"
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.asked_station",
+    "revision": 1,
+    "skill_id": "en.reported_requests",
+    "family_id": "en.f.asked_station",
+    "level": "B2",
+    "difficulty": 1,
+    "context": "Турист спросил: “Where is the station?” Дополните пересказ.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "He asked where ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "the station was"
+      },
+      {
+        "id": "b",
+        "text": "was the station"
+      },
+      {
+        "id": "c",
+        "text": "did the station"
+      },
+      {
+        "id": "d",
+        "text": "the station did"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "В пересказе вопроса используется порядок the station was.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.asked_like",
+    "revision": 1,
+    "skill_id": "en.reported_requests",
+    "family_id": "en.f.asked_like",
+    "level": "B2",
+    "difficulty": 1,
+    "context": "Коллега спросил вас: “Do you like your new job?” Дополните пересказ.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "She asked ___ I liked my new job.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "that"
+      },
+      {
+        "id": "b",
+        "text": "if"
+      },
+      {
+        "id": "c",
+        "text": "what"
+      },
+      {
+        "id": "d",
+        "text": "which"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Вопрос с ответом да/нет вводится if или whether; из вариантов подходит if.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.told_wait",
+    "revision": 1,
+    "skill_id": "en.reported_requests",
+    "family_id": "en.f.told_wait",
+    "level": "B2",
+    "difficulty": 1,
+    "context": "Сотрудник попросил вас подождать у двери.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "He told me ___ outside.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "wait"
+      },
+      {
+        "id": "b",
+        "text": "waited"
+      },
+      {
+        "id": "c",
+        "text": "to wait"
+      },
+      {
+        "id": "d",
+        "text": "waiting"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Указание после told me передаётся to wait.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.asked_not_touch",
+    "revision": 1,
+    "skill_id": "en.reported_requests",
+    "family_id": "en.f.asked_not_touch",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Экскурсовод попросил посетителей не трогать картину.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The guide asked us ___ the painting.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "to not touching"
+      },
+      {
+        "id": "b",
+        "text": "don't touch"
+      },
+      {
+        "id": "c",
+        "text": "not touch"
+      },
+      {
+        "id": "d",
+        "text": "not to touch"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Отрицательная просьба при пересказе — asked us not to touch.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.suggested_train",
+    "revision": 1,
+    "skill_id": "en.reported_requests",
+    "family_id": "en.f.suggested_train",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Друг предложил поехать поездом. Дополните пересказ предложения.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "He suggested ___ the train.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "taking"
+      },
+      {
+        "id": "b",
+        "text": "to take"
+      },
+      {
+        "id": "c",
+        "text": "take us"
+      },
+      {
+        "id": "d",
+        "text": "us to take"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "После suggested допустимо taking; сочетание suggested us to take здесь неверно.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.advised_book",
+    "revision": 1,
+    "skill_id": "en.reported_requests",
+    "family_id": "en.f.advised_book",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Подруга посоветовала вам заранее забронировать столик.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "She advised me ___ a table in advance.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "booked"
+      },
+      {
+        "id": "b",
+        "text": "to book"
+      },
+      {
+        "id": "c",
+        "text": "booking"
+      },
+      {
+        "id": "d",
+        "text": "book"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "После advised me используется to book.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.asked_arrival",
+    "revision": 2,
+    "skill_id": "en.reported_requests",
+    "family_id": "en.f.asked_arrival",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Администратор спросил гостя: “When did you arrive?” Позже вы пересказываете этот разговор.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "She asked when ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "did he arrive"
+      },
+      {
+        "id": "b",
+        "text": "he had arrive"
+      },
+      {
+        "id": "c",
+        "text": "he had arrived"
+      },
+      {
+        "id": "d",
+        "text": "had he arrived"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Во встроенном вопросе обычный порядок he had arrived.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.insisted_pay",
+    "revision": 1,
+    "skill_id": "en.reported_requests",
+    "family_id": "en.f.insisted_pay",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Друг настоял, что сам заплатит за ужин.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "He insisted on ___ for dinner.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "to pay"
+      },
+      {
+        "id": "b",
+        "text": "pay"
+      },
+      {
+        "id": "c",
+        "text": "paid"
+      },
+      {
+        "id": "d",
+        "text": "paying"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "После insisted on нужна форма paying.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.reminded_keys",
+    "revision": 1,
+    "skill_id": "en.reported_requests",
+    "family_id": "en.f.reminded_keys",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Коллега напомнил вам взять ключи.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "He reminded me ___ my keys.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "to bring"
+      },
+      {
+        "id": "b",
+        "text": "bringing"
+      },
+      {
+        "id": "c",
+        "text": "bring"
+      },
+      {
+        "id": "d",
+        "text": "brought"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Reminded me to bring означает напомнил о действии, которое надо выполнить.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.asked_if_ready",
+    "revision": 1,
+    "skill_id": "en.reported_requests",
+    "family_id": "en.f.asked_if_ready",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Режиссёр спросил актёров: “Are you ready?” Вы пересказываете именно вопрос, а не утверждение.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "She asked the actors ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "to being ready"
+      },
+      {
+        "id": "b",
+        "text": "whether they were ready"
+      },
+      {
+        "id": "c",
+        "text": "that they were ready"
+      },
+      {
+        "id": "d",
+        "text": "whether were they ready"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Whether they were ready сохраняет вопрос да/нет с обычным порядком слов.",
+    "status": "approved"
+  }
+]

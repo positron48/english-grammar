@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.coffee_offer_habit",
+    "revision": 1,
+    "skill_id": "en.routine_questions",
+    "family_id": "en.f.coffee_offer_habit",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "Перед выбором напитка вы спрашиваете друга, пьёт ли он кофе вообще.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "___ you drink coffee?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Do"
+      },
+      {
+        "id": "b",
+        "text": "Does"
+      },
+      {
+        "id": "c",
+        "text": "Is"
+      },
+      {
+        "id": "d",
+        "text": "Are"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Вопрос об обычном действии с you начинается с Do.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.shop_accepts",
+    "revision": 1,
+    "skill_id": "en.routine_questions",
+    "family_id": "en.f.shop_accepts",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Вы спрашиваете, принимает ли магазин карты.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "___ this shop take cards?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Are"
+      },
+      {
+        "id": "b",
+        "text": "Does"
+      },
+      {
+        "id": "c",
+        "text": "Do"
+      },
+      {
+        "id": "d",
+        "text": "Is"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Один магазин: Does this shop take…? После Does глагол без s.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.brother_no_meat",
+    "revision": 1,
+    "skill_id": "en.routine_questions",
+    "family_id": "en.f.brother_no_meat",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Брат не ест мясо. Дополните сообщение.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "My brother ___ eat meat.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "isn't"
+      },
+      {
+        "id": "b",
+        "text": "aren't"
+      },
+      {
+        "id": "c",
+        "text": "doesn't"
+      },
+      {
+        "id": "d",
+        "text": "don't"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Отрицание обычного действия с my brother строится через doesn't.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.weekend_no_work",
+    "revision": 1,
+    "skill_id": "en.routine_questions",
+    "family_id": "en.f.weekend_no_work",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "Вы говорите о себе и супруге: вы не работаете по воскресеньям.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "We ___ work on Sundays.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "doesn't"
+      },
+      {
+        "id": "b",
+        "text": "isn't"
+      },
+      {
+        "id": "c",
+        "text": "aren't"
+      },
+      {
+        "id": "d",
+        "text": "don't"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "С we отрицание действия — don't work.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.where_friend_works",
+    "revision": 1,
+    "skill_id": "en.routine_questions",
+    "family_id": "en.f.where_friend_works",
+    "level": "A1",
+    "difficulty": 3,
+    "context": "Вы спрашиваете, где работает подруга собеседника.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Where ___ your friend work?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "does"
+      },
+      {
+        "id": "b",
+        "text": "do"
+      },
+      {
+        "id": "c",
+        "text": "is"
+      },
+      {
+        "id": "d",
+        "text": "are"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Для вопроса о работе одного человека нужно Where does your friend work?",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.bus_stop_question",
+    "revision": 1,
+    "skill_id": "en.routine_questions",
+    "family_id": "en.f.bus_stop_question",
+    "level": "A1",
+    "difficulty": 3,
+    "context": "Вы уточняете, где обычно останавливается автобус.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Where does the bus ___?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "to stop"
+      },
+      {
+        "id": "b",
+        "text": "stop"
+      },
+      {
+        "id": "c",
+        "text": "stops"
+      },
+      {
+        "id": "d",
+        "text": "stopping"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "После does используется stop без s.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.no_car",
+    "revision": 1,
+    "skill_id": "en.routine_questions",
+    "family_id": "en.f.no_car",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Сосед думает, что вы водите машину, но это не так.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I ___ a car.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "don't drives"
+      },
+      {
+        "id": "b",
+        "text": "am not drive"
+      },
+      {
+        "id": "c",
+        "text": "don't drive"
+      },
+      {
+        "id": "d",
+        "text": "doesn't drive"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "С I отрицание привычного действия — don't drive.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.parents_jobs",
+    "revision": 1,
+    "skill_id": "en.routine_questions",
+    "family_id": "en.f.parents_jobs",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Вы хотите узнать, чем занимаются родители друга.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "What ___ your parents do?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "does"
+      },
+      {
+        "id": "b",
+        "text": "is"
+      },
+      {
+        "id": "c",
+        "text": "are"
+      },
+      {
+        "id": "d",
+        "text": "do"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Your parents — множественное число; вопрос требует do.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.read_reply",
+    "revision": 1,
+    "skill_id": "en.routine_questions",
+    "family_id": "en.f.read_reply",
+    "level": "A1",
+    "difficulty": 3,
+    "context": "Друг спрашивает, читает ли ваш отец газеты. Отец читает.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "“Does your dad read newspapers?” “Yes, ___.”",
+    "choices": [
+      {
+        "id": "a",
+        "text": "he does"
+      },
+      {
+        "id": "b",
+        "text": "he do"
+      },
+      {
+        "id": "c",
+        "text": "he is"
+      },
+      {
+        "id": "d",
+        "text": "he reads does"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Короткий ответ повторяет does: Yes, he does.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.classes_start",
+    "revision": 1,
+    "skill_id": "en.routine_questions",
+    "family_id": "en.f.classes_start",
+    "level": "A1",
+    "difficulty": 3,
+    "context": "Вы звоните в школу и спрашиваете время начала занятий.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "What time ___ the classes start?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "are"
+      },
+      {
+        "id": "b",
+        "text": "do"
+      },
+      {
+        "id": "c",
+        "text": "does"
+      },
+      {
+        "id": "d",
+        "text": "is"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "The classes — несколько занятий, поэтому do.",
+    "status": "approved"
+  }
+]

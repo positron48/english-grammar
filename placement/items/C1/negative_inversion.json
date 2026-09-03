@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.never_seen_review",
+    "revision": 1,
+    "skill_id": "en.negative_inversion",
+    "family_id": "en.f.never_seen_review",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "В отзыве вы подчёркиваете, что прежде не видели такой реакции публики.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Never ___ such a response from an audience.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "have I seen"
+      },
+      {
+        "id": "b",
+        "text": "I have seen"
+      },
+      {
+        "id": "c",
+        "text": "I saw have"
+      },
+      {
+        "id": "d",
+        "text": "have seen I"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "После вынесенного Never вспомогательный have ставится перед I.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.rarely_such_service",
+    "revision": 1,
+    "skill_id": "en.negative_inversion",
+    "family_id": "en.f.rarely_such_service",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "В формальной жалобе вы подчёркиваете редкость подобного обслуживания.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Rarely ___ such poor service.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "we experienced have"
+      },
+      {
+        "id": "b",
+        "text": "have we experienced"
+      },
+      {
+        "id": "c",
+        "text": "we have experienced"
+      },
+      {
+        "id": "d",
+        "text": "experienced we have"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "После Rarely в начале требуется инверсия have we experienced.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.no_account_share",
+    "revision": 1,
+    "skill_id": "en.negative_inversion",
+    "family_id": "en.f.no_account_share",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Правило категорически запрещает раскрывать код.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "On no account ___ this code with anyone.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "you share should"
+      },
+      {
+        "id": "b",
+        "text": "should share you"
+      },
+      {
+        "id": "c",
+        "text": "should you share"
+      },
+      {
+        "id": "d",
+        "text": "you should share"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "После On no account используется инверсия should you; запрет относится к раскрытию кода.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.not_only_saved",
+    "revision": 1,
+    "skill_id": "en.negative_inversion",
+    "family_id": "en.f.not_only_saved",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Вы подчёркиваете два достижения проекта: снижение затрат и улучшение сервиса.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Not only ___ costs, but it also improved service.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "the project reduced"
+      },
+      {
+        "id": "b",
+        "text": "did the project reduced"
+      },
+      {
+        "id": "c",
+        "text": "reduced the project did"
+      },
+      {
+        "id": "d",
+        "text": "did the project reduce"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "После Not only требуется did the project reduce; основная форма reduce остаётся без d.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.little_realise",
+    "revision": 1,
+    "skill_id": "en.negative_inversion",
+    "family_id": "en.f.little_realise",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Героиня тогда не осознавала, насколько важна находка. Дополните повествование.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Little ___ how important the discovery was.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "did she realise"
+      },
+      {
+        "id": "b",
+        "text": "she realised"
+      },
+      {
+        "id": "c",
+        "text": "did she realised"
+      },
+      {
+        "id": "d",
+        "text": "she did realised"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Начальное Little со значением «почти не» вызывает did she realise.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.under_no_circumstances",
+    "revision": 1,
+    "skill_id": "en.negative_inversion",
+    "family_id": "en.f.under_no_circumstances",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Инструкция не допускает оставлять дверь незапертой ни при каких обстоятельствах.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Under no circumstances ___ unlocked.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "the door be must left"
+      },
+      {
+        "id": "b",
+        "text": "must the door be left"
+      },
+      {
+        "id": "c",
+        "text": "the door must be left"
+      },
+      {
+        "id": "d",
+        "text": "must be the door left"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "После отрицательного ограничения must ставится перед подлежащим the door.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.not_once_called",
+    "revision": 1,
+    "skill_id": "en.negative_inversion",
+    "family_id": "en.f.not_once_called",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Друг ни разу не позвонил за время вашей болезни. Вы подчёркиваете отсутствие звонков.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Not once ___ while I was ill.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "did he called"
+      },
+      {
+        "id": "b",
+        "text": "called he did"
+      },
+      {
+        "id": "c",
+        "text": "did he call"
+      },
+      {
+        "id": "d",
+        "text": "he called"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Начальное Not once требует did he call.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.at_no_time_permission",
+    "revision": 1,
+    "skill_id": "en.negative_inversion",
+    "family_id": "en.f.at_no_time_permission",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "В показаниях вы уточняете, что разрешения не давали ни в один момент.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "At no time ___ permission to enter.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "I gave"
+      },
+      {
+        "id": "b",
+        "text": "did I gave"
+      },
+      {
+        "id": "c",
+        "text": "gave I did"
+      },
+      {
+        "id": "d",
+        "text": "did I give"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Вынесенное At no time вызывает инверсию did I give.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.seldom_empty",
+    "revision": 1,
+    "skill_id": "en.negative_inversion",
+    "family_id": "en.f.seldom_empty",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "В гостинице редко бывают свободные номера. Дополните формальный комментарий.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Seldom ___ any rooms available.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "are there"
+      },
+      {
+        "id": "b",
+        "text": "there are"
+      },
+      {
+        "id": "c",
+        "text": "there have"
+      },
+      {
+        "id": "d",
+        "text": "have there"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "После Seldom ставим are перед there: are there any rooms available.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.never_again_promise",
+    "revision": 1,
+    "skill_id": "en.negative_inversion",
+    "family_id": "en.f.never_again_promise",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "После тяжёлой ошибки человек торжественно обещает не поступать так снова.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Never again ___ that mistake.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "I make will"
+      },
+      {
+        "id": "b",
+        "text": "will I make"
+      },
+      {
+        "id": "c",
+        "text": "I will make"
+      },
+      {
+        "id": "d",
+        "text": "will make I"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "После Never again вспомогательный will предшествует I.",
+    "status": "approved"
+  }
+]

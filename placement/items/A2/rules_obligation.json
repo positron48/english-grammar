@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.free_museum",
+    "revision": 1,
+    "skill_id": "en.rules_obligation",
+    "family_id": "en.f.free_museum",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Вход в музей бесплатный. Объясните гостю, что платить не нужно.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "You ___ pay to enter.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "don't have to"
+      },
+      {
+        "id": "b",
+        "text": "mustn't"
+      },
+      {
+        "id": "c",
+        "text": "can't"
+      },
+      {
+        "id": "d",
+        "text": "don't must"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Don't have to означает «не обязательно», а не запрет платить.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.no_photos",
+    "revision": 1,
+    "skill_id": "en.rules_obligation",
+    "family_id": "en.f.no_photos",
+    "level": "A2",
+    "difficulty": 1,
+    "context": "На выставке фотографировать запрещено. Дополните правило.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "You ___ take photos here.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "should"
+      },
+      {
+        "id": "b",
+        "text": "mustn't"
+      },
+      {
+        "id": "c",
+        "text": "don't have to"
+      },
+      {
+        "id": "d",
+        "text": "might"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Mustn't выражает запрет.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.uniform_required",
+    "revision": 1,
+    "skill_id": "en.rules_obligation",
+    "family_id": "en.f.uniform_required",
+    "level": "A2",
+    "difficulty": 1,
+    "context": "По правилам работы сотрудники обязаны носить форму.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Staff ___ wear a uniform.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "mustn't"
+      },
+      {
+        "id": "b",
+        "text": "might"
+      },
+      {
+        "id": "c",
+        "text": "have to"
+      },
+      {
+        "id": "d",
+        "text": "don't have to"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Have to выражает обязательное правило работы.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.optional_tea",
+    "revision": 1,
+    "skill_id": "en.rules_obligation",
+    "family_id": "en.f.optional_tea",
+    "level": "A2",
+    "difficulty": 3,
+    "context": "Хозяин пишет: “You don't have to bring anything.” Что это означает для гостя?",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "You don't have to bring anything.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Приносить что-либо запрещено."
+      },
+      {
+        "id": "b",
+        "text": "Обязательно нужно принести напитки."
+      },
+      {
+        "id": "c",
+        "text": "Прийти вообще нельзя."
+      },
+      {
+        "id": "d",
+        "text": "Можно прийти без подарка или еды."
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Don't have to снимает обязанность что-либо приносить, но не запрещает этого.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.passport_required",
+    "revision": 1,
+    "skill_id": "en.rules_obligation",
+    "family_id": "en.f.passport_required",
+    "level": "A2",
+    "difficulty": 1,
+    "context": "Для этой поездки паспорт обязателен. Дополните сообщение.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "You ___ bring your passport.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "must"
+      },
+      {
+        "id": "b",
+        "text": "mustn't"
+      },
+      {
+        "id": "c",
+        "text": "don't have to"
+      },
+      {
+        "id": "d",
+        "text": "can't"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Must выражает обязательность; остальные варианты противоречат условию.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.password_rule",
+    "revision": 1,
+    "skill_id": "en.rules_obligation",
+    "family_id": "en.f.password_rule",
+    "level": "A2",
+    "difficulty": 3,
+    "context": "Инструкция гласит: “You mustn't share your password.” Что требуется?",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "You mustn't share your password.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Нужно выбрать новый пароль прямо сейчас."
+      },
+      {
+        "id": "b",
+        "text": "Не сообщать пароль другим."
+      },
+      {
+        "id": "c",
+        "text": "Можно сообщить пароль, но это необязательно."
+      },
+      {
+        "id": "d",
+        "text": "Нужно сообщить пароль всем."
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Mustn't share — запрет делиться паролем. О смене пароля здесь ничего не сказано.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.weekend_off",
+    "revision": 1,
+    "skill_id": "en.rules_obligation",
+    "family_id": "en.f.weekend_off",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Завтра выходной, и вам не нужно рано вставать.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I ___ get up early tomorrow.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "can't"
+      },
+      {
+        "id": "b",
+        "text": "don't must"
+      },
+      {
+        "id": "c",
+        "text": "don't have to"
+      },
+      {
+        "id": "d",
+        "text": "mustn't"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Отсутствие необходимости выражается don't have to.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.library_silence",
+    "revision": 1,
+    "skill_id": "en.rules_obligation",
+    "family_id": "en.f.library_silence",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Правила разрешают говорить только тихо; громко разговаривать нельзя.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "You ___ talk loudly in the library.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "don't have to"
+      },
+      {
+        "id": "b",
+        "text": "have to"
+      },
+      {
+        "id": "c",
+        "text": "should"
+      },
+      {
+        "id": "d",
+        "text": "mustn't"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Mustn't подходит для запрещённого действия.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.ticket_check",
+    "revision": 1,
+    "skill_id": "en.rules_obligation",
+    "family_id": "en.f.ticket_check",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Пассажир спрашивает, обязательно ли распечатывать билет.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "___ I have to print the ticket?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Do"
+      },
+      {
+        "id": "b",
+        "text": "Am"
+      },
+      {
+        "id": "c",
+        "text": "Must"
+      },
+      {
+        "id": "d",
+        "text": "Have"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Вопрос с have to строится через Do: Do I have to…?",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.mobile_ticket",
+    "revision": 1,
+    "skill_id": "en.rules_obligation",
+    "family_id": "en.f.mobile_ticket",
+    "level": "A2",
+    "difficulty": 3,
+    "context": "В инструкции к поездке сказано, что печатать билет не обязательно. Что это позволяет пассажиру?",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "You don't have to print the ticket; you can show it on your phone.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Билет вообще не требуется."
+      },
+      {
+        "id": "b",
+        "text": "Можно показать билет на телефоне без распечатки."
+      },
+      {
+        "id": "c",
+        "text": "Печатный билет запрещён."
+      },
+      {
+        "id": "d",
+        "text": "Нужно показать и телефон, и распечатку."
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Don't have to снимает обязанность печатать; следующая часть даёт допустимый способ показать билет. От самого билета инструкция не освобождает.",
+    "status": "approved"
+  }
+]

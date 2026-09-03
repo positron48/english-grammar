@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.bakery_opens",
+    "revision": 1,
+    "skill_id": "en.routine_statements",
+    "family_id": "en.f.bakery_opens",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "Вы рассказываете, когда обычно начинает работать пекарня.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The bakery ___ at seven.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "opens"
+      },
+      {
+        "id": "b",
+        "text": "open"
+      },
+      {
+        "id": "c",
+        "text": "opening"
+      },
+      {
+        "id": "d",
+        "text": "opened"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "С одним заведением в обычном расписании к open добавляется s.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.train_commute",
+    "revision": 1,
+    "skill_id": "en.routine_statements",
+    "family_id": "en.f.train_commute",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "Вы описываете свой обычный путь на работу.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I ___ the train to work.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "am take"
+      },
+      {
+        "id": "b",
+        "text": "take"
+      },
+      {
+        "id": "c",
+        "text": "takes"
+      },
+      {
+        "id": "d",
+        "text": "taking"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "После I для привычного действия используется take.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.dad_cooks",
+    "revision": 1,
+    "skill_id": "en.routine_statements",
+    "family_id": "en.f.dad_cooks",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "Вы говорите, кто обычно готовит дома по субботам.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "My dad ___ dinner on Saturdays.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "cooking"
+      },
+      {
+        "id": "b",
+        "text": "is cook"
+      },
+      {
+        "id": "c",
+        "text": "cooks"
+      },
+      {
+        "id": "d",
+        "text": "cook"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "My dad заменяется he, поэтому cooks.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.friends_live",
+    "revision": 1,
+    "skill_id": "en.routine_statements",
+    "family_id": "en.f.friends_live",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "Вы сообщаете, где постоянно живут ваши друзья.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "My friends ___ near the station.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "lives"
+      },
+      {
+        "id": "b",
+        "text": "living"
+      },
+      {
+        "id": "c",
+        "text": "is live"
+      },
+      {
+        "id": "d",
+        "text": "live"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "My friends — несколько людей: live без s.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.watch_evenings",
+    "revision": 1,
+    "skill_id": "en.routine_statements",
+    "family_id": "en.f.watch_evenings",
+    "level": "A1",
+    "difficulty": 3,
+    "context": "Сестра обычно смотрит телевизор вечером.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "My sister ___ TV in the evening.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "watches"
+      },
+      {
+        "id": "b",
+        "text": "watch"
+      },
+      {
+        "id": "c",
+        "text": "watchs"
+      },
+      {
+        "id": "d",
+        "text": "watching"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "С my sister нужна форма watches; после ch добавляется es.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.study_together",
+    "revision": 1,
+    "skill_id": "en.routine_statements",
+    "family_id": "en.f.study_together",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Вы и друг регулярно занимаетесь вместе.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "We ___ English together.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "studying"
+      },
+      {
+        "id": "b",
+        "text": "study"
+      },
+      {
+        "id": "c",
+        "text": "studies"
+      },
+      {
+        "id": "d",
+        "text": "studys"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "С we используется study без окончания s.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.bus_goes",
+    "revision": 1,
+    "skill_id": "en.routine_statements",
+    "family_id": "en.f.bus_goes",
+    "level": "A1",
+    "difficulty": 3,
+    "context": "Вы объясняете обычный маршрут автобуса.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "This bus ___ to the airport.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "gos"
+      },
+      {
+        "id": "b",
+        "text": "going"
+      },
+      {
+        "id": "c",
+        "text": "goes"
+      },
+      {
+        "id": "d",
+        "text": "go"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "This bus — один автобус, поэтому goes.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.baby_sleeps",
+    "revision": 1,
+    "skill_id": "en.routine_statements",
+    "family_id": "en.f.baby_sleeps",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Вы описываете обычный сон ребёнка.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The baby ___ for ten hours every night.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "sleep"
+      },
+      {
+        "id": "b",
+        "text": "sleeping"
+      },
+      {
+        "id": "c",
+        "text": "are sleep"
+      },
+      {
+        "id": "d",
+        "text": "sleeps"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Привычное действие одного ребёнка: sleeps.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.work_weekends",
+    "revision": 1,
+    "skill_id": "en.routine_statements",
+    "family_id": "en.f.work_weekends",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "Коллега рассказывает о вашей общей работе. Дополните его обращение к вам.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "You ___ at weekends.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "work"
+      },
+      {
+        "id": "b",
+        "text": "works"
+      },
+      {
+        "id": "c",
+        "text": "working"
+      },
+      {
+        "id": "d",
+        "text": "is work"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "С you используется work без s.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.shop_closes",
+    "revision": 1,
+    "skill_id": "en.routine_statements",
+    "family_id": "en.f.shop_closes",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Вы рассказываете туристу о расписании магазинов на этой улице.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The shops ___ at six.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "is close"
+      },
+      {
+        "id": "b",
+        "text": "close"
+      },
+      {
+        "id": "c",
+        "text": "closes"
+      },
+      {
+        "id": "d",
+        "text": "closing"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "The shops во множественном числе: close.",
+    "status": "approved"
+  }
+]

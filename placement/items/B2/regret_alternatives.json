@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.missed_train_regret",
+    "revision": 1,
+    "skill_id": "en.regret_alternatives",
+    "family_id": "en.f.missed_train_regret",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Вы опоздали, потому что вышли поздно. Представьте другой исход вчерашнего утра.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "If I'd left earlier, I ___ the train.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "would have caught"
+      },
+      {
+        "id": "b",
+        "text": "will catch"
+      },
+      {
+        "id": "c",
+        "text": "would catch"
+      },
+      {
+        "id": "d",
+        "text": "had caught"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Несбывшееся условие и результат в прошлом: would have caught.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.forgot_alarm",
+    "revision": 1,
+    "skill_id": "en.regret_alternatives",
+    "family_id": "en.f.forgot_alarm",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Будильник не был включён, и вы проспали. Дополните сожаление о прошлом.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "If I ___ the alarm, I wouldn't have overslept.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "would set"
+      },
+      {
+        "id": "b",
+        "text": "had set"
+      },
+      {
+        "id": "c",
+        "text": "set"
+      },
+      {
+        "id": "d",
+        "text": "have set"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Условие относится к несостоявшемуся действию до прошлого результата: had set.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.learned_driving",
+    "revision": 1,
+    "skill_id": "en.regret_alternatives",
+    "family_id": "en.f.learned_driving",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Вы не научились водить раньше и теперь зависите от автобуса.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "If I had learned to drive, I ___ the bus now.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "won't need"
+      },
+      {
+        "id": "b",
+        "text": "didn't needed"
+      },
+      {
+        "id": "c",
+        "text": "wouldn't need"
+      },
+      {
+        "id": "d",
+        "text": "wouldn't have needed"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Прошлое условие влияет на нынешний результат: wouldn't need now.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.wish_speak",
+    "revision": 1,
+    "skill_id": "en.regret_alternatives",
+    "family_id": "en.f.wish_speak",
+    "level": "B2",
+    "difficulty": 1,
+    "context": "Вы сейчас не говорите по-французски и хотели бы уметь.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I wish I ___ French.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "speak"
+      },
+      {
+        "id": "b",
+        "text": "will speak"
+      },
+      {
+        "id": "c",
+        "text": "would spoken"
+      },
+      {
+        "id": "d",
+        "text": "spoke"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Желание изменить настоящее выражается I wish I spoke.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.if_only_ticket",
+    "revision": 1,
+    "skill_id": "en.regret_alternatives",
+    "family_id": "en.f.if_only_ticket",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Вы не купили билет, а теперь концерт распродан. Вы сожалеете именно о покупке в прошлом.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "If only I ___ a ticket earlier!",
+    "choices": [
+      {
+        "id": "a",
+        "text": "had bought"
+      },
+      {
+        "id": "b",
+        "text": "buy"
+      },
+      {
+        "id": "c",
+        "text": "will buy"
+      },
+      {
+        "id": "d",
+        "text": "would bought"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Сожаление о несделанном в прошлом: If only I had bought.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.neighbour_noise",
+    "revision": 1,
+    "skill_id": "en.regret_alternatives",
+    "family_id": "en.f.neighbour_noise",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Сосед снова шумит. Вы хотите, чтобы он изменил раздражающее поведение.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I wish he ___ making so much noise.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "had stop"
+      },
+      {
+        "id": "b",
+        "text": "would stop"
+      },
+      {
+        "id": "c",
+        "text": "stops"
+      },
+      {
+        "id": "d",
+        "text": "will stop"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Wish…would stop выражает желание изменить поведение другого человека.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.rather_you_wait",
+    "revision": 2,
+    "skill_id": "en.regret_alternatives",
+    "family_id": "en.f.rather_you_wait",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Вы предпочитаете, чтобы собеседник подождал снаружи сейчас.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I'd rather you ___ outside.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "will wait"
+      },
+      {
+        "id": "b",
+        "text": "would wait"
+      },
+      {
+        "id": "c",
+        "text": "waited"
+      },
+      {
+        "id": "d",
+        "text": "waiting"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "После I'd rather с другим действующим лицом желаемое настоящее выражается waited.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.time_leave",
+    "revision": 1,
+    "skill_id": "en.regret_alternatives",
+    "family_id": "en.f.time_leave",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Все засиделись, пора уходить. Дополните реплику.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "It's time we ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "leaves"
+      },
+      {
+        "id": "b",
+        "text": "will leave"
+      },
+      {
+        "id": "c",
+        "text": "would leave"
+      },
+      {
+        "id": "d",
+        "text": "left"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "В It's time we left форма left выражает, что уход уже назрел сейчас.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.third_condition_meaning",
+    "revision": 1,
+    "skill_id": "en.regret_alternatives",
+    "family_id": "en.f.third_condition_meaning",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Человек говорит о вчерашней вечеринке: “If you had invited me, I would have come.” Что он сообщает?",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "If you had invited me, I would have come.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Меня не пригласили, и я не пришёл."
+      },
+      {
+        "id": "b",
+        "text": "Меня пригласили, но я отказался."
+      },
+      {
+        "id": "c",
+        "text": "Я точно приду завтра."
+      },
+      {
+        "id": "d",
+        "text": "Я пришёл без приглашения."
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Эта конструкция описывает несбывшееся прошлое: приглашения не было, приход остался возможной альтернативой.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.not_careful_then",
+    "revision": 1,
+    "skill_id": "en.regret_alternatives",
+    "family_id": "en.f.not_careful_then",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Вы обычно очень осторожны и поэтому вчера заметили ошибку. Представьте противоположное постоянное качество и прошлый результат.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "If I weren't so careful, I ___ that mistake yesterday.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "had missed"
+      },
+      {
+        "id": "b",
+        "text": "would have missed"
+      },
+      {
+        "id": "c",
+        "text": "will miss"
+      },
+      {
+        "id": "d",
+        "text": "would miss"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Постоянное качество задаётся weren't; противоположный результат вчера — would have missed.",
+    "status": "approved"
+  }
+]

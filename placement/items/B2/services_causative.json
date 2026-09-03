@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.haircut_service",
+    "revision": 1,
+    "skill_id": "en.services_causative",
+    "family_id": "en.f.haircut_service",
+    "level": "B2",
+    "difficulty": 1,
+    "context": "Вы были у парикмахера: волосы стриг мастер, а не вы сами.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I had my hair ___ yesterday.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "cut"
+      },
+      {
+        "id": "b",
+        "text": "cutting"
+      },
+      {
+        "id": "c",
+        "text": "to cut"
+      },
+      {
+        "id": "d",
+        "text": "cuts"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Had my hair cut означает, что вам оказали услугу стрижки.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.car_service",
+    "revision": 1,
+    "skill_id": "en.services_causative",
+    "family_id": "en.f.car_service",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Машину сейчас проверяет механик. Вы организовали эту услугу.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I'm having my car ___ today.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "checks"
+      },
+      {
+        "id": "b",
+        "text": "checked"
+      },
+      {
+        "id": "c",
+        "text": "checking"
+      },
+      {
+        "id": "d",
+        "text": "to check"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Having my car checked описывает заказанную проверку машины.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.windows_install",
+    "revision": 1,
+    "skill_id": "en.services_causative",
+    "family_id": "en.f.windows_install",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Новые окна установит нанятый специалист. Дополните сообщение о планах.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "We're going to have new windows ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "installing"
+      },
+      {
+        "id": "b",
+        "text": "to install"
+      },
+      {
+        "id": "c",
+        "text": "installed"
+      },
+      {
+        "id": "d",
+        "text": "install"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Have windows installed указывает на установку, выполненную для вас другим человеком.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.phone_repair_meaning",
+    "revision": 1,
+    "skill_id": "en.services_causative",
+    "family_id": "en.f.phone_repair_meaning",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Вы сказали: “I had my phone repaired.” Что вы сообщили?",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I had my phone repaired.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Я сам обязательно починил телефон."
+      },
+      {
+        "id": "b",
+        "text": "Я только подумал о ремонте."
+      },
+      {
+        "id": "c",
+        "text": "Я купил новый телефон."
+      },
+      {
+        "id": "d",
+        "text": "Кто-то починил мой телефон для меня."
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Конструкция сообщает об организованной услуге ремонта, не о самостоятельной работе и не о покупке.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.eye_test",
+    "revision": 1,
+    "skill_id": "en.services_causative",
+    "family_id": "en.f.eye_test",
+    "level": "B2",
+    "difficulty": 1,
+    "context": "Вы записались к специалисту проверить зрение.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I need to get my eyes ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "tested"
+      },
+      {
+        "id": "b",
+        "text": "testing"
+      },
+      {
+        "id": "c",
+        "text": "test"
+      },
+      {
+        "id": "d",
+        "text": "to test"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Get my eyes tested означает пройти проверку зрения у специалиста.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.roof_fix",
+    "revision": 1,
+    "skill_id": "en.services_causative",
+    "family_id": "en.f.roof_fix",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "Крышу починили рабочие, которых вы наняли. Выберите точное сообщение.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "___ last month.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "We repaired the workers"
+      },
+      {
+        "id": "b",
+        "text": "We had the roof repaired"
+      },
+      {
+        "id": "c",
+        "text": "We had the roof repairing"
+      },
+      {
+        "id": "d",
+        "text": "We had repaired the roof ourselves"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Had the roof repaired передаёт работу, которую для вас выполнили другие. Вариант с ourselves утверждал бы, что вы ремонтировали крышу сами.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.said_old_house",
+    "revision": 1,
+    "skill_id": "en.services_causative",
+    "family_id": "en.f.said_old_house",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Жители говорят, что дому двести лет; вы передаёте это как чужое утверждение.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The house is said ___ two hundred years old.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "being"
+      },
+      {
+        "id": "b",
+        "text": "that is"
+      },
+      {
+        "id": "c",
+        "text": "to be"
+      },
+      {
+        "id": "d",
+        "text": "be"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "После is said в этой конструкции нужно to be.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.believed_abroad",
+    "revision": 1,
+    "skill_id": "en.services_causative",
+    "family_id": "en.f.believed_abroad",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "По имеющимся сообщениям, пропавший путешественник находится за границей.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "He is believed ___ abroad.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "being"
+      },
+      {
+        "id": "b",
+        "text": "is"
+      },
+      {
+        "id": "c",
+        "text": "that be"
+      },
+      {
+        "id": "d",
+        "text": "to be"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "He is believed to be передаёт предположение людей, не выдавая его за прямое наблюдение.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.reported_left",
+    "revision": 1,
+    "skill_id": "en.services_causative",
+    "family_id": "en.f.reported_left",
+    "level": "B2",
+    "difficulty": 3,
+    "context": "По сообщениям, директор уже покинул город до появления новости.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The director is reported ___ the city.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "to have left"
+      },
+      {
+        "id": "b",
+        "text": "to leaving"
+      },
+      {
+        "id": "c",
+        "text": "have left"
+      },
+      {
+        "id": "d",
+        "text": "that left"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "To have left показывает, что отъезд предшествовал сообщению о нём.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.impersonal_claim",
+    "revision": 1,
+    "skill_id": "en.services_causative",
+    "family_id": "en.f.impersonal_claim",
+    "level": "B2",
+    "difficulty": 2,
+    "context": "Вы пересказываете распространённое мнение о местном озере, не называя автора.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "It ___ that the lake is very deep.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "said it"
+      },
+      {
+        "id": "b",
+        "text": "is said"
+      },
+      {
+        "id": "c",
+        "text": "says"
+      },
+      {
+        "id": "d",
+        "text": "is saying"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "It is said that… вводит сообщение без конкретного автора.",
+    "status": "approved"
+  }
+]

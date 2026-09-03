@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.open_window_request",
+    "revision": 1,
+    "skill_id": "en.requests_advice",
+    "family_id": "en.f.open_window_request",
+    "level": "A2",
+    "difficulty": 1,
+    "context": "В комнате душно. Вежливо попросите коллегу открыть окно.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "___ you open the window, please?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Could"
+      },
+      {
+        "id": "b",
+        "text": "Shouldn't"
+      },
+      {
+        "id": "c",
+        "text": "Mustn't"
+      },
+      {
+        "id": "d",
+        "text": "Have"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Could you…? — вежливая просьба выполнить действие.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.exam_sleep",
+    "revision": 1,
+    "skill_id": "en.requests_advice",
+    "family_id": "en.f.exam_sleep",
+    "level": "A2",
+    "difficulty": 1,
+    "context": "Друг готовится к экзамену всю ночь и устал. Вы советуете отдохнуть.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "You ___ get some sleep.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "don't have to"
+      },
+      {
+        "id": "b",
+        "text": "should"
+      },
+      {
+        "id": "c",
+        "text": "mustn't"
+      },
+      {
+        "id": "d",
+        "text": "can't"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Should выражает совет, а не запрет или отсутствие необходимости.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.uncertain_party",
+    "revision": 1,
+    "skill_id": "en.requests_advice",
+    "family_id": "en.f.uncertain_party",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Вы ещё не решили, пойдёте ли на вечеринку. Сообщите о возможности.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I ___ come, but I'm not sure yet.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "cannot"
+      },
+      {
+        "id": "b",
+        "text": "have to"
+      },
+      {
+        "id": "c",
+        "text": "might"
+      },
+      {
+        "id": "d",
+        "text": "must"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Might вместе с I'm not sure выражает неуверенную возможность.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.swim_ability",
+    "revision": 1,
+    "skill_id": "en.requests_advice",
+    "family_id": "en.f.swim_ability",
+    "level": "A2",
+    "difficulty": 1,
+    "context": "Вы умеете плавать. Дополните фразу о своей способности.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I can ___ well.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "swims"
+      },
+      {
+        "id": "b",
+        "text": "swimming"
+      },
+      {
+        "id": "c",
+        "text": "to swim"
+      },
+      {
+        "id": "d",
+        "text": "swim"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "После can используется swim без to и окончаний.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.borrow_pen",
+    "revision": 1,
+    "skill_id": "en.requests_advice",
+    "family_id": "en.f.borrow_pen",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "На занятии вы вежливо просите разрешения одолжить ручку.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "___ I borrow your pen, please?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Could"
+      },
+      {
+        "id": "b",
+        "text": "Shouldn't"
+      },
+      {
+        "id": "c",
+        "text": "Mustn't"
+      },
+      {
+        "id": "d",
+        "text": "Do"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Could I…? подходит для вежливой просьбы о разрешении.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.heavy_box_advice",
+    "revision": 1,
+    "skill_id": "en.requests_advice",
+    "family_id": "en.f.heavy_box_advice",
+    "level": "A2",
+    "difficulty": 3,
+    "context": "Коробка слишком тяжёлая. Вы советуете другу не поднимать её одному.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "You ___ lift it alone. Ask for help.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "shouldn't lifting"
+      },
+      {
+        "id": "b",
+        "text": "shouldn't"
+      },
+      {
+        "id": "c",
+        "text": "don't should"
+      },
+      {
+        "id": "d",
+        "text": "shouldn't to"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Shouldn't выражает совет не делать опасное или неудобное действие одному.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.cant_hear",
+    "revision": 1,
+    "skill_id": "en.requests_advice",
+    "family_id": "en.f.cant_hear",
+    "level": "A2",
+    "difficulty": 1,
+    "context": "Связь плохая, и вы не слышите собеседника.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I ___ hear you. The line is bad.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "don't have to"
+      },
+      {
+        "id": "b",
+        "text": "shouldn't"
+      },
+      {
+        "id": "c",
+        "text": "can't"
+      },
+      {
+        "id": "d",
+        "text": "mustn't"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Can't здесь выражает невозможность слышать из-за связи.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.delay_probability",
+    "revision": 1,
+    "skill_id": "en.requests_advice",
+    "family_id": "en.f.delay_probability",
+    "level": "A2",
+    "difficulty": 3,
+    "context": "Поезд, возможно, опоздает, но точной информации пока нет. Выберите осторожное сообщение.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Which message fits?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The train must have arrived already."
+      },
+      {
+        "id": "b",
+        "text": "The train cannot be late."
+      },
+      {
+        "id": "c",
+        "text": "The train will definitely be late."
+      },
+      {
+        "id": "d",
+        "text": "The train may be late."
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "May выражает возможность без уверенности; остальные варианты утверждают другой исход или степень уверенности.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.send_file_request",
+    "revision": 1,
+    "skill_id": "en.requests_advice",
+    "family_id": "en.f.send_file_request",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Попросите коллегу прислать документ. Дополните вежливый вопрос.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Could you ___ me the file?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "send"
+      },
+      {
+        "id": "b",
+        "text": "sent"
+      },
+      {
+        "id": "c",
+        "text": "sending"
+      },
+      {
+        "id": "d",
+        "text": "to send"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "После Could you используется send без to.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.train_advice",
+    "revision": 1,
+    "skill_id": "en.requests_advice",
+    "family_id": "en.f.train_advice",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Друг не знает, как добраться в центр. Вы рекомендуете поезд.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I think you ___ take the train. It's quick.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "don't have to"
+      },
+      {
+        "id": "b",
+        "text": "should"
+      },
+      {
+        "id": "c",
+        "text": "mustn't"
+      },
+      {
+        "id": "d",
+        "text": "can't"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Should передаёт рекомендацию, которую поясняет It's quick.",
+    "status": "approved"
+  }
+]

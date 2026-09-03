@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.phone_shower",
+    "revision": 1,
+    "skill_id": "en.current_actions",
+    "family_id": "en.f.phone_shower",
+    "level": "A2",
+    "difficulty": 1,
+    "context": "Друг спрашивает, почему Анна сейчас не может говорить.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "She can't talk right now. She ___ a shower.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "is taking"
+      },
+      {
+        "id": "b",
+        "text": "takes"
+      },
+      {
+        "id": "c",
+        "text": "take"
+      },
+      {
+        "id": "d",
+        "text": "took"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Действие происходит прямо сейчас: is taking a shower.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.repair_road",
+    "revision": 1,
+    "skill_id": "en.current_actions",
+    "family_id": "en.f.repair_road",
+    "level": "A2",
+    "difficulty": 1,
+    "context": "Вы видите рабочих и закрытую полосу дороги.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Look! They ___ the road.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "is repairing"
+      },
+      {
+        "id": "b",
+        "text": "are repairing"
+      },
+      {
+        "id": "c",
+        "text": "repairs"
+      },
+      {
+        "id": "d",
+        "text": "repairing"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Происходящее на глазах действие нескольких людей: are repairing.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.baby_not_sleeping",
+    "revision": 1,
+    "skill_id": "en.current_actions",
+    "family_id": "en.f.baby_not_sleeping",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Гость просит говорить тише. Вы поясняете, что ребёнок сейчас бодрствует.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "It's OK. The baby ___ at the moment.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "aren't sleeping"
+      },
+      {
+        "id": "b",
+        "text": "not sleeps"
+      },
+      {
+        "id": "c",
+        "text": "isn't sleeping"
+      },
+      {
+        "id": "d",
+        "text": "doesn't sleeping"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Отрицание происходящего сейчас с the baby — isn't sleeping.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.video_call_question",
+    "revision": 1,
+    "skill_id": "en.current_actions",
+    "family_id": "en.f.video_call_question",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "На видеозвонке вы видите друга с кистью и спрашиваете о его занятии.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "What ___ you painting?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "do"
+      },
+      {
+        "id": "b",
+        "text": "is"
+      },
+      {
+        "id": "c",
+        "text": "does"
+      },
+      {
+        "id": "d",
+        "text": "are"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "С painting и you вопрос требует are: What are you painting?",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.temporary_course",
+    "revision": 1,
+    "skill_id": "en.current_actions",
+    "family_id": "en.f.temporary_course",
+    "level": "A2",
+    "difficulty": 3,
+    "context": "Вы бухгалтер, но в этом месяце временно учитесь фотографии.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "This month I ___ a photography course.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "am taking"
+      },
+      {
+        "id": "b",
+        "text": "took"
+      },
+      {
+        "id": "c",
+        "text": "takes"
+      },
+      {
+        "id": "d",
+        "text": "am take"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "О занятии в текущий ограниченный период говорят am taking.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.train_waiting",
+    "revision": 1,
+    "skill_id": "en.current_actions",
+    "family_id": "en.f.train_waiting",
+    "level": "A2",
+    "difficulty": 1,
+    "context": "Вы сейчас на платформе. Дополните сообщение другу.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I ___ for the train. It isn't here yet.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "am wait"
+      },
+      {
+        "id": "b",
+        "text": "am waiting"
+      },
+      {
+        "id": "c",
+        "text": "waiting"
+      },
+      {
+        "id": "d",
+        "text": "waits"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Для действия в процессе нужна связка am waiting.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.dinner_question",
+    "revision": 1,
+    "skill_id": "en.current_actions",
+    "family_id": "en.f.dinner_question",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Из кухни доносится запах еды. Вы спрашиваете брата, готовит ли он сейчас.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "___ you cooking dinner?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Does"
+      },
+      {
+        "id": "b",
+        "text": "Is"
+      },
+      {
+        "id": "c",
+        "text": "Are"
+      },
+      {
+        "id": "d",
+        "text": "Do"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Вопрос о текущем действии с you cooking начинается с Are.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.rain_view",
+    "revision": 1,
+    "skill_id": "en.current_actions",
+    "family_id": "en.f.rain_view",
+    "level": "A2",
+    "difficulty": 1,
+    "context": "Вы выглядываете в окно и описываете погоду в эту минуту.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "It ___ outside now.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "rain"
+      },
+      {
+        "id": "b",
+        "text": "are raining"
+      },
+      {
+        "id": "c",
+        "text": "is rain"
+      },
+      {
+        "id": "d",
+        "text": "is raining"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Для дождя сейчас нужна форма is raining.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.packing_room",
+    "revision": 1,
+    "skill_id": "en.current_actions",
+    "family_id": "en.f.packing_room",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Вы зовёте двух соседок. Они отвечают из комнаты, что сейчас собирают вещи.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "We ___ our bags. Give us a minute.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "are packing"
+      },
+      {
+        "id": "b",
+        "text": "is packing"
+      },
+      {
+        "id": "c",
+        "text": "packing"
+      },
+      {
+        "id": "d",
+        "text": "packs"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "We требует are, а процесс — packing: are packing.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.leaving_noise",
+    "revision": 1,
+    "skill_id": "en.current_actions",
+    "family_id": "en.f.leaving_noise",
+    "level": "A2",
+    "difficulty": 3,
+    "context": "Вы слышите хлопок двери и спрашиваете, кто сейчас уходит.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Who ___ now?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "leaving is"
+      },
+      {
+        "id": "b",
+        "text": "is leaving"
+      },
+      {
+        "id": "c",
+        "text": "do leaving"
+      },
+      {
+        "id": "d",
+        "text": "are leave"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Когда who обозначает неизвестного уходящего, подходит Who is leaving now?",
+    "status": "approved"
+  }
+]

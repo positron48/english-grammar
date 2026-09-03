@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.formal_deadline_request",
+    "revision": 2,
+    "skill_id": "en.register_tone",
+    "family_id": "en.f.formal_deadline_request",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Вы впервые пишете внешнему партнёру. Нужно вежливо попросить ответ до пятницы, не превращая просьбу в неопределённое пожелание.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Which sentence fits the email?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "I would appreciate a response by Friday."
+      },
+      {
+        "id": "b",
+        "text": "I would appreciate confirmation on Friday of when a response will be possible."
+      },
+      {
+        "id": "c",
+        "text": "I would appreciate a response whenever it is convenient, with no fixed deadline."
+      },
+      {
+        "id": "d",
+        "text": "I would appreciate a response after Friday, once the schedule is clear."
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "I would appreciate a response by Friday сохраняет конкретный срок и вежливую дистанцию без угрозы или изменения времени.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.qualified_disagreement",
+    "revision": 2,
+    "skill_id": "en.register_tone",
+    "family_id": "en.f.qualified_disagreement",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Вы не согласны с выводом коллеги, но хотите обсудить данные без личной оценки.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Which response fits?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Your interpretation suggests that you lack the expertise needed to assess these figures."
+      },
+      {
+        "id": "b",
+        "text": "I'm not sure the data support that conclusion; could we look at the figures again?"
+      },
+      {
+        "id": "c",
+        "text": "I agree that the data support the conclusion; could we refine the wording?"
+      },
+      {
+        "id": "d",
+        "text": "I would prefer to leave the conclusion unchanged and discuss the figures at a later stage."
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "I'm not sure the data support that conclusion направляет сомнение на вывод; просьба посмотреть цифры предлагает проверку без личной оценки коллеги.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.formal_contrast_link",
+    "revision": 1,
+    "skill_id": "en.register_tone",
+    "family_id": "en.f.formal_contrast_link",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "В официальном отчёте нужно противопоставить рост выручки падению прибыли.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Revenue increased. ___, profit fell.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Furthermore"
+      },
+      {
+        "id": "b",
+        "text": "For instance"
+      },
+      {
+        "id": "c",
+        "text": "However"
+      },
+      {
+        "id": "d",
+        "text": "Therefore"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "However вводит контраст. Therefore означало бы следствие, furthermore — добавление, for instance — пример.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.polite_reminder",
+    "revision": 2,
+    "skill_id": "en.register_tone",
+    "family_id": "en.f.polite_reminder",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Партнёр ещё не прислал обещанный файл. Нужно напомнить и спросить срок, сохранив доброжелательность.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Which message fits?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Could you confirm receipt of the file I sent yesterday?"
+      },
+      {
+        "id": "b",
+        "text": "Please let me know whether you still need the file from us."
+      },
+      {
+        "id": "c",
+        "text": "Could you send your comments on the file you received?"
+      },
+      {
+        "id": "d",
+        "text": "Could you let me know when we can expect the file?"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Could you let me know when we can expect the file? спрашивает ожидаемый срок, не выдумывая отправку и не добавляя обвинения.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.formal_rejection",
+    "revision": 2,
+    "skill_id": "en.register_tone",
+    "family_id": "en.f.formal_rejection",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Нужно официально отклонить предложение из-за бюджета, сохранив готовность обсудить его позже.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Which reply preserves both points?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "We are unable to proceed within the current budget, but would welcome a discussion next quarter."
+      },
+      {
+        "id": "b",
+        "text": "We can proceed within the current budget, but would prefer to discuss the details next quarter."
+      },
+      {
+        "id": "c",
+        "text": "We are unable to meet the proposed timetable, but would welcome a discussion next quarter."
+      },
+      {
+        "id": "d",
+        "text": "We are unable to proceed within the current budget and will not be reconsidering the proposal."
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Unable to proceed within the current budget сохраняет нынешний отказ; would welcome a discussion next quarter оставляет возможность будущего разговора.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.formal_result_link",
+    "revision": 1,
+    "skill_id": "en.register_tone",
+    "family_id": "en.f.formal_result_link",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Команда устранила ошибку; вследствие этого сервис снова доступен. Нужна связь результата в отчёте.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The fault has been repaired. ___, the service is available again.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "For example"
+      },
+      {
+        "id": "b",
+        "text": "Consequently"
+      },
+      {
+        "id": "c",
+        "text": "Nevertheless"
+      },
+      {
+        "id": "d",
+        "text": "In contrast"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Consequently вводит результат исправления; nevertheless и in contrast изменили бы связь на противопоставление.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.soften_without_remove",
+    "revision": 2,
+    "skill_id": "en.register_tone",
+    "family_id": "en.f.soften_without_remove",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Начальник просит смягчить “Your explanation is unclear”, сохранив необходимость пояснения.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Which revision fits?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "We need a different explanation, rather than more detail about this one."
+      },
+      {
+        "id": "b",
+        "text": "We can leave the explanation as it stands unless someone raises a concern."
+      },
+      {
+        "id": "c",
+        "text": "A little more detail would help clarify your explanation."
+      },
+      {
+        "id": "d",
+        "text": "Your explanation is clear enough; only the presentation needs polishing."
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "A little more detail would help clarify смягчает оценку и предлагает полезное действие, не отменяя потребность в ясности.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.informal_same_commitment",
+    "revision": 2,
+    "skill_id": "en.register_tone",
+    "family_id": "en.f.informal_same_commitment",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Вы пишете близкому другу. Передайте “I will send you the photographs this evening” естественно для личного сообщения, сохранив срок и обещание.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Which message fits?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "I'll try to send you the photos this evening, but I can't promise."
+      },
+      {
+        "id": "b",
+        "text": "I'll send you the photos by tomorrow evening."
+      },
+      {
+        "id": "c",
+        "text": "Could you send me the photos this evening?"
+      },
+      {
+        "id": "d",
+        "text": "I'll send you the photos this evening."
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "I'll send you the photos this evening меняет регистр через I'll и photos, сохраняя действие и срок.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.formal_appreciate_pattern",
+    "revision": 1,
+    "skill_id": "en.register_tone",
+    "family_id": "en.f.formal_appreciate_pattern",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Вы пишете вежливую просьбу внешнему подрядчику. Дополните фразу.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I would appreciate it if you ___ confirm the delivery date.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "could"
+      },
+      {
+        "id": "b",
+        "text": "can to"
+      },
+      {
+        "id": "c",
+        "text": "will to"
+      },
+      {
+        "id": "d",
+        "text": "would to"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "I would appreciate it if you could… — вежливая просьба; после could идёт confirm без to.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.neutral_responsibility",
+    "revision": 2,
+    "skill_id": "en.register_tone",
+    "family_id": "en.f.neutral_responsibility",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "В отчёте нужно сообщить о пропущенном сроке, не приписывая человеку мотивов и не скрывая, что документ ещё не пришёл.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Which sentence fits?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The report is due next Monday, so we are waiting for it."
+      },
+      {
+        "id": "b",
+        "text": "We have not yet received the report, which was due on Monday."
+      },
+      {
+        "id": "c",
+        "text": "The report was due on Monday, but the team deliberately decided not to send it."
+      },
+      {
+        "id": "d",
+        "text": "The report has now arrived, although it missed the Monday deadline."
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "We have not yet received the report сообщает отсутствие документа; which was due on Monday уточняет срок без догадок о намерениях.",
+    "status": "approved"
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.known_since_school",
+    "revision": 1,
+    "skill_id": "en.time_sequence",
+    "family_id": "en.f.known_since_school",
+    "level": "B1",
+    "difficulty": 2,
+    "context": "Вы знакомы с подругой со школьных лет и до сих пор общаетесь.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I've known her ___ we were at school.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "since"
+      },
+      {
+        "id": "b",
+        "text": "for"
+      },
+      {
+        "id": "c",
+        "text": "during"
+      },
+      {
+        "id": "d",
+        "text": "by"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Since вводит начало продолжающегося периода: since we were at school.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.lived_ten_years",
+    "revision": 1,
+    "skill_id": "en.time_sequence",
+    "family_id": "en.f.lived_ten_years",
+    "level": "B1",
+    "difficulty": 1,
+    "context": "Вы живёте в этом городе десять лет и продолжаете жить.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I've lived here ___ ten years.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "by"
+      },
+      {
+        "id": "b",
+        "text": "for"
+      },
+      {
+        "id": "c",
+        "text": "since"
+      },
+      {
+        "id": "d",
+        "text": "during"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "For обозначает продолжительность — десять лет.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.job_how_long",
+    "revision": 1,
+    "skill_id": "en.time_sequence",
+    "family_id": "en.f.job_how_long",
+    "level": "B1",
+    "difficulty": 2,
+    "context": "Коллега всё ещё работает в компании. Вы спрашиваете о длительности этой работы.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "How long ___ you worked here?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "are"
+      },
+      {
+        "id": "b",
+        "text": "do"
+      },
+      {
+        "id": "c",
+        "text": "have"
+      },
+      {
+        "id": "d",
+        "text": "did"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Для периода, продолжающегося до сейчас, подходит How long have you worked here?",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.train_already_left",
+    "revision": 1,
+    "skill_id": "en.time_sequence",
+    "family_id": "en.f.train_already_left",
+    "level": "B1",
+    "difficulty": 2,
+    "context": "К вашему приходу на станцию поезд уже ушёл.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "When I arrived, the train ___ already left.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "has"
+      },
+      {
+        "id": "b",
+        "text": "was"
+      },
+      {
+        "id": "c",
+        "text": "did"
+      },
+      {
+        "id": "d",
+        "text": "had"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Уход поезда предшествует другому прошлому событию, поэтому had left.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.couldnt_pay",
+    "revision": 1,
+    "skill_id": "en.time_sequence",
+    "family_id": "en.f.couldnt_pay",
+    "level": "B1",
+    "difficulty": 3,
+    "context": "В магазине вы обнаружили, что забыли кошелёк дома ещё до прихода.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I couldn't pay because I ___ my wallet at home.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "had left"
+      },
+      {
+        "id": "b",
+        "text": "have left"
+      },
+      {
+        "id": "c",
+        "text": "leave"
+      },
+      {
+        "id": "d",
+        "text": "was leave"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Had left показывает более раннюю причину прошлой невозможности заплатить.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.finished_before_arrival",
+    "revision": 1,
+    "skill_id": "en.time_sequence",
+    "family_id": "en.f.finished_before_arrival",
+    "level": "B1",
+    "difficulty": 3,
+    "context": "Когда гости пришли, вы уже закончили готовить.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "By the time the guests arrived, I ___ dinner.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "cook"
+      },
+      {
+        "id": "b",
+        "text": "had cooked"
+      },
+      {
+        "id": "c",
+        "text": "have cooked"
+      },
+      {
+        "id": "d",
+        "text": "am cooking"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Приготовление завершилось до прихода гостей: had cooked.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.since_monday",
+    "revision": 1,
+    "skill_id": "en.time_sequence",
+    "family_id": "en.f.since_monday",
+    "level": "B1",
+    "difficulty": 1,
+    "context": "Вы больны с понедельника и ещё не поправились.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I've been ill ___ Monday.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "during"
+      },
+      {
+        "id": "b",
+        "text": "until"
+      },
+      {
+        "id": "c",
+        "text": "since"
+      },
+      {
+        "id": "d",
+        "text": "for"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Monday обозначает начало состояния, поэтому since.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.old_job_ended",
+    "revision": 1,
+    "skill_id": "en.time_sequence",
+    "family_id": "en.f.old_job_ended",
+    "level": "B1",
+    "difficulty": 3,
+    "context": "Вы работали в магазине с 2018 по 2020 год и затем уволились.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I ___ there for two years, then I left.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "have worked"
+      },
+      {
+        "id": "b",
+        "text": "have been"
+      },
+      {
+        "id": "c",
+        "text": "work"
+      },
+      {
+        "id": "d",
+        "text": "worked"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Период закончился увольнением, поэтому worked, даже при for two years.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.never_seen_before",
+    "revision": 1,
+    "skill_id": "en.time_sequence",
+    "family_id": "en.f.never_seen_before",
+    "level": "B1",
+    "difficulty": 3,
+    "context": "В прошлом году вы впервые увидели снег. До той поездки такого опыта не было.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Before that trip, I ___ snow.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "had never seen"
+      },
+      {
+        "id": "b",
+        "text": "have never seen"
+      },
+      {
+        "id": "c",
+        "text": "never see"
+      },
+      {
+        "id": "d",
+        "text": "was never see"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Отсутствие опыта до прошлого события выражается had never seen.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.keys_found_before_call",
+    "revision": 1,
+    "skill_id": "en.time_sequence",
+    "family_id": "en.f.keys_found_before_call",
+    "level": "B1",
+    "difficulty": 3,
+    "context": "Друг позвонил помочь искать ключи, но вы нашли их ещё до звонка.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I ___ my keys before he called.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "am already finding"
+      },
+      {
+        "id": "b",
+        "text": "had already found"
+      },
+      {
+        "id": "c",
+        "text": "have already found"
+      },
+      {
+        "id": "d",
+        "text": "already find"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Had already found подчёркивает, что находка предшествовала прошлому звонку.",
+    "status": "approved"
+  }
+]

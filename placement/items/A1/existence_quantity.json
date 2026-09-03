@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.kitchen_table",
+    "revision": 1,
+    "skill_id": "en.existence_quantity",
+    "family_id": "en.f.kitchen_table",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "Вы описываете кухню, в которой стоит один стол.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "There ___ a table in the kitchen.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "is"
+      },
+      {
+        "id": "b",
+        "text": "are"
+      },
+      {
+        "id": "c",
+        "text": "am"
+      },
+      {
+        "id": "d",
+        "text": "be"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Перед одним предметом a table используется There is.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.station_toilets",
+    "revision": 1,
+    "skill_id": "en.existence_quantity",
+    "family_id": "en.f.station_toilets",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Вы спрашиваете, есть ли на станции туалеты.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "___ there any toilets here?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Be"
+      },
+      {
+        "id": "b",
+        "text": "Are"
+      },
+      {
+        "id": "c",
+        "text": "Is"
+      },
+      {
+        "id": "d",
+        "text": "Am"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Toilets во множественном числе: Are there any toilets?",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.empty_fridge",
+    "revision": 1,
+    "skill_id": "en.existence_quantity",
+    "family_id": "en.f.empty_fridge",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "В холодильнике совсем нет молока.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "There isn't ___ milk in the fridge.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "many"
+      },
+      {
+        "id": "b",
+        "text": "an"
+      },
+      {
+        "id": "c",
+        "text": "any"
+      },
+      {
+        "id": "d",
+        "text": "a"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "В отрицании с milk подходит any: нет никакого молока.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.apples_bag",
+    "revision": 1,
+    "skill_id": "en.existence_quantity",
+    "family_id": "en.f.apples_bag",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Вы перечисляете содержимое сумки. В ней есть несколько яблок.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "There are ___ apples in my bag.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "a"
+      },
+      {
+        "id": "b",
+        "text": "an"
+      },
+      {
+        "id": "c",
+        "text": "much"
+      },
+      {
+        "id": "d",
+        "text": "some"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Some подходит для неопределённого количества яблок в утверждении.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.room_chairs",
+    "revision": 1,
+    "skill_id": "en.existence_quantity",
+    "family_id": "en.f.room_chairs",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "Вы выбираете комнату для группы и спрашиваете число стульев.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "How ___ chairs are there?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "many"
+      },
+      {
+        "id": "b",
+        "text": "much"
+      },
+      {
+        "id": "c",
+        "text": "a"
+      },
+      {
+        "id": "d",
+        "text": "an"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Стулья можно посчитать, поэтому how many chairs.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.water_bottle",
+    "revision": 1,
+    "skill_id": "en.existence_quantity",
+    "family_id": "en.f.water_bottle",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Вы хотите узнать количество воды в бутылке.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "How ___ water is there?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "an"
+      },
+      {
+        "id": "b",
+        "text": "much"
+      },
+      {
+        "id": "c",
+        "text": "many"
+      },
+      {
+        "id": "d",
+        "text": "a"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Water здесь не считают по отдельным предметам: how much water.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.park_children",
+    "revision": 1,
+    "skill_id": "en.existence_quantity",
+    "family_id": "en.f.park_children",
+    "level": "A1",
+    "difficulty": 3,
+    "context": "Вы видите в парке нескольких детей.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "There are three ___ in the park.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "childs"
+      },
+      {
+        "id": "b",
+        "text": "childrens"
+      },
+      {
+        "id": "c",
+        "text": "children"
+      },
+      {
+        "id": "d",
+        "text": "child"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Множественное число от child — children, без дополнительного s.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.bathroom_negative",
+    "revision": 1,
+    "skill_id": "en.existence_quantity",
+    "family_id": "en.f.bathroom_negative",
+    "level": "A1",
+    "difficulty": 2,
+    "context": "Вы показываете квартиру. В комнате нет душа.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "There ___ a shower in this room.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "aren't"
+      },
+      {
+        "id": "b",
+        "text": "don't"
+      },
+      {
+        "id": "c",
+        "text": "not"
+      },
+      {
+        "id": "d",
+        "text": "isn't"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Один предмет a shower: отрицание There isn't a shower.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.shelves_books",
+    "revision": 1,
+    "skill_id": "en.existence_quantity",
+    "family_id": "en.f.shelves_books",
+    "level": "A1",
+    "difficulty": 1,
+    "context": "Вы говорите гостю о книгах на полке.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "There ___ some books on the shelf.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "are"
+      },
+      {
+        "id": "b",
+        "text": "is"
+      },
+      {
+        "id": "c",
+        "text": "am"
+      },
+      {
+        "id": "d",
+        "text": "be"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Books во множественном числе, поэтому There are.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.wallet_coins",
+    "revision": 1,
+    "skill_id": "en.existence_quantity",
+    "family_id": "en.f.wallet_coins",
+    "level": "A1",
+    "difficulty": 3,
+    "context": "Вы спрашиваете друга, есть ли монеты в его кошельке.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Are there ___ coins in your wallet?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "much"
+      },
+      {
+        "id": "b",
+        "text": "any"
+      },
+      {
+        "id": "c",
+        "text": "a"
+      },
+      {
+        "id": "d",
+        "text": "an"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "В вопросе о наличии нескольких предметов обычно используется any coins.",
+    "status": "approved"
+  }
+]

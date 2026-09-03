@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.small_study",
+    "revision": 1,
+    "skill_id": "en.cautious_inference",
+    "family_id": "en.f.small_study",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "В небольшом исследовании есть обнадёживающие результаты, но окончательный вывод рано делать. Выберите соразмерную формулировку.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Which conclusion fits?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The results suggest that the method may be useful."
+      },
+      {
+        "id": "b",
+        "text": "The results prove that the method always works."
+      },
+      {
+        "id": "c",
+        "text": "The results show that the method can never fail."
+      },
+      {
+        "id": "d",
+        "text": "The results rule out any benefit from the method."
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Suggest…may be useful отражает предварительные данные, не превращая их в доказательство и не отрицая их.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.appears_problem",
+    "revision": 1,
+    "skill_id": "en.cautious_inference",
+    "family_id": "en.f.appears_problem",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Вы видите признаки неисправности, но проверка ещё идёт.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "There appears ___ a problem with the connection.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "be"
+      },
+      {
+        "id": "b",
+        "text": "to be"
+      },
+      {
+        "id": "c",
+        "text": "being"
+      },
+      {
+        "id": "d",
+        "text": "that be"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "После appears в этой конструкции используется to be.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.tends_busy",
+    "revision": 1,
+    "skill_id": "en.cautious_inference",
+    "family_id": "en.f.tends_busy",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Кафе обычно загружено по пятницам, но бывают исключения.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The café tends ___ busy on Fridays.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "be"
+      },
+      {
+        "id": "b",
+        "text": "that is"
+      },
+      {
+        "id": "c",
+        "text": "to be"
+      },
+      {
+        "id": "d",
+        "text": "being"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Tends to be описывает склонность или обычную ситуацию с возможными исключениями.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.likely_arrive",
+    "revision": 1,
+    "skill_id": "en.cautious_inference",
+    "family_id": "en.f.likely_arrive",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "По текущим данным, заказ, скорее всего, придёт завтра.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The order is likely ___ tomorrow.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "arriving"
+      },
+      {
+        "id": "b",
+        "text": "arrive"
+      },
+      {
+        "id": "c",
+        "text": "that arrives"
+      },
+      {
+        "id": "d",
+        "text": "to arrive"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "После likely в этой конструкции используется to arrive.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.may_have_caused",
+    "revision": 1,
+    "skill_id": "en.cautious_inference",
+    "family_id": "en.f.may_have_caused",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Ошибка уже случилась. Вы предполагаете, что её могла вызвать перегрузка, но не знаете точно.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The overload may ___ the error.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "have caused"
+      },
+      {
+        "id": "b",
+        "text": "has caused"
+      },
+      {
+        "id": "c",
+        "text": "caused it"
+      },
+      {
+        "id": "d",
+        "text": "having caused"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "May have caused выражает неуверенное предположение о причине прошлого события.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.some_evidence",
+    "revision": 2,
+    "skill_id": "en.cautious_inference",
+    "family_id": "en.f.some_evidence",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Есть некоторые данные в пользу связи, но причинность не доказана. Выберите точную формулировку.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Which statement preserves that limit?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The link proves that both events have the same cause."
+      },
+      {
+        "id": "b",
+        "text": "There is some evidence of a link, but it does not establish the cause."
+      },
+      {
+        "id": "c",
+        "text": "The evidence establishes the only possible cause."
+      },
+      {
+        "id": "d",
+        "text": "There is no evidence of any link at all."
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "There is some evidence of a link признаёт данные о связи; but it does not establish the cause сохраняет отсутствие доказанной причинности.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.seems_working",
+    "revision": 1,
+    "skill_id": "en.cautious_inference",
+    "family_id": "en.f.seems_working",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Система сейчас работает лучше по наблюдаемым признакам; вы осторожно описываете впечатление.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The system seems ___ more smoothly now.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "run"
+      },
+      {
+        "id": "b",
+        "text": "that running"
+      },
+      {
+        "id": "c",
+        "text": "to be running"
+      },
+      {
+        "id": "d",
+        "text": "being run"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Seems to be running выражает наблюдаемое впечатление о текущем процессе.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.probably_delay",
+    "revision": 1,
+    "skill_id": "en.cautious_inference",
+    "family_id": "en.f.probably_delay",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Вы ожидаете задержку как вероятную, но не уверенную. Выберите формулировку.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The delivery ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "cannot possibly be delayed"
+      },
+      {
+        "id": "b",
+        "text": "has definitely already arrived"
+      },
+      {
+        "id": "c",
+        "text": "will certainly never arrive"
+      },
+      {
+        "id": "d",
+        "text": "will probably be delayed"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Probably сохраняет вероятностный характер ожидания без уверенного прогноза.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.appear_completed",
+    "revision": 1,
+    "skill_id": "en.cautious_inference",
+    "family_id": "en.f.appear_completed",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "По имеющимся документам работа, по-видимому, уже завершена. Дополните осторожное сообщение о предшествующем результате.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The work appears ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "to have been completed"
+      },
+      {
+        "id": "b",
+        "text": "to having completed"
+      },
+      {
+        "id": "c",
+        "text": "have completed"
+      },
+      {
+        "id": "d",
+        "text": "being complete yesterday"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "To have been completed сохраняет и предшествующую завершённость, и действие над work.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.could_explain",
+    "revision": 1,
+    "skill_id": "en.cautious_inference",
+    "family_id": "en.f.could_explain",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Одна из возможных причин падения продаж — закрытие дороги. Вы не исключаете другие.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "The road closure ___ the fall in sales.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "proves impossible"
+      },
+      {
+        "id": "b",
+        "text": "could explain"
+      },
+      {
+        "id": "c",
+        "text": "must explain entirely"
+      },
+      {
+        "id": "d",
+        "text": "rules out"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Could explain представляет объяснение как возможное, не как единственное доказанное.",
+    "status": "approved"
+  }
+]

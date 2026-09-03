@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.heavy_bag_offer",
+    "revision": 1,
+    "skill_id": "en.future_choices",
+    "family_id": "en.f.heavy_bag_offer",
+    "level": "A2",
+    "difficulty": 1,
+    "context": "Вы видите, что человеку тяжело, и сразу предлагаете помощь.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "That looks heavy. I ___ carry it for you.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "will"
+      },
+      {
+        "id": "b",
+        "text": "am"
+      },
+      {
+        "id": "c",
+        "text": "was"
+      },
+      {
+        "id": "d",
+        "text": "do"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Спонтанное предложение помощи: I will carry it for you.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.booked_dentist",
+    "revision": 1,
+    "skill_id": "en.future_choices",
+    "family_id": "en.f.booked_dentist",
+    "level": "A2",
+    "difficulty": 3,
+    "context": "Вы уже записались к стоматологу на завтра и сообщаете о договорённости.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I ___ the dentist tomorrow at ten.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "seeing"
+      },
+      {
+        "id": "b",
+        "text": "am seeing"
+      },
+      {
+        "id": "c",
+        "text": "saw"
+      },
+      {
+        "id": "d",
+        "text": "have seen"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Present Continuous может описывать уже согласованную встречу: am seeing.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.dark_clouds",
+    "revision": 1,
+    "skill_id": "en.future_choices",
+    "family_id": "en.f.dark_clouds",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Вы видите тёмные тучи и предсказываете дождь по этому признаку.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Look at those clouds. It ___ rain.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "go to"
+      },
+      {
+        "id": "b",
+        "text": "is going"
+      },
+      {
+        "id": "c",
+        "text": "is going to"
+      },
+      {
+        "id": "d",
+        "text": "going to"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Прогноз по видимым признакам выражается is going to rain.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.call_after_arrival",
+    "revision": 1,
+    "skill_id": "en.future_choices",
+    "family_id": "en.f.call_after_arrival",
+    "level": "A2",
+    "difficulty": 3,
+    "context": "Вы обещаете позвонить после завтрашнего приезда.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I'll call you when I ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "will arrive"
+      },
+      {
+        "id": "b",
+        "text": "arrived"
+      },
+      {
+        "id": "c",
+        "text": "arriving"
+      },
+      {
+        "id": "d",
+        "text": "arrive"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "После when о будущем времени используется arrive; обещание уже выражено I'll call.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.forgot_bread",
+    "revision": 1,
+    "skill_id": "en.future_choices",
+    "family_id": "en.f.forgot_bread",
+    "level": "A2",
+    "difficulty": 1,
+    "context": "Дома выясняется, что хлеба нет. Вы только что решили сходить за ним.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "We've got no bread? OK, I ___ some.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "will buy"
+      },
+      {
+        "id": "b",
+        "text": "bought"
+      },
+      {
+        "id": "c",
+        "text": "am buy"
+      },
+      {
+        "id": "d",
+        "text": "buying"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Решение принимается сейчас: will buy.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.promise_secret",
+    "revision": 1,
+    "skill_id": "en.future_choices",
+    "family_id": "en.f.promise_secret",
+    "level": "A2",
+    "difficulty": 1,
+    "context": "Друг просит сохранить секрет. Вы обещаете никому не говорить.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I ___ tell anyone. I promise.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "am not tell"
+      },
+      {
+        "id": "b",
+        "text": "won't"
+      },
+      {
+        "id": "c",
+        "text": "don't going"
+      },
+      {
+        "id": "d",
+        "text": "not will"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Отрицательное обещание — won't tell anyone.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.weekend_intention",
+    "revision": 1,
+    "skill_id": "en.future_choices",
+    "family_id": "en.f.weekend_intention",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Вы решили на выходных покрасить комнату и уже купили краску.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I ___ paint my room this weekend.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "am go to"
+      },
+      {
+        "id": "b",
+        "text": "am going"
+      },
+      {
+        "id": "c",
+        "text": "am going to"
+      },
+      {
+        "id": "d",
+        "text": "going to"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Для заранее принятого намерения подходит am going to paint.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.wait_until_home",
+    "revision": 1,
+    "skill_id": "en.future_choices",
+    "family_id": "en.f.wait_until_home",
+    "level": "A2",
+    "difficulty": 3,
+    "context": "Друг будет дома позже. Вы обещаете ждать до его возвращения.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I'll wait here until you ___ back.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "will come"
+      },
+      {
+        "id": "b",
+        "text": "came"
+      },
+      {
+        "id": "c",
+        "text": "coming"
+      },
+      {
+        "id": "d",
+        "text": "come"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "В придаточной части с until о будущем используют come.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.miss_bus_evidence",
+    "revision": 1,
+    "skill_id": "en.future_choices",
+    "family_id": "en.f.miss_bus_evidence",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Автобус уже отъезжает, а вы ещё далеко. Вы комментируете очевидный исход.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "We ___ miss the bus!",
+    "choices": [
+      {
+        "id": "a",
+        "text": "are going to"
+      },
+      {
+        "id": "b",
+        "text": "going to"
+      },
+      {
+        "id": "c",
+        "text": "are go to"
+      },
+      {
+        "id": "d",
+        "text": "are going"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Предсказание по текущей ситуации: are going to miss.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.meeting_after_lunch",
+    "revision": 1,
+    "skill_id": "en.future_choices",
+    "family_id": "en.f.meeting_after_lunch",
+    "level": "A2",
+    "difficulty": 3,
+    "context": "Завтра вы отправите документы сразу после того, как закончите обед.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I'll send the files as soon as I ___ lunch.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "finishes"
+      },
+      {
+        "id": "b",
+        "text": "finish"
+      },
+      {
+        "id": "c",
+        "text": "will finish"
+      },
+      {
+        "id": "d",
+        "text": "finished"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "После as soon as будущее событие выражается finish.",
+    "status": "approved"
+  }
+]

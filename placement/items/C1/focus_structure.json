@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.it_was_monday",
+    "revision": 1,
+    "skill_id": "en.focus_structure",
+    "family_id": "en.f.it_was_monday",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Собеседник считает, что договор подписали во вторник. Вы исправляете только день.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "It was ___ that we signed the contract.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "on Monday"
+      },
+      {
+        "id": "b",
+        "text": "Monday did"
+      },
+      {
+        "id": "c",
+        "text": "when Monday"
+      },
+      {
+        "id": "d",
+        "text": "Monday was"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "В It was…that выделяется исправляемая деталь времени: on Monday.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.what_need_time",
+    "revision": 1,
+    "skill_id": "en.focus_structure",
+    "family_id": "en.f.what_need_time",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "На встрече вы хотите подчеркнуть, что вам нужно время, а не дополнительный персонал.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "What we need ___ more time, not more staff.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "are being"
+      },
+      {
+        "id": "b",
+        "text": "is"
+      },
+      {
+        "id": "c",
+        "text": "does"
+      },
+      {
+        "id": "d",
+        "text": "has"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "What we need оформляет потребность как тему; is связывает её с выделяемым more time.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.who_broke_glass",
+    "revision": 1,
+    "skill_id": "en.focus_structure",
+    "family_id": "en.f.who_broke_glass",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Все винят гостя, но стакан уронили вы. Подчеркните именно исполнителя.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "It was ___ who broke the glass.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "mine"
+      },
+      {
+        "id": "b",
+        "text": "myself's"
+      },
+      {
+        "id": "c",
+        "text": "me"
+      },
+      {
+        "id": "d",
+        "text": "my"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "В обычной речи It was me who… выделяет говорящего как исполнителя. My и mine не подходят к человеку в этой позиции.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.why_left_focus",
+    "revision": 2,
+    "skill_id": "en.focus_structure",
+    "family_id": "en.f.why_left_focus",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Вы ушли из-за шума, а не из-за позднего часа. Выберите фразу, которая подчёркивает эту причину.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Which sentence fits?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "It was the late hour that made me leave, despite the noise."
+      },
+      {
+        "id": "b",
+        "text": "It was the noise I wanted to avoid, but I stayed until closing time."
+      },
+      {
+        "id": "c",
+        "text": "It was because I had already left that I didn't hear the noise."
+      },
+      {
+        "id": "d",
+        "text": "It was because of the noise that I left."
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "It was because of the noise that I left выделяет шум как причину ухода. Другие варианты меняют причину, отрицают уход или меняют порядок причины и следствия.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.what_happened",
+    "revision": 1,
+    "skill_id": "en.focus_structure",
+    "family_id": "en.f.what_happened",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Вы хотите начать рассказ с выделения того, что именно произошло.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "What happened ___ that the lights went out.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "was"
+      },
+      {
+        "id": "b",
+        "text": "did"
+      },
+      {
+        "id": "c",
+        "text": "had"
+      },
+      {
+        "id": "d",
+        "text": "were being"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "What happened was that… выделяет содержание события.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.focus_person_not_object",
+    "revision": 2,
+    "skill_id": "en.focus_structure",
+    "family_id": "en.f.focus_person_not_object",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "В разговоре спорят, кого менеджер попросил помочь: вас или сестру. Сохраните факт, что он попросил именно вашу сестру.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Which reply answers that contrast?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "It was me that the manager asked to help my sister."
+      },
+      {
+        "id": "b",
+        "text": "It was my sister that the manager asked to help."
+      },
+      {
+        "id": "c",
+        "text": "It was the manager that my sister asked to help."
+      },
+      {
+        "id": "d",
+        "text": "It was my sister who asked me to help the manager."
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "It was my sister that the manager asked to help выделяет адресата просьбы. It was the manager that my sister asked to help поменяло бы направление просьбы: просила бы сестра.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.what_like_place",
+    "revision": 1,
+    "skill_id": "en.focus_structure",
+    "family_id": "en.f.what_like_place",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Вам особенно нравится тишина этого места. Дополните выделение главного достоинства.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "What I like most about this place ___ the silence.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "has"
+      },
+      {
+        "id": "b",
+        "text": "are being"
+      },
+      {
+        "id": "c",
+        "text": "is"
+      },
+      {
+        "id": "d",
+        "text": "does"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "What I like most… соединяется с выделяемым достоинством через is.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.not_until_speech",
+    "revision": 1,
+    "skill_id": "en.focus_structure",
+    "family_id": "en.f.not_until_speech",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Все думают, что вы поняли ситуацию сразу. Вы подчёркиваете, что понимание пришло лишь после разговора.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "It wasn't until we talked ___ I understood the problem.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "when"
+      },
+      {
+        "id": "b",
+        "text": "which"
+      },
+      {
+        "id": "c",
+        "text": "what"
+      },
+      {
+        "id": "d",
+        "text": "that"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "В конструкции It wasn't until… используется that перед основной информацией.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.where_wallet_focus",
+    "revision": 1,
+    "skill_id": "en.focus_structure",
+    "family_id": "en.f.where_wallet_focus",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Вы хотите исправить место находки: кошелёк нашли в машине, не дома.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "It was in the car ___ I found my wallet.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "that"
+      },
+      {
+        "id": "b",
+        "text": "what"
+      },
+      {
+        "id": "c",
+        "text": "which"
+      },
+      {
+        "id": "d",
+        "text": "who"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "It was in the car that… выделяет место находки; that связывает оставшуюся часть.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.only_thing_need",
+    "revision": 1,
+    "skill_id": "en.focus_structure",
+    "family_id": "en.f.only_thing_need",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Коллеги предлагают сложный новый процесс. Вы подчёркиваете, что нужно лишь одно простое изменение.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "All we need ___ a clearer deadline.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "are needing"
+      },
+      {
+        "id": "b",
+        "text": "is"
+      },
+      {
+        "id": "c",
+        "text": "does"
+      },
+      {
+        "id": "d",
+        "text": "has"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "All we need is… выделяет единственное необходимое изменение.",
+    "status": "approved"
+  }
+]

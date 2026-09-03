@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.car_broken",
+    "revision": 2,
+    "skill_id": "en.habits_now",
+    "family_id": "en.f.car_broken",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Обычно вы едете на работу на машине, но сегодня машина сломана.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I usually drive, but today I ___ the bus.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "am taking"
+      },
+      {
+        "id": "b",
+        "text": "taking"
+      },
+      {
+        "id": "c",
+        "text": "takes"
+      },
+      {
+        "id": "d",
+        "text": "am take"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Сегодняшнее временное отличие от привычки выражается am taking.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.cafe_owner",
+    "revision": 1,
+    "skill_id": "en.habits_now",
+    "family_id": "en.f.cafe_owner",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Вы видите женщину за стойкой и спрашиваете, работает ли она в кафе вообще.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "___ she work here, or is she just visiting?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Do"
+      },
+      {
+        "id": "b",
+        "text": "Does"
+      },
+      {
+        "id": "c",
+        "text": "Is"
+      },
+      {
+        "id": "d",
+        "text": "Are"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Вопрос о постоянной работе, а не действии сейчас: Does she work here?",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.understand_map",
+    "revision": 1,
+    "skill_id": "en.habits_now",
+    "family_id": "en.f.understand_map",
+    "level": "A2",
+    "difficulty": 3,
+    "context": "Друг объяснил карту. Вы хотите сказать, что теперь понимаете маршрут.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Thanks, I ___ the route now.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "understands"
+      },
+      {
+        "id": "b",
+        "text": "am understand"
+      },
+      {
+        "id": "c",
+        "text": "understand"
+      },
+      {
+        "id": "d",
+        "text": "am understanding"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Understand здесь обозначает состояние понимания: I understand.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.borrowing_complaint",
+    "revision": 1,
+    "skill_id": "en.habits_now",
+    "family_id": "en.f.borrowing_complaint",
+    "level": "A2",
+    "difficulty": 3,
+    "context": "Сосед постоянно берёт вашу кружку, и это вас раздражает. Выберите жалобу с явным оттенком раздражения.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "You ___ my mug without asking!",
+    "choices": [
+      {
+        "id": "a",
+        "text": "always takes"
+      },
+      {
+        "id": "b",
+        "text": "always taking"
+      },
+      {
+        "id": "c",
+        "text": "are always take"
+      },
+      {
+        "id": "d",
+        "text": "are always taking"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Are always taking подчёркивает раздражающую повторяемость действия.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.vegetarian_menu",
+    "revision": 1,
+    "skill_id": "en.habits_now",
+    "family_id": "en.f.vegetarian_menu",
+    "level": "A2",
+    "difficulty": 3,
+    "context": "Вы хотите объяснить отказ постоянной привычкой: мясо вы не едите вообще, а не только сегодня.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Which reply expresses that habit?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "I don't eat meat."
+      },
+      {
+        "id": "b",
+        "text": "I'm not eating meat today."
+      },
+      {
+        "id": "c",
+        "text": "I didn't eat meat yesterday."
+      },
+      {
+        "id": "d",
+        "text": "I won't eat meat tonight."
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "I don't eat meat описывает постоянную привычку. Остальные варианты ограничены сегодня, вчера или сегодняшним вечером.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.project_week",
+    "revision": 1,
+    "skill_id": "en.habits_now",
+    "family_id": "en.f.project_week",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Обычно студенты работают отдельно, но на этой неделе у них общий проект.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "They normally work alone. This week they ___ together.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "are work"
+      },
+      {
+        "id": "b",
+        "text": "are working"
+      },
+      {
+        "id": "c",
+        "text": "works"
+      },
+      {
+        "id": "d",
+        "text": "working"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Временная работа на этой неделе: are working.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.like_music",
+    "revision": 1,
+    "skill_id": "en.habits_now",
+    "family_id": "en.f.like_music",
+    "level": "A2",
+    "difficulty": 1,
+    "context": "В кафе звучит музыка. Вы сообщаете, что эта песня вам нравится.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I ___ this song.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "likes"
+      },
+      {
+        "id": "b",
+        "text": "am like"
+      },
+      {
+        "id": "c",
+        "text": "like"
+      },
+      {
+        "id": "d",
+        "text": "liking"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "В нейтральном высказывании о вкусе используется I like this song.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.lunch_live",
+    "revision": 1,
+    "skill_id": "en.habits_now",
+    "family_id": "en.f.lunch_live",
+    "level": "A2",
+    "difficulty": 3,
+    "context": "Коллега всегда обедает в полдень. Сейчас полдень, и вы видите его за едой.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "He usually eats at twelve, and right now he ___ lunch.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "has had"
+      },
+      {
+        "id": "b",
+        "text": "have"
+      },
+      {
+        "id": "c",
+        "text": "having"
+      },
+      {
+        "id": "d",
+        "text": "is having"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Во второй части описывается наблюдаемое сейчас действие: is having lunch.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.know_password",
+    "revision": 1,
+    "skill_id": "en.habits_now",
+    "family_id": "en.f.know_password",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Друг спрашивает пароль. Вы его не знаете.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Sorry, I ___ the password.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "don't know"
+      },
+      {
+        "id": "b",
+        "text": "am not knowing"
+      },
+      {
+        "id": "c",
+        "text": "doesn't know"
+      },
+      {
+        "id": "d",
+        "text": "not knowing"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Know выражает знание как состояние: don't know.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.small_flat_stay",
+    "revision": 1,
+    "skill_id": "en.habits_now",
+    "family_id": "en.f.small_flat_stay",
+    "level": "A2",
+    "difficulty": 2,
+    "context": "Вы обычно живёте в городе, но пока ремонтируют квартиру, временно гостите у родителей.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I ___ with my parents until my flat is ready.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "am stay"
+      },
+      {
+        "id": "b",
+        "text": "am staying"
+      },
+      {
+        "id": "c",
+        "text": "stayed"
+      },
+      {
+        "id": "d",
+        "text": "stays"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Временное проживание ограничено ремонтом: am staying.",
+    "status": "approved"
+  }
+]

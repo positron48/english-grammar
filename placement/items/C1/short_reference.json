@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.so_have_i",
+    "revision": 1,
+    "skill_id": "en.short_reference",
+    "family_id": "en.f.so_have_i",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Коллега говорит, что уже прочитал отчёт. Вы тоже прочитали.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "“I've read the report.” “So ___ I.”",
+    "choices": [
+      {
+        "id": "a",
+        "text": "have"
+      },
+      {
+        "id": "b",
+        "text": "do"
+      },
+      {
+        "id": "c",
+        "text": "am"
+      },
+      {
+        "id": "d",
+        "text": "did"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Ответ сохраняет вспомогательный have из I've read: So have I.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.neither_can",
+    "revision": 1,
+    "skill_id": "en.short_reference",
+    "family_id": "en.f.neither_can",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Друг не умеет кататься на лыжах. Вы тоже не умеете.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "“I can't ski.” “Neither ___ I.”",
+    "choices": [
+      {
+        "id": "a",
+        "text": "have"
+      },
+      {
+        "id": "b",
+        "text": "can"
+      },
+      {
+        "id": "c",
+        "text": "do"
+      },
+      {
+        "id": "d",
+        "text": "am"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "В ответе повторяется can: Neither can I.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.so_did",
+    "revision": 1,
+    "skill_id": "en.short_reference",
+    "family_id": "en.f.so_did",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Соседка вчера рано ушла с праздника. Вы тоже.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "“I left early yesterday.” “So ___ I.”",
+    "choices": [
+      {
+        "id": "a",
+        "text": "have"
+      },
+      {
+        "id": "b",
+        "text": "am"
+      },
+      {
+        "id": "c",
+        "text": "did"
+      },
+      {
+        "id": "d",
+        "text": "do"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Для обычного прошлого действия ответ строится So did I.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.so_i_do_confirmation",
+    "revision": 1,
+    "skill_id": "en.short_reference",
+    "family_id": "en.f.so_i_do_confirmation",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Друг напоминает вам, что у вас есть запасной ключ. Вы вдруг вспоминаете об этом. Выберите подтверждение собственного факта, а не сообщение «у меня тоже».",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "“You have a spare key.” “Oh, ___!”",
+    "choices": [
+      {
+        "id": "a",
+        "text": "so do I"
+      },
+      {
+        "id": "b",
+        "text": "neither do I"
+      },
+      {
+        "id": "c",
+        "text": "so am I"
+      },
+      {
+        "id": "d",
+        "text": "so I do"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "So I do подтверждает напомненный факт о себе. So do I означало бы «я тоже» в ответ на другого человека.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.red_ones",
+    "revision": 1,
+    "skill_id": "en.short_reference",
+    "family_id": "en.f.red_ones",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Вы выбираете несколько красных чашек вместо синих. Избегите повторения cups.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I'll take the red ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "ones"
+      },
+      {
+        "id": "b",
+        "text": "one"
+      },
+      {
+        "id": "c",
+        "text": "it"
+      },
+      {
+        "id": "d",
+        "text": "that"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Несколько уже названных предметов заменяются ones.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.spare_one",
+    "revision": 1,
+    "skill_id": "en.short_reference",
+    "family_id": "en.f.spare_one",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Вы ищете замену одному стулу. Дополните просьбу.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "This chair is broken. Could we use the spare ___?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "them"
+      },
+      {
+        "id": "b",
+        "text": "one"
+      },
+      {
+        "id": "c",
+        "text": "ones"
+      },
+      {
+        "id": "d",
+        "text": "it"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Один заменяемый исчисляемый предмет обозначается one.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.he_does_not",
+    "revision": 1,
+    "skill_id": "en.short_reference",
+    "family_id": "en.f.he_does_not",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Вы ходите на работу пешком, а брат нет. Избегите повторения walk to work.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I walk to work, but my brother ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "hasn't"
+      },
+      {
+        "id": "b",
+        "text": "don't"
+      },
+      {
+        "id": "c",
+        "text": "doesn't"
+      },
+      {
+        "id": "d",
+        "text": "isn't"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Заменяемое действие walk требует doesn't с my brother.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.so_will_we",
+    "revision": 1,
+    "skill_id": "en.short_reference",
+    "family_id": "en.f.so_will_we",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Соседняя команда будет работать из дома завтра. Ваша команда тоже.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "“We'll work from home tomorrow.” “So ___ we.”",
+    "choices": [
+      {
+        "id": "a",
+        "text": "do"
+      },
+      {
+        "id": "b",
+        "text": "are"
+      },
+      {
+        "id": "c",
+        "text": "have"
+      },
+      {
+        "id": "d",
+        "text": "will"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Будущее действие с will сохраняется в ответе So will we.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.neither_had_we",
+    "revision": 1,
+    "skill_id": "en.short_reference",
+    "family_id": "en.f.neither_had_we",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Коллега говорит о прошлой встрече: до неё он никогда не видел директора. Для вас это тоже было верно.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "“I'd never met the director before that meeting.” “Neither ___ we.”",
+    "choices": [
+      {
+        "id": "a",
+        "text": "had"
+      },
+      {
+        "id": "b",
+        "text": "did"
+      },
+      {
+        "id": "c",
+        "text": "have"
+      },
+      {
+        "id": "d",
+        "text": "were"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Прошлое до другого прошлого передаётся had и сохраняется в Neither had we.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.not_everyone_did",
+    "revision": 1,
+    "skill_id": "en.short_reference",
+    "family_id": "en.f.not_everyone_did",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "На семинаре некоторые выступили, другие нет. Избегите повторения gave a presentation.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Some people gave a presentation; others ___.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "don't"
+      },
+      {
+        "id": "b",
+        "text": "didn't"
+      },
+      {
+        "id": "c",
+        "text": "weren't"
+      },
+      {
+        "id": "d",
+        "text": "haven't"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Отрицательная замена прошлого действия gave — didn't.",
+    "status": "approved"
+  }
+]

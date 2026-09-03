@@ -1,0 +1,322 @@
+[
+  {
+    "id": "en.p.actually_called",
+    "revision": 1,
+    "skill_id": "en.correct_emphasis",
+    "family_id": "en.f.actually_called",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Собеседник утверждает, что вы вчера не звонили. Вы подчёркнуто возражаете.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "But I did ___ you. Twice, in fact.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "call"
+      },
+      {
+        "id": "b",
+        "text": "called"
+      },
+      {
+        "id": "c",
+        "text": "calling"
+      },
+      {
+        "id": "d",
+        "text": "to call"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Did уже выражает прошедшее время и усиление; после него остаётся call.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.agree_with_reservation",
+    "revision": 1,
+    "skill_id": "en.correct_emphasis",
+    "family_id": "en.f.agree_with_reservation",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Коллега думает, что вы против всей идеи. Вы хотите подчеркнуть согласие с идеей, сохранив сомнения о сроках.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I ___ agree with the idea; it's the timing that worries me.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "does"
+      },
+      {
+        "id": "b",
+        "text": "do"
+      },
+      {
+        "id": "c",
+        "text": "am"
+      },
+      {
+        "id": "d",
+        "text": "have"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Do усиливает положительное agree и помогает противопоставить согласие сомнениям о сроках.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.manager_understands",
+    "revision": 1,
+    "skill_id": "en.correct_emphasis",
+    "family_id": "en.f.manager_understands",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Сотрудники считают, что руководитель не понимает проблему. Вы подчёркиваете обратное.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "She does ___ the problem, even if she hasn't solved it yet.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "understood"
+      },
+      {
+        "id": "b",
+        "text": "understanding"
+      },
+      {
+        "id": "c",
+        "text": "understand"
+      },
+      {
+        "id": "d",
+        "text": "understands"
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "После усилительного does используется understand без s.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.polite_sit",
+    "revision": 1,
+    "skill_id": "en.correct_emphasis",
+    "family_id": "en.f.polite_sit",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Пожилой гость стоит, хотя стул свободен. Вы тепло и настойчиво приглашаете его сесть.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "___ sit down; there's no need to stand.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Does"
+      },
+      {
+        "id": "b",
+        "text": "Did"
+      },
+      {
+        "id": "c",
+        "text": "Doing"
+      },
+      {
+        "id": "d",
+        "text": "Do"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Do sit down усиливает приглашение и может звучать заботливо и настойчиво.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.acknowledge_effort",
+    "revision": 1,
+    "skill_id": "en.correct_emphasis",
+    "family_id": "en.f.acknowledge_effort",
+    "level": "C1",
+    "difficulty": 1,
+    "context": "Друг думает, что вы совсем не цените его помощь. Вы хотите подчеркнуть благодарность.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I ___ appreciate your help, even if I don't always say it.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "do"
+      },
+      {
+        "id": "b",
+        "text": "am"
+      },
+      {
+        "id": "c",
+        "text": "have"
+      },
+      {
+        "id": "d",
+        "text": "does"
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Do appreciate подчёркивает действительную благодарность вопреки впечатлению друга.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.wrong_past_emphasis",
+    "revision": 1,
+    "skill_id": "en.correct_emphasis",
+    "family_id": "en.f.wrong_past_emphasis",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Вы признаёте, что забыли встречу, но подчёркиваете, что напоминание всё-таки прочли.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I forgot the meeting, but I ___ read your reminder.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "does"
+      },
+      {
+        "id": "b",
+        "text": "did"
+      },
+      {
+        "id": "c",
+        "text": "do"
+      },
+      {
+        "id": "d",
+        "text": "was"
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Did read подтверждает конкретный прошлый факт, не отменяя признанного забывания.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.meaning_did_try",
+    "revision": 1,
+    "skill_id": "en.correct_emphasis",
+    "family_id": "en.f.meaning_did_try",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Коллега говорит: “I did try to reach you.” Он отвечает на обвинение, что даже не пытался. Что он подчёркивает?",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "I did try to reach you.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Он только собирается попробовать."
+      },
+      {
+        "id": "b",
+        "text": "Он отрицает попытку связаться."
+      },
+      {
+        "id": "c",
+        "text": "Попытка связаться действительно была."
+      },
+      {
+        "id": "d",
+        "text": "Связаться удалось с первой попытки."
+      }
+    ],
+    "correct_answer": "c",
+    "explanation": "Усилительное did подтверждает попытку; оно не утверждает успешного контакта.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.do_come_invitation",
+    "revision": 1,
+    "skill_id": "en.correct_emphasis",
+    "family_id": "en.f.do_come_invitation",
+    "level": "C1",
+    "difficulty": 2,
+    "context": "Друзья сомневаются, желанны ли они на празднике. Вы хотите настойчиво подтвердить приглашение.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "___ come along; we'd love to see you.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Did"
+      },
+      {
+        "id": "b",
+        "text": "Does"
+      },
+      {
+        "id": "c",
+        "text": "Doing"
+      },
+      {
+        "id": "d",
+        "text": "Do"
+      }
+    ],
+    "correct_answer": "d",
+    "explanation": "Do come along усиливает положительное приглашение, показывая, что гостей ждут.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.positive_fact_neg_result",
+    "revision": 1,
+    "skill_id": "en.correct_emphasis",
+    "family_id": "en.f.positive_fact_neg_result",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Клиент утверждает, что вы не отправили договор. Вы отправили, но на неверный адрес. Сохраните оба факта с акцентом на отправке.",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "Which reply fits?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "I did send it, but to the wrong address."
+      },
+      {
+        "id": "b",
+        "text": "I didn't send it, although I had the address."
+      },
+      {
+        "id": "c",
+        "text": "I do send it tomorrow to that address."
+      },
+      {
+        "id": "d",
+        "text": "I sent the right address, but no contract."
+      }
+    ],
+    "correct_answer": "a",
+    "explanation": "Did send подчёркнуто подтверждает отправку, а вторая часть объясняет ошибку адреса.",
+    "status": "approved"
+  },
+  {
+    "id": "en.p.emphasis_not_obligation",
+    "revision": 1,
+    "skill_id": "en.correct_emphasis",
+    "family_id": "en.f.emphasis_not_obligation",
+    "level": "C1",
+    "difficulty": 3,
+    "context": "Фраза “He does work hard” отвечает человеку, который считает его ленивым. Каков её смысл?",
+    "instruction": "Выберите подходящий вариант.",
+    "prompt": "He does work hard.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Он раньше работал, но теперь перестал."
+      },
+      {
+        "id": "b",
+        "text": "Он действительно много работает."
+      },
+      {
+        "id": "c",
+        "text": "Он обязан работать больше, чем сейчас."
+      },
+      {
+        "id": "d",
+        "text": "Ему разрешили работать усердно."
+      }
+    ],
+    "correct_answer": "b",
+    "explanation": "Does усиливает утверждение works hard, не выражая обязанность, разрешение или прекращение привычки.",
+    "status": "approved"
+  }
+]
