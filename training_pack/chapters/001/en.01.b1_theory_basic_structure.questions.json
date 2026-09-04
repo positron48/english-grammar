@@ -5,53 +5,53 @@
   "questions": [
     {
       "type": "mcq_single",
-      "prompt": "Какой элемент предложения отсутствует в этом примере: 'Is a student'?",
+      "prompt": "Какую часть нужно добавить в «Is a student», чтобы получить полное повествовательное предложение?",
       "choices": [
         {
           "id": "a",
-          "text": "Subject"
+          "text": "Подлежащее"
         },
         {
           "id": "b",
-          "text": "Verb"
+          "text": "Глагол"
         },
         {
           "id": "c",
-          "text": "Object"
+          "text": "Дополнение"
         },
         {
           "id": "d",
-          "text": "Adverb"
+          "text": "Обстоятельство"
         }
       ],
       "correct_answer": "a",
-      "explanation": "В английском языке подлежащее обязательно. Правильный пример: 'He is a student'. Русский язык часто опускает подлежащее, но английский нет.",
+      "explanation": "Здесь есть глагол is, но не указано, кто студент. Нужно подлежащее: например, He is a student.",
       "theory_block_id": "b1_theory_basic_structure",
       "chapter_id": "en.grammar.orientation_how_to_read.subject_verb_object_in",
       "concept_id": "sentence_structure_svo",
       "difficulty": 2,
       "id": "q1",
-      "signature": "d149445fd8dfde12"
+      "signature": "a1491fccd0d825e5"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант соответствует правильному порядку слов в английском предложении?",
+      "prompt": "Выберите предложение с базовым повествовательным порядком слов.",
       "choices": [
         {
           "id": "a",
-          "text": "Book reads she"
+          "text": "A book reads she."
         },
         {
           "id": "b",
-          "text": "She reads book"
+          "text": "Reads she a book."
         },
         {
           "id": "c",
-          "text": "She book reads"
+          "text": "She a book reads."
         },
         {
           "id": "d",
-          "text": "She reads a book"
+          "text": "She reads a book."
         }
       ],
       "correct_answer": "d",
@@ -61,27 +61,27 @@
       "concept_id": "sentence_structure_svo",
       "difficulty": 1,
       "id": "q2",
-      "signature": "8ec7d688b531f22a"
+      "signature": "41a7eb789b1cb415"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой элемент отсутствует в предложении 'She reads'?",
+      "prompt": "Какая из трёх основных частей — подлежащее, сказуемое, дополнение — отсутствует в She reads?",
       "choices": [
         {
           "id": "a",
-          "text": "Subject"
+          "text": "Подлежащее"
         },
         {
           "id": "b",
-          "text": "Verb"
+          "text": "Сказуемое"
         },
         {
           "id": "c",
-          "text": "Object"
+          "text": "Дополнение"
         },
         {
           "id": "d",
-          "text": "Adjective"
+          "text": "Все три части присутствуют"
         }
       ],
       "correct_answer": "c",
@@ -91,7 +91,7 @@
       "concept_id": "sentence_structure_svo",
       "difficulty": 2,
       "id": "q3",
-      "signature": "97d8351b30983443"
+      "signature": "24bb15001d433bf6"
     },
     {
       "type": "mcq_single",
@@ -155,33 +155,33 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какое предложение НЕ требует подлежащего?",
+      "prompt": "В каком предложении есть подлежащее и сказуемое, но нет дополнения?",
       "choices": [
         {
           "id": "a",
-          "text": "It is raining."
+          "text": "The cat sleeps."
         },
         {
           "id": "b",
-          "text": "She is happy."
+          "text": "She reads books."
         },
         {
           "id": "c",
-          "text": "Is a student."
+          "text": "He likes coffee."
         },
         {
           "id": "d",
-          "text": "They run fast."
+          "text": "They play football."
         }
       ],
       "correct_answer": "a",
-      "explanation": "В предложениях с глаголами состояния (like 'is') подлежащее часто опускается в русском, но в английском оно обязательно. Вариант 'It is raining' имеет подлежащее 'It', тогда как 'Is a student' его не имеет.",
+      "explanation": "В The cat sleeps подлежащее — The cat, сказуемое — sleeps. Дополнения нет: глагол sleep его не требует.",
       "theory_block_id": "b1_theory_basic_structure",
       "chapter_id": "en.grammar.orientation_how_to_read.subject_verb_object_in",
       "concept_id": "sentence_structure_svo",
       "difficulty": 3,
       "id": "q6",
-      "signature": "91199f07dc117efb"
+      "signature": "3c03e9fc264897b7"
     },
     {
       "type": "mcq_single",
@@ -215,7 +215,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какое предложение имеет НЕВЕРНЫЙ порядок слов?",
+      "prompt": "В каком варианте дополнение стоит перед подлежащим, а не на обычном месте после глагола?",
       "choices": [
         {
           "id": "a",
@@ -235,17 +235,17 @@
         }
       ],
       "correct_answer": "c",
-      "explanation": "Правильный порядок: подлежащее (She) → сказуемое (writes) → дополнение (a letter). Вариант 'A letter she writes' нарушает структуру SVO.",
+      "explanation": "В A letter she writes дополнение A letter вынесено в начало. Базовый порядок: She writes a letter.",
       "theory_block_id": "b1_theory_basic_structure",
       "chapter_id": "en.grammar.orientation_how_to_read.subject_verb_object_in",
       "concept_id": "sentence_structure_svo",
       "difficulty": 2,
       "id": "q8",
-      "signature": "bc353202f811aacc"
+      "signature": "76cb720ec68908a5"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант показывает отсутствие подлежащего (ошибка, как в 'Is a student')?",
+      "prompt": "В каком варианте не хватает подлежащего для полного повествовательного предложения?",
       "choices": [
         {
           "id": "a",
@@ -265,47 +265,47 @@
         }
       ],
       "correct_answer": "c",
-      "explanation": "В английском языке подлежащее обязательно. 'Is a teacher' — неполное предложение (ошибка), правильный вариант: 'She is a teacher'.",
+      "explanation": "В Is a teacher не указано, кто учитель. С подлежащим получится полное предложение: She is a teacher.",
       "theory_block_id": "b1_theory_basic_structure",
       "chapter_id": "en.grammar.orientation_how_to_read.subject_verb_object_in",
       "concept_id": "sentence_structure_svo",
       "difficulty": 2,
       "id": "q9",
-      "signature": "19039f4c558e527f"
+      "signature": "e4e63e4d3a6c9b38"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой элемент в предложении 'The boy plays' является обязательным?",
+      "prompt": "Какую роль выполняет The boy в предложении The boy plays?",
       "choices": [
         {
           "id": "a",
-          "text": "Subject"
+          "text": "Подлежащее"
         },
         {
           "id": "b",
-          "text": "Verb"
+          "text": "Сказуемое"
         },
         {
           "id": "c",
-          "text": "Object"
+          "text": "Дополнение"
         },
         {
           "id": "d",
-          "text": "Adverb"
+          "text": "Обстоятельство"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Подлежащее (The boy) и сказуемое (plays) есть в любом предложении, дополнение (Object) может отсутствовать. В 'The boy plays' подлежащее обязательно.",
+      "explanation": "The boy указывает, кто играет, поэтому это подлежащее. plays — сказуемое.",
       "theory_block_id": "b1_theory_basic_structure",
       "chapter_id": "en.grammar.orientation_how_to_read.subject_verb_object_in",
       "concept_id": "sentence_structure_svo",
       "difficulty": 1,
       "id": "q10",
-      "signature": "ca86a1c2e25b0496"
+      "signature": "732cfd494a436d5b"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой из следующих предложений следует правильному порядку слов Subject-Verb-Object в английском языке?",
+      "prompt": "Какое предложение построено в базовом порядке: подлежащее → сказуемое → дополнение?",
       "choices": [
         {
           "id": "a",
@@ -325,17 +325,17 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Правильный порядок: подлежащее (She) → сказуемое (reads) → дополнение (a book). Вариант b — неправильный порядок слов. Вариант c — отсутствует подлежащее и структура SVC (Subject-Verb-Complement), а не SVO. Вариант d — неправильный порядок.",
+      "explanation": "She reads a book: She — подлежащее, reads — сказуемое, a book — дополнение.",
       "theory_block_id": "b1_theory_basic_structure",
       "chapter_id": "en.grammar.orientation_how_to_read.subject_verb_object_in",
       "concept_id": "sentence_structure_svo",
       "difficulty": 2,
       "id": "q11",
-      "signature": "6abe3f8b8d73f3ee"
+      "signature": "8dcc4eaf29fa85cb"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант правильно пишется на английском: 'Он студент'?",
+      "prompt": "Выберите обычный повествовательный перевод: «Он студент».",
       "choices": [
         {
           "id": "a",
@@ -355,43 +355,43 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "В английском языке подлежащее обязательно, поэтому правильный вариант включает подлежащее \"He\".",
+      "explanation": "В He is a student есть подлежащее He и необходимый глагол-связка is. В обычном повествовательном порядке is стоит после He.",
       "theory_block_id": "b1_theory_basic_structure",
       "chapter_id": "en.grammar.orientation_how_to_read.subject_verb_object_in",
       "concept_id": "sentence_structure_svo",
       "difficulty": 2,
       "id": "q12",
-      "signature": "d27b717722c3221e"
+      "signature": "ebd6b2e469a055dd"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант соответствует структуре подлежащее-сказуемое-дополнение?",
+      "prompt": "Какое предложение передаёт «Они любят кофе» в базовом порядке подлежащее → сказуемое → дополнение?",
       "choices": [
         {
           "id": "a",
-          "text": "She reads a book."
+          "text": "They like coffee."
         },
         {
           "id": "b",
-          "text": "Book reads she."
+          "text": "Like they coffee."
         },
         {
           "id": "c",
-          "text": "Reads she book."
+          "text": "They coffee like."
         },
         {
           "id": "d",
-          "text": "She book reads."
+          "text": "Coffee like they."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Правильный порядок слов в английском: подлежащее (She) → сказуемое (reads) → дополнение (a book).",
+      "explanation": "They — подлежащее, like — сказуемое, coffee — дополнение. В базовом порядке получится They like coffee.",
       "theory_block_id": "b1_theory_basic_structure",
       "chapter_id": "en.grammar.orientation_how_to_read.subject_verb_object_in",
       "concept_id": "sentence_structure_svo",
       "difficulty": 2,
       "id": "q13",
-      "signature": "a17d6073279e6528"
+      "signature": "552bc02785102ef7"
     },
     {
       "type": "mcq_single",
@@ -399,59 +399,59 @@
       "choices": [
         {
           "id": "a",
-          "text": "No, the object is not always needed."
+          "text": "Нет, дополнение нужно не всегда"
         },
         {
           "id": "b",
-          "text": "Yes, the object is always required."
+          "text": "Да, дополнение нужно всегда"
         },
         {
           "id": "c",
-          "text": "Only in interrogative sentences."
+          "text": "Только в вопросах"
         },
         {
           "id": "d",
-          "text": "Only in negative sentences."
+          "text": "Только в отрицаниях"
         }
       ],
       "correct_answer": "a",
-      "explanation": "В английском языке дополнение не обязательно, как указано в теории: не все предложения имеют дополнение.",
+      "explanation": "Дополнение нужно не всегда: например, в She sleeps есть подлежащее и сказуемое, но нет дополнения.",
       "theory_block_id": "b1_theory_basic_structure",
       "chapter_id": "en.grammar.orientation_how_to_read.subject_verb_object_in",
       "concept_id": "sentence_structure_svo",
       "difficulty": 2,
       "id": "q14",
-      "signature": "1e146efef8ee7848"
+      "signature": "d3f8bb882ddacc3f"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой порядок слов соответствует правильной структуре английского предложения?",
+      "prompt": "Какое слово обозначает действие в He reads books?",
       "choices": [
         {
           "id": "a",
-          "text": "Book reads she"
+          "text": "He"
         },
         {
           "id": "b",
-          "text": "She reads a book"
+          "text": "reads"
         },
         {
           "id": "c",
-          "text": "She a book reads"
+          "text": "books"
         },
         {
           "id": "d",
-          "text": "Reads she a book"
+          "text": "He reads"
         }
       ],
       "correct_answer": "b",
-      "explanation": "В английском языке строгий порядок слов: подлежащее (Subject) → сказуемое (Verb) → дополнение (Object). Пример: 'She reads a book'. Неправильный порядок, как 'Book reads she', является распространённой ошибкой.",
+      "explanation": "reads — глагол, обозначающий действие. He — подлежащее, books — дополнение.",
       "theory_block_id": "b1_theory_basic_structure",
       "chapter_id": "en.grammar.orientation_how_to_read.subject_verb_object_in",
       "concept_id": "sentence_structure_svo",
       "difficulty": 2,
       "id": "q15",
-      "signature": "021c9f1a55088611"
+      "signature": "39dc7f4840918674"
     }
   ],
   "meta": {
