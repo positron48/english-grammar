@@ -423,7 +423,7 @@
           {
             "id": "a",
             "text": "I'm working in a bank.",
-            "feedback": "Нет, это действие сейчас. Для факта нужен Simple."
+            "feedback": "Present Continuous может описывать действие сейчас или временную работу. Условие просит общий факт о постоянной работе."
           },
           {
             "id": "b",
@@ -446,11 +446,11 @@
       {
         "id": "q2",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"She ___ English at a university.\" (teach)",
+        "prompt": "Вставьте форму Present Simple: \"She ___ English at a university.\" (teach)",
         "theory_block_id": "b1_theory_facts_vs_actions",
         "difficulty": 2,
         "correct_answer": "teaches",
-        "explanation": "Постоянная работа — это факт, требующий Present Simple. С she используется форма teaches.",
+        "explanation": "О профессии как обычном факте сообщаем в Present Simple: She teaches English at a university. С she добавляем -es к teach.",
         "tags": [
           "fact",
           "simple"
@@ -502,7 +502,7 @@
       {
         "id": "q7",
         "type": "mcq_single",
-        "prompt": "Какое предложение описывает факт, а не действие сейчас?",
+        "prompt": "Какое предложение прямо сообщает о ежедневном занятии английским?",
         "theory_block_id": "b1_theory_facts_vs_actions",
         "difficulty": 2,
         "choices": [
@@ -532,11 +532,11 @@
       {
         "id": "q8",
         "type": "true_false",
-        "prompt": "Предложение 'I work in a bank now' правильно для описания действия, происходящего прямо сейчас.",
+        "prompt": "В предложении I work in a bank now глагол work стоит в Present Continuous.",
         "theory_block_id": "b1_theory_facts_vs_actions",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Неверно. Для действия, происходящего прямо сейчас, нужен Present Continuous: I'm working in a bank now. I work in a bank — это факт о постоянной работе.",
+        "explanation": "Неверно: work — Present Simple. Само предложение грамматически верно и может означать «Теперь я работаю в банке».",
         "tags": [
           "action_now",
           "continuous"
@@ -545,11 +545,11 @@
       {
         "id": "q9",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"They ___ doctors.\" (be)",
+        "prompt": "Вставьте форму Present Simple: \"They ___ doctors.\" (be)",
         "theory_block_id": "b1_theory_facts_vs_actions",
         "difficulty": 2,
         "correct_answer": "are",
-        "explanation": "Первое предложение — факт (Present Simple, но с be это am/is/are). They are doctors — правильная форма.",
+        "explanation": "С they в Present Simple используется are: They are doctors.",
         "tags": [
           "fact",
           "simple"
@@ -588,11 +588,11 @@
       {
         "id": "q12",
         "type": "true_false",
-        "prompt": "Различие между фактами и текущими действиями — это первое правило выбора между Present Simple и Present Continuous.",
+        "prompt": "Выбирая между Present Simple и Present Continuous, полезно различать общий факт и действие в процессе.",
         "theory_block_id": "b1_theory_facts_vs_actions",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Верно. Первое правило основано на различии между постоянными фактами (Simple) и действиями, происходящими прямо сейчас (Continuous).",
+        "explanation": "Верно: I work in a bank сообщает общий факт; I am working now выделяет действие в процессе. При этом нужно учитывать и значение глагола.",
         "tags": [
           "concept"
         ]
@@ -630,11 +630,11 @@
       {
         "id": "q14",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I'm ___ in a hotel this week.\" (жить)",
+        "prompt": "Вставьте -ing-форму: \"I'm ___ in a hotel this week.\" (live)",
         "theory_block_id": "b2_theory_permanent_vs_temporary",
         "difficulty": 2,
         "correct_answer": "living",
-        "explanation": "Временная ситуация с маркером 'this week' требует Present Continuous. I'm living in a hotel this week — правильная форма.",
+        "explanation": "После am в Present Continuous нужна -ing-форма living. Она подчёркивает временное проживание на этой неделе.",
         "tags": [
           "temporary",
           "continuous"
@@ -643,11 +643,11 @@
       {
         "id": "q15",
         "type": "true_false",
-        "prompt": "Present Simple описывает постоянные ситуации, а Present Continuous — временные ситуации.",
+        "prompt": "Present Simple может представлять ситуацию как постоянный факт, а Present Continuous — подчёркивать её временный характер.",
         "theory_block_id": "b2_theory_permanent_vs_temporary",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Верно. Present Simple для постоянных ситуаций, Present Continuous для временных, продолжающихся ограниченный период времени.",
+        "explanation": "Верно: I live in Paris — факт о месте жительства; I am living in Paris this year выделяет проживание как временное. Это не запрет Simple во всех временных ситуациях.",
         "tags": [
           "permanent",
           "temporary"
@@ -656,7 +656,7 @@
       {
         "id": "q16",
         "type": "mcq_single",
-        "prompt": "Какое предложение описывает временную ситуацию?",
+        "prompt": "В каком предложении Present Continuous описывает временную работу из дома?",
         "theory_block_id": "b2_theory_permanent_vs_temporary",
         "difficulty": 2,
         "choices": [
@@ -677,7 +677,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Временная ситуация с маркером времени требует Present Continuous. She's working from home this month — временная ситуация.",
+        "explanation": "She's working from home this month выделяет работу из дома как временную. This month называет период, но само по себе не требует Continuous.",
         "tags": [
           "temporary",
           "continuous"
@@ -686,11 +686,11 @@
       {
         "id": "q17",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"He usually ___ in London.\" (work)",
+        "prompt": "Вставьте форму Present Simple: \"He usually ___ in London.\" (work)",
         "theory_block_id": "b2_theory_permanent_vs_temporary",
         "difficulty": 2,
         "correct_answer": "works",
-        "explanation": "Постоянная ситуация с маркером 'usually' требует Present Simple. He usually works in London — правильная форма.",
+        "explanation": "He usually works in London сообщает об обычном месте работы. С he в Present Simple используется works.",
         "tags": [
           "permanent",
           "simple"
@@ -699,24 +699,24 @@
       {
         "id": "q18",
         "type": "error_spotting",
-        "prompt": "Выберите правильный вариант:",
+        "prompt": "Выберите правильный вариант в Present Simple для сообщения о месте жительства:",
         "theory_block_id": "b2_theory_permanent_vs_temporary",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "I live in Rome.",
-            "feedback": "Правильно! Для постоянных фактов используется Present Simple"
+            "feedback": "Верно: Present Simple."
           },
           {
             "id": "b",
             "text": "I'm living in Rome.",
-            "feedback": "Нет, это неверно для постоянного факта"
+            "feedback": "Это грамматически верный Present Continuous, но требуется Simple."
           },
           {
             "id": "c",
             "text": "I am live in Rome.",
-            "feedback": "Нет, неправильная форма"
+            "feedback": "Am не ставится перед live в Present Simple."
           }
         ],
         "correct_answer": "a",
@@ -759,11 +759,11 @@
       {
         "id": "q20",
         "type": "true_false",
-        "prompt": "Предложение 'I stay at a hotel this week' правильно для описания временной ситуации.",
+        "prompt": "В предложении I stay at a hotel this week используется Present Continuous.",
         "theory_block_id": "b2_theory_permanent_vs_temporary",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Неверно. Для временной ситуации с маркером 'this week' нужен Present Continuous: I'm staying at a hotel this week. I stay — это для постоянной ситуации.",
+        "explanation": "Нет: stay — Present Simple. I am staying at a hotel this week подчёркивает временное проживание; исходная форма также может иметь смысл, например, в рассказе о расписании.",
         "tags": [
           "temporary",
           "continuous"
@@ -772,7 +772,7 @@
       {
         "id": "q21",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"They ___ in a small apartment.\" (жить, постоянная ситуация)",
+        "prompt": "Вставьте форму Present Simple: \"They ___ in a small apartment.\" (lives)",
         "theory_block_id": "b2_theory_permanent_vs_temporary",
         "difficulty": 2,
         "correct_answer": "live",
@@ -815,11 +815,11 @@
       {
         "id": "q24",
         "type": "true_false",
-        "prompt": "Различие между постоянными и временными ситуациями — это второе правило выбора между Present Simple и Present Continuous.",
+        "prompt": "При выборе между Present Simple и Present Continuous полезно учитывать, представляет ли говорящий ситуацию как постоянную или временную.",
         "theory_block_id": "b2_theory_permanent_vs_temporary",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Верно. Второе правило связано с различием между постоянными (Simple) и временными (Continuous) ситуациями.",
+        "explanation": "Верно: Simple может сообщать о привычной ситуации, Continuous — выделять временную. Также нужно учитывать значение глагола и контекст.",
         "tags": [
           "concept"
         ]
@@ -839,7 +839,7 @@
           {
             "id": "b",
             "text": "I know this person.",
-            "feedback": "Правильно! Статичные глаголы только в Simple."
+            "feedback": "Верно: в этом значении know употребляется в Present Simple."
           },
           {
             "id": "c",
@@ -857,11 +857,11 @@
       {
         "id": "q26",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I ___ this answer.\" (знать)",
+        "prompt": "Вставьте форму Present Simple: \"I ___ this answer.\" (knows)",
         "theory_block_id": "b3_theory_state_vs_action_verbs",
         "difficulty": 2,
         "correct_answer": "know",
-        "explanation": "Статичный глагол know используется только в Present Simple. I know this answer — правильная форма.",
+        "explanation": "Know здесь описывает знание ответа: I know this answer. С I в Present Simple используется базовая форма.",
         "tags": [
           "state_verb",
           "simple"
@@ -870,11 +870,11 @@
       {
         "id": "q27",
         "type": "true_false",
-        "prompt": "Статичные глаголы (know, like, want) обычно используются только в Present Simple.",
+        "prompt": "При выборе между Present Simple и Present Continuous глаголы состояния обычно употребляют в Simple.",
         "theory_block_id": "b3_theory_state_vs_action_verbs",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Верно. Статичные глаголы описывают состояния, которые не являются процессами, поэтому они не используют Continuous.",
+        "explanation": "Да: I know the answer, I like this song. Это обычная модель, а не абсолютный запрет: например, в разговорной речи встречается I am liking this song.",
         "tags": [
           "state_verb",
           "concept"
@@ -883,7 +883,7 @@
       {
         "id": "q28",
         "type": "mcq_single",
-        "prompt": "Что правильно для динамичного глагола run?",
+        "prompt": "Какое предложение сообщает о ежедневной привычке бегать в парке?",
         "theory_block_id": "b3_theory_state_vs_action_verbs",
         "difficulty": 1,
         "choices": [
@@ -895,7 +895,7 @@
           {
             "id": "b",
             "text": "I'm running in the park now.",
-            "feedback": "Правильно! Для действия сейчас используется Continuous."
+            "feedback": "Грамматически верно, но описывает бег сейчас, а не ежедневную привычку."
           },
           {
             "id": "c",
@@ -904,7 +904,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Оба варианта a и b правильные, но здесь речь о привычке (every day), поэтому a более подходящий. Динамичные глаголы могут быть в Simple и Continuous.",
+        "explanation": "I run in the park every day описывает привычку. I am running in the park now тоже верно, но сообщает о действии сейчас.",
         "tags": [
           "action_verb"
         ]
@@ -918,8 +918,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "I'm liking this song.",
-            "feedback": "Правильно! Это ошибка — like статичный глагол."
+            "text": "I'm likes this song.",
+            "feedback": "Да: нельзя соединять am с формой likes."
           },
           {
             "id": "b",
@@ -933,7 +933,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Глагол like — статичный, описывает отношение, не используется в Continuous для общего предпочтения. I like this song — правильный вариант.",
+        "explanation": "Нейтральное сообщение об отношении: I like this song. Am likes — ошибка формы. Разговорное I am liking this song возможно и не равно этой ошибке.",
         "tags": [
           "error_spotting",
           "state_verb"
@@ -942,11 +942,11 @@
       {
         "id": "q32",
         "type": "true_false",
-        "prompt": "Предложение 'She's wanting coffee, but she makes tea right now' правильно — статичный глагол want может быть в Continuous.",
+        "prompt": "Если желание возникает прямо сейчас, want обязательно нужно ставить в Present Continuous.",
         "theory_block_id": "b3_theory_state_vs_action_verbs",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Неверно. Статичный глагол want не используется в Continuous. Правильно: She wants coffee, but she's making tea right now.",
+        "explanation": "Нет: She wants coffee now — нормальная форма. Continuous у want иногда встречается, но слово now не делает его обязательным.",
         "tags": [
           "state_verb",
           "action_verb"
@@ -955,11 +955,11 @@
       {
         "id": "q33",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"She ___ coffee.\" (want)",
+        "prompt": "Вставьте форму Present Simple: \"She ___ coffee.\" (want)",
         "theory_block_id": "b3_theory_state_vs_action_verbs",
         "difficulty": 2,
         "correct_answer": "wants",
-        "explanation": "Статичный глагол want используется только в Present Simple. She wants coffee — правильная форма.",
+        "explanation": "She wants coffee: в Present Simple с she используется wants. Это обычный способ сообщить о желании.",
         "tags": [
           "state_verb",
           "simple"
@@ -968,19 +968,19 @@
       {
         "id": "q34",
         "type": "mcq_single",
-        "prompt": "Что правильно для глагола believe?",
+        "prompt": "Выберите нейтральное сообщение «Я тебе верю» в Present Simple:",
         "theory_block_id": "b3_theory_state_vs_action_verbs",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "I'm believing you.",
-            "feedback": "Нет, believe — статичный глагол."
+            "feedback": "Для нейтрального сообщения «Я тебе верю» обычно используется I believe you."
           },
           {
             "id": "b",
             "text": "I believe you.",
-            "feedback": "Правильно! Статичные глаголы только в Simple."
+            "feedback": "Верно: нейтральное I believe you выражает доверие."
           },
           {
             "id": "c",
@@ -989,7 +989,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Глагол believe — статичный, описывает состояние веры, не используется в Continuous. I believe you — правильный вариант.",
+        "explanation": "I believe you — Present Simple. Believe в значении убеждения или доверия обычно не употребляется в Continuous.",
         "tags": [
           "state_verb",
           "simple"
@@ -998,11 +998,11 @@
       {
         "id": "q36",
         "type": "true_false",
-        "prompt": "Различие между статичными и динамичными глаголами — это третье правило выбора между Present Simple и Present Continuous.",
+        "prompt": "При выборе между Present Simple и Present Continuous нужно учитывать, выражает ли глагол состояние или действие.",
         "theory_block_id": "b3_theory_state_vs_action_verbs",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Верно. Третье правило связано с типом глагола: статичные (обычно только Simple) или динамичные (могут быть в Simple и Continuous).",
+        "explanation": "Да: know в значении знания обычно не используется в Continuous, а run может описывать и привычку, и действие в процессе.",
         "tags": [
           "concept"
         ]
@@ -1010,28 +1010,28 @@
       {
         "id": "q37",
         "type": "mcq_single",
-        "prompt": "Какой маркер времени указывает на Present Simple?",
+        "prompt": "Какое слово обозначает частотность «всегда» и может описывать привычку в Present Simple?",
         "theory_block_id": "b4_theory_time_markers_decision",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "now",
-            "feedback": "Нет, now указывает на Continuous."
+            "feedback": "Это «сейчас», а не частотность."
           },
           {
             "id": "b",
             "text": "always",
-            "feedback": "Правильно! always указывает на регулярность и Simple."
+            "feedback": "Верно: always означает «всегда»."
           },
           {
             "id": "c",
             "text": "at the moment",
-            "feedback": "Нет, at the moment указывает на Continuous."
+            "feedback": "Это «в данный момент»."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Маркер always указывает на регулярность и привычки, что требует Present Simple. I always have breakfast at 8.",
+        "explanation": "I always have breakfast at 8 описывает привычку. Always также сочетается с Continuous, например при эмоциональном описании повторений.",
         "tags": [
           "time_marker",
           "simple"
@@ -1044,7 +1044,7 @@
         "theory_block_id": "b4_theory_time_markers_decision",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Верно. Маркеры времени дают подсказки: always, usually указывают на Simple; now, at the moment — на Continuous.",
+        "explanation": "Да: выражения частотности и текущего времени помогают понять смысл. Они не определяют время сами по себе: например, I know the answer now содержит Present Simple.",
         "tags": [
           "time_marker",
           "concept"
@@ -1053,28 +1053,28 @@
       {
         "id": "q40",
         "type": "mcq_single",
-        "prompt": "Какой маркер времени указывает на Present Continuous?",
+        "prompt": "Какое слово означает «сейчас» и может сопровождать действие в Present Continuous?",
         "theory_block_id": "b4_theory_time_markers_decision",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "always",
-            "feedback": "Нет, always указывает на Simple."
+            "feedback": "Это «всегда». Оно тоже возможно с Continuous в другом контексте."
           },
           {
             "id": "b",
             "text": "now",
-            "feedback": "Правильно! now указывает на действие сейчас и Continuous."
+            "feedback": "Верно: now означает «сейчас»."
           },
           {
             "id": "c",
             "text": "usually",
-            "feedback": "Нет, usually указывает на Simple."
+            "feedback": "Это «обычно»."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Маркер now указывает на действие, происходящее в момент речи, что требует Present Continuous. I'm having breakfast now.",
+        "explanation": "I am having breakfast now описывает завтрак сейчас. Однако now не требует Continuous у всех глаголов: I need help now.",
         "tags": [
           "time_marker",
           "continuous"
@@ -1083,28 +1083,28 @@
       {
         "id": "q43",
         "type": "mcq_single",
-        "prompt": "Какое предложение правильно использует маркер времени?",
+        "prompt": "Выберите Present Simple с always непосредственно перед смысловым глаголом:",
         "theory_block_id": "b4_theory_time_markers_decision",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "I always am going to the gym.",
-            "feedback": "Нет, always требует Simple, не Continuous."
+            "feedback": "Здесь Present Continuous, а условие просит Simple."
           },
           {
             "id": "b",
             "text": "I always go to the gym.",
-            "feedback": "Правильно! always требует Present Simple."
+            "feedback": "Верно: always стоит перед go."
           },
           {
             "id": "c",
             "text": "I go always to the gym.",
-            "feedback": "Нет, always стоит перед глаголом."
+            "feedback": "Always не стоит перед go, как требует условие."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Маркер always указывает на привычку, требующую Present Simple. I always go to the gym — правильный вариант.",
+        "explanation": "I always go to the gym: обычная позиция always в Present Simple — перед смысловым глаголом. Само слово always не запрещает Continuous.",
         "tags": [
           "time_marker",
           "simple"
@@ -1117,7 +1117,7 @@
         "theory_block_id": "b4_theory_time_markers_decision",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Неверно. Маркер 'always' указывает на регулярность и привычки, что требует Present Simple. I always go to the gym — правильный вариант.",
+        "explanation": "Неверно: always не требует одного времени. I always go to the gym — обычная привычка; I am always losing my keys — эмоциональное описание повторений.",
         "tags": [
           "time_marker"
         ]
@@ -1125,28 +1125,28 @@
       {
         "id": "q53",
         "type": "mcq_single",
-        "prompt": "Какая типичная ошибка русскоязычных студентов при выборе времени?",
+        "prompt": "В каком предложении допущена ошибка в образовании Present Continuous?",
         "theory_block_id": "b6_theory_common_mistakes",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "Использование Continuous для постоянных фактов",
-            "feedback": "Правильно! Это одна из частых ошибок."
+            "text": "I working in a bank.",
+            "feedback": "Да: перед working отсутствует am."
           },
           {
             "id": "b",
-            "text": "Использование Simple для действий сейчас",
-            "feedback": "Это тоже ошибка, но менее частая."
+            "text": "I work in a bank.",
+            "feedback": "Это правильный Present Simple."
           },
           {
             "id": "c",
-            "text": "Использование Simple для статичных глаголов",
-            "feedback": "Нет, это правильно."
+            "text": "I'm working in a bank.",
+            "feedback": "Это правильный Present Continuous."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Типичная ошибка — использование Continuous для постоянных фактов. Например: \"I'm working in a bank\" вместо \"I work in a bank\" (для постоянной работы).",
+        "explanation": "I working in a bank требует am: I am working in a bank. Для сообщения о работе как обычном факте подходит I work in a bank.",
         "tags": [
           "common_mistake"
         ]
@@ -1154,7 +1154,7 @@
       {
         "id": "q54",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"Правильно: 'I ___ in a bank.' (для постоянной работы)\" (работать)",
+        "prompt": "Вставьте форму Present Simple: \"I ___ in a bank.\" (works)",
         "theory_block_id": "b6_theory_common_mistakes",
         "difficulty": 2,
         "correct_answer": "work",
@@ -1196,28 +1196,28 @@
       {
         "id": "q57",
         "type": "mcq_single",
-        "prompt": "Какая еще типичная ошибка?",
+        "prompt": "В каком предложении неверно выбрана форма глагола состояния know?",
         "theory_block_id": "b6_theory_common_mistakes",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "Использование Continuous со статичными глаголами (I'm knowing)",
-            "feedback": "Правильно! Это вторая типичная ошибка."
+            "text": "I'm knowing this answer.",
+            "feedback": "Да: в этом значении употребляется I know this answer."
           },
           {
             "id": "b",
-            "text": "Использование Simple для действий сейчас",
-            "feedback": "Это ошибка, но менее частая."
+            "text": "I need help now.",
+            "feedback": "Верно: need может выражать потребность прямо сейчас в Present Simple."
           },
           {
             "id": "c",
-            "text": "Использование Simple для фактов",
-            "feedback": "Нет, это правильно."
+            "text": "She runs every morning.",
+            "feedback": "Верно: Present Simple описывает привычку."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Типичная ошибка — использование Continuous со статичными глаголами. Например: \"I'm knowing\" вместо \"I know\".",
+        "explanation": "Нейтральная форма для знания ответа — I know this answer. Нельзя автоматически выбирать Continuous для любого состояния, актуального сейчас.",
         "tags": [
           "common_mistake"
         ]
@@ -1225,11 +1225,11 @@
       {
         "id": "q58",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"Правильно: 'I always ___ to the gym.' (с always нужен Simple)\" (ходить, идти)",
+        "prompt": "Вставьте форму Present Simple: \"I always ___ to the gym.\" (goes)",
         "theory_block_id": "b6_theory_common_mistakes",
         "difficulty": 2,
         "correct_answer": "go",
-        "explanation": "С маркером always нужен Present Simple, а не Continuous. I always go to the gym — правильный вариант.",
+        "explanation": "С I в Present Simple используется go: I always go to the gym. Always обозначает частотность, но само по себе не запрещает другие времена.",
         "tags": [
           "common_mistake"
         ]
@@ -1237,11 +1237,11 @@
       {
         "id": "q59",
         "type": "true_false",
-        "prompt": "Важно всегда спрашивать: 'Происходит это сейчас или это общий факт?'",
+        "prompt": "При выборе времени полезно спросить: описываю ли я общий факт или действие в процессе?",
         "theory_block_id": "b6_theory_common_mistakes",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Верно. Этот вопрос помогает правильно выбрать время: если происходит сейчас — Continuous, если общий факт — Simple.",
+        "explanation": "Да, это помогает различать Simple и Continuous. Дополнительно нужно учитывать значение глагола: I know the answer now выражает знание сейчас в Simple.",
         "tags": [
           "common_mistake",
           "concept"
@@ -1250,7 +1250,7 @@
       {
         "id": "q60",
         "type": "error_spotting",
-        "prompt": "Выберите правильный вариант:",
+        "prompt": "Выберите правильный Present Simple, чтобы сообщить о месте жительства в Токио:",
         "theory_block_id": "b6_theory_common_mistakes",
         "difficulty": 2,
         "choices": [
@@ -1262,7 +1262,7 @@
           {
             "id": "b",
             "text": "I'm living in Tokyo.",
-            "feedback": "Нет, это неверно для постоянного факта"
+            "feedback": "Это грамматически верный Present Continuous; условие просит Present Simple."
           },
           {
             "id": "c",
@@ -1327,7 +1327,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-03-21T08:14:08Z",
+    "updated_at": "2026-09-04T15:48:10Z",
     "source": "llm"
   }
 }

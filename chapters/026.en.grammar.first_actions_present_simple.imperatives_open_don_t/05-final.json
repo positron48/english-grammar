@@ -361,28 +361,28 @@
       {
         "id": "q1",
         "type": "mcq_single",
-        "prompt": "Что такое повелительное наклонение в английском языке?",
+        "prompt": "Как обычно строится простой утвердительный императив?",
         "theory_block_id": "b1_theory_imperative_basics",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "Базовая форма глагола без подлежащего",
-            "feedback": "Правильно! Императив = базовая форма глагола без подлежащего"
+            "text": "Базовая форма глагола без выраженного подлежащего",
+            "feedback": "Обычно you подразумевается, а глагол стоит в базовой форме."
           },
           {
             "id": "b",
             "text": "Глагол с окончанием -s",
-            "feedback": "Нет, в императиве глагол в базовой форме"
+            "feedback": "В императиве окончание -s не добавляется."
           },
           {
             "id": "c",
-            "text": "Глагол с подлежащим you",
-            "feedback": "Нет, подлежащее в императиве не используется"
+            "text": "Обязательно you перед глаголом",
+            "feedback": "You возможно для акцента, но обычно опускается."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Повелительное наклонение образуется базовой формой глагола без подлежащего. Подлежащее \"you\" подразумевается.",
+        "explanation": "В обычном утвердительном императиве используется базовая форма глагола; you подразумевается. Явное you возможно для акцента или противопоставления.",
         "tags": [
           "basics"
         ]
@@ -406,12 +406,12 @@
           },
           {
             "id": "c",
-            "text": "You open the door.",
-            "feedback": "Нет, подлежащее you не используется"
+            "text": "To open the door.",
+            "feedback": "Здесь нужна базовая форма глагола в утвердительном императиве."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Правильно: \"Open the door.\" Императив = базовая форма глагола без подлежащего.",
+        "explanation": "Правильно: \"Open the door.\" Императив = базовая форма глагола обычно без выраженного подлежащего.",
         "tags": [
           "basics"
         ]
@@ -419,7 +419,7 @@
       {
         "id": "q3",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ the window, please.\" (открывать)",
+        "prompt": "Поставьте глагол в повелительное наклонение: \"___ the window, please.\" (to open)",
         "theory_block_id": "b1_theory_imperative_basics",
         "difficulty": 2,
         "correct_answer": "Open",
@@ -435,7 +435,7 @@
         "theory_block_id": "b1_theory_imperative_basics",
         "difficulty": 3,
         "correct_answer": "Read this book.",
-        "explanation": "Правильный порядок: Глагол + остальная часть. Подлежащее не используется.",
+        "explanation": "Правильный порядок: Глагол + остальная часть. Подлежащее обычно не выражено.",
         "tags": [
           "basics"
         ],
@@ -455,8 +455,8 @@
           },
           {
             "id": "b",
-            "text": "You close the door.",
-            "feedback": "Нет, подлежащее не используется"
+            "text": "To close the door.",
+            "feedback": "Здесь нужна базовая форма глагола в утвердительном императиве."
           },
           {
             "id": "c",
@@ -465,7 +465,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Правильно: \"Close the door.\" Императив = базовая форма глагола без подлежащего.",
+        "explanation": "Правильно: \"Close the door.\" Императив = базовая форма глагола обычно без выраженного подлежащего.",
         "tags": [
           "basics"
         ]
@@ -473,7 +473,7 @@
       {
         "id": "q7",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ down, please.\" (садиться)",
+        "prompt": "Поставьте глагол в повелительное наклонение: \"___ down, please.\" (to sit)",
         "theory_block_id": "b1_theory_imperative_basics",
         "difficulty": 2,
         "correct_answer": "Sit",
@@ -501,8 +501,8 @@
           },
           {
             "id": "c",
-            "text": "You stand up!",
-            "feedback": "Нет, подлежащее не используется"
+            "text": "To stand up!",
+            "feedback": "Здесь нужна базовая форма глагола в утвердительном императиве."
           }
         ],
         "correct_answer": "a",
@@ -525,8 +525,8 @@
           },
           {
             "id": "b",
-            "text": "You read this note.",
-            "feedback": "Нет, в императиве подлежащее не используется"
+            "text": "You reads this note.",
+            "feedback": "Здесь нужна базовая форма глагола в утвердительном императиве."
           },
           {
             "id": "c",
@@ -535,7 +535,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "В императиве подлежащее не используется: Read this note.",
+        "explanation": "Обычно в императиве подлежащее не выражено: Read this note.",
         "tags": [
           "basics"
         ]
@@ -547,7 +547,7 @@
         "theory_block_id": "b1_theory_imperative_basics",
         "difficulty": 3,
         "correct_answer": "Listen carefully.",
-        "explanation": "Правильный порядок: Глагол + наречие. Подлежащее не используется.",
+        "explanation": "Правильный порядок: Глагол + наречие. Подлежащее обычно не выражено.",
         "tags": [
           "basics"
         ],
@@ -556,11 +556,11 @@
       {
         "id": "q11",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ the lights, please.\" (включать)",
+        "prompt": "Поставьте глагол в повелительное наклонение: \"___ on the lights, please.\" (to turn)",
         "theory_block_id": "b1_theory_imperative_basics",
         "difficulty": 2,
         "correct_answer": "Turn",
-        "explanation": "Правильный ответ: \"Turn\". Базовая форма глагола.",
+        "explanation": "Turn on the lights, please — «Включи свет, пожалуйста». В императиве используется turn, а сочетание turn on означает «включать».",
         "tags": [
           "basics"
         ]
@@ -589,7 +589,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Императив образуется базовой формой глагола без to и без подлежащего.",
+        "explanation": "Императив образуется базовой формой глагола без to и обычно без выраженного подлежащего.",
         "tags": [
           "basics"
         ]
@@ -597,7 +597,7 @@
       {
         "id": "q13",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ here, please.\" (приходить)",
+        "prompt": "Поставьте глагол в повелительное наклонение: \"___ here, please.\" (to come)",
         "theory_block_id": "b1_theory_imperative_basics",
         "difficulty": 2,
         "correct_answer": "Come",
@@ -638,7 +638,7 @@
       {
         "id": "q17",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ the window, please.\" (закрывать)",
+        "prompt": "Поставьте глагол в повелительное наклонение: \"___ the window, please.\" (to close)",
         "theory_block_id": "b2_theory_affirmative_imperatives",
         "difficulty": 2,
         "correct_answer": "Close",
@@ -662,7 +662,7 @@
           {
             "id": "b",
             "text": "Добавить подлежащее you",
-            "feedback": "Нет, подлежащее в императиве не используется"
+            "feedback": "You само по себе не делает императив вежливее и может усиливать команду."
           },
           {
             "id": "c",
@@ -694,7 +694,7 @@
       {
         "id": "q21",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"Maria, ___ me, please.\" (помогать)",
+        "prompt": "Поставьте глагол в повелительное наклонение: \"Maria, ___ me, please.\" (to help)",
         "theory_block_id": "b2_theory_affirmative_imperatives",
         "difficulty": 2,
         "correct_answer": "help",
@@ -723,8 +723,8 @@
           },
           {
             "id": "c",
-            "text": "You sit down, please.",
-            "feedback": "Нет, подлежащее не используется"
+            "text": "You sits down, please.",
+            "feedback": "Здесь нужна базовая форма глагола в утвердительном императиве."
           }
         ],
         "correct_answer": "a",
@@ -737,7 +737,7 @@
       {
         "id": "q23",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ the door.\" (закрывать)",
+        "prompt": "Поставьте глагол в повелительное наклонение: \"___ the door.\" (to close)",
         "theory_block_id": "b2_theory_affirmative_imperatives",
         "difficulty": 2,
         "correct_answer": "Close",
@@ -763,7 +763,7 @@
       {
         "id": "q26",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ your homework.\" (делать)",
+        "prompt": "Поставьте глагол в повелительное наклонение: \"___ your homework.\" (to do)",
         "theory_block_id": "b2_theory_affirmative_imperatives",
         "difficulty": 2,
         "correct_answer": "Do",
@@ -805,11 +805,11 @@
       {
         "id": "q28",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"Please ___ your phone.\" (включать)",
+        "prompt": "Поставьте глагол в повелительное наклонение: \"Please ___ on your phone.\" (to turn)",
         "theory_block_id": "b2_theory_affirmative_imperatives",
         "difficulty": 2,
         "correct_answer": "turn",
-        "explanation": "Правильный ответ: \"turn\". Please может быть в начале или конце.",
+        "explanation": "Please turn on your phone — «Пожалуйста, включи телефон». Turn on означает «включать».",
         "tags": [
           "affirmative",
           "polite"
@@ -890,7 +890,7 @@
       {
         "id": "q32",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ open the door.\" (отрицание)",
+        "prompt": "Заполните пропуск сокращённой формой do not для отрицательного императива: \"___ open the door.\" (отрицание)",
         "theory_block_id": "b3_theory_negative_imperatives",
         "difficulty": 2,
         "correct_answer": "Don't",
@@ -973,7 +973,7 @@
       {
         "id": "q36",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ touch that button!\" (отрицание)",
+        "prompt": "Заполните пропуск сокращённой формой do not для отрицательного императива: \"___ touch that button!\" (отрицание)",
         "theory_block_id": "b3_theory_negative_imperatives",
         "difficulty": 2,
         "correct_answer": "Don't",
@@ -985,7 +985,7 @@
       {
         "id": "q38",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ worry about it.\" (отрицание)",
+        "prompt": "Заполните пропуск сокращённой формой do not для отрицательного императива: \"___ worry about it.\" (отрицание)",
         "theory_block_id": "b3_theory_negative_imperatives",
         "difficulty": 2,
         "correct_answer": "Don't",
@@ -1040,7 +1040,7 @@
       {
         "id": "q41",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ forget your keys.\" (отрицание)",
+        "prompt": "Заполните пропуск сокращённой формой do not для отрицательного императива: \"___ forget your keys.\" (отрицание)",
         "theory_block_id": "b3_theory_negative_imperatives",
         "difficulty": 2,
         "correct_answer": "Don't",
@@ -1069,11 +1069,11 @@
           {
             "id": "c",
             "text": "Только для просьб",
-            "feedback": "Нет, отрицательные императивы используются для запретов и предупреждений, а не для просьб"
+            "feedback": "Отрицательный императив может выражать просьбу, но также запрет, предупреждение или совет."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Отрицательные императивы используются для запретов и предупреждений.",
+        "explanation": "Отрицательные императивы используют, например, для запретов и предупреждений. Они могут также выражать просьбы и советы.",
         "tags": [
           "negative"
         ]
@@ -1081,7 +1081,7 @@
       {
         "id": "q43",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ eat in class.\" (отрицание)",
+        "prompt": "Заполните пропуск сокращённой формой do not для отрицательного императива: \"___ eat in class.\" (отрицание)",
         "theory_block_id": "b3_theory_negative_imperatives",
         "difficulty": 2,
         "correct_answer": "Don't",
@@ -1093,28 +1093,28 @@
       {
         "id": "q44",
         "type": "error_spotting",
-        "prompt": "Выберите правильный вариант:",
+        "prompt": "Исправьте ошибку в запрете: Not enter the room.",
         "theory_block_id": "b3_theory_negative_imperatives",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "Don't enter the room.",
-            "feedback": "Правильно! Отрицательный императив: don't + глагол"
+            "feedback": "Отрицательный императив образуется с do not / don’t."
           },
           {
             "id": "b",
-            "text": "You don't enter the room.",
-            "feedback": "Нет, в императиве подлежащее не используется"
+            "text": "Not enter the room.",
+            "feedback": "Перед not нужен do."
           },
           {
             "id": "c",
             "text": "Doesn't enter the room.",
-            "feedback": "Нет, в императиве не используется does"
+            "feedback": "В отрицательном императиве используется do, а не does."
           }
         ],
         "correct_answer": "a",
-        "explanation": "В императиве подлежащее не используется: Don't enter the room.",
+        "explanation": "Правильно: Don't enter the room. Здесь you подразумевается; отрицание образуется с don't.",
         "tags": [
           "negative"
         ]
@@ -1164,7 +1164,7 @@
       {
         "id": "q47",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ go to the cinema.\" (давай)",
+        "prompt": "Заполните пропуск сокращённой формой let us: \"___ go to the cinema.\" (давай)",
         "theory_block_id": "b4_theory_lets_construction",
         "difficulty": 2,
         "correct_answer": "Let's",
@@ -1218,7 +1218,7 @@
       {
         "id": "q51",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ start the meeting.\" (давай)",
+        "prompt": "Заполните пропуск сокращённой формой let us: \"___ start the meeting.\" (давай)",
         "theory_block_id": "b4_theory_lets_construction",
         "difficulty": 2,
         "correct_answer": "Let's",
@@ -1247,7 +1247,7 @@
           {
             "id": "c",
             "text": "Let go to the cinema.",
-            "feedback": "Нет, нужен апостроф"
+            "feedback": "Для значения «давай» нужна форма let's — сокращение let us, с апострофом и s."
           }
         ],
         "correct_answer": "a",
@@ -1259,7 +1259,7 @@
       {
         "id": "q53",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ celebrate!\" (давай)",
+        "prompt": "Заполните пропуск сокращённой формой let us: \"___ celebrate!\" (давай)",
         "theory_block_id": "b4_theory_lets_construction",
         "difficulty": 2,
         "correct_answer": "Let's",
@@ -1285,7 +1285,7 @@
       {
         "id": "q56",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ wait here.\" (давай)",
+        "prompt": "Заполните пропуск сокращённой формой let us: \"___ wait here.\" (давай)",
         "theory_block_id": "b4_theory_lets_construction",
         "difficulty": 2,
         "correct_answer": "Let's",
@@ -1308,8 +1308,8 @@
           },
           {
             "id": "b",
-            "text": "Let's don't + глагол",
-            "feedback": "Нет, это неправильный вариант"
+            "text": "Let's doesn't + глагол",
+            "feedback": "Doesn't здесь не используется; обычно говорят let's not."
           },
           {
             "id": "c",
@@ -1327,7 +1327,7 @@
       {
         "id": "q58",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ have a break.\" (давай)",
+        "prompt": "Заполните пропуск сокращённой формой let us: \"___ have a break.\" (давай)",
         "theory_block_id": "b4_theory_lets_construction",
         "difficulty": 2,
         "correct_answer": "Let's",
@@ -1352,7 +1352,7 @@
       {
         "id": "q62",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск для команды: \"___!\" (останавливаться)",
+        "prompt": "Поставьте глагол в повелительное наклонение: \"___!\" (to stop)",
         "theory_block_id": "b5_theory_imperative_usage",
         "difficulty": 2,
         "correct_answer": "Stop",
@@ -1365,28 +1365,28 @@
       {
         "id": "q63",
         "type": "mcq_single",
-        "prompt": "Как сделать императив более вежливым?",
+        "prompt": "Как можно вежливо попросить собеседника о действии?",
         "theory_block_id": "b5_theory_imperative_usage",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Добавить \"please\" или использовать \"Could you...\"",
-            "feedback": "Правильно!"
+            "text": "Добавить please к императиву или использовать Could you…",
+            "feedback": "Please может смягчить императив; Could you… оформляет просьбу как вопрос."
           },
           {
             "id": "b",
-            "text": "Изменить форму глагола",
-            "feedback": "Нет, это неправильный вариант"
+            "text": "Добавить -s к глаголу императива",
+            "feedback": "Окончание -s не делает императив вежливым и нарушает его форму."
           },
           {
             "id": "c",
-            "text": "Добавить подлежащее",
-            "feedback": "Нет, подлежащее в императиве не используется"
+            "text": "Поставить to перед глаголом императива",
+            "feedback": "У императива используется базовая форма без to."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для вежливости добавляем \"please\" или используем \"Could you...\" вместо императива.",
+        "explanation": "Please может сделать императив вежливее. Could you… — другой способ выразить просьбу, в форме вопроса.",
         "tags": [
           "usage",
           "polite"
@@ -1409,7 +1409,7 @@
       {
         "id": "q66",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск для совета: \"___ careful!\" (быть)",
+        "prompt": "Поставьте глагол в повелительное наклонение: \"___ careful!\" (to be)",
         "theory_block_id": "b5_theory_imperative_usage",
         "difficulty": 2,
         "correct_answer": "Be",
@@ -1422,28 +1422,28 @@
       {
         "id": "q67",
         "type": "mcq_single",
-        "prompt": "Выберите правильный императив для предложения:",
+        "prompt": "Как предложить «Давай пойдём!», явно включая себя в действие?",
         "theory_block_id": "b5_theory_imperative_usage",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "Let's go!",
-            "feedback": "Правильно!"
+            "feedback": "Let’s включает говорящего в предлагаемое действие."
           },
           {
             "id": "b",
             "text": "Go!",
-            "feedback": "Нет, это команда, а не предложение"
+            "feedback": "Здесь действие предлагается собеседнику; участие говорящего не выражено."
           },
           {
             "id": "c",
             "text": "You go!",
-            "feedback": "Нет"
+            "feedback": "You выделяет собеседника, а не совместное действие."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для предложений используется Let's. \"Let's go!\" = \"Давай поедем!\"",
+        "explanation": "Let's go! — «Давай пойдём!». Конструкция включает говорящего.",
         "tags": [
           "usage",
           "suggestion"
@@ -1452,7 +1452,7 @@
       {
         "id": "q68",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск для запрета: \"___ touch that!\" (отрицание)",
+        "prompt": "Заполните пропуск сокращённой формой do not для запрета: \"___ touch that!\" (отрицание)",
         "theory_block_id": "b5_theory_imperative_usage",
         "difficulty": 2,
         "correct_answer": "Don't",
@@ -1479,11 +1479,11 @@
       {
         "id": "q71",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск для предупреждения: \"___ worry.\" (отрицание)",
+        "prompt": "Заполните пропуск сокращённой формой do not для совета: \"___ worry.\" (отрицание)",
         "theory_block_id": "b5_theory_imperative_usage",
         "difficulty": 2,
         "correct_answer": "Don't",
-        "explanation": "Правильный ответ: \"Don't\". Отрицательные императивы используются для предупреждений.",
+        "explanation": "Don't worry — «Не волнуйся». Отрицательный императив здесь выражает совет или поддержку.",
         "tags": [
           "usage",
           "warning"
@@ -1521,7 +1521,7 @@
       {
         "id": "q73",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск для команды: \"___ up!\" (вставать)",
+        "prompt": "Поставьте глагол в повелительное наклонение: \"___ up!\" (to stand)",
         "theory_block_id": "b5_theory_imperative_usage",
         "difficulty": 2,
         "correct_answer": "Stand",
@@ -1616,7 +1616,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:17Z",
+    "updated_at": "2026-09-04T15:02:57Z",
     "source": "llm"
   }
 }

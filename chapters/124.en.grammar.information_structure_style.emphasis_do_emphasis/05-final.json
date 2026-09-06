@@ -324,7 +324,7 @@
       {
         "id": "q3",
         "type": "error_spotting",
-        "prompt": "Выберите правильный вариант предложения.",
+        "prompt": "Выберите правильный вариант именно с do-emphasis в Present Simple.",
         "theory_block_id": "b1_theory_basic_emphasis",
         "difficulty": 3,
         "choices": [
@@ -350,7 +350,7 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "В do-emphasis используется do/does + V1. Форма likes неверна после does. Единственный корректный вариант: He does like..."
+        "explanation": "В do-emphasis используется *do/does + V1*. Вариант c одновременно грамматичен и содержит требуемое эмфатическое *does*. Вариант d грамматичен, но это обычный Past Simple без do-emphasis."
       },
       {
         "id": "q4",
@@ -535,7 +535,7 @@
       {
         "id": "q15",
         "type": "error_spotting",
-        "prompt": "Выберите правильный вариант предложения.",
+        "prompt": "Выберите правильный вариант с do-emphasis в Past Simple для описания посещения собеседования.",
         "theory_block_id": "b2_theory_past_emphasis",
         "difficulty": 3,
         "choices": [
@@ -561,7 +561,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "В эмфатическом Past Simple используется did + V1. Формы went/gone после did неверны."
+        "explanation": "В эмфатическом Past Simple используется *did + V1*: *did go*. Вариант с *does go* относится к настоящему времени, а не к указанному прошлому событию."
       },
       {
         "id": "q16",
@@ -755,7 +755,7 @@
       {
         "id": "q27",
         "type": "error_spotting",
-        "prompt": "Выберите правильный вариант предложения.",
+        "prompt": "Выберите грамматически правильное отрицательное предложение.",
         "theory_block_id": "b3_theory_contrast_correction",
         "difficulty": 3,
         "choices": [
@@ -781,7 +781,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Эмфатическое отрицание строится через do/does + not + V1. Варианты без do или с -s неверны."
+        "explanation": "В a отрицание Present Simple построено как *do not + V1*. В обычной письменной форме это обязательный вспомогательный *do*, а не отдельная do-emphasis; эмфаза появляется, только если *do* получает контрастное ударение."
       },
       {
         "id": "q28",
@@ -1047,11 +1047,11 @@
       {
         "id": "q45",
         "type": "true_false",
-        "prompt": "Форма \"She does be\" может использоваться для эмфазы в современном английском.",
+        "prompt": "Утверждение: в стандартном утвердительном повествовательном предложении форма *She does be ready* используется для do-emphasis.",
         "theory_block_id": "b4_theory_position_limits",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "С be do-emphasis не используется. Эмфазу передают интонацией: She IS ready."
+        "explanation": "В стандартном утвердительном повествовательном предложении с *be* do-emphasis не используется: *She IS ready*. Отдельная конструкция *Do be ready* возможна как эмфатический императив."
       },
       {
         "id": "q46",
@@ -1258,11 +1258,11 @@
           {
             "id": "d",
             "text": "Do are on time tomorrow.",
-            "feedback": "После do используется V1 без be-конструкции."
+            "feedback": "После *do* нужна базовая форма *be*, а не *are*."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Эмфатический императив использует do + V1. Вариант Do be on time грамматически корректен и вежлив."
+        "explanation": "Эмфатический императив использует *do + V1*: *Do be on time*. Формы *does/did* и *do are* здесь неверны."
       },
       {
         "id": "q57",
@@ -1388,7 +1388,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:26Z",
+    "updated_at": "2026-09-05T23:08:33Z",
     "source": "llm"
   }
 }

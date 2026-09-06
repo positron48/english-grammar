@@ -725,7 +725,7 @@
       {
         "id": "q31",
         "type": "mcq_single",
-        "prompt": "Какой backshift правильный для reported question?",
+        "prompt": "Какой backshift подходит для вопроса \"Are you ready?\", заданного одному человеку?",
         "theory_block_id": "b4_theory_backshift",
         "difficulty": 2,
         "choices": [
@@ -747,7 +747,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Are сдвигается в was/were в зависимости от лица.",
+        "explanation": "В вопросе к одному человеку are после смены лица и backshift превращается в was: asked if I was ready.",
         "tags": []
       },
       {
@@ -833,7 +833,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Past Simple -> Past Perfect: had finished.",
+        "explanation": "Had finished может передавать Present Perfect или Past Simple после стандартного backshift; порядок слов остаётся утвердительным.",
         "tags": []
       },
       {
@@ -943,11 +943,11 @@
       {
         "id": "q42",
         "type": "true_false",
-        "prompt": "Использование do/does/did в reported questions — ошибка.",
+        "prompt": "Сохранение вспомогательных do/does/did перед подлежащим в reported questions — ошибка.",
         "theory_block_id": "b5_theory_common_errors",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "В reported questions вспомогательные do/does/did не используются.",
+        "explanation": "В reported questions вопросительные вспомогательные do/does/did убираются; лексический do в сочетаниях вроде what I did сохраняется.",
         "tags": []
       },
       {
@@ -1130,7 +1130,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:49:05Z",
+    "updated_at": "2026-09-05T22:43:20Z",
     "source": "llm"
   }
 }

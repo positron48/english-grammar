@@ -324,7 +324,7 @@
       {
         "id": "q4",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'Can you put apples into the bag? I need a bag.'",
+        "prompt": "Ни один пакет раньше не упоминался. Как исправить артикли в 'Can you put apples into the bag? I need a bag.'?",
         "theory_block_id": "b1_context_articles",
         "difficulty": 3,
         "choices": [
@@ -342,7 +342,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Во второй реплике пакет еще не известен, значит a bag. В первой — тоже речь о любом пакете."
+        "explanation": "При первом упоминании неизвестного пакета нужен a в обеих частях: put apples into a bag; I need a bag."
       },
       {
         "id": "q5",
@@ -380,11 +380,11 @@
       {
         "id": "q7",
         "type": "fill_blank",
-        "prompt": "I put the tomatoes in ___ fridge. (притяжательное/артикль)",
+        "prompt": "I put the tomatoes in ___ fridge we both use. (артикль)",
         "theory_block_id": "b1_context_articles",
         "difficulty": 2,
         "correct_answer": "the",
-        "explanation": "Речь о конкретном холодильнике в доме. Поэтому нужен the."
+        "explanation": "Уточнение we both use делает холодильник известным собеседникам, поэтому нужен the."
       },
       {
         "id": "q8",
@@ -398,7 +398,7 @@
       {
         "id": "q9",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: The cashier asked me to put the bread in ___ basket.",
+        "prompt": "The cashier pointed to a basket and asked me to put the bread in ___ basket.",
         "theory_block_id": "b1_context_articles",
         "difficulty": 2,
         "choices": [
@@ -416,7 +416,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Ситуация предполагает конкретную корзину у кассы, поэтому the basket."
+        "explanation": "Кассир указывает на конкретную корзину, поэтому нужен the."
       },
       {
         "id": "q10",
@@ -454,7 +454,7 @@
       {
         "id": "q12",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: We bought ___ bread and ___ cheese for dinner.",
+        "prompt": "Выберите вариант при первом упоминании продуктов: We bought ___ bread and ___ cheese for dinner.",
         "theory_block_id": "b1_context_articles",
         "difficulty": 2,
         "choices": [
@@ -505,16 +505,16 @@
       {
         "id": "q15",
         "type": "true_false",
-        "prompt": "Верно или неверно: «We use 'some' in negative sentences: 'I don't have some money.'»",
+        "prompt": "Верно ли для нейтрального отрицания со значением «у меня совсем нет денег»: I don't have some money?",
         "theory_block_id": "b2_some_any",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "В отрицаниях используется any: I don't have any money."
+        "explanation": "В нейтральном отрицании со значением отсутствия денег используют any: I don't have any money. Some возможно лишь при особом контрастном значении."
       },
       {
         "id": "q16",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'Do you have some eggs?'",
+        "prompt": "Какой вариант заменяет some на обычный квантификатор нейтрального вопроса 'Do you have some eggs?'?",
         "theory_block_id": "b2_some_any",
         "difficulty": 2,
         "choices": [
@@ -532,7 +532,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "В нейтральном вопросе лучше использовать any: Do you have any eggs?"
+        "explanation": "В нейтральном вопросе о наличии обычно используется any: Do you have any eggs? Вопрос с some возможен, если ожидают положительный ответ."
       },
       {
         "id": "q17",
@@ -663,7 +663,7 @@
           },
           {
             "id": "c",
-            "text": "How many oranges would you like?"
+            "text": "How many orange do you want?"
           }
         ],
         "correct_answer": "a",
@@ -672,7 +672,7 @@
       {
         "id": "q29",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: We bought ___ bread for the trip.",
+        "prompt": "Выберите наиболее естественный разговорный вариант: We bought ___ bread for the trip.",
         "theory_block_id": "b3_much_many_a_lot",
         "difficulty": 2,
         "choices": [
@@ -690,16 +690,16 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "Bread — неисчисляемое. A lot of подходит и звучит естественно в разговоре."
+        "explanation": "Bread неисчисляемое. В утвердительной разговорной фразе естественно a lot of; much возможно главным образом в более формальном или ограничивающем контексте."
       },
       {
         "id": "q30",
         "type": "fill_blank",
-        "prompt": "Do we have ___ chairs for everyone? (исчисляемое)",
+        "prompt": "Are there ___ chairs in the hall? (много; исчисляемое)",
         "theory_block_id": "b3_much_many_a_lot",
         "difficulty": 2,
         "correct_answer": "many",
-        "explanation": "Chairs — исчисляемые, поэтому many."
+        "explanation": "Chairs — исчисляемое множественное, поэтому в вопросе о большом количестве используется many."
       },
       {
         "id": "q31",
@@ -746,7 +746,7 @@
         "theory_block_id": "b3_much_many_a_lot",
         "difficulty": 2,
         "correct_answer": "lots",
-        "explanation": "A lot of подходит к исчисляемым и неисчисляемым и часто используется в разговоре."
+        "explanation": "Lots of подходит к исчисляемым и неисчисляемым существительным и часто используется в разговорной речи: lots of snacks."
       },
       {
         "id": "q36",
@@ -801,7 +801,7 @@
       {
         "id": "q40",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'Can I have two breads?'",
+        "prompt": "Как исправить фразу 'Can I have two breads?', сохранив точное количество «две буханки»?",
         "theory_block_id": "b4_countable_uncountable",
         "difficulty": 2,
         "choices": [
@@ -815,11 +815,11 @@
           },
           {
             "id": "c",
-            "text": "Can I have some bread?"
+            "text": "Can I have two loaf of bread?"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Bread — неисчисляемое, поэтому нужны меры: two loaves of bread."
+        "explanation": "Bread неисчисляемое; для двух буханок нужна форма two loaves of bread."
       },
       {
         "id": "q41",
@@ -885,7 +885,7 @@
       {
         "id": "q46",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'I need three milks.'",
+        "prompt": "Как исправить 'I need three milks', сохранив точное количество «три бутылки»?",
         "theory_block_id": "b4_countable_uncountable",
         "difficulty": 2,
         "choices": [
@@ -899,20 +899,20 @@
           },
           {
             "id": "c",
-            "text": "I need some milk."
+            "text": "I need three bottle of milk."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Milk — неисчисляемое. Для количества нужны меры: bottles of milk."
+        "explanation": "Для значения «три бутылки молока» нужна мера во множественном числе: three bottles of milk."
       },
       {
         "id": "q48",
         "type": "true_false",
-        "prompt": "Верно или неверно: «'A slice of cake' is a way to make an uncountable item countable.»",
+        "prompt": "Верно ли: a slice of cake — это measure phrase для одной порции торта?",
         "theory_block_id": "b4_countable_uncountable",
         "difficulty": 3,
         "correct_answer": "true",
-        "explanation": "Measure phrases делают вещество или целое исчисляемым: a slice of cake/bread."
+        "explanation": "Да. A slice of cake обозначает одну порцию; слово cake может употребляться и как исчисляемое целое, и как вещество/еда."
       },
       {
         "id": "q49",
@@ -968,7 +968,7 @@
           },
           {
             "id": "c",
-            "text": "We bought too much water for the hike."
+            "text": "We bought too many waters for the hike."
           }
         ],
         "correct_answer": "a",
@@ -1043,7 +1043,7 @@
       {
         "id": "q58",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'How many milk do we need?'",
+        "prompt": "Как исправить только квантификатор в 'How many milk do we need?'?",
         "theory_block_id": "b5_plan_quantities",
         "difficulty": 2,
         "choices": [
@@ -1057,7 +1057,7 @@
           },
           {
             "id": "c",
-            "text": "How much milk do we need for the recipe?"
+            "text": "How much milks do we need for the recipe?"
           }
         ],
         "correct_answer": "a",
@@ -1066,7 +1066,7 @@
       {
         "id": "q59",
         "type": "fill_blank",
-        "prompt": "We need ___ chairs for thirty people. (достаточно/слишком)",
+        "prompt": "We need ___ chairs for thirty people. (достаточное количество)",
         "theory_block_id": "b5_plan_quantities",
         "difficulty": 2,
         "correct_answer": "enough",
@@ -1120,12 +1120,12 @@
         "theory_block_id": "b6_build_speak",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Some + plural countable в общем значении звучит естественно для планов покупок."
+        "explanation": "Some fruit естественно обозначает неопределённое количество фруктов как еды в плане покупок."
       },
       {
         "id": "q64",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'Let's buy a milk and some breads.'",
+        "prompt": "Как исправить 'Let's buy a milk and some breads' без указания фасовки?",
         "theory_block_id": "b6_build_speak",
         "difficulty": 3,
         "choices": [
@@ -1139,11 +1139,11 @@
           },
           {
             "id": "c",
-            "text": "Let's buy a bottle of milk and a loaf of bread."
+            "text": "Let's buy a bottles of milk and a loafs of bread."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Milk и bread — неисчисляемые. Нужны some или меры: a bottle of milk, a loaf of bread."
+        "explanation": "Без указания фасовки milk и bread употребляются как неисчисляемые: some milk and some bread."
       },
       {
         "id": "q65",
@@ -1213,7 +1213,7 @@
           },
           {
             "id": "c",
-            "text": "Do we have the information for the plan?"
+            "text": "Do we have an information for the plan?"
           }
         ],
         "correct_answer": "a",
@@ -1334,7 +1334,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:14:48Z",
+    "updated_at": "2026-09-04T21:30:57Z",
     "source": "llm"
   }
 }

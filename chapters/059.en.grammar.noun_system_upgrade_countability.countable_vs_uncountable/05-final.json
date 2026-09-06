@@ -378,13 +378,13 @@
       {
         "id": "q5",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'I need two waters.'",
+        "prompt": "Выберите исправление, которое сохраняет значение «две порции воды»: «I need two waters.»",
         "theory_block_id": "b1_core_difference",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "I need some water."
+            "text": "I need two bottles of water."
           },
           {
             "id": "b",
@@ -396,7 +396,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Water — неисчисляемое, поэтому нельзя two waters. Нужны some water или a bottle of water. Это соответствует правилу, разобранному в этом блоке."
+        "explanation": "Water обычно неисчисляемое. Чтобы сохранить количество, используем счётную единицу: two bottles of water."
       },
       {
         "id": "q6",
@@ -474,7 +474,7 @@
       {
         "id": "q14",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'These furnitures are new.'",
+        "prompt": "Выберите грамматически правильное исправление: «These furnitures are new.»",
         "theory_block_id": "b2_common_uncountables",
         "difficulty": 2,
         "choices": [
@@ -488,11 +488,11 @@
           },
           {
             "id": "c",
-            "text": "The furniture is new."
+            "text": "These furniture is new."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Furniture — неисчисляемое. Нельзя furnitures. Нужен this furniture или the furniture. Это соответствует правилу, разобранному в этом блоке."
+        "explanation": "Furniture — неисчисляемое существительное: у него нет формы furnitures, а с this используется is."
       },
       {
         "id": "q15",
@@ -611,7 +611,7 @@
       {
         "id": "q24",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'There is many traffic today.'",
+        "prompt": "Исправьте предложение, сохранив утвердительный смысл: «There is many traffic today.»",
         "theory_block_id": "b3_quantifiers",
         "difficulty": 2,
         "choices": [
@@ -629,7 +629,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Traffic — uncountable, поэтому much, а не many. Это соответствует правилу, разобранному в этом блоке."
+        "explanation": "Traffic — неисчисляемое существительное, поэтому в утвердительном предложении нужно much, а не many."
       },
       {
         "id": "q25",
@@ -794,7 +794,7 @@
       {
         "id": "q38",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'We need three waters.'",
+        "prompt": "Исправьте предложение, сохранив количество: «We need three waters.»",
         "theory_block_id": "b4_measure_phrases",
         "difficulty": 2,
         "choices": [
@@ -812,7 +812,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Water — uncountable. Нужно three bottles of water. Это соответствует правилу, разобранному в этом блоке."
+        "explanation": "Water обычно неисчисляемое. Количество сохраняет счётная конструкция three bottles of water."
       },
       {
         "id": "q39",
@@ -881,11 +881,11 @@
       {
         "id": "q43",
         "type": "true_false",
-        "prompt": "Chicken может быть countable, если речь о порциях/кусочках.",
+        "prompt": "Chicken может быть исчисляемым, когда речь идёт об отдельных птицах.",
         "theory_block_id": "b5_context_switch",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Chicken как еда — uncountable, но a chicken может быть порцией или животным. Это соответствует правилу, разобранному в этом блоке."
+        "explanation": "Chicken в значении «курица как животное» исчисляемое: a chicken, two chickens. В значении мяса это слово обычно неисчисляемое."
       },
       {
         "id": "q45",
@@ -1099,7 +1099,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:48:54Z",
+    "updated_at": "2026-09-04T21:02:45Z",
     "source": "llm"
   }
 }

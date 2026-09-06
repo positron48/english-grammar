@@ -293,7 +293,7 @@
       {
         "id": "q7",
         "type": "mcq_single",
-        "prompt": "Как корректно пересказать: \"I am busy.\"",
+        "prompt": "Выберите стандартный вариант с backshift для нейтрального пересказа прошлого разговора, если актуальность слов сейчас не подчёркивается: \"I am busy.\"",
         "theory_block_id": "b1_theory_retell_structure",
         "difficulty": 2,
         "choices": [
@@ -315,7 +315,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Сначала reporting verb, затем that-clause с backshift: was busy.",
+        "explanation": "В выбранной прошлой рамке *am* сдвигается в *was*: *He said that he was busy*. Present Simple можно сохранить, если говорящий подчёркивает, что сообщение всё ещё актуально.",
         "tags": []
       },
       {
@@ -363,7 +363,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Логичный пересказ включает связки и правильные паттерны: said that, asked if, told to.",
+        "explanation": "Связный пересказ использует корректные модели *said that*, *asked if* и *told me to*.",
         "tags": []
       },
       {
@@ -753,11 +753,11 @@
       {
         "id": "q32",
         "type": "true_false",
-        "prompt": "Форма *asked to do* корректна для просьбы без объекта.",
+        "prompt": "Утверждение: в активной конструкции для передачи просьбы, адресованной другому человеку, достаточно *asked to do* без названного адресата.",
         "theory_block_id": "b3_theory_commands_requests",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "В reported commands объект обязателен: asked me/us to do.",
+        "explanation": "При передаче просьбы другому человеку нужна модель *asked me/us to do*. Отдельно возможны пассивное *I was asked to do* и *I asked to leave* в значении просьбы разрешить уйти.",
         "tags": []
       },
       {
@@ -1003,7 +1003,7 @@
       {
         "id": "q46",
         "type": "mcq_single",
-        "prompt": "Какой reporting verb подойдет для отрицательной рекомендации?",
+        "prompt": "Какой reporting verb подходит для предупреждения не делать что-либо?",
         "theory_block_id": "b4_theory_reporting_verbs_variety",
         "difficulty": 2,
         "choices": [
@@ -1025,7 +1025,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Warn часто используется для предупреждений и рекомендаций не делать что-то.",
+        "explanation": "*Warn* передаёт предупреждение и употребляется в модели *warn someone not to do something*.",
         "tags": []
       },
       {
@@ -1064,7 +1064,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Promise требует to-infinitive: promised to call.",
+        "explanation": "В варианте a обещание самого говорящего передано моделью *promise + to-infinitive*: *promised to call*. С *promise* также возможна that-clause, но варианты b–d построены неверно.",
         "tags": []
       },
       {
@@ -1347,7 +1347,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:26Z",
+    "updated_at": "2026-09-05T23:08:32Z",
     "source": "llm"
   }
 }

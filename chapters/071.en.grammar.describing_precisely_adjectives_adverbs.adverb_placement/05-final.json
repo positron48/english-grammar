@@ -260,11 +260,11 @@
       {
         "id": "q2",
         "type": "fill_blank",
-        "prompt": "She ___ is late. (всегда)",
+        "prompt": "She is ___ late. (всегда)",
         "theory_block_id": "b1_frequency",
         "difficulty": 1,
         "correct_answer": "always",
-        "explanation": "С be наречие частоты стоит после be: is always late."
+        "explanation": "С `be` нейтральная позиция наречия частоты — после глагола: `is always late`."
       },
       {
         "id": "q3",
@@ -419,7 +419,7 @@
       {
         "id": "q16",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'He carefully read the message.'",
+        "prompt": "Выберите нейтральный базовый порядок с наречием образа действия для фразы `He carefully read the message`.",
         "theory_block_id": "b2_manner",
         "difficulty": 2,
         "choices": [
@@ -437,7 +437,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для практических правил ставим manner adverb в конец после объекта."
+        "explanation": "В базовой модели наречие образа действия ставят после объекта: `He read the message carefully`. Исходная позиция перед глаголом тоже грамматична, но может иначе расставлять акцент."
       },
       {
         "id": "q17",
@@ -471,11 +471,11 @@
       {
         "id": "q20",
         "type": "true_false",
-        "prompt": "Наречия образа действия обычно стоят перед смысловым глаголом.",
+        "prompt": "В нейтральной базовой модели этой главы наречия образа действия обычно ставят перед смысловым глаголом.",
         "theory_block_id": "b2_manner",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "Обычно manner adverbs стоят в конце или после объекта."
+        "explanation": "В базовой нейтральной модели manner adverb обычно стоит после глагола или объекта. Позиция перед глаголом тоже возможна в зависимости от наречия и акцента."
       },
       {
         "id": "q22",
@@ -688,21 +688,21 @@
       {
         "id": "q42",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: They are ___ already here.",
+        "prompt": "Заполните `They ___ here`, используя `already` сразу после `be`.",
         "theory_block_id": "b4_be_modal",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "already"
+            "text": "are already"
           },
           {
             "id": "b",
-            "text": "here already"
+            "text": "already are"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Already часто ставится после be: are already here."
+        "explanation": "Нейтральный порядок с `be`: `They are already here`."
       },
       {
         "id": "q43",
@@ -725,7 +725,7 @@
       {
         "id": "q45",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'She is often very late.'",
+        "prompt": "Исправьте нейтральный порядок в `She often is very late`.",
         "theory_block_id": "b4_be_modal",
         "difficulty": 2,
         "choices": [
@@ -743,7 +743,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "С be наречие частоты ставится после be: is often late."
+        "explanation": "С `be` нейтральная позиция наречия частоты — после глагола: `She is often very late`."
       },
       {
         "id": "q46",
@@ -918,11 +918,11 @@
       {
         "id": "q60",
         "type": "fill_blank",
-        "prompt": "We often meet ___ at the station. (рано)",
+        "prompt": "We often meet at the station ___. (рано)",
         "theory_block_id": "b5_order_multiple",
         "difficulty": 2,
         "correct_answer": "early",
-        "explanation": "Порядок: частота → образ действия → место → время; early — наречие времени."
+        "explanation": "`Early` здесь обозначает время и естественно стоит в конце после места: `at the station early`."
       }
     ]
   },
@@ -979,7 +979,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:23Z",
+    "updated_at": "2026-09-05T08:52:24Z",
     "source": "llm"
   }
 }

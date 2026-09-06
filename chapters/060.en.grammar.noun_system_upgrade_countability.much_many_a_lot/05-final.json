@@ -374,7 +374,7 @@
       {
         "id": "q5",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'She has much friends.'",
+        "prompt": "Выберите грамматически правильное исправление: «She has much friends.»",
         "theory_block_id": "b1_much_many_basics",
         "difficulty": 2,
         "choices": [
@@ -388,7 +388,7 @@
           },
           {
             "id": "c",
-            "text": "She has a lot of friends."
+            "text": "She has a lot friends."
           }
         ],
         "correct_answer": "a",
@@ -479,11 +479,11 @@
       {
         "id": "q12",
         "type": "fill_blank",
-        "prompt": "We have ___ work today. (много, неформально можно a lot of)",
+        "prompt": "We have a ___ of work today. (много, разговорный вариант)",
         "theory_block_id": "b2_a_lot_of_usage",
         "difficulty": 1,
-        "correct_answer": "much",
-        "explanation": "Work — uncountable, в нейтральном стиле можно much. В разговоре часто говорят a lot of. Это соответствует правилу, разобранному в этом блоке."
+        "correct_answer": "lot",
+        "explanation": "Work — неисчисляемое существительное. В утвердительном разговорном предложении естественно использовать a lot of; в пропуск вставляется lot."
       },
       {
         "id": "q13",
@@ -511,7 +511,7 @@
           },
           {
             "id": "c",
-            "text": "We have a lot of books."
+            "text": "There are lot of books."
           }
         ],
         "correct_answer": "a",
@@ -520,11 +520,11 @@
       {
         "id": "q16",
         "type": "fill_blank",
-        "prompt": "There are ___ people here. (много)",
+        "prompt": "How ___ people are here? (много)",
         "theory_block_id": "b2_a_lot_of_usage",
         "difficulty": 1,
         "correct_answer": "many",
-        "explanation": "People — countable, поэтому many. A lot of тоже возможно в разговоре. Это соответствует правилу, разобранному в этом блоке."
+        "explanation": "People — исчисляемое существительное во множественном числе, поэтому в вопросе How many people...?"
       },
       {
         "id": "q17",
@@ -625,7 +625,7 @@
           },
           {
             "id": "c",
-            "text": "Do you have a lot of money?"
+            "text": "Do you have a lot money?"
           }
         ],
         "correct_answer": "a",
@@ -689,7 +689,7 @@
           },
           {
             "id": "c",
-            "text": "She doesn't have a lot of friends."
+            "text": "She doesn't have a lot friends."
           }
         ],
         "correct_answer": "a",
@@ -721,11 +721,11 @@
       {
         "id": "q30",
         "type": "true_false",
-        "prompt": "Much/many звучат более нейтрально в вопросах, чем a lot of.",
+        "prompt": "Much и many типичны для нейтральных вопросов и отрицаний.",
         "theory_block_id": "b3_questions_negatives",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Это стандартная норма: much/many в вопросах и отрицаниях. Это соответствует правилу, разобранному в этом блоке."
+        "explanation": "В вопросах и отрицаниях much/many часто используются как стандартные варианты; a lot of также возможно, особенно в разговорной речи."
       },
       {
         "id": "q31",
@@ -785,7 +785,7 @@
           },
           {
             "id": "c",
-            "text": "We have very little money."
+            "text": "We have a few money."
           }
         ],
         "correct_answer": "a",
@@ -899,11 +899,11 @@
       {
         "id": "q42",
         "type": "fill_blank",
-        "prompt": "We have ___ time, so we can talk. (немного, но достаточно)",
+        "prompt": "We have a ___ time, so we can talk. (немного, но достаточно)",
         "theory_block_id": "b5_a_few_a_little_positive",
         "difficulty": 2,
-        "correct_answer": "some",
-        "explanation": "Some time означает, что времени немного, но оно есть. Это соответствует правилу, разобранному в этом блоке."
+        "correct_answer": "little",
+        "explanation": "A little time означает «немного времени, но достаточно»; в пропуск вставляется little."
       },
       {
         "id": "q43",
@@ -931,7 +931,7 @@
           },
           {
             "id": "c",
-            "text": "I have a few close friends here."
+            "text": "I have a few friend here."
           }
         ],
         "correct_answer": "a",
@@ -963,11 +963,11 @@
       {
         "id": "q46",
         "type": "fill_blank",
-        "prompt": "She has ___ money, so she can pay. (немного, но достаточно)",
+        "prompt": "She has a ___ money, so she can pay. (немного, но достаточно)",
         "theory_block_id": "b5_a_few_a_little_positive",
         "difficulty": 2,
-        "correct_answer": "some",
-        "explanation": "Some money означает, что денег достаточно. Это соответствует правилу, разобранному в этом блоке."
+        "correct_answer": "little",
+        "explanation": "A little money означает, что денег немного, но их достаточно, чтобы заплатить; в пропуск вставляется little."
       },
       {
         "id": "q47",
@@ -1004,11 +1004,11 @@
       {
         "id": "q49",
         "type": "fill_blank",
-        "prompt": "We have ___ minutes, so let's start. (немного, но достаточно)",
+        "prompt": "We have a ___ minutes, so let's start. (немного, но достаточно)",
         "theory_block_id": "b5_a_few_a_little_positive",
         "difficulty": 2,
         "correct_answer": "few",
-        "explanation": "Few minutes здесь означает «немного, но достаточно». Это соответствует правилу, разобранному в этом блоке."
+        "explanation": "Minutes — исчисляемое существительное во множественном числе. A few передаёт значение «немного, но достаточно»; в пропуск вставляется few."
       },
       {
         "id": "q50",
@@ -1063,7 +1063,7 @@
       {
         "id": "q54",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'He has little friends.'",
+        "prompt": "Исправьте предложение, сохранив значение «почти нет друзей»: «He has little friends.»",
         "theory_block_id": "b6_common_errors",
         "difficulty": 2,
         "choices": [
@@ -1150,11 +1150,11 @@
       {
         "id": "q59",
         "type": "fill_blank",
-        "prompt": "We have ___ work today, but it's manageable. (много)",
+        "prompt": "We have a ___ of work today, but it's manageable. (много)",
         "theory_block_id": "b6_common_errors",
         "difficulty": 2,
-        "correct_answer": "much",
-        "explanation": "Work — uncountable, поэтому much. В разговоре можно a lot of. Это соответствует правилу, разобранному в этом блоке."
+        "correct_answer": "lot",
+        "explanation": "Work — неисчисляемое существительное. В утвердительной разговорной фразе естественно a lot of work; в пропуск вставляется lot."
       },
       {
         "id": "q60",
@@ -1230,7 +1230,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:48:54Z",
+    "updated_at": "2026-09-04T21:03:29Z",
     "source": "llm"
   }
 }

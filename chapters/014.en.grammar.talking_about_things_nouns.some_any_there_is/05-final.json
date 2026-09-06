@@ -323,7 +323,7 @@
       {
         "id": "q2",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"There ___ some books on the shelf.\" (be)",
+        "prompt": "Заполните пропуск формой be в настоящем времени с обычным согласованием: \"There ___ some books on the shelf.\" (be)",
         "theory_block_id": "b1_theory_some_affirmative",
         "difficulty": 1,
         "correct_answer": "are",
@@ -360,7 +360,7 @@
           {
             "id": "b",
             "text": "any → some",
-            "feedback": "Правильно! В утверждениях используется some, а не any."
+            "feedback": "Верно. Для сообщения о наличии некоторого количества здесь нужно some."
           },
           {
             "id": "c",
@@ -369,7 +369,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "В утверждениях с there is/are используется some, а не any. Правильно: There is some milk in the fridge.",
+        "explanation": "Здесь сообщают о наличии некоторого количества, поэтому требуется some: There is some milk in the fridge.",
         "tags": [
           "affirmative",
           "error"
@@ -517,7 +517,7 @@
           {
             "id": "b",
             "text": "any → some",
-            "feedback": "Правильно! В утверждениях используется some, а не any."
+            "feedback": "Верно. Для сообщения о наличии некоторого количества здесь нужно some."
           },
           {
             "id": "c",
@@ -526,7 +526,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "В утверждениях с there are используется some, а не any. Правильно: There are some pens on the desk.",
+        "explanation": "Здесь сообщают о наличии некоторого количества, поэтому требуется some: There are some pens on the desk.",
         "tags": [
           "affirmative",
           "error"
@@ -535,7 +535,7 @@
       {
         "id": "q14",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"There ___ some information about the event.\" (be)",
+        "prompt": "Заполните пропуск формой be в настоящем времени с обычным согласованием: \"There ___ some information about the event.\" (be)",
         "theory_block_id": "b1_theory_some_affirmative",
         "difficulty": 1,
         "correct_answer": "is",
@@ -578,7 +578,7 @@
       {
         "id": "q16",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"___ any coffee in the cup?\"",
+        "prompt": "Выберите начало обычного вопроса, в котором be стоит перед there: \"___ any coffee in the cup?\"",
         "theory_block_id": "b2_theory_any_questions",
         "difficulty": 1,
         "choices": [
@@ -595,7 +595,7 @@
           {
             "id": "c",
             "text": "There is",
-            "feedback": "Нет, это вопрос, а не утверждение."
+            "feedback": "Такой порядок возможен в вопросе-переспросе, но здесь требуется обычный вопрос, начинающийся с be."
           }
         ],
         "correct_answer": "a",
@@ -608,7 +608,7 @@
       {
         "id": "q17",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ there any books on the shelf?\" (be)",
+        "prompt": "Заполните пропуск формой be в настоящем времени с обычным согласованием: \"___ there any books on the shelf?\" (be)",
         "theory_block_id": "b2_theory_any_questions",
         "difficulty": 1,
         "correct_answer": "Are",
@@ -621,11 +621,11 @@
       {
         "id": "q18",
         "type": "true_false",
-        "prompt": "Верно или неверно: В вопросах с there is/are мы используем any вместо some.",
+        "prompt": "Верно или неверно: В нейтральном вопросе о наличии чего-либо, когда мы не предполагаем ответ «да», обычно используют any.",
         "theory_block_id": "b2_theory_any_questions",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Верно. В вопросах с there is/are используется any, а не some.",
+        "explanation": "Верно: Is there any water? Some также возможно в вопросах, например когда ожидают положительный ответ: Is there some water left?",
         "tags": [
           "question"
         ]
@@ -633,7 +633,7 @@
       {
         "id": "q19",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"Is there some water in the bottle?\"",
+        "prompt": "Как изменить вопрос «Is there some water in the bottle?», чтобы нейтрально спросить о наличии воды, не предполагая ответ «да»?",
         "theory_block_id": "b2_theory_any_questions",
         "difficulty": 2,
         "choices": [
@@ -645,7 +645,7 @@
           {
             "id": "b",
             "text": "some → any",
-            "feedback": "Правильно! В вопросах используется any, а не some."
+            "feedback": "Верно. Any делает вопрос нейтральным: говорящий не предполагает наличие воды."
           },
           {
             "id": "c",
@@ -654,7 +654,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "В вопросах с there is/are используется any, а не some. Правильно: Is there any water in the bottle?",
+        "explanation": "Is there some water in the bottle? — допустимый вопрос с ожиданием положительного ответа. Для нейтрального вопроса о наличии воды выбираем any: Is there any water in the bottle?",
         "tags": [
           "question",
           "error"
@@ -663,7 +663,7 @@
       {
         "id": "q21",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"___ any milk left?\"",
+        "prompt": "Выберите начало обычного вопроса, в котором be стоит перед there: \"___ any milk left?\"",
         "theory_block_id": "b2_theory_any_questions",
         "difficulty": 1,
         "choices": [
@@ -680,7 +680,7 @@
           {
             "id": "c",
             "text": "There is",
-            "feedback": "Нет, это вопрос, а не утверждение."
+            "feedback": "Такой порядок возможен в вопросе-переспросе, но здесь требуется обычный вопрос, начинающийся с be."
           }
         ],
         "correct_answer": "a",
@@ -693,7 +693,7 @@
       {
         "id": "q22",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ there any pens on the table?\" (be)",
+        "prompt": "Заполните пропуск формой be в настоящем времени с обычным согласованием: \"___ there any pens on the table?\" (be)",
         "theory_block_id": "b2_theory_any_questions",
         "difficulty": 1,
         "correct_answer": "Are",
@@ -706,7 +706,7 @@
       {
         "id": "q23",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"___ any information about the meeting?\"",
+        "prompt": "Выберите начало обычного вопроса, в котором be стоит перед there: \"___ any information about the meeting?\"",
         "theory_block_id": "b2_theory_any_questions",
         "difficulty": 1,
         "choices": [
@@ -723,7 +723,7 @@
           {
             "id": "c",
             "text": "There is",
-            "feedback": "Нет, это вопрос, а не утверждение."
+            "feedback": "Такой порядок возможен в вопросе-переспросе, но здесь требуется обычный вопрос, начинающийся с be."
           }
         ],
         "correct_answer": "a",
@@ -740,7 +740,7 @@
         "theory_block_id": "b2_theory_any_questions",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Верно. Any в вопросах означает \"какое-либо количество\", \"есть ли вообще\".",
+        "explanation": "Неверно. Any в таком вопросе не задаёт конкретное количество: Is there any water? — «Есть ли вода вообще?».",
         "tags": [
           "question"
         ]
@@ -748,11 +748,11 @@
       {
         "id": "q25",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"Is there ___ bread in the kitchen?\" (some или any)",
+        "prompt": "Заполните пропуск в нейтральном вопросе: говорящий не знает, есть ли хлеб, и не предполагает ответ «да». \"Is there ___ bread in the kitchen?\" (some или any)",
         "theory_block_id": "b2_theory_any_questions",
         "difficulty": 1,
         "correct_answer": "any",
-        "explanation": "В вопросах используется any: Is there any bread in the kitchen?",
+        "explanation": "В нейтральном вопросе о наличии хлеба выбираем any. Some возможно, если говорящий ожидает положительный ответ.",
         "tags": [
           "question"
         ]
@@ -760,7 +760,7 @@
       {
         "id": "q26",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"Are there some chairs in the room?\"",
+        "prompt": "Как изменить «Are there some chairs in the room?», чтобы задать нейтральный вопрос о наличии стульев, не предполагая ответ «да»?",
         "theory_block_id": "b2_theory_any_questions",
         "difficulty": 2,
         "choices": [
@@ -772,7 +772,7 @@
           {
             "id": "b",
             "text": "some → any",
-            "feedback": "Правильно! В вопросах используется any, а не some."
+            "feedback": "Верно. Any подходит для нейтрального вопроса без ожидания ответа «да»."
           },
           {
             "id": "c",
@@ -781,7 +781,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "В вопросах с there are используется any, а не some. Правильно: Are there any chairs in the room?",
+        "explanation": "Вопрос с some допустим, если говорящий ожидает положительный ответ. Для нейтрального вопроса выбираем any: Are there any chairs in the room?",
         "tags": [
           "question",
           "error"
@@ -804,7 +804,7 @@
       {
         "id": "q28",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"___ any apples in the basket?\"",
+        "prompt": "Выберите начало обычного вопроса с be перед there: \"___ any apples in the basket?\"",
         "theory_block_id": "b2_theory_any_questions",
         "difficulty": 1,
         "choices": [
@@ -821,7 +821,7 @@
           {
             "id": "c",
             "text": "There are",
-            "feedback": "Нет, это вопрос, а не утверждение."
+            "feedback": "Такой порядок возможен в вопросе-переспросе, но здесь требуется be перед there."
           }
         ],
         "correct_answer": "b",
@@ -834,7 +834,7 @@
       {
         "id": "q29",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ there any money in your wallet?\" (be)",
+        "prompt": "Заполните пропуск формой be в настоящем времени: \"___ there any money in your wallet?\" (be)",
         "theory_block_id": "b2_theory_any_questions",
         "difficulty": 1,
         "correct_answer": "Is",
@@ -876,7 +876,7 @@
       {
         "id": "q31",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"There ___ some water in the glass.\" (be)",
+        "prompt": "Заполните пропуск формой be в настоящем времени: \"There ___ some water in the glass.\" (be)",
         "theory_block_id": "b3_theory_countable_uncountable",
         "difficulty": 1,
         "correct_answer": "is",
@@ -957,11 +957,11 @@
       {
         "id": "q38",
         "type": "true_false",
-        "prompt": "Верно или неверно: Форма глагола be (is/are) зависит от того, исчисляемое существительное или нет.",
+        "prompt": "Верно или неверно: При обычном согласовании в there is/are с books используется are, а с water — is.",
         "theory_block_id": "b3_theory_countable_uncountable",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Верно. С исчисляемыми во множественном числе используется are, с неисчисляемыми — is.",
+        "explanation": "Верно. Books — множественное число, water здесь неисчисляемое. С исчисляемым существительным в единственном числе тоже используется is: There is a book.",
         "tags": []
       },
       {
@@ -997,7 +997,7 @@
       {
         "id": "q41",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"There ___ some information in the report.\" (be)",
+        "prompt": "Заполните пропуск формой be в настоящем времени: \"There ___ some information in the report.\" (be)",
         "theory_block_id": "b3_theory_countable_uncountable",
         "difficulty": 1,
         "correct_answer": "is",
@@ -1068,7 +1068,7 @@
       {
         "id": "q44",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"There ___ any apples left.\" (be, отрицание)",
+        "prompt": "Заполните пропуск сокращённой отрицательной формой be в настоящем времени с обычным согласованием: \"There ___ any apples left.\" (be, отрицание)",
         "theory_block_id": "b4_theory_any_negative",
         "difficulty": 1,
         "correct_answer": "aren't",
@@ -1081,11 +1081,11 @@
       {
         "id": "q45",
         "type": "true_false",
-        "prompt": "Верно или неверно: В отрицаниях с there is/are мы используем any, а не some.",
+        "prompt": "Верно или неверно: Чтобы сказать, что молока совсем нет, можно использовать There isn’t any milk.",
         "theory_block_id": "b4_theory_any_negative",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Верно. В отрицаниях с there is/are всегда используется any, а не some.",
+        "explanation": "Верно. В этом отрицании any передаёт полное отсутствие молока. Это не означает, что some запрещено во всех отрицательных предложениях.",
         "tags": [
           "negative"
         ]
@@ -1093,7 +1093,7 @@
       {
         "id": "q46",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"There isn't some water in the bottle.\"",
+        "prompt": "Нужно сказать, что в бутылке совсем нет воды. Как заменить some в «There isn’t some water in the bottle», чтобы передать это обычным отрицанием?",
         "theory_block_id": "b4_theory_any_negative",
         "difficulty": 2,
         "choices": [
@@ -1105,7 +1105,7 @@
           {
             "id": "b",
             "text": "some → any",
-            "feedback": "Правильно! В отрицаниях используется any, а не some."
+            "feedback": "Верно. Isn’t any water означает, что воды совсем нет."
           },
           {
             "id": "c",
@@ -1114,7 +1114,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "В отрицаниях с there isn't используется any, а не some. Правильно: There isn't any water in the bottle.",
+        "explanation": "Для обычного сообщения о полном отсутствии воды используется isn’t any water: There isn’t any water in the bottle. Это правило относится к указанному смыслу отрицания.",
         "tags": [
           "negative",
           "error"
@@ -1127,7 +1127,7 @@
         "theory_block_id": "b4_theory_any_negative",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Верно. Any в отрицаниях означает \"никакого\", \"нисколько\".",
+        "explanation": "Неверно. В сочетании not any речь идёт об отсутствии: There isn’t any milk — «Молока нет». Some в утверждении, напротив, сообщает о наличии некоторого количества.",
         "tags": [
           "negative"
         ]
@@ -1135,7 +1135,7 @@
       {
         "id": "q51",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"There aren't some pens on the desk.\"",
+        "prompt": "Нужно сказать, что на столе совсем нет ручек. Как заменить some в «There aren’t some pens on the desk», чтобы передать это обычным отрицанием?",
         "theory_block_id": "b4_theory_any_negative",
         "difficulty": 2,
         "choices": [
@@ -1147,7 +1147,7 @@
           {
             "id": "b",
             "text": "some → any",
-            "feedback": "Правильно! В отрицаниях используется any, а не some."
+            "feedback": "Верно. Aren’t any pens означает, что ручек совсем нет."
           },
           {
             "id": "c",
@@ -1156,7 +1156,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "В отрицаниях с there aren't используется any, а не some. Правильно: There aren't any pens on the desk.",
+        "explanation": "Полное отсутствие ручек выражаем с aren’t any: There aren’t any pens on the desk.",
         "tags": [
           "negative",
           "error"
@@ -1202,21 +1202,21 @@
           {
             "id": "a",
             "text": "some",
-            "feedback": "Правильно! В вопросах-предложениях используется some."
+            "feedback": "Верно. Some подходит для некоторого количества напитка."
           },
           {
             "id": "b",
-            "text": "any",
-            "feedback": "Нет, в вопросах-предложениях используется some, так как мы ожидаем положительный ответ."
+            "text": "many",
+            "feedback": "Many употребляется с исчисляемыми существительными во множественном числе."
           },
           {
             "id": "c",
-            "text": "a",
-            "feedback": "Нет, coffee — неисчисляемое, не используется артикль a."
+            "text": "an",
+            "feedback": "An не подходит перед этим словом."
           }
         ],
         "correct_answer": "a",
-        "explanation": "В вопросах-предложениях типа Would you like...? используется some, так как мы ожидаем положительный ответ: Would you like some coffee?",
+        "explanation": "Would you like some coffee? — обычная форма угощения.",
         "tags": [
           "question",
           "offer"
@@ -1225,11 +1225,11 @@
       {
         "id": "q56",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"Can I have ___ water, please?\" (some или any)",
+        "prompt": "Вы просите немного воды, предполагая, что она есть и вам её дадут. Какой вариант обычен в такой просьбе? \"Can I have ___ water, please?\" (some или any)",
         "theory_block_id": "b5_theory_some_questions_offers",
         "difficulty": 2,
         "correct_answer": "some",
-        "explanation": "В вопросах-просьбах используется some: Can I have some water, please?",
+        "explanation": "При ожидании положительного ответа в такой просьбе обычно выбирают some. Any возможно в других контекстах, например при сомнении, дадут ли воду вообще.",
         "tags": [
           "question",
           "request"
@@ -1238,11 +1238,11 @@
       {
         "id": "q57",
         "type": "true_false",
-        "prompt": "Верно или неверно: В вопросах-предложениях (Would you like...?) используется some, а не any.",
+        "prompt": "Верно или неверно: Some можно использовать в вопросе, когда мы угощаем человека: Would you like some tea?",
         "theory_block_id": "b5_theory_some_questions_offers",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Верно. В вопросах-предложениях используется some, так как мы ожидаем положительный ответ.",
+        "explanation": "Верно. Some естественно в таком предложении чая. Это не запрещает any во всех вопросах с Would you like.",
         "tags": [
           "question",
           "offer"
@@ -1251,7 +1251,7 @@
       {
         "id": "q58",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"Would you like any tea?\"",
+        "prompt": "Как изменить «Would you like any tea?», чтобы выразить обычное предложение угощения с ожиданием положительного ответа?",
         "theory_block_id": "b5_theory_some_questions_offers",
         "difficulty": 2,
         "choices": [
@@ -1263,16 +1263,16 @@
           {
             "id": "b",
             "text": "any → some",
-            "feedback": "Правильно! В вопросах-предложениях используется some, а не any."
+            "feedback": "Верно. Some подходит для обычного угощения с ожиданием положительного ответа."
           },
           {
             "id": "c",
             "text": "tea → a tea",
-            "feedback": "Нет, tea — неисчисляемое, артикль не нужен."
+            "feedback": "Замена дала бы any a tea — неверное сочетание. Само a tea возможно в значении одной порции."
           }
         ],
         "correct_answer": "b",
-        "explanation": "В вопросах-предложениях используется some, а не any. Правильно: Would you like some tea?",
+        "explanation": "Заменяем any на some для указанного смысла. Исходный вопрос с any тоже возможен, но может подчёркивать сомнение: нужно ли / можно ли получить хоть какое-то количество.",
         "tags": [
           "question",
           "offer",
@@ -1303,21 +1303,21 @@
           {
             "id": "a",
             "text": "some",
-            "feedback": "Правильно! В вопросах-просьбах используется some."
+            "feedback": "Верно. Some подходит для некоторого количества напитка."
           },
           {
             "id": "b",
-            "text": "any",
-            "feedback": "Нет, в вопросах-просьбах используется some."
+            "text": "many",
+            "feedback": "Many употребляется с исчисляемыми существительными во множественном числе."
           },
           {
             "id": "c",
-            "text": "a",
-            "feedback": "Нет, milk — неисчисляемое, артикль не нужен."
+            "text": "an",
+            "feedback": "An не подходит перед этим словом."
           }
         ],
         "correct_answer": "a",
-        "explanation": "В вопросах-просьбах типа Can I have...? используется some: Can I have some milk, please?",
+        "explanation": "Can I have some milk, please? — обычная просьба дать немного напитка.",
         "tags": [
           "question",
           "request"
@@ -1326,11 +1326,11 @@
       {
         "id": "q61",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"Would you like ___ apples?\" (some или any)",
+        "prompt": "Вы угощаете гостя несколькими яблоками. Какой вариант обычен в предложении угощения с ожиданием согласия? \"Would you like ___ apples?\" (some или any)",
         "theory_block_id": "b5_theory_some_questions_offers",
         "difficulty": 2,
         "correct_answer": "some",
-        "explanation": "В вопросах-предложениях используется some: Would you like some apples?",
+        "explanation": "В таком угощении обычно выбирают some: Would you like some apples? Any возможно при другом акценте вопроса, например «Хотите ли вы яблок вообще?». ",
         "tags": [
           "question",
           "offer"
@@ -1343,7 +1343,7 @@
         "theory_block_id": "b5_theory_some_questions_offers",
         "difficulty": 3,
         "correct_answer": "false",
-        "explanation": "Верно. В обычных вопросах используется any (Is there any...?), а в вопросах-предложениях — some (Would you like some...?), так как мы ожидаем положительный ответ.",
+        "explanation": "Неверно. В нейтральном вопросе о наличии обычно используют any, а при угощении — some. Выбор зависит от смысла: слово «всегда» здесь не подходит.",
         "tags": [
           "question",
           "offer"
@@ -1352,7 +1352,7 @@
       {
         "id": "q63",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"Can I have any sugar, please?\"",
+        "prompt": "Как изменить «Can I have any sugar, please?», чтобы выразить обычное просьбу дать немного сахара с ожиданием положительного ответа?",
         "theory_block_id": "b5_theory_some_questions_offers",
         "difficulty": 2,
         "choices": [
@@ -1364,7 +1364,7 @@
           {
             "id": "b",
             "text": "any → some",
-            "feedback": "Правильно! В вопросах-просьбах используется some, а не any."
+            "feedback": "Верно. Some подходит для обычного просьбы с ожиданием положительного ответа."
           },
           {
             "id": "c",
@@ -1373,7 +1373,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "В вопросах-просьбах используется some, а не any. Правильно: Can I have some sugar, please?",
+        "explanation": "Заменяем any на some для указанного смысла. Исходный вопрос с any тоже возможен, но может подчёркивать сомнение: нужно ли / можно ли получить хоть какое-то количество.",
         "tags": [
           "question",
           "request",
@@ -1383,7 +1383,7 @@
       {
         "id": "q65",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"___ you like some cake?\"",
+        "prompt": "Вы угощаете гостя пирогом. Выберите начало вежливого предложения угощения: \"___ you like some cake?\"",
         "theory_block_id": "b5_theory_some_questions_offers",
         "difficulty": 2,
         "choices": [
@@ -1400,7 +1400,7 @@
           {
             "id": "c",
             "text": "Can",
-            "feedback": "Нет, Can используется для просьбы, а не предложения."
+            "feedback": "Can you like...? спрашивает о возможности любить что-либо; это не обычное угощение."
           }
         ],
         "correct_answer": "a",
@@ -1471,7 +1471,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:15Z",
+    "updated_at": "2026-09-04T12:33:02Z",
     "source": "llm"
   }
 }

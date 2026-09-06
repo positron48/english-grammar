@@ -316,18 +316,18 @@
         "choices": [
           {
             "id": "a",
-            "text": "V1 меняется на особую форму V2",
-            "feedback": "Правильно! Неправильные глаголы имеют особые формы V2"
+            "text": "Используется особая форма V2, иногда совпадающая с V1.",
+            "feedback": "Верно: go → went, но cut → cut."
           },
           {
             "id": "b",
-            "text": "V1 + -ed = V2",
-            "feedback": "Нет, это правило для правильных глаголов"
+            "text": "Всегда добавляется -ed к V1.",
+            "feedback": "Это обычная модель правильных глаголов."
           },
           {
             "id": "c",
-            "text": "V1 + -s = V2",
-            "feedback": "Нет, -s используется для третьего лица единственного числа"
+            "text": "Всегда добавляется -s к V1.",
+            "feedback": "-s относится к третьему лицу единственного числа Present Simple."
           }
         ],
         "correct_answer": "a",
@@ -340,7 +340,7 @@
       {
         "id": "q2",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I ___ to school yesterday.\" (go)",
+        "prompt": "Заполните пропуск в Past Simple: \"I ___ to school yesterday.\" (go)",
         "theory_block_id": "b1_theory_irregular_verbs_intro",
         "difficulty": 1,
         "correct_answer": "went",
@@ -370,7 +370,7 @@
           {
             "id": "c",
             "text": "make",
-            "feedback": "Нет, это настоящее время, нужно прошедшее"
+            "feedback": "Это базовая форма; здесь требуется Past Simple."
           }
         ],
         "correct_answer": "a",
@@ -433,21 +433,21 @@
           {
             "id": "a",
             "text": "saw",
-            "feedback": "Правильно! see → saw"
+            "feedback": "После вспомогательного did нужна базовая форма see, а не saw."
           },
           {
             "id": "b",
             "text": "seed",
-            "feedback": "Нет, see — неправильный глагол, его форма — saw"
+            "feedback": "Это не форма see; после did нужно see."
           },
           {
             "id": "c",
             "text": "see",
-            "feedback": "Нет, это настоящее время, нужно прошедшее"
+            "feedback": "Верно: did уже обозначает прошедшее время, поэтому далее see."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Правильный ответ: saw. Глагол see — неправильный, образует прошедшее время как saw (а не seed).",
+        "correct_answer": "c",
+        "explanation": "Правильно: Did you see the movie yesterday? В вопросе после did используется базовая форма see; saw нужна в утверждении You saw the movie.",
         "tags": [
           "irregular_verbs",
           "formation"
@@ -456,7 +456,7 @@
       {
         "id": "q7",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"She ___ me a letter yesterday.\" (send)",
+        "prompt": "Заполните пропуск в Past Simple: \"She ___ me a letter yesterday.\" (send)",
         "theory_block_id": "b1_theory_irregular_verbs_intro",
         "difficulty": 1,
         "correct_answer": "sent",
@@ -542,7 +542,7 @@
       {
         "id": "q11",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I ___ the answer yesterday.\" (know)",
+        "prompt": "Заполните пропуск в Past Simple: \"I ___ the answer yesterday.\" (know)",
         "theory_block_id": "b1_theory_irregular_verbs_intro",
         "difficulty": 1,
         "correct_answer": "knew",
@@ -572,7 +572,7 @@
           {
             "id": "c",
             "text": "think",
-            "feedback": "Нет, это настоящее время, нужно прошедшее"
+            "feedback": "Это базовая форма; здесь требуется Past Simple."
           }
         ],
         "correct_answer": "a",
@@ -585,11 +585,11 @@
       {
         "id": "q13",
         "type": "true_false",
-        "prompt": "Верно или неверно: В повседневной речи активно используется около 100 неправильных глаголов.",
+        "prompt": "Верно или неверно: форму Past Simple любого неправильного глагола можно получить, добавив -ed к инфинитиву.",
         "theory_block_id": "b1_theory_irregular_verbs_intro",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Неверно. В повседневной речи активно используется около 50–70 неправильных глаголов, а не 100. Хотя в английском языке есть около 200 неправильных глаголов, многие из них редко используются.",
+        "explanation": "Неверно: у неправильных глаголов особые формы, например go → went и make → made. Некоторые сохраняют форму: cut → cut.",
         "tags": [
           "irregular_verbs",
           "true_false"
@@ -628,28 +628,28 @@
       {
         "id": "q15",
         "type": "mcq_single",
-        "prompt": "Что эффективнее для изучения неправильных глаголов?",
+        "prompt": "Какой способ работы с send → sent и build → built помогает увидеть общее изменение?",
         "theory_block_id": "b2_theory_patterns_over_memorization",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "Изучение через паттерны и группировку",
-            "feedback": "Правильно! Изучение через паттерны эффективнее механического заучивания"
+            "text": "Сопоставить последние согласные в обеих парах.",
+            "feedback": "В обеих парах конечная d меняется на t."
           },
           {
             "id": "b",
-            "text": "Механическое заучивание списков",
-            "feedback": "Нет, это менее эффективный способ"
+            "text": "Сравнить только русские переводы глаголов.",
+            "feedback": "Переводы не показывают изменение английских форм."
           },
           {
             "id": "c",
-            "text": "Заучивание без понимания",
-            "feedback": "Нет, понимание паттернов важнее"
+            "text": "Переписать только начальные формы send и build.",
+            "feedback": "Без sent и built сравнение изменения будет неполным."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Изучение через паттерны эффективнее механического заучивания. Когда вы видите закономерность, мозгу проще сохранить информацию, и паттерны остаются в памяти дольше.",
+        "explanation": "Сравнение send → sent и build → built показывает общее изменение конечной d на t. Такая группировка помогает связывать формы между собой.",
         "tags": [
           "patterns",
           "learning_strategy"
@@ -658,11 +658,11 @@
       {
         "id": "q16",
         "type": "true_false",
-        "prompt": "Верно или неверно: Изучение неправильных глаголов через паттерны помогает лучше запомнить и применить знания.",
+        "prompt": "Верно или неверно: группировка глаголов с одинаковым изменением формы может помочь их запомнить.",
         "theory_block_id": "b2_theory_patterns_over_memorization",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Верно. Изучение через паттерны помогает лучше запомнить и применить знания, так как понимая паттерн, вы можете применить его к новым глаголам.",
+        "explanation": "Да. Например, send → sent и build → built объединяет замена d на t. Формы новых глаголов всё равно нужно проверять: сходство не гарантирует одинаковое спряжение.",
         "tags": [
           "patterns",
           "true_false"
@@ -701,7 +701,7 @@
       {
         "id": "q18",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I ___ the bread yesterday.\" (резать, глагол с одинаковыми формами)",
+        "prompt": "Заполните пропуск в Past Simple: \"I ___ the bread yesterday.\" (резать, глагол с одинаковыми формами)",
         "theory_block_id": "b2_theory_patterns_over_memorization",
         "difficulty": 2,
         "correct_answer": "cut",
@@ -714,28 +714,28 @@
       {
         "id": "q19",
         "type": "mcq_single",
-        "prompt": "Как лучше использовать подход изучения через паттерны?",
+        "prompt": "Вы изучаете формы sing → sang → sung. Какой ряд подходит для той же группы по изменению гласной?",
         "theory_block_id": "b2_theory_patterns_over_memorization",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Начать с частых глаголов, искать паттерны, группировать похожие, использовать в контексте",
-            "feedback": "Правильно! Это эффективный подход"
+            "text": "drink → drank → drunk",
+            "feedback": "Верно: в обоих рядах чередуются i — a — u."
           },
           {
             "id": "b",
-            "text": "Заучивать весь список сразу",
-            "feedback": "Нет, лучше начинать с частых глаголов"
+            "text": "send → sent → sent",
+            "feedback": "Здесь изменяется конечная согласная, а две последние формы одинаковы."
           },
           {
             "id": "c",
-            "text": "Заучивать без группировки",
-            "feedback": "Нет, группировка помогает запомнить"
+            "text": "cut → cut → cut",
+            "feedback": "Здесь все три формы одинаковы."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Эффективный подход: начать с самых частых глаголов, искать в них паттерны, группировать похожие глаголы вместе и использовать их в контексте предложений.",
+        "explanation": "Sing → sang → sung и drink → drank → drunk имеют одинаковую последовательность изменения гласной. Их можно повторять вместе.",
         "tags": [
           "patterns",
           "learning_strategy"
@@ -744,11 +744,11 @@
       {
         "id": "q20",
         "type": "true_false",
-        "prompt": "Верно или неверно: Паттерны остаются в памяти дольше, чем механически заученные списки.",
+        "prompt": "Верно или неверно: send → sent и build → built можно объединить при повторении по изменению конечной d на t.",
         "theory_block_id": "b2_theory_patterns_over_memorization",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Верно. Паттерны остаются в памяти дольше, чем механически заученные списки, потому что понимание закономерности помогает мозгу лучше сохранить информацию.",
+        "explanation": "Да: обе пары показывают замену конечной d на t. Это пример группировки по форме, а не по значению.",
         "tags": [
           "patterns",
           "true_false"
@@ -757,28 +757,28 @@
       {
         "id": "q21",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в подходе к изучению: \"Я буду заучивать весь список неправильных глаголов сразу без поиска паттернов.\"",
+        "prompt": "В записи для повторения «send → sent, build → builded» есть ошибка. Как её исправить?",
         "theory_block_id": "b2_theory_patterns_over_memorization",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "Лучше начать с частых глаголов и искать паттерны",
-            "feedback": "Правильно! Изучение через паттерны эффективнее"
+            "text": "builded → built",
+            "feedback": "Верно: build → built, как send → sent, меняет d на t."
           },
           {
             "id": "b",
-            "text": "Подход правильный",
-            "feedback": "Нет, изучение через паттерны эффективнее"
+            "text": "sent → sended",
+            "feedback": "Sent уже правильно; sended не является Past Simple от send."
           },
           {
             "id": "c",
-            "text": "Нужно заучивать по алфавиту",
-            "feedback": "Нет, лучше искать паттерны"
+            "text": "Оставить запись без изменений.",
+            "feedback": "Builded нужно заменить на built."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Лучше начать с самых частых глаголов и искать в них паттерны, а не заучивать весь список сразу. Изучение через паттерны эффективнее механического заучивания.",
+        "explanation": "Правильно: send → sent и build → built. Обе пары можно объединить по замене конечной d на t.",
         "tags": [
           "patterns",
           "error_spotting"
@@ -817,7 +817,7 @@
       {
         "id": "q23",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"She ___ a beautiful song yesterday.\" (sing)",
+        "prompt": "Заполните пропуск в Past Simple: \"She ___ a beautiful song yesterday.\" (sing)",
         "theory_block_id": "b2_theory_patterns_over_memorization",
         "difficulty": 2,
         "correct_answer": "sang",
@@ -830,11 +830,11 @@
       {
         "id": "q24",
         "type": "true_false",
-        "prompt": "Верно или неверно: Понимая паттерн неправильных глаголов, можно применить его к новым глаголам.",
+        "prompt": "Верно или неверно: если новый глагол относится к уже знакомой группе неправильных глаголов, его формы можно повторять вместе с этой группой.",
         "theory_block_id": "b2_theory_patterns_over_memorization",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Верно. Понимая паттерн, вы можете применить его к новым глаголам из той же группы, что упрощает изучение.",
+        "explanation": "Да. Например, ring → rang → rung можно повторять с sing → sang → sung. Принадлежность к группе нужно проверить, а не выводить только из сходства начальных форм.",
         "tags": [
           "patterns",
           "true_false"
@@ -873,7 +873,7 @@
       {
         "id": "q26",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"He ___ me a letter yesterday.\" (send)",
+        "prompt": "Заполните пропуск в Past Simple: \"He ___ me a letter yesterday.\" (send)",
         "theory_block_id": "b2_theory_patterns_over_memorization",
         "difficulty": 2,
         "correct_answer": "sent",
@@ -886,11 +886,11 @@
       {
         "id": "q27",
         "type": "true_false",
-        "prompt": "Верно или неверно: Использование глаголов в контексте предложений помогает лучше запомнить их формы.",
+        "prompt": "Верно или неверно: предложение «She sent me a letter» показывает употребление формы sent в контексте.",
         "theory_block_id": "b2_theory_patterns_over_memorization",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Верно. Использование глаголов в контексте предложений и диалогов помогает лучше запомнить их формы, чем механическое заучивание списков.",
+        "explanation": "Да: sent — форма Past Simple от send, употреблённая с подлежащим she и дополнениями me и a letter.",
         "tags": [
           "patterns",
           "true_false"
@@ -899,28 +899,28 @@
       {
         "id": "q28",
         "type": "mcq_single",
-        "prompt": "Что НЕ рекомендуется при изучении неправильных глаголов через паттерны?",
+        "prompt": "Какая пара НЕ подходит к группе с изменением конечной d на t, как send → sent?",
         "theory_block_id": "b2_theory_patterns_over_memorization",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Начинать с заучивания всего списка",
-            "feedback": "Правильно! Лучше начинать с частых глаголов и искать паттерны"
+            "text": "cut → cut",
+            "feedback": "Верно: у cut форма не меняется."
           },
           {
             "id": "b",
-            "text": "Группировать похожие глаголы",
-            "feedback": "Нет, группировка помогает запомнить паттерны"
+            "text": "build → built",
+            "feedback": "Здесь d меняется на t."
           },
           {
             "id": "c",
-            "text": "Использовать в контексте",
-            "feedback": "Нет, использование в контексте важно для запоминания"
+            "text": "lend → lent",
+            "feedback": "Здесь также d меняется на t."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Не рекомендуется начинать с заучивания всего списка. Лучше начать с самых частых глаголов, искать в них паттерны, группировать похожие и использовать в контексте.",
+        "explanation": "Cut → cut относится к неизменяющимся формам. Send → sent, build → built и lend → lent объединяет замена d на t.",
         "tags": [
           "patterns",
           "learning_strategy"
@@ -947,7 +947,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Группа 1 с одинаковыми формами включает: let-let-let, set-set-set, cost-cost-cost. V1 = V2 = V3 для этих глаголов.",
+        "explanation": "Let → let → let и set → set → set сохраняют форму. Cost в значении «стоить» также имеет формы cost → cost → cost; в значении «рассчитывать стоимость» используется costed.",
         "tags": [
           "groups",
           "patterns"
@@ -956,7 +956,7 @@
       {
         "id": "q30",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I ___ the book on the table yesterday.\" (класть, глагол с одинаковыми формами)",
+        "prompt": "Заполните пропуск в Past Simple: \"I ___ the book on the table yesterday.\" (класть, глагол с одинаковыми формами)",
         "theory_block_id": "b3_theory_common_groups",
         "difficulty": 2,
         "correct_answer": "put",
@@ -999,7 +999,7 @@
       {
         "id": "q32",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"She ___ a lot of water yesterday.\" (drink)",
+        "prompt": "Заполните пропуск в Past Simple: \"She ___ a lot of water yesterday.\" (drink)",
         "theory_block_id": "b3_theory_common_groups",
         "difficulty": 2,
         "correct_answer": "drank",
@@ -1042,7 +1042,7 @@
       {
         "id": "q34",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"They ___ a new house last year.\" (build)",
+        "prompt": "Заполните пропуск в Past Simple: \"They ___ a new house last year.\" (build)",
         "theory_block_id": "b3_theory_common_groups",
         "difficulty": 2,
         "correct_answer": "built",
@@ -1055,7 +1055,7 @@
       {
         "id": "q36",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I ___ a new book yesterday.\" (buy)",
+        "prompt": "Заполните пропуск в Past Simple: \"I ___ a new book yesterday.\" (buy)",
         "theory_block_id": "b3_theory_common_groups",
         "difficulty": 2,
         "correct_answer": "bought",
@@ -1068,7 +1068,7 @@
       {
         "id": "q38",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"They ___ home late yesterday.\" (come)",
+        "prompt": "Заполните пропуск в Past Simple: \"They ___ home late yesterday.\" (come)",
         "theory_block_id": "b3_theory_common_groups",
         "difficulty": 2,
         "correct_answer": "came",
@@ -1081,11 +1081,11 @@
       {
         "id": "q39",
         "type": "true_false",
-        "prompt": "Верно или неверно: Группы 1-3 неправильных глаголов содержат больше всего глаголов и имеют четкие паттерны.",
+        "prompt": "Верно или неверно: у cut все три формы одинаковы, а у sing гласная меняется: sing → sang → sung.",
         "theory_block_id": "b3_theory_common_groups",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Верно. Группы 1-3 (одинаковые формы, i-a-u, -d→-t) содержат больше всего глаголов и имеют четкие паттерны. Рекомендуется начать изучение с этих групп.",
+        "explanation": "Да. Это две разные модели: неизменяющиеся формы cut и чередование i — a — u у sing.",
         "tags": [
           "groups",
           "true_false"
@@ -1124,11 +1124,11 @@
       {
         "id": "q42",
         "type": "true_false",
-        "prompt": "Верно или неверно: Знание групп неправильных глаголов упрощает их запоминание.",
+        "prompt": "Верно или неверно: для повторения можно объединить buy → bought и think → thought по сходству форм на -ought.",
         "theory_block_id": "b3_theory_common_groups",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Верно. Знание групп неправильных глаголов и их паттернов упрощает запоминание, так как позволяет группировать похожие глаголы вместе.",
+        "explanation": "Да. Bought и thought имеют одинаковую конечную часть -ought; такие формы удобно сопоставлять. Это не универсальное правило для новых глаголов.",
         "tags": [
           "groups",
           "true_false"
@@ -1137,28 +1137,28 @@
       {
         "id": "q43",
         "type": "mcq_single",
-        "prompt": "Какой из этих глаголов является самым частым неправильным глаголом в английском языке?",
+        "prompt": "У какого глагола две формы Past Simple — для разных лиц и чисел?",
         "theory_block_id": "b4_theory_most_common_irregulars",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "be (was/were, been)",
-            "feedback": "Правильно! be — самый частый неправильный глагол"
+            "feedback": "Верно: в Past Simple используются was и were."
           },
           {
             "id": "b",
             "text": "have (had, had)",
-            "feedback": "Нет, have частый, но be используется еще чаще"
+            "feedback": "Had используется со всеми лицами."
           },
           {
             "id": "c",
             "text": "go (went, gone)",
-            "feedback": "Нет, go частый, но be самый частый"
+            "feedback": "Went используется со всеми лицами."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Глагол be (was/were, been) — самый частый неправильный глагол в английском языке. Он используется постоянно в повседневной речи.",
+        "explanation": "Be имеет две формы Past Simple: was и were. У have и go формы had и went не меняются по лицам и числам.",
         "tags": [
           "common_verbs"
         ]
@@ -1195,11 +1195,11 @@
       {
         "id": "q46",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"What ___ you do yesterday?\" (do)",
+        "prompt": "Заполните пропуск в Past Simple: \"What ___ you do yesterday?\" (do)",
         "theory_block_id": "b4_theory_most_common_irregulars",
         "difficulty": 1,
         "correct_answer": "did",
-        "explanation": "Правильный ответ: did. Глагол do — неправильный, образует прошедшее время как did (а не doed).",
+        "explanation": "В вопросе What did you do yesterday? did — вспомогательный глагол в Past Simple, а смысловой do после него стоит в базовой форме.",
         "tags": [
           "common_verbs",
           "fill_blank"
@@ -1208,7 +1208,7 @@
       {
         "id": "q47",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"He ___ hello to me yesterday.\" (say)",
+        "prompt": "Заполните пропуск в Past Simple: \"He ___ hello to me yesterday.\" (say)",
         "theory_block_id": "b4_theory_most_common_irregulars",
         "difficulty": 1,
         "correct_answer": "said",
@@ -1221,7 +1221,7 @@
       {
         "id": "q48",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I ___ a letter yesterday.\" (get)",
+        "prompt": "Заполните пропуск в Past Simple: \"I ___ a letter yesterday.\" (get)",
         "theory_block_id": "b4_theory_most_common_irregulars",
         "difficulty": 1,
         "correct_answer": "got",
@@ -1234,7 +1234,7 @@
       {
         "id": "q49",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"They ___ late yesterday.\" (come)",
+        "prompt": "Заполните пропуск в Past Simple: \"They ___ late yesterday.\" (come)",
         "theory_block_id": "b4_theory_most_common_irregulars",
         "difficulty": 1,
         "correct_answer": "came",
@@ -1247,7 +1247,7 @@
       {
         "id": "q51",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I ___ him before.\" (know)",
+        "prompt": "Заполните пропуск в Past Simple: \"I ___ him before.\" (know)",
         "theory_block_id": "b4_theory_most_common_irregulars",
         "difficulty": 1,
         "correct_answer": "knew",
@@ -1260,7 +1260,7 @@
       {
         "id": "q52",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"She ___ about it yesterday.\" (think)",
+        "prompt": "Заполните пропуск в Past Simple: \"She ___ about it yesterday.\" (think)",
         "theory_block_id": "b4_theory_most_common_irregulars",
         "difficulty": 1,
         "correct_answer": "thought",
@@ -1273,11 +1273,11 @@
       {
         "id": "q53",
         "type": "true_false",
-        "prompt": "Верно или неверно: Знание только топ-5 самых частых неправильных глаголов достаточно для повседневной речи.",
+        "prompt": "Верно или неверно: в Past Simple глаголы have, go и say образуют формы haved, goed и sayed.",
         "theory_block_id": "b4_theory_most_common_irregulars",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "Неверно. Хотя топ-5 глаголов очень важны, знание топ-10 самых частых неправильных глаголов (be, have, go, do, say, get, come, see, know, think) покрывает большую часть повседневной речи. Топ-5 недостаточно.",
+        "explanation": "Неверно: правильные формы — had, went и said. Эти глаголы не следуют обычной модели с -ed.",
         "tags": [
           "common_verbs",
           "true_false"
@@ -1286,28 +1286,28 @@
       {
         "id": "q54",
         "type": "mcq_single",
-        "prompt": "Как лучше изучать самые частые неправильные глаголы?",
+        "prompt": "Какой пример показывает форму had в законченном предложении?",
         "theory_block_id": "b4_theory_most_common_irregulars",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Изучать в контексте предложений, а не просто заучивать формы",
-            "feedback": "Правильно! Контекст помогает лучше запомнить"
+            "text": "She had a meeting yesterday.",
+            "feedback": "Верно: had употреблено в предложении о прошлом."
           },
           {
             "id": "b",
-            "text": "Просто заучивать формы без контекста",
-            "feedback": "Нет, изучение в контексте эффективнее"
+            "text": "have — had — had",
+            "feedback": "Это ряд форм, а не предложение."
           },
           {
             "id": "c",
-            "text": "Изучать редко используемые глаголы",
-            "feedback": "Нет, лучше начать с частых"
+            "text": "have, go, say",
+            "feedback": "Это список начальных форм, без had."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Лучше изучать самые частые неправильные глаголы в контексте предложений, а не просто заучивать формы. Контекст помогает лучше запомнить и применить глаголы.",
+        "explanation": "She had a meeting yesterday — пример употребления Past Simple от have в контексте.",
         "tags": [
           "common_verbs",
           "learning_strategy"
@@ -1346,11 +1346,11 @@
       {
         "id": "q58",
         "type": "true_false",
-        "prompt": "Верно или неверно: Использование глаголов в контексте предложений помогает лучше запомнить их формы, чем механическое заучивание.",
+        "prompt": "Верно или неверно: «Yesterday I bought a book» — пример повторения формы bought в контексте предложения.",
         "theory_block_id": "b5_theory_memory_strategies",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Верно. Использование глаголов в контексте предложений помогает лучше запомнить их формы, чем механическое заучивание списков.",
+        "explanation": "Да. Bought — форма Past Simple от buy, употреблённая в предложении с указанием прошлого времени yesterday.",
         "tags": [
           "memory_strategies",
           "true_false"
@@ -1359,28 +1359,28 @@
       {
         "id": "q59",
         "type": "mcq_single",
-        "prompt": "Что важно для эффективного запоминания неправильных глаголов?",
+        "prompt": "Какой вариант описывает повторение изученных форм через интервалы?",
         "theory_block_id": "b5_theory_memory_strategies",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Регулярное повторение через определенные интервалы",
-            "feedback": "Правильно! Повторение важно для долгосрочной памяти"
+            "text": "Вернуться к формам завтра, затем через несколько дней.",
+            "feedback": "Это повторение в разные моменты времени."
           },
           {
             "id": "b",
-            "text": "Изучение один раз без повторения",
-            "feedback": "Нет, повторение важно"
+            "text": "Прочитать формы один раз и больше не возвращаться.",
+            "feedback": "Здесь нет повторения."
           },
           {
             "id": "c",
-            "text": "Заучивание всего списка сразу",
-            "feedback": "Нет, лучше начинать с частых глаголов"
+            "text": "Каждый раз брать только новые формы.",
+            "feedback": "Старые формы при таком способе не повторяются."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Регулярное повторение через определенные интервалы (например, через день, через неделю) важно для долгосрочного запоминания неправильных глаголов.",
+        "explanation": "Повторение через интервалы означает возвращение к уже изученным формам в разные дни.",
         "tags": [
           "memory_strategies"
         ]
@@ -1388,11 +1388,11 @@
       {
         "id": "q60",
         "type": "true_false",
-        "prompt": "Верно или неверно: Группировка похожих неправильных глаголов по паттернам помогает лучше их запомнить.",
+        "prompt": "Верно или неверно: при повторении можно объединить sing, drink и ring по чередованию i — a — u.",
         "theory_block_id": "b5_theory_memory_strategies",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Верно. Группировка похожих неправильных глаголов по паттернам (например, cut-put-hit или sing-drink-ring) помогает лучше их запомнить, так как паттерны остаются в памяти дольше.",
+        "explanation": "Да: sing → sang → sung, drink → drank → drunk, ring → rang → rung. Во всех трёх рядах одинаковая последовательность гласных.",
         "tags": [
           "memory_strategies",
           "true_false"
@@ -1401,11 +1401,11 @@
       {
         "id": "q62",
         "type": "true_false",
-        "prompt": "Верно или неверно: Практика через упражнения и использование в речи — лучший способ закрепления неправильных глаголов.",
+        "prompt": "Верно или неверно: задание «Расскажите по-английски о вчерашнем дне» позволяет потренировать формы Past Simple.",
         "theory_block_id": "b5_theory_memory_strategies",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Верно. Практика через упражнения, где нужно использовать V2 неправильных глаголов в контексте, и применение изученных глаголов в собственных предложениях и диалогах — лучший способ закрепления.",
+        "explanation": "Да. В таком рассказе можно употребить, например, I went to the park, I met a friend, I came home.",
         "tags": [
           "memory_strategies",
           "true_false"
@@ -1414,28 +1414,28 @@
       {
         "id": "q63",
         "type": "mcq_single",
-        "prompt": "Какая практика помогает лучше запомнить неправильные глаголы?",
+        "prompt": "Какое задание требует самостоятельно употребить Past Simple в предложении?",
         "theory_block_id": "b5_theory_memory_strategies",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Решать упражнения, использовать в речи и письме",
-            "feedback": "Правильно! Активное использование помогает запомнить"
+            "text": "Рассказать по-английски, что вы делали вчера.",
+            "feedback": "Для рассказа о вчерашних действиях понадобятся формы Past Simple."
           },
           {
             "id": "b",
-            "text": "Только читать о глаголах",
-            "feedback": "Нет, активное использование важнее"
+            "text": "Прочитать список начальных форм глаголов.",
+            "feedback": "Чтение списка не требует составить предложение."
           },
           {
             "id": "c",
-            "text": "Только заучивать формы",
-            "feedback": "Нет, практика важна"
+            "text": "Переписать русские переводы глаголов.",
+            "feedback": "Такое задание не требует английских форм Past Simple."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Практика через решение упражнений, где нужно использовать V2 неправильных глаголов в контексте, и применение изученных глаголов в собственных предложениях и диалогах помогает лучше запомнить.",
+        "explanation": "Рассказ о вчерашнем дне позволяет употребить изученные формы в своих предложениях: I went…, I saw…, I made…",
         "tags": [
           "memory_strategies"
         ]
@@ -1443,11 +1443,11 @@
       {
         "id": "q65",
         "type": "true_false",
-        "prompt": "Верно или неверно: Применение изученных неправильных глаголов в собственных предложениях и диалогах — эффективный способ закрепления.",
+        "prompt": "Верно или неверно: в предложении «Last week I made a cake» форма made употреблена правильно.",
         "theory_block_id": "b5_theory_memory_strategies",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Верно. Применение изученных неправильных глаголов в собственных предложениях и диалогах — эффективный способ закрепления, так как практика — лучший способ запоминания.",
+        "explanation": "Да: made — форма Past Simple от make. Last week указывает на прошлый период.",
         "tags": [
           "memory_strategies",
           "true_false"
@@ -1485,28 +1485,28 @@
       {
         "id": "q67",
         "type": "mcq_single",
-        "prompt": "Что НЕ рекомендуется при изучении неправильных глаголов?",
+        "prompt": "Какая запись для повторения содержит ошибочную форму Past Simple?",
         "theory_block_id": "b5_theory_memory_strategies",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Заучивать без контекста и без повторения",
-            "feedback": "Правильно! Контекст и повторение важны"
+            "text": "go → goed",
+            "feedback": "Правильно найдено: нужно go → went."
           },
           {
             "id": "b",
-            "text": "Использовать в предложениях",
-            "feedback": "Нет, использование в предложениях помогает запомнить"
+            "text": "make → made",
+            "feedback": "Make образует Past Simple made."
           },
           {
             "id": "c",
-            "text": "Группировать по паттернам",
-            "feedback": "Нет, группировка по паттернам эффективна"
+            "text": "see → saw",
+            "feedback": "See образует Past Simple saw."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Не рекомендуется заучивать неправильные глаголы без контекста и без повторения. Лучше изучать их в контексте предложений, группировать по паттернам, регулярно повторять и практиковать.",
+        "explanation": "В карточке для повторения должно быть go → went. Формы made и saw верны.",
         "tags": [
           "memory_strategies"
         ]
@@ -1514,28 +1514,28 @@
       {
         "id": "q69",
         "type": "mcq_single",
-        "prompt": "Какой пример показывает эффективное использование неправильных глаголов в контексте?",
+        "prompt": "В каком примере все три действия выражены в Past Simple?",
         "theory_block_id": "b5_theory_memory_strategies",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "\"Yesterday I went to the store, bought some food, and came home.\"",
-            "feedback": "Правильно! Это пример использования нескольких глаголов в контексте"
+            "text": "I went to the park, met a friend and came home.",
+            "feedback": "Went, met и came — формы Past Simple."
           },
           {
             "id": "b",
-            "text": "Просто список: go, buy, come",
-            "feedback": "Нет, список без контекста менее эффективен"
+            "text": "I go to the park, meet a friend and come home.",
+            "feedback": "Здесь формы Present Simple."
           },
           {
             "id": "c",
-            "text": "Заучивание форм без примера",
-            "feedback": "Нет, примеры в контексте помогают лучше запомнить"
+            "text": "I will go to the park, meet a friend and come home.",
+            "feedback": "Здесь действия относятся к будущему."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Пример \"Yesterday I went to the store, bought some food, and came home\" показывает эффективное использование нескольких неправильных глаголов в контексте одного предложения.",
+        "explanation": "Went, met и came — формы Past Simple от go, meet и come. Они описывают три действия в прошлом.",
         "tags": [
           "memory_strategies"
         ]
@@ -1608,7 +1608,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-02-08T15:22:12Z",
+    "updated_at": "2026-09-04T17:11:27Z",
     "source": "llm"
   }
 }

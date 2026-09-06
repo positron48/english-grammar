@@ -381,7 +381,7 @@
       {
         "id": "q1",
         "type": "mcq_single",
-        "prompt": "Выберите правильное отрицание: \"I ___ a student.\"",
+        "prompt": "Выберите правильное отрицание предложения «I am a student».",
         "theory_block_id": "b1_theory_negatives_with_not",
         "difficulty": 1,
         "choices": [
@@ -441,7 +441,7 @@
       {
         "id": "q3",
         "type": "mcq_single",
-        "prompt": "Выберите правильное отрицание: \"They ___ happy.\"",
+        "prompt": "Выберите правильное отрицание предложения «They are happy».",
         "theory_block_id": "b1_theory_negatives_with_not",
         "difficulty": 1,
         "choices": [
@@ -558,7 +558,7 @@
       {
         "id": "q8",
         "type": "mcq_single",
-        "prompt": "Выберите правильное отрицание: \"It ___ easy.\"",
+        "prompt": "Выберите правильное отрицание предложения «It is easy».",
         "theory_block_id": "b1_theory_negatives_with_not",
         "difficulty": 1,
         "choices": [
@@ -683,17 +683,17 @@
           {
             "id": "a",
             "text": "isn't",
-            "feedback": "Правильно! isn't = is not"
+            "feedback": "Верно: isn't = is not; форма is согласуется с he."
           },
           {
             "id": "b",
             "text": "aren't",
-            "feedback": "Нет, aren't используется для you/we/they"
+            "feedback": "С he в настоящем времени нужна форма is, а не are."
           },
           {
             "id": "c",
             "text": "is'nt",
-            "feedback": "Нет, апостроф ставится между n и t"
+            "feedback": "Апостроф заменяет o в not и стоит между n и t."
           }
         ],
         "correct_answer": "a",
@@ -707,7 +707,7 @@
       {
         "id": "q14",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"She ___ a teacher.\" (be, отрицание)",
+        "prompt": "Заполните пропуск сокращённым отрицанием be в настоящем времени: \"She ___ a teacher.\" (be, отрицание)",
         "theory_block_id": "b2_theory_contractions_isnt_arent",
         "difficulty": 1,
         "correct_answer": "isn't",
@@ -728,17 +728,17 @@
           {
             "id": "a",
             "text": "aren't",
-            "feedback": "Правильно! aren't = are not"
+            "feedback": "Верно: aren't = are not; форма are согласуется с they."
           },
           {
             "id": "b",
             "text": "isn't",
-            "feedback": "Нет, isn't используется для he/she/it"
+            "feedback": "С they в настоящем времени нужна форма are, а не is."
           },
           {
             "id": "c",
             "text": "are'nt",
-            "feedback": "Нет, апостроф ставится между n и t"
+            "feedback": "Апостроф заменяет o в not и стоит между n и t."
           }
         ],
         "correct_answer": "a",
@@ -811,7 +811,7 @@
       {
         "id": "q19",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"We ___ happy.\" (be, отрицание)",
+        "prompt": "Заполните пропуск сокращённым отрицанием be в настоящем времени: \"We ___ happy.\" (be, отрицание)",
         "theory_block_id": "b2_theory_contractions_isnt_arent",
         "difficulty": 1,
         "correct_answer": "aren't",
@@ -832,17 +832,17 @@
           {
             "id": "a",
             "text": "isn't",
-            "feedback": "Правильно! isn't = is not"
+            "feedback": "Верно: isn't = is not; форма is согласуется с it."
           },
           {
             "id": "b",
             "text": "aren't",
-            "feedback": "Нет, aren't используется для you/we/they"
+            "feedback": "С it в настоящем времени нужна форма is, а не are."
           },
           {
             "id": "c",
             "text": "is not",
-            "feedback": "Это полная форма, а не сокращение"
+            "feedback": "Это полная форма; условие требует сокращение."
           }
         ],
         "correct_answer": "a",
@@ -890,8 +890,8 @@
         "prompt": "Верно или неверно: Сокращение \"isn't\" можно использовать только в неформальной речи.",
         "theory_block_id": "b2_theory_contractions_isnt_arent",
         "difficulty": 2,
-        "correct_answer": "true",
-        "explanation": "Верно. Сокращенные формы (isn't, aren't) используются в разговорной речи. В формальных текстах предпочтительнее полные формы.",
+        "correct_answer": "false",
+        "explanation": "Это слишком жёсткое ограничение. Сокращения обычны в разговоре и менее формальных текстах; в строгом официальном письме чаще выбирают полные формы.",
         "tags": [
           "negative",
           "contraction",
@@ -901,7 +901,7 @@
       {
         "id": "q23",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"He ___ at the cinema.\" (be, отрицание)",
+        "prompt": "Заполните пропуск сокращённым отрицанием be в настоящем времени: \"He ___ at the cinema.\" (be, отрицание)",
         "theory_block_id": "b2_theory_contractions_isnt_arent",
         "difficulty": 1,
         "correct_answer": "isn't",
@@ -930,28 +930,28 @@
       {
         "id": "q25",
         "type": "mcq_single",
-        "prompt": "Выберите правильное отрицание с I: \"I ___ tired.\"",
+        "prompt": "Выберите общеупотребительное сокращённое отрицание с I: «___ tired.»",
         "theory_block_id": "b3_theory_am_not_contraction",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "I'm not",
-            "feedback": "Правильно! I'm not - правильная сокращенная форма"
+            "feedback": "Верно: I am сокращается до I'm, а not остаётся отдельным словом."
           },
           {
             "id": "b",
             "text": "I amn't",
-            "feedback": "Нет, форма amn't не существует"
+            "feedback": "Amn't — региональная форма; в общеупотребительном варианте выбирают I'm not."
           },
           {
             "id": "c",
             "text": "I not am",
-            "feedback": "Нет, not должно стоять после am"
+            "feedback": "Для обычного отрицательного сообщения нужен порядок I am not."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для I используется сокращение I'm not (от I am not). Форма amn't не существует в английском языке.",
+        "explanation": "Общеупотребительная сокращённая форма: I'm not tired.",
         "tags": [
           "negative",
           "contraction",
@@ -961,11 +961,11 @@
       {
         "id": "q26",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант отрицания: \"___ a student.\"",
+        "prompt": "Выберите общеупотребительное сокращённое отрицание с I: «___ a student.»",
         "theory_block_id": "b3_theory_am_not_contraction",
         "difficulty": 1,
         "correct_answer": "a",
-        "explanation": "Для I используется сокращение I'm not: I'm not a student.",
+        "explanation": "Общеупотребительная сокращённая форма: I'm not a student.",
         "tags": [
           "negative",
           "contraction",
@@ -975,45 +975,45 @@
           {
             "id": "a",
             "text": "I'm not",
-            "feedback": "Правильно! I'm not"
+            "feedback": "Верно: I am сокращается до I'm, а not остаётся отдельным словом."
           },
           {
             "id": "b",
             "text": "I amn't",
-            "feedback": "Нет, форма amn't не существует"
+            "feedback": "Amn't — региональная форма; в общеупотребительном варианте выбирают I'm not."
           },
           {
             "id": "c",
             "text": "I am",
-            "feedback": "Нет, нужно отрицание"
+            "feedback": "Это утверждение без not."
           }
         ]
       },
       {
         "id": "q27",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении: \"I amn't tired.\"",
+        "prompt": "Выберите общеупотребительную сокращённую форму вместо регионального «I amn’t tired».",
         "theory_block_id": "b3_theory_am_not_contraction",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "amn't → I'm not",
-            "feedback": "Правильно! Форма amn't не существует"
+            "text": "I amn't → I'm not",
+            "feedback": "Верно: заменяется всё сочетание I amn't, чтобы получилось I'm not tired."
           },
           {
             "id": "b",
             "text": "tired → sleepy",
-            "feedback": "Нет, ошибка в форме отрицания"
+            "feedback": "Замена прилагательного не меняет региональную форму глагола."
           },
           {
             "id": "c",
             "text": "I → We",
-            "feedback": "Нет, ошибка в форме отрицания"
+            "feedback": "Смена подлежащего не даёт нужную форму отрицания от первого лица."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Форма amn't не существует. Правильно: I'm not tired.",
+        "explanation": "Общеупотребительная форма — I'm not tired. Amn't встречается в шотландском и ирландском английском, но не является обычной формой в нейтральном учебном стандарте.",
         "tags": [
           "negative",
           "contraction",
@@ -1023,11 +1023,11 @@
       {
         "id": "q28",
         "type": "true_false",
-        "prompt": "Верно или неверно: Форма \"amn't\" существует в английском языке.",
+        "prompt": "Верно или неверно: «Amn’t» — общеупотребительное сокращение am not во всех вариантах английского.",
         "theory_block_id": "b3_theory_am_not_contraction",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "Неверно. Форма amn't не существует в английском языке. Используется I'm not.",
+        "explanation": "Неверно. Amn't имеет региональное употребление, прежде всего в Шотландии и Ирландии. Общеупотребительная форма — I'm not.",
         "tags": [
           "negative",
           "contraction"
@@ -1036,28 +1036,28 @@
       {
         "id": "q29",
         "type": "mcq_single",
-        "prompt": "Выберите правильное отрицание: \"I ___ at home.\"",
+        "prompt": "Выберите общеупотребительное сокращённое отрицание с I: «___ at home.»",
         "theory_block_id": "b3_theory_am_not_contraction",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "I'm not",
-            "feedback": "Правильно! I'm not - правильная форма"
+            "feedback": "Верно: I am сокращается до I'm, а not остаётся отдельным словом."
           },
           {
             "id": "b",
             "text": "I amn't",
-            "feedback": "Нет, форма amn't не существует"
+            "feedback": "Amn't — региональная форма; в общеупотребительном варианте выбирают I'm not."
           },
           {
             "id": "c",
             "text": "I not am",
-            "feedback": "Нет, not должно стоять после am"
+            "feedback": "Для обычного отрицательного сообщения нужен порядок I am not."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Правильная форма отрицания с I: I'm not at home.",
+        "explanation": "Общеупотребительная сокращённая форма: I'm not at home.",
         "tags": [
           "negative",
           "contraction",
@@ -1067,11 +1067,11 @@
       {
         "id": "q30",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант отрицания: \"___ happy.\"",
+        "prompt": "Выберите общеупотребительное сокращённое отрицание с I: «___ happy.»",
         "theory_block_id": "b3_theory_am_not_contraction",
         "difficulty": 1,
         "correct_answer": "a",
-        "explanation": "Для I используется I'm not: I'm not happy.",
+        "explanation": "Общеупотребительная сокращённая форма: I'm not happy.",
         "tags": [
           "negative",
           "contraction",
@@ -1081,17 +1081,17 @@
           {
             "id": "a",
             "text": "I'm not",
-            "feedback": "Правильно! I'm not"
+            "feedback": "Верно: I am сокращается до I'm, а not остаётся отдельным словом."
           },
           {
             "id": "b",
             "text": "I amn't",
-            "feedback": "Нет, форма amn't не существует"
+            "feedback": "Amn't — региональная форма; в общеупотребительном варианте выбирают I'm not."
           },
           {
             "id": "c",
             "text": "I am",
-            "feedback": "Нет, нужно отрицание"
+            "feedback": "Это утверждение без not."
           }
         ]
       },
@@ -1156,28 +1156,28 @@
       {
         "id": "q34",
         "type": "mcq_single",
-        "prompt": "Выберите правильное отрицание: \"I ___ a doctor.\"",
+        "prompt": "Выберите общеупотребительное сокращённое отрицание с I: «___ a doctor.»",
         "theory_block_id": "b3_theory_am_not_contraction",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "I'm not",
-            "feedback": "Правильно! I'm not - правильная форма"
+            "feedback": "Верно: I am сокращается до I'm, а not остаётся отдельным словом."
           },
           {
             "id": "b",
             "text": "I amn't",
-            "feedback": "Нет, форма amn't не существует"
+            "feedback": "Amn't — региональная форма; в общеупотребительном варианте выбирают I'm not."
           },
           {
             "id": "c",
             "text": "I not am",
-            "feedback": "Нет, not должно стоять после am"
+            "feedback": "Для обычного отрицательного сообщения нужен порядок I am not."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Правильная форма: I'm not a doctor.",
+        "explanation": "Общеупотребительная сокращённая форма: I'm not a doctor.",
         "tags": [
           "negative",
           "contraction",
@@ -1187,11 +1187,11 @@
       {
         "id": "q35",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант отрицания: \"___ at school.\"",
+        "prompt": "Выберите общеупотребительное сокращённое отрицание с I: «___ at school.»",
         "theory_block_id": "b3_theory_am_not_contraction",
         "difficulty": 1,
         "correct_answer": "a",
-        "explanation": "Для I используется I'm not: I'm not at school.",
+        "explanation": "Общеупотребительная сокращённая форма: I'm not at school.",
         "tags": [
           "negative",
           "contraction",
@@ -1201,17 +1201,17 @@
           {
             "id": "a",
             "text": "I'm not",
-            "feedback": "Правильно! I'm not"
+            "feedback": "Верно: I am сокращается до I'm, а not остаётся отдельным словом."
           },
           {
             "id": "b",
             "text": "I amn't",
-            "feedback": "Нет, форма amn't не существует"
+            "feedback": "Amn't — региональная форма; в общеупотребительном варианте выбирают I'm not."
           },
           {
             "id": "c",
             "text": "I am",
-            "feedback": "Нет, нужно отрицание"
+            "feedback": "Это утверждение без not."
           }
         ]
       },
@@ -1240,17 +1240,17 @@
           {
             "id": "a",
             "text": "They are not students.",
-            "feedback": "Правильно! Порядок: They + are + not"
+            "feedback": "Верно: подлежащее + are + not + students."
           },
           {
             "id": "b",
             "text": "They not are students.",
-            "feedback": "Нет, not должно стоять после are"
+            "feedback": "В обычном отрицательном сообщении not ставится после are."
           },
           {
             "id": "c",
             "text": "Not they are students.",
-            "feedback": "Нет, not не может стоять в начале"
+            "feedback": "Для обычного сообщения нужен порядок They are not students."
           }
         ],
         "correct_answer": "a",
@@ -1320,24 +1320,24 @@
       {
         "id": "q43",
         "type": "mcq_single",
-        "prompt": "Выберите правильный порядок слов:",
+        "prompt": "Выберите обычное отрицательное сообщение о том, что она не устала.",
         "theory_block_id": "b4_theory_word_order_negatives",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "She is not tired.",
-            "feedback": "Правильно! Порядок: She + is + not"
+            "feedback": "Верно: She + is + not + tired."
           },
           {
             "id": "b",
             "text": "She not is tired.",
-            "feedback": "Нет, not должно стоять после is"
+            "feedback": "В обычном сообщении not ставится после is."
           },
           {
             "id": "c",
             "text": "Not she is tired.",
-            "feedback": "Нет, not не может стоять в начале"
+            "feedback": "Для нейтрального отрицания состояния нужен порядок She is not tired."
           }
         ],
         "correct_answer": "a",
@@ -1350,7 +1350,7 @@
       {
         "id": "q44",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в порядке слов: \"We am not ready.\"",
+        "prompt": "Исправьте форму be, сохранив подлежащее: \"We am not ready.\"",
         "theory_block_id": "b4_theory_word_order_negatives",
         "difficulty": 2,
         "choices": [
@@ -1394,11 +1394,11 @@
       {
         "id": "q46",
         "type": "true_false",
-        "prompt": "Верно или неверно: В отрицаниях слово not может стоять в начале предложения.",
+        "prompt": "Верно или неверно: «Not we are ready» — обычный порядок слов для сообщения «Мы не готовы».",
         "theory_block_id": "b4_theory_word_order_negatives",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Неверно. В обычных отрицаниях not стоит после be, а не в начале предложения (кроме особых случаев эмфазы).",
+        "explanation": "Неверно. Нейтральное отрицательное сообщение строится так: We are not ready.",
         "tags": [
           "negative",
           "word_order"
@@ -1452,7 +1452,7 @@
       {
         "id": "q49",
         "type": "mcq_single",
-        "prompt": "Выберите правильное отрицание идентичности:",
+        "prompt": "В каком предложении говорящий отрицает, что он студент?",
         "theory_block_id": "b5_theory_common_patterns_negatives",
         "difficulty": 2,
         "choices": [
@@ -1482,7 +1482,7 @@
       {
         "id": "q51",
         "type": "mcq_single",
-        "prompt": "Выберите правильное отрицание описания:",
+        "prompt": "Какое предложение отрицает состояние усталости?",
         "theory_block_id": "b5_theory_common_patterns_negatives",
         "difficulty": 2,
         "choices": [
@@ -1549,21 +1549,21 @@
           {
             "id": "a",
             "text": "student → a student",
-            "feedback": "Правильно! Перед существительным нужен артикль"
+            "feedback": "Верно: перед student в этой фразе нужен артикль a."
           },
           {
             "id": "b",
             "text": "I'm → I am",
-            "feedback": "Нет, ошибка в артикле"
+            "feedback": "Полная форма I am не исправляет пропущенный артикль."
           },
           {
             "id": "c",
-            "text": "not → no",
-            "feedback": "Нет, ошибка в артикле"
+            "text": "student → students",
+            "feedback": "Говорящий называет себя одним человеком; множественное students здесь не подходит."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Перед существительным в единственном числе нужен артикль: I'm not a student.",
+        "explanation": "Student — исчисляемое существительное в единственном числе. В этой фразе перед названием роли нужен a: I'm not a student.",
         "tags": [
           "negative",
           "identity",
@@ -1690,7 +1690,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:14Z",
+    "updated_at": "2026-09-04T11:47:11Z",
     "source": "llm"
   }
 }

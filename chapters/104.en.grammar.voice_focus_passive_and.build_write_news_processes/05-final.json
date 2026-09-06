@@ -663,7 +663,7 @@
       {
         "id": "q24",
         "type": "mcq_single",
-        "prompt": "Выберите корректный вариант: The car was serviced yesterday. We ___ it serviced at the dealer.",
+        "prompt": "Выберите прошедшую форму именно have-causative: The car was serviced yesterday. We ___ it serviced at the dealer.",
         "theory_block_id": "b3_theory_service_causative",
         "difficulty": 2,
         "choices": [
@@ -685,17 +685,17 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Прошлое время: had it serviced.",
+        "explanation": "Прошедшая форма have-causative — had it serviced. Got it serviced тоже грамматично, но относится к get-causative.",
         "tags": []
       },
       {
         "id": "q25",
         "type": "true_false",
-        "prompt": "В процессных описаниях чаще используется active voice.",
+        "prompt": "Если в описании процесса важны шаги, а исполнитель неизвестен или несущественен, нужно обязательно использовать active voice.",
         "theory_block_id": "b2_theory_process_descriptions",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "Обычно используется пассив, чтобы сфокусироваться на процессе.",
+        "explanation": "Нет: в таком контексте часто выбирают пассив, чтобы поставить процесс или объект в фокус. Актив подходит, когда важен исполнитель.",
         "tags": []
       },
       {
@@ -835,11 +835,11 @@
       {
         "id": "q34",
         "type": "true_false",
-        "prompt": "В процессном описании лучше использовать пассив для всех шагов, если цель — нейтральный тон.",
+        "prompt": "Последовательный пассив помогает сохранить нейтральный фокус на шагах процесса, если исполнители неважны.",
         "theory_block_id": "b4_theory_style_consistency",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Так сохраняется единый стиль.",
+        "explanation": "Да: единый пассив делает цепочку шагов последовательной. При смене фокуса актив можно использовать намеренно.",
         "tags": []
       },
       {
@@ -883,11 +883,11 @@
       {
         "id": "q37",
         "type": "true_false",
-        "prompt": "В новостных текстах обычно называют исполнителя, чтобы повысить точность.",
+        "prompt": "В пассивной новостной фразе исполнителя обязательно называют, даже если он неизвестен или неважен.",
         "theory_block_id": "b1_theory_news_structure",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "В новостях агент часто опускают ради нейтральности.",
+        "explanation": "Нет: агент можно опустить, когда он неизвестен, очевиден или не относится к главному сообщению.",
         "tags": []
       },
       {
@@ -979,11 +979,11 @@
       {
         "id": "q43",
         "type": "fill_blank",
-        "prompt": "Вставьте пропущенное: We had the documents ___ and the summary ___ . (check/update)",
+        "prompt": "Вставьте пропущенное: We had the documents ___. (check)",
         "theory_block_id": "b4_theory_style_consistency",
         "difficulty": 2,
         "correct_answer": "checked",
-        "explanation": "Для одного пропуска нужен V3; используйте checked.",
+        "explanation": "Have + object + V3: had the documents checked.",
         "tags": []
       },
       {
@@ -1093,11 +1093,11 @@
       {
         "id": "q49",
         "type": "true_false",
-        "prompt": "В сервисных описаниях лучше использовать актив, чтобы подчеркнуть исполнителя.",
+        "prompt": "Causative в сервисном описании означает, что клиент обязательно выполняет работу сам.",
         "theory_block_id": "b3_theory_service_causative",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "Часто используют каузатив или пассив, чтобы фокус был на услуге.",
+        "explanation": "Нет: Customers can have their devices repaired означает, что клиент организует услугу, а работу выполняет специалист.",
         "tags": []
       },
       {
@@ -1332,7 +1332,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:49:02Z",
+    "updated_at": "2026-09-05T21:17:23Z",
     "source": "llm"
   }
 }

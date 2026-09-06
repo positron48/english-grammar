@@ -947,7 +947,7 @@
       {
         "id": "q42",
         "type": "error_spotting",
-        "prompt": "Выберите корректное предложение с insist.",
+        "prompt": "Выберите корректное предложение, где insist означает требование.",
         "theory_block_id": "b4_theory_insist_that_clause",
         "difficulty": 3,
         "choices": [
@@ -969,7 +969,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Insist требует that-clause с базовой формой be.",
+        "explanation": "В значении требования insist вводит mandative that-clause: insisted that I be. Форма was возможна при значении «утверждал», но не передаёт требование.",
         "tags": []
       },
       {
@@ -1166,7 +1166,7 @@
       {
         "id": "q53",
         "type": "mcq_single",
-        "prompt": "Какое предложение содержит ошибку?",
+        "prompt": "Какое предложение ошибочно пытается передать требование через insist + to-infinitive?",
         "theory_block_id": "b5_theory_common_errors",
         "difficulty": 2,
         "choices": [
@@ -1188,7 +1188,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Insist не используется с to-infinitive в значении требования.",
+        "explanation": "В значении требования нужен that-clause или insist on + V-ing. Insisted to pay не является стандартным паттерном.",
         "tags": []
       },
       {
@@ -1379,7 +1379,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:26Z",
+    "updated_at": "2026-09-05T22:43:21Z",
     "source": "llm"
   }
 }

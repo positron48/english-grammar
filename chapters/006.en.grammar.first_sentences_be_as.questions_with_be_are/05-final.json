@@ -403,24 +403,24 @@
       {
         "id": "q1",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант вопроса:",
+        "prompt": "Выберите обычный общий вопрос с инверсией — формой be перед подлежащим.",
         "theory_block_id": "b1_theory_yes_no_questions",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "You are a student?",
-            "feedback": "Нет, в вопросах be стоит перед подлежащим"
+            "feedback": "Это возможно как переспрос, но здесь нужен обычный вопрос с инверсией."
           },
           {
             "id": "b",
             "text": "Are you a student?",
-            "feedback": "Правильно! В вопросах be стоит перед подлежащим"
+            "feedback": "Верно. Are стоит перед you."
           },
           {
             "id": "c",
             "text": "You is a student?",
-            "feedback": "Нет, для you используется are, а не is"
+            "feedback": "С you нужна форма are, а для заданного вопроса она ставится перед you."
           }
         ],
         "correct_answer": "b",
@@ -432,7 +432,7 @@
       {
         "id": "q2",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ you a teacher?\" (be)",
+        "prompt": "Заполните пропуск в вопросе о настоящем: \"___ you a teacher?\" (be)",
         "theory_block_id": "b1_theory_yes_no_questions",
         "difficulty": 1,
         "correct_answer": "Are",
@@ -445,24 +445,24 @@
       {
         "id": "q3",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант вопроса:",
+        "prompt": "Как задать обычный общий вопрос «Она дома?» с инверсией?",
         "theory_block_id": "b1_theory_yes_no_questions",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "Is she at home?",
-            "feedback": "Правильно! Для she используется is"
+            "feedback": "Верно. Is стоит перед she."
           },
           {
             "id": "b",
             "text": "Are she at home?",
-            "feedback": "Нет, для she используется is, а не are"
+            "feedback": "С she нужна форма is."
           },
           {
             "id": "c",
             "text": "She is at home?",
-            "feedback": "Нет, в вопросах be стоит перед подлежащим"
+            "feedback": "Это возможный переспрос; обычный вопрос с инверсией начинается с is."
           }
         ],
         "correct_answer": "a",
@@ -474,24 +474,24 @@
       {
         "id": "q4",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении: \"Is you a student?\"",
+        "prompt": "Исправьте форму be, сохранив подлежащее you: \"Is you a student?\"",
         "theory_block_id": "b1_theory_yes_no_questions",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "Is → Are",
-            "feedback": "Правильно! Для you используется are"
+            "feedback": "Верно: с you используется are."
           },
           {
             "id": "b",
             "text": "you → he",
-            "feedback": "Нет, ошибка в форме глагола be"
+            "feedback": "Это меняет человека, о котором спрашивают; нужно сохранить you."
           },
           {
             "id": "c",
             "text": "a → the",
-            "feedback": "Нет, ошибка в форме глагола be"
+            "feedback": "Эта замена не исправляет согласование is с you."
           }
         ],
         "correct_answer": "a",
@@ -518,11 +518,11 @@
       {
         "id": "q6",
         "type": "true_false",
-        "prompt": "Верно или неверно: В вопросе \"You are a student?\" порядок слов правильный.",
+        "prompt": "Верно ли утверждение? В You are a student? использован порядок слов обычного общего вопроса с инверсией.",
         "theory_block_id": "b1_theory_yes_no_questions",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "Неверно! В вопросах be стоит перед подлежащим: Are you a student?",
+        "explanation": "Неверно. При инверсии are стоит перед you: Are you a student? Порядок You are a student? возможен при переспросе.",
         "tags": [
           "yes_no_question",
           "true_false"
@@ -531,7 +531,7 @@
       {
         "id": "q7",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ he at home?\" (be)",
+        "prompt": "Заполните пропуск в вопросе о настоящем: \"___ he at home?\" (be)",
         "theory_block_id": "b1_theory_yes_no_questions",
         "difficulty": 1,
         "correct_answer": "Is",
@@ -544,24 +544,24 @@
       {
         "id": "q8",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант вопроса:",
+        "prompt": "Как задать обычный общий вопрос «Мы счастливы?» с инверсией?",
         "theory_block_id": "b1_theory_yes_no_questions",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "Are we happy?",
-            "feedback": "Правильно! Для we используется are"
+            "feedback": "Верно. С we используется are перед подлежащим."
           },
           {
             "id": "b",
             "text": "Is we happy?",
-            "feedback": "Нет, для we используется are, а не is"
+            "feedback": "С we нужна форма are."
           },
           {
             "id": "c",
             "text": "We are happy?",
-            "feedback": "Нет, в вопросах be стоит перед подлежащим"
+            "feedback": "Это возможный переспрос, но здесь требуется инверсия."
           }
         ],
         "correct_answer": "a",
@@ -573,24 +573,24 @@
       {
         "id": "q9",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении: \"Are I a student?\"",
+        "prompt": "Исправьте форму be, сохранив подлежащее I: \"Are I a student?\"",
         "theory_block_id": "b1_theory_yes_no_questions",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "Are → Am",
-            "feedback": "Правильно! Для I используется am"
+            "feedback": "Верно. С I используется am."
           },
           {
             "id": "b",
             "text": "I → you",
-            "feedback": "Нет, ошибка в форме глагола be"
+            "feedback": "Это меняет подлежащее, которое нужно сохранить."
           },
           {
             "id": "c",
             "text": "a → the",
-            "feedback": "Нет, ошибка в форме глагола be"
+            "feedback": "Смена артикля не исправляет согласование are с I."
           }
         ],
         "correct_answer": "a",
@@ -617,11 +617,11 @@
       {
         "id": "q11",
         "type": "true_false",
-        "prompt": "Верно или неверно: В вопросе \"She is a teacher?\" порядок слов правильный.",
+        "prompt": "Верно ли утверждение? В She is a teacher? использован порядок слов обычного общего вопроса с инверсией.",
         "theory_block_id": "b1_theory_yes_no_questions",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "Неверно! В вопросах be стоит перед подлежащим: Is she a teacher?",
+        "explanation": "Неверно. При инверсии is стоит перед she: Is she a teacher? She is a teacher? возможно как переспрос.",
         "tags": [
           "yes_no_question",
           "true_false"
@@ -630,7 +630,7 @@
       {
         "id": "q12",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ I a student?\" (be)",
+        "prompt": "Заполните пропуск в вопросе о настоящем: \"___ I a student?\" (be)",
         "theory_block_id": "b1_theory_yes_no_questions",
         "difficulty": 1,
         "correct_answer": "Am",
@@ -672,7 +672,7 @@
       {
         "id": "q14",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ is your name?\" (Wh-слово)",
+        "prompt": "Как тебя зовут? \"___ is your name?\" (вопросительное слово)",
         "theory_block_id": "b2_theory_wh_questions",
         "difficulty": 1,
         "correct_answer": "What",
@@ -758,7 +758,7 @@
       {
         "id": "q19",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ are you from?\" (Wh-слово)",
+        "prompt": "Откуда ты? \"___ are you from?\" (вопросительное слово)",
         "theory_block_id": "b2_theory_wh_questions",
         "difficulty": 1,
         "correct_answer": "Where",
@@ -851,21 +851,21 @@
           {
             "id": "a",
             "text": "Yes, I am.",
-            "feedback": "Правильно! В кратком ответе используется та же форма be"
+            "feedback": "Верно: в ответе о себе I согласуется с am."
           },
           {
             "id": "b",
             "text": "Yes, I'm.",
-            "feedback": "Нет, в кратком ответе нельзя использовать сокращение I'm"
+            "feedback": "В конце утвердительного краткого ответа am не сокращается с I."
           },
           {
             "id": "c",
             "text": "Yes, I are.",
-            "feedback": "Нет, для I используется am, а не are"
+            "feedback": "С I нужна форма am."
           }
         ],
         "correct_answer": "a",
-        "explanation": "В кратком ответе используется та же форма be, что и в вопросе: Yes, I am.",
+        "explanation": "Вопрос обращён к you, но человек отвечает о себе с I. Поэтому are меняется на am: Yes, I am.",
         "tags": [
           "short_answer"
         ]
@@ -877,7 +877,7 @@
         "theory_block_id": "b3_theory_short_answers",
         "difficulty": 1,
         "correct_answer": "am",
-        "explanation": "В кратком ответе используется та же форма be, что и в вопросе: Yes, I am.",
+        "explanation": "Отвечая о себе на вопрос с you, используем I и согласуем be с ним: Yes, I am. Форма are из вопроса не копируется.",
         "tags": [
           "short_answer",
           "fill_blank"
@@ -893,21 +893,21 @@
           {
             "id": "a",
             "text": "Yes, he is.",
-            "feedback": "Правильно! В кратком ответе используется та же форма be"
+            "feedback": "Верно: he согласуется с is."
           },
           {
             "id": "b",
             "text": "Yes, he are.",
-            "feedback": "Нет, для he используется is, а не are"
+            "feedback": "С he нужна форма is, а не are."
           },
           {
             "id": "c",
             "text": "Yes, he am.",
-            "feedback": "Нет, для he используется is, а не am"
+            "feedback": "С he нужна форма is, а не am."
           }
         ],
         "correct_answer": "a",
-        "explanation": "В кратком ответе используется та же форма be, что и в вопросе: Yes, he is.",
+        "explanation": "В ответе he согласуется с is: Yes, he is.",
         "tags": [
           "short_answer"
         ]
@@ -922,21 +922,21 @@
           {
             "id": "a",
             "text": "I'm → I am",
-            "feedback": "Правильно! В кратком ответе нельзя использовать сокращение I'm"
+            "feedback": "Верно: в конце утвердительного краткого ответа am не сокращается с I."
           },
           {
             "id": "b",
             "text": "Yes → No",
-            "feedback": "Нет, ошибка в форме глагола be"
+            "feedback": "Смена Yes на No не исправит форму ответа."
           },
           {
             "id": "c",
             "text": "student → students",
-            "feedback": "Нет, ошибка в форме глагола be"
+            "feedback": "Изменение существительного в вопросе не исправит ответ."
           }
         ],
         "correct_answer": "a",
-        "explanation": "В кратком ответе нельзя использовать сокращение I'm — нужно полная форма I am.",
+        "explanation": "В конце утвердительного краткого ответа нужна полная форма I am: Yes, I am. В отрицательном ответе No, I'm not сокращение допустимо.",
         "tags": [
           "short_answer",
           "error_spotting"
@@ -966,21 +966,21 @@
           {
             "id": "a",
             "text": "Yes, they are.",
-            "feedback": "Правильно! В кратком ответе используется та же форма be"
+            "feedback": "Верно: they согласуется с are."
           },
           {
             "id": "b",
             "text": "Yes, they is.",
-            "feedback": "Нет, для they используется are, а не is"
+            "feedback": "С they нужна форма are, а не is."
           },
           {
             "id": "c",
             "text": "Yes, they am.",
-            "feedback": "Нет, для they используется are, а не am"
+            "feedback": "С they нужна форма are, а не am."
           }
         ],
         "correct_answer": "a",
-        "explanation": "В кратком ответе используется та же форма be, что и в вопросе: Yes, they are.",
+        "explanation": "В ответе they согласуется с are: Yes, they are.",
         "tags": [
           "short_answer"
         ]
@@ -1049,7 +1049,7 @@
         "theory_block_id": "b3_theory_short_answers",
         "difficulty": 1,
         "correct_answer": "are",
-        "explanation": "В кратком ответе используется та же форма be, что и в вопросе: Yes, we are.",
+        "explanation": "В данном ответе подлежащее we, поэтому нужна форма are: Yes, we are.",
         "tags": [
           "short_answer",
           "fill_blank"
@@ -1058,24 +1058,24 @@
       {
         "id": "q37",
         "type": "mcq_single",
-        "prompt": "Выберите правильный порядок слов в вопросе:",
+        "prompt": "Выберите обычный общий вопрос с инверсией и нейтральным порядком слов.",
         "theory_block_id": "b4_theory_word_order",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "You are a teacher?",
-            "feedback": "Нет, в вопросах be стоит перед подлежащим"
+            "feedback": "Это возможный переспрос, но здесь требуется инверсия."
           },
           {
             "id": "b",
             "text": "Are you a teacher?",
-            "feedback": "Правильно! В вопросах be стоит перед подлежащим"
+            "feedback": "Верно: are, затем you, затем a teacher."
           },
           {
             "id": "c",
             "text": "A teacher are you?",
-            "feedback": "Нет, порядок слов неправильный"
+            "feedback": "Для заданного нейтрального вопроса a teacher ставится после are you."
           }
         ],
         "correct_answer": "b",
@@ -1087,7 +1087,7 @@
       {
         "id": "q38",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск, соблюдая правильный порядок слов: \"___ you a student?\" (be)",
+        "prompt": "Заполните пропуск в вопросе о настоящем: \"___ you a student?\" (be)",
         "theory_block_id": "b4_theory_word_order",
         "difficulty": 1,
         "correct_answer": "Are",
@@ -1186,7 +1186,7 @@
       {
         "id": "q43",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск, соблюдая правильный порядок слов: \"___ is your name?\" (Wh-слово)",
+        "prompt": "Узнайте имя собеседника: \"___ is your name?\" (вопросительное слово)",
         "theory_block_id": "b4_theory_word_order",
         "difficulty": 1,
         "correct_answer": "What",
@@ -1199,24 +1199,24 @@
       {
         "id": "q44",
         "type": "mcq_single",
-        "prompt": "Выберите правильный порядок слов в утверждении:",
+        "prompt": "Выберите утверждение с нейтральным порядком: подлежащее, затем be, затем место.",
         "theory_block_id": "b4_theory_word_order",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "He is at home.",
-            "feedback": "Правильно! В утверждениях порядок: подлежащее + be + остальное"
+            "feedback": "Верно: he, затем is, затем at home."
           },
           {
             "id": "b",
             "text": "Is he at home?",
-            "feedback": "Нет, это вопрос, а не утверждение"
+            "feedback": "Это вопрос, а требуется утверждение."
           },
           {
             "id": "c",
             "text": "At home he is.",
-            "feedback": "Нет, порядок слов неправильный"
+            "feedback": "Место вынесено вперёд; это не заданный нейтральный порядок."
           }
         ],
         "correct_answer": "a",
@@ -1235,21 +1235,21 @@
           {
             "id": "a",
             "text": "time it is → time is it",
-            "feedback": "Правильно! После What порядок: be + подлежащее"
+            "feedback": "Верно. После всей группы What time идут is и it."
           },
           {
             "id": "b",
             "text": "What → Where",
-            "feedback": "Нет, ошибка в порядке слов"
+            "feedback": "Эта замена не исправляет порядок it is."
           },
           {
             "id": "c",
             "text": "time → times",
-            "feedback": "Нет, ошибка в порядке слов"
+            "feedback": "Изменение числа time не исправляет порядок слов."
           }
         ],
         "correct_answer": "a",
-        "explanation": "После What порядок слов: be + подлежащее. What time is it?",
+        "explanation": "После вопросительной группы What time идут be и подлежащее: What time is it?",
         "tags": [
           "word_order",
           "error_spotting"
@@ -1315,7 +1315,7 @@
       {
         "id": "q50",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск в типичном вопросе: \"___ are you from?\" (Wh-слово)",
+        "prompt": "Спросите, откуда собеседник: \"___ are you from?\" (вопросительное слово)",
         "theory_block_id": "b5_theory_common_patterns",
         "difficulty": 1,
         "correct_answer": "Where",
@@ -1505,7 +1505,7 @@
       {
         "id": "q60",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск в типичном вопросе: \"___ is the book?\" (Wh-слово)",
+        "prompt": "Где книга? \"___ is the book?\" (вопросительное слово)",
         "theory_block_id": "b5_theory_common_patterns",
         "difficulty": 1,
         "correct_answer": "Where",
@@ -1578,7 +1578,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:14Z",
+    "updated_at": "2026-09-04T10:37:13Z",
     "source": "llm"
   }
 }

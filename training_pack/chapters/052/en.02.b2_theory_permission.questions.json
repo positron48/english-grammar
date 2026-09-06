@@ -125,7 +125,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант не используется для разрешения?",
+      "prompt": "Какой вопрос прямо уточняет умение собеседника плавать, а не просит разрешения?",
       "choices": [
         {
           "id": "a",
@@ -137,7 +137,7 @@
         },
         {
           "id": "c",
-          "text": "Can I swim?"
+          "text": "Can you swim?"
         },
         {
           "id": "d",
@@ -145,13 +145,13 @@
         }
       ],
       "correct_answer": "c",
-      "explanation": "Вопрос 'Can I swim?' относится к способности (ability), а не к разрешению. Остальные варианты — разрешение.",
+      "explanation": "Вопрос Can you swim? без ситуации разрешения обычно спрашивает об умении собеседника. Остальные варианты с Can I...? здесь представлены как просьбы о разрешении.",
       "theory_block_id": "b2_theory_permission",
       "chapter_id": "en.grammar.core_modality_ability_permission.can_can_t_ability",
       "concept_id": "can_permission",
       "difficulty": 3,
       "id": "q5",
-      "signature": "594e48d2f72c38ce"
+      "signature": "f3075dc13cd4be8d"
     },
     {
       "type": "mcq_single",
@@ -185,33 +185,33 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вопрос не про разрешение, а про способность?",
+      "prompt": "Какой вопрос прямо уточняет, хорошо ли собеседник умеет плавать?",
       "choices": [
         {
           "id": "a",
-          "text": "Can I speak English?"
+          "text": "May I speak English here?"
         },
         {
           "id": "b",
-          "text": "Can I open this door?"
+          "text": "May I open this door?"
         },
         {
           "id": "c",
-          "text": "Can I swim well?"
+          "text": "Can you swim well?"
         },
         {
           "id": "d",
-          "text": "Can I borrow your pen?"
+          "text": "May I borrow your pen?"
         }
       ],
       "correct_answer": "c",
-      "explanation": "Вопрос 'Can I swim well?' спрашивает о способности (ability), а не о разрешении. Остальные — разрешение.",
+      "explanation": "Can you swim well? спрашивает о способности собеседника. Варианты с May I...? явно запрашивают разрешение.",
       "theory_block_id": "b2_theory_permission",
       "chapter_id": "en.grammar.core_modality_ability_permission.can_can_t_ability",
       "concept_id": "can_permission",
       "difficulty": 3,
       "id": "q7",
-      "signature": "4cec6cafe94477de"
+      "signature": "112d9b47800620e8"
     },
     {
       "type": "mcq_single",
@@ -295,7 +295,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Правильная структура: 'Can I' + глагол + ваш/ваша (в общеупотребительной форме). Вариант d пропускает 'your'.",
+      "explanation": "Просьба о разрешении строится как Can I + базовая форма глагола. Здесь нужен объект your pen: Can I use your pen?",
       "theory_block_id": "b2_theory_permission",
       "chapter_id": "en.grammar.core_modality_ability_permission.can_can_t_ability",
       "concept_id": "can_permission",

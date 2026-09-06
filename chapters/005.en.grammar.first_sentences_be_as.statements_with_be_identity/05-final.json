@@ -358,17 +358,17 @@
           {
             "id": "a",
             "text": "Перед словами, начинающимися с гласного звука",
-            "feedback": "Правильно! 'an' используется перед гласными звуками"
+            "feedback": "Верно: an artist, an hour."
           },
           {
             "id": "b",
             "text": "Перед словами, начинающимися с согласного звука",
-            "feedback": "Нет, перед согласными используется 'a'"
+            "feedback": "Перед согласным звуком выбирают a: a teacher."
           },
           {
             "id": "c",
-            "text": "Всегда с множественным числом",
-            "feedback": "Нет, с множественным числом артикль не используется"
+            "text": "Перед существительными во множественном числе",
+            "feedback": "A/an не употребляется с существительными во множественном числе; the может употребляться."
           }
         ],
         "correct_answer": "a",
@@ -381,7 +381,7 @@
       {
         "id": "q3",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: **I'm ___ artist.** (артикль)",
+        "prompt": "Заполните пропуск: **I'm ___ artist.** (неопределённый артикль)",
         "theory_block_id": "b1_theory_identity_statements",
         "difficulty": 2,
         "correct_answer": "an",
@@ -394,7 +394,7 @@
       {
         "id": "q4",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: **She's ___ teacher.** (артикль)",
+        "prompt": "Заполните пропуск: **She's ___ teacher.** (неопределённый артикль)",
         "theory_block_id": "b1_theory_identity_statements",
         "difficulty": 1,
         "correct_answer": "a",
@@ -407,11 +407,11 @@
       {
         "id": "q8",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\n**Артикль 'a' всегда используется перед гласными.**",
+        "prompt": "Верно ли утверждение?\n\n**Артикль a выбирают перед словом, начинающимся с гласного звука.**",
         "theory_block_id": "b1_theory_identity_statements",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Нет, неверно. Перед гласными используется 'an', а 'a' используется перед согласными.",
+        "explanation": "Неверно. Выбор a/an зависит от следующего звука: a перед согласным, an перед гласным.",
         "tags": [
           "identity",
           "articles"
@@ -424,7 +424,7 @@
         "theory_block_id": "b1_theory_identity_statements",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Да, верно. С множественным числом артикль не используется: 'We are students' (не 'a students').",
+        "explanation": "Верно. A/an нельзя ставить перед существительным во множественном числе: We are students, не We are a students. Артикль the возможен в подходящем контексте.",
         "tags": [
           "identity",
           "plural"
@@ -454,7 +454,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "В утверждениях о тождестве после be обязательно используется артикль 'a' или 'an' перед существительным в единственном числе. Например: I'm an engineer.",
+        "explanation": "Когда называют профессию человека существительным в единственном числе, обычно нужен a/an. Engineer начинается с гласного звука: I'm an engineer.",
         "tags": [
           "identity",
           "articles"
@@ -484,7 +484,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "С множественным числом артикль не используется: 'We are students' (не 'a students' или 'an students').",
+        "explanation": "В We are students мы называем группу без a/an. Эти артикли не употребляются с существительными во множественном числе.",
         "tags": [
           "identity",
           "plural"
@@ -493,7 +493,7 @@
       {
         "id": "q12",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: **He's ___ engineer.** (артикль)",
+        "prompt": "Заполните пропуск: **He's ___ engineer.** (неопределённый артикль)",
         "theory_block_id": "b1_theory_identity_statements",
         "difficulty": 2,
         "correct_answer": "an",
@@ -535,28 +535,28 @@
       {
         "id": "q14",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант. Что ставится после be в описательных предложениях?",
+        "prompt": "Какой частью речи является tired в предложении She's tired?",
         "theory_block_id": "b2_theory_description_statements",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "Прилагательное",
-            "feedback": "Правильно! В описаниях используется прилагательное"
+            "text": "Прилагательным",
+            "feedback": "Верно. Tired описывает состояние."
           },
           {
             "id": "b",
-            "text": "Существительное с артиклем",
-            "feedback": "Нет, это для тождества"
+            "text": "Существительным",
+            "feedback": "Нет. Tired — прилагательное, а не название человека или предмета."
           },
           {
             "id": "c",
-            "text": "Предлог места",
-            "feedback": "Нет, это для местоположения"
+            "text": "Предлогом",
+            "feedback": "Нет. Tired описывает состояние, а не связь с местом."
           }
         ],
         "correct_answer": "a",
-        "explanation": "В описательных предложениях после be ставится прилагательное без артикля: 'I'm happy', 'She's tired'.",
+        "explanation": "Tired — прилагательное со значением «уставший». В этом предложении оно стоит после is без артикля.",
         "tags": [
           "description"
         ]
@@ -564,11 +564,11 @@
       {
         "id": "q20",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\n**В описательных предложениях после be ставится прилагательное без артикля.**",
+        "prompt": "Верно ли утверждение?\n\n**В предложении She's tired перед tired не нужен артикль.**",
         "theory_block_id": "b2_theory_description_statements",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Да, верно. В описательных предложениях после be ставится прилагательное без артикля: 'I'm happy' (не 'I'm a happy').",
+        "explanation": "Верно. Tired здесь самостоятельно описывает состояние; существительного после него нет, артикль не нужен.",
         "tags": [
           "description"
         ]
@@ -576,11 +576,11 @@
       {
         "id": "q21",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\n**В описательных предложениях после be ставится артикль перед прилагательным.**",
+        "prompt": "Верно ли утверждение?\n\n**В предложении They are happy перед happy нужно добавить артикль a.**",
         "theory_block_id": "b2_theory_description_statements",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Нет, неверно. После be в описательных предложениях артикль не используется: 'I'm happy' (не 'I'm a happy').",
+        "explanation": "Неверно. Happy самостоятельно описывает состояние, поэтому говорят They are happy без артикля.",
         "tags": [
           "description"
         ]
@@ -595,21 +595,21 @@
           {
             "id": "a",
             "text": "I'm a happy.",
-            "feedback": "Нет, перед прилагательными артикль не используется"
+            "feedback": "Здесь happy употребляется без существительного и не требует артикля."
           },
           {
             "id": "b",
             "text": "I'm happy.",
-            "feedback": "Правильно! Артикль не нужен с прилагательными"
+            "feedback": "Верно: happy описывает состояние без артикля."
           },
           {
             "id": "c",
             "text": "I'm happies.",
-            "feedback": "Нет, прилагательные не изменяются по числам"
+            "feedback": "Прилагательное happy не получает окончания множественного числа."
           }
         ],
         "correct_answer": "b",
-        "explanation": "В описательных предложениях после be ставится прилагательное без артикля. Прилагательные не изменяются по числам.",
+        "explanation": "Happy здесь описывает состояние и употребляется без артикля: I'm happy. Прилагательное не изменяется по числам.",
         "tags": [
           "description"
         ]
@@ -676,7 +676,7 @@
       {
         "id": "q26",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: **I'm ___ home.** (предлог)",
+        "prompt": "Я сейчас дома: **I'm ___ home.** (предлог места)",
         "theory_block_id": "b3_theory_location_statements",
         "difficulty": 2,
         "correct_answer": "at",
@@ -689,7 +689,7 @@
       {
         "id": "q27",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: **She's ___ the classroom.** (предлог)",
+        "prompt": "Она сейчас внутри класса: **She's ___ the classroom.** (предлог места)",
         "theory_block_id": "b3_theory_location_statements",
         "difficulty": 2,
         "correct_answer": "in",
@@ -702,7 +702,7 @@
       {
         "id": "q28",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: **The book is ___ the table.** (предлог)",
+        "prompt": "Книга лежит на поверхности стола: **The book is ___ the table.** (предлог места)",
         "theory_block_id": "b3_theory_location_statements",
         "difficulty": 2,
         "correct_answer": "on",
@@ -728,24 +728,24 @@
       {
         "id": "q32",
         "type": "mcq_single",
-        "prompt": "Выберите правильный предлог для 'the table':",
+        "prompt": "Выберите предлог: книга лежит на поверхности стола. The book is ___ the table.",
         "theory_block_id": "b3_theory_location_statements",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "at",
-            "feedback": "Нет, 'at' используется для точек, не для поверхностей"
+            "feedback": "At the table обычно означает «за столом/у стола», а здесь книга на поверхности."
           },
           {
             "id": "b",
             "text": "on",
-            "feedback": "Правильно! 'on' используется для поверхностей"
+            "feedback": "Верно: on the table — на поверхности стола."
           },
           {
             "id": "c",
             "text": "in",
-            "feedback": "Нет, 'in' используется для пространства внутри"
+            "feedback": "In означает «внутри», а книга лежит сверху."
           }
         ],
         "correct_answer": "b",
@@ -758,7 +758,7 @@
       {
         "id": "q33",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: **We're ___ work.** (предлог)",
+        "prompt": "Мы сейчас на работе: **We're ___ work.** (предлог места)",
         "theory_block_id": "b3_theory_location_statements",
         "difficulty": 2,
         "correct_answer": "at",
@@ -829,11 +829,11 @@
       {
         "id": "q39",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\n**Сокращения делают речь более естественной в разговорном английском.**",
+        "prompt": "Верно ли утверждение?\n\n**Сокращения I'm, you're и she's часто употребляются в разговорной речи.**",
         "theory_block_id": "b4_theory_contractions",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Да, верно. Сокращения делают речь более естественной в разговорном английском: 'I'm', 'you're', 'he's' вместо 'I am', 'you are', 'he is'.",
+        "explanation": "Верно. В неформальной речи эти сокращения обычны; полные формы тоже грамматически правильны.",
         "tags": [
           "contractions"
         ]
@@ -870,28 +870,28 @@
       {
         "id": "q42",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант. Как объединить информацию в одном предложении?",
+        "prompt": "Какой союз соединяет утверждения со значением «и»: I'm a student ___ I'm happy?",
         "theory_block_id": "b5_theory_combining_types",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Использовать союз 'and'",
-            "feedback": "Правильно! 'and' объединяет части предложения"
+            "text": "and",
+            "feedback": "Верно. And добавляет второе сообщение."
           },
           {
             "id": "b",
-            "text": "Использовать два глагола be",
-            "feedback": "Нет, глагол be используется один раз"
+            "text": "but",
+            "feedback": "But означает «но», то есть противопоставляет сообщения."
           },
           {
             "id": "c",
-            "text": "Использовать запятую без союза",
-            "feedback": "Нет, нужен союз 'and'"
+            "text": "or",
+            "feedback": "Or означает «или», то есть предлагает альтернативу."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для объединения информации используется союз 'and': 'I'm a student and I'm happy'.",
+        "explanation": "And соединяет два утверждения: I'm a student and I'm happy. В такой конструкции каждое имеет своё подлежащее и be.",
         "tags": [
           "combining"
         ]
@@ -899,7 +899,7 @@
       {
         "id": "q43",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: **I'm a student ___ I'm happy.** (союз)",
+        "prompt": "Я студент, и я счастлив: **I'm a student ___ I'm happy.** (союз со значением «и»)",
         "theory_block_id": "b5_theory_combining_types",
         "difficulty": 2,
         "correct_answer": "and",
@@ -911,11 +911,11 @@
       {
         "id": "q45",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\n**В объединенных предложениях глагол be используется дважды.**",
+        "prompt": "Верно ли утверждение?\n\n**Можно сказать I'm a student and I'm happy, повторив подлежащее и форму be после and.**",
         "theory_block_id": "b5_theory_combining_types",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Да, верно. В объединенных предложениях каждая часть имеет свой глагол be: 'I'm a student and I'm happy'.",
+        "explanation": "Верно. Здесь соединены два полных утверждения. Повторение be допустимо; в других конструкциях его можно не повторять: I'm happy and tired.",
         "tags": [
           "combining"
         ]
@@ -923,28 +923,28 @@
       {
         "id": "q46",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант:",
+        "prompt": "В каком варианте союз and соединяет два полных утверждения?",
         "theory_block_id": "b5_theory_combining_types",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
             "text": "I'm a student happy.",
-            "feedback": "Нет, нужно использовать союз 'and' для объединения"
+            "feedback": "Нет союза and и второй полной части."
           },
           {
             "id": "b",
             "text": "I'm a student and I'm happy.",
-            "feedback": "Правильно! Союз 'and' объединяет части предложения"
+            "feedback": "Верно. У каждой части есть подлежащее I и форма am."
           },
           {
             "id": "c",
             "text": "I'm a student, happy.",
-            "feedback": "Нет, нужен союз 'and', а не запятая"
+            "feedback": "Здесь нет союза and и второй полной части."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Для объединения информации используется союз 'and': 'I'm a student and I'm happy'.",
+        "explanation": "I'm a student and I'm happy состоит из двух полных утверждений, соединённых and.",
         "tags": [
           "combining"
         ]
@@ -952,7 +952,7 @@
       {
         "id": "q47",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: **They're students ___ they're at school.** (союз)",
+        "prompt": "Они студенты, и они сейчас в школе: **They're students ___ they're at school.** (союз со значением «и»)",
         "theory_block_id": "b5_theory_combining_types",
         "difficulty": 2,
         "correct_answer": "and",
@@ -964,28 +964,28 @@
       {
         "id": "q48",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант. Какое предложение правильно выражает тождество, описание и местоположение?",
+        "prompt": "В каком варианте три полных утверждения о человеке соединены с помощью and?",
         "theory_block_id": "b5_theory_combining_types",
         "difficulty": 4,
         "choices": [
           {
             "id": "a",
             "text": "I'm a student, I'm happy, I'm at home.",
-            "feedback": "Нет, нужны союзы 'and', а не запятые"
+            "feedback": "Между частями стоят только запятые, союза and нет."
           },
           {
             "id": "b",
-            "text": "I'm a student and I'm happy and I'm at home.",
-            "feedback": "Правильно! Союзы 'and' объединяют все части"
+            "text": "I'm a student, I'm happy, and I'm at home.",
+            "feedback": "Верно. And завершает перечисление трёх полных утверждений."
           },
           {
             "id": "c",
             "text": "I'm a student, happy, at home.",
-            "feedback": "Нет, каждая часть требует свой глагол be"
+            "feedback": "Это не три полных утверждения, соединённых and."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Для объединения нескольких частей используются союзы 'and': 'I'm a student and I'm happy and I'm at home'.",
+        "explanation": "I'm a student, I'm happy, and I'm at home объединяет профессию/статус, состояние и место. Здесь у каждой части своё I am, но повторять be нужно не во всех конструкциях с and.",
         "tags": [
           "combining"
         ]
@@ -993,7 +993,7 @@
       {
         "id": "q49",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: **She's a teacher ___ she's happy ___ she's at school.** (союз)",
+        "prompt": "Она учительница, и она счастлива, и она сейчас в школе: **She's a teacher ___ she's happy and she's at school.** (союз со значением «и»)",
         "theory_block_id": "b5_theory_combining_types",
         "difficulty": 3,
         "correct_answer": "and",
@@ -1005,11 +1005,11 @@
       {
         "id": "q50",
         "type": "true_false",
-        "prompt": "Верно ли утверждение?\n\n**В объединенных предложениях можно использовать запятую вместо союза 'and'.**",
+        "prompt": "Верно ли утверждение?\n\n**В нейтральном письменном английском два самостоятельных утверждения I am happy и she is tired правильно соединить одной запятой: I am happy, she is tired.**",
         "theory_block_id": "b5_theory_combining_types",
         "difficulty": 3,
         "correct_answer": "false",
-        "explanation": "Нет, неверно. Для объединения частей предложения нужен союз 'and'. Запятая без союза неверна.",
+        "explanation": "Неверно. Для двух самостоятельных частей одной запятой недостаточно. Можно добавить and или but, поставить точку с запятой либо разделить их точкой.",
         "tags": [
           "combining"
         ]
@@ -1104,7 +1104,7 @@
       {
         "id": "q54",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: **We're ___ home.** (предлог)",
+        "prompt": "Мы сейчас дома: **We're ___ home.** (предлог места)",
         "theory_block_id": "b3_theory_location_statements",
         "difficulty": 2,
         "correct_answer": "at",
@@ -1132,7 +1132,7 @@
         "theory_block_id": "b1_theory_identity_statements",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Нет, неверно. С множественным числом артикль не используется: 'We are students' (не 'a students').",
+        "explanation": "Неверно. Множественное число может употребляться без артикля: We are students. A/an с ним не употребляются; the возможно в подходящем контексте.",
         "tags": [
           "identity"
         ]
@@ -1186,7 +1186,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:23:57Z",
+    "updated_at": "2026-09-04T10:36:43Z",
     "source": "llm"
   }
 }

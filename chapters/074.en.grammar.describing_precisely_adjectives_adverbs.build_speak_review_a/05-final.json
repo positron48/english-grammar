@@ -278,7 +278,7 @@
       {
         "id": "q4",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'Great movie. It is a movie.'",
+        "prompt": "Замените два отрывочных и повторяющихся предложения одним полным: 'Great movie. It is a movie.'",
         "theory_block_id": "b1_review_structure",
         "difficulty": 2,
         "choices": [
@@ -296,7 +296,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Нужно сразу дать полное описание: It's a great movie."
+        "explanation": "Целевой краткий вариант — `It's a great movie`. Вариант C тоже грамматичен, но добавляет новую деталь о сюжете."
       },
       {
         "id": "q5",
@@ -320,16 +320,16 @@
       {
         "id": "q8",
         "type": "true_false",
-        "prompt": "Верно или неверно: «A review can be only one sentence if it includes all key points.»",
+        "prompt": "Верно или неверно: «Короткий отзыв всегда должен состоять только из одного предложения.»",
         "theory_block_id": "b1_review_structure",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Для всех пунктов обычно нужно 3–5 предложений."
+        "explanation": "Обычно несколько коротких предложений позволяют яснее дать описание, мнение, сравнение и рекомендацию."
       },
       {
         "id": "q9",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'I recommend it because is cheap.'",
+        "prompt": "Исправьте пропущенное подлежащее, используя полную форму `it is`: 'I recommend it because is cheap.'",
         "theory_block_id": "b1_review_structure",
         "difficulty": 2,
         "choices": [
@@ -347,7 +347,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Нужно подлежащее: because it is cheap."
+        "explanation": "После `because` нужно полное предложение: `because it is cheap`. Сокращение `because it's cheap` тоже грамматично, но условие просит полную форму."
       },
       {
         "id": "q10",
@@ -656,7 +656,7 @@
         "theory_block_id": "b4_comparisons",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Not as…as можно переформулировать как worse than."
+        "explanation": "В обычном сравнении `not as good as` означает, что первый объект хуже второго. Оттенки формулировок могут различаться по контексту."
       },
       {
         "id": "q46",
@@ -736,7 +736,7 @@
       {
         "id": "q52",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'It's worth to buy.'",
+        "prompt": "Исправьте `worth to buy`, сохранив глагол `buy`: 'It's worth to buy.'",
         "theory_block_id": "b5_recommendation",
         "difficulty": 2,
         "choices": [
@@ -754,7 +754,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "После worth используется герундий: worth buying."
+        "explanation": "После `worth` глагол ставится в форме `-ing`: `It's worth buying`. `It's worth it` тоже грамматично, но не сохраняет глагол `buy`."
       },
       {
         "id": "q53",
@@ -806,7 +806,7 @@
       {
         "id": "q57",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'I recommend it for the service was great.'",
+        "prompt": "Замените `for` союзом, вводящим полное придаточное причины: 'I recommend it for the service was great.'",
         "theory_block_id": "b5_recommendation",
         "difficulty": 2,
         "choices": [
@@ -824,7 +824,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Нужен because для придаточного предложения."
+        "explanation": "Перед полным предложением используется `because`: `because the service was great`. `For the service` тоже грамматично как предложная группа, но это другая структура."
       },
       {
         "id": "q58",
@@ -923,7 +923,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:24Z",
+    "updated_at": "2026-09-05T08:52:25Z",
     "source": "llm"
   }
 }

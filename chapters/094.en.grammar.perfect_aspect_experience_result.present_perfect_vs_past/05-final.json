@@ -392,8 +392,8 @@
           },
           {
             "id": "b",
-            "text": "Did / try",
-            "feedback": "Past Simple требует конкретного времени."
+            "text": "Did / tried",
+            "feedback": "После did нужен инфинитив без to: try, а не tried."
           },
           {
             "id": "c",
@@ -416,7 +416,7 @@
       {
         "id": "q8",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: **They ___ to Japan.**",
+        "prompt": "Выберите Present Perfect для опыта без указания завершённого времени: **They ___ to Japan.**",
         "theory_block_id": "b1_theory_finished_time",
         "difficulty": 2,
         "choices": [
@@ -446,7 +446,7 @@
         "theory_block_id": "b1_theory_finished_time",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Отсутствие конкретного времени обычно ведет к Present Perfect (опыт/результат)."
+        "explanation": "Present Perfect возможен, когда речь идёт об опыте или результате и не названо завершённое время. Само отсутствие маркера ещё не определяет время без контекста."
       },
       {
         "id": "q10",
@@ -573,11 +573,11 @@
       {
         "id": "q16",
         "type": "true_false",
-        "prompt": "Верно или неверно: Past Simple используется, когда результат важен сейчас.",
+        "prompt": "Верно ли: для текущего результата без завершённого времени подходит только Past Simple?",
         "theory_block_id": "b2_theory_result_now",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "Результат, актуальный сейчас, обычно выражается Present Perfect."
+        "explanation": "Нет. Целевая модель главы связывает такой текущий результат с Present Perfect."
       },
       {
         "id": "q17",
@@ -608,7 +608,7 @@
       {
         "id": "q18",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: **The room looks great. They ___ it.**",
+        "prompt": "Комната сейчас выглядит отлично. Выберите Present Perfect, который связывает это с завершённой уборкой.",
         "theory_block_id": "b2_theory_result_now",
         "difficulty": 2,
         "choices": [
@@ -678,28 +678,28 @@
       {
         "id": "q22",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите лучшую правку:\n\n**I am tired because I have slept late last night.**",
+        "prompt": "Найдите ошибку и выберите лучшую правку:\n\n**I am tired because I have gone to bed late last night.**",
         "theory_block_id": "b2_theory_result_now",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "I am tired because I slept late last night.",
+            "text": "I am tired because I went to bed late last night.",
             "feedback": "Last night требует Past Simple."
           },
           {
             "id": "b",
-            "text": "I am tired because I have slept late.",
-            "feedback": "Время не указано, но меняется смысл."
+            "text": "I am tired because I have gone to bed late last night.",
+            "feedback": "Last night — конкретное завершенное время, поэтому Present Perfect здесь не подходит."
           },
           {
             "id": "c",
-            "text": "I was tired because I have slept late last night.",
-            "feedback": "Время все равно некорректно."
+            "text": "I was tired because I go to bed late last night.",
+            "feedback": "С last night нужен Past Simple: went to bed."
           }
         ],
         "correct_answer": "a",
-        "explanation": "С **last night** нужен Past Simple: **slept**."
+        "explanation": "Last night — завершённое время, поэтому нужен Past Simple: went to bed."
       },
       {
         "id": "q23",
@@ -800,11 +800,11 @@
       {
         "id": "q28",
         "type": "true_false",
-        "prompt": "Верно или неверно: слово *already* обычно используется с Past Simple.",
+        "prompt": "Верно ли: already используется только с Past Simple?",
         "theory_block_id": "b3_theory_time_markers",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "Already чаще сочетается с Present Perfect."
+        "explanation": "Нет. Already часто употребляется с Present Perfect, хотя в подходящем контексте возможно и Past Simple."
       },
       {
         "id": "q29",
@@ -844,7 +844,7 @@
       {
         "id": "q32",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: **I ___ that film before.**",
+        "prompt": "Выберите Present Perfect для опыта до настоящего момента: **I ___ that film before.**",
         "theory_block_id": "b3_theory_time_markers",
         "difficulty": 2,
         "choices": [
@@ -966,11 +966,11 @@
       {
         "id": "q40",
         "type": "true_false",
-        "prompt": "Верно или неверно: вопрос с *when* обычно строится в Present Perfect.",
+        "prompt": "Верно ли: обычный вопрос, уточняющий конкретное время с when, строится в Present Perfect?",
         "theory_block_id": "b4_theory_questions_follow_up",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "When требует Past Simple, потому что запрашивает конкретное время."
+        "explanation": "Для обычного уточнения времени используется Past Simple: When did it happen?"
       },
       {
         "id": "q41",
@@ -1132,7 +1132,7 @@
       {
         "id": "q49",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: **I ___ three emails today.**",
+        "prompt": "День ещё продолжается. Выберите Present Perfect по целевой модели открытого периода: **I ___ three emails today.**",
         "theory_block_id": "b5_theory_open_closed_time",
         "difficulty": 2,
         "choices": [
@@ -1153,7 +1153,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Период today еще не завершен, поэтому Present Perfect: **have sent**."
+        "explanation": "В целевой модели главы незавершённый период today связывается с Present Perfect: have sent."
       },
       {
         "id": "q50",
@@ -1228,7 +1228,7 @@
       {
         "id": "q54",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: **It's only 10 a.m., and I ___ two coffees already.**",
+        "prompt": "Сейчас только 10 утра. Выберите Present Perfect для результата в продолжающемся периоде: **I ___ two coffees already.**",
         "theory_block_id": "b5_theory_open_closed_time",
         "difficulty": 2,
         "choices": [
@@ -1249,16 +1249,16 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Период еще открыт (утро продолжается), поэтому **have had**."
+        "explanation": "Утро продолжается, а already подчёркивает результат к текущему моменту, поэтому целевая форма — have had."
       },
       {
         "id": "q55",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: **We have ___ to the museum this morning (it's still morning).** (go)",
+        "prompt": "Заполните пропуск: **They have ___ to the museum this morning and they're still there.** (go)",
         "theory_block_id": "b5_theory_open_closed_time",
         "difficulty": 2,
         "correct_answer": "gone",
-        "explanation": "Утро еще продолжается, поэтому допустим Present Perfect: **have gone**."
+        "explanation": "Люди ушли в музей и ещё там, поэтому используется gone."
       },
       {
         "id": "q56",
@@ -1422,7 +1422,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:49:01Z",
+    "updated_at": "2026-09-05T19:39:07Z",
     "source": "llm"
   }
 }

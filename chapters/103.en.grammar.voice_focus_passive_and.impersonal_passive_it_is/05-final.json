@@ -317,7 +317,7 @@
       {
         "id": "q6",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: He is believed ___ a leading expert.",
+        "prompt": "Выберите правильный вариант для текущего положения дел: He is believed ___ a leading expert now.",
         "theory_block_id": "b2_theory_he_passive",
         "difficulty": 2,
         "choices": [
@@ -339,7 +339,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Личная форма требует to + V1: is believed to be.",
+        "explanation": "Для состояния, которое считают верным сейчас, используется to be. To have been перенесло бы состояние в прошлое.",
         "tags": []
       },
       {
@@ -517,7 +517,7 @@
       {
         "id": "q18",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант для официального стиля.",
+        "prompt": "Выберите наиболее безличный и нейтральный вариант для официального сообщения.",
         "theory_block_id": "b5_theory_style_contexts",
         "difficulty": 2,
         "choices": [
@@ -539,7 +539,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Безличный пассив характерен для официального стиля.",
+        "explanation": "It is expected that... не называет источник ожидания и поэтому подходит для безличного официального сообщения. Остальные варианты грамматичны, но явно называют людей.",
         "tags": []
       },
       {
@@ -565,7 +565,7 @@
       {
         "id": "q21",
         "type": "mcq_single",
-        "prompt": "Выберите правильную форму: He is said ___ very wealthy.",
+        "prompt": "Выберите правильную форму для текущего состояния: He is said ___ very wealthy now.",
         "theory_block_id": "b2_theory_he_passive",
         "difficulty": 2,
         "choices": [
@@ -587,7 +587,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Личная форма требует to + V1: is said to be.",
+        "explanation": "Текущее состояние передаётся через is said to be. To have been означало бы, что он был богат раньше.",
         "tags": []
       },
       {
@@ -975,7 +975,7 @@
       {
         "id": "q44",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"It is believed he is innocent.\"",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"It believed that he is innocent.\"",
         "theory_block_id": "b1_theory_it_passive",
         "difficulty": 2,
         "choices": [
@@ -985,7 +985,8 @@
           },
           {
             "id": "b",
-            "text": "It is believed he is innocent."
+            "text": "It is believed he is innocent.",
+            "feedback": "Грамматически возможно с опущенным that, но это не исправление отсутствующего is в исходной фразе."
           },
           {
             "id": "c",
@@ -997,7 +998,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "В it-форме обычно нужен that.",
+        "explanation": "В безличном пассиве нужен вспомогательный глагол is: It is believed that.... Вариант без that также возможен, особенно вне строгого формального стиля.",
         "tags": []
       },
       {
@@ -1317,7 +1318,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:49:02Z",
+    "updated_at": "2026-09-05T21:16:51Z",
     "source": "llm"
   }
 }

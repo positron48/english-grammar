@@ -510,7 +510,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Вопрос в Past Simple начинается с вспомогательного глагола did. 'Did you work yesterday?' — правильный вопрос.",
+        "explanation": "Did you work yesterday? — общий вопрос в Past Simple: did стоит перед you, а work — в базовой форме.",
         "tags": [
           "basics",
           "question_form"
@@ -519,7 +519,7 @@
       {
         "id": "q2",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ you see that movie?\" (вспомогательный глагол)",
+        "prompt": "Заполните пропуск в вопросе Past Simple без отрицания: \"___ you see that movie?\" (вспомогательный глагол)",
         "theory_block_id": "b1_theory_did_basics",
         "difficulty": 2,
         "correct_answer": "Did",
@@ -532,24 +532,24 @@
       {
         "id": "q3",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант. Что нужно добавить, чтобы превратить утверждение \"She went home\" в вопрос?",
+        "prompt": "Как превратить «She went home» в обычный общий вопрос с обратным порядком подлежащего и вспомогательного глагола?",
         "theory_block_id": "b1_theory_did_basics",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Добавить did в начало и изменить went на go",
-            "feedback": "Правильно! Did she go home? — правильный порядок"
+            "text": "Добавить did в начало и изменить went на go.",
+            "feedback": "Верно: Did she go home?"
           },
           {
             "id": "b",
-            "text": "Просто поставить знак вопроса",
-            "feedback": "Нет, в английском нужен вспомогательный глагол для вопроса"
+            "text": "Просто поставить знак вопроса.",
+            "feedback": "She went home? возможно как переспрос, но здесь требуется обычный вопрос с обратным порядком слов."
           },
           {
             "id": "c",
-            "text": "Добавить do в начало",
-            "feedback": "Нет, в прошедшем времени используется did, а не do"
+            "text": "Добавить do в начало.",
+            "feedback": "Do не выражает Past Simple; нужен did."
           }
         ],
         "correct_answer": "a",
@@ -562,28 +562,28 @@
       {
         "id": "q5",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант. В каком предложении правильно использован вспомогательный глагол в прошедшем времени?",
+        "prompt": "Выберите обычный общий вопрос в Past Simple, в котором вспомогательный глагол стоит перед подлежащим.",
         "theory_block_id": "b1_theory_did_basics",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "I did work?",
-            "feedback": "Нет, неправильный порядок слов"
+            "feedback": "Это возможно как переспрос; условие требует did перед I."
           },
           {
             "id": "b",
             "text": "Did I work?",
-            "feedback": "Правильно! Did стоит перед подлежащим I"
+            "feedback": "Верно: did стоит перед подлежащим I."
           },
           {
             "id": "c",
             "text": "Work I did?",
-            "feedback": "Нет, это неправильный порядок слов"
+            "feedback": "Такой порядок не соответствует заданной структуре."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Правильный вариант: 'Did I work?'. В вопросах вспомогательный глагол did всегда стоит перед подлежащим.",
+        "explanation": "В обычном общем вопросе Did I work? порядок такой: did + подлежащее + базовая форма глагола.",
         "tags": [
           "basics",
           "word_order"
@@ -592,7 +592,7 @@
       {
         "id": "q6",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ she go home?\" (вспомогательный глагол)",
+        "prompt": "Заполните пропуск в вопросе Past Simple без отрицания: \"___ she go home?\" (вспомогательный глагол)",
         "theory_block_id": "b1_theory_did_basics",
         "difficulty": 2,
         "correct_answer": "Did",
@@ -635,7 +635,7 @@
       {
         "id": "q9",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ he finish the book?\" (вспомогательный глагол)",
+        "prompt": "Заполните пропуск в вопросе Past Simple без отрицания: \"___ he finish the book?\" (вспомогательный глагол)",
         "theory_block_id": "b1_theory_did_basics",
         "difficulty": 2,
         "correct_answer": "Did",
@@ -692,7 +692,7 @@
       {
         "id": "q14",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ they understand?\" (вспомогательный глагол)",
+        "prompt": "Заполните пропуск в вопросе Past Simple без отрицания: \"___ they understand?\" (вспомогательный глагол)",
         "theory_block_id": "b2_theory_did_universal",
         "difficulty": 2,
         "correct_answer": "Did",
@@ -705,7 +705,7 @@
       {
         "id": "q15",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант. В каком предложении правильно используется did?",
+        "prompt": "Какой вопрос построен в Past Simple?",
         "theory_block_id": "b2_theory_did_universal",
         "difficulty": 1,
         "choices": [
@@ -735,28 +735,28 @@
       {
         "id": "q16",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант. С каким местоимением используется did?",
+        "prompt": "Какую форму нужно поставить в оба пропуска в вопросах Past Simple: «___ I help?» и «___ she help?»",
         "theory_block_id": "b2_theory_did_universal",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "I, you, he, she, it, we, they",
-            "feedback": "Правильно! Did используется со всеми местоимениями"
+            "text": "Did в обоих вопросах.",
+            "feedback": "Форма did одинакова при I и she."
           },
           {
             "id": "b",
-            "text": "Только с I, you, we, they",
-            "feedback": "Нет, did используется со всеми"
+            "text": "Do в первом, does во втором.",
+            "feedback": "Это формы Present Simple."
           },
           {
             "id": "c",
-            "text": "Только с he, she, it",
-            "feedback": "Нет, did используется со всеми местоимениями в Past Simple"
+            "text": "Did в первом, does во втором.",
+            "feedback": "Does не выражает Past Simple."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Did используется со всеми местоимениями в Past Simple. Это отличие от Present Simple, где используется do для одних и does для других.",
+        "explanation": "В Past Simple вспомогательный did не изменяется по лицам: Did I help? Did she help?",
         "tags": [
           "universal",
           "did"
@@ -765,7 +765,7 @@
       {
         "id": "q17",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ I see you yesterday?\" (вспомогательный глагол)",
+        "prompt": "Заполните пропуск в вопросе Past Simple без отрицания: \"___ I see you yesterday?\" (вспомогательный глагол)",
         "theory_block_id": "b2_theory_did_universal",
         "difficulty": 2,
         "correct_answer": "Did",
@@ -784,18 +784,18 @@
         "choices": [
           {
             "id": "a",
-            "text": "Did используется со всеми подлежащими, а do/does — нет",
-            "feedback": "Правильно! Did универсален для всех"
+            "text": "Did не меняется по лицам; в Present Simple выбирают do или does.",
+            "feedback": "Верно: Did I…? Did she…?, но Do I…? Does she…?"
           },
           {
             "id": "b",
-            "text": "Did используется только с he/she/it",
-            "feedback": "Нет, did используется со всеми"
+            "text": "Did используется только с he, she и it.",
+            "feedback": "Did используется также с I, you, we и they."
           },
           {
             "id": "c",
-            "text": "Нет отличий",
-            "feedback": "Нет, есть отличие"
+            "text": "Do, does и did обозначают одно и то же время.",
+            "feedback": "Do/does относятся к Present Simple, did — к Past Simple."
           }
         ],
         "correct_answer": "a",
@@ -808,7 +808,7 @@
       {
         "id": "q19",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ she come?\" (вспомогательный глагол для she в прошедшем времени)",
+        "prompt": "Заполните пропуск в вопросе Past Simple без отрицания: \"___ she come?\" (вспомогательный глагол для she в прошедшем времени)",
         "theory_block_id": "b2_theory_did_universal",
         "difficulty": 2,
         "correct_answer": "Did",
@@ -848,7 +848,7 @@
       {
         "id": "q22",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ we leave?\" (вспомогательный глагол)",
+        "prompt": "Заполните пропуск в вопросе Past Simple без отрицания: \"___ we leave?\" (вспомогательный глагол)",
         "theory_block_id": "b2_theory_did_universal",
         "difficulty": 2,
         "correct_answer": "Did",
@@ -861,28 +861,28 @@
       {
         "id": "q23",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант. Почему did проще, чем do/does?",
+        "prompt": "Что происходит с формой did при замене подлежащего you на he в вопросе Past Simple?",
         "theory_block_id": "b2_theory_did_universal",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Did используется со всеми подлежащими, не нужно выбирать форму",
-            "feedback": "Правильно! Did универсален"
+            "text": "Did остаётся без изменений.",
+            "feedback": "Верно: Did you…? → Did he…?"
           },
           {
             "id": "b",
-            "text": "Did короче, чем do/does",
-            "feedback": "Нет, дело не в длине"
+            "text": "Did меняется на does.",
+            "feedback": "Does используется в Present Simple."
           },
           {
             "id": "c",
-            "text": "Did легче произносить",
-            "feedback": "Нет, дело не в произношении"
+            "text": "К did добавляется окончание -s.",
+            "feedback": "Формы dids не существует."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Правильный ответ: did проще, потому что он используется со всеми подлежащими без исключений, в отличие от do/does, где нужно выбирать форму в зависимости от подлежащего.",
+        "explanation": "Вспомогательный did одинаков для всех лиц и чисел: Did you work? Did he work?",
         "tags": [
           "universal",
           "comparison"
@@ -905,7 +905,7 @@
       {
         "id": "q25",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант. Как правильно задать общий вопрос к предложению \"You visited your parents\"?",
+        "prompt": "Превратите «You visited your parents» в обычный общий вопрос с did перед подлежащим.",
         "theory_block_id": "b3_theory_yes_no_questions_did",
         "difficulty": 2,
         "choices": [
@@ -932,7 +932,7 @@
       {
         "id": "q26",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ you see that?\" (вспомогательный глагол)",
+        "prompt": "Заполните пропуск в вопросе Past Simple без отрицания: \"___ you see that?\" (вспомогательный глагол)",
         "theory_block_id": "b3_theory_yes_no_questions_did",
         "difficulty": 2,
         "correct_answer": "Did",
@@ -975,7 +975,7 @@
       {
         "id": "q29",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант. Как правильно задать общий вопрос к предложению \"They finished the work\"?",
+        "prompt": "Выберите правильный вариант. Как задать обычный общий вопрос с did перед подлежащим к предложению \"They finished the work\"?",
         "theory_block_id": "b3_theory_yes_no_questions_did",
         "difficulty": 2,
         "choices": [
@@ -987,7 +987,7 @@
           {
             "id": "b",
             "text": "They did finish the work?",
-            "feedback": "Нет, did должен стоять перед подлежащим"
+            "feedback": "Так можно переспросить, но условие требует обычный вопрос с did перед подлежащим."
           },
           {
             "id": "c",
@@ -996,7 +996,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Правильный вариант: 'Did they finish the work?'. В вопросах вспомогательный глагол did всегда стоит перед подлежащим.",
+        "explanation": "В обычном общем вопросе используется порядок did + подлежащее + базовая форма глагола.",
         "tags": [
           "yes_no",
           "word_order"
@@ -1005,7 +1005,7 @@
       {
         "id": "q30",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ he understand?\" (вспомогательный глагол)",
+        "prompt": "Заполните пропуск в вопросе Past Simple без отрицания: \"___ he understand?\" (вспомогательный глагол)",
         "theory_block_id": "b3_theory_yes_no_questions_did",
         "difficulty": 2,
         "correct_answer": "Did",
@@ -1062,7 +1062,7 @@
       {
         "id": "q34",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ it rain yesterday?\" (вспомогательный глагол)",
+        "prompt": "Заполните пропуск в вопросе Past Simple без отрицания: \"___ it rain yesterday?\" (вспомогательный глагол)",
         "theory_block_id": "b3_theory_yes_no_questions_did",
         "difficulty": 2,
         "correct_answer": "Did",
@@ -1075,7 +1075,7 @@
       {
         "id": "q36",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант. Как правильно задать общий вопрос к предложению \"We played tennis\"?",
+        "prompt": "Выберите правильный вариант. Как задать обычный общий вопрос с did перед подлежащим к предложению \"We played tennis\"?",
         "theory_block_id": "b3_theory_yes_no_questions_did",
         "difficulty": 2,
         "choices": [
@@ -1087,7 +1087,7 @@
           {
             "id": "b",
             "text": "We did play tennis?",
-            "feedback": "Нет, did должен стоять перед подлежащим"
+            "feedback": "Так можно переспросить, но условие требует обычный вопрос с did перед подлежащим."
           },
           {
             "id": "c",
@@ -1096,7 +1096,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Правильный вариант: 'Did we play tennis?'. В вопросах вспомогательный глагол did всегда стоит перед подлежащим.",
+        "explanation": "В обычном общем вопросе используется порядок did + подлежащее + базовая форма глагола.",
         "tags": [
           "yes_no",
           "word_order"
@@ -1105,7 +1105,7 @@
       {
         "id": "q37",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант. Как правильно задать специальный вопрос к предложению \"You went to London\"?",
+        "prompt": "Задайте обычный вопрос о месте назначения к предложению «You went to London».",
         "theory_block_id": "b4_theory_wh_questions_did",
         "difficulty": 2,
         "choices": [
@@ -1126,7 +1126,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Правильный вариант: 'Where did you go?'. В специальных вопросах порядок: вопросительное слово + did + подлежащее + глагол.",
+        "explanation": "В вопросе о месте назначения используется Where did you go? После where стоят did, подлежащее you и базовая форма go.",
         "tags": [
           "wh_questions",
           "where"
@@ -1148,7 +1148,7 @@
       {
         "id": "q39",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант. Как правильно задать специальный вопрос к предложению \"She saw him yesterday\"?",
+        "prompt": "Задайте обычный вопрос о времени действия к предложению «She saw him yesterday».",
         "theory_block_id": "b4_theory_wh_questions_did",
         "difficulty": 2,
         "choices": [
@@ -1169,7 +1169,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Правильный вариант: 'When did she see him?'. В специальных вопросах порядок: вопросительное слово + did + подлежащее + глагол в базовой форме.",
+        "explanation": "When did she see him? — вопрос о времени действия. После did используется see, а не saw.",
         "tags": [
           "wh_questions",
           "when"
@@ -1178,11 +1178,11 @@
       {
         "id": "q41",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ did she go?\" (где)",
+        "prompt": "Заполните пропуск: \"___ did she go?\" (куда)",
         "theory_block_id": "b4_theory_wh_questions_did",
         "difficulty": 2,
         "correct_answer": "Where",
-        "explanation": "Правильный ответ: 'Where'. Вопросительное слово Where стоит в начале специального вопроса.",
+        "explanation": "Where did she go? означает «Куда она пошла?». Where здесь спрашивает о месте назначения.",
         "tags": [
           "wh_questions",
           "where"
@@ -1195,7 +1195,7 @@
         "theory_block_id": "b4_theory_wh_questions_did",
         "difficulty": 3,
         "correct_answer": "How did you get there?",
-        "explanation": "Правильный порядок: How (вопросительное слово) + did (вспомогательный глагол) + you (подлежащее) + get (глагол в базовой форме) + there (дополнение).",
+        "explanation": "Порядок: How + did + you + get + there. There указывает место назначения: «туда».",
         "tags": [
           "wh_questions",
           "reorder"
@@ -1218,7 +1218,7 @@
       {
         "id": "q45",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант. Как правильно задать специальный вопрос к предложению \"They left at 5 o'clock\"?",
+        "prompt": "Задайте обычный вопрос о времени ухода к предложению «They left at 5 o’clock».",
         "theory_block_id": "b4_theory_wh_questions_did",
         "difficulty": 2,
         "choices": [
@@ -1239,7 +1239,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Правильный вариант: 'When did they leave?'. В специальных вопросах порядок: вопросительное слово + did + подлежащее + глагол в базовой форме.",
+        "explanation": "When did they leave? — вопрос о времени ухода. После did используется базовая форма leave.",
         "tags": [
           "wh_questions",
           "when"
@@ -1275,7 +1275,7 @@
       {
         "id": "q49",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант. Какая форма глагола идет после did?",
+        "prompt": "Какая форма смыслового глагола используется с вспомогательным did в вопросе Past Simple?",
         "theory_block_id": "b5_theory_verb_form_after_did",
         "difficulty": 1,
         "choices": [
@@ -1373,7 +1373,7 @@
           {
             "id": "b",
             "text": "Потому что это правило для всех времен",
-            "feedback": "Нет, это правило только для Past Simple"
+            "feedback": "У разных времён разные конструкции: например, has worked включает V3, а did work — базовую форму."
           },
           {
             "id": "c",
@@ -1421,7 +1421,7 @@
       {
         "id": "q61",
         "type": "mcq_single",
-        "prompt": "Выберите правильный краткий ответ на вопрос \"Did you work?\"",
+        "prompt": "Выберите краткий утвердительный ответ без повторения смыслового глагола на вопрос \"Did you work?\"",
         "theory_block_id": "b6_theory_short_answers_did",
         "difficulty": 1,
         "choices": [
@@ -1433,7 +1433,7 @@
           {
             "id": "b",
             "text": "Yes, I worked.",
-            "feedback": "Нет, в кратком ответе используем did, а не повторяем глагол в форме прошедшего времени"
+            "feedback": "Это грамматически правильный ответ с повторением смыслового глагола; условие требует краткую форму без него."
           },
           {
             "id": "c",
@@ -1451,7 +1451,7 @@
       {
         "id": "q63",
         "type": "mcq_single",
-        "prompt": "Выберите правильный краткий ответ на вопрос \"Did she go?\"",
+        "prompt": "Выберите краткий утвердительный ответ без повторения смыслового глагола на вопрос \"Did she go?\"",
         "theory_block_id": "b6_theory_short_answers_did",
         "difficulty": 1,
         "choices": [
@@ -1463,7 +1463,7 @@
           {
             "id": "b",
             "text": "Yes, she went.",
-            "feedback": "Нет, в кратком ответе используем did, а не повторяем глагол в форме прошедшего времени"
+            "feedback": "Это грамматически правильный ответ с повторением смыслового глагола; условие требует краткую форму без него."
           },
           {
             "id": "c",
@@ -1481,7 +1481,7 @@
       {
         "id": "q66",
         "type": "mcq_single",
-        "prompt": "Выберите правильный краткий ответ на вопрос \"Did they come?\"",
+        "prompt": "Выберите краткий утвердительный ответ без повторения смыслового глагола на вопрос \"Did they come?\"",
         "theory_block_id": "b6_theory_short_answers_did",
         "difficulty": 1,
         "choices": [
@@ -1493,7 +1493,7 @@
           {
             "id": "b",
             "text": "Yes, they came.",
-            "feedback": "Нет, в кратком ответе используем did, а не повторяем глагол"
+            "feedback": "Это грамматически правильный ответ с повторением смыслового глагола; условие требует краткую форму без него."
           },
           {
             "id": "c",
@@ -1511,7 +1511,7 @@
       {
         "id": "q69",
         "type": "mcq_single",
-        "prompt": "Выберите правильный краткий ответ на вопрос \"Did it work?\"",
+        "prompt": "Выберите краткий утвердительный ответ без повторения смыслового глагола на вопрос \"Did it work?\"",
         "theory_block_id": "b6_theory_short_answers_did",
         "difficulty": 1,
         "choices": [
@@ -1523,7 +1523,7 @@
           {
             "id": "b",
             "text": "Yes, it worked.",
-            "feedback": "Нет, в кратком ответе используем did, а не повторяем глагол"
+            "feedback": "Это грамматически правильный ответ с повторением смыслового глагола; условие требует краткую форму без него."
           },
           {
             "id": "c",
@@ -1541,7 +1541,7 @@
       {
         "id": "q71",
         "type": "mcq_single",
-        "prompt": "Выберите правильный краткий ответ на вопрос \"Did we win?\"",
+        "prompt": "Выберите краткий утвердительный ответ без повторения смыслового глагола на вопрос \"Did we win?\"",
         "theory_block_id": "b6_theory_short_answers_did",
         "difficulty": 1,
         "choices": [
@@ -1620,7 +1620,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:18Z",
+    "updated_at": "2026-09-04T17:14:06Z",
     "source": "llm"
   }
 }

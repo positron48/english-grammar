@@ -469,7 +469,7 @@
           },
           {
             "id": "c",
-            "text": "We stayed in London for a weekend."
+            "text": "We stayed on London for two days."
           }
         ],
         "correct_answer": "a",
@@ -478,11 +478,11 @@
       },
       {
         "type": "true_false",
-        "prompt": "Верно или неверно: «At can describe a city when we treat it as a point on a route.»",
+        "prompt": "Верно или неверно: «A city name can follow 'at' when it identifies a stop on a route, as in 'The train stops at York'.»",
         "theory_block_id": "b1_place_logic_point_area_surface",
         "difficulty": 3,
         "correct_answer": "true",
-        "explanation": "Если город — точка на маршруте или место встречи, возможен **at**. Это соответствует логике «точки».",
+        "explanation": "В расписаниях и описаниях маршрута **at + название города** может обозначать остановку как точку. Когда речь идёт о нахождении внутри города, обычно используется **in**.",
         "id": "q12"
       },
       {
@@ -674,25 +674,25 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'He is at the car.'",
+        "prompt": "Найдите ошибку в предложении о пассажире внутри машины: 'He is sitting at the car.'",
         "theory_block_id": "b3_place_in_enclosed",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "He is in the car."
+            "text": "He is sitting in the car."
           },
           {
             "id": "b",
-            "text": "He is at the car."
+            "text": "He is sitting at the car."
           },
           {
             "id": "c",
-            "text": "He is in the car right now."
+            "text": "He is sitting on the car."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Если человек внутри машины, используется **in**. **At the car** обычно означает рядом с машиной.",
+        "explanation": "Если пассажир находится внутри машины, используется **in the car**. **At the car** означает «у машины», а **on the car** — «на машине».",
         "id": "q28"
       },
       {
@@ -738,7 +738,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'The kids are at the box.'",
+        "prompt": "Найдите ошибку в предложении о детях внутри большой коробки: 'The kids are at the box.'",
         "theory_block_id": "b3_place_in_enclosed",
         "difficulty": 2,
         "choices": [
@@ -752,11 +752,11 @@
           },
           {
             "id": "c",
-            "text": "The kids are in the big box."
+            "text": "The kids are on the big box."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Если речь о нахождении внутри коробки, нужен **in**. **At** означает рядом.",
+        "explanation": "Для положения внутри коробки нужен **in**. **At** означает нахождение у коробки, а **on** — на её поверхности.",
         "id": "q32"
       },
       {
@@ -880,7 +880,7 @@
           },
           {
             "id": "c",
-            "text": "The picture is on the wall near the door."
+            "text": "The picture is at the wall near the door."
           }
         ],
         "correct_answer": "a",
@@ -989,7 +989,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Город расположен вдоль линии/поверхности реки, поэтому **on the river**.",
+        "explanation": "Выражение **on the river** означает, что город расположен у реки или на её берегу. Здесь река служит географическим ориентиром.",
         "id": "q48"
       },
       {
@@ -1045,7 +1045,7 @@
           },
           {
             "id": "c",
-            "text": "He was between his two friends."
+            "text": "He was between of his two friends."
           }
         ],
         "correct_answer": "a",
@@ -1202,7 +1202,7 @@
           },
           {
             "id": "c",
-            "text": "The cafe is opposite the hotel."
+            "text": "The cafe is in front to the hotel."
           }
         ],
         "correct_answer": "a",
@@ -1247,7 +1247,7 @@
         "theory_block_id": "b6_place_next_to_near",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Next to означает почти вплотную, а near — просто рядом. Это разные степени близости.",
+        "explanation": "**Next to** означает «непосредственно рядом», а **near** — «недалеко». Эти выражения задают разную степень близости.",
         "id": "q67"
       },
       {
@@ -1266,7 +1266,7 @@
           },
           {
             "id": "c",
-            "text": "The statue is near the museum."
+            "text": "The statue is behind to the museum."
           }
         ],
         "correct_answer": "a",
@@ -1275,7 +1275,7 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: The chair is ___ the desk, not under it.",
+        "prompt": "Выберите правильный вариант: The chair is ___ the desk, facing its front, not under it.",
         "theory_block_id": "b6_place_next_to_near",
         "difficulty": 2,
         "choices": [
@@ -1289,7 +1289,7 @@
           },
           {
             "id": "c",
-            "text": "opposite"
+            "text": "under"
           }
         ],
         "correct_answer": "a",
@@ -1298,7 +1298,7 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Вставьте предлог: The hotel is ___ the river, you can see the water. (предлог места)",
+        "prompt": "Вставьте предлог: The hotel is ___ the river, not far from the water. (предлог места)",
         "theory_block_id": "b6_place_next_to_near",
         "difficulty": 2,
         "correct_answer": "near",
@@ -1316,7 +1316,7 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: The bank is ___ the bakery, with a road between them.",
+        "prompt": "Выберите правильный вариант: The bank is directly ___ the bakery, across the road from it.",
         "theory_block_id": "b6_place_next_to_near",
         "difficulty": 2,
         "choices": [
@@ -1411,7 +1411,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:48:57Z",
+    "updated_at": "2026-09-05T09:23:43Z",
     "source": "llm"
   }
 }

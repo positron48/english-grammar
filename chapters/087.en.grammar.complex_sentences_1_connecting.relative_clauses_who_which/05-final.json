@@ -368,7 +368,7 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "В каком предложении removing the clause меняет смысл так, что объект больше не понятен?",
+        "prompt": "В каком предложении удаление relative clause меняет смысл так, что объект больше нельзя точно определить?",
         "theory_block_id": "b1_theory_defining_purpose",
         "difficulty": 3,
         "choices": [
@@ -989,20 +989,20 @@
           },
           {
             "id": "c",
-            "text": "The people that live here are friendly."
+            "text": "The people where live here are friendly."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для людей используется who/that. Which для людей неверно.",
+        "explanation": "Для людей используется who или that. Which для людей в таком предложении неверно.",
         "id": "q50"
       },
       {
         "type": "true_false",
-        "prompt": "В defining clause нельзя использовать what вместо who/which/that.",
+        "prompt": "Верно ли: после названного существительного в defining clause нельзя использовать what вместо who/which/that?",
         "theory_block_id": "b5_theory_common_errors",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "What не используется как относительное местоимение в таком типе clauses.",
+        "explanation": "После существительного-antecedent нужен who, which или that: the book that I bought. What возможно в свободных относительных конструкциях без такого antecedent: what I bought.",
         "id": "q51"
       },
       {
@@ -1021,11 +1021,11 @@
           },
           {
             "id": "c",
-            "text": "This is the book which I bought yesterday."
+            "text": "This is the book who I bought yesterday."
           }
         ],
         "correct_answer": "a",
-        "explanation": "В defining clause нужно that/which, а не what.",
+        "explanation": "После book в defining clause используются that или which, но не what.",
         "id": "q52"
       },
       {
@@ -1113,13 +1113,13 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"This is the film which I can’t remember the name.\"",
+        "prompt": "Выберите корректное исправление: \"This is the film which I can’t remember the name.\"",
         "theory_block_id": "b5_theory_common_errors",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "This is the film whose name I can’t remember."
+            "text": "This is the film which name I can’t remember."
           },
           {
             "id": "b",
@@ -1131,7 +1131,7 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "Нужна корректная структура: *the film that I can’t remember the name of*.",
+        "explanation": "После name нужен предлог of: the film that I can’t remember the name of. Возможна и конструкция whose name, но форма which name без of неверна.",
         "id": "q60"
       }
     ]
@@ -1192,7 +1192,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:25Z",
+    "updated_at": "2026-09-05T19:02:15Z",
     "source": "llm"
   }
 }

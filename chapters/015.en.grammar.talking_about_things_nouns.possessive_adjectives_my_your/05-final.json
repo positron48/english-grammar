@@ -436,28 +436,28 @@
       {
         "id": "q5",
         "type": "mcq_single",
-        "prompt": "Можно ли использовать притяжательное прилагательное без существительного?",
+        "prompt": "Выберите законченное предложение со словом my.",
         "theory_block_id": "b1_theory_what_are_possessive_adjectives",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Да, всегда",
-            "feedback": "Нет, притяжательные прилагательные всегда используются с существительным, нельзя сказать просто \"This is my\""
+            "text": "This is my.",
+            "feedback": "После my нужно назвать предмет, например book."
           },
           {
             "id": "b",
-            "text": "Нет, никогда",
-            "feedback": "Правильно! Притяжательные прилагательные всегда используются с существительным: my book, не просто my"
+            "text": "This is my book.",
+            "feedback": "My стоит перед существительным book."
           },
           {
             "id": "c",
-            "text": "Иногда",
-            "feedback": "Нет, это правило всегда действует. Притяжательные прилагательные всегда требуют существительного"
+            "text": "This my book.",
+            "feedback": "В этом утверждении пропущена связка is."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Нет, притяжательные прилагательные всегда используются с существительным. Нельзя сказать \"This is my\" — нужно \"This is my book\".",
+        "explanation": "This is my book — законченное утверждение: my определяет существительное book.",
         "tags": [
           "basics",
           "usage"
@@ -595,11 +595,11 @@
       {
         "id": "q13",
         "type": "true_false",
-        "prompt": "Верно или неверно: В английском языке притяжательные прилагательные не изменяются по роду и числу.",
+        "prompt": "Верно или неверно: Форма my не меняется в зависимости от рода или числа предметов, о которых говорят.",
         "theory_block_id": "b2_theory_forms_table",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Верно. В английском языке притяжательные прилагательные не изменяются по роду и числу. My используется и для \"мой\", и для \"моя\", и для \"моё\", и для \"мои\".",
+        "explanation": "Верно: my book, my car, my books. В отличие от русского мой/моя/мои, my не согласуется с названием предмета.",
         "tags": [
           "forms",
           "invariant"
@@ -666,11 +666,11 @@
       {
         "id": "q20",
         "type": "true_false",
-        "prompt": "Верно или неверно: Притяжательное прилагательное my можно использовать с любыми существительными.",
+        "prompt": "Верно или неверно: My можно поставить и перед единственным числом book, и перед множественным books.",
         "theory_block_id": "b3_theory_usage_with_nouns",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Верно. Притяжательное прилагательное my можно использовать с любыми существительными: my book (единственное число) и my books (множественное число).",
+        "explanation": "Верно: my book и my books. Число существительного не меняет форму my.",
         "tags": [
           "usage",
           "my",
@@ -680,28 +680,28 @@
       {
         "id": "q21",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"Anna has ___ book.\"",
+        "prompt": "Предмет принадлежит Anna. Выберите слово со значением «свой/своя»: **Anna has ___ book.**",
         "theory_block_id": "b4_theory_his_vs_her",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "his",
-            "feedback": "Нет, Anna — женщина (she), поэтому используем her, а не his"
+            "feedback": "his отсылало бы к другому владельцу; здесь предмет принадлежит Anna."
           },
           {
             "id": "b",
             "text": "her",
-            "feedback": "Правильно! Anna — женщина (she), поэтому используем her"
+            "feedback": "Her указывает, что предмет принадлежит Anna."
           },
           {
             "id": "c",
             "text": "its",
-            "feedback": "Нет, its используется для предметов и животных (it), а не для людей"
+            "feedback": "its отсылало бы к другому владельцу; здесь предмет принадлежит Anna."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Anna — женщина (she), поэтому используем притяжательное прилагательное her: Anna has her book.",
+        "explanation": "Здесь her указывает на Anna как владельца. В другом контексте Anna может иметь чужой предмет, поэтому само подлежащее не определяет владельца.",
         "tags": [
           "his_her",
           "her",
@@ -711,28 +711,28 @@
       {
         "id": "q22",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"Tom has ___ car.\"",
+        "prompt": "Предмет принадлежит Tom. Выберите слово со значением «свой/своя»: **Tom has ___ car.**",
         "theory_block_id": "b4_theory_his_vs_her",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "his",
-            "feedback": "Правильно! Tom — мужчина (he), поэтому используем his"
+            "feedback": "His указывает, что предмет принадлежит Tom."
           },
           {
             "id": "b",
             "text": "her",
-            "feedback": "Нет, Tom — мужчина (he), поэтому используем his, а не her"
+            "feedback": "her отсылало бы к другому владельцу; здесь предмет принадлежит Tom."
           },
           {
             "id": "c",
             "text": "its",
-            "feedback": "Нет, its используется для предметов и животных (it), а не для людей"
+            "feedback": "its отсылало бы к другому владельцу; здесь предмет принадлежит Tom."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Tom — мужчина (he), поэтому используем притяжательное прилагательное his: Tom has his car.",
+        "explanation": "Здесь his указывает на Tom как владельца. В другом контексте Tom может иметь чужой предмет, поэтому само подлежащее не определяет владельца.",
         "tags": [
           "his_her",
           "his",
@@ -742,11 +742,11 @@
       {
         "id": "q23",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"Maria is reading ___ book.\" (she)",
+        "prompt": "Maria читает собственную книгу. Вставьте притяжательное слово: \"Maria is reading ___ book.\" (she)",
         "theory_block_id": "b4_theory_his_vs_her",
         "difficulty": 2,
         "correct_answer": "her",
-        "explanation": "Maria — женщина (she), поэтому используем притяжательное прилагательное her: Maria is reading her book.",
+        "explanation": "Книга принадлежит Maria, поэтому нужно her. Выбор определяется владельцем книги.",
         "tags": [
           "his_her",
           "her",
@@ -756,11 +756,11 @@
       {
         "id": "q24",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"John is reading ___ book.\" (he)",
+        "prompt": "John читает собственную книгу. Вставьте притяжательное слово: \"John is reading ___ book.\" (he)",
         "theory_block_id": "b4_theory_his_vs_her",
         "difficulty": 2,
         "correct_answer": "his",
-        "explanation": "John — мужчина (he), поэтому используем притяжательное прилагательное his: John is reading his book.",
+        "explanation": "Книга принадлежит John, поэтому нужно his. Выбор определяется владельцем книги.",
         "tags": [
           "his_her",
           "his",
@@ -783,11 +783,11 @@
       {
         "id": "q28",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"The cat is eating ___ food.\" (I)",
+        "prompt": "Вставьте притяжательную форму указанного местоимения: **The cat is eating ___ food.** (it)",
         "theory_block_id": "b4_theory_his_vs_her",
         "difficulty": 2,
         "correct_answer": "its",
-        "explanation": "Для предметов и животных (it) используется притяжательное прилагательное its: The cat is eating its food.",
+        "explanation": "Притяжательная форма it — its. Если о животном говорят he или she, возможны his или her, но здесь задано it.",
         "tags": [
           "his_her",
           "its",
@@ -797,7 +797,7 @@
       {
         "id": "q29",
         "type": "mcq_single",
-        "prompt": "Какой вопрос используется для вопроса о принадлежности?",
+        "prompt": "Какое вопросительное слово означает «чей/чья/чьё/чьи»?",
         "theory_block_id": "b5_theory_questions_with_whose",
         "difficulty": 1,
         "choices": [
@@ -840,7 +840,7 @@
       {
         "id": "q31",
         "type": "reorder",
-        "prompt": "Соберите предложение с указанным значением. Начните с «Whose».",
+        "prompt": "Соберите вопрос с указанным значением. Начните с «Whose phone».",
         "theory_block_id": "b5_theory_questions_with_whose",
         "difficulty": 2,
         "correct_answer": "Whose phone is this?",
@@ -888,8 +888,8 @@
         "prompt": "Верно или неверно: После whose всегда идет существительное.",
         "theory_block_id": "b5_theory_questions_with_whose",
         "difficulty": 2,
-        "correct_answer": "true",
-        "explanation": "Верно. После whose всегда идет существительное: Whose book is this? Нельзя сказать просто \"Whose is this?\" без существительного.",
+        "correct_answer": "false",
+        "explanation": "Неверно. Допустимы Whose book is this?, Whose is this book? и Whose is this?, когда из контекста ясно, о каком предмете спрашивают.",
         "tags": [
           "whose",
           "noun"
@@ -932,7 +932,7 @@
         "theory_block_id": "b6_theory_common_mistakes",
         "difficulty": 2,
         "correct_answer": "my",
-        "explanation": "Нужно указать, чей телефон. Правильно: I don't have my phone.",
+        "explanation": "От указанного I образуется my: I don't have my phone. В других контекстах перед phone возможны и другие определители, например a или the.",
         "tags": [
           "mistakes",
           "my",
@@ -942,28 +942,28 @@
       {
         "id": "q39",
         "type": "mcq_single",
-        "prompt": "Какая ошибка в предложении \"I lost phone.\"?",
+        "prompt": "Как исправить **I lost phone**, чтобы сказать «Я потерял свой телефон»?",
         "theory_block_id": "b6_theory_common_mistakes",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Отсутствует притяжательное прилагательное",
-            "feedback": "Правильно! Нужно указать, чей телефон: I lost my phone"
+            "text": "Добавить my перед phone",
+            "feedback": "My показывает, что потерян собственный телефон."
           },
           {
             "id": "b",
-            "text": "lost неправильная форма",
-            "feedback": "Нет, lost здесь правильное. Ошибка в отсутствии притяжательного прилагательного"
+            "text": "Заменить lost на lose",
+            "feedback": "Lost правильно передаёт прошедшее время; существительное phone всё ещё требует определителя."
           },
           {
             "id": "c",
-            "text": "phone должно быть phones",
-            "feedback": "Нет, phone здесь правильное. Ошибка в отсутствии притяжательного прилагательного"
+            "text": "Заменить phone на phones",
+            "feedback": "Это означает несколько телефонов и не передаёт требуемое «свой телефон»."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Ошибка: отсутствует притяжательное прилагательное. Нужно указать, чей телефон: I lost my phone.",
+        "explanation": "Для заданного значения нужно I lost my phone. В других контекстах возможны I lost a phone и I lost the phone; принадлежность не обязательна в любом предложении.",
         "tags": [
           "mistakes",
           "error"
@@ -1026,28 +1026,28 @@
       {
         "id": "q46",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"The dog is playing with ___ toy.\"",
+        "prompt": "Выберите притяжательную форму it: **The dog is playing with ___ toy.**",
         "theory_block_id": "b4_theory_his_vs_her",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "its",
-            "feedback": "Правильно! Для животных (it) используется its"
+            "feedback": "Это притяжательная форма it."
           },
           {
             "id": "b",
             "text": "his",
-            "feedback": "Нет, his используется для мужчин (he), а не для животных"
+            "feedback": "His соответствует he. О животном так тоже можно сказать, но здесь задано it."
           },
           {
             "id": "c",
             "text": "her",
-            "feedback": "Нет, her используется для женщин (she), а не для животных"
+            "feedback": "Her соответствует she. О животном так тоже можно сказать, но здесь задано it."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для животных (it) используется притяжательное прилагательное its: The dog is playing with its toy.",
+        "explanation": "It соответствует its. Для животных также возможны he/his или she/her, когда о них так говорят.",
         "tags": [
           "his_her",
           "its",
@@ -1084,28 +1084,28 @@
       {
         "id": "q53",
         "type": "mcq_single",
-        "prompt": "Как правильно ответить на вопрос \"Whose phone is that?\"?",
+        "prompt": "Выберите ответ на **Whose phone is that?**, в котором после притяжательного слова повторено название предмета.",
         "theory_block_id": "b5_theory_questions_with_whose",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "It's his phone.",
-            "feedback": "Правильно! Можно ответить притяжательным прилагательным + существительное"
+            "feedback": "После his повторено phone."
           },
           {
             "id": "b",
             "text": "It's his.",
-            "feedback": "Нет, притяжательное прилагательное не может использоваться без существительного"
+            "feedback": "Это правильный краткий ответ, но название предмета не повторено."
           },
           {
             "id": "c",
             "text": "It's he phone.",
-            "feedback": "Нет, нужно использовать притяжательное прилагательное his, а не личное местоимение he"
+            "feedback": "Перед phone требуется his, а не he."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Правильный ответ: It's his phone. Можно использовать притяжательное прилагательное + существительное.",
+        "explanation": "It's his phone и It's his оба правильны. Условие требует повторить phone, поэтому подходит полный ответ.",
         "tags": [
           "whose",
           "answers"
@@ -1141,28 +1141,28 @@
       {
         "id": "q58",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"The bird is in ___ nest.\"",
+        "prompt": "Выберите притяжательную форму it: **The bird is in ___ nest.**",
         "theory_block_id": "b4_theory_his_vs_her",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "its",
-            "feedback": "Правильно! Для животных (it) используется its"
+            "feedback": "Its соответствует указанному it."
           },
           {
             "id": "b",
             "text": "his",
-            "feedback": "Нет, his используется для мужчин (he), а не для животных"
+            "feedback": "Это форма для he, возможная и для птицы, но здесь задано it."
           },
           {
             "id": "c",
             "text": "her",
-            "feedback": "Нет, her используется для женщин (she), а не для животных"
+            "feedback": "Это форма для she, возможная и для птицы, но здесь задано it."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для животных (it) используется притяжательное прилагательное its: The bird is in its nest.",
+        "explanation": "Притяжательная форма it — its. His и her не запрещены для животных, но относятся к другим местоимениям.",
         "tags": [
           "his_her",
           "its",
@@ -1175,8 +1175,8 @@
         "prompt": "Верно или неверно: Можно сказать \"Whose is this?\" без существительного.",
         "theory_block_id": "b5_theory_questions_with_whose",
         "difficulty": 3,
-        "correct_answer": "false",
-        "explanation": "Неверно. После whose должно идти существительное. Правильно: Whose book is this? или Whose is this book?",
+        "correct_answer": "true",
+        "explanation": "Верно. Whose is this? — правильный вопрос, если предмет понятен из контекста. Whose может употребляться без следующего за ним существительного.",
         "tags": [
           "whose",
           "noun"
@@ -1231,7 +1231,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:15Z",
+    "updated_at": "2026-09-04T13:17:47Z",
     "source": "llm"
   }
 }

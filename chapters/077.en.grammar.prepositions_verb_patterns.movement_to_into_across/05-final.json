@@ -337,7 +337,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'He got to the car and sat down.'",
+        "prompt": "Найдите ошибку: 'He got in to the car and sat down.'",
         "theory_block_id": "b1_move_direction_to_into",
         "difficulty": 3,
         "choices": [
@@ -347,20 +347,20 @@
           },
           {
             "id": "b",
-            "text": "He got to the car and sat down."
+            "text": "He got in to the car and sat down."
           },
           {
             "id": "c",
-            "text": "He got into the car and sat down quickly."
+            "text": "He got to into the car and sat down."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Глагол get в значении «залезть» требует **into**. Вариант a исправляет предлог.",
+        "explanation": "Для движения внутрь машины используется единый предлог **into**. Вариант a исправляет ошибочное разделение **in to**.",
         "id": "q5"
       },
       {
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: The kids ran ___ the yard to the gate.",
+        "prompt": "Выберите правильный вариант: The kids ran ___ the gate but stopped outside the yard.",
         "theory_block_id": "b1_move_direction_to_into",
         "difficulty": 2,
         "choices": [
@@ -374,7 +374,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Здесь важна точка назначения — ворота. Это движение к точке, поэтому **to**.",
+        "explanation": "Дети добежали до ворот, но не вошли во двор. Поэтому направление к точке выражается предлогом **to**.",
         "id": "q6"
       },
       {
@@ -425,25 +425,25 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'She went into the station to meet him outside.'",
+        "prompt": "Найдите ошибку: 'She went into to the station.'",
         "theory_block_id": "b1_move_direction_to_into",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "She went to the station to meet him outside."
+            "text": "She went to the station."
           },
           {
             "id": "b",
-            "text": "She went into the station to meet him outside."
+            "text": "She went into to the station."
           },
           {
             "id": "c",
-            "text": "She went to the station and met him outside."
+            "text": "She went at the station."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Если встреча снаружи, нет входа внутрь. Поэтому нужен **to**, вариант a.",
+        "explanation": "Перед пунктом назначения нужен **to** без **into**. Вариант a исправляет сочетание двух несовместимых предлогов.",
         "id": "q11"
       },
       {
@@ -513,7 +513,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'We drove across the cave.'",
+        "prompt": "Найдите ошибку: 'We drove across through the cave.'",
         "theory_block_id": "b2_move_across_through",
         "difficulty": 2,
         "choices": [
@@ -523,15 +523,15 @@
           },
           {
             "id": "b",
-            "text": "We drove across the cave."
+            "text": "We drove across through the cave."
           },
           {
             "id": "c",
-            "text": "We drove through a cave."
+            "text": "We drove into through a cave."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Пещера — внутреннее пространство, значит **through**. Вариант a исправляет ошибку.",
+        "explanation": "Для движения внутри пещеры от входа к выходу используется **through**. Вариант a убирает лишний **across**.",
         "id": "q17"
       },
       {
@@ -606,7 +606,7 @@
           },
           {
             "id": "c",
-            "text": "We crossed the river on a bridge."
+            "text": "We crossed through the river on a bridge."
           }
         ],
         "correct_answer": "a",
@@ -661,7 +661,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'She ran off the house.'",
+        "prompt": "Найдите ошибку в описании выхода изнутри дома: 'She ran off the house.'",
         "theory_block_id": "b3_move_out_of",
         "difficulty": 2,
         "choices": [
@@ -675,7 +675,7 @@
           },
           {
             "id": "c",
-            "text": "She ran out of the house quickly."
+            "text": "She ran out the house quickly."
           }
         ],
         "correct_answer": "a",
@@ -721,7 +721,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'He got off the taxi.'",
+        "prompt": "Найдите ошибку в описании выхода пассажира из такси: 'He got off the taxi.'",
         "theory_block_id": "b3_move_out_of",
         "difficulty": 2,
         "choices": [
@@ -735,7 +735,7 @@
           },
           {
             "id": "c",
-            "text": "He got out of a taxi."
+            "text": "He got out the taxi."
           }
         ],
         "correct_answer": "a",
@@ -795,7 +795,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Пул — это пространство, из которого выбираются. Поэтому **out of**.",
+        "explanation": "Бассейн — пространство, из которого выбираются. Поэтому используется **out of**.",
         "id": "q36"
       },
       {
@@ -837,7 +837,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'Take the book out of the desk.'",
+        "prompt": "Найдите ошибку в инструкции о книге, лежащей на столе: 'Take the book out of the desk.'",
         "theory_block_id": "b4_move_off",
         "difficulty": 2,
         "choices": [
@@ -851,7 +851,7 @@
           },
           {
             "id": "c",
-            "text": "Take the book off the desk and put it away."
+            "text": "Take the book of the desk and put it away."
           }
         ],
         "correct_answer": "a",
@@ -911,7 +911,7 @@
           },
           {
             "id": "c",
-            "text": "He took his jacket off the chair and left."
+            "text": "He took his jacket of the chair and left."
           }
         ],
         "correct_answer": "a",
@@ -1013,7 +1013,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'We drove past the coast for hours.'",
+        "prompt": "Найдите ошибку: 'We drove past along the coast for hours.'",
         "theory_block_id": "b5_move_along_past",
         "difficulty": 3,
         "choices": [
@@ -1023,15 +1023,15 @@
           },
           {
             "id": "b",
-            "text": "We drove past the coast for hours."
+            "text": "We drove past along the coast for hours."
           },
           {
             "id": "c",
-            "text": "We drove along the coast all day."
+            "text": "We drove along of the coast all day."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Если движение длится вдоль берега, нужен **along**. **Past** — мимо одной точки.",
+        "explanation": "Для продолжительного движения вдоль берега используется **along**. Вариант a убирает лишний **past**.",
         "id": "q52"
       },
       {
@@ -1087,7 +1087,7 @@
           },
           {
             "id": "c",
-            "text": "Go past the post office, then turn left."
+            "text": "Go past of the post office, then turn left."
           }
         ],
         "correct_answer": "a",
@@ -1203,7 +1203,7 @@
           },
           {
             "id": "c",
-            "text": "He is in the room right now."
+            "text": "He is at in the room right now."
           }
         ],
         "correct_answer": "a",
@@ -1249,7 +1249,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'She walked in the shop and bought bread.'",
+        "prompt": "Найдите ошибку: 'She walked into in the shop and bought bread.'",
         "theory_block_id": "b6_move_into_vs_in",
         "difficulty": 2,
         "choices": [
@@ -1259,15 +1259,15 @@
           },
           {
             "id": "b",
-            "text": "She walked in the shop and bought bread."
+            "text": "She walked into in the shop and bought bread."
           },
           {
             "id": "c",
-            "text": "She went into the shop and bought bread."
+            "text": "She walked at the shop and bought bread."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Walked in описывает нахождение внутри, но здесь нужно движение внутрь. Поэтому **into**.",
+        "explanation": "После глагола движения достаточно **into**: этот предлог уже выражает движение внутрь. Вариант a убирает лишний **in**.",
         "id": "q68"
       },
       {
@@ -1404,7 +1404,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:48:57Z",
+    "updated_at": "2026-09-05T09:28:30Z",
     "source": "llm"
   }
 }

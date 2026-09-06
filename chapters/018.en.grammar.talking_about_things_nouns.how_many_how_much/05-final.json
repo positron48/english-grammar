@@ -312,17 +312,17 @@
           {
             "id": "a",
             "text": "Для вопроса о количестве",
-            "feedback": "Правильно! How many и How much помогают спрашивать о количестве"
+            "feedback": "How many и how much спрашивают о количестве."
           },
           {
             "id": "b",
-            "text": "Для вопроса о времени",
-            "feedback": "Нет, для времени используются другие слова"
+            "text": "Для вопроса, который сейчас час",
+            "feedback": "О времени на часах спрашивают What time is it?; how much time означает количество времени."
           },
           {
             "id": "c",
             "text": "Для вопроса о месте",
-            "feedback": "Нет, для места используется where"
+            "feedback": "О месте спрашивают where."
           }
         ],
         "correct_answer": "a",
@@ -460,22 +460,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "Для веществ и для вопроса о цене",
-            "feedback": "Правильно! How much используется с несчетными и для цены"
+            "text": "О количестве неисчисляемого и о цене",
+            "feedback": "Например: How much water? и How much is it?"
           },
           {
             "id": "b",
-            "text": "Только для предметов",
-            "feedback": "Нет, для предметов используется How many"
+            "text": "Только о числе отдельных предметов",
+            "feedback": "О числе предметов спрашивают how many; how much может спрашивать об их цене."
           },
           {
             "id": "c",
-            "text": "Только для времени",
-            "feedback": "Нет, для времени используются другие слова"
+            "text": "Только о времени",
+            "feedback": "How much time спрашивает о количестве времени, но how much не ограничивается этой темой."
           }
         ],
         "correct_answer": "a",
-        "explanation": "How much используется для веществ, которые нельзя посчитать (water, money), и для вопроса о цене (How much is it?).",
+        "explanation": "How much спрашивает о количестве неисчисляемого (water, money, time) или о цене. Money — деньги, а не название вещества.",
         "tags": [
           "basics",
           "how_much"
@@ -549,22 +549,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "Предметы, которые можно посчитать",
-            "feedback": "Правильно! Счетные существительные можно посчитать"
+            "text": "Слова, которые можно напрямую сочетать с one, two, three",
+            "feedback": "Например: one book, two books."
           },
           {
             "id": "b",
-            "text": "Вещества, которые нельзя посчитать",
-            "feedback": "Нет, это несчетные существительные"
+            "text": "Только названия веществ без счётного значения",
+            "feedback": "Вещество обычно выражается неисчисляемым существительным, например water."
           },
           {
             "id": "c",
-            "text": "Только абстрактные понятия",
-            "feedback": "Нет, абстрактные понятия обычно несчетные"
+            "text": "Только названия абстрактных понятий",
+            "feedback": "Счётными бывают и конкретные book, и абстрактные idea."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Счетные существительные — это предметы, которые можно посчитать поштучно: book → books, apple → apples.",
+        "explanation": "Счётные существительные в данном значении допускают прямой счёт: one book, two books; one idea, two ideas.",
         "tags": [
           "countable"
         ],
@@ -593,7 +593,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Несчетные существительные — это вещества, материалы или понятия, которые нельзя посчитать поштучно: water, money, time.",
+        "explanation": "Неисчисляемые существительные в данном значении не сочетаются напрямую с числительными: some water, some money. Их количество можно измерить, например two litres of water.",
         "tags": [
           "uncountable"
         ],
@@ -630,7 +630,7 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "Какое из существительных несчетное?",
+        "prompt": "Какое слово в обычном значении вещества употребляется как неисчисляемое?",
         "theory_block_id": "b2_theory_countable_uncountable_difference",
         "difficulty": 2,
         "choices": [
@@ -651,7 +651,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Water — несчетное существительное, нельзя сказать one water, two waters.",
+        "explanation": "Water в значении вещества неисчисляемо. В кафе two waters может обозначать две порции воды, но это другое, счётное употребление.",
         "tags": [
           "uncountable"
         ],
@@ -659,28 +659,28 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"I have three waters.\"",
+        "prompt": "Исправьте **I have three water**, чтобы сказать «У меня три бутылки воды».",
         "theory_block_id": "b2_theory_countable_uncountable_difference",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "three waters → some water",
-            "feedback": "Правильно! Water — несчетное, нельзя использовать с числительными"
+            "text": "three water → three bottles of water",
+            "feedback": "Считаем бутылки: three bottles of water."
           },
           {
             "id": "b",
             "text": "have → has",
-            "feedback": "Нет, have здесь правильное"
+            "feedback": "С I нужна форма have; количество воды остаётся оформлено неправильно."
           },
           {
             "id": "c",
             "text": "I → me",
-            "feedback": "Нет, I здесь правильное"
+            "feedback": "Подлежащее должно быть I; эта замена не исправляет three water."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Water — несчетное существительное, нельзя использовать с числительными. Правильно: I have some water.",
+        "explanation": "I have three bottles of water сохраняет число три и явно называет единицу счёта. В контексте заказа также возможно three waters — три порции воды.",
         "tags": [
           "error",
           "uncountable"
@@ -689,28 +689,28 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "Можно ли сказать \"one water, two waters\"?",
+        "prompt": "Можно ли употребить two waters в кафе в значении «две порции воды»?",
         "theory_block_id": "b2_theory_countable_uncountable_difference",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Нет, water — несчетное",
-            "feedback": "Правильно! Water нельзя посчитать поштучно"
+            "text": "Нет, water никогда не бывает счётным",
+            "feedback": "В значении порции напитка счётное употребление возможно."
           },
           {
             "id": "b",
-            "text": "Да, всегда",
-            "feedback": "Нет, water — несчетное существительное"
+            "text": "Да, water всегда счётное",
+            "feedback": "Для вещества в целом water обычно неисчисляемо."
           },
           {
             "id": "c",
-            "text": "Иногда",
-            "feedback": "Нет, это правило всегда действует"
+            "text": "Да, в таком контексте это возможно",
+            "feedback": "Two waters может означать две порции воды."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Нет, water — несчетное существительное. Нельзя сказать one water, two waters. Нужно: some water, a glass of water.",
+        "correct_answer": "c",
+        "explanation": "В кафе two waters может обозначать две порции воды. Для количества вещества в целом используется неисчисляемое water.",
         "tags": [
           "uncountable"
         ],
@@ -754,21 +754,21 @@
           {
             "id": "a",
             "text": "Five books.",
-            "feedback": "Правильно!"
+            "feedback": "Это правильный ответ о количестве книг."
           },
           {
             "id": "b",
             "text": "Much books.",
-            "feedback": "Нет"
+            "feedback": "С исчисляемым books не используется much."
           },
           {
             "id": "c",
             "text": "A lot book.",
-            "feedback": "Нет, bread — неисчисляемое, нужен isn't"
+            "feedback": "Нужно a lot of books: предлог of и множественное число."
           }
         ],
         "correct_answer": "a",
-        "explanation": "На вопрос How many? отвечаем с числительным: Five books. или Five.",
+        "explanation": "Можно ответить Five books или Five. Возможны и другие ответы о количестве, например A lot.",
         "tags": [
           "answers"
         ],
@@ -842,17 +842,17 @@
           {
             "id": "a",
             "text": "Two books.",
-            "feedback": "Правильно! Это короткий ответ с числительным."
+            "feedback": "Это короткий ответ с числительным."
           },
           {
             "id": "b",
             "text": "Much books.",
-            "feedback": "Нет, much не используется со счетными существительными."
+            "feedback": "С исчисляемым books не используется much."
           },
           {
             "id": "c",
             "text": "A lot book.",
-            "feedback": "Нет, после a lot нужно множественное число books."
+            "feedback": "Нужно a lot of books: добавляются of и окончание множественного числа."
           }
         ],
         "correct_answer": "a",
@@ -895,7 +895,7 @@
       {
         "id": "q63",
         "type": "mcq_single",
-        "prompt": "Выберите правильную структуру вопроса: ___ students are in the class?",
+        "prompt": "Выберите правильный вопрос «Сколько студентов в классе»?",
         "theory_block_id": "b5_theory_question_structure_answers",
         "difficulty": 2,
         "choices": [
@@ -956,7 +956,7 @@
       {
         "id": "q65",
         "type": "mcq_single",
-        "prompt": "Выберите правильную структуру вопроса: ___ is this book?",
+        "prompt": "Выберите правильный вопрос о цене этой книги.",
         "theory_block_id": "b5_theory_question_structure_answers",
         "difficulty": 2,
         "choices": [
@@ -1016,28 +1016,28 @@
       {
         "id": "q67",
         "type": "mcq_single",
-        "prompt": "Выберите правильную структуру вопроса: ___ coffee do you drink?",
+        "prompt": "Выберите правильный вопрос о количестве выпиваемого кофе, используя coffee как неисчисляемое существительное.",
         "theory_block_id": "b5_theory_question_structure_answers",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "How much coffee do you drink?",
-            "feedback": "Правильно! Coffee — несчетное, используется How much."
+            "feedback": "How much сочетается с неисчисляемым coffee."
           },
           {
             "id": "b",
             "text": "How many coffee do you drink?",
-            "feedback": "Нет, coffee — несчетное, нужно How much."
+            "feedback": "После how many нужна счётная форма во множественном числе."
           },
           {
             "id": "c",
             "text": "How much coffees do you drink?",
-            "feedback": "Нет, coffee — несчетное, не имеет множественного числа."
+            "feedback": "Coffees может обозначать порции, но с такой формой нужно how many, а не how much."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Coffee — несчетное существительное, поэтому используется How much coffee (без множественного числа).",
+        "explanation": "Для количества напитка в целом: How much coffee do you drink? Для числа порций возможно How many coffees do you drink? — другая конструкция.",
         "tags": [
           "question_structure",
           "uncountable"
@@ -1046,7 +1046,7 @@
       {
         "id": "q68",
         "type": "mcq_single",
-        "prompt": "Выберите правильный короткий ответ на вопрос \"How many people are there?\"",
+        "prompt": "Выберите ответ на **How many people are there?**, состоящий только из одного числительного.",
         "theory_block_id": "b5_theory_question_structure_answers",
         "difficulty": 1,
         "choices": [
@@ -1076,7 +1076,7 @@
       {
         "id": "q69",
         "type": "mcq_single",
-        "prompt": "Выберите правильную структуру вопроса: ___ time do you have?",
+        "prompt": "Выберите правильный вопрос «Сколько у тебя времени»?",
         "theory_block_id": "b5_theory_question_structure_answers",
         "difficulty": 2,
         "choices": [
@@ -1175,17 +1175,17 @@
           {
             "id": "a",
             "text": "I want five apples.",
-            "feedback": "Правильно! Ответ содержит числительное, как и требуется для вопросов с How many."
+            "feedback": "Это правильный ответ с указанием количества."
           },
           {
             "id": "b",
             "text": "I want a little apples.",
-            "feedback": "Нет, a little используется с несчетными. Для счетных нужны числительные или many/a lot."
+            "feedback": "С apples нужно a few, а не a little."
           },
           {
             "id": "c",
             "text": "I want much apples.",
-            "feedback": "Нет, much не используется со счетными существительными."
+            "feedback": "Much не сочетается с apples."
           }
         ],
         "correct_answer": "a",
@@ -1299,21 +1299,21 @@
           {
             "id": "a",
             "text": "How much",
-            "feedback": "Правильно! Money — несчетное существительное, используется How much."
+            "feedback": "Sugar здесь неисчисляемое; о его количестве спрашивают how much."
           },
           {
             "id": "b",
             "text": "How many",
-            "feedback": "Нет, How many используется со счетными существительными."
+            "feedback": "How many сочетается со счётными существительными во множественном числе."
           },
           {
             "id": "c",
             "text": "How",
-            "feedback": "Нет, нужно How much для вопроса о количестве несчетных существительных."
+            "feedback": "Для вопроса о количестве сахара одного how недостаточно."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Money — несчетное существительное, поэтому используется How much: How much money do you have?",
+        "explanation": "Sugar здесь неисчисляемое существительное: How much sugar do you have? — «Сколько у тебя сахара?»",
         "tags": [
           "how_much",
           "uncountable"
@@ -1329,17 +1329,17 @@
           {
             "id": "a",
             "text": "Для вопроса о цене",
-            "feedback": "Правильно! How much часто используется для вопроса о цене: How much is it?"
+            "feedback": "Например: How much is it?"
           },
           {
             "id": "b",
-            "text": "Для вопроса о времени",
-            "feedback": "Нет, для времени используются другие слова (What time, When)."
+            "text": "Для вопроса, который сейчас час",
+            "feedback": "What time is it? спрашивает о часах. How much time спрашивает о количестве времени."
           },
           {
             "id": "c",
             "text": "Для вопроса о месте",
-            "feedback": "Нет, для места используется Where."
+            "feedback": "Для места используется where."
           }
         ],
         "correct_answer": "a",
@@ -1373,7 +1373,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Ответы на вопросы с How much содержат слова для количества (a little, a lot, not much) или конкретное количество с единицами измерения: two liters of water, five dollars.",
+        "explanation": "Можно ответить A little, A lot, Not much или указать объём, например Two litres. Числительное без единицы возможно, если единица уже ясна из разговора.",
         "tags": [
           "answers",
           "how_much",
@@ -1414,28 +1414,28 @@
       {
         "id": "q80",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"How many milk do you need?\"",
+        "prompt": "Исправьте **How many milk do you need?**, сохранив слово milk без изменений.",
         "theory_block_id": "b6_theory_common_mistakes",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "How many → How much (milk)",
-            "feedback": "Правильно! Milk — несчетное существительное, нужно использовать How much"
+            "text": "How many milk → How much milk",
+            "feedback": "How much сочетается с неисчисляемым milk."
           },
           {
             "id": "b",
             "text": "milk → milks",
-            "feedback": "Нет, milk — несчетное, ошибка в выборе вопросительного слова"
+            "feedback": "Milks может обозначать виды или порции, но условие требует сохранить milk."
           },
           {
             "id": "c",
             "text": "do → does",
-            "feedback": "Нет, do здесь правильное, ошибка в выборе How many/How much"
+            "feedback": "С you нужно do. Эта замена не исправляет how many milk."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Ошибка: How many milk?. Правильно: How much milk?. Milk — несчетное существительное, поэтому используется How much, а не How many.",
+        "explanation": "How much milk do you need? спрашивает о количестве молока как вещества. Счётное употребление milks возможно в другом контексте.",
         "tags": [
           "error",
           "how_many",
@@ -1650,7 +1650,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-02-08T15:22:11Z",
+    "updated_at": "2026-09-04T13:18:21Z",
     "source": "llm"
   }
 }

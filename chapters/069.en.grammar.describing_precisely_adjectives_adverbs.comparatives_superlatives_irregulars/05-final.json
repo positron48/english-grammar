@@ -371,7 +371,7 @@
       {
         "id": "q10",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: a ___ street.",
+        "prompt": "Выберите сравнительную степень с суффиксом `-er`: a ___ street.",
         "theory_block_id": "b1_short_adjectives",
         "difficulty": 1,
         "choices": [
@@ -381,11 +381,11 @@
           },
           {
             "id": "b",
-            "text": "more narrow"
+            "text": "narrowest"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Narrow часто образует -er в разговорной речи: narrower."
+        "explanation": "Narrow допускает сравнительную форму «narrower». «Narrowest» — превосходная степень."
       },
       {
         "id": "q11",
@@ -625,11 +625,11 @@
       {
         "id": "q32",
         "type": "true_false",
-        "prompt": "Верно или неверно: «Little becomes 'less' in the comparative.»",
+        "prompt": "Верно ли, что `little` в значении небольшого количества образует comparative `less`?",
         "theory_block_id": "b3_irregulars",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Неправильные формы: little → less → least."
+        "explanation": "Для количества используются формы little → less → least. При описании небольшого размера возможны littler/littlest, хотя чаще употребляют smaller/smallest."
       },
       {
         "id": "q33",
@@ -657,7 +657,7 @@
       {
         "id": "q34",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: little → ___ → least.",
+        "prompt": "Выберите правильную форму для количества: little → ___ → least.",
         "theory_block_id": "b3_irregulars",
         "difficulty": 1,
         "choices": [
@@ -686,11 +686,11 @@
       {
         "id": "q36",
         "type": "fill_blank",
-        "prompt": "This route is ___ than the highway. (далекий)",
+        "prompt": "This route is ___ than the highway. Используйте форму `farther` для физического расстояния. (far)",
         "theory_block_id": "b3_irregulars",
         "difficulty": 2,
         "correct_answer": "farther",
-        "explanation": "Far имеет формы farther/further."
+        "explanation": "Для физического расстояния здесь задана форма «farther». «Further» также широко употребляется для расстояния."
       },
       {
         "id": "q37",
@@ -723,11 +723,11 @@
       {
         "id": "q39",
         "type": "true_false",
-        "prompt": "С превосходной степенью обычно используется the.",
+        "prompt": "Верно ли, что в модели **the + superlative + noun** перед превосходной степенью используется `the`?",
         "theory_block_id": "b4_than_the",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "The почти всегда используется с превосходной степенью."
+        "explanation": "В определённой именной группе обычно используется «the»: «the tallest building». Возможны другие определители, например «my best result»."
       },
       {
         "id": "q40",
@@ -797,7 +797,7 @@
         "theory_block_id": "b4_than_the",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "В разговорной речи возможно, но лучше использовать than."
+        "explanation": "Сравнение может быть абсолютным, если точка отсчёта понятна: «Things are better now». Если объект назван, перед ним нужен than."
       },
       {
         "id": "q45",
@@ -882,11 +882,11 @@
       {
         "id": "q50",
         "type": "fill_blank",
-        "prompt": "This result is ___ good than the last one. (сравнительная)",
+        "prompt": "This result is ___ than the last one. (сравнительная степень от `good`)",
         "theory_block_id": "b5_uses_and_mistakes",
         "difficulty": 2,
         "correct_answer": "better",
-        "explanation": "Нельзя сказать more good, нужна неправильная форма better."
+        "explanation": "У good неправильная сравнительная форма: «better»."
       },
       {
         "id": "q51",
@@ -970,7 +970,7 @@
       {
         "id": "q57",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'This is more easier than before.'",
+        "prompt": "Исправьте **This is more easier than before**, убрав лишний показатель сравнительной степени и не добавляя усилитель.",
         "theory_block_id": "b5_uses_and_mistakes",
         "difficulty": 2,
         "choices": [
@@ -988,7 +988,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Easy уже имеет comparative easier, без more."
+        "explanation": "Форма easier уже выражает comparative, поэтому нейтральная минимальная правка — «This is easier than before». «Much easier» тоже грамматично, но добавляет усиление."
       },
       {
         "id": "q58",
@@ -1093,7 +1093,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:23Z",
+    "updated_at": "2026-09-05T08:23:20Z",
     "source": "llm"
   }
 }

@@ -5,7 +5,7 @@
   "questions": [
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант правильно использует wh-cleft для передачи фокуса на 'время'?",
+      "prompt": "Какой вариант использует базовую wh-cleft с фокусом *time* после связки?",
       "choices": [
         {
           "id": "a",
@@ -25,13 +25,13 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "В wh-cleft фокус (время) ставится после глагола 'is'. Правильная структура: What I need is time. Варианты b, c, d нарушают порядок слов.",
+      "explanation": "Базовая wh-cleft имеет порядок *What I need is time*. Вариант *Time is what I need* тоже грамматичен, но это reversed wh-cleft с фокусом в начале.",
       "theory_block_id": "b3_theory_wh_cleft_basic",
       "chapter_id": "en.grammar.information_structure_style.cleft_sentences_it_s",
       "concept_id": "wh_cleft_basic",
       "difficulty": 2,
       "id": "q1",
-      "signature": "a894f8ce43ff06b2"
+      "signature": "f7c91a8cb135f36a"
     },
     {
       "type": "mcq_single",
@@ -95,7 +95,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант правильно заменяет предложение 'I need a clear answer' в wh-cleft?",
+      "prompt": "Какой вариант преобразует *I need a clear answer* в базовую wh-cleft с фокусом после *be*?",
       "choices": [
         {
           "id": "a",
@@ -115,17 +115,17 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Правильная структура wh-cleft: What [clausal part] is [focus]. Вариант a соответствует правилу. Варианты b, c, d искажают порядок слов.",
+      "explanation": "Базовая wh-cleft имеет порядок *What I need is a clear answer*. Вариант *A clear answer is what I need* является грамматичной reversed wh-cleft, но не отвечает условию.",
       "theory_block_id": "b3_theory_wh_cleft_basic",
       "chapter_id": "en.grammar.information_structure_style.cleft_sentences_it_s",
       "concept_id": "wh_cleft_basic",
       "difficulty": 2,
       "id": "q4",
-      "signature": "c821acec9acc4652"
+      "signature": "91c360cdcd6f453b"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вопрос правильно использует wh-cleft для подчеркивания 'why'?",
+      "prompt": "Какой вариант начинается с *Why* и оформляет причину прихода как wh-clause?",
       "choices": [
         {
           "id": "a",
@@ -145,13 +145,13 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Для причины ('why') используется 'why' в первой части: Why I came is to see you. 'What' относится к предмету, 'where' — к месту, 'how' — к способу.",
+      "explanation": "В a why-clause называет причину: *Why I came is to see you*. Вариант *What I came for is to see you* тоже грамматичен, но использует другую wh-конструкцию.",
       "theory_block_id": "b3_theory_wh_cleft_basic",
       "chapter_id": "en.grammar.information_structure_style.cleft_sentences_it_s",
       "concept_id": "wh_cleft_basic",
       "difficulty": 3,
       "id": "q5",
-      "signature": "a2480b0171b7f5ee"
+      "signature": "1cd57ca29396d326"
     },
     {
       "type": "mcq_single",
@@ -171,17 +171,17 @@
         },
         {
           "id": "d",
-          "text": "Why I left is because of money."
+          "text": "Why did I leave is because of money."
         }
       ],
       "correct_answer": "d",
-      "explanation": "В wh-cleft после 'is' не используется 'because'. Правильно: Why I left is money. Вариант d добавляет лишнее 'because', что нарушает структуру.",
+      "explanation": "В d внутри подлежащной why-clause ошибочно сохранена вопросительная инверсия. Нужно *Why I left…*. Сочетание *the reason why… is because…* часто редактируют ради краткости, но само *because* не делает конструкцию неграмматичной.",
       "theory_block_id": "b3_theory_wh_cleft_basic",
       "chapter_id": "en.grammar.information_structure_style.cleft_sentences_it_s",
       "concept_id": "wh_cleft_basic",
       "difficulty": 4,
       "id": "q6",
-      "signature": "489e7a0569088a44"
+      "signature": "2bb7780b1e97d0fc"
     },
     {
       "type": "mcq_single",
@@ -235,7 +235,7 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Вариант b — это 'it's' cleft (It's time that...), а не wh-cleft. Wh-cleft использует wh-слова (what, where и т.д.) в первой части, а не 'it's'.",
+      "explanation": "В b используется конструкция *It's time (that)…*, а не cleft. Wh-cleft начинается с wh-clause вроде *What I need…* или *Where we live…*.",
       "theory_block_id": "b3_theory_wh_cleft_basic",
       "chapter_id": "en.grammar.information_structure_style.cleft_sentences_it_s",
       "concept_id": "wh_cleft_basic",
@@ -253,19 +253,19 @@
         },
         {
           "id": "b",
-          "text": "What I need is a clear answer, isn't it?"
+          "text": "What I need is a clear answer, is I?"
         },
         {
           "id": "c",
-          "text": "What I need is a clear answer, don't I?"
+          "text": "What I need is a clear answer, does it?"
         },
         {
           "id": "d",
-          "text": "What I need is a clear answer, no?"
+          "text": "What I need is a clear answer, are right?"
         }
       ],
       "correct_answer": "a",
-      "explanation": "В wh-cleft-вопросах после фокуса используется 'right?' (как в примере ex4). 'Isn't it?' и другие варианты относятся к другим структурам вопросов.",
+      "explanation": "Нейтральный неизменяемый вопрос-подтверждение *right?* можно добавить после всей wh-cleft. Остальные варианты содержат неверно построенные tags.",
       "theory_block_id": "b3_theory_wh_cleft_basic",
       "chapter_id": "en.grammar.information_structure_style.cleft_sentences_it_s",
       "concept_id": "wh_cleft_basic",
@@ -275,33 +275,33 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант содержит правильную wh-cleft-структуру для 'why'?",
+      "prompt": "Какой вариант передаёт: «Почему я опоздал, до сих пор неясно»?",
       "choices": [
         {
           "id": "a",
-          "text": "Why I was late is the traffic."
+          "text": "Why I was late is still unclear."
         },
         {
           "id": "b",
-          "text": "What I was late for is the traffic."
+          "text": "What I was late for is still unclear."
         },
         {
           "id": "c",
-          "text": "Where I was late is the traffic."
+          "text": "Where I was late is still unclear."
         },
         {
           "id": "d",
-          "text": "How I was late is the traffic."
+          "text": "How late I was is still unclear."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Для причины ('why') используется 'why' в первой части: Why I was late is the traffic. 'What' относится к предмету, 'where' — к месту, 'how' — к способу.",
+      "explanation": "Why-clause *Why I was late* соответствует значению причины опоздания и функционирует как единое подлежащее перед *is*.",
       "theory_block_id": "b3_theory_wh_cleft_basic",
       "chapter_id": "en.grammar.information_structure_style.cleft_sentences_it_s",
       "concept_id": "wh_cleft_basic",
       "difficulty": 4,
       "id": "q10",
-      "signature": "f0dd7cde279d21f8"
+      "signature": "32af8bbcf43c9dc2"
     }
   ],
   "meta": {

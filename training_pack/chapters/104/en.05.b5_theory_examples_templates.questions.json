@@ -91,7 +91,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант содержит распространённую ошибку в пассивном залоге?",
+      "prompt": "Какой вариант ошибочно согласует is с подлежащим во множественном числе orders?",
       "choices": [
         {
           "id": "a",
@@ -103,7 +103,7 @@
         },
         {
           "id": "c",
-          "text": "The order are processed within 24 hours."
+          "text": "The order was processed within 24 hours."
         },
         {
           "id": "d",
@@ -111,13 +111,13 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Для множественного числа 'orders' требуется глагол 'are', а не 'is'.",
+      "explanation": "С orders нужен are: The orders are processed. В варианте b ошибочно стоит is.",
       "theory_block_id": "b5_theory_examples_templates",
       "chapter_id": "en.grammar.voice_focus_passive_and.build_write_news_processes",
       "concept_id": "news_process_templates",
       "difficulty": 2,
       "id": "q4",
-      "signature": "6e7a04acfb928342"
+      "signature": "e6d9f3396604f502"
     },
     {
       "type": "mcq_single",
@@ -151,7 +151,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант правильно использует структуру 'It is reported that...'?",
+      "prompt": "Какой вариант сообщает через It is reported that..., что решение уже объявили?",
       "choices": [
         {
           "id": "a",
@@ -167,17 +167,17 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "После 'It is reported that' используется прошедшее время для описания события, которое уже произошло.",
+      "explanation": "Для уже завершённого объявления используется was announced.",
       "theory_block_id": "b5_theory_examples_templates",
       "chapter_id": "en.grammar.voice_focus_passive_and.build_write_news_processes",
       "concept_id": "news_process_templates",
       "difficulty": 3,
       "id": "q6",
-      "signature": "e9331a0ad24672a6"
+      "signature": "4863faa1a0cc9a40"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант содержит ошибку в структуре causative?",
+      "prompt": "В каком варианте после had ошибочно стоит to-infinitive вместо V3?",
       "choices": [
         {
           "id": "a",
@@ -197,13 +197,13 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Структура causative требует причастия прошедшего времени ('cut'), а не инфинитива ('to cut').",
+      "explanation": "She had her hair to cut нарушает модель have + object + V3; нужно had her hair cut.",
       "theory_block_id": "b5_theory_examples_templates",
       "chapter_id": "en.grammar.voice_focus_passive_and.build_write_news_processes",
       "concept_id": "news_process_templates",
       "difficulty": 4,
       "id": "q7",
-      "signature": "e07ec3e04d919b9a"
+      "signature": "9f69c45f0cd76617"
     },
     {
       "type": "mcq_single",
@@ -237,7 +237,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант содержит ошибку в использовании пассивного залога с указанием времени?",
+      "prompt": "Какой вариант ошибочно использует Present Simple с завершённым маркером yesterday?",
       "choices": [
         {
           "id": "a",
@@ -257,43 +257,43 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Слово 'yesterday' требует прошедшего времени, поэтому 'was delivered' правильнее, чем 'is delivered'.",
+      "explanation": "В варианте b is delivered не сочетается с завершённым yesterday. Для этого эпизода нужно was delivered.",
       "theory_block_id": "b5_theory_examples_templates",
       "chapter_id": "en.grammar.voice_focus_passive_and.build_write_news_processes",
       "concept_id": "news_process_templates",
       "difficulty": 3,
       "id": "q9",
-      "signature": "b185099f9a754554"
+      "signature": "9fa50c105fdbb8d1"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант соответствует шаблону для новостей?",
+      "prompt": "Как сообщить о событии в конкретный завершённый момент: встречу отменили вчера в 9 утра?",
       "choices": [
         {
           "id": "a",
-          "text": "It is reported that the meeting has been canceled."
+          "text": "It is reported that the meeting has been canceled yesterday at 9 a.m."
         },
         {
           "id": "b",
-          "text": "It is reported that the meeting was canceled."
+          "text": "It is reported that the meeting was canceled yesterday at 9 a.m."
         },
         {
           "id": "c",
-          "text": "It is reported that the meeting cancels."
+          "text": "It is reported that the meeting cancels yesterday at 9 a.m."
         },
         {
           "id": "d",
-          "text": "It is reported that the meeting cancel."
+          "text": "It is reported that the meeting cancel yesterday at 9 a.m."
         }
       ],
       "correct_answer": "b",
-      "explanation": "В шаблоне новостей используется прошедшее время для описания события, которое уже произошло.",
+      "explanation": "С конкретным завершённым временем yesterday at 9 a.m. используется Past Simple: was canceled.",
       "theory_block_id": "b5_theory_examples_templates",
       "chapter_id": "en.grammar.voice_focus_passive_and.build_write_news_processes",
       "concept_id": "news_process_templates",
       "difficulty": 3,
       "id": "q10",
-      "signature": "7cac6c9dd9d4e40e"
+      "signature": "c23bb5c6650960b7"
     }
   ],
   "meta": {

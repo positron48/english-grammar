@@ -403,7 +403,7 @@
       {
         "id": "q11",
         "type": "true_false",
-        "prompt": "If I were you может быть заменено на If I was you без изменения смысла.",
+        "prompt": "*If I was you* может заменить *If I were you* без изменения основного смысла.",
         "theory_block_id": "b1_theory_advice",
         "difficulty": 1,
         "correct_answer": "true",
@@ -707,7 +707,7 @@
       {
         "id": "q28",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If he had taken the course, he would have more skills now.\"",
+        "prompt": "Выберите корректный mixed conditional о нынешних навыках как результате прошлого решения.",
         "theory_block_id": "b3_theory_alternatives",
         "difficulty": 2,
         "choices": [
@@ -801,7 +801,7 @@
       {
         "id": "q34",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If I had taken that course, I would have better English now.\"",
+        "prompt": "Выберите корректный mixed conditional о нынешнем уровне английского как результате прошлого решения.",
         "theory_block_id": "b3_theory_alternatives",
         "difficulty": 2,
         "choices": [
@@ -867,11 +867,11 @@
       {
         "id": "q37",
         "type": "fill_blank",
-        "prompt": "Вставьте пропущенное: If only we ___ the hotel earlier. (забронировать)",
+        "prompt": "Вставьте пропущенное: If only we ___ booked the hotel earlier. (забронировать)",
         "theory_block_id": "b4_theory_wish_if_only",
         "difficulty": 2,
         "correct_answer": "had",
-        "explanation": "Past Perfect: had booked.",
+        "explanation": "Для прошлого сожаления используется Past Perfect: *had booked*.",
         "tags": []
       },
       {
@@ -1019,11 +1019,11 @@
       {
         "id": "q45",
         "type": "fill_blank",
-        "prompt": "Вставьте пропущенное: If I were you, I ___ ask for feedback; if I had done that earlier, I'd feel calmer now. (быть)",
+        "prompt": "Дополните совет нужной формой модального глагола: If I were you, I ___ ask for feedback; if I had done that earlier, I'd feel calmer now. (will)",
         "theory_block_id": "b5_theory_build_speak",
         "difficulty": 2,
         "correct_answer": "would",
-        "explanation": "Совет: would + V1.",
+        "explanation": "В совете с If I were you используется would + начальная форма глагола.",
         "tags": []
       },
       {
@@ -1135,7 +1135,7 @@
       {
         "id": "q54",
         "type": "fill_blank",
-        "prompt": "Вставьте пропущенное: I wish you ___ help more. (быть добр,)",
+        "prompt": "Вставьте пропущенное: I wish you ___ help more. (желание изменить поведение)",
         "theory_block_id": "b4_theory_wish_if_only",
         "difficulty": 2,
         "correct_answer": "would",
@@ -1183,7 +1183,7 @@
       {
         "id": "q57",
         "type": "fill_blank",
-        "prompt": "Вставьте пропущенное: It's time you ___ a decision. (принять)",
+        "prompt": "Вставьте пропущенное: It's time you ___ a decision. (глагол *make*)",
         "theory_block_id": "b5_theory_build_speak",
         "difficulty": 2,
         "correct_answer": "made",
@@ -1302,7 +1302,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:49:04Z",
+    "updated_at": "2026-09-05T22:01:49Z",
     "source": "llm"
   }
 }

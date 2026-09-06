@@ -707,7 +707,7 @@
       {
         "id": "q25",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"I like classical music. ___.\"",
+        "prompt": "Выберите ответ, который подтверждает наблюдение собеседника: A: “You really like classical music.” B: “___.”",
         "theory_block_id": "b3_theory_so_not",
         "difficulty": 3,
         "choices": [
@@ -733,47 +733,47 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "So I do — эмфатическая конструкция без инверсии, подтверждает факт."
+        "explanation": "*So I do* — эмфатическое подтверждение наблюдения о самом говорящем: «Да, действительно люблю». Порядок слов прямой, без инверсии."
       },
       {
         "id": "q26",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"You say I never help. So I ___.\" (подтверждение)",
+        "prompt": "Заполните пропуск в подтверждении: “You always help when we need it.” “So I ___.” (подтверждение)",
         "theory_block_id": "b3_theory_so_not",
         "difficulty": 2,
         "correct_answer": "do",
-        "explanation": "So I do — эмфаза: «я действительно помогаю». Без инверсии."
+        "explanation": "*So I do* подтверждает положительное наблюдение собеседника: «Да, действительно помогаю». Инверсии нет."
       },
       {
         "id": "q27",
         "type": "error_spotting",
-        "prompt": "Выберите правильный вариант предложения.",
+        "prompt": "Выберите ответ-подтверждение: A: “You finish early every Friday.” B:",
         "theory_block_id": "b3_theory_so_not",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "I finish early. So do I.",
+            "text": "So do I.",
             "feedback": "Это избыточное согласие с самим собой."
           },
           {
             "id": "b",
-            "text": "I finish early. So I do.",
+            "text": "So I do.",
             "feedback": "Верно: эмфаза и подтверждение."
           },
           {
             "id": "c",
-            "text": "I finish early. Neither do I.",
+            "text": "Neither do I.",
             "feedback": "Neither противоречит утверждению."
           },
           {
             "id": "d",
-            "text": "I finish early. So I am.",
+            "text": "So I am.",
             "feedback": "Am не заменяет finish."
           }
         ],
         "correct_answer": "b",
-        "explanation": "So I do используется для эмфазы и подтверждения собственного утверждения."
+        "explanation": "Собеседник говорит о привычке самого отвечающего. *So I do* подтверждает это наблюдение; *So do I* выражало бы согласие с утверждением о другом человеке."
       },
       {
         "id": "q28",
@@ -787,11 +787,11 @@
       {
         "id": "q29",
         "type": "reorder",
-        "prompt": "Соберите предложение с указанным значением. Начните с «So». Закончите словом «risk».",
+        "prompt": "Соберите эмфатическое подтверждение в ответ на “You understand the risk”. Начните с «So». Закончите словом «risk».",
         "theory_block_id": "b3_theory_so_not",
         "difficulty": 2,
         "correct_answer": "So I do understand the risk.",
-        "explanation": "Эмфатический порядок без инверсии: So I do understand...",
+        "explanation": "В полном эмфатическом подтверждении сохраняется прямой порядок слов: *So I do understand the risk*.",
         "translation_ru": "Да, я действительно понимаю риск."
       },
       {
@@ -828,11 +828,11 @@
       {
         "id": "q31",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"You think I don't care. So I ___.\" (подтверждение)",
+        "prompt": "Заполните пропуск в подтверждении: “You care a lot about this.” “So I ___.” (подтверждение)",
         "theory_block_id": "b3_theory_so_not",
         "difficulty": 2,
         "correct_answer": "do",
-        "explanation": "So I do — эмфаза, подтверждающая, что я действительно забочусь."
+        "explanation": "*So I do* эмфатически подтверждает положительное наблюдение: «Да, действительно забочусь»."
       },
       {
         "id": "q32",
@@ -846,33 +846,33 @@
       {
         "id": "q33",
         "type": "error_spotting",
-        "prompt": "Выберите правильный вариант предложения.",
+        "prompt": "Выберите правильное подтверждение наблюдения “You really listen carefully.”",
         "theory_block_id": "b3_theory_so_not",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "You say I never listen. So I do listen.",
+            "text": "So I do listen.",
             "feedback": "Верно: эмфаза."
           },
           {
             "id": "b",
-            "text": "You say I never listen. So do I listen.",
+            "text": "So do I listen.",
             "feedback": "Неверный порядок для эмфазы."
           },
           {
             "id": "c",
-            "text": "You say I never listen. Neither do I listen.",
+            "text": "Neither do I listen.",
             "feedback": "Neither противоречит смыслу."
           },
           {
             "id": "d",
-            "text": "You say I never listen. So I am listen.",
+            "text": "So I am listen.",
             "feedback": "Неверная форма."
           }
         ],
         "correct_answer": "a",
-        "explanation": "So I do listen — эмфатическое подтверждение с обычным порядком слов."
+        "explanation": "*So I do listen* — эмфатическое подтверждение с прямым порядком слов. Вспомогательный *do* усиливает основной глагол *listen*."
       },
       {
         "id": "q34",
@@ -918,11 +918,11 @@
       {
         "id": "q36",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"You doubt me, but so ___ I.\" (глагол)",
+        "prompt": "Заполните пропуск: “You doubt the result, and so ___ I.” (глагол)",
         "theory_block_id": "b3_theory_so_not",
         "difficulty": 3,
         "correct_answer": "do",
-        "explanation": "So do I — согласие: «я тоже сомневаюсь»."
+        "explanation": "*So do I* выражает согласие с утвердительной репликой: «Я тоже сомневаюсь». Поэтому части соединены через *and*."
       },
       {
         "id": "q37",
@@ -1021,7 +1021,7 @@
         "theory_block_id": "b4_theory_one_ones",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "One/ones могут идти и с другими определителями: this one, those ones, my one."
+        "explanation": "*One/ones* употребляются с разными определителями: *this one, those ones, another one, the blue ones*. Они не ограничены артиклем *the*."
       },
       {
         "id": "q46",
@@ -1359,7 +1359,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:27Z",
+    "updated_at": "2026-09-05T23:33:34Z",
     "source": "llm"
   }
 }

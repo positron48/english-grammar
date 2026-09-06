@@ -480,11 +480,11 @@
           },
           {
             "id": "c",
-            "text": "She was tired, but finished the report."
+            "text": "She was tired, so but she finished the report."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для контраста нужен but.",
+        "explanation": "При заданном значении уступительного контраста используется but.",
         "id": "q16"
       },
       {
@@ -530,7 +530,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'I was hungry, and I didn't eat.'",
+        "prompt": "Исправьте союз, сохранив смысл «я был голоден, но не поел»: 'I was hungry, and I didn't eat.'",
         "theory_block_id": "b2_coordination_but",
         "difficulty": 2,
         "choices": [
@@ -544,11 +544,11 @@
           },
           {
             "id": "c",
-            "text": "I was hungry, but I didn't want to eat."
+            "text": "I was hungry, so I didn't eat."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Здесь контраст, поэтому but.",
+        "explanation": "But сохраняет заданный контраст между голодом и отсутствием еды.",
         "id": "q20"
       },
       {
@@ -672,7 +672,7 @@
           },
           {
             "id": "c",
-            "text": "Would you like tea or coffee?"
+            "text": "Would you like tea and coffee?"
           }
         ],
         "correct_answer": "a",
@@ -827,7 +827,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'It was late, but we went home.' (значение: результат)",
+        "prompt": "Исправьте союз, сохранив причинно-следственный смысл: 'It was late, but we went home.'",
         "theory_block_id": "b4_coordination_so",
         "difficulty": 2,
         "choices": [
@@ -841,11 +841,11 @@
           },
           {
             "id": "c",
-            "text": "It was late, so we left."
+            "text": "It was late, or we went home."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Нужен so для результата.",
+        "explanation": "При заданном значении результата используется so.",
         "id": "q40"
       },
       {
@@ -891,7 +891,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'He was tired, or he went to bed.'",
+        "prompt": "Исправьте союз, сохранив смысл «он устал, поэтому лёг спать»: 'He was tired, or he went to bed.'",
         "theory_block_id": "b4_coordination_so",
         "difficulty": 2,
         "choices": [
@@ -905,11 +905,11 @@
           },
           {
             "id": "c",
-            "text": "He was tired, so he slept."
+            "text": "He was tired, but he went to bed."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Здесь причина-следствие, нужен so.",
+        "explanation": "So связывает причину с указанным результатом.",
         "id": "q44"
       },
       {
@@ -978,7 +978,7 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: I was tired, ___ I went to bed. (and/but/or/so)",
+        "prompt": "Выберите союз, который явно представляет вторую часть как результат: I was tired, ___ I went to bed.",
         "theory_block_id": "b5_punctuation_comma",
         "difficulty": 2,
         "choices": [
@@ -996,7 +996,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Причина-следствие: so, запятая перед союзом.",
+        "explanation": "So явно обозначает причинно-следственную связь.",
         "id": "q49"
       },
       {
@@ -1033,11 +1033,11 @@
           },
           {
             "id": "c",
-            "text": "He opened the door and then left."
+            "text": "He opened the door, and then left."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Один подлежащее и два глагола — запятая не нужна.",
+        "explanation": "При общем подлежащем в нейтральной пунктуации запятая перед and не нужна.",
         "id": "q52"
       },
       {
@@ -1115,11 +1115,11 @@
       },
       {
         "type": "true_false",
-        "prompt": "При соединении двух главных предложений and запятая может не ставиться.",
+        "prompt": "В нейтральной учебной пунктуации перед and между двумя независимыми частями обычно ставят запятую.",
         "theory_block_id": "b5_punctuation_comma",
         "difficulty": 3,
-        "correct_answer": "false",
-        "explanation": "С независимыми частями запятая обычно нужна.",
+        "correct_answer": "true",
+        "explanation": "Запятая — стандартное оформление двух независимых частей; в очень коротких тесно связанных конструкциях её иногда опускают.",
         "id": "q59"
       },
       {
@@ -1188,7 +1188,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'He was tired and he was hungry and he was late.'",
+        "prompt": "Выберите самый компактный вариант без повторения he was, сохранив все три признака: 'He was tired and he was hungry and he was late.'",
         "theory_block_id": "b6_sentence_balance",
         "difficulty": 3,
         "choices": [
@@ -1206,7 +1206,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Лучше объединить повторяющиеся элементы для баланса.",
+        "explanation": "Однородные прилагательные можно объединить после одного he was: tired, hungry, and late.",
         "id": "q64"
       },
       {
@@ -1252,7 +1252,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'She finished the report but she didn't send it, and because she was busy.'",
+        "prompt": "Исправьте предложение, сохранив причину because she was busy: 'She finished the report but she didn't send it, and because she was busy.'",
         "theory_block_id": "b6_sentence_balance",
         "difficulty": 3,
         "choices": [
@@ -1270,7 +1270,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Нужно убрать лишнее соединение and.",
+        "explanation": "Убираем лишнее and и присоединяем причину непосредственно через because.",
         "id": "q68"
       },
       {
@@ -1402,7 +1402,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:48:58Z",
+    "updated_at": "2026-09-05T09:58:28Z",
     "source": "llm"
   }
 }

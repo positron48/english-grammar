@@ -155,7 +155,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какая форма содержит ошибку: 'Она собирается купить цветы'?",
+      "prompt": "Какой вариант содержит ошибку согласования: вместо is с she использовано are?",
       "choices": [
         {
           "id": "a",
@@ -167,21 +167,21 @@
         },
         {
           "id": "c",
-          "text": "She am going to buy"
+          "text": "She is going to purchase"
         },
         {
           "id": "d",
-          "text": "She going to buy"
+          "text": "She is going to get"
         }
       ],
       "correct_answer": "b",
-      "explanation": "Для 'she' должна быть форма 'is', а не 'are'. Вариант b — распространенная ошибка в согласовании.",
+      "explanation": "She are going to buy содержит требуемую для поиска ошибку: с she нужна форма is. Остальные варианты теперь грамматически согласованы.",
       "theory_block_id": "b3_theory_forms_am_is_are",
       "chapter_id": "en.grammar.future_plans.be_going_to_intention",
       "concept_id": "going_to_forms_am_is_are",
       "difficulty": 2,
       "id": "q6",
-      "signature": "a48049eeee4434bb"
+      "signature": "f80966022f7a73e1"
     },
     {
       "type": "mcq_single",

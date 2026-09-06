@@ -383,25 +383,25 @@
       {
         "id": "q5",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'The meeting is at 3' (без контекста).",
+        "prompt": "Исправьте выбор артикля: «The meeting starts at 3.» (первое упоминание, контекста нет).",
         "theory_block_id": "b1_shared_knowledge",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "The meeting is at 3 (если встреча уже известна)."
+            "text": "The meeting starts at 3."
           },
           {
             "id": "b",
-            "text": "A meeting is at 3."
+            "text": "A meeting starts at 3."
           },
           {
             "id": "c",
-            "text": "The meeting is at 3."
+            "text": "Meeting starts at 3."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "The требует общего контекста. Без него лучше a meeting. Это соответствует правилу, разобранному в этом блоке."
+        "correct_answer": "b",
+        "explanation": "При первом упоминании исчисляемого существительного в единственном числе без общего контекста используется a: A meeting starts at 3."
       },
       {
         "id": "q6",
@@ -415,11 +415,11 @@
       {
         "id": "q7",
         "type": "true_false",
-        "prompt": "The можно использовать при первом упоминании без уточнения.",
+        "prompt": "The всегда можно использовать при первом упоминании, даже если нет общего контекста или уточнения.",
         "theory_block_id": "b1_shared_knowledge",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Без общего контекста первое упоминание требует a/an. Это соответствует правилу, разобранному в этом блоке."
+        "explanation": "Без общего контекста или уточнения новый исчисляемый объект в единственном числе обычно вводится с a/an."
       },
       {
         "id": "q8",
@@ -520,7 +520,7 @@
           },
           {
             "id": "c",
-            "text": "I saw a car. The car was red."
+            "text": "I saw a car. The cars was red."
           }
         ],
         "correct_answer": "a",
@@ -529,7 +529,7 @@
       {
         "id": "q15",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: She opened ___ window because it was hot.",
+        "prompt": "Выберите правильный вариант: She opened ___ window because it was hot. (речь об окне в этой комнате)",
         "theory_block_id": "b2_specific_reference",
         "difficulty": 2,
         "choices": [
@@ -652,7 +652,7 @@
       {
         "id": "q24",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'I liked a movie that we watched yesterday.'",
+        "prompt": "Речь об одном известном обоим фильме. Исправьте предложение, сохранив that: «I liked a movie that we watched yesterday.»",
         "theory_block_id": "b3_defining_phrases",
         "difficulty": 2,
         "choices": [
@@ -670,7 +670,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Уточнение делает объект конкретным, поэтому the. Это соответствует правилу, разобранному в этом блоке."
+        "explanation": "Уточнение указывает на конкретный известный фильм, поэтому здесь используется the. В ответе сохраняется конструкция that we watched yesterday."
       },
       {
         "id": "q25",
@@ -707,11 +707,11 @@
       {
         "id": "q27",
         "type": "true_false",
-        "prompt": "The ставится, когда есть уточняющее определение.",
+        "prompt": "The ставится, когда уточняющее определение однозначно выделяет конкретный объект.",
         "theory_block_id": "b3_defining_phrases",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Уточнение делает объект конкретным. Это соответствует правилу, разобранному в этом блоке."
+        "explanation": "Если определение позволяет собеседникам однозначно понять, о каком объекте речь, используется the."
       },
       {
         "id": "q28",
@@ -739,20 +739,20 @@
       {
         "id": "q29",
         "type": "fill_blank",
-        "prompt": "He met ___ person who spoke French (уточнение who spoke French)",
+        "prompt": "He met ___ person who spoke French. (речь о единственном известном человеке)",
         "theory_block_id": "b3_defining_phrases",
         "difficulty": 2,
         "correct_answer": "the",
-        "explanation": "Who spoke French — уточнение. Это делает объект конкретным. Это соответствует правилу, разобранному в этом блоке."
+        "explanation": "В заданном контексте относительное предложение однозначно выделяет известного человека, поэтому используется the."
       },
       {
         "id": "q30",
         "type": "true_false",
-        "prompt": "The не нужен, если есть уточняющая фраза.",
+        "prompt": "Если уточняющая фраза однозначно выделяет конкретный объект, артикль the не нужен.",
         "theory_block_id": "b3_defining_phrases",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Уточнение делает объект конкретным, поэтому the нужен. Это соответствует правилу, разобранному в этом блоке."
+        "explanation": "Когда уточнение делает объект однозначным и известным, перед существительным нужен the."
       },
       {
         "id": "q31",
@@ -898,7 +898,7 @@
       {
         "id": "q45",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: ___ meeting was cancelled.",
+        "prompt": "Выберите правильный вариант: ___ meeting was cancelled. (речь о встрече, которую мы обсуждали)",
         "theory_block_id": "b5_place_context",
         "difficulty": 2,
         "choices": [
@@ -939,7 +939,7 @@
       {
         "id": "q48",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: I'll meet you at ___ airport.",
+        "prompt": "Выберите правильный вариант: I’ll meet you at ___ airport. (мы оба знаем, в каком)",
         "theory_block_id": "b5_place_context",
         "difficulty": 2,
         "choices": [
@@ -1044,11 +1044,11 @@
       {
         "id": "q56",
         "type": "fill_blank",
-        "prompt": "I saw ___ movie yesterday. ___ movie was great (первое упоминание)",
+        "prompt": "I saw ___ movie yesterday. (первое упоминание без контекста)",
         "theory_block_id": "b6_common_mistakes",
         "difficulty": 2,
         "correct_answer": "a",
-        "explanation": "Первое упоминание — a. Затем будет the. Это соответствует правилу, разобранному в этом блоке."
+        "explanation": "При первом упоминании одного неконкретного фильма используется a."
       },
       {
         "id": "q57",
@@ -1163,7 +1163,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:48:55Z",
+    "updated_at": "2026-09-04T21:03:30Z",
     "source": "llm"
   }
 }

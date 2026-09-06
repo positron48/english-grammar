@@ -300,11 +300,11 @@
       {
         "id": "q2",
         "type": "fill_blank",
-        "prompt": "I ___ be at the office by 9. (обязанность)",
+        "prompt": "I ___ be at the office by 9. (используйте must для сильного обязательства)",
         "theory_block_id": "b1_rules_must_have_to",
         "difficulty": 1,
         "correct_answer": "must",
-        "explanation": "Must выражает необходимость и подходит для требований. В этом контексте это обязательство по правилу. Это соответствует правилу, разобранному в этом блоке."
+        "explanation": "Must выражает сильное обязательство. Have to тоже могло бы описать требование расписания, поэтому целевая форма названа."
       },
       {
         "id": "q3",
@@ -313,7 +313,7 @@
         "theory_block_id": "b1_rules_must_have_to",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Оба выражают необходимость. Must звучит как внутреннее правило, have to — как внешнее требование."
+        "explanation": "Оба глагола выражают необходимость. Контраст «личное must — внешнее have to» полезен как тенденция, но must также употребляется в правилах, а выбор зависит от позиции говорящего и контекста."
       },
       {
         "id": "q4",
@@ -341,11 +341,11 @@
       {
         "id": "q6",
         "type": "fill_blank",
-        "prompt": "We ___ keep the kitchen clean. (правило)",
+        "prompt": "We ___ keep the kitchen clean. (используйте must для сформулированного правила)",
         "theory_block_id": "b1_rules_must_have_to",
         "difficulty": 1,
         "correct_answer": "must",
-        "explanation": "Must выражает правило или обязанность. В этом контексте это требование."
+        "explanation": "Must используется для сформулированного правила. Have to также возможно, если обязанность представлена как внешнее требование."
       },
       {
         "id": "q7",
@@ -382,20 +382,20 @@
       {
         "id": "q9",
         "type": "fill_blank",
-        "prompt": "Employees ___ follow safety rules. (обязанность по правилу)",
+        "prompt": "Employees ___ follow safety rules. (используйте must для формулировки правила)",
         "theory_block_id": "b1_rules_must_have_to",
         "difficulty": 2,
         "correct_answer": "must",
-        "explanation": "Must подходит для формулировки правил и требований. Здесь это обязанность по правилам. Это соответствует правилу, разобранному в этом блоке."
+        "explanation": "Must естественно формулирует правило. Have to также может сообщить о внешней обязанности, поэтому форма указана."
       },
       {
         "id": "q10",
         "type": "true_false",
-        "prompt": "Have to обычно звучит как внутреннее правило говорящего.",
+        "prompt": "Верно ли: have to всегда выражает только внешнее требование, а must — только внутреннее правило?",
         "theory_block_id": "b1_rules_must_have_to",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Have to чаще связано с внешними требованиями. Внутреннее правило чаще выражают must."
+        "explanation": "Нет. Это учебная тенденция, а не абсолютное разделение: must часто формулирует внешние правила, а have to сообщает о необходимости из контекста."
       },
       {
         "id": "q12",
@@ -410,7 +410,7 @@
       {
         "id": "q13",
         "type": "mcq_single",
-        "prompt": "Какое предложение выражает строгий запрет?",
+        "prompt": "Какое предложение выражает строгий запрет именно с mustn’t?",
         "theory_block_id": "b2_prohibitions_mustnt",
         "difficulty": 1,
         "choices": [
@@ -428,7 +428,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Mustn't — это запрет. Shouldn't — мягкий совет, may not — вероятность."
+        "explanation": "Mustn’t — заданная форма запрета. May not тоже может выражать формальный запрет, поэтому конструкция названа в условии."
       },
       {
         "id": "q14",
@@ -584,7 +584,7 @@
       {
         "id": "q28",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'Could you to open the window?'",
+        "prompt": "Исправьте форму, сохранив could: 'Could you to open the window?'",
         "theory_block_id": "b3_requests_can_could",
         "difficulty": 2,
         "choices": [
@@ -598,11 +598,11 @@
           },
           {
             "id": "c",
-            "text": "Can you open the window?"
+            "text": "Open the window, please."
           }
         ],
         "correct_answer": "a",
-        "explanation": "После could используется V1 без to. Правильно: could you open."
+        "explanation": "После could нужна базовая форма без to: Could you open the window? Can you open...? тоже грамматично, поэтому прежний вариант заменён."
       },
       {
         "id": "q29",
@@ -649,7 +649,7 @@
       {
         "id": "q34",
         "type": "mcq_single",
-        "prompt": "Какой вариант звучит более формально?",
+        "prompt": "Какой вариант обычно звучит более вежливо и менее прямо?",
         "theory_block_id": "b3_requests_can_could",
         "difficulty": 2,
         "choices": [
@@ -667,7 +667,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Could делает просьбу более вежливой. Это подходит для формальных ситуаций."
+        "explanation": "Could you...? обычно делает просьбу более дистанцированной и вежливой. Это не означает, что Can you...? невежливо или неграмматично."
       },
       {
         "id": "q35",
@@ -892,11 +892,11 @@
       {
         "id": "q50",
         "type": "fill_blank",
-        "prompt": "She ___ join the call later. (возможность)",
+        "prompt": "She ___ join the call later. (используйте may для возможности)",
         "theory_block_id": "b5_probability_may_might",
         "difficulty": 1,
         "correct_answer": "may",
-        "explanation": "May выражает вероятность. Это подходит, когда не уверены в планах."
+        "explanation": "May выражает возможность. Might тоже могло бы подойти, поэтому целевая форма названа."
       },
       {
         "id": "q51",
@@ -1020,7 +1020,7 @@
         "theory_block_id": "b6_build_speak_dialogues",
         "difficulty": 2,
         "correct_answer": "You shouldn't leave tools on the floor.",
-        "explanation": "Совет оформляется как подлежащее + shouldn't + V1. Это мягкий запрет.",
+        "explanation": "Shouldn’t leave выражает совет не оставлять инструменты на полу. Это не запрет; для запрета использовалось бы mustn’t.",
         "translation_ru": "Вам не следует оставлять инструменты на полу."
       },
       {
@@ -1172,7 +1172,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:22Z",
+    "updated_at": "2026-09-04T20:23:49Z",
     "source": "llm"
   }
 }

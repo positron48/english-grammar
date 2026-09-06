@@ -5,7 +5,7 @@
   "questions": [
     {
       "type": "mcq_single",
-      "prompt": "Какая фраза правильно использует Present Perfect для открытого периода времени?",
+      "prompt": "Какая фраза правильно использует Present Perfect для открытого периода времени (сейчас всё ещё утро)?",
       "choices": [
         {
           "id": "a",
@@ -25,13 +25,13 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "«This morning» — открытый период, поэтому Present Perfect используется.",
+      "explanation": "Поскольку утро ещё продолжается, целевая модель главы использует Present Perfect.",
       "theory_block_id": "b5_theory_open_closed_time",
       "chapter_id": "en.grammar.perfect_aspect_experience_result.present_perfect_vs_past",
       "concept_id": "open_closed_time_periods",
       "difficulty": 2,
       "id": "q1",
-      "signature": "c3c995a8472c18c2"
+      "signature": "bf2e6926bbc857b5"
     },
     {
       "type": "mcq_single",
@@ -65,7 +65,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Выберите правильную форму для предложения: «Она не получила звонков сегодня».",
+      "prompt": "День ещё продолжается. Выберите Present Perfect: «Она сегодня не получила ни одного звонка».",
       "choices": [
         {
           "id": "a",
@@ -73,7 +73,7 @@
         },
         {
           "id": "b",
-          "text": "She hasn't got calls today."
+          "text": "She hasn't get any calls today."
         },
         {
           "id": "c",
@@ -81,17 +81,17 @@
         },
         {
           "id": "d",
-          "text": "She hasn't had calls today."
+          "text": "She hasn't received any calls today."
         }
       ],
       "correct_answer": "d",
-      "explanation": "«Today» — открытый период, поэтому Present Perfect используется в отрицании.",
+      "explanation": "Для продолжающегося today в целевой модели используется Present Perfect: has not received.",
       "theory_block_id": "b5_theory_open_closed_time",
       "chapter_id": "en.grammar.perfect_aspect_experience_result.present_perfect_vs_past",
       "concept_id": "open_closed_time_periods",
       "difficulty": 2,
       "id": "q3",
-      "signature": "565816a89806a760"
+      "signature": "5babddfe24609009"
     },
     {
       "type": "mcq_single",
@@ -125,7 +125,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какая фраза верно использует Present Perfect с «this morning»?",
+      "prompt": "Какая фраза верно использует Present Perfect с «this morning» (сейчас всё ещё утро)?",
       "choices": [
         {
           "id": "a",
@@ -145,17 +145,17 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "«This morning» — открытый период, поэтому Present Perfect.",
+      "explanation": "Поскольку утро ещё продолжается, целевая модель главы использует Present Perfect.",
       "theory_block_id": "b5_theory_open_closed_time",
       "chapter_id": "en.grammar.perfect_aspect_experience_result.present_perfect_vs_past",
       "concept_id": "open_closed_time_periods",
       "difficulty": 2,
       "id": "q5",
-      "signature": "eb55a094e9d69aec"
+      "signature": "78aa9f0dcdbc59de"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какая фраза правильно использует Present Perfect для открытого периода?",
+      "prompt": "Сейчас всё ещё вечер. Какая фраза использует Present Perfect для открытого периода?",
       "choices": [
         {
           "id": "a",
@@ -175,13 +175,13 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "«This evening» — открытый период, поэтому Present Perfect.",
+      "explanation": "Поскольку текущий вечер продолжается, целевая модель главы использует Present Perfect.",
       "theory_block_id": "b5_theory_open_closed_time",
       "chapter_id": "en.grammar.perfect_aspect_experience_result.present_perfect_vs_past",
       "concept_id": "open_closed_time_periods",
       "difficulty": 2,
       "id": "q6",
-      "signature": "aea637dad11e8a8f"
+      "signature": "1224c427dd27fa15"
     },
     {
       "type": "mcq_single",
@@ -215,7 +215,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какая фраза правильно использует Present Perfect в отрицании для открытого периода?",
+      "prompt": "Неделя ещё продолжается. Какая фраза использует Present Perfect в отрицании для открытого периода?",
       "choices": [
         {
           "id": "a",
@@ -235,13 +235,13 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "«This week» — открытый период, поэтому Present Perfect используется в отрицании.",
+      "explanation": "Для продолжающейся недели целевая модель главы использует Present Perfect в отрицании.",
       "theory_block_id": "b5_theory_open_closed_time",
       "chapter_id": "en.grammar.perfect_aspect_experience_result.present_perfect_vs_past",
       "concept_id": "open_closed_time_periods",
       "difficulty": 2,
       "id": "q8",
-      "signature": "e364181d3566d52d"
+      "signature": "329e28a695a8bf70"
     },
     {
       "type": "mcq_single",
@@ -275,33 +275,33 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какая фраза правильно использует Present Perfect для открытого периода?",
+      "prompt": "Какая фраза правильно использует Present Perfect для открытого периода (сейчас всё ещё утро)?",
       "choices": [
         {
           "id": "a",
-          "text": "They had a meeting this morning."
+          "text": "They completed two tasks last morning."
         },
         {
           "id": "b",
-          "text": "They have had a meeting this morning."
+          "text": "They have completed two tasks this morning."
         },
         {
           "id": "c",
-          "text": "They will have a meeting this morning."
+          "text": "They have complete two tasks this morning."
         },
         {
           "id": "d",
-          "text": "They have a meeting this morning."
+          "text": "They completes two tasks this morning."
         }
       ],
       "correct_answer": "b",
-      "explanation": "«This morning» — открытый период, поэтому Present Perfect.",
+      "explanation": "Утро ещё продолжается, поэтому целевая форма для результата к текущему моменту — have completed.",
       "theory_block_id": "b5_theory_open_closed_time",
       "chapter_id": "en.grammar.perfect_aspect_experience_result.present_perfect_vs_past",
       "concept_id": "open_closed_time_periods",
       "difficulty": 2,
       "id": "q10",
-      "signature": "4a70a0ac3cb2fc5c"
+      "signature": "83fcb9bc48b0509a"
     }
   ],
   "meta": {

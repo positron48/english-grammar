@@ -252,7 +252,7 @@
       {
         "id": "q1",
         "type": "mcq_single",
-        "prompt": "Вежливая просьба: '___ you open the door?'",
+        "prompt": "Более мягкая просьба: '___ you open the door?'",
         "theory_block_id": "b1_theory_polite_requests",
         "difficulty": 1,
         "choices": [
@@ -270,7 +270,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Could делает просьбу более вежливой: Could you...?."
+        "explanation": "Could you...? обычно звучит более косвенно и мягко, чем Can you...?. Оба варианта могут быть вежливыми."
       },
       {
         "id": "q2",
@@ -344,7 +344,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Could you...? звучит вежливее, чем can или императив."
+        "explanation": "Из этих вариантов Could you help me? звучит наиболее мягко. Can you help me? тоже может быть вежливой просьбой, а императив звучит прямее."
       },
       {
         "id": "q7",
@@ -385,7 +385,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "После could используется базовая форма open без -s и without to."
+        "explanation": "После could используется базовая форма open без -s и без to."
       },
       {
         "id": "q10",
@@ -445,7 +445,7 @@
       {
         "id": "q13",
         "type": "mcq_single",
-        "prompt": "Вежливый запрос разрешения: '___ I use your phone?'",
+        "prompt": "Более мягкий запрос разрешения: '___ I use your phone?'",
         "theory_block_id": "b2_theory_permission",
         "difficulty": 1,
         "choices": [
@@ -463,7 +463,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Could I...? — более вежливая форма запроса разрешения."
+        "explanation": "Could I...? обычно звучит более осторожно и косвенно, чем Can I...?. Оба варианта могут запрашивать разрешение."
       },
       {
         "id": "q14",
@@ -551,11 +551,11 @@
       {
         "id": "q20",
         "type": "true_false",
-        "prompt": "В ответах на Could I...? можно использовать can или could.",
+        "prompt": "В обычном ответе, которым дают разрешение на просьбу Could I...?, естественно сказать Yes, you could.",
         "theory_block_id": "b2_theory_permission",
         "difficulty": 2,
-        "correct_answer": "true",
-        "explanation": "Оба варианта возможны: Yes, you can / Yes, you could (вежливо)."
+        "correct_answer": "false",
+        "explanation": "Разрешение обычно дают фразой Yes, you can, Sure или Of course. Yes, you could чаще звучит условно или гипотетически."
       },
       {
         "id": "q21",
@@ -794,17 +794,17 @@
       {
         "id": "q37",
         "type": "mcq_single",
-        "prompt": "Краткий ответ на «Could you help me?»:",
+        "prompt": "Как естественно согласиться выполнить просьбу «Could you help me?»?",
         "theory_block_id": "b4_theory_short_answers",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "Yes, I could."
+            "text": "Yes, of course."
           },
           {
             "id": "b",
-            "text": "Yes, I can."
+            "text": "Yes, I could."
           },
           {
             "id": "c",
@@ -812,7 +812,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Грамматически корректный ответ: Yes, I could."
+        "explanation": "На текущую просьбу естественно ответить Yes, of course или Sure. Yes, I could обычно не выражает согласие выполнить её сейчас."
       },
       {
         "id": "q38",
@@ -826,22 +826,22 @@
       {
         "id": "q39",
         "type": "true_false",
-        "prompt": "В кратких ответах с could повторяется could/couldn't.",
+        "prompt": "В кратком ответе на вопрос о прошлой способности с could повторяется could/couldn't.",
         "theory_block_id": "b4_theory_short_answers",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Краткий ответ строится с could."
+        "explanation": "Для вопроса о прошлой способности возможны ответы Yes, ... could / No, ... couldn't. Ответы на текущие вежливые просьбы строятся иначе."
       },
       {
         "id": "q40",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите правильный вариант: '— Could you help? — Yes, I can.'",
+        "prompt": "Выберите естественный ответ-согласие на просьбу 'Could you help?'",
         "theory_block_id": "b4_theory_short_answers",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "— Could you help? — Yes, I could."
+            "text": "— Could you help? — Yes, of course."
           },
           {
             "id": "b",
@@ -853,7 +853,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Грамматически правильный ответ с could: Yes, I could."
+        "explanation": "Текущую просьбу естественно принять словами Yes, of course или Sure."
       },
       {
         "id": "q41",
@@ -868,7 +868,7 @@
       {
         "id": "q42",
         "type": "mcq_single",
-        "prompt": "Выберите правильный краткий ответ:",
+        "prompt": "Краткий ответ на вопрос о прошлой способности «Could you and your brother swim when you were ten?»:",
         "theory_block_id": "b4_theory_short_answers",
         "difficulty": 1,
         "choices": [
@@ -886,7 +886,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Краткий ответ с could: Yes, we could."
+        "explanation": "На вопрос о прошлой способности можно ответить Yes, we could."
       },
       {
         "id": "q43",
@@ -894,8 +894,8 @@
         "prompt": "— Could I sit here? — Yes, you ___. (ответ)",
         "theory_block_id": "b4_theory_short_answers",
         "difficulty": 1,
-        "correct_answer": "could",
-        "explanation": "Краткий ответ: Yes, you could."
+        "correct_answer": "can",
+        "explanation": "Разрешение обычно дают с can: Yes, you can. Также естественны Sure и Of course."
       },
       {
         "id": "q44",
@@ -932,17 +932,17 @@
       {
         "id": "q46",
         "type": "mcq_single",
-        "prompt": "Какой ответ самый вежливый?",
+        "prompt": "Какой ответ естественно принимает просьбу?",
         "theory_block_id": "b4_theory_short_answers",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Sure, I could."
+            "text": "Sure, of course."
           },
           {
             "id": "b",
-            "text": "Yes, I can."
+            "text": "Yes, I could."
           },
           {
             "id": "c",
@@ -950,7 +950,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Ответ с could звучит более вежливо."
+        "explanation": "Sure, of course прямо и вежливо выражает согласие выполнить просьбу."
       },
       {
         "id": "q47",
@@ -958,17 +958,17 @@
         "prompt": "— Could we start now? — No, we ___. (ответ)",
         "theory_block_id": "b4_theory_short_answers",
         "difficulty": 1,
-        "correct_answer": "couldn't",
-        "explanation": "Отрицательный ответ: No, we couldn't."
+        "correct_answer": "can't",
+        "explanation": "В ответе на просьбу о разрешении естественно использовать can/can't: No, we can't. Couldn't здесь звучало бы как прошедшая или условная форма."
       },
       {
         "id": "q48",
         "type": "true_false",
-        "prompt": "В кратком ответе к Could you...? можно использовать can/could.",
+        "prompt": "На текущую просьбу Could you...? следует отвечать Yes, I could или No, I couldn't.",
         "theory_block_id": "b4_theory_short_answers",
         "difficulty": 2,
-        "correct_answer": "true",
-        "explanation": "В разговоре часто используют can, но could тоже корректно."
+        "correct_answer": "false",
+        "explanation": "Текущую просьбу обычно принимают или отклоняют фразами Sure, Of course, Yes, I can или Sorry, I can't. Could/couldn't уместны в вопросах о прошлой способности или гипотетической возможности."
       },
       {
         "id": "q49",
@@ -1009,7 +1009,7 @@
         "theory_block_id": "b5_theory_contrast_can",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Could звучит более вежливо."
+        "explanation": "Could обычно делает просьбу более косвенной и мягкой. Can you...? также может быть вежливым в зависимости от тона и контекста."
       },
       {
         "id": "q52",
@@ -1047,7 +1047,7 @@
       {
         "id": "q54",
         "type": "mcq_single",
-        "prompt": "Какое предложение более формальное?",
+        "prompt": "Какое предложение звучит более мягко и косвенно?",
         "theory_block_id": "b5_theory_contrast_can",
         "difficulty": 2,
         "choices": [
@@ -1065,7 +1065,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Could звучит более официально и мягко."
+        "explanation": "Could you sign here? обычно звучит мягче и менее прямо. Это не делает конструкцию автоматически формальной во всех ситуациях."
       },
       {
         "id": "q55",
@@ -1217,7 +1217,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:21Z",
+    "updated_at": "2026-09-04T19:51:01Z",
     "source": "llm"
   }
 }

@@ -265,7 +265,7 @@
       {
         "id": "q1",
         "type": "mcq_single",
-        "prompt": "Какое слово чаще всего сигнализирует, что нужен Past Simple?",
+        "prompt": "Какое слово означает «вчера» и указывает на прошлое?",
         "theory_block_id": "b1_theory_past_time_markers",
         "difficulty": 1,
         "choices": [
@@ -286,16 +286,16 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Маркер yesterday обозначает завершенное прошлое. В таких случаях используется Past Simple."
+        "explanation": "Yesterday означает «вчера». С ним можно описать прошлое событие: She called yesterday."
       },
       {
         "id": "q2",
         "type": "true_false",
-        "prompt": "Если в предложении есть time marker прошлого, обычно нужен Past Simple.",
+        "prompt": "В предложении «She called yesterday» слово yesterday указывает, когда произошло действие.",
         "theory_block_id": "b1_theory_past_time_markers",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Указатели времени прошлого (yesterday, last week, in 2020, ... ago) привязывают действие к прошлому и требуют Past Simple."
+        "explanation": "Yesterday означает «вчера» и относит звонок к прошлому. Сам по себе маркер прошлого не требует исключительно Past Simple: выбор времени зависит и от смысла."
       },
       {
         "id": "q3",
@@ -304,7 +304,7 @@
         "theory_block_id": "b1_theory_past_time_markers",
         "difficulty": 1,
         "correct_answer": "yesterday",
-        "explanation": "Yesterday — типичный маркер Past Simple и ставится после глагола."
+        "explanation": "Yesterday означает «вчера»: She called me yesterday. Здесь указатель времени стоит в конце предложения."
       },
       {
         "id": "q4",
@@ -335,11 +335,11 @@
       {
         "id": "q6",
         "type": "true_false",
-        "prompt": "Маркеры времени помогают понять, что действие уже завершено.",
+        "prompt": "В выражениях «last week» и «two days ago» указано время в прошлом.",
         "theory_block_id": "b1_theory_past_time_markers",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Time markers привязывают событие к прошлому и показывают, что оно закончилось."
+        "explanation": "Last week — «на прошлой неделе», two days ago — «два дня назад». Они указывают время, но сами по себе не сообщают, было ли действие завершено."
       },
       {
         "id": "q7",
@@ -370,7 +370,7 @@
       {
         "id": "q8",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"We met ___ 2020.\" (предлог)",
+        "prompt": "Заполните пропуск, чтобы получилось «Мы познакомились в 2020 году»: «We met ___ 2020.» (предлог)",
         "theory_block_id": "b1_theory_past_time_markers",
         "difficulty": 2,
         "correct_answer": "in",
@@ -400,7 +400,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Two days ago указывает на расстояние от настоящего назад, это Past Simple."
+        "explanation": "Two days ago означает «два дня назад». Например, We met two days ago описывает встречу в прошлом."
       },
       {
         "id": "q10",
@@ -409,7 +409,7 @@
         "theory_block_id": "b1_theory_past_time_markers",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "Обе фразы описывают завершенное прошлое, поэтому настоящее время здесь не подходит."
+        "explanation": "Last year означает «в прошлом году», in 2015 — «в 2015 году». Это указания на прошлое, а не настоящее."
       },
       {
         "id": "q12",
@@ -444,7 +444,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "С last используется Past Simple без предлога in: I saw him last week."
+        "explanation": "В сочетании last week со значением «на прошлой неделе» предлог не нужен. Прошедшая форма see — saw: I saw him last week."
       },
       {
         "id": "q14",
@@ -462,7 +462,7 @@
         "theory_block_id": "b2_theory_yesterday_last",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Yesterday evening указывает на конкретный момент в прошлом, поэтому Past Simple."
+        "explanation": "Yesterday evening означает «вчера вечером». Это указание на прошлое; например: She called yesterday evening."
       },
       {
         "id": "q17",
@@ -523,7 +523,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "С last предлоги не используются: last year, last month."
+        "explanation": "В обстоятельстве last year со значением «в прошлом году» предлог не нужен. Аналогично: last month — «в прошлом месяце»."
       },
       {
         "id": "q20",
@@ -532,12 +532,12 @@
         "theory_block_id": "b2_theory_yesterday_last",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "С last предлог in не ставится. Правильно: last week."
+        "explanation": "Чтобы сказать «на прошлой неделе», используют last week без in."
       },
       {
         "id": "q22",
         "type": "mcq_single",
-        "prompt": "Как лучше перевести: \"в прошлое лето\"?",
+        "prompt": "Как перевести «прошлым летом»?",
         "theory_block_id": "b2_theory_yesterday_last",
         "difficulty": 2,
         "choices": [
@@ -617,11 +617,11 @@
       {
         "id": "q27",
         "type": "true_false",
-        "prompt": "Ago обычно стоит в конце предложения.",
+        "prompt": "В выражении «three days ago» слово ago стоит после количества времени.",
         "theory_block_id": "b3_theory_ago_usage",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Стандартная позиция ago — после выражения времени: a week ago."
+        "explanation": "Сначала называют промежуток, затем ставят ago: three days ago. Всё выражение можно поставить в конец или начало предложения."
       },
       {
         "id": "q29",
@@ -647,16 +647,16 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Ago указывает на законченное прошлое, поэтому нужен Past Simple: Did you see...?"
+        "explanation": "Для вопроса о встрече неделю назад используем Past Simple: Did you see her a week ago? Здесь ago отсчитывает время назад от настоящего."
       },
       {
         "id": "q31",
         "type": "true_false",
-        "prompt": "Форма Present Perfect подходит для выражений с ago.",
+        "prompt": "Для сообщения «Я встретил её неделю назад» подходит «I have met her a week ago».",
         "theory_block_id": "b3_theory_ago_usage",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Ago обозначает завершенное прошлое и требует Past Simple, а не Present Perfect."
+        "explanation": "Для события в определённый момент прошлого здесь нужен Past Simple: I met her a week ago. Present Perfect в этом предложении не подходит."
       },
       {
         "id": "q33",
@@ -700,7 +700,7 @@
         "theory_block_id": "b3_theory_ago_usage",
         "difficulty": 2,
         "correct_answer": "We moved here two years ago.",
-        "explanation": "Стандартный порядок: subject + past verb + time expression + ago.",
+        "explanation": "После We ставим moved, затем here; выражение two years ago завершает предложение по условию.",
         "translation_ru": "Мы переехали сюда два года назад."
       },
       {
@@ -758,7 +758,7 @@
       {
         "id": "q38",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"She moved to Canada ___ 2017.\" (предлог)",
+        "prompt": "Заполните пропуск, чтобы получилось «Она переехала в Канаду в 2017 году»: «She moved to Canada ___ 2017.» (предлог)",
         "theory_block_id": "b4_theory_in_year_past",
         "difficulty": 1,
         "correct_answer": "in",
@@ -802,11 +802,11 @@
       {
         "id": "q42",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"He started the job ___ 2012.\" (предлог)",
+        "prompt": "Заполните пропуск, чтобы получилось «Он начал эту работу в 2012 году»: «He started the job ___ 2012.» (предлог)",
         "theory_block_id": "b4_theory_in_year_past",
         "difficulty": 1,
         "correct_answer": "in",
-        "explanation": "Год требует предлога in: in 2012."
+        "explanation": "Для значения «в 2012 году» используем in 2012."
       },
       {
         "id": "q43",
@@ -815,7 +815,7 @@
         "theory_block_id": "b4_theory_in_year_past",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "In 2020 указывает на конкретный год в прошлом, поэтому используется Past Simple."
+        "explanation": "In 2020 означает «в 2020 году». С ним можно описать прошлое событие: We met in 2020."
       },
       {
         "id": "q45",
@@ -856,11 +856,11 @@
       {
         "id": "q47",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"We opened the store ___ 2019.\" (предлог)",
+        "prompt": "Заполните пропуск, чтобы получилось «Мы открыли магазин в 2019 году»: «We opened the store ___ 2019.» (предлог)",
         "theory_block_id": "b4_theory_in_year_past",
         "difficulty": 1,
         "correct_answer": "in",
-        "explanation": "Для года нужен предлог in: in 2019."
+        "explanation": "Для значения «в 2019 году» используем in 2019."
       },
       {
         "id": "q48",
@@ -891,7 +891,7 @@
       {
         "id": "q49",
         "type": "mcq_single",
-        "prompt": "Где естественнее поставить time marker?",
+        "prompt": "В каком предложении yesterday стоит в конце, после дополнения you?",
         "theory_block_id": "b5_theory_position_time_markers",
         "difficulty": 2,
         "choices": [
@@ -945,7 +945,7 @@
       {
         "id": "q54",
         "type": "mcq_single",
-        "prompt": "Какое предложение звучит наиболее нейтрально?",
+        "prompt": "В каком предложении last month стоит в конце, после дополнения a car?",
         "theory_block_id": "b5_theory_position_time_markers",
         "difficulty": 2,
         "choices": [
@@ -980,28 +980,28 @@
       {
         "id": "q56",
         "type": "mcq_single",
-        "prompt": "Где time marker стоит в типичном месте?",
+        "prompt": "В каком предложении yesterday стоит в конце, после at 6?",
         "theory_block_id": "b5_theory_position_time_markers",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "She arrived yesterday at 6.",
-            "feedback": "Возможен другой порядок, но нейтральнее вариант B"
+            "feedback": "Это допустимый порядок, но yesterday стоит перед at 6."
           },
           {
             "id": "b",
             "text": "She arrived at 6 yesterday.",
-            "feedback": "Да, time marker в конце"
+            "feedback": "Здесь yesterday стоит после at 6, как требуется."
           },
           {
             "id": "c",
             "text": "She yesterday arrived at 6.",
-            "feedback": "Неестественный порядок"
+            "feedback": "Здесь yesterday стоит перед глаголом."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Нейтральный порядок: действие + точное время + time marker. Yesterday обычно в конце."
+        "explanation": "По условию сначала идёт at 6, затем yesterday. Порядок yesterday at 6 также возможен, но не соответствует заданной позиции."
       },
       {
         "id": "q58",
@@ -1025,7 +1025,7 @@
       {
         "id": "q60",
         "type": "mcq_single",
-        "prompt": "Какой вариант звучит наиболее естественно?",
+        "prompt": "В каком предложении last year стоит в конце, после to Japan?",
         "theory_block_id": "b5_theory_position_time_markers",
         "difficulty": 2,
         "choices": [
@@ -1106,7 +1106,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:18Z",
+    "updated_at": "2026-09-04T17:52:36Z",
     "source": "llm"
   }
 }

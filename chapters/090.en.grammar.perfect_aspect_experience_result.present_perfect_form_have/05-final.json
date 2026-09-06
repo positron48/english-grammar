@@ -1086,7 +1086,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Краткое отрицание: **hasn't** или **haven't** + подлежащее. Вариант a — стандартная форма."
+        "explanation": "В кратком отрицательном ответе подлежащее стоит перед сокращённым вспомогательным глаголом: No, she hasn’t."
       },
       {
         "id": "q51",
@@ -1196,11 +1196,11 @@
       {
         "id": "q58",
         "type": "true_false",
-        "prompt": "Верно или неверно: «Contractions like I've or she's are formed from have/has + subject.»",
+        "prompt": "Верно или неверно: «Contractions like I've or she's are formed from subject + have/has.»",
         "theory_block_id": "b5_theory_short_answers_contractions",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "В Present Perfect *I've* = *I have*, *she's* = *she has*. Сокращение не меняет форму глагола."
+        "explanation": "В Present Perfect I’ve = I have, she’s = she has: подлежащее соединяется с сокращённой формой вспомогательного глагола."
       },
       {
         "id": "q60",
@@ -1324,11 +1324,11 @@
       {
         "id": "q67",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I have ___ been to Japan.\" (когда-либо)",
+        "prompt": "Заполните пропуск: \"Have you ___ been to Japan?\" (когда-либо)",
         "theory_block_id": "b6_theory_adverb_placement",
         "difficulty": 2,
         "correct_answer": "ever",
-        "explanation": "*Ever* обычно между have/has и V3. Типично для вопросов и утверждений в Present Perfect."
+        "explanation": "Ever обычно ставится между have/has и V3 и особенно часто употребляется в вопросах: Have you ever been...?"
       },
       {
         "id": "q69",
@@ -1374,7 +1374,7 @@
       {
         "id": "q72",
         "type": "error_spotting",
-        "prompt": "Найдите правильное предложение о месте yet в предложении:",
+        "prompt": "Выберите нейтральную разговорную позицию yet в вопросе:",
         "theory_block_id": "b6_theory_adverb_placement",
         "difficulty": 2,
         "choices": [
@@ -1392,7 +1392,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "*Yet* обычно в конце вопроса: *Have you finished yet?* Другие позиции неестественны."
+        "explanation": "В нейтральном вопросе yet обычно стоит в конце: Have you finished yet? Вариант Have you yet finished? возможен в более формальном или подчёркнутом стиле."
       }
     ]
   },
@@ -1470,7 +1470,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:25Z",
+    "updated_at": "2026-09-05T19:02:16Z",
     "source": "llm"
   }
 }

@@ -289,7 +289,7 @@
       {
         "id": "q5",
         "type": "mcq_single",
-        "prompt": "Выберите предложение, где агент очевиден и может быть опущен.",
+        "prompt": "Какое предложение лучше фокусирует внимание на регулярной проверке экзамена, а не на проверяющем?",
         "theory_block_id": "b1_theory_omit_agent",
         "difficulty": 2,
         "choices": [
@@ -311,7 +311,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "В варианте b достаточно факта регулярности, исполнитель не нужен.",
+        "explanation": "Фраза *The exam is graded every Friday* сообщает о расписании и не добавляет ненужного в этом контексте исполнителя.",
         "tags": []
       },
       {
@@ -355,11 +355,11 @@
       {
         "id": "q8",
         "type": "true_false",
-        "prompt": "By-агент обязателен, если он уточняет ответственность или авторство.",
+        "prompt": "Если авторство или ответственность важны для задуманного смысла, исполнителя следует указать через *by*.",
         "theory_block_id": "b2_theory_include_agent",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Когда исполнитель важен для смысла, его указывают через by.",
+        "explanation": "Существенную информацию об исполнителе вводят через *by*.",
         "tags": []
       },
       {
@@ -441,7 +441,7 @@
       {
         "id": "q13",
         "type": "mcq_single",
-        "prompt": "Выберите правильное сочетание: The window was broken ___ a stone.",
+        "prompt": "Камень использовали как инструмент. Выберите предлог: The window was broken ___ a stone.",
         "theory_block_id": "b3_theory_agent_types",
         "difficulty": 2,
         "choices": [
@@ -463,7 +463,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Инструмент вводится с with: broken with a stone.",
+        "explanation": "Инструмент, которым разбили окно, вводится через *with*.",
         "tags": []
       },
       {
@@ -545,17 +545,17 @@
       {
         "id": "q18",
         "type": "true_false",
-        "prompt": "Фраза \"The email was sent by a laptop\" корректна, потому что laptop — инструмент.",
+        "prompt": "Если отправитель использовал ноутбук как устройство, фраза *The email was sent by a laptop* естественно называет инструмент.",
         "theory_block_id": "b3_theory_agent_types",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Для инструмента лучше with или via, а by обозначает агента.",
+        "explanation": "Нет. Устройство или канал обычно вводят через *from*, *via* или другой подходящий оборот; *by* здесь звучит как указание самостоятельного исполнителя.",
         "tags": []
       },
       {
         "id": "q19",
         "type": "mcq_single",
-        "prompt": "Выберите вариант, где by-агент делает фразу тяжёлой и лучше перейти в актив.",
+        "prompt": "Нужно сделать менеджера главным действующим лицом. Какое пассивное предложение естественнее переписать как *The manager announced the decision*?",
         "theory_block_id": "b4_theory_avoid_by",
         "difficulty": 2,
         "choices": [
@@ -577,7 +577,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Если важно подчеркнуть менеджера, активное предложение будет естественнее.",
+        "explanation": "Когда главная новая информация — менеджер, активная форма прямо ставит его в позицию подлежащего.",
         "tags": []
       },
       {
@@ -603,7 +603,7 @@
       {
         "id": "q22",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"A decision was made by.\"",
+        "prompt": "Исполнитель неизвестен. Исправьте предложение с незавершённым *by*: \"A decision was made by.\"",
         "theory_block_id": "b4_theory_avoid_by",
         "difficulty": 2,
         "choices": [
@@ -625,7 +625,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Если агент не указан, by нельзя оставлять без дополнения.",
+        "explanation": "Если исполнитель неизвестен, оборот *by* убирают целиком: *A decision was made*.",
         "tags": []
       },
       {
@@ -651,7 +651,7 @@
       {
         "id": "q26",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The report was published with the company.\"",
+        "prompt": "Компания сама опубликовала отчёт. Исправьте: \"The report was published with the company.\"",
         "theory_block_id": "b5_theory_news_reports",
         "difficulty": 2,
         "choices": [
@@ -673,7 +673,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Организация — исполнитель, значит нужен by, а не with.",
+        "explanation": "Компания выступает исполнителем, поэтому используется *by the company*.",
         "tags": []
       },
       {
@@ -727,7 +727,7 @@
       {
         "id": "q30",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: The glass was broken ___ a hammer.",
+        "prompt": "Молоток использовали как инструмент. Выберите предлог: The glass was broken ___ a hammer.",
         "theory_block_id": "b3_theory_agent_types",
         "difficulty": 2,
         "choices": [
@@ -749,7 +749,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Инструмент обозначается с with: broken with a hammer.",
+        "explanation": "Инструмент вводится с *with*: *broken with a hammer*.",
         "tags": []
       },
       {
@@ -793,7 +793,7 @@
       {
         "id": "q33",
         "type": "mcq_single",
-        "prompt": "Выберите вариант, который лучше переформулировать в актив.",
+        "prompt": "Нужно сделать тренера главным действующим лицом. Какое пассивное предложение лучше переписать как *The coach issued the warning*?",
         "theory_block_id": "b4_theory_avoid_by",
         "difficulty": 2,
         "choices": [
@@ -815,7 +815,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Если важно выделить автора, актив звучит проще: The coach issued the warning.",
+        "explanation": "Когда важнее всего исполнитель, активная форма обычно выражает этот фокус прямее.",
         "tags": []
       },
       {
@@ -841,7 +841,7 @@
       {
         "id": "q36",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The statement was issued by.\"",
+        "prompt": "Исполнитель неизвестен. Исправьте предложение с незавершённым *by*: \"The statement was issued by.\"",
         "theory_block_id": "b4_theory_avoid_by",
         "difficulty": 2,
         "choices": [
@@ -869,11 +869,11 @@
       {
         "id": "q38",
         "type": "true_false",
-        "prompt": "В официальных сообщениях by-агент часто добавляют, чтобы подчеркнуть ответственность.",
+        "prompt": "В официальных сообщениях исполнителя всегда добавляют через *by*, даже если источник не важен.",
         "theory_block_id": "b5_theory_news_reports",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "Чаще агент опускают ради нейтральности, если он не критичен.",
+        "explanation": "Нет. Несущественного исполнителя часто опускают, чтобы сохранить фокус на событии.",
         "tags": []
       },
       {
@@ -889,7 +889,7 @@
       {
         "id": "q40",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The announcement was made with the company.\"",
+        "prompt": "Компания сама сделала объявление. Исправьте: \"The announcement was made with the company.\"",
         "theory_block_id": "b5_theory_news_reports",
         "difficulty": 2,
         "choices": [
@@ -911,7 +911,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Компания — исполнитель, значит нужен by.",
+        "explanation": "Компания является исполнителем, поэтому нужен оборот *by the company*.",
         "tags": []
       },
       {
@@ -965,7 +965,7 @@
       {
         "id": "q44",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The report was prepared with the analyst.\"",
+        "prompt": "Аналитик был единственным исполнителем. Исправьте: \"The report was prepared with the analyst.\"",
         "theory_block_id": "b3_theory_agent_types",
         "difficulty": 2,
         "choices": [
@@ -987,7 +987,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Агент — человек, используется by.",
+        "explanation": "Единственного исполнителя вводят через *by*: *prepared by the analyst*.",
         "tags": []
       },
       {
@@ -1013,29 +1013,29 @@
       {
         "id": "q48",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The report was published by a press release.\"",
+        "prompt": "Пресс-релиз был каналом публикации новости. Исправьте: \"The news was published by a press release.\"",
         "theory_block_id": "b3_theory_agent_types",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "The report was published in a press release."
+            "text": "The news was published in a press release."
           },
           {
             "id": "b",
-            "text": "The report was published by a press release."
+            "text": "The news was published by a press release."
           },
           {
             "id": "c",
-            "text": "The report published in a press release."
+            "text": "The news published in a press release."
           },
           {
             "id": "d",
-            "text": "The report was publishing in a press release."
+            "text": "The news was publishing in a press release."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Press release — это канал/контекст, не агент. Подходит in.",
+        "explanation": "Пресс-релиз — место публикации, а не исполнитель; подходит *in a press release*.",
         "tags": []
       },
       {
@@ -1079,17 +1079,17 @@
       {
         "id": "q51",
         "type": "true_false",
-        "prompt": "В новостях by-агент добавляют только если источник или ответственность важны.",
+        "prompt": "В новостях исполнителя указывают через *by*, если источник или ответственность важны для сообщения.",
         "theory_block_id": "b5_theory_news_reports",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Если источник важен, его указывают; иначе оставляют пассив без агента.",
+        "explanation": "Существенный источник указывают; несущественного исполнителя можно опустить.",
         "tags": []
       },
       {
         "id": "q52",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The statement was released with the company.\"",
+        "prompt": "Компания сама выпустила заявление. Исправьте: \"The statement was released with the company.\"",
         "theory_block_id": "b5_theory_news_reports",
         "difficulty": 2,
         "choices": [
@@ -1111,13 +1111,13 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Компания — исполнитель, нужен by.",
+        "explanation": "Компания выступает исполнителем, поэтому нужен *by*.",
         "tags": []
       },
       {
         "id": "q53",
         "type": "mcq_single",
-        "prompt": "Выберите предложение, где лучше опустить агента.",
+        "prompt": "В сообщении важна регулярная уборка офиса, а не личность уборщика. Какой вариант лучше?",
         "theory_block_id": "b1_theory_omit_agent",
         "difficulty": 2,
         "choices": [
@@ -1139,7 +1139,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Регулярное действие, агент не важен: is cleaned.",
+        "explanation": "Пассив без агента сохраняет фокус на регулярной уборке.",
         "tags": []
       },
       {
@@ -1165,7 +1165,7 @@
       {
         "id": "q56",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The vase was broken by a hammer.\"",
+        "prompt": "Молоток намеренно использовали как инструмент. Исправьте: \"The vase was broken by a hammer.\"",
         "theory_block_id": "b3_theory_agent_types",
         "difficulty": 2,
         "choices": [
@@ -1187,7 +1187,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Молоток — инструмент, поэтому нужен with.",
+        "explanation": "Инструмент вводится через *with*: *broken with a hammer*.",
         "tags": []
       },
       {
@@ -1302,7 +1302,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:49:02Z",
+    "updated_at": "2026-09-05T20:48:02Z",
     "source": "llm"
   }
 }

@@ -65,7 +65,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какое предложение правильно выражает отрицательную форму третьего условного предложения?",
+      "prompt": "Какое предложение содержит отрицание и в условии, и в результате?",
       "choices": [
         {
           "id": "a",
@@ -85,13 +85,13 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "В отрицательной форме третьего условного предложения после 'if' используется Past Perfect отрицательный (hadn't + V3), а в главном предложении — отрицательная форма (wouldn't have + V3).",
+      "explanation": "*Hadn't forgotten* — отрицательное прошлое условие, *wouldn't have answered* — отрицательный прошлый результат. Остальные варианты выражают другие комбинации.",
       "theory_block_id": "b2_theory_form",
       "chapter_id": "en.grammar.conditionals_hypotheticals.third_conditional",
       "concept_id": "third_conditional_form",
       "difficulty": 3,
       "id": "q3",
-      "signature": "3ebf2074d4379a51"
+      "signature": "4038d234bf9995df"
     },
     {
       "type": "mcq_single",
@@ -155,7 +155,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какое предложение содержит ошибку в главном предложении?",
+      "prompt": "Как передать: «Если бы он не опоздал, он бы не пропустил встречу»?",
       "choices": [
         {
           "id": "a",
@@ -167,7 +167,7 @@
         },
         {
           "id": "c",
-          "text": "If he had not been late, he would have missed the meeting."
+          "text": "If he had not been late, he would not have missed the meeting."
         },
         {
           "id": "d",
@@ -175,21 +175,21 @@
         }
       ],
       "correct_answer": "c",
-      "explanation": "В главном предложении должно быть 'would not have missed', так как условие 'had not been late' означает, что он не опоздал и не пропустил встречу.",
+      "explanation": "Обе части отрицательны: *had not been late* и *would not have missed*. Это также устраняет прежнее логическое противоречие.",
       "theory_block_id": "b2_theory_form",
       "chapter_id": "en.grammar.conditionals_hypotheticals.third_conditional",
       "concept_id": "third_conditional_form",
       "difficulty": 3,
       "id": "q6",
-      "signature": "586c83fdad8977fd"
+      "signature": "ec08983897fdc4d8"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какое предложение правильно использует третий условный тип для отрицательного условия?",
+      "prompt": "Какой вариант правильно использует сокращённое отрицательное условие со смыслом «если бы я не поел, я был бы голоден»?",
       "choices": [
         {
           "id": "a",
-          "text": "If I had not eaten, I would have been hungry."
+          "text": "If I didn't eat, I would have been hungry."
         },
         {
           "id": "b",
@@ -205,13 +205,13 @@
         }
       ],
       "correct_answer": "d",
-      "explanation": "Правильная структура: if + Past Perfect отрицательный, would have + V3. Вариант 'would have been hungry' корректен для нереального прошлого.",
+      "explanation": "*Hadn't eaten* — сокращённый Past Perfect, а *would have been hungry* — прошлый контрфактический результат.",
       "theory_block_id": "b2_theory_form",
       "chapter_id": "en.grammar.conditionals_hypotheticals.third_conditional",
       "concept_id": "third_conditional_form",
       "difficulty": 2,
       "id": "q7",
-      "signature": "6b67828490318f59"
+      "signature": "5a7bbfebf82abcaa"
     },
     {
       "type": "mcq_single",

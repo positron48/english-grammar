@@ -336,7 +336,7 @@
           },
           {
             "id": "c",
-            "text": "I'm scared of dogs."
+            "text": "I'm afraid at dogs."
           }
         ],
         "correct_answer": "a",
@@ -400,7 +400,7 @@
           },
           {
             "id": "c",
-            "text": "She feels proud of her results."
+            "text": "She feels proud for her results."
           }
         ],
         "correct_answer": "a",
@@ -441,11 +441,11 @@
       },
       {
         "type": "true_false",
-        "prompt": "В стандартном английском говорят afraid about.",
+        "prompt": "Перед конкретным объектом страха стандартная связка — afraid about.",
         "theory_block_id": "b1_adj_prep_emotions",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Стандартная форма — **afraid of**, а не afraid about.",
+        "explanation": "Объект страха вводится через afraid of: afraid of spiders. Afraid about может встречаться в значении беспокойства о ситуации, но не является целевой связкой здесь.",
         "id": "q11"
       },
       {
@@ -514,25 +514,25 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'I'm good in English.'",
+        "prompt": "Найдите ошибку: 'I'm good on speaking English.'",
         "theory_block_id": "b2_adj_prep_ability",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "I'm good at English."
+            "text": "I'm good at speaking English."
           },
           {
             "id": "b",
-            "text": "I'm good in English."
+            "text": "I'm good on speaking English."
           },
           {
             "id": "c",
-            "text": "I'm good at speaking English."
+            "text": "I'm good for speaking English."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Good требует **at**, не in.",
+        "explanation": "Для навыка используется **good at + -ing**.",
         "id": "q16"
       },
       {
@@ -578,7 +578,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'She is great in cooking.'",
+        "prompt": "Найдите ошибку: 'She is great on cooking.'",
         "theory_block_id": "b2_adj_prep_ability",
         "difficulty": 2,
         "choices": [
@@ -588,15 +588,15 @@
           },
           {
             "id": "b",
-            "text": "She is great in cooking."
+            "text": "She is great on cooking."
           },
           {
             "id": "c",
-            "text": "She is really good at cooking."
+            "text": "She is great of cooking."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Great также требует **at**.",
+        "explanation": "Для навыка используется **great at + -ing**.",
         "id": "q20"
       },
       {
@@ -720,7 +720,7 @@
           },
           {
             "id": "c",
-            "text": "He is really interested in music."
+            "text": "He is really interested on music."
           }
         ],
         "correct_answer": "a",
@@ -770,25 +770,25 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'She is bored in this class.'",
+        "prompt": "Найдите ошибку: 'She is interested on this course.'",
         "theory_block_id": "b3_adj_prep_interest",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "She is bored with this class."
+            "text": "She is interested in this course."
           },
           {
             "id": "b",
-            "text": "She is bored in this class."
+            "text": "She is interested on this course."
           },
           {
             "id": "c",
-            "text": "She is bored by this class."
+            "text": "She is interested at this course."
           }
         ],
         "correct_answer": "a",
-        "explanation": "В данном контексте ожидается **bored with**. Вариант a исправляет.",
+        "explanation": "После interested для темы или объекта интереса используется **in**.",
         "id": "q32"
       },
       {
@@ -889,7 +889,7 @@
           },
           {
             "id": "c",
-            "text": "She is known for her voice."
+            "text": "She is known of her voice."
           }
         ],
         "correct_answer": "a",
@@ -953,7 +953,7 @@
           },
           {
             "id": "c",
-            "text": "I'm responsible for budgeting."
+            "text": "I'm responsible of budgeting."
           }
         ],
         "correct_answer": "a",
@@ -1081,7 +1081,7 @@
           },
           {
             "id": "c",
-            "text": "This idea is similar to yours."
+            "text": "This idea is similar with yours."
           }
         ],
         "correct_answer": "a",
@@ -1100,15 +1100,15 @@
           },
           {
             "id": "b",
-            "text": "to"
+            "text": "with"
           },
           {
             "id": "c",
-            "text": "with"
+            "text": "of"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Different from — стандартная форма.",
+        "explanation": "В этой главе отрабатывается нейтральная модель **different from**.",
         "id": "q53"
       },
       {
@@ -1122,7 +1122,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'Her style is different to mine.'",
+        "prompt": "Найдите ошибку: 'Her style is different with mine.'",
         "theory_block_id": "b5_adj_prep_comparison",
         "difficulty": 2,
         "choices": [
@@ -1132,15 +1132,15 @@
           },
           {
             "id": "b",
-            "text": "Her style is different to mine."
+            "text": "Her style is different with mine."
           },
           {
             "id": "c",
-            "text": "Her style is different from yours."
+            "text": "Her style is different of mine."
           }
         ],
         "correct_answer": "a",
-        "explanation": "В учебной норме используется **different from**.",
+        "explanation": "Нейтральная учебная модель — **different from**. В британском английском также встречается different to, поэтому этот вариант не используется как ошибка.",
         "id": "q56"
       },
       {
@@ -1196,15 +1196,15 @@
           },
           {
             "id": "b",
-            "text": "to"
+            "text": "with"
           },
           {
             "id": "c",
-            "text": "with"
+            "text": "of"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Different from — правильная связка.",
+        "explanation": "В этой главе отрабатывается модель **different from**.",
         "id": "q60"
       },
       {
@@ -1264,7 +1264,7 @@
           },
           {
             "id": "c",
-            "text": "This is useful for studying."
+            "text": "This is useful at homework."
           }
         ],
         "correct_answer": "a",
@@ -1328,7 +1328,7 @@
           },
           {
             "id": "c",
-            "text": "This tool is useful for cutting metal."
+            "text": "This tool is useful to cutting metal."
           }
         ],
         "correct_answer": "a",
@@ -1369,11 +1369,11 @@
       },
       {
         "type": "true_false",
-        "prompt": "В общих утверждениях после useful идёт to.",
+        "prompt": "Когда речь о назначении предмета, используется useful for + существительное или -ing.",
         "theory_block_id": "b6_adj_prep_useful",
         "difficulty": 2,
-        "correct_answer": "false",
-        "explanation": "Стандартная схема — **useful for**.",
+        "correct_answer": "true",
+        "explanation": "Useful for указывает назначение: useful for cutting wood.",
         "id": "q71"
       },
       {
@@ -1476,7 +1476,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:48:58Z",
+    "updated_at": "2026-09-05T10:02:06Z",
     "source": "llm"
   }
 }

@@ -5,7 +5,7 @@
   "questions": [
     {
       "type": "mcq_single",
-      "prompt": "Как правильно указать точное количество предметов в единственном числе?",
+      "prompt": "Как сообщить об одном стуле, явно назвав количество числительным?",
       "choices": [
         {
           "id": "a",
@@ -25,13 +25,13 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Для точного количества (один предмет) используется 'there is one' + существительное в единственном числе. 'There is a' не указывает количество.",
+      "explanation": "There is one chair содержит числительное one. There is a chair тоже говорит об одном стуле, но a — артикль, а не числительное.",
       "theory_block_id": "b4_theory_counting_items",
       "chapter_id": "en.grammar.talking_about_things_nouns.build_speak_describe_a",
       "concept_id": "describe_room_counting",
       "difficulty": 1,
       "id": "q1",
-      "signature": "425d952da38088e1"
+      "signature": "4bda9ae4a987376f"
     },
     {
       "type": "mcq_single",
@@ -39,19 +39,19 @@
       "choices": [
         {
           "id": "a",
-          "text": "There is three chairs."
+          "text": "There is three chairs in the room."
         },
         {
           "id": "b",
-          "text": "There are three chairs."
+          "text": "There are three chairs in the room."
         },
         {
           "id": "c",
-          "text": "There is three chair."
+          "text": "There is three chair in the room."
         },
         {
           "id": "d",
-          "text": "There are three chair."
+          "text": "There are three chair in the room."
         }
       ],
       "correct_answer": "b",
@@ -61,7 +61,7 @@
       "concept_id": "describe_room_counting",
       "difficulty": 1,
       "id": "q2",
-      "signature": "4caf66941d1d4a91"
+      "signature": "306678a7e79fa030"
     },
     {
       "type": "mcq_single",
@@ -69,19 +69,19 @@
       "choices": [
         {
           "id": "a",
-          "text": "How many books is there?"
+          "text": "How many books is there on the shelf?"
         },
         {
           "id": "b",
-          "text": "How many books are there?"
+          "text": "How many books are there on the shelf?"
         },
         {
           "id": "c",
-          "text": "How many book is there?"
+          "text": "How many book is there on the shelf?"
         },
         {
           "id": "d",
-          "text": "How many book are there?"
+          "text": "How many book are there on the shelf?"
         }
       ],
       "correct_answer": "b",
@@ -91,37 +91,37 @@
       "concept_id": "describe_room_counting",
       "difficulty": 1,
       "id": "q3",
-      "signature": "dda4311e578a8b57"
+      "signature": "84a181e9fcb56e1a"
     },
     {
       "type": "mcq_single",
-      "prompt": "Как правильно описать наличие одного окна и двух дверей?",
+      "prompt": "Выберите правильное описание одного окна и двух дверей двумя предложениями.",
       "choices": [
         {
           "id": "a",
-          "text": "There is one window and two doors."
+          "text": "There is one window. There are two doors."
         },
         {
           "id": "b",
-          "text": "There are one window and two doors."
+          "text": "There are one window. There is two doors."
         },
         {
           "id": "c",
-          "text": "There is one windows and two doors."
+          "text": "There is one windows. There are two doors."
         },
         {
           "id": "d",
-          "text": "There are one windows and two doors."
+          "text": "There is one window. There are two door."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Для единственного числа (окно) используется 'there is', для множественного (двери) — 'there are'.",
+      "explanation": "One window требует is и единственного числа window. Two doors требует are и множественного числа doors.",
       "theory_block_id": "b4_theory_counting_items",
       "chapter_id": "en.grammar.talking_about_things_nouns.build_speak_describe_a",
       "concept_id": "describe_room_counting",
       "difficulty": 2,
       "id": "q4",
-      "signature": "019c5bf4750ee7a7"
+      "signature": "4601502163ef96fa"
     },
     {
       "type": "mcq_single",
@@ -155,7 +155,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Как правильно использовать 'there is one' для описания одного окна?",
+      "prompt": "Выберите фразу об одном окне, где количество названо числительным.",
       "choices": [
         {
           "id": "a",
@@ -175,13 +175,13 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Использование 'there is one' точно указывает количество (один), а 'there is a' не содержит количественного значения.",
+      "explanation": "There is one window содержит числительное one. There is a window тоже правильно, но использует артикль вместо явного числительного.",
       "theory_block_id": "b4_theory_counting_items",
       "chapter_id": "en.grammar.talking_about_things_nouns.build_speak_describe_a",
       "concept_id": "describe_room_counting",
       "difficulty": 1,
       "id": "q6",
-      "signature": "512ca15e9cf01db9"
+      "signature": "35c455b9571438fb"
     },
     {
       "type": "mcq_single",
@@ -189,19 +189,19 @@
       "choices": [
         {
           "id": "a",
-          "text": "There is three books."
+          "text": "There is three books on the table."
         },
         {
           "id": "b",
-          "text": "There are three books."
+          "text": "There are three books on the table."
         },
         {
           "id": "c",
-          "text": "There is three book."
+          "text": "There is three book on the table."
         },
         {
           "id": "d",
-          "text": "There are three book."
+          "text": "There are three book on the table."
         }
       ],
       "correct_answer": "b",
@@ -211,7 +211,7 @@
       "concept_id": "describe_room_counting",
       "difficulty": 1,
       "id": "q7",
-      "signature": "8cea9b9fdbf889cc"
+      "signature": "aaaf5c346f30b754"
     },
     {
       "type": "mcq_single",
@@ -219,19 +219,19 @@
       "choices": [
         {
           "id": "a",
-          "text": "How many chairs is there?"
+          "text": "How many chairs is there in the room?"
         },
         {
           "id": "b",
-          "text": "How many chairs are there?"
+          "text": "How many chairs are there in the room?"
         },
         {
           "id": "c",
-          "text": "How many chair is there?"
+          "text": "How many chair is there in the room?"
         },
         {
           "id": "d",
-          "text": "How many chair are there?"
+          "text": "How many chair are there in the room?"
         }
       ],
       "correct_answer": "b",
@@ -241,7 +241,7 @@
       "concept_id": "describe_room_counting",
       "difficulty": 1,
       "id": "q8",
-      "signature": "c5b2047822b5114a"
+      "signature": "cf3a293ce3096cc7"
     },
     {
       "type": "mcq_single",

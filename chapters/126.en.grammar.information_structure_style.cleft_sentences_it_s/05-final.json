@@ -285,7 +285,7 @@
       {
         "id": "q1",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"It ___ Maria who called you.\"",
+        "prompt": "В полностью прошлой рамке выберите правильный вариант: \"It ___ Maria who called you.\"",
         "theory_block_id": "b1_theory_it_cleft_basic",
         "difficulty": 2,
         "choices": [
@@ -311,7 +311,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "It-cleft использует be в нужном времени: It was Maria who called... Это выделяет Maria как фокус."
+        "explanation": "Условие задаёт полностью прошлую рамку, поэтому связка стоит в Past Simple: *It was…*. В настоящей ситуации идентификации форма *It is…* тоже могла бы сочетаться с относительной частью о прошлом событии."
       },
       {
         "id": "q2",
@@ -356,11 +356,11 @@
       {
         "id": "q4",
         "type": "true_false",
-        "prompt": "It-cleft меняет смысл факта, а не только фокус.",
+        "prompt": "Утверждение: it-cleft сохраняет базовую пропозицию исходного предложения, меняя прежде всего информационный фокус.",
         "theory_block_id": "b1_theory_it_cleft_basic",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "It-cleft не меняет факт, а выделяет часть сообщения. Смысл остается тем же."
+        "explanation": "It-cleft сохраняет основное событие, но меняет информационную структуру и часто добавляет пресуппозицию или контраст: *Maria called* → *It was Maria who called*."
       },
       {
         "id": "q5",
@@ -375,7 +375,7 @@
       {
         "id": "q6",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"It ___ the design that impressed the client.\"",
+        "prompt": "В полностью прошлой рамке выберите правильный вариант: \"It ___ the design that impressed the client.\"",
         "theory_block_id": "b1_theory_it_cleft_basic",
         "difficulty": 2,
         "choices": [
@@ -401,7 +401,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "It-cleft использует be в нужном времени. Здесь контекст прошедшего: It was..."
+        "explanation": "Условие задаёт полностью прошлую рамку, поэтому связка стоит в Past Simple: *It was…*. В настоящей ситуации идентификации форма *It is…* тоже могла бы сочетаться с относительной частью о прошлом событии."
       },
       {
         "id": "q7",
@@ -455,7 +455,7 @@
       {
         "id": "q10",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"It ___ our decision that caused the delay.\"",
+        "prompt": "В полностью прошлой рамке выберите правильный вариант: \"It ___ our decision that caused the delay.\"",
         "theory_block_id": "b1_theory_it_cleft_basic",
         "difficulty": 2,
         "choices": [
@@ -481,7 +481,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для прошедшего времени используем was: It was our decision that caused the delay."
+        "explanation": "Условие задаёт полностью прошлую рамку, поэтому связка стоит в Past Simple: *It was…*. В настоящей ситуации идентификации форма *It is…* тоже могла бы сочетаться с относительной частью о прошлом событии."
       },
       {
         "id": "q11",
@@ -490,7 +490,7 @@
         "theory_block_id": "b1_theory_it_cleft_basic",
         "difficulty": 2,
         "correct_answer": "that",
-        "explanation": "Meeting — неодушевленный объект, поэтому используем that."
+        "explanation": "После нечеловеческого фокуса *the meeting* используется *that*: *It was the meeting that changed everything*."
       },
       {
         "id": "q12",
@@ -620,7 +620,7 @@
           {
             "id": "a",
             "text": "their strategy",
-            "feedback": "Верно: фокус на дополнении."
+            "feedback": "Верно: фокус на подлежащем исходного предложения."
           },
           {
             "id": "b",
@@ -639,7 +639,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "It-cleft позволяет выделять конкретный элемент: It was their strategy that made the difference."
+        "explanation": "В исходной пропозиции *their strategy made the difference* фокус *their strategy* является подлежащим."
       },
       {
         "id": "q22",
@@ -734,33 +734,33 @@
       {
         "id": "q27",
         "type": "error_spotting",
-        "prompt": "Выберите правильный вариант предложения.",
+        "prompt": "Выберите стандартный вариант с согласованием связки по singular what-clause.",
         "theory_block_id": "b3_theory_wh_cleft_basic",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "What I need are time and focus.",
+            "text": "What I need are a clearer timeline.",
             "feedback": "Часто допустимо при множественном фокусе, но предпочтительно is."
           },
           {
             "id": "b",
-            "text": "What I need is time and focus.",
+            "text": "What I need is a clearer timeline.",
             "feedback": "Верно: what-clause обычно требует is."
           },
           {
             "id": "c",
-            "text": "What I need do time and focus.",
+            "text": "What I need do a clearer timeline.",
             "feedback": "Неверная связка."
           },
           {
             "id": "d",
-            "text": "What I need is to time and focus.",
+            "text": "What I need is to a clearer timeline.",
             "feedback": "Неверная структура."
           }
         ],
         "correct_answer": "b",
-        "explanation": "В wh-cleft обычно используется is как связка. What I need is time and focus."
+        "explanation": "По умолчанию singular what-clause согласуется с *is*: *What I need is a clearer timeline*. Согласование с множественным фокусом иногда варьируется, поэтому здесь фокус сделан однозначно единственным."
       },
       {
         "id": "q28",
@@ -864,7 +864,7 @@
       {
         "id": "q34",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"Why we are late ___ the traffic.\"",
+        "prompt": "Выберите правильный вариант: \"Why we are late ___ still unclear.\"",
         "theory_block_id": "b3_theory_wh_cleft_basic",
         "difficulty": 3,
         "choices": [
@@ -890,7 +890,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Why-clause функционирует как единый элемент: Why we are late is the traffic."
+        "explanation": "Вся why-clause функционирует как единое подлежащее, поэтому используется *is*: *Why we are late is still unclear*."
       },
       {
         "id": "q35",
@@ -914,19 +914,19 @@
       {
         "id": "q37",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"The one I trust ___ you.\"",
+        "prompt": "Выберите правильный вариант стандартной reversed wh-cleft: \"You ___ the one I trust.\"",
         "theory_block_id": "b4_theory_reversed_cleft",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "is",
-            "feedback": "Верно: reversed cleft uses be."
+            "feedback": "Не согласуется с *you*."
           },
           {
             "id": "b",
             "text": "are",
-            "feedback": "Are не согласуется с one."
+            "feedback": "Верно: фокус *you* вынесен перед связкой."
           },
           {
             "id": "c",
@@ -936,75 +936,75 @@
           {
             "id": "d",
             "text": "do",
-            "feedback": "Do не используется как связка."
+            "feedback": "Не используется как связка."
           }
         ],
-        "correct_answer": "a",
-        "explanation": "Reversed cleft: The one I trust is you. Связка be согласуется с one."
+        "correct_answer": "b",
+        "explanation": "В reversed wh-cleft фокус стоит перед *be*: *You are the one I trust*. Обычная pseudo-cleft имеет обратный порядок: *The one I trust is you*."
       },
       {
         "id": "q38",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"The person I spoke to ___ the director.\" (быть)",
+        "prompt": "Заполните пропуск: \"The director ___ the person I spoke to.\" (быть)",
         "theory_block_id": "b4_theory_reversed_cleft",
         "difficulty": 2,
         "correct_answer": "was",
-        "explanation": "Reversed cleft использует be, согласованное по времени: was."
+        "explanation": "В reversed wh-cleft фокус *the director* стоит в начале: *The director was the person I spoke to*."
       },
       {
         "id": "q39",
         "type": "error_spotting",
-        "prompt": "Выберите правильный вариант предложения.",
+        "prompt": "Выберите стандартную reversed wh-cleft с фокусом *a lack of time*.",
         "theory_block_id": "b4_theory_reversed_cleft",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "The issue we need to solve is time.",
-            "feedback": "Верно: reversed cleft."
+            "text": "A lack of time is the issue we need to solve.",
+            "feedback": "Верно: фокус стоит перед связкой."
           },
           {
             "id": "b",
-            "text": "The issue we need to solve are time.",
+            "text": "A lack of time are the issue we need to solve.",
             "feedback": "Неверное согласование."
           },
           {
             "id": "c",
-            "text": "The issue we need to solve do time.",
+            "text": "A lack of time do the issue we need to solve.",
             "feedback": "Неверная связка."
           },
           {
             "id": "d",
-            "text": "The issue we need solve is to time.",
+            "text": "A lack of time the issue we need to solve is.",
             "feedback": "Неверная структура."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Reversed cleft требует be: The issue we need to solve is time."
+        "explanation": "Reversed wh-cleft выносит фокус вперёд: *A lack of time is the issue we need to solve*."
       },
       {
         "id": "q40",
         "type": "true_false",
-        "prompt": "Reversed cleft ставит фокус в начало предложения.",
+        "prompt": "Утверждение: стандартная reversed wh-cleft ставит фокус перед связкой: *You are the one I trust*.",
         "theory_block_id": "b4_theory_reversed_cleft",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Да, reversed cleft выносит фокус вперед: The one I trust is you."
+        "explanation": "Да. Базовая pseudo-cleft ставит фокус после связки: *The one I trust is you*; reversed wh-cleft меняет порядок: *You are the one I trust*."
       },
       {
         "id": "q41",
         "type": "reorder",
-        "prompt": "Соберите предложение с указанным значением. Начните с «The». Закончите словом «her».",
+        "prompt": "Соберите reversed wh-cleft с указанным значением. Начните с «She». Закончите словом «hired».",
         "theory_block_id": "b4_theory_reversed_cleft",
         "difficulty": 2,
-        "correct_answer": "The person we hired was her.",
-        "explanation": "Reversed cleft: The person we hired was her. Фокус в начале.",
-        "translation_ru": "Мы наняли именно её."
+        "correct_answer": "She was the person we hired.",
+        "explanation": "В reversed wh-cleft фокус *She* стоит перед связкой: *She was the person we hired*.",
+        "translation_ru": "Именно её мы наняли."
       },
       {
         "id": "q42",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"The main reason ___ timing.\"",
+        "prompt": "Выберите правильный вариант reversed wh-cleft: \"Timing ___ the main reason.\"",
         "theory_block_id": "b4_theory_reversed_cleft",
         "difficulty": 2,
         "choices": [
@@ -1030,71 +1030,71 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "The main reason — единственное число, поэтому is."
+        "explanation": "Фокус *Timing* вынесен в начало и требует singular *is*: *Timing is the main reason*."
       },
       {
         "id": "q43",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"The thing she remembered ___ the address.\" (быть)",
+        "prompt": "Заполните пропуск: \"The address ___ what she remembered.\" (быть)",
         "theory_block_id": "b4_theory_reversed_cleft",
         "difficulty": 2,
         "correct_answer": "was",
-        "explanation": "Reversed cleft использует be: The thing she remembered was the address."
+        "explanation": "В reversed wh-cleft фокус *the address* стоит перед связкой: *The address was what she remembered*."
       },
       {
         "id": "q44",
         "type": "true_false",
-        "prompt": "В reversed cleft можно не использовать глагол be.",
+        "prompt": "Утверждение: в базовой модели reversed wh-cleft фокус и wh-clause можно соединить без формы *be*.",
         "theory_block_id": "b4_theory_reversed_cleft",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Reversed cleft требует связку be, иначе конструкция теряет форму."
+        "explanation": "Нет. Базовая модель использует *be* между вынесенным фокусом и wh-clause: *This is what I need*."
       },
       {
         "id": "q45",
         "type": "error_spotting",
-        "prompt": "Выберите правильный вариант предложения.",
+        "prompt": "Выберите стандартную reversed wh-cleft с фокусом *my mentor*.",
         "theory_block_id": "b4_theory_reversed_cleft",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "The one I rely on is my mentor.",
-            "feedback": "Верно: reversed cleft."
+            "text": "My mentor is the one I rely on.",
+            "feedback": "Верно: фокус стоит перед связкой."
           },
           {
             "id": "b",
-            "text": "The one I rely on are my mentor.",
+            "text": "My mentor are the one I rely on.",
             "feedback": "Неверное согласование."
           },
           {
             "id": "c",
-            "text": "The one I rely on do my mentor.",
+            "text": "My mentor do the one I rely on.",
             "feedback": "Неверная связка."
           },
           {
             "id": "d",
-            "text": "The one I rely on be my mentor.",
+            "text": "My mentor be the one I rely on.",
             "feedback": "Неверная форма be."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Reversed cleft требует be: The one I rely on is my mentor."
+        "explanation": "Reversed wh-cleft выносит фокус *my mentor* вперёд: *My mentor is the one I rely on*."
       },
       {
         "id": "q46",
         "type": "reorder",
-        "prompt": "Соберите предложение с указанным значением. Начните с «The». Закончите словом «timing».",
+        "prompt": "Соберите reversed wh-cleft с указанным значением. Начните с «Timing». Закончите словом «faced».",
         "theory_block_id": "b4_theory_reversed_cleft",
         "difficulty": 2,
-        "correct_answer": "The problem we faced was timing.",
-        "explanation": "Reversed cleft: The problem we faced was timing.",
+        "correct_answer": "Timing was the problem we faced.",
+        "explanation": "Фокус *Timing* стоит перед связкой: *Timing was the problem we faced*.",
         "translation_ru": "Проблемой для нас оказался выбор времени."
       },
       {
         "id": "q47",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"The issue we discussed ___ unresolved.\"",
+        "prompt": "Выберите правильный вариант: \"The unresolved issue ___ what we discussed.\"",
         "theory_block_id": "b4_theory_reversed_cleft",
         "difficulty": 2,
         "choices": [
@@ -1120,16 +1120,16 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Issue — единственное число, поэтому is."
+        "explanation": "Фокус *the unresolved issue* стоит перед связкой singular *is*: *The unresolved issue is what we discussed*."
       },
       {
         "id": "q48",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"The place we met ___ a quiet cafe.\" (быть)",
+        "prompt": "Заполните пропуск: \"A quiet cafe ___ where we met.\" (быть)",
         "theory_block_id": "b4_theory_reversed_cleft",
         "difficulty": 2,
         "correct_answer": "was",
-        "explanation": "Reversed cleft: The place we met was a quiet cafe."
+        "explanation": "В reversed wh-cleft фокус места стоит впереди: *A quiet cafe was where we met*."
       },
       {
         "id": "q49",
@@ -1146,7 +1146,7 @@
           {
             "id": "b",
             "text": "were",
-            "feedback": "Were возможно в разговорной речи, но здесь стандартная форма was."
+            "feedback": "Не согласуется с singular *me* в данном относительном придаточном."
           },
           {
             "id": "c",
@@ -1273,7 +1273,7 @@
       {
         "id": "q57",
         "type": "error_spotting",
-        "prompt": "Выберите правильный вариант предложения.",
+        "prompt": "Выберите вариант, который сохраняет полностью прошлую временную рамку.",
         "theory_block_id": "b5_theory_style_limits",
         "difficulty": 3,
         "choices": [
@@ -1299,7 +1299,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Wh-cleft требует be. В прошедшем: What I wanted was clarity."
+        "explanation": "В полностью прошлой рамке используется *was*: *What I wanted was clarity*. Форма *is* возможна при осмысленном переходе к настоящей идентификации, но не отвечает условию."
       },
       {
         "id": "q58",
@@ -1419,7 +1419,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:27Z",
+    "updated_at": "2026-09-05T23:08:53Z",
     "source": "llm"
   }
 }

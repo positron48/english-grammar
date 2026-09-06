@@ -575,7 +575,7 @@
       {
         "id": "q20",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: If the server ___ earlier, we would have recovered the data.",
+        "prompt": "Выберите правильный вариант: If the server ___ earlier, we would have noticed the issue sooner.",
         "theory_block_id": "b2_theory_form",
         "difficulty": 2,
         "choices": [
@@ -597,7 +597,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Past Perfect в if-части.",
+        "explanation": "Past Perfect *had crashed* обозначает нереальное прошлое условие; результат также относится к прошлому.",
         "tags": []
       },
       {
@@ -679,7 +679,7 @@
       {
         "id": "q25",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: If she had the key, she ___ opened the door.",
+        "prompt": "Выберите правильный вариант: If she had had the key, she ___ opened the door.",
         "theory_block_id": "b3_theory_modals",
         "difficulty": 2,
         "choices": [
@@ -701,7 +701,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Could have показывает возможность в прошлом.",
+        "explanation": "*Had had* задаёт прошлое условие, а *could have opened* — нереализованную возможность в прошлом.",
         "tags": []
       },
       {
@@ -755,29 +755,29 @@
       {
         "id": "q30",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If we had the tickets, we could have went.\"",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If we had had the tickets, we could have went.\"",
         "theory_block_id": "b3_theory_modals",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "If we had the tickets, we could have gone."
+            "text": "If we had had the tickets, we could have gone."
           },
           {
             "id": "b",
-            "text": "If we had the tickets, we could went."
+            "text": "If we had had the tickets, we could went."
           },
           {
             "id": "c",
-            "text": "If we had the tickets, we might have go."
+            "text": "If we had had the tickets, we might have go."
           },
           {
             "id": "d",
-            "text": "If we had the tickets, we could have go."
+            "text": "If we had had the tickets, we could have go."
           }
         ],
         "correct_answer": "a",
-        "explanation": "После could have используется V3.",
+        "explanation": "После *could have* используется V3: *gone*. Прошлое обладание выражено формой *had had*.",
         "tags": []
       },
       {
@@ -793,11 +793,11 @@
       {
         "id": "q32",
         "type": "fill_blank",
-        "prompt": "Вставьте пропущенное: If she had more time, she ___ have finished the task. (мочь)",
+        "prompt": "Вставьте пропущенное: If she had had more time, she ___ have finished the task. (мочь)",
         "theory_block_id": "b3_theory_modals",
         "difficulty": 2,
         "correct_answer": "could",
-        "explanation": "Could have = возможность.",
+        "explanation": "*Had had* обозначает прошлое условие, *could have finished* — возможность в прошлом.",
         "tags": []
       },
       {
@@ -975,29 +975,29 @@
       {
         "id": "q44",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"Had she arrived on time, she would have miss the meeting.\"",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"Had she arrived on time, she would not have miss the meeting.\"",
         "theory_block_id": "b4_theory_inversion",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Had she arrived on time, she would have missed the meeting."
+            "text": "Had she arrived on time, she would not have missed the meeting."
           },
           {
             "id": "b",
-            "text": "Had she arrived on time, she would have miss the meeting."
+            "text": "Had she arrived on time, she would not have miss the meeting."
           },
           {
             "id": "c",
-            "text": "Had she arrive on time, she would have missed the meeting."
+            "text": "Had she arrive on time, she would not have missed the meeting."
           },
           {
             "id": "d",
-            "text": "Had she arrived on time, she would miss the meeting."
+            "text": "Had she arrived on time, she would not miss the meeting."
           }
         ],
         "correct_answer": "a",
-        "explanation": "После would have нужен V3: missed.",
+        "explanation": "После *would not have* требуется V3: *missed*. Инверсия сохраняет *Had she arrived*.",
         "tags": []
       },
       {
@@ -1041,11 +1041,11 @@
       {
         "id": "q47",
         "type": "fill_blank",
-        "prompt": "Вставьте пропущенное: Had he ___ earlier, we would have finished. (закончить)",
+        "prompt": "Вставьте пропущенное: Had he ___ earlier, we would have finished. (начать)",
         "theory_block_id": "b4_theory_inversion",
         "difficulty": 2,
         "correct_answer": "started",
-        "explanation": "Had + V3: had started.",
+        "explanation": "После *had* нужен V3: *started*.",
         "tags": []
       },
       {
@@ -1203,7 +1203,7 @@
       {
         "id": "q56",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If I had more time, I would have finished.\"",
+        "prompt": "Для смысла «времени тогда не было, поэтому я не закончил» выберите third conditional.",
         "theory_block_id": "b5_theory_second_vs_third",
         "difficulty": 2,
         "choices": [
@@ -1225,7 +1225,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для прошлого нужен Past Perfect в if-части.",
+        "explanation": "Прошлое отсутствие времени выражается *had had*, а прошлый результат — *would have finished*. Вариант с *had more time* может получить другое, смешанное чтение.",
         "tags": []
       },
       {
@@ -1251,7 +1251,7 @@
       {
         "id": "q59",
         "type": "mcq_single",
-        "prompt": "Выберите предложение о нереальном настоящем.",
+        "prompt": "Выберите предложение о гипотетической ситуации в настоящем или будущем.",
         "theory_block_id": "b5_theory_second_vs_third",
         "difficulty": 2,
         "choices": [
@@ -1273,7 +1273,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Past Simple + would = second conditional.",
+        "explanation": "*If I lost the file, I would panic* — second conditional с гипотетическим результатом.",
         "tags": []
       },
       {
@@ -1353,7 +1353,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:49:03Z",
+    "updated_at": "2026-09-05T21:42:40Z",
     "source": "llm"
   }
 }

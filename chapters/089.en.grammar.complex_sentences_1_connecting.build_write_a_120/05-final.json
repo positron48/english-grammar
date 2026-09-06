@@ -471,9 +471,9 @@
         "prompt": "Соберите предложение с указанным значением. Начните с «Although». Закончите словом «home». «late» поставьте сразу после «was».",
         "theory_block_id": "b2_theory_connectors_purpose",
         "difficulty": 2,
-        "correct_answer": "Although it was late, we stayed home.",
-        "explanation": "Although стоит в начале придаточного контраста и обычно требует запятой перед основной частью.",
-        "translation_ru": "Хотя было поздно, мы остались дома."
+        "correct_answer": "Although it was late, we walked home.",
+        "explanation": "Although вводит контраст: несмотря на позднее время, мы пошли пешком. После начального придаточного ставится запятая.",
+        "translation_ru": "Хотя было поздно, мы пошли домой пешком."
       },
       {
         "id": "q18",
@@ -557,7 +557,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "We missed the bus, therefore we walked."
+            "text": "We missed the bus; therefore, we walked."
           },
           {
             "id": "b",
@@ -569,7 +569,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Therefore показывает результат: сначала причина, затем следствие. Вариант (a) сохраняет правильную логику."
+        "explanation": "Therefore вводит следствие и связывает самостоятельные части через точку с запятой или точку; после therefore ставится запятая."
       },
       {
         "id": "q24",
@@ -692,8 +692,8 @@
         "prompt": "Соберите предложение с указанным значением. Начните с «My». Закончите словом «chef».",
         "theory_block_id": "b3_theory_relative_clauses_in_text",
         "difficulty": 2,
-        "correct_answer": "My neighbor who speaks French is a chef.",
-        "explanation": "Defining clause стоит сразу после существительного и не отделяется запятыми. Порядок слов соответствует английской норме.",
+        "correct_answer": "My neighbor, who speaks French, is a chef.",
+        "explanation": "Перевод даёт добавочную информацию о уже определённом my neighbor, поэтому non-defining clause выделяется запятыми.",
         "translation_ru": "Мой сосед, который говорит по-французски, повар."
       },
       {
@@ -855,7 +855,7 @@
       {
         "id": "q43",
         "type": "error_spotting",
-        "prompt": "Найдите правильную пунктуацию: 'The workshop which was online didn't work for me.'",
+        "prompt": "Если онлайн-формат — добавочная информация, выберите правильную пунктуацию: 'The workshop which was online didn't work for me.'",
         "theory_block_id": "b4_theory_sentence_variety_punctuation",
         "difficulty": 2,
         "choices": [
@@ -873,7 +873,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Если информация добавочная, это non-defining clause, и нужны две запятые. Вариант (a) оформлен корректно."
+        "explanation": "При добавочном прочтении это non-defining clause, который выделяется двумя запятыми."
       },
       {
         "id": "q44",
@@ -920,11 +920,11 @@
       {
         "id": "q47",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Keep one main idea per sentence to avoid a ___. (термин)",
+        "prompt": "Заполните пропуск: Join independent clauses correctly to avoid a ___. (термин)",
         "theory_block_id": "b4_theory_sentence_variety_punctuation",
         "difficulty": 3,
         "correct_answer": "run-on",
-        "explanation": "Run-on sentence — это слишком длинное предложение без правильных связок и пунктуации. Его лучше избегать, разделяя идеи."
+        "explanation": "Run-on sentence возникает, когда самостоятельные части соединены без подходящей пунктуации или союза."
       },
       {
         "id": "q48",
@@ -1003,16 +1003,16 @@
           },
           {
             "id": "c",
-            "text": "We met a guide who was friendly, and he gave us advice."
+            "text": "We met a guide who was friendly, he gave us advice."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Не нужно повторять подлежащее he после relative clause. Вариант (a) избегает лишнего повторения и звучит естественно."
+        "explanation": "В целевом non-defining clause who служит общим подлежащим для was и gave. Вариант с двумя самостоятельными частями через одну запятую — run-on."
       },
       {
         "id": "q53",
         "type": "mcq_single",
-        "prompt": "Что стоит проверить первым делом в чеклисте?",
+        "prompt": "По заданию нужно написать текст объёмом 120–180 слов. Что проверить, чтобы убедиться в соблюдении этого требования?",
         "theory_block_id": "b5_theory_editing_checklist",
         "difficulty": 1,
         "choices": [
@@ -1044,7 +1044,7 @@
       {
         "id": "q55",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Before сдачей проверь, что текст содержит минимум ___ relative clauses. (число)",
+        "prompt": "Заполните пропуск: Перед сдачей проверьте, что текст содержит минимум ___ relative clauses. (число)",
         "theory_block_id": "b5_theory_editing_checklist",
         "difficulty": 1,
         "correct_answer": "two",
@@ -1076,7 +1076,7 @@
       {
         "id": "q57",
         "type": "error_spotting",
-        "prompt": "Выберите корректное действие по чеклисту.",
+        "prompt": "В тексте на 140 слов мысли плохо связаны между собой. Как лучше доработать текст?",
         "theory_block_id": "b5_theory_editing_checklist",
         "difficulty": 2,
         "choices": [
@@ -1094,7 +1094,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Связки нужны для логики текста, поэтому их стоит добавить. Удаление вступления обычно ухудшит структуру."
+        "explanation": "Логические связки помогают показать отношения между мыслями. Добавляйте их там, где нужны причина, противопоставление или вывод."
       },
       {
         "id": "q58",
@@ -1274,7 +1274,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:25Z",
+    "updated_at": "2026-09-05T19:02:16Z",
     "source": "llm"
   }
 }

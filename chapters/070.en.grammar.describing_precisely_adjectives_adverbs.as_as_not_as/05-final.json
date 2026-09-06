@@ -446,7 +446,7 @@
       {
         "id": "q16",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'She is not as more confident as her friend.'",
+        "prompt": "Исправьте **She is not as more confident as her friend**, сохранив конструкцию `not as ... as`.",
         "theory_block_id": "b2_not_as_as",
         "difficulty": 2,
         "choices": [
@@ -464,7 +464,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Not as…as не использует more."
+        "explanation": "Внутри not as…as нужна базовая форма: «not as confident as». «Less confident than» тоже грамматично, но использует другую конструкцию."
       },
       {
         "id": "q17",
@@ -605,7 +605,7 @@
       {
         "id": "q28",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'The more fast you run, the more tired you get.'",
+        "prompt": "Исправьте **The more fast you run, the more tired you get**, сохранив сравнение скорости и усталости.",
         "theory_block_id": "b3_the_the",
         "difficulty": 2,
         "choices": [
@@ -623,7 +623,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Fast образует faster, не more fast."
+        "explanation": "Fast образует comparative faster: «The faster you run, the more tired you get». Вариант без faster грамматичен, но меняет сравниваемую величину."
       },
       {
         "id": "q29",
@@ -666,7 +666,7 @@
       {
         "id": "q33",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'The older he gets, the more wise he becomes.'",
+        "prompt": "Выберите обычную сравнительную форму `wise` с суффиксом `-er` в этой конструкции.",
         "theory_block_id": "b3_the_the",
         "difficulty": 2,
         "choices": [
@@ -684,7 +684,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Wise может образовывать wiser. В этой конструкции используем comparative."
+        "explanation": "Форма wiser — обычный comparative от wise. «More wise» возможно в отдельных контекстах, но не отвечает условию о форме с -er."
       },
       {
         "id": "q34",
@@ -718,11 +718,11 @@
       {
         "id": "q36",
         "type": "fill_blank",
-        "prompt": "The ___ he runs, the ___ he gets. (быстрый/усталый)",
+        "prompt": "The ___ he runs, the more tired he gets. (быстро)",
         "theory_block_id": "b3_the_the",
         "difficulty": 2,
         "correct_answer": "faster",
-        "explanation": "Нужен comparative: the faster..., the more tired..."
+        "explanation": "В первой части нужен comparative faster; вторая часть уже дана как «the more tired»."
       },
       {
         "id": "q37",
@@ -1002,7 +1002,7 @@
       {
         "id": "q57",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"My car is as fast as yours.\"",
+        "prompt": "Выберите предложение без ошибки в конструкции `as ... as`.",
         "theory_block_id": "b5_common_mistakes",
         "difficulty": 2,
         "choices": [
@@ -1020,7 +1020,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "В конструкции as…as нужен второй as, не than."
+        "explanation": "«My car is as fast as yours» правильно использует второй as. Вариант с than нарушает конструкцию, а comparative передаёт другой смысл."
       },
       {
         "id": "q58",
@@ -1127,7 +1127,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:23Z",
+    "updated_at": "2026-09-05T08:23:20Z",
     "source": "llm"
   }
 }

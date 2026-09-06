@@ -1229,7 +1229,7 @@
       {
         "id": "q53",
         "type": "error_spotting",
-        "prompt": "Выберите корректное исправление.",
+        "prompt": "Какое предложение означает, что она сдала отчет до того, как ушла?",
         "theory_block_id": "b6_theory_common_errors",
         "difficulty": 3,
         "choices": [
@@ -1251,17 +1251,17 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Если действие активное («она сдала отчет»), нужен having + V3.",
+        "explanation": "Having given the report выражает активное действие: она сначала сдала отчет, затем ушла. Given the report означает «учитывая отчет» или имеет пассивный смысл.",
         "tags": []
       },
       {
         "id": "q54",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: ___ the ticket, he couldn't enter. (lose)",
+        "prompt": "Заполните пропуск: Having ___ the ticket, he could not enter. (lose)",
         "theory_block_id": "b6_theory_common_errors",
         "difficulty": 2,
-        "correct_answer": "Having",
-        "explanation": "Having lost показывает, что потеря произошла раньше невозможности войти.",
+        "correct_answer": "lost",
+        "explanation": "Having lost показывает, что билет был потерян до попытки войти.",
         "tags": []
       },
       {
@@ -1295,11 +1295,11 @@
       {
         "id": "q57",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: ___ the photos, they uploaded them. (edit)",
+        "prompt": "Заполните пропуск: Having ___ the photos, they uploaded them. (edit)",
         "theory_block_id": "b6_theory_common_errors",
         "difficulty": 2,
-        "correct_answer": "Having",
-        "explanation": "Having edited показывает, что редактирование предшествует загрузке.",
+        "correct_answer": "edited",
+        "explanation": "Having edited показывает, что редактирование завершилось до загрузки.",
         "tags": []
       },
       {
@@ -1432,7 +1432,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:49:05Z",
+    "updated_at": "2026-09-05T22:22:20Z",
     "source": "llm"
   }
 }

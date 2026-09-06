@@ -787,7 +787,7 @@
       {
         "id": "q40",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'We used the seats availables.'",
+        "prompt": "Выберите вариант с постпозитивным `available`: «Мы использовали имевшиеся свободные места».",
         "theory_block_id": "b4_after_noun_fixed",
         "difficulty": 2,
         "choices": [
@@ -805,7 +805,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Available не имеет формы множественного числа и часто стоит после существительного."
+        "explanation": "Вариант «the seats available» использует изучаемую постпозицию. «The available seats» тоже грамматично, но не отвечает условию о расположении прилагательного."
       },
       {
         "id": "q41",
@@ -918,7 +918,7 @@
       {
         "id": "q49",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: Please keep the door ___.",
+        "prompt": "Выберите правильный вариант: Please keep the door ___. (закрытой)",
         "theory_block_id": "b5_object_complement",
         "difficulty": 1,
         "choices": [
@@ -932,7 +932,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "После объекта используется прилагательное: keep the door closed."
+        "explanation": "Для состояния «закрытой» нужен object complement «closed». «Close» означало бы «близко»."
       },
       {
         "id": "q50",
@@ -955,7 +955,7 @@
       {
         "id": "q52",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'She kept the window openly.'",
+        "prompt": "Как исправить фразу **She kept the window openly**, сохранив глагол `kept`?",
         "theory_block_id": "b5_object_complement",
         "difficulty": 2,
         "choices": [
@@ -973,7 +973,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "После объекта нужен adjective: open."
+        "explanation": "После объекта в конструкции с keep используется прилагательное состояния: «kept the window open». Вариант с left тоже грамматичен, но меняет заданный глагол."
       },
       {
         "id": "q53",
@@ -1016,7 +1016,7 @@
       {
         "id": "q57",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'He made the rules clearly.'",
+        "prompt": "Как передать: «Он сделал правила понятными»?",
         "theory_block_id": "b5_object_complement",
         "difficulty": 2,
         "choices": [
@@ -1034,7 +1034,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "После объекта нужен adjective: made the rules clear."
+        "explanation": "В значении результата используется object complement: «made the rules clear». Наречие «clearly» описывало бы способ действия и не передавало заданный смысл."
       },
       {
         "id": "q58",
@@ -1141,7 +1141,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:22Z",
+    "updated_at": "2026-09-05T08:22:51Z",
     "source": "llm"
   }
 }

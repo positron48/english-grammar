@@ -5,33 +5,33 @@
   "questions": [
     {
       "type": "mcq_single",
-      "prompt": "Какая структура рекомендуется для четкого пересказа разговора?",
+      "prompt": "Какая общая схема точнее всего описывает косвенный пересказ?",
       "choices": [
         {
           "id": "a",
-          "text": "reporting verb + object + content"
+          "text": "speaker + reporting verb + content; адресат добавляется, если его требует глагол"
         },
         {
           "id": "b",
-          "text": "content + reporting verb + object"
+          "text": "content + reporting verb без указания источника"
         },
         {
           "id": "c",
-          "text": "object + content + reporting verb"
+          "text": "object + content без reporting verb"
         },
         {
           "id": "d",
-          "text": "content + object + reporting verb"
+          "text": "только дословные реплики без связок"
         }
       ],
       "correct_answer": "a",
-      "explanation": "Правильная структура: reporting verb (глагол пересказа) + object (кто) + content (содержание). Это соответствует рекомендации в теоретическом блоке.",
+      "explanation": "В пересказе называют источник сообщения, выбирают reporting verb и передают содержание. Адресат является отдельным дополнением и нужен только в моделях вроде *tell/ask someone…*.",
       "theory_block_id": "b1_theory_retell_structure",
       "chapter_id": "en.grammar.reported_speech_meaning_transfer.build_write_retell_a",
       "concept_id": "retell_structure_sequence",
       "difficulty": 2,
       "id": "q1",
-      "signature": "5a9e0fa3235bb25d"
+      "signature": "21edf7e018a5fb78"
     },
     {
       "type": "mcq_single",
@@ -95,37 +95,37 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой элемент не входит в структуру пересказа?",
+      "prompt": "Какой элемент не должен добавляться в нейтральный пересказ, если его не было в исходном сообщении?",
       "choices": [
         {
           "id": "a",
-          "text": "reporting verb"
+          "text": "говорящий или источник сообщения"
         },
         {
           "id": "b",
-          "text": "object"
+          "text": "reporting verb"
         },
         {
           "id": "c",
-          "text": "content"
+          "text": "передаваемое содержание"
         },
         {
           "id": "d",
-          "text": "время суток"
+          "text": "личная оценка пересказчика"
         }
       ],
       "correct_answer": "d",
-      "explanation": "В структуре пересказа не требуется указывать время суток, только последовательность действий и контекст.",
+      "explanation": "Нейтральный пересказ сохраняет источник и содержание, но не добавляет личную оценку пересказчика, отсутствующую в исходном сообщении.",
       "theory_block_id": "b1_theory_retell_structure",
       "chapter_id": "en.grammar.reported_speech_meaning_transfer.build_write_retell_a",
       "concept_id": "retell_structure_sequence",
       "difficulty": 3,
       "id": "q4",
-      "signature": "0a1af4c7c6a5f2c4"
+      "signature": "e9f1eacffd6da165"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой пример правильно использует структуру пересказа?",
+      "prompt": "Какой пример содержит и контекст, и переданное содержание в одном предложении?",
       "choices": [
         {
           "id": "a",
@@ -145,13 +145,13 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Пример b включает контекст (at the meeting), reporting verb (said), и содержание (he needed more data), что соответствует структуре.",
+      "explanation": "В b указан контекст *at the meeting*, источник *John*, reporting verb *said* и содержание *he needed more data*. В a нет контекста, c является прямой цитатой, а d не передаёт конкретное содержание сообщения.",
       "theory_block_id": "b1_theory_retell_structure",
       "chapter_id": "en.grammar.reported_speech_meaning_transfer.build_write_retell_a",
       "concept_id": "retell_structure_sequence",
       "difficulty": 4,
       "id": "q5",
-      "signature": "42f22a952bb1fa4f"
+      "signature": "0fab4dd9a2a2c5a5"
     },
     {
       "type": "mcq_single",
@@ -185,7 +185,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой порядок утверждений и вопросов в пересказе?",
+      "prompt": "Какой базовый порядок рекомендует теория, если в исходном материале есть общий контекст, утверждения, вопросы и команды?",
       "choices": [
         {
           "id": "a",
@@ -205,17 +205,17 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Согласно теории, после общего контекста следует утверждения, затем вопросы и команды, поэтому утверждения идут перед вопросами.",
+      "explanation": "Как базовый план можно сначала дать общий контекст, затем передать утверждения, после них — вопросы и команды. В реальном тексте порядок можно менять ради хронологии и связности.",
       "theory_block_id": "b1_theory_retell_structure",
       "chapter_id": "en.grammar.reported_speech_meaning_transfer.build_write_retell_a",
       "concept_id": "retell_structure_sequence",
       "difficulty": 3,
       "id": "q7",
-      "signature": "47ae758773c576e6"
+      "signature": "b87c0a21cc5374bf"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант не соответствует правильной структуре пересказа?",
+      "prompt": "Какой вариант использует прямую цитату вместо косвенного пересказа?",
       "choices": [
         {
           "id": "a",
@@ -234,18 +234,18 @@
           "text": "During the call, he explained the plan."
         }
       ],
-      "correct_answer": "c",
-      "explanation": "Вариант c нарушает структуру: время (at 5) стоит перед содержанием, что делает пересказ неясным. Правильный порядок — контекст, затем содержание.",
+      "correct_answer": "b",
+      "explanation": "В b сохранены кавычки и исходная реплика *I’ll be there at 5*. Варианты a, c и d грамматически оформлены как косвенное сообщение или пересказ события.",
       "theory_block_id": "b1_theory_retell_structure",
       "chapter_id": "en.grammar.reported_speech_meaning_transfer.build_write_retell_a",
       "concept_id": "retell_structure_sequence",
       "difficulty": 4,
       "id": "q8",
-      "signature": "c5055986fe91ca0c"
+      "signature": "0e53a51538daf79c"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой элемент структуры пересказа отвечает за указание говорящего?",
+      "prompt": "Какой элемент предложения прямо называет говорящего в *John said that he needed help*?",
       "choices": [
         {
           "id": "a",
@@ -253,7 +253,7 @@
         },
         {
           "id": "b",
-          "text": "object"
+          "text": "subject"
         },
         {
           "id": "c",
@@ -265,17 +265,17 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Object в структуре (reporting verb + object + content) указывает на говорящего (кто), что соответствует теории.",
+      "explanation": "Говорящего называет подлежащее *John*. Reporting verb описывает речевое действие, а object при некоторых глаголах обозначает адресата.",
       "theory_block_id": "b1_theory_retell_structure",
       "chapter_id": "en.grammar.reported_speech_meaning_transfer.build_write_retell_a",
       "concept_id": "retell_structure_sequence",
       "difficulty": 2,
       "id": "q9",
-      "signature": "98405e49447f0f03"
+      "signature": "96bc677f70db3f08"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой пример содержит ошибку в структуре пересказа?",
+      "prompt": "Какой пример сохраняет прямую цитату вместо оформления содержания как косвенной речи?",
       "choices": [
         {
           "id": "a",
@@ -291,17 +291,17 @@
         },
         {
           "id": "d",
-          "text": "The manager ordered to submit the document by Friday."
+          "text": "The manager ordered us to submit the document by Friday."
         }
       ],
       "correct_answer": "c",
-      "explanation": "Пример c использует прямую речь ('I need help') и размещает контекст (at the office) после содержания, что нарушает структуру. Правильный порядок: контекст → reporting verb → content.",
+      "explanation": "В c содержание оставлено в кавычках как прямая речь. В a и b используются придаточные косвенной речи, а d — модель *order + object + to-infinitive*.",
       "theory_block_id": "b1_theory_retell_structure",
       "chapter_id": "en.grammar.reported_speech_meaning_transfer.build_write_retell_a",
       "concept_id": "retell_structure_sequence",
       "difficulty": 4,
       "id": "q10",
-      "signature": "0153ea8a6b462fcd"
+      "signature": "e43fc69be5d7f39c"
     }
   ],
   "meta": {

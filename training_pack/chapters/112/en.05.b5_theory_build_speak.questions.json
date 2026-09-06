@@ -5,7 +5,7 @@
   "questions": [
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант правильно сочетает совет и сожаление с использованием условных конструкций?",
+      "prompt": "Какой вариант сочетает совет и сожаление о прошлом с результатом в настоящем?",
       "choices": [
         {
           "id": "a",
@@ -25,13 +25,13 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "В советской конструкции используется второе условное (If I were you, I'd...), а в сожалении — третье (if I had done that, I'd be...). Вариант b использует 'was' вместо 'were', вариант c ошибочно применяет 'would have been', вариант d заменяет 'had done' на 'did'.",
+      "explanation": "Совет строится как *If I were you, I'd...*, а mixed conditional — как *if I had done..., I'd be... now*.",
       "theory_block_id": "b5_theory_build_speak",
       "chapter_id": "en.grammar.conditionals_hypotheticals.build_speak_advice_regrets",
       "concept_id": "build_speak_conditional",
       "difficulty": 3,
       "id": "q1",
-      "signature": "61f32d762155eaa2"
+      "signature": "a4ebbe01d0b25cad"
     },
     {
       "type": "mcq_single",
@@ -55,7 +55,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Конструкция 'if only' требует третьего условия (past perfect в условии, would + base verb в результате). Варианты b, c, d используют неправильные времена.",
+      "explanation": "Это mixed conditional: *if only + Past Perfect* задаёт прошлое условие, а *would + V1* — настоящее следствие.",
       "theory_block_id": "b5_theory_build_speak",
       "chapter_id": "en.grammar.conditionals_hypotheticals.build_speak_advice_regrets",
       "concept_id": "build_speak_conditional",
@@ -81,11 +81,11 @@
         },
         {
           "id": "d",
-          "text": "If I had studied more, I would be better prepared."
+          "text": "If I had studied more, I would have been better prepared then."
         }
       ],
       "correct_answer": "b",
-      "explanation": "В третьем условном с результатом в настоящем используется 'would + base verb' с указанием на настоящее время ('now'). Вариант b правильный, вариант d не содержит 'now', вариант c ошибочно использует первое условное.",
+      "explanation": "Для настоящего результата нужен mixed conditional с *would be* и маркером *now*.",
       "theory_block_id": "b5_theory_build_speak",
       "chapter_id": "en.grammar.conditionals_hypotheticals.build_speak_advice_regrets",
       "concept_id": "build_speak_conditional",
@@ -95,7 +95,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант содержит ошибку в структуре третьего условия?",
+      "prompt": "Какой вариант содержит грамматическую ошибку после *If I had known*?",
       "choices": [
         {
           "id": "a",
@@ -103,25 +103,25 @@
         },
         {
           "id": "b",
-          "text": "If I had known about the meeting, I would attend."
+          "text": "If I had known about the meeting, I would attended."
         },
         {
           "id": "c",
-          "text": "If I had known about the meeting, I would be attending."
+          "text": "If I had known about the meeting, I could have attended."
         },
         {
           "id": "d",
-          "text": "If I had known about the meeting, I would have been attending."
+          "text": "If I had known about the meeting, I might have attended."
         }
       ],
       "correct_answer": "b",
-      "explanation": "В третьем условном результате должно использоваться 'would have + past participle' или 'would + base verb' для настоящего. Вариант b использует 'would attend', что неверно для третьего условия.",
+      "explanation": "После *would* нельзя ставить V2: для прошлого результата требуется *would have attended*.",
       "theory_block_id": "b5_theory_build_speak",
       "chapter_id": "en.grammar.conditionals_hypotheticals.build_speak_advice_regrets",
       "concept_id": "build_speak_conditional",
       "difficulty": 2,
       "id": "q4",
-      "signature": "04a5d38430258e38"
+      "signature": "dbd9053d128e8628"
     },
     {
       "type": "mcq_single",
@@ -133,19 +133,19 @@
         },
         {
           "id": "b",
-          "text": "If I was you, I'd reconsider the decision."
+          "text": "If I am you, I'd reconsider the decision."
         },
         {
           "id": "c",
-          "text": "If I were you, I would reconsider the decision."
+          "text": "If I were you, I would reconsidered the decision."
         },
         {
           "id": "d",
-          "text": "If I was you, I would reconsider the decision."
+          "text": "If I am you, I would reconsider the decision."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Для совета используется второе условное с 'were' (не 'was'). Вариант a правильный, варианты b и d используют 'was', вариант c использует полную форму вместо сокращения.",
+      "explanation": "В стандартной модели совета используются *If I were you* и *would + V1*.",
       "theory_block_id": "b5_theory_build_speak",
       "chapter_id": "en.grammar.conditionals_hypotheticals.build_speak_advice_regrets",
       "concept_id": "build_speak_conditional",
@@ -155,7 +155,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какое предложение содержит ошибку в использовании 'had done'?",
+      "prompt": "Какой вариант неверно строит настоящее следствие после *If I had done my homework*?",
       "choices": [
         {
           "id": "a",
@@ -175,13 +175,13 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "В третьем условном с результатом в настоящем используется 'would + base verb', а не 'would have been'. Вариант b ошибочно применяет 'would have been'.",
+      "explanation": "В mixed conditional настоящее следствие строится с *would + V1*, а не с *would have been*.",
       "theory_block_id": "b5_theory_build_speak",
       "chapter_id": "en.grammar.conditionals_hypotheticals.build_speak_advice_regrets",
       "concept_id": "build_speak_conditional",
       "difficulty": 3,
       "id": "q6",
-      "signature": "9d510347216b5bba"
+      "signature": "47878cb54dbcaa10"
     },
     {
       "type": "mcq_single",
@@ -193,19 +193,19 @@
         },
         {
           "id": "b",
-          "text": "If I were you, I'd accept the offer; if I accepted it, I'd have a better job now."
+          "text": "If I were you, I'd accept the offer; if I accept it, I'd have a better job now."
         },
         {
           "id": "c",
-          "text": "If I were you, I would accept the offer; if I had accepted it, I would have a better job now."
+          "text": "If I were you, I would accepted the offer; if I had accepted it, I would have a better job now."
         },
         {
           "id": "d",
-          "text": "If I were you, I'd accept the offer; if I had accepted it, I would have a better job now."
+          "text": "If I were you, I'd accept the offer; if I had accepted it, I'd had a better job now."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Совет требует второго условия ('I'd accept'), а альтернативный вывод — третьего ('if I had accepted, I'd have...'). Вариант a правильный, варианты b, c, d содержат ошибки в структуре условных предложений.",
+      "explanation": "Совет использует *would + V1*, а альтернативный нынешний результат — *if + Past Perfect, would + V1*.",
       "theory_block_id": "b5_theory_build_speak",
       "chapter_id": "en.grammar.conditionals_hypotheticals.build_speak_advice_regrets",
       "concept_id": "build_speak_conditional",
@@ -245,7 +245,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант содержит ошибку в использовании 'would' вместо 'would have'?",
+      "prompt": "Какой вариант содержит грамматическую ошибку в результате third conditional?",
       "choices": [
         {
           "id": "a",
@@ -253,25 +253,25 @@
         },
         {
           "id": "b",
-          "text": "If I had saved money, I would buy a car."
+          "text": "If I had saved money, I would bought a car."
         },
         {
           "id": "c",
-          "text": "If I had saved money, I would be buying a car."
+          "text": "If I had saved money, I could have bought a car."
         },
         {
           "id": "d",
-          "text": "If I had saved money, I would have been buying a car."
+          "text": "If I had saved money, I might have bought a car."
         }
       ],
       "correct_answer": "b",
-      "explanation": "В третьем условном результате должно использоваться 'would have + past participle'. Вариант b ошибочно использует 'would buy', что соответствует первому условному.",
+      "explanation": "После *would* нельзя ставить V2; правильная модель — *would have + V3*.",
       "theory_block_id": "b5_theory_build_speak",
       "chapter_id": "en.grammar.conditionals_hypotheticals.build_speak_advice_regrets",
       "concept_id": "build_speak_conditional",
       "difficulty": 3,
       "id": "q9",
-      "signature": "eba1493ff037e7bb"
+      "signature": "a0b990fdc9e75f49"
     },
     {
       "type": "mcq_single",
@@ -287,15 +287,15 @@
         },
         {
           "id": "c",
-          "text": "If I were you, I would check the details; if I had checked them earlier, I would avoid this problem now."
+          "text": "If I were you, I would check the details; if I had checked them earlier, I would have avoid this problem."
         },
         {
           "id": "d",
-          "text": "If I were you, I'd check the details; if I had checked them earlier, I would avoid this problem now."
+          "text": "If I were you, I'd check the details; if I had checked them earlier, I will avoid this problem."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Совет требует второго условия ('I'd check'), а сожаление — третьего ('if I had checked, I'd avoid...'). Вариант a правильный, варианты b, c, d содержат ошибки в структуре условных предложений.",
+      "explanation": "Совет использует second conditional, а прошлое условие с нынешним результатом — mixed conditional.",
       "theory_block_id": "b5_theory_build_speak",
       "chapter_id": "en.grammar.conditionals_hypotheticals.build_speak_advice_regrets",
       "concept_id": "build_speak_conditional",

@@ -327,7 +327,7 @@
           },
           {
             "id": "c",
-            "text": "Go straight and turn left at the corner."
+            "text": "Go straight and turn left in the corner."
           }
         ],
         "correct_answer": "a",
@@ -450,11 +450,11 @@
       },
       {
         "type": "fill_blank",
-        "prompt": "Вставьте предлог: The bank is ___ the post office. (напротив)",
+        "prompt": "Вставьте одно слово без from: The bank is ___ the post office. (напротив)",
         "theory_block_id": "b2_location_prepositions_review",
         "difficulty": 1,
         "correct_answer": "opposite",
-        "explanation": "Opposite = напротив.",
+        "explanation": "Opposite употребляется перед ориентиром без from; двухсловный вариант — across from.",
         "id": "q18"
       },
       {
@@ -733,7 +733,7 @@
           },
           {
             "id": "c",
-            "text": "I'm trying to find the bank."
+            "text": "I'm looking on the bank."
           }
         ],
         "correct_answer": "a",
@@ -888,7 +888,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'The bank is near to the station.'",
+        "prompt": "Найдите ошибку: 'The bank is near from the station.'",
         "theory_block_id": "b5_landmarks_distance",
         "difficulty": 2,
         "choices": [
@@ -898,15 +898,15 @@
           },
           {
             "id": "b",
-            "text": "The bank is near to the station."
+            "text": "The bank is near from the station."
           },
           {
             "id": "c",
-            "text": "The bank is close to the station."
+            "text": "The bank is near at the station."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Near обычно без to.",
+        "explanation": "Перед ориентиром near употребляется без from: near the station. Также возможно close to the station.",
         "id": "q52"
       },
       {
@@ -966,7 +966,7 @@
           },
           {
             "id": "c",
-            "text": "The office is opposite the hotel."
+            "text": "The office is in front at the hotel."
           }
         ],
         "correct_answer": "a",
@@ -1094,7 +1094,7 @@
           },
           {
             "id": "c",
-            "text": "I'm trying to find the pharmacy."
+            "text": "I'm looking on the pharmacy."
           }
         ],
         "correct_answer": "a",
@@ -1135,7 +1135,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'Go straight and turn right at the bridge.'",
+        "prompt": "Найдите ошибку: 'Go straight and turn right in the bridge.'",
         "theory_block_id": "b6_build_speak_dialogue",
         "difficulty": 2,
         "choices": [
@@ -1149,11 +1149,11 @@
           },
           {
             "id": "c",
-            "text": "Go straight, then turn right at the bridge."
+            "text": "Go straight and turn right on inside the bridge."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Правильно: at the bridge. In the bridge не подходит.",
+        "explanation": "Ориентир-точка вводится с at: turn right at the bridge.",
         "id": "q68"
       },
       {
@@ -1167,11 +1167,11 @@
       },
       {
         "type": "true_false",
-        "prompt": "Верно или неверно: «'Across' can mean 'across from' in location sentences.»",
+        "prompt": "В модели «напротив конкретного объекта» достаточно across без from: The bank is across the station.",
         "theory_block_id": "b6_build_speak_dialogue",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Для расположения нужен across from, не просто across.",
+        "explanation": "Перед ориентиром нужна связка across from: across from the station. Без from возможно, например, across the street, где street обозначает пересекаемое пространство.",
         "id": "q71"
       },
       {
@@ -1264,7 +1264,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:48:58Z",
+    "updated_at": "2026-09-05T10:02:07Z",
     "source": "llm"
   }
 }

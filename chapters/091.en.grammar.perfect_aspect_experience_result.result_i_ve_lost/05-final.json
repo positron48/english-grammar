@@ -328,7 +328,7 @@
       {
         "id": "q2",
         "type": "mcq_single",
-        "prompt": "Ситуация: телефон не работает, потому что он сломался. Выберите правильную фразу.",
+        "prompt": "Телефон сейчас не работает, потому что она его сломала. Выберите вариант с Present Perfect.",
         "theory_block_id": "b1_theory_result_link_now",
         "difficulty": 2,
         "choices": [
@@ -418,7 +418,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Present Perfect указывает на текущий результат (меня нет), без указания времени."
+        "explanation": "Present Perfect связывает уход с текущим результатом: меня уже нет в офисе, поэтому дверь можно запереть."
       },
       {
         "id": "q8",
@@ -474,7 +474,7 @@
       {
         "id": "q11",
         "type": "error_spotting",
-        "prompt": "Выберите вариант без грамматической ошибки: finished the task.",
+        "prompt": "Выберите предложение без ошибки о завершённом задании.",
         "theory_block_id": "b1_theory_result_link_now",
         "difficulty": 2,
         "choices": [
@@ -500,23 +500,23 @@
       {
         "id": "q12",
         "type": "mcq_single",
-        "prompt": "Ситуация: на кухне грязно, потому что он готовил. Выберите правильный вариант.",
+        "prompt": "Ужин готов. Выберите фразу, которая связывает завершённое действие с результатом сейчас.",
         "theory_block_id": "b1_theory_result_link_now",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "He cooked in the kitchen.",
+            "text": "He cooked dinner last night.",
             "feedback": "Это просто факт, без акцента на результат."
           },
           {
             "id": "b",
-            "text": "He has cooked in the kitchen.",
-            "feedback": "Present Perfect объясняет текущий результат: сейчас грязно."
+            "text": "He has cooked dinner, so it is ready.",
+            "feedback": "Present Perfect объясняет текущий результат: ужин готов сейчас."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Фокус на результате сейчас, поэтому Present Perfect подходит лучше, чем Past Simple."
+        "explanation": "Ужин готов сейчас, поэтому Present Perfect связывает завершённое приготовление с текущим результатом."
       },
       {
         "id": "q13",
@@ -643,17 +643,17 @@
         "choices": [
           {
             "id": "a",
-            "text": "Did you send the email?",
+            "text": "Did you send the email yesterday?",
             "feedback": "Past Simple не указывает на результат сейчас."
           },
           {
             "id": "b",
-            "text": "Have you sent the email?",
+            "text": "Have you sent the email yet?",
             "feedback": "Present Perfect подходит для результата без времени."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Мы спрашиваем о текущем результате, поэтому используем Present Perfect."
+        "explanation": "Вопрос о текущем результате без завершённого времени строится в Present Perfect; yet передаёт ожидаемое «уже»."
       },
       {
         "id": "q21",
@@ -693,23 +693,23 @@
       {
         "id": "q23",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант для результата: \"Я уже посмотрел файл, можно удалять\".",
+        "prompt": "Выберите вариант: «Я уже проверил файл, поэтому его можно удалить».",
         "theory_block_id": "b2_theory_state_vs_event",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "I saw the file, you can delete it.",
+            "text": "I reviewed the file yesterday.",
             "feedback": "Past Simple не подчеркивает текущий результат."
           },
           {
             "id": "b",
-            "text": "I've seen the file, you can delete it.",
+            "text": "I've reviewed the file, so you can delete it.",
             "feedback": "Present Perfect показывает результат сейчас."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Фокус на результате сейчас (файл просмотрен), поэтому Present Perfect."
+        "explanation": "Проверка завершена и определяет, что можно сделать с файлом сейчас, поэтому используется Present Perfect."
       },
       {
         "id": "q24",
@@ -720,7 +720,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "I had three meetings today.",
+            "text": "I had three meetings yesterday.",
             "feedback": "Past Simple звучит как завершенный период."
           },
           {
@@ -867,7 +867,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "Have you yet finished?",
+            "text": "Have yet you finished?",
             "feedback": "Yet обычно ставится в конце предложения."
           },
           {
@@ -1053,8 +1053,8 @@
           },
           {
             "id": "b",
-            "text": "We haven't yet finished the report?",
-            "feedback": "Вопросительный знак не нужен в утверждении."
+            "text": "We yet haven't finished the report.",
+            "feedback": "Yet обычно ставится после not или в конце предложения, а не перед haven't."
           },
           {
             "id": "c",
@@ -1079,8 +1079,8 @@
           },
           {
             "id": "b",
-            "text": "I haven't yet done it?",
-            "feedback": "Вопросительный знак не нужен."
+            "text": "I yet haven't done it.",
+            "feedback": "Yet обычно ставится после not или в конце предложения, а не перед haven't."
           }
         ],
         "correct_answer": "a",
@@ -1130,8 +1130,8 @@
           },
           {
             "id": "b",
-            "text": "He hasn't yet called?",
-            "feedback": "Вопросительный знак делает фразу неверной."
+            "text": "He yet hasn't called.",
+            "feedback": "Yet обычно ставится после not или в конце предложения, а не перед hasn't."
           },
           {
             "id": "c",
@@ -1154,7 +1154,7 @@
       {
         "id": "q49",
         "type": "mcq_single",
-        "prompt": "Ситуация: дорога мокрая. Выберите правильную фразу.",
+        "prompt": "Дорога мокрая. Выберите Present Perfect, который объясняет видимый результат.",
         "theory_block_id": "b5_theory_evidence",
         "difficulty": 2,
         "choices": [
@@ -1165,7 +1165,7 @@
           },
           {
             "id": "b",
-            "text": "It has rained.",
+            "text": "It has just rained.",
             "feedback": "Present Perfect объясняет текущий результат."
           }
         ],
@@ -1195,7 +1195,7 @@
           },
           {
             "id": "b",
-            "text": "You worked a lot today.",
+            "text": "You worked a lot yesterday.",
             "feedback": "Past Simple звучит как завершенный период."
           }
         ],
@@ -1214,7 +1214,7 @@
       {
         "id": "q53",
         "type": "error_spotting",
-        "prompt": "Выберите правильное объяснение по следам (clean kitchen).",
+        "prompt": "Кухня чистая. Выберите грамматически правильное объяснение с Present Perfect.",
         "theory_block_id": "b5_theory_evidence",
         "difficulty": 3,
         "choices": [
@@ -1225,8 +1225,8 @@
           },
           {
             "id": "b",
-            "text": "The kitchen is clean. I cleaned it yesterday.",
-            "feedback": "Есть конкретное время, фокус на прошлом."
+            "text": "The kitchen is clean. I have cleaned it yesterday.",
+            "feedback": "Present Perfect нельзя сочетать с конкретным завершенным временем yesterday."
           },
           {
             "id": "c",
@@ -1249,7 +1249,7 @@
       {
         "id": "q55",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант для ситуации: окно разбито, видно результат.",
+        "prompt": "Окно разбито. Выберите Present Perfect без указания завершённого времени.",
         "theory_block_id": "b5_theory_evidence",
         "difficulty": 3,
         "choices": [
@@ -1260,8 +1260,8 @@
           },
           {
             "id": "b",
-            "text": "Someone broke the window last night.",
-            "feedback": "Это Past Simple с конкретным временем."
+            "text": "Someone has broken the window last night.",
+            "feedback": "Present Perfect нельзя сочетать с конкретным завершенным временем last night."
           }
         ],
         "correct_answer": "a",
@@ -1270,7 +1270,7 @@
       {
         "id": "q56",
         "type": "error_spotting",
-        "prompt": "Выберите предложение, где результат виден сейчас (paint smell).",
+        "prompt": "В комнате пахнет краской. Выберите Present Perfect без указания завершённого времени.",
         "theory_block_id": "b5_theory_evidence",
         "difficulty": 3,
         "choices": [
@@ -1281,8 +1281,8 @@
           },
           {
             "id": "b",
-            "text": "The room smells of paint. They painted it last week.",
-            "feedback": "Есть конкретное время, фокус на прошлом."
+            "text": "The room smells of paint. They've painted it last week.",
+            "feedback": "Present Perfect нельзя сочетать с конкретным завершенным временем last week."
           },
           {
             "id": "c",
@@ -1314,7 +1314,7 @@
       {
         "id": "q60",
         "type": "mcq_single",
-        "prompt": "Ситуация: посудомойка пустая. Выберите подходящую фразу.",
+        "prompt": "Посудомойка сейчас пустая. Выберите Present Perfect для текущего результата.",
         "theory_block_id": "b5_theory_evidence",
         "difficulty": 2,
         "choices": [
@@ -1400,7 +1400,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:49:00Z",
+    "updated_at": "2026-09-05T19:39:06Z",
     "source": "llm"
   }
 }

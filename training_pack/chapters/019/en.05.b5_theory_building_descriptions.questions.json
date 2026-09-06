@@ -5,33 +5,33 @@
   "questions": [
     {
       "type": "mcq_single",
-      "prompt": "Как правильно описать комнату, используя 'there is/are' и притяжательные местоимения?",
+      "prompt": "Выберите описание комнаты двумя грамматически правильными предложениями: один стул и несколько книг.",
       "choices": [
         {
           "id": "a",
-          "text": "In my room there is a chair and some books."
+          "text": "In my room there is a chair. There are some books."
         },
         {
           "id": "b",
-          "text": "In my room there are a chair and some books."
+          "text": "In my room there are a chair. There are some books."
         },
         {
           "id": "c",
-          "text": "In my room there is a chair and books."
+          "text": "In my room there is a chair. There is some books."
         },
         {
           "id": "d",
-          "text": "In my room there are a chair and books."
+          "text": "In my room there are a chair. There is some books."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Правильно: 'there is' для единственного числа (a chair), 'some books' (множественное число). Вариант b неправильно использует 'there are' для единственного числа (a chair).",
+      "explanation": "A chair — единственное число, some books — множественное. Поэтому используются is и are соответственно.",
       "theory_block_id": "b5_theory_building_descriptions",
       "chapter_id": "en.grammar.talking_about_things_nouns.build_speak_describe_a",
       "concept_id": "describe_room_full_descriptions",
       "difficulty": 2,
       "id": "q1",
-      "signature": "1003241ee46b6efb"
+      "signature": "0d1ccee8672fd0c4"
     },
     {
       "type": "mcq_single",
@@ -55,7 +55,7 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Правильно: 'there aren't any' для отрицания с неисчисляемыми/множественными существительными (pens). Вариант c неправильно использует 'some' в отрицании.",
+      "explanation": "In my bag there aren’t any pens сообщает, что ручек совсем нет. Pens — множественное число, поэтому нужно aren’t. С неисчисляемым существительным использовалось бы isn’t.",
       "theory_block_id": "b5_theory_building_descriptions",
       "chapter_id": "en.grammar.talking_about_things_nouns.build_speak_describe_a",
       "concept_id": "describe_room_full_descriptions",
@@ -65,11 +65,11 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант правильно описывает предметы на столе?",
+      "prompt": "Выберите перевод «На письменном столе есть несколько книг», не добавляя информацию о владельце.",
       "choices": [
         {
           "id": "a",
-          "text": "There is my laptop on the desk."
+          "text": "My laptop is on the desk."
         },
         {
           "id": "b",
@@ -81,21 +81,21 @@
         },
         {
           "id": "d",
-          "text": "There are my books on the desk."
+          "text": "My books are on the desk."
         }
       ],
       "correct_answer": "b",
-      "explanation": "Правильно: 'There are some books' (множественное число + some). Вариант c ошибочно использует 'is' с множественным числом, вариант d пропускает 'some'.",
+      "explanation": "There are some books on the desk сообщает о нескольких книгах. My books are on the desk правильно, но называет книги говорящего; вариант о ноутбуке сообщает о другом предмете.",
       "theory_block_id": "b5_theory_building_descriptions",
       "chapter_id": "en.grammar.talking_about_things_nouns.build_speak_describe_a",
       "concept_id": "describe_room_full_descriptions",
       "difficulty": 2,
       "id": "q3",
-      "signature": "4a755e935fb31f42"
+      "signature": "59d7ad8741817446"
     },
     {
       "type": "mcq_single",
-      "prompt": "Как правильно описать содержимое сумки с отрицанием?",
+      "prompt": "Выберите грамматически правильную фразу, которая сообщает о полном отсутствии ручек в сумке.",
       "choices": [
         {
           "id": "a",
@@ -115,77 +115,77 @@
         }
       ],
       "correct_answer": "c",
-      "explanation": "Правильно: 'there aren't any' для отрицания с существительными во мн.ч. (pens). Варианты a, b, d содержат грамматические ошибки.",
+      "explanation": "In my bag there aren’t any pens означает, что ручек совсем нет. Aren’t согласуется с pens, а any передаёт отсутствие какого-либо количества.",
       "theory_block_id": "b5_theory_building_descriptions",
       "chapter_id": "en.grammar.talking_about_things_nouns.build_speak_describe_a",
       "concept_id": "describe_room_full_descriptions",
       "difficulty": 3,
       "id": "q4",
-      "signature": "040f790613217050"
+      "signature": "519ca734f0b79241"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант использует правильную комбинацию 'there is/are', притяжательного местоимения и предлога места?",
+      "prompt": "Выберите грамматически правильную фразу о кошельке в моей сумке.",
       "choices": [
         {
           "id": "a",
-          "text": "There is my bag in the room."
+          "text": "There are a wallet in my bag."
         },
         {
           "id": "b",
-          "text": "There is some books on the table."
+          "text": "There is some wallets in my bag."
         },
         {
           "id": "c",
-          "text": "There are my keys on the desk."
+          "text": "My wallet are in the bag."
         },
         {
           "id": "d",
-          "text": "There is my wallet in my bag."
+          "text": "There is a wallet in my bag."
         }
       ],
       "correct_answer": "d",
-      "explanation": "Правильно: 'There is my wallet in my bag' (притяжательное местоимение 'my' + предлог места 'in'). Вариант a пропускает 'some/any', вариант c использует 'are' вместо 'is' для единственного числа.",
+      "explanation": "A wallet — единственное число, поэтому нужно is. My относится к bag и указывает на владельца сумки.",
       "theory_block_id": "b5_theory_building_descriptions",
       "chapter_id": "en.grammar.talking_about_things_nouns.build_speak_describe_a",
       "concept_id": "describe_room_full_descriptions",
       "difficulty": 3,
       "id": "q5",
-      "signature": "7cd734aa281aa95f"
+      "signature": "e61383e177633a79"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант правильно описывает мебель в комнате?",
+      "prompt": "Выберите грамматически правильное описание кровати и письменного стола двумя предложениями.",
       "choices": [
         {
           "id": "a",
-          "text": "In my room there is a bed and a desk."
+          "text": "In my room there is a bed. There is a desk."
         },
         {
           "id": "b",
-          "text": "In my room there are a bed and a desk."
+          "text": "In my room there are a bed. There is a desk."
         },
         {
           "id": "c",
-          "text": "In my room there is some bed and desk."
+          "text": "In my room there is a bed. There are a desk."
         },
         {
           "id": "d",
-          "text": "In my room there are some bed and desk."
+          "text": "In my room there are a bed. There are a desk."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Правильно: 'there is a bed and a desk' (одиночные предметы, единственное число). Варианты b, c, d содержат ошибки согласования (are/ some).",
+      "explanation": "A bed и a desk — по одному предмету. В каждом предложении требуется there is.",
       "theory_block_id": "b5_theory_building_descriptions",
       "chapter_id": "en.grammar.talking_about_things_nouns.build_speak_describe_a",
       "concept_id": "describe_room_full_descriptions",
       "difficulty": 2,
       "id": "q6",
-      "signature": "c8ab45970598e2f1"
+      "signature": "6e7e2e176209092a"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант использует 'some' правильно в утвердительном предложении?",
+      "prompt": "Выберите правильную фразу о нескольких книгах на столе.",
       "choices": [
         {
           "id": "a",
@@ -205,17 +205,17 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Правильно: 'There are some books' (множественное число + some). Варианты a, c, d содержат ошибки: a (is + plural), c (some book - неправильное количество), d (are + singular).",
+      "explanation": "There are some books on the table говорит о нескольких книгах. There is some book on the table также возможно в значении «какая-то книга», но это один предмет, а не несколько.",
       "theory_block_id": "b5_theory_building_descriptions",
       "chapter_id": "en.grammar.talking_about_things_nouns.build_speak_describe_a",
       "concept_id": "describe_room_full_descriptions",
       "difficulty": 2,
       "id": "q7",
-      "signature": "5415a8f895aa16ec"
+      "signature": "e886474e17a89ef7"
     },
     {
       "type": "mcq_single",
-      "prompt": "Как правильно описать отсутствие предметов в сумке?",
+      "prompt": "В сумке нет ни одной ручки. Как сообщить об этом грамматически правильно?",
       "choices": [
         {
           "id": "a",
@@ -235,13 +235,13 @@
         }
       ],
       "correct_answer": "d",
-      "explanation": "Правильно: 'there aren't any pens' (отрицание + any для множественного числа). Варианты a, b, c содержат грамматические ошибки.",
+      "explanation": "In my bag there aren’t any pens отрицает наличие любых ручек. Pens требует aren’t, а any соответствует полному отсутствию.",
       "theory_block_id": "b5_theory_building_descriptions",
       "chapter_id": "en.grammar.talking_about_things_nouns.build_speak_describe_a",
       "concept_id": "describe_room_full_descriptions",
       "difficulty": 3,
       "id": "q8",
-      "signature": "339ebce63841b84a"
+      "signature": "9dc6edf1ce58ac0d"
     },
     {
       "type": "mcq_single",
@@ -249,33 +249,33 @@
       "choices": [
         {
           "id": "a",
-          "text": "There is my book in the desk."
+          "text": "My book is in the desk."
         },
         {
           "id": "b",
-          "text": "There is my book on the desk."
+          "text": "My book is on the desk."
         },
         {
           "id": "c",
-          "text": "There is my book at the desk."
+          "text": "My book is at the desk."
         },
         {
           "id": "d",
-          "text": "There is my book under the desk."
+          "text": "My book is under the desk."
         }
       ],
       "correct_answer": "b",
-      "explanation": "Правильно: 'on the desk' (предлог для предметов на поверхности). Варианты a, c, d используют неправильные предлоги.",
+      "explanation": "My book is on the desk означает, что книга на поверхности стола. Остальные предлоги передают иное расположение.",
       "theory_block_id": "b5_theory_building_descriptions",
       "chapter_id": "en.grammar.talking_about_things_nouns.build_speak_describe_a",
       "concept_id": "describe_room_full_descriptions",
       "difficulty": 2,
       "id": "q9",
-      "signature": "3c85fa5971dd63c0"
+      "signature": "350bbe4f5f69db51"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант правильно описывает содержимое сумки, включая притяжательное местоимение?",
+      "prompt": "Выберите правильное описание содержимого сумки, явно указав, что кошелёк принадлежит говорящему.",
       "choices": [
         {
           "id": "a",
@@ -295,13 +295,13 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Правильно: 'some keys' (множественное число + some) и 'my wallet' (притяжательное местоимение). Варианты b, d используют 'is' вместо 'are', вариант c пропускает 'my'.",
+      "explanation": "In my bag there are some keys, my wallet and a phone содержит my wallet («мой кошелёк»). Вариант с a wallet также правилен, но прямо не указывает владельца кошелька.",
       "theory_block_id": "b5_theory_building_descriptions",
       "chapter_id": "en.grammar.talking_about_things_nouns.build_speak_describe_a",
       "concept_id": "describe_room_full_descriptions",
       "difficulty": 3,
       "id": "q10",
-      "signature": "87669a000bea2de9"
+      "signature": "1b00b1049a8d35ae"
     }
   ],
   "meta": {

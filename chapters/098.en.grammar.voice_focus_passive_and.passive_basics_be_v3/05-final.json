@@ -361,7 +361,7 @@
       {
         "id": "q7",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант предложения: Эти отчеты готовятся утром.",
+        "prompt": "Выберите правильный перевод: Эти отчёты готовят каждое утро.",
         "theory_block_id": "b1_theory_form_be_v3",
         "difficulty": 2,
         "choices": [
@@ -437,29 +437,29 @@
       {
         "id": "q11",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The car is steal every night.\"",
+        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The car is wash every week.\"",
         "theory_block_id": "b1_theory_form_be_v3",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "The car is stolen every night."
+            "text": "The car is washed every week."
           },
           {
             "id": "b",
-            "text": "The car was stolen every night."
+            "text": "The car are washed every week."
           },
           {
             "id": "c",
-            "text": "The car is stole every night."
+            "text": "The car is washing every week."
           },
           {
             "id": "d",
-            "text": "The car is stealing every night."
+            "text": "The car was wash every week."
           }
         ],
         "correct_answer": "a",
-        "explanation": "В пассиве нужен V3: steal → stolen. Остальные варианты неверны по форме или времени.",
+        "explanation": "В Present Simple passive нужны is и V3: is washed.",
         "tags": []
       },
       {
@@ -513,7 +513,7 @@
       {
         "id": "q15",
         "type": "mcq_single",
-        "prompt": "Выберите предложение, где объект важнее исполнителя.",
+        "prompt": "Выберите пассивное предложение, которое ставит в центр устройство, а не техника.",
         "theory_block_id": "b2_theory_when_use",
         "difficulty": 2,
         "choices": [
@@ -599,7 +599,7 @@
       {
         "id": "q21",
         "type": "mcq_single",
-        "prompt": "Выберите вариант, который звучит естественно в инструкции.",
+        "prompt": "Выберите инструкцию в пассивном залоге.",
         "theory_block_id": "b2_theory_when_use",
         "difficulty": 2,
         "choices": [
@@ -621,7 +621,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Пассив часто используется в инструкциях, где важен процесс, а не исполнитель.",
+        "explanation": "The form is filled in online — инструкция в пассивном залоге; исполнитель не назван.",
         "tags": []
       },
       {
@@ -923,21 +923,21 @@
       {
         "id": "q41",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The room were cleaned every day.\"",
+        "prompt": "Исправьте согласование, сохранив Past Simple и yesterday: \"The room were cleaned yesterday.\"",
         "theory_block_id": "b4_theory_be_tense_agreement",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "The room was cleaned every day."
+            "text": "The room was cleaned yesterday."
           },
           {
             "id": "b",
-            "text": "The room is cleaned every day."
+            "text": "The room is cleaned yesterday."
           },
           {
             "id": "c",
-            "text": "The room were clean every day."
+            "text": "The room were clean yesterday."
           },
           {
             "id": "d",
@@ -945,7 +945,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Подлежащее в единственном числе, поэтому в Past Simple нужно was cleaned.",
+        "explanation": "В Past Simple passive для единственного числа нужны was и V3: was cleaned.",
         "tags": []
       },
       {
@@ -999,7 +999,7 @@
       {
         "id": "q45",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The reports is approved every Monday.\"",
+        "prompt": "Исправьте согласование, сохранив Present Simple: \"The reports is approved every Monday.\"",
         "theory_block_id": "b4_theory_be_tense_agreement",
         "difficulty": 2,
         "choices": [
@@ -1103,11 +1103,11 @@
       {
         "id": "q50",
         "type": "true_false",
-        "prompt": "Пассив возможен только у глаголов, которые имеют прямой объект.",
+        "prompt": "В базовой модели пассива объект переходного глагола становится подлежащим.",
         "theory_block_id": "b5_theory_transitive_only",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Переходный глагол требует объекта, который и становится подлежащим в пассиве.",
+        "explanation": "Да. У переходного глагола есть объект, который в базовом преобразовании можно перенести в позицию подлежащего.",
         "tags": []
       },
       {
@@ -1151,7 +1151,7 @@
       {
         "id": "q53",
         "type": "mcq_single",
-        "prompt": "Какой глагол НЕ может быть в пассиве?",
+        "prompt": "Какой глагол не образует базовый пассив без предлога, потому что не принимает прямого объекта?",
         "theory_block_id": "b5_theory_transitive_only",
         "difficulty": 2,
         "choices": [
@@ -1179,11 +1179,11 @@
       {
         "id": "q54",
         "type": "true_false",
-        "prompt": "Глагол \"sleep\" может образовать пассив: \"The bed was slept.\"",
+        "prompt": "Предложение \"The bed was slept\" — корректный базовый пассив от sleep.",
         "theory_block_id": "b5_theory_transitive_only",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "Sleep — непереходный глагол, поэтому пассивная форма невозможна.",
+        "explanation": "Нет. Sleep не принимает прямого объекта; с bed нужен предлог: Someone slept in the bed → The bed was slept in.",
         "tags": []
       },
       {
@@ -1255,11 +1255,11 @@
       {
         "id": "q58",
         "type": "true_false",
-        "prompt": "Если в активном предложении есть объект, его можно сделать подлежащим в пассиве.",
+        "prompt": "В базовом преобразовании объект активного предложения можно перенести в позицию подлежащего пассива.",
         "theory_block_id": "b5_theory_transitive_only",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Пассив строится от переходных глаголов, где объект может стать подлежащим.",
+        "explanation": "Да. Например: The chef cooked the meal → The meal was cooked by the chef.",
         "tags": []
       },
       {
@@ -1366,7 +1366,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:49:01Z",
+    "updated_at": "2026-09-05T20:11:01Z",
     "source": "llm"
   }
 }

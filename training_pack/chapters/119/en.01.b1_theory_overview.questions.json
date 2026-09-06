@@ -65,63 +65,63 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Исходная речь: 'I will go tomorrow.' Как будет звучать косвенная речь?",
+      "prompt": "Примените стандартный backshift к словам 'I will go tomorrow.'",
       "choices": [
         {
           "id": "a",
-          "text": "she will go"
+          "text": "She said she will go the following day."
         },
         {
           "id": "b",
-          "text": "she would go"
+          "text": "She said she would go the following day."
         },
         {
           "id": "c",
-          "text": "she goes"
+          "text": "She said she goes the following day."
         },
         {
           "id": "d",
-          "text": "she is going"
+          "text": "She said she was going yesterday."
         }
       ],
       "correct_answer": "b",
-      "explanation": "При косвенной речи время сдвигается назад (backshift), поэтому 'will' становится 'would'.",
+      "explanation": "При стандартном backshift will превращается в would, а tomorrow — в the following day.",
       "theory_block_id": "b1_theory_overview",
       "chapter_id": "en.grammar.reported_speech_meaning_transfer.reported_statements_say_tell",
       "concept_id": "reported_speech_overview",
       "difficulty": 3,
       "id": "q3",
-      "signature": "1b937e7cb7f2a378"
+      "signature": "7016369e71663cb0"
     },
     {
       "type": "mcq_single",
-      "prompt": "Исходная речь: 'I am happy.' Как будет звучать косвенная речь?",
+      "prompt": "Примените стандартный backshift к словам 'I am happy.'",
       "choices": [
         {
           "id": "a",
-          "text": "he is happy"
+          "text": "He said he is happy."
         },
         {
           "id": "b",
-          "text": "he was happy"
+          "text": "He said he was happy."
         },
         {
           "id": "c",
-          "text": "he will be happy"
+          "text": "He said he will be happy."
         },
         {
           "id": "d",
-          "text": "he has been happy"
+          "text": "He said he has happy."
         }
       ],
       "correct_answer": "b",
-      "explanation": "Время в придаточном предложении сдвигается назад, поэтому 'am' → 'was'.",
+      "explanation": "При пересказе в прошлой рамке am превращается в was.",
       "theory_block_id": "b1_theory_overview",
       "chapter_id": "en.grammar.reported_speech_meaning_transfer.reported_statements_say_tell",
       "concept_id": "reported_speech_overview",
       "difficulty": 2,
       "id": "q4",
-      "signature": "546a10d4b18b049b"
+      "signature": "75f74b99531ce395"
     },
     {
       "type": "mcq_single",
@@ -155,37 +155,37 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Когда применяется backshift в косвенной речи?",
+      "prompt": "Когда обычно применяется backshift в косвенной речи?",
       "choices": [
         {
           "id": "a",
-          "text": "Всегда"
+          "text": "Когда глагол сообщения стоит в прошедшем и временную точку нужно сдвинуть"
         },
         {
           "id": "b",
-          "text": "Только если исходная речь была в прошедшем времени"
+          "text": "Только если исходная реплика была в Past Simple"
         },
         {
           "id": "c",
-          "text": "Только если исходная речь была в настоящем времени"
+          "text": "Только если исходная реплика была в Present Simple"
         },
         {
           "id": "d",
-          "text": "Никогда"
+          "text": "При любом глаголе сообщения без исключений"
         }
       ],
-      "correct_answer": "b",
-      "explanation": "Backshift применяется, если исходная речь относилась к прошлому.",
+      "correct_answer": "a",
+      "explanation": "Backshift обычно связан с прошедшим reporting verb и сменой временной точки. Он не определяется только временем исходной реплики и имеет исключения.",
       "theory_block_id": "b1_theory_overview",
       "chapter_id": "en.grammar.reported_speech_meaning_transfer.reported_statements_say_tell",
       "concept_id": "reported_speech_overview",
       "difficulty": 3,
       "id": "q6",
-      "signature": "09d9a1ea780650e1"
+      "signature": "296ed91d59231a95"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант правильно использует глагол 'tell'?",
+      "prompt": "Какой вариант правильно использует tell и опускает союз 'that'?",
       "choices": [
         {
           "id": "a",
@@ -205,13 +205,13 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Глагол 'tell' требует прямого дополнения (me), поэтому правильный вариант — 'told me'.",
+      "explanation": "He told me he was late использует tell + object и допустимо опускает that. Вариант b тоже грамматичен, но содержит that.",
       "theory_block_id": "b1_theory_overview",
       "chapter_id": "en.grammar.reported_speech_meaning_transfer.reported_statements_say_tell",
       "concept_id": "reported_speech_overview",
       "difficulty": 2,
       "id": "q7",
-      "signature": "518c571beed78c27"
+      "signature": "a24523407b62e875"
     },
     {
       "type": "mcq_single",
@@ -245,7 +245,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какая распространенная ошибка в косвенной речи?",
+      "prompt": "Какая типичная ошибка связана именно со сдвигом времени в косвенной речи?",
       "choices": [
         {
           "id": "a",
@@ -265,13 +265,13 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Частая ошибка — не применять backshift, когда это необходимо.",
+      "explanation": "Забытый backshift может нарушить выбранную прошлую рамку. Say to someone и that сами по себе не являются ошибками.",
       "theory_block_id": "b1_theory_overview",
       "chapter_id": "en.grammar.reported_speech_meaning_transfer.reported_statements_say_tell",
       "concept_id": "reported_speech_overview",
       "difficulty": 2,
       "id": "q9",
-      "signature": "cd067e02e1cc1d5a"
+      "signature": "6faee5c2498d284b"
     },
     {
       "type": "mcq_single",

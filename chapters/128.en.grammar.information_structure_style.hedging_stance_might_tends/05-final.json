@@ -374,11 +374,11 @@
       {
         "id": "q4",
         "type": "true_false",
-        "prompt": "Might звучит более осторожно, чем may.",
+        "prompt": "Утверждение: в некоторых контекстах *might* может звучать осторожнее, чем *may*.",
         "theory_block_id": "b1_theory_modals",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Да, might обычно выражает меньшую степень уверенности."
+        "explanation": "*May* и *might* часто взаимозаменяемы, но *might* иногда передаёт более осторожную или отдалённую возможность. Это не универсальная шкала вероятности."
       },
       {
         "id": "q5",
@@ -523,7 +523,7 @@
       {
         "id": "q13",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"The data ___ to be inconsistent.\"",
+        "prompt": "Выберите правильный вариант: “The dataset ___ to be inconsistent.”",
         "theory_block_id": "b2_theory_lexical_verbs",
         "difficulty": 2,
         "choices": [
@@ -549,7 +549,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Seem в Present Simple согласуется с data как с единым целым: seems to be."
+        "explanation": "С подлежащим *the dataset* в Present Simple используется форма третьего лица: *seems to be*."
       },
       {
         "id": "q14",
@@ -759,8 +759,8 @@
           },
           {
             "id": "c",
-            "text": "It possibly is too expensive.",
-            "feedback": "Возможно, но менее естественно."
+            "text": "It is possibility too expensive.",
+            "feedback": "Нужна форма наречия *possibly*."
           },
           {
             "id": "d",
@@ -956,8 +956,8 @@
           },
           {
             "id": "b",
-            "text": "It is likely sales will drop.",
-            "feedback": "Нужен that."
+            "text": "It is likely for sales will drop.",
+            "feedback": "Неверная структура: перед придаточным нужен *that*."
           },
           {
             "id": "c",
@@ -1065,8 +1065,8 @@
           },
           {
             "id": "b",
-            "text": "possible",
-            "feedback": "Возможно, но менее подходящее здесь."
+            "text": "possibility",
+            "feedback": "Нужна форма прилагательного, а не существительного."
           },
           {
             "id": "c",
@@ -1140,7 +1140,7 @@
         "choices": [
           {
             "id": "a",
-            "text": "The data clearly proves the claim.",
+            "text": "The evidence clearly proves the claim.",
             "feedback": "Слишком категорично для hedging."
           },
           {
@@ -1160,7 +1160,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Seem to support — аккуратная формулировка, без категоричности."
+        "explanation": "*Seems to support* представляет связь как осторожный вывод. *Clearly proves* и *must support* делают её категоричной, а вариант с *is definitely the claim* грамматически неверен."
       },
       {
         "id": "q52",
@@ -1274,7 +1274,7 @@
       {
         "id": "q59",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"It ___ unwise to ignore the warning.\"",
+        "prompt": "Выберите наиболее мягкую оценку: “It ___ unwise to ignore the warning.”",
         "theory_block_id": "b5_theory_style_limits",
         "difficulty": 2,
         "choices": [
@@ -1300,7 +1300,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Would be выражает мягкую оценку и снижает категоричность."
+        "explanation": "*Would be unwise* смягчает рекомендацию. *Is unwise* грамматически верно, но звучит прямее; *must* и *will* выражают другие оттенки."
       },
       {
         "id": "q60",
@@ -1375,7 +1375,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:27Z",
+    "updated_at": "2026-09-05T23:33:34Z",
     "source": "llm"
   }
 }

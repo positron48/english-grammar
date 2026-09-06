@@ -423,7 +423,7 @@
       {
         "id": "q12",
         "type": "mcq_single",
-        "prompt": "Выберите правильное продолжение: If the client agrees, we ___.",
+        "prompt": "Выберите результат будущего решения: If the client agrees today, we ___ tomorrow.",
         "theory_block_id": "b1_theory_meaning",
         "difficulty": 2,
         "choices": [
@@ -445,7 +445,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "В главной части для будущего результата нужно will.",
+        "explanation": "Will sign передаёт будущий результат условия. Present Simple мог бы описывать регулярную процедуру, но не заданное решение на завтра.",
         "tags": []
       },
       {
@@ -479,11 +479,11 @@
       {
         "id": "q14",
         "type": "true_false",
-        "prompt": "В if-части first conditional можно использовать will.",
+        "prompt": "В обычном прогнозе first conditional будущее will не ставят в if-части.",
         "theory_block_id": "b2_theory_form",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "Will не используется в if-части.",
+        "explanation": "Да: If it rains, we will stay home. Will возможен в if-части с особыми значениями, например готовности, поэтому правило относится к обычному прогнозу.",
         "tags": []
       },
       {
@@ -575,7 +575,7 @@
       {
         "id": "q20",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: If the file is ready, I ___ it to you.",
+        "prompt": "Решение будет принято после готовности файла: If the file is ready, I ___ it to you.",
         "theory_block_id": "b2_theory_form",
         "difficulty": 2,
         "choices": [
@@ -597,7 +597,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Результат в будущем: will + V1.",
+        "explanation": "Will send выражает результат условия. Am sending возможно как заранее организованный план, но такой контекст не задан.",
         "tags": []
       },
       {
@@ -645,7 +645,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Will нельзя ставить в if-части.",
+        "explanation": "В обычном прогнозе после if используется Present Simple: If we leave early.... Will в if-части возможно лишь в специальных значениях, которых здесь нет.",
         "tags": []
       },
       {
@@ -1193,7 +1193,7 @@
       {
         "id": "q56",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If you add sugar, it will dissolve.\"",
+        "prompt": "Перепишите как общее правило растворения: \"If you add sugar, it will dissolve.\"",
         "theory_block_id": "b5_theory_first_vs_zero",
         "difficulty": 2,
         "choices": [
@@ -1215,7 +1215,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Факт требует zero conditional: Present Simple.",
+        "explanation": "Для общего правила выбирают zero conditional: If you add sugar, it dissolves. Исходная фраза грамматична как прогноз конкретного опыта.",
         "tags": []
       },
       {
@@ -1342,7 +1342,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:49:03Z",
+    "updated_at": "2026-09-05T21:18:34Z",
     "source": "llm"
   }
 }

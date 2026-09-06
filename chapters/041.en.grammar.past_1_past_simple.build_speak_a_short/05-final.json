@@ -252,16 +252,16 @@
       {
         "id": "q2",
         "type": "true_false",
-        "prompt": "Короткий рассказ должен иметь начало, середину и конец.",
+        "prompt": "План «контекст → основные события → итог» помогает построить понятный короткий рассказ.",
         "theory_block_id": "b1_theory_story_structure",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Да, базовая структура помогает сделать историю понятной."
+        "explanation": "Контекст знакомит со временем, местом и участниками; основные события развивают рассказ, итог его завершает. Это удобный план, а не обязательная форма любой истории."
       },
       {
         "id": "q3",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"Last summer, we ___ to the lake.\" (ехать)",
+        "prompt": "Заполните пропуск формой Past Simple: «Last summer, we ___ to the lake.» (go)",
         "theory_block_id": "b1_theory_story_structure",
         "difficulty": 2,
         "correct_answer": "went",
@@ -270,28 +270,28 @@
       {
         "id": "q5",
         "type": "mcq_single",
-        "prompt": "Какой вариант лучше подходит для завершения истории?",
+        "prompt": "Какое предложение подводит итог истории и сообщает о чувстве гордости?",
         "theory_block_id": "b1_theory_story_structure",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "In the end, we felt proud.",
-            "feedback": "Да, это логичный итог"
+            "feedback": "Предложение сообщает итог: в конце мы чувствовали гордость."
           },
           {
             "id": "b",
             "text": "Yesterday morning, I woke up.",
-            "feedback": "Это начало, не конец"
+            "feedback": "Здесь сказано о пробуждении вчера утром, а не о чувстве гордости."
           },
           {
             "id": "c",
             "text": "Then we left.",
-            "feedback": "Это середина"
+            "feedback": "Здесь сказано, что затем мы ушли; чувство гордости не названо."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Фразы типа In the end хорошо подходят для финала."
+        "explanation": "In the end вводит итог, а felt proud означает «чувствовали гордость». Тогда как then we left сообщает о следующем действии."
       },
       {
         "id": "q6",
@@ -306,33 +306,33 @@
       {
         "id": "q7",
         "type": "mcq_single",
-        "prompt": "Что лучше описывает середину истории?",
+        "prompt": "Какое предложение перечисляет три действия участников поездки?",
         "theory_block_id": "b1_theory_story_structure",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "We arrived, checked in, and explored the city.",
-            "feedback": "Да, это ключевые действия"
+            "feedback": "Перечислены прибытие, заселение и осмотр города."
           },
           {
             "id": "b",
             "text": "One day, I decided to go.",
-            "feedback": "Это похоже на начало"
+            "feedback": "Здесь названо решение поехать, а не три действия участников."
           },
           {
             "id": "c",
             "text": "It was a day to remember.",
-            "feedback": "Это завершение"
+            "feedback": "Это оценка дня, а не последовательность трёх действий."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Середина истории описывает основные события и действия."
+        "explanation": "Arrived, checked in и explored называют три действия. Такая последовательность может составить основную часть рассказа."
       },
       {
         "id": "q8",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"At the end, we ___ tired but happy.\" (be)",
+        "prompt": "Заполните пропуск формой Past Simple: «At the end, we ___ tired but happy.» (be)",
         "theory_block_id": "b1_theory_story_structure",
         "difficulty": 2,
         "correct_answer": "were",
@@ -376,25 +376,25 @@
       {
         "id": "q12",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"We had lunch, and ___ we went for a walk.\" (потом)",
+        "prompt": "Выберите then или than и заполните пропуск: «We had lunch, and ___ we went for a walk.» (потом)",
         "theory_block_id": "b2_theory_time_sequence",
         "difficulty": 2,
         "correct_answer": "then",
-        "explanation": "Then показывает следующий шаг в истории."
+        "explanation": "Then означает «потом» и связывает события по порядку. Than используется при сравнении."
       },
       {
         "id": "q13",
         "type": "true_false",
-        "prompt": "Finally обычно используется для завершения истории.",
+        "prompt": "В рассказе finally может вводить последнее событие в цепочке действий.",
         "theory_block_id": "b2_theory_time_sequence",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Finally обычно стоит перед последним событием."
+        "explanation": "Например: We had dinner. Finally, we went home. Здесь finally вводит последнее из перечисленных действий."
       },
       {
         "id": "q15",
         "type": "mcq_single",
-        "prompt": "Какое слово лучше всего вводит событие в прошлом?",
+        "prompt": "Какое выражение означает «однажды» и может начать рассказ о прошлом?",
         "theory_block_id": "b2_theory_time_sequence",
         "difficulty": 1,
         "choices": [
@@ -429,7 +429,7 @@
       {
         "id": "q17",
         "type": "mcq_single",
-        "prompt": "Что лучше завершает цепочку событий?",
+        "prompt": "Какое слово может вводить последнее действие в последовательности со значением «наконец»?",
         "theory_block_id": "b2_theory_time_sequence",
         "difficulty": 1,
         "choices": [
@@ -450,7 +450,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Finally показывает, что это последняя часть истории."
+        "explanation": "Finally может вводить последнее действие в последовательности. Because вводит причину, while — например, одновременное действие."
       },
       {
         "id": "q18",
@@ -474,7 +474,7 @@
       {
         "id": "q20",
         "type": "mcq_single",
-        "prompt": "Какой вариант лучше связывает две части истории?",
+        "prompt": "Какой вариант связывает события по времени со значением «позже»?",
         "theory_block_id": "b2_theory_time_sequence",
         "difficulty": 2,
         "choices": [
@@ -521,12 +521,12 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Past Simple требует V2: find → found."
+        "explanation": "В этом утверждении Past Simple используется прошедшая форма find — found: She found the ticket."
       },
       {
         "id": "q23",
         "type": "true_false",
-        "prompt": "В отрицании Past Simple основной глагол стоит в V1.",
+        "prompt": "После didn’t в отрицании Past Simple смысловой глагол стоит в базовой форме (V1).",
         "theory_block_id": "b3_theory_past_simple_accuracy",
         "difficulty": 1,
         "correct_answer": "true",
@@ -542,17 +542,17 @@
           {
             "id": "a",
             "text": "Did you see the movie?",
-            "feedback": "Да, did + V1"
+            "feedback": "Вопрос образован с did, после него нужна форма see."
           },
           {
             "id": "b",
             "text": "Did you saw the movie?",
-            "feedback": "Неверно: после did нужен V1"
+            "feedback": "После did нужна базовая форма see, не saw."
           },
           {
             "id": "c",
             "text": "Do you saw the movie?",
-            "feedback": "Неверно: это Present Simple"
+            "feedback": "Do не сочетается с прошедшей формой saw; для этого вопроса нужно Did you see...?"
           }
         ],
         "correct_answer": "a",
@@ -561,7 +561,7 @@
       {
         "id": "q26",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"She ___ the door and left.\" (close)",
+        "prompt": "Заполните пропуск формой Past Simple: «She ___ the door and left.» (close)",
         "theory_block_id": "b3_theory_past_simple_accuracy",
         "difficulty": 2,
         "correct_answer": "closed",
@@ -570,11 +570,11 @@
       {
         "id": "q27",
         "type": "true_false",
-        "prompt": "Вопросы в Past Simple строятся без did.",
+        "prompt": "В обычном вопросе «Ты видел фильм?» в Past Simple можно сказать «Saw you the movie?» без did.",
         "theory_block_id": "b3_theory_past_simple_accuracy",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "Did обязателен для вопросов в Past Simple."
+        "explanation": "Обычный вопрос здесь строится так: Did you see the movie? Однако did нужно не во всех вопросах Past Simple: например, Was she there? и Who called? строятся иначе."
       },
       {
         "id": "q29",
@@ -600,7 +600,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Past Simple требует V2: arrive → arrived."
+        "explanation": "В этом утверждении используется прошедшая форма arrive — arrived: We arrived late."
       },
       {
         "id": "q30",
@@ -615,37 +615,37 @@
       {
         "id": "q32",
         "type": "true_false",
-        "prompt": "Смешивание утверждений, отрицаний и вопросов делает историю менее естественной.",
+        "prompt": "В рассказе о прошлом грамматически запрещено сочетать утверждения, отрицания и вопросы.",
         "theory_block_id": "b4_theory_story_variety",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "Наоборот, разные типы предложений делают рассказ живее и естественнее."
+        "explanation": "В рассказе можно использовать разные типы предложений, если они подходят по смыслу. Само чередование не гарантирует, что история станет лучше."
       },
       {
         "id": "q35",
         "type": "mcq_single",
-        "prompt": "Какой вариант делает историю более живой?",
+        "prompt": "Какой вариант задаёт вопрос «Мы выбрали правильное место?»?",
         "theory_block_id": "b4_theory_story_variety",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "Did we choose the right place?",
-            "feedback": "Да, вопрос оживляет рассказ"
+            "feedback": "Это вопрос в Past Simple: did + подлежащее + choose."
           },
           {
             "id": "b",
             "text": "We chose the right place.",
-            "feedback": "Это утверждение"
+            "feedback": "Это утверждение, а не вопрос."
           },
           {
             "id": "c",
             "text": "We choose the right place.",
-            "feedback": "Неверное время"
+            "feedback": "Это утверждение в Present Simple."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Вопросы создают интригу и делают рассказ живым."
+        "explanation": "Did we choose the right place? можно включить в рассказ, чтобы передать сомнение участников."
       },
       {
         "id": "q36",
@@ -660,37 +660,37 @@
       {
         "id": "q37",
         "type": "true_false",
-        "prompt": "В рассказе можно использовать только утвердительные предложения.",
+        "prompt": "В рассказе о прошлом допустимы только утверждения; отрицания и вопросы использовать нельзя.",
         "theory_block_id": "b4_theory_story_variety",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "История звучит живее, если есть отрицания и вопросы."
+        "explanation": "В рассказ можно включать и отрицания, и вопросы, когда они уместны. Не обязательно использовать все типы предложений в каждом рассказе."
       },
       {
         "id": "q40",
         "type": "mcq_single",
-        "prompt": "Какой вариант завершает историю логично?",
+        "prompt": "Какой итог сообщает, что в конце мы почувствовали облегчение?",
         "theory_block_id": "b5_theory_closing",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "In the end, we felt relieved.",
-            "feedback": "Да, это итог"
+            "feedback": "Felt relieved означает «почувствовали облегчение»."
           },
           {
             "id": "b",
             "text": "Then we left the house.",
-            "feedback": "Это не финал"
+            "feedback": "Здесь сказано, что затем мы вышли из дома."
           },
           {
             "id": "c",
             "text": "Yesterday, we woke up.",
-            "feedback": "Это начало истории"
+            "feedback": "Здесь сказано, что вчера мы проснулись."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Фраза In the end показывает итог, поэтому подходит для финала."
+        "explanation": "In the end вводит итог, felt relieved передаёт чувство облегчения."
       },
       {
         "id": "q41",
@@ -704,7 +704,7 @@
       {
         "id": "q42",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"In the end, we ___ home safely.\" (arrive)",
+        "prompt": "Заполните пропуск формой Past Simple: «In the end, we ___ home safely.» (arrive)",
         "theory_block_id": "b5_theory_closing",
         "difficulty": 2,
         "correct_answer": "arrived",
@@ -723,28 +723,28 @@
       {
         "id": "q45",
         "type": "mcq_single",
-        "prompt": "Какой вариант звучит как финальный итог?",
+        "prompt": "Какой итог означает «Это был незабываемый день»?",
         "theory_block_id": "b5_theory_closing",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "It was a day to remember.",
-            "feedback": "Да, это завершение"
+            "feedback": "Это оценка дня как запоминающегося."
           },
           {
             "id": "b",
             "text": "Then we left the house.",
-            "feedback": "Это продолжение событий"
+            "feedback": "Здесь сказано о выходе из дома."
           },
           {
             "id": "c",
             "text": "One day, we left the house.",
-            "feedback": "Это начало истории"
+            "feedback": "Здесь сказано, что однажды мы вышли из дома."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Фраза It was a day to remember подводит итог истории."
+        "explanation": "A day to remember — день, который запомнится. Такой оценкой можно завершить рассказ."
       },
       {
         "id": "q46",
@@ -758,7 +758,7 @@
       {
         "id": "q50",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"At the end, we ___ home.\" (come)",
+        "prompt": "Заполните пропуск формой Past Simple: «At the end, we ___ home.» (come)",
         "theory_block_id": "b1_theory_story_structure",
         "difficulty": 2,
         "correct_answer": "came",
@@ -767,7 +767,7 @@
       {
         "id": "q53",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"Did you ___ the message?\" (видеть)",
+        "prompt": "Заполните пропуск базовой формой указанного глагола: «Did you ___ the message?» (saw)",
         "theory_block_id": "b3_theory_past_simple_accuracy",
         "difficulty": 2,
         "correct_answer": "see",
@@ -783,17 +783,17 @@
           {
             "id": "a",
             "text": "We didn't know the answer.",
-            "feedback": "Верно: didn't + V1"
+            "feedback": "После didn’t нужна базовая форма know."
           },
           {
             "id": "b",
             "text": "We didn't knew the answer.",
-            "feedback": "Неверно: knew это V2"
+            "feedback": "После didn’t нужна форма know, не knew."
           },
           {
             "id": "c",
             "text": "We don't knew the answer.",
-            "feedback": "Неверно: не то время"
+            "feedback": "Don’t не сочетается с knew; для этого отрицания нужно didn’t know."
           }
         ],
         "correct_answer": "a",
@@ -811,7 +811,7 @@
       {
         "id": "q58",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"In the end, it ___ worth it.\" (be)",
+        "prompt": "Заполните пропуск формой Past Simple: «In the end, it ___ worth it.» (be)",
         "theory_block_id": "b5_theory_closing",
         "difficulty": 2,
         "correct_answer": "was",
@@ -820,28 +820,28 @@
       {
         "id": "q59",
         "type": "mcq_single",
-        "prompt": "Какое предложение звучит как итог истории?",
+        "prompt": "Какой итог сообщает, что в конце концов всё получилось?",
         "theory_block_id": "b5_theory_closing",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "In the end, everything worked out.",
-            "feedback": "Да, это финальный итог"
+            "feedback": "Everything worked out означает «всё получилось»."
           },
           {
             "id": "b",
             "text": "Then we opened the door.",
-            "feedback": "Это продолжение событий"
+            "feedback": "Сообщается об открытии двери, без оценки результата."
           },
           {
             "id": "c",
             "text": "One day, we left home.",
-            "feedback": "Это начало истории"
+            "feedback": "Сообщается об уходе из дома однажды, без оценки результата."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Фраза In the end подводит итог истории."
+        "explanation": "In the end вводит итог, а everything worked out сообщает, что всё закончилось успешно."
       }
     ]
   },
@@ -891,7 +891,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:19Z",
+    "updated_at": "2026-09-04T17:59:22Z",
     "source": "llm"
   }
 }

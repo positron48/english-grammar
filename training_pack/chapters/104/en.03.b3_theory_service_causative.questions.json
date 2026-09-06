@@ -35,7 +35,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Выберите правильное завершение предложения: 'We need to ___ the documents translated.'",
+      "prompt": "Завершите предложение именно через have-causative: We need to ___ the documents translated.",
       "choices": [
         {
           "id": "a",
@@ -55,13 +55,13 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Правильная структура: have + объект + причастие прошедшего времени (translated).",
+      "explanation": "В модели have something done используется have. Get the documents translated тоже возможно, но это get-causative.",
       "theory_block_id": "b3_theory_service_causative",
       "chapter_id": "en.grammar.voice_focus_passive_and.build_write_news_processes",
       "concept_id": "service_causative_usage",
       "difficulty": 2,
       "id": "q2",
-      "signature": "baa9813974dbe973"
+      "signature": "6f83177fef40e419"
     },
     {
       "type": "mcq_single",
@@ -99,33 +99,33 @@
       "choices": [
         {
           "id": "a",
-          "text": "She has her car cleaned."
+          "text": "She had her car cleaned."
         },
         {
           "id": "b",
-          "text": "She has her car to clean."
+          "text": "She had her car to clean."
         },
         {
           "id": "c",
-          "text": "She has her car cleaning."
+          "text": "She had her car cleaning."
         },
         {
           "id": "d",
-          "text": "She has her car cleans."
+          "text": "She had her car cleans."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Правильная структура: have + объект + причастие прошедшего времени (cleaned).",
+      "explanation": "Разовая заказанная услуга в прошлом: She had her car cleaned.",
       "theory_block_id": "b3_theory_service_causative",
       "chapter_id": "en.grammar.voice_focus_passive_and.build_write_news_processes",
       "concept_id": "service_causative_usage",
       "difficulty": 2,
       "id": "q4",
-      "signature": "9b3779e26cf58fa1"
+      "signature": "600b897fdd4a03b9"
     },
     {
       "type": "mcq_single",
-      "prompt": "Выберите правильный вариант: 'We ___ the roof fixed last week.'",
+      "prompt": "Выберите прошедшую форму get-causative: We ___ the roof fixed last week.",
       "choices": [
         {
           "id": "a",
@@ -145,17 +145,17 @@
         }
       ],
       "correct_answer": "d",
-      "explanation": "Правильная форма прошедшего времени: 'got' (past tense of get) для описания действия в прошлом.",
+      "explanation": "Прошедшая форма get-causative — got. Had the roof fixed тоже грамматично, но это have-causative.",
       "theory_block_id": "b3_theory_service_causative",
       "chapter_id": "en.grammar.voice_focus_passive_and.build_write_news_processes",
       "concept_id": "service_causative_usage",
       "difficulty": 3,
       "id": "q5",
-      "signature": "a946a052c5f4dfd0"
+      "signature": "79e62f09b24e3278"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант не соответствует структуре каузатива?",
+      "prompt": "В каком варианте после has ошибочно стоит to-infinitive вместо V3?",
       "choices": [
         {
           "id": "a",
@@ -171,13 +171,13 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Ошибка: используется инфинитив 'to wash', а должно быть причастие 'washed'.",
+      "explanation": "He has his car to wash содержит to-infinitive; в causative have something done нужна форма washed.",
       "theory_block_id": "b3_theory_service_causative",
       "chapter_id": "en.grammar.voice_focus_passive_and.build_write_news_processes",
       "concept_id": "service_causative_usage",
       "difficulty": 2,
       "id": "q6",
-      "signature": "5b790947983c45b7"
+      "signature": "aca5ca23622d8971"
     },
     {
       "type": "mcq_single",
@@ -185,29 +185,29 @@
       "choices": [
         {
           "id": "a",
-          "text": "They have their house repaired."
+          "text": "They had their house repaired."
         },
         {
           "id": "b",
-          "text": "They have their house to repair."
+          "text": "They had their house to repair."
         },
         {
           "id": "c",
-          "text": "They have their house repairing."
+          "text": "They had their house repairing."
         },
         {
           "id": "d",
-          "text": "They have their house repairs."
+          "text": "They had their house repairs."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Каузативная структура требует причастия прошедшего времени (repaired).",
+      "explanation": "Разовая заказанная услуга в прошлом: They had their house repaired.",
       "theory_block_id": "b3_theory_service_causative",
       "chapter_id": "en.grammar.voice_focus_passive_and.build_write_news_processes",
       "concept_id": "service_causative_usage",
       "difficulty": 2,
       "id": "q7",
-      "signature": "86cad5fd396a5d3a"
+      "signature": "ead1e13d95ca39b7"
     },
     {
       "type": "mcq_single",
@@ -241,7 +241,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Выберите правильное завершение: 'You can ___ your phone repaired at the store.'",
+      "prompt": "Завершите предложение именно через have-causative: You can ___ your phone repaired at the store.",
       "choices": [
         {
           "id": "a",
@@ -261,13 +261,13 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Стандартная каузативная структура 'have something done' для описания услуг.",
+      "explanation": "Have your phone repaired — заданная have-causative модель. Get your phone repaired тоже грамматично, но это get-causative.",
       "theory_block_id": "b3_theory_service_causative",
       "chapter_id": "en.grammar.voice_focus_passive_and.build_write_news_processes",
       "concept_id": "service_causative_usage",
       "difficulty": 2,
       "id": "q9",
-      "signature": "b05c7804d16fa438"
+      "signature": "d5cd80b72e371902"
     },
     {
       "type": "mcq_single",

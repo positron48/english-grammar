@@ -402,7 +402,7 @@
       {
         "id": "q8",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: «Every bus and train ___ delayed today.»",
+        "prompt": "Выберите правильный вариант: «Every bus and every train ___ delayed today.»",
         "theory_block_id": "b1_each_every",
         "difficulty": 3,
         "choices": [
@@ -416,7 +416,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Every относится к каждому элементу, поэтому глагол единственного числа. Несмотря на два существительных, согласование идет как с единственным."
+        "explanation": "Повторённое every рассматривает каждый автобус и каждый поезд отдельно, поэтому используется is."
       },
       {
         "id": "q9",
@@ -573,7 +573,7 @@
           },
           {
             "id": "c",
-            "text": "My luggage is not here."
+            "text": "None of my luggages is here."
           }
         ],
         "correct_answer": "a",
@@ -721,7 +721,7 @@
           },
           {
             "id": "c",
-            "text": "People are angry about the decision."
+            "text": "The people am angry about the decision."
           }
         ],
         "correct_answer": "a",
@@ -818,7 +818,7 @@
           },
           {
             "id": "c",
-            "text": "Physics were difficult for me."
+            "text": "Physics were difficults for me."
           }
         ],
         "correct_answer": "a",
@@ -846,11 +846,11 @@
       {
         "id": "q42",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: «Politics ___ complicated.» (be)",
+        "prompt": "Заполните пропуск, если politics означает область знаний: «Politics ___ complicated.» (be)",
         "theory_block_id": "b4_singular_ending_s",
         "difficulty": 2,
         "correct_answer": "is",
-        "explanation": "Politics в значении предмета/сферы деятельности — единственное число. Поэтому используется is."
+        "explanation": "Politics в значении области знаний согласуется как существительное единственного числа: Politics is complicated."
       },
       {
         "id": "q43",
@@ -878,7 +878,7 @@
           },
           {
             "id": "c",
-            "text": "The course teaches economics."
+            "text": "The course teach economics."
           }
         ],
         "correct_answer": "a",
@@ -975,7 +975,7 @@
           },
           {
             "id": "c",
-            "text": "Glasses are on the table."
+            "text": "A pair of glasses be on the table."
           }
         ],
         "correct_answer": "a",
@@ -1012,11 +1012,11 @@
       {
         "id": "q55",
         "type": "true_false",
-        "prompt": "Glasses может согласоваться в ед.ч., когда имеется в виду a pair of glasses.",
+        "prompt": "Верно ли: в «A pair of glasses is on the table» глагол стоит в единственном числе, потому что ядро подлежащего — pair?",
         "theory_block_id": "b5_pair_nouns",
         "difficulty": 3,
         "correct_answer": "true",
-        "explanation": "В конструкции a pair of glasses ядро — pair, поэтому глагол в единственном числе."
+        "explanation": "Да. Само существительное glasses остаётся множественным, но всё подлежащее возглавляет единственное pair, поэтому используется is."
       },
       {
         "id": "q58",
@@ -1109,7 +1109,7 @@
           },
           {
             "id": "c",
-            "text": "Applicants are high in number this year."
+            "text": "The number of applicants be high this year."
           }
         ],
         "correct_answer": "a",
@@ -1169,7 +1169,7 @@
           },
           {
             "id": "c",
-            "text": "Thirty percent of the workforce is satisfied."
+            "text": "Thirty percent of the workers are satisfies."
           }
         ],
         "correct_answer": "a",
@@ -1282,7 +1282,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-05-01T08:21:34Z",
+    "updated_at": "2026-09-04T21:30:56Z",
     "source": "llm"
   }
 }

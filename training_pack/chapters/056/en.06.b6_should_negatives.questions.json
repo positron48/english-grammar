@@ -155,7 +155,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант содержит ошибку в отрицании?",
+      "prompt": "Какой вариант содержит неестественное двойное отрицание, которое следует заменить на You should remember your keys?",
       "choices": [
         {
           "id": "a",
@@ -175,13 +175,13 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Двойное отрицание \"shouldn't not\" неправильно, правильный вариант — \"shouldn't\".",
+      "explanation": "Shouldn’t not forget формально можно разобрать как двойное отрицание, но для положительного совета естественно сказать You should remember your keys. Условие больше не объявляет любое двойное отрицание безусловно неграмматичным.",
       "theory_block_id": "b6_should_negatives",
       "chapter_id": "en.grammar.core_modality_ability_permission.should_advice_expectation",
       "concept_id": "should_not_advice",
       "difficulty": 2,
       "id": "q6",
-      "signature": "0661cdbaa396c353"
+      "signature": "8be79022d03bfe21"
     },
     {
       "type": "mcq_single",

@@ -413,28 +413,28 @@
       {
         "id": "q1",
         "type": "mcq_single",
-        "prompt": "Что такое object pronouns?",
+        "prompt": "Какую роль выполняет объектное местоимение me в **She helps me**?",
         "theory_block_id": "b1_theory_what_are_object_pronouns",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "Местоимения, которые используются после глаголов и предлогов",
-            "feedback": "Правильно! Object pronouns используются в позиции объекта"
+            "text": "Дополнение: указывает, кому она помогает",
+            "feedback": "Me — дополнение глагола helps."
           },
           {
             "id": "b",
-            "text": "Местоимения, которые используются перед глаголами",
-            "feedback": "Нет, перед глаголами используются subject pronouns (I, he, she)"
+            "text": "Подлежащее: указывает, кто помогает",
+            "feedback": "Подлежащее здесь she, а me обозначает получателя помощи."
           },
           {
             "id": "c",
-            "text": "Местоимения, которые используются только в вопросах",
-            "feedback": "Нет, object pronouns используются в утверждениях, вопросах и отрицаниях"
+            "text": "Притяжательное слово: указывает на владельца",
+            "feedback": "Me не выражает принадлежность."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Object pronouns (me, you, him, her, it, us, them) — это местоимения, которые используются после глаголов и предлогов в позиции объекта. Они отвечают на вопросы \"кого?\", \"чего?\", \"кому?\".",
+        "explanation": "Объектное местоимение me выполняет функцию дополнения. Форма выбирается по роли в предложении, а не только по позиции до или после глагола.",
         "tags": [
           "basics"
         ]
@@ -677,28 +677,28 @@
       {
         "id": "q13",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"I like ___ very much.\"",
+        "prompt": "Вставьте местоимение, обозначающее мужчину: **I like ___ very much.** — «Он мне очень нравится».",
         "theory_block_id": "b3_theory_after_verbs",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "he",
-            "feedback": "Нет, после глагола like нужен object pronoun (him), а не subject pronoun (he)"
+            "feedback": "He — форма подлежащего; здесь нужно дополнение."
           },
           {
             "id": "b",
             "text": "him",
-            "feedback": "Правильно! После глагола like нужен object pronoun him"
+            "feedback": "Him обозначает мужчину как дополнение like."
           },
           {
             "id": "c",
             "text": "his",
-            "feedback": "Нет, his — это притяжательное местоимение. Здесь нужен object pronoun him"
+            "feedback": "His означает «его» в смысле принадлежности; здесь речь о самом мужчине."
           }
         ],
         "correct_answer": "b",
-        "explanation": "После глагола like нужен object pronoun. \"Его\" = him. Правильно: I like him very much.",
+        "explanation": "Him относится к мужчине: I like him very much. His могло бы заменять принадлежащий ему предмет, но не его самого.",
         "tags": [
           "after_verbs"
         ]
@@ -710,7 +710,7 @@
         "theory_block_id": "b3_theory_after_verbs",
         "difficulty": 1,
         "correct_answer": "me",
-        "explanation": "После глагола helps нужен object pronoun. \"Меня\" = me. Правильно: She helps me every day.",
+        "explanation": "Me — объектная форма I: She helps me every day — «Она помогает мне каждый день». Me здесь прямое дополнение английского helps, хотя по-русски используется дательный падеж.",
         "tags": [
           "after_verbs"
         ]
@@ -760,7 +760,7 @@
       {
         "id": "q17",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"I give ___ a book.\"",
+        "prompt": "Вставьте местоимение со значением «ей»: **I give ___ a book.**",
         "theory_block_id": "b3_theory_after_verbs",
         "difficulty": 2,
         "choices": [
@@ -815,11 +815,11 @@
       {
         "id": "q21",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"This is ___ her.\" (предлог)",
+        "prompt": "Вставьте объектную форму местоимения: **This is for ___.** (she)",
         "theory_block_id": "b4_theory_after_prepositions",
         "difficulty": 1,
-        "correct_answer": "for",
-        "explanation": "После предлога for нужен object pronoun her. Правильно: This is for her.",
+        "correct_answer": "her",
+        "explanation": "После for используется her — объектная форма she: This is for her.",
         "tags": [
           "after_prepositions"
         ]
@@ -857,24 +857,24 @@
       {
         "id": "q24",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"This letter is ___ him.\"",
+        "prompt": "Выберите выражение «от него», указывающее на самого мужчину: **This letter is ___.**",
         "theory_block_id": "b4_theory_after_prepositions",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "from he",
-            "feedback": "Нет, после предлога from нужен object pronoun (him), а не subject pronoun (he)"
+            "feedback": "После from нужна объектная форма him."
           },
           {
             "id": "b",
             "text": "from him",
-            "feedback": "Правильно! После предлога from нужен object pronoun him"
+            "feedback": "Это выражение означает «от него»."
           },
           {
             "id": "c",
             "text": "from his",
-            "feedback": "Нет, his — это притяжательное местоимение. После предлога нужен object pronoun him"
+            "feedback": "His обозначало бы что-то принадлежащее мужчине; здесь речь о нём самом."
           }
         ],
         "correct_answer": "b",
@@ -886,7 +886,7 @@
       {
         "id": "q27",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"___ likes coffee.\"",
+        "prompt": "Вставьте местоимение со значением «он»: **___ likes coffee.**",
         "theory_block_id": "b5_theory_subject_vs_object",
         "difficulty": 1,
         "choices": [
@@ -915,7 +915,7 @@
       {
         "id": "q28",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I like ___ very much.\" (he)",
+        "prompt": "Вставьте объектную форму местоимения: \"I like ___ very much.\" (he)",
         "theory_block_id": "b5_theory_subject_vs_object",
         "difficulty": 1,
         "correct_answer": "him",
@@ -957,7 +957,7 @@
       {
         "id": "q30",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"___ helps me every day.\"",
+        "prompt": "Вставьте местоимение со значением «она»: **___ helps me every day.**",
         "theory_block_id": "b5_theory_subject_vs_object",
         "difficulty": 1,
         "choices": [
@@ -986,11 +986,11 @@
       {
         "id": "q31",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"She helps ___ with homework.\" (I)",
+        "prompt": "Вставьте объектную форму местоимения: \"She helps ___ with homework.\" (I)",
         "theory_block_id": "b5_theory_subject_vs_object",
         "difficulty": 1,
         "correct_answer": "me",
-        "explanation": "После глагола helps нужен object pronoun. \"Меня\" = me. Правильно: She helps me with homework.",
+        "explanation": "Me — объектная форма I. She helps me with homework — «Она помогает мне с домашним заданием».",
         "tags": [
           "subject_vs_object"
         ]
@@ -1072,7 +1072,7 @@
       {
         "id": "q35",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"This is for ___.\" (she)",
+        "prompt": "Вставьте объектную форму местоимения: \"This is for ___.\" (she)",
         "theory_block_id": "b6_theory_common_mistakes",
         "difficulty": 2,
         "correct_answer": "her",
@@ -1098,7 +1098,7 @@
       {
         "id": "q38",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"She gives ___ a present.\" (we)",
+        "prompt": "Вставьте объектную форму местоимения: \"She gives ___ a present.\" (we)",
         "theory_block_id": "b3_theory_after_verbs",
         "difficulty": 1,
         "correct_answer": "us",
@@ -1139,7 +1139,7 @@
       {
         "id": "q40",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"We know ___ well.\" (she)",
+        "prompt": "Вставьте объектную форму местоимения: \"We know ___ well.\" (she)",
         "theory_block_id": "b3_theory_after_verbs",
         "difficulty": 1,
         "correct_answer": "her",
@@ -1181,7 +1181,7 @@
       {
         "id": "q44",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"___ likes pizza.\"",
+        "prompt": "Вставьте местоимение со значением «она»: **___ likes pizza.**",
         "theory_block_id": "b5_theory_subject_vs_object",
         "difficulty": 1,
         "choices": [
@@ -1210,28 +1210,28 @@
       {
         "id": "q46",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"Me she helps.\"",
+        "prompt": "Переставьте слова в **Me she helps**, чтобы получить обычное утверждение без выделения дополнения. Начните с She.",
         "theory_block_id": "b6_theory_common_mistakes",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "Порядок слов: Me she helps → She helps me",
-            "feedback": "Правильно! Правильный порядок: Subject (She) + Verb (helps) + Object (me)"
+            "feedback": "Это нейтральный порядок: подлежащее, глагол, дополнение."
           },
           {
             "id": "b",
             "text": "Me → I",
-            "feedback": "Нет, me здесь правильное (объект). Ошибка в порядке слов"
+            "feedback": "Me — дополнение helps; замена формы не создаёт нужного порядка."
           },
           {
             "id": "c",
             "text": "helps → help",
-            "feedback": "Нет, helps здесь правильное (she требует helps). Ошибка в порядке слов"
+            "feedback": "Подлежащее she требует helps."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Ошибка в порядке слов. Правильный порядок: Subject (She) + Verb (helps) + Object (me). Правильно: She helps me.",
+        "explanation": "Нейтральный вариант — She helps me. Дополнение иногда выносят в начало для выделения, но здесь требуется обычный порядок.",
         "tags": [
           "mistakes",
           "error",
@@ -1241,24 +1241,24 @@
       {
         "id": "q47",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"I like ___ very much.\"",
+        "prompt": "Вставьте местоимение, обозначающее саму женщину: **I like ___ very much.** — «Она мне очень нравится».",
         "theory_block_id": "b3_theory_after_verbs",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "she",
-            "feedback": "Нет, после глагола like нужен object pronoun (her), а не subject pronoun (she)"
+            "feedback": "She — форма подлежащего; здесь нужно дополнение."
           },
           {
             "id": "b",
             "text": "her",
-            "feedback": "Правильно! После глагола like нужен object pronoun her"
+            "feedback": "Her обозначает женщину как дополнение like."
           },
           {
             "id": "c",
             "text": "hers",
-            "feedback": "Нет, hers — это притяжательное местоимение в абсолютной форме. Здесь нужен object pronoun her"
+            "feedback": "Hers обозначало бы что-то принадлежащее женщине, а не её саму."
           }
         ],
         "correct_answer": "b",
@@ -1270,7 +1270,7 @@
       {
         "id": "q48",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"He calls ___ every evening.\" (she)",
+        "prompt": "Вставьте объектную форму местоимения: \"He calls ___ every evening.\" (she)",
         "theory_block_id": "b3_theory_after_verbs",
         "difficulty": 1,
         "correct_answer": "her",
@@ -1353,7 +1353,7 @@
       {
         "id": "q56",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"We know ___ very well.\" (he)",
+        "prompt": "Вставьте объектную форму местоимения: **We know ___ very well.** (he)",
         "theory_block_id": "b3_theory_after_verbs",
         "difficulty": 1,
         "correct_answer": "him",
@@ -1365,28 +1365,28 @@
       {
         "id": "q59",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"Us they help.\"",
+        "prompt": "Переставьте слова в **Us they help**, чтобы получить обычное утверждение без выделения дополнения. Начните с They.",
         "theory_block_id": "b6_theory_common_mistakes",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "Порядок слов: Us they help → They help us",
-            "feedback": "Правильно! Правильный порядок: Subject (They) + Verb (help) + Object (us)"
+            "feedback": "Это нейтральный порядок: подлежащее, глагол, дополнение."
           },
           {
             "id": "b",
             "text": "Us → We",
-            "feedback": "Нет, us здесь правильное (объект). Ошибка в порядке слов"
+            "feedback": "Us — дополнение help; нужна перестановка, а не замена формы."
           },
           {
             "id": "c",
             "text": "help → helps",
-            "feedback": "Нет, help здесь правильное (they требует help, а не helps). Ошибка в порядке слов"
+            "feedback": "They согласуется с help; замена не создаёт нужного порядка."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Ошибка в порядке слов. Правильный порядок: Subject (They) + Verb (help) + Object (us). Правильно: They help us.",
+        "explanation": "They help us — нейтральный порядок слов. Вынос us в начало возможен при выделении, но здесь требуется обычное утверждение.",
         "tags": [
           "mistakes",
           "error",
@@ -1460,7 +1460,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:16Z",
+    "updated_at": "2026-09-04T13:18:01Z",
     "source": "llm"
   }
 }

@@ -681,7 +681,7 @@
       {
         "id": "q15",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"She ___ tired after work.\"",
+        "prompt": "Заполните пропуск в Past Simple: She ___ tired after work.",
         "theory_block_id": "b2_theory_was_were_pronouns",
         "difficulty": 1,
         "choices": [
@@ -737,7 +737,7 @@
       {
         "id": "q18",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"We ___ friends in school.\" (be)",
+        "prompt": "Заполните пропуск в Past Simple: We ___ friends in school. (be)",
         "theory_block_id": "b2_theory_was_were_pronouns",
         "difficulty": 1,
         "correct_answer": "were",
@@ -867,7 +867,7 @@
       {
         "id": "q25",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант вопроса:",
+        "prompt": "Выберите обычный общий вопрос в Past Simple с подлежащим he: поставьте глагол перед подлежащим.",
         "theory_block_id": "b3_theory_was_were_questions",
         "difficulty": 1,
         "choices": [
@@ -879,7 +879,7 @@
           {
             "id": "b",
             "text": "He was at home?",
-            "feedback": "Нет, в вопросах was стоит перед подлежащим"
+            "feedback": "Так можно переспросить в разговоре, но здесь требуется обычный вопрос с глаголом перед подлежащим."
           },
           {
             "id": "c",
@@ -897,14 +897,14 @@
       {
         "id": "q26",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант вопроса:",
+        "prompt": "Выберите обычный общий вопрос в Past Simple с подлежащим they: поставьте глагол перед подлежащим.",
         "theory_block_id": "b3_theory_was_were_questions",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "They were at home?",
-            "feedback": "Нет, в вопросах were стоит перед подлежащим"
+            "feedback": "Так можно переспросить в разговоре, но здесь требуется обычный вопрос с глаголом перед подлежащим."
           },
           {
             "id": "b",
@@ -953,7 +953,7 @@
       {
         "id": "q29",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант вопроса:",
+        "prompt": "Выберите обычный общий вопрос в Past Simple с подлежащим I: поставьте глагол перед подлежащим.",
         "theory_block_id": "b3_theory_was_were_questions",
         "difficulty": 2,
         "choices": [
@@ -970,7 +970,7 @@
           {
             "id": "c",
             "text": "I was right?",
-            "feedback": "Нет, в вопросах was стоит перед подлежащим"
+            "feedback": "Так можно переспросить в разговоре, но здесь требуется обычный вопрос с глаголом перед подлежащим."
           }
         ],
         "correct_answer": "b",
@@ -1013,24 +1013,24 @@
       {
         "id": "q31",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в вопросе: \"Was they at home?\"",
+        "prompt": "Исправьте форму be, сохранив подлежащее they: \"Was they at home?\"",
         "theory_block_id": "b3_theory_was_were_questions",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "Was → Were",
-            "feedback": "Правильно! С they используется were"
+            "feedback": "Верно: с they нужна форма were."
           },
           {
             "id": "b",
             "text": "they → he",
-            "feedback": "Нет, ошибка в форме глагола"
+            "feedback": "Получится другой правильный вопрос, но по условию нужно сохранить they."
           },
           {
             "id": "c",
             "text": "at → in",
-            "feedback": "Нет, ошибка в форме глагола"
+            "feedback": "Это не исправляет несогласованную форму was."
           }
         ],
         "correct_answer": "a",
@@ -1084,7 +1084,7 @@
       {
         "id": "q35",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант вопроса:",
+        "prompt": "Выберите обычный общий вопрос в Past Simple с подлежащим it: поставьте глагол перед подлежащим.",
         "theory_block_id": "b3_theory_was_were_questions",
         "difficulty": 1,
         "choices": [
@@ -1101,7 +1101,7 @@
           {
             "id": "c",
             "text": "It was cold yesterday?",
-            "feedback": "Нет, в вопросах was стоит перед подлежащим"
+            "feedback": "Так можно переспросить в разговоре, но здесь требуется обычный вопрос с глаголом перед подлежащим."
           }
         ],
         "correct_answer": "a",
@@ -1114,7 +1114,7 @@
       {
         "id": "q36",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ they at the party?\" (be)",
+        "prompt": "Заполните пропуск в Past Simple: \"___ they at the party?\" (be)",
         "theory_block_id": "b3_theory_was_were_questions",
         "difficulty": 1,
         "correct_answer": "Were",
@@ -1127,7 +1127,7 @@
       {
         "id": "q37",
         "type": "mcq_single",
-        "prompt": "Выберите правильное отрицание: \"I ___ at home yesterday.\"",
+        "prompt": "Выберите отрицание с сокращённой формой be: «Я не был дома вчера.»",
         "theory_block_id": "b4_theory_was_were_negatives",
         "difficulty": 1,
         "choices": [
@@ -1144,20 +1144,20 @@
           {
             "id": "c",
             "text": "I was not at home yesterday.",
-            "feedback": "Грамматически правильно, но wasn't более естественно"
+            "feedback": "Полная форма грамматически верна, но здесь требуется сокращение."
           }
         ],
         "correct_answer": "a",
-        "explanation": "С I в отрицаниях используется wasn't: I wasn't at home yesterday.",
+        "explanation": "С I сокращённая отрицательная форма в Past Simple — wasn’t. Полная форма тоже правильна, но условие требует сокращение.",
         "tags": [
           "negative",
-          "wasn't"
+          "wasnt"
         ]
       },
       {
         "id": "q38",
         "type": "mcq_single",
-        "prompt": "Выберите правильное отрицание: \"They ___ late yesterday.\"",
+        "prompt": "Выберите отрицание с сокращённой формой be: «Они не опоздали вчера.»",
         "theory_block_id": "b4_theory_was_were_negatives",
         "difficulty": 1,
         "choices": [
@@ -1174,14 +1174,14 @@
           {
             "id": "c",
             "text": "They were not late yesterday.",
-            "feedback": "Грамматически правильно, но weren't более естественно"
+            "feedback": "Полная форма грамматически верна, но здесь требуется сокращение."
           }
         ],
         "correct_answer": "b",
-        "explanation": "С they в отрицаниях используется weren't: They weren't late yesterday.",
+        "explanation": "С They сокращённая отрицательная форма в Past Simple — weren’t. Полная форма тоже правильна, но условие требует сокращение.",
         "tags": [
           "negative",
-          "weren't"
+          "werent"
         ]
       },
       {
@@ -1247,7 +1247,7 @@
       {
         "id": "q43",
         "type": "mcq_single",
-        "prompt": "Выберите правильное отрицание: \"He ___ at school yesterday.\"",
+        "prompt": "Выберите отрицание с сокращённой формой be: «He ___ at school yesterday.»",
         "theory_block_id": "b4_theory_was_were_negatives",
         "difficulty": 1,
         "choices": [
@@ -1264,14 +1264,14 @@
           {
             "id": "c",
             "text": "was not",
-            "feedback": "Грамматически правильно, но wasn't более естественно"
+            "feedback": "Полная форма грамматически верна, но здесь требуется сокращение."
           }
         ],
         "correct_answer": "a",
-        "explanation": "С he в отрицаниях используется wasn't: He wasn't at school yesterday.",
+        "explanation": "С He сокращённая отрицательная форма в Past Simple — wasn’t. Полная форма тоже правильна, но условие требует сокращение.",
         "tags": [
           "negative",
-          "wasn't"
+          "wasnt"
         ]
       },
       {
@@ -1390,7 +1390,7 @@
       {
         "id": "q51",
         "type": "fill_blank",
-        "prompt": "Заполните краткий ответ: \"Were you late?\" — \"No, I ___.\" (not be)",
+        "prompt": "Заполните краткий ответ сокращённой формой: \"Were you late?\" — \"No, I ___.\" (not be)",
         "theory_block_id": "b5_theory_was_were_short_answers",
         "difficulty": 1,
         "correct_answer": "wasn't",
@@ -1403,28 +1403,28 @@
       {
         "id": "q52",
         "type": "mcq_single",
-        "prompt": "Выберите правильный краткий ответ на вопрос \"Was I right?\"",
+        "prompt": "Собеседник спрашивает о себе: \"Was I right?\" Как подтвердить, что он был прав?",
         "theory_block_id": "b5_theory_was_were_short_answers",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "Yes, you were.",
-            "feedback": "Правильно! При ответе на вопрос о себе используется you"
+            "feedback": "Верно: обращаемся к собеседнику с you; с you используется were."
           },
           {
             "id": "b",
             "text": "Yes, I was.",
-            "feedback": "Нет, при ответе на вопрос о себе используется you, а не I"
+            "feedback": "Так вы говорите о себе, а собеседник спрашивает о себе."
           },
           {
             "id": "c",
             "text": "Yes, you was.",
-            "feedback": "Нет, с you используется were"
+            "feedback": "С you нужна форма were."
           }
         ],
         "correct_answer": "a",
-        "explanation": "При ответе на вопрос \"Was I right?\" используется you, так как вопрос задан о собеседнике: Yes, you were.",
+        "explanation": "Собеседник говорит I о себе; отвечая ему, мы используем you: Yes, you were.",
         "tags": [
           "short_answer",
           "special_case"
@@ -1520,7 +1520,7 @@
       {
         "id": "q57",
         "type": "fill_blank",
-        "prompt": "Заполните краткий ответ: \"Were they at home?\" — \"No, they ___.\" (not be)",
+        "prompt": "Заполните краткий ответ сокращённой формой: \"Were they at home?\" — \"No, they ___.\" (not be)",
         "theory_block_id": "b5_theory_was_were_short_answers",
         "difficulty": 1,
         "correct_answer": "weren't",
@@ -1563,11 +1563,11 @@
       {
         "id": "q59",
         "type": "true_false",
-        "prompt": "Верно или неверно: На вопрос \"Was I late?\" правильный краткий ответ \"Yes, I was.\"",
+        "prompt": "Собеседник спрашивает о себе: \"Was I late?\" Верно ли, что ответ \"Yes, I was\" подтверждает его опоздание?",
         "theory_block_id": "b5_theory_was_were_short_answers",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Неверно. При ответе на вопрос \"Was I right?\" (о себе) используется you, а не I: Yes, you were. (или No, you weren't)",
+        "explanation": "Неверно. Yes, I was сообщает, что опоздали вы. Чтобы подтвердить опоздание собеседника, ответьте ему: Yes, you were.",
         "tags": [
           "short_answer",
           "true_false"
@@ -1576,24 +1576,24 @@
       {
         "id": "q60",
         "type": "mcq_single",
-        "prompt": "Выберите правильный краткий ответ на вопрос \"Were you happy?\"",
+        "prompt": "Вас одного спрашивают: \"Were you happy?\" Выберите краткий ответ, подтверждающий, что вы были счастливы.",
         "theory_block_id": "b5_theory_was_were_short_answers",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "Yes, I was.",
-            "feedback": "Правильно! Краткий ответ от первого лица: Yes, I was"
+            "feedback": "Верно: отвечая о себе, используем I was."
           },
           {
             "id": "b",
             "text": "Yes, you were.",
-            "feedback": "Нет, при ответе на вопрос используется I, а не you"
+            "feedback": "Так вы говорите о собеседнике, а вопрос задан о вас."
           },
           {
             "id": "c",
             "text": "Yes, I were.",
-            "feedback": "Нет, с I используется was"
+            "feedback": "С I нужна форма was."
           }
         ],
         "correct_answer": "a",
@@ -1668,7 +1668,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:18Z",
+    "updated_at": "2026-09-04T16:37:34Z",
     "source": "llm"
   }
 }

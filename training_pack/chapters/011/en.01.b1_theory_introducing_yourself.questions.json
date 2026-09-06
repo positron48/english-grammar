@@ -35,7 +35,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Как правильно спросить имя собеседника после представления?",
+      "prompt": "Как после «My name is Anna» спросить имя собеседника короткой фразой из двух слов?",
       "choices": [
         {
           "id": "a",
@@ -55,17 +55,17 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "'And you?' — стандартная фраза для вежливого вопроса о имени собеседника после представления.",
+      "explanation": "And you? возвращает вопрос собеседнику после сообщения своего имени. What is your name? тоже правильно, но состоит из четырёх слов.",
       "theory_block_id": "b1_theory_introducing_yourself",
       "chapter_id": "en.grammar.first_sentences_be_as.build_speak_mini_dialogues",
       "concept_id": "dialogue_introducing_yourself",
       "difficulty": 1,
       "id": "q2",
-      "signature": "7335fb2e3df1d471"
+      "signature": "974953e47fb9e3ad"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой диалог имеет правильную структуру для представления?",
+      "prompt": "Выберите диалог, где Анна называет своё имя и спрашивает имя собеседника, а тот представляется в ответ.",
       "choices": [
         {
           "id": "a",
@@ -73,7 +73,7 @@
         },
         {
           "id": "b",
-          "text": "A: Hello! I am Anna. B: And you?"
+          "text": "A: Hello! I am Anna. And you? B: Hi! I am Tom."
         },
         {
           "id": "c",
@@ -85,17 +85,17 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Правильная структура: приветствие → представление → вопрос собеседнику (Hello → I am... → And you?).",
+      "explanation": "Анна сначала сообщает своё имя, затем спрашивает And you? Том отвечает I am Tom. После слов Анны вопрос And you? должен исходить от неё, а не повторно спрашивать её имя.",
       "theory_block_id": "b1_theory_introducing_yourself",
       "chapter_id": "en.grammar.first_sentences_be_as.build_speak_mini_dialogues",
       "concept_id": "dialogue_introducing_yourself",
       "difficulty": 3,
       "id": "q3",
-      "signature": "34e4131d6f944312"
+      "signature": "d0a06e10ff606f6b"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант содержит грамматическую ошибку в представлении?",
+      "prompt": "В каком представлении себя допущена ошибка в форме be?",
       "choices": [
         {
           "id": "a",
@@ -107,25 +107,25 @@
         },
         {
           "id": "c",
-          "text": "I name Anna."
+          "text": "I is Anna."
         },
         {
           "id": "d",
-          "text": "My name Anna."
+          "text": "My name's Anna."
         }
       ],
       "correct_answer": "c",
-      "explanation": "Вариант 'I name Anna' означает 'Я называю Анну', что неверно. Правильная форма: 'I am...' или 'My name is...'.",
+      "explanation": "С I нужна форма am: I am Anna. My name is Anna и сокращённое My name’s Anna тоже правильны.",
       "theory_block_id": "b1_theory_introducing_yourself",
       "chapter_id": "en.grammar.first_sentences_be_as.build_speak_mini_dialogues",
       "concept_id": "dialogue_introducing_yourself",
       "difficulty": 2,
       "id": "q4",
-      "signature": "fe254e64857d0724"
+      "signature": "709e96e6d27705a5"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой фразой начинается диалог при знакомстве?",
+      "prompt": "Какая из этих фраз является приветствием при знакомстве?",
       "choices": [
         {
           "id": "a",
@@ -145,13 +145,13 @@
         }
       ],
       "correct_answer": "c",
-      "explanation": "Диалог всегда начинается с приветствия: 'Hello!' или 'Hi!'.",
+      "explanation": "Hello! означает «Здравствуйте!» или «Привет!». Это приветствие, с которого часто начинают знакомство.",
       "theory_block_id": "b1_theory_introducing_yourself",
       "chapter_id": "en.grammar.first_sentences_be_as.build_speak_mini_dialogues",
       "concept_id": "dialogue_introducing_yourself",
       "difficulty": 1,
       "id": "q5",
-      "signature": "f52a4f901a6b196a"
+      "signature": "a5420fbe229285ea"
     },
     {
       "type": "mcq_single",
@@ -215,7 +215,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Что означает фраза 'And you?' в диалоге?",
+      "prompt": "Что означает And you? после реплики «My name is Tom»?",
       "choices": [
         {
           "id": "a",
@@ -235,43 +235,43 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "'And you?' — вежливый вопрос о имени собеседника после вашего представления.",
+      "explanation": "В этом контексте And you? возвращает собеседнику вопрос об имени: «А вас как зовут?».",
       "theory_block_id": "b1_theory_introducing_yourself",
       "chapter_id": "en.grammar.first_sentences_be_as.build_speak_mini_dialogues",
       "concept_id": "dialogue_introducing_yourself",
       "difficulty": 1,
       "id": "q8",
-      "signature": "22fdc0f680a479ce"
+      "signature": "e011d3520c9a788b"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой диалог содержит ошибку в структуре?",
+      "prompt": "В каком диалоге допущена грамматическая ошибка в представлении себя?",
       "choices": [
         {
           "id": "a",
-          "text": "A: Hello! I am Anna. B: And you?"
+          "text": "A: Hello! I am Anna. B: Hi! I am Peter."
         },
         {
           "id": "b",
-          "text": "A: My name is Maria. B: Hello! And you?"
+          "text": "A: My name is Maria. B: Hello! My name is Tom."
         },
         {
           "id": "c",
-          "text": "A: Hello! And you? B: My name is Tom."
+          "text": "A: Hello! I am Peter. B: My name are Tom."
         },
         {
           "id": "d",
-          "text": "A: Hi! I am Peter. B: And you?"
+          "text": "A: Hi! I am Peter. B: Nice to meet you! I am Anna."
         }
       ],
       "correct_answer": "c",
-      "explanation": "Фраза 'And you?' не может стоять перед представлением. Правильный порядок: приветствие → представление → вопрос.",
+      "explanation": "В My name are Tom неправильно выбрана форма be: единственное число name требует is.",
       "theory_block_id": "b1_theory_introducing_yourself",
       "chapter_id": "en.grammar.first_sentences_be_as.build_speak_mini_dialogues",
       "concept_id": "dialogue_introducing_yourself",
       "difficulty": 3,
       "id": "q9",
-      "signature": "ff7462bac562e836"
+      "signature": "96cfd443c095d318"
     },
     {
       "type": "mcq_single",
@@ -295,7 +295,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Правильная форма: 'I am Alex.' Варианты 'My name Alex' и 'I name Alex' содержат грамматические ошибки.",
+      "explanation": "I am Alex сообщает имя говорящего. В My name Alex отсутствует is, а I name Alex не означает «Меня зовут Алекс»: name здесь выступает глаголом.",
       "theory_block_id": "b1_theory_introducing_yourself",
       "chapter_id": "en.grammar.first_sentences_be_as.build_speak_mini_dialogues",
       "concept_id": "dialogue_introducing_yourself",

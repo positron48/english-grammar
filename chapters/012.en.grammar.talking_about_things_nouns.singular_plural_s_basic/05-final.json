@@ -427,28 +427,28 @@
       {
         "id": "q4",
         "type": "mcq_single",
-        "prompt": "Что означает множественное число (plural) в английском языке?",
+        "prompt": "В каком сочетании book стоит во множественном числе?",
         "theory_block_id": "b1_theory_singular_plural_concept",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "Один предмет",
-            "feedback": "Нет, один предмет — это единственное число"
+            "text": "one book",
+            "feedback": "После one здесь нужна форма единственного числа book."
           },
           {
             "id": "b",
-            "text": "Два или более предметов",
-            "feedback": "Правильно! Множественное число обозначает два или более предметов"
+            "text": "three books",
+            "feedback": "Books — множественное число, здесь речь о трёх книгах."
           },
           {
             "id": "c",
-            "text": "Ноль предметов",
-            "feedback": "Нет, множественное число обозначает два или более предметов"
+            "text": "this book",
+            "feedback": "This book обозначает одну книгу."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Множественное число (plural) обозначает два или более предметов: books (книги), cats (коты).",
+        "explanation": "В three books используется множественное число books. В one book и this book стоит единственное число.",
         "tags": [
           "plural",
           "concept"
@@ -470,24 +470,24 @@
       {
         "id": "q7",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении: \"I have one books.\"",
+        "prompt": "Исправьте форму существительного, сохранив количество — одну книгу: «I have one books».",
         "theory_block_id": "b1_theory_singular_plural_concept",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "one должно быть two",
-            "feedback": "Нет, ошибка не в числительном"
+            "feedback": "Так получится две книги; по условию количество нужно сохранить."
           },
           {
             "id": "b",
             "text": "books должно быть book",
-            "feedback": "Правильно! После \"one\" нужно единственное число book, а не books"
+            "feedback": "После one нужно единственное число book."
           },
           {
             "id": "c",
             "text": "have должно быть has",
-            "feedback": "Нет, have правильно для I"
+            "feedback": "С I форма have уже правильна."
           }
         ],
         "correct_answer": "b",
@@ -556,24 +556,24 @@
       {
         "id": "q12",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении: \"They have two book.\"",
+        "prompt": "Исправьте форму существительного, сохранив две книги: «They have two book».",
         "theory_block_id": "b1_theory_singular_plural_concept",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "two должно быть one",
-            "feedback": "Нет, ошибка не в числительном"
+            "feedback": "Это изменит количество на одну книгу."
           },
           {
             "id": "b",
             "text": "book должно быть books",
-            "feedback": "Правильно! После \"two\" нужно множественное число books, а не единственное book"
+            "feedback": "После two нужно множественное число books."
           },
           {
             "id": "c",
             "text": "have должно быть has",
-            "feedback": "Нет, have правильно для They"
+            "feedback": "С they форма have уже правильна."
           }
         ],
         "correct_answer": "b",
@@ -616,7 +616,7 @@
       {
         "id": "q14",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I have three ___.\" (стол)",
+        "prompt": "Заполните пропуск формой множественного числа: I have three ___. (table)",
         "theory_block_id": "b2_theory_regular_plural_s",
         "difficulty": 1,
         "correct_answer": "tables",
@@ -629,24 +629,24 @@
       {
         "id": "q17",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении: \"I have two cat.\"",
+        "prompt": "Исправьте форму существительного, сохранив двух котов: «I have two cat».",
         "theory_block_id": "b2_theory_regular_plural_s",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "two должно быть one",
-            "feedback": "Нет, ошибка не в числительном"
+            "feedback": "Это изменит количество; по условию котов два."
           },
           {
             "id": "b",
             "text": "cat должно быть cats",
-            "feedback": "Правильно! После \"two\" нужно множественное число cats"
+            "feedback": "После two нужно множественное число cats."
           },
           {
             "id": "c",
             "text": "have должно быть has",
-            "feedback": "Нет, have правильно для I"
+            "feedback": "С I форма have уже правильна."
           }
         ],
         "correct_answer": "b",
@@ -702,24 +702,24 @@
       {
         "id": "q22",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении: \"We have five table.\"",
+        "prompt": "Исправьте форму существительного, сохранив пять столов: «We have five table».",
         "theory_block_id": "b2_theory_regular_plural_s",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "five должно быть one",
-            "feedback": "Нет, ошибка не в числительном"
+            "feedback": "Это изменит количество; по условию столов пять."
           },
           {
             "id": "b",
             "text": "table должно быть tables",
-            "feedback": "Правильно! После \"five\" нужно множественное число tables"
+            "feedback": "После five нужно множественное число tables."
           },
           {
             "id": "c",
             "text": "have должно быть has",
-            "feedback": "Нет, have правильно для We"
+            "feedback": "С we форма have уже правильна."
           }
         ],
         "correct_answer": "b",
@@ -805,11 +805,11 @@
       {
         "id": "q26",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I have two ___.\" (автобус)",
+        "prompt": "Заполните пропуск формой множественного числа из пяти букв: I have two ___. (bus)",
         "theory_block_id": "b3_theory_plural_es_after_sibilants",
         "difficulty": 2,
         "correct_answer": "buses",
-        "explanation": "Множественное число от bus образуется добавлением -es (не просто -s), так как слово заканчивается на s: bus → buses.",
+        "explanation": "Обычная форма множественного числа — buses. Вариант busses тоже встречается, но состоит из шести букв и не соответствует условию.",
         "tags": [
           "es",
           "fill_blank"
@@ -831,24 +831,24 @@
       {
         "id": "q29",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении: \"I have two box.\"",
+        "prompt": "Исправьте форму существительного, сохранив две коробки: «I have two box».",
         "theory_block_id": "b3_theory_plural_es_after_sibilants",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "two должно быть one",
-            "feedback": "Нет, ошибка не в числительном"
+            "feedback": "Так изменится количество; по условию коробок две."
           },
           {
             "id": "b",
             "text": "box должно быть boxes",
-            "feedback": "Правильно! После \"two\" и после x нужно множественное число boxes"
+            "feedback": "После two нужно множественное число; box образует его с -es."
           },
           {
             "id": "c",
             "text": "have должно быть has",
-            "feedback": "Нет, have правильно для I"
+            "feedback": "С I форма have уже правильна."
           }
         ],
         "correct_answer": "b",
@@ -904,24 +904,24 @@
       {
         "id": "q34",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении: \"She has three dish.\"",
+        "prompt": "Исправьте форму существительного, сохранив три тарелки: «She has three dish».",
         "theory_block_id": "b3_theory_plural_es_after_sibilants",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "three должно быть one",
-            "feedback": "Нет, ошибка не в числительном"
+            "feedback": "Так изменится количество; по условию тарелок три."
           },
           {
             "id": "b",
             "text": "dish должно быть dishes",
-            "feedback": "Правильно! После \"three\" и после sh нужно множественное число dishes"
+            "feedback": "Множественное число от dish — dishes."
           },
           {
             "id": "c",
             "text": "has должно быть have",
-            "feedback": "Нет, has правильно для She"
+            "feedback": "С she форма has уже правильна."
           }
         ],
         "correct_answer": "b",
@@ -964,7 +964,7 @@
       {
         "id": "q36",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I see five ___.\" (наручные часы)",
+        "prompt": "Заполните пропуск формой множественного числа: I see five ___. (watch)",
         "theory_block_id": "b3_theory_plural_es_after_sibilants",
         "difficulty": 2,
         "correct_answer": "watches",
@@ -1006,7 +1006,7 @@
       {
         "id": "q38",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I visit two ___.\" (город)",
+        "prompt": "Заполните пропуск формой множественного числа: I visit two ___. (city)",
         "theory_block_id": "b4_theory_plural_y_to_ies",
         "difficulty": 2,
         "correct_answer": "cities",
@@ -1032,24 +1032,24 @@
       {
         "id": "q41",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении: \"I see two city.\"",
+        "prompt": "Исправьте форму существительного, сохранив два города: «I see two city».",
         "theory_block_id": "b4_theory_plural_y_to_ies",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "two должно быть one",
-            "feedback": "Нет, ошибка не в числительном"
+            "feedback": "Так изменится количество городов."
           },
           {
             "id": "b",
             "text": "city должно быть cities",
-            "feedback": "Правильно! После \"two\" и после согласной + y нужно множественное число cities"
+            "feedback": "После two нужно множественное число cities."
           },
           {
             "id": "c",
             "text": "see должно быть sees",
-            "feedback": "Нет, see правильно для I"
+            "feedback": "С I форма see уже правильна."
           }
         ],
         "correct_answer": "b",
@@ -1105,24 +1105,24 @@
       {
         "id": "q46",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении: \"She has three baby.\"",
+        "prompt": "Исправьте форму существительного, сохранив троих малышей: «She has three baby».",
         "theory_block_id": "b4_theory_plural_y_to_ies",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "three должно быть one",
-            "feedback": "Нет, ошибка не в числительном"
+            "feedback": "Так изменится количество детей."
           },
           {
             "id": "b",
             "text": "baby должно быть babies",
-            "feedback": "Правильно! После \"three\" и после согласной + y нужно множественное число babies"
+            "feedback": "После three нужно множественное число babies."
           },
           {
             "id": "c",
             "text": "has должно быть have",
-            "feedback": "Нет, has правильно для She"
+            "feedback": "С she форма has уже правильна."
           }
         ],
         "correct_answer": "b",
@@ -1165,7 +1165,7 @@
       {
         "id": "q48",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I have five ___.\" (мальчик)",
+        "prompt": "Заполните пропуск формой множественного числа: I have five ___. (boy)",
         "theory_block_id": "b4_theory_plural_y_to_ies",
         "difficulty": 2,
         "correct_answer": "boys",
@@ -1208,7 +1208,7 @@
       {
         "id": "q50",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I have two ___.\" (ребенок)",
+        "prompt": "Заполните пропуск формой множественного числа: I have two ___. (child)",
         "theory_block_id": "b5_theory_irregular_plural_common",
         "difficulty": 3,
         "correct_answer": "children",
@@ -1294,7 +1294,7 @@
       {
         "id": "q55",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"They see four ___.\" (женщина)",
+        "prompt": "Заполните пропуск формой множественного числа: They see four ___. (woman)",
         "theory_block_id": "b5_theory_irregular_plural_common",
         "difficulty": 3,
         "correct_answer": "women",
@@ -1320,28 +1320,28 @@
       {
         "id": "q58",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении: \"She has three mans.\"",
+        "prompt": "Найдите ошибку в предложении: «She sees three mans».",
         "theory_block_id": "b5_theory_irregular_plural_common",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
             "text": "three должно быть one",
-            "feedback": "Нет, ошибка не в числительном"
+            "feedback": "Замена числительного не исправит ошибочную форму mans."
           },
           {
             "id": "b",
             "text": "mans должно быть men",
-            "feedback": "Правильно! Множественное число от man — это men, а не mans"
+            "feedback": "Множественное число от man — men."
           },
           {
             "id": "c",
-            "text": "has должно быть have",
-            "feedback": "Нет, has правильно для She"
+            "text": "sees должно быть see",
+            "feedback": "С she форма sees уже правильна."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Ошибка: множественное число от man — это неправильная форма men (не mans). Правильно: She has three men.",
+        "explanation": "Множественное число от man — men. Правильно: She sees three men.",
         "tags": [
           "error_spotting",
           "irregular"
@@ -1435,11 +1435,11 @@
       {
         "id": "q63",
         "type": "true_false",
-        "prompt": "Верно или неверно: Множественное число от слова \"fish\" — это \"fish\".",
+        "prompt": "Верно или неверно: Fish может быть формой множественного числа, например в сочетании five fish.",
         "theory_block_id": "b6_theory_unchanged_plural",
         "difficulty": 3,
         "correct_answer": "true",
-        "explanation": "Верно. Слово fish не меняется во множественном числе: one fish → five fish (не fishes в этом контексте).",
+        "explanation": "Верно. Fish — обычная форма множественного числа. Fishes также существует; её часто используют, говоря о разных видах рыб.",
         "tags": [
           "unchanged",
           "true_false"
@@ -1478,28 +1478,28 @@
       {
         "id": "q66",
         "type": "mcq_single",
-        "prompt": "Выберите правильное множественное число от слова \"deer\":",
+        "prompt": "Выберите форму множественного числа deer без добавленного окончания.",
         "theory_block_id": "b6_theory_unchanged_plural",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
             "text": "deer",
-            "feedback": "Правильно! Слово deer не меняется во множественном числе"
+            "feedback": "Deer может употребляться во множественном числе без окончания."
           },
           {
             "id": "b",
             "text": "deers",
-            "feedback": "Нет, deer не меняется во множественном числе"
+            "feedback": "Deers также встречается в словарях, но здесь требуется форма без окончания."
           },
           {
             "id": "c",
             "text": "deeres",
-            "feedback": "Нет, deer не образует множественное число добавлением -es"
+            "feedback": "Такой формы множественного числа нет."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Слово deer не меняется во множественном числе: one deer → four deer (не deers). Контекст показывает, одно или много.",
+        "explanation": "Обычная форма множественного числа — deer, совпадающая с единственным. Вариант deers тоже зафиксирован словарями, но не соответствует условию.",
         "tags": [
           "unchanged",
           "mcq"
@@ -1508,11 +1508,11 @@
       {
         "id": "q67",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"They see five ___.\" (олень)",
+        "prompt": "Заполните пропуск словом из четырёх букв, начинающимся на d: They see five ___. (олень)",
         "theory_block_id": "b6_theory_unchanged_plural",
         "difficulty": 3,
         "correct_answer": "deer",
-        "explanation": "Слово deer не меняется во множественном числе: They see five deer (не deers).",
+        "explanation": "Обычная форма множественного числа — deer: They see five deer. Она совпадает с единственным числом и состоит из четырёх букв.",
         "tags": [
           "unchanged",
           "fill_blank"
@@ -1521,28 +1521,28 @@
       {
         "id": "q70",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении: \"We have two fishes.\"",
+        "prompt": "Замените форму множественного числа fishes формой без окончания, сохранив количество: «We have two fishes».",
         "theory_block_id": "b6_theory_unchanged_plural",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
             "text": "two должно быть one",
-            "feedback": "Нет, ошибка не в числительном"
+            "feedback": "Это изменит количество; требуется заменить только форму существительного."
           },
           {
             "id": "b",
             "text": "fishes должно быть fish",
-            "feedback": "Правильно! Слово fish не меняется во множественном числе (в этом контексте)"
+            "feedback": "Fish — форма множественного числа без окончания."
           },
           {
             "id": "c",
             "text": "have должно быть has",
-            "feedback": "Нет, have правильно для We"
+            "feedback": "С we нужна форма have."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Ошибка: слово fish не меняется во множественном числе (не fishes в этом контексте). Правильно: We have two fish.",
+        "explanation": "Вариант без окончания — We have two fish. Fishes тоже является формой множественного числа, поэтому исходную фразу нельзя объявлять безусловно неграмматичной.",
         "tags": [
           "error_spotting",
           "unchanged"
@@ -1622,7 +1622,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-01-27T17:23:58Z",
+    "updated_at": "2026-09-04T12:33:02Z",
     "source": "llm"
   }
 }

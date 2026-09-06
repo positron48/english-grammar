@@ -241,21 +241,21 @@
       {
         "id": "q2",
         "type": "true_false",
-        "prompt": "Causative have/get something done означает, что действие выполняет другой человек.",
+        "prompt": "В сервисном значении *have/get something done* действие выполняет не само подлежащее, а другой исполнитель.",
         "theory_block_id": "b1_theory_meaning_causative",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "В каузативе вы организуете действие, но выполняет его кто-то другой.",
+        "explanation": "Конструкция показывает, что подлежащее организует услугу или получает её результат.",
         "tags": []
       },
       {
         "id": "q3",
         "type": "fill_blank",
-        "prompt": "Вставьте пропущенное: She got her hair ___ yesterday. (trim)",
+        "prompt": "Вставьте пропущенное: She got her hair ___. (past participle of cut)",
         "theory_block_id": "b1_theory_meaning_causative",
         "difficulty": 2,
         "correct_answer": "cut",
-        "explanation": "В каузативе используется V3: get + object + V3.",
+        "explanation": "В каузативе используется V3: *get + object + cut*. У глагола *cut* все основные формы совпадают.",
         "tags": []
       },
       {
@@ -451,7 +451,7 @@
       {
         "id": "q16",
         "type": "mcq_single",
-        "prompt": "Выберите правильное соответствие: The car was repaired.",
+        "prompt": "Как добавить к факту *The car was repaired* значение «я организовал ремонт»?",
         "theory_block_id": "b4_theory_causative_vs_passive",
         "difficulty": 2,
         "choices": [
@@ -473,7 +473,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Каузатив добавляет идею организации действия.",
+        "explanation": "*I had the car repaired* сообщает, что говорящий организовал ремонт; исходный пассив сообщает только факт.",
         "tags": []
       },
       {
@@ -499,7 +499,7 @@
       {
         "id": "q19",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The kitchen had painted last month.\"",
+        "prompt": "Нужно сказать, что мы организовали покраску кухни. Исправьте: \"The kitchen had painted last month.\"",
         "theory_block_id": "b4_theory_causative_vs_passive",
         "difficulty": 2,
         "choices": [
@@ -521,7 +521,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Каузатив требует have + object + V3.",
+        "explanation": "Каузатив требует подлежащего-организатора и структуры *have + object + V3*.",
         "tags": []
       },
       {
@@ -669,7 +669,7 @@
       {
         "id": "q27",
         "type": "mcq_single",
-        "prompt": "Выберите правильную форму: She ___ her nails done tomorrow.",
+        "prompt": "Выберите стандартную будущую форму: She ___ her nails done tomorrow.",
         "theory_block_id": "b3_theory_tenses",
         "difficulty": 2,
         "choices": [
@@ -691,7 +691,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Будущее время каузатива: will have + object + V3.",
+        "explanation": "Будущее каузатива строится как *will have + object + V3*.",
         "tags": []
       },
       {
@@ -717,7 +717,7 @@
       {
         "id": "q30",
         "type": "mcq_single",
-        "prompt": "Выберите правильное соответствие: The window was cleaned.",
+        "prompt": "Как добавить к факту *The window was cleaned* значение «мы организовали мойку»?",
         "theory_block_id": "b4_theory_causative_vs_passive",
         "difficulty": 2,
         "choices": [
@@ -739,7 +739,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Каузатив добавляет смысл организации действия.",
+        "explanation": "*We had the window cleaned* сообщает, что мы организовали услугу.",
         "tags": []
       },
       {
@@ -811,11 +811,11 @@
           },
           {
             "id": "d",
-            "text": "renewed"
+            "text": "renews"
           }
         ],
         "correct_answer": "a",
-        "explanation": "Нужна форма V3: renewed.",
+        "explanation": "После объекта требуется V3: *had my passport renewed*.",
         "tags": []
       },
       {
@@ -859,11 +859,11 @@
       {
         "id": "q38",
         "type": "true_false",
-        "prompt": "В каузативе можно использовать get или have без изменения смысла, но стиль будет разный.",
+        "prompt": "Во многих сервисных контекстах *have* и *get* передают одну основную ситуацию, но отличаются стилем и иногда оттенком усилия.",
         "theory_block_id": "b2_theory_form_have_get",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Have нейтральнее, get разговорнее.",
+        "explanation": "*Have* нейтральнее; *get* разговорнее и может подчёркивать достижение результата.",
         "tags": []
       },
       {
@@ -945,7 +945,7 @@
       {
         "id": "q43",
         "type": "mcq_single",
-        "prompt": "Выберите правильную форму: She ___ her portrait painted by a local artist.",
+        "prompt": "Выберите нейтральную форму Past Simple с *have*: She ___ her portrait painted by a local artist.",
         "theory_block_id": "b2_theory_form_have_get",
         "difficulty": 2,
         "choices": [
@@ -959,7 +959,7 @@
           },
           {
             "id": "c",
-            "text": "got"
+            "text": "get"
           },
           {
             "id": "d",
@@ -967,13 +967,13 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Прошедшее время: had her portrait painted.",
+        "explanation": "Past Simple от *have* — *had*. Форма *got* тоже могла бы образовать разговорный каузатив, но в задании требуется *have*.",
         "tags": []
       },
       {
         "id": "q44",
         "type": "true_false",
-        "prompt": "Kaуcative всегда переводится как пассив и не имеет отличий в смысле.",
+        "prompt": "Causative всегда равнозначен пассиву и не добавляет смысла организации действия.",
         "theory_block_id": "b4_theory_causative_vs_passive",
         "difficulty": 1,
         "correct_answer": "false",
@@ -1059,7 +1059,7 @@
       {
         "id": "q49",
         "type": "mcq_single",
-        "prompt": "Выберите корректный вариант: The contract was signed yesterday.",
+        "prompt": "Как добавить к факту *The contract was signed yesterday* значение «мы организовали подписание»?",
         "theory_block_id": "b4_theory_causative_vs_passive",
         "difficulty": 2,
         "choices": [
@@ -1081,7 +1081,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Каузатив подчеркивает, что вы организовали подписание.",
+        "explanation": "*We had the contract signed* сообщает об организации действия; пассив сообщает только факт.",
         "tags": []
       },
       {
@@ -1107,7 +1107,7 @@
       {
         "id": "q52",
         "type": "mcq_single",
-        "prompt": "Выберите правильную форму: She has her portrait ___ every year. (renew)",
+        "prompt": "Выберите правильную форму: She has her membership ___ every year. (renew)",
         "theory_block_id": "b3_theory_tenses",
         "difficulty": 2,
         "choices": [
@@ -1129,7 +1129,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Present Simple causative: has + object + V3.",
+        "explanation": "Present Simple causative: *has + object + V3*.",
         "tags": []
       },
       {
@@ -1145,11 +1145,11 @@
       {
         "id": "q54",
         "type": "true_false",
-        "prompt": "Get something done означает, что вы сделали это сами.",
+        "prompt": "В сервисном значении *get something done* подлежащее само выполняет названное действие.",
         "theory_block_id": "b1_theory_meaning_causative",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "В каузативе действие выполняет другой человек.",
+        "explanation": "Нет. Подлежащее организует услугу или добивается результата, а действие выполняет другой исполнитель.",
         "tags": []
       },
       {
@@ -1313,7 +1313,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:49:02Z",
+    "updated_at": "2026-09-05T20:49:45Z",
     "source": "llm"
   }
 }

@@ -330,11 +330,11 @@
       {
         "id": "q2",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"We ___ recommend proceeding without approval.\" (подсказка)",
+        "prompt": "Заполните пропуск: “We do ___ recommend proceeding without approval.” (подсказка)",
         "theory_block_id": "b1_theory_contractions",
         "difficulty": 2,
         "correct_answer": "not",
-        "explanation": "В формальном стиле часто выбирают полную форму с not: We do not recommend."
+        "explanation": "Полная отрицательная форма *do not recommend* звучит формальнее сокращения *don’t recommend*. В пропуск вставляется *not*."
       },
       {
         "id": "q3",
@@ -370,11 +370,11 @@
       {
         "id": "q4",
         "type": "true_false",
-        "prompt": "Сокращения обычно приемлемы в официальных отчетах.",
+        "prompt": "Утверждение: в строгом официальном отчёте сокращения обычно предпочтительнее полных форм.",
         "theory_block_id": "b1_theory_contractions",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "В официальных текстах чаще используют полные формы."
+        "explanation": "В строгом официальном регистре чаще выбирают полные формы. В менее формальной деловой переписке сокращения могут быть вполне уместны."
       },
       {
         "id": "q5",
@@ -420,11 +420,11 @@
       {
         "id": "q8",
         "type": "true_false",
-        "prompt": "Сокращения изменяют смысл, а не только тон.",
+        "prompt": "Утверждение: раскрытие сокращения обычно меняет основное значение фразы, а не только её тон.",
         "theory_block_id": "b1_theory_contractions",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "Сокращения меняют тон, но смысл сохраняется."
+        "explanation": "Пары вроде *do not / don’t* и *it is / it’s* обычно передают одно основное значение, но различаются тоном и регистром."
       },
       {
         "id": "q9",
@@ -653,11 +653,11 @@
       {
         "id": "q22",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___, we cannot approve the request.\" (linker)",
+        "prompt": "Заполните пропуск: “The proposal has some advantages. ___, we cannot approve the request.” (linker)",
         "theory_block_id": "b2_theory_formal_linking",
         "difficulty": 2,
         "correct_answer": "however",
-        "explanation": "However — формальная связка для противопоставления."
+        "explanation": "*However* вводит контраст между преимуществами предложения и невозможностью его одобрить."
       },
       {
         "id": "q23",
@@ -734,11 +734,11 @@
       {
         "id": "q26",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"It's ___ late to change the plan.\" (подсказка)",
+        "prompt": "Заполните пропуск: “It’s a ___ late to change the plan.” (подсказка)",
         "theory_block_id": "b3_theory_informal_markers",
         "difficulty": 2,
         "correct_answer": "bit",
-        "explanation": "Разговорный смягчитель: a bit. Вставляется слово bit."
+        "explanation": "Разговорный смягчитель образует сочетание *a bit late*. Вставляется слово *bit*."
       },
       {
         "id": "q27",
@@ -824,20 +824,20 @@
       {
         "id": "q31",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I'm ___ tired today.\" (подсказка)",
+        "prompt": "Заполните пропуск: “I’m ___ of tired today.” (подсказка)",
         "theory_block_id": "b3_theory_informal_markers",
         "difficulty": 2,
         "correct_answer": "sort",
-        "explanation": "Разговорный смягчитель: sort of. Вставляется слово sort."
+        "explanation": "Разговорный смягчитель — *sort of*. В пропуск вставляется слово *sort*."
       },
       {
         "id": "q32",
         "type": "true_false",
-        "prompt": "Маркер a bit уместен в официальном отчете.",
+        "prompt": "Утверждение: *a bit* обычно подходит для строгого официального отчёта лучше, чем *slightly* или *somewhat*.",
         "theory_block_id": "b3_theory_informal_markers",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "A bit — разговорный маркер, в официальных текстах лучше избегать."
+        "explanation": "В строгом формальном тексте чаще выбирают *slightly* или *somewhat*. *A bit* естественно в разговорной и нейтральной речи."
       },
       {
         "id": "q33",
@@ -1415,7 +1415,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:27Z",
+    "updated_at": "2026-09-05T23:33:35Z",
     "source": "llm"
   }
 }

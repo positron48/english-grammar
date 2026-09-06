@@ -255,7 +255,7 @@
       {
         "id": "q1",
         "type": "mcq_single",
-        "prompt": "Вы описываете планы на выходные. Что подходит?",
+        "prompt": "Вы уже договорились о встрече с Анной. Какая фраза подчёркивает эту договорённость?",
         "theory_block_id": "b1_theory_scenario_weekend",
         "difficulty": 1,
         "choices": [
@@ -370,11 +370,11 @@
       {
         "id": "q10",
         "type": "reorder",
-        "prompt": "Соберите предложение с указанным значением. Начните с «We'll». Закончите словом «Sunday».",
+        "prompt": "Вы только что решили посмотреть фильм в воскресенье. Соберите предложение. Начните с «We'll». Закончите словом «Sunday».",
         "theory_block_id": "b1_theory_scenario_weekend",
         "difficulty": 1,
         "correct_answer": "We'll see a movie on Sunday.",
-        "explanation": "Will для решения/прогноза; порядок слов стандартный.",
+        "explanation": "Will передаёт решение, принятое в момент речи.",
         "translation_ru": "Мы посмотрим фильм в воскресенье."
       },
       {
@@ -448,12 +448,12 @@
         "theory_block_id": "b2_theory_choices_future_forms",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Это основное различие между формами."
+        "explanation": "В базовом контрасте Present Continuous подчёркивает договорённость, а be going to — предварительное намерение. В реальной речи области их употребления пересекаются."
       },
       {
         "id": "q16",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите правильный вариант: 'I'm going to meeting them at 6.'",
+        "prompt": "Сохраните конструкцию be going to и исправьте ошибку: 'I'm going to meeting them at 6.'",
         "theory_block_id": "b2_theory_choices_future_forms",
         "difficulty": 2,
         "choices": [
@@ -527,7 +527,7 @@
       {
         "id": "q21",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите правильный вариант: 'She will going to call you.'",
+        "prompt": "Сохраните значение заранее намеченного плана с be going to и исправьте ошибку: 'She will going to call you.'",
         "theory_block_id": "b2_theory_choices_future_forms",
         "difficulty": 2,
         "choices": [
@@ -624,11 +624,11 @@
       {
         "id": "q27",
         "type": "true_false",
-        "prompt": "Will можно использовать в придаточной части после when.",
+        "prompt": "Future-marker will можно использовать в придаточной части времени после when.",
         "theory_block_id": "b3_theory_time_clauses_use",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "После when/after/as soon as will не используется."
+        "explanation": "В придаточном времени о будущем вместо future-marker will используется настоящее время. Will возможно после when в других функциях, например для готовности."
       },
       {
         "id": "q28",
@@ -698,11 +698,11 @@
       {
         "id": "q32",
         "type": "true_false",
-        "prompt": "Time clause может стоять первым или вторым без смены смысла.",
+        "prompt": "Придаточное времени может стоять до или после главной части, сохраняя базовое временное отношение.",
         "theory_block_id": "b3_theory_time_clauses_use",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Обе позиции допустимы."
+        "explanation": "Обе позиции допустимы; при придаточном в начале обычно ставится запятая, а информационный акцент может различаться."
       },
       {
         "id": "q33",
@@ -983,11 +983,11 @@
       {
         "id": "q51",
         "type": "true_false",
-        "prompt": "Фраза 'I meet John at 5' подходит для договоренности.",
+        "prompt": "Фраза 'I meet John at 5' — нейтральный способ сообщить о разовой личной договорённости.",
         "theory_block_id": "b5_theory_common_mistakes",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Для договоренности нужен Present Continuous: I'm meeting John at 5."
+        "explanation": "В базовой модели разовую личную договорённость выражают Present Continuous: I'm meeting John at 5. Present Simple возможен для расписаний и повторяющихся событий."
       },
       {
         "id": "q52",
@@ -1061,7 +1061,7 @@
       {
         "id": "q57",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите правильный вариант: 'Are you meeting to go tomorrow?'",
+        "prompt": "Сохраните значение намерения поехать завтра и исправьте ошибку: 'Are you meeting to go tomorrow?'",
         "theory_block_id": "b5_theory_common_mistakes",
         "difficulty": 2,
         "choices": [
@@ -1079,7 +1079,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для намерения лучше использовать be going to: going to go."
+        "explanation": "Для намерения используется be going to + базовая форма: Are you going to go tomorrow?"
       },
       {
         "id": "q58",
@@ -1116,11 +1116,11 @@
       {
         "id": "q60",
         "type": "true_false",
-        "prompt": "В time clause можно использовать will, если это очень точный план.",
+        "prompt": "В придаточном времени можно поставить future-marker will, если план очень точный.",
         "theory_block_id": "b5_theory_common_mistakes",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Will не используется в time clause независимо от точности плана."
+        "explanation": "Точность плана не разрешает future-marker will в придаточном времени: используется настоящее время. Will возможно в особых значениях, не как простой маркер будущего."
       }
     ]
   },
@@ -1189,7 +1189,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:21Z",
+    "updated_at": "2026-09-04T19:51:00Z",
     "source": "llm"
   }
 }

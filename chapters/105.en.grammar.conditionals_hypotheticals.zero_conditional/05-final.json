@@ -279,7 +279,7 @@
       {
         "id": "q4",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If you heat ice, it will melt.\"",
+        "prompt": "Перепишите как общее научное правило в zero conditional: \"If you heat ice, it will melt.\"",
         "theory_block_id": "b1_theory_meaning",
         "difficulty": 2,
         "choices": [
@@ -301,7 +301,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Zero conditional не использует will; нужно Present Simple.",
+        "explanation": "Для общего правила выбирают Present Simple: If you heat ice, it melts. Исходная фраза грамматична как прогноз о конкретном случае.",
         "tags": []
       },
       {
@@ -383,7 +383,7 @@
       {
         "id": "q9",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If you press the button, the machine will stop.\"",
+        "prompt": "Перепишите как инструкцию с регулярным результатом в zero conditional: \"If you press the button, the machine will stop.\"",
         "theory_block_id": "b2_theory_form",
         "difficulty": 2,
         "choices": [
@@ -405,7 +405,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Zero conditional не использует will.",
+        "explanation": "Для регулярной реакции машины выбирают Present Simple: the machine stops. Исходный вариант возможен как единичный прогноз.",
         "tags": []
       },
       {
@@ -621,7 +621,7 @@
       {
         "id": "q22",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If you heat water, it will boil.\"",
+        "prompt": "Перепишите как общее научное правило в zero conditional: \"If you heat water, it will boil.\"",
         "theory_block_id": "b5_theory_zero_vs_first",
         "difficulty": 2,
         "choices": [
@@ -643,7 +643,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для общих истин нужен Present Simple.",
+        "explanation": "Общее правило оформляется Present Simple: If you heat water, it boils. Исходный вариант грамматичен как прогноз конкретного опыта.",
         "tags": []
       },
       {
@@ -745,7 +745,7 @@
       {
         "id": "q29",
         "type": "mcq_single",
-        "prompt": "Выберите правильно оформленную фразу: ___ the temperature drops, water freezes.",
+        "prompt": "Условие может наступить или не наступить: ___ the temperature drops, water freezes.",
         "theory_block_id": "b4_theory_word_order",
         "difficulty": 2,
         "choices": [
@@ -767,7 +767,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "If вводит условие, запятая ставится позже.",
+        "explanation": "If подчёркивает условность. When тоже грамматично, если падение температуры представлено как ожидаемое регулярное событие.",
         "tags": []
       },
       {
@@ -947,11 +947,11 @@
       {
         "id": "q44",
         "type": "true_false",
-        "prompt": "В zero conditional можно использовать Past Simple.",
+        "prompt": "В базовой модели zero conditional обе части часто стоят в Present Simple.",
         "theory_block_id": "b2_theory_form",
         "difficulty": 1,
-        "correct_answer": "false",
-        "explanation": "Обычно используется Present Simple в обеих частях.",
+        "correct_answer": "true",
+        "explanation": "Да: это основная модель главы. Past Simple возможен в рассказе о повторявшихся связях в прошлом, поэтому его нельзя запрещать вообще.",
         "tags": []
       },
       {
@@ -1073,7 +1073,7 @@
       {
         "id": "q53",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: If you don’t wear a seatbelt, you ___.",
+        "prompt": "Выберите Present Simple для общего правила безопасности: If you don’t wear a seatbelt, you ___.",
         "theory_block_id": "b1_theory_meaning",
         "difficulty": 2,
         "choices": [
@@ -1095,7 +1095,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Zero conditional: Present Simple.",
+        "explanation": "Risk injury представляет результат как общий риск. Will risk было бы прогнозом для конкретной ситуации.",
         "tags": []
       },
       {
@@ -1169,21 +1169,21 @@
       {
         "id": "q59",
         "type": "fill_blank",
-        "prompt": "Вставьте пропущенное: If the battery is low, the phone ___. (die)",
+        "prompt": "Вставьте пропущенное: If the battery runs out, the phone ___. (переставать работать)",
         "theory_block_id": "b1_theory_meaning",
         "difficulty": 2,
         "correct_answer": "dies",
-        "explanation": "Present Simple: the phone dies.",
+        "explanation": "Zero conditional: If the battery runs out, the phone dies.",
         "tags": []
       },
       {
         "id": "q60",
         "type": "true_false",
-        "prompt": "Zero conditional говорит о том, что всегда происходит при определенном условии.",
+        "prompt": "Zero conditional представляет результат как регулярный или предсказуемый при данном условии.",
         "theory_block_id": "b1_theory_meaning",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Это и есть смысл нулевого условного.",
+        "explanation": "Да: говорящий подаёт связь как правило, привычку или закономерность, не обязательно как абсолют без исключений.",
         "tags": []
       }
     ]
@@ -1252,7 +1252,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:49:03Z",
+    "updated_at": "2026-09-05T21:18:33Z",
     "source": "llm"
   }
 }

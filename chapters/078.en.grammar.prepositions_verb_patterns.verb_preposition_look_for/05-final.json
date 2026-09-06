@@ -319,7 +319,7 @@
       },
       {
         "type": "true_false",
-        "prompt": "В словаре «ищем слово» — search for a word.",
+        "prompt": "Верно или неверно: «Искать слово» можно сказать **search for a word**.",
         "theory_block_id": "b1_verb_prep_search_listen",
         "difficulty": 1,
         "correct_answer": "true",
@@ -396,7 +396,7 @@
         "theory_block_id": "b1_verb_prep_search_listen",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Look for job — стандартная связка.",
+        "explanation": "**Look for a job** — стандартное сочетание со значением «искать работу».",
         "id": "q11"
       },
       {
@@ -506,7 +506,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'Everything relies on him.'",
+        "prompt": "Найдите ошибку: 'Everything relies of him.'",
         "theory_block_id": "b2_verb_prep_depend_on",
         "difficulty": 2,
         "choices": [
@@ -520,11 +520,11 @@
           },
           {
             "id": "c",
-            "text": "Everything depends on him."
+            "text": "Everything relies at him."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Вариант a корректен: rely on him.",
+        "explanation": "Глагол **rely** требует предлога **on**. Вариант a исправляет ошибку.",
         "id": "q20"
       },
       {
@@ -561,11 +561,11 @@
       },
       {
         "type": "true_false",
-        "prompt": "В многих контекстах depend on можно заменить на rely on.",
+        "prompt": "Верно или неверно: «Depend on и rely on всегда полностью совпадают по смыслу и взаимозаменяемы.»",
         "theory_block_id": "b2_verb_prep_depend_on",
         "difficulty": 2,
-        "correct_answer": "true",
-        "explanation": "Они близки по смыслу и оба требуют **on**.",
+        "correct_answer": "false",
+        "explanation": "Оба сочетания требуют **on**, но значения различаются: **depend on** выражает зависимость от условия, а **rely on** — доверие или опору.",
         "id": "q23"
       },
       {
@@ -675,7 +675,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'I'm waiting on the answer.'",
+        "prompt": "Найдите ошибку: 'I'm waiting the answer.'",
         "theory_block_id": "b3_verb_prep_wait_for",
         "difficulty": 3,
         "choices": [
@@ -685,15 +685,15 @@
           },
           {
             "id": "b",
-            "text": "I'm waiting on the answer."
+            "text": "I'm waiting the answer."
           },
           {
             "id": "c",
-            "text": "I'm waiting for your answer."
+            "text": "I'm waiting at the answer."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Wait on возможно в особых контекстах, но на этом уровне ожидается **wait for**.",
+        "explanation": "Перед обычным объектом ожидания нужен **for**: **wait for the answer**. Вариант a исправляет ошибку.",
         "id": "q32"
       },
       {
@@ -730,11 +730,11 @@
       },
       {
         "type": "true_false",
-        "prompt": "Wait может употребляться без предлога при наличии дополнения.",
+        "prompt": "Верно или неверно: «Перед обычным объектом ожидания, например the bus, глагол wait употребляется без предлога.»",
         "theory_block_id": "b3_verb_prep_wait_for",
         "difficulty": 3,
         "correct_answer": "false",
-        "explanation": "Если есть объект, нужен **for**: wait for the bus.",
+        "explanation": "Перед обычным объектом ожидания нужен **for**: **wait for the bus**. У глагола **wait** есть отдельные переходные употребления, но они не относятся к этому шаблону.",
         "id": "q35"
       },
       {
@@ -1054,7 +1054,7 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: This plan is different ___ the old one.",
+        "prompt": "Выберите наиболее нейтральный вариант для международного английского: This plan is different ___ the old one.",
         "theory_block_id": "b6_verb_prep_different_from",
         "difficulty": 1,
         "choices": [
@@ -1072,7 +1072,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Different from — стандартная форма.",
+        "explanation": "**Different from** — наиболее нейтральная международная форма. **Different than** распространено в американском английском, а **different to** — в британском.",
         "id": "q61"
       },
       {
@@ -1086,11 +1086,11 @@
       },
       {
         "type": "true_false",
-        "prompt": "О чём-то говорят afraid of.",
+        "prompt": "Верно или неверно: «Сочетание be afraid of something грамматически правильно.»",
         "theory_block_id": "b6_verb_prep_different_from",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Afraid of — стандартная связка.",
+        "explanation": "Да, **afraid of** — стандартное сочетание: **be afraid of something**.",
         "id": "q63"
       },
       {
@@ -1163,7 +1163,7 @@
         "theory_block_id": "b6_verb_prep_different_from",
         "difficulty": 2,
         "correct_answer": "from",
-        "explanation": "Different from — нормативная форма.",
+        "explanation": "**Different from** — наиболее нейтральная международная форма; также встречаются региональные варианты **different than** и **different to**.",
         "id": "q70"
       },
       {
@@ -1266,7 +1266,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:48:58Z",
+    "updated_at": "2026-09-05T09:23:44Z",
     "source": "llm"
   }
 }

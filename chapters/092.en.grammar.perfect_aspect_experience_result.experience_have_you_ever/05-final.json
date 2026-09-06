@@ -419,11 +419,11 @@
       {
         "id": "q7",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"He has ___ a helicopter.\" (ride)",
+        "prompt": "Заполните пропуск: \"He has ___ a horse.\" (ride)",
         "theory_block_id": "b1_theory_experience_meaning",
         "difficulty": 2,
         "correct_answer": "ridden",
-        "explanation": "Формула Present Perfect: has + V3, например: has ridden."
+        "explanation": "V3 от ride — ridden: He has ridden a horse."
       },
       {
         "id": "q9",
@@ -504,8 +504,8 @@
           },
           {
             "id": "b",
-            "text": "Did / try",
-            "feedback": "Did + V1 обычно о конкретном прошлом событии."
+            "text": "Did / tried",
+            "feedback": "После did нужен инфинитив без to: try, а не tried."
           }
         ],
         "correct_answer": "a",
@@ -583,7 +583,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "Never — нормальный маркер опыта в отрицательных утверждениях."
+        "explanation": "Never стоит после have и выражает отсутствие опыта: I have never driven a truck."
       },
       {
         "id": "q20",
@@ -653,11 +653,11 @@
       {
         "id": "q24",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I have ___ visited this museum before.\" (not)",
+        "prompt": "Заполните пропуск: \"I have ___ visited this museum.\" (никогда)",
         "theory_block_id": "b2_theory_markers_ever_never",
         "difficulty": 2,
         "correct_answer": "never",
-        "explanation": "Never используется для отрицания опыта."
+        "explanation": "Never ставится после have и выражает отсутствие опыта."
       },
       {
         "id": "q25",
@@ -673,8 +673,8 @@
           },
           {
             "id": "b",
-            "text": "Did / start",
-            "feedback": "Did + V1 — вопрос о конкретном прошлом."
+            "text": "Did / started",
+            "feedback": "После did нужен инфинитив без to: start, а не started."
           }
         ],
         "correct_answer": "a",
@@ -881,8 +881,8 @@
         "choices": [
           {
             "id": "a",
-            "text": "She called me twice today.",
-            "feedback": "Past Simple звучит как завершенный период."
+            "text": "She has called me twice yesterday.",
+            "feedback": "Present Perfect нельзя сочетать с завершенным временем yesterday."
           },
           {
             "id": "b",
@@ -951,8 +951,8 @@
           },
           {
             "id": "b",
-            "text": "I finished three reports this month so far.",
-            "feedback": "Past Simple хуже подходит к so far."
+            "text": "I have finished three reports last month so far.",
+            "feedback": "Last month — завершенный период, а so far требует текущего незавершенного периода."
           },
           {
             "id": "c",
@@ -1424,7 +1424,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-05-01T08:21:39Z",
+    "updated_at": "2026-09-05T19:39:06Z",
     "source": "llm"
   }
 }

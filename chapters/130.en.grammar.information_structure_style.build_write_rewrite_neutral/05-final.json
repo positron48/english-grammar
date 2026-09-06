@@ -516,7 +516,7 @@
         "theory_block_id": "b1_theory_audience_goal",
         "difficulty": 2,
         "correct_answer": "This email is intended for all staff.",
-        "explanation": "Формальная формула с clearly stated audience.",
+        "explanation": "Формула *This email is intended for...* прямо и нейтрально указывает адресата сообщения.",
         "translation_ru": "Это письмо предназначено для всего персонала."
       },
       {
@@ -610,7 +610,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "В формальном письме phrasal verbs часто заменяют на однословные глаголы."
+        "explanation": "В этом значении *postpone* — более формальный однословный эквивалент *put off*. Многие phrasal verbs допустимы и в формальной речи; выбор зависит от конкретного выражения и контекста."
       },
       {
         "id": "q15",
@@ -646,11 +646,11 @@
       {
         "id": "q16",
         "type": "true_false",
-        "prompt": "Phrasal verbs часто используются в официальных отчетах.",
+        "prompt": "Утверждение: в строгом формальном тексте любой phrasal verb всегда считается ошибкой.",
         "theory_block_id": "b2_theory_lexical_upgrade",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Официальная речь предпочитает однословные эквиваленты."
+        "explanation": "Phrasal verbs различаются по регистру: одни нейтральны, другие разговорны. В формальном тексте иногда выбирают точный однословный эквивалент, но абсолютного запрета нет."
       },
       {
         "id": "q17",
@@ -866,7 +866,7 @@
           {
             "id": "b",
             "text": "We recommend that the issue is reviewed.",
-            "feedback": "Менее формально и неверное согласование."
+            "feedback": "Это личная конструкция с *we*, а вопрос требует безличную формулировку. В британском английском форма *is reviewed* после *recommend* возможна."
           },
           {
             "id": "c",
@@ -880,7 +880,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Формальная рекомендация часто оформляется безлично: It is recommended that..."
+        "explanation": "Безличная рекомендация оформлена как *It is recommended that...*. В формальном mandative clause используется базовая форма *be reviewed*."
       },
       {
         "id": "q30",
@@ -1307,11 +1307,11 @@
       {
         "id": "q55",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: ___, we recommend postponing the launch. (contrast linker)",
+        "prompt": "Заполните пропуск: “The proposal has clear benefits. ___, we recommend postponing the launch.” (contrast linker)",
         "theory_block_id": "b5_theory_cohesion_structure",
         "difficulty": 2,
         "correct_answer": "However",
-        "explanation": "However вводит контраст и сохраняет формальный тон."
+        "explanation": "*However* вводит контраст между преимуществами предложения и рекомендацией отложить запуск."
       },
       {
         "id": "q56",
@@ -1397,11 +1397,11 @@
       {
         "id": "q60",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: The findings were reviewed. ___, no changes were required. (result linker)",
+        "prompt": "Заполните пропуск: “The review confirmed full compliance. ___, no changes were required.” (result linker)",
         "theory_block_id": "b5_theory_cohesion_structure",
         "difficulty": 2,
         "correct_answer": "Consequently",
-        "explanation": "Consequently выражает следствие в формальном стиле."
+        "explanation": "*Consequently* связывает подтверждённое соответствие требованиям с выводом, что изменения не потребовались."
       }
     ]
   },
@@ -1468,7 +1468,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:28Z",
+    "updated_at": "2026-09-05T23:33:35Z",
     "source": "llm"
   }
 }

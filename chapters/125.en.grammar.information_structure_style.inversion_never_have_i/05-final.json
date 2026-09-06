@@ -445,7 +445,7 @@
           {
             "id": "b",
             "text": "Rarely do we see mistakes like this.",
-            "feedback": "Верно: rare + inversion."
+            "feedback": "Верно: *rarely* в начале запускает инверсию."
           },
           {
             "id": "c",
@@ -468,7 +468,7 @@
         "theory_block_id": "b1_theory_negative_adverbs",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Когда seldom стоит в начале, требуется инверсия. Без нее предложение звучит неверно в формальном стиле."
+        "explanation": "Когда *seldom* вынесено в начало, в стандартном английском требуется инверсия: *Seldom do they arrive early*. Сама фронтированная конструкция звучит формальнее обычного *They seldom arrive early*."
       },
       {
         "id": "q10",
@@ -518,7 +518,7 @@
         "difficulty": 2,
         "correct_answer": "Never did we doubt her skills.",
         "explanation": "После never нужна инверсия с did: Never did we doubt.",
-        "translation_ru": "Никогда мы не сомневались в её способностях."
+        "translation_ru": "Мы никогда не сомневались в её способностях."
       },
       {
         "id": "q13",
@@ -594,11 +594,11 @@
       {
         "id": "q16",
         "type": "true_false",
-        "prompt": "В конструкции Not only..., but also... инверсия используется только в первой части.",
+        "prompt": "Утверждение: когда *Not only* вводит первую из двух полных частей (*Not only did he…, but he also…*), инверсия используется только в первой части.",
         "theory_block_id": "b2_theory_not_only",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Да, инверсия обязательна в первой части после not only. Вторая часть строится обычно."
+        "explanation": "Если *Not only* вынесено в начало полной первой части, после него нужна инверсия, а вторая часть имеет обычный порядок слов. При другом положении или если *not only* связывает отдельные члены предложения, правило инверсии не применяется."
       },
       {
         "id": "q17",
@@ -743,7 +743,7 @@
       {
         "id": "q25",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"Little ___ they know about the merger.\"",
+        "prompt": "Выберите правильный вариант для прошлого рассказа: \"At the time, little ___ they know about the merger.\"",
         "theory_block_id": "b3_theory_little_no_so",
         "difficulty": 3,
         "choices": [
@@ -755,7 +755,7 @@
           {
             "id": "b",
             "text": "do",
-            "feedback": "Do относится к настоящему, но здесь past implication."
+            "feedback": "Эта форма дала бы настоящее время, а условие задаёт прошлый рассказ."
           },
           {
             "id": "c",
@@ -769,7 +769,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Little в значении «едва/почти не» требует инверсии. В прошедшем: Little did they know."
+        "explanation": "В прошлом рассказе используется *Little did they know*. Без прошедшего контекста также возможно настоящее *Little do they know*."
       },
       {
         "id": "q26",
@@ -824,7 +824,7 @@
       {
         "id": "q30",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"No sooner ___ we arrived than the show started.\"",
+        "prompt": "Выберите стандартный вариант по модели *No sooner + Past Perfect + than + Past Simple*: \"No sooner ___ we arrived than the show started.\"",
         "theory_block_id": "b3_theory_little_no_so",
         "difficulty": 3,
         "choices": [
@@ -836,7 +836,7 @@
           {
             "id": "b",
             "text": "did",
-            "feedback": "Did не используется в no sooner."
+            "feedback": "В этом задании требуется стандартная модель с Past Perfect: *had arrived*."
           },
           {
             "id": "c",
@@ -850,7 +850,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "No sooner обычно используется с Past Perfect и инверсией: No sooner had we arrived than..."
+        "explanation": "Стандартный учебный шаблон использует Past Perfect с инверсией: *No sooner had we arrived than…*. В других контекстах встречается и *No sooner did…*, поэтому временная модель указана в условии."
       },
       {
         "id": "q31",
@@ -873,7 +873,7 @@
       {
         "id": "q33",
         "type": "error_spotting",
-        "prompt": "Выберите правильный вариант предложения.",
+        "prompt": "Выберите стандартный вариант по модели *No sooner + Past Perfect + than + Past Simple*.",
         "theory_block_id": "b3_theory_little_no_so",
         "difficulty": 3,
         "choices": [
@@ -899,7 +899,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "No sooner требует Past Perfect и инверсии: had + subject + V3."
+        "explanation": "Заданная модель требует Past Perfect с инверсией: *No sooner had he left than the manager arrived*. Вариант с *did* дополнительно содержит неверную форму *left* после *did*."
       },
       {
         "id": "q34",
@@ -1339,7 +1339,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "После never в начале: auxiliary + subject + V3/V1. Правильно: Never have I heard."
+        "explanation": "После начального *never* вспомогательный глагол ставится перед подлежащим. В Present Perfect схема имеет вид *have + subject + V3*: *Never have I heard…*; с *do/did* смысловой глагол стоял бы в V1."
       },
       {
         "id": "q58",
@@ -1459,7 +1459,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:26Z",
+    "updated_at": "2026-09-05T23:08:33Z",
     "source": "llm"
   }
 }

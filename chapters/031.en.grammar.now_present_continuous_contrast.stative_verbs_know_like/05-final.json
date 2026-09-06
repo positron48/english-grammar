@@ -427,7 +427,7 @@
         "theory_block_id": "b1_theory_what_are_stative_verbs",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Верно. Статичные глаголы описывают постоянные состояния, а не временные действия, поэтому они обычно не используются в Continuous.",
+        "explanation": "Глаголы в значении состояния обычно употребляются в простой форме: I know the answer. Состояние может быть временным; его длительность сама по себе не определяет выбор формы.",
         "tags": [
           "concept"
         ]
@@ -435,11 +435,11 @@
       {
         "id": "q2b",
         "type": "true_false",
-        "prompt": "Все статичные глаголы можно использовать в Present Continuous.",
+        "prompt": "Любой глагол состояния можно свободно поставить в Present Continuous, если добавить now.",
         "theory_block_id": "b1_theory_what_are_stative_verbs",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Неверно. Большинство статичных глаголов не используются в Continuous. Только некоторые могут использоваться в Continuous с изменением значения (исключения).",
+        "explanation": "Now не делает Continuous обязательным или допустимым для любого глагола: I know the answer now. У некоторых глаголов форма Continuous возможна в определённых значениях и контекстах.",
         "tags": [
           "concept"
         ]
@@ -476,7 +476,7 @@
       {
         "id": "q4",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I ___ English very well.\" (знать)",
+        "prompt": "Заполните пропуск формой настоящего времени: I ___ English very well. (to know)",
         "theory_block_id": "b1_theory_what_are_stative_verbs",
         "difficulty": 2,
         "correct_answer": "know",
@@ -547,7 +547,7 @@
       {
         "id": "q8",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"She ___ chocolate very much.\" (like)",
+        "prompt": "Заполните пропуск в Present Simple: She ___ chocolate very much. (like)",
         "theory_block_id": "b2_theory_groups_stative_verbs",
         "difficulty": 2,
         "correct_answer": "likes",
@@ -560,11 +560,11 @@
       {
         "id": "q9",
         "type": "true_false",
-        "prompt": "Статичные глаголы делятся на четыре основные группы: чувства, мысли, владение и восприятие.",
+        "prompt": "Среди глаголов состояния можно выделить группы чувств, мыслей, владения и восприятия.",
         "theory_block_id": "b2_theory_groups_stative_verbs",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Верно. Статичные глаголы делятся на четыре основные группы: чувства (like, love), мысли (know, believe), владение (have, own), восприятие (see, hear).",
+        "explanation": "Например: like — чувство или предпочтение, know — знание, own — владение, hear — восприятие. Это полезная классификация, а не исчерпывающий список всех возможных групп.",
         "tags": [
           "categories"
         ]
@@ -613,11 +613,11 @@
       {
         "id": "q11",
         "type": "true_false",
-        "prompt": "Статичные глаголы не используются в Continuous, потому что они описывают постоянные состояния, а не временные действия.",
+        "prompt": "Глаголы состояния обычно не употребляются в Continuous, потому что любое состояние обязательно постоянно и не может быть временным.",
         "theory_block_id": "b3_theory_why_not_continuous",
         "difficulty": 1,
-        "correct_answer": "true",
-        "explanation": "Верно. Continuous используется для временных действий в момент речи, а статичные глаголы описывают постоянные состояния, поэтому они логически несовместимы.",
+        "correct_answer": "false",
+        "explanation": "Состояния бывают временными: I need help right now. Выбор формы зависит от значения и употребления глагола, а не только от длительности состояния.",
         "tags": [
           "reason"
         ]
@@ -637,7 +637,7 @@
       {
         "id": "q13",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I ___ the problem.\" (видеть, понимать)",
+        "prompt": "Заполните пропуск в Present Simple в значении «понимать»: I ___ the problem. (to see)",
         "theory_block_id": "b3_theory_why_not_continuous",
         "difficulty": 2,
         "correct_answer": "see",
@@ -656,22 +656,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "Они описывают постоянные состояния, а Continuous для временных действий",
-            "feedback": "Правильно! Continuous для временных действий, а статичные глаголы — для постоянных состояний."
+            "text": "Они обычно представляют ситуацию как состояние, а не разворачивающийся процесс",
+            "feedback": "Это особенность их значения и употребления; состояние не обязательно постоянно."
           },
           {
             "id": "b",
             "text": "Они всегда используются только в Past Simple",
-            "feedback": "Нет, статичные глаголы используются в разных временах, но обычно не в Continuous."
+            "feedback": "Глаголы состояния употребляются в разных временах."
           },
           {
             "id": "c",
-            "text": "Они слишком сложные для Continuous",
-            "feedback": "Нет, дело не в сложности, а в логической несовместимости."
+            "text": "Их основа слишком длинная для окончания -ing",
+            "feedback": "Длина основы не определяет употребление Continuous."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Статичные глаголы описывают постоянные состояния, а Continuous используется для временных действий в момент речи. Это логически несовместимо.",
+        "explanation": "В значении состояния эти глаголы обычно употребляются в простой форме. Нельзя объяснять это постоянством всех состояний: I need help now описывает текущую потребность. Некоторые глаголы допускают Continuous в других значениях или контекстах.",
         "tags": [
           "reason"
         ]
@@ -679,7 +679,7 @@
       {
         "id": "q18",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I ___ a car.\" (иметь)",
+        "prompt": "Заполните пропуск одним словом в Present Simple в значении владения: I ___ a car. (to have)",
         "theory_block_id": "b4_theory_exceptions_action_meaning",
         "difficulty": 3,
         "correct_answer": "have",
@@ -719,28 +719,28 @@
       {
         "id": "q32",
         "type": "mcq_single",
-        "prompt": "Какая типичная ошибка русскоязычных студентов при использовании статичных глаголов?",
+        "prompt": "В чём ошибка в I am knowing the answer now в нейтральной английской речи?",
         "theory_block_id": "b6_theory_common_mistakes",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "Использование статичных глаголов в Continuous по аналогии с русским языком",
-            "feedback": "Правильно! Это основная типичная ошибка."
+            "text": "Know в значении «знать» ошибочно поставлено в Continuous",
+            "feedback": "Обычно нужно I know the answer now."
           },
           {
             "id": "b",
-            "text": "Использование статичных глаголов только в Past Simple",
-            "feedback": "Нет, статичные глаголы используются в разных временах, но обычно не в Continuous."
+            "text": "С I всегда нужен Past Simple",
+            "feedback": "I может употребляться с разными временами."
           },
           {
             "id": "c",
-            "text": "Использование статичных глаголов только в вопросах",
-            "feedback": "Нет, статичные глаголы используются в утверждениях, вопросах и отрицаниях."
+            "text": "Know употребляется только в вопросах",
+            "feedback": "Know употребляется и в утверждениях, и в отрицаниях."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Типичная ошибка — использование статичных глаголов в Continuous по аналогии с русским языком, где \"Я знаю\" и \"Я знаю сейчас\" звучат одинаково.",
+        "explanation": "Know в значении «знать» обычно не употребляется в Continuous. Слово now не меняет этого: I know the answer now.",
         "tags": [
           "common_mistake",
           "concept"
@@ -749,11 +749,11 @@
       {
         "id": "q33",
         "type": "true_false",
-        "prompt": "Не все глаголы, описывающие что-то \"сейчас\", должны быть в Continuous — статичные глаголы остаются в Simple.",
+        "prompt": "Слово now не всегда требует Continuous: например, правильно I know the answer now.",
         "theory_block_id": "b6_theory_common_mistakes",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Верно. Статичные глаголы описывают состояния, а не действия, поэтому они остаются в Simple даже когда речь идет о \"сейчас\".",
+        "explanation": "В этом значении know описывает знание и употребляется в Present Simple, даже если речь идёт о текущем моменте.",
         "tags": [
           "common_mistake",
           "concept"
@@ -775,7 +775,7 @@
       {
         "id": "q34",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"We ___ a house in the city.\" (иметь)",
+        "prompt": "Заполните пропуск одним словом в Present Simple в значении владения: We ___ a house in the city. (to have)",
         "theory_block_id": "b6_theory_common_mistakes",
         "difficulty": 3,
         "correct_answer": "have",
@@ -788,7 +788,7 @@
       {
         "id": "q35",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"They ___ the music.\" (слышать)",
+        "prompt": "Заполните пропуск одним словом в Present Simple: They ___ the music. (to hear)",
         "theory_block_id": "b2_theory_groups_stative_verbs",
         "difficulty": 2,
         "correct_answer": "hear",
@@ -826,7 +826,7 @@
       {
         "id": "q40",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I ___ you're right about this.\" (полагать)",
+        "prompt": "Заполните пропуск в Present Simple в значении «полагать»: I ___ you're right about this. (to think)",
         "theory_block_id": "b4_theory_exceptions_action_meaning",
         "difficulty": 3,
         "correct_answer": "think",
@@ -839,11 +839,11 @@
       {
         "id": "q46",
         "type": "true_false",
-        "prompt": "Глагол 'be' в Continuous используется только для временного поведения, а не для постоянных черт характера.",
+        "prompt": "В You are being rude глагол be в Continuous описывает поведение в ситуации; You are rude может описывать черту характера.",
         "theory_block_id": "b5_theory_exceptions_temporary_state",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Верно. be в Continuous используется для временного поведения (You're being rude), а для постоянных черт используется Simple (She is kind).",
+        "explanation": "Being rude представляет грубость как поведение в данной ситуации. Форма are rude может характеризовать человека; это не означает, что все состояния с be постоянны.",
         "tags": [
           "exception",
           "be"
@@ -852,7 +852,7 @@
       {
         "id": "q48",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I ___ the answer to this question.\" (знать)",
+        "prompt": "Заполните пропуск в Present Simple: I ___ the answer to this question. (to know)",
         "theory_block_id": "b1_theory_what_are_stative_verbs",
         "difficulty": 2,
         "correct_answer": "know",
@@ -877,7 +877,7 @@
       {
         "id": "q51",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"We ___ this movie.\" (любить)",
+        "prompt": "Заполните пропуск в Present Simple: We ___ this movie. (to love)",
         "theory_block_id": "b2_theory_groups_stative_verbs",
         "difficulty": 2,
         "correct_answer": "love",
@@ -890,11 +890,11 @@
       {
         "id": "q54",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"She ___ her job.\" (own)",
+        "prompt": "Заполните пропуск в Present Simple: She ___ a house. (own)",
         "theory_block_id": "b2_theory_groups_stative_verbs",
         "difficulty": 2,
         "correct_answer": "owns",
-        "explanation": "own — статичный глагол из группы владения. С she используется форма owns в Present Simple.",
+        "explanation": "Own в значении владения обычно используется в простой форме. С she в Present Simple нужна форма owns: She owns a house — «Она владеет домом».",
         "tags": [
           "fill_blank",
           "possession"
@@ -903,11 +903,11 @@
       {
         "id": "q56",
         "type": "true_false",
-        "prompt": "Continuous используется для временных действий в момент речи, а статичные глаголы описывают постоянные состояния.",
+        "prompt": "Любое временное состояние требует Continuous, даже если глагол обычно не употребляется в этой форме.",
         "theory_block_id": "b3_theory_why_not_continuous",
         "difficulty": 1,
-        "correct_answer": "true",
-        "explanation": "Верно. Это основная причина, почему статичные глаголы обычно не используются в Continuous — они логически несовместимы.",
+        "correct_answer": "false",
+        "explanation": "Временность не делает Continuous обязательным: I need help at the moment. Важно учитывать значение и употребление конкретного глагола.",
         "tags": [
           "reason"
         ]
@@ -915,7 +915,7 @@
       {
         "id": "q57",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I ___ you're wrong about this.\" (полагать)",
+        "prompt": "Заполните пропуск в Present Simple в значении «полагать»: I ___ you're wrong about this. (to think)",
         "theory_block_id": "b4_theory_exceptions_action_meaning",
         "difficulty": 3,
         "correct_answer": "think",
@@ -935,17 +935,17 @@
           {
             "id": "a",
             "text": "You are being very patient today.",
-            "feedback": "Правильно. be в Continuous показывает временное поведение в конкретной ситуации."
+            "feedback": "Being patient описывает терпеливое поведение в этой ситуации."
           },
           {
             "id": "b",
             "text": "She is being kind person.",
-            "feedback": "Неправильно: пропущен артикль, и для постоянной характеристики обычно нужен Present Simple."
+            "feedback": "Перед исчисляемым person в единственном числе нужен артикль: a kind person."
           },
           {
             "id": "c",
             "text": "I am being know the answer.",
-            "feedback": "Неправильно: know — статичный глагол, форма being здесь грамматически неверна."
+            "feedback": "Am being нельзя соединить с know таким образом; нужно I know the answer."
           }
         ],
         "correct_answer": "a",
@@ -1005,7 +1005,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для временного состояния правильно: I'm feeling stressed this week.",
+        "explanation": "I'm feeling stressed this week грамматически правильно: am + feeling. Для текущего самочувствия допустима и простая форма I feel stressed, но её нет среди вариантов.",
         "tags": [
           "exception",
           "feel"
@@ -1055,7 +1055,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-02-08T15:35:43Z",
+    "updated_at": "2026-09-04T16:25:24Z",
     "source": "llm"
   }
 }

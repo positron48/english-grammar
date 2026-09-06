@@ -357,11 +357,11 @@
       {
         "id": "q3",
         "type": "true_false",
-        "prompt": "Верно или неверно: При описании комнаты или места в утверждениях с there is/are мы используем some для неопределённого количества.",
+        "prompt": "Верно ли, что в There are some books on the shelf слово some указывает на неопределённое количество книг?",
         "theory_block_id": "b1_theory_combining_there_is_with_some",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Верно. В утвердительных предложениях с there is/are при описании используется some для неопределённого количества.",
+        "explanation": "Да. Some books означает некоторое количество книг; точное число не названо.",
         "tags": [
           "affirmative"
         ]
@@ -369,28 +369,28 @@
       {
         "id": "q4",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"___ some coffee on the table?\"",
+        "prompt": "Выберите начало вопроса с инверсией: «___ some coffee on the table?»",
         "theory_block_id": "b1_theory_combining_there_is_with_some",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "There is",
-            "feedback": "Нет, это вопрос, нужно Is there."
+            "feedback": "Это порядок слов утвердительного предложения; условие требует инверсии."
           },
           {
             "id": "b",
             "text": "Is there",
-            "feedback": "Правильно! В вопросах используется Is there any."
+            "feedback": "Coffee здесь неисчисляемое; в вопросе is стоит перед there."
           },
           {
             "id": "c",
             "text": "Are there",
-            "feedback": "Нет, coffee — неисчисляемое, нужен is."
+            "feedback": "Coffee здесь неисчисляемое, поэтому нужна форма is."
           }
         ],
         "correct_answer": "b",
-        "explanation": "В вопросах с неисчисляемыми используется Is there any: Is there any coffee on the table?",
+        "explanation": "Is there some coffee on the table? — вопрос с инверсией. Some возможно, например, если говорящий предполагает, что кофе есть; any тоже употребляется в вопросах, но в задании дано some.",
         "tags": [
           "question",
           "uncountable"
@@ -399,7 +399,7 @@
       {
         "id": "q5",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"There ___ any chairs in this room.\" (be, отрицание)",
+        "prompt": "Заполните пропуск сокращённой отрицательной формой в Present Simple: «There ___ any chairs in this room». (be)",
         "theory_block_id": "b1_theory_combining_there_is_with_some",
         "difficulty": 2,
         "correct_answer": "aren't",
@@ -468,11 +468,11 @@
       {
         "id": "q9",
         "type": "true_false",
-        "prompt": "Верно или неверно: В отрицаниях с there is/are мы используем any вместо some.",
+        "prompt": "Верно ли, что There isn’t any milk означает полное отсутствие молока?",
         "theory_block_id": "b1_theory_combining_there_is_with_some",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Верно. В отрицательных предложениях используется any: There isn't any milk.",
+        "explanation": "Да. В этом отрицании any milk означает «сколько-нибудь молока»: молока нет.",
         "tags": [
           "negative"
         ]
@@ -510,7 +510,7 @@
       {
         "id": "q11",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"There ___ any pens in my bag.\" (be, отрицание)",
+        "prompt": "Заполните пропуск сокращённой отрицательной формой в Present Simple: «There ___ any pens in my bag». (be)",
         "theory_block_id": "b1_theory_combining_there_is_with_some",
         "difficulty": 2,
         "correct_answer": "aren't",
@@ -537,7 +537,7 @@
       {
         "id": "q13",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"There is ___ phone on the desk.\"",
+        "prompt": "Выберите правильный вариант: «___ phone is on the desk».",
         "theory_block_id": "b2_theory_using_possessive_adjectives",
         "difficulty": 1,
         "choices": [
@@ -558,7 +558,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Притяжательное местоимение my стоит перед существительным: There is my phone on the desk.",
+        "explanation": "My стоит перед phone и показывает принадлежность: My phone is on the desk. Так сообщают местоположение известного предмета.",
         "tags": [
           "possessive"
         ]
@@ -566,11 +566,11 @@
       {
         "id": "q14",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"There are ___ books on the shelf.\" (you)",
+        "prompt": "Заполните пропуск: «___ books are on the shelf». (you)",
         "theory_block_id": "b2_theory_using_possessive_adjectives",
         "difficulty": 1,
         "correct_answer": "your",
-        "explanation": "Притяжательное местоимение your стоит перед существительным: There are your books on the shelf.",
+        "explanation": "Your стоит перед books: Your books are on the shelf — «Твои книги на полке».",
         "tags": [
           "possessive"
         ]
@@ -578,11 +578,11 @@
       {
         "id": "q15",
         "type": "true_false",
-        "prompt": "Верно или неверно: Притяжательные местоимения стоят перед существительным.",
+        "prompt": "Верно ли, что формы my и your употребляются перед существительным, как в my book и your phone?",
         "theory_block_id": "b2_theory_using_possessive_adjectives",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Верно. Притяжательные местоимения всегда стоят перед существительным: my book, your phone.",
+        "explanation": "Да. My и your — зависимые притяжательные формы. Самостоятельные mine и yours употребляются без следующего за ними существительного.",
         "tags": [
           "possessive"
         ]
@@ -590,7 +590,7 @@
       {
         "id": "q16",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"Are there ___ keys in the drawer?\"",
+        "prompt": "Выберите правильный вариант: «Are ___ keys in the drawer?»",
         "theory_block_id": "b2_theory_using_possessive_adjectives",
         "difficulty": 2,
         "choices": [
@@ -611,7 +611,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "В вопросах с притяжательными используется your перед существительным: Are there your keys in the drawer?",
+        "explanation": "Перед keys нужна зависимая форма your: Are your keys in the drawer? Самостоятельное yours не ставится перед существительным.",
         "tags": [
           "question",
           "possessive"
@@ -645,28 +645,28 @@
       {
         "id": "q19",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"There are ___ shoes under the bed.\"",
+        "prompt": "Выберите правильный вариант: «___ shoes are under the bed».",
         "theory_block_id": "b2_theory_using_possessive_adjectives",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "her",
-            "feedback": "Правильно! Притяжательное местоимение her используется для женского рода."
+            "feedback": "Her перед shoes означает принадлежность женщине."
           },
           {
             "id": "b",
             "text": "she",
-            "feedback": "Нет, she — это подлежащее, не притяжательное местоимение."
+            "feedback": "She — личное местоимение «она», а здесь нужна форма перед существительным."
           },
           {
             "id": "c",
             "text": "hers",
-            "feedback": "Нет, hers используется без существительного."
+            "feedback": "Hers употребляется самостоятельно, без существительного."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Притяжательное местоимение her стоит перед существительным: There are her shoes under the bed.",
+        "explanation": "Her shoes are under the bed означает «Её туфли под кроватью». Выбор her зависит от владелицы, а не от рода предметов.",
         "tags": [
           "possessive"
         ]
@@ -674,11 +674,11 @@
       {
         "id": "q20",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"Is there ___ wallet in the bag?\" (you)",
+        "prompt": "Заполните пропуск: «Is ___ wallet in the bag?» (you)",
         "theory_block_id": "b2_theory_using_possessive_adjectives",
         "difficulty": 1,
         "correct_answer": "your",
-        "explanation": "Притяжательное местоимение your стоит перед существительным: Is there your wallet in the bag?",
+        "explanation": "Your стоит перед wallet: Is your wallet in the bag? — «Твой кошелёк в сумке?»",
         "tags": [
           "question",
           "possessive"
@@ -687,28 +687,28 @@
       {
         "id": "q22",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"There are ___ toys in the room.\"",
+        "prompt": "Выберите правильный вариант: «___ toys are in the room».",
         "theory_block_id": "b2_theory_using_possessive_adjectives",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "our",
-            "feedback": "Правильно! Притяжательное местоимение our используется для множественного числа."
+            "feedback": "Our означает «наш/наши» и относится к группе владельцев."
           },
           {
             "id": "b",
             "text": "we",
-            "feedback": "Нет, we — это подлежащее, не притяжательное местоимение."
+            "feedback": "We — личное местоимение «мы», а не форма перед существительным."
           },
           {
             "id": "c",
             "text": "us",
-            "feedback": "Нет, us — это объектное местоимение."
+            "feedback": "Us — объектная форма, она не определяет toys."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Притяжательное местоимение our стоит перед существительным: There are our toys in the room.",
+        "explanation": "Our toys are in the room — «Наши игрушки в комнате». Our зависит от владельцев: оно также возможно с одним предметом, например our toy.",
         "tags": [
           "possessive"
         ]
@@ -716,11 +716,11 @@
       {
         "id": "q23",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"There is ___ cat in the garden.\" (he)",
+        "prompt": "Заполните пропуск: «___ cat is in the garden». (he)",
         "theory_block_id": "b2_theory_using_possessive_adjectives",
         "difficulty": 1,
         "correct_answer": "his",
-        "explanation": "Притяжательное местоимение his стоит перед существительным: There is his cat in the garden.",
+        "explanation": "His cat is in the garden означает «Его кот в саду». His стоит перед cat и указывает на владельца.",
         "tags": [
           "possessive"
         ]
@@ -742,24 +742,24 @@
       {
         "id": "q25",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"There is a lamp ___ the desk.\"",
+        "prompt": "Лампа стоит на поверхности письменного стола. Выберите предлог: «There is a lamp ___ the desk».",
         "theory_block_id": "b3_theory_describing_location",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "on",
-            "feedback": "Правильно! On означает \"на поверхности\"."
+            "feedback": "On означает «на поверхности» и соответствует условию."
           },
           {
             "id": "b",
             "text": "in",
-            "feedback": "Нет, in означает \"внутри\", а лампа обычно стоит на столе."
+            "feedback": "In означало бы «внутри стола», а здесь речь о поверхности."
           },
           {
             "id": "c",
             "text": "under",
-            "feedback": "Нет, under означает \"под\", а лампа обычно стоит на столе."
+            "feedback": "Under означало бы «под столом», что не соответствует условию."
           }
         ],
         "correct_answer": "a",
@@ -771,7 +771,7 @@
       {
         "id": "q26",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"There are some shoes ___ the bed.\" (под)",
+        "prompt": "Выберите under или on и заполните пропуск: «There are some shoes ___ the bed». (под)",
         "theory_block_id": "b3_theory_describing_location",
         "difficulty": 1,
         "correct_answer": "under",
@@ -795,7 +795,7 @@
       {
         "id": "q28",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"Is there a picture ___ the wall?\"",
+        "prompt": "Как спросить о картине на поверхности стены? «Is there a picture ___ the wall?»",
         "theory_block_id": "b3_theory_describing_location",
         "difficulty": 2,
         "choices": [
@@ -825,7 +825,7 @@
       {
         "id": "q29",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"There is a book ___ the drawer.\" (в)",
+        "prompt": "Выберите in или under и заполните пропуск: «There is a book ___ the drawer». (внутри)",
         "theory_block_id": "b3_theory_describing_location",
         "difficulty": 1,
         "correct_answer": "in",
@@ -850,24 +850,24 @@
       {
         "id": "q31",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"There are some books ___ the shelf.\"",
+        "prompt": "Книги находятся на полке. Выберите предлог: «There are some books ___ the shelf».",
         "theory_block_id": "b3_theory_describing_location",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "on",
-            "feedback": "Правильно! Книги стоят на полке, используется on."
+            "feedback": "On the shelf означает «на полке»."
           },
           {
             "id": "b",
             "text": "in",
-            "feedback": "Нет, книги обычно стоят на полке, а не внутри."
+            "feedback": "In обозначает положение внутри, а здесь задана поверхность полки."
           },
           {
             "id": "c",
             "text": "under",
-            "feedback": "Нет, under означает \"под\", а книги на полке."
+            "feedback": "Under the shelf означает «под полкой», а не на ней."
           }
         ],
         "correct_answer": "a",
@@ -879,7 +879,7 @@
       {
         "id": "q32",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"There is a cat ___ the table.\" (под)",
+        "prompt": "Выберите under или in и заполните пропуск: «There is a cat ___ the table». (под)",
         "theory_block_id": "b3_theory_describing_location",
         "difficulty": 1,
         "correct_answer": "under",
@@ -891,7 +891,7 @@
       {
         "id": "q34",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: \"There is a ball ___ the box.\"",
+        "prompt": "Мяч находится внутри коробки. Выберите предлог: «There is a ball ___ the box».",
         "theory_block_id": "b3_theory_describing_location",
         "difficulty": 1,
         "choices": [
@@ -920,7 +920,7 @@
       {
         "id": "q35",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"There are some flowers ___ the vase.\" (в)",
+        "prompt": "Выберите in или on и заполните пропуск: «There are some flowers ___ the vase». (в)",
         "theory_block_id": "b3_theory_describing_location",
         "difficulty": 1,
         "correct_answer": "in",
@@ -940,7 +940,7 @@
         "tags": [
           "location"
         ],
-        "translation_ru": "В шкафу есть несколько вещей."
+        "translation_ru": "В шкафу есть одежда."
       },
       {
         "id": "q37",
@@ -999,28 +999,28 @@
       {
         "id": "q40",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант ответа на вопрос \"How many windows?\"",
+        "prompt": "В комнате два окна. Выберите правдивый и грамматически правильный ответ на вопрос «How many windows are there?»",
         "theory_block_id": "b4_theory_counting_items",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "There are two windows.",
-            "feedback": "Правильно! Ответ содержит числительное."
+            "feedback": "Two windows соответствует двум окнам; используется are."
           },
           {
             "id": "b",
             "text": "There is some windows.",
-            "feedback": "Нет, windows — множественное число, нужен are, и нужна точная цифра."
+            "feedback": "С windows нужна форма are; some не указывает точное число."
           },
           {
             "id": "c",
             "text": "There is a window.",
-            "feedback": "Нет, вопрос о количестве, а не о наличии одного предмета."
+            "feedback": "Это грамматически правильная фраза об одном окне, но в условии их два."
           }
         ],
         "correct_answer": "a",
-        "explanation": "На вопрос How many? отвечаем с числительным: There are two windows.",
+        "explanation": "There are two windows сообщает заданное количество. Об одном окне тоже можно ответить There is a window, если это соответствует ситуации.",
         "tags": [
           "counting"
         ]
@@ -1087,7 +1087,7 @@
         "theory_block_id": "b4_theory_counting_items",
         "difficulty": 1,
         "correct_answer": "two",
-        "explanation": "С числительными используется there are: There are two pens on the desk.",
+        "explanation": "Two означает «два». Two pens — множественное число, поэтому используется are.",
         "tags": [
           "counting"
         ]
@@ -1095,11 +1095,11 @@
       {
         "id": "q45",
         "type": "true_false",
-        "prompt": "Верно или неверно: С числительным one используется there are.",
+        "prompt": "Верно ли согласовано предложение There are one door?",
         "theory_block_id": "b4_theory_counting_items",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Верно. С числительным one используется there is, так как речь идет об одном предмете: There is one door.",
+        "explanation": "Неверно. One door — единственное число: There is one door.",
         "tags": [
           "counting"
         ]
@@ -1107,28 +1107,28 @@
       {
         "id": "q46",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант ответа на вопрос \"How many doors?\"",
+        "prompt": "В комнате одна дверь. Выберите ответ на How many doors are there?, где количество названо числительным.",
         "theory_block_id": "b4_theory_counting_items",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "There is one door.",
-            "feedback": "Правильно! Ответ содержит числительное."
+            "feedback": "One — числительное «один»; оно соответствует условию."
           },
           {
             "id": "b",
             "text": "There is a door.",
-            "feedback": "Нет, вопрос о количестве, нужна точная цифра."
+            "feedback": "Фраза об одной двери правильна, но a — артикль, а условие требует числительного."
           },
           {
             "id": "c",
             "text": "There are some doors.",
-            "feedback": "Нет, вопрос о точном количестве, а не о неопределенном."
+            "feedback": "Some doors не называет точное число и обозначает несколько дверей."
           }
         ],
         "correct_answer": "a",
-        "explanation": "На вопрос How many? отвечаем с числительным: There is one door.",
+        "explanation": "There is one door явно называет число словом one. There is a door тоже может быть ответом об одной двери, но не содержит числительного.",
         "tags": [
           "counting"
         ]
@@ -1161,28 +1161,28 @@
       {
         "id": "q49",
         "type": "mcq_single",
-        "prompt": "Выберите правильное начало описания комнаты:",
+        "prompt": "Выберите грамматически правильное начало описания комнаты.",
         "theory_block_id": "b5_theory_building_descriptions",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "I'm describing my room. There is a bed.",
-            "feedback": "Правильно! Начните с общего описания, затем опишите предметы."
+            "text": "This is my room. There is a bed.",
+            "feedback": "Сначала названа комната, затем сообщается о кровати."
           },
           {
             "id": "b",
             "text": "My room a bed.",
-            "feedback": "Нет, используйте полные предложения с there is/are."
+            "feedback": "В такой фразе отсутствует глагол, связывающий предмет и место."
           },
           {
             "id": "c",
             "text": "Room bed table.",
-            "feedback": "Нет, используйте полные предложения с правильной грамматикой."
+            "feedback": "Перечень слов не образует предложение."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Описание начинается с общего введения, затем используются предложения с there is/are: I'm describing my room. There is a bed.",
+        "explanation": "This is my room. There is a bed — связное начало описания. Можно сначала назвать место, затем перечислять находящиеся там предметы.",
         "tags": [
           "full_description"
         ]
@@ -1202,11 +1202,11 @@
       {
         "id": "q51",
         "type": "true_false",
-        "prompt": "Верно или неверно: При описании комнаты можно комбинировать there is/are с притяжательными местоимениями и предлогами места.",
+        "prompt": "Верно ли, что In my room there is a desk сообщает о столе в комнате говорящего?",
         "theory_block_id": "b5_theory_building_descriptions",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Верно. Полное описание комбинирует there is/are + притяжательные местоимения + предлоги места: There is my phone on the table.",
+        "explanation": "Да. My определяет room («моя комната»), а there is a desk сообщает о наличии стола.",
         "tags": [
           "full_description"
         ]
@@ -1221,21 +1221,21 @@
           {
             "id": "a",
             "text": "There are some books on the desk.",
-            "feedback": "Правильно! Описание продолжается с there is/are."
+            "feedback": "Books — множественное число, поэтому нужно are."
           },
           {
             "id": "b",
             "text": "There is some books on the desk.",
-            "feedback": "Нет, используйте полные предложения."
+            "feedback": "Books требует are, а не is."
           },
           {
             "id": "c",
             "text": "There some books on the desk.",
-            "feedback": "Нет, используйте правильный порядок слов с there is/are."
+            "feedback": "Между there и some books отсутствует are."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Описание продолжается с предложений there is/are: There are some books on the desk.",
+        "explanation": "There are some books on the desk добавляет сведения о книгах на уже упомянутом столе. Books согласуется с are.",
         "tags": [
           "full_description"
         ]
@@ -1268,28 +1268,28 @@
       {
         "id": "q55",
         "type": "mcq_single",
-        "prompt": "Выберите правильное описание списка покупок:",
+        "prompt": "Выберите грамматически правильное описание списка покупок в письменном английском.",
         "theory_block_id": "b5_theory_building_descriptions",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "In my shopping list there are some apples, some bread, and some milk.",
-            "feedback": "Правильно! Используются there are с some и перечисление."
+            "text": "On my shopping list there are some apples, some bread, and some milk.",
+            "feedback": "On my shopping list означает «в моём списке покупок»; первыми названы apples во множественном числе."
           },
           {
             "id": "b",
-            "text": "In my shopping list there is some apples, some bread, and some milk.",
-            "feedback": "Нет, используйте полные предложения с there are."
+            "text": "On my shopping list there is some apples, some bread, and some milk.",
+            "feedback": "Перед some apples в письменном задании нужна форма are."
           },
           {
             "id": "c",
-            "text": "In my shopping list there are apple, bread and milk.",
-            "feedback": "Нет, неправильный порядок слов."
+            "text": "On my shopping list there are an apples, some bread, and some milk.",
+            "feedback": "Артикль an не употребляется перед apples во множественном числе."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Описание списка использует there are с some и перечисление: In my shopping list there are some apples, some bread, and some milk.",
+        "explanation": "Для пункта в списке обычно говорят on the list. В выбранной фразе перечень начинается с some apples, поэтому используется there are.",
         "tags": [
           "full_description"
         ]
@@ -1297,11 +1297,11 @@
       {
         "id": "q56",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"In my room there is a bed. There ___ my laptop on the desk.\" (be, ед.ч.)",
+        "prompt": "Заполните пропуск в Present Simple: «In my room there is a bed. My laptop ___ on the desk». (be)",
         "theory_block_id": "b5_theory_building_descriptions",
         "difficulty": 2,
         "correct_answer": "is",
-        "explanation": "Описание продолжается с there is: There is my laptop on the desk.",
+        "explanation": "Местоположение известного предмета описывается как My laptop is on the desk. Laptop — единственное число, поэтому нужна форма is.",
         "tags": [
           "full_description"
         ]
@@ -1309,11 +1309,11 @@
       {
         "id": "q57",
         "type": "true_false",
-        "prompt": "Верно или неверно: При описании комнаты нельзя описывать предметы группами (сначала мебель, потом предметы на столах).",
+        "prompt": "Верно ли, что There is a bed. There are some books on the desk сообщает только о мебели, не упоминая других предметов?",
         "theory_block_id": "b5_theory_building_descriptions",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Неверно. Как раз можно и полезно организовывать описание группами: сначала мебель, потом предметы на столах.",
+        "explanation": "Неверно. Помимо кровати и письменного стола в описании названы книги.",
         "tags": [
           "full_description"
         ]
@@ -1426,7 +1426,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:16Z",
+    "updated_at": "2026-09-04T14:19:03Z",
     "source": "llm"
   }
 }

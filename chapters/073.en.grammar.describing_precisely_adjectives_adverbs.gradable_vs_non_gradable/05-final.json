@@ -278,7 +278,7 @@
       {
         "id": "q4",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'The water is very boiling.'",
+        "prompt": "Замените `very boiling` сочетанием с экстремальным прилагательным без усилителя: 'The water is very boiling.'",
         "theory_block_id": "b1_what_gradable",
         "difficulty": 2,
         "choices": [
@@ -296,7 +296,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Boiling — non-gradable, не используется с very."
+        "explanation": "В базовой модели `boiling` уже означает крайнюю степень жары, поэтому достаточно `The water is boiling`. Вариант `very hot` тоже грамматичен, но использует другое прилагательное."
       },
       {
         "id": "q5",
@@ -339,11 +339,11 @@
       {
         "id": "q8",
         "type": "true_false",
-        "prompt": "Верно или неверно: «We can say 'very huge' because huge is gradable.»",
+        "prompt": "Верно или неверно в базовой модели этой главы: «Huge — gradable adjective, поэтому нейтрально сказать `very huge`.»",
         "theory_block_id": "b1_what_gradable",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Huge обычно воспринимается как non-gradable; лучше absolutely huge."
+        "explanation": "В учебной модели `huge` относится к экстремальным прилагательным; нейтральное усиление — `absolutely huge`. В живой речи `very huge` тоже встречается."
       },
       {
         "id": "q10",
@@ -386,7 +386,7 @@
       {
         "id": "q13",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: The answer is ___ correct.",
+        "prompt": "Выберите усилитель, который в базовой модели подчёркивает полную правильность: The answer is ___ correct.",
         "theory_block_id": "b2_non_gradable",
         "difficulty": 1,
         "choices": [
@@ -400,7 +400,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Correct часто non-gradable: absolutely correct."
+        "explanation": "`Absolutely correct` подчёркивает, что ответ полностью верен. `Very correct` возможно в отдельных контекстах, но не выражает эту учебную модель так же точно."
       },
       {
         "id": "q14",
@@ -414,16 +414,16 @@
       {
         "id": "q15",
         "type": "true_false",
-        "prompt": "Верно или неверно: «We can say 'very dead' in standard English.»",
+        "prompt": "Верно или неверно для буквального нейтрального значения: «`Very dead` — обычный способ усилить `dead`.»",
         "theory_block_id": "b2_non_gradable",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Dead — абсолют, не используется с very."
+        "explanation": "В буквальном нейтральном значении `dead` обозначает абсолютное состояние и обычно не сочетается с `very`. Стилистические и переносные употребления возможны."
       },
       {
         "id": "q16",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'The result is very perfect.'",
+        "prompt": "Замените `very` усилителем абсолютной степени: 'The result is very perfect.'",
         "theory_block_id": "b2_non_gradable",
         "difficulty": 2,
         "choices": [
@@ -441,7 +441,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Perfect — non-gradable, нужно absolutely."
+        "explanation": "Для заданной абсолютной степени используется `absolutely perfect`. Вариант без усилителя тоже грамматичен, но не сохраняет требуемое усиление."
       },
       {
         "id": "q17",
@@ -450,13 +450,13 @@
         "theory_block_id": "b2_non_gradable",
         "difficulty": 2,
         "correct_answer": "The solution is completely wrong.",
-        "explanation": "Completely подходит для non-gradable wrong.",
+        "explanation": "`Completely wrong` подчёркивает, что решение неверно целиком. `Wrong` также может быть градируемым: например, `very wrong`.",
         "translation_ru": "Решение совершенно неверное."
       },
       {
         "id": "q18",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: The machine is ___ broken.",
+        "prompt": "Выберите усилитель со значением «полностью»: The machine is ___ broken.",
         "theory_block_id": "b2_non_gradable",
         "difficulty": 1,
         "choices": [
@@ -470,7 +470,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Broken часто non-gradable: completely broken."
+        "explanation": "`Completely broken` означает, что машина полностью сломана."
       },
       {
         "id": "q20",
@@ -484,7 +484,7 @@
       {
         "id": "q21",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'The answer is very correct.'",
+        "prompt": "Замените `very` усилителем со значением полной правильности: 'The answer is very correct.'",
         "theory_block_id": "b2_non_gradable",
         "difficulty": 2,
         "choices": [
@@ -502,7 +502,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Correct чаще non-gradable, нужны absolute intensifiers."
+        "explanation": "Заданное значение передаёт `absolutely correct`. Вариант без усилителя грамматичен, но не сохраняет усиление."
       },
       {
         "id": "q23",
@@ -511,12 +511,12 @@
         "theory_block_id": "b2_non_gradable",
         "difficulty": 1,
         "correct_answer": "completely",
-        "explanation": "Empty — non-gradable, поэтому completely empty."
+        "explanation": "`Completely empty` означает, что в чашке совсем ничего нет. `Empty` может допускать степени в иных контекстах, например `almost empty`."
       },
       {
         "id": "q24",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: The idea is ___ ridiculous.",
+        "prompt": "Выберите более сильное сочетание из базовой модели главы: The idea is ___ ridiculous.",
         "theory_block_id": "b2_non_gradable",
         "difficulty": 1,
         "choices": [
@@ -530,12 +530,12 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Ridiculous часто non-gradable: utterly ridiculous."
+        "explanation": "`Utterly ridiculous` выражает крайнюю оценку. `Very ridiculous` также встречается, но слабее и не соответствует заданной модели."
       },
       {
         "id": "q25",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: She felt ___ after the exam.",
+        "prompt": "Выберите нейтральный усилитель: She felt ___ tired after the exam.",
         "theory_block_id": "b3_intensifiers_gradable",
         "difficulty": 1,
         "choices": [
@@ -549,7 +549,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Tired — gradable, поэтому very tired."
+        "explanation": "`Tired` допускает степени, поэтому нейтральное сочетание — `very tired`."
       },
       {
         "id": "q26",
@@ -619,7 +619,7 @@
       {
         "id": "q33",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'The room is utterly cold.'",
+        "prompt": "Замените `utterly` нейтральным усилителем степени: 'The room is utterly cold.'",
         "theory_block_id": "b3_intensifiers_gradable",
         "difficulty": 2,
         "choices": [
@@ -637,7 +637,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Cold — gradable, не сочетается с utterly."
+        "explanation": "Нейтральный вариант — `The room is very cold`. `Quite cold` тоже грамматично, но обозначает другую степень; `utterly cold` возможно как выразительный вариант."
       },
       {
         "id": "q34",
@@ -684,7 +684,7 @@
         "theory_block_id": "b4_intensifiers_non_gradable",
         "difficulty": 1,
         "correct_answer": "absolutely",
-        "explanation": "Absolutely + негадируемое прилагательное."
+        "explanation": "`Absolutely` употребляется с `perfect` для подчёркивания абсолютной степени."
       },
       {
         "id": "q39",
@@ -698,7 +698,7 @@
       {
         "id": "q40",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'The idea is very perfect.'",
+        "prompt": "Замените `very` усилителем абсолютной степени: 'The idea is very perfect.'",
         "theory_block_id": "b4_intensifiers_non_gradable",
         "difficulty": 2,
         "choices": [
@@ -716,7 +716,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Perfect — non-gradable, нужен absolutely."
+        "explanation": "Заданное усиление передаёт `absolutely perfect`. Вариант без усилителя тоже грамматичен."
       },
       {
         "id": "q41",
@@ -725,13 +725,13 @@
         "theory_block_id": "b4_intensifiers_non_gradable",
         "difficulty": 2,
         "correct_answer": "The plan is totally impossible.",
-        "explanation": "Totally + негадируемое прилагательное.",
+        "explanation": "`Totally impossible` подчёркивает полную невозможность.",
         "translation_ru": "Этот план совершенно невыполним."
       },
       {
         "id": "q42",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: The room is ___ empty.",
+        "prompt": "Выберите усилитель со значением «совершенно пустая»: The room is ___ empty.",
         "theory_block_id": "b4_intensifiers_non_gradable",
         "difficulty": 1,
         "choices": [
@@ -745,7 +745,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Empty — негадируемое: completely empty."
+        "explanation": "`Completely empty` означает, что комната совершенно пуста."
       },
       {
         "id": "q43",
@@ -754,7 +754,7 @@
         "theory_block_id": "b4_intensifiers_non_gradable",
         "difficulty": 1,
         "correct_answer": "absolutely",
-        "explanation": "Sure часто non-gradable в этом значении."
+        "explanation": "`Absolutely sure` выражает полную уверенность. `Sure` допускает и менее сильные степени, например `fairly sure`."
       },
       {
         "id": "q44",
@@ -768,7 +768,7 @@
       {
         "id": "q45",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'She is totally happy.'",
+        "prompt": "Замените разговорный усилитель `totally` нейтральным `very`: 'She is totally happy.'",
         "theory_block_id": "b4_intensifiers_non_gradable",
         "difficulty": 2,
         "choices": [
@@ -786,12 +786,12 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Happy — gradable, лучше very happy."
+        "explanation": "Нейтральный вариант по условию — `She is very happy`. `Totally happy` также грамматично, особенно в разговорной речи."
       },
       {
         "id": "q46",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: The instructions are ___ clear.",
+        "prompt": "Выберите усилитель со значением «совершенно ясны, без какой-либо неоднозначности»: The instructions are ___ clear.",
         "theory_block_id": "b4_intensifiers_non_gradable",
         "difficulty": 1,
         "choices": [
@@ -805,7 +805,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Clear может быть non-gradable в значении «совершенно ясный»."
+        "explanation": "`Absolutely clear` подчёркивает полную ясность. `Very clear` тоже грамматично, но не выражает заданную абсолютную степень."
       },
       {
         "id": "q47",
@@ -814,7 +814,7 @@
         "theory_block_id": "b4_intensifiers_non_gradable",
         "difficulty": 2,
         "correct_answer": "The answer is absolutely perfect.",
-        "explanation": "Absolutely + негадируемое прилагательное (perfect).",
+        "explanation": "`Absolutely perfect` подчёркивает абсолютную степень качества.",
         "translation_ru": "Ответ абсолютно идеальный."
       },
       {
@@ -857,7 +857,7 @@
       {
         "id": "q52",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'The room is very freezing.'",
+        "prompt": "Замените `very` усилителем для экстремального прилагательного `freezing`: 'The room is very freezing.'",
         "theory_block_id": "b5_borderline_cases",
         "difficulty": 2,
         "choices": [
@@ -875,7 +875,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Freezing лучше с absolutely, не very."
+        "explanation": "В базовой модели используется `absolutely freezing`. `Very cold` тоже грамматично, но заменяет само прилагательное."
       },
       {
         "id": "q53",
@@ -884,13 +884,13 @@
         "theory_block_id": "b5_borderline_cases",
         "difficulty": 2,
         "correct_answer": "I'm absolutely sure.",
-        "explanation": "Sure часто non-gradable: absolutely sure.",
+        "explanation": "`Absolutely sure` выражает полную уверенность.",
         "translation_ru": "Я абсолютно уверен."
       },
       {
         "id": "q54",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: The idea is ___ terrible.",
+        "prompt": "Выберите наиболее естественный сильный усилитель: The idea is ___ terrible.",
         "theory_block_id": "b5_borderline_cases",
         "difficulty": 2,
         "choices": [
@@ -903,8 +903,8 @@
             "text": "very"
           }
         ],
-        "correct_answer": "b",
-        "explanation": "Terrible может быть gradable в значении «очень плохой»."
+        "correct_answer": "a",
+        "explanation": "Естественное сильное сочетание — `absolutely terrible`. `Very terrible` встречается, но обычно звучит менее естественно."
       },
       {
         "id": "q55",
@@ -913,7 +913,7 @@
         "theory_block_id": "b5_borderline_cases",
         "difficulty": 2,
         "correct_answer": "absolutely",
-        "explanation": "Sure в этом значении non-gradable."
+        "explanation": "`Absolutely sure` означает «полностью уверен»."
       },
       {
         "id": "q56",
@@ -927,7 +927,7 @@
       {
         "id": "q57",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'She is totally tired.'",
+        "prompt": "Замените разговорный `totally` нейтральным усилителем высокой степени: 'She is totally tired.'",
         "theory_block_id": "b5_borderline_cases",
         "difficulty": 2,
         "choices": [
@@ -945,7 +945,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Tired — gradable, обычно используется very/quite."
+        "explanation": "Нейтральный вариант с высокой степенью — `She is very tired`. `Quite tired` обозначает другую степень, а `totally tired` возможно в разговорной речи."
       },
       {
         "id": "q58",
@@ -960,7 +960,7 @@
       {
         "id": "q59",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: The answer is ___ clear.",
+        "prompt": "Выберите усилитель со значением полной, безусловной ясности: The answer is ___ clear.",
         "theory_block_id": "b5_borderline_cases",
         "difficulty": 2,
         "choices": [
@@ -974,7 +974,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Clear может быть non-gradable в значении «совершенно ясный»."
+        "explanation": "`Absolutely clear` подчёркивает полную ясность. `Very clear` также грамматично, но передаёт обычную высокую степень."
       },
       {
         "id": "q60",
@@ -1048,7 +1048,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:24Z",
+    "updated_at": "2026-09-05T08:57:38Z",
     "source": "llm"
   }
 }

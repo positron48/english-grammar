@@ -35,33 +35,33 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "В каком предложении правильно выделен фокус в отрицательной конструкции it-cleft?",
+      "prompt": "Как передать с помощью отрицательной it-cleft: «Не сроки вызвали задержку, а бюджет»?",
       "choices": [
         {
           "id": "a",
-          "text": "It wasn't the budget that was high; it was the timeline."
+          "text": "It wasn't the budget that caused the delay; it was the timeline."
         },
         {
           "id": "b",
-          "text": "It was the budget that wasn't high; it was the timeline."
+          "text": "It was the budget that didn't cause the delay; it was the timeline."
         },
         {
           "id": "c",
-          "text": "It wasn't the timeline that was high; it was the budget."
+          "text": "It wasn't the timeline that caused the delay; it was the budget."
         },
         {
           "id": "d",
-          "text": "It was the timeline that wasn't high; it was the budget."
+          "text": "It was the timeline that didn't cause the delay; it was the budget."
         }
       ],
       "correct_answer": "c",
-      "explanation": "В отрицательной конструкции 'It wasn't X that Y; it was Z', фокус на X (timeline), поэтому правильный вариант c.",
+      "explanation": "В c отрицательная cleft сначала отвергает *the timeline*, а затем называет правильный фокус *the budget*.",
       "theory_block_id": "b1_theory_it_cleft_basic",
       "chapter_id": "en.grammar.information_structure_style.cleft_sentences_it_s",
       "concept_id": "it_cleft_basic",
       "difficulty": 3,
       "id": "q2",
-      "signature": "d8f86bbf33b56f80"
+      "signature": "21230f3940ca4ed0"
     },
     {
       "type": "mcq_single",
@@ -95,7 +95,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "В каком предложении глагол 'be' согласован правильно в конструкции it-cleft?",
+      "prompt": "Какой вариант сохраняет полностью прошлую рамку во всей it-cleft?",
       "choices": [
         {
           "id": "a",
@@ -115,17 +115,17 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Глагол 'be' в конструкции согласуется с временем: 'It was' для прошедшего времени, поэтому правильный вариант a.",
+      "explanation": "В a обе формы *was* соответствуют прошлой рамке. Формы *is/has been* могли бы быть грамматичны при другой временной точке, но не выполняют заданное условие.",
       "theory_block_id": "b1_theory_it_cleft_basic",
       "chapter_id": "en.grammar.information_structure_style.cleft_sentences_it_s",
       "concept_id": "it_cleft_basic",
       "difficulty": 2,
       "id": "q4",
-      "signature": "37c60361d0e06934"
+      "signature": "7294cb656e56d7d5"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант правильно использует 'that' для выделения предмета в it-cleft?",
+      "prompt": "Какой вариант использует каноническое *that* для нечеловеческого фокуса и сохраняет прошлую рамку?",
       "choices": [
         {
           "id": "a",
@@ -145,13 +145,13 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Для предметов используется 'that', а не 'who' или 'which', поэтому правильный вариант b.",
+      "explanation": "В b используется каноническая cleft-связка *that* и обе части стоят в прошлом. *Which* встречается в относительных придаточных, но не является целевой формой этого задания.",
       "theory_block_id": "b1_theory_it_cleft_basic",
       "chapter_id": "en.grammar.information_structure_style.cleft_sentences_it_s",
       "concept_id": "it_cleft_basic",
       "difficulty": 2,
       "id": "q5",
-      "signature": "9bb9add2cf232bfb"
+      "signature": "51c57d50f959f1da"
     },
     {
       "type": "mcq_single",
@@ -185,7 +185,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "В каком предложении правильно используется отрицательная конструкция it-cleft?",
+      "prompt": "Как передать с помощью отрицательной it-cleft: «Отменили не мероприятие, а встречу»?",
       "choices": [
         {
           "id": "a",
@@ -205,13 +205,13 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Правильная структура отрицания: 'It wasn't X that Y; it was Z', поэтому вариант b верен.",
+      "explanation": "В b сначала отвергается фокус *the event*, затем называется *the meeting*: *It wasn't the event that was canceled; it was the meeting*.",
       "theory_block_id": "b1_theory_it_cleft_basic",
       "chapter_id": "en.grammar.information_structure_style.cleft_sentences_it_s",
       "concept_id": "it_cleft_basic",
       "difficulty": 3,
       "id": "q7",
-      "signature": "10a9e9e9708fc175"
+      "signature": "50780f8da4fa0040"
     },
     {
       "type": "mcq_single",
@@ -245,37 +245,37 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант правильно выделяет время в конструкции it-cleft?",
+      "prompt": "Какой вариант канонически выделяет обстоятельство времени в it-cleft?",
       "choices": [
         {
           "id": "a",
-          "text": "It was the morning that we met."
+          "text": "It was in the morning that we met."
         },
         {
           "id": "b",
-          "text": "It was the morning when we met."
+          "text": "It was in the morning when we met."
         },
         {
           "id": "c",
-          "text": "It was the morning that we met at 10."
+          "text": "It was the morning that we met in."
         },
         {
           "id": "d",
-          "text": "It was the morning who we met."
+          "text": "It was in the morning who we met."
         }
       ],
       "correct_answer": "a",
-      "explanation": "Конструкция it-cleft использует 'that', а не 'when' или 'who', поэтому правильный вариант a.",
+      "explanation": "Каноническая it-cleft для обстоятельства использует *It was + in the morning + that-clause*.",
       "theory_block_id": "b1_theory_it_cleft_basic",
       "chapter_id": "en.grammar.information_structure_style.cleft_sentences_it_s",
       "concept_id": "it_cleft_basic",
       "difficulty": 2,
       "id": "q9",
-      "signature": "78cc36454e1b11ea"
+      "signature": "9d08afa604ea335e"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант содержит ошибку в выборе союза 'that' или 'who'?",
+      "prompt": "Какой вариант ошибочно использует *who* после нечеловеческого фокуса?",
       "choices": [
         {
           "id": "a",
@@ -283,7 +283,7 @@
         },
         {
           "id": "b",
-          "text": "It was the problem which was solved."
+          "text": "It was the problem who was solved."
         },
         {
           "id": "c",
@@ -295,13 +295,13 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "В конструкции it-cleft используется 'that', а не 'which', поэтому вариант b ошибочен.",
+      "explanation": "После нечеловеческого фокуса *the problem* нельзя использовать *who*. Канонический вариант использует *that*; *which* возможно в обычном относительном придаточном, но не проверяется этим вопросом.",
       "theory_block_id": "b1_theory_it_cleft_basic",
       "chapter_id": "en.grammar.information_structure_style.cleft_sentences_it_s",
       "concept_id": "it_cleft_basic",
       "difficulty": 2,
       "id": "q10",
-      "signature": "e20382c69b7f6f4d"
+      "signature": "7d87b0aae30cda1f"
     }
   ],
   "meta": {

@@ -2,22 +2,36 @@
   "validation_result": {
     "is_valid": true,
     "schema_valid": true,
-    "issues": [],
+    "issues": [
+      {
+        "severity": "warning",
+        "category": "content",
+        "message": "Theory block b5_theory_decision_tree не покрыт вопросами",
+        "location": "question_bank.questions",
+        "suggested_fix": "Добавить вопросы для этого theory_block"
+      },
+      {
+        "severity": "warning",
+        "category": "methodological",
+        "message": "Theory block b5_theory_decision_tree имеет только 0 вопрос(ов), минимум 4 требуется",
+        "location": "question_bank.questions",
+        "suggested_fix": "Добавить вопросы для theory_block b5_theory_decision_tree. Сейчас: 0, нужно минимум 4"
+      }
+    ],
     "summary": {
-      "total_issues": 0,
+      "total_issues": 2,
       "errors": 0,
-      "warnings": 0,
+      "warnings": 2,
       "suggestions": 0
     },
     "coverage": {
-      "theory_blocks_covered": 6,
+      "theory_blocks_covered": 5,
       "total_theory_blocks": 6,
       "questions_per_block": {
         "b1_theory_facts_vs_actions": 9,
         "b2_theory_permanent_vs_temporary": 11,
         "b3_theory_state_vs_action_verbs": 9,
         "b4_theory_time_markers_decision": 5,
-        "b5_theory_decision_tree": 5,
         "b6_theory_common_mistakes": 7
       }
     }

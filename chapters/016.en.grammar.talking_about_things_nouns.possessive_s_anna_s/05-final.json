@@ -467,7 +467,7 @@
         "theory_block_id": "b2_theory_singular_nouns_names",
         "difficulty": 1,
         "correct_answer": "John's",
-        "explanation": "С именами добавляем 's для выражения принадлежности: John's car. Форма одинакова для всех имен.",
+        "explanation": "К John добавляется 's: John's car. Для имён на -s возможны разные нормативные варианты, но John к ним не относится.",
         "tags": [
           "singular",
           "names"
@@ -506,11 +506,11 @@
       {
         "id": "q8",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"This is ___ desk.\" (teacher)",
+        "prompt": "Вставьте притяжательную форму: **This is the ___ desk.** (teacher)",
         "theory_block_id": "b2_theory_singular_nouns_names",
         "difficulty": 1,
         "correct_answer": "teacher's",
-        "explanation": "С существительными в единственном числе добавляем 's: teacher's desk. Артикль the можно добавить перед teacher's, но для fill_blank достаточно одного слова.",
+        "explanation": "Артикль the уже стоит перед пропуском. К teacher добавляется 's: This is the teacher's desk.",
         "tags": [
           "singular",
           "nouns"
@@ -519,11 +519,11 @@
       {
         "id": "q10",
         "type": "true_false",
-        "prompt": "Верно или неверно: Если имя заканчивается на -s (например, James), мы добавляем только апостроф, без s.",
+        "prompt": "Верно или неверно: James's book — допустимое написание со значением «книга Джеймса».",
         "theory_block_id": "b2_theory_singular_nouns_names",
         "difficulty": 2,
-        "correct_answer": "false",
-        "explanation": "Неверно. Даже если имя заканчивается на -s, мы добавляем 's: James's book, Charles's car.",
+        "correct_answer": "true",
+        "explanation": "Верно. Допустимы и James's book, и James' book. Выбор зависит от принятого стиля написания.",
         "tags": [
           "singular",
           "names"
@@ -601,7 +601,7 @@
       {
         "id": "q17",
         "type": "reorder",
-        "prompt": "Соберите предложение с указанным значением. Начните с «Whose».",
+        "prompt": "Соберите вопрос с указанным значением. Начните с «Whose phone».",
         "theory_block_id": "b4_theory_questions_with_whose",
         "difficulty": 2,
         "correct_answer": "Whose phone is this?",
@@ -673,28 +673,28 @@
       {
         "id": "q21",
         "type": "mcq_single",
-        "prompt": "Когда лучше использовать \"of\" вместо possessive 's?",
+        "prompt": "Вставьте предлог, чтобы получилось «название книги»: **the name ___ the book**.",
         "theory_block_id": "b5_theory_when_to_use_of",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "С неодушевленными предметами",
-            "feedback": "Правильно! С неодушевленными предметами часто используется of"
+            "text": "of",
+            "feedback": "Of связывает название с книгой."
           },
           {
             "id": "b",
-            "text": "С именами людей",
-            "feedback": "Нет, с именами людей используется possessive 's"
+            "text": "to",
+            "feedback": "Здесь для значения «название книги» требуется of."
           },
           {
             "id": "c",
-            "text": "Всегда, без исключений",
-            "feedback": "Нет, of используется в определенных случаях, а не всегда"
+            "text": "for",
+            "feedback": "For передавало бы назначение названия для книги, а не заданную связь."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Of используется с неодушевленными предметами: the name of the book, the door of the house. С людьми используется 's.",
+        "explanation": "The name of the book — «название книги». Также возможно the book's name, но это другая конструкция.",
         "tags": [
           "of",
           "inanimate"
@@ -716,28 +716,28 @@
       {
         "id": "q23",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"What is the book's name?\"",
+        "prompt": "Переформулируйте **What is the book's name?**, используя конструкцию с of.",
         "theory_block_id": "b5_theory_when_to_use_of",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
             "text": "the book's name → the name of the book",
-            "feedback": "Правильно! С неодушевленными предметами лучше использовать of, хотя 's тоже возможно"
+            "feedback": "Эта замена передаёт тот же смысл с помощью of."
           },
           {
             "id": "b",
             "text": "What → Which",
-            "feedback": "Нет, What здесь правильное. Ошибка в использовании 's вместо of"
+            "feedback": "Такая замена не создаёт требуемой конструкции с of."
           },
           {
             "id": "c",
             "text": "is → are",
-            "feedback": "Нет, is здесь правильное. Ошибка в использовании 's вместо of"
+            "feedback": "Name в единственном числе требует is; конструкция с of не появляется."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для неодушевленных предметов на уровне A1 лучше использовать of: the name of the book. Хотя 's тоже возможно в разговорной речи, классическое правило: of для предметов.",
+        "explanation": "What is the name of the book? — требуемая переформулировка. Исходное What is the book's name? тоже грамматически правильно.",
         "tags": [
           "of",
           "error",
@@ -747,7 +747,7 @@
       {
         "id": "q24",
         "type": "mcq_single",
-        "prompt": "Что правильно: \"Anna's phone\" или \"the phone of Anna\"?",
+        "prompt": "Какой вариант нейтральнее всего называет телефон, принадлежащий Анне?",
         "theory_block_id": "b5_theory_when_to_use_of",
         "difficulty": 1,
         "choices": [
@@ -768,7 +768,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "С именами людей используется possessive 's: Anna's phone. The phone of Anna возможно, но звучит неестественно.",
+        "explanation": "Anna's phone — обычный нейтральный вариант. The phone of Anna грамматически возможно в специальных контекстах, но обычно звучит тяжеловесно.",
         "tags": [
           "of",
           "people"
@@ -777,11 +777,11 @@
       {
         "id": "q25",
         "type": "true_false",
-        "prompt": "Верно или неверно: В разговорной речи possessive 's иногда используется даже с неодушевленными предметами (например, \"the book's name\").",
+        "prompt": "Верно или неверно: Possessive 's может употребляться и с неодушевлёнными существительными, например the book's name.",
         "theory_block_id": "b5_theory_when_to_use_of",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Верно. В разговорной речи 's становится популярнее даже с предметами, но на уровне A1 лучше следовать классическому правилу: 's для людей, of для предметов.",
+        "explanation": "Верно. The book's name — нормативное употребление. Выбор между 's и of зависит от устойчивости и контекста, а не только от одушевлённости.",
         "tags": [
           "of",
           "usage"
@@ -820,28 +820,28 @@
       {
         "id": "q28",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"This is the name of Anna.\"",
+        "prompt": "Переформулируйте **This is the name of Anna**, используя possessive 's.",
         "theory_block_id": "b6_theory_common_mistakes",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "the name of Anna → Anna's name",
-            "feedback": "Правильно! С именами людей используется possessive 's, а не of"
+            "feedback": "Эта замена использует possessive 's."
           },
           {
             "id": "b",
             "text": "This → That",
-            "feedback": "Нет, This здесь правильное. Ошибка в использовании of вместо 's"
+            "feedback": "Указательное слово меняется, но possessive 's не появляется."
           },
           {
             "id": "c",
             "text": "is → are",
-            "feedback": "Нет, is здесь правильное. Ошибка в использовании of вместо 's"
+            "feedback": "Name требует is; замена не создаёт possessive 's."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Ошибка: the name of Anna → Anna's name. С именами людей используется possessive 's, а не of. Правильно: This is Anna's name.",
+        "explanation": "This is Anna's name — обычная нейтральная формулировка. Исходный вариант с of возможен, например при контрастном выделении имени.",
         "tags": [
           "mistakes",
           "of"
@@ -863,11 +863,11 @@
       {
         "id": "q30",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"This is ___ name.\" (Анны)",
+        "prompt": "Заполните пропуск целиком формой имени с ’s: **This is ___ name.** (Anna)",
         "theory_block_id": "b6_theory_common_mistakes",
         "difficulty": 2,
         "correct_answer": "Anna's",
-        "explanation": "С именами используется possessive 's: Anna's name. Не the name of Anna (это неестественно для людей).",
+        "explanation": "Anna's name — обычный вариант. Конструкция the name of Anna тоже возможна, но в ней перед name стоит the и она не подходит в этот пропуск.",
         "tags": [
           "mistakes",
           "fill_blank"
@@ -876,7 +876,7 @@
       {
         "id": "q31",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант:",
+        "prompt": "Выберите словосочетание «книга Джона», образованное с possessive 's.",
         "theory_block_id": "b1_theory_what_is_possessive_s",
         "difficulty": 2,
         "choices": [
@@ -905,11 +905,11 @@
       {
         "id": "q32",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"The ___ bag is heavy.\" (student)",
+        "prompt": "Заполните пропуск целиком: **The ___ bag is heavy.** (student)",
         "theory_block_id": "b2_theory_singular_nouns_names",
         "difficulty": 1,
         "correct_answer": "student's",
-        "explanation": "С существительными в единственном числе добавляем 's: the student's bag (сумка студента).",
+        "explanation": "Артикль the уже стоит перед пропуском, поэтому вставляется student's: The student's bag is heavy.",
         "tags": [
           "singular",
           "nouns"
@@ -918,7 +918,7 @@
       {
         "id": "q33",
         "type": "reorder",
-        "prompt": "Соберите предложение с указанным значением. Начните с «Whose».",
+        "prompt": "Соберите вопрос с указанным значением. Начните с «Whose car».",
         "theory_block_id": "b4_theory_questions_with_whose",
         "difficulty": 2,
         "correct_answer": "Whose car is that?",
@@ -945,28 +945,28 @@
       {
         "id": "q35",
         "type": "mcq_single",
-        "prompt": "Что правильно: \"the door of the house\" или \"the house's door\"?",
+        "prompt": "Выберите перевод «дверь дома» с помощью of.",
         "theory_block_id": "b5_theory_when_to_use_of",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "the door of the house",
-            "feedback": "Правильно! С неодушевленными предметами на уровне A1 лучше использовать of"
+            "feedback": "Это требуемая конструкция с of."
           },
           {
             "id": "b",
             "text": "the house's door",
-            "feedback": "Это возможно в разговорной речи, но на уровне A1 лучше of"
+            "feedback": "Это возможное выражение с possessive 's, но условие требует of."
           },
           {
             "id": "c",
-            "text": "Оба одинаково правильны",
-            "feedback": "На уровне A1 лучше следовать правилу: of для предметов, 's для людей"
+            "text": "the door to the house",
+            "feedback": "To обозначает направление/вход; условие требует конструкцию с of."
           }
         ],
         "correct_answer": "a",
-        "explanation": "С неодушевленными предметами на уровне A1 лучше использовать of: the door of the house. 's возможен в разговорной речи, но классическое правило: of для предметов.",
+        "explanation": "The door of the house передаёт связь через of. The house's door может быть правильным, но не соответствует указанной конструкции.",
         "tags": [
           "of",
           "inanimate"
@@ -1010,7 +1010,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:16Z",
+    "updated_at": "2026-09-04T13:18:00Z",
     "source": "llm"
   }
 }

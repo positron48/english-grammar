@@ -65,7 +65,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какая конструкция содержит ошибку в косвенной речи для вопроса 'Did you receive the email?'?",
+      "prompt": "Какой вариант с if сохраняет ошибочную инверсию при передаче 'Did you receive the email?'?",
       "choices": [
         {
           "id": "a",
@@ -85,17 +85,17 @@
         }
       ],
       "correct_answer": "c",
-      "explanation": "В косвенной речи порядок слов должен быть подлежащее-сказуемое (I had received), а не сказуемое-подлежащее.",
+      "explanation": "В c после if ошибочно стоит had I. Вариант с whether и такой же ошибкой тоже неверен, но вопрос просит вариант с if.",
       "theory_block_id": "b2_theory_if_whether",
       "chapter_id": "en.grammar.reported_speech_meaning_transfer.reported_questions_word_order",
       "concept_id": "if_whether_basics",
       "difficulty": 3,
       "id": "q3",
-      "signature": "8f4639e8ec158439"
+      "signature": "7a7085cb3cd0b377"
     },
     {
       "type": "mcq_single",
-      "prompt": "В каком случае правильнее использовать 'whether' вместо 'if' в косвенной речи?",
+      "prompt": "Когда whether выбирают вместо if как более формальный вариант, даже если конструкции 'or not' нет?",
       "choices": [
         {
           "id": "a",
@@ -115,17 +115,17 @@
         }
       ],
       "correct_answer": "c",
-      "explanation": "'Whether' используется в формальных контекстах, в отличие от 'if', который чаще применяется в неформальной речи.",
+      "explanation": "В официальных документах и формальных письмах whether обычно предпочтительнее по стилю. Перед непосредственным or not whether уже требуется грамматически.",
       "theory_block_id": "b2_theory_if_whether",
       "chapter_id": "en.grammar.reported_speech_meaning_transfer.reported_questions_word_order",
       "concept_id": "if_whether_basics",
       "difficulty": 2,
       "id": "q4",
-      "signature": "034e167440ca6c55"
+      "signature": "b824b1e4106c2a55"
     },
     {
       "type": "mcq_single",
-      "prompt": "Как правильно передать косвенную речь для прямого вопроса: 'Are you interested in the project?'?",
+      "prompt": "Как передать вопрос 'Are you interested in the project?' с if в нейтральной разговорной речи?",
       "choices": [
         {
           "id": "a",
@@ -145,17 +145,17 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "В большинстве случаев, особенно в неформальной речи, используется 'if' вместо 'whether'.",
+      "explanation": "If естественно в нейтральной разговорной речи; whether также грамматично, но более формально.",
       "theory_block_id": "b2_theory_if_whether",
       "chapter_id": "en.grammar.reported_speech_meaning_transfer.reported_questions_word_order",
       "concept_id": "if_whether_basics",
       "difficulty": 2,
       "id": "q5",
-      "signature": "d1aace46d26b9627"
+      "signature": "0620f22ebac5d830"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой вариант верен для косвенной речи: 'Have you finished the task?'?",
+      "prompt": "Как передать 'Have you finished the task?' именно с if?",
       "choices": [
         {
           "id": "a",
@@ -175,17 +175,17 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Правильный порядок слов в косвенной речи: подлежащее-сказуемое (I had finished).",
+      "explanation": "If I had finished использует утвердительный порядок слов и стандартный backshift. Whether также грамматично, но вопрос просит if.",
       "theory_block_id": "b2_theory_if_whether",
       "chapter_id": "en.grammar.reported_speech_meaning_transfer.reported_questions_word_order",
       "concept_id": "if_whether_basics",
       "difficulty": 2,
       "id": "q6",
-      "signature": "212006232d854ed8"
+      "signature": "5a9d7a818cd750ff"
     },
     {
       "type": "mcq_single",
-      "prompt": "В каком случае использование 'if' вместо 'whether' является ошибкой?",
+      "prompt": "В каком случае нужен whether, если слова 'or not' стоят сразу после связки?",
       "choices": [
         {
           "id": "a",
@@ -197,7 +197,7 @@
         },
         {
           "id": "c",
-          "text": "При использовании 'or not' после вопроса."
+          "text": "В конструкции whether or not перед подлежащим"
         },
         {
           "id": "d",
@@ -205,13 +205,13 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "В официальных документах требуется более формальный 'whether', поэтому 'if' здесь ошибка.",
+      "explanation": "Перед непосредственным or not используется whether: whether or not the plan works. If допустим во многих других позициях, включая формальную речь, хотя может звучать менее официально.",
       "theory_block_id": "b2_theory_if_whether",
       "chapter_id": "en.grammar.reported_speech_meaning_transfer.reported_questions_word_order",
       "concept_id": "if_whether_basics",
       "difficulty": 3,
       "id": "q7",
-      "signature": "12421c2555c4c72a"
+      "signature": "8b7fae13ae0328bf"
     },
     {
       "type": "mcq_single",
@@ -241,7 +241,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Как правильно передать косвенную речь для прямого вопроса: 'Can you help me?'?",
+      "prompt": "Как передать 'Can you help me?' именно с if в неформальном контексте?",
       "choices": [
         {
           "id": "a",
@@ -261,13 +261,13 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "В косвенной речи используется 'if' в неформальном контексте, и правильный порядок слов.",
+      "explanation": "If I could help him — нейтральный неформальный вариант с правильным порядком слов. Whether также грамматично, но формальнее.",
       "theory_block_id": "b2_theory_if_whether",
       "chapter_id": "en.grammar.reported_speech_meaning_transfer.reported_questions_word_order",
       "concept_id": "if_whether_basics",
       "difficulty": 2,
       "id": "q9",
-      "signature": "c7f8bacaeb4bcead"
+      "signature": "b887d1d9f278d181"
     },
     {
       "type": "mcq_single",

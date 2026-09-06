@@ -963,13 +963,13 @@
       {
         "id": "q45",
         "type": "mcq_single",
-        "prompt": "Что неверно в предложении \"Based on the figures, we analyzed them.\"?",
+        "prompt": "Что неверно в предложении \"Having reviewed the figures, the conclusion was revised\"?",
         "theory_block_id": "b4_theory_accuracy",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "V3 оборот пассивный, но смысл активный"
+            "text": "Логический субъект оборота не совпадает с подлежащим"
           },
           {
             "id": "b",
@@ -985,7 +985,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Based on предполагает опору на источник, а не активное действие. Здесь смысл лучше изменить.",
+        "explanation": "Having reviewed требует исполнителя, который проверил данные. Подлежащее conclusion не может выполнить это действие, поэтому возникает dangling participle.",
         "tags": []
       },
       {
@@ -1311,7 +1311,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:49:05Z",
+    "updated_at": "2026-09-05T22:22:35Z",
     "source": "llm"
   }
 }

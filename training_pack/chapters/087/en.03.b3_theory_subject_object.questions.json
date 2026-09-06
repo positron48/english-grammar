@@ -9,7 +9,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "The woman that lives next door is my neighbor."
+          "text": "The woman lives next door is my neighbor."
         },
         {
           "id": "b",
@@ -25,7 +25,7 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "В придаточном предложении, где относительное местоимение является подлежащим (делает действие), оно обязательно: 'who lives' (жительница живет).",
+      "explanation": "В who lives местоимение who само выполняет действие и поэтому обязательно. Вариант без относительного местоимения неверен.",
       "theory_block_id": "b3_theory_subject_object",
       "chapter_id": "en.grammar.complex_sentences_1_connecting.relative_clauses_who_which",
       "concept_id": "relative_pronoun_subject_object",
@@ -181,7 +181,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "В каком предложении относительное местоимение является дополнением, поэтому его можно опустить?",
+      "prompt": "В каком предложении относительное местоимение опущено, поскольку оно является дополнением?",
       "choices": [
         {
           "id": "a",
@@ -207,7 +207,7 @@
       "concept_id": "relative_pronoun_subject_object",
       "difficulty": 2,
       "id": "q7",
-      "signature": "41eb6aad1ff10847"
+      "signature": "a78d0b5e65c88377"
     },
     {
       "type": "mcq_single",
@@ -223,7 +223,7 @@
         },
         {
           "id": "c",
-          "text": "It’s a movie which I don’t like."
+          "text": "It’s a movie which don’t like."
         },
         {
           "id": "d",
@@ -231,7 +231,7 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Для неодушевленных предметов ('movie') используется 'that' или 'which', но не 'who'. Добавление 'it' — ошибка.",
+      "explanation": "That является дополнением при I don’t like. Варианты без подлежащего или с повторным it неверны.",
       "theory_block_id": "b3_theory_subject_object",
       "chapter_id": "en.grammar.complex_sentences_1_connecting.relative_clauses_who_which",
       "concept_id": "relative_pronoun_subject_object",
@@ -271,7 +271,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какая ошибка допущена в предложении?",
+      "prompt": "Какое предложение содержит сразу две ошибки: who для предмета и лишнее it?",
       "choices": [
         {
           "id": "a",
@@ -297,7 +297,7 @@
       "concept_id": "relative_pronoun_subject_object",
       "difficulty": 4,
       "id": "q10",
-      "signature": "cfd8e427a84a8f11"
+      "signature": "b4748f9d271029aa"
     }
   ],
   "meta": {

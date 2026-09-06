@@ -303,28 +303,28 @@
       {
         "id": "q1",
         "type": "mcq_single",
-        "prompt": "Для чего используется конструкция There is/are?",
+        "prompt": "Что сообщает конструкция в предложении There is a book on the table?",
         "theory_block_id": "b1_theory_there_is_are_basic",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
-            "text": "Для указания места",
-            "feedback": "Нет, There здесь не означает место"
+            "text": "Книга находится обязательно далеко",
+            "feedback": "Начальное there в этой конструкции не обозначает расстояние."
           },
           {
             "id": "b",
-            "text": "Для выражения существования предметов",
-            "feedback": "Правильно! There is/are используется для выражения существования"
+            "text": "На столе есть книга",
+            "feedback": "Конструкция сообщает о наличии книги в указанном месте."
           },
           {
             "id": "c",
-            "text": "Для выражения времени",
-            "feedback": "Нет, это не связано со временем"
+            "text": "Книга появится на столе в будущем",
+            "feedback": "There is относится к настоящему, а не к будущему."
           }
         ],
         "correct_answer": "b",
-        "explanation": "Конструкция There is/are используется для выражения существования предметов в каком-либо месте. There здесь не означает \"там\", а является частью конструкции.",
+        "explanation": "There is сообщает о наличии книги. Место задаёт on the table; начальное there здесь не означает «там».",
         "tags": [
           "existence",
           "basic"
@@ -347,28 +347,28 @@
       {
         "id": "q5",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в предложении: \"In the room is a table.\"",
+        "prompt": "Переформулируйте «In the room is a table», начав с конструкции There is/are.",
         "theory_block_id": "b1_theory_there_is_are_basic",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "There is a table in the room.",
-            "feedback": "Правильно! Нужно использовать конструкцию There is"
+            "feedback": "Перед a table используется there is."
           },
           {
             "id": "b",
             "text": "In the room are a table.",
-            "feedback": "Нет, для единственного числа используется is, а не are"
+            "feedback": "Форма are не согласуется с a table; предложение также не начинается с there."
           },
           {
             "id": "c",
             "text": "In the room is table.",
-            "feedback": "Нет, нужен артикль a перед table"
+            "feedback": "Перед исчисляемым table здесь нужен определитель, например a."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для выражения существования нужно использовать конструкцию There is/are. Правильно: There is a table in the room.",
+        "explanation": "Требуемая конструкция — There is a table in the room. Исходная фраза с начальным обстоятельством и инверсией возможна, но задание просит другой порядок.",
         "tags": [
           "error_spotting",
           "structure"
@@ -390,24 +390,24 @@
       {
         "id": "q8",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант для выражения существования книги на столе:",
+        "prompt": "Выберите грамматически правильное предложение с начальным there, сообщающее о книге на столе.",
         "theory_block_id": "b1_theory_there_is_are_basic",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
             "text": "There is a book on the table.",
-            "feedback": "Правильно!"
+            "feedback": "Перед a book используется there is."
           },
           {
             "id": "b",
             "text": "There are a book on the table.",
-            "feedback": "Нет, для единственного числа используется is"
+            "feedback": "С a book нужна форма is."
           },
           {
             "id": "c",
             "text": "A book is on the table.",
-            "feedback": "Нет, для выражения существования используется конструкция There is"
+            "feedback": "Предложение грамматически возможно, но не использует начальное there."
           }
         ],
         "correct_answer": "a",
@@ -432,24 +432,24 @@
       {
         "id": "q12",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант для выражения существования чашки на столе:",
+        "prompt": "Выберите грамматически правильное предложение с начальным there, сообщающее о чашке на столе.",
         "theory_block_id": "b1_theory_there_is_are_basic",
         "difficulty": 1,
         "choices": [
           {
             "id": "a",
             "text": "There is a cup on the table.",
-            "feedback": "Правильно!"
+            "feedback": "Перед a cup используется there is."
           },
           {
             "id": "b",
             "text": "There are a cup on the table.",
-            "feedback": "Нет, для единственного числа используется is"
+            "feedback": "С a cup нужна форма is."
           },
           {
             "id": "c",
             "text": "A cup is on the table.",
-            "feedback": "Нет, для выражения существования используется конструкция There is"
+            "feedback": "Предложение возможно, но не соответствует условию о начальном there."
           }
         ],
         "correct_answer": "a",
@@ -504,7 +504,7 @@
       {
         "id": "q17",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"There ___ a window in the room.\" (be)",
+        "prompt": "Заполните пропуск формой настоящего времени: There ___ a window in the room. (be)",
         "theory_block_id": "b2_theory_there_is_singular",
         "difficulty": 1,
         "correct_answer": "is",
@@ -517,24 +517,24 @@
       {
         "id": "q18",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"There are a plant in the room.\"",
+        "prompt": "Исправьте форму be, сохранив одно растение: «There are a plant in the room».",
         "theory_block_id": "b2_theory_there_is_singular",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "There is a plant in the room.",
-            "feedback": "Правильно! Для единственного числа используется is"
+            "feedback": "С a plant нужна форма is."
           },
           {
             "id": "b",
             "text": "There are plants in the room.",
-            "feedback": "Нет, в исходном предложении было единственное число"
+            "feedback": "Это правильно, но обозначает несколько растений."
           },
           {
             "id": "c",
             "text": "There is plant in the room.",
-            "feedback": "Нет, нужен артикль a"
+            "feedback": "Перед plant здесь нужен определитель, например a."
           }
         ],
         "correct_answer": "a",
@@ -547,7 +547,7 @@
       {
         "id": "q21",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"There ___ some milk in the fridge.\" (be)",
+        "prompt": "Заполните пропуск формой настоящего времени: There ___ some milk in the fridge. (be)",
         "theory_block_id": "b2_theory_there_is_singular",
         "difficulty": 1,
         "correct_answer": "is",
@@ -687,7 +687,7 @@
       {
         "id": "q32",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"There ___ three books on the table.\" (be)",
+        "prompt": "Заполните пропуск формой настоящего времени по обычному правилу согласования: There ___ three books on the table. (be)",
         "theory_block_id": "b3_theory_there_are_plural",
         "difficulty": 1,
         "correct_answer": "are",
@@ -700,24 +700,24 @@
       {
         "id": "q33",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"There is three books on the table.\"",
+        "prompt": "Исправьте согласование в стандартной письменной речи, сохранив три книги: «There is three books on the table».",
         "theory_block_id": "b3_theory_there_are_plural",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "There are three books on the table.",
-            "feedback": "Правильно! Для множественного числа используется are"
+            "feedback": "Множественному числу three books соответствует are."
           },
           {
             "id": "b",
             "text": "There is a book on the table.",
-            "feedback": "Нет, в исходном предложении было множественное число"
+            "feedback": "Это грамматически правильно, но меняет количество на одну книгу."
           },
           {
             "id": "c",
             "text": "There are three book on the table.",
-            "feedback": "Нет, book должно быть во множественном числе books"
+            "feedback": "После three нужна форма books."
           }
         ],
         "correct_answer": "a",
@@ -743,7 +743,7 @@
       {
         "id": "q36",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"There ___ many students in the class.\" (be)",
+        "prompt": "Заполните пропуск формой настоящего времени по обычному правилу согласования: There ___ many students in the class. (be)",
         "theory_block_id": "b3_theory_there_are_plural",
         "difficulty": 1,
         "correct_answer": "are",
@@ -842,11 +842,11 @@
       {
         "id": "q44",
         "type": "true_false",
-        "prompt": "Верно или неверно: После There are артикль a/an не используется.",
+        "prompt": "Верно или неверно: В сочетании There are books нельзя добавить a непосредственно перед books: There are a books.",
         "theory_block_id": "b3_theory_there_are_plural",
         "difficulty": 3,
         "correct_answer": "true",
-        "explanation": "Верно. После There are артикль a/an не используется, так как речь идёт о множественном числе: There are books (не \"a books\").",
+        "explanation": "Верно. Неопределённый артикль a не определяет существительное во множественном числе. Но после there are возможна, например, фраза a lot of books.",
         "tags": [
           "plural",
           "article"
@@ -855,7 +855,7 @@
       {
         "id": "q46",
         "type": "mcq_single",
-        "prompt": "Как формируется вопрос с There is/are?",
+        "prompt": "Как образовать обычный общий вопрос из утверждения с There is/are?",
         "theory_block_id": "b4_theory_there_questions",
         "difficulty": 1,
         "choices": [
@@ -885,7 +885,7 @@
       {
         "id": "q47",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ there a pen on the desk?\" (be)",
+        "prompt": "Заполните пропуск формой настоящего времени: ___ there a pen on the desk? (be)",
         "theory_block_id": "b4_theory_there_questions",
         "difficulty": 1,
         "correct_answer": "Is",
@@ -928,7 +928,7 @@
       {
         "id": "q50",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку в вопросе: \"There is a book on the table?\"",
+        "prompt": "Переделайте переспрос «There is a book on the table?» в обычный общий вопрос с формой be перед there.",
         "theory_block_id": "b4_theory_there_questions",
         "difficulty": 2,
         "choices": [
@@ -949,7 +949,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "В вопросах Is/Are ставится перед there: Is there a book on the table?",
+        "explanation": "Для обычного общего вопроса форма is ставится перед there: Is there a book on the table? Исходный порядок возможен в переспросе.",
         "tags": [
           "error_spotting",
           "question"
@@ -958,7 +958,7 @@
       {
         "id": "q51",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ there any windows in the room?\" (be)",
+        "prompt": "Заполните пропуск формой настоящего времени: ___ there any windows in the room? (be)",
         "theory_block_id": "b4_theory_there_questions",
         "difficulty": 1,
         "correct_answer": "Are",
@@ -971,24 +971,24 @@
       {
         "id": "q52",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант вопроса:",
+        "prompt": "Выберите обычный общий вопрос о наличии компьютера, начинающийся с формы be.",
         "theory_block_id": "b4_theory_there_questions",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "Is there a computer?",
-            "feedback": "Правильно!"
+            "feedback": "Перед a computer нужна форма is; она стоит перед there."
           },
           {
             "id": "b",
             "text": "There is a computer?",
-            "feedback": "Нет, в вопросах Is ставится перед there"
+            "feedback": "Такой порядок возможен в переспросе, но здесь требуется начало с be."
           },
           {
             "id": "c",
             "text": "Are there a computer?",
-            "feedback": "Нет, для единственного числа используется is"
+            "feedback": "С a computer нужна форма is."
           }
         ],
         "correct_answer": "a",
@@ -1001,24 +1001,24 @@
       {
         "id": "q55",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант вопроса:",
+        "prompt": "Выберите обычный общий вопрос о наличии принтера, начинающийся с формы be.",
         "theory_block_id": "b4_theory_there_questions",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "Is there a printer?",
-            "feedback": "Правильно!"
+            "feedback": "Форма is стоит перед there."
           },
           {
             "id": "b",
             "text": "There is a printer?",
-            "feedback": "Нет, в вопросах Is ставится перед there"
+            "feedback": "Это возможный переспрос, но он не начинается с be."
           },
           {
             "id": "c",
             "text": "Are there a printer?",
-            "feedback": "Нет, для единственного числа используется is"
+            "feedback": "С a printer нужна форма is."
           }
         ],
         "correct_answer": "a",
@@ -1044,24 +1044,24 @@
       {
         "id": "q58",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант вопроса:",
+        "prompt": "Выберите обычный общий вопрос о наличии телевизора, начинающийся с формы be.",
         "theory_block_id": "b4_theory_there_questions",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
             "text": "Is there a TV?",
-            "feedback": "Правильно!"
+            "feedback": "Перед a TV нужна форма is."
           },
           {
             "id": "b",
             "text": "There is a TV?",
-            "feedback": "Нет, в вопросах Is ставится перед there"
+            "feedback": "Это возможный переспрос, но по условию вопрос должен начинаться с be."
           },
           {
             "id": "c",
             "text": "Are there a TV?",
-            "feedback": "Нет, для единственного числа используется is"
+            "feedback": "С a TV нужна форма is."
           }
         ],
         "correct_answer": "a",
@@ -1074,11 +1074,11 @@
       {
         "id": "q59",
         "type": "true_false",
-        "prompt": "Верно или неверно: Is there используется для множественного числа.",
+        "prompt": "Верно или неверно: По обычному правилу согласования общий вопрос с books начинается с Is there.",
         "theory_block_id": "b4_theory_there_questions",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Неверно. Is there используется для единственного числа, а не для множественного: Is there a book? (единственное), Are there books? (множественное).",
+        "explanation": "Неверно. Books — множественное число, поэтому по правилу согласования нужно Are there books?",
         "tags": [
           "question",
           "plural"
@@ -1087,7 +1087,7 @@
       {
         "id": "q61",
         "type": "mcq_single",
-        "prompt": "Как формируется отрицание с There is/are?",
+        "prompt": "Где стоит not в отрицании с полной формой There is/are?",
         "theory_block_id": "b5_theory_there_negatives",
         "difficulty": 1,
         "choices": [
@@ -1108,7 +1108,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "В отрицаниях not ставится после is/are: There isn't a book. There aren't books.",
+        "explanation": "В полном отрицании not ставится после is или are: There is not a book; There are not any books. Возможны и другие конструкции отрицания, например There are no books.",
         "tags": [
           "negative",
           "structure"
@@ -1117,28 +1117,28 @@
       {
         "id": "q63",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: \"There is not books on the table.\"",
+        "prompt": "Исправьте согласование в стандартной письменной речи, сохранив слово books во множественном числе: «There is not books on the table».",
         "theory_block_id": "b5_theory_there_negatives",
         "difficulty": 2,
         "choices": [
           {
             "id": "a",
-            "text": "There aren't books on the table.",
-            "feedback": "Правильно! Для множественного числа используется aren't"
+            "text": "There aren't any books on the table.",
+            "feedback": "С books нужно are; aren't означает are not."
           },
           {
             "id": "b",
             "text": "There isn't a book on the table.",
-            "feedback": "Нет, в исходном предложении было множественное число"
+            "feedback": "Предложение возможно, но меняет books на единственное число."
           },
           {
             "id": "c",
             "text": "There is not book on the table.",
-            "feedback": "Нет, book должно быть во множественном числе books"
+            "feedback": "Существительное book осталось без определителя; books по условию нужно сохранить."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для множественного числа (books) используется aren't, а не isn't: There aren't books on the table.",
+        "explanation": "С books используется are. Естественное отрицание: There aren't any books on the table.",
         "tags": [
           "error_spotting",
           "negative",
@@ -1183,22 +1183,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "There aren't chairs.",
-            "feedback": "Правильно!"
+            "text": "There aren't any chairs.",
+            "feedback": "С chairs используется are not."
           },
           {
             "id": "b",
-            "text": "There isn't chairs.",
-            "feedback": "Нет, для множественного числа используется aren't"
+            "text": "There isn't any chairs.",
+            "feedback": "С chairs по правилу согласования нужно are not."
           },
           {
             "id": "c",
             "text": "There aren't a chair.",
-            "feedback": "Нет, chair в единственном числе, нужен isn't"
+            "feedback": "A chair требует единственного числа is not."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для множественного числа (chairs) используется aren't: There aren't chairs.",
+        "explanation": "Для множественного числа chairs используется aren't: There aren't any chairs.",
         "tags": [
           "negative",
           "plural"
@@ -1213,22 +1213,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "There aren't tables.",
-            "feedback": "Правильно!"
+            "text": "There aren't any tables.",
+            "feedback": "С tables используется are not."
           },
           {
             "id": "b",
-            "text": "There isn't tables.",
-            "feedback": "Нет, для множественного числа используется aren't"
+            "text": "There isn't any tables.",
+            "feedback": "С tables нужно are not."
           },
           {
             "id": "c",
             "text": "There aren't a table.",
-            "feedback": "Нет, table в единственном числе, нужен isn't"
+            "feedback": "A table требует is not."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для множественного числа (tables) используется aren't: There aren't tables.",
+        "explanation": "С tables используется aren't: There aren't any tables.",
         "tags": [
           "negative",
           "plural"
@@ -1241,7 +1241,7 @@
         "theory_block_id": "b5_theory_there_negatives",
         "difficulty": 3,
         "correct_answer": "true",
-        "explanation": "Верно. There aren't используется для множественного числа: There aren't books.",
+        "explanation": "Верно. С существительным во множественном числе используется aren't: There aren't any books.",
         "tags": [
           "negative",
           "plural"
@@ -1256,22 +1256,22 @@
         "choices": [
           {
             "id": "a",
-            "text": "There aren't windows.",
-            "feedback": "Правильно!"
+            "text": "There aren't any windows.",
+            "feedback": "С windows используется are not."
           },
           {
             "id": "b",
-            "text": "There isn't windows.",
-            "feedback": "Нет, для множественного числа используется aren't"
+            "text": "There isn't any windows.",
+            "feedback": "С windows нужно are not."
           },
           {
             "id": "c",
             "text": "There aren't a window.",
-            "feedback": "Нет, window в единственном числе, нужен isn't"
+            "feedback": "A window требует is not."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для множественного числа (windows) используется aren't: There aren't windows.",
+        "explanation": "С windows используется aren't: There aren't any windows.",
         "tags": [
           "negative",
           "plural"
@@ -1280,11 +1280,11 @@
       {
         "id": "q74",
         "type": "true_false",
-        "prompt": "Верно или неверно: There isn't используется для множественного числа.",
+        "prompt": "Верно или неверно: По обычному правилу согласования с books используется There isn't.",
         "theory_block_id": "b5_theory_there_negatives",
         "difficulty": 2,
         "correct_answer": "false",
-        "explanation": "Неверно. There isn't используется для единственного числа, а не для множественного: There isn't a book. (единственное), There aren't books. (множественное).",
+        "explanation": "Неверно. Books — множественное число: There aren't any books. С единственным числом возможно There isn't a book.",
         "tags": [
           "negative",
           "plural"
@@ -1344,7 +1344,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:15Z",
+    "updated_at": "2026-09-04T12:33:02Z",
     "source": "llm"
   }
 }

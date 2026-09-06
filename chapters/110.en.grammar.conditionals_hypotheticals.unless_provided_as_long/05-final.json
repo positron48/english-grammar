@@ -317,11 +317,11 @@
       {
         "id": "q6",
         "type": "true_false",
-        "prompt": "Unless часто используется с will в условной части.",
+        "prompt": "В обычном будущем условии после *unless* ставят *will* в условной части.",
         "theory_block_id": "b1_theory_unless",
         "difficulty": 1,
         "correct_answer": "false",
-        "explanation": "Will в условной части не ставится.",
+        "explanation": "В стандартном будущем условии после *unless* используют Present Simple. *Will* возможно в специальных значениях воли или настойчивости, которые здесь не рассматриваются.",
         "tags": []
       },
       {
@@ -555,11 +555,11 @@
       {
         "id": "q19",
         "type": "true_false",
-        "prompt": "Providing можно использовать как более разговорный вариант provided that.",
+        "prompt": "*Providing (that)* и *provided (that)* могут вводить условие.",
         "theory_block_id": "b2_theory_provided",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Оба варианта грамматически корректны.",
+        "explanation": "Обе конструкции грамматичны; наличие *that* обычно факультативно. Выбор зависит от регистра и варианта английского.",
         "tags": []
       },
       {
@@ -765,11 +765,11 @@
       {
         "id": "q33",
         "type": "true_false",
-        "prompt": "После unless/provided/as long as не используется will в условной части.",
+        "prompt": "В обычном будущем условии после *unless / provided / as long as* используют Present Simple, а не *will*.",
         "theory_block_id": "b4_theory_tenses",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Это общее правило условных.",
+        "explanation": "Это базовая модель будущего условия. Специальные значения *will* не входят в это упражнение.",
         "tags": []
       },
       {
@@ -937,7 +937,7 @@
       {
         "id": "q44",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"Unless you don't hurry, we'll miss the train.\"",
+        "prompt": "Исправьте фразу, сохранив конструкцию *unless*: \"Unless you don't hurry, we'll miss the train.\"",
         "theory_block_id": "b5_theory_contrast",
         "difficulty": 2,
         "choices": [
@@ -959,7 +959,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Unless уже содержит отрицание, двойное отрицание неверно.",
+        "explanation": "Для смысла «если не поторопишься» нужно *Unless you hurry*. Вариант *If you don't hurry* эквивалентен, но не сохраняет требуемую конструкцию.",
         "tags": []
       },
       {
@@ -1003,17 +1003,17 @@
       {
         "id": "q47",
         "type": "fill_blank",
-        "prompt": "Вставьте пропущенное: Unless they ___ us, we'll start. (ждать)",
+        "prompt": "Вставьте пропущенное: Unless they ___ for us, we'll start. (ждать)",
         "theory_block_id": "b5_theory_contrast",
         "difficulty": 2,
         "correct_answer": "wait",
-        "explanation": "Present Simple в условной части.",
+        "explanation": "Глагол *wait* перед дополнением требует *for*: *wait for us*.",
         "tags": []
       },
       {
         "id": "q48",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"If you not pay, we'll cancel.\"",
+        "prompt": "Исправьте фразу, сохранив конструкцию *if*: \"If you not pay, we'll cancel.\"",
         "theory_block_id": "b5_theory_contrast",
         "difficulty": 2,
         "choices": [
@@ -1035,7 +1035,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Нужна форма don't pay.",
+        "explanation": "После *if* требуется вспомогательное *do*: *If you don't pay*. Вариант с *unless* передаёт тот же смысл, но не сохраняет заданную конструкцию.",
         "tags": []
       },
       {
@@ -1069,11 +1069,11 @@
       {
         "id": "q50",
         "type": "true_false",
-        "prompt": "Фраза “Unless you don't call” обычно считается ошибкой.",
+        "prompt": "Верно ли утверждение?\n\nДля смысла «если ты не позвонишь» фраза *Unless you don't call* неверно передаёт условие; нужно *Unless you call*.",
         "theory_block_id": "b5_theory_contrast",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Это двойное отрицание.",
+        "explanation": "*Unless* уже вносит отрицательное условие. Добавление *not* возможно грамматически, но обращает смысл и не равно *if you don't call*.",
         "tags": []
       },
       {
@@ -1223,11 +1223,11 @@
       {
         "id": "q60",
         "type": "true_false",
-        "prompt": "Unless + not обычно дает двойное отрицание и ошибку.",
+        "prompt": "Верно ли утверждение?\n\nЕсли требуется значение *if not*, после *unless* обычно используют утвердительную форму без отдельного *not*.",
         "theory_block_id": "b5_theory_contrast",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Unless уже содержит отрицание.",
+        "explanation": "*Unless you call* = *if you do not call*. Сочетание *unless + not* возможно, но выражает другое, дважды отрицательное условие.",
         "tags": []
       }
     ]
@@ -1295,7 +1295,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:49:04Z",
+    "updated_at": "2026-09-05T21:42:41Z",
     "source": "llm"
   }
 }

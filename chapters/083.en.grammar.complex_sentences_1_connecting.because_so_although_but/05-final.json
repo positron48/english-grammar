@@ -322,7 +322,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'We left because it was late,.'",
+        "prompt": "Выберите исправленный вариант: 'We left because it was late,.'",
         "theory_block_id": "b1_because_cause",
         "difficulty": 2,
         "choices": [
@@ -340,7 +340,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Запятая после because в конце не нужна.",
+        "explanation": "В исходном предложении перед точкой стоит лишняя запятая.",
         "id": "q4"
       },
       {
@@ -514,7 +514,7 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'It was late so we left.' (нужна запятая)",
+        "prompt": "Выберите вариант с нейтральной нормативной пунктуацией: 'It was late so we left.'",
         "theory_block_id": "b2_so_result",
         "difficulty": 2,
         "choices": [
@@ -532,7 +532,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "При соединении независимых частей ставим запятую перед so.",
+        "explanation": "В нейтральной письменной речи независимые части разделяются запятой перед so.",
         "id": "q16"
       },
       {
@@ -793,7 +793,7 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: He was late, ___ he apologized.",
+        "prompt": "Выберите правильный вариант: He was late, ___ the meeting had not started.",
         "theory_block_id": "b3_although_contrast",
         "difficulty": 2,
         "choices": [
@@ -811,7 +811,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Здесь нужен but для простого контраста.",
+        "explanation": "But противопоставляет опоздание тому, что встреча ещё не началась.",
         "id": "q36"
       },
       {
@@ -1159,16 +1159,16 @@
       },
       {
         "type": "true_false",
-        "prompt": "Если придаточное стоит в конце, запятая обычно не ставится.",
+        "prompt": "Верно или неверно: «В нейтральном предложении перед конечным придаточным с because запятая обычно не ставится.»",
         "theory_block_id": "b5_clause_order_punct",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Это базовое правило.",
+        "explanation": "Обычно пишут, например, We left because it was late — без запятой перед because.",
         "id": "q59"
       },
       {
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: We stayed inside, ___ it was raining. (потому что)",
+        "prompt": "Выберите правильный вариант: We stayed inside ___ it was raining. (потому что)",
         "theory_block_id": "b5_clause_order_punct",
         "difficulty": 2,
         "choices": [
@@ -1365,11 +1365,11 @@
       },
       {
         "type": "true_false",
-        "prompt": "Верно или неверно: «Although and but can both appear if they link different clauses.»",
+        "prompt": "Верно или неверно: «Although и but можно использовать вместе для выражения одного и того же контраста.»",
         "theory_block_id": "b6_common_errors",
         "difficulty": 3,
         "correct_answer": "false",
-        "explanation": "В одном предложении не используют although + but для одной связи.",
+        "explanation": "Для одной уступительной связи выбирают либо although, либо but.",
         "id": "q71"
       },
       {
@@ -1470,7 +1470,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:48:58Z",
+    "updated_at": "2026-09-05T10:30:19Z",
     "source": "llm"
   }
 }

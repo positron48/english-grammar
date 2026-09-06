@@ -316,25 +316,25 @@
       },
       {
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите корректный вариант: 'My uncle who is a pilot lives in Osaka.'",
+        "prompt": "Найдите ошибку и выберите корректный вариант: 'Ken who is a pilot lives in Osaka.'",
         "theory_block_id": "b1_theory_non_defining_purpose_commas",
         "difficulty": 3,
         "choices": [
           {
             "id": "a",
-            "text": "My uncle, who is a pilot, lives in Osaka."
+            "text": "Ken, who is a pilot, lives in Osaka."
           },
           {
             "id": "b",
-            "text": "My uncle who is a pilot lives in Osaka."
+            "text": "Ken who is a pilot lives in Osaka."
           },
           {
             "id": "c",
-            "text": "My uncle, which is a pilot, lives in Osaka."
+            "text": "Ken, which is a pilot, lives in Osaka."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для non-defining clause нужны запятые, и для людей используется who.",
+        "explanation": "После имени Ken добавочная информация выделяется запятыми; для человека используется who.",
         "id": "q5"
       },
       {
@@ -617,7 +617,7 @@
       },
       {
         "type": "true_false",
-        "prompt": "Which в распространяющих придаточных может относиться к предмету.",
+        "prompt": "Верно ли: which в non-defining clause может относиться к предмету?",
         "theory_block_id": "b2_theory_pronoun_choice_who_which",
         "difficulty": 1,
         "correct_answer": "true",
@@ -924,11 +924,11 @@
       },
       {
         "type": "true_false",
-        "prompt": "После whose может стоять существительное без артикля или местоимения.",
+        "prompt": "Верно ли: после whose сразу ставится существительное без артикля или притяжательного местоимения?",
         "theory_block_id": "b4_theory_whose_possession",
         "difficulty": 2,
         "correct_answer": "true",
-        "explanation": "Whose уже выражает принадлежность, поэтому сразу идет существительное: whose car.",
+        "explanation": "Whose уже выражает принадлежность: whose car, whose office.",
         "id": "q43"
       },
       {
@@ -1075,7 +1075,7 @@
       },
       {
         "type": "mcq_single",
-        "prompt": "Какая ошибка типична для non-defining clauses?",
+        "prompt": "Какая ошибка типична, если нужно построить non-defining clause?",
         "theory_block_id": "b5_theory_common_errors_clause_which",
         "difficulty": 2,
         "choices": [
@@ -1093,7 +1093,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для non-defining clauses нужны запятые и who/which; that — ошибка.",
+        "explanation": "В non-defining clause нужны запятые и who/which; that в нём не употребляется.",
         "id": "q53"
       },
       {
@@ -1279,7 +1279,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:25Z",
+    "updated_at": "2026-09-05T19:02:15Z",
     "source": "llm"
   }
 }

@@ -551,7 +551,7 @@
       {
         "id": "q28",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'a leather Italian bag'",
+        "prompt": "Выберите минимальную правку порядка в сочетании **a leather Italian bag**.",
         "theory_block_id": "b3_material_origin",
         "difficulty": 2,
         "choices": [
@@ -569,7 +569,7 @@
           }
         ],
         "correct_answer": "c",
-        "explanation": "Origin обычно перед material: Italian leather bag."
+        "explanation": "Минимальная правка сохраняет все исходные слова и ставит origin перед material: «an Italian leather bag». Вариант с beautiful тоже грамматичен, но добавляет новое слово."
       },
       {
         "id": "q29",
@@ -612,7 +612,7 @@
       {
         "id": "q33",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'a silk beautiful scarf'",
+        "prompt": "Исправьте порядок в **a silk beautiful scarf**, сохранив прилагательное `beautiful`.",
         "theory_block_id": "b3_material_origin",
         "difficulty": 2,
         "choices": [
@@ -630,7 +630,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Opinion идет перед material: beautiful silk scarf."
+        "explanation": "Opinion стоит перед material: «a beautiful silk scarf». Вариант с lovely тоже грамматичен, но заменяет исходное прилагательное."
       },
       {
         "id": "q34",
@@ -692,7 +692,7 @@
       {
         "id": "q40",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'a leather beautiful Italian bag'",
+        "prompt": "Исправьте порядок в **a leather beautiful Italian bag**, сохранив все исходные прилагательные и не добавляя новых.",
         "theory_block_id": "b4_full_osascomp",
         "difficulty": 3,
         "choices": [
@@ -710,7 +710,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Opinion должно быть первым, затем origin и material ближе к существительному."
+        "explanation": "Нужен порядок opinion → origin → material: «a beautiful Italian leather bag»."
       },
       {
         "id": "q41",
@@ -828,7 +828,7 @@
         "theory_block_id": "b5_fixed_and_focus",
         "difficulty": 2,
         "correct_answer": "red",
-        "explanation": "Для акцента на цвет можно поставить его впереди: that red old car."
+        "explanation": "При явном противопоставлении цветов «not the blue one» сочетание «that red old car» возможно: red выделяет выбранный объект. Это контекстный вариант, а не общее разрешение произвольно менять порядок."
       },
       {
         "id": "q51",
@@ -936,7 +936,7 @@
       {
         "id": "q59",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант: That ___ old car is faster.",
+        "prompt": "Выберите вариант для контраста с машиной другого цвета: That ___ old car is faster.",
         "theory_block_id": "b5_fixed_and_focus",
         "difficulty": 2,
         "choices": [
@@ -950,7 +950,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Color может быть выдвинут для контраста в разговоре."
+        "explanation": "В контексте контраста цвет red может стоять перед группой old car. Без такого контекста нейтральнее «that old red car»."
       }
     ]
   },
@@ -1007,7 +1007,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:22Z",
+    "updated_at": "2026-09-05T08:22:51Z",
     "source": "llm"
   }
 }

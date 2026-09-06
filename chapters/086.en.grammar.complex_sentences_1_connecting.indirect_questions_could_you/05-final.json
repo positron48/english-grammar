@@ -709,11 +709,11 @@
       {
         "id": "q28",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I can't remember ___ I locked the door.\" (ли)",
+        "prompt": "Заполните пропуск формальным вариантом: \"I can't remember ___ I locked the door.\" (ли)",
         "theory_block_id": "b3_theory_yes_no_if_whether",
         "difficulty": 2,
         "correct_answer": "whether",
-        "explanation": "Whether используется в yes/no косвенных вопросах, особенно в более формальном стиле.",
+        "explanation": "Whether вводит yes/no косвенный вопрос и в этом задании выбран как более формальный вариант; в обычной речи здесь возможно и if.",
         "tags": []
       },
       {
@@ -787,7 +787,7 @@
       {
         "id": "q34",
         "type": "mcq_single",
-        "prompt": "Выберите правильный вариант:",
+        "prompt": "Выберите формальный вариант с whether и прямым порядком слов:",
         "theory_block_id": "b3_theory_yes_no_if_whether",
         "difficulty": 2,
         "choices": [
@@ -805,7 +805,7 @@
           }
         ],
         "correct_answer": "b",
-        "explanation": "С or not обычно используется whether, а порядок слов остаётся прямым.",
+        "explanation": "Вариант b использует whether и прямой порядок слов. Вариант a с if также грамматичен, но менее формален.",
         "tags": []
       },
       {
@@ -921,7 +921,7 @@
         "theory_block_id": "b4_theory_wh_indirect_questions",
         "difficulty": 2,
         "correct_answer": "when",
-        "explanation": "В косвенных вопросах with when порядок слов прямой: when the concert starts.",
+        "explanation": "После when в косвенном вопросе порядок слов прямой: when the concert starts.",
         "tags": []
       },
       {
@@ -1404,7 +1404,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:24Z",
+    "updated_at": "2026-09-05T10:30:20Z",
     "source": "llm"
   }
 }

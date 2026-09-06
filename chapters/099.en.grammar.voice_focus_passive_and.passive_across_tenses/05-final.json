@@ -288,7 +288,7 @@
       {
         "id": "q4",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The tasks is completed every day.\"",
+        "prompt": "Требуется описать текущую ежедневную процедуру. Исправьте: \"The tasks is completed every day.\"",
         "theory_block_id": "b1_theory_present_passive",
         "difficulty": 2,
         "choices": [
@@ -392,7 +392,7 @@
       {
         "id": "q9",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The brochure are printed every week.\"",
+        "prompt": "Требуется описать текущую еженедельную процедуру. Исправьте: \"The brochure are printed every week.\"",
         "theory_block_id": "b1_theory_present_passive",
         "difficulty": 2,
         "choices": [
@@ -648,11 +648,11 @@
       {
         "id": "q22",
         "type": "fill_blank",
-        "prompt": "Вставьте пропущенное: The report has been ___ yet. (approve)",
+        "prompt": "Вставьте пропущенное: The report has not been ___ yet. (approve)",
         "theory_block_id": "b3_theory_present_perfect_passive",
         "difficulty": 2,
         "correct_answer": "approved",
-        "explanation": "Present Perfect passive: has been + V3. Approve → approved.",
+        "explanation": "В отрицательном Present Perfect passive используется *has not been + V3*: *has not been approved yet*.",
         "tags": []
       },
       {
@@ -1010,11 +1010,11 @@
       {
         "id": "q43",
         "type": "true_false",
-        "prompt": "Маркеры already и yet часто требуют Present Perfect passive.",
+        "prompt": "Маркеры *already* и *yet* часто употребляются с Present Perfect passive.",
         "theory_block_id": "b5_theory_time_markers",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "Already/yet связаны с перфектом, поэтому нужен has/have been + V3.",
+        "explanation": "Они часто сопровождают Present Perfect, когда важен результат к настоящему моменту; выбор времени всё равно зависит от контекста.",
         "tags": []
       },
       {
@@ -1096,7 +1096,7 @@
       {
         "id": "q48",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The hall is cleaned last night.\"",
+        "prompt": "Уборка зала была завершена прошлой ночью. Исправьте: \"The hall is cleaned last night.\"",
         "theory_block_id": "b5_theory_time_markers",
         "difficulty": 2,
         "choices": [
@@ -1118,13 +1118,13 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Last night указывает на Past Simple passive: was cleaned.",
+        "explanation": "Завершённое действие с *last night* выражается Past Simple passive: *was cleaned*.",
         "tags": []
       },
       {
         "id": "q49",
         "type": "mcq_single",
-        "prompt": "Выберите форму, которая подходит с маркером recently: The system ___ updated recently.",
+        "prompt": "Речь о недавнем обновлении, результат которого актуален сейчас: The system ___ updated recently.",
         "theory_block_id": "b5_theory_time_markers",
         "difficulty": 2,
         "choices": [
@@ -1134,7 +1134,7 @@
           },
           {
             "id": "b",
-            "text": "was"
+            "text": "have been"
           },
           {
             "id": "c",
@@ -1146,7 +1146,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Recently часто указывает на Present Perfect passive: has been updated.",
+        "explanation": "В заданном контексте текущего результата используется Present Perfect passive: *has been updated*.",
         "tags": []
       },
       {
@@ -1194,7 +1194,7 @@
         "theory_block_id": "b3_theory_present_perfect_passive",
         "difficulty": 2,
         "correct_answer": "inspected",
-        "explanation": "Since Monday часто требует Present Perfect passive: have been inspected.",
+        "explanation": "Форма *have been inspected* относит проверки к периоду от понедельника до настоящего момента.",
         "tags": []
       },
       {
@@ -1286,7 +1286,7 @@
       {
         "id": "q58",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку и выберите исправленное предложение: \"The conference was held every year.\"",
+        "prompt": "Конференция по-прежнему проводится ежегодно. Выберите исправленную версию: \"The conference was held every year.\"",
         "theory_block_id": "b5_theory_time_markers",
         "difficulty": 2,
         "choices": [
@@ -1296,11 +1296,11 @@
           },
           {
             "id": "b",
-            "text": "The conference has been held every year."
+            "text": "The conference has been held last year."
           },
           {
             "id": "c",
-            "text": "The conference was held last year."
+            "text": "The conference was held every year nowadays."
           },
           {
             "id": "d",
@@ -1308,7 +1308,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Every year указывает на Present Simple passive: is held.",
+        "explanation": "Для действующего ежегодного расписания используется Present Simple passive: *is held every year*.",
         "tags": []
       },
       {
@@ -1342,11 +1342,11 @@
       {
         "id": "q60",
         "type": "fill_blank",
-        "prompt": "Вставьте пропущенное: The letter was ___ this morning. (send)",
+        "prompt": "Утро уже закончилось. Вставьте пропущенное: The letter was ___ this morning. (send)",
         "theory_block_id": "b2_theory_past_passive",
         "difficulty": 2,
         "correct_answer": "sent",
-        "explanation": "This morning в контексте завершенного действия — Past Simple passive: was sent.",
+        "explanation": "Для завершённого периода *this morning* используется Past Simple passive: *was sent*.",
         "tags": []
       }
     ]
@@ -1417,7 +1417,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-04-11T17:49:01Z",
+    "updated_at": "2026-09-05T20:49:22Z",
     "source": "llm"
   }
 }

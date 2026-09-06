@@ -61,7 +61,7 @@
     {
       "id": "q5",
       "type": "mcq_single",
-      "prompt": "Выберите корректный вариант пересказа: \"I am late,\" he said.",
+      "prompt": "Выберите стандартный вариант с backshift для пересказа в прошлой временной рамке: \"I am late,\" he said.",
       "theory_block_id": "b1_theory_overview",
       "difficulty": 2,
       "choices": [
@@ -83,7 +83,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Backshift: am -> was, и местоимение меняется.",
+      "explanation": "В прошлой рамке применяется backshift: am → was; местоимение I меняется на he.",
       "tags": []
     },
     {
@@ -279,7 +279,7 @@
     {
       "id": "q17",
       "type": "mcq_single",
-      "prompt": "Выберите корректный вариант: She said ___ she was leaving.",
+      "prompt": "Какой союз можно вставить: She said ___ she was leaving?",
       "theory_block_id": "b2_theory_say_tell",
       "difficulty": 2,
       "choices": [
@@ -301,7 +301,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "Say + that-clause. Если нужен адресат, лучше tell somebody.",
+      "explanation": "That вводит придаточное после say. В разговорной речи союз можно опустить.",
       "tags": []
     },
     {
@@ -563,11 +563,11 @@
     {
       "id": "q31",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"I saw him,\" she said -> She said she ___ him. (see)",
+      "prompt": "Заполните пропуск: \"I saw him,\" she said → She said she had ___ him. (see)",
       "theory_block_id": "b3_theory_backshift",
       "difficulty": 2,
-      "correct_answer": "had",
-      "explanation": "Past Simple (saw) -> Past Perfect (had seen). Ответ — had, остальное дано глаголом.",
+      "correct_answer": "seen",
+      "explanation": "При стандартном backshift Past Simple saw переходит в Past Perfect had seen.",
       "tags": []
     },
     {
@@ -687,11 +687,11 @@
     {
       "id": "q38",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"I will do it tomorrow,\" he said -> He said he would do it ___. (the next day)",
+      "prompt": "Заполните пропуск: \"I will do it tomorrow,\" he said → He said he would do it the ___ day. (следующий)",
       "theory_block_id": "b4_theory_time_place",
       "difficulty": 2,
-      "correct_answer": "then",
-      "explanation": "При пересказе можно использовать then как временной маркер. Вариант the next day тоже корректен.",
+      "correct_answer": "next",
+      "explanation": "При смене временной точки tomorrow обычно превращается в the next day.",
       "tags": []
     },
     {
@@ -839,11 +839,11 @@
     {
       "id": "q47",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: yesterday -> ___. (the day before)",
+      "prompt": "Заполните пропуск: yesterday → the day ___. (the day before)",
       "theory_block_id": "b4_theory_time_place",
       "difficulty": 1,
       "correct_answer": "before",
-      "explanation": "Вариант the day before включает слово before. Здесь нужно вставить ключевое слово.",
+      "explanation": "При смене точки отсчёта yesterday обычно передаётся как the day before.",
       "tags": []
     },
     {
@@ -915,7 +915,7 @@
     {
       "id": "q51",
       "type": "mcq_single",
-      "prompt": "Какая ошибка в предложении \"She said she is busy\"?",
+      "prompt": "Какая ошибка в стандартном варианте с backshift: \"She said she is busy\"?",
       "theory_block_id": "b5_theory_common_errors",
       "difficulty": 2,
       "choices": [
@@ -937,7 +937,7 @@
         }
       ],
       "correct_answer": "a",
-      "explanation": "При прошедшем глаголе сообщения нужно was, а не is.",
+      "explanation": "Если сообщение пересказывается в прошлой рамке и актуальность не сохраняется, is сдвигается в was.",
       "tags": []
     },
     {
@@ -981,7 +981,7 @@
     {
       "id": "q55",
       "type": "error_spotting",
-      "prompt": "Найдите правильный вариант исправления.",
+      "prompt": "Какой вариант исправляет ошибку с помощью tell + прямое дополнение?",
       "theory_block_id": "b5_theory_common_errors",
       "difficulty": 3,
       "choices": [
@@ -1003,7 +1003,7 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Tell требует объекта: told me. Это стандартная исправленная форма.",
+      "explanation": "Tell требует прямого дополнения: told me. Say to me тоже грамматично, но вопрос проверяет паттерн tell + object.",
       "tags": []
     },
     {

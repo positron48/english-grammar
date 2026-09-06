@@ -418,12 +418,12 @@
         "theory_block_id": "b2_people_things",
         "difficulty": 1,
         "correct_answer": "true",
-        "explanation": "-ed для людей, -ing для вещей/тем."
+        "explanation": "`-ed` описывает того, кто испытывает чувство (`interested`), а `-ing` — того или то, что его вызывает (`interesting`). Обычно в этих ролях выступают человек и тема соответственно."
       },
       {
         "id": "q16",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'The students were boring.'",
+        "prompt": "Исправьте предложение, если имеется в виду, что студентам было скучно: 'The students were boring.'",
         "theory_block_id": "b2_people_things",
         "difficulty": 2,
         "choices": [
@@ -441,7 +441,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Люди чувствуют скуку: bored."
+        "explanation": "Если студенты испытывали скуку, нужно `bored`: `The students were bored`. В другом контексте `The students were boring` грамматично и означает, что студенты вызывали скуку."
       },
       {
         "id": "q17",
@@ -829,7 +829,7 @@
       {
         "id": "q45",
         "type": "error_spotting",
-        "prompt": "Найдите ошибку: 'He is bored of this movie.'",
+        "prompt": "Выберите вариант с сочетанием `bored with`, изучаемым в этой главе: 'He is bored ___ this movie.'",
         "theory_block_id": "b4_with_prepositions",
         "difficulty": 2,
         "choices": [
@@ -847,7 +847,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для bored обычно with/by, не of."
+        "explanation": "В заданной модели используется `bored with`: `He is bored with this movie`. Сочетание `bored of` также употребляется, особенно в британском английском, поэтому само по себе не является ошибкой."
       },
       {
         "id": "q46",
@@ -1075,7 +1075,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-09-03T17:11:23Z",
+    "updated_at": "2026-09-05T08:52:24Z",
     "source": "llm"
   }
 }

@@ -528,7 +528,7 @@
       {
         "id": "q2",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"She ___ working now.\" (be)",
+        "prompt": "Вставьте форму be для Present Continuous: \"She ___ working now.\" (be)",
         "theory_block_id": "b1_theory_basic_form",
         "difficulty": 1,
         "correct_answer": "is",
@@ -569,7 +569,7 @@
       {
         "id": "q5",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"___ you studying?\" (be)",
+        "prompt": "Вставьте форму be для Present Continuous: \"___ you studying?\" (be)",
         "theory_block_id": "b1_theory_basic_form",
         "difficulty": 2,
         "correct_answer": "Are",
@@ -612,7 +612,7 @@
       {
         "id": "q7",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I ___ not sleeping.\" (be)",
+        "prompt": "Вставьте форму be для Present Continuous: \"I ___ not sleeping.\" (be)",
         "theory_block_id": "b1_theory_basic_form",
         "difficulty": 1,
         "correct_answer": "am",
@@ -654,7 +654,7 @@
       {
         "id": "q10",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"They ___ waiting for the bus.\" (be)",
+        "prompt": "Вставьте форму be для Present Continuous: \"They ___ waiting for the bus.\" (be)",
         "theory_block_id": "b1_theory_basic_form",
         "difficulty": 1,
         "correct_answer": "are",
@@ -943,7 +943,7 @@
         "theory_block_id": "b3_theory_spelling_final_e",
         "difficulty": 1,
         "correct_answer": "writing",
-        "explanation": "Для глаголов на -e нужно удалить e перед -ing: write → writing.",
+        "explanation": "У write конечная немая e удаляется перед -ing: writing.",
         "tags": [
           "spelling",
           "final_e"
@@ -973,7 +973,7 @@
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для глаголов на -e удаляем e перед -ing: make → making.",
+        "explanation": "У make конечная немая e удаляется перед -ing: making.",
         "tags": [
           "spelling",
           "final_e"
@@ -1232,17 +1232,17 @@
           {
             "id": "a",
             "text": "stopping",
-            "feedback": "Правильно! Нужно удвоить p"
+            "feedback": "Верно: конечная p удваивается."
           },
           {
             "id": "b",
-            "text": "stop ping",
-            "feedback": "Нет, это неправильно"
+            "text": "stoppping",
+            "feedback": "Лишняя третья p: нужно две."
           },
           {
             "id": "c",
             "text": "stoping",
-            "feedback": "Нет, нужно удвоить p для stop (CVC)"
+            "feedback": "Для stop нужна удвоенная p."
           }
         ],
         "correct_answer": "a",
@@ -1275,17 +1275,17 @@
           {
             "id": "a",
             "text": "swimming",
-            "feedback": "Правильно! Нужно удвоить m"
+            "feedback": "Верно: конечная m удваивается."
           },
           {
             "id": "b",
             "text": "swiming",
-            "feedback": "Нет, нужно удвоить m для swim (CVC)"
+            "feedback": "Не хватает второй m."
           },
           {
             "id": "c",
-            "text": "swimming",
-            "feedback": "Нет, удваивается только одна согласная"
+            "text": "swimmming",
+            "feedback": "Лишняя третья m: нужно две."
           }
         ],
         "correct_answer": "a",
@@ -1318,17 +1318,17 @@
           {
             "id": "a",
             "text": "planning",
-            "feedback": "Правильно! Нужно удвоить n"
+            "feedback": "Верно: конечная n удваивается."
           },
           {
             "id": "b",
             "text": "planing",
-            "feedback": "Нет, нужно удвоить n для plan (CVC)"
+            "feedback": "Это форма plane; для plan нужно planning."
           },
           {
             "id": "c",
-            "text": "plan ning",
-            "feedback": "Нет, это неправильно"
+            "text": "plannning",
+            "feedback": "Лишняя третья n: нужно две."
           }
         ],
         "correct_answer": "a",
@@ -1367,7 +1367,7 @@
       {
         "id": "q53",
         "type": "mcq_single",
-        "prompt": "Как правильно написать -ing форму от \"die\"?",
+        "prompt": "Как написать -ing-форму die в значении «умирать»?",
         "theory_block_id": "b5_theory_spelling_ie",
         "difficulty": 3,
         "choices": [
@@ -1417,21 +1417,21 @@
           {
             "id": "a",
             "text": "tying",
-            "feedback": "Правильно! -ie заменяется на -y"
+            "feedback": "Верно: обычная форма получается заменой ie на y."
           },
           {
             "id": "b",
-            "text": "tieing",
-            "feedback": "Нет, -ie заменяется на -y перед -ing"
+            "text": "tyeing",
+            "feedback": "После замены ie на y букву e не сохраняют."
           },
           {
             "id": "c",
             "text": "tiing",
-            "feedback": "Нет, это неправильно"
+            "feedback": "Для этой формы ie заменяется на y."
           }
         ],
         "correct_answer": "a",
-        "explanation": "Для tie заменяем -ie на -y перед -ing: tie → tying.",
+        "explanation": "Обычная форма — tying. Вариант tieing тоже фиксируется словарями, поэтому он не используется здесь как ошибка.",
         "tags": [
           "spelling",
           "ie_rule"
@@ -1440,11 +1440,11 @@
       {
         "id": "q57",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: \"I am ___ my shoes.\" (tie)",
+        "prompt": "Вставьте -ing-форму с заменой ie на y: I am ___ my shoes. (tie)",
         "theory_block_id": "b5_theory_spelling_ie",
         "difficulty": 3,
         "correct_answer": "tying",
-        "explanation": "-ie заменяется на -y: tie → tying. I am tying my shoes.",
+        "explanation": "При указанном способе образования tie превращается в tying. Словарный вариант tieing существует, но не использует запрошенную замену.",
         "tags": [
           "spelling",
           "ie_rule"
@@ -1762,7 +1762,7 @@
   },
   "meta": {
     "version": "2026.01.16",
-    "updated_at": "2026-02-08T15:19:56Z",
+    "updated_at": "2026-09-04T15:37:36Z",
     "source": "llm"
   }
 }

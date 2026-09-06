@@ -5,7 +5,7 @@
   "questions": [
     {
       "type": "mcq_single",
-      "prompt": "Какой из следующих примеров представляет собой утверждение (statement)?",
+      "prompt": "Какое предложение является утвердительным, то есть не содержит вопроса или отрицания?",
       "choices": [
         {
           "id": "a",
@@ -25,17 +25,17 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Утверждение констатирует факт, имеет стандартный порядок слов и завершается точкой. Вариант b соответствует этому правилу.",
+      "explanation": "They like coffee сообщает, что им нравится кофе, без вопроса или отрицания. Остальные варианты — вопросы или отрицательное предложение.",
       "theory_block_id": "b2_theory_statements",
       "chapter_id": "en.grammar.orientation_how_to_read.sentence_modes_statement_question",
       "concept_id": "statement_mode",
       "difficulty": 1,
       "id": "q1",
-      "signature": "cf0b14d672bed6cd"
+      "signature": "59c3f13fccb22ca6"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой порядок слов характерен для утверждений?",
+      "prompt": "Как обычно начинается нейтральное утвердительное предложение вроде «She is a teacher»?",
       "choices": [
         {
           "id": "a",
@@ -55,17 +55,17 @@
         }
       ],
       "correct_answer": "b",
-      "explanation": "Утверждения всегда следуют структуре подлежащее → сказуемое, как указано в теории блока.",
+      "explanation": "В таком нейтральном утверждении сначала идёт подлежащее She, затем сказуемое is a teacher. Это обычный прямой порядок слов.",
       "theory_block_id": "b2_theory_statements",
       "chapter_id": "en.grammar.orientation_how_to_read.sentence_modes_statement_question",
       "concept_id": "statement_mode",
       "difficulty": 2,
       "id": "q2",
-      "signature": "26bfa21fe654a935"
+      "signature": "0afd34baa9e11a06"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой знак препинания завершает утверждение?",
+      "prompt": "Какой знак обычно ставят в конце спокойного утвердительного сообщения без восклицания?",
       "choices": [
         {
           "id": "a",
@@ -85,13 +85,13 @@
         }
       ],
       "correct_answer": "c",
-      "explanation": "Утверждения всегда заканчиваются точкой, а не вопросительным знаком или другими знаками.",
+      "explanation": "Обычное утвердительное сообщение завершают точкой. Восклицательный знак возможен при выражении эмоции, но здесь восклицание исключено.",
       "theory_block_id": "b2_theory_statements",
       "chapter_id": "en.grammar.orientation_how_to_read.sentence_modes_statement_question",
       "concept_id": "statement_mode",
       "difficulty": 1,
       "id": "q3",
-      "signature": "337d3ef28e1a1d22"
+      "signature": "207aaf18dc7e6a17"
     },
     {
       "type": "mcq_single",
@@ -115,7 +115,7 @@
         }
       ],
       "correct_answer": "c",
-      "explanation": "Вариант c является вопросом, а не утверждением, так как содержит вопросительную структуру.",
+      "explanation": "Do you work here? — вопрос: говорящий спрашивает, работает ли собеседник здесь. Остальные варианты — утвердительные предложения.",
       "theory_block_id": "b2_theory_statements",
       "chapter_id": "en.grammar.orientation_how_to_read.sentence_modes_statement_question",
       "concept_id": "statement_mode",
@@ -125,7 +125,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой пример соответствует структуре утверждения?",
+      "prompt": "Какое предложение является утвердительным, без вопроса или отрицания?",
       "choices": [
         {
           "id": "a",
@@ -151,11 +151,11 @@
       "concept_id": "statement_mode",
       "difficulty": 2,
       "id": "q5",
-      "signature": "e6b9429883f0e9a1"
+      "signature": "4925ea9efb93bb9b"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой порядок слов верен для утверждения?",
+      "prompt": "Выберите нейтральный прямой порядок слов для утвердительного предложения.",
       "choices": [
         {
           "id": "a",
@@ -181,7 +181,7 @@
       "concept_id": "statement_mode",
       "difficulty": 3,
       "id": "q6",
-      "signature": "da55fd8e6201d7f2"
+      "signature": "775d85edbd8cedc6"
     },
     {
       "type": "mcq_single",
@@ -245,7 +245,7 @@
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой из предложений является утверждением?",
+      "prompt": "Какое из предложений является нейтральным утвердительным предложением?",
       "choices": [
         {
           "id": "a",
@@ -271,37 +271,37 @@
       "concept_id": "statement_mode",
       "difficulty": 2,
       "id": "q9",
-      "signature": "9117f76b0b89c67b"
+      "signature": "28650dd133219e65"
     },
     {
       "type": "mcq_single",
-      "prompt": "Какой знак препинания должен стоять в конце предложения 'She is a teacher'?",
+      "prompt": "Преобразуйте «Is she a teacher?» в нейтральное утвердительное предложение.",
       "choices": [
         {
           "id": "a",
-          "text": "?"
+          "text": "She teacher is."
         },
         {
           "id": "b",
-          "text": "!"
+          "text": "Is she a teacher."
         },
         {
           "id": "c",
-          "text": "."
+          "text": "She is a teacher."
         },
         {
           "id": "d",
-          "text": ";"
+          "text": "She a teacher."
         }
       ],
       "correct_answer": "c",
-      "explanation": "Утверждения завершаются точкой, а не другими знаками препинания.",
+      "explanation": "В нейтральном утверждении подлежащее She стоит перед is: She is a teacher. Это сообщение о её профессии.",
       "theory_block_id": "b2_theory_statements",
       "chapter_id": "en.grammar.orientation_how_to_read.sentence_modes_statement_question",
       "concept_id": "statement_mode",
       "difficulty": 1,
       "id": "q10",
-      "signature": "190632f4c6836902"
+      "signature": "ab264424f5786d65"
     }
   ],
   "meta": {
