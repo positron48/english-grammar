@@ -687,11 +687,11 @@
     {
       "id": "q38",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: \"I will do it tomorrow,\" he said → He said he would do it the ___ day. (следующий)",
+      "prompt": "Выберите слово из скобок при переносе временной точки в прошлое: \"I will do it tomorrow,\" he said → He said he would do it the ___ day. (next | last | this)",
       "theory_block_id": "b4_theory_time_place",
       "difficulty": 2,
       "correct_answer": "next",
-      "explanation": "При смене временной точки tomorrow обычно превращается в the next day.",
+      "explanation": "Tomorrow в исходной реплике указывает на следующий день после слов говорящего. Из предложенных слов это next: the next day. Following также возможно вне заданного набора.",
       "tags": []
     },
     {
@@ -839,7 +839,7 @@
     {
       "id": "q47",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: yesterday → the day ___. (the day before)",
+      "prompt": "Передайте указание времени при переходе к косвенной речи с новой точкой отсчёта. Вставьте одно слово: yesterday → the day ___. (на день раньше прошлой точки отсчёта)",
       "theory_block_id": "b4_theory_time_place",
       "difficulty": 1,
       "correct_answer": "before",
@@ -1047,11 +1047,11 @@
     {
       "id": "q58",
       "type": "fill_blank",
-      "prompt": "Заполните пропуск: Ошибка \"She said she is busy\" — отсутствие ___. (сдвиг времени)",
+      "prompt": "Вчера она сказала: \"I am busy.\" Передайте её слова со стандартным сдвигом времени; речь только о вчерашней ситуации: She said she ___ busy then. (be)",
       "theory_block_id": "b5_theory_common_errors",
       "difficulty": 2,
-      "correct_answer": "backshift",
-      "explanation": "Нужно сдвинуть время: is -> was.",
+      "correct_answer": "was",
+      "explanation": "При стандартном сдвиге времени настоящее am переходит в was: She said she was busy then. Без такого условия сохранение настоящего времени иногда допустимо, если ситуация всё ещё актуальна.",
       "tags": []
     },
     {

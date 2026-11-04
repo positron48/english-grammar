@@ -261,11 +261,11 @@
       {
         "id": "q5",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Текст должен быть ___, без разговорных сокращений. (официальный)",
+        "prompt": "Перед отправкой официального отчёта разверните сокращение одним словом: «The team can't approve the proposal» → «The team ___ approve the proposal». (полная форма без сокращения)",
         "theory_block_id": "b1_theory_task_overview",
         "difficulty": 1,
-        "correct_answer": "formal",
-        "explanation": "По заданию требуется формальный тон, поэтому правильное слово — formal.",
+        "correct_answer": "cannot",
+        "explanation": "В формальном тексте вместо can't можно написать полную форму cannot; она пишется одним словом.",
         "tags": []
       },
       {
@@ -337,11 +337,11 @@
       {
         "id": "q9",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Уместный объем — ___ sentences. (пять-семь)",
+        "prompt": "Перед отправкой официального письма разверните сокращение: «We don't consider this option suitable» → «We ___ not consider this option suitable». (настоящее время)",
         "theory_block_id": "b1_theory_task_overview",
         "difficulty": 1,
-        "correct_answer": "5-7",
-        "explanation": "Рекомендация — 5–7 предложений для короткого формального текста.",
+        "correct_answer": "do",
+        "explanation": "Полная отрицательная конструкция с we — do not + инфинитив. Not уже дано после пропуска, поэтому вставляем do.",
         "tags": []
       },
       {
@@ -649,11 +649,11 @@
       {
         "id": "q27",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Структура текста обычно включает ввод, факты и ___. (вывод)",
+        "prompt": "Дополните заключительную рекомендацию словом, вводящим цель: «___ reduce costs, we recommend reviewing the contract». (цель рекомендации)",
         "theory_block_id": "b3_theory_structure",
         "difficulty": 1,
-        "correct_answer": "conclusion",
-        "explanation": "Формальный текст завершается выводом или рекомендацией. Conclusion — подходящий термин.",
+        "correct_answer": "To",
+        "explanation": "To + инфинитив вводит цель рекомендации: to reduce costs — чтобы сократить расходы.",
         "tags": []
       },
       {
@@ -725,11 +725,11 @@
       {
         "id": "q31",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Вводная часть задает ___. (контекст)",
+        "prompt": "Дополните вводное предложение отчёта одним словом: «This report aims ___ assess the main risks». (инфинитивная конструкция)",
         "theory_block_id": "b3_theory_structure",
         "difficulty": 1,
-        "correct_answer": "context",
-        "explanation": "Вводное предложение дает контекст. Это помогает читателю понять тему.",
+        "correct_answer": "to",
+        "explanation": "После aims используется инфинитив с to: aims to assess. Вводное предложение обозначает цель отчёта.",
         "tags": []
       },
       {
@@ -801,11 +801,11 @@
       {
         "id": "q35",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Рекомендация обычно идет в ___. (конце)",
+        "prompt": "Анализ уже завершён, и авторы формулируют рекомендацию. Вставьте нужную форму глагола: «Having ___ the data, we recommend a further trial». (review)",
         "theory_block_id": "b3_theory_structure",
         "difficulty": 1,
-        "correct_answer": "end",
-        "explanation": "Вывод или рекомендация обычно завершают текст, поэтому end подходит.",
+        "correct_answer": "reviewed",
+        "explanation": "Having + V3 показывает, что анализ завершён до рекомендации: having reviewed the data.",
         "tags": []
       },
       {
@@ -915,11 +915,11 @@
       {
         "id": "q42",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: V3 обороты обычно имеют ___ смысл. (пассив)",
+        "prompt": "Вставьте нужную форму глагола: «___ on independent evidence, the conclusion is reliable». (base)",
         "theory_block_id": "b4_theory_accuracy",
         "difficulty": 2,
-        "correct_answer": "passive",
-        "explanation": "Past participle в таких конструкциях чаще всего пассивен.",
+        "correct_answer": "Based",
+        "explanation": "Based — причастие с пассивным смыслом: вывод основан на независимых данных. Активная форма basing здесь не подходит.",
         "tags": []
       },
       {
@@ -991,11 +991,11 @@
       {
         "id": "q46",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Проверяйте, чтобы оборот имел тот же ___, что и главная часть. (субъект)",
+        "prompt": "Замените повтор the analysts личным местоимением, сохранив исполнителя обоих действий: «The analysts reviewed the figures and the analysts recommended a trial» → «Having reviewed the figures, ___ recommended a trial». (личное местоимение)",
         "theory_block_id": "b4_theory_accuracy",
         "difficulty": 2,
-        "correct_answer": "subject",
-        "explanation": "Совпадение субъекта устраняет dangling participle.",
+        "correct_answer": "they",
+        "explanation": "Анализ и рекомендацию выполнили the analysts, поэтому подлежащее главной части — they. Это сохраняет общий субъект оборота и сказуемого.",
         "tags": []
       },
       {
@@ -1077,11 +1077,11 @@
       {
         "id": "q51",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Перед сдачей проверьте ___ around participle clauses. (запятая)",
+        "prompt": "Вставьте один знак препинания между начальным причастным оборотом и главной частью: «Having reviewed the figures___ we recommend a further trial». (знак препинания)",
         "theory_block_id": "b5_theory_checklist",
         "difficulty": 2,
-        "correct_answer": "comma",
-        "explanation": "Вокруг оборотов нужна корректная пунктуация, обычно запятые.",
+        "correct_answer": ",",
+        "explanation": "Начальный причастный оборот Having reviewed the figures отделяется от главной части запятой.",
         "tags": []
       },
       {
@@ -1125,11 +1125,11 @@
       {
         "id": "q54",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Проверьте, чтобы не было ___ participles. (висящий)",
+        "prompt": "Сохраните логический субъект, заменив повтор the auditors личным местоимением: «The auditors checked the figures and the auditors approved the report» → «Having checked the figures, ___ approved the report». (личное местоимение)",
         "theory_block_id": "b5_theory_checklist",
         "difficulty": 2,
-        "correct_answer": "dangling",
-        "explanation": "Dangling participles — типичная ошибка, поэтому это пункт чек-листа.",
+        "correct_answer": "they",
+        "explanation": "Оба действия выполняют the auditors. Местоимение they в главной части сохраняет этот субъект и предотвращает dangling participle.",
         "tags": []
       },
       {
@@ -1201,11 +1201,11 @@
       {
         "id": "q58",
         "type": "fill_blank",
-        "prompt": "Заполните пропуск: Проверьте ___ tone of the text. (официальный)",
+        "prompt": "Для официального отчёта разверните сокращение: «The proposal isn't suitable» → «The proposal ___ not suitable». (be; настоящее время)",
         "theory_block_id": "b5_theory_checklist",
         "difficulty": 1,
-        "correct_answer": "formal",
-        "explanation": "Формальный тон — ключевое требование задания.",
+        "correct_answer": "is",
+        "explanation": "Полная отрицательная форма — is not. Not уже дано после пропуска, поэтому вставляем is, согласованное с the proposal.",
         "tags": []
       },
       {
